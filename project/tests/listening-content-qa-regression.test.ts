@@ -76,7 +76,7 @@ export function runListeningContentQARegressionTests(): boolean {
   }
 
   console.log(`    Total Counts -> VERIFIED: ${totalVerified} | NOT_VERIFIED (Fallback): ${totalNotVerified} | MISSING: ${totalMissing}`);
-  assert.equal(totalVerified, 339, "Exact 339 items across 15 tests must be 100% VERIFIED");
+  assert.equal(totalVerified, 345, "Exact 345 items across 15 tests must be 100% VERIFIED");
   assert.equal(totalNotVerified, 0, "Zero unverified items remaining");
   assert.equal(totalMissing, 23, "Exact 23 items in Test 16 must be MISSING");
 

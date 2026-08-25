@@ -86,10 +86,10 @@ export function runListeningAudioArchitectureTests(): boolean {
     assert.equal(resolved.length, 4, `${testId} resolved section must have 4 parts`);
   }
 
-  console.log(`  ✓ Total Question-Level Part 1 Audios Verified: ${totalP1Questions} / 190`);
+  console.log(`  ✓ Total Question-Level Part 1 Audios Verified: ${totalP1Questions} / 195`);
   console.log(`  ✓ Total Part-Level Audios Verified (Parts 2, 3, 4): ${totalPartAudios} / 45 (15 tests × 3 parts)`);
 
-  assert.equal(totalP1Questions, 190, "Exact 190 Part 1 question-level audios must be verified");
+  assert.equal(totalP1Questions, 195, "Exact 195 Part 1 question-level audios must be verified");
   assert.equal(totalPartAudios, 45, "Exact 45 part-level audios (Part 2, 3, 4 across 15 tests) must be verified");
 
   console.log("✅ [TEST 30 PASSED] Listening Audio Architecture Normalization Tests PASSED!\n");

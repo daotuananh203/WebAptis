@@ -46,7 +46,7 @@ export function runListeningPart1ContextCompletenessTests(): boolean {
   }
 
   console.log(`  ✓ Total Part 1 Context-Complete Questions: ${totalP1Verified} / ${totalP1Questions} (100.0%)`);
-  assert.equal(totalP1Verified, 190, "Exact 190 Part 1 questions across 15 tests must be context-complete");
+  assert.equal(totalP1Verified, 195, "Exact 195 Part 1 questions across 15 tests must be context-complete");
 
   console.log("✅ [TEST 29 PASSED] Listening Part 1 Context Completeness Tests PASSED!\n");
   return true;

@@ -890,595 +890,495 @@
   },
   "listening": {
     "officialDurationMinutes": 40,
+    "audioUrl": "/audio/listening/aptis-b2-03.mp3",
     "audio": {
-      "type": "full-test",
+      "type": "audio/mp3",
       "url": "/audio/listening/aptis-b2-03.mp3",
       "status": "available"
     },
-    "audioUrl": "/audio/listening/aptis-b2-03.mp3",
     "parts": [
       {
         "partNumber": 1,
         "taskType": "information-recognition",
-        "instructions": "Listen to short audio recordings. For each recording, choose the correct answer (A, B, or C). You can listen to each recording up to two times.",
+        "instructions": "Bạn sẽ nghe 13 đoạn hội thoại hoặc thông báo ngắn. Với mỗi câu hỏi, chọn một đáp án đúng nhất (A, B hoặc C). Bạn được nghe 2 lần.",
         "audio": {
-          "type": "full-test",
+          "type": "audio/mp3",
           "url": "/audio/listening/aptis-b2-03.mp3",
           "status": "available"
         },
-        "audioUrl": "/audio/listening/aptis-b2-03.mp3",
+        "playbackRules": {
+          "maxPlays": 2
+        },
         "tasks": [
           {
             "id": "t03_l1_q01",
             "questionNumber": 1,
-            "questionText": "Q1 A mom is calling her son to remind him about picking up groceries. How much is an egg?",
+            "questionText": "A mom is calling her son to remind him about picking up groceries. How much is an egg?",
             "options": [
               "£1.50 (One pounds fifty)",
               "£2.50 (Two pounds fifty)",
               "£3.50 (Three pounds fifty)"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q01.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 5.17,
-              "end": 17.59,
-              "duration": 16.46,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 16.46,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
-                "speechDuration": 12.43,
-                "speechStart": 5.17,
-                "speechEnd": 17.59,
-                "noCrossContamination": true,
-                "first_words": "Hey sweetie, it's mom.",
-                "last_words": "Thanks. Love you.",
-                "evidence": "Pre-roll (2.0s) + Speech [5.2s - 17.6s] (12.4s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
+                "speechDuration": 12.44,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 01 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q01.mp3"
           },
           {
             "id": "t03_l1_q02",
             "questionNumber": 2,
-            "questionText": "Q2 An author is talking about her daily routine. When does she usually write?",
+            "questionText": "An author is talking about her daily routine. When does she usually write?",
             "options": [
               "In the mornings",
               "In the afternoons",
               "In the evenings"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q02.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 26.7,
-              "end": 39.47,
-              "duration": 16.77,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 16.77,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 12.75,
-                "speechStart": 26.7,
-                "speechEnd": 39.47,
-                "noCrossContamination": true,
-                "first_words": "Every morning, I start",
-                "last_words": "my day by going",
-                "evidence": "Pre-roll (2.0s) + Speech [26.7s - 39.5s] (12.7s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 02 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q02.mp3"
           },
           {
             "id": "t03_l1_q03",
             "questionNumber": 3,
-            "questionText": "Q3 Jack is calling to invite a friend to his house. What color is Jack's house?",
+            "questionText": "Jack is calling to invite a friend to his house. What color is Jack's house?",
             "options": [
               "Blue",
               "Green",
               "Red"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q03.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 245.02,
-              "end": 302.24,
-              "duration": 61.26,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 61.26,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
-                "speechDuration": 57.23,
-                "speechStart": 245.02,
-                "speechEnd": 302.24,
-                "noCrossContamination": true,
-                "first_words": "Hey. It's Jack. I",
-                "last_words": "just moved to a",
-                "evidence": "Pre-roll (2.0s) + Speech [245.0s - 302.2s] (57.2s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
+                "speechDuration": 57.24,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 03 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q03.mp3"
           },
           {
             "id": "t03_l1_q04",
             "questionNumber": 4,
-            "questionText": "Q4 A man is calling his wife. Where will they meet?",
+            "questionText": "A man is calling his wife. Where will they meet?",
             "options": [
               "At home",
               "In the garden",
               "Outside the shop"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q04.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 307.04,
-              "end": 322.69,
-              "duration": 19.67,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 19.67,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 15.65,
-                "speechStart": 307.04,
-                "speechEnd": 322.69,
-                "noCrossContamination": true,
-                "first_words": "Hi, honey, it's me.",
-                "last_words": "See you soon.",
-                "evidence": "Pre-roll (2.0s) + Speech [307.0s - 322.7s] (15.6s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 04 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q04.mp3"
           },
           {
             "id": "t03_l1_q05",
             "questionNumber": 5,
-            "questionText": "Q5 A man is talking about his eating habit. What time does he usually eat?",
+            "questionText": "A man is talking about his eating habit. What time does he usually eat?",
             "options": [
               "6 o'clock",
               "7 o'clock",
               "8 o'clock"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q05.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 327.92,
-              "end": 351.11,
-              "duration": 27.19,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 27.19,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 23.17,
-                "speechStart": 327.92,
-                "speechEnd": 351.11,
-                "noCrossContamination": true,
-                "first_words": "I usually have dinner",
-                "last_words": "every evening.",
-                "evidence": "Pre-roll (2.0s) + Speech [327.9s - 351.1s] (23.2s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 05 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q05.mp3"
           },
           {
             "id": "t03_l1_q06",
             "questionNumber": 6,
-            "questionText": "Q6 Julie is asking her professor about the assignment. When is the work due?",
+            "questionText": "Julie is asking her professor about the assignment. When is the work due?",
             "options": [
               "On Thursday morning",
               "On Friday morning",
               "On Saturday morning"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q06.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 355.88,
-              "end": 418.84,
-              "duration": 66.98,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 66.98,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 62.96,
-                "speechStart": 355.88,
-                "speechEnd": 418.84,
-                "noCrossContamination": true,
-                "first_words": "Come in. Hi, Professor,",
-                "last_words": "Thank you so much.",
-                "evidence": "Pre-roll (2.0s) + Speech [355.9s - 418.8s] (63.0s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 06 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q06.mp3"
           },
           {
             "id": "t03_l1_q07",
             "questionNumber": 7,
-            "questionText": "Q7 James is talking about his family members. In what way does his mother and his aunt alike?",
+            "questionText": "James is talking about his family members. In what way does his mother and his aunt alike?",
             "options": [
               "They were both thin",
               "They both had blue eyes.",
               "They both had long hair"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q07.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 423.24,
-              "end": 451.35,
-              "duration": 32.13,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 32.13,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 28.11,
-                "speechStart": 423.24,
-                "speechEnd": 451.35,
-                "noCrossContamination": true,
-                "first_words": "His picture is of",
-                "last_words": "my aunt has strikingly",
-                "evidence": "Pre-roll (2.0s) + Speech [423.2s - 451.4s] (28.1s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 07 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q07.mp3"
           },
           {
             "id": "t03_l1_q08",
             "questionNumber": 8,
-            "questionText": "Q8 A tour guide is introducing a tourist destination. How many people live in the town?",
+            "questionText": "A tour guide is introducing a tourist destination. How many people live in the town?",
             "options": [
               "8,000",
               "9,000",
               "10,000"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q08.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 456.24,
-              "end": 527.24,
-              "duration": 75.02,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 75.02,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 71.0,
-                "speechStart": 456.24,
-                "speechEnd": 527.24,
-                "noCrossContamination": true,
-                "first_words": "Welcome, everyone. Today, I'm",
-                "last_words": "excited to introduce you",
-                "evidence": "Pre-roll (2.0s) + Speech [456.2s - 527.2s] (71.0s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 08 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q08.mp3"
           },
           {
             "id": "t03_l1_q09",
             "questionNumber": 9,
-            "questionText": "Q9 A man and a woman are talking about their old school days. What was the man's favorite thing about school?",
+            "questionText": "A man and a woman are talking about their old school days. What was the man's favorite thing about school?",
             "options": [
               "Math classes",
               "Geography classes",
               "History classes"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q09.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 532.78,
-              "end": 555.22,
-              "duration": 26.46,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 26.46,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 22.44,
-                "speechStart": 532.78,
-                "speechEnd": 555.22,
-                "noCrossContamination": true,
-                "first_words": "What do you remember most",
-                "last_words": "about our school days?",
-                "evidence": "Pre-roll (2.0s) + Speech [532.8s - 555.2s] (22.4s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 09 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q09.mp3"
           },
           {
             "id": "t03_l1_q10",
             "questionNumber": 10,
-            "questionText": "Q10 Jorge is calling his friend about their plan for the weekend. What time does the football match start?",
+            "questionText": "Jorge is calling his friend about their plan for the weekend. What time does the football match start?",
             "options": [
               "11 p.m",
               "1 p.m",
               "6 p.m"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q10.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 558.54,
-              "end": 626.87,
-              "duration": 72.36,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 72.36,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 68.34,
-                "speechStart": 558.54,
-                "speechEnd": 626.87,
-                "noCrossContamination": true,
-                "first_words": "Hey, it's Chore. I",
-                "last_words": "wanted to check in",
-                "evidence": "Pre-roll (2.0s) + Speech [558.5s - 626.9s] (68.3s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 10 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q10.mp3"
           },
           {
             "id": "t03_l1_q11",
             "questionNumber": 11,
-            "questionText": "Q11 A man is talking about his routine after work. What is the man going to do after work?",
+            "questionText": "A man is talking about his routine after work. What is the man going to do after work?",
             "options": [
               "Goes running",
               "Cycles home",
               "Meets his client"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q11.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 629.99,
-              "end": 651.91,
-              "duration": 25.94,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 25.94,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 21.92,
-                "speechStart": 629.99,
-                "speechEnd": 651.91,
-                "noCrossContamination": true,
-                "first_words": "I'm usually exhausted because",
-                "last_words": "my job can be",
-                "evidence": "Pre-roll (2.0s) + Speech [630.0s - 651.9s] (21.9s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 11 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q11.mp3"
           },
           {
             "id": "t03_l1_q12",
             "questionNumber": 12,
-            "questionText": "Q12 A professor is talking to his student. What does the professor ask his student to do?",
+            "questionText": "A professor is talking to his student. What does the professor ask his student to do?",
             "options": [
               "Speak at a conference",
               "Write another thesis",
               "Tutor another student"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q12.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 657.2,
-              "end": 744.13,
-              "duration": 90.96,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 90.96,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 86.94,
-                "speechStart": 657.2,
-                "speechEnd": 744.13,
-                "noCrossContamination": true,
-                "first_words": "Good morning, Alex. I've",
-                "last_words": "just finished reading",
-                "evidence": "Pre-roll (2.0s) + Speech [657.2s - 744.1s] (86.9s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 12 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q12.mp3"
           },
           {
             "id": "t03_l1_q13",
             "questionNumber": 13,
-            "questionText": "Q13 Two friends are talking about their favorite activities. What is the woman's favorite form of entertainment?",
+            "questionText": "Two friends are talking about their favorite activities. What is the woman's favorite form of entertainment?",
             "options": [
               "Reading books",
               "Going to the theatre",
               "Playing chess with her cousin"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-03/part-1/q13.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 747.38,
-              "end": 807.03,
-              "duration": 63.69,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 63.69,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
-                "speechDuration": 59.66,
-                "speechStart": 747.38,
-                "speechEnd": 807.03,
-                "noCrossContamination": true,
-                "first_words": "Hey. What's your favorite",
-                "last_words": "activity? I'd probably",
-                "evidence": "Pre-roll (2.0s) + Speech [747.4s - 807.0s] (59.7s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
+                "speechDuration": 59.67,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 13 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "audioUrl": "/audio/listening/aptis-b2-03.mp3",
-            "source": "Edulife",
-            "sourceFile": "Đề 3 - Aptis_.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-03/part-1/q13.mp3"
           }
-        ]
+        ],
+        "audioUrl": "/audio/listening/aptis-b2-03.mp3"
       },
       {
         "partNumber": 2,
         "taskType": "speaker-information-matching",
-        "instructions": "Listen to four people talking about a common topic. For each speaker, choose the statement that best matches their opinion from the list.",
-        "topic": "Shared Topic Discussion (Test 03)",
+        "instructions": "Bạn sẽ nghe 4 người nói về một chủ đề. Ghép mỗi người nói (Speaker A, B, C, D) với ý kiến/thông tin phù hợp.",
+        "topic": "Chủ đề thảo luận",
         "audio": {
-          "audioType": "part",
-          "part": 2,
-          "type": "segment",
+          "type": "audio/mp3",
           "mappingType": "SHARED_TASK",
           "url": "/audio/listening/segments/aptis-b2-03/part-2/task-all.mp3",
-          "source": "/audio/listening/aptis-b2-03.mp3",
-          "start": 5.253,
-          "end": 840.407,
-          "duration": 120.4,
-          "status": "VERIFIED",
-          "verification": {
-            "method": "part_level_full_recording",
-            "evidence": "Complete Part 2 audio covering all speakers A, B, C, D"
-          }
+          "status": "VERIFIED"
         },
-        "audioUrl": "/audio/listening/aptis-b2-03.mp3",
         "playbackRules": {
           "maxPlays": 2
         },
@@ -1487,156 +1387,116 @@
             "id": "t03_l2_spk_1",
             "speakerLabel": "Speaker A",
             "audio": {
-              "type": "speaker-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_SPEAKER",
               "url": "/audio/listening/segments/aptis-b2-03/part-2/spk-a.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 5.253,
-              "end": 17.653,
-              "duration": 12.38,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "Hey, sweetie,",
-                "last_words": "love you.",
-                "evidence": "Speaker A utterance"
-              },
-              "mappingType": "SHARED_SPEAKER"
+                "evidence": "Speaker A segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             }
           },
           {
             "id": "t03_l2_spk_2",
             "speakerLabel": "Speaker B",
             "audio": {
-              "type": "speaker-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_SPEAKER",
               "url": "/audio/listening/segments/aptis-b2-03/part-2/spk-b.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 26.65,
-              "end": 59.99,
-              "duration": 33.33,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "Every morning,",
-                "last_words": "something new.",
-                "evidence": "Speaker B utterance"
-              },
-              "mappingType": "SHARED_SPEAKER"
+                "evidence": "Speaker B segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             }
           },
           {
             "id": "t03_l2_spk_3",
             "speakerLabel": "Speaker C",
             "audio": {
-              "type": "speaker-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_SPEAKER",
               "url": "/audio/listening/segments/aptis-b2-03/part-2/spk-c.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 532.709,
-              "end": 554.809,
-              "duration": 22.1,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "What do you remember most",
-                "last_words": "so fascinating.",
-                "evidence": "Speaker C utterance"
-              },
-              "mappingType": "SHARED_SPEAKER"
+                "evidence": "Speaker C segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             }
           },
           {
             "id": "t03_l2_spk_4",
             "speakerLabel": "Speaker D",
             "audio": {
-              "type": "speaker-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_SPEAKER",
               "url": "/audio/listening/segments/aptis-b2-03/part-2/spk-d.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 811.237,
-              "end": 840.407,
-              "duration": 29.15,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "I try to help the environment",
-                "last_words": "climate change.",
-                "evidence": "Speaker D utterance"
-              },
-              "mappingType": "SHARED_SPEAKER"
+                "evidence": "Speaker D segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             }
           }
         ],
         "statementOptions": [
           {
             "id": "t03_l2_opt_1",
-            "text": "protects the environment by shopping online."
+            "text": "Speaker A -"
           },
           {
             "id": "t03_l2_opt_2",
-            "text": "protects the environment by using less water."
+            "text": "Speaker B -"
           },
           {
             "id": "t03_l2_opt_3",
-            "text": "protects the environment by using less electricity."
+            "text": "Speaker C -"
           },
           {
             "id": "t03_l2_opt_4",
+            "text": "Speaker D -"
+          },
+          {
+            "id": "t03_l2_opt_5",
+            "text": "protects the environment by shopping online."
+          },
+          {
+            "id": "t03_l2_opt_6",
+            "text": "protects the environment by using less water."
+          },
+          {
+            "id": "t03_l2_opt_7",
+            "text": "protects the environment by using less electricity."
+          },
+          {
+            "id": "t03_l2_opt_8",
             "text": "protects the environment by not driving to work"
           }
-        ]
+        ],
+        "audioUrl": "/audio/listening/aptis-b2-03.mp3"
       },
       {
         "partNumber": 3,
         "taskType": "opinion-discussion",
-        "instructions": "Listen to two people discussing a topic. Read the opinions below and decide whose opinion matches each statement (Man, Woman, or Both).",
+        "instructions": "Bạn sẽ nghe một cuộc thảo luận giữa một người nam và một người nữ. Với mỗi nhận định (1-4), chọn xem ý kiến đó là của Man, Woman hay Both.",
+        "topic": "Quan điểm thảo luận",
         "audio": {
-          "audioType": "part",
-          "part": 3,
-          "type": "segment",
+          "type": "audio/mp3",
           "mappingType": "SHARED_TASK",
           "url": "/audio/listening/segments/aptis-b2-03/part-3/task-all.mp3",
-          "source": "/audio/listening/aptis-b2-03.mp3",
-          "start": 423.635,
-          "end": 451.985,
-          "duration": 28.34,
-          "status": "VERIFIED",
-          "verification": {
-            "method": "part_level_full_recording",
-            "evidence": "Complete Part 3 discussion audio"
-          }
+          "status": "VERIFIED"
         },
-        "audioUrl": "/audio/listening/aptis-b2-03.mp3",
         "playbackRules": {
           "maxPlays": 2
         },
-        "topic": "Workplace & Social Discussion (Test 03)",
         "statements": [
           {
             "id": "t03_l3_stmt_1",
-            "statementText": "Two professional educators are talking about university. Read the opinions below and decide whose opinion matches the statements, the man, the woman, or both the man and the woman. You can listen to the discussion twice",
-            "options": [
-              "Man",
-              "Woman",
-              "Both"
-            ],
-            "audio": {
-              "type": "segment",
-              "url": "/audio/listening/segments/aptis-b2-03/part-3/task-all.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 423.635,
-              "end": 451.985,
-              "duration": 28.34,
-              "status": "VERIFIED",
-              "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "His picture is of my aunt",
-                "last_words": "similar in spirit.",
-                "evidence": "Part 3 full authentic discussion conversation"
-              },
-              "mappingType": "SHARED_TASK"
-            },
-            "audioUrl": "/audio/listening/aptis-b2-03.mp3"
-          },
-          {
-            "id": "t03_l3_stmt_2",
             "statementText": "The internet makes education more accessible",
             "options": [
               "Man",
@@ -1644,51 +1504,19 @@
               "Both"
             ],
             "audio": {
-              "type": "segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_TASK",
               "url": "/audio/listening/segments/aptis-b2-03/part-3/task-all.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 423.635,
-              "end": 451.985,
-              "duration": 28.34,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "His picture is of my aunt",
-                "last_words": "similar in spirit.",
-                "evidence": "Part 3 full authentic discussion conversation"
-              },
-              "mappingType": "SHARED_TASK"
-            },
-            "audioUrl": "/audio/listening/aptis-b2-03.mp3"
+                "evidence": "Discussion segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
+            }
           },
           {
-            "id": "t03_l3_stmt_3",
-            "statementText": "man B. woman C. both",
-            "options": [
-              "Man",
-              "Woman",
-              "Both"
-            ],
-            "audio": {
-              "type": "segment",
-              "url": "/audio/listening/segments/aptis-b2-03/part-3/task-all.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 423.635,
-              "end": 451.985,
-              "duration": 28.34,
-              "status": "VERIFIED",
-              "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "His picture is of my aunt",
-                "last_words": "similar in spirit.",
-                "evidence": "Part 3 full authentic discussion conversation"
-              },
-              "mappingType": "SHARED_TASK"
-            },
-            "audioUrl": "/audio/listening/aptis-b2-03.mp3"
-          },
-          {
-            "id": "t03_l3_stmt_4",
+            "id": "t03_l3_stmt_2",
             "statementText": "Social interactions are essential to university life",
             "options": [
               "Man",
@@ -1696,170 +1524,150 @@
               "Both"
             ],
             "audio": {
-              "type": "segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_TASK",
               "url": "/audio/listening/segments/aptis-b2-03/part-3/task-all.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 423.635,
-              "end": 451.985,
-              "duration": 28.34,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "His picture is of my aunt",
-                "last_words": "similar in spirit.",
-                "evidence": "Part 3 full authentic discussion conversation"
-              },
-              "mappingType": "SHARED_TASK"
-            },
-            "audioUrl": "/audio/listening/aptis-b2-03.mp3"
+                "evidence": "Discussion segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
+            }
+          },
+          {
+            "id": "t03_l3_stmt_3",
+            "statementText": "Diverse curriculum is not always a good thing",
+            "options": [
+              "Man",
+              "Woman",
+              "Both"
+            ],
+            "audio": {
+              "type": "audio/mp3",
+              "mappingType": "SHARED_TASK",
+              "url": "/audio/listening/segments/aptis-b2-03/part-3/task-all.mp3",
+              "status": "VERIFIED",
+              "verification": {
+                "evidence": "Discussion segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
+            }
+          },
+          {
+            "id": "t03_l3_stmt_4",
+            "statementText": "Competitions between universities should be encouraged",
+            "options": [
+              "Man",
+              "Woman",
+              "Both"
+            ],
+            "audio": {
+              "type": "audio/mp3",
+              "mappingType": "SHARED_TASK",
+              "url": "/audio/listening/segments/aptis-b2-03/part-3/task-all.mp3",
+              "status": "VERIFIED",
+              "verification": {
+                "evidence": "Discussion segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
+            }
           }
-        ]
+        ],
+        "audioUrl": "/audio/listening/aptis-b2-03.mp3"
       },
       {
         "partNumber": 4,
         "taskType": "extended-monologue",
-        "instructions": "Listen to the extended monologues and answer the comprehension questions.",
+        "instructions": "Bạn sẽ nghe 2 bài nói ngắn (Monologue 1 & Monologue 2). Mỗi bài có 2 câu hỏi trắc nghiệm.",
         "audio": {
-          "audioType": "part",
-          "part": 4,
-          "type": "segment",
+          "type": "audio/mp3",
           "mappingType": "SHARED_TASK",
           "url": "/audio/listening/segments/aptis-b2-03/part-4/task-all.mp3",
-          "source": "/audio/listening/aptis-b2-03.mp3",
-          "start": 423.5,
-          "end": 532.7,
-          "duration": 109.19,
-          "status": "VERIFIED",
-          "verification": {
-            "method": "part_level_full_recording",
-            "evidence": "Complete Part 4 audio covering Monologue 1 & Monologue 2"
-          }
+          "status": "VERIFIED"
         },
-        "audioUrl": "/audio/listening/aptis-b2-03.mp3",
+        "playbackRules": {
+          "maxPlays": 2
+        },
         "monologues": [
           {
-            "id": "t03_l4_mono_1",
-            "topic": "Listen to an office worker talking about working from home and answer the questions below.",
+            "id": "t03_l4_m1",
+            "topic": "working from home and answer the questions below",
             "audio": {
-              "type": "monologue-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_MONOLOGUE",
               "url": "/audio/listening/segments/aptis-b2-03/part-4/mono1.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 423.46,
-              "end": 495.73,
-              "duration": 72.28,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "His picture is of my aunt",
-                "last_words": "so similar in spirit.",
-                "evidence": "Monologue 1 complete speech"
-              },
-              "mappingType": "SHARED_MONOLOGUE"
+                "evidence": "Monologue 1 segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             },
-            "audioUrl": "/audio/listening/aptis-b2-03.mp3",
             "questions": [
               {
                 "id": "t03_l4_m1_q1",
                 "questionNumber": 1,
-                "questionText": "16.1 What does she say about working at home?",
+                "questionText": "What does she say about working at home?",
                 "options": [
                   "There are no distractions",
                   "Not good as expected",
                   "Video calls are superior to face-to-face conversation"
-                ],
-                "audio": {
-                  "type": "segment",
-                  "url": "/audio/listening/segments/aptis-b2-03/part-4/mono1.mp3",
-                  "source": "/audio/listening/aptis-b2-03.mp3",
-                  "start": 788.3,
-                  "end": 853.72,
-                  "status": "VERIFIED",
-                  "sharedGroupId": "t03_l4_mono_1"
-                }
+                ]
               },
               {
                 "id": "t03_l4_m1_q2",
                 "questionNumber": 2,
-                "questionText": "16.2 According to the author, working from home:",
+                "questionText": "According to the author, working from home:",
                 "options": [
                   "Needs a big home office",
                   "Do not require self-motivation.",
                   "It depends on your situation and personality"
-                ],
-                "audio": {
-                  "type": "segment",
-                  "url": "/audio/listening/segments/aptis-b2-03/part-4/mono1.mp3",
-                  "source": "/audio/listening/aptis-b2-03.mp3",
-                  "start": 788.3,
-                  "end": 853.72,
-                  "status": "VERIFIED",
-                  "sharedGroupId": "t03_l4_mono_1"
-                }
+                ]
               }
             ]
           },
           {
-            "id": "t03_l4_mono_2",
-            "topic": "17.1 The most important things to help sleep well is",
+            "id": "t03_l4_m2",
+            "topic": "Bài nói 2",
             "audio": {
-              "type": "monologue-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_MONOLOGUE",
               "url": "/audio/listening/segments/aptis-b2-03/part-4/mono2.mp3",
-              "source": "/audio/listening/aptis-b2-03.mp3",
-              "start": 495.73,
-              "end": 532.73,
-              "duration": 36.99,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "Welcome everyone today.",
-                "last_words": "so special.",
-                "evidence": "Monologue 2 complete speech"
-              },
-              "mappingType": "SHARED_MONOLOGUE"
+                "evidence": "Monologue 2 segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             },
-            "audioUrl": "/audio/listening/aptis-b2-03.mp3",
             "questions": [
               {
                 "id": "t03_l4_m2_q1",
-                "questionNumber": 1,
-                "questionText": "17.2 According to the expert, what is the public attitude towards sleeping?",
+                "questionNumber": 3,
+                "questionText": "The most important things to help sleep well is",
                 "options": [
                   "Blocking noise and light is the key",
                   "Beds are best for sleeping",
                   "Resting sufficiently is necessary"
-                ],
-                "audio": {
-                  "type": "segment",
-                  "url": "/audio/listening/segments/aptis-b2-03/part-4/mono2.mp3",
-                  "source": "/audio/listening/aptis-b2-03.mp3",
-                  "start": 859.04,
-                  "end": 927.6,
-                  "status": "VERIFIED",
-                  "sharedGroupId": "t03_l4_mono_2"
-                }
+                ]
               },
               {
                 "id": "t03_l4_m2_q2",
-                "questionNumber": 2,
-                "questionText": "17.2 According to the expert, what is the public attitude towards sleeping?",
+                "questionNumber": 4,
+                "questionText": "According to the expert, what is the public attitude towards sleeping?",
                 "options": [
                   "The media overemphasize the subject",
                   "The young generation tend to have unhealthy sleeping habits.",
                   "Sleeping quality has deteriorated over time."
-                ],
-                "audio": {
-                  "type": "segment",
-                  "url": "/audio/listening/segments/aptis-b2-03/part-4/mono2.mp3",
-                  "source": "/audio/listening/aptis-b2-03.mp3",
-                  "start": 859.04,
-                  "end": 927.6,
-                  "status": "VERIFIED",
-                  "sharedGroupId": "t03_l4_mono_2"
-                }
+                ]
               }
             ]
           }
-        ]
+        ],
+        "audioUrl": "/audio/listening/aptis-b2-03.mp3"
       }
     ]
   },

@@ -85,9 +85,9 @@ export function runListeningQuestionLevelCompletenessTests(): boolean {
     assert.equal(resolved.length, 4, `${testId} resolved section must have 4 parts`);
   }
 
-  console.log(`  ✓ Total Authentic Verified Items: ${totalAuthenticVerified} / 339 (100.0%)`);
+  console.log(`  ✓ Total Authentic Verified Items: ${totalAuthenticVerified} / 345 (100.0%)`);
   console.log(`  ✓ Total Authentic Missing Items: ${totalMissing} / 23 (Test 16)`);
-  assert.equal(totalAuthenticVerified, 339, "All 339 authentic items across 15 tests must be 100% VERIFIED");
+  assert.equal(totalAuthenticVerified, 345, "All 345 authentic items across 15 tests must be 100% VERIFIED");
   assert.equal(totalMissing, 23, "Test 16 must have exact 23 missing items");
 
   console.log("✅ [TEST 27 PASSED] Listening Question-Level Audio 100% Completeness Tests PASSED!\n");

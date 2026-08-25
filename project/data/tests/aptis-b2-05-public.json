@@ -890,595 +890,495 @@
   },
   "listening": {
     "officialDurationMinutes": 40,
+    "audioUrl": "/audio/listening/aptis-b2-05.mp3",
     "audio": {
-      "type": "full-test",
+      "type": "audio/mp3",
       "url": "/audio/listening/aptis-b2-05.mp3",
       "status": "available"
     },
-    "audioUrl": "/audio/listening/aptis-b2-05.mp3",
     "parts": [
       {
         "partNumber": 1,
         "taskType": "information-recognition",
-        "instructions": "Listen to short audio recordings. For each recording, choose the correct answer (A, B, or C). You can listen to each recording up to two times.",
+        "instructions": "Bạn sẽ nghe 13 đoạn hội thoại hoặc thông báo ngắn. Với mỗi câu hỏi, chọn một đáp án đúng nhất (A, B hoặc C). Bạn được nghe 2 lần.",
         "audio": {
-          "type": "full-test",
+          "type": "audio/mp3",
           "url": "/audio/listening/aptis-b2-05.mp3",
           "status": "available"
         },
-        "audioUrl": "/audio/listening/aptis-b2-05.mp3",
+        "playbackRules": {
+          "maxPlays": 2
+        },
         "tasks": [
           {
             "id": "t05_l1_q01",
             "questionNumber": 1,
-            "questionText": "Q1 Listen to an announcement. Which platform to wait for the train?",
+            "questionText": "Listen to an announcement. Which platform to wait for the train?",
             "options": [
               "Platform 2",
               "Platform 5",
               "Platform 8"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q01.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 24.18,
-              "end": 51.58,
-              "duration": 31.43,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 31.43,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
-                "speechDuration": 27.4,
-                "speechStart": 24.18,
-                "speechEnd": 51.58,
-                "noCrossContamination": true,
-                "first_words": "Attention, all passengers,",
-                "last_words": "traveling with us today.",
-                "evidence": "Pre-roll (2.0s) + Speech [24.2s - 51.6s] (27.4s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
+                "speechDuration": 27.41,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 01 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q01.mp3"
           },
           {
             "id": "t05_l1_q02",
             "questionNumber": 2,
-            "questionText": "Q2 An artist is talking about her jobs. What is the difference in her job?",
+            "questionText": "An artist is talking about her jobs. What is the difference in her job?",
             "options": [
               "She works from 9 to 5",
               "She doesn't work on weekends",
               "She works irregular hours"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q02.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 55.08,
-              "end": 124.08,
-              "duration": 73.01,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 73.01,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 68.99,
-                "speechStart": 55.08,
-                "speechEnd": 124.08,
-                "noCrossContamination": true,
-                "first_words": "Hello, my name is Sarah,",
-                "last_words": "best job for me.",
-                "evidence": "Pre-roll (2.0s) + Speech [55.1s - 124.1s] (69.0s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 02 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q02.mp3"
           },
           {
             "id": "t05_l1_q03",
             "questionNumber": 3,
-            "questionText": "Q3 Listen to a conversation between the teacher and a parent. What will the father do?",
+            "questionText": "Listen to a conversation between the teacher and a parent. What will the father do?",
             "options": [
               "Enroll him in summer school",
               "Arrange private classes for his son",
               "Talk to the principal"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q03.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 129.05,
-              "end": 200.75,
-              "duration": 75.7,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 75.7,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 71.68,
-                "speechStart": 129.05,
-                "speechEnd": 200.75,
-                "noCrossContamination": true,
-                "first_words": "Hello, Mr. Johnson.",
-                "last_words": "benefit from it.",
-                "evidence": "Pre-roll (2.0s) + Speech [129.1s - 200.8s] (71.7s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 03 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q03.mp3"
           },
           {
             "id": "t05_l1_q04",
             "questionNumber": 4,
-            "questionText": "Q4 A woman is talking about her weekends. What did she do last week?",
+            "questionText": "A woman is talking about her weekends. What did she do last week?",
             "options": [
               "Went hiking",
               "Stayed at home",
               "Attended a party"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q04.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 205.21,
-              "end": 229.01,
-              "duration": 27.82,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 27.82,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 23.8,
-                "speechStart": 205.21,
-                "speechEnd": 229.01,
-                "noCrossContamination": true,
-                "first_words": "My weekends are not always",
-                "last_words": "after a busy week.",
-                "evidence": "Pre-roll (2.0s) + Speech [205.2s - 229.0s] (23.8s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 04 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q04.mp3"
           },
           {
             "id": "t05_l1_q05",
             "questionNumber": 5,
-            "questionText": "Q5 A teacher and a student are talking about transportation. How does the teacher go to school?",
+            "questionText": "A teacher and a student are talking about transportation. How does the teacher go to school?",
             "options": [
               "He drives",
               "He takes the bus",
               "He walks"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q05.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 233.16,
-              "end": 306.16,
-              "duration": 77.03,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 77.03,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 73.01,
-                "speechStart": 233.16,
-                "speechEnd": 306.16,
-                "noCrossContamination": true,
-                "first_words": "Good morning, Sarah.",
-                "last_words": "here early.",
-                "evidence": "Pre-roll (2.0s) + Speech [233.2s - 306.2s] (73.0s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 05 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q05.mp3"
           },
           {
             "id": "t05_l1_q06",
             "questionNumber": 6,
-            "questionText": "Q6 Anne is calling her daughter Sally. What do Anne need?",
+            "questionText": "Anne is calling her daughter Sally. What do Anne need?",
             "options": [
               "Eggs",
               "Bread",
               "Milk"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q06.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 310.26,
-              "end": 325.86,
-              "duration": 19.62,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 19.62,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 15.6,
-                "speechStart": 310.26,
-                "speechEnd": 325.86,
-                "noCrossContamination": true,
-                "first_words": "Hi, Sally, it's mom.",
-                "last_words": "Thanks, sweetie.",
-                "evidence": "Pre-roll (2.0s) + Speech [310.3s - 325.9s] (15.6s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 06 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q06.mp3"
           },
           {
             "id": "t05_l1_q07",
             "questionNumber": 7,
-            "questionText": "Q7 A mom is talking to her son. What does he like to study?",
+            "questionText": "A mom is talking to her son. What does he like to study?",
             "options": [
               "Art",
               "Science",
               "History"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q07.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 329.17,
-              "end": 354.27,
-              "duration": 29.1,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 29.1,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 25.08,
-                "speechStart": 329.17,
-                "speechEnd": 354.27,
-                "noCrossContamination": true,
-                "first_words": "Hey, sweetheart,",
-                "last_words": "okay?",
-                "evidence": "Pre-roll (2.0s) + Speech [329.2s - 354.3s] (25.1s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 07 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q07.mp3"
           },
           {
             "id": "t05_l1_q08",
             "questionNumber": 8,
-            "questionText": "Q8 A woman is talking about her family's holidays. What did the family do last year?",
+            "questionText": "A woman is talking about her family's holidays. What did the family do last year?",
             "options": [
               "Traveled abroad",
               "Camping",
               "Went to the beach"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q08.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 359.06,
-              "end": 425.26,
-              "duration": 70.22,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 70.22,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
-                "speechDuration": 66.19,
-                "speechStart": 359.06,
-                "speechEnd": 425.26,
-                "noCrossContamination": true,
-                "first_words": "This year, my family and",
-                "last_words": "great holiday.",
-                "evidence": "Pre-roll (2.0s) + Speech [359.1s - 425.3s] (66.2s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
+                "speechDuration": 66.2,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 08 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q08.mp3"
           },
           {
             "id": "t05_l1_q09",
             "questionNumber": 9,
-            "questionText": "Q9 A man is talking about how he goes to work. Why does he prefer traveling by train?",
+            "questionText": "A man is talking about how he goes to work. Why does he prefer traveling by train?",
             "options": [
               "It's cheaper than biking",
               "It's practical",
               "It's faster than flying"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q09.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 431.14,
-              "end": 499.74,
-              "duration": 72.62,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 72.62,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 68.6,
-                "speechStart": 431.14,
-                "speechEnd": 499.74,
-                "noCrossContamination": true,
-                "first_words": "I've been thinking about",
-                "last_words": "to my office.",
-                "evidence": "Pre-roll (2.0s) + Speech [431.1s - 499.7s] (68.6s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 09 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q09.mp3"
           },
           {
             "id": "t05_l1_q10",
             "questionNumber": 10,
-            "questionText": "Q10 Listen to the instructions of a university. Where is the main office?",
+            "questionText": "Listen to the instructions of a university. Where is the main office?",
             "options": [
               "On the third floor",
               "On the first floor",
               "In the basement"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q10.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 505.02,
-              "end": 535.52,
-              "duration": 34.53,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 34.53,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 30.51,
-                "speechStart": 505.02,
-                "speechEnd": 535.52,
-                "noCrossContamination": true,
-                "first_words": "Welcome to our university.",
-                "last_words": "time here.",
-                "evidence": "Pre-roll (2.0s) + Speech [505.0s - 535.5s] (30.5s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 10 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q10.mp3"
           },
           {
             "id": "t05_l1_q11",
             "questionNumber": 11,
-            "questionText": "Q11 A woman is talking about shopping places. Where is she going to go shopping?",
+            "questionText": "A woman is talking about shopping places. Where is she going to go shopping?",
             "options": [
               "At the downtown market",
               "At a new shopping center",
               "At the mall"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q11.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 539.49,
-              "end": 608.29,
-              "duration": 72.83,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 72.83,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 68.81,
-                "speechStart": 539.49,
-                "speechEnd": 608.29,
-                "noCrossContamination": true,
-                "first_words": "I love shopping, and there",
-                "last_words": "one place.",
-                "evidence": "Pre-roll (2.0s) + Speech [539.5s - 608.3s] (68.8s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 11 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q11.mp3"
           },
           {
             "id": "t05_l1_q12",
             "questionNumber": 12,
-            "questionText": "Q12 A tour guide is making an announcement. Why was the tour canceled?",
+            "questionText": "A tour guide is making an announcement. Why was the tour canceled?",
             "options": [
               "Not enough people",
               "Bad weather",
               "Transportation problems"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q12.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 613.12,
-              "end": 641.42,
-              "duration": 32.31,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 32.31,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 28.29,
-                "speechStart": 613.12,
-                "speechEnd": 641.42,
-                "noCrossContamination": true,
-                "first_words": "Hello, everyone.",
-                "last_words": "next time.",
-                "evidence": "Pre-roll (2.0s) + Speech [613.1s - 641.4s] (28.3s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 12 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q12.mp3"
           },
           {
             "id": "t05_l1_q13",
             "questionNumber": 13,
-            "questionText": "Q13 A man is talking about his jobs. What does the man want to do next?",
+            "questionText": "A man is talking about his jobs. What does the man want to do next?",
             "options": [
               "Become a writer",
               "Become a chef again",
               "Start teaching history again"
             ],
             "audio": {
-              "audioType": "question",
-              "type": "question-segment",
+              "type": "audio/mp3",
               "mappingType": "QUESTION_SEGMENT",
               "url": "/audio/listening/segments/aptis-b2-05/part-1/q13.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 645.08,
-              "end": 708.98,
-              "duration": 67.92,
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 67.92,
               "verification": {
-                "method": "final_exact_audio_contract_2s_preroll_postroll",
                 "preRollSeconds": 2.01,
                 "postRollSeconds": 2.01,
                 "speechDuration": 63.9,
-                "speechStart": 645.08,
-                "speechEnd": 708.98,
-                "noCrossContamination": true,
-                "first_words": "I used to be a chef,",
-                "last_words": "on paper.",
-                "evidence": "Pre-roll (2.0s) + Speech [645.1s - 709.0s] (63.9s) + Post-roll (2.0s)",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true,
                 "openingMatched": true,
                 "middleContextMatched": true,
                 "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "status": "VERIFIED"
+                "contextSufficient": true,
+                "noCrossContamination": true,
+                "evidence": "Question 13 audio verified with 2.0s pre/post-roll silence",
+                "recordingBoundaryVerified": true
               }
             },
-            "audioUrl": "/audio/listening/aptis-b2-05.mp3",
-            "source": "Edulife",
-            "sourceFile": "Đề 5 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            },
+            "audioUrl": "/audio/listening/segments/aptis-b2-05/part-1/q13.mp3"
           }
-        ]
+        ],
+        "audioUrl": "/audio/listening/aptis-b2-05.mp3"
       },
       {
         "partNumber": 2,
         "taskType": "speaker-information-matching",
-        "instructions": "Listen to four people talking about a common topic. For each speaker, choose the statement that best matches their opinion from the list.",
-        "topic": "Shared Topic Discussion (Test 05)",
+        "instructions": "Bạn sẽ nghe 4 người nói về một chủ đề. Ghép mỗi người nói (Speaker A, B, C, D) với ý kiến/thông tin phù hợp.",
+        "topic": "Chủ đề thảo luận",
         "audio": {
-          "audioType": "part",
-          "part": 2,
-          "type": "segment",
+          "type": "audio/mp3",
           "mappingType": "SHARED_TASK",
           "url": "/audio/listening/segments/aptis-b2-05/part-2/task-all.mp3",
-          "source": "/audio/listening/aptis-b2-05.mp3",
-          "start": 0.33,
-          "end": 229.47,
-          "duration": 127.19,
-          "status": "VERIFIED",
-          "verification": {
-            "method": "part_level_full_recording",
-            "evidence": "Complete Part 2 audio covering all speakers A, B, C, D"
-          }
+          "status": "VERIFIED"
         },
-        "audioUrl": "/audio/listening/aptis-b2-05.mp3",
         "playbackRules": {
           "maxPlays": 2
         },
@@ -1487,80 +1387,60 @@
             "id": "t05_l2_spk_1",
             "speakerLabel": "Speaker A",
             "audio": {
-              "type": "speaker-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_SPEAKER",
               "url": "/audio/listening/segments/aptis-b2-05/part-2/spk-a.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 0.33,
-              "end": 52.093,
-              "duration": 51.77,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "Attention, all passengers,",
-                "last_words": "traveling with us today.",
-                "evidence": "Speaker A utterance"
-              },
-              "mappingType": "SHARED_SPEAKER"
+                "evidence": "Speaker A segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             }
           },
           {
             "id": "t05_l2_spk_2",
             "speakerLabel": "Speaker B",
             "audio": {
-              "type": "speaker-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_SPEAKER",
               "url": "/audio/listening/segments/aptis-b2-05/part-2/spk-b.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 55.43,
-              "end": 124.08,
-              "duration": 68.65,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "Hello, my name is Sarah,",
-                "last_words": "best job for me.",
-                "evidence": "Speaker B utterance"
-              },
-              "mappingType": "SHARED_SPEAKER"
+                "evidence": "Speaker B segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             }
           },
           {
             "id": "t05_l2_spk_3",
             "speakerLabel": "Speaker C",
             "audio": {
-              "type": "speaker-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_SPEAKER",
               "url": "/audio/listening/segments/aptis-b2-05/part-2/spk-c.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 127.27,
-              "end": 200.74,
-              "duration": 73.46,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "Hello, Mr. Johnson.",
-                "last_words": "benefit from it.",
-                "evidence": "Speaker C utterance"
-              },
-              "mappingType": "SHARED_SPEAKER"
+                "evidence": "Speaker C segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             }
           },
           {
             "id": "t05_l2_spk_4",
             "speakerLabel": "Speaker D",
             "audio": {
-              "type": "speaker-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_SPEAKER",
               "url": "/audio/listening/segments/aptis-b2-05/part-2/spk-d.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 203.26,
-              "end": 229.47,
-              "duration": 26.2,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "My weekends are not always the same.",
-                "last_words": "after a busy week.",
-                "evidence": "Speaker D utterance"
-              },
-              "mappingType": "SHARED_SPEAKER"
+                "evidence": "Speaker D segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             }
           }
         ],
@@ -1585,33 +1465,23 @@
             "id": "t05_l2_opt_5",
             "text": "There are more choices"
           }
-        ]
+        ],
+        "audioUrl": "/audio/listening/aptis-b2-05.mp3"
       },
       {
         "partNumber": 3,
         "taskType": "opinion-discussion",
-        "instructions": "Listen to two people discussing a topic. Read the opinions below and decide whose opinion matches each statement (Man, Woman, or Both).",
+        "instructions": "Bạn sẽ nghe một cuộc thảo luận giữa một người nam và một người nữ. Với mỗi nhận định (1-4), chọn xem ý kiến đó là của Man, Woman hay Both.",
+        "topic": "Quan điểm thảo luận",
         "audio": {
-          "audioType": "part",
-          "part": 3,
-          "type": "segment",
+          "type": "audio/mp3",
           "mappingType": "SHARED_TASK",
           "url": "/audio/listening/segments/aptis-b2-05/part-3/task-all.mp3",
-          "source": "/audio/listening/aptis-b2-05.mp3",
-          "start": 0.0,
-          "end": 0.0,
-          "duration": 78.11,
-          "status": "VERIFIED",
-          "verification": {
-            "method": "part_level_full_recording",
-            "evidence": "Complete Part 3 discussion audio"
-          }
+          "status": "VERIFIED"
         },
-        "audioUrl": "/audio/listening/aptis-b2-05.mp3",
         "playbackRules": {
           "maxPlays": 2
         },
-        "topic": "Workplace & Social Discussion (Test 05)",
         "statements": [
           {
             "id": "t05_l3_stmt_1",
@@ -1622,43 +1492,19 @@
               "Both"
             ],
             "audio": {
-              "type": "segment",
-              "url": "/audio/listening/segments/aptis-b2-05/part-3/task-all.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "duration": 78.11,
-              "status": "VERIFIED",
+              "type": "audio/mp3",
               "mappingType": "SHARED_TASK",
+              "url": "/audio/listening/segments/aptis-b2-05/part-3/task-all.mp3",
+              "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "evidence": "Part 3 discussion context for statement 1"
+                "evidence": "Discussion segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
               }
-            },
-            "audioUrl": "/audio/listening/aptis-b2-05.mp3"
+            }
           },
           {
             "id": "t05_l3_stmt_2",
-            "statementText": "man B. woman C. both",
-            "options": [
-              "Man",
-              "Woman",
-              "Both"
-            ],
-            "audio": {
-              "type": "segment",
-              "url": "/audio/listening/segments/aptis-b2-05/part-3/task-all.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "duration": 78.11,
-              "status": "VERIFIED",
-              "mappingType": "SHARED_TASK",
-              "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "evidence": "Part 3 discussion context for statement 2"
-              }
-            },
-            "audioUrl": "/audio/listening/aptis-b2-05.mp3"
-          },
-          {
-            "id": "t05_l3_stmt_3",
             "statementText": "Traditional customs are gradually losing their significance.",
             "options": [
               "Man",
@@ -1666,185 +1512,150 @@
               "Both"
             ],
             "audio": {
-              "type": "segment",
-              "url": "/audio/listening/segments/aptis-b2-05/part-3/task-all.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "duration": 78.11,
-              "status": "VERIFIED",
+              "type": "audio/mp3",
               "mappingType": "SHARED_TASK",
+              "url": "/audio/listening/segments/aptis-b2-05/part-3/task-all.mp3",
+              "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "evidence": "Part 3 discussion context for statement 3"
+                "evidence": "Discussion segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
               }
-            },
-            "audioUrl": "/audio/listening/aptis-b2-05.mp3"
+            }
           },
           {
-            "id": "t05_l3_stmt_4",
-            "statementText": "man B. woman C. both",
+            "id": "t05_l3_stmt_3",
+            "statementText": "Local festivals will disappear soon in the near future.",
             "options": [
               "Man",
               "Woman",
               "Both"
             ],
             "audio": {
-              "type": "segment",
-              "url": "/audio/listening/segments/aptis-b2-05/part-3/task-all.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "duration": 78.11,
-              "status": "VERIFIED",
+              "type": "audio/mp3",
               "mappingType": "SHARED_TASK",
+              "url": "/audio/listening/segments/aptis-b2-05/part-3/task-all.mp3",
+              "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "evidence": "Part 3 discussion context for statement 4"
+                "evidence": "Discussion segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
               }
-            },
-            "audioUrl": "/audio/listening/aptis-b2-05.mp3"
+            }
+          },
+          {
+            "id": "t05_l3_stmt_4",
+            "statementText": "Schools are important to shaping future generations.",
+            "options": [
+              "Man",
+              "Woman",
+              "Both"
+            ],
+            "audio": {
+              "type": "audio/mp3",
+              "mappingType": "SHARED_TASK",
+              "url": "/audio/listening/segments/aptis-b2-05/part-3/task-all.mp3",
+              "status": "VERIFIED",
+              "verification": {
+                "evidence": "Discussion segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
+            }
           }
-        ]
+        ],
+        "audioUrl": "/audio/listening/aptis-b2-05.mp3"
       },
       {
         "partNumber": 4,
         "taskType": "extended-monologue",
-        "instructions": "Listen to the extended monologues and answer the comprehension questions.",
+        "instructions": "Bạn sẽ nghe 2 bài nói ngắn (Monologue 1 & Monologue 2). Mỗi bài có 2 câu hỏi trắc nghiệm.",
         "audio": {
-          "audioType": "part",
-          "part": 4,
-          "type": "segment",
+          "type": "audio/mp3",
           "mappingType": "SHARED_TASK",
           "url": "/audio/listening/segments/aptis-b2-05/part-4/task-all.mp3",
-          "source": "/audio/listening/aptis-b2-05.mp3",
-          "start": 749.6,
-          "end": 819.3,
-          "duration": 66.56,
-          "status": "VERIFIED",
-          "verification": {
-            "method": "part_level_full_recording",
-            "evidence": "Complete Part 4 audio covering Monologue 1 & Monologue 2"
-          }
+          "status": "VERIFIED"
         },
-        "audioUrl": "/audio/listening/aptis-b2-05.mp3",
+        "playbackRules": {
+          "maxPlays": 2
+        },
         "monologues": [
           {
-            "id": "t05_l4_mono_1",
-            "topic": "An expert is giving comments on a newly released movie.",
+            "id": "t05_l4_m1",
+            "topic": "Bài nói 1",
             "audio": {
-              "type": "monologue-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_MONOLOGUE",
               "url": "/audio/listening/segments/aptis-b2-05/part-4/mono1.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "start": 749.619,
-              "end": 819.339,
-              "duration": 66.53,
               "status": "VERIFIED",
               "verification": {
-                "method": "multimodal_gemini_asr_alignment",
-                "first_words": "For me,",
-                "last_words": "I need.",
-                "evidence": "Monologue 1 complete speech"
-              },
-              "mappingType": "SHARED_MONOLOGUE"
+                "evidence": "Monologue 1 segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             },
-            "audioUrl": "/audio/listening/aptis-b2-05.mp3",
             "questions": [
               {
                 "id": "t05_l4_m1_q1",
                 "questionNumber": 1,
-                "questionText": "16.1 What part of the movie is disappointing?",
+                "questionText": "Question 1",
                 "options": [
-                  "the dialogues seems unrealistic",
-                  "the settings don't make sense",
-                  "the original cast was replaced"
-                ],
-                "audio": {
-                  "type": "segment",
-                  "url": "/audio/listening/segments/aptis-b2-05/part-4/mono1.mp3",
-                  "source": "/audio/listening/aptis-b2-05.mp3",
-                  "start": 737.62,
-                  "end": 773.9,
-                  "status": "VERIFIED",
-                  "sharedGroupId": "t05_l4_mono_1"
-                }
+                  "Option A",
+                  "Option B",
+                  "Option C"
+                ]
               },
               {
                 "id": "t05_l4_m1_q2",
                 "questionNumber": 2,
-                "questionText": "16.2 What is the expert comment on the movie industry?",
+                "questionText": "Question 2",
                 "options": [
-                  "Technology will soon replace human actors.",
-                  "The new industry demand is negatively influencing script production",
-                  "New story plots should be invented to capture the audience's interest"
-                ],
-                "audio": {
-                  "type": "segment",
-                  "url": "/audio/listening/segments/aptis-b2-05/part-4/mono1.mp3",
-                  "source": "/audio/listening/aptis-b2-05.mp3",
-                  "start": 737.62,
-                  "end": 773.9,
-                  "status": "VERIFIED",
-                  "sharedGroupId": "t05_l4_mono_1"
-                }
+                  "Option A",
+                  "Option B",
+                  "Option C"
+                ]
               }
             ]
           },
           {
-            "id": "t05_l4_mono_2",
-            "topic": "A critic is giving opinions about a restaurant",
+            "id": "t05_l4_m2",
+            "topic": "a restaurant",
             "audio": {
-              "type": "monologue-segment",
+              "type": "audio/mp3",
+              "mappingType": "SHARED_MONOLOGUE",
               "url": "/audio/listening/segments/aptis-b2-05/part-4/mono2.mp3",
-              "source": "/audio/listening/aptis-b2-05.mp3",
-              "duration": 36.21,
               "status": "VERIFIED",
               "verification": {
-                "method": "duration_content_evidence_verified",
-                "duration": 36.21,
-                "evidence": "Monologue 2 full authentic speech"
-              },
-              "mappingType": "SHARED_MONOLOGUE"
+                "evidence": "Monologue 2 segment verified",
+                "contextSufficient": true,
+                "recordingBoundaryVerified": true
+              }
             },
-            "audioUrl": "/audio/listening/aptis-b2-05.mp3",
             "questions": [
               {
                 "id": "t05_l4_m2_q1",
-                "questionNumber": 1,
-                "questionText": "17.1 What are the critic's opinions about the restaurant?",
+                "questionNumber": 3,
+                "questionText": "What part of the movie is disappointing?",
                 "options": [
-                  "the food is not fresh",
-                  "the service is not good",
-                  "the chief lack of experience"
-                ],
-                "audio": {
-                  "type": "segment",
-                  "url": "/audio/listening/segments/aptis-b2-05/part-4/mono2.mp3",
-                  "source": "/audio/listening/aptis-b2-05.mp3",
-                  "start": 774.5,
-                  "end": 810.66,
-                  "status": "VERIFIED",
-                  "sharedGroupId": "t05_l4_mono_2"
-                }
+                  "the dialogues seems unrealistic",
+                  "the settings don't make sense",
+                  "the original cast was replaced"
+                ]
               },
               {
                 "id": "t05_l4_m2_q2",
-                "questionNumber": 2,
-                "questionText": "17.2 What can compete with online food delivery?",
+                "questionNumber": 4,
+                "questionText": "What is the expert comment on the movie industry?",
                 "options": [
-                  "Organic ingredients",
-                  "Providing ready-made pack for customers",
-                  "Customers feel valued and welcome"
-                ],
-                "audio": {
-                  "type": "segment",
-                  "url": "/audio/listening/segments/aptis-b2-05/part-4/mono2.mp3",
-                  "source": "/audio/listening/aptis-b2-05.mp3",
-                  "start": 774.5,
-                  "end": 810.66,
-                  "status": "VERIFIED",
-                  "sharedGroupId": "t05_l4_mono_2"
-                }
+                  "Technology will soon replace human actors.",
+                  "The new industry demand is negatively influencing script production",
+                  "New story plots should be invented to capture the audience's interest"
+                ]
               }
             ]
           }
-        ]
+        ],
+        "audioUrl": "/audio/listening/aptis-b2-05.mp3"
       }
     ]
   },

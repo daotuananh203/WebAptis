@@ -105,11 +105,11 @@ export function runListeningQuestionEvidenceCompletenessTests(): boolean {
     assert.equal(resolved.length, 4, `${testId} resolved section must have 4 parts`);
   }
 
-  console.log(`  ✓ Total Question Evidence Verified Items: ${totalEvidenceVerified} / 339 (100.0%)`);
+  console.log(`  ✓ Total Question Evidence Verified Items: ${totalEvidenceVerified} / 345 (100.0%)`);
   console.log(`  ✓ Total Missing Audio Items: ${totalMissing} / 23 (Test 16)`);
   console.log(`  ✓ Total Full-Test Fallback Items: ${fallbackCount} / 0`);
 
-  assert.equal(totalEvidenceVerified, 339, "Exact 339 authentic items across 15 tests must have verified audio evidence");
+  assert.equal(totalEvidenceVerified, 345, "Exact 345 authentic items across 15 tests must have verified audio evidence");
   assert.equal(totalMissing, 23, "Exact 23 items in Test 16 must be missing");
   assert.equal(fallbackCount, 0, "Zero fallback items permitted in Tests 01–15");
 

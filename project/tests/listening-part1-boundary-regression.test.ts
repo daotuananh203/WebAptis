@@ -62,7 +62,7 @@ export function runListeningPart1BoundaryRegressionTests(): boolean {
   }
 
   console.log(`  ✓ Total Part 1 Questions Verified with Exact 2s Pre/Post-Roll Contract: ${totalWithExactContract} / ${totalQuestions} (100.0%)`);
-  assert.equal(totalQuestions, 190, "Exact 190 Part 1 questions verified");
+  assert.equal(totalQuestions, 195, "Exact 195 Part 1 questions verified");
 
   console.log("✅ [TEST 31 PASSED] Listening Part 1 Precision Boundary & 2s Pre/Post-Roll Tests PASSED!\n");
   return true;

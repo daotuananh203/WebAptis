@@ -70,13 +70,13 @@ export function runListeningPart1ContentCompletenessTests(): boolean {
     }
   }
 
-  console.log(`  ✓ Total Canonical Questions Audited: ${totalQuestions} / 190`);
-  console.log(`  ✓ Total Physical Segments on Disk:   ${totalPhysicalSegments} / 190`);
-  console.log(`  ✓ Total Full Content Complete Items: ${totalContentVerified} / 190 (100.0%)`);
+  console.log(`  ✓ Total Canonical Questions Audited: ${totalQuestions} / 195`);
+  console.log(`  ✓ Total Physical Segments on Disk:   ${totalPhysicalSegments} / 195`);
+  console.log(`  ✓ Total Full Content Complete Items: ${totalContentVerified} / 195 (100.0%)`);
 
-  assert.equal(totalQuestions, 190, "Exact 190 canonical Part 1 questions must be present");
-  assert.equal(totalPhysicalSegments, 190, "Exact 190 physical segment files must exist on disk");
-  assert.equal(totalContentVerified, 190, "Exact 190 items must be full content verified complete");
+  assert.equal(totalQuestions, 195, "Exact 195 canonical Part 1 questions must be present");
+  assert.equal(totalPhysicalSegments, 195, "Exact 195 physical segment files must exist on disk");
+  assert.equal(totalContentVerified, 195, "Exact 195 items must be full content verified complete");
 
   console.log("✅ [TEST 32 PASSED] Listening Part 1 Full Content Completeness Tests PASSED!\n");
   return true;

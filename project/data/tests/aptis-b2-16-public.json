@@ -890,259 +890,364 @@
   },
   "listening": {
     "officialDurationMinutes": 40,
+    "audioUrl": "",
     "audio": {
-      "type": "full-test",
-      "url": "",
+      "type": "audio/mp3",
+      "url": "/audio/listening/aptis-b2-16.mp3",
       "status": "missing"
     },
-    "audioUrl": "",
     "parts": [
       {
         "partNumber": 1,
         "taskType": "information-recognition",
-        "instructions": "Listen to short audio recordings. For each recording, choose the correct answer (A, B, or C). You can listen to each recording up to two times.",
+        "instructions": "Bạn sẽ nghe 13 đoạn hội thoại hoặc thông báo ngắn. Với mỗi câu hỏi, chọn một đáp án đúng nhất (A, B hoặc C). Bạn được nghe 2 lần.",
         "audio": {
-          "type": "full-test",
-          "url": "",
+          "type": "audio/mp3",
+          "url": "/audio/listening/aptis-b2-16.mp3",
           "status": "missing"
         },
-        "audioUrl": "",
+        "playbackRules": {
+          "maxPlays": 2
+        },
         "tasks": [
           {
             "id": "t16_l1_q01",
             "questionNumber": 1,
-            "questionText": "Q1. Where is she taking the staff to?",
+            "questionText": "Where is she taking the staff to?",
             "options": [
               "To a different city",
               "To a different country",
               "To a village"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q02",
             "questionNumber": 2,
-            "questionText": "Q2. What time does the party start?",
+            "questionText": "What time does the party start?",
             "options": [
               "Five o’clock",
               "Four o’clock",
               "Three o’clock"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q03",
             "questionNumber": 3,
-            "questionText": "Q3. Which bus stop number is near the boy's house?",
+            "questionText": "Which bus stop number is near the boy's house?",
             "options": [
               "Ten",
               "Nine",
               "Eight"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q04",
             "questionNumber": 4,
-            "questionText": "Q4. Why can't he do that job today?",
+            "questionText": "Why can't he do that job today?",
             "options": [
               "He has another appointment",
               "He is sick",
               "He has to eat"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q05",
             "questionNumber": 5,
-            "questionText": "Q5. Which room will the director's presentation be in?",
+            "questionText": "Which room will the director's presentation be in?",
             "options": [
               "The main hall",
               "The lecture room",
               "The meeting room"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q06",
             "questionNumber": 6,
-            "questionText": "Q6. How much money is left in the kitchen?",
+            "questionText": "How much money is left in the kitchen?",
             "options": [
               "20 pounds",
               "10 pounds",
               "30 pounds"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q07",
             "questionNumber": 7,
-            "questionText": "Q7. What is the new medical center next to?",
+            "questionText": "What is the new medical center next to?",
             "options": [
-              "A bus station",
+              "bus station",
               "Train station",
               "An airport"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q08",
             "questionNumber": 8,
-            "questionText": "Q8. What time do they arrange the meeting?",
+            "questionText": "What time do they arrange the meeting?",
             "options": [
               "5:30 pm",
               "4:00 pm",
               "4:30 pm"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q09",
             "questionNumber": 9,
-            "questionText": "Q9. Which floor is the French class on?",
+            "questionText": "Which floor is the French class on?",
             "options": [
               "On the ground floor",
               "On the third floor",
               "On the second floor"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q10",
             "questionNumber": 10,
-            "questionText": "Q10. The man has a new job. How many days does he have to work?",
+            "questionText": "The man has a new job. How many days does he have to work?",
             "options": [
               "Five days",
               "Three days",
               "Four days"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q11",
             "questionNumber": 11,
-            "questionText": "Q11. What is this man going to do?",
+            "questionText": "What is this man going to do?",
             "options": [
               "Eat something",
               "Go to sleep",
               "Get something to drink"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q12",
             "questionNumber": 12,
-            "questionText": "Q12. What time is dinner?",
+            "questionText": "What time is dinner?",
             "options": [
               "8:30 pm",
               "7:30 pm",
               "9:30 pm"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           },
           {
             "id": "t16_l1_q13",
             "questionNumber": 13,
-            "questionText": "Q13. How much does a bus card cost?",
+            "questionText": "How much does a bus card cost?",
             "options": [
               "$20",
               "$10",
               "$30"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "audioSegmentStatus": "NOT_VERIFIED",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "audioUrl": "",
-            "source": "Edulife",
-            "sourceFile": "Đề 16 - Aptis.docx"
+            "playbackRules": {
+              "maxPlays": 2
+            }
           }
         ]
       },
       {
         "partNumber": 2,
         "taskType": "speaker-information-matching",
-        "instructions": "Listen to four people talking about a common topic. For each speaker, choose the statement that best matches their opinion from the list.",
-        "topic": "Shared Topic Discussion (Test 16)",
+        "instructions": "Bạn sẽ nghe 4 người nói về một chủ đề. Ghép mỗi người nói (Speaker A, B, C, D) với ý kiến/thông tin phù hợp.",
+        "topic": "Chủ đề thảo luận",
         "audio": {
-          "type": "full-test",
-          "url": "",
+          "type": "audio/mp3",
+          "mappingType": "MISSING",
+          "url": "/audio/listening/aptis-b2-16.mp3",
           "status": "missing"
         },
-        "audioUrl": "",
         "playbackRules": {
           "maxPlays": 2
         },
@@ -1151,36 +1256,60 @@
             "id": "t16_l2_spk_1",
             "speakerLabel": "Speaker A",
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             }
           },
           {
             "id": "t16_l2_spk_2",
             "speakerLabel": "Speaker B",
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             }
           },
           {
             "id": "t16_l2_spk_3",
             "speakerLabel": "Speaker C",
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             }
           },
           {
             "id": "t16_l2_spk_4",
             "speakerLabel": "Speaker D",
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             }
           }
         ],
@@ -1214,105 +1343,133 @@
       {
         "partNumber": 3,
         "taskType": "opinion-discussion",
-        "instructions": "Listen to two people discussing a topic. Read the opinions below and decide whose opinion matches each statement (Man, Woman, or Both).",
+        "instructions": "Bạn sẽ nghe một cuộc thảo luận giữa một người nam và một người nữ. Với mỗi nhận định (1-4), chọn xem ý kiến đó là của Man, Woman hay Both.",
+        "topic": "Quan điểm thảo luận",
         "audio": {
-          "type": "full-test",
-          "url": "",
+          "type": "audio/mp3",
+          "mappingType": "MISSING",
+          "url": "/audio/listening/aptis-b2-16.mp3",
           "status": "missing"
         },
-        "audioUrl": "",
         "playbackRules": {
           "maxPlays": 2
         },
-        "topic": "Listen to two people discussing potential modifications to the topic above. Read the statements and decide whose opinion matches best: the man's, the woman's, or both. Who expresses which opinion?",
         "statements": [
           {
             "id": "t16_l3_stmt_1",
-            "statementText": "1. Children are interested in technology-based learning.",
+            "statementText": "Children are interested in technology-based learning.",
             "options": [
               "Man",
               "Woman",
               "Both"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
-            },
-            "audioUrl": ""
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
+            }
           },
           {
             "id": "t16_l3_stmt_2",
-            "statementText": "man B. woman C. both",
+            "statementText": "Children have trouble communicating offline.",
             "options": [
               "Man",
               "Woman",
               "Both"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
-            },
-            "audioUrl": ""
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
+            }
           },
           {
             "id": "t16_l3_stmt_3",
-            "statementText": "2. Children have trouble communicating offline.",
+            "statementText": "Families need help managing technology.",
             "options": [
               "Man",
               "Woman",
               "Both"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
-            },
-            "audioUrl": ""
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
+            }
           },
           {
             "id": "t16_l3_stmt_4",
-            "statementText": "man B. woman C.both",
+            "statementText": "Children can learn to regulate their online interactions.",
             "options": [
               "Man",
               "Woman",
               "Both"
             ],
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
-            },
-            "audioUrl": ""
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
+            }
           }
         ]
       },
       {
         "partNumber": 4,
         "taskType": "extended-monologue",
-        "instructions": "Listen to the extended monologues and answer the comprehension questions.",
+        "instructions": "Bạn sẽ nghe 2 bài nói ngắn (Monologue 1 & Monologue 2). Mỗi bài có 2 câu hỏi trắc nghiệm.",
         "audio": {
-          "type": "full-test",
-          "url": "",
+          "type": "audio/mp3",
+          "mappingType": "MISSING",
+          "url": "/audio/listening/aptis-b2-16.mp3",
           "status": "missing"
         },
-        "audioUrl": "",
+        "playbackRules": {
+          "maxPlays": 2
+        },
         "monologues": [
           {
-            "id": "t16_l4_mono_1",
-            "topic": "Q16. Listen to a peson talking about Business Strategy. Choose the correct answers.",
+            "id": "t16_l4_m1",
+            "topic": "talking about Business Strategy",
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "audioUrl": "",
             "questions": [
               {
                 "id": "t16_l4_m1_q1",
                 "questionNumber": 1,
-                "questionText": "16.1. Why is identifying the correct market so important for a company?",
+                "questionText": "Why is identifying the correct market so important for a company?",
                 "options": [
                   "It provides a justification for lowering product standards to maximize profit.",
                   "It guarantees that the business will operate without any rival firms.",
@@ -1322,7 +1479,7 @@
               {
                 "id": "t16_l4_m1_q2",
                 "questionNumber": 2,
-                "questionText": "16.2 According to the passage, what is the significance of 'profitability'?",
+                "questionText": "According to the passage, what is the significance of 'profitability'?",
                 "options": [
                   "It proves the company can cover costs and create opportunities for future growth.",
                   "It signals that the company has no further need for market research.",
@@ -1332,19 +1489,24 @@
             ]
           },
           {
-            "id": "t16_l4_mono_2",
-            "topic": "Q17. Listen to a person talking about Productivity. Choose the correct answers.",
+            "id": "t16_l4_m2",
+            "topic": "talking about Productivity",
             "audio": {
-              "type": "full-test",
-              "url": "",
-              "status": "missing"
+              "type": "audio/mp3",
+              "mappingType": "MISSING",
+              "url": "/audio/listening/aptis-b2-16.mp3",
+              "status": "missing",
+              "verification": {
+                "evidence": "No source recording available",
+                "contextSufficient": false,
+                "recordingBoundaryVerified": false
+              }
             },
-            "audioUrl": "",
             "questions": [
               {
                 "id": "t16_l4_m2_q1",
-                "questionNumber": 1,
-                "questionText": "17.1 How can productivity be maximized?",
+                "questionNumber": 3,
+                "questionText": "How can productivity be maximized?",
                 "options": [
                   "By avoiding all distractions completely",
                   "By working longer hours each day",
@@ -1353,8 +1515,8 @@
               },
               {
                 "id": "t16_l4_m2_q2",
-                "questionNumber": 2,
-                "questionText": "17.2 What is the problem with productivity strategies?",
+                "questionNumber": 4,
+                "questionText": "What is the problem with productivity strategies?",
                 "options": [
                   "They are too expensive to implement",
                   "Using them effectively requires effort",

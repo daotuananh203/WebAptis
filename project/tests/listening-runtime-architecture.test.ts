@@ -94,12 +94,12 @@ export function runListeningRuntimeArchitectureTests(): boolean {
     if (p.audio) assert.equal(p.audio.status, "missing");
   }
 
-  console.log(`  ✓ Total Question-Level Part 1 Audios: ${totalP1Questions} / 190 (100.0%)`);
+  console.log(`  ✓ Total Question-Level Part 1 Audios: ${totalP1Questions} / 195 (100.0%)`);
   console.log(`  ✓ Total Part-Level Audios (Parts 2, 3, 4): ${totalPartLevelAudios} / 45 (100.0%)`);
   console.log(`  ✓ Practice Mode & Full Mock Test Section Equivalence Confirmed`);
   console.log(`  ✓ Test 16 Missing Audio Policy Strictly Enforced`);
 
-  assert.equal(totalP1Questions, 190, "Exact 190 Part 1 question audios verified");
+  assert.equal(totalP1Questions, 195, "Exact 195 Part 1 question audios verified");
   assert.equal(totalPartLevelAudios, 45, "Exact 45 Part-level audios verified (15 tests × 3 parts)");
 
   console.log("✅ [TEST 33 PASSED] Listening Runtime Architecture Consolidation Tests PASSED!\n");
