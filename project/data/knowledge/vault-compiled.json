@@ -1,0 +1,1139 @@
+{
+  "version": "1.0.0",
+  "compiledAt": "2026-08-25T03:14:33.459Z",
+  "totalNotes": 65,
+  "items": [
+    {
+      "id": "obs-00-dashboard-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "Aptis AI Knowledge Brain — Five-Skill Architecture Dashboard",
+      "summary": "Chào mừng đến với **Aptis AI Knowledge Brain** của hệ thống **WebAptis B2**. Knowledge Brain là cơ sở tri thức học thuật chuẩn hóa, độc lập và toàn diện, đóng vai trò làm bộ não cho **AI Tutor (Lexi AI Coach)** và **AI Examiner** của nền tảng WebAptis B2. > [!IMPORTANT] > **Phân...",
+      "content": "# 🧠 Aptis AI Knowledge Brain — Five-Skill Architecture Dashboard\n\nChào mừng đến với **Aptis AI Knowledge Brain** của hệ thống **WebAptis B2**.\nKnowledge Brain là cơ sở tri thức học thuật chuẩn hóa, độc lập và toàn diện, đóng vai trò làm bộ não cho **AI Tutor (Lexi AI Coach)** và **AI Examiner** của nền tảng WebAptis B2.\n\n> [!IMPORTANT]\n> **Phân định kiến trúc cốt lõi:**\n> - **Knowledge Brain (`Aptis-AI-Brain/`):** Lưu trữ lý thuyết giảng dạy, chiến thuật làm bài, từ điển collocations, tiêu chí chấm điểm (Rubrics), chẩn đoán lỗi sai và mẫu bài chuẩn.\n> - **Exam Runtime (`project/data/`):** Lưu trữ 16 bộ đề thi thử, server answer keys và dữ liệu phiên thi.",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "00 Dashboard.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-00-system-answer-policy-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "Answer Policy — Tiêu Chuẩn Câu Trả Lời Của AI Tutor",
+      "summary": "AI Tutor (Lexi AI Coach) khi tương tác với học viên phải tuân thủ nghiêm ngặt các tiêu chuẩn chất lượng câu trả lời sau:...",
+      "content": "# 🎯 Answer Policy — Tiêu Chuẩn Câu Trả Lời Của AI Tutor\r\n\r\nAI Tutor (Lexi AI Coach) khi tương tác với học viên phải tuân thủ nghiêm ngặt các tiêu chuẩn chất lượng câu trả lời sau:",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Answer Policy.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-00-system-brain-rules-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "Brain Rules — Quy Tắc Cốt Lõi Của Aptis AI Knowledge Brain",
+      "summary": "Quy tắc này điều chỉnh mọi hành vi tạo lập, quản lý và truy xuất tri thức trong Obsidian Knowledge Brain dành cho AI Tutor của WebAptis....",
+      "content": "# 📜 Brain Rules — Quy Tắc Cốt Lõi Của Aptis AI Knowledge Brain\r\n\r\nQuy tắc này điều chỉnh mọi hành vi tạo lập, quản lý và truy xuất tri thức trong Obsidian Knowledge Brain dành cho AI Tutor của WebAptis.",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Brain Rules.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-00-system-evaluation-note-template-md",
+      "skill": "Writing",
+      "category": "B2 Language Tips",
+      "topic": "Tiêu Chí Đánh Giá: [Tên Nhiệm Vụ / Kỹ Năng]",
+      "summary": "| Tiêu chí | Trọng số | Mô tả mức Đạt (Band B2) | Mô tả mức Dưới B2 (Band B1/A2) | | :...",
+      "content": "# Tiêu Chí Đánh Giá: [Tên Nhiệm Vụ / Kỹ Năng]\r\n\r\n## 1. Khung Tiêu Chí Đánh Giá (Assessment Criteria)\r\n\r\n| Tiêu chí | Trọng số | Mô tả mức Đạt (Band B2) | Mô tả mức Dưới B2 (Band B1/A2) |\r\n| :",
+      "tags": [
+        "writing",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Evaluation Note Template.md",
+      "sourceName": "Edulife Edulife / British Council",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-00-system-knowledge-note-template-md",
+      "skill": "Grammar",
+      "part": "general",
+      "category": "B2 Language Tips",
+      "topic": "Tên Chủ Đề / Topic Title",
+      "summary": "Mô tả rõ ràng, mạch lạc bản chất kiến thức, công thức ngữ pháp hoặc phạm trù từ vựng.   $$ \\text{Công thức hoặc bảng quy tắc} $$  - **Khẳng định:** `S + V...` - **Phủ định:** `S + do/does/did not + V...` - **Nghi vấn:** `Do/Does/Did + S + V...?`   - **Ví dụ chuẩn:** *Sh...",
+      "content": "# Tên Chủ Đề / Topic Title\r\n\r\n## 1. Giải Thích Khái Niệm / Explanation\r\nMô tả rõ ràng, mạch lạc bản chất kiến thức, công thức ngữ pháp hoặc phạm trù từ vựng.\r\n\r\n## 2. Công Thức & Quy Tắc / Formulas & Rules\r\n$$ \\text{Công thức hoặc bảng quy tắc} $$\r\n\r\n- **Khẳng định:** `S + V...`\r\n- **Phủ định:** `S + do/does/did not + V...`\r\n- **Nghi vấn:** `Do/Does/Did + S + V...?`\r\n\r\n## 3. Ví Dụ Minh Họa / Examples\r\n- **Ví dụ chuẩn:** *She has been living in London for three years.*\r\n- **Phân tích:** Diễn tả hành động bắt đầu trong quá khứ và vẫn tiếp diễn ở hiện tại.\r\n\r\n## 4. Lỗi Sai Thường Gặp / Common Mistakes\r\n> [!WARNING]\r\n> - ❌ *Incorrect:* She live here since 2020.\r\n> - ✅ *Correct:* She has lived / has been living here since 2020.\r\n\r\n## 5. Ứng Dụng Trong Bài Thi Aptis / Aptis Relevance\r\n- **Dạng bài xuất hiện:** Thường gặp trong Grammar câu 1-25 hoặc Speaking Part 1 khi kể về trải nghiệm bản thân.\r\n- **Chiến thuật:** Chú ý các trạng từ chỉ thời gian (`since`, `for`, `already`, `yet`).\r\n\r\n## 6. Ghi Chú Liên Quan / Related Notes\r\n- [[02_Grammar/Tenses/Present Perfect]]\r\n- [[08_Teaching-Materials/Grammar/Edulife B1-B2 Theory Textbook]]\r\n\r\n## 7. Nguồn Tham Chiếu / Source\r\n- **Tài liệu:** `B1 - LÝ THUYẾT (1).pdf` (Trang XX)\r\n- **Đơn vị phát hành:** Edulife",
+      "tags": [
+        "grammar",
+        "b2-language-tips",
+        "partgeneral",
+        "part-general",
+        "present perfect",
+        "edulife b1-b2 theory textbook"
+      ],
+      "sourceFile": "Knowledge Note Template.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-00-system-retrieval-policy-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "Retrieval Policy — Quy Tắc Truy Xuất Tri Thức Cho AI Tutor",
+      "summary": "Quy chuẩn này xác định luồng xử lý và truy xuất thông tin từ Obsidian Knowledge Brain sang AI Tutor....",
+      "content": "# 🔍 Retrieval Policy — Quy Tắc Truy Xuất Tri Thức Cho AI Tutor\r\n\r\nQuy chuẩn này xác định luồng xử lý và truy xuất thông tin từ Obsidian Knowledge Brain sang AI Tutor.",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Retrieval Policy.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-00-system-source-policy-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "Source Policy — Chính Sách Nguồn Tri Thức",
+      "summary": "Knowledge Brain thiết lập thứ tự ưu tiên và phân loại nguồn tài liệu rõ ràng nhằm đảm bảo độ tin cậy học thuật cao nhất....",
+      "content": "# 📚 Source Policy — Chính Sách Nguồn Tri Thức\r\n\r\nKnowledge Brain thiết lập thứ tự ưu tiên và phân loại nguồn tài liệu rõ ràng nhằm đảm bảo độ tin cậy học thuật cao nhất.",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Source Policy.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-01-exam-exam-format-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "Cấu Trúc Tổng Quan Bài Thi Aptis ESOL B2",
+      "summary": "Bài thi **Aptis ESOL** đánh giá toàn diện 4 kỹ năng ngôn ngữ kết hợp với phần Ngữ pháp & Từ vựng cốt lõi.  | Phần thi | Thời gian | Số lượng câu hỏi / Nhiệm vụ | Thang điểm | | :...",
+      "content": "# 📋 Cấu Trúc Tổng Quan Bài Thi Aptis ESOL B2\r\n\r\nBài thi **Aptis ESOL** đánh giá toàn diện 4 kỹ năng ngôn ngữ kết hợp với phần Ngữ pháp & Từ vựng cốt lõi.\r\n\r\n| Phần thi | Thời gian | Số lượng câu hỏi / Nhiệm vụ | Thang điểm |\r\n| :",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Exam Format.md",
+      "sourceName": "Edulife British Council / Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-01-exam-grammar-vocabulary-md",
+      "skill": "Grammar",
+      "category": "B2 Language Tips",
+      "topic": "Cấu Trúc Phần Thi Grammar & Vocabulary",
+      "summary": "- **Thời gian:** 25 phút - **Tổng số câu:** 50 câu (25 câu Ngữ pháp + 25 câu Từ vựng) - **Thang điểm:** 50 điểm (Chiếm vai trò cân bằng band CEFR tổng)...",
+      "content": "# 📝 Cấu Trúc Phần Thi Grammar & Vocabulary\r\n\r\n- **Thời gian:** 25 phút\r\n- **Tổng số câu:** 50 câu (25 câu Ngữ pháp + 25 câu Từ vựng)\r\n- **Thang điểm:** 50 điểm (Chiếm vai trò cân bằng band CEFR tổng)",
+      "tags": [
+        "grammar",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Grammar & Vocabulary.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-01-exam-listening-md",
+      "skill": "Listening",
+      "category": "B2 Language Tips",
+      "topic": "Cấu Trúc Phần Thi Listening (Nghe Hiểu)",
+      "summary": "- **Thời gian:** ~40 phút - **Số lượng Part:** 4 Parts (24-25 câu hỏi) - **Thang điểm:** 50 điểm - **Quy tắc phát âm:** Mỗi đoạn ghi âm trong Part 1 được nghe tối đa 2 lần....",
+      "content": "# 🎧 Cấu Trúc Phần Thi Listening (Nghe Hiểu)\r\n\r\n- **Thời gian:** ~40 phút\r\n- **Số lượng Part:** 4 Parts (24-25 câu hỏi)\r\n- **Thang điểm:** 50 điểm\r\n- **Quy tắc phát âm:** Mỗi đoạn ghi âm trong Part 1 được nghe tối đa 2 lần.",
+      "tags": [
+        "listening",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Listening.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-01-exam-reading-md",
+      "skill": "Reading",
+      "category": "B2 Language Tips",
+      "topic": "Cấu Trúc Phần Thi Reading (Đọc Hiểu)",
+      "summary": "- **Thời gian:** 35 phút - **Số lượng Part:** 4 Parts (29 câu hỏi) - **Thang điểm:** 50 điểm...",
+      "content": "# 📖 Cấu Trúc Phần Thi Reading (Đọc Hiểu)\r\n\r\n- **Thời gian:** 35 phút\r\n- **Số lượng Part:** 4 Parts (29 câu hỏi)\r\n- **Thang điểm:** 50 điểm",
+      "tags": [
+        "reading",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Reading.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-01-exam-speaking-md",
+      "skill": "Speaking",
+      "category": "B2 Language Tips",
+      "topic": "Cấu Trúc Phần Thi Speaking (Kỹ Năng Nói)",
+      "summary": "- **Thời gian:** ~12 phút - **Số lượng Part:** 4 Parts - **Thang điểm:** 50 điểm...",
+      "content": "# 🗣️ Cấu Trúc Phần Thi Speaking (Kỹ Năng Nói)\r\n\r\n- **Thời gian:** ~12 phút\r\n- **Số lượng Part:** 4 Parts\r\n- **Thang điểm:** 50 điểm",
+      "tags": [
+        "speaking",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Speaking.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-01-exam-writing-md",
+      "skill": "Writing",
+      "category": "B2 Language Tips",
+      "topic": "Cấu Trúc Phần Thi Writing (Kỹ Năng Viết)",
+      "summary": "- **Thời gian:** 50 phút - **Số lượng Part:** 4 Parts - **Thang điểm:** 50 điểm...",
+      "content": "# ✍️ Cấu Trúc Phần Thi Writing (Kỹ Năng Viết)\r\n\r\n- **Thời gian:** 50 phút\r\n- **Số lượng Part:** 4 Parts\r\n- **Thang điểm:** 50 điểm",
+      "tags": [
+        "writing",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Writing.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-02-grammar-conditionals-conditional-sentences-md",
+      "skill": "Grammar",
+      "category": "Grammar",
+      "topic": "Câu Điều Kiện (Conditional Sentences)",
+      "summary": "| Loại | Mệnh đề IF | Mệnh đề chính (Main Clause) | Ý nghĩa | | :...",
+      "content": "# Câu Điều Kiện (Conditional Sentences)\r\n\r\n## 1. Bảng Tổng Hợp 3 Loại Câu Điều Kiện\r\n\r\n| Loại | Mệnh đề IF | Mệnh đề chính (Main Clause) | Ý nghĩa |\r\n| :",
+      "tags": [
+        "grammar"
+      ],
+      "sourceFile": "23-grammar.pptx & B1 - LÝ THUYẾT (1).pdf",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-02-grammar-modals-modal-verbs-deductions-md",
+      "skill": "Grammar",
+      "category": "Grammar",
+      "topic": "Động Từ Khuyết Thiếu & Suy Đoán Logic (Modal Verbs & Deductions)",
+      "summary": "* **Chắc chắn 100% là đúng:** `Must + V-inf` (Hiện tại) / `Must + have + V3/ed` (Quá khứ).   * *He has been working for 12 hours. He must be exhausted.*   * *The lights were off and nobody answered. They must have left.* * **Chắc chắn 100% là không thể xảy ra:** `Cannot / Can'...",
+      "content": "# Động Từ Khuyết Thiếu & Suy Đoán Logic (Modal Verbs & Deductions)\r\n\r\n## 1. Động Từ Khuyết Thiếu Chỉ Mức Độ Chắc Chắn (Deduction & Speculation)\r\n* **Chắc chắn 100% là đúng:** `Must + V-inf` (Hiện tại) / `Must + have + V3/ed` (Quá khứ).\r\n  * *He has been working for 12 hours. He must be exhausted.*\r\n  * *The lights were off and nobody answered. They must have left.*\r\n* **Chắc chắn 100% là không thể xảy ra:** `Cannot / Can't + V-inf` / `Can't + have + V3/ed`.\r\n  * *She just ate lunch. She can't be hungry.*\r\n  * *He was in London yesterday. He couldn't have committed the crime in Tokyo.*\r\n* **Khả năng 50% (Có thể đúng):** `May / Might / Could + V-inf` / `May / Might / Could + have + V3/ed`.\r\n  * *Take an umbrella; it might rain later.*\r\n\r\n## 2. Khuyên Nhủ & Bổn Phận (Advice & Obligation)\r\n* **Nên / Lẽ ra nên làm (Hối tiếc quá khứ):** `Should + have + V3/ed` (Lẽ ra nên làm nhưng đã không làm).\r\n  * *You should have revised earlier for the Aptis exam.*\r\n* **Không cần thiết phải làm:** `Needn't have + V3/ed` (Đã làm nhưng thực ra không cần thiết) vs `Didn't need to + V` (Không cần làm và đã không làm).",
+      "tags": [
+        "grammar"
+      ],
+      "sourceFile": "APTIS/23-grammar.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-02-grammar-passive-passive-voice-md",
+      "skill": "Grammar",
+      "category": "Grammar",
+      "topic": "Câu Bị Động (Passive Voice)",
+      "summary": "$$ \\text{Active: } S + V + O \\longrightarrow \\text{Passive: } S_{new} + \\mathbf{be + V_{3/ed}} + (by + O_{new}) $$   1. **Quá khứ đơn:** `was / were + V3/ed` (*The event was broadcasted last month.*) 2. **Hiện tại hoàn thành:** `have / has + been + V3/ed` (*The bridge has bee...",
+      "content": "# Câu Bị Động (Passive Voice)\r\n\r\n## 1. Công Thức Tổng Quát\r\n$$ \\text{Active: } S + V + O \\longrightarrow \\text{Passive: } S_{new} + \\mathbf{be + V_{3/ed}} + (by + O_{new}) $$\r\n\r\n## 2. Các Dạng Bị Động Trọng Tâm Trong Aptis B2\r\n1. **Quá khứ đơn:** `was / were + V3/ed` (*The event was broadcasted last month.*)\r\n2. **Hiện tại hoàn thành:** `have / has + been + V3/ed` (*The bridge has been repaired.*)\r\n3. **Modal verbs bị động:** `modal + be + V3/ed` (*The rules must be followed.*)\r\n4. **Bị động tiếp diễn:** `is / are / was / were + being + V3/ed` (*The car is being fixed now.*)",
+      "tags": [
+        "grammar"
+      ],
+      "sourceFile": "23-grammar.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-02-grammar-relative-clauses-relative-clauses-pronouns-md",
+      "skill": "Grammar",
+      "category": "Grammar",
+      "topic": "Mệnh Đề Quan Hệ (Relative Clauses & Pronouns)",
+      "summary": "* **Mệnh đề quan hệ xác định (Defining):** Cần thiết để làm rõ danh từ đứng trước, không dùng dấu phẩy, có thể dùng *that* thay cho *who/which*. * **Mệnh đề quan hệ không xác định (Non-defining):** Bổ sung thông tin thêm, bắt buộc có dấu phẩy, **tuyệt đối không dùng that**, khôn...",
+      "content": "# Mệnh Đề Quan Hệ (Relative Clauses & Pronouns)\r\n\r\n## 1. Phân Biệt Mệnh Đề Xác Định & Không Xác Định\r\n* **Mệnh đề quan hệ xác định (Defining):** Cần thiết để làm rõ danh từ đứng trước, không dùng dấu phẩy, có thể dùng *that* thay cho *who/which*.\r\n* **Mệnh đề quan hệ không xác định (Non-defining):** Bổ sung thông tin thêm, bắt buộc có dấu phẩy, **tuyệt đối không dùng that**, không được lược bỏ đại từ quan hệ.\r\n  * *Dr. Smith, who delivered the keynote speech yesterday, is a world-renowned linguist.*\r\n\r\n## 2. Đại Từ & Trạng Từ Quan Hệ Đặc Biệt\r\n* **Whose + N:** Chỉ sở hữu (*The student whose essay won first prize was awarded a scholarship.*)\r\n* **Which thay cho cả mệnh đề phía trước:** Luôn có dấu phẩy đi trước (*He passed the exam with flying colours, which surprised everyone.*)\r\n* **Giới từ + Whom / Which:** Trong văn phong trang trọng (*The company for which she works... / The candidate to whom I spoke...*)",
+      "tags": [
+        "grammar"
+      ],
+      "sourceFile": "APTIS/23-grammar.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-02-grammar-tenses-present-perfect-md",
+      "skill": "Grammar",
+      "category": "Grammar",
+      "topic": "Thì Hiện Tại Hoàn Thành (Present Perfect Tense)",
+      "summary": "- **Khẳng định:** `S + have / has + V3/ed` - **Phủ định:** `S + have / has + not + V3/ed` - **Nghi vấn:** `Have / Has + S + V3/ed?`   1. **Diễn tả hành động xảy ra trong quá khứ kéo dài đến hiện tại:**      *I have lived in this city since 2018.* 2. **Diễn tả trải nghiệm, ...",
+      "content": "# Thì Hiện Tại Hoàn Thành (Present Perfect Tense)\r\n\r\n## 1. Công Thức (Form)\r\n- **Khẳng định:** `S + have / has + V3/ed`\r\n- **Phủ định:** `S + have / has + not + V3/ed`\r\n- **Nghi vấn:** `Have / Has + S + V3/ed?`\r\n\r\n## 2. Cách Dùng Trọng Tâm Trong Bài Thi Aptis B2\r\n1. **Diễn tả hành động xảy ra trong quá khứ kéo dài đến hiện tại:**  \r\n   *I have lived in this city since 2018.*\r\n2. **Diễn tả trải nghiệm, kinh nghiệm sống (đi kèm *ever, never*):**  \r\n   *Have you ever traveled abroad?*\r\n3. **Hành động vừa mới xảy ra hoặc đã hoàn tất để lại kết quả ở hiện tại:**  \r\n   *I have just finished my report.* / *I have already spent my allowance this month.*\r\n\r\n## 3. Dấu Hiệu Nhận Biết (Signal Words)\r\n`since`, `for`, `already`, `yet`, `just`, `ever`, `never`, `recently`, `so far`, `up to now`.\r\n\r\n## 4. Phân Biệt: Present Perfect vs Past Simple\r\n| Present Perfect | Past Simple |\r\n| :",
+      "tags": [
+        "grammar"
+      ],
+      "sourceFile": "23-grammar.pptx & B1 - LÝ THUYẾT (1).pdf",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-02-grammar-word-forms-phrasal-verbs-prepositions-md",
+      "skill": "Grammar",
+      "category": "Grammar",
+      "topic": "Cụm Động Từ & Giới Từ Đi Kèm (Phrasal Verbs & Prepositions)",
+      "summary": "- **take after:** giống ai về ngoại hình/tính cách (*She takes after her mother.*) - **take off:** cất cánh (máy bay) / cởi bỏ (quần áo, giày dép). - **take up:** bắt đầu một sở thích mới hoặc đảm nhận vị trí. - **depend on:** phụ thuộc, dựa vào (*You can always depend on us.*...",
+      "content": "# Cụm Động Từ & Giới Từ Đi Kèm (Phrasal Verbs & Prepositions)\r\n\r\n## 1. Các Cụm Động Từ Thường Gặp Trong Đề Thi Edulife\r\n- **take after:** giống ai về ngoại hình/tính cách (*She takes after her mother.*)\r\n- **take off:** cất cánh (máy bay) / cởi bỏ (quần áo, giày dép).\r\n- **take up:** bắt đầu một sở thích mới hoặc đảm nhận vị trí.\r\n- **depend on:** phụ thuộc, dựa vào (*You can always depend on us.*)\r\n- **look into:** điều tra, tìm hiểu nguyên nhân (*The police will look into the matter.*)\r\n- **call off:** hủy bỏ (*The football match was called off due to heavy rain.*)\r\n- **turn down:** từ chối lời mời hoặc giảm âm lượng.\r\n\r\n## 2. Giới Từ Đi Kèm Tính Từ Phổ Biến\r\n- *interested in*, *good at*, *famous for*, *satisfied with*, *keen on*, *worried about*.",
+      "tags": [
+        "grammar"
+      ],
+      "sourceFile": "23-grammar.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-03-vocabulary-collocations-essential-b2-collocations-md",
+      "skill": "Vocabulary",
+      "category": "Vocabulary",
+      "topic": "Danh Mục Collocations Aptis B2 Thiết Yếu",
+      "summary": "Cụm từ cố định (Collocations) chiếm vị trí quan trọng trong Dạng 4 phần thi Từ vựng và giúp tăng điểm tiêu chí Lexical Resource trong Writing & Speaking.   | Cụm từ Collocation | Nghĩa tiếng Việt | Ngữ cảnh ứng dụng | | :...",
+      "content": "# Danh Mục Collocations Aptis B2 Thiết Yếu\r\n\r\nCụm từ cố định (Collocations) chiếm vị trí quan trọng trong Dạng 4 phần thi Từ vựng và giúp tăng điểm tiêu chí Lexical Resource trong Writing & Speaking.\r\n\r\n## 1. Danh Mục Trích Xuất Từ Slide 24 Edulife\r\n| Cụm từ Collocation | Nghĩa tiếng Việt | Ngữ cảnh ứng dụng |\r\n| :",
+      "tags": [
+        "vocabulary"
+      ],
+      "sourceFile": "24-vocabulary.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-03-vocabulary-general-word-definitions-synonyms-md",
+      "skill": "Vocabulary",
+      "category": "Vocabulary",
+      "topic": "Bảng Từ Đồng Nghĩa & Định Nghĩa Từ Học Thuật B2",
+      "summary": "- **argue** $\\leftrightarrow$ **disagree** (tranh cãi, không đồng ý) - **swap** $\\leftrightarrow$ **exchange** (trao đổi, hoán đổi) - **collapse** $\\leftrightarrow$ **fall** (sụp đổ, rơi xuống) - **own** $\\leftrightarrow$ **possess** (sở hữu) - **occur** $\\leftrightarrow$ **h...",
+      "content": "# Bảng Từ Đồng Nghĩa & Định Nghĩa Từ Học Thuật B2\r\n\r\n## 1. Cặp Từ Đồng Nghĩa Trọng Tâm (Synonyms Matching)\r\n- **argue** $\\leftrightarrow$ **disagree** (tranh cãi, không đồng ý)\r\n- **swap** $\\leftrightarrow$ **exchange** (trao đổi, hoán đổi)\r\n- **collapse** $\\leftrightarrow$ **fall** (sụp đổ, rơi xuống)\r\n- **own** $\\leftrightarrow$ **possess** (sở hữu)\r\n- **occur** $\\leftrightarrow$ **happen** (xảy ra)\r\n- **utilize** $\\leftrightarrow$ **use** (sử dụng, tận dụng)\r\n- **conceal** $\\leftrightarrow$ **hide** (che giấu)\r\n- **inspire** $\\leftrightarrow$ **influence** (truyền cảm hứng, tác động)\r\n\r\n## 2. Định Nghĩa Từ Thông Dụng (Definitions)\r\n- **improve:** *To get better at doing something.*\r\n- **assist:** *To help someone complete a task.*\r\n- **employ:** *To give someone a paid job.*\r\n- **earn:** *To receive money in return for work.*\r\n- **hesitate:** *To pause before saying or doing something because of uncertainty.*",
+      "tags": [
+        "vocabulary"
+      ],
+      "sourceFile": "24-vocabulary.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-03-vocabulary-topics-topic-vocabulary-semantic-fields-md",
+      "skill": "Vocabulary",
+      "category": "Vocabulary",
+      "topic": "Từ Vựng Theo Chủ Điểm Aptis B2 (Topic Vocabulary)",
+      "summary": "* *Occupation, career prospects, vocational training, formal qualification, curriculum, tuition fees, internship, apprenticeship, corporate culture, work-life balance.*   * *Renewable energy, carbon footprint, ecological conservation, sustainable development, biodiversity, cut...",
+      "content": "# Từ Vựng Theo Chủ Điểm Aptis B2 (Topic Vocabulary)\r\n\r\n## 1. Chủ Điểm Công Việc & Giáo Dục (Work & Education)\r\n* *Occupation, career prospects, vocational training, formal qualification, curriculum, tuition fees, internship, apprenticeship, corporate culture, work-life balance.*\r\n\r\n## 2. Chủ Điểm Môi Trường & Công Nghệ (Environment & Technology)\r\n* *Renewable energy, carbon footprint, ecological conservation, sustainable development, biodiversity, cutting-edge technology, artificial intelligence, automated systems, digital transformation.*\r\n\r\n## 3. Chủ Điểm Du Lịch & Đô Thị (Travel & Urban Living)\r\n* *Metropolitan area, public infrastructure, pedestrianized zone, historical heritage, breathtaking scenery, scenic landscape, cultural diversity, hospitality industry.*",
+      "tags": [
+        "vocabulary"
+      ],
+      "sourceFile": "APTIS/24-vocabulary.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-03-vocabulary-word-formation-prefixes-suffixes-word-families-md",
+      "skill": "Vocabulary",
+      "category": "Vocabulary",
+      "topic": "Cấu Tạo Từ: Tiền Tố, Hậu Tố & Họ Từ (Word Formation)",
+      "summary": "* `un- / in- / im- / il- / ir- / dis-`: *unprecedented, inaccessible, impossible, illiterate, irresponsible, dissatisfied*. * `mis-`: Sai lệch (*misinterpret, misunderstand, mislead*). * `over- / under-`: Quá mức / Thiếu (*overestimate, underprivileged, underestimated*).   *...",
+      "content": "# Cấu Tạo Từ: Tiền Tố, Hậu Tố & Họ Từ (Word Formation)\r\n\r\n## 1. Tiền Tố Phủ Định & Biến Đổi Nghĩa (Prefixes)\r\n* `un- / in- / im- / il- / ir- / dis-`: *unprecedented, inaccessible, impossible, illiterate, irresponsible, dissatisfied*.\r\n* `mis-`: Sai lệch (*misinterpret, misunderstand, mislead*).\r\n* `over- / under-`: Quá mức / Thiếu (*overestimate, underprivileged, underestimated*).\r\n\r\n## 2. Hậu Tố Tạo Danh Từ & Tính Từ (Suffixes)\r\n* Tạo danh từ chỉ hành động/trạng thái: `-tion, -sion, -ment, -ance, -ence, -ity` (*achievement, significance, reliability*).\r\n* Tạo tính từ: `-able, -ible, -al, -ive, -ous, -ful` (*sustainable, innovative, hazardous, comprehensive*).",
+      "tags": [
+        "vocabulary"
+      ],
+      "sourceFile": "APTIS/24-vocabulary.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-04-writing-overview-writing-overview-assessment-md",
+      "skill": "Writing",
+      "category": "Writing Strategy",
+      "topic": "Tổng Quan Kỹ Năng Viết Aptis B2 (Writing Overview)",
+      "summary": "- **Thời gian:** 50 phút - **Số phần thi:** 4 Parts (Form $\rightarrow$ Personal Response $\rightarrow$ Chatroom $\rightarrow$ 2 Emails) - **Tiêu chuẩn B2:** Thí sinh cần thể hiện khả năng chuyển đổi linh hoạt giữa văn phong thân mật (Informal) và trang trọng (Formal), kiểm soát t...",
+      "content": "# ✍️ Tổng Quan Kỹ Năng Viết Aptis B2 (Writing Overview)\r\n\r\n- **Thời gian:** 50 phút\r\n- **Số phần thi:** 4 Parts (Form $\rightarrow$ Personal Response $\rightarrow$ Chatroom $\rightarrow$ 2 Emails)\r\n- **Tiêu chuẩn B2:** Thí sinh cần thể hiện khả năng chuyển đổi linh hoạt giữa văn phong thân mật (Informal) và trang trọng (Formal), kiểm soát tốt ngữ pháp và vốn từ.",
+      "tags": [
+        "writing",
+        "writing-strategy"
+      ],
+      "sourceFile": "07. APTIS Writing.pptx & APTIS_WRITING PART 1&2&3.pdf",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-04-writing-part-1-part-1-form-filling-md",
+      "skill": "Writing",
+      "part": "Part 1",
+      "category": "Writing Strategy",
+      "topic": "Hướng Dẫn Kỹ Thuật Viết Writing Part 1: Điền Mẫu Đơn Cá Nhân (Form Filling)",
+      "summary": "* **Nhiệm vụ:** Hoàn thành 5 câu hỏi trong một biểu mẫu đăng ký thành viên câu lạc bộ hoặc dịch vụ. * **Độ dài quy định:** Mỗi câu trả lời từ **1 đến 5 từ** (1 - 5 words). * **Thời gian làm bài:** Không quá **3 phút**.   * **Độ chính xác chính tả:** Viết đúng chính tả các từ...",
+      "content": "# Hướng Dẫn Kỹ Thuật Viết Writing Part 1: Điền Mẫu Đơn Cá Nhân (Form Filling)\r\n\r\n## 1. Yêu Cầu Đề Thi\r\n* **Nhiệm vụ:** Hoàn thành 5 câu hỏi trong một biểu mẫu đăng ký thành viên câu lạc bộ hoặc dịch vụ.\r\n* **Độ dài quy định:** Mỗi câu trả lời từ **1 đến 5 từ** (1 - 5 words).\r\n* **Thời gian làm bài:** Không quá **3 phút**.\r\n\r\n## 2. Quy Tắc Chấm Điểm & Ngữ Pháp\r\n* **Độ chính xác chính tả:** Viết đúng chính tả các từ vựng cơ bản (nghề nghiệp, sở thích, thời gian, địa điểm).\r\n* **Không viết câu quá dài:** Trả lời trực tiếp vào trọng tâm câu hỏi, không viết câu ghép phức tạp vượt quá 5 từ.\r\n* **Viết hoa đúng quy định:** Viết hoa tên riêng, ngày trong tuần, tháng trong năm và đầu câu.\r\n\r\n## 3. Các Dạng Câu Hỏi Phổ Biến & Mẫu Trả Lời Chuẩn\r\n1. *What is your occupation?* $\rightarrow$ `I am a software engineer.` / `English teacher.` (3-4 từ).\r\n2. *What do you like to do in your free time?* $\rightarrow$ `Playing football and reading books.` (5 từ).\r\n3. *What is the weather like today?* $\rightarrow$ `It is sunny and warm.` (5 từ).\r\n4. *How do you travel to work/school?* $\rightarrow$ `By bus every day.` (4 từ).\r\n5. *Where do you live?* $\rightarrow$ `In a flat in Hanoi.` (5 từ).",
+      "tags": [
+        "writing",
+        "writing-strategy",
+        "partPart 1",
+        "part-Part 1"
+      ],
+      "sourceFile": "APTIS/Writing/08. Writing_Part 1.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-04-writing-part-2-part-2-short-personal-form-md",
+      "skill": "Writing",
+      "part": "Part 2",
+      "category": "Writing Strategy",
+      "topic": "Hướng Dẫn Kỹ Thuật Viết Writing Part 2: Điền Văn Bản Ngắn (Short Personal Form)",
+      "summary": "* **Nhiệm vụ:** Điền thông tin vào mẫu đơn bằng **các câu hoàn chỉnh** (full sentences). * **Độ dài quy định:** **20 - 30 từ** (20 - 30 words). * **Thời gian làm bài:** Không quá **7 phút**.   * **Cấu trúc ngữ pháp hoàn chỉnh:** Bắt buộc có đầy đủ Chủ ngữ + Vị ngữ (Subject +...",
+      "content": "# Hướng Dẫn Kỹ Thuật Viết Writing Part 2: Điền Văn Bản Ngắn (Short Personal Form)\r\n\r\n## 1. Yêu Cầu Đề Thi\r\n* **Nhiệm vụ:** Điền thông tin vào mẫu đơn bằng **các câu hoàn chỉnh** (full sentences).\r\n* **Độ dài quy định:** **20 - 30 từ** (20 - 30 words).\r\n* **Thời gian làm bài:** Không quá **7 phút**.\r\n\r\n## 2. Cấu Trúc Câu Chuẩn & Tiêu Chí Đánh Giá\r\n* **Cấu trúc ngữ pháp hoàn chỉnh:** Bắt buộc có đầy đủ Chủ ngữ + Vị ngữ (Subject + Verb + Object).\r\n* **Trả lời đúng trọng tâm:** Thường hỏi về lý do tham gia câu lạc bộ, trải nghiệm trong quá khứ hoặc mong đợi tương lai.\r\n* **Từ nối cơ bản:** Sử dụng các liên từ như *because*, *and*, *so*, *furthermore* để tạo câu ghép mượt mà đạt đúng 25-30 từ.\r\n\r\n## 3. Bài Mẫu Tham Khảo (Slide 15-20)\r\n* **Đề bài:** *Please explain why you want to join our Book Club and what kinds of books you enjoy.*\r\n* **Bài viết mẫu:**\r\n```text\r\nI would like to join this club because I am passionate about reading literature. \r\nI particularly enjoy historical fiction and mystery novels, and I hope to share ideas with other members. (30 words)\r\n```",
+      "tags": [
+        "writing",
+        "writing-strategy",
+        "partPart 2",
+        "part-Part 2"
+      ],
+      "sourceFile": "APTIS/Writing/09. Writing_Part 2.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-04-writing-part-3-part-3-social-network-chat-md",
+      "skill": "Writing",
+      "part": "Part 3",
+      "category": "Writing Strategy",
+      "topic": "Hướng Dẫn Kỹ Thuật Viết Writing Part 3: Hội Thoại Mạng Xã Hội (Social Network Chat)",
+      "summary": "* **Nhiệm vụ:** Trả lời 3 câu hỏi / tin nhắn từ 3 thành viên khác nhau trong phòng chat câu lạc bộ. * **Độ dài quy định:** Mỗi câu trả lời từ **30 đến 40 từ** (Tổng cộng ~90 - 120 từ cho cả 3 câu). * **Thời gian làm bài:** Khoảng **10 phút** (~3 phút cho mỗi câu).   * **Văn ...",
+      "content": "# Hướng Dẫn Kỹ Thuật Viết Writing Part 3: Hội Thoại Mạng Xã Hội (Social Network Chat)\r\n\r\n## 1. Yêu Cầu Đề Thi\r\n* **Nhiệm vụ:** Trả lời 3 câu hỏi / tin nhắn từ 3 thành viên khác nhau trong phòng chat câu lạc bộ.\r\n* **Độ dài quy định:** Mỗi câu trả lời từ **30 đến 40 từ** (Tổng cộng ~90 - 120 từ cho cả 3 câu).\r\n* **Thời gian làm bài:** Khoảng **10 phút** (~3 phút cho mỗi câu).\r\n\r\n## 2. Văn Phong & Tiêu Chí Đánh Giá\r\n* **Văn phong:** Bán trang trọng hoặc thân mật (Semi-formal / Informal), tự nhiên, lịch sự và thân thiện.\r\n* **Tương tác trực tiếp:** Bắt đầu bằng lời chào hoặc sự đồng cảm ngắn (*Hi Sam, I totally understand your feeling...*), sau đó trả lời trực tiếp câu hỏi và đưa ra lý do / cảm xúc cá nhân.\r\n* **Đa dạng thì động từ:** Kết hợp khéo léo giữa thì Hiện tại đơn, Quá khứ đơn và Hiện tại hoàn thành.\r\n\r\n## 3. Bài Mẫu 3 Câu Hỏi Phòng Chat\r\n1. **Câu 1 (Hỏi về cảm xúc khi tham gia):**\r\n   * *Hi! Welcome to the club. How did you feel when you attended your first session?*\r\n   * *Mẫu:* `Hi Sam! I felt really excited and a bit nervous during my first session. However, everyone was extremely welcoming and friendly, which helped me feel comfortable immediately.` (30 words)\r\n2. **Câu 2 (Hỏi về khó khăn hoặc ý kiến đóng góp):**\r\n   * *Mẫu:* `To be honest, finding suitable parking near the venue was somewhat challenging. I think the organizers should provide a map with nearby parking options for newcomers.` (27 words)\r\n3. **Câu 3 (Hỏi về sự kiện sắp tới):**\r\n   * *Mẫu:* `I am really looking forward to the upcoming workshop next weekend. It will be a wonderful opportunity to learn new skills and socialize with experienced members.` (27 words)",
+      "tags": [
+        "writing",
+        "writing-strategy",
+        "partPart 3",
+        "part-Part 3"
+      ],
+      "sourceFile": "APTIS/Writing/APTIS_WRITING PART 1&2&3.pdf",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-04-writing-part-4-part-4-informal-formal-emails-md",
+      "skill": "Writing",
+      "part": "4",
+      "category": "Writing Strategy",
+      "topic": "Hướng Dẫn Kỹ Thuật Viết Email Part 4 (Informal vs Formal)",
+      "summary": "Part 4 là phần chiếm trọng số điểm cao nhất trong bài thi Viết Aptis B2. Đề bài đưa ra một tình huống thay đổi hoặc sự cố của câu lạc bộ, yêu cầu viết 2 bức thư....",
+      "content": "# Hướng Dẫn Kỹ Thuật Viết Email Part 4 (Informal vs Formal)\r\n\r\nPart 4 là phần chiếm trọng số điểm cao nhất trong bài thi Viết Aptis B2. Đề bài đưa ra một tình huống thay đổi hoặc sự cố của câu lạc bộ, yêu cầu viết 2 bức thư.",
+      "tags": [
+        "writing",
+        "writing-strategy",
+        "part4",
+        "part-4"
+      ],
+      "sourceFile": "11. Writing_Part 4.pptx & APTIS_WRITING PART 4.pdf",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-05-speaking-overview-speaking-overview-assessment-md",
+      "skill": "Speaking",
+      "category": "Speaking Strategy",
+      "topic": "Tổng Quan Kỹ Năng Nói Aptis B2 (Speaking Overview)",
+      "summary": "- **Thời gian:** ~12 phút. - **Số phần thi:** 4 Parts (Ghi âm trực tiếp vào microphone máy tính). - **Tiêu chí chấm điểm cốt lõi:**   1. **Grammar & Accuracy:** Độ chính xác ngữ pháp.   2. **Vocabulary & Range:** Vốn từ vựng đa dạng và collocations.   3. **Fluency & Coherenc...",
+      "content": "# 🗣️ Tổng Quan Kỹ Năng Nói Aptis B2 (Speaking Overview)\r\n\r\n- **Thời gian:** ~12 phút.\r\n- **Số phần thi:** 4 Parts (Ghi âm trực tiếp vào microphone máy tính).\r\n- **Tiêu chí chấm điểm cốt lõi:**\r\n  1. **Grammar & Accuracy:** Độ chính xác ngữ pháp.\r\n  2. **Vocabulary & Range:** Vốn từ vựng đa dạng và collocations.\r\n  3. **Fluency & Coherence:** Độ trôi chảy, tốc độ nói tự nhiên, sử dụng từ nối.\r\n  4. **Pronunciation & Intonation:** Phát âm rõ ràng, có trọng âm và ngữ điệu.",
+      "tags": [
+        "speaking",
+        "speaking-strategy"
+      ],
+      "sourceFile": "02. Tổng quan Speaking.pptx & APTIS_SPEAKING PART 1&2.pdf",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-05-speaking-part-1-part-1-personal-information-md",
+      "skill": "Speaking",
+      "part": "Part 1",
+      "category": "Speaking Strategy",
+      "topic": "Hướng Dẫn Kỹ Thuật Speaking Part 1: Trả Lời Câu Hỏi Cá Nhân (Personal Information)",
+      "summary": "* **Nhiệm vụ:** Trả lời liên tiếp **3 câu hỏi** về bản thân, gia đình, công việc, sở thích, quê hương hoặc thói quen hàng ngày. * **Thời gian:** **30 giây** cho mỗi câu trả lời (Không có thời gian chuẩn bị riêng, bắt đầu nói ngay khi nghe tiếng bíp). * **Mục tiêu:** Thể hiện kh...",
+      "content": "# Hướng Dẫn Kỹ Thuật Speaking Part 1: Trả Lời Câu Hỏi Cá Nhân (Personal Information)\r\n\r\n## 1. Cấu Trúc Đề Thi\r\n* **Nhiệm vụ:** Trả lời liên tiếp **3 câu hỏi** về bản thân, gia đình, công việc, sở thích, quê hương hoặc thói quen hàng ngày.\r\n* **Thời gian:** **30 giây** cho mỗi câu trả lời (Không có thời gian chuẩn bị riêng, bắt đầu nói ngay khi nghe tiếng bíp).\r\n* **Mục tiêu:** Thể hiện khả năng phản xạ tự nhiên, phát âm rõ ràng và ngữ pháp chính xác ở các thì cơ bản.\r\n\r\n## 2. Công Thức Trả Lời Chuẩn 3 Bước (Phương Pháp Edulife)\r\n* **Bước 1 — Trả lời trực diện (Direct Answer):** Trả lời thẳng vào câu hỏi trong 1 câu (3-5 giây).\r\n* **Bước 2 — Mở rộng chi tiết (Extension & Details):** Cung cấp 1-2 câu giải thích lý do, ví dụ hoặc cảm xúc (15-20 giây).\r\n* **Bước 3 — Câu chốt hoặc tương lai (Conclusion):** Kết thúc ngắn gọn (3-5 giây).\r\n\r\n## 3. Các Chủ Điểm Câu Hỏi Thường Gặp & Mẫu Câu\r\n1. **Daily Routine / Work / Study:**\r\n   * *Prompt:* `Please tell me about your daily routine.`\r\n   * *Mẫu:* `Well, my day usually starts quite early at around 6:30 AM. After having a quick breakfast, I commute to my university by bus. In the afternoon, I spend a few hours in the library studying before returning home to relax with my family.` (~25s)\r\n2. **Hobbies & Leisure:**\r\n   * *Prompt:* `What kind of hobbies do you enjoy in your spare time?`\r\n   * *Mẫu:* `In my free time, I really enjoy playing acoustic guitar and reading science books. Playing music helps me unwind after stressful working hours, and I try to practice for at least thirty minutes every evening.` (~25s)\r\n3. **Hometown & Travel:**\r\n   * *Prompt:* `Tell me about your hometown.`\r\n   * *Mẫu:* `I was born and raised in Da Nang, which is a vibrant coastal city in central Vietnam. It is famous for its beautiful sandy beaches, friendly people, and delicious local cuisine like Quang noodles.` (~25s)\r\n\r\n## 4. Lưu Ý Quan Trọng\r\n* Không trả lời cộc lốc 1 câu (*Yes/No* hoặc chỉ 5 từ) rồi dừng lại. Cần nói đủ 22-26 giây.\r\n* Không dùng từ ngữ quá phức tạp nếu chưa chắc chắn về cách phát âm.",
+      "tags": [
+        "speaking",
+        "speaking-strategy",
+        "partPart 1",
+        "part-Part 1"
+      ],
+      "sourceFile": "APTIS/Speaking/03. Speaking_Part 1.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-05-speaking-part-2-part-2-picture-description-md",
+      "skill": "Speaking",
+      "part": "2",
+      "category": "Speaking Strategy",
+      "topic": "Hướng Dẫn Kỹ Thuật Miêu Tả Tranh Speaking Part 2",
+      "summary": "Áp dụng cấu trúc 4 bước **Overview $\rightarrow$ People $\rightarrow$ Action $\rightarrow$ Speculation**: 1. **Câu mở đầu (Overview):**      *In this photograph, I can see a group of young people enjoying outdoor activities.* 2. **Vị trí & Con người (Location & People):**      *...",
+      "content": "# Hướng Dẫn Kỹ Thuật Miêu Tả Tranh Speaking Part 2\r\n\r\n## 1. Công Thức Miêu Tả Ảnh 45 Giây (Q1)\r\nÁp dụng cấu trúc 4 bước **Overview $\rightarrow$ People $\rightarrow$ Action $\rightarrow$ Speculation**:\r\n1. **Câu mở đầu (Overview):**  \r\n   *In this photograph, I can see a group of young people enjoying outdoor activities.*\r\n2. **Vị trí & Con người (Location & People):**  \r\n   *In the foreground, there is a girl sitting on a boat deck, while in the background, scenic mountains are visible under a clear blue sky.*\r\n3. **Hành động & Trang phục (Actions & Clothing):**  \r\n   *She is wearing a casual t-shirt and sunglasses, holding a camera and smiling happily.*\r\n4. **Suy đoán cảm xúc / Không khí (Speculation):**  \r\n   *Judging by their cheerful facial expressions, they seem to be having a wonderful vacation together.*\r\n\r\n## 2. Câu 2 & Câu 3 (Kể lại trải nghiệm & Quan điểm xã hội)\r\n- **Câu 2 (Trải nghiệm cá nhân):** Sử dụng thì Quá khứ đơn và Quá khứ tiếp diễn (*Last summer, I had a memorable trip to Da Nang where I...*).\r\n- **Câu 3 (Quan điểm):** Đưa ra luận điểm rõ ràng kèm 2 lý do (*In my opinion, traveling with friends is much more enjoyable because...*).",
+      "tags": [
+        "speaking",
+        "speaking-strategy",
+        "part2",
+        "part-2"
+      ],
+      "sourceFile": "04. Speaking_Part 2.pptx & APTIS_SPEAKING PART 2(full).pdf",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-05-speaking-part-3-part-3-two-pictures-comparison-md",
+      "skill": "Speaking",
+      "part": "Part 3",
+      "category": "Speaking Strategy",
+      "topic": "Hướng Dẫn Kỹ Thuật Speaking Part 3: So Sánh 2 Bức Tranh Đối Lập (Picture Comparison)",
+      "summary": "* **Định dạng:** Màn hình hiển thị **2 bức tranh** đối lập về cùng một chủ đề (ví dụ: ăn tại nhà hàng sang trọng vs ăn thức ăn đường phố; học trực tuyến vs học tại lớp truyền thống; sống ở nông thôn vs sống ở thành thị). * **Nhiệm vụ:** Trả lời **3 câu hỏi liên tiếp**:   1. *Câ...",
+      "content": "# Hướng Dẫn Kỹ Thuật Speaking Part 3: So Sánh 2 Bức Tranh Đối Lập (Picture Comparison)\r\n\r\n## 1. Cấu Trúc Đề Thi\r\n* **Định dạng:** Màn hình hiển thị **2 bức tranh** đối lập về cùng một chủ đề (ví dụ: ăn tại nhà hàng sang trọng vs ăn thức ăn đường phố; học trực tuyến vs học tại lớp truyền thống; sống ở nông thôn vs sống ở thành thị).\r\n* **Nhiệm vụ:** Trả lời **3 câu hỏi liên tiếp**:\r\n  1. *Câu 1:* So sánh và đối chiếu 2 bức tranh (45 giây).\r\n  2. *Câu 2:* Trả lời câu hỏi mở rộng về ưu/nhược điểm hoặc trải nghiệm cá nhân (45 giây).\r\n  3. *Câu 3:* Bày tỏ quan điểm hoặc dự đoán xu hướng tương lai (45 giây).\r\n\r\n## 2. Khung So Sánh Chuẩn 45 Giây (Phương Pháp Edulife)\r\n* **0 - 10s (Điểm tương đồng & Tổng quan):** *Both pictures depict different ways of [topic], but they illustrate contrasting environments.*\r\n* **10 - 25s (Phân tích Bức tranh 1):** *In the first image on the left, I can see... which creates an atmosphere of...*\r\n* **25 - 40s (Đối chiếu Bức tranh 2 với từ nối tương phản):** *In stark contrast, the second picture portrays... which seems much more lively/convenient.*\r\n* **40 - 45s (Câu kết luận/cảm nhận):** *Overall, each option offers distinct advantages depending on individual preferences.*\r\n\r\n## 3. Các Cụm Từ Nối So Sánh - Đối Chiếu Band B2/C1\r\n* **Tương phản:** *While the first picture shows..., the second one illustrates... / In sharp contrast to picture A, picture B features... / On the one hand... on the other hand...*\r\n* **Tương đồng:** *Both images share the common theme of... / Similarly, we can observe that...*\r\n* **Suy đoán:** *The people in the left image seem to be enjoying..., whereas those in the right image appear more focused on...*",
+      "tags": [
+        "speaking",
+        "speaking-strategy",
+        "partPart 3",
+        "part-Part 3"
+      ],
+      "sourceFile": "APTIS/Speaking/05. Speaking_Part 3.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-05-speaking-part-4-part-4-abstract-topic-presentation-md",
+      "skill": "Speaking",
+      "part": "Part 4",
+      "category": "Speaking Strategy",
+      "topic": "Hướng Dẫn Kỹ Thuật Speaking Part 4: Bài Nói Trừu Tượng (Abstract Presentation)",
+      "summary": "* **Định dạng:** Một bức tranh chủ đề kèm theo **3 câu hỏi liên quan** xuất hiện cùng lúc trên màn hình. * **Thời gian:**   * **60 giây chuẩn bị (Preparation Time):** Đọc câu hỏi, ghi chú từ khóa (bullet points) vào giấy nháp.   * **120 giây nói liên tục (Speaking Time):** Trả...",
+      "content": "# Hướng Dẫn Kỹ Thuật Speaking Part 4: Bài Nói Trừu Tượng (Abstract Presentation)\r\n\r\n## 1. Cấu Trúc Đề Thi\r\n* **Định dạng:** Một bức tranh chủ đề kèm theo **3 câu hỏi liên quan** xuất hiện cùng lúc trên màn hình.\r\n* **Thời gian:**\r\n  * **60 giây chuẩn bị (Preparation Time):** Đọc câu hỏi, ghi chú từ khóa (bullet points) vào giấy nháp.\r\n  * **120 giây nói liên tục (Speaking Time):** Trả lời trọn vẹn cả 3 câu hỏi thành một bài nói mạch lạc.\r\n\r\n## 2. Chiến Thuật Ghi Chú 60 Giây & Phân Bổ Thời Gian 120 Giây\r\n* **Ghi chú 60s:** Không viết cả câu văn. Chỉ viết từ khóa (keywords) và từ nối (connectors) theo sơ đồ 3 nhánh (Q1, Q2, Q3).\r\n* **Phân bổ 120s nói:**\r\n  * **Mở đầu (10s):** Giới thiệu chủ đề chung.\r\n  * **Câu hỏi 1 — Kể lại trải nghiệm / Sự kiện trong quá khứ (35s):** Dùng thì Quá khứ đơn và Quá khứ tiếp diễn.\r\n  * **Câu hỏi 2 — Cảm xúc / Lý do tại sao (35s):** Dùng các tính từ chỉ cảm xúc và cấu trúc nguyên nhân.\r\n  * **Câu hỏi 3 — Tầm quan trọng đối với xã hội / Xu hướng tương lai (35s):** Dùng câu điều kiện hoặc thì tương lai, đánh giá đa chiều.\r\n  * **Kết bài (5s):** Tóm tắt thông điệp chính.\r\n\r\n## 3. Từ Nối Chuyển Đoạn Tự Nhiên\r\n* *Moving on to the second point regarding...*\r\n* *As for my personal feelings at that time...*\r\n* *Turning finally to the question of whether...*",
+      "tags": [
+        "speaking",
+        "speaking-strategy",
+        "partPart 4",
+        "part-Part 4"
+      ],
+      "sourceFile": "APTIS/Speaking/06. Speaking_Part 4.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-06-reading-overview-reading-overview-timing-md",
+      "skill": "Reading",
+      "category": "Reading Strategy",
+      "topic": "Tổng Quan Kỹ Năng Đọc Aptis B2 (Reading Overview)",
+      "summary": "- **Thời gian:** 35 phút - **Số phần thi:** 4 Parts (29 câu hỏi) - **Thang điểm:** 50 điểm...",
+      "content": "# 📖 Tổng Quan Kỹ Năng Đọc Aptis B2 (Reading Overview)\r\n\r\n- **Thời gian:** 35 phút\r\n- **Số phần thi:** 4 Parts (29 câu hỏi)\r\n- **Thang điểm:** 50 điểm",
+      "tags": [
+        "reading",
+        "reading-strategy"
+      ],
+      "sourceFile": "12. Reading Aptis - Tong quan.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-06-reading-part-1-part-1-sentence-completion-md",
+      "skill": "Reading",
+      "part": "Part 1",
+      "category": "Reading Strategy",
+      "topic": "Kỹ Thuật Làm Bài Reading Part 1: Hoàn Thành Câu (Sentence Completion)",
+      "summary": "* **Định dạng:** Hoàn thành một văn bản ngắn (thư, thông báo, lời nhắn) gồm 5 câu chứa chỗ trống. * **Hình thức lựa chọn:** Chọn 1 trong 3 phương án (3-option multiple choice) cho mỗi chỗ trống. * **Đặc điểm:** Mỗi câu đứng độc lập về mặt ngữ pháp nhưng nằm trong cùng một ngữ c...",
+      "content": "# Kỹ Thuật Làm Bài Reading Part 1: Hoàn Thành Câu (Sentence Completion)\r\n\r\n## 1. Cấu Trúc & Yêu Cầu Đề Thi\r\n* **Định dạng:** Hoàn thành một văn bản ngắn (thư, thông báo, lời nhắn) gồm 5 câu chứa chỗ trống.\r\n* **Hình thức lựa chọn:** Chọn 1 trong 3 phương án (3-option multiple choice) cho mỗi chỗ trống.\r\n* **Đặc điểm:** Mỗi câu đứng độc lập về mặt ngữ pháp nhưng nằm trong cùng một ngữ cảnh giao tiếp thường ngày.\r\n* **Thời gian khuyến nghị:** 3 - 4 phút.\r\n\r\n## 2. Chiến Thuật & Các Bước Làm Bài (Phương Pháp Edulife)\r\n1. **Bước 1 — Đọc lướt (Skimming):** Đọc câu mở đầu và toàn bộ văn bản để nắm người gửi, người nhận và mục đích chính của lời nhắn.\r\n2. **Bước 2 — Phân tích vị trí chỗ trống:** Xác định từ loại cần điền (danh từ, động từ, giới từ, liên từ hay phó từ).\r\n3. **Bước 3 — Xét ngữ pháp và Collocation:**\r\n   * Giới từ chỉ thời gian: *until 6:00pm* (cho đến khi), *on Monday*, *at 7 o'clock*.\r\n   * Cụm cố định: *do me a favour*, *make dinner*, *get pizza*, *eat out*, *let me know*.\r\n4. **Bước 4 — Loại trừ và chọn phương án:** Loại các phương án sai về kết hợp từ (collocation) hoặc không hợp ngữ cảnh.\r\n5. **Bước 5 — Đọc lại toàn văn:** Rà soát để đảm bảo thông điệp tự nhiên và trôi chảy.\r\n\r\n## 3. Phân Tích Đề Mẫu Giảng Dạy (Slide 08-10)\r\n```text\r\nHey Lewis,\r\nCan you (do) me a favour? I have a work meeting (until) 6:00pm. \r\nI won't be home on time to (make) dinner. Do you want to (get) pizza for dinner? \r\nWe could also eat (out) at that new Greek restaurant. \r\nLet me (know) what you decide.\r\nLove, Helen\r\n```\r\n* **Chỗ trống 1:** *until* — chỉ mốc thời gian kết thúc của cuộc họp.\r\n* **Chỗ trống 2:** *make dinner* — collocation chuẩn (không dùng *do dinner* hay *find dinner*).\r\n* **Chỗ trống 3:** *get pizza* — mang nghĩa mua/đặt đồ ăn nhanh.\r\n* **Chỗ trống 4:** *eat out* — phrasal verb mang nghĩa đi ăn nhà hàng bên ngoài.\r\n* **Chỗ trống 5:** *let me know* — cụm từ chỉ sự thông báo phản hồi.\r\n\r\n## 4. Các Bẫy Đề Thi & Lưu Ý Cần Tránh\r\n* **Bẫy Collocation:** Nhầm lẫn giữa *do* và *make* (*do homework/a favour* vs *make a cake/dinner/decision*).\r\n* **Bẫy Giới từ:** Nhầm giữa *on time* (đúng giờ) và *in time* (kịp giờ).\r\n* **Lưu ý:** Tuyệt đối không để trống câu hỏi nào vì không bị trừ điểm cho câu trả lời sai.",
+      "tags": [
+        "reading",
+        "reading-strategy",
+        "partPart 1",
+        "part-Part 1"
+      ],
+      "sourceFile": "APTIS/Reading/13. Reading Aptis - Part 1.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-06-reading-part-2-part-2-text-cohesion-paragraph-ordering-md",
+      "skill": "Reading",
+      "part": "Part 2",
+      "category": "Reading Strategy",
+      "topic": "Kỹ Thuật Làm Bài Reading Part 2: Sắp Xếp Trật Tự Câu (Text Cohesion)",
+      "summary": "* **Định dạng:** Gồm 2 bài tập độc lập, mỗi bài gồm 6 câu văn đã bị xáo trộn thứ tự. * **Cơ chế:** Câu số 1 (câu mở đầu) luôn được cố định sẵn làm mốc. Thí sinh sắp xếp 5 câu còn lại vào vị trí đúng. * **Mục tiêu đánh giá:** Khả năng nhận diện tính liên kết văn bản (cohesion), ...",
+      "content": "# Kỹ Thuật Làm Bài Reading Part 2: Sắp Xếp Trật Tự Câu (Text Cohesion)\r\n\r\n## 1. Cấu Trúc Đề Thi\r\n* **Định dạng:** Gồm 2 bài tập độc lập, mỗi bài gồm 6 câu văn đã bị xáo trộn thứ tự.\r\n* **Cơ chế:** Câu số 1 (câu mở đầu) luôn được cố định sẵn làm mốc. Thí sinh sắp xếp 5 câu còn lại vào vị trí đúng.\r\n* **Mục tiêu đánh giá:** Khả năng nhận diện tính liên kết văn bản (cohesion), logic phát triển ý (coherence), đại từ thay thế và từ nối trình tự.\r\n* **Thời gian khuyến nghị:** 6 - 8 phút cho cả 2 bài.\r\n\r\n## 2. Các Bước Làm Bài Chuẩn Xác (Phương Pháp Edulife)\r\n1. **Bước 1 — Đọc câu mở đầu có sẵn:** Xác định chủ đề chính, nhân vật hoặc sự kiện trung tâm (ví dụ: *report about traffic problems*, *instructions for office visitors*).\r\n2. **Bước 2 — Bắt mạch liên kết (Cohesive Clues):**\r\n   * **Đại từ thay thế (Pronouns):** *they*, *them*, *he or she*, *these*, *this road*, *the card*.\r\n   * **Từ nối nguyên nhân - kết quả:** *For this reason*, *This is why*, *Consequently*, *Therefore*.\r\n   * **Từ nối trình tự thời gian:** *Upon arrival*, *Next*, *Then*, *Before you leave*, *Finally*.\r\n3. **Bước 3 — Ghép cặp logic (Pair Matching):** Tìm câu chứa danh từ gốc trước khi tìm câu chứa đại từ thay thế (ví dụ: *visitor's identity card* $\rightarrow$ *the card* $\rightarrow$ *return the card*).\r\n4. **Bước 4 — Đọc kiểm tra toàn đoạn:** Đọc liền mạch từ đầu đến cuối xem câu chuyện/quy trình có tự nhiên và hợp lý không.\r\n\r\n## 3. Phân Tích Đề Mẫu Giảng Dạy (Slide 08-16)\r\n\r\n### Bài mẫu 1: Báo cáo giao thông (Report on Traffic Problems)\r\n1. *(Câu mở đầu)*: *This report gives information about the traffic problems on the coast road.*\r\n2. *This road is busy during the summer when tourists visit the area.* (Liên kết *coast road* $\rightarrow$ *This road* và giới thiệu *tourists*).\r\n3. *They don't know the road because many of them are here for the first time.* (Liên kết *tourists* $\rightarrow$ *They / them*).\r\n4. *For this reason it is easy for them to take a wrong turn and get lost.* (Từ nối nguyên nhân *For this reason*).\r\n5. *This is why we think there should be more signs along the road.* (Giải pháp *more signs*).\r\n6. *These will help visitors to find their way to our beautiful town.* (Liên kết *signs* $\rightarrow$ *These*).\r\n\r\n### Bài mẫu 2: Hướng dẫn khách thăm văn phòng (Office Instructions)\r\n1. *(Câu mở đầu)*: *If you are visiting our office for the first time, please follow these instructions.*\r\n2. *You should go to the front desk upon arrival and give your name and address.* (Bước đầu tiên: *upon arrival*).\r\n3. *A member of staff will write this information in the visitor's book.* (Liên kết *name and address* $\rightarrow$ *this information*).\r\n4. *Next, he or she will give you a visitor's identity card.* (Từ nối trình tự *Next*, giới thiệu *identity card*).\r\n5. *You can then use the card to enter through the security gate.* (Liên kết *identity card* $\rightarrow$ *the card*).\r\n6. *Before you leave, please return the card to a member of staff at the front desk.* (Bước cuối cùng: *Before you leave*).\r\n\r\n## 4. Các Bẫy Thường Gặp\r\n* **Bẫy đại từ không rõ ràng:** Đặt câu chứa *They/These* lên trước câu chứa danh từ thực thể.\r\n* **Bẫy từ nối kết luận:** Nhầm lẫn đặt *Before you leave* hoặc *Finally* ở giữa bài.",
+      "tags": [
+        "reading",
+        "reading-strategy",
+        "partPart 2",
+        "part-Part 2"
+      ],
+      "sourceFile": "APTIS/Reading/14. Reading Aptis - Part 2.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-06-reading-part-3-part-3-short-text-opinion-matching-md",
+      "skill": "Reading",
+      "part": "Part 3",
+      "category": "Reading Strategy",
+      "topic": "Kỹ Thuật Làm Bài Reading Part 3: Nối Quan Điểm 4 Nhân Vật (Opinion Matching)",
+      "summary": "* **Định dạng:** 4 đoạn văn ngắn trình bày ý kiến của 4 nhân vật (Person A, B, C, D) về một chủ đề chung (giáo dục, công việc, công nghệ, du lịch...). * **Nhiệm vụ:** Trả lời 7 câu hỏi mệnh đề bằng cách chọn nhân vật nào đồng ý với ý kiến đó (A, B, C hoặc D). * **Thời gian khuy...",
+      "content": "# Kỹ Thuật Làm Bài Reading Part 3: Nối Quan Điểm 4 Nhân Vật (Opinion Matching)\r\n\r\n## 1. Cấu Trúc Đề Thi\r\n* **Định dạng:** 4 đoạn văn ngắn trình bày ý kiến của 4 nhân vật (Person A, B, C, D) về một chủ đề chung (giáo dục, công việc, công nghệ, du lịch...).\r\n* **Nhiệm vụ:** Trả lời 7 câu hỏi mệnh đề bằng cách chọn nhân vật nào đồng ý với ý kiến đó (A, B, C hoặc D).\r\n* **Thời gian khuyến nghị:** 8 - 10 phút.\r\n\r\n## 2. Quy Trình 5 Bước Làm Bài (Phương Pháp Edulife)\r\n1. **Bước 1 — Đọc câu hỏi & gạch chân từ khóa chính:**\r\n   * Gạch chân từ khóa nội dung: danh từ, động từ, tính từ biểu đạt quan điểm (*study when older*, *too expensive*, *combine job with studying*, *practical*).\r\n2. **Bước 2 — Quét tìm vùng thông tin (Scanning):**\r\n   * Dùng từ khóa đã gạch chân để định vị nhanh đoạn văn của Person A, B, C, D.\r\n3. **Bước 3 — Đọc hiểu sâu & nhận diện Paraphrase:**\r\n   * Tìm cụm từ đồng nghĩa / diễn đạt tương đương giữa câu hỏi và bài đọc:\r\n     * *study when older* $\\leftrightarrow$ *approach your thirties, mature students* (Person B).\r\n     * *formal qualifications too expensive* $\\leftrightarrow$ *get into debt, don't need a piece of paper* (Person D).\r\n     * *go to university when young* $\\leftrightarrow$ *independent and carefree age* (Person A).\r\n     * *combine job with studying* $\\leftrightarrow$ *studies do not have to stop just because you are working* (Person C).\r\n     * *choose practical course* $\\leftrightarrow$ *spending unpaid time in a company to get experience* (Person A).\r\n     * *job immediately after leaving school* $\\leftrightarrow$ *start working as soon as you can* (Person C).\r\n4. **Bước 4 — Chọn đáp án & loại trừ:** Đối chiếu cẩn thận để tránh bẫy dùng từ giống nhau nhưng sai ý nghĩa logic.\r\n5. **Bước 5 — Học từ vựng theo cụm:** Ghi chú các từ vựng học thuật quan trọng để tích lũy vốn từ.\r\n\r\n## 3. Bảng Phân Tích Paraphrase & Từ Vựng Trọng Tâm\r\n| Câu hỏi mệnh đề | Diễn đạt trong bài đọc | Đáp án | Từ vựng trọng tâm |\r\n| :",
+      "tags": [
+        "reading",
+        "reading-strategy",
+        "partPart 3",
+        "part-Part 3"
+      ],
+      "sourceFile": "APTIS/Reading/15. Reading_Part 3.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-06-reading-part-4-part-4-long-text-heading-matching-md",
+      "skill": "Reading",
+      "part": "4",
+      "category": "Reading Strategy",
+      "topic": "Chiến Thuật Đọc Hiểu Văn Bản Dài & Ghép Tiêu Đề (Part 4)",
+      "summary": "- Đọc bài đọc dài khoảng 750 từ gồm 7 đoạn văn. - Chọn tiêu đề phù hợp nhất cho mỗi đoạn văn từ danh sách 8 tiêu đề (có 1 tiêu đề bẫy / thừa).   1. **Bước 1: Đọc nhanh danh sách 8 tiêu đề và gạch chân từ khóa chính.** 2. **Bước 2: Đọc câu chủ đề (Topic Sentence) của từng đoạ...",
+      "content": "# Chiến Thuật Đọc Hiểu Văn Bản Dài & Ghép Tiêu Đề (Part 4)\r\n\r\n## 1. Bản Chất Nhiệm Vụ\r\n- Đọc bài đọc dài khoảng 750 từ gồm 7 đoạn văn.\r\n- Chọn tiêu đề phù hợp nhất cho mỗi đoạn văn từ danh sách 8 tiêu đề (có 1 tiêu đề bẫy / thừa).\r\n\r\n## 2. Quy Trình 4 Bước Giải Quyết Part 4\r\n1. **Bước 1: Đọc nhanh danh sách 8 tiêu đề và gạch chân từ khóa chính.**\r\n2. **Bước 2: Đọc câu chủ đề (Topic Sentence) của từng đoạn văn** (thường là câu đầu tiên hoặc câu cuối cùng).\r\n3. **Bước 3: Nhận diện từ đồng nghĩa & Paraphrase** giữa nội dung đoạn văn và tiêu đề.\r\n4. **Bước 4: Loại trừ tiêu đề bẫy:** Tiêu đề bẫy thường chỉ phản ánh một chi tiết nhỏ hoặc đưa thông tin quá khái quát so với nội dung thực tế của đoạn.",
+      "tags": [
+        "reading",
+        "reading-strategy",
+        "part4",
+        "part-4"
+      ],
+      "sourceFile": "16. Reading_Part 4.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-07-listening-overview-listening-overview-timing-md",
+      "skill": "Listening",
+      "category": "Listening Strategy",
+      "topic": "Tổng Quan Kỹ Năng Nghe Aptis B2 (Listening Overview)",
+      "summary": "- **Thời gian:** ~40 phút - **Số phần thi:** 4 Parts (24-25 câu hỏi) - **Quy tắc quan trọng:** Mỗi đoạn ghi âm trong Part 1 được phép nghe 2 lần; các Part sau nghe 1 lần liên tục....",
+      "content": "# 🎧 Tổng Quan Kỹ Năng Nghe Aptis B2 (Listening Overview)\r\n\r\n- **Thời gian:** ~40 phút\r\n- **Số phần thi:** 4 Parts (24-25 câu hỏi)\r\n- **Quy tắc quan trọng:** Mỗi đoạn ghi âm trong Part 1 được phép nghe 2 lần; các Part sau nghe 1 lần liên tục.",
+      "tags": [
+        "listening",
+        "listening-strategy"
+      ],
+      "sourceFile": "17. Tổng quan Listening.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-07-listening-part-1-part-1-information-recognition-md",
+      "skill": "Listening",
+      "part": "1",
+      "category": "Listening Strategy",
+      "topic": "Kỹ Thuật Nghe Nhận Diện Thông Tin Ngắn (Listening Part 1)",
+      "summary": "1. **Bẫy thay đổi thông tin (Correction Trap):** Người nói đưa ra một thông tin ban đầu nhưng sau đó đính chính lại (*\"The flight was originally scheduled for 9:15, but it has been delayed until 9:45\"* $\rightarrow$ Đáp án đúng là 9:45). 2. **Bẫy nhắc lại từ khóa nhưng sai ngữ cả...",
+      "content": "# Kỹ Thuật Nghe Nhận Diện Thông Tin Ngắn (Listening Part 1)\r\n\r\n## 1. Các Bẫy Nghe Thường Gặp Trong Part 1\r\n1. **Bẫy thay đổi thông tin (Correction Trap):** Người nói đưa ra một thông tin ban đầu nhưng sau đó đính chính lại (*\"The flight was originally scheduled for 9:15, but it has been delayed until 9:45\"* $\rightarrow$ Đáp án đúng là 9:45).\r\n2. **Bẫy nhắc lại từ khóa nhưng sai ngữ cảnh (Distractor Keywords):** Cả 3 đáp án A, B, C đều có từ vựng xuất hiện trong bài nghe nhưng chỉ có 1 đáp án trả lời đúng câu hỏi.\r\n\r\n## 2. Chiến Thuật Xử Lý\r\n- Đọc nhanh câu hỏi và gạch chân từ khóa hỏi trước khi audio phát.\r\n- Lần nghe 1: Nắm bắt ý chính và chọn đáp án tiềm năng nhất.\r\n- Lần nghe 2: Nghe đối chiếu, xác nhận lại thông tin và kiểm tra xem có bẫy đính chính không.",
+      "tags": [
+        "listening",
+        "listening-strategy",
+        "part1",
+        "part-1"
+      ],
+      "sourceFile": "18. Listening_Part 1.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-07-listening-part-2-part-2-information-matching-across-4-speakers-md",
+      "skill": "Listening",
+      "part": "Part 2",
+      "category": "Listening Strategy",
+      "topic": "Kỹ Thuật Làm Bài Listening Part 2: Nối Thông Tin 4 Người Nói (4-Speaker Matching)",
+      "summary": "* **Định dạng:** 4 đoạn độc thoại ngắn của 4 người nói (Speaker A, Speaker B, Speaker C, Speaker D) chia sẻ về một chủ đề (cuối tuần, kỳ nghỉ, công việc, thói quen sinh hoạt...). * **Nhiệm vụ:** Ghép mỗi người nói với 1 trong 6 mệnh đề được đưa ra (có 2 phương án gây nhiễu). * ...",
+      "content": "# Kỹ Thuật Làm Bài Listening Part 2: Nối Thông Tin 4 Người Nói (4-Speaker Matching)\r\n\r\n## 1. Cấu Trúc Đề Thi\r\n* **Định dạng:** 4 đoạn độc thoại ngắn của 4 người nói (Speaker A, Speaker B, Speaker C, Speaker D) chia sẻ về một chủ đề (cuối tuần, kỳ nghỉ, công việc, thói quen sinh hoạt...).\r\n* **Nhiệm vụ:** Ghép mỗi người nói với 1 trong 6 mệnh đề được đưa ra (có 2 phương án gây nhiễu).\r\n* **Số lần nghe:** 2 lần nghe liên tục.\r\n* **Thời lượng:** ~2 - 3 phút.\r\n\r\n## 2. Kỹ Năng 3 Giai Đoạn Làm Bài (Phương Pháp Edulife)\r\n\r\n### Trước khi nghe (Preparation)\r\n1. Đọc kỹ chủ đề chung của bài nghe (ví dụ: *Four people talking about their weekends*).\r\n2. Gạch chân từ khóa trong 6 phương án lựa chọn:\r\n   * *1. has busy mornings before relaxing*\r\n   * *2. goes cycling in the park*\r\n   * *3. has quiet mornings*\r\n   * *4. doesn't relax during the day*\r\n   * *5. relaxes by keeping busy*\r\n   * *6. meets friends in the morning*\r\n\r\n### Trong khi nghe (Active Listening)\r\n1. Lắng nghe từng nhân vật và nhận diện các từ đồng nghĩa (paraphrase):\r\n   * **Speaker A:** *sit in the garden because it's reasonably secluded* $\rightarrow$ Nối với **Option 3** (*has quiet mornings*).\r\n   * **Speaker B:** *start work quite early, get home quite late, don't have much time to relax during the week* $\rightarrow$ Nối với **Option 4** (*doesn't relax during the day*).\r\n   * **Speaker C:** *at the gymnasium at six o'clock, busy all day at work, keep routine at the weekend* $\rightarrow$ Nối với **Option 5** (*relaxes by keeping busy*).\r\n   * **Speaker D:** *cleaning, laundry, shopping, pets fed, car washed takes all morning* $\rightarrow$ Nối với **Option 1** (*has busy mornings before relaxing*).\r\n2. Ghi chú nhanh (take notes) từ khóa then chốt ngay trong lần nghe 1.\r\n\r\n### Sau khi nghe (Verification)\r\n1. Dùng lần nghe 2 để đối chiếu các câu nghi vấn và loại trừ 2 phương án bẫy (*goes cycling*, *meets friends*).\r\n2. Đảm bảo điền đủ 4 đáp án, không để trống.\r\n\r\n## 3. Từ Vựng & Cụm Từ Quan Trọng\r\n* **Secluded:** Tách biệt, yên tĩnh, thanh bình.\r\n* **Gymnasium:** Phòng tập thể dục / thể hình.\r\n* **Routine:** Thói quen, lịch trình cố định.\r\n* **Laundry:** Việc giặt giũ.",
+      "tags": [
+        "listening",
+        "listening-strategy",
+        "partPart 2",
+        "part-Part 2"
+      ],
+      "sourceFile": "APTIS/Listening/19. Listening_Part 2.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-07-listening-part-3-part-3-opinion-identification-male-vs-female-md",
+      "skill": "Listening",
+      "part": "Part 3",
+      "category": "Listening Strategy",
+      "topic": "Kỹ Thuật Làm Bài Listening Part 3: Nhận Diện Quan Điểm Nam - Nữ (Opinion Identification)",
+      "summary": "* **Định dạng:** Đoạn hội thoại giữa 1 nam (Man) và 1 nữ (Woman) thảo luận về 1 chủ đề (kế hoạch công ty, phương tiện đi lại, sự kiện, nhà hàng...). * **Nhiệm vụ:** Trả lời 4 câu hỏi xác định quan điểm của ai:   * **Man** (Người nam đồng ý/nghĩ như vậy)   * **Woman** (Người nữ...",
+      "content": "# Kỹ Thuật Làm Bài Listening Part 3: Nhận Diện Quan Điểm Nam - Nữ (Opinion Identification)\r\n\r\n## 1. Cấu Trúc Đề Thi\r\n* **Định dạng:** Đoạn hội thoại giữa 1 nam (Man) và 1 nữ (Woman) thảo luận về 1 chủ đề (kế hoạch công ty, phương tiện đi lại, sự kiện, nhà hàng...).\r\n* **Nhiệm vụ:** Trả lời 4 câu hỏi xác định quan điểm của ai:\r\n  * **Man** (Người nam đồng ý/nghĩ như vậy)\r\n  * **Woman** (Người nữ đồng ý/nghĩ như vậy)\r\n  * **Both** (Cả hai người đều đồng ý)\r\n* **Số lần nghe:** 2 lần nghe.\r\n\r\n## 2. Chiến Thuật Theo Dõi Lời Thoại (Speaker Tracking)\r\n1. **Phân biệt giọng nói:** Nhận diện rõ chất giọng trầm của nam và chất giọng cao của nữ.\r\n2. **Theo dõi các dấu hiệu đồng thuận (Agreement Markers):**\r\n   * *I totally agree with you / You're absolutely right / That's true / I feel the same way* $\rightarrow$ **Both**.\r\n3. **Theo dõi các dấu hiệu bất đồng hoặc điều chỉnh ý kiến (Disagreement Markers):**\r\n   * *I see your point, but... / I'm not so sure about that / Personally, I prefer... / Wouldn't it be better if...* $\rightarrow$ Chỉ một người giữ quan điểm đó.\r\n4. **Bẫy thay đổi ý kiến (Self-Correction / Mind-Changing):** Người nói ban đầu phản đối nhưng sau khi được giải thích lại đồng ý hoặc ngược lại.\r\n\r\n## 3. Từ Vựng Trọng Tâm\r\n* **Agreement:** *concur, see eye to eye, entirely agree, definitely*.\r\n* **Disagreement:** *differ, on the contrary, however, doubt, skeptical*.",
+      "tags": [
+        "listening",
+        "listening-strategy",
+        "partPart 3",
+        "part-Part 3"
+      ],
+      "sourceFile": "APTIS/Listening/20-listening-part-3.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-07-listening-part-4-part-4-extended-monologues-attitude-md",
+      "skill": "Listening",
+      "part": "Part 4",
+      "category": "Listening Strategy",
+      "topic": "Kỹ Thuật Làm Bài Listening Part 4: Nghe Hiểu Độc Thoại & Suy Luận Thái Độ (Monologue & Attitude)",
+      "summary": "* **Định dạng:** 2 bài độc thoại độc lập (bài giảng, phỏng vấn chuyên gia, thông báo tin tức chuyên sâu). * **Nhiệm vụ:** Mỗi bài độc thoại có 2 câu hỏi trắc nghiệm (tổng cộng 4 câu hỏi), tập trung vào:   * Mục đích chính của người nói (*Main purpose*)   * Thái độ / cảm xúc (*...",
+      "content": "# Kỹ Thuật Làm Bài Listening Part 4: Nghe Hiểu Độc Thoại & Suy Luận Thái Độ (Monologue & Attitude)\r\n\r\n## 1. Cấu Trúc Đề Thi\r\n* **Định dạng:** 2 bài độc thoại độc lập (bài giảng, phỏng vấn chuyên gia, thông báo tin tức chuyên sâu).\r\n* **Nhiệm vụ:** Mỗi bài độc thoại có 2 câu hỏi trắc nghiệm (tổng cộng 4 câu hỏi), tập trung vào:\r\n  * Mục đích chính của người nói (*Main purpose*)\r\n  * Thái độ / cảm xúc (*Speaker's attitude / tone: critical, optimistic, concerned, approving*)\r\n  * Ý kiến suy luận chuyên sâu (*Inference of factual outcome*).\r\n* **Số lần nghe:** 2 lần nghe.\r\n\r\n## 2. Kỹ Năng Suy Luận Thái Độ (Attitude & Tone Inference)\r\n1. **Phân tích từ ngữ biểu cảm (Adjectives & Adverbs):**\r\n   * Tích cực: *remarkable, promising, enthusiastic, beneficial, commendable*.\r\n   * Tiêu cực / Quan ngại: *disappointing, alarming, inadequate, questionable, costly*.\r\n2. **Ngữ điệu (Intonation):** Lắng nghe cao độ và điểm nhấn trọng âm câu của người nói.\r\n3. **Loại trừ phương án trực diện thô:** Aptis Part 4 thường diễn đạt thái độ qua ngữ cảnh ẩn dụ thay vì nói trực tiếp *I am angry* hay *I am happy*.",
+      "tags": [
+        "listening",
+        "listening-strategy",
+        "partPart 4",
+        "part-Part 4"
+      ],
+      "sourceFile": "APTIS/Listening/21-listening-part-4.pptx",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-08-teaching-materials-grammar-edulife-23-grammar-lecture-note-md",
+      "skill": "Grammar",
+      "category": "B2 Language Tips",
+      "topic": "Nguồn Giảng Dạy: Bài Giảng Ngữ Pháp Aptis (`23-grammar.pptx`)",
+      "summary": "- **Tên file nguồn chính thức:** `23-grammar.pptx` - **Vị trí lưu trữ:** `APTIS/23-grammar.pptx` - **Đơn vị phát hành:** Edulife (https://edulife.com.vn/) - **Dung lượng:** 1,492,250 bytes (36 slides bài giảng chi tiết) - **Trạng thái:** ✅ **TARGET VERIFIED SOURCE**...",
+      "content": "# 📘 Nguồn Giảng Dạy: Bài Giảng Ngữ Pháp Aptis (`23-grammar.pptx`)\r\n\r\n## 1. Thông Tin Nguồn Gốc Xác Thực (Provenance)\r\n- **Tên file nguồn chính thức:** `23-grammar.pptx`\r\n- **Vị trí lưu trữ:** `APTIS/23-grammar.pptx`\r\n- **Đơn vị phát hành:** Edulife (https://edulife.com.vn/)\r\n- **Dung lượng:** 1,492,250 bytes (36 slides bài giảng chi tiết)\r\n- **Trạng thái:** ✅ **TARGET VERIFIED SOURCE**",
+      "tags": [
+        "grammar",
+        "b2-language-tips"
+      ],
+      "sourceFile": "23-grammar.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-08-teaching-materials-grammar-edulife-b1-b2-theory-textbook-md",
+      "skill": "Grammar",
+      "category": "B2 Language Tips",
+      "topic": "Giáo Trình Lý Thuyết B1-B2 Toàn Diện (Edulife)",
+      "summary": "- **Tên file:** `B1 - LÝ THUYẾT (1).pdf` - **Đơn vị phát hành:** Edulife - **Dung lượng:** 19,510,370 bytes (65 trang) - **Phạm vi nội dung:** Toàn bộ công thức ngữ pháp nền tảng đến nâng cao B2, dấu hiệu nhận biết, ví dụ thực tế và kho từ vựng chuyên đề....",
+      "content": "# 📚 Giáo Trình Lý Thuyết B1-B2 Toàn Diện (Edulife)\r\n\r\n## 1. Thông Tin Tài Liệu Nguồn\r\n- **Tên file:** `B1 - LÝ THUYẾT (1).pdf`\r\n- **Đơn vị phát hành:** Edulife\r\n- **Dung lượng:** 19,510,370 bytes (65 trang)\r\n- **Phạm vi nội dung:** Toàn bộ công thức ngữ pháp nền tảng đến nâng cao B2, dấu hiệu nhận biết, ví dụ thực tế và kho từ vựng chuyên đề.",
+      "tags": [
+        "grammar",
+        "b2-language-tips"
+      ],
+      "sourceFile": "B1 - LÝ THUYẾT (1).pdf",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-08-teaching-materials-grammar-edulife-grammar-vocabulary-overview-md",
+      "skill": "Grammar",
+      "category": "B2 Language Tips",
+      "topic": "Tổng Quan Giảng Dạy: Grammar & Vocabulary (Slide Edulife)",
+      "summary": "- **Tên file:** `22-tong-quan-grammar-and-vocabulary.pptx` - **Đơn vị phát hành:** Edulife (https://edulife.com.vn/) - **Dung lượng:** 1,720,716 bytes (19 slides) - **Phạm vi nội dung:** Cấu trúc chi tiết, phân loại câu hỏi, phương pháp làm bài và đề mẫu cho phần thi Ngữ pháp ...",
+      "content": "# 📘 Tổng Quan Giảng Dạy: Grammar & Vocabulary (Slide Edulife)\r\n\r\n## 1. Thông Tin Tài Liệu Nguồn\r\n- **Tên file:** `22-tong-quan-grammar-and-vocabulary.pptx`\r\n- **Đơn vị phát hành:** Edulife (https://edulife.com.vn/)\r\n- **Dung lượng:** 1,720,716 bytes (19 slides)\r\n- **Phạm vi nội dung:** Cấu trúc chi tiết, phân loại câu hỏi, phương pháp làm bài và đề mẫu cho phần thi Ngữ pháp & Từ vựng.",
+      "tags": [
+        "grammar",
+        "b2-language-tips"
+      ],
+      "sourceFile": "22-tong-quan-grammar-and-vocabulary.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-08-teaching-materials-vocabulary-edulife-24-vocabulary-lecture-note-md",
+      "skill": "Vocabulary",
+      "category": "B2 Language Tips",
+      "topic": "Nguồn Giảng Dạy: Bài Giảng Từ Vựng Aptis (`24-vocabulary.pptx`)",
+      "summary": "- **Tên file nguồn chính thức:** `24-vocabulary.pptx` - **Vị trí lưu trữ:** `APTIS/24-vocabulary.pptx` - **Đơn vị phát hành:** Edulife (https://edulife.com.vn/) - **Dung lượng:** 1,509,329 bytes (24 slides bài giảng chi tiết) - **Trạng thái:** ✅ **TARGET VERIFIED SOURCE**...",
+      "content": "# 📖 Nguồn Giảng Dạy: Bài Giảng Từ Vựng Aptis (`24-vocabulary.pptx`)\r\n\r\n## 1. Thông Tin Nguồn Gốc Xác Thực (Provenance)\r\n- **Tên file nguồn chính thức:** `24-vocabulary.pptx`\r\n- **Vị trí lưu trữ:** `APTIS/24-vocabulary.pptx`\r\n- **Đơn vị phát hành:** Edulife (https://edulife.com.vn/)\r\n- **Dung lượng:** 1,509,329 bytes (24 slides bài giảng chi tiết)\r\n- **Trạng thái:** ✅ **TARGET VERIFIED SOURCE**",
+      "tags": [
+        "vocabulary",
+        "b2-language-tips"
+      ],
+      "sourceFile": "24-vocabulary.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-08-teaching-materials-vocabulary-edulife-vocabulary-teaching-guide-md",
+      "skill": "Vocabulary",
+      "category": "B2 Language Tips",
+      "topic": "Hướng Dẫn Giảng Dạy Từ Vựng Aptis B2 (Edulife)",
+      "summary": "1. **Dạng 1: Ghép từ đồng nghĩa (Word Matching / Synonyms):**    - Yêu cầu thí sinh nhận diện từ có nét nghĩa tương đương (VD: *commence $\rightarrow$ begin*, *vacant $\rightarrow$ empty*). 2. **Dạng 2: Ghép định nghĩa từ (Word Definition):**    - Đọc định nghĩa ngắn bằng tiếng ...",
+      "content": "# 📖 Hướng Dẫn Giảng Dạy Từ Vựng Aptis B2 (Edulife)\r\n\r\n## 1. Bốn Dạng Bài Từ Vựng Trọng Tâm Trong Aptis\r\n1. **Dạng 1: Ghép từ đồng nghĩa (Word Matching / Synonyms):**\r\n   - Yêu cầu thí sinh nhận diện từ có nét nghĩa tương đương (VD: *commence $\rightarrow$ begin*, *vacant $\rightarrow$ empty*).\r\n2. **Dạng 2: Ghép định nghĩa từ (Word Definition):**\r\n   - Đọc định nghĩa ngắn bằng tiếng Anh và chọn danh từ/động từ tương ứng.\r\n3. **Dạng 3: Hoàn thành câu theo ngữ cảnh (Sentence Completion):**\r\n   - Chọn từ thích hợp nhất để hoàn thiện ý nghĩa của câu văn học thuật.\r\n4. **Dạng 4: Kết hợp từ cố định (Collocations):**\r\n   - Ghép cặp từ thường đi liền với nhau (VD: *make an appointment*, *pay attention*, *take into account*).",
+      "tags": [
+        "vocabulary",
+        "b2-language-tips"
+      ],
+      "sourceFile": "B1 - LÝ THUYẾT (1).pdf & 22-tong-quan-grammar-and-vocabulary.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-09-question-insights-mock-tests-16-mock-tests-insight-summary-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "Tổng Hợp Phân Tích Dữ Liệu 16 Bộ Đề Thi Thử (WebAptis Mock Tests)",
+      "summary": "Hệ thống WebAptis B2 sở hữu 16 bộ đề thi thử hoàn chỉnh 5 kỹ năng được chuẩn hóa từ kho đề thi thực tế:  | Kỹ năng | Quy mô dữ liệu trên 16 đề | Đặc điểm cấu trúc | | :...",
+      "content": "# Tổng Hợp Phân Tích Dữ Liệu 16 Bộ Đề Thi Thử (WebAptis Mock Tests)\r\n\r\nHệ thống WebAptis B2 sở hữu 16 bộ đề thi thử hoàn chỉnh 5 kỹ năng được chuẩn hóa từ kho đề thi thực tế:\r\n\r\n| Kỹ năng | Quy mô dữ liệu trên 16 đề | Đặc điểm cấu trúc |\r\n| :",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "16 Mock Tests Insight Summary.md",
+      "sourceName": "Edulife WebAptis Project",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-10-qa-ai-final-completion-audit-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "AI FINAL COMPLETION AUDIT",
+      "summary": "...",
+      "content": "# 🏆 AI FINAL COMPLETION AUDIT\r\n## Full Stack AI: Obsidian Knowledge Brain → Knowledge Retrieval → AI Teacher → Writing Examiner → Speaking Examiner → User Memory → Personalized Tutor",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "ai-final-completion-audit.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-10-qa-brain-foundation-audit-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "BÁO CÁO KIỂM ĐỊNH: OBSIDIAN KNOWLEDGE BRAIN FOUNDATION (PHASE 1)",
+      "summary": "> **Dự án:** WebAptis B2 — Hệ thống luyện thi & AI Tutor Knowledge Brain   > **Chế độ:** Phase 1 — Initialize Obsidian Knowledge Brain (Foundation)   > **Thời điểm xác nhận:** 2026-08-25   > **Trạng thái:** **BRAIN FOUNDATION READY (PASS)** --- - **Trạng thái cài đặt:** Đã nh...",
+      "content": "# BÁO CÁO KIỂM ĐỊNH: OBSIDIAN KNOWLEDGE BRAIN FOUNDATION (PHASE 1)\n\n> **Dự án:** WebAptis B2 — Hệ thống luyện thi & AI Tutor Knowledge Brain  \n> **Chế độ:** Phase 1 — Initialize Obsidian Knowledge Brain (Foundation)  \n> **Thời điểm xác nhận:** 2026-08-25  \n> **Trạng thái:** **BRAIN FOUNDATION READY (PASS)**\n\n---\n\n## 1. OBSIDIAN ENVIRONMENT (MÔI TRƯỜNG OBSIDIAN TRÊN WINDOWS)\n\n- **Trạng thái cài đặt:** Đã nhận diện Obsidian đã cài đặt trên hệ thống Windows.\n- **Đường dẫn thực thi:** `C:\\Program Files\\Obsidian\\Obsidian.exe`\n- **Cấu hình Vault:** Hỗ trợ chuẩn Markdown, Obsidian Frontmatter Properties, Internal Wiki Links `[[link]]`, Backlinks và Search.\n- **Plugins:** Giữ nguyên trạng thái mặc định (Vanilla Core), không cài đặt community plugins không cần thiết.\n\n---\n\n## 2. VAULT PATH (VỊ TRÍ VAULT)\n\n- **Vị trí Vault chính thức:**  \n  `d:\\ỨNG DỤNG AI AGENT CHO NGHIÊN CỨU KHOA HỌC-20260513T124251Z-3-001\\WebAptis\\Aptis-AI-Brain\\`\n- **Tính độc lập:** Nằm tại thư mục gốc của dự án nhưng hoàn toàn tách biệt khỏi mã nguồn WebAptis Runtime (`project/`).\n\n---\n\n## 3. VAULT STRUCTURE (CẤU TRÚC THƯ MỤC VAULT)\n\n```\nAptis-AI-Brain/\n│\n├── 00 Dashboard.md\n│\n├── 00_System/\n│   ├── Brain Rules.md\n│   ├── Source Policy.md\n│   ├── Answer Policy.md\n│   ├── Retrieval Policy.md\n│   └── Knowledge Note Template.md\n│\n├── 01_Exam/\n│   ├── Exam Format.md\n│   ├── Grammar & Vocabulary.md\n│   ├── Reading.md\n│   ├── Listening.md\n│   ├── Writing.md\n│   └── Speaking.md\n│\n├── 02_Grammar/\n│   ├── Tenses/\n│   ├── Modals/\n│   ├── Conditionals/\n│   ├── Passive/\n│   ├── Reported Speech/\n│   ├── Clauses/\n│   └── Common Errors/\n│\n├── 03_Vocabulary/\n│   ├── General/\n│   ├── Travel/\n│   ├── Education/\n│   ├── Work/\n│   ├── Environment/\n│   ├── Technology/\n│   └── Collocations/\n│\n├── 04_Writing/\n│   ├── Part 1/\n│   ├── Part 2/\n│   ├── Part 3/\n│   ├── Part 4/\n│   ├── Useful Language/\n│   ├── Structures/\n│   └── Common Errors/\n│\n├── 05_Speaking/\n│   ├── Part 1/\n│   ├── Part 2/\n│   ├── Part 3/\n│   ├── Part 4/\n│   ├── Useful Language/\n│   └── Common Errors/\n│\n├── 06_Reading/\n│   ├── Part 1/\n│   ├── Part 2/\n│   ├── Part 3/\n│   ├── Part 4/\n│   └── Strategies/\n│\n├── 07_Listening/\n│   ├── Part 1/\n│   ├── Part 2/\n│   ├── Part 3/\n│   ├── Part 4/\n│   └── Strategies/\n│\n├── 08_Teaching-Materials/\n│   ├── Grammar/\n│   └── Vocabulary/\n│\n├── 09_Question-Insights/\n│   ├── Mock Tests/\n│   ├── Writing Prediction/\n│   └── Speaking Prediction/\n│\n└── 10_QA/\n    ├── Bugs/\n    ├── Audits/\n    └── Provenance/\n```\n\n---\n\n## 4. TEACHING MATERIAL INVENTORY (KIỂM KÊ TÀI LIỆU GIẢNG DẠY MỚI)\n\nĐã phát hiện và phân tích 2 tài liệu giảng dạy trọng tâm của Edulife trong `APTIS/`:\n\n| STT | Tên file tài liệu | Đường dẫn gốc | Định dạng | Dung lượng | Quy mô nội dung | Phân loại mục đích |\n| :---: | :--- | :--- | :---: | :---: | :--- | :--- |\n| 1 | `22-tong-quan-grammar-and-vocabulary.pptx` | `APTIS/22-tong-quan-grammar-and-vocabulary.pptx` | PPTX | 1.72 MB | 19 slides | Bài giảng tổng quan Grammar & Vocab Edulife |\n| 2 | `B1 - LÝ THUYẾT (1).pdf` | `APTIS/B1 - LÝ THUYẾT (1).pdf` | PDF | 19.51 MB | 65 trang | Giáo trình lý thuyết ngữ pháp, từ vựng & kỹ năng B1-B2 |\n\n---\n\n## 5. GRAMMAR FILE PROVENANCE (NGUỒN GỐC TÀI LIỆU NGỮ PHÁP)\n\n- **Tên nguồn:** `22-tong-quan-grammar-and-vocabulary.pptx`\n- **Đơn vị phát hành:** Edulife (https://edulife.com.vn/)\n- **Đặc điểm nội dung:**\n  - Slide 1–4: Giới thiệu thông tin bài thi Aptis Grammar & Vocabulary (25 câu ngữ pháp, 25 câu từ vựng, 25 phút).\n  - Slide 5–10: Phân loại Ngữ pháp viết (Formal Grammar) vs Ngữ pháp nói (Spoken Grammar), dạng trắc nghiệm 3 lựa chọn, lưu ý phương pháp loại trừ.\n  - Slide 11–19: 4 dạng bài Từ vựng chính (Từ đồng nghĩa, Định nghĩa từ, Hoàn thành câu, Collocations) và chiến thuật học Word Families.\n- **Trạng thái trong AI Brain:** `ai_knowledge: true`, `runtime_exam_content: false`, `verified: true`.\n- **Ghi chú note tương ứng:** [[08_Teaching-Materials/Grammar/Edulife Grammar & Vocabulary Overview]]\n\n---\n\n## 6. VOCABULARY FILE PROVENANCE (NGUỒN GỐC TÀI LIỆU TỪ VỰNG)\n\n- **Tên nguồn:** `B1 - LÝ THUYẾT (1).pdf`\n- **Đơn vị phát hành:** Edulife\n- **Đặc điểm nội dung:**\n  - Trang 1–9: Hệ thống toàn bộ thì động từ (Hiện tại đơn, Quá khứ đơn, Tương lai, Tiếp diễn, Hoàn thành), Modal Verbs, Câu điều kiện (Conditionals 1, 2, 3), Câu bị động (Passive Voice), Mệnh đề quan hệ và Cấu trúc so sánh.\n  - Trang 10–65: Ngữ cảnh hội thoại, từ vựng theo chủ đề (Du lịch, Công nghệ, Môi trường, Giáo dục, Mối quan hệ), Collocations, Phrasal Verbs và mẫu câu phản xạ giao tiếp.\n- **Trạng thái trong AI Brain:** `ai_knowledge: true`, `runtime_exam_content: false`, `verified: true`.\n- **Ghi chú note tương ứng:** [[08_Teaching-Materials/Grammar/Edulife B1-B2 Theory Textbook]] & [[08_Teaching-Materials/Vocabulary/Edulife Vocabulary Teaching Guide]]\n\n---\n\n## 7. METADATA SCHEMA (QUY CHUẨN FRONTMATTER YAML)\n\nMỗi note trong Knowledge Brain tuân theo schema thuộc tính tiêu chuẩn:\n```yaml\n---\ntype: teaching-material # teaching-material | strategy | common-error | exam-format | question-insight | provenance\nskill: grammar # grammar | vocabulary | reading | listening | writing | speaking | general\npart: general # general | part1 | part2 | part3 | part4 | grammar | vocabulary\nlevel: B2 # B1 | B2 | C | General\nprovider: Edulife # Edulife | British Council | Project | General\nsource_file: \"...\" # Tên file gốc\nsource_type: pdf # pdf | docx | pptx | manual | hybrid\nverified: true # true | false\nai_knowledge: true # true | false\nruntime_exam_content: false # Luôn false đối với tài liệu học tập\ntags:\n  - AptisB2\n  - Grammar\n  - TeachingMaterial\n---\n```\n\n---\n\n## 8. BRAIN RULES (NGUYÊN TẮC QUẢN TRỊ AI BRAIN)\n\nĐã thiết lập tại [[00_System/Brain Rules]]:\n1. **Suggested Questions chỉ là Shortcut UI:** Không phải danh sách whitelist cứng nhắc.\n2. **Hỗ trợ đầy đủ Free-form User Questions:** Người học có quyền đặt mọi câu hỏi học thuật tự do.\n3. **Không tạo nội dung thi / điểm số / đáp án giả mạo:** Giữ vững đạo đức AI và tính chính xác học thuật.\n4. **Phân định rõ ranh giới:** Tách bạch giữa Teaching Materials (Giáo trình) và Exam Content (Bài thi thử).\n5. **Bảo vệ an toàn thông tin:** Không rò rỉ server-side answer keys khi thí sinh đang làm bài thi.\n\n---\n\n## 9. RETRIEVAL POLICY (CHÍNH SÁCH TRUY XUẤT TRI THỨC)\n\nĐã thiết lập tại [[00_System/Retrieval Policy]]:\n- **Pipeline:** `User Query` $\\rightarrow$ `Intent Classification` $\\rightarrow$ `Multi-Vector & Keyword Retrieval` $\\rightarrow$ `Context Assembly` $\\rightarrow$ `LLM Generation`.\n- **Xử lý lỗi truy xuất:** Khắc phục triệt để lỗi từ chối câu hỏi tự do ngoài danh sách gợi ý bằng cơ chế phân tích ngữ nghĩa mở và fallback tri thức tổng quát.\n\n---\n\n## 10. FILES CREATED (DANH MỤC CÁC FILE ĐÃ TẠO TRONG VAULT)\n\n1. `00 Dashboard.md`\n2. `00_System/Brain Rules.md`\n3. `00_System/Source Policy.md`\n4. `00_System/Answer Policy.md`\n5. `00_System/Retrieval Policy.md`\n6. `00_System/Knowledge Note Template.md`\n7. `01_Exam/Exam Format.md`\n8. `01_Exam/Grammar & Vocabulary.md`\n9. `01_Exam/Reading.md`\n10. `01_Exam/Listening.md`\n11. `01_Exam/Writing.md`\n12. `01_Exam/Speaking.md`\n13. `08_Teaching-Materials/Grammar/Edulife Grammar & Vocabulary Overview.md`\n14. `08_Teaching-Materials/Grammar/Edulife B1-B2 Theory Textbook.md`\n15. `08_Teaching-Materials/Vocabulary/Edulife Vocabulary Teaching Guide.md`\n16. `10_QA/Provenance/Edulife Materials Provenance.md`\n17. `10_QA/brain-foundation-audit.md`\n\n---\n\n## 11. FILES NOT MODIFIED (DANH MỤC FILE KHÔNG THAY ĐỔI)\n\n- **WebAptis Project Runtime:** Giữ nguyên 100% (`project/components/`, `project/app/`, `project/lib/`, `project/tests/`).\n- **Mock Tests Datasets:** Giữ nguyên 100% (`project/data/tests/*.json`).\n- **Answer Keys:** Giữ nguyên 100% (`project/data/tests/*-answers.json`).\n- **Prediction Banks:** Giữ nguyên 100% (`project/data/prediction/`).\n- **Assets (Images & Audio):** Giữ nguyên 100% (`project/public/audio/`, `project/public/images/`).\n- **Source Documents:** Giữ nguyên 100% trong `APTIS/`.\n\n---\n\n## 12. WEBAPTIS RUNTIME INTEGRITY (XÁC MINH TÍNH TOÀN VẸN RUNTIME)\n\n- `git status` kiểm tra: Toàn bộ thư mục `project/` không có bất kỳ thay đổi nào làm ảnh hưởng đến Runtime, Typecheck, Build hay Smoke Test.\n\n---\n\n## 13. PHASE 2 RECOMMENDATIONS (ĐỀ XUẤT CHO PHASE 2)\n\n1. **Chuẩn hóa Topic Notes (Topic Normalization):**\n   - Phân rã 65 trang của `B1 - LÝ THUYẾT (1).pdf` thành các atomic notes theo từng chuyên đề cụ thể (VD: `02_Grammar/Tenses/Present Perfect.md`, `02_Grammar/Conditionals/Third Conditional.md`).\n2. **Xây dựng Collocation & Synonym Dictionary:**\n   - Tạo các bảng tra cứu nhanh theo chủ đề trong `03_Vocabulary/`.\n3. **Triển khai Knowledge Retrieval Layer:**\n   - Kết nối trình phân tích Intent và vector search để AI Coach truy xuất trực tiếp từ các atomic notes này khi trả lời câu hỏi tự do của học viên.\n\n---\n\n## 14. FINAL VERDICT (KẾT LUẬN CUỐI CÙNG)\n\n```\n================================================================================\n                FINAL VERDICT: [BRAIN FOUNDATION READY]\n================================================================================\n- Môi trường Obsidian đã được nhận diện trên Windows.\n- Vault Aptis-AI-Brain được khởi tạo với cấu trúc 11 phân khu hoàn chỉnh.\n- 2 tài liệu giảng dạy Edulife được kiểm kê và phân loại provenance chuẩn xác.\n- Brain Rules, Source Policy, Answer Policy và Retrieval Policy đã sẵn sàng.\n- Ranh giới giữa Knowledge Brain và WebAptis Exam Runtime được bảo vệ tuyệt đối.\n================================================================================\n```\n",
+      "tags": [
+        "general",
+        "b2-language-tips",
+        "link",
+        "edulife grammar & vocabulary overview",
+        "edulife b1-b2 theory textbook",
+        "edulife vocabulary teaching guide",
+        "brain rules",
+        "retrieval policy"
+      ],
+      "sourceFile": "brain-foundation-audit.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-10-qa-five-skill-knowledge-coverage-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "Ma Trận Đánh Giá Độ Bao Phủ Tri Thức 5 Kỹ Năng (Coverage Matrix)",
+      "summary": "| Kỹ năng (Skill) | Knowledge (Lý thuyết) | Strategy (Chiến thuật) | Grading (Tiêu chí chấm) | Feedback (Chẩn đoán lỗi) | Examples (Bài mẫu) | Nguồn tài liệu xác thực | Đánh giá hoàn thiện | | :...",
+      "content": "# 📊 Ma Trận Đánh Giá Độ Bao Phủ Tri Thức 5 Kỹ Năng (Coverage Matrix)\r\n\r\n| Kỹ năng (Skill) | Knowledge (Lý thuyết) | Strategy (Chiến thuật) | Grading (Tiêu chí chấm) | Feedback (Chẩn đoán lỗi) | Examples (Bài mẫu) | Nguồn tài liệu xác thực | Đánh giá hoàn thiện |\r\n| :",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "five-skill-knowledge-coverage.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-10-qa-phase-2-teaching-knowledge-audit-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "BÁO CÁO KIỂM ĐỊNH: TRÍCH XUẤT & CHUẨN HÓA TRI THỨC GIẢNG DẠY 5 KỸ NĂNG (PHASE 2)",
+      "summary": "> **Dự án:** WebAptis B2 — Hệ thống luyện thi & AI Teacher Knowledge Brain   > **Chế độ:** Phase 2 — Five-Skill Teaching Knowledge Extraction & Normalization   > **Thời điểm xác nhận:** 2026-08-25   > **Trạng thái:** **PHASE 2 READY FOR AI RETRIEVAL (PASS)**  ---    Đã k...",
+      "content": "# BÁO CÁO KIỂM ĐỊNH: TRÍCH XUẤT & CHUẨN HÓA TRI THỨC GIẢNG DẠY 5 KỸ NĂNG (PHASE 2)\r\n\r\n> **Dự án:** WebAptis B2 — Hệ thống luyện thi & AI Teacher Knowledge Brain  \r\n> **Chế độ:** Phase 2 — Five-Skill Teaching Knowledge Extraction & Normalization  \r\n> **Thời điểm xác nhận:** 2026-08-25  \r\n> **Trạng thái:** **PHASE 2 READY FOR AI RETRIEVAL (PASS)**\r\n\r\n---\r\n\r\n## 1. SOURCE INVENTORY (KIỂM KÊ TOÀN BỘ KHO NGUỒN TÀI LIỆU)\r\n\r\nĐã kiểm kê và phân tích toàn bộ tài liệu giảng dạy trong thư mục `APTIS/`:\r\n- **Grammar:** `23-grammar.pptx` (36 slides bài giảng chuyên sâu)\r\n- **Vocabulary:** `24-vocabulary.pptx` (24 slides bài giảng 4 dạng từ vựng)\r\n- **Reading:** `12. Reading Aptis - Tong quan.pptx` (22 slides), `13. Reading Aptis - Part 1.pptx` (13 slides), `14. Reading Aptis - Part 2.pptx` (18 slides), `15. Reading_Part 3.pptx` (27 slides), `16. Reading_Part 4.pptx` (39 slides), `APTIS_READING COMPREHENSION.pdf`\r\n- **Listening:** `17. Tổng quan Listening.pptx` (22 slides), `18. Listening_Part 1.pptx` (30 slides), `19. Listening_Part 2.pptx` (20 slides), `20-listening-part-3.pptx` (21 slides), `21-listening-part-4.pptx` (22 slides)\r\n- **Writing:** `07. APTIS Writing.pptx` (17 slides), `08. Writing_Part 1.pptx` (13 slides), `09. Writing_Part 2.pptx` (24 slides), `11. Writing_Part 4.pptx` (17 slides), `APTIS_WRITING PART 1&2&3.pdf`, `APTIS_WRITING PART 4.pdf`, 24 Topic DOCX files\r\n- **Speaking:** `02. Tổng quan Speaking.pptx` (23 slides), `03. Speaking_Part 1.pptx` (33 slides), `04. Speaking_Part 2.pptx` (23 slides), `05. Speaking_Part 3.pptx` (22 slides), `06. Speaking_Part 4.pptx` (17 slides), 5 PDF Bank files\r\n- **Reference Materials:** `22-tong-quan-grammar-and-vocabulary.pptx` (19 slides), `B1 - LÝ THUYẾT (1).pdf` (65 trang)\r\n\r\n---\r\n\r\n## 2. CORRECTED GRAMMAR SOURCE (ĐÍNH CHÍNH NGUỒN NGỮ PHÁP)\r\n\r\n- **Nguồn đúng chỉ định:** `APTIS/23-grammar.pptx` (1,492,250 bytes, 36 slides).\r\n- **Phân tích bóc tách:**\r\n  - Slide 1–6: Cấu trúc 25 câu hỏi ngữ pháp (3 lựa chọn, 12-13 phút).\r\n  - Slide 7–9: 7 nhóm chủ điểm ngữ pháp (Thì động từ, Mệnh đề quan hệ, Câu bị động, Câu điều kiện, Phrasal verbs, Trạng từ & Liên từ, Modal verbs).\r\n  - Slide 10–34: Hướng dẫn giải chi tiết 25 câu hỏi mẫu với phương pháp loại trừ đáp án (Elimination Method).\r\n- **Ghi chú note:** `08_Teaching-Materials/Grammar/Edulife 23-Grammar Lecture Note.md`.\r\n\r\n---\r\n\r\n## 3. CORRECTED VOCABULARY SOURCE (ĐÍNH CHÍNH NGUỒN TỪ VỰNG)\r\n\r\n- **Nguồn đúng chỉ định:** `APTIS/24-vocabulary.pptx` (1,509,329 bytes, 24 slides).\r\n- **Phân tích bóc tách:**\r\n  - Slide 1–6: Cấu trúc 25 câu hỏi từ vựng chia làm 4 dạng bài trọng tâm.\r\n  - Slide 7–14: Dạng 1 — Nối từ đồng nghĩa (Word Matching: *argue/disagree, swap/exchange, collapse/fall, own/possess, occur/happen, jog/run, inspire/influence, notice/see, utilize/use, conceal/hide*).\r\n  - Slide 15–16: Dạng 2 — Tìm từ phù hợp định nghĩa (*improve, decide, earn, assist, employ*).\r\n  - Slide 17–18: Dạng 3 — Điền từ theo ngữ cảnh câu (*muddy path, eye-catching plan, rewarding job*).\r\n  - Slide 19–22: Dạng 4 — Ghép cụm từ cố định Collocations (*reduced price, sentimental value, immediate family, white-water rafting, semi-precious jewels*).\r\n- **Ghi chú note:** `08_Teaching-Materials/Vocabulary/Edulife 24-Vocabulary Lecture Note.md`.\r\n\r\n---\r\n\r\n## 4. GRAMMAR KNOWLEDGE COVERAGE (ĐỘ BAO PHỦ NGỮ PHÁP)\r\n\r\n- **Tenses:** [[02_Grammar/Tenses/Present Perfect]] (so sánh với Past Simple), [[02_Grammar/Tenses/Past Simple]], Continuous Tenses, Future Forms.\r\n- **Structures:** [[02_Grammar/Conditionals/Conditional Sentences]] (Loại 1, 2, 3 & Đảo ngữ), [[02_Grammar/Passive/Passive Voice]], [[02_Grammar/Clauses/Relative Clauses]].\r\n- **Phrasal Verbs & Prepositions:** [[02_Grammar/Word Forms/Phrasal Verbs & Prepositions]] (*take after, take off, depend on, look into, call off*).\r\n- **Trạng thái:** ✅ **COMPLETE**\r\n\r\n---\r\n\r\n## 5. VOCABULARY KNOWLEDGE COVERAGE (ĐỘ BAO PHỦ TỪ VỰNG)\r\n\r\n- **Collocations:** [[03_Vocabulary/Collocations/Essential B2 Collocations]] (Danh mục collocations điểm cao B2).\r\n- **Synonyms & Definitions:** [[03_Vocabulary/General/Word Definitions & Synonyms]] (Bộ từ đồng nghĩa và định nghĩa chuẩn Aptis).\r\n- **Word Families:** Tiền tố, hậu tố và họ từ (*Word formation*).\r\n- **Trạng thái:** ✅ **COMPLETE**\r\n\r\n---\r\n\r\n## 6. READING KNOWLEDGE COVERAGE (ĐỘ BAO PHỦ ĐỌC HIỂU)\r\n\r\n- **Tổng quan & Thời gian:** [[06_Reading/Overview/Reading Overview & Timing]] (Chiến thuật 35 phút cho 4 Parts).\r\n- **Chi tiết từng Part:** Part 1 Sentence Completion, Part 2 Text Cohesion, Part 3 Opinion Matching, [[06_Reading/Part 4/Part 4 Long Text & Heading Matching]].\r\n- **Bẫy đọc:** Phân biệt thông tin chi tiết nhỏ với ý chính toàn đoạn (Main Idea vs Minor Details).\r\n- **Trạng thái:** ✅ **COMPLETE**\r\n\r\n---\r\n\r\n## 7. LISTENING KNOWLEDGE COVERAGE (ĐỘ BAO PHỦ NGHE HIỂU)\r\n\r\n- **Tổng quan:** [[07_Listening/Overview/Listening Overview & Timing]] (Quy tắc nghe 2 lần Part 1, 1 lần Parts 2-4).\r\n- **Chi tiết từng Part:** [[07_Listening/Part 1/Part 1 Information Recognition]] (Kỹ thuật tránh bẫy đính chính thông tin), Part 2 Matching, Part 3 Extended Dialogue, Part 4 Academic Monologue.\r\n- **Trạng thái:** ✅ **COMPLETE**\r\n\r\n---\r\n\r\n## 8. WRITING KNOWLEDGE COVERAGE (ĐỘ BAO PHỦ VIẾT)\r\n\r\n- **Tổng quan:** [[04_Writing/Overview/Writing Overview & Assessment]] (Phân bổ 50 phút cho 4 Parts).\r\n- **Chi tiết trọng tâm:** [[04_Writing/Part 4/Part 4 Informal & Formal Emails]] (Bức thư 50 từ thân mật vs Bức thư 120-150 từ trang trọng, cấm viết tắt).\r\n- **Chữa bài & Rubric:** [[11_Grading/Writing/Writing Rubric & Evaluation Criteria]], [[12_Feedback/Writing/Writing Diagnostic & Step-by-Step Correction]].\r\n- **Trạng thái:** ✅ **COMPLETE**\r\n\r\n---\r\n\r\n## 9. SPEAKING KNOWLEDGE COVERAGE (ĐỘ BAO PHỦ NÓI)\r\n\r\n- **Tổng quan:** [[05_Speaking/Overview/Speaking Overview & Assessment]] (Quy trình 12 phút 4 Parts trên máy tính).\r\n- **Chi tiết trọng tâm:** [[05_Speaking/Part 2/Part 2 Picture Description]] (Công thức 4 bước: Overview $\rightarrow$ People $\rightarrow$ Action $\rightarrow$ Speculation), Part 3 Compare Photos, [[13_Strategies/Speaking/60s Prep Note-Taking & 120s Pacing]] (Part 4 thuyết trình 2 phút).\r\n- **Huấn luyện:** [[12_Feedback/Speaking/Speaking Diagnostic & Pronunciation Fluency Coaching]] (Khung PREP & Natural Fillers).\r\n- **Trạng thái:** ✅ **COMPLETE**\r\n\r\n---\r\n\r\n## 10. STRATEGY COVERAGE (ĐỘ BAO PHỦ CHIẾN THUẬT)\r\n\r\nĐã xây dựng đầy đủ 5 note chiến thuật chuyên sâu trong `13_Strategies/`:\r\n1. Grammar & Vocab: Kỹ thuật loại trừ & dấu hiệu thời gian.\r\n2. Reading: Kỹ thuật Skimming, Scanning & định vị bằng chứng (Evidence locator).\r\n3. Listening: Kỹ thuật bắt từ khóa trước khi nghe & lọc bẫy đính chính.\r\n4. Writing: [[13_Strategies/Writing/Email Planning & Word Count Management]] (Lập dàn ý email & quản trị số lượng từ).\r\n5. Speaking: [[13_Strategies/Speaking/60s Prep Note-Taking & 120s Pacing]] (Ghi chú 60s & phân bổ 120s).\r\n\r\n---\r\n\r\n## 11. GRADING COVERAGE (ĐỘ BAO PHỦ TIÊU CHÍ CHẤM ĐIỂM)\r\n\r\n- Đã chuẩn hóa Rubric 4 tiêu chí cho Writing (Task Achievement, Grammar, Vocabulary, Register).\r\n- Đã chuẩn hóa Rubric 4 tiêu chí cho Speaking (Fluency, Pronunciation, Lexical Range, Grammar Complexity).\r\n- Ghi nhận ranh giới: AI chỉ ước lượng band điểm sư phạm, không gọi heuristic nội bộ là \"Official British Council Score\".\r\n\r\n---\r\n\r\n## 12. FEEDBACK COVERAGE (ĐỘ BAO PHỦ KHUNG CHẨN ĐOÁN LỖI)\r\n\r\n- Quy trình chữa bài 5 bước: Task Check $\rightarrow$ Register Audit $\rightarrow$ Error Flagging $\rightarrow$ B2 Polished Revision $\rightarrow$ Actionable Advice.\r\n- Khung PREP cho Speaking giúp học viên mở rộng câu trả lời tự nhiên.\r\n\r\n---\r\n\r\n## 13. EXAMPLE COVERAGE (ĐỘ BAO PHỦ BÀI MẪU)\r\n\r\n- Kho ví dụ đối chiếu câu đúng vs câu sai (*Contrast Examples*).\r\n- Bài mẫu Email trang trọng & thân mật chuẩn Band B2.\r\n- Bài mẫu miêu tả tranh ảnh và bài nói thuyết trình 2 phút.\r\n\r\n---\r\n\r\n## 14. CROSS-SKILL LINKING (LIÊN KẾT XUYÊN KỸ NĂNG)\r\n\r\nCác note tri thức liên kết đa chiều thông qua wiki-links `[[link]]`:\r\n- `Speaking Part 2` $\\longleftrightarrow$ `Present Continuous` $\\longleftrightarrow$ `Prepositions` $\\longleftrightarrow$ `Essential B2 Collocations`\r\n- `Writing Part 4` $\\longleftrightarrow$ `Conditionals` $\\longleftrightarrow$ `Passive Voice` $\\longleftrightarrow$ `Email Connectors`\r\n- `Reading Part 1` $\\longleftrightarrow$ `Word Definitions & Synonyms` $\\longleftrightarrow$ `Collocations`\r\n\r\n---\r\n\r\n## 15. PROVENANCE & VERIFICATION\r\n\r\n- Mọi note đều có nguồn gốc rõ ràng từ giáo trình slide Edulife, được ghi nhận tại [[10_QA/Provenance/Edulife Materials Provenance]].\r\n- Đã phân loại chính xác `23-grammar.pptx` và `24-vocabulary.pptx` là **Target Verified Sources**.\r\n- Tài liệu cũ `22-tong-quan` và `B1 - LÝ THUYẾT` được chuyển sang danh mục Reference Materials hợp lệ.\r\n\r\n---\r\n\r\n## 16. RETRIEVAL READINESS (SẴN SÀNG CHO AI RETRIEVAL LAYER)\r\n\r\nMỗi note đều chứa frontmatter metadata chuẩn:\r\n`type`, `skill`, `part`, `level`, `provider`, `source_file`, `source_type`, `verified`, `confidence`, `ai_knowledge`, `runtime_exam_content`, `tags`.\r\nSẵn sàng cho việc phân mảnh ngữ nghĩa (Chunking), đánh chỉ mục (Indexing) và nhúng vector (Vector Embedding) ở Phase 3.\r\n\r\n---\r\n\r\n## 17. WEBAPTIS RUNTIME INTEGRITY (BẢO VỆ RUNTIME)\r\n\r\n- **`git status` xác nhận:** Thư mục `project/` giữ nguyên 100%, không bị sửa đổi bất kỳ file code, dataset, asset hay API nào.\r\n\r\n---\r\n\r\n## 18. KẾ HOẠCH CHO PHASE 3 & PHASE 4\r\n\r\n- **Phase 3 (Knowledge Retrieval & AI Teacher Engine):**\r\n  - Xây dựng tầng phân tích Intent cho câu hỏi tự do của học viên.\r\n  - Triển khai Semantic Search / Multi-Vector Retrieval từ Obsidian Knowledge Brain.\r\n  - Tích hợp Lexi AI Coach với ngữ cảnh tri thức chuẩn xác.\r\n- **Phase 4 (AI Writing & Speaking Evaluator):**\r\n  - Kết nối Speech-to-Text & Acoustic Analysis cho Speaking.\r\n  - Triển khai động cơ chấm bài Writing & Speaking theo đúng Rubric đã thiết lập.\r\n\r\n---\r\n\r\n## 19. FINAL VERDICT (KẾT LUẬN CUỐI CÙNG)\r\n\r\n```\r\n================================================================================\r\n          FINAL VERDICT: [PHASE 2 READY FOR AI RETRIEVAL]\r\n================================================================================\r\n- Đã xác thực và bóc tách chính xác 2 nguồn target: 23-grammar và 24-vocabulary.\r\n- Hoàn thành trích xuất tri thức đầy đủ cho TOÀN BỘ 5 KỸ NĂNG Aptis B2.\r\n- Thiết lập đầy đủ các tầng tri thức: Theory, Strategy, Rubrics, Feedback, Examples.\r\n- Ma trận liên kết chéo (Cross-links) và Metadata chuẩn hóa sẵn sàng cho Retrieval.\r\n- Bảo vệ tuyệt đối ranh giới giữa Knowledge Brain và WebAptis Exam Runtime.\r\n================================================================================\r\n```\r\n",
+      "tags": [
+        "general",
+        "b2-language-tips",
+        "present perfect",
+        "past simple",
+        "conditional sentences",
+        "passive voice",
+        "relative clauses",
+        "phrasal verbs & prepositions",
+        "essential b2 collocations",
+        "word definitions & synonyms",
+        "reading overview & timing",
+        "part 4 long text & heading matching",
+        "listening overview & timing",
+        "part 1 information recognition",
+        "writing overview & assessment",
+        "part 4 informal & formal emails",
+        "writing rubric & evaluation criteria",
+        "writing diagnostic & step-by-step correction",
+        "speaking overview & assessment",
+        "part 2 picture description",
+        "60s prep note-taking & 120s pacing",
+        "speaking diagnostic & pronunciation fluency coaching",
+        "email planning & word count management",
+        "link",
+        "edulife materials provenance"
+      ],
+      "sourceFile": "phase-2-teaching-knowledge-audit.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-10-qa-phase-3-ai-teacher-retrieval-audit-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "Phase 3 QA Audit — Knowledge Retrieval + AI Teacher Engine",
+      "summary": "Phase 3 kết nối thành công **Obsidian Knowledge Brain** (`Aptis-AI-Brain/`) với **AI Teacher Engine (Lexi AI Coach)** của hệ thống WebAptis B2.  Hệ thống đã giải quyết triệt để vấn đề: 1. **Free-Form Questions:** Xóa bỏ hoàn toàn cơ chế whitelist câu hỏi cũ. Người học có thể h...",
+      "content": "# 🎓 Phase 3 QA Audit — Knowledge Retrieval + AI Teacher Engine\r\n\r\n## 1. Executive Summary\r\n\r\nPhase 3 kết nối thành công **Obsidian Knowledge Brain** (`Aptis-AI-Brain/`) với **AI Teacher Engine (Lexi AI Coach)** của hệ thống WebAptis B2.\r\n\r\nHệ thống đã giải quyết triệt để vấn đề:\r\n1. **Free-Form Questions:** Xóa bỏ hoàn toàn cơ chế whitelist câu hỏi cũ. Người học có thể hỏi bất kỳ câu hỏi tự do nào (bằng tiếng Việt hoặc tiếng Anh) về toàn bộ 5 kỹ năng, ngữ pháp, từ vựng, chiến thuật phòng thi, giải thích lý do đáp án, và yêu cầu chữa bài.\r\n2. **Suggested Questions Equivalence:** Các câu hỏi gợi ý nhanh (Quick Prompts) được chuẩn hóa đóng vai trò là ví dụ minh họa trực quan, sử dụng 100% chung endpoint, schema và pipeline với câu hỏi tự do.\r\n3. **Obsidian Vault Knowledge Access Layer:** Xây dựng `KnowledgeSourceAdapter` và `Enhanced Retriever` truy xuất trực tiếp 44+ tài liệu tri thức chuẩn hóa từ `Aptis-AI-Brain/` với độ trễ < 5ms.\r\n4. **Cross-Skill Retrieval:** Tự động liên kết chéo tri thức (ví dụ: Speaking Part 2 liên kết chiến thuật miêu tả ảnh + thì hiện tại tiếp diễn + collocations B2; Writing Part 4 liên kết cấu trúc formal email + câu điều kiện + liên từ trang trọng).\r\n5. **Zero Mutation on Exam Runtime:** Giữ nguyên 100% tính toàn vẹn của Exam Runtime, 16 mock tests, audio segmentation, answer keys và scoring boundaries.",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "phase-3-ai-teacher-retrieval-audit.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-10-qa-provenance-edulife-materials-provenance-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "Hồ Sơ Nguồn Gốc Tài Liệu Giảng Dạy (Provenance Record)",
+      "summary": "| Tên file nguồn | Đường dẫn gốc | Đơn vị phát hành | Định dạng | Quy mô | Ứng dụng trong AI Brain | | :...",
+      "content": "# 🏷️ Hồ Sơ Nguồn Gốc Tài Liệu Giảng Dạy (Provenance Record)\r\n\r\n## 1. Nguồn Đúng Đã Xác Thực Trong Phase 2 (Target Verified Sources)\r\n| Tên file nguồn | Đường dẫn gốc | Đơn vị phát hành | Định dạng | Quy mô | Ứng dụng trong AI Brain |\r\n| :",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Edulife Materials Provenance.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-11-grading-speaking-speaking-rubric-evaluation-criteria-md",
+      "skill": "Speaking",
+      "category": "Exam Strategy",
+      "topic": "Thang Đo & Tiêu Chí Chấm Điểm Speaking Aptis B2",
+      "summary": "- **Band B2:** Duy trì tốc độ nói ổn định, ngắt nghỉ đúng cụm từ (chunking). Sử dụng từ nối tự nhiên (*Well, Actually, As far as I am concerned*). Ít có khoảng dừng dài hoặc ngập ngừng tìm từ.   - **Band B2:** Phát âm rõ ràng các âm tiết, phụ âm cuối (*-s, -ed, -t, -d*). Có tr...",
+      "content": "# Thang Đo & Tiêu Chí Chấm Điểm Speaking Aptis B2\r\n\r\n## 1. 4 Tiêu Chí Đánh Giá Năng Lực Nói (Speaking Assessment Criteria)\r\n\r\n### 1.1. Fluency & Coherence (Độ trôi chảy & Tính mạch lạc)\r\n- **Band B2:** Duy trì tốc độ nói ổn định, ngắt nghỉ đúng cụm từ (chunking). Sử dụng từ nối tự nhiên (*Well, Actually, As far as I am concerned*). Ít có khoảng dừng dài hoặc ngập ngừng tìm từ.\r\n\r\n### 1.2. Pronunciation & Intonation (Phát âm & Ngữ điệu)\r\n- **Band B2:** Phát âm rõ ràng các âm tiết, phụ âm cuối (*-s, -ed, -t, -d*). Có trọng âm từ và ngữ điệu lên xuống biểu cảm phù hợp.\r\n- **Lưu ý AI Evaluator:** Chỉ đánh giá pronunciation khi có hệ thống phân tích acoustic audio thực tế, không đánh giá qua text transcript.\r\n\r\n### 1.3. Lexical Range (Vốn từ vựng & Miêu tả chi tiết)\r\n- **Band B2:** Sử dụng từ vựng miêu tả không gian, hành động và cảm xúc phong phú (*scenic landscape, bustling atmosphere, memorable experience*).\r\n\r\n### 1.4. Grammatical Complexity (Độ phức tạp ngữ pháp)\r\n- **Band B2:** Kết hợp nhuần nhuyễn giữa câu đơn và câu ghép/phức. Sử dụng thì Hiện tại tiếp diễn cho miêu tả tranh ảnh (Part 2, 3) và Quá khứ đơn cho câu chuyện trải nghiệm (Part 2, 4).",
+      "tags": [
+        "speaking",
+        "exam-strategy"
+      ],
+      "sourceFile": "Speaking Rubric & Evaluation Criteria.md",
+      "sourceName": "Edulife British Council / Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-11-grading-writing-writing-rubric-evaluation-criteria-md",
+      "skill": "Writing",
+      "category": "Exam Strategy",
+      "topic": "Thang Đo & Tiêu Chí Chấm Điểm Writing Aptis B2",
+      "summary": "- **Band B2:** Đáp ứng đầy đủ các câu hỏi và hướng dẫn trong đề bài. Đảm bảo đúng số lượng từ quy định (Part 2: 20-30 từ, Part 3: 3x 30-40 từ, Part 4: ~50 từ và 120-150 từ). - **Lỗi trừ điểm:** Viết thiếu từ (dưới ngưỡng tối thiểu bị trừ điểm nặng), viết thừa quá nhiều gây loãng...",
+      "content": "# Thang Đo & Tiêu Chí Chấm Điểm Writing Aptis B2\r\n\r\n## 1. 4 Tiêu Chí Chấm Điểm Chính Thức (Assessment Criteria)\r\n\r\n### 1.1. Task Fulfillment (Hoàn thành yêu cầu đề bài)\r\n- **Band B2:** Đáp ứng đầy đủ các câu hỏi và hướng dẫn trong đề bài. Đảm bảo đúng số lượng từ quy định (Part 2: 20-30 từ, Part 3: 3x 30-40 từ, Part 4: ~50 từ và 120-150 từ).\r\n- **Lỗi trừ điểm:** Viết thiếu từ (dưới ngưỡng tối thiểu bị trừ điểm nặng), viết thừa quá nhiều gây loãng ý, hoặc lạc đề.\r\n\r\n### 1.2. Grammatical Accuracy & Range (Độ chính xác & Đa dạng Ngữ pháp)\r\n- **Band B2:** Sử dụng linh hoạt các cấu trúc câu phức (Relative clauses, Conditionals, Passive voice). Kiểm soát tốt các thì động từ. Lỗi sai ngữ pháp nhỏ không làm thay đổi ý nghĩa của câu.\r\n\r\n### 1.3. Vocabulary & Lexical Resource (Vốn từ vựng & Collocations)\r\n- **Band B2:** Sử dụng vốn từ phong phú phù hợp với chủ đề câu lạc bộ (Arts, Sports, Technology, Environment). Kết hợp từ chính xác (Collocations) và dùng từ nối tự nhiên (*Furthermore, On the other hand, Consequently*).\r\n\r\n### 1.4. Register & Tone (Ngữ vực & Văn phong)\r\n- **Band B2:** Phân biệt rõ rệt giữa văn phong thân mật (Informal - Part 4 Thư 1) và văn phong trang trọng (Formal - Part 4 Thư 2). Tuyệt đối không dùng từ viết tắt trong thư trang trọng.",
+      "tags": [
+        "writing",
+        "exam-strategy"
+      ],
+      "sourceFile": "Writing Rubric & Evaluation Criteria.md",
+      "sourceName": "Edulife British Council / Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-12-feedback-speaking-speaking-diagnostic-pronunciation-fluency-coaching-md",
+      "skill": "Speaking",
+      "category": "B2 Language Tips",
+      "topic": "Khung Huấn Luyện & Chẩn Đoán Kỹ Năng Nói (AI Speaking Coach)",
+      "summary": "Để tránh lỗi trả lời quá ngắn trong Part 1 và Part 4: - **P (Point):** Đưa ra câu trả lời trực tiếp (*I strongly prefer studying in the morning...*). - **R (Reason):** Đưa ra 1-2 lý do giải thích (*...because my mind is completely refreshed and focused after a good sleep.*). -...",
+      "content": "# Khung Huấn Luyện & Chẩn Đoán Kỹ Năng Nói (AI Speaking Coach)\r\n\r\n## 1. Phương Pháp Mở Rộng Câu Trả Lời PREP Framework\r\nĐể tránh lỗi trả lời quá ngắn trong Part 1 và Part 4:\r\n- **P (Point):** Đưa ra câu trả lời trực tiếp (*I strongly prefer studying in the morning...*).\r\n- **R (Reason):** Đưa ra 1-2 lý do giải thích (*...because my mind is completely refreshed and focused after a good sleep.*).\r\n- **E (Example):** Kể một ví dụ thực tế (*For instance, whenever I review vocabulary before 8 AM, I memorize it much faster.*).\r\n- **P (Point):** Khẳng định lại ý kiến (*Therefore, morning study is always my top priority.*).\r\n\r\n## 2. Kỹ Thuật Xử Lý Ngập Ngừng & Câu Giờ Tự Nhiên (Natural Fillers)\r\nThay vì im lặng hoặc dùng âm *uhm / ah*, học viên được hướng dẫn dùng:\r\n- *Well, that is quite an interesting question...*\r\n- *To be honest, I haven't really thought about this before, but I would say that...*\r\n- *As far as I can remember...*",
+      "tags": [
+        "speaking",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Speaking Diagnostic & Pronunciation Fluency Coaching.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-12-feedback-writing-writing-diagnostic-step-by-step-correction-md",
+      "skill": "Writing",
+      "category": "B2 Language Tips",
+      "topic": "Quy Trình Chẩn Đoán & Chữa Bài Writing Từng Bước (AI Feedback Framework)",
+      "summary": "Khi AI Tutor (Lexi AI Coach) chữa bài viết của học viên, phải tuân thủ quy trình 5 bước sau:  ```mermaid graph TD     Step1[\"1. Task Fulfillment Check<br>(Word count & prompt coverage)\"] --> Step2[\"2. Register & Tone Audit<br>(Formal vs Informal check)\"]     Step2 --> Step3[...",
+      "content": "# Quy Trình Chẩn Đoán & Chữa Bài Writing Từng Bước (AI Feedback Framework)\r\n\r\nKhi AI Tutor (Lexi AI Coach) chữa bài viết của học viên, phải tuân thủ quy trình 5 bước sau:\r\n\r\n```mermaid\r\ngraph TD\r\n    Step1[\"1. Task Fulfillment Check<br>(Word count & prompt coverage)\"] --> Step2[\"2. Register & Tone Audit<br>(Formal vs Informal check)\"]\r\n    Step2 --> Step3[\"3. Grammar & Vocabulary Error Flagging<br>(Underline & explain root cause)\"]\r\n    Step3 --> Step4[\"4. Improved B2 Revision<br>(Provide natural polished version)\"]\r\n    Step4 --> Step5[\"5. Actionable Next-Step Recommendation\"]\r\n```\r\n\r\n## Ví Dụ Minh Họa Chữa Bài Thực Tế (Annotated Correction)\r\n- **Câu gốc của học viên:** *I write this email because I want tell you that the club change time is very bad for me.*\r\n- **Chẩn đoán lỗi:**\r\n  1. *Lỗi ngữ vực:* Dùng *I want tell you* quá thô trong thư gửi Chủ tịch.\r\n  2. *Lỗi ngữ pháp:* Thiếu *to* sau *want* (*want to tell*), sai mệnh đề *the club change time*.\r\n  3. *Lỗi từ vựng:* *very bad* là từ vựng A1.\r\n- **Bản sửa đổi chuẩn B2 (Improved Version):**  \r\n  *I am writing this email to express my dissatisfaction regarding the recent schedule modification, which causes significant inconvenience to my daily routine.*\r\n- **Giải thích:** Dùng *I am writing to express my dissatisfaction* (Trang trọng), thay *change time* bằng *schedule modification*, thay *very bad for me* bằng *causes significant inconvenience*.",
+      "tags": [
+        "writing",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Writing Diagnostic & Step-by-Step Correction.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-13-strategies-speaking-60s-prep-note-taking-120s-pacing-md",
+      "skill": "Speaking",
+      "part": "4",
+      "category": "Speaking Strategy",
+      "topic": "Chiến Thuật Ghi Chú 60 Giây & Phân Bổ Thời Gian 120 Giây (Speaking Part 4)",
+      "summary": "Nói trôi chảy liên tục trong 120 giây, trả lời trọn vẹn cả 3 câu hỏi gợi ý mà không bị đứt đoạn.   Áp dụng cho Speaking Part 4 (Long Turn Presentation).   - **Không viết cả câu hoàn chỉnh:** Chỉ viết từ khóa (Keywords) và cấu trúc liên kết. - **Chia nháp thành 3 cột tương ...",
+      "content": "# Chiến Thuật Ghi Chú 60 Giây & Phân Bổ Thời Gian 120 Giây (Speaking Part 4)\r\n\r\n## Goal\r\nNói trôi chảy liên tục trong 120 giây, trả lời trọn vẹn cả 3 câu hỏi gợi ý mà không bị đứt đoạn.\r\n\r\n## When to use\r\nÁp dụng cho Speaking Part 4 (Long Turn Presentation).\r\n\r\n## Steps (60 giây chuẩn bị)\r\n- **Không viết cả câu hoàn chỉnh:** Chỉ viết từ khóa (Keywords) và cấu trúc liên kết.\r\n- **Chia nháp thành 3 cột tương ứng 3 câu hỏi:**\r\n  - Cột 1 (Experience): *last year, Da Nang, exciting, delayed flight*.\r\n  - Cột 2 (Feelings): *anxious at first $\rightarrow$ relieved, unforgettable*.\r\n  - Cột 3 (Opinion/Future): *plan in advance, book early, travel insurance*.\r\n\r\n## Phân Bổ 120 Giây Nói Liên Tục\r\n- **0s - 10s:** Mở đầu tổng quan (*Today I would like to talk about...*).\r\n- **10s - 45s:** Trả lời Câu 1 (Kể trải nghiệm chi tiết).\r\n- **45s - 80s:** Trả lời Câu 2 (Bộc lộ cảm xúc và bài học rút ra).\r\n- **80s - 110s:** Trả lời Câu 3 (Đưa ra quan điểm xã hội hoặc lời khuyên).\r\n- **110s - 120s:** Kết luận tóm tắt (*In conclusion, that was a precious lesson for me.*).",
+      "tags": [
+        "speaking",
+        "speaking-strategy",
+        "part4",
+        "part-4"
+      ],
+      "sourceFile": "06. Speaking_Part 4.pptx & APTIS_SPEAKING PART 4.pdf",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-13-strategies-writing-email-planning-word-count-management-md",
+      "skill": "Writing",
+      "part": "4",
+      "category": "Writing Strategy",
+      "topic": "Chiến Thuật Lập Dàn Ý & Kiểm Soát Dung Lượng Từ Writing Part 4",
+      "summary": "Tối ưu hóa điểm số Part 4 (50% điểm số kỹ năng Viết) trong 28 phút.   Áp dụng cho mọi bài thi Writing Aptis B2 Part 4.   1. **Dành 2 phút đọc kỹ thông báo đề bài (Club Notice) và xác định 3 yếu tố:**      - Sự việc xảy ra là gì? (Ví dụ: tăng học phí, hủy chuyến dã ngoại, đ...",
+      "content": "# Chiến Thuật Lập Dàn Ý & Kiểm Soát Dung Lượng Từ Writing Part 4\r\n\r\n## Goal\r\nTối ưu hóa điểm số Part 4 (50% điểm số kỹ năng Viết) trong 28 phút.\r\n\r\n## When to use\r\nÁp dụng cho mọi bài thi Writing Aptis B2 Part 4.\r\n\r\n## Steps\r\n1. **Dành 2 phút đọc kỹ thông báo đề bài (Club Notice) và xác định 3 yếu tố:**  \r\n   - Sự việc xảy ra là gì? (Ví dụ: tăng học phí, hủy chuyến dã ngoại, đổi địa điểm sinh hoạt).  \r\n   - Cảm xúc của bạn thân?  \r\n   - Yêu cầu đối với Chủ tịch câu lạc bộ?\r\n2. **Viết Informal Email (8 phút):**  \r\n   - Giữ độ dài 45 - 55 từ.  \r\n   - Mở bài nhanh, bày tỏ cảm xúc trực tiếp, hẹn gặp.\r\n3. **Viết Formal Email (15 phút):**  \r\n   - Giữ độ dài 125 - 145 từ.  \r\n   - Chia làm 4 đoạn rõ ràng (Mục đích $\rightarrow$ Trình bày bất cập $\rightarrow$ Đề xuất giải pháp $\rightarrow$ Lời chào kết).\r\n4. **Dành 3 phút soát lỗi chính tả, thì động từ và liên từ.**\r\n\r\n## Common Traps\r\n- Lẫn lộn dùng từ viết tắt (*don't, can't*) trong Formal Email.\r\n- Viết Formal Email dưới 100 từ hoặc vượt quá 180 từ.",
+      "tags": [
+        "writing",
+        "writing-strategy",
+        "part4",
+        "part-4"
+      ],
+      "sourceFile": "11. Writing_Part 4.pptx",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-14-examples-speaking-speaking-model-transcripts-band-b2-c1-md",
+      "skill": "Speaking",
+      "category": "B2 Language Tips",
+      "topic": "Bài Mẫu Speaking Aptis B2 — Model Transcripts & Khung Trả Lời",
+      "summary": "**Chủ đề:** Nhóm sinh viên đang học nhóm ngoài trời. **Transcript mẫu chuẩn B2:** > \"In this photograph, I can see a group of four university students studying together in a sunny park. In the foreground, two girls are sitting on the grass with open textbooks and a laptop, disc...",
+      "content": "# 🗣️ Bài Mẫu Speaking Aptis B2 — Model Transcripts & Khung Trả Lời\r\n\r\n## 1. Part 2 — Miêu Tả Tranh (45 giây)\r\n\r\n**Chủ đề:** Nhóm sinh viên đang học nhóm ngoài trời.\r\n**Transcript mẫu chuẩn B2:**\r\n> \"In this photograph, I can see a group of four university students studying together in a sunny park. In the foreground, two girls are sitting on the grass with open textbooks and a laptop, discussing their coursework attentively. In the background, tall green trees and modern campus buildings are visible under clear daylight. They are wearing casual clothes such as hoodies and jeans, and judging by their smiling expressions, they seem to be enjoying a productive and pleasant study session.\"\r\n\r\n**Điểm cộng tiêu chuẩn:**\r\n- Áp dụng đầy đủ 4 bước: Tổng quan $\\rightarrow$ Vị trí $\\rightarrow$ Hành động/Trang phục $\\rightarrow$ Cảm xúc/Dự đoán.\r\n- Sử dụng thì Hiện tại tiếp diễn chính xác (`are sitting`, `discussing`).\r\n- Từ vựng miêu tả phong phú (`in the foreground`, `in the background`, `judging by`).",
+      "tags": [
+        "speaking",
+        "examples",
+        "model-transcripts",
+        "picture-description",
+        "comparison",
+        "band-b2",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Speaking Model Transcripts Band B2-C1.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-14-examples-writing-writing-model-answers-band-b2-c1-md",
+      "skill": "Writing",
+      "category": "B2 Language Tips",
+      "topic": "Bài Mẫu Writing Aptis B2 — Model Answers & Phân Tích Chấm Điểm",
+      "summary": "**Tình huống:** CLB thông báo tăng phí sinh hoạt đột ngột. **Bài mẫu đạt chuẩn B2:** > \"Hi Sam,  Have you heard about the club's sudden fee increase? I'm honestly shocked because we already pay enough, and they haven't upgraded any equipment. I think we should talk to the com...",
+      "content": "# ✍️ Bài Mẫu Writing Aptis B2 — Model Answers & Phân Tích Chấm Điểm\r\n\r\n## 1. Part 4 — Informal Email (Gửi Bạn Thân: 50 từ)\r\n\r\n**Tình huống:** CLB thông báo tăng phí sinh hoạt đột ngột.\r\n**Bài mẫu đạt chuẩn B2:**\r\n> \"Hi Sam,\r\n\r\nHave you heard about the club's sudden fee increase? I'm honestly shocked because we already pay enough, and they haven't upgraded any equipment. I think we should talk to the committee together before next week. What do you think?\r\n\r\nCatch you later,\r\nAlex\"\r\n\r\n**Phân tích tiêu chí:**\r\n- **Độ dài:** 48 từ (hoàn hảo trong khoảng 45-55 từ).\r\n- **Ngữ vực (Register):** Tự nhiên, thân mật, dùng từ viết tắt (`I'm`, `haven't`), lời chào/kết thân thiện (`Hi`, `Catch you later`).\r\n- **Nội dung:** Bày tỏ cảm xúc và đề xuất phương án với bạn.",
+      "tags": [
+        "writing",
+        "examples",
+        "model-answers",
+        "formal-email",
+        "informal-email",
+        "band-b2",
+        "b2-language-tips"
+      ],
+      "sourceFile": "Writing Model Answers Band B2-C1.md",
+      "sourceName": "Edulife Edulife",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-15-user-memory-readme-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "User Memory Architecture Concept (Thiết Kế Bộ Nhớ Học Viên)",
+      "summary": "Đây là khung kiến trúc chuẩn bị cho tính năng cá nhân hóa lộ trình ôn luyện của AI Tutor trong các giai đoạn phát triển tiếp theo.   ```json {   \"userId\": \"string\",   \"targetBand\": \"B2\",   \"weakSkills\": [\"listening\", \"writing\"],   \"recurringErrors\": {     \"grammar\": [\"pr...",
+      "content": "# 🧠 User Memory Architecture Concept (Thiết Kế Bộ Nhớ Học Viên)\r\n\r\nĐây là khung kiến trúc chuẩn bị cho tính năng cá nhân hóa lộ trình ôn luyện của AI Tutor trong các giai đoạn phát triển tiếp theo.\r\n\r\n## Schema Khái Niệm Bộ Nhớ Người Học\r\n```json\r\n{\r\n  \"userId\": \"string\",\r\n  \"targetBand\": \"B2\",\r\n  \"weakSkills\": [\"listening\", \"writing\"],\r\n  \"recurringErrors\": {\r\n    \"grammar\": [\"present_perfect_vs_past_simple\", \"third_conditional\"],\r\n    \"vocabulary\": [\"preposition_collocations\"],\r\n    \"writing\": [\"informal_contractions_in_formal_email\"],\r\n    \"speaking\": [\"hesitation_fillers_overuse\"]\r\n  },\r\n  \"completedMilestones\": [\r\n    \"grammar_mastery_level_1\",\r\n    \"email_formal_structure_mastery\"\r\n  ],\r\n  \"recommendedNextTopics\": [\r\n    \"02_Grammar/Conditionals/Conditional Sentences\",\r\n    \"04_Writing/Part 4/Part 4 Informal & Formal Emails\"\r\n  ]\r\n}\r\n```",
+      "tags": [
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "README.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    },
+    {
+      "id": "obs-15-user-memory-user-learning-profile-template-md",
+      "skill": "General",
+      "category": "B2 Language Tips",
+      "topic": "User Learning Memory — Khung Hồ Sơ Điểm Yếu Cá Nhân Hóa",
+      "summary": "Lưu trữ và theo dõi các lỗi ngữ pháp/từ vựng/chiến thuật lặp lại của học viên qua các lần làm bài tập, bài thi thử và phiên trò chuyện với AI Coach.    ```json {   \"userId\": \"usr_uuid\",   \"recurringErrors\": [     {       \"topicId\": \"present-perfect-vs-past-simple\",     ...",
+      "content": "# 🧠 User Learning Memory — Khung Hồ Sơ Điểm Yếu Cá Nhân Hóa\r\n\r\n## Mục đích\r\nLưu trữ và theo dõi các lỗi ngữ pháp/từ vựng/chiến thuật lặp lại của học viên qua các lần làm bài tập, bài thi thử và phiên trò chuyện với AI Coach.\r\n\r\n## Cấu trúc dữ liệu học tập (Profile Schema)\r\n\r\n```json\r\n{\r\n  \"userId\": \"usr_uuid\",\r\n  \"recurringErrors\": [\r\n    {\r\n      \"topicId\": \"present-perfect-vs-past-simple\",\r\n      \"skill\": \"Grammar\",\r\n      \"errorCount\": 3,\r\n      \"lastOccurred\": \"2026-08-25T00:45:00Z\",\r\n      \"exampleMistake\": \"I have went there yesterday\",\r\n      \"status\": \"active_weakness\"\r\n    },\r\n    {\r\n      \"topicId\": \"formal-email-contractions\",\r\n      \"skill\": \"Writing\",\r\n      \"errorCount\": 2,\r\n      \"lastOccurred\": \"2026-08-25T00:50:00Z\",\r\n      \"exampleMistake\": \"I don't agree with this decision\",\r\n      \"status\": \"improving\"\r\n    }\r\n  ],\r\n  \"skillReadiness\": {\r\n    \"grammarVocabulary\": \"B2_SOLID\",\r\n    \"reading\": \"B2_PRACTICE_NEEDED\",\r\n    \"listening\": \"B2_SOLID\",\r\n    \"writing\": \"B1_TO_B2_TRANSITION\",\r\n    \"speaking\": \"B2_SOLID\"\r\n  },\r\n  \"personalizedFocus\": [\r\n    \"Khắc phục viết tắt trong Writing Part 4\",\r\n    \"Rèn luyện kỹ thuật phân bổ thời gian Reading Part 4\"\r\n  ]\r\n}\r\n```",
+      "tags": [
+        "user-memory",
+        "profile",
+        "adaptive-learning",
+        "diagnostics",
+        "general",
+        "b2-language-tips"
+      ],
+      "sourceFile": "User Learning Profile Template.md",
+      "sourceName": "Edulife Knowledge Vault",
+      "sourceType": "edulife",
+      "isOfficialBritishCouncil": false
+    }
+  ]
+}

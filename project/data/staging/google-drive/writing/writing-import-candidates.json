@@ -1,0 +1,49 @@
+[
+  {
+    "candidateId": "local_writing_ref_p123",
+    "source": {
+      "type": "local-aptis-repo",
+      "file": "APTIS_WRITING PART 1&2&3.pdf",
+      "importedAt": "2026-08-23T19:38:57.898298Z"
+    },
+    "skill": "writing",
+    "partsCovered": [
+      1,
+      2,
+      3
+    ],
+    "totalPages": 37,
+    "charCount": 11614,
+    "status": "staged_reference",
+    "confidence": 0.95
+  },
+  {
+    "candidateId": "local_writing_ref_p4",
+    "source": {
+      "type": "local-aptis-repo",
+      "file": "APTIS_WRITING PART 4.pdf",
+      "importedAt": "2026-08-23T19:38:58.247901Z"
+    },
+    "skill": "writing",
+    "partsCovered": [
+      4
+    ],
+    "totalPages": 7,
+    "charCount": 3690,
+    "status": "staged_reference",
+    "confidence": 0.95
+  },
+  {
+    "candidateId": "gdrive_writing_inaccessible",
+    "source": {
+      "type": "google-drive",
+      "fileId": "1u8AeBUdtSJYIypb1gdHaZgnYlEcXMVcmb9J-6iNUO8",
+      "tab": "t.4gwx1fhqoabx",
+      "importedAt": "2026-08-23T19:38:58.247901Z"
+    },
+    "skill": "writing",
+    "status": "inaccessible_404",
+    "errorMessage": "HTTP Error 404: Not Found on Google Drive endpoint. ID has 43 characters or document is private.",
+    "confidence": 0.0
+  }
+]

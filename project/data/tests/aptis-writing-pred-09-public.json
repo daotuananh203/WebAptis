@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-09",
+  "testNumber": 9,
+  "title": "Đề Dự Đoán 09 — Fashion club",
+  "clubName": "Fashion club",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Fashion club .docx"
+  },
+  "provenance": {
+    "file": "Fashion club .docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Fashion club .docx",
+    "totalParas": 9
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Fashion club",
+        "prompt": "Q1: When was the last time you went shopping for clothes?",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Fashion club",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-09_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Some people like to buy clothes to try on themselves. Some prefer to buy online. How do you like it and why?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-09_w3_m2",
+            "senderName": "Jo",
+            "messageText": "Why did you decide to join the club?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-09_w3_m3",
+            "senderName": "Chris",
+            "messageText": "Why do people like fashion?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Fashion club",
+        "managerNotice": "Dear member,\nOur club is going to invite some famous designers to come to our club. This event is organized in order to attract more youngsters joining our club. What do you think about this idea and do you have any other ideas?",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-09_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Fashion club. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-09_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Fashion club. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

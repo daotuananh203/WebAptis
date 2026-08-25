@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-17",
+  "testNumber": 17,
+  "title": "Đề Dự Đoán 17 — Nature club mới",
+  "clubName": "Nature club mới",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Nature club mới.docx"
+  },
+  "provenance": {
+    "file": "Nature club mới.docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Nature club mới.docx",
+    "totalParas": 15
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Nature club mới",
+        "prompt": "What do you like to do when you spend time outdoors ?",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Nature club mới",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-17_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Can you tell me a time when you got lost.",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-17_w3_m2",
+            "senderName": "Jo",
+            "messageText": "What kind of destination do you like visiting? Why?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-17_w3_m3",
+            "senderName": "Chris",
+            "messageText": "Natural places are welcoming more and more tourists on their holiday. I think it is a bad thing. Do you agree? Why?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Nature club mới",
+        "managerNotice": "You are a member of Nature club and you have just received an email from the club’s manager.\nDear members,\nThe club received two invitations for local project support and can only choose one. The first option is to create a plan for a park where members can publicly observe animal behaviors. The second option is a tree-planting support project where everyone works together. Which project is more suitable and give your suggestions?\nManager.\nQ1: Write an email to your friend, who is also a member of the club. Tell your friend how you feel and what suggestions you will make and why. Write about 50 words.\nRecommended time: 10 minutes.\nQ2: Write an email to the manager. Tell the manager how you feel, what suggestions you will make and why. Write 120-150 words.\nRecommended time: 20 minutes",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-17_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Nature club mới. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-17_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Nature club mới. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

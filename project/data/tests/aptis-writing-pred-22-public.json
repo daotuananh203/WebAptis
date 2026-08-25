@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-22",
+  "testNumber": 22,
+  "title": "Đề Dự Đoán 22 — Television club",
+  "clubName": "Television club",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Television club .docx"
+  },
+  "provenance": {
+    "file": "Television club .docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Television club .docx",
+    "totalParas": 26
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Television club",
+        "prompt": "Task 2: When and what do you usually watch on TV?\nI often watch TV when I come home from work. After coming home, I choose to watch news and entertainment programs on TV.",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Television club",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-22_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Task 3:",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-22_w3_m2",
+            "senderName": "Jo",
+            "messageText": "A: Where do you like watching movies? What do you do when watching movies?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-22_w3_m3",
+            "senderName": "Chris",
+            "messageText": "I love the quiet space when watching movies, so I often watch film on TV at home. When watching movies, I enjoy eating popcorns and drinking pep-si to make my watching experience more interesting.",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Television club",
+        "managerNotice": "Task 4: clb muốn tổ chức offline để kỷ niệm các trương trình truyền hình.\nThe club is about to hold a meeting to celebrate our television programs. There are many members connecting with each other online but we are looking to organize an annual conference. We can meet other members in different countries. Please suggest places and activities for the club.\nEmail 1:\nHi Tina,\nHow's it going?\nDo you know about the plan to hold a meeting to celebrate our television programs? I think we can hold it at the Glory Resort as it's luxurious and we can hold outdoor team building activities and gala dinners to bring people together. Do you think so?\nWrite back soon.\nLove,\nMia\nEmail 2:\nDear Sir/Madam,\nI am writing this letter with regard to the announcement about our club's plan to hold a meeting to celebrate our television programs.\nI am excited to hear this information because it is a good chance to let members from different countries get to know each other. Regarding the location, I would like to recommend the A resort as it is spacious enough for a big event. Moreover, it is near the highway, so members can easily move to the airport. In terms of activities, we can hold outdoor team building activities to join. We can also have a big dinner to introduce our national cuisine to oversea members.\nI hope my idea will be of some help to our plan. I look forward to hearing from you.\nYours sincerely,\nMia\nMs. Mia Granger",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-22_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Television club. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-22_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Television club. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

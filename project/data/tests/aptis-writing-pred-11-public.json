@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-11",
+  "testNumber": 11,
+  "title": "Đề Dự Đoán 11 — Food Club",
+  "clubName": "Food Club",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Food_Club_Writing_Tasks.docx"
+  },
+  "provenance": {
+    "file": "Food_Club_Writing_Tasks.docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Food_Club_Writing_Tasks.docx",
+    "totalParas": 19
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Food Club",
+        "prompt": "Why did you decide to join the Food club?\nPart 2: What do you usually eat for breakfast and when do you eat it ?",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Food Club",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-11_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Hi, welcome to the club. Who did you have dinner with? And where?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-11_w3_m2",
+            "senderName": "Jo",
+            "messageText": "Do you prefer eating out or eating at home?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-11_w3_m3",
+            "senderName": "Chris",
+            "messageText": "Should a tax be imposed on unhealthy food?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Food Club",
+        "managerNotice": "Task 4: Dear members, The Food Club will be organizing a meeting with a famous chef, and we would like to ask for our members' opinions. The chef will give a presentation and demonstrate how to cook a dish. What do you think the chef should talk about and what kind of meal should the chef prepare? We want to attract as many audience members as possible, both young and old.\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.\nVersion 2:\nPart 4: Nhiều bạn trẻ hiện nay không biết nấu ăn tại nhà\nDear members,Today many 20-year-olds don't cook at home, don't even know how to cook. Our club wants to encourage young people to improve this situation, please give suggestions and explanations.The manager.\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-11_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Food Club. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-11_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Food Club. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

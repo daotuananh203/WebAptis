@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-14",
+  "testNumber": 14,
+  "title": "Đề Dự Đoán 14 — Living Home Club",
+  "clubName": "Living Home Club",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Living Home Club.docx"
+  },
+  "provenance": {
+    "file": "Living Home Club.docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Living Home Club.docx",
+    "totalParas": 28
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Living Home Club",
+        "prompt": "When you're little, how do you feel when you have to share a room with your siblings?\nI was really delighted when I had to share a room with my sister. My bedroom was big and beautiful. I was scared of the dark and ghosts. Therefore,I could sleep well if there was someone sleeping with me.",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Living Home Club",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-14_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Question 1: Describe the room where you are living?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-14_w3_m2",
+            "senderName": "Jo",
+            "messageText": "My room is quite small/spacious. I am an aesthetically-inclined person, so I constantly decorated my room to make it more pleasant. My room is equipped with many colorful lights.",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-14_w3_m3",
+            "senderName": "Chris",
+            "messageText": "Question 2: Which place do you want to live in: countryside or city? Why?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Living Home Club",
+        "managerNotice": "\" Nowadays many youngsters want to have a house or an apartment early in their life, do you have any advice for them? Why?”\nEmail 1 : Email to your friend\nDear Bobby,\nHow are things?\nDo you know that there are more and more young people who want to have a house or an apartment as soon as possible?\nI think it is a good way for them to live independently.\nWhat do you think bro?\nLove\nAnna\nEmail 2 : Email to the club manager\nDear Sir or Madam,\nMy name is Anna. I have been a club’s member for three months. I am writing this email to respond to your last email about the club’s issue.\nAccording to the news, nowadays there are more and more young people who want to live in a house or an apartment on their own as soon as possible.\nIn my opinion, it is a good way for them to live independently. They will have to earn money to pay for the fee of daily life, for example food, drinks, furniture and so on. In addition, they should learn how to use time and money effectively. Moreover, they should consider their budget before deciding because a new apartment might make them stuck in debt.\nI am looking forward to hearing from you if my ideas are acceptable.\nBest regards,\nAnna",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-14_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Living Home Club. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-14_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Living Home Club. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

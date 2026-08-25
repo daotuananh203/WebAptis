@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "f54f9f2d3144a0af",
+    "type": "split",
+    "children": [
+      {
+        "id": "66b28c8579c67882",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9194e141112d8792",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Xem biểu đồ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e3186991cc7a2760",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb27a8143ea8749b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb1b755e121fad67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Trình duyệt tệp"
+            }
+          },
+          {
+            "id": "d9a77cbf7aa52d53",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Tìm kiếm"
+            }
+          },
+          {
+            "id": "3b75cf230bde21af",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Đánh dấu"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "70658b891a4142f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "288933c145c0f97c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "480be65ea42c6368",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Liên kết đến"
+            }
+          },
+          {
+            "id": "4ef5e484f42e95c3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liên kết đi ra"
+            }
+          },
+          {
+            "id": "0814887dace72912",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Thẻ"
+            }
+          },
+          {
+            "id": "f334e1838567281b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tất cả thuộc tính"
+            }
+          },
+          {
+            "id": "9fad200f427425d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Đề cương"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Mở bộ chuyển đổi nhanh": false,
+      "graph:Mở xem biểu đồ": false,
+      "canvas:Tạo bảng mới": false,
+      "daily-notes:Mở ghi chú hôm nay": false,
+      "templates:Chèn mẫu": false,
+      "command-palette:Mở khay lệnh": false,
+      "bases:Tạo cơ sở mới": false
+    }
+  },
+  "active": "9194e141112d8792",
+  "lastOpenFiles": [
+    "00 Dashboard.md"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-10",
+  "testNumber": 10,
+  "title": "Đề Dự Đoán 10 — Film club",
+  "clubName": "Film club",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Film club.docx"
+  },
+  "provenance": {
+    "file": "Film club.docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Film club.docx",
+    "totalParas": 29
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Film club",
+        "prompt": "Tell me about the last time you watched a good movie.\nThe last time I watched a good movie was 2 weeks ago, the movie was \"3 thousand years of longing\". It is a very good movie with well-made special effects and a plot. It taught me a lot of lessons about love and maturity so I like it a lot",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Film club",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-10_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Watch a movie at night and often fall asleep when the movie is half shown. Please give me some experience.",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-10_w3_m2",
+            "senderName": "Jo",
+            "messageText": "I think it depends on your choice of movie. I also once fell asleep during a romance movie. But I never do when I choose a thriller or an action film. So choose a blockbuster and make the best of your relaxing time",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-10_w3_m3",
+            "senderName": "Chris",
+            "messageText": "Do you prefer watching foreign movies or movies in your mother tongue? Why?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Film club",
+        "managerNotice": "Dear Members,\nOur club will invite a famous film critic next week, and what is the topic should he talk about and how to attract many people as possible to attend\nEmail 1 : Email to your friend\nHi Rose,\nHow’s life?\nDid you know that the club will invite a famous film critic next week?\nI think we choose a captivating topic such as \"The Evolution of Cinema: Past, Present, and Future” and promote the event through social media.\nWhat do you think about the issue?\nLove,\nJennie.\nEmail 2 : Email to the club manager\nDear Manager,\nMy name is Jennie and I have been a club member for 2 months. I am writing this email in response to your latest email about the club’s issue.\nAccording to the news, the club will invite a famous film critic next week.\nI would venture some of my suggestions. To attract a large audience for our club's event featuring a famous film critic, choose a captivating topic such as \"The Evolution of Cinema: Past, Present, and Future.\" Promote the event through various channels, use engaging visuals, and emphasize the critic's unique insights and experiences. Offer Q&A sessions or a discussion panel to make it interactive and appealing.\nI look forward to hearing from you if my ideas are acceptable\nSincerely,\nJennie.",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-10_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Film club. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-10_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Film club. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

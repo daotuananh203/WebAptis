@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stryker-mutator/stryker-js/master/packages/api/schema/stryker-core.json",
+  "mutate": [
+    "lib/grading/deterministic.ts",
+    "lib/grading/word-counter.ts",
+    "lib/grading/normalize.ts"
+  ],
+  "testRunner": "command",
+  "commandRunner": {
+    "command": "npx tsx tests/run-all-tests.ts"
+  },
+  "coverageAnalysis": "off",
+  "reporters": ["progress", "clear-text", "json", "html"],
+  "jsonReporter": {
+    "fileName": "reports/mutation/mutation.json"
+  },
+  "htmlReporter": {
+    "fileName": "reports/mutation/mutation.html"
+  },
+  "timeoutMS": 45000,
+  "concurrency": 2
+}

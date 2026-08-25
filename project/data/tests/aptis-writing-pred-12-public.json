@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-12",
+  "testNumber": 12,
+  "title": "Đề Dự Đoán 12 — Garden Club",
+  "clubName": "Garden Club",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Garden_Club_Writing_Tasks.docx"
+  },
+  "provenance": {
+    "file": "Garden_Club_Writing_Tasks.docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Garden_Club_Writing_Tasks.docx",
+    "totalParas": 12
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Garden Club",
+        "prompt": "Task 2: Why do you join the garden club?",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Garden Club",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-12_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Task 3:",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-12_w3_m2",
+            "senderName": "Jo",
+            "messageText": "Which kind of garden do you prefer: vegetable or flower garden?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-12_w3_m3",
+            "senderName": "Chris",
+            "messageText": "I am confused between buying a house with or without a garden. What is your opinion?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Garden Club",
+        "managerNotice": "You are a member of the Garden club and you have just received an email from the club’s manager.The city government is encouraging the citizens to plant more trees. There are two proposals:\nThe first choice is to do a tree-planting project where everyone works together with the aim of 50 trees and flowers at the park. This will make the city greener.\nThe second choice is to organize an event to teach the members gardening skills in order to help them plant more trees around their living areas. This will gradually make the city from few to many trees.\nWhich option will you choose and give you suggestions?\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-12_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Garden Club. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-12_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Garden Club. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

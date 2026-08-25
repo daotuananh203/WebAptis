@@ -1,0 +1,114 @@
+{
+  "healthCheck": {
+    "status": 200,
+    "latencyMs": 28,
+    "data": {
+      "status": "healthy",
+      "timestamp": "2026-08-25T09:06:28.929Z",
+      "uptimeSeconds": 1,
+      "version": "1.0.0",
+      "checks": {
+        "aiProvider": "configured",
+        "database": "memory_fallback",
+        "knowledgeBrain": "compiled_ready",
+        "listeningAudio": "available"
+      }
+    }
+  },
+  "securityHeaders": {
+    "ctOptions": "nosniff",
+    "frameOptions": "SAMEORIGIN",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "permPolicy": "camera=(), microphone=(self), geolocation=()"
+  },
+  "aiTeacherQueries": [
+    {
+      "skill": "Grammar",
+      "query": "Why do we use present perfect with since?",
+      "latencyMs": 3045,
+      "replyLength": 1370
+    },
+    {
+      "skill": "Writing",
+      "query": "How to structure Writing Part 4 formal email to a club manager?",
+      "latencyMs": 2035,
+      "replyLength": 334
+    },
+    {
+      "skill": "Listening",
+      "query": "What is the best technique for Listening Part 3 multiple speakers matching?",
+      "latencyMs": 3792,
+      "replyLength": 1879
+    },
+    {
+      "skill": "Reading",
+      "query": "What are the key linking words for B2 Reading Part 2 sentence reordering?",
+      "latencyMs": 3183,
+      "replyLength": 1552
+    },
+    {
+      "skill": "Speaking",
+      "query": "How to describe contrasting pictures in Speaking Part 3 effectively?",
+      "latencyMs": 2873,
+      "replyLength": 1366
+    },
+    {
+      "skill": "Vocabulary",
+      "query": "Can you explain the difference between 'despite' and 'in spite of'?",
+      "latencyMs": 3163,
+      "replyLength": 1409
+    }
+  ],
+  "latencyBenchmarks": [
+    {
+      "page": "Landing Page",
+      "path": "/",
+      "latencyMs": 24
+    },
+    {
+      "page": "Login Page",
+      "path": "/login",
+      "latencyMs": 23
+    },
+    {
+      "page": "Register Page",
+      "path": "/register",
+      "latencyMs": 12
+    },
+    {
+      "page": "Dashboard",
+      "path": "/dashboard",
+      "latencyMs": 15
+    },
+    {
+      "page": "Practice Hub",
+      "path": "/practice",
+      "latencyMs": 13
+    },
+    {
+      "page": "Mock Test Hub",
+      "path": "/mock-test",
+      "latencyMs": 13
+    },
+    {
+      "page": "AI Coach",
+      "path": "/coach",
+      "latencyMs": 15
+    },
+    {
+      "page": "Mock Test 01 Session",
+      "path": "/mock-test/session/aptis-b2-01",
+      "latencyMs": 133
+    },
+    {
+      "page": "Mock Test 15 Session",
+      "path": "/mock-test/session/aptis-b2-15",
+      "latencyMs": 21
+    },
+    {
+      "page": "Mock Test 16 Session",
+      "path": "/mock-test/session/aptis-b2-16",
+      "latencyMs": 22
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-05",
+  "testNumber": 5,
+  "title": "Đề Dự Đoán 05 — Community Club",
+  "clubName": "Community Club",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Community_Club_Writing_Tasks.docx"
+  },
+  "provenance": {
+    "file": "Community_Club_Writing_Tasks.docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Community_Club_Writing_Tasks.docx",
+    "totalParas": 9
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Community Club",
+        "prompt": "Why do you want to join the club?",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Community Club",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-05_w3_m1",
+            "senderName": "Sam",
+            "messageText": "My friend wants to go to the hair salon, but her car broke down. Can you think of other ways she can get there?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-05_w3_m2",
+            "senderName": "Jo",
+            "messageText": "Charity can help a lot of people. Do you agree with this statement?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-05_w3_m3",
+            "senderName": "Chris",
+            "messageText": "Do you agree that charity is a good form of learning, especially for young people? Why or why not?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Community Club",
+        "managerNotice": "You are a member of the Community Club.\n\"The club needs support from everyone around us for many activities this year. First, we need more members so we can continue to participate in and organize upcoming events and projects. Additionally, we are looking for creative ideas to develop the club's activities. Can you give us some suggestions?\"\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-05_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Community Club. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-05_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Community Club. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

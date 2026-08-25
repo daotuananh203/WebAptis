@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-24",
+  "testNumber": 24,
+  "title": "Đề Dự Đoán 24 — Walking Club",
+  "clubName": "Walking Club",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Walking_Club_Writing_Tasks_and_Answers.docx"
+  },
+  "provenance": {
+    "file": "Walking_Club_Writing_Tasks_and_Answers.docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Walking_Club_Writing_Tasks_and_Answers.docx",
+    "totalParas": 16
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Walking Club",
+        "prompt": "When and where do you usually walk?\nI usually walk in the morning as a form of exercise, it boosts my energy a lot. I often choose the path near my house to walk, in the morning, not many vehicles travel on that road.",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Walking Club",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-24_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Question 1: I prefer to go to the countryside to go for a walk. Walking in the city is very stressful and noisy. What do you think?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-24_w3_m2",
+            "senderName": "Jo",
+            "messageText": "I disagree ...The city is more developed, it is much more fun to go aroundThere is a designed destination for you to enjoy your timeThe countryside is more peaceful but it lacks the excitement of a walk",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-24_w3_m3",
+            "senderName": "Chris",
+            "messageText": "Question 2: I used to walk and met the rain and got sick, how about your bad experience when walking?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Walking Club",
+        "managerNotice": "Đi bộ dùng điện thoại\n\"Recently, road safety is very important in big cities. But there are many people who say that pedestrians are now all playing on their phones and not paying attention when walking. This is very dangerous. The club intends to produce some information for them. So how can I effectively communicate with them and show your support?\"\nEmail 1\nDeer RoseHow's life?Did you know that our club is going to execute a campaign that can raise awareness about the danger of using phones while walking?I'm thinking of billboards with the message \"Congratulations, you have just looked up on your phone, which may have just saved your life!\".What are your thoughts about this?Your friendLisa\nEmail 2\nDeer Club PresidentI am Lisa, a club member. I'm writing this in response to your latest email about the club's upcoming activities.According to the news, our club is going to execute a campaign that raises the awareness of pedestrians of how dangerous it is to use their phones while traveling on the road.I want to contribute a creative idea. We can use billboards that are located on roads that many pedestrians pass by each day. On the billboard, we can write a profound message \"Congratulations, you have just looked up on your phone, which may have just saved your life!\"Looking forward to hearing from you if my ideas are acceptableBest regardLisz",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-24_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Walking Club. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-24_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Walking Club. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

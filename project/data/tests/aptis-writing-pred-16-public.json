@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-16",
+  "testNumber": 16,
+  "title": "Đề Dự Đoán 16 — Music club (hàng xóm phàn nàn)",
+  "clubName": "Music club (hàng xóm phàn nàn)",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Music club (hàng xóm phàn nàn).docx"
+  },
+  "provenance": {
+    "file": "Music club (hàng xóm phàn nàn).docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Music club (hàng xóm phàn nàn).docx",
+    "totalParas": 28
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Music club (hàng xóm phàn nàn)",
+        "prompt": "Tell me about the last time you listened to a good piece of music?\n2 weeks ago, I attended a music concert and I had a chance to listen to \"Symphony No.9\" . It had a fast beat with a haunting melody. What a masterpiece!",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Music club (hàng xóm phàn nàn)",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-16_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Question 1: When and why do you listen to music?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-16_w3_m2",
+            "senderName": "Jo",
+            "messageText": "I'm in the habit of listening to music when I am in a bad mood. Music helps me relax and relieve all stress, letting me be immersed in a strangely peaceful world where I can be myself.",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-16_w3_m3",
+            "senderName": "Chris",
+            "messageText": "Question 2: I have a ten-year-old son and I want him to learn to play music, but he doesn't want to. What can I do to change his mind?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Music club (hàng xóm phàn nàn)",
+        "managerNotice": "\"As you know, we regularly hold concerts at our clubs in the evenings. Unfortunately, there have been complaints from people living in the area. If we don't do something about this situation, maybe we will have to stop the concerts. I would like to know what you think about this and what can we do to solve this problem? \"\nEmail 1 : Email to your friend\nHi Tina,\nHow's it going?\nDo you know that there have been complaints from people living in the area about our concert?\nI think we can install soundproof glass inside the hall to prevent the noise. Or else, we can restrict the time frame to avoid disturbing the neighborhood.\nWhat do you think bro?\nLove,\nMia\nEmail 2 : Email to the club manager\nDear Manager,\nMy name is Jennie and I have been a club’s member for 2 months. I am writing this email in response to your latest email about the club’s issue.\nAccording to the news, there have been complaints from people living in the area about our concert?\nI would venture some of my suggestions. I think we should install the soundproof glasses inside the hall with a view to prevent the noise from escaping. Alternatively, we can restrict the time frame to avoid disturbing residents in the neighborhood. Specifically, ending time should be adjusted from 11p.m to 10p.m, which is 1 hour earlier than scheduled.\nI look forward to hearing from you if my ideas are acceptable\nSincerely,\nJennie.",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-16_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Music club (hàng xóm phàn nàn). Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-16_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Music club (hàng xóm phàn nàn). Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

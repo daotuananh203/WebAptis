@@ -1,0 +1,58 @@
+# Dependencies & Build
+node_modules/
+.next/
+dist/
+build/
+project/node_modules/
+project/.next/
+project/dist/
+project/build/
+
+# Large Media & External Cloned Repositories (>100MB)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.tar.gz
+*.rar
+APTIS/*.mp4
+resources/repos/
+resources/qa-skills/
+project/resources/repos/
+project/resources/qa-skills/
+
+# Local Environment & Secrets
+.env*.local
+.env
+.env.production
+project/.env*.local
+project/.env
+project/.env.production
+*.pem
+*.key
+*.token
+
+# Testing & Mutation Artifacts
+.stryker-tmp/
+project/.stryker-tmp/
+test-results/
+project/test-results/
+playwright-report/
+project/playwright-report/
+coverage/
+project/coverage/
+backups/
+project/backups/
+
+# Scratch & Temporary Logs
+scratch_*.json
+scratch_*.html
+project/scratch_*.json
+project/scratch_*.html
+*.tsbuildinfo
+project/*.tsbuildinfo
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*

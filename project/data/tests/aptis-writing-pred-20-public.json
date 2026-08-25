@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-20",
+  "testNumber": 20,
+  "title": "Đề Dự Đoán 20 — Social Club",
+  "clubName": "Social Club",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Social_Club_Writing_Tasks.docx"
+  },
+  "provenance": {
+    "file": "Social_Club_Writing_Tasks.docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Social_Club_Writing_Tasks.docx",
+    "totalParas": 11
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Social Club",
+        "prompt": "Tell me about the first time you met your best friend?",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Social Club",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-20_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Many people believe that the more friends you have, the better. What do you think about this view?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-20_w3_m2",
+            "senderName": "Jo",
+            "messageText": "Is it true that young people find it easier to make friends? What do you usually do when you hang out with your friends?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-20_w3_m3",
+            "senderName": "Chris",
+            "messageText": "I like doing everything with my best friend, but sometimes I still do things alone. What about you?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Social Club",
+        "managerNotice": "You are a member of the Social club. You have just received an email from the president of the club.\n\"Dear Member,\nI want to inform you that we will organize some face-to-face meetings for the club members next month. Therefore, we would like to receive your recommendations on which place will be appropriate for the meetings, provided that it will be suitable for both children and adults. Some members suggest organizing both indoor activities and outdoor activities to attract many people. Other members believe it is good to focus on one thing. Please send us your recommendations and explain why.\nThe Manager.\"\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-20_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Social Club. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-20_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Social Club. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

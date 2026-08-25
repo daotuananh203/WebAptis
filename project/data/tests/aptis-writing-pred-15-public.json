@@ -1,0 +1,117 @@
+{
+  "testId": "aptis-writing-pred-15",
+  "testNumber": 15,
+  "title": "Đề Dự Đoán 15 — Museum Club",
+  "clubName": "Museum Club",
+  "level": "B2",
+  "officialDurationMinutes": 50,
+  "isOfficialBritishCouncil": false,
+  "source": {
+    "provider": "Edulife",
+    "sourceType": "prediction",
+    "sourceFile": "Museum_Club_Writing_Tasks.docx"
+  },
+  "provenance": {
+    "file": "Museum_Club_Writing_Tasks.docx",
+    "path": "APTIS/Writing/Bộ đề dự đoán/Museum_Club_Writing_Tasks.docx",
+    "totalParas": 9
+  },
+  "writing": {
+    "officialDurationMinutes": 50,
+    "parts": [
+      {
+        "partNumber": 2,
+        "taskType": "short-personal-text",
+        "instructions": "You are a new member of the club. Fill in the form. Write in sentences. Use 20-30 words.",
+        "clubContext": "Museum Club",
+        "prompt": "Tell me about the last time you visited a museum?",
+        "wordGuidance": {
+          "officialGuidance": "20-30 words",
+          "projectValidationRule": {
+            "min": 20,
+            "max": 30
+          }
+        }
+      },
+      {
+        "partNumber": 3,
+        "taskType": "social-network-chat",
+        "instructions": "You are communicating with other members of the club in the chat room. Reply to their questions. Write in sentences. Use 30-40 words per answer.",
+        "clubContext": "Museum Club",
+        "chatMessages": [
+          {
+            "id": "aptis-writing-pred-15_w3_m1",
+            "senderName": "Sam",
+            "messageText": "Tell me about a time you visited a museum when you were a child.",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-15_w3_m2",
+            "senderName": "Jo",
+            "messageText": "I want to take my children to a museum. Should I take them to a history museum or a sports museum?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          },
+          {
+            "id": "aptis-writing-pred-15_w3_m3",
+            "senderName": "Chris",
+            "messageText": "With the development of science today, fewer people are visiting museums in person, preferring to view images online instead. What impact does this have?",
+            "wordGuidance": {
+              "officialGuidance": "around 40 words",
+              "projectValidationRule": {
+                "min": 30,
+                "max": 50
+              }
+            }
+          }
+        ]
+      },
+      {
+        "partNumber": 4,
+        "taskType": "email-writing",
+        "instructions": "You are a member of the club. Read the notice from the club president/manager and write the requested emails.",
+        "clubContext": "Museum Club",
+        "managerNotice": "You are a member of the Museum club. You have just received an email from the president of the club.\n“Currently the museums in the city are free, in order to have more money to repair and pay the carers, should we collect tickets from passengers? Give your opinion? Why?”\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+        "tasks": [
+          {
+            "taskType": "informal-email",
+            "id": "aptis-writing-pred-15_w4_t1_informal",
+            "recipient": "Friend",
+            "prompt": "Write an email to your friend who is also a member of Museum Club. Express your thoughts and feelings about the announcement and suggest what you both should do.",
+            "wordGuidance": {
+              "officialGuidance": "around 50 words",
+              "projectValidationRule": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          },
+          {
+            "taskType": "formal-email",
+            "id": "aptis-writing-pred-15_w4_t2_formal",
+            "recipient": "Club Manager",
+            "prompt": "Write an email to the president/manager of Museum Club. Give your detailed feedback, propose constructive solutions for the initiative, and explain why your suggestions would benefit the club.",
+            "wordGuidance": {
+              "officialGuidance": "120-150 words",
+              "projectValidationRule": {
+                "min": 120,
+                "max": 150
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

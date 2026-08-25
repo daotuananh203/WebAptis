@@ -1,0 +1,43 @@
+{
+  "name": "aptis-b2-practice",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx tests/run-all-tests.ts",
+    "smoke-test": "tsx tests/production-smoke-test.ts",
+    "db:migrate": "tsx scripts/migrate.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.18.0",
+    "@neondatabase/serverless": "^1.1.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.33.0",
+    "next": "^16.3.2",
+    "pg": "^8.23.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.62.1",
+    "@stryker-mutator/core": "^10.0.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.2.0",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "autoprefixer": "^10.5.4",
+    "localtunnel": "^2.0.2",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.12",
+    "typescript": "^5.8.2"
+  }
+}

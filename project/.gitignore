@@ -1,0 +1,42 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing & reports
+/coverage
+/.stryker-tmp
+/test-results
+/playwright-report
+/backups
+scratch_*.*
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+*.pem
+*.key
+*.token
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# local env files
+.env*.local
+.env
+.env.production
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
