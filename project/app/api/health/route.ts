@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { isDatabaseConfigured } from "@/lib/db/client";
+import { isDatabaseConfigured, queryOne } from "@/lib/db/client";
 import { isObsidianVaultAvailable } from "@/lib/knowledge/obsidian-adapter";
 import fs from "fs";
 import path from "path";
@@ -14,7 +14,15 @@ export async function GET() {
   const isAiConfigured = Boolean(process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY !== "your-gemini-api-key-here");
 
   // 2. Check Database Connectivity / Configuration
-  const dbConfigured = isDatabaseConfigured();
+  let dbStatus = "memory_fallback";
+  if (isDatabaseConfigured()) {
+    try {
+      await queryOne("SELECT 1 as alive;");
+      dbStatus = "connected";
+    } catch {
+      dbStatus = "connection_failed";
+    }
+  }
 
   // 3. Check Knowledge Store Availability
   const compiledVaultPath = path.join(process.cwd(), "data/knowledge/vault-compiled.json");
@@ -25,7 +33,7 @@ export async function GET() {
   const audioDir = path.join(process.cwd(), "public/audio/listening");
   const hasAudioAssets = fs.existsSync(audioDir) && fs.readdirSync(audioDir).filter(f => f.endsWith(".mp3")).length >= 15;
 
-  const isHealthy = (isCompiledVaultReady || isLiveVaultReady) && hasAudioAssets;
+  const isHealthy = (isCompiledVaultReady || isLiveVaultReady) && hasAudioAssets && dbStatus !== "connection_failed";
 
   const healthData = {
     status: isHealthy ? "healthy" : "degraded",
@@ -34,7 +42,7 @@ export async function GET() {
     version: "1.0.0",
     checks: {
       aiProvider: isAiConfigured ? "configured" : "unconfigured",
-      database: dbConfigured ? "configured" : "memory_fallback",
+      database: dbStatus,
       knowledgeBrain: isCompiledVaultReady ? "compiled_ready" : (isLiveVaultReady ? "live_vault_ready" : "missing"),
       listeningAudio: hasAudioAssets ? "available" : "incomplete",
     },
