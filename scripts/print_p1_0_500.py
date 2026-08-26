@@ -1,0 +1,12 @@
+import json
+
+with open("scratch_t1_whisper_transcript.json", "r", encoding="utf-8") as f:
+    items = json.load(f)
+
+print("=== PART 1 ITEMS (0 - 500s) ===")
+for item in items:
+    s = item['start']
+    e = item['end']
+    txt = item['text'].strip()
+    if s < 500:
+        print(f"[{s:06.2f}s -> {e:06.2f}s] {txt}")
