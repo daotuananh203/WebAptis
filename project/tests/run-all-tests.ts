@@ -28,6 +28,7 @@ import { runListeningPart1ContextCompletenessTests } from "./listening-part1-con
 import { runListeningAudioArchitectureTests } from "./listening-audio-architecture.test";
 import { runListeningPart1BoundaryRegressionTests } from "./listening-part1-boundary-regression.test";
 import { runListeningPart1ContentCompletenessTests } from "./listening-part1-content-completeness.test";
+import { runListeningPart1Q1ContentGoldenTests } from "./listening-part1-q1-content-golden.test";
 import { runListeningRuntimeArchitectureTests } from "./listening-runtime-architecture.test";
 import { runPhase3AiTeacherRetrievalTests } from "./phase3-ai-teacher-retrieval.test";
 import { runFinalAICompletionTests } from "./final-ai-completion.test";
@@ -75,6 +76,7 @@ async function main() {
   const test30Passed = runListeningAudioArchitectureTests();
   const test31Passed = runListeningPart1BoundaryRegressionTests();
   const test32Passed = runListeningPart1ContentCompletenessTests();
+  const test34Passed = runListeningPart1Q1ContentGoldenTests();
   const test33Passed = runListeningRuntimeArchitectureTests();
   await runPhase3AiTeacherRetrievalTests();
   await runFinalAICompletionTests();
@@ -102,6 +104,7 @@ async function main() {
     test30Passed &&
     test31Passed &&
     test32Passed &&
+    test34Passed &&
     test33Passed
   ) {
     console.log("==================================================");

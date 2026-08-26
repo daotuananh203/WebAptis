@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "testId": "aptis-b2-01",
+  "partNumber": 1,
+  "sourceArtifacts": {
+    "questionPaper": "APTIS/Listening/Bộ đề ôn tập/00. Bộ Đề Luyện Tập Aptis - HV/01. Đề Luyện Tập/Đề 1 - Aptis.docx",
+    "answerKey": "APTIS/Listening/Bộ đề ôn tập/00. Bộ Đề Luyện Tập Aptis - HV/02. Đáp án/Đề 1.docx",
+    "transcript": "APTIS/Listening/Bộ đề ôn tập/00. Bộ Đề Luyện Tập Aptis - HV/04. Transcript/Đề 1.docx",
+    "formatGuide": "APTIS/Listening/18. Listening_Part 1.pptx"
+  },
+  "structure": {
+    "part1QuestionCount": 13,
+    "playbackCount": 2,
+    "questionPromptIsRecordedInBlock": false,
+    "evidence": "The source transcript has one script block per question; the Part 1 teaching deck explicitly says each question is heard twice. Master alignment shows two ordered Q1 occurrences before Q2."
+  },
+  "q1": {
+    "sourceTranscript": "Hey, I just wanted to tell you about my new car! It's a small one, perfect for my needs. I got it for a great price-only 3,250 pounds! Can you believe it? I was looking at bigger models too, but they were way more expensive, around 3,550 pounds or even 4,250 pounds. I'm really happy with my choice!",
+    "expectedAnswer": "3250 pounds",
+    "alignedOccurrences": [
+      {
+        "label": "first playback",
+        "speechStart": 66.72,
+        "speechEnd": 86.66,
+        "transcript": "Hey, I just wanted to tell you about my new car. It's a small one. Perfect for my needs. I got it for a great price, only 3,250 pounds. Can you believe it? I was looking at bigger models too, but they were way more expensive, around 3,550 pounds, or even 4,250 pounds. I'm really happy with my choice."
+      },
+      {
+        "label": "second playback",
+        "speechStart": 90.26,
+        "speechEnd": 110.14,
+        "transcript": "Hey, I just wanted to tell you about my new car. It's a small one. Perfect for my needs. I got it for a great price, only 3,250 pounds. Can you believe it? I was looking at bigger models too, but they were way more expensive, around 3,550 pounds, or even 4,250 pounds. I'm really happy with my choice."
+      }
+    ],
+    "nextQuestionSpeechStart": 114.94,
+    "boundaryPolicy": {
+      "preRollSeconds": 2.0,
+      "postRollSeconds": 2.0,
+      "start": 64.72,
+      "end": 112.14
+    },
+    "requiredPhrases": [
+      "Hey, I just wanted to tell you about my new car",
+      "It's a small one, perfect for my needs",
+      "only 3,250 pounds",
+      "around 3,550 pounds, or even 4,250 pounds",
+      "I'm really happy with my choice"
+    ],
+    "nextQuestionMarkers": ["Hi, Rose", "It's Ahmed", "What time should we meet for dinner tonight"]
+  }
+}
