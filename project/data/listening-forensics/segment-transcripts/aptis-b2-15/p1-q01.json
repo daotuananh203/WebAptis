@@ -1,0 +1,428 @@
+{
+  "testId": "aptis-b2-15",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-15/part-1/q01.mp3",
+  "audioSha256": "dece9644237911556c50346dec0765a06f086e429d1b1267952f836cf1d92d98",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.98,
+        "end": 6.09,
+        "text": "Hi mom, it's me. I'm stuck in traffic right now, so I'll be late.",
+        "words": [
+          {
+            "start": 0.98,
+            "end": 1.46,
+            "word": " Hi",
+            "probability": 0.21077
+          },
+          {
+            "start": 1.46,
+            "end": 1.7,
+            "word": " mom,",
+            "probability": 0.5605
+          },
+          {
+            "start": 2.04,
+            "end": 2.36,
+            "word": " it's",
+            "probability": 0.95535
+          },
+          {
+            "start": 2.36,
+            "end": 2.52,
+            "word": " me.",
+            "probability": 0.99537
+          },
+          {
+            "start": 3.29,
+            "end": 3.71,
+            "word": " I'm",
+            "probability": 0.98863
+          },
+          {
+            "start": 3.71,
+            "end": 3.95,
+            "word": " stuck",
+            "probability": 0.99923
+          },
+          {
+            "start": 3.95,
+            "end": 4.15,
+            "word": " in",
+            "probability": 0.999
+          },
+          {
+            "start": 4.15,
+            "end": 4.47,
+            "word": " traffic",
+            "probability": 0.99712
+          },
+          {
+            "start": 4.47,
+            "end": 4.73,
+            "word": " right",
+            "probability": 0.99719
+          },
+          {
+            "start": 4.73,
+            "end": 4.99,
+            "word": " now,",
+            "probability": 0.99814
+          },
+          {
+            "start": 5.31,
+            "end": 5.57,
+            "word": " so",
+            "probability": 0.99757
+          },
+          {
+            "start": 5.57,
+            "end": 5.73,
+            "word": " I'll",
+            "probability": 0.99307
+          },
+          {
+            "start": 5.73,
+            "end": 5.83,
+            "word": " be",
+            "probability": 0.99945
+          },
+          {
+            "start": 5.83,
+            "end": 6.09,
+            "word": " late.",
+            "probability": 0.99953
+          }
+        ]
+      },
+      {
+        "start": 6.97,
+        "end": 10.57,
+        "text": "The train takes about 20 minutes, but I'll arrive 10 minutes late.",
+        "words": [
+          {
+            "start": 6.97,
+            "end": 7.23,
+            "word": " The",
+            "probability": 0.98402
+          },
+          {
+            "start": 7.23,
+            "end": 7.47,
+            "word": " train",
+            "probability": 0.99148
+          },
+          {
+            "start": 7.47,
+            "end": 7.77,
+            "word": " takes",
+            "probability": 0.99744
+          },
+          {
+            "start": 7.77,
+            "end": 8.07,
+            "word": " about",
+            "probability": 0.99931
+          },
+          {
+            "start": 8.07,
+            "end": 8.43,
+            "word": " 20",
+            "probability": 0.90985
+          },
+          {
+            "start": 8.43,
+            "end": 8.71,
+            "word": " minutes,",
+            "probability": 0.99505
+          },
+          {
+            "start": 9.05,
+            "end": 9.25,
+            "word": " but",
+            "probability": 0.9953
+          },
+          {
+            "start": 9.25,
+            "end": 9.43,
+            "word": " I'll",
+            "probability": 0.99717
+          },
+          {
+            "start": 9.43,
+            "end": 9.71,
+            "word": " arrive",
+            "probability": 0.99749
+          },
+          {
+            "start": 9.71,
+            "end": 10.01,
+            "word": " 10",
+            "probability": 0.89778
+          },
+          {
+            "start": 10.01,
+            "end": 10.25,
+            "word": " minutes",
+            "probability": 0.99624
+          },
+          {
+            "start": 10.25,
+            "end": 10.57,
+            "word": " late.",
+            "probability": 0.99759
+          }
+        ]
+      },
+      {
+        "start": 11.46,
+        "end": 16.84,
+        "text": "Don't worry, though. We still have 15 minutes until our appointment with Mr. Smith.",
+        "words": [
+          {
+            "start": 11.46,
+            "end": 11.82,
+            "word": " Don't",
+            "probability": 0.98715
+          },
+          {
+            "start": 11.82,
+            "end": 12.04,
+            "word": " worry,",
+            "probability": 0.9991
+          },
+          {
+            "start": 12.36,
+            "end": 12.5,
+            "word": " though.",
+            "probability": 0.99095
+          },
+          {
+            "start": 13.54,
+            "end": 13.82,
+            "word": " We",
+            "probability": 0.98776
+          },
+          {
+            "start": 13.82,
+            "end": 14.06,
+            "word": " still",
+            "probability": 0.99843
+          },
+          {
+            "start": 14.06,
+            "end": 14.26,
+            "word": " have",
+            "probability": 0.99965
+          },
+          {
+            "start": 14.26,
+            "end": 14.66,
+            "word": " 15",
+            "probability": 0.98136
+          },
+          {
+            "start": 14.66,
+            "end": 14.98,
+            "word": " minutes",
+            "probability": 0.99811
+          },
+          {
+            "start": 14.98,
+            "end": 15.34,
+            "word": " until",
+            "probability": 0.99599
+          },
+          {
+            "start": 15.34,
+            "end": 15.56,
+            "word": " our",
+            "probability": 0.9981
+          },
+          {
+            "start": 15.56,
+            "end": 15.94,
+            "word": " appointment",
+            "probability": 0.99862
+          },
+          {
+            "start": 15.94,
+            "end": 16.26,
+            "word": " with",
+            "probability": 0.99877
+          },
+          {
+            "start": 16.26,
+            "end": 16.54,
+            "word": " Mr.",
+            "probability": 0.92804
+          },
+          {
+            "start": 16.66,
+            "end": 16.84,
+            "word": " Smith.",
+            "probability": 0.99184
+          }
+        ]
+      },
+      {
+        "start": 17.92,
+        "end": 23.14,
+        "text": "I'll hurry as much as I can. I just wanted to let you know, so you're not waiting too long.",
+        "words": [
+          {
+            "start": 17.92,
+            "end": 18.14,
+            "word": " I'll",
+            "probability": 0.99491
+          },
+          {
+            "start": 18.14,
+            "end": 18.36,
+            "word": " hurry",
+            "probability": 0.99015
+          },
+          {
+            "start": 18.36,
+            "end": 18.56,
+            "word": " as",
+            "probability": 0.99957
+          },
+          {
+            "start": 18.56,
+            "end": 18.72,
+            "word": " much",
+            "probability": 0.99974
+          },
+          {
+            "start": 18.72,
+            "end": 18.9,
+            "word": " as",
+            "probability": 0.99895
+          },
+          {
+            "start": 18.9,
+            "end": 19.0,
+            "word": " I",
+            "probability": 0.99487
+          },
+          {
+            "start": 19.0,
+            "end": 19.28,
+            "word": " can.",
+            "probability": 0.99906
+          },
+          {
+            "start": 20.2,
+            "end": 20.42,
+            "word": " I",
+            "probability": 0.99524
+          },
+          {
+            "start": 20.42,
+            "end": 20.56,
+            "word": " just",
+            "probability": 0.99709
+          },
+          {
+            "start": 20.56,
+            "end": 20.84,
+            "word": " wanted",
+            "probability": 0.90604
+          },
+          {
+            "start": 20.84,
+            "end": 21.0,
+            "word": " to",
+            "probability": 0.99933
+          },
+          {
+            "start": 21.0,
+            "end": 21.14,
+            "word": " let",
+            "probability": 0.99849
+          },
+          {
+            "start": 21.14,
+            "end": 21.28,
+            "word": " you",
+            "probability": 0.99738
+          },
+          {
+            "start": 21.28,
+            "end": 21.48,
+            "word": " know,",
+            "probability": 0.9993
+          },
+          {
+            "start": 21.74,
+            "end": 21.94,
+            "word": " so",
+            "probability": 0.99727
+          },
+          {
+            "start": 21.94,
+            "end": 22.1,
+            "word": " you're",
+            "probability": 0.99669
+          },
+          {
+            "start": 22.1,
+            "end": 22.22,
+            "word": " not",
+            "probability": 0.99895
+          },
+          {
+            "start": 22.22,
+            "end": 22.56,
+            "word": " waiting",
+            "probability": 0.98846
+          },
+          {
+            "start": 22.56,
+            "end": 22.84,
+            "word": " too",
+            "probability": 0.9948
+          },
+          {
+            "start": 22.84,
+            "end": 23.14,
+            "word": " long.",
+            "probability": 0.99914
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 60,
+            "speechStart": 0.98,
+            "speechEnd": 23.14,
+            "sourceTokenCoverage": 0.9836,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9917,
+            "transcript": "hi mom it's me i'm stuck in traffic right now so i'll be late the train takes about 20 minutes but i'll arrive 10 minutes late don't worry though we still have 15 minutes until our appointment with mr smith i'll hurry as much as i can i just wanted to let you know so you're not waiting too long",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

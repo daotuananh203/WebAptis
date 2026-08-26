@@ -1,0 +1,2086 @@
+{
+  "testId": "aptis-b2-07",
+  "blockId": "p3-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-07/part-3/task-all.mp3",
+  "audioSha256": "232ba84b100e1fa655aa79d6a863743484d4f204e6ec3bc581605d90ed1a5c23",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.66,
+        "end": 6.7,
+        "text": "Hey Carlos have you read the article about urban farming urban farming what exactly is it well",
+        "words": [
+          {
+            "start": 0.66,
+            "end": 1.14,
+            "word": " Hey",
+            "probability": 0.52346
+          },
+          {
+            "start": 1.14,
+            "end": 1.54,
+            "word": " Carlos",
+            "probability": 0.69557
+          },
+          {
+            "start": 1.54,
+            "end": 1.98,
+            "word": " have",
+            "probability": 0.21645
+          },
+          {
+            "start": 1.98,
+            "end": 2.14,
+            "word": " you",
+            "probability": 0.99726
+          },
+          {
+            "start": 2.14,
+            "end": 2.3,
+            "word": " read",
+            "probability": 0.99792
+          },
+          {
+            "start": 2.3,
+            "end": 2.48,
+            "word": " the",
+            "probability": 0.99381
+          },
+          {
+            "start": 2.48,
+            "end": 2.82,
+            "word": " article",
+            "probability": 0.99807
+          },
+          {
+            "start": 2.82,
+            "end": 3.18,
+            "word": " about",
+            "probability": 0.98794
+          },
+          {
+            "start": 3.18,
+            "end": 3.38,
+            "word": " urban",
+            "probability": 0.77865
+          },
+          {
+            "start": 3.38,
+            "end": 3.84,
+            "word": " farming",
+            "probability": 0.99627
+          },
+          {
+            "start": 3.84,
+            "end": 4.76,
+            "word": " urban",
+            "probability": 0.07512
+          },
+          {
+            "start": 4.76,
+            "end": 5.2,
+            "word": " farming",
+            "probability": 0.98865
+          },
+          {
+            "start": 5.2,
+            "end": 5.48,
+            "word": " what",
+            "probability": 0.47833
+          },
+          {
+            "start": 5.48,
+            "end": 5.92,
+            "word": " exactly",
+            "probability": 0.98348
+          },
+          {
+            "start": 5.92,
+            "end": 6.16,
+            "word": " is",
+            "probability": 0.97877
+          },
+          {
+            "start": 6.16,
+            "end": 6.46,
+            "word": " it",
+            "probability": 0.99025
+          },
+          {
+            "start": 6.46,
+            "end": 6.7,
+            "word": " well",
+            "probability": 0.24359
+          }
+        ]
+      },
+      {
+        "start": 6.7,
+        "end": 13.92,
+        "text": "It's about growing food in urban areas like on rooftops or unused spaces to help address food supply issues in cities",
+        "words": [
+          {
+            "start": 6.7,
+            "end": 6.88,
+            "word": " It's",
+            "probability": 0.61098
+          },
+          {
+            "start": 6.88,
+            "end": 7.04,
+            "word": " about",
+            "probability": 0.99958
+          },
+          {
+            "start": 7.04,
+            "end": 7.26,
+            "word": " growing",
+            "probability": 0.99754
+          },
+          {
+            "start": 7.26,
+            "end": 7.66,
+            "word": " food",
+            "probability": 0.99792
+          },
+          {
+            "start": 7.66,
+            "end": 7.94,
+            "word": " in",
+            "probability": 0.99119
+          },
+          {
+            "start": 7.94,
+            "end": 8.22,
+            "word": " urban",
+            "probability": 0.99367
+          },
+          {
+            "start": 8.22,
+            "end": 8.66,
+            "word": " areas",
+            "probability": 0.99721
+          },
+          {
+            "start": 8.66,
+            "end": 9.12,
+            "word": " like",
+            "probability": 0.90653
+          },
+          {
+            "start": 9.12,
+            "end": 9.34,
+            "word": " on",
+            "probability": 0.99729
+          },
+          {
+            "start": 9.34,
+            "end": 9.96,
+            "word": " rooftops",
+            "probability": 0.9743
+          },
+          {
+            "start": 9.96,
+            "end": 10.1,
+            "word": " or",
+            "probability": 0.93884
+          },
+          {
+            "start": 10.1,
+            "end": 10.38,
+            "word": " unused",
+            "probability": 0.98938
+          },
+          {
+            "start": 10.38,
+            "end": 10.86,
+            "word": " spaces",
+            "probability": 0.993
+          },
+          {
+            "start": 10.86,
+            "end": 11.6,
+            "word": " to",
+            "probability": 0.91851
+          },
+          {
+            "start": 11.6,
+            "end": 11.76,
+            "word": " help",
+            "probability": 0.99891
+          },
+          {
+            "start": 11.76,
+            "end": 12.06,
+            "word": " address",
+            "probability": 0.99434
+          },
+          {
+            "start": 12.06,
+            "end": 12.32,
+            "word": " food",
+            "probability": 0.99722
+          },
+          {
+            "start": 12.32,
+            "end": 12.7,
+            "word": " supply",
+            "probability": 0.99779
+          },
+          {
+            "start": 12.7,
+            "end": 13.12,
+            "word": " issues",
+            "probability": 0.98038
+          },
+          {
+            "start": 13.12,
+            "end": 13.54,
+            "word": " in",
+            "probability": 0.98672
+          },
+          {
+            "start": 13.54,
+            "end": 13.92,
+            "word": " cities",
+            "probability": 0.98859
+          }
+        ]
+      },
+      {
+        "start": 13.92,
+        "end": 17.18,
+        "text": "You mean farming in cities? How could that even work?",
+        "words": [
+          {
+            "start": 13.92,
+            "end": 14.38,
+            "word": " You",
+            "probability": 0.42988
+          },
+          {
+            "start": 14.38,
+            "end": 14.54,
+            "word": " mean",
+            "probability": 0.99946
+          },
+          {
+            "start": 14.54,
+            "end": 14.92,
+            "word": " farming",
+            "probability": 0.99476
+          },
+          {
+            "start": 14.92,
+            "end": 15.12,
+            "word": " in",
+            "probability": 0.93598
+          },
+          {
+            "start": 15.12,
+            "end": 15.44,
+            "word": " cities?",
+            "probability": 0.99797
+          },
+          {
+            "start": 16.0,
+            "end": 16.22,
+            "word": " How",
+            "probability": 0.94345
+          },
+          {
+            "start": 16.22,
+            "end": 16.36,
+            "word": " could",
+            "probability": 0.99757
+          },
+          {
+            "start": 16.36,
+            "end": 16.52,
+            "word": " that",
+            "probability": 0.99897
+          },
+          {
+            "start": 16.52,
+            "end": 16.7,
+            "word": " even",
+            "probability": 0.99736
+          },
+          {
+            "start": 16.7,
+            "end": 17.18,
+            "word": " work?",
+            "probability": 0.99872
+          }
+        ]
+      },
+      {
+        "start": 17.84,
+        "end": 25.02,
+        "text": "Cities are already overcrowded. There isn't enough space for housing let alone farming urban farming will take up land",
+        "words": [
+          {
+            "start": 17.84,
+            "end": 18.06,
+            "word": " Cities",
+            "probability": 0.91603
+          },
+          {
+            "start": 18.06,
+            "end": 18.28,
+            "word": " are",
+            "probability": 0.99815
+          },
+          {
+            "start": 18.28,
+            "end": 18.64,
+            "word": " already",
+            "probability": 0.99901
+          },
+          {
+            "start": 18.64,
+            "end": 19.36,
+            "word": " overcrowded.",
+            "probability": 0.9897
+          },
+          {
+            "start": 19.36,
+            "end": 19.88,
+            "word": " There",
+            "probability": 0.994
+          },
+          {
+            "start": 19.88,
+            "end": 20.1,
+            "word": " isn't",
+            "probability": 0.99496
+          },
+          {
+            "start": 20.1,
+            "end": 20.26,
+            "word": " enough",
+            "probability": 0.99965
+          },
+          {
+            "start": 20.26,
+            "end": 20.6,
+            "word": " space",
+            "probability": 0.9996
+          },
+          {
+            "start": 20.6,
+            "end": 20.88,
+            "word": " for",
+            "probability": 0.99933
+          },
+          {
+            "start": 20.88,
+            "end": 21.3,
+            "word": " housing",
+            "probability": 0.99515
+          },
+          {
+            "start": 21.3,
+            "end": 22.06,
+            "word": " let",
+            "probability": 0.41922
+          },
+          {
+            "start": 22.06,
+            "end": 22.32,
+            "word": " alone",
+            "probability": 0.97488
+          },
+          {
+            "start": 22.32,
+            "end": 22.9,
+            "word": " farming",
+            "probability": 0.98559
+          },
+          {
+            "start": 22.9,
+            "end": 23.64,
+            "word": " urban",
+            "probability": 0.43126
+          },
+          {
+            "start": 23.64,
+            "end": 24.1,
+            "word": " farming",
+            "probability": 0.9918
+          },
+          {
+            "start": 24.1,
+            "end": 24.32,
+            "word": " will",
+            "probability": 0.80922
+          },
+          {
+            "start": 24.32,
+            "end": 24.52,
+            "word": " take",
+            "probability": 0.99467
+          },
+          {
+            "start": 24.52,
+            "end": 24.72,
+            "word": " up",
+            "probability": 0.95321
+          },
+          {
+            "start": 24.72,
+            "end": 25.02,
+            "word": " land",
+            "probability": 0.99536
+          }
+        ]
+      },
+      {
+        "start": 25.02,
+        "end": 30.64,
+        "text": "That could be used for accommodation. I think it makes sense more people from rural areas are moving to cities",
+        "words": [
+          {
+            "start": 25.02,
+            "end": 25.26,
+            "word": " That",
+            "probability": 0.12926
+          },
+          {
+            "start": 25.26,
+            "end": 25.44,
+            "word": " could",
+            "probability": 0.99782
+          },
+          {
+            "start": 25.44,
+            "end": 25.62,
+            "word": " be",
+            "probability": 0.99948
+          },
+          {
+            "start": 25.62,
+            "end": 25.9,
+            "word": " used",
+            "probability": 0.99872
+          },
+          {
+            "start": 25.9,
+            "end": 26.12,
+            "word": " for",
+            "probability": 0.99936
+          },
+          {
+            "start": 26.12,
+            "end": 26.6,
+            "word": " accommodation.",
+            "probability": 0.95697
+          },
+          {
+            "start": 27.18,
+            "end": 27.32,
+            "word": " I",
+            "probability": 0.99792
+          },
+          {
+            "start": 27.32,
+            "end": 27.44,
+            "word": " think",
+            "probability": 0.99777
+          },
+          {
+            "start": 27.44,
+            "end": 27.56,
+            "word": " it",
+            "probability": 0.99612
+          },
+          {
+            "start": 27.56,
+            "end": 27.68,
+            "word": " makes",
+            "probability": 0.98316
+          },
+          {
+            "start": 27.68,
+            "end": 28.12,
+            "word": " sense",
+            "probability": 0.99975
+          },
+          {
+            "start": 28.12,
+            "end": 28.62,
+            "word": " more",
+            "probability": 0.90484
+          },
+          {
+            "start": 28.62,
+            "end": 28.92,
+            "word": " people",
+            "probability": 0.99634
+          },
+          {
+            "start": 28.92,
+            "end": 29.12,
+            "word": " from",
+            "probability": 0.9911
+          },
+          {
+            "start": 29.12,
+            "end": 29.38,
+            "word": " rural",
+            "probability": 0.99773
+          },
+          {
+            "start": 29.38,
+            "end": 29.8,
+            "word": " areas",
+            "probability": 0.99245
+          },
+          {
+            "start": 29.8,
+            "end": 29.94,
+            "word": " are",
+            "probability": 0.98378
+          },
+          {
+            "start": 29.94,
+            "end": 30.18,
+            "word": " moving",
+            "probability": 0.9989
+          },
+          {
+            "start": 30.18,
+            "end": 30.38,
+            "word": " to",
+            "probability": 0.99629
+          },
+          {
+            "start": 30.38,
+            "end": 30.64,
+            "word": " cities",
+            "probability": 0.88117
+          }
+        ]
+      },
+      {
+        "start": 30.66,
+        "end": 35.64,
+        "text": "and food has become a critical issue. It's vital that we adapt over time.",
+        "words": [
+          {
+            "start": 30.66,
+            "end": 31.22,
+            "word": " and",
+            "probability": 0.0391
+          },
+          {
+            "start": 31.22,
+            "end": 31.5,
+            "word": " food",
+            "probability": 0.80182
+          },
+          {
+            "start": 31.5,
+            "end": 31.68,
+            "word": " has",
+            "probability": 0.95526
+          },
+          {
+            "start": 31.68,
+            "end": 31.98,
+            "word": " become",
+            "probability": 0.99614
+          },
+          {
+            "start": 31.98,
+            "end": 32.12,
+            "word": " a",
+            "probability": 0.98862
+          },
+          {
+            "start": 32.12,
+            "end": 32.46,
+            "word": " critical",
+            "probability": 0.99472
+          },
+          {
+            "start": 32.46,
+            "end": 32.94,
+            "word": " issue.",
+            "probability": 0.99762
+          },
+          {
+            "start": 33.24,
+            "end": 33.62,
+            "word": " It's",
+            "probability": 0.9525
+          },
+          {
+            "start": 33.62,
+            "end": 33.94,
+            "word": " vital",
+            "probability": 0.99025
+          },
+          {
+            "start": 33.94,
+            "end": 34.26,
+            "word": " that",
+            "probability": 0.98116
+          },
+          {
+            "start": 34.26,
+            "end": 34.4,
+            "word": " we",
+            "probability": 0.99848
+          },
+          {
+            "start": 34.4,
+            "end": 34.7,
+            "word": " adapt",
+            "probability": 0.97499
+          },
+          {
+            "start": 34.7,
+            "end": 35.24,
+            "word": " over",
+            "probability": 0.77546
+          },
+          {
+            "start": 35.24,
+            "end": 35.64,
+            "word": " time.",
+            "probability": 0.99862
+          }
+        ]
+      },
+      {
+        "start": 35.96,
+        "end": 38.72,
+        "text": "That's exactly my point. Where are all these people supposed to live?",
+        "words": [
+          {
+            "start": 35.96,
+            "end": 36.2,
+            "word": " That's",
+            "probability": 0.82875
+          },
+          {
+            "start": 36.2,
+            "end": 36.56,
+            "word": " exactly",
+            "probability": 0.99448
+          },
+          {
+            "start": 36.56,
+            "end": 36.76,
+            "word": " my",
+            "probability": 0.99002
+          },
+          {
+            "start": 36.76,
+            "end": 37.04,
+            "word": " point.",
+            "probability": 0.99933
+          },
+          {
+            "start": 37.32,
+            "end": 37.44,
+            "word": " Where",
+            "probability": 0.96647
+          },
+          {
+            "start": 37.44,
+            "end": 37.54,
+            "word": " are",
+            "probability": 0.75553
+          },
+          {
+            "start": 37.54,
+            "end": 37.64,
+            "word": " all",
+            "probability": 0.95713
+          },
+          {
+            "start": 37.64,
+            "end": 37.76,
+            "word": " these",
+            "probability": 0.99087
+          },
+          {
+            "start": 37.76,
+            "end": 38.0,
+            "word": " people",
+            "probability": 0.99594
+          },
+          {
+            "start": 38.0,
+            "end": 38.3,
+            "word": " supposed",
+            "probability": 0.99173
+          },
+          {
+            "start": 38.3,
+            "end": 38.5,
+            "word": " to",
+            "probability": 0.99939
+          },
+          {
+            "start": 38.5,
+            "end": 38.72,
+            "word": " live?",
+            "probability": 0.9983
+          }
+        ]
+      },
+      {
+        "start": 40.17,
+        "end": 46.67,
+        "text": "You don't have to take urban farming literally. It's not about large-scale farming right away. Small changes are necessary.",
+        "words": [
+          {
+            "start": 40.17,
+            "end": 40.29,
+            "word": " You",
+            "probability": 0.94604
+          },
+          {
+            "start": 40.29,
+            "end": 40.47,
+            "word": " don't",
+            "probability": 0.99813
+          },
+          {
+            "start": 40.47,
+            "end": 40.65,
+            "word": " have",
+            "probability": 0.99664
+          },
+          {
+            "start": 40.65,
+            "end": 40.81,
+            "word": " to",
+            "probability": 0.99856
+          },
+          {
+            "start": 40.81,
+            "end": 41.03,
+            "word": " take",
+            "probability": 0.99762
+          },
+          {
+            "start": 41.03,
+            "end": 41.27,
+            "word": " urban",
+            "probability": 0.96592
+          },
+          {
+            "start": 41.27,
+            "end": 41.61,
+            "word": " farming",
+            "probability": 0.9917
+          },
+          {
+            "start": 41.61,
+            "end": 42.11,
+            "word": " literally.",
+            "probability": 0.93441
+          },
+          {
+            "start": 42.69,
+            "end": 42.87,
+            "word": " It's",
+            "probability": 0.99429
+          },
+          {
+            "start": 42.87,
+            "end": 42.99,
+            "word": " not",
+            "probability": 0.99806
+          },
+          {
+            "start": 42.99,
+            "end": 43.19,
+            "word": " about",
+            "probability": 0.99892
+          },
+          {
+            "start": 43.19,
+            "end": 43.49,
+            "word": " large",
+            "probability": 0.99529
+          },
+          {
+            "start": 43.49,
+            "end": 43.75,
+            "word": "-scale",
+            "probability": 0.84588
+          },
+          {
+            "start": 43.75,
+            "end": 44.15,
+            "word": " farming",
+            "probability": 0.99671
+          },
+          {
+            "start": 44.15,
+            "end": 44.39,
+            "word": " right",
+            "probability": 0.98325
+          },
+          {
+            "start": 44.39,
+            "end": 44.69,
+            "word": " away.",
+            "probability": 0.99771
+          },
+          {
+            "start": 45.25,
+            "end": 45.49,
+            "word": " Small",
+            "probability": 0.99507
+          },
+          {
+            "start": 45.49,
+            "end": 45.91,
+            "word": " changes",
+            "probability": 0.99634
+          },
+          {
+            "start": 45.91,
+            "end": 46.07,
+            "word": " are",
+            "probability": 0.99937
+          },
+          {
+            "start": 46.07,
+            "end": 46.67,
+            "word": " necessary.",
+            "probability": 0.99873
+          }
+        ]
+      },
+      {
+        "start": 47.29,
+        "end": 51.53,
+        "text": "Over time, we need to find ways to balance ecological and economic needs.",
+        "words": [
+          {
+            "start": 47.29,
+            "end": 47.43,
+            "word": " Over",
+            "probability": 0.98499
+          },
+          {
+            "start": 47.43,
+            "end": 47.83,
+            "word": " time,",
+            "probability": 0.9991
+          },
+          {
+            "start": 48.19,
+            "end": 48.27,
+            "word": " we",
+            "probability": 0.99784
+          },
+          {
+            "start": 48.27,
+            "end": 48.41,
+            "word": " need",
+            "probability": 0.99869
+          },
+          {
+            "start": 48.41,
+            "end": 48.55,
+            "word": " to",
+            "probability": 0.99765
+          },
+          {
+            "start": 48.55,
+            "end": 48.75,
+            "word": " find",
+            "probability": 0.9985
+          },
+          {
+            "start": 48.75,
+            "end": 48.99,
+            "word": " ways",
+            "probability": 0.99931
+          },
+          {
+            "start": 48.99,
+            "end": 49.19,
+            "word": " to",
+            "probability": 0.99903
+          },
+          {
+            "start": 49.19,
+            "end": 49.49,
+            "word": " balance",
+            "probability": 0.99788
+          },
+          {
+            "start": 49.49,
+            "end": 50.19,
+            "word": " ecological",
+            "probability": 0.99572
+          },
+          {
+            "start": 50.19,
+            "end": 50.59,
+            "word": " and",
+            "probability": 0.99529
+          },
+          {
+            "start": 50.59,
+            "end": 51.07,
+            "word": " economic",
+            "probability": 0.99963
+          },
+          {
+            "start": 51.07,
+            "end": 51.53,
+            "word": " needs.",
+            "probability": 0.99858
+          }
+        ]
+      },
+      {
+        "start": 52.43,
+        "end": 58.33,
+        "text": "Sure, I support green initiatives, but they need to be practical. How can this approach actually work?",
+        "words": [
+          {
+            "start": 52.43,
+            "end": 52.73,
+            "word": " Sure,",
+            "probability": 0.94826
+          },
+          {
+            "start": 52.99,
+            "end": 53.09,
+            "word": " I",
+            "probability": 0.99514
+          },
+          {
+            "start": 53.09,
+            "end": 53.45,
+            "word": " support",
+            "probability": 0.99898
+          },
+          {
+            "start": 53.45,
+            "end": 53.75,
+            "word": " green",
+            "probability": 0.92296
+          },
+          {
+            "start": 53.75,
+            "end": 54.25,
+            "word": " initiatives,",
+            "probability": 0.99286
+          },
+          {
+            "start": 54.71,
+            "end": 54.87,
+            "word": " but",
+            "probability": 0.99682
+          },
+          {
+            "start": 54.87,
+            "end": 55.03,
+            "word": " they",
+            "probability": 0.99796
+          },
+          {
+            "start": 55.03,
+            "end": 55.23,
+            "word": " need",
+            "probability": 0.99861
+          },
+          {
+            "start": 55.23,
+            "end": 55.43,
+            "word": " to",
+            "probability": 0.99626
+          },
+          {
+            "start": 55.43,
+            "end": 55.55,
+            "word": " be",
+            "probability": 0.99813
+          },
+          {
+            "start": 55.55,
+            "end": 56.05,
+            "word": " practical.",
+            "probability": 0.99846
+          },
+          {
+            "start": 56.65,
+            "end": 56.83,
+            "word": " How",
+            "probability": 0.9956
+          },
+          {
+            "start": 56.83,
+            "end": 56.99,
+            "word": " can",
+            "probability": 0.99722
+          },
+          {
+            "start": 56.99,
+            "end": 57.17,
+            "word": " this",
+            "probability": 0.99792
+          },
+          {
+            "start": 57.17,
+            "end": 57.49,
+            "word": " approach",
+            "probability": 0.99928
+          },
+          {
+            "start": 57.49,
+            "end": 58.03,
+            "word": " actually",
+            "probability": 0.98899
+          },
+          {
+            "start": 58.03,
+            "end": 58.33,
+            "word": " work?",
+            "probability": 0.99926
+          }
+        ]
+      },
+      {
+        "start": 58.33,
+        "end": 63.73,
+        "text": "Unused spaces that are too small for housing can be converted into farming areas.",
+        "words": [
+          {
+            "start": 58.33,
+            "end": 59.17,
+            "word": " Unused",
+            "probability": 0.66684
+          },
+          {
+            "start": 59.17,
+            "end": 59.63,
+            "word": " spaces",
+            "probability": 0.99072
+          },
+          {
+            "start": 59.63,
+            "end": 60.07,
+            "word": " that",
+            "probability": 0.9768
+          },
+          {
+            "start": 60.07,
+            "end": 60.21,
+            "word": " are",
+            "probability": 0.99675
+          },
+          {
+            "start": 60.21,
+            "end": 60.45,
+            "word": " too",
+            "probability": 0.9886
+          },
+          {
+            "start": 60.45,
+            "end": 60.87,
+            "word": " small",
+            "probability": 0.99904
+          },
+          {
+            "start": 60.87,
+            "end": 61.13,
+            "word": " for",
+            "probability": 0.99791
+          },
+          {
+            "start": 61.13,
+            "end": 61.57,
+            "word": " housing",
+            "probability": 0.99586
+          },
+          {
+            "start": 61.57,
+            "end": 61.89,
+            "word": " can",
+            "probability": 0.9857
+          },
+          {
+            "start": 61.89,
+            "end": 62.03,
+            "word": " be",
+            "probability": 0.99803
+          },
+          {
+            "start": 62.03,
+            "end": 62.49,
+            "word": " converted",
+            "probability": 0.99851
+          },
+          {
+            "start": 62.49,
+            "end": 62.91,
+            "word": " into",
+            "probability": 0.99609
+          },
+          {
+            "start": 62.91,
+            "end": 63.25,
+            "word": " farming",
+            "probability": 0.98557
+          },
+          {
+            "start": 63.25,
+            "end": 63.73,
+            "word": " areas.",
+            "probability": 0.99613
+          }
+        ]
+      },
+      {
+        "start": 64.31,
+        "end": 69.13,
+        "text": "If done right, this could be both beneficial and visually attractive, like turning them",
+        "words": [
+          {
+            "start": 64.31,
+            "end": 64.63,
+            "word": " If",
+            "probability": 0.9939
+          },
+          {
+            "start": 64.63,
+            "end": 64.81,
+            "word": " done",
+            "probability": 0.99868
+          },
+          {
+            "start": 64.81,
+            "end": 65.13,
+            "word": " right,",
+            "probability": 0.9873
+          },
+          {
+            "start": 65.37,
+            "end": 65.57,
+            "word": " this",
+            "probability": 0.98879
+          },
+          {
+            "start": 65.57,
+            "end": 65.73,
+            "word": " could",
+            "probability": 0.98412
+          },
+          {
+            "start": 65.73,
+            "end": 65.87,
+            "word": " be",
+            "probability": 0.96363
+          },
+          {
+            "start": 65.87,
+            "end": 66.19,
+            "word": " both",
+            "probability": 0.99676
+          },
+          {
+            "start": 66.19,
+            "end": 66.85,
+            "word": " beneficial",
+            "probability": 0.986
+          },
+          {
+            "start": 66.85,
+            "end": 67.19,
+            "word": " and",
+            "probability": 0.99386
+          },
+          {
+            "start": 67.19,
+            "end": 67.59,
+            "word": " visually",
+            "probability": 0.99798
+          },
+          {
+            "start": 67.59,
+            "end": 68.19,
+            "word": " attractive,",
+            "probability": 0.99524
+          },
+          {
+            "start": 68.59,
+            "end": 68.67,
+            "word": " like",
+            "probability": 0.96628
+          },
+          {
+            "start": 68.67,
+            "end": 68.93,
+            "word": " turning",
+            "probability": 0.99626
+          },
+          {
+            "start": 68.93,
+            "end": 69.13,
+            "word": " them",
+            "probability": 0.99753
+          }
+        ]
+      },
+      {
+        "start": 69.13,
+        "end": 71.21,
+        "text": "into green spaces or local parks.",
+        "words": [
+          {
+            "start": 69.13,
+            "end": 69.29,
+            "word": " into",
+            "probability": 0.99604
+          },
+          {
+            "start": 69.29,
+            "end": 69.51,
+            "word": " green",
+            "probability": 0.98896
+          },
+          {
+            "start": 69.51,
+            "end": 70.03,
+            "word": " spaces",
+            "probability": 0.99811
+          },
+          {
+            "start": 70.03,
+            "end": 70.39,
+            "word": " or",
+            "probability": 0.92097
+          },
+          {
+            "start": 70.39,
+            "end": 70.71,
+            "word": " local",
+            "probability": 0.99216
+          },
+          {
+            "start": 70.71,
+            "end": 71.21,
+            "word": " parks.",
+            "probability": 0.9959
+          }
+        ]
+      },
+      {
+        "start": 71.59,
+        "end": 76.55,
+        "text": "I still think this could have negative effects, especially on rural areas, where traditional",
+        "words": [
+          {
+            "start": 71.59,
+            "end": 71.67,
+            "word": " I",
+            "probability": 0.16663
+          },
+          {
+            "start": 71.67,
+            "end": 71.91,
+            "word": " still",
+            "probability": 0.9801
+          },
+          {
+            "start": 71.91,
+            "end": 72.25,
+            "word": " think",
+            "probability": 0.99835
+          },
+          {
+            "start": 72.25,
+            "end": 72.43,
+            "word": " this",
+            "probability": 0.98884
+          },
+          {
+            "start": 72.43,
+            "end": 72.65,
+            "word": " could",
+            "probability": 0.99284
+          },
+          {
+            "start": 72.65,
+            "end": 72.85,
+            "word": " have",
+            "probability": 0.99606
+          },
+          {
+            "start": 72.85,
+            "end": 73.15,
+            "word": " negative",
+            "probability": 0.99717
+          },
+          {
+            "start": 73.15,
+            "end": 73.73,
+            "word": " effects,",
+            "probability": 0.98903
+          },
+          {
+            "start": 74.07,
+            "end": 74.61,
+            "word": " especially",
+            "probability": 0.99594
+          },
+          {
+            "start": 74.61,
+            "end": 74.83,
+            "word": " on",
+            "probability": 0.98488
+          },
+          {
+            "start": 74.83,
+            "end": 75.05,
+            "word": " rural",
+            "probability": 0.99928
+          },
+          {
+            "start": 75.05,
+            "end": 75.61,
+            "word": " areas,",
+            "probability": 0.99951
+          },
+          {
+            "start": 76.05,
+            "end": 76.15,
+            "word": " where",
+            "probability": 0.98835
+          },
+          {
+            "start": 76.15,
+            "end": 76.55,
+            "word": " traditional",
+            "probability": 0.99872
+          }
+        ]
+      },
+      {
+        "start": 76.55,
+        "end": 80.25,
+        "text": "farmers might lose their jobs if urban farming takes over.",
+        "words": [
+          {
+            "start": 76.55,
+            "end": 76.99,
+            "word": " farmers",
+            "probability": 0.99449
+          },
+          {
+            "start": 76.99,
+            "end": 77.23,
+            "word": " might",
+            "probability": 0.99025
+          },
+          {
+            "start": 77.23,
+            "end": 77.49,
+            "word": " lose",
+            "probability": 0.99218
+          },
+          {
+            "start": 77.49,
+            "end": 77.71,
+            "word": " their",
+            "probability": 0.99943
+          },
+          {
+            "start": 77.71,
+            "end": 78.25,
+            "word": " jobs",
+            "probability": 0.99767
+          },
+          {
+            "start": 78.25,
+            "end": 78.79,
+            "word": " if",
+            "probability": 0.92259
+          },
+          {
+            "start": 78.79,
+            "end": 79.05,
+            "word": " urban",
+            "probability": 0.99665
+          },
+          {
+            "start": 79.05,
+            "end": 79.45,
+            "word": " farming",
+            "probability": 0.99893
+          },
+          {
+            "start": 79.45,
+            "end": 79.79,
+            "word": " takes",
+            "probability": 0.99757
+          },
+          {
+            "start": 79.79,
+            "end": 80.25,
+            "word": " over.",
+            "probability": 0.99856
+          }
+        ]
+      },
+      {
+        "start": 80.57,
+        "end": 83.21,
+        "text": "You should think of it as a supplement, not a replacement.",
+        "words": [
+          {
+            "start": 80.57,
+            "end": 80.69,
+            "word": " You",
+            "probability": 0.97816
+          },
+          {
+            "start": 80.69,
+            "end": 80.85,
+            "word": " should",
+            "probability": 0.99852
+          },
+          {
+            "start": 80.85,
+            "end": 81.03,
+            "word": " think",
+            "probability": 0.99816
+          },
+          {
+            "start": 81.03,
+            "end": 81.19,
+            "word": " of",
+            "probability": 0.99819
+          },
+          {
+            "start": 81.19,
+            "end": 81.29,
+            "word": " it",
+            "probability": 0.99811
+          },
+          {
+            "start": 81.29,
+            "end": 81.41,
+            "word": " as",
+            "probability": 0.99682
+          },
+          {
+            "start": 81.41,
+            "end": 81.53,
+            "word": " a",
+            "probability": 0.99517
+          },
+          {
+            "start": 81.53,
+            "end": 82.05,
+            "word": " supplement,",
+            "probability": 0.98547
+          },
+          {
+            "start": 82.43,
+            "end": 82.59,
+            "word": " not",
+            "probability": 0.99769
+          },
+          {
+            "start": 82.59,
+            "end": 82.71,
+            "word": " a",
+            "probability": 0.99548
+          },
+          {
+            "start": 82.71,
+            "end": 83.21,
+            "word": " replacement.",
+            "probability": 0.99808
+          }
+        ]
+      },
+      {
+        "start": 83.21,
+        "end": 89.5,
+        "text": "For rural areas, producing vegetables closer to where they're consumed can actually be beneficial.",
+        "words": [
+          {
+            "start": 83.21,
+            "end": 84.21,
+            "word": " For",
+            "probability": 0.06995
+          },
+          {
+            "start": 84.5,
+            "end": 84.78,
+            "word": " rural",
+            "probability": 0.99681
+          },
+          {
+            "start": 84.78,
+            "end": 85.3,
+            "word": " areas,",
+            "probability": 0.99841
+          },
+          {
+            "start": 85.78,
+            "end": 86.0,
+            "word": " producing",
+            "probability": 0.98895
+          },
+          {
+            "start": 86.0,
+            "end": 86.44,
+            "word": " vegetables",
+            "probability": 0.99126
+          },
+          {
+            "start": 86.44,
+            "end": 87.04,
+            "word": " closer",
+            "probability": 0.9939
+          },
+          {
+            "start": 87.04,
+            "end": 87.22,
+            "word": " to",
+            "probability": 0.99598
+          },
+          {
+            "start": 87.22,
+            "end": 87.36,
+            "word": " where",
+            "probability": 0.99527
+          },
+          {
+            "start": 87.36,
+            "end": 87.52,
+            "word": " they're",
+            "probability": 0.85821
+          },
+          {
+            "start": 87.52,
+            "end": 87.92,
+            "word": " consumed",
+            "probability": 0.99252
+          },
+          {
+            "start": 87.92,
+            "end": 88.34,
+            "word": " can",
+            "probability": 0.98156
+          },
+          {
+            "start": 88.34,
+            "end": 88.74,
+            "word": " actually",
+            "probability": 0.98354
+          },
+          {
+            "start": 88.74,
+            "end": 88.92,
+            "word": " be",
+            "probability": 0.9952
+          },
+          {
+            "start": 88.92,
+            "end": 89.5,
+            "word": " beneficial.",
+            "probability": 0.99877
+          }
+        ]
+      },
+      {
+        "start": 90.0,
+        "end": 94.48,
+        "text": "It saves on transportation costs and uses resources more efficiently.",
+        "words": [
+          {
+            "start": 90.0,
+            "end": 90.22,
+            "word": " It",
+            "probability": 0.98566
+          },
+          {
+            "start": 90.22,
+            "end": 90.5,
+            "word": " saves",
+            "probability": 0.98675
+          },
+          {
+            "start": 90.5,
+            "end": 90.74,
+            "word": " on",
+            "probability": 0.99553
+          },
+          {
+            "start": 90.74,
+            "end": 91.28,
+            "word": " transportation",
+            "probability": 0.99764
+          },
+          {
+            "start": 91.28,
+            "end": 91.96,
+            "word": " costs",
+            "probability": 0.99659
+          },
+          {
+            "start": 91.96,
+            "end": 92.68,
+            "word": " and",
+            "probability": 0.69814
+          },
+          {
+            "start": 92.68,
+            "end": 92.92,
+            "word": " uses",
+            "probability": 0.9853
+          },
+          {
+            "start": 92.92,
+            "end": 93.58,
+            "word": " resources",
+            "probability": 0.99596
+          },
+          {
+            "start": 93.58,
+            "end": 93.9,
+            "word": " more",
+            "probability": 0.99751
+          },
+          {
+            "start": 93.9,
+            "end": 94.48,
+            "word": " efficiently.",
+            "probability": 0.99337
+          }
+        ]
+      },
+      {
+        "start": 94.78,
+        "end": 96.74,
+        "text": "But this is mostly about food, right?",
+        "words": [
+          {
+            "start": 94.78,
+            "end": 94.88,
+            "word": " But",
+            "probability": 0.86749
+          },
+          {
+            "start": 94.88,
+            "end": 95.0,
+            "word": " this",
+            "probability": 0.98062
+          },
+          {
+            "start": 95.0,
+            "end": 95.16,
+            "word": " is",
+            "probability": 0.99273
+          },
+          {
+            "start": 95.16,
+            "end": 95.52,
+            "word": " mostly",
+            "probability": 0.99782
+          },
+          {
+            "start": 95.52,
+            "end": 95.76,
+            "word": " about",
+            "probability": 0.9991
+          },
+          {
+            "start": 95.76,
+            "end": 96.16,
+            "word": " food,",
+            "probability": 0.99732
+          },
+          {
+            "start": 96.5,
+            "end": 96.74,
+            "word": " right?",
+            "probability": 0.99405
+          }
+        ]
+      },
+      {
+        "start": 97.42,
+        "end": 100.08,
+        "text": "I don't think urban farming can solve the problem of scarcity.",
+        "words": [
+          {
+            "start": 97.42,
+            "end": 97.54,
+            "word": " I",
+            "probability": 0.99069
+          },
+          {
+            "start": 97.54,
+            "end": 97.7,
+            "word": " don't",
+            "probability": 0.99704
+          },
+          {
+            "start": 97.7,
+            "end": 97.92,
+            "word": " think",
+            "probability": 0.99934
+          },
+          {
+            "start": 97.92,
+            "end": 98.16,
+            "word": " urban",
+            "probability": 0.98341
+          },
+          {
+            "start": 98.16,
+            "end": 98.54,
+            "word": " farming",
+            "probability": 0.99906
+          },
+          {
+            "start": 98.54,
+            "end": 98.76,
+            "word": " can",
+            "probability": 0.99302
+          },
+          {
+            "start": 98.76,
+            "end": 99.0,
+            "word": " solve",
+            "probability": 0.99953
+          },
+          {
+            "start": 99.0,
+            "end": 99.18,
+            "word": " the",
+            "probability": 0.99661
+          },
+          {
+            "start": 99.18,
+            "end": 99.48,
+            "word": " problem",
+            "probability": 0.99347
+          },
+          {
+            "start": 99.48,
+            "end": 99.66,
+            "word": " of",
+            "probability": 0.9975
+          },
+          {
+            "start": 99.66,
+            "end": 100.08,
+            "word": " scarcity.",
+            "probability": 0.99553
+          }
+        ]
+      },
+      {
+        "start": 100.8,
+        "end": 103.7,
+        "text": "Cities just can't realistically support large-scale farming.",
+        "words": [
+          {
+            "start": 100.8,
+            "end": 101.1,
+            "word": " Cities",
+            "probability": 0.93626
+          },
+          {
+            "start": 101.1,
+            "end": 101.38,
+            "word": " just",
+            "probability": 0.9931
+          },
+          {
+            "start": 101.38,
+            "end": 101.74,
+            "word": " can't",
+            "probability": 0.99714
+          },
+          {
+            "start": 101.74,
+            "end": 102.02,
+            "word": " realistically",
+            "probability": 0.99659
+          },
+          {
+            "start": 102.02,
+            "end": 102.64,
+            "word": " support",
+            "probability": 0.99847
+          },
+          {
+            "start": 102.64,
+            "end": 103.04,
+            "word": " large",
+            "probability": 0.99835
+          },
+          {
+            "start": 103.04,
+            "end": 103.28,
+            "word": "-scale",
+            "probability": 0.86935
+          },
+          {
+            "start": 103.28,
+            "end": 103.7,
+            "word": " farming.",
+            "probability": 0.99852
+          }
+        ]
+      },
+      {
+        "start": 104.14,
+        "end": 106.46,
+        "text": "Rural farming is still a more practical option.",
+        "words": [
+          {
+            "start": 104.14,
+            "end": 104.38,
+            "word": " Rural",
+            "probability": 0.86521
+          },
+          {
+            "start": 104.38,
+            "end": 104.74,
+            "word": " farming",
+            "probability": 0.99845
+          },
+          {
+            "start": 104.74,
+            "end": 104.92,
+            "word": " is",
+            "probability": 0.99827
+          },
+          {
+            "start": 104.92,
+            "end": 105.2,
+            "word": " still",
+            "probability": 0.99086
+          },
+          {
+            "start": 105.2,
+            "end": 105.4,
+            "word": " a",
+            "probability": 0.99826
+          },
+          {
+            "start": 105.4,
+            "end": 105.54,
+            "word": " more",
+            "probability": 0.99811
+          },
+          {
+            "start": 105.54,
+            "end": 105.9,
+            "word": " practical",
+            "probability": 0.99391
+          },
+          {
+            "start": 105.9,
+            "end": 106.46,
+            "word": " option.",
+            "probability": 0.99847
+          }
+        ]
+      },
+      {
+        "start": 107.0,
+        "end": 109.82,
+        "text": "That's true and I agree, but changes need to happen.",
+        "words": [
+          {
+            "start": 107.0,
+            "end": 107.38,
+            "word": " That's",
+            "probability": 0.99253
+          },
+          {
+            "start": 107.38,
+            "end": 107.56,
+            "word": " true",
+            "probability": 0.99846
+          },
+          {
+            "start": 107.56,
+            "end": 107.72,
+            "word": " and",
+            "probability": 0.589
+          },
+          {
+            "start": 107.72,
+            "end": 107.82,
+            "word": " I",
+            "probability": 0.99279
+          },
+          {
+            "start": 107.82,
+            "end": 108.12,
+            "word": " agree,",
+            "probability": 0.99917
+          },
+          {
+            "start": 108.68,
+            "end": 108.8,
+            "word": " but",
+            "probability": 0.9943
+          },
+          {
+            "start": 108.8,
+            "end": 109.14,
+            "word": " changes",
+            "probability": 0.99318
+          },
+          {
+            "start": 109.14,
+            "end": 109.4,
+            "word": " need",
+            "probability": 0.99562
+          },
+          {
+            "start": 109.4,
+            "end": 109.56,
+            "word": " to",
+            "probability": 0.99968
+          },
+          {
+            "start": 109.56,
+            "end": 109.82,
+            "word": " happen.",
+            "probability": 0.99871
+          }
+        ]
+      },
+      {
+        "start": 110.44,
+        "end": 114.18,
+        "text": "Sooner or later, urban farming will become a key trend for the future.",
+        "words": [
+          {
+            "start": 110.44,
+            "end": 110.92,
+            "word": " Sooner",
+            "probability": 0.80239
+          },
+          {
+            "start": 110.92,
+            "end": 111.02,
+            "word": " or",
+            "probability": 0.99377
+          },
+          {
+            "start": 111.02,
+            "end": 111.3,
+            "word": " later,",
+            "probability": 0.99612
+          },
+          {
+            "start": 111.54,
+            "end": 111.76,
+            "word": " urban",
+            "probability": 0.69317
+          },
+          {
+            "start": 111.76,
+            "end": 112.18,
+            "word": " farming",
+            "probability": 0.99791
+          },
+          {
+            "start": 112.18,
+            "end": 112.36,
+            "word": " will",
+            "probability": 0.99739
+          },
+          {
+            "start": 112.36,
+            "end": 112.62,
+            "word": " become",
+            "probability": 0.99313
+          },
+          {
+            "start": 112.62,
+            "end": 112.8,
+            "word": " a",
+            "probability": 0.99603
+          },
+          {
+            "start": 112.8,
+            "end": 113.04,
+            "word": " key",
+            "probability": 0.59753
+          },
+          {
+            "start": 113.04,
+            "end": 113.5,
+            "word": " trend",
+            "probability": 0.99927
+          },
+          {
+            "start": 113.5,
+            "end": 113.74,
+            "word": " for",
+            "probability": 0.99042
+          },
+          {
+            "start": 113.74,
+            "end": 113.84,
+            "word": " the",
+            "probability": 0.98751
+          },
+          {
+            "start": 113.84,
+            "end": 114.18,
+            "word": " future.",
+            "probability": 0.99868
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p3-task-all",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 313,
+            "speechStart": 0.66,
+            "speechEnd": 114.18,
+            "sourceTokenCoverage": 0.963,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9765,
+            "transcript": "hey carlos have you read the article about urban farming urban farming what exactly is it well it's about growing food in urban areas like on rooftops or unused spaces to help address food supply issues in cities you mean farming in cities how could that even work cities are already overcrowded there isn't enough space for housing let alone farming urban farming will take up land that could be used for accommodation i think it makes sense more people from rural areas are moving to cities and food has become a critical issue it's vital that we adapt over time that's exactly my point where are all these people supposed to live you don't have to take urban farming literally it's not about large scale farming right away small changes are necessary over time we need to find ways to balance ecological and economic needs sure i support green initiatives but they need to be practical how can this approach actually work unused spaces that are too small for housing can be converted into farming areas if done right this could be both beneficial and visually attractive like turning them into green spaces or local parks i still think this could have negative effects especially on rural areas where traditional farmers might lose their jobs if urban farming takes over you should think of it as a supplement not a replacement for rural areas producing vegetables closer to where they're consumed can actually be beneficial it saves on transportation costs and uses resources more efficiently but this is mostly about food right i don't think urban farming can solve the problem of scarcity cities just can't realistically support large scale farming rural farming is still a more practical option that's true and i agree but changes need to happen sooner or later urban farming will become a key trend for the future",
+            "openingMatch": 0.9111,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

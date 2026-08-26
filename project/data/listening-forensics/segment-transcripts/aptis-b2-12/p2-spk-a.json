@@ -1,0 +1,1186 @@
+{
+  "testId": "aptis-b2-12",
+  "blockId": "p2-spk-a",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-12/part-2/spk-a.mp3",
+  "audioSha256": "966a892f476b31e5c2f6d023189ae562f4c68de093e45ecbc47c74c39fda4e39",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.04,
+        "end": 5.2,
+        "text": "I spend quite a bit of my free time online, mostly because I love watching movies.",
+        "words": [
+          {
+            "start": 1.04,
+            "end": 1.48,
+            "word": " I",
+            "probability": 0.68294
+          },
+          {
+            "start": 1.48,
+            "end": 1.64,
+            "word": " spend",
+            "probability": 0.85716
+          },
+          {
+            "start": 1.64,
+            "end": 1.92,
+            "word": " quite",
+            "probability": 0.98842
+          },
+          {
+            "start": 1.92,
+            "end": 2.04,
+            "word": " a",
+            "probability": 0.99573
+          },
+          {
+            "start": 2.04,
+            "end": 2.18,
+            "word": " bit",
+            "probability": 0.99618
+          },
+          {
+            "start": 2.18,
+            "end": 2.28,
+            "word": " of",
+            "probability": 0.98102
+          },
+          {
+            "start": 2.28,
+            "end": 2.4,
+            "word": " my",
+            "probability": 0.99665
+          },
+          {
+            "start": 2.4,
+            "end": 2.62,
+            "word": " free",
+            "probability": 0.96761
+          },
+          {
+            "start": 2.62,
+            "end": 2.84,
+            "word": " time",
+            "probability": 0.916
+          },
+          {
+            "start": 2.84,
+            "end": 3.2,
+            "word": " online,",
+            "probability": 0.97208
+          },
+          {
+            "start": 3.52,
+            "end": 3.8,
+            "word": " mostly",
+            "probability": 0.99728
+          },
+          {
+            "start": 3.8,
+            "end": 4.06,
+            "word": " because",
+            "probability": 0.99693
+          },
+          {
+            "start": 4.06,
+            "end": 4.22,
+            "word": " I",
+            "probability": 0.99602
+          },
+          {
+            "start": 4.22,
+            "end": 4.46,
+            "word": " love",
+            "probability": 0.98952
+          },
+          {
+            "start": 4.46,
+            "end": 4.84,
+            "word": " watching",
+            "probability": 0.9984
+          },
+          {
+            "start": 4.84,
+            "end": 5.2,
+            "word": " movies.",
+            "probability": 0.99583
+          }
+        ]
+      },
+      {
+        "start": 5.72,
+        "end": 10.9,
+        "text": "The internet makes it so easy to find a wide variety of films, from the latest releases",
+        "words": [
+          {
+            "start": 5.72,
+            "end": 6.08,
+            "word": " The",
+            "probability": 0.99311
+          },
+          {
+            "start": 6.08,
+            "end": 6.48,
+            "word": " internet",
+            "probability": 0.8012
+          },
+          {
+            "start": 6.48,
+            "end": 6.72,
+            "word": " makes",
+            "probability": 0.99287
+          },
+          {
+            "start": 6.72,
+            "end": 6.9,
+            "word": " it",
+            "probability": 0.99283
+          },
+          {
+            "start": 6.9,
+            "end": 7.18,
+            "word": " so",
+            "probability": 0.97752
+          },
+          {
+            "start": 7.18,
+            "end": 7.64,
+            "word": " easy",
+            "probability": 0.99473
+          },
+          {
+            "start": 7.64,
+            "end": 7.84,
+            "word": " to",
+            "probability": 0.99442
+          },
+          {
+            "start": 7.84,
+            "end": 8.08,
+            "word": " find",
+            "probability": 0.99691
+          },
+          {
+            "start": 8.08,
+            "end": 8.24,
+            "word": " a",
+            "probability": 0.99813
+          },
+          {
+            "start": 8.24,
+            "end": 8.52,
+            "word": " wide",
+            "probability": 0.99881
+          },
+          {
+            "start": 8.52,
+            "end": 9.0,
+            "word": " variety",
+            "probability": 0.99863
+          },
+          {
+            "start": 9.0,
+            "end": 9.16,
+            "word": " of",
+            "probability": 0.99712
+          },
+          {
+            "start": 9.16,
+            "end": 9.48,
+            "word": " films,",
+            "probability": 0.98622
+          },
+          {
+            "start": 9.88,
+            "end": 9.98,
+            "word": " from",
+            "probability": 0.98632
+          },
+          {
+            "start": 9.98,
+            "end": 10.12,
+            "word": " the",
+            "probability": 0.9979
+          },
+          {
+            "start": 10.12,
+            "end": 10.42,
+            "word": " latest",
+            "probability": 0.99814
+          },
+          {
+            "start": 10.42,
+            "end": 10.9,
+            "word": " releases",
+            "probability": 0.99555
+          }
+        ]
+      },
+      {
+        "start": 10.9,
+        "end": 12.0,
+        "text": "to old classics.",
+        "words": [
+          {
+            "start": 10.9,
+            "end": 11.3,
+            "word": " to",
+            "probability": 0.91655
+          },
+          {
+            "start": 11.3,
+            "end": 11.52,
+            "word": " old",
+            "probability": 0.98823
+          },
+          {
+            "start": 11.52,
+            "end": 12.0,
+            "word": " classics.",
+            "probability": 0.9907
+          }
+        ]
+      },
+      {
+        "start": 12.78,
+        "end": 17.66,
+        "text": "I can stream them directly on my laptop or TV, without needing to go out and buy DVDs or",
+        "words": [
+          {
+            "start": 12.78,
+            "end": 13.0,
+            "word": " I",
+            "probability": 0.99204
+          },
+          {
+            "start": 13.0,
+            "end": 13.14,
+            "word": " can",
+            "probability": 0.99533
+          },
+          {
+            "start": 13.14,
+            "end": 13.42,
+            "word": " stream",
+            "probability": 0.99689
+          },
+          {
+            "start": 13.42,
+            "end": 13.6,
+            "word": " them",
+            "probability": 0.99362
+          },
+          {
+            "start": 13.6,
+            "end": 13.94,
+            "word": " directly",
+            "probability": 0.99809
+          },
+          {
+            "start": 13.94,
+            "end": 14.12,
+            "word": " on",
+            "probability": 0.99421
+          },
+          {
+            "start": 14.12,
+            "end": 14.22,
+            "word": " my",
+            "probability": 0.99793
+          },
+          {
+            "start": 14.22,
+            "end": 14.52,
+            "word": " laptop",
+            "probability": 0.99456
+          },
+          {
+            "start": 14.52,
+            "end": 14.84,
+            "word": " or",
+            "probability": 0.97412
+          },
+          {
+            "start": 14.84,
+            "end": 15.2,
+            "word": " TV,",
+            "probability": 0.9428
+          },
+          {
+            "start": 15.58,
+            "end": 15.72,
+            "word": " without",
+            "probability": 0.99786
+          },
+          {
+            "start": 15.72,
+            "end": 15.98,
+            "word": " needing",
+            "probability": 0.99887
+          },
+          {
+            "start": 15.98,
+            "end": 16.18,
+            "word": " to",
+            "probability": 0.99622
+          },
+          {
+            "start": 16.18,
+            "end": 16.34,
+            "word": " go",
+            "probability": 0.99643
+          },
+          {
+            "start": 16.34,
+            "end": 16.54,
+            "word": " out",
+            "probability": 0.99817
+          },
+          {
+            "start": 16.54,
+            "end": 16.64,
+            "word": " and",
+            "probability": 0.9759
+          },
+          {
+            "start": 16.64,
+            "end": 16.78,
+            "word": " buy",
+            "probability": 0.98667
+          },
+          {
+            "start": 16.78,
+            "end": 17.48,
+            "word": " DVDs",
+            "probability": 0.93691
+          },
+          {
+            "start": 17.48,
+            "end": 17.66,
+            "word": " or",
+            "probability": 0.96901
+          }
+        ]
+      },
+      {
+        "start": 17.66,
+        "end": 18.16,
+        "text": "rent movies.",
+        "words": [
+          {
+            "start": 17.66,
+            "end": 17.82,
+            "word": " rent",
+            "probability": 0.97829
+          },
+          {
+            "start": 17.82,
+            "end": 18.16,
+            "word": " movies.",
+            "probability": 0.99649
+          }
+        ]
+      },
+      {
+        "start": 18.6,
+        "end": 20.54,
+        "text": "I just pick a film and relax.",
+        "words": [
+          {
+            "start": 18.6,
+            "end": 19.1,
+            "word": " I",
+            "probability": 0.99199
+          },
+          {
+            "start": 19.1,
+            "end": 19.26,
+            "word": " just",
+            "probability": 0.99438
+          },
+          {
+            "start": 19.26,
+            "end": 19.44,
+            "word": " pick",
+            "probability": 0.98739
+          },
+          {
+            "start": 19.44,
+            "end": 19.6,
+            "word": " a",
+            "probability": 0.98116
+          },
+          {
+            "start": 19.6,
+            "end": 19.92,
+            "word": " film",
+            "probability": 0.99596
+          },
+          {
+            "start": 19.92,
+            "end": 20.24,
+            "word": " and",
+            "probability": 0.91802
+          },
+          {
+            "start": 20.24,
+            "end": 20.54,
+            "word": " relax.",
+            "probability": 0.99671
+          }
+        ]
+      },
+      {
+        "start": 21.26,
+        "end": 26.02,
+        "text": "It's the best way to unwind after a long day, and I can watch whatever I want, whenever",
+        "words": [
+          {
+            "start": 21.26,
+            "end": 21.52,
+            "word": " It's",
+            "probability": 0.98936
+          },
+          {
+            "start": 21.52,
+            "end": 21.62,
+            "word": " the",
+            "probability": 0.99721
+          },
+          {
+            "start": 21.62,
+            "end": 21.84,
+            "word": " best",
+            "probability": 0.9989
+          },
+          {
+            "start": 21.84,
+            "end": 22.04,
+            "word": " way",
+            "probability": 0.9984
+          },
+          {
+            "start": 22.04,
+            "end": 22.18,
+            "word": " to",
+            "probability": 0.99842
+          },
+          {
+            "start": 22.18,
+            "end": 22.64,
+            "word": " unwind",
+            "probability": 0.94708
+          },
+          {
+            "start": 22.64,
+            "end": 23.08,
+            "word": " after",
+            "probability": 0.87888
+          },
+          {
+            "start": 23.08,
+            "end": 23.2,
+            "word": " a",
+            "probability": 0.99215
+          },
+          {
+            "start": 23.2,
+            "end": 23.4,
+            "word": " long",
+            "probability": 0.99897
+          },
+          {
+            "start": 23.4,
+            "end": 23.68,
+            "word": " day,",
+            "probability": 0.99683
+          },
+          {
+            "start": 24.12,
+            "end": 24.28,
+            "word": " and",
+            "probability": 0.99459
+          },
+          {
+            "start": 24.28,
+            "end": 24.38,
+            "word": " I",
+            "probability": 0.99237
+          },
+          {
+            "start": 24.38,
+            "end": 24.52,
+            "word": " can",
+            "probability": 0.99572
+          },
+          {
+            "start": 24.52,
+            "end": 24.8,
+            "word": " watch",
+            "probability": 0.99823
+          },
+          {
+            "start": 24.8,
+            "end": 25.06,
+            "word": " whatever",
+            "probability": 0.98466
+          },
+          {
+            "start": 25.06,
+            "end": 25.34,
+            "word": " I",
+            "probability": 0.99585
+          },
+          {
+            "start": 25.34,
+            "end": 25.6,
+            "word": " want,",
+            "probability": 0.99878
+          },
+          {
+            "start": 25.86,
+            "end": 26.02,
+            "word": " whenever",
+            "probability": 0.98627
+          }
+        ]
+      },
+      {
+        "start": 26.02,
+        "end": 26.58,
+        "text": "I want.",
+        "words": [
+          {
+            "start": 26.02,
+            "end": 26.34,
+            "word": " I",
+            "probability": 0.99724
+          },
+          {
+            "start": 26.34,
+            "end": 26.58,
+            "word": " want.",
+            "probability": 0.99854
+          }
+        ]
+      },
+      {
+        "start": 26.58,
+        "end": 32.72,
+        "text": "I spend quite a bit of my free time online, mostly because I love watching movies.",
+        "words": [
+          {
+            "start": 26.58,
+            "end": 27.4,
+            "word": " I",
+            "probability": 0.59502
+          },
+          {
+            "start": 28.9,
+            "end": 29.14,
+            "word": " spend",
+            "probability": 0.85758
+          },
+          {
+            "start": 29.14,
+            "end": 29.42,
+            "word": " quite",
+            "probability": 0.97884
+          },
+          {
+            "start": 29.42,
+            "end": 29.52,
+            "word": " a",
+            "probability": 0.99833
+          },
+          {
+            "start": 29.52,
+            "end": 29.66,
+            "word": " bit",
+            "probability": 0.99763
+          },
+          {
+            "start": 29.66,
+            "end": 29.76,
+            "word": " of",
+            "probability": 0.98102
+          },
+          {
+            "start": 29.76,
+            "end": 29.88,
+            "word": " my",
+            "probability": 0.99849
+          },
+          {
+            "start": 29.88,
+            "end": 30.1,
+            "word": " free",
+            "probability": 0.9925
+          },
+          {
+            "start": 30.1,
+            "end": 30.3,
+            "word": " time",
+            "probability": 0.96219
+          },
+          {
+            "start": 30.3,
+            "end": 30.68,
+            "word": " online,",
+            "probability": 0.97529
+          },
+          {
+            "start": 31.0,
+            "end": 31.28,
+            "word": " mostly",
+            "probability": 0.998
+          },
+          {
+            "start": 31.28,
+            "end": 31.56,
+            "word": " because",
+            "probability": 0.99691
+          },
+          {
+            "start": 31.56,
+            "end": 31.72,
+            "word": " I",
+            "probability": 0.9925
+          },
+          {
+            "start": 31.72,
+            "end": 31.94,
+            "word": " love",
+            "probability": 0.98288
+          },
+          {
+            "start": 31.94,
+            "end": 32.32,
+            "word": " watching",
+            "probability": 0.99852
+          },
+          {
+            "start": 32.32,
+            "end": 32.72,
+            "word": " movies.",
+            "probability": 0.9955
+          }
+        ]
+      },
+      {
+        "start": 33.38,
+        "end": 38.36,
+        "text": "The internet makes it so easy to find a wide variety of films, from the latest releases",
+        "words": [
+          {
+            "start": 33.38,
+            "end": 33.56,
+            "word": " The",
+            "probability": 0.99647
+          },
+          {
+            "start": 33.56,
+            "end": 33.96,
+            "word": " internet",
+            "probability": 0.77902
+          },
+          {
+            "start": 33.96,
+            "end": 34.2,
+            "word": " makes",
+            "probability": 0.99398
+          },
+          {
+            "start": 34.2,
+            "end": 34.38,
+            "word": " it",
+            "probability": 0.99447
+          },
+          {
+            "start": 34.38,
+            "end": 34.66,
+            "word": " so",
+            "probability": 0.95355
+          },
+          {
+            "start": 34.66,
+            "end": 35.12,
+            "word": " easy",
+            "probability": 0.99588
+          },
+          {
+            "start": 35.12,
+            "end": 35.32,
+            "word": " to",
+            "probability": 0.99725
+          },
+          {
+            "start": 35.32,
+            "end": 35.56,
+            "word": " find",
+            "probability": 0.99742
+          },
+          {
+            "start": 35.56,
+            "end": 35.72,
+            "word": " a",
+            "probability": 0.99768
+          },
+          {
+            "start": 35.72,
+            "end": 35.98,
+            "word": " wide",
+            "probability": 0.99839
+          },
+          {
+            "start": 35.98,
+            "end": 36.48,
+            "word": " variety",
+            "probability": 0.99865
+          },
+          {
+            "start": 36.48,
+            "end": 36.64,
+            "word": " of",
+            "probability": 0.99868
+          },
+          {
+            "start": 36.64,
+            "end": 36.98,
+            "word": " films,",
+            "probability": 0.9888
+          },
+          {
+            "start": 37.36,
+            "end": 37.46,
+            "word": " from",
+            "probability": 0.98302
+          },
+          {
+            "start": 37.46,
+            "end": 37.62,
+            "word": " the",
+            "probability": 0.99794
+          },
+          {
+            "start": 37.62,
+            "end": 37.9,
+            "word": " latest",
+            "probability": 0.99811
+          },
+          {
+            "start": 37.9,
+            "end": 38.36,
+            "word": " releases",
+            "probability": 0.99535
+          }
+        ]
+      },
+      {
+        "start": 38.36,
+        "end": 39.5,
+        "text": "to old classics.",
+        "words": [
+          {
+            "start": 38.36,
+            "end": 38.78,
+            "word": " to",
+            "probability": 0.93246
+          },
+          {
+            "start": 38.78,
+            "end": 38.98,
+            "word": " old",
+            "probability": 0.9855
+          },
+          {
+            "start": 38.98,
+            "end": 39.5,
+            "word": " classics.",
+            "probability": 0.98973
+          }
+        ]
+      },
+      {
+        "start": 40.32,
+        "end": 45.12,
+        "text": "I can stream them directly on my laptop or TV without needing to go out and buy DVDs or",
+        "words": [
+          {
+            "start": 40.32,
+            "end": 40.48,
+            "word": " I",
+            "probability": 0.99725
+          },
+          {
+            "start": 40.48,
+            "end": 40.62,
+            "word": " can",
+            "probability": 0.99639
+          },
+          {
+            "start": 40.62,
+            "end": 40.9,
+            "word": " stream",
+            "probability": 0.9967
+          },
+          {
+            "start": 40.9,
+            "end": 41.06,
+            "word": " them",
+            "probability": 0.9967
+          },
+          {
+            "start": 41.06,
+            "end": 41.36,
+            "word": " directly",
+            "probability": 0.99849
+          },
+          {
+            "start": 41.36,
+            "end": 41.6,
+            "word": " on",
+            "probability": 0.99366
+          },
+          {
+            "start": 41.6,
+            "end": 41.7,
+            "word": " my",
+            "probability": 0.99853
+          },
+          {
+            "start": 41.7,
+            "end": 42.0,
+            "word": " laptop",
+            "probability": 0.99251
+          },
+          {
+            "start": 42.0,
+            "end": 42.32,
+            "word": " or",
+            "probability": 0.958
+          },
+          {
+            "start": 42.32,
+            "end": 42.66,
+            "word": " TV",
+            "probability": 0.93907
+          },
+          {
+            "start": 42.66,
+            "end": 43.18,
+            "word": " without",
+            "probability": 0.73738
+          },
+          {
+            "start": 43.18,
+            "end": 43.46,
+            "word": " needing",
+            "probability": 0.99868
+          },
+          {
+            "start": 43.46,
+            "end": 43.66,
+            "word": " to",
+            "probability": 0.99681
+          },
+          {
+            "start": 43.66,
+            "end": 43.82,
+            "word": " go",
+            "probability": 0.99718
+          },
+          {
+            "start": 43.82,
+            "end": 44.0,
+            "word": " out",
+            "probability": 0.99792
+          },
+          {
+            "start": 44.0,
+            "end": 44.12,
+            "word": " and",
+            "probability": 0.96891
+          },
+          {
+            "start": 44.12,
+            "end": 44.26,
+            "word": " buy",
+            "probability": 0.97934
+          },
+          {
+            "start": 44.26,
+            "end": 44.96,
+            "word": " DVDs",
+            "probability": 0.94287
+          },
+          {
+            "start": 44.96,
+            "end": 45.12,
+            "word": " or",
+            "probability": 0.97451
+          }
+        ]
+      },
+      {
+        "start": 45.12,
+        "end": 45.68,
+        "text": "rent movies.",
+        "words": [
+          {
+            "start": 45.12,
+            "end": 45.3,
+            "word": " rent",
+            "probability": 0.97989
+          },
+          {
+            "start": 45.3,
+            "end": 45.68,
+            "word": " movies.",
+            "probability": 0.99661
+          }
+        ]
+      },
+      {
+        "start": 46.16,
+        "end": 48.02,
+        "text": "I just pick a film and relax.",
+        "words": [
+          {
+            "start": 46.16,
+            "end": 46.58,
+            "word": " I",
+            "probability": 0.99447
+          },
+          {
+            "start": 46.58,
+            "end": 46.72,
+            "word": " just",
+            "probability": 0.99346
+          },
+          {
+            "start": 46.72,
+            "end": 46.92,
+            "word": " pick",
+            "probability": 0.99008
+          },
+          {
+            "start": 46.92,
+            "end": 47.06,
+            "word": " a",
+            "probability": 0.98259
+          },
+          {
+            "start": 47.06,
+            "end": 47.38,
+            "word": " film",
+            "probability": 0.99446
+          },
+          {
+            "start": 47.38,
+            "end": 47.72,
+            "word": " and",
+            "probability": 0.91123
+          },
+          {
+            "start": 47.72,
+            "end": 48.02,
+            "word": " relax.",
+            "probability": 0.99697
+          }
+        ]
+      },
+      {
+        "start": 48.74,
+        "end": 53.48,
+        "text": "It's the best way to unwind after a long day, and I can watch whatever I want whenever",
+        "words": [
+          {
+            "start": 48.74,
+            "end": 49.0,
+            "word": " It's",
+            "probability": 0.98719
+          },
+          {
+            "start": 49.0,
+            "end": 49.1,
+            "word": " the",
+            "probability": 0.99632
+          },
+          {
+            "start": 49.1,
+            "end": 49.3,
+            "word": " best",
+            "probability": 0.99911
+          },
+          {
+            "start": 49.3,
+            "end": 49.52,
+            "word": " way",
+            "probability": 0.99768
+          },
+          {
+            "start": 49.52,
+            "end": 49.64,
+            "word": " to",
+            "probability": 0.99901
+          },
+          {
+            "start": 49.64,
+            "end": 50.08,
+            "word": " unwind",
+            "probability": 0.97208
+          },
+          {
+            "start": 50.08,
+            "end": 50.56,
+            "word": " after",
+            "probability": 0.932
+          },
+          {
+            "start": 50.56,
+            "end": 50.68,
+            "word": " a",
+            "probability": 0.99747
+          },
+          {
+            "start": 50.68,
+            "end": 50.86,
+            "word": " long",
+            "probability": 0.99831
+          },
+          {
+            "start": 50.86,
+            "end": 51.18,
+            "word": " day,",
+            "probability": 0.99763
+          },
+          {
+            "start": 51.6,
+            "end": 51.74,
+            "word": " and",
+            "probability": 0.99621
+          },
+          {
+            "start": 51.74,
+            "end": 51.86,
+            "word": " I",
+            "probability": 0.99604
+          },
+          {
+            "start": 51.86,
+            "end": 52.0,
+            "word": " can",
+            "probability": 0.99424
+          },
+          {
+            "start": 52.0,
+            "end": 52.26,
+            "word": " watch",
+            "probability": 0.99822
+          },
+          {
+            "start": 52.26,
+            "end": 52.54,
+            "word": " whatever",
+            "probability": 0.98177
+          },
+          {
+            "start": 52.54,
+            "end": 52.82,
+            "word": " I",
+            "probability": 0.99658
+          },
+          {
+            "start": 52.82,
+            "end": 53.06,
+            "word": " want",
+            "probability": 0.99836
+          },
+          {
+            "start": 53.06,
+            "end": 53.48,
+            "word": " whenever",
+            "probability": 0.29958
+          }
+        ]
+      },
+      {
+        "start": 53.48,
+        "end": 54.08,
+        "text": "I want.",
+        "words": [
+          {
+            "start": 53.48,
+            "end": 53.82,
+            "word": " I",
+            "probability": 0.99392
+          },
+          {
+            "start": 53.82,
+            "end": 54.08,
+            "word": " want.",
+            "probability": 0.99833
+          }
+        ]
+      },
+      {
+        "start": 54.08,
+        "end": 54.58,
+        "text": "You",
+        "words": [
+          {
+            "start": 54.08,
+            "end": 54.58,
+            "word": " You",
+            "probability": 0.02974
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-a",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 84,
+            "speechStart": 1.04,
+            "speechEnd": 26.58,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i spend quite a bit of my free time online mostly because i love watching movies the internet makes it so easy to find a wide variety of films from the latest releases to old classics i can stream them directly on my laptop or tv without needing to go out and buy dvds or rent movies i just pick a film and relax it's the best way to unwind after a long day and i can watch whatever i want whenever i want",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 84,
+            "wordEndIndexExclusive": 169,
+            "speechStart": 26.58,
+            "speechEnd": 54.58,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9941,
+            "transcript": "i spend quite a bit of my free time online mostly because i love watching movies the internet makes it so easy to find a wide variety of films from the latest releases to old classics i can stream them directly on my laptop or tv without needing to go out and buy dvds or rent movies i just pick a film and relax it's the best way to unwind after a long day and i can watch whatever i want whenever i want you",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

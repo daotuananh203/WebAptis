@@ -1,0 +1,4134 @@
+{
+  "testId": "aptis-b2-11",
+  "blockId": "p4-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-11/part-4/task-all.mp3",
+  "audioSha256": "3d612c6b2b792daa5418164acae5d252b630ae8be844ae88999954e062e7ebb9",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 4.76,
+        "text": "Managing personal finances is crucial for long-term stability.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.56,
+            "word": " Managing",
+            "probability": 0.58837
+          },
+          {
+            "start": 1.56,
+            "end": 2.04,
+            "word": " personal",
+            "probability": 0.98309
+          },
+          {
+            "start": 2.04,
+            "end": 2.64,
+            "word": " finances",
+            "probability": 0.99525
+          },
+          {
+            "start": 2.64,
+            "end": 2.96,
+            "word": " is",
+            "probability": 0.99474
+          },
+          {
+            "start": 2.96,
+            "end": 3.36,
+            "word": " crucial",
+            "probability": 0.99863
+          },
+          {
+            "start": 3.36,
+            "end": 3.66,
+            "word": " for",
+            "probability": 0.99519
+          },
+          {
+            "start": 3.66,
+            "end": 3.92,
+            "word": " long",
+            "probability": 0.98604
+          },
+          {
+            "start": 3.92,
+            "end": 4.14,
+            "word": "-term",
+            "probability": 0.90744
+          },
+          {
+            "start": 4.14,
+            "end": 4.76,
+            "word": " stability.",
+            "probability": 0.9982
+          }
+        ]
+      },
+      {
+        "start": 5.75,
+        "end": 9.53,
+        "text": "One of the key strategies is to organize your resources more effectively.",
+        "words": [
+          {
+            "start": 5.75,
+            "end": 5.99,
+            "word": " One",
+            "probability": 0.97343
+          },
+          {
+            "start": 5.99,
+            "end": 6.11,
+            "word": " of",
+            "probability": 0.99527
+          },
+          {
+            "start": 6.11,
+            "end": 6.25,
+            "word": " the",
+            "probability": 0.9897
+          },
+          {
+            "start": 6.25,
+            "end": 6.43,
+            "word": " key",
+            "probability": 0.99856
+          },
+          {
+            "start": 6.43,
+            "end": 6.93,
+            "word": " strategies",
+            "probability": 0.99497
+          },
+          {
+            "start": 6.93,
+            "end": 7.35,
+            "word": " is",
+            "probability": 0.9893
+          },
+          {
+            "start": 7.35,
+            "end": 7.49,
+            "word": " to",
+            "probability": 0.99429
+          },
+          {
+            "start": 7.49,
+            "end": 7.89,
+            "word": " organize",
+            "probability": 0.94295
+          },
+          {
+            "start": 7.89,
+            "end": 8.15,
+            "word": " your",
+            "probability": 0.99314
+          },
+          {
+            "start": 8.15,
+            "end": 8.67,
+            "word": " resources",
+            "probability": 0.99585
+          },
+          {
+            "start": 8.67,
+            "end": 8.95,
+            "word": " more",
+            "probability": 0.99893
+          },
+          {
+            "start": 8.95,
+            "end": 9.53,
+            "word": " effectively.",
+            "probability": 0.99355
+          }
+        ]
+      },
+      {
+        "start": 10.56,
+        "end": 15.38,
+        "text": "This means keeping track of your income, expenses, and savings in a way that makes sense",
+        "words": [
+          {
+            "start": 10.56,
+            "end": 10.84,
+            "word": " This",
+            "probability": 0.99203
+          },
+          {
+            "start": 10.84,
+            "end": 11.1,
+            "word": " means",
+            "probability": 0.9985
+          },
+          {
+            "start": 11.1,
+            "end": 11.44,
+            "word": " keeping",
+            "probability": 0.98871
+          },
+          {
+            "start": 11.44,
+            "end": 11.84,
+            "word": " track",
+            "probability": 0.99841
+          },
+          {
+            "start": 11.84,
+            "end": 12.02,
+            "word": " of",
+            "probability": 0.99775
+          },
+          {
+            "start": 12.02,
+            "end": 12.12,
+            "word": " your",
+            "probability": 0.99455
+          },
+          {
+            "start": 12.12,
+            "end": 12.5,
+            "word": " income,",
+            "probability": 0.99877
+          },
+          {
+            "start": 12.84,
+            "end": 13.3,
+            "word": " expenses,",
+            "probability": 0.99617
+          },
+          {
+            "start": 13.82,
+            "end": 13.9,
+            "word": " and",
+            "probability": 0.99381
+          },
+          {
+            "start": 13.9,
+            "end": 14.26,
+            "word": " savings",
+            "probability": 0.98961
+          },
+          {
+            "start": 14.26,
+            "end": 14.48,
+            "word": " in",
+            "probability": 0.99624
+          },
+          {
+            "start": 14.48,
+            "end": 14.6,
+            "word": " a",
+            "probability": 0.99913
+          },
+          {
+            "start": 14.6,
+            "end": 14.74,
+            "word": " way",
+            "probability": 0.9995
+          },
+          {
+            "start": 14.74,
+            "end": 14.94,
+            "word": " that",
+            "probability": 0.99717
+          },
+          {
+            "start": 14.94,
+            "end": 15.1,
+            "word": " makes",
+            "probability": 0.90526
+          },
+          {
+            "start": 15.1,
+            "end": 15.38,
+            "word": " sense",
+            "probability": 0.99929
+          }
+        ]
+      },
+      {
+        "start": 15.38,
+        "end": 15.84,
+        "text": "for you.",
+        "words": [
+          {
+            "start": 15.38,
+            "end": 15.64,
+            "word": " for",
+            "probability": 0.99158
+          },
+          {
+            "start": 15.64,
+            "end": 15.84,
+            "word": " you.",
+            "probability": 0.99929
+          }
+        ]
+      },
+      {
+        "start": 16.75,
+        "end": 21.23,
+        "text": "Having a clear overview helps you make informed decisions about where to allocate your money,",
+        "words": [
+          {
+            "start": 16.75,
+            "end": 17.03,
+            "word": " Having",
+            "probability": 0.99181
+          },
+          {
+            "start": 17.03,
+            "end": 17.19,
+            "word": " a",
+            "probability": 0.99846
+          },
+          {
+            "start": 17.19,
+            "end": 17.41,
+            "word": " clear",
+            "probability": 0.97875
+          },
+          {
+            "start": 17.41,
+            "end": 17.93,
+            "word": " overview",
+            "probability": 0.98985
+          },
+          {
+            "start": 17.93,
+            "end": 18.25,
+            "word": " helps",
+            "probability": 0.99784
+          },
+          {
+            "start": 18.25,
+            "end": 18.41,
+            "word": " you",
+            "probability": 0.99499
+          },
+          {
+            "start": 18.41,
+            "end": 18.57,
+            "word": " make",
+            "probability": 0.9851
+          },
+          {
+            "start": 18.57,
+            "end": 18.91,
+            "word": " informed",
+            "probability": 0.99893
+          },
+          {
+            "start": 18.91,
+            "end": 19.51,
+            "word": " decisions",
+            "probability": 0.99667
+          },
+          {
+            "start": 19.51,
+            "end": 19.93,
+            "word": " about",
+            "probability": 0.99766
+          },
+          {
+            "start": 19.93,
+            "end": 20.17,
+            "word": " where",
+            "probability": 0.99554
+          },
+          {
+            "start": 20.17,
+            "end": 20.35,
+            "word": " to",
+            "probability": 0.99797
+          },
+          {
+            "start": 20.35,
+            "end": 20.73,
+            "word": " allocate",
+            "probability": 0.9956
+          },
+          {
+            "start": 20.73,
+            "end": 20.95,
+            "word": " your",
+            "probability": 0.99626
+          },
+          {
+            "start": 20.95,
+            "end": 21.23,
+            "word": " money,",
+            "probability": 0.99956
+          }
+        ]
+      },
+      {
+        "start": 21.57,
+        "end": 25.83,
+        "text": "while some might suggest spending less on non-essential items, it's not just about",
+        "words": [
+          {
+            "start": 21.57,
+            "end": 21.77,
+            "word": " while",
+            "probability": 0.95492
+          },
+          {
+            "start": 21.77,
+            "end": 22.03,
+            "word": " some",
+            "probability": 0.99853
+          },
+          {
+            "start": 22.03,
+            "end": 22.23,
+            "word": " might",
+            "probability": 0.9958
+          },
+          {
+            "start": 22.23,
+            "end": 22.55,
+            "word": " suggest",
+            "probability": 0.99392
+          },
+          {
+            "start": 22.55,
+            "end": 23.01,
+            "word": " spending",
+            "probability": 0.9992
+          },
+          {
+            "start": 23.01,
+            "end": 23.27,
+            "word": " less",
+            "probability": 0.99919
+          },
+          {
+            "start": 23.27,
+            "end": 23.51,
+            "word": " on",
+            "probability": 0.99897
+          },
+          {
+            "start": 23.51,
+            "end": 23.73,
+            "word": " non",
+            "probability": 0.93286
+          },
+          {
+            "start": 23.73,
+            "end": 24.01,
+            "word": "-essential",
+            "probability": 0.89409
+          },
+          {
+            "start": 24.01,
+            "end": 24.53,
+            "word": " items,",
+            "probability": 0.99671
+          },
+          {
+            "start": 25.01,
+            "end": 25.19,
+            "word": " it's",
+            "probability": 0.96287
+          },
+          {
+            "start": 25.19,
+            "end": 25.33,
+            "word": " not",
+            "probability": 0.99417
+          },
+          {
+            "start": 25.33,
+            "end": 25.59,
+            "word": " just",
+            "probability": 0.9946
+          },
+          {
+            "start": 25.59,
+            "end": 25.83,
+            "word": " about",
+            "probability": 0.999
+          }
+        ]
+      },
+      {
+        "start": 25.83,
+        "end": 29.39,
+        "text": "cutting back, it's about understanding your overall financial picture.",
+        "words": [
+          {
+            "start": 25.83,
+            "end": 26.13,
+            "word": " cutting",
+            "probability": 0.99409
+          },
+          {
+            "start": 26.13,
+            "end": 26.43,
+            "word": " back,",
+            "probability": 0.98981
+          },
+          {
+            "start": 26.89,
+            "end": 27.03,
+            "word": " it's",
+            "probability": 0.98474
+          },
+          {
+            "start": 27.03,
+            "end": 27.21,
+            "word": " about",
+            "probability": 0.99812
+          },
+          {
+            "start": 27.21,
+            "end": 27.79,
+            "word": " understanding",
+            "probability": 0.99735
+          },
+          {
+            "start": 27.79,
+            "end": 28.05,
+            "word": " your",
+            "probability": 0.99741
+          },
+          {
+            "start": 28.05,
+            "end": 28.43,
+            "word": " overall",
+            "probability": 0.99749
+          },
+          {
+            "start": 28.43,
+            "end": 28.93,
+            "word": " financial",
+            "probability": 0.99847
+          },
+          {
+            "start": 28.93,
+            "end": 29.39,
+            "word": " picture.",
+            "probability": 0.99214
+          }
+        ]
+      },
+      {
+        "start": 29.58,
+        "end": 35.34,
+        "text": "Relying solely on online budgeting tools may also lead you to overlook personal insights",
+        "words": [
+          {
+            "start": 29.58,
+            "end": 30.88,
+            "word": " Relying",
+            "probability": 0.33198
+          },
+          {
+            "start": 30.88,
+            "end": 31.28,
+            "word": " solely",
+            "probability": 0.98131
+          },
+          {
+            "start": 31.28,
+            "end": 31.58,
+            "word": " on",
+            "probability": 0.85751
+          },
+          {
+            "start": 31.58,
+            "end": 31.94,
+            "word": " online",
+            "probability": 0.9872
+          },
+          {
+            "start": 31.94,
+            "end": 32.38,
+            "word": " budgeting",
+            "probability": 0.99301
+          },
+          {
+            "start": 32.38,
+            "end": 32.94,
+            "word": " tools",
+            "probability": 0.99504
+          },
+          {
+            "start": 32.94,
+            "end": 33.14,
+            "word": " may",
+            "probability": 0.98659
+          },
+          {
+            "start": 33.14,
+            "end": 33.48,
+            "word": " also",
+            "probability": 0.94445
+          },
+          {
+            "start": 33.48,
+            "end": 33.76,
+            "word": " lead",
+            "probability": 0.99913
+          },
+          {
+            "start": 33.76,
+            "end": 33.92,
+            "word": " you",
+            "probability": 0.9852
+          },
+          {
+            "start": 33.92,
+            "end": 34.04,
+            "word": " to",
+            "probability": 0.99714
+          },
+          {
+            "start": 34.04,
+            "end": 34.38,
+            "word": " overlook",
+            "probability": 0.80519
+          },
+          {
+            "start": 34.38,
+            "end": 34.88,
+            "word": " personal",
+            "probability": 0.99684
+          },
+          {
+            "start": 34.88,
+            "end": 35.34,
+            "word": " insights",
+            "probability": 0.99085
+          }
+        ]
+      },
+      {
+        "start": 35.34,
+        "end": 40.22,
+        "text": "that can be equally valuable. Additionally, it's beneficial to get advice from someone",
+        "words": [
+          {
+            "start": 35.34,
+            "end": 35.68,
+            "word": " that",
+            "probability": 0.99766
+          },
+          {
+            "start": 35.68,
+            "end": 35.84,
+            "word": " can",
+            "probability": 0.99399
+          },
+          {
+            "start": 35.84,
+            "end": 35.98,
+            "word": " be",
+            "probability": 0.99126
+          },
+          {
+            "start": 35.98,
+            "end": 36.32,
+            "word": " equally",
+            "probability": 0.99768
+          },
+          {
+            "start": 36.32,
+            "end": 36.88,
+            "word": " valuable.",
+            "probability": 0.99416
+          },
+          {
+            "start": 37.32,
+            "end": 37.84,
+            "word": " Additionally,",
+            "probability": 0.98908
+          },
+          {
+            "start": 38.28,
+            "end": 38.46,
+            "word": " it's",
+            "probability": 0.93655
+          },
+          {
+            "start": 38.46,
+            "end": 38.96,
+            "word": " beneficial",
+            "probability": 0.99666
+          },
+          {
+            "start": 38.96,
+            "end": 39.16,
+            "word": " to",
+            "probability": 0.997
+          },
+          {
+            "start": 39.16,
+            "end": 39.28,
+            "word": " get",
+            "probability": 0.99802
+          },
+          {
+            "start": 39.28,
+            "end": 39.6,
+            "word": " advice",
+            "probability": 0.99481
+          },
+          {
+            "start": 39.6,
+            "end": 39.88,
+            "word": " from",
+            "probability": 0.99642
+          },
+          {
+            "start": 39.88,
+            "end": 40.22,
+            "word": " someone",
+            "probability": 0.9955
+          }
+        ]
+      },
+      {
+        "start": 40.22,
+        "end": 45.66,
+        "text": "you know who is experienced. Whether it's a family member or a friend who has successfully",
+        "words": [
+          {
+            "start": 40.22,
+            "end": 40.38,
+            "word": " you",
+            "probability": 0.98993
+          },
+          {
+            "start": 40.38,
+            "end": 40.56,
+            "word": " know",
+            "probability": 0.99792
+          },
+          {
+            "start": 40.56,
+            "end": 40.86,
+            "word": " who",
+            "probability": 0.98908
+          },
+          {
+            "start": 40.86,
+            "end": 41.02,
+            "word": " is",
+            "probability": 0.88299
+          },
+          {
+            "start": 41.02,
+            "end": 41.64,
+            "word": " experienced.",
+            "probability": 0.97779
+          },
+          {
+            "start": 42.68,
+            "end": 43.0,
+            "word": " Whether",
+            "probability": 0.9882
+          },
+          {
+            "start": 43.0,
+            "end": 43.24,
+            "word": " it's",
+            "probability": 0.98998
+          },
+          {
+            "start": 43.24,
+            "end": 43.3,
+            "word": " a",
+            "probability": 0.99927
+          },
+          {
+            "start": 43.3,
+            "end": 43.64,
+            "word": " family",
+            "probability": 0.98307
+          },
+          {
+            "start": 43.64,
+            "end": 44.02,
+            "word": " member",
+            "probability": 0.9983
+          },
+          {
+            "start": 44.02,
+            "end": 44.28,
+            "word": " or",
+            "probability": 0.95281
+          },
+          {
+            "start": 44.28,
+            "end": 44.42,
+            "word": " a",
+            "probability": 0.95973
+          },
+          {
+            "start": 44.42,
+            "end": 44.72,
+            "word": " friend",
+            "probability": 0.9983
+          },
+          {
+            "start": 44.72,
+            "end": 44.96,
+            "word": " who",
+            "probability": 0.9978
+          },
+          {
+            "start": 44.96,
+            "end": 45.1,
+            "word": " has",
+            "probability": 0.99665
+          },
+          {
+            "start": 45.1,
+            "end": 45.66,
+            "word": " successfully",
+            "probability": 0.99131
+          }
+        ]
+      },
+      {
+        "start": 45.66,
+        "end": 51.62,
+        "text": "managed their finances, their insights can provide valuable guidance and help you avoid common pitfalls.",
+        "words": [
+          {
+            "start": 45.66,
+            "end": 46.12,
+            "word": " managed",
+            "probability": 0.96818
+          },
+          {
+            "start": 46.12,
+            "end": 46.36,
+            "word": " their",
+            "probability": 0.99945
+          },
+          {
+            "start": 46.36,
+            "end": 46.92,
+            "word": " finances,",
+            "probability": 0.99721
+          },
+          {
+            "start": 47.54,
+            "end": 47.62,
+            "word": " their",
+            "probability": 0.99521
+          },
+          {
+            "start": 47.62,
+            "end": 48.04,
+            "word": " insights",
+            "probability": 0.99307
+          },
+          {
+            "start": 48.04,
+            "end": 48.4,
+            "word": " can",
+            "probability": 0.99727
+          },
+          {
+            "start": 48.4,
+            "end": 48.68,
+            "word": " provide",
+            "probability": 0.99852
+          },
+          {
+            "start": 48.68,
+            "end": 49.18,
+            "word": " valuable",
+            "probability": 0.9987
+          },
+          {
+            "start": 49.18,
+            "end": 49.62,
+            "word": " guidance",
+            "probability": 0.99853
+          },
+          {
+            "start": 49.62,
+            "end": 49.92,
+            "word": " and",
+            "probability": 0.98873
+          },
+          {
+            "start": 49.92,
+            "end": 50.1,
+            "word": " help",
+            "probability": 0.99803
+          },
+          {
+            "start": 50.1,
+            "end": 50.28,
+            "word": " you",
+            "probability": 0.99906
+          },
+          {
+            "start": 50.28,
+            "end": 50.68,
+            "word": " avoid",
+            "probability": 0.99754
+          },
+          {
+            "start": 50.68,
+            "end": 51.02,
+            "word": " common",
+            "probability": 0.98494
+          },
+          {
+            "start": 51.02,
+            "end": 51.62,
+            "word": " pitfalls.",
+            "probability": 0.99508
+          }
+        ]
+      },
+      {
+        "start": 52.65,
+        "end": 57.65,
+        "text": "Investing in more financial apps can be helpful, but nothing beats personalized advice.",
+        "words": [
+          {
+            "start": 52.65,
+            "end": 53.25,
+            "word": " Investing",
+            "probability": 0.98591
+          },
+          {
+            "start": 53.25,
+            "end": 53.35,
+            "word": " in",
+            "probability": 0.99711
+          },
+          {
+            "start": 53.35,
+            "end": 53.53,
+            "word": " more",
+            "probability": 0.98964
+          },
+          {
+            "start": 53.53,
+            "end": 54.03,
+            "word": " financial",
+            "probability": 0.9962
+          },
+          {
+            "start": 54.03,
+            "end": 54.43,
+            "word": " apps",
+            "probability": 0.95389
+          },
+          {
+            "start": 54.43,
+            "end": 54.65,
+            "word": " can",
+            "probability": 0.99831
+          },
+          {
+            "start": 54.65,
+            "end": 54.79,
+            "word": " be",
+            "probability": 0.99736
+          },
+          {
+            "start": 54.79,
+            "end": 55.15,
+            "word": " helpful,",
+            "probability": 0.9982
+          },
+          {
+            "start": 55.53,
+            "end": 55.67,
+            "word": " but",
+            "probability": 0.99877
+          },
+          {
+            "start": 55.67,
+            "end": 56.01,
+            "word": " nothing",
+            "probability": 0.98989
+          },
+          {
+            "start": 56.01,
+            "end": 56.31,
+            "word": " beats",
+            "probability": 0.99351
+          },
+          {
+            "start": 56.31,
+            "end": 57.01,
+            "word": " personalized",
+            "probability": 0.96231
+          },
+          {
+            "start": 57.01,
+            "end": 57.65,
+            "word": " advice.",
+            "probability": 0.99779
+          }
+        ]
+      },
+      {
+        "start": 57.65,
+        "end": 66.2,
+        "text": "case. Managing personal finances is crucial for long-term stability.",
+        "words": [
+          {
+            "start": 57.65,
+            "end": 57.81,
+            "word": " case.",
+            "probability": 0.02556
+          },
+          {
+            "start": 62.54,
+            "end": 62.94,
+            "word": " Managing",
+            "probability": 0.97534
+          },
+          {
+            "start": 62.94,
+            "end": 63.44,
+            "word": " personal",
+            "probability": 0.98344
+          },
+          {
+            "start": 63.44,
+            "end": 64.04,
+            "word": " finances",
+            "probability": 0.99261
+          },
+          {
+            "start": 64.04,
+            "end": 64.38,
+            "word": " is",
+            "probability": 0.99778
+          },
+          {
+            "start": 64.38,
+            "end": 64.76,
+            "word": " crucial",
+            "probability": 0.9992
+          },
+          {
+            "start": 64.76,
+            "end": 65.08,
+            "word": " for",
+            "probability": 0.99772
+          },
+          {
+            "start": 65.08,
+            "end": 65.36,
+            "word": " long",
+            "probability": 0.99475
+          },
+          {
+            "start": 65.36,
+            "end": 65.58,
+            "word": "-term",
+            "probability": 0.92821
+          },
+          {
+            "start": 65.58,
+            "end": 66.2,
+            "word": " stability.",
+            "probability": 0.99865
+          }
+        ]
+      },
+      {
+        "start": 67.3,
+        "end": 71.0,
+        "text": "One of the key strategies is to organize your resources more effectively.",
+        "words": [
+          {
+            "start": 67.3,
+            "end": 67.44,
+            "word": " One",
+            "probability": 0.98669
+          },
+          {
+            "start": 67.44,
+            "end": 67.58,
+            "word": " of",
+            "probability": 0.99697
+          },
+          {
+            "start": 67.58,
+            "end": 67.7,
+            "word": " the",
+            "probability": 0.98381
+          },
+          {
+            "start": 67.7,
+            "end": 67.9,
+            "word": " key",
+            "probability": 0.99863
+          },
+          {
+            "start": 67.9,
+            "end": 68.4,
+            "word": " strategies",
+            "probability": 0.99602
+          },
+          {
+            "start": 68.4,
+            "end": 68.8,
+            "word": " is",
+            "probability": 0.99466
+          },
+          {
+            "start": 68.8,
+            "end": 68.96,
+            "word": " to",
+            "probability": 0.99665
+          },
+          {
+            "start": 68.96,
+            "end": 69.38,
+            "word": " organize",
+            "probability": 0.95956
+          },
+          {
+            "start": 69.38,
+            "end": 69.64,
+            "word": " your",
+            "probability": 0.99612
+          },
+          {
+            "start": 69.64,
+            "end": 70.18,
+            "word": " resources",
+            "probability": 0.99459
+          },
+          {
+            "start": 70.18,
+            "end": 70.46,
+            "word": " more",
+            "probability": 0.9987
+          },
+          {
+            "start": 70.46,
+            "end": 71.0,
+            "word": " effectively.",
+            "probability": 0.99618
+          }
+        ]
+      },
+      {
+        "start": 72.06,
+        "end": 76.98,
+        "text": "This means keeping track of your income, expenses, and savings in a way that makes sense",
+        "words": [
+          {
+            "start": 72.06,
+            "end": 72.38,
+            "word": " This",
+            "probability": 0.99294
+          },
+          {
+            "start": 72.38,
+            "end": 72.62,
+            "word": " means",
+            "probability": 0.99884
+          },
+          {
+            "start": 72.62,
+            "end": 73.0,
+            "word": " keeping",
+            "probability": 0.99241
+          },
+          {
+            "start": 73.0,
+            "end": 73.38,
+            "word": " track",
+            "probability": 0.9984
+          },
+          {
+            "start": 73.38,
+            "end": 73.58,
+            "word": " of",
+            "probability": 0.99801
+          },
+          {
+            "start": 73.58,
+            "end": 73.68,
+            "word": " your",
+            "probability": 0.9955
+          },
+          {
+            "start": 73.68,
+            "end": 74.06,
+            "word": " income,",
+            "probability": 0.99859
+          },
+          {
+            "start": 74.4,
+            "end": 74.88,
+            "word": " expenses,",
+            "probability": 0.99669
+          },
+          {
+            "start": 75.4,
+            "end": 75.48,
+            "word": " and",
+            "probability": 0.99692
+          },
+          {
+            "start": 75.48,
+            "end": 75.86,
+            "word": " savings",
+            "probability": 0.99539
+          },
+          {
+            "start": 75.86,
+            "end": 76.08,
+            "word": " in",
+            "probability": 0.99792
+          },
+          {
+            "start": 76.08,
+            "end": 76.18,
+            "word": " a",
+            "probability": 0.99829
+          },
+          {
+            "start": 76.18,
+            "end": 76.34,
+            "word": " way",
+            "probability": 0.9995
+          },
+          {
+            "start": 76.34,
+            "end": 76.52,
+            "word": " that",
+            "probability": 0.99775
+          },
+          {
+            "start": 76.52,
+            "end": 76.7,
+            "word": " makes",
+            "probability": 0.92821
+          },
+          {
+            "start": 76.7,
+            "end": 76.98,
+            "word": " sense",
+            "probability": 0.9988
+          }
+        ]
+      },
+      {
+        "start": 76.98,
+        "end": 82.43,
+        "text": "for you. Having a clear overview helps you make informed decisions about where to allocate",
+        "words": [
+          {
+            "start": 76.98,
+            "end": 77.24,
+            "word": " for",
+            "probability": 0.99463
+          },
+          {
+            "start": 77.24,
+            "end": 77.42,
+            "word": " you.",
+            "probability": 0.99926
+          },
+          {
+            "start": 78.39,
+            "end": 78.65,
+            "word": " Having",
+            "probability": 0.99642
+          },
+          {
+            "start": 78.65,
+            "end": 78.83,
+            "word": " a",
+            "probability": 0.99895
+          },
+          {
+            "start": 78.83,
+            "end": 79.07,
+            "word": " clear",
+            "probability": 0.98278
+          },
+          {
+            "start": 79.07,
+            "end": 79.57,
+            "word": " overview",
+            "probability": 0.98259
+          },
+          {
+            "start": 79.57,
+            "end": 79.91,
+            "word": " helps",
+            "probability": 0.99756
+          },
+          {
+            "start": 79.91,
+            "end": 80.07,
+            "word": " you",
+            "probability": 0.99515
+          },
+          {
+            "start": 80.07,
+            "end": 80.23,
+            "word": " make",
+            "probability": 0.9879
+          },
+          {
+            "start": 80.23,
+            "end": 80.59,
+            "word": " informed",
+            "probability": 0.99775
+          },
+          {
+            "start": 80.59,
+            "end": 81.17,
+            "word": " decisions",
+            "probability": 0.99761
+          },
+          {
+            "start": 81.17,
+            "end": 81.61,
+            "word": " about",
+            "probability": 0.99858
+          },
+          {
+            "start": 81.61,
+            "end": 81.87,
+            "word": " where",
+            "probability": 0.99737
+          },
+          {
+            "start": 81.87,
+            "end": 82.05,
+            "word": " to",
+            "probability": 0.99783
+          },
+          {
+            "start": 82.05,
+            "end": 82.43,
+            "word": " allocate",
+            "probability": 0.99618
+          }
+        ]
+      },
+      {
+        "start": 82.43,
+        "end": 87.41,
+        "text": "your money, while some might suggest spending less on non-essential items, it's not just",
+        "words": [
+          {
+            "start": 82.43,
+            "end": 82.65,
+            "word": " your",
+            "probability": 0.99698
+          },
+          {
+            "start": 82.65,
+            "end": 82.93,
+            "word": " money,",
+            "probability": 0.99951
+          },
+          {
+            "start": 83.29,
+            "end": 83.49,
+            "word": " while",
+            "probability": 0.97222
+          },
+          {
+            "start": 83.49,
+            "end": 83.73,
+            "word": " some",
+            "probability": 0.99877
+          },
+          {
+            "start": 83.73,
+            "end": 83.95,
+            "word": " might",
+            "probability": 0.99689
+          },
+          {
+            "start": 83.95,
+            "end": 84.29,
+            "word": " suggest",
+            "probability": 0.99352
+          },
+          {
+            "start": 84.29,
+            "end": 84.73,
+            "word": " spending",
+            "probability": 0.99915
+          },
+          {
+            "start": 84.73,
+            "end": 85.01,
+            "word": " less",
+            "probability": 0.99918
+          },
+          {
+            "start": 85.01,
+            "end": 85.25,
+            "word": " on",
+            "probability": 0.99874
+          },
+          {
+            "start": 85.25,
+            "end": 85.47,
+            "word": " non",
+            "probability": 0.94555
+          },
+          {
+            "start": 85.47,
+            "end": 85.75,
+            "word": "-essential",
+            "probability": 0.8836
+          },
+          {
+            "start": 85.75,
+            "end": 86.29,
+            "word": " items,",
+            "probability": 0.99502
+          },
+          {
+            "start": 86.77,
+            "end": 86.95,
+            "word": " it's",
+            "probability": 0.97238
+          },
+          {
+            "start": 86.95,
+            "end": 87.11,
+            "word": " not",
+            "probability": 0.99578
+          },
+          {
+            "start": 87.11,
+            "end": 87.41,
+            "word": " just",
+            "probability": 0.99621
+          }
+        ]
+      },
+      {
+        "start": 87.41,
+        "end": 91.29,
+        "text": "about cutting back, it's about understanding your overall financial picture.",
+        "words": [
+          {
+            "start": 87.41,
+            "end": 87.59,
+            "word": " about",
+            "probability": 0.3898
+          },
+          {
+            "start": 87.59,
+            "end": 87.91,
+            "word": " cutting",
+            "probability": 0.79497
+          },
+          {
+            "start": 87.91,
+            "end": 88.21,
+            "word": " back,",
+            "probability": 0.95329
+          },
+          {
+            "start": 88.67,
+            "end": 88.83,
+            "word": " it's",
+            "probability": 0.94828
+          },
+          {
+            "start": 88.83,
+            "end": 88.99,
+            "word": " about",
+            "probability": 0.99572
+          },
+          {
+            "start": 88.99,
+            "end": 89.63,
+            "word": " understanding",
+            "probability": 0.99624
+          },
+          {
+            "start": 89.63,
+            "end": 89.87,
+            "word": " your",
+            "probability": 0.99417
+          },
+          {
+            "start": 89.87,
+            "end": 90.27,
+            "word": " overall",
+            "probability": 0.99526
+          },
+          {
+            "start": 90.27,
+            "end": 90.71,
+            "word": " financial",
+            "probability": 0.99757
+          },
+          {
+            "start": 90.71,
+            "end": 91.29,
+            "word": " picture.",
+            "probability": 0.98243
+          }
+        ]
+      },
+      {
+        "start": 92.29,
+        "end": 97.19,
+        "text": "Relying solely on online budgeting tools may also lead you to overlook personal insights",
+        "words": [
+          {
+            "start": 92.29,
+            "end": 92.79,
+            "word": " Relying",
+            "probability": 0.69927
+          },
+          {
+            "start": 92.79,
+            "end": 93.13,
+            "word": " solely",
+            "probability": 0.98876
+          },
+          {
+            "start": 93.13,
+            "end": 93.43,
+            "word": " on",
+            "probability": 0.96263
+          },
+          {
+            "start": 93.43,
+            "end": 93.79,
+            "word": " online",
+            "probability": 0.99269
+          },
+          {
+            "start": 93.79,
+            "end": 94.25,
+            "word": " budgeting",
+            "probability": 0.99389
+          },
+          {
+            "start": 94.25,
+            "end": 94.77,
+            "word": " tools",
+            "probability": 0.99662
+          },
+          {
+            "start": 94.77,
+            "end": 94.97,
+            "word": " may",
+            "probability": 0.98764
+          },
+          {
+            "start": 94.97,
+            "end": 95.33,
+            "word": " also",
+            "probability": 0.98171
+          },
+          {
+            "start": 95.33,
+            "end": 95.61,
+            "word": " lead",
+            "probability": 0.99894
+          },
+          {
+            "start": 95.61,
+            "end": 95.77,
+            "word": " you",
+            "probability": 0.99225
+          },
+          {
+            "start": 95.77,
+            "end": 95.89,
+            "word": " to",
+            "probability": 0.99567
+          },
+          {
+            "start": 95.89,
+            "end": 96.19,
+            "word": " overlook",
+            "probability": 0.90423
+          },
+          {
+            "start": 96.19,
+            "end": 96.73,
+            "word": " personal",
+            "probability": 0.99852
+          },
+          {
+            "start": 96.73,
+            "end": 97.19,
+            "word": " insights",
+            "probability": 0.9943
+          }
+        ]
+      },
+      {
+        "start": 97.19,
+        "end": 102.05,
+        "text": "that can be equally valuable. Additionally, it's beneficial to get advice from someone",
+        "words": [
+          {
+            "start": 97.19,
+            "end": 97.51,
+            "word": " that",
+            "probability": 0.99831
+          },
+          {
+            "start": 97.51,
+            "end": 97.67,
+            "word": " can",
+            "probability": 0.99334
+          },
+          {
+            "start": 97.67,
+            "end": 97.81,
+            "word": " be",
+            "probability": 0.99285
+          },
+          {
+            "start": 97.81,
+            "end": 98.17,
+            "word": " equally",
+            "probability": 0.99801
+          },
+          {
+            "start": 98.17,
+            "end": 98.71,
+            "word": " valuable.",
+            "probability": 0.99743
+          },
+          {
+            "start": 99.17,
+            "end": 99.67,
+            "word": " Additionally,",
+            "probability": 0.98735
+          },
+          {
+            "start": 100.13,
+            "end": 100.29,
+            "word": " it's",
+            "probability": 0.97232
+          },
+          {
+            "start": 100.29,
+            "end": 100.79,
+            "word": " beneficial",
+            "probability": 0.99673
+          },
+          {
+            "start": 100.79,
+            "end": 100.99,
+            "word": " to",
+            "probability": 0.99614
+          },
+          {
+            "start": 100.99,
+            "end": 101.13,
+            "word": " get",
+            "probability": 0.99795
+          },
+          {
+            "start": 101.13,
+            "end": 101.47,
+            "word": " advice",
+            "probability": 0.99523
+          },
+          {
+            "start": 101.47,
+            "end": 101.73,
+            "word": " from",
+            "probability": 0.99835
+          },
+          {
+            "start": 101.73,
+            "end": 102.05,
+            "word": " someone",
+            "probability": 0.99626
+          }
+        ]
+      },
+      {
+        "start": 102.05,
+        "end": 107.49,
+        "text": "you know who is experienced. Whether it's a family member or a friend who has successfully",
+        "words": [
+          {
+            "start": 102.05,
+            "end": 102.23,
+            "word": " you",
+            "probability": 0.99737
+          },
+          {
+            "start": 102.23,
+            "end": 102.41,
+            "word": " know",
+            "probability": 0.99861
+          },
+          {
+            "start": 102.41,
+            "end": 102.69,
+            "word": " who",
+            "probability": 0.9889
+          },
+          {
+            "start": 102.69,
+            "end": 102.85,
+            "word": " is",
+            "probability": 0.85988
+          },
+          {
+            "start": 102.85,
+            "end": 103.41,
+            "word": " experienced.",
+            "probability": 0.98179
+          },
+          {
+            "start": 104.59,
+            "end": 104.87,
+            "word": " Whether",
+            "probability": 0.98855
+          },
+          {
+            "start": 104.87,
+            "end": 105.09,
+            "word": " it's",
+            "probability": 0.98832
+          },
+          {
+            "start": 105.09,
+            "end": 105.15,
+            "word": " a",
+            "probability": 0.99873
+          },
+          {
+            "start": 105.15,
+            "end": 105.49,
+            "word": " family",
+            "probability": 0.98821
+          },
+          {
+            "start": 105.49,
+            "end": 105.85,
+            "word": " member",
+            "probability": 0.99826
+          },
+          {
+            "start": 105.85,
+            "end": 106.13,
+            "word": " or",
+            "probability": 0.97884
+          },
+          {
+            "start": 106.13,
+            "end": 106.25,
+            "word": " a",
+            "probability": 0.94567
+          },
+          {
+            "start": 106.25,
+            "end": 106.57,
+            "word": " friend",
+            "probability": 0.99822
+          },
+          {
+            "start": 106.57,
+            "end": 106.79,
+            "word": " who",
+            "probability": 0.99756
+          },
+          {
+            "start": 106.79,
+            "end": 106.95,
+            "word": " has",
+            "probability": 0.99452
+          },
+          {
+            "start": 106.95,
+            "end": 107.49,
+            "word": " successfully",
+            "probability": 0.99118
+          }
+        ]
+      },
+      {
+        "start": 107.49,
+        "end": 112.53,
+        "text": "managed their finances, their insights can provide valuable guidance and help you avoid",
+        "words": [
+          {
+            "start": 107.49,
+            "end": 107.95,
+            "word": " managed",
+            "probability": 0.95835
+          },
+          {
+            "start": 107.95,
+            "end": 108.21,
+            "word": " their",
+            "probability": 0.99892
+          },
+          {
+            "start": 108.21,
+            "end": 108.77,
+            "word": " finances,",
+            "probability": 0.99672
+          },
+          {
+            "start": 109.37,
+            "end": 109.47,
+            "word": " their",
+            "probability": 0.99116
+          },
+          {
+            "start": 109.47,
+            "end": 109.87,
+            "word": " insights",
+            "probability": 0.99055
+          },
+          {
+            "start": 109.87,
+            "end": 110.23,
+            "word": " can",
+            "probability": 0.99654
+          },
+          {
+            "start": 110.23,
+            "end": 110.53,
+            "word": " provide",
+            "probability": 0.99857
+          },
+          {
+            "start": 110.53,
+            "end": 111.05,
+            "word": " valuable",
+            "probability": 0.99886
+          },
+          {
+            "start": 111.05,
+            "end": 111.45,
+            "word": " guidance",
+            "probability": 0.99865
+          },
+          {
+            "start": 111.45,
+            "end": 111.75,
+            "word": " and",
+            "probability": 0.98588
+          },
+          {
+            "start": 111.75,
+            "end": 111.95,
+            "word": " help",
+            "probability": 0.99855
+          },
+          {
+            "start": 111.95,
+            "end": 112.11,
+            "word": " you",
+            "probability": 0.99836
+          },
+          {
+            "start": 112.11,
+            "end": 112.53,
+            "word": " avoid",
+            "probability": 0.99731
+          }
+        ]
+      },
+      {
+        "start": 112.53,
+        "end": 116.99,
+        "text": "common pitfalls. Investing in more financial apps can be helpful,",
+        "words": [
+          {
+            "start": 112.53,
+            "end": 112.87,
+            "word": " common",
+            "probability": 0.99184
+          },
+          {
+            "start": 112.87,
+            "end": 113.47,
+            "word": " pitfalls.",
+            "probability": 0.99477
+          },
+          {
+            "start": 114.45,
+            "end": 115.09,
+            "word": " Investing",
+            "probability": 0.98269
+          },
+          {
+            "start": 115.09,
+            "end": 115.19,
+            "word": " in",
+            "probability": 0.99637
+          },
+          {
+            "start": 115.19,
+            "end": 115.37,
+            "word": " more",
+            "probability": 0.99487
+          },
+          {
+            "start": 115.37,
+            "end": 115.89,
+            "word": " financial",
+            "probability": 0.99733
+          },
+          {
+            "start": 115.89,
+            "end": 116.27,
+            "word": " apps",
+            "probability": 0.87676
+          },
+          {
+            "start": 116.27,
+            "end": 116.49,
+            "word": " can",
+            "probability": 0.99839
+          },
+          {
+            "start": 116.49,
+            "end": 116.63,
+            "word": " be",
+            "probability": 0.99822
+          },
+          {
+            "start": 116.63,
+            "end": 116.99,
+            "word": " helpful,",
+            "probability": 0.99733
+          }
+        ]
+      },
+      {
+        "start": 116.99,
+        "end": 119.59,
+        "text": "but nothing beats personalized advice.",
+        "words": [
+          {
+            "start": 116.99,
+            "end": 117.49,
+            "word": " but",
+            "probability": 0.21218
+          },
+          {
+            "start": 117.49,
+            "end": 117.87,
+            "word": " nothing",
+            "probability": 0.98782
+          },
+          {
+            "start": 117.87,
+            "end": 118.19,
+            "word": " beats",
+            "probability": 0.98799
+          },
+          {
+            "start": 118.19,
+            "end": 118.87,
+            "word": " personalized",
+            "probability": 0.76591
+          },
+          {
+            "start": 118.87,
+            "end": 119.59,
+            "word": " advice.",
+            "probability": 0.99691
+          }
+        ]
+      },
+      {
+        "start": 121.62,
+        "end": 127.8,
+        "text": "Today, I want to share my thoughts on a fascinating book about the life of renowned scientist Dr. Emily Carter.",
+        "words": [
+          {
+            "start": 121.62,
+            "end": 122.14,
+            "word": " Today,",
+            "probability": 0.80207
+          },
+          {
+            "start": 122.58,
+            "end": 122.72,
+            "word": " I",
+            "probability": 0.99758
+          },
+          {
+            "start": 122.72,
+            "end": 122.88,
+            "word": " want",
+            "probability": 0.99782
+          },
+          {
+            "start": 122.88,
+            "end": 123.02,
+            "word": " to",
+            "probability": 0.9992
+          },
+          {
+            "start": 123.02,
+            "end": 123.18,
+            "word": " share",
+            "probability": 0.99817
+          },
+          {
+            "start": 123.18,
+            "end": 123.36,
+            "word": " my",
+            "probability": 0.99916
+          },
+          {
+            "start": 123.36,
+            "end": 123.6,
+            "word": " thoughts",
+            "probability": 0.99964
+          },
+          {
+            "start": 123.6,
+            "end": 123.86,
+            "word": " on",
+            "probability": 0.99909
+          },
+          {
+            "start": 123.86,
+            "end": 123.96,
+            "word": " a",
+            "probability": 0.99884
+          },
+          {
+            "start": 123.96,
+            "end": 124.44,
+            "word": " fascinating",
+            "probability": 0.9929
+          },
+          {
+            "start": 124.44,
+            "end": 124.78,
+            "word": " book",
+            "probability": 0.9983
+          },
+          {
+            "start": 124.78,
+            "end": 125.08,
+            "word": " about",
+            "probability": 0.99859
+          },
+          {
+            "start": 125.08,
+            "end": 125.26,
+            "word": " the",
+            "probability": 0.97006
+          },
+          {
+            "start": 125.26,
+            "end": 125.48,
+            "word": " life",
+            "probability": 0.9645
+          },
+          {
+            "start": 125.48,
+            "end": 125.66,
+            "word": " of",
+            "probability": 0.99714
+          },
+          {
+            "start": 125.66,
+            "end": 125.92,
+            "word": " renowned",
+            "probability": 0.99664
+          },
+          {
+            "start": 125.92,
+            "end": 126.58,
+            "word": " scientist",
+            "probability": 0.9709
+          },
+          {
+            "start": 126.58,
+            "end": 127.04,
+            "word": " Dr.",
+            "probability": 0.69441
+          },
+          {
+            "start": 127.24,
+            "end": 127.4,
+            "word": " Emily",
+            "probability": 0.87842
+          },
+          {
+            "start": 127.4,
+            "end": 127.8,
+            "word": " Carter.",
+            "probability": 0.89989
+          }
+        ]
+      },
+      {
+        "start": 128.34,
+        "end": 132.72,
+        "text": "One of the standout features of this book is that the way of writing is exciting for readers.",
+        "words": [
+          {
+            "start": 128.34,
+            "end": 128.48,
+            "word": " One",
+            "probability": 0.98843
+          },
+          {
+            "start": 128.48,
+            "end": 128.6,
+            "word": " of",
+            "probability": 0.99941
+          },
+          {
+            "start": 128.6,
+            "end": 128.72,
+            "word": " the",
+            "probability": 0.99927
+          },
+          {
+            "start": 128.72,
+            "end": 129.2,
+            "word": " standout",
+            "probability": 0.87459
+          },
+          {
+            "start": 129.2,
+            "end": 129.58,
+            "word": " features",
+            "probability": 0.9973
+          },
+          {
+            "start": 129.58,
+            "end": 129.8,
+            "word": " of",
+            "probability": 0.99815
+          },
+          {
+            "start": 129.8,
+            "end": 129.92,
+            "word": " this",
+            "probability": 0.99879
+          },
+          {
+            "start": 129.92,
+            "end": 130.2,
+            "word": " book",
+            "probability": 0.99878
+          },
+          {
+            "start": 130.2,
+            "end": 130.46,
+            "word": " is",
+            "probability": 0.98466
+          },
+          {
+            "start": 130.46,
+            "end": 130.6,
+            "word": " that",
+            "probability": 0.9923
+          },
+          {
+            "start": 130.6,
+            "end": 130.74,
+            "word": " the",
+            "probability": 0.94143
+          },
+          {
+            "start": 130.74,
+            "end": 130.92,
+            "word": " way",
+            "probability": 0.98822
+          },
+          {
+            "start": 130.92,
+            "end": 131.1,
+            "word": " of",
+            "probability": 0.99554
+          },
+          {
+            "start": 131.1,
+            "end": 131.36,
+            "word": " writing",
+            "probability": 0.9993
+          },
+          {
+            "start": 131.36,
+            "end": 131.72,
+            "word": " is",
+            "probability": 0.99699
+          },
+          {
+            "start": 131.72,
+            "end": 132.18,
+            "word": " exciting",
+            "probability": 0.99819
+          },
+          {
+            "start": 132.18,
+            "end": 132.44,
+            "word": " for",
+            "probability": 0.99887
+          },
+          {
+            "start": 132.44,
+            "end": 132.72,
+            "word": " readers.",
+            "probability": 0.9987
+          }
+        ]
+      },
+      {
+        "start": 133.36,
+        "end": 138.84,
+        "text": "The author has a talent for bringing complex scientific concepts to life, making it an engaging experience.",
+        "words": [
+          {
+            "start": 133.36,
+            "end": 133.48,
+            "word": " The",
+            "probability": 0.99236
+          },
+          {
+            "start": 133.48,
+            "end": 133.78,
+            "word": " author",
+            "probability": 0.99977
+          },
+          {
+            "start": 133.78,
+            "end": 133.98,
+            "word": " has",
+            "probability": 0.99867
+          },
+          {
+            "start": 133.98,
+            "end": 134.1,
+            "word": " a",
+            "probability": 0.99885
+          },
+          {
+            "start": 134.1,
+            "end": 134.38,
+            "word": " talent",
+            "probability": 0.99815
+          },
+          {
+            "start": 134.38,
+            "end": 134.62,
+            "word": " for",
+            "probability": 0.99775
+          },
+          {
+            "start": 134.62,
+            "end": 134.86,
+            "word": " bringing",
+            "probability": 0.99781
+          },
+          {
+            "start": 134.86,
+            "end": 135.32,
+            "word": " complex",
+            "probability": 0.99608
+          },
+          {
+            "start": 135.32,
+            "end": 135.78,
+            "word": " scientific",
+            "probability": 0.99401
+          },
+          {
+            "start": 135.78,
+            "end": 136.26,
+            "word": " concepts",
+            "probability": 0.99841
+          },
+          {
+            "start": 136.26,
+            "end": 136.54,
+            "word": " to",
+            "probability": 0.99959
+          },
+          {
+            "start": 136.54,
+            "end": 136.82,
+            "word": " life,",
+            "probability": 0.99919
+          },
+          {
+            "start": 137.2,
+            "end": 137.4,
+            "word": " making",
+            "probability": 0.9981
+          },
+          {
+            "start": 137.4,
+            "end": 137.58,
+            "word": " it",
+            "probability": 0.99977
+          },
+          {
+            "start": 137.58,
+            "end": 137.7,
+            "word": " an",
+            "probability": 0.99899
+          },
+          {
+            "start": 137.7,
+            "end": 138.06,
+            "word": " engaging",
+            "probability": 0.99843
+          },
+          {
+            "start": 138.06,
+            "end": 138.84,
+            "word": " experience.",
+            "probability": 0.99957
+          }
+        ]
+      },
+      {
+        "start": 139.12,
+        "end": 141.86,
+        "text": "While some may expect a heavy focus on technical details,",
+        "words": [
+          {
+            "start": 139.12,
+            "end": 139.34,
+            "word": " While",
+            "probability": 0.98305
+          },
+          {
+            "start": 139.34,
+            "end": 139.56,
+            "word": " some",
+            "probability": 0.99712
+          },
+          {
+            "start": 139.56,
+            "end": 139.76,
+            "word": " may",
+            "probability": 0.99928
+          },
+          {
+            "start": 139.76,
+            "end": 140.06,
+            "word": " expect",
+            "probability": 0.99894
+          },
+          {
+            "start": 140.06,
+            "end": 140.24,
+            "word": " a",
+            "probability": 0.99603
+          },
+          {
+            "start": 140.24,
+            "end": 140.46,
+            "word": " heavy",
+            "probability": 0.99004
+          },
+          {
+            "start": 140.46,
+            "end": 140.8,
+            "word": " focus",
+            "probability": 0.99613
+          },
+          {
+            "start": 140.8,
+            "end": 141.02,
+            "word": " on",
+            "probability": 0.99848
+          },
+          {
+            "start": 141.02,
+            "end": 141.38,
+            "word": " technical",
+            "probability": 0.99557
+          },
+          {
+            "start": 141.38,
+            "end": 141.86,
+            "word": " details,",
+            "probability": 0.99752
+          }
+        ]
+      },
+      {
+        "start": 142.34,
+        "end": 146.84,
+        "text": "this book skillfully balances science with storytelling, ensuring that it remains accessible.",
+        "words": [
+          {
+            "start": 142.34,
+            "end": 142.46,
+            "word": " this",
+            "probability": 0.99343
+          },
+          {
+            "start": 142.46,
+            "end": 142.66,
+            "word": " book",
+            "probability": 0.99837
+          },
+          {
+            "start": 142.66,
+            "end": 143.22,
+            "word": " skillfully",
+            "probability": 0.92701
+          },
+          {
+            "start": 143.22,
+            "end": 143.6,
+            "word": " balances",
+            "probability": 0.99048
+          },
+          {
+            "start": 143.6,
+            "end": 144.02,
+            "word": " science",
+            "probability": 0.99708
+          },
+          {
+            "start": 144.02,
+            "end": 144.3,
+            "word": " with",
+            "probability": 0.99528
+          },
+          {
+            "start": 144.3,
+            "end": 144.86,
+            "word": " storytelling,",
+            "probability": 0.97251
+          },
+          {
+            "start": 145.24,
+            "end": 145.54,
+            "word": " ensuring",
+            "probability": 0.99347
+          },
+          {
+            "start": 145.54,
+            "end": 145.88,
+            "word": " that",
+            "probability": 0.99164
+          },
+          {
+            "start": 145.88,
+            "end": 146.0,
+            "word": " it",
+            "probability": 0.99753
+          },
+          {
+            "start": 146.0,
+            "end": 146.26,
+            "word": " remains",
+            "probability": 0.99636
+          },
+          {
+            "start": 146.26,
+            "end": 146.84,
+            "word": " accessible.",
+            "probability": 0.99599
+          }
+        ]
+      },
+      {
+        "start": 146.84,
+        "end": 151.8,
+        "text": "It's definitely not more of a textbook than a biography, instead, it invites readers",
+        "words": [
+          {
+            "start": 146.84,
+            "end": 147.58,
+            "word": " It's",
+            "probability": 0.57461
+          },
+          {
+            "start": 147.58,
+            "end": 147.86,
+            "word": " definitely",
+            "probability": 0.97351
+          },
+          {
+            "start": 147.86,
+            "end": 148.22,
+            "word": " not",
+            "probability": 0.99514
+          },
+          {
+            "start": 148.22,
+            "end": 148.46,
+            "word": " more",
+            "probability": 0.99153
+          },
+          {
+            "start": 148.46,
+            "end": 148.6,
+            "word": " of",
+            "probability": 0.99009
+          },
+          {
+            "start": 148.6,
+            "end": 148.72,
+            "word": " a",
+            "probability": 0.99907
+          },
+          {
+            "start": 148.72,
+            "end": 148.98,
+            "word": " textbook",
+            "probability": 0.97751
+          },
+          {
+            "start": 148.98,
+            "end": 149.3,
+            "word": " than",
+            "probability": 0.99068
+          },
+          {
+            "start": 149.3,
+            "end": 149.36,
+            "word": " a",
+            "probability": 0.99297
+          },
+          {
+            "start": 149.36,
+            "end": 149.8,
+            "word": " biography,",
+            "probability": 0.98521
+          },
+          {
+            "start": 150.22,
+            "end": 150.72,
+            "word": " instead,",
+            "probability": 0.93656
+          },
+          {
+            "start": 150.98,
+            "end": 151.06,
+            "word": " it",
+            "probability": 0.98509
+          },
+          {
+            "start": 151.06,
+            "end": 151.46,
+            "word": " invites",
+            "probability": 0.99243
+          },
+          {
+            "start": 151.46,
+            "end": 151.8,
+            "word": " readers",
+            "probability": 0.99685
+          }
+        ]
+      },
+      {
+        "start": 151.8,
+        "end": 154.12,
+        "text": "into the scientist's world in a relatable way.",
+        "words": [
+          {
+            "start": 151.8,
+            "end": 152.04,
+            "word": " into",
+            "probability": 0.99491
+          },
+          {
+            "start": 152.04,
+            "end": 152.2,
+            "word": " the",
+            "probability": 0.99198
+          },
+          {
+            "start": 152.2,
+            "end": 152.88,
+            "word": " scientist's",
+            "probability": 0.88135
+          },
+          {
+            "start": 152.88,
+            "end": 153.08,
+            "word": " world",
+            "probability": 0.993
+          },
+          {
+            "start": 153.08,
+            "end": 153.28,
+            "word": " in",
+            "probability": 0.99689
+          },
+          {
+            "start": 153.28,
+            "end": 153.36,
+            "word": " a",
+            "probability": 0.99958
+          },
+          {
+            "start": 153.36,
+            "end": 153.76,
+            "word": " relatable",
+            "probability": 0.98276
+          },
+          {
+            "start": 153.76,
+            "end": 154.12,
+            "word": " way.",
+            "probability": 0.99966
+          }
+        ]
+      },
+      {
+        "start": 154.46,
+        "end": 157.38,
+        "text": "Overall, I'd say it has been written for a general audience.",
+        "words": [
+          {
+            "start": 154.46,
+            "end": 154.92,
+            "word": " Overall,",
+            "probability": 0.93099
+          },
+          {
+            "start": 155.32,
+            "end": 155.5,
+            "word": " I'd",
+            "probability": 0.99677
+          },
+          {
+            "start": 155.5,
+            "end": 155.64,
+            "word": " say",
+            "probability": 0.9993
+          },
+          {
+            "start": 155.64,
+            "end": 155.8,
+            "word": " it",
+            "probability": 0.99735
+          },
+          {
+            "start": 155.8,
+            "end": 155.9,
+            "word": " has",
+            "probability": 0.99639
+          },
+          {
+            "start": 155.9,
+            "end": 156.04,
+            "word": " been",
+            "probability": 0.99834
+          },
+          {
+            "start": 156.04,
+            "end": 156.3,
+            "word": " written",
+            "probability": 0.9994
+          },
+          {
+            "start": 156.3,
+            "end": 156.56,
+            "word": " for",
+            "probability": 0.99627
+          },
+          {
+            "start": 156.56,
+            "end": 156.66,
+            "word": " a",
+            "probability": 0.99867
+          },
+          {
+            "start": 156.66,
+            "end": 156.88,
+            "word": " general",
+            "probability": 0.99118
+          },
+          {
+            "start": 156.88,
+            "end": 157.38,
+            "word": " audience.",
+            "probability": 0.99871
+          }
+        ]
+      },
+      {
+        "start": 158.0,
+        "end": 162.48,
+        "text": "The author's aim seems to be to inspire curiosity about science and encourage readers",
+        "words": [
+          {
+            "start": 158.0,
+            "end": 158.12,
+            "word": " The",
+            "probability": 0.95308
+          },
+          {
+            "start": 158.12,
+            "end": 158.54,
+            "word": " author's",
+            "probability": 0.99484
+          },
+          {
+            "start": 158.54,
+            "end": 158.72,
+            "word": " aim",
+            "probability": 0.9803
+          },
+          {
+            "start": 158.72,
+            "end": 159.06,
+            "word": " seems",
+            "probability": 0.99749
+          },
+          {
+            "start": 159.06,
+            "end": 159.28,
+            "word": " to",
+            "probability": 0.999
+          },
+          {
+            "start": 159.28,
+            "end": 159.4,
+            "word": " be",
+            "probability": 0.98813
+          },
+          {
+            "start": 159.4,
+            "end": 159.56,
+            "word": " to",
+            "probability": 0.99795
+          },
+          {
+            "start": 159.56,
+            "end": 159.92,
+            "word": " inspire",
+            "probability": 0.99456
+          },
+          {
+            "start": 159.92,
+            "end": 160.54,
+            "word": " curiosity",
+            "probability": 0.99416
+          },
+          {
+            "start": 160.54,
+            "end": 160.9,
+            "word": " about",
+            "probability": 0.99946
+          },
+          {
+            "start": 160.9,
+            "end": 161.34,
+            "word": " science",
+            "probability": 0.99587
+          },
+          {
+            "start": 161.34,
+            "end": 161.68,
+            "word": " and",
+            "probability": 0.959
+          },
+          {
+            "start": 161.68,
+            "end": 162.12,
+            "word": " encourage",
+            "probability": 0.99754
+          },
+          {
+            "start": 162.12,
+            "end": 162.48,
+            "word": " readers",
+            "probability": 0.99907
+          }
+        ]
+      },
+      {
+        "start": 162.48,
+        "end": 165.9,
+        "text": "from all backgrounds to appreciate the contributions of Dr. Carter.",
+        "words": [
+          {
+            "start": 162.48,
+            "end": 162.72,
+            "word": " from",
+            "probability": 0.997
+          },
+          {
+            "start": 162.72,
+            "end": 162.9,
+            "word": " all",
+            "probability": 0.99798
+          },
+          {
+            "start": 162.9,
+            "end": 163.32,
+            "word": " backgrounds",
+            "probability": 0.98935
+          },
+          {
+            "start": 163.32,
+            "end": 163.68,
+            "word": " to",
+            "probability": 0.99729
+          },
+          {
+            "start": 163.68,
+            "end": 164.18,
+            "word": " appreciate",
+            "probability": 0.99559
+          },
+          {
+            "start": 164.18,
+            "end": 164.38,
+            "word": " the",
+            "probability": 0.99776
+          },
+          {
+            "start": 164.38,
+            "end": 164.84,
+            "word": " contributions",
+            "probability": 0.99724
+          },
+          {
+            "start": 164.84,
+            "end": 165.24,
+            "word": " of",
+            "probability": 0.99906
+          },
+          {
+            "start": 165.24,
+            "end": 165.52,
+            "word": " Dr.",
+            "probability": 0.83551
+          },
+          {
+            "start": 165.62,
+            "end": 165.9,
+            "word": " Carter.",
+            "probability": 0.98014
+          }
+        ]
+      },
+      {
+        "start": 166.42,
+        "end": 169.64,
+        "text": "Unlike other works that are only suitable for experts in the field,",
+        "words": [
+          {
+            "start": 166.42,
+            "end": 166.68,
+            "word": " Unlike",
+            "probability": 0.99137
+          },
+          {
+            "start": 166.68,
+            "end": 167.02,
+            "word": " other",
+            "probability": 0.99759
+          },
+          {
+            "start": 167.02,
+            "end": 167.4,
+            "word": " works",
+            "probability": 0.99529
+          },
+          {
+            "start": 167.4,
+            "end": 167.54,
+            "word": " that",
+            "probability": 0.99832
+          },
+          {
+            "start": 167.54,
+            "end": 167.68,
+            "word": " are",
+            "probability": 0.9988
+          },
+          {
+            "start": 167.68,
+            "end": 167.94,
+            "word": " only",
+            "probability": 0.99893
+          },
+          {
+            "start": 167.94,
+            "end": 168.32,
+            "word": " suitable",
+            "probability": 0.99474
+          },
+          {
+            "start": 168.32,
+            "end": 168.6,
+            "word": " for",
+            "probability": 0.999
+          },
+          {
+            "start": 168.6,
+            "end": 168.96,
+            "word": " experts",
+            "probability": 0.99201
+          },
+          {
+            "start": 168.96,
+            "end": 169.18,
+            "word": " in",
+            "probability": 0.99897
+          },
+          {
+            "start": 169.18,
+            "end": 169.3,
+            "word": " the",
+            "probability": 0.99771
+          },
+          {
+            "start": 169.3,
+            "end": 169.64,
+            "word": " field,",
+            "probability": 0.99774
+          }
+        ]
+      },
+      {
+        "start": 170.02,
+        "end": 174.1,
+        "text": "this book truly welcomes everyone to explore the life of an extraordinary scientist.",
+        "words": [
+          {
+            "start": 170.02,
+            "end": 170.16,
+            "word": " this",
+            "probability": 0.99614
+          },
+          {
+            "start": 170.16,
+            "end": 170.38,
+            "word": " book",
+            "probability": 0.99688
+          },
+          {
+            "start": 170.38,
+            "end": 170.76,
+            "word": " truly",
+            "probability": 0.99739
+          },
+          {
+            "start": 170.76,
+            "end": 171.14,
+            "word": " welcomes",
+            "probability": 0.99614
+          },
+          {
+            "start": 171.14,
+            "end": 171.66,
+            "word": " everyone",
+            "probability": 0.99445
+          },
+          {
+            "start": 171.66,
+            "end": 171.86,
+            "word": " to",
+            "probability": 0.99902
+          },
+          {
+            "start": 171.86,
+            "end": 172.26,
+            "word": " explore",
+            "probability": 0.99853
+          },
+          {
+            "start": 172.26,
+            "end": 172.44,
+            "word": " the",
+            "probability": 0.99748
+          },
+          {
+            "start": 172.44,
+            "end": 172.68,
+            "word": " life",
+            "probability": 0.99719
+          },
+          {
+            "start": 172.68,
+            "end": 172.84,
+            "word": " of",
+            "probability": 0.99861
+          },
+          {
+            "start": 172.84,
+            "end": 172.94,
+            "word": " an",
+            "probability": 0.99847
+          },
+          {
+            "start": 172.94,
+            "end": 173.52,
+            "word": " extraordinary",
+            "probability": 0.99428
+          },
+          {
+            "start": 173.52,
+            "end": 174.1,
+            "word": " scientist.",
+            "probability": 0.99669
+          }
+        ]
+      },
+      {
+        "start": 177.11,
+        "end": 182.09,
+        "text": "Today, I want to share my thoughts on a fascinating book about the life of renowned scientist",
+        "words": [
+          {
+            "start": 177.11,
+            "end": 177.63,
+            "word": " Today,",
+            "probability": 0.1612
+          },
+          {
+            "start": 178.13,
+            "end": 178.23,
+            "word": " I",
+            "probability": 0.99643
+          },
+          {
+            "start": 178.23,
+            "end": 178.39,
+            "word": " want",
+            "probability": 0.99404
+          },
+          {
+            "start": 178.39,
+            "end": 178.53,
+            "word": " to",
+            "probability": 0.99556
+          },
+          {
+            "start": 178.53,
+            "end": 178.71,
+            "word": " share",
+            "probability": 0.99699
+          },
+          {
+            "start": 178.71,
+            "end": 178.87,
+            "word": " my",
+            "probability": 0.99883
+          },
+          {
+            "start": 178.87,
+            "end": 179.11,
+            "word": " thoughts",
+            "probability": 0.99942
+          },
+          {
+            "start": 179.11,
+            "end": 179.37,
+            "word": " on",
+            "probability": 0.99827
+          },
+          {
+            "start": 179.37,
+            "end": 179.47,
+            "word": " a",
+            "probability": 0.99677
+          },
+          {
+            "start": 179.47,
+            "end": 179.99,
+            "word": " fascinating",
+            "probability": 0.99515
+          },
+          {
+            "start": 179.99,
+            "end": 180.29,
+            "word": " book",
+            "probability": 0.99802
+          },
+          {
+            "start": 180.29,
+            "end": 180.61,
+            "word": " about",
+            "probability": 0.99811
+          },
+          {
+            "start": 180.61,
+            "end": 180.77,
+            "word": " the",
+            "probability": 0.97506
+          },
+          {
+            "start": 180.77,
+            "end": 181.01,
+            "word": " life",
+            "probability": 0.93241
+          },
+          {
+            "start": 181.01,
+            "end": 181.19,
+            "word": " of",
+            "probability": 0.99586
+          },
+          {
+            "start": 181.19,
+            "end": 181.45,
+            "word": " renowned",
+            "probability": 0.99569
+          },
+          {
+            "start": 181.45,
+            "end": 182.09,
+            "word": " scientist",
+            "probability": 0.96813
+          }
+        ]
+      },
+      {
+        "start": 182.09,
+        "end": 183.31,
+        "text": "Dr. Emily Carter.",
+        "words": [
+          {
+            "start": 182.09,
+            "end": 182.59,
+            "word": " Dr.",
+            "probability": 0.74108
+          },
+          {
+            "start": 182.75,
+            "end": 182.93,
+            "word": " Emily",
+            "probability": 0.87099
+          },
+          {
+            "start": 182.93,
+            "end": 183.31,
+            "word": " Carter.",
+            "probability": 0.93636
+          }
+        ]
+      },
+      {
+        "start": 183.85,
+        "end": 187.97,
+        "text": "One of the standout features of this book is that the way of writing is exciting for",
+        "words": [
+          {
+            "start": 183.85,
+            "end": 184.01,
+            "word": " One",
+            "probability": 0.99114
+          },
+          {
+            "start": 184.01,
+            "end": 184.11,
+            "word": " of",
+            "probability": 0.99902
+          },
+          {
+            "start": 184.11,
+            "end": 184.25,
+            "word": " the",
+            "probability": 0.9986
+          },
+          {
+            "start": 184.25,
+            "end": 184.73,
+            "word": " standout",
+            "probability": 0.90222
+          },
+          {
+            "start": 184.73,
+            "end": 185.09,
+            "word": " features",
+            "probability": 0.99625
+          },
+          {
+            "start": 185.09,
+            "end": 185.31,
+            "word": " of",
+            "probability": 0.99779
+          },
+          {
+            "start": 185.31,
+            "end": 185.45,
+            "word": " this",
+            "probability": 0.99642
+          },
+          {
+            "start": 185.45,
+            "end": 185.71,
+            "word": " book",
+            "probability": 0.99795
+          },
+          {
+            "start": 185.71,
+            "end": 185.97,
+            "word": " is",
+            "probability": 0.98937
+          },
+          {
+            "start": 185.97,
+            "end": 186.13,
+            "word": " that",
+            "probability": 0.99524
+          },
+          {
+            "start": 186.13,
+            "end": 186.27,
+            "word": " the",
+            "probability": 0.94895
+          },
+          {
+            "start": 186.27,
+            "end": 186.43,
+            "word": " way",
+            "probability": 0.98268
+          },
+          {
+            "start": 186.43,
+            "end": 186.61,
+            "word": " of",
+            "probability": 0.98294
+          },
+          {
+            "start": 186.61,
+            "end": 186.85,
+            "word": " writing",
+            "probability": 0.99928
+          },
+          {
+            "start": 186.85,
+            "end": 187.25,
+            "word": " is",
+            "probability": 0.99775
+          },
+          {
+            "start": 187.25,
+            "end": 187.69,
+            "word": " exciting",
+            "probability": 0.99783
+          },
+          {
+            "start": 187.69,
+            "end": 187.97,
+            "word": " for",
+            "probability": 0.99796
+          }
+        ]
+      },
+      {
+        "start": 187.97,
+        "end": 188.25,
+        "text": "readers.",
+        "words": [
+          {
+            "start": 187.97,
+            "end": 188.25,
+            "word": " readers.",
+            "probability": 0.99767
+          }
+        ]
+      },
+      {
+        "start": 188.87,
+        "end": 193.59,
+        "text": "The author has a talent for bringing complex scientific concepts to life, making it an engaging",
+        "words": [
+          {
+            "start": 188.87,
+            "end": 188.99,
+            "word": " The",
+            "probability": 0.99417
+          },
+          {
+            "start": 188.99,
+            "end": 189.29,
+            "word": " author",
+            "probability": 0.99959
+          },
+          {
+            "start": 189.29,
+            "end": 189.51,
+            "word": " has",
+            "probability": 0.99841
+          },
+          {
+            "start": 189.51,
+            "end": 189.61,
+            "word": " a",
+            "probability": 0.99883
+          },
+          {
+            "start": 189.61,
+            "end": 189.89,
+            "word": " talent",
+            "probability": 0.99808
+          },
+          {
+            "start": 189.89,
+            "end": 190.13,
+            "word": " for",
+            "probability": 0.99783
+          },
+          {
+            "start": 190.13,
+            "end": 190.37,
+            "word": " bringing",
+            "probability": 0.99793
+          },
+          {
+            "start": 190.37,
+            "end": 190.87,
+            "word": " complex",
+            "probability": 0.99448
+          },
+          {
+            "start": 190.87,
+            "end": 191.31,
+            "word": " scientific",
+            "probability": 0.99295
+          },
+          {
+            "start": 191.31,
+            "end": 191.79,
+            "word": " concepts",
+            "probability": 0.99756
+          },
+          {
+            "start": 191.79,
+            "end": 192.07,
+            "word": " to",
+            "probability": 0.99952
+          },
+          {
+            "start": 192.07,
+            "end": 192.33,
+            "word": " life,",
+            "probability": 0.99913
+          },
+          {
+            "start": 192.73,
+            "end": 192.91,
+            "word": " making",
+            "probability": 0.99793
+          },
+          {
+            "start": 192.91,
+            "end": 193.09,
+            "word": " it",
+            "probability": 0.99982
+          },
+          {
+            "start": 193.09,
+            "end": 193.21,
+            "word": " an",
+            "probability": 0.99889
+          },
+          {
+            "start": 193.21,
+            "end": 193.59,
+            "word": " engaging",
+            "probability": 0.99785
+          }
+        ]
+      },
+      {
+        "start": 193.59,
+        "end": 194.35,
+        "text": "experience.",
+        "words": [
+          {
+            "start": 193.59,
+            "end": 194.35,
+            "word": " experience.",
+            "probability": 0.99963
+          }
+        ]
+      },
+      {
+        "start": 194.67,
+        "end": 199.55,
+        "text": "While some may expect a heavy focus on technical details, this book skillfully balances science",
+        "words": [
+          {
+            "start": 194.67,
+            "end": 194.85,
+            "word": " While",
+            "probability": 0.98499
+          },
+          {
+            "start": 194.85,
+            "end": 195.07,
+            "word": " some",
+            "probability": 0.99762
+          },
+          {
+            "start": 195.07,
+            "end": 195.27,
+            "word": " may",
+            "probability": 0.99865
+          },
+          {
+            "start": 195.27,
+            "end": 195.59,
+            "word": " expect",
+            "probability": 0.99894
+          },
+          {
+            "start": 195.59,
+            "end": 195.77,
+            "word": " a",
+            "probability": 0.98718
+          },
+          {
+            "start": 195.77,
+            "end": 195.99,
+            "word": " heavy",
+            "probability": 0.98577
+          },
+          {
+            "start": 195.99,
+            "end": 196.33,
+            "word": " focus",
+            "probability": 0.99829
+          },
+          {
+            "start": 196.33,
+            "end": 196.55,
+            "word": " on",
+            "probability": 0.9986
+          },
+          {
+            "start": 196.55,
+            "end": 196.87,
+            "word": " technical",
+            "probability": 0.99602
+          },
+          {
+            "start": 196.87,
+            "end": 197.37,
+            "word": " details,",
+            "probability": 0.99673
+          },
+          {
+            "start": 197.87,
+            "end": 197.97,
+            "word": " this",
+            "probability": 0.99445
+          },
+          {
+            "start": 197.97,
+            "end": 198.17,
+            "word": " book",
+            "probability": 0.99835
+          },
+          {
+            "start": 198.17,
+            "end": 198.75,
+            "word": " skillfully",
+            "probability": 0.92049
+          },
+          {
+            "start": 198.75,
+            "end": 199.11,
+            "word": " balances",
+            "probability": 0.99204
+          },
+          {
+            "start": 199.11,
+            "end": 199.55,
+            "word": " science",
+            "probability": 0.99623
+          }
+        ]
+      },
+      {
+        "start": 199.55,
+        "end": 202.35,
+        "text": "with storytelling, ensuring that it remains accessible.",
+        "words": [
+          {
+            "start": 199.55,
+            "end": 199.81,
+            "word": " with",
+            "probability": 0.99425
+          },
+          {
+            "start": 199.81,
+            "end": 200.33,
+            "word": " storytelling,",
+            "probability": 0.97431
+          },
+          {
+            "start": 200.77,
+            "end": 201.07,
+            "word": " ensuring",
+            "probability": 0.9919
+          },
+          {
+            "start": 201.07,
+            "end": 201.39,
+            "word": " that",
+            "probability": 0.99057
+          },
+          {
+            "start": 201.39,
+            "end": 201.51,
+            "word": " it",
+            "probability": 0.99724
+          },
+          {
+            "start": 201.51,
+            "end": 201.77,
+            "word": " remains",
+            "probability": 0.99585
+          },
+          {
+            "start": 201.77,
+            "end": 202.35,
+            "word": " accessible.",
+            "probability": 0.99566
+          }
+        ]
+      },
+      {
+        "start": 202.35,
+        "end": 207.31,
+        "text": "It's definitely not more of a textbook than a biography, instead it invites readers",
+        "words": [
+          {
+            "start": 202.35,
+            "end": 203.09,
+            "word": " It's",
+            "probability": 0.82778
+          },
+          {
+            "start": 203.09,
+            "end": 203.39,
+            "word": " definitely",
+            "probability": 0.99004
+          },
+          {
+            "start": 203.39,
+            "end": 203.73,
+            "word": " not",
+            "probability": 0.99611
+          },
+          {
+            "start": 203.73,
+            "end": 203.99,
+            "word": " more",
+            "probability": 0.99182
+          },
+          {
+            "start": 203.99,
+            "end": 204.13,
+            "word": " of",
+            "probability": 0.99647
+          },
+          {
+            "start": 204.13,
+            "end": 204.23,
+            "word": " a",
+            "probability": 0.9993
+          },
+          {
+            "start": 204.23,
+            "end": 204.51,
+            "word": " textbook",
+            "probability": 0.98024
+          },
+          {
+            "start": 204.51,
+            "end": 204.83,
+            "word": " than",
+            "probability": 0.99519
+          },
+          {
+            "start": 204.83,
+            "end": 204.89,
+            "word": " a",
+            "probability": 0.99183
+          },
+          {
+            "start": 204.89,
+            "end": 205.31,
+            "word": " biography,",
+            "probability": 0.98774
+          },
+          {
+            "start": 205.75,
+            "end": 206.21,
+            "word": " instead",
+            "probability": 0.94031
+          },
+          {
+            "start": 206.21,
+            "end": 206.57,
+            "word": " it",
+            "probability": 0.65441
+          },
+          {
+            "start": 206.57,
+            "end": 206.99,
+            "word": " invites",
+            "probability": 0.9948
+          },
+          {
+            "start": 206.99,
+            "end": 207.31,
+            "word": " readers",
+            "probability": 0.99754
+          }
+        ]
+      },
+      {
+        "start": 207.31,
+        "end": 209.65,
+        "text": "into the scientist's world in a relatable way.",
+        "words": [
+          {
+            "start": 207.31,
+            "end": 207.55,
+            "word": " into",
+            "probability": 0.99172
+          },
+          {
+            "start": 207.55,
+            "end": 207.71,
+            "word": " the",
+            "probability": 0.99501
+          },
+          {
+            "start": 207.71,
+            "end": 208.39,
+            "word": " scientist's",
+            "probability": 0.87707
+          },
+          {
+            "start": 208.39,
+            "end": 208.59,
+            "word": " world",
+            "probability": 0.99648
+          },
+          {
+            "start": 208.59,
+            "end": 208.79,
+            "word": " in",
+            "probability": 0.99895
+          },
+          {
+            "start": 208.79,
+            "end": 208.89,
+            "word": " a",
+            "probability": 0.99927
+          },
+          {
+            "start": 208.89,
+            "end": 209.29,
+            "word": " relatable",
+            "probability": 0.98338
+          },
+          {
+            "start": 209.29,
+            "end": 209.65,
+            "word": " way.",
+            "probability": 0.99959
+          }
+        ]
+      },
+      {
+        "start": 210.03,
+        "end": 212.89,
+        "text": "Overall, I'd say it has been written for a general audience.",
+        "words": [
+          {
+            "start": 210.03,
+            "end": 210.45,
+            "word": " Overall,",
+            "probability": 0.93078
+          },
+          {
+            "start": 210.83,
+            "end": 211.03,
+            "word": " I'd",
+            "probability": 0.99526
+          },
+          {
+            "start": 211.03,
+            "end": 211.15,
+            "word": " say",
+            "probability": 0.99917
+          },
+          {
+            "start": 211.15,
+            "end": 211.31,
+            "word": " it",
+            "probability": 0.99686
+          },
+          {
+            "start": 211.31,
+            "end": 211.41,
+            "word": " has",
+            "probability": 0.99717
+          },
+          {
+            "start": 211.41,
+            "end": 211.55,
+            "word": " been",
+            "probability": 0.99623
+          },
+          {
+            "start": 211.55,
+            "end": 211.81,
+            "word": " written",
+            "probability": 0.9993
+          },
+          {
+            "start": 211.81,
+            "end": 212.09,
+            "word": " for",
+            "probability": 0.99726
+          },
+          {
+            "start": 212.09,
+            "end": 212.17,
+            "word": " a",
+            "probability": 0.99836
+          },
+          {
+            "start": 212.17,
+            "end": 212.39,
+            "word": " general",
+            "probability": 0.9924
+          },
+          {
+            "start": 212.39,
+            "end": 212.89,
+            "word": " audience.",
+            "probability": 0.99922
+          }
+        ]
+      },
+      {
+        "start": 213.51,
+        "end": 217.99,
+        "text": "The author's aim seems to be to inspire curiosity about science and encourage readers",
+        "words": [
+          {
+            "start": 213.51,
+            "end": 213.63,
+            "word": " The",
+            "probability": 0.97952
+          },
+          {
+            "start": 213.63,
+            "end": 214.05,
+            "word": " author's",
+            "probability": 0.99565
+          },
+          {
+            "start": 214.05,
+            "end": 214.23,
+            "word": " aim",
+            "probability": 0.98428
+          },
+          {
+            "start": 214.23,
+            "end": 214.57,
+            "word": " seems",
+            "probability": 0.99765
+          },
+          {
+            "start": 214.57,
+            "end": 214.81,
+            "word": " to",
+            "probability": 0.99912
+          },
+          {
+            "start": 214.81,
+            "end": 214.91,
+            "word": " be",
+            "probability": 0.98948
+          },
+          {
+            "start": 214.91,
+            "end": 215.09,
+            "word": " to",
+            "probability": 0.99821
+          },
+          {
+            "start": 215.09,
+            "end": 215.43,
+            "word": " inspire",
+            "probability": 0.99485
+          },
+          {
+            "start": 215.43,
+            "end": 216.05,
+            "word": " curiosity",
+            "probability": 0.99584
+          },
+          {
+            "start": 216.05,
+            "end": 216.43,
+            "word": " about",
+            "probability": 0.99944
+          },
+          {
+            "start": 216.43,
+            "end": 216.85,
+            "word": " science",
+            "probability": 0.99676
+          },
+          {
+            "start": 216.85,
+            "end": 217.19,
+            "word": " and",
+            "probability": 0.9808
+          },
+          {
+            "start": 217.19,
+            "end": 217.61,
+            "word": " encourage",
+            "probability": 0.9978
+          },
+          {
+            "start": 217.61,
+            "end": 217.99,
+            "word": " readers",
+            "probability": 0.9988
+          }
+        ]
+      },
+      {
+        "start": 217.99,
+        "end": 221.43,
+        "text": "from all backgrounds to appreciate the contributions of Dr. Carter.",
+        "words": [
+          {
+            "start": 217.99,
+            "end": 218.23,
+            "word": " from",
+            "probability": 0.99818
+          },
+          {
+            "start": 218.23,
+            "end": 218.41,
+            "word": " all",
+            "probability": 0.99853
+          },
+          {
+            "start": 218.41,
+            "end": 218.83,
+            "word": " backgrounds",
+            "probability": 0.98932
+          },
+          {
+            "start": 218.83,
+            "end": 219.19,
+            "word": " to",
+            "probability": 0.99885
+          },
+          {
+            "start": 219.19,
+            "end": 219.69,
+            "word": " appreciate",
+            "probability": 0.99659
+          },
+          {
+            "start": 219.69,
+            "end": 219.89,
+            "word": " the",
+            "probability": 0.99929
+          },
+          {
+            "start": 219.89,
+            "end": 220.37,
+            "word": " contributions",
+            "probability": 0.9981
+          },
+          {
+            "start": 220.37,
+            "end": 220.75,
+            "word": " of",
+            "probability": 0.99892
+          },
+          {
+            "start": 220.75,
+            "end": 221.03,
+            "word": " Dr.",
+            "probability": 0.83973
+          },
+          {
+            "start": 221.11,
+            "end": 221.43,
+            "word": " Carter.",
+            "probability": 0.98347
+          }
+        ]
+      },
+      {
+        "start": 221.95,
+        "end": 225.17,
+        "text": "Unlike other works that are only suitable for experts in the field,",
+        "words": [
+          {
+            "start": 221.95,
+            "end": 222.19,
+            "word": " Unlike",
+            "probability": 0.99426
+          },
+          {
+            "start": 222.19,
+            "end": 222.53,
+            "word": " other",
+            "probability": 0.9975
+          },
+          {
+            "start": 222.53,
+            "end": 222.93,
+            "word": " works",
+            "probability": 0.99451
+          },
+          {
+            "start": 222.93,
+            "end": 223.07,
+            "word": " that",
+            "probability": 0.99762
+          },
+          {
+            "start": 223.07,
+            "end": 223.19,
+            "word": " are",
+            "probability": 0.99906
+          },
+          {
+            "start": 223.19,
+            "end": 223.47,
+            "word": " only",
+            "probability": 0.99861
+          },
+          {
+            "start": 223.47,
+            "end": 223.83,
+            "word": " suitable",
+            "probability": 0.99493
+          },
+          {
+            "start": 223.83,
+            "end": 224.11,
+            "word": " for",
+            "probability": 0.99944
+          },
+          {
+            "start": 224.11,
+            "end": 224.47,
+            "word": " experts",
+            "probability": 0.99265
+          },
+          {
+            "start": 224.47,
+            "end": 224.71,
+            "word": " in",
+            "probability": 0.99919
+          },
+          {
+            "start": 224.71,
+            "end": 224.81,
+            "word": " the",
+            "probability": 0.9953
+          },
+          {
+            "start": 224.81,
+            "end": 225.17,
+            "word": " field,",
+            "probability": 0.99794
+          }
+        ]
+      },
+      {
+        "start": 225.55,
+        "end": 229.61,
+        "text": "this book truly welcomes everyone to explore the life of an extraordinary scientist.",
+        "words": [
+          {
+            "start": 225.55,
+            "end": 225.67,
+            "word": " this",
+            "probability": 0.99353
+          },
+          {
+            "start": 225.67,
+            "end": 225.91,
+            "word": " book",
+            "probability": 0.99758
+          },
+          {
+            "start": 225.91,
+            "end": 226.25,
+            "word": " truly",
+            "probability": 0.99744
+          },
+          {
+            "start": 226.25,
+            "end": 226.65,
+            "word": " welcomes",
+            "probability": 0.99638
+          },
+          {
+            "start": 226.65,
+            "end": 227.19,
+            "word": " everyone",
+            "probability": 0.99397
+          },
+          {
+            "start": 227.19,
+            "end": 227.39,
+            "word": " to",
+            "probability": 0.99935
+          },
+          {
+            "start": 227.39,
+            "end": 227.77,
+            "word": " explore",
+            "probability": 0.99846
+          },
+          {
+            "start": 227.77,
+            "end": 227.95,
+            "word": " the",
+            "probability": 0.99869
+          },
+          {
+            "start": 227.95,
+            "end": 228.19,
+            "word": " life",
+            "probability": 0.99732
+          },
+          {
+            "start": 228.19,
+            "end": 228.35,
+            "word": " of",
+            "probability": 0.99783
+          },
+          {
+            "start": 228.35,
+            "end": 228.45,
+            "word": " an",
+            "probability": 0.99904
+          },
+          {
+            "start": 228.45,
+            "end": 229.03,
+            "word": " extraordinary",
+            "probability": 0.99357
+          },
+          {
+            "start": 229.03,
+            "end": 229.61,
+            "word": " scientist.",
+            "probability": 0.99566
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono1",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 149,
+            "speechStart": 0.78,
+            "speechEnd": 57.81,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9966,
+            "transcript": "managing personal finances is crucial for long term stability 1 of the key strategies is to organize your resources more effectively this means keeping track of your income expenses and savings in a way that makes sense for you having a clear overview helps you make informed decisions about where to allocate your money while some might suggest spending less on non essential items it's not just about cutting back it's about understanding your overall financial picture relying solely on online budgeting tools may also lead you to overlook personal insights that can be equally valuable additionally it's beneficial to get advice from someone you know who is experienced whether it's a family member or a friend who has successfully managed their finances their insights can provide valuable guidance and help you avoid common pitfalls investing in more financial apps can be helpful but nothing beats personalized advice case",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 149,
+            "wordEndIndexExclusive": 297,
+            "speechStart": 62.54,
+            "speechEnd": 119.59,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "managing personal finances is crucial for long term stability 1 of the key strategies is to organize your resources more effectively this means keeping track of your income expenses and savings in a way that makes sense for you having a clear overview helps you make informed decisions about where to allocate your money while some might suggest spending less on non essential items it's not just about cutting back it's about understanding your overall financial picture relying solely on online budgeting tools may also lead you to overlook personal insights that can be equally valuable additionally it's beneficial to get advice from someone you know who is experienced whether it's a family member or a friend who has successfully managed their finances their insights can provide valuable guidance and help you avoid common pitfalls investing in more financial apps can be helpful but nothing beats personalized advice",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p4-mono2",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 297,
+            "wordEndIndexExclusive": 456,
+            "speechStart": 121.62,
+            "speechEnd": 174.1,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "today i want to share my thoughts on a fascinating book about the life of renowned scientist dr emily carter 1 of the standout features of this book is that the way of writing is exciting for readers the author has a talent for bringing complex scientific concepts to life making it an engaging experience while some may expect a heavy focus on technical details this book skillfully balances science with storytelling ensuring that it remains accessible it's definitely not more of a textbook than a biography instead it invites readers into the scientist's world in a relatable way overall i'd say it has been written for a general audience the author's aim seems to be to inspire curiosity about science and encourage readers from all backgrounds to appreciate the contributions of dr carter unlike other works that are only suitable for experts in the field this book truly welcomes everyone to explore the life of an extraordinary scientist",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 456,
+            "wordEndIndexExclusive": 615,
+            "speechStart": 177.11,
+            "speechEnd": 229.61,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "today i want to share my thoughts on a fascinating book about the life of renowned scientist dr emily carter 1 of the standout features of this book is that the way of writing is exciting for readers the author has a talent for bringing complex scientific concepts to life making it an engaging experience while some may expect a heavy focus on technical details this book skillfully balances science with storytelling ensuring that it remains accessible it's definitely not more of a textbook than a biography instead it invites readers into the scientist's world in a relatable way overall i'd say it has been written for a general audience the author's aim seems to be to inspire curiosity about science and encourage readers from all backgrounds to appreciate the contributions of dr carter unlike other works that are only suitable for experts in the field this book truly welcomes everyone to explore the life of an extraordinary scientist",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

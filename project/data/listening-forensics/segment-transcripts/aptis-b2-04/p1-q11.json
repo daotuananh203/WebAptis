@@ -1,0 +1,764 @@
+{
+  "testId": "aptis-b2-04",
+  "blockId": "p1-q11",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-04/part-1/q11.mp3",
+  "audioSha256": "74bf9dc454cb7f1195feaf420711451042a8630a63513467f09680a4edeae4db",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 4.86,
+        "text": "Welcome, I'm so glad you're interested in this beautiful property.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.48,
+            "word": " Welcome,",
+            "probability": 0.61704
+          },
+          {
+            "start": 1.96,
+            "end": 2.26,
+            "word": " I'm",
+            "probability": 0.92253
+          },
+          {
+            "start": 2.26,
+            "end": 2.46,
+            "word": " so",
+            "probability": 0.99129
+          },
+          {
+            "start": 2.46,
+            "end": 2.72,
+            "word": " glad",
+            "probability": 0.9991
+          },
+          {
+            "start": 2.72,
+            "end": 2.98,
+            "word": " you're",
+            "probability": 0.98574
+          },
+          {
+            "start": 2.98,
+            "end": 3.38,
+            "word": " interested",
+            "probability": 0.9962
+          },
+          {
+            "start": 3.38,
+            "end": 3.6,
+            "word": " in",
+            "probability": 0.9956
+          },
+          {
+            "start": 3.6,
+            "end": 3.78,
+            "word": " this",
+            "probability": 0.99627
+          },
+          {
+            "start": 3.78,
+            "end": 4.2,
+            "word": " beautiful",
+            "probability": 0.99265
+          },
+          {
+            "start": 4.2,
+            "end": 4.86,
+            "word": " property.",
+            "probability": 0.99682
+          }
+        ]
+      },
+      {
+        "start": 5.46,
+        "end": 9.96,
+        "text": "This house was built in the 1920s and has maintained much of its original charm.",
+        "words": [
+          {
+            "start": 5.46,
+            "end": 5.76,
+            "word": " This",
+            "probability": 0.98594
+          },
+          {
+            "start": 5.76,
+            "end": 5.96,
+            "word": " house",
+            "probability": 0.9831
+          },
+          {
+            "start": 5.96,
+            "end": 6.18,
+            "word": " was",
+            "probability": 0.99565
+          },
+          {
+            "start": 6.18,
+            "end": 6.42,
+            "word": " built",
+            "probability": 0.9989
+          },
+          {
+            "start": 6.42,
+            "end": 6.58,
+            "word": " in",
+            "probability": 0.99754
+          },
+          {
+            "start": 6.58,
+            "end": 6.66,
+            "word": " the",
+            "probability": 0.99876
+          },
+          {
+            "start": 6.66,
+            "end": 7.62,
+            "word": " 1920s",
+            "probability": 0.86257
+          },
+          {
+            "start": 7.62,
+            "end": 7.76,
+            "word": " and",
+            "probability": 0.9347
+          },
+          {
+            "start": 7.76,
+            "end": 7.9,
+            "word": " has",
+            "probability": 0.97869
+          },
+          {
+            "start": 7.9,
+            "end": 8.34,
+            "word": " maintained",
+            "probability": 0.99361
+          },
+          {
+            "start": 8.34,
+            "end": 8.82,
+            "word": " much",
+            "probability": 0.98602
+          },
+          {
+            "start": 8.82,
+            "end": 9.02,
+            "word": " of",
+            "probability": 0.99637
+          },
+          {
+            "start": 9.02,
+            "end": 9.16,
+            "word": " its",
+            "probability": 0.9394
+          },
+          {
+            "start": 9.16,
+            "end": 9.56,
+            "word": " original",
+            "probability": 0.99858
+          },
+          {
+            "start": 9.56,
+            "end": 9.96,
+            "word": " charm.",
+            "probability": 0.99563
+          }
+        ]
+      },
+      {
+        "start": 10.78,
+        "end": 15.72,
+        "text": "The hardwood floors you see here are completely original, and they've been carefully preserved",
+        "words": [
+          {
+            "start": 10.78,
+            "end": 10.96,
+            "word": " The",
+            "probability": 0.9928
+          },
+          {
+            "start": 10.96,
+            "end": 11.28,
+            "word": " hardwood",
+            "probability": 0.97148
+          },
+          {
+            "start": 11.28,
+            "end": 11.56,
+            "word": " floors",
+            "probability": 0.97664
+          },
+          {
+            "start": 11.56,
+            "end": 11.8,
+            "word": " you",
+            "probability": 0.97731
+          },
+          {
+            "start": 11.8,
+            "end": 12.0,
+            "word": " see",
+            "probability": 0.99814
+          },
+          {
+            "start": 12.0,
+            "end": 12.36,
+            "word": " here",
+            "probability": 0.99875
+          },
+          {
+            "start": 12.36,
+            "end": 12.74,
+            "word": " are",
+            "probability": 0.92113
+          },
+          {
+            "start": 12.74,
+            "end": 13.16,
+            "word": " completely",
+            "probability": 0.99671
+          },
+          {
+            "start": 13.16,
+            "end": 13.76,
+            "word": " original,",
+            "probability": 0.99813
+          },
+          {
+            "start": 14.2,
+            "end": 14.32,
+            "word": " and",
+            "probability": 0.98996
+          },
+          {
+            "start": 14.32,
+            "end": 14.5,
+            "word": " they've",
+            "probability": 0.96055
+          },
+          {
+            "start": 14.5,
+            "end": 14.6,
+            "word": " been",
+            "probability": 0.99803
+          },
+          {
+            "start": 14.6,
+            "end": 15.0,
+            "word": " carefully",
+            "probability": 0.9917
+          },
+          {
+            "start": 15.0,
+            "end": 15.72,
+            "word": " preserved",
+            "probability": 0.9927
+          }
+        ]
+      },
+      {
+        "start": 15.72,
+        "end": 16.44,
+        "text": "over the years.",
+        "words": [
+          {
+            "start": 15.72,
+            "end": 16.0,
+            "word": " over",
+            "probability": 0.99665
+          },
+          {
+            "start": 16.0,
+            "end": 16.16,
+            "word": " the",
+            "probability": 0.99898
+          },
+          {
+            "start": 16.16,
+            "end": 16.44,
+            "word": " years.",
+            "probability": 0.9974
+          }
+        ]
+      },
+      {
+        "start": 17.77,
+        "end": 19.47,
+        "text": "The same goes for the architecture.",
+        "words": [
+          {
+            "start": 17.77,
+            "end": 17.99,
+            "word": " The",
+            "probability": 0.99254
+          },
+          {
+            "start": 17.99,
+            "end": 18.27,
+            "word": " same",
+            "probability": 0.99888
+          },
+          {
+            "start": 18.27,
+            "end": 18.51,
+            "word": " goes",
+            "probability": 0.99772
+          },
+          {
+            "start": 18.51,
+            "end": 18.75,
+            "word": " for",
+            "probability": 0.99854
+          },
+          {
+            "start": 18.75,
+            "end": 18.89,
+            "word": " the",
+            "probability": 0.99358
+          },
+          {
+            "start": 18.89,
+            "end": 19.47,
+            "word": " architecture.",
+            "probability": 0.99369
+          }
+        ]
+      },
+      {
+        "start": 19.99,
+        "end": 24.63,
+        "text": "Those high ceilings and detailed moldings are a testament to the craftsmanship of that",
+        "words": [
+          {
+            "start": 19.99,
+            "end": 20.11,
+            "word": " Those",
+            "probability": 0.98806
+          },
+          {
+            "start": 20.11,
+            "end": 20.37,
+            "word": " high",
+            "probability": 0.99537
+          },
+          {
+            "start": 20.37,
+            "end": 21.01,
+            "word": " ceilings",
+            "probability": 0.97352
+          },
+          {
+            "start": 21.01,
+            "end": 21.27,
+            "word": " and",
+            "probability": 0.97546
+          },
+          {
+            "start": 21.27,
+            "end": 21.67,
+            "word": " detailed",
+            "probability": 0.99753
+          },
+          {
+            "start": 21.67,
+            "end": 22.43,
+            "word": " moldings",
+            "probability": 0.9349
+          },
+          {
+            "start": 22.43,
+            "end": 22.69,
+            "word": " are",
+            "probability": 0.99329
+          },
+          {
+            "start": 22.69,
+            "end": 22.81,
+            "word": " a",
+            "probability": 0.99677
+          },
+          {
+            "start": 22.81,
+            "end": 23.23,
+            "word": " testament",
+            "probability": 0.99337
+          },
+          {
+            "start": 23.23,
+            "end": 23.49,
+            "word": " to",
+            "probability": 0.99786
+          },
+          {
+            "start": 23.49,
+            "end": 23.61,
+            "word": " the",
+            "probability": 0.99592
+          },
+          {
+            "start": 23.61,
+            "end": 24.23,
+            "word": " craftsmanship",
+            "probability": 0.99089
+          },
+          {
+            "start": 24.23,
+            "end": 24.43,
+            "word": " of",
+            "probability": 0.9982
+          },
+          {
+            "start": 24.43,
+            "end": 24.63,
+            "word": " that",
+            "probability": 0.98301
+          }
+        ]
+      },
+      {
+        "start": 24.63,
+        "end": 24.93,
+        "text": "era.",
+        "words": [
+          {
+            "start": 24.63,
+            "end": 24.93,
+            "word": " era.",
+            "probability": 0.99461
+          }
+        ]
+      },
+      {
+        "start": 25.61,
+        "end": 28.05,
+        "text": "However, the furniture you see isn't original.",
+        "words": [
+          {
+            "start": 25.61,
+            "end": 25.89,
+            "word": " However,",
+            "probability": 0.99425
+          },
+          {
+            "start": 26.17,
+            "end": 26.21,
+            "word": " the",
+            "probability": 0.99703
+          },
+          {
+            "start": 26.21,
+            "end": 26.45,
+            "word": " furniture",
+            "probability": 0.99528
+          },
+          {
+            "start": 26.45,
+            "end": 26.81,
+            "word": " you",
+            "probability": 0.99445
+          },
+          {
+            "start": 26.81,
+            "end": 27.05,
+            "word": " see",
+            "probability": 0.99838
+          },
+          {
+            "start": 27.05,
+            "end": 27.53,
+            "word": " isn't",
+            "probability": 0.9925
+          },
+          {
+            "start": 27.53,
+            "end": 28.05,
+            "word": " original.",
+            "probability": 0.99795
+          }
+        ]
+      },
+      {
+        "start": 28.05,
+        "end": 32.69,
+        "text": "It was replaced a few years ago to give the home a more modern, functional feel.",
+        "words": [
+          {
+            "start": 28.05,
+            "end": 28.47,
+            "word": " It",
+            "probability": 0.53435
+          },
+          {
+            "start": 28.47,
+            "end": 28.59,
+            "word": " was",
+            "probability": 0.99725
+          },
+          {
+            "start": 28.59,
+            "end": 28.97,
+            "word": " replaced",
+            "probability": 0.9893
+          },
+          {
+            "start": 28.97,
+            "end": 29.23,
+            "word": " a",
+            "probability": 0.99765
+          },
+          {
+            "start": 29.23,
+            "end": 29.39,
+            "word": " few",
+            "probability": 0.99809
+          },
+          {
+            "start": 29.39,
+            "end": 29.65,
+            "word": " years",
+            "probability": 0.99818
+          },
+          {
+            "start": 29.65,
+            "end": 29.93,
+            "word": " ago",
+            "probability": 0.99665
+          },
+          {
+            "start": 29.93,
+            "end": 30.17,
+            "word": " to",
+            "probability": 0.97204
+          },
+          {
+            "start": 30.17,
+            "end": 30.29,
+            "word": " give",
+            "probability": 0.99598
+          },
+          {
+            "start": 30.29,
+            "end": 30.45,
+            "word": " the",
+            "probability": 0.96399
+          },
+          {
+            "start": 30.45,
+            "end": 30.65,
+            "word": " home",
+            "probability": 0.98797
+          },
+          {
+            "start": 30.65,
+            "end": 30.77,
+            "word": " a",
+            "probability": 0.99827
+          },
+          {
+            "start": 30.77,
+            "end": 30.99,
+            "word": " more",
+            "probability": 0.98991
+          },
+          {
+            "start": 30.99,
+            "end": 31.45,
+            "word": " modern,",
+            "probability": 0.98512
+          },
+          {
+            "start": 31.79,
+            "end": 32.27,
+            "word": " functional",
+            "probability": 0.98044
+          },
+          {
+            "start": 32.27,
+            "end": 32.69,
+            "word": " feel.",
+            "probability": 0.98577
+          }
+        ]
+      },
+      {
+        "start": 33.07,
+        "end": 41.23,
+        "text": "But don't worry, the updates blend well with the classic features, giving you the best of both worlds, historic charm with modern comfort.",
+        "words": [
+          {
+            "start": 33.07,
+            "end": 33.31,
+            "word": " But",
+            "probability": 0.98234
+          },
+          {
+            "start": 33.31,
+            "end": 33.55,
+            "word": " don't",
+            "probability": 0.98798
+          },
+          {
+            "start": 33.55,
+            "end": 33.81,
+            "word": " worry,",
+            "probability": 0.99902
+          },
+          {
+            "start": 34.11,
+            "end": 34.19,
+            "word": " the",
+            "probability": 0.97915
+          },
+          {
+            "start": 34.19,
+            "end": 34.55,
+            "word": " updates",
+            "probability": 0.92466
+          },
+          {
+            "start": 34.55,
+            "end": 34.93,
+            "word": " blend",
+            "probability": 0.96968
+          },
+          {
+            "start": 34.93,
+            "end": 35.25,
+            "word": " well",
+            "probability": 0.99841
+          },
+          {
+            "start": 35.25,
+            "end": 35.47,
+            "word": " with",
+            "probability": 0.99784
+          },
+          {
+            "start": 35.47,
+            "end": 35.57,
+            "word": " the",
+            "probability": 0.9886
+          },
+          {
+            "start": 35.57,
+            "end": 35.91,
+            "word": " classic",
+            "probability": 0.98809
+          },
+          {
+            "start": 35.91,
+            "end": 36.41,
+            "word": " features,",
+            "probability": 0.99661
+          },
+          {
+            "start": 36.91,
+            "end": 37.11,
+            "word": " giving",
+            "probability": 0.99463
+          },
+          {
+            "start": 37.11,
+            "end": 37.31,
+            "word": " you",
+            "probability": 0.99667
+          },
+          {
+            "start": 37.31,
+            "end": 37.43,
+            "word": " the",
+            "probability": 0.99007
+          },
+          {
+            "start": 37.43,
+            "end": 37.77,
+            "word": " best",
+            "probability": 0.99483
+          },
+          {
+            "start": 37.77,
+            "end": 37.93,
+            "word": " of",
+            "probability": 0.98659
+          },
+          {
+            "start": 37.93,
+            "end": 38.15,
+            "word": " both",
+            "probability": 0.99896
+          },
+          {
+            "start": 38.15,
+            "end": 38.73,
+            "word": " worlds,",
+            "probability": 0.99751
+          },
+          {
+            "start": 39.05,
+            "end": 39.43,
+            "word": " historic",
+            "probability": 0.97515
+          },
+          {
+            "start": 39.43,
+            "end": 39.91,
+            "word": " charm",
+            "probability": 0.98306
+          },
+          {
+            "start": 39.91,
+            "end": 40.51,
+            "word": " with",
+            "probability": 0.56577
+          },
+          {
+            "start": 40.51,
+            "end": 40.81,
+            "word": " modern",
+            "probability": 0.97238
+          },
+          {
+            "start": 40.81,
+            "end": 41.23,
+            "word": " comfort.",
+            "probability": 0.999
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q11",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 109,
+            "speechStart": 0.78,
+            "speechEnd": 41.23,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "welcome i'm so glad you're interested in this beautiful property this house was built in the 1920s and has maintained much of its original charm the hardwood floors you see here are completely original and they've been carefully preserved over the years the same goes for the architecture those high ceilings and detailed moldings are a testament to the craftsmanship of that era however the furniture you see isn't original it was replaced a few years ago to give the home a more modern functional feel but don't worry the updates blend well with the classic features giving you the best of both worlds historic charm with modern comfort",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

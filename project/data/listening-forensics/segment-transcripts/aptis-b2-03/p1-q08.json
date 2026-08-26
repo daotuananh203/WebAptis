@@ -1,0 +1,574 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p1-q08",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-1/q08.mp3",
+  "audioSha256": "2d99e1964f998d2f32410a42b8b57594e9919dab415d6c9ccff51c4bf179ad14",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 6.3,
+        "text": "Welcome, everyone. Today, I'm excited to introduce you to our charming small town.",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.56,
+            "word": " Welcome,",
+            "probability": 0.80458
+          },
+          {
+            "start": 1.78,
+            "end": 2.12,
+            "word": " everyone.",
+            "probability": 0.98742
+          },
+          {
+            "start": 2.76,
+            "end": 2.98,
+            "word": " Today,",
+            "probability": 0.99302
+          },
+          {
+            "start": 3.38,
+            "end": 3.56,
+            "word": " I'm",
+            "probability": 0.94586
+          },
+          {
+            "start": 3.56,
+            "end": 3.92,
+            "word": " excited",
+            "probability": 0.99748
+          },
+          {
+            "start": 3.92,
+            "end": 4.16,
+            "word": " to",
+            "probability": 0.99829
+          },
+          {
+            "start": 4.16,
+            "end": 4.52,
+            "word": " introduce",
+            "probability": 0.99802
+          },
+          {
+            "start": 4.52,
+            "end": 4.8,
+            "word": " you",
+            "probability": 0.98811
+          },
+          {
+            "start": 4.8,
+            "end": 4.94,
+            "word": " to",
+            "probability": 0.99693
+          },
+          {
+            "start": 4.94,
+            "end": 5.1,
+            "word": " our",
+            "probability": 0.98758
+          },
+          {
+            "start": 5.1,
+            "end": 5.5,
+            "word": " charming",
+            "probability": 0.9244
+          },
+          {
+            "start": 5.5,
+            "end": 5.92,
+            "word": " small",
+            "probability": 0.9288
+          },
+          {
+            "start": 5.92,
+            "end": 6.3,
+            "word": " town.",
+            "probability": 0.9972
+          }
+        ]
+      },
+      {
+        "start": 6.7,
+        "end": 11.94,
+        "text": "Right here in the town square, you'll find local shops, cozy cafes, and a beautiful",
+        "words": [
+          {
+            "start": 6.7,
+            "end": 7.0,
+            "word": " Right",
+            "probability": 0.98004
+          },
+          {
+            "start": 7.0,
+            "end": 7.24,
+            "word": " here",
+            "probability": 0.99766
+          },
+          {
+            "start": 7.24,
+            "end": 7.4,
+            "word": " in",
+            "probability": 0.98765
+          },
+          {
+            "start": 7.4,
+            "end": 7.5,
+            "word": " the",
+            "probability": 0.98792
+          },
+          {
+            "start": 7.5,
+            "end": 7.74,
+            "word": " town",
+            "probability": 0.94258
+          },
+          {
+            "start": 7.74,
+            "end": 8.14,
+            "word": " square,",
+            "probability": 0.97295
+          },
+          {
+            "start": 8.42,
+            "end": 8.54,
+            "word": " you'll",
+            "probability": 0.98865
+          },
+          {
+            "start": 8.54,
+            "end": 8.76,
+            "word": " find",
+            "probability": 0.99817
+          },
+          {
+            "start": 8.76,
+            "end": 9.04,
+            "word": " local",
+            "probability": 0.98728
+          },
+          {
+            "start": 9.04,
+            "end": 9.56,
+            "word": " shops,",
+            "probability": 0.99846
+          },
+          {
+            "start": 10.0,
+            "end": 10.3,
+            "word": " cozy",
+            "probability": 0.87486
+          },
+          {
+            "start": 10.3,
+            "end": 10.78,
+            "word": " cafes,",
+            "probability": 0.91308
+          },
+          {
+            "start": 11.38,
+            "end": 11.48,
+            "word": " and",
+            "probability": 0.99517
+          },
+          {
+            "start": 11.48,
+            "end": 11.56,
+            "word": " a",
+            "probability": 0.99592
+          },
+          {
+            "start": 11.56,
+            "end": 11.94,
+            "word": " beautiful",
+            "probability": 0.99859
+          }
+        ]
+      },
+      {
+        "start": 11.94,
+        "end": 17.72,
+        "text": "fountain where people gather to relax. This square is the heart of our community, often",
+        "words": [
+          {
+            "start": 11.94,
+            "end": 12.4,
+            "word": " fountain",
+            "probability": 0.98865
+          },
+          {
+            "start": 12.4,
+            "end": 12.76,
+            "word": " where",
+            "probability": 0.89909
+          },
+          {
+            "start": 12.76,
+            "end": 13.04,
+            "word": " people",
+            "probability": 0.99798
+          },
+          {
+            "start": 13.04,
+            "end": 13.36,
+            "word": " gather",
+            "probability": 0.99687
+          },
+          {
+            "start": 13.36,
+            "end": 13.62,
+            "word": " to",
+            "probability": 0.99904
+          },
+          {
+            "start": 13.62,
+            "end": 13.94,
+            "word": " relax.",
+            "probability": 0.9984
+          },
+          {
+            "start": 14.94,
+            "end": 15.18,
+            "word": " This",
+            "probability": 0.99585
+          },
+          {
+            "start": 15.18,
+            "end": 15.56,
+            "word": " square",
+            "probability": 0.9878
+          },
+          {
+            "start": 15.56,
+            "end": 15.78,
+            "word": " is",
+            "probability": 0.99826
+          },
+          {
+            "start": 15.78,
+            "end": 15.92,
+            "word": " the",
+            "probability": 0.98964
+          },
+          {
+            "start": 15.92,
+            "end": 16.12,
+            "word": " heart",
+            "probability": 0.98812
+          },
+          {
+            "start": 16.12,
+            "end": 16.26,
+            "word": " of",
+            "probability": 0.99658
+          },
+          {
+            "start": 16.26,
+            "end": 16.38,
+            "word": " our",
+            "probability": 0.99244
+          },
+          {
+            "start": 16.38,
+            "end": 16.94,
+            "word": " community,",
+            "probability": 0.9975
+          },
+          {
+            "start": 17.42,
+            "end": 17.72,
+            "word": " often",
+            "probability": 0.99826
+          }
+        ]
+      },
+      {
+        "start": 17.72,
+        "end": 23.12,
+        "text": "filled with cool events like farmers markets and live music. Currently, there are 10,000",
+        "words": [
+          {
+            "start": 17.72,
+            "end": 18.06,
+            "word": " filled",
+            "probability": 0.99933
+          },
+          {
+            "start": 18.06,
+            "end": 18.24,
+            "word": " with",
+            "probability": 0.99963
+          },
+          {
+            "start": 18.24,
+            "end": 18.46,
+            "word": " cool",
+            "probability": 0.99716
+          },
+          {
+            "start": 18.46,
+            "end": 18.86,
+            "word": " events",
+            "probability": 0.99577
+          },
+          {
+            "start": 18.86,
+            "end": 19.16,
+            "word": " like",
+            "probability": 0.97002
+          },
+          {
+            "start": 19.16,
+            "end": 19.52,
+            "word": " farmers",
+            "probability": 0.60198
+          },
+          {
+            "start": 19.52,
+            "end": 19.98,
+            "word": " markets",
+            "probability": 0.64496
+          },
+          {
+            "start": 19.98,
+            "end": 20.24,
+            "word": " and",
+            "probability": 0.95595
+          },
+          {
+            "start": 20.24,
+            "end": 20.44,
+            "word": " live",
+            "probability": 0.99602
+          },
+          {
+            "start": 20.44,
+            "end": 20.96,
+            "word": " music.",
+            "probability": 0.99521
+          },
+          {
+            "start": 21.56,
+            "end": 21.96,
+            "word": " Currently,",
+            "probability": 0.99632
+          },
+          {
+            "start": 22.14,
+            "end": 22.2,
+            "word": " there",
+            "probability": 0.99889
+          },
+          {
+            "start": 22.2,
+            "end": 22.3,
+            "word": " are",
+            "probability": 0.9964
+          },
+          {
+            "start": 22.3,
+            "end": 22.62,
+            "word": " 10",
+            "probability": 0.90131
+          },
+          {
+            "start": 22.62,
+            "end": 23.12,
+            "word": ",000",
+            "probability": 0.98363
+          }
+        ]
+      },
+      {
+        "start": 23.12,
+        "end": 27.6,
+        "text": "people living in this town. As we explore, you'll see the unique blend",
+        "words": [
+          {
+            "start": 23.12,
+            "end": 23.42,
+            "word": " people",
+            "probability": 0.99902
+          },
+          {
+            "start": 23.42,
+            "end": 23.7,
+            "word": " living",
+            "probability": 0.99927
+          },
+          {
+            "start": 23.7,
+            "end": 23.9,
+            "word": " in",
+            "probability": 0.99258
+          },
+          {
+            "start": 23.9,
+            "end": 24.06,
+            "word": " this",
+            "probability": 0.99673
+          },
+          {
+            "start": 24.06,
+            "end": 24.44,
+            "word": " town.",
+            "probability": 0.99916
+          },
+          {
+            "start": 24.98,
+            "end": 25.32,
+            "word": " As",
+            "probability": 0.99458
+          },
+          {
+            "start": 25.32,
+            "end": 25.48,
+            "word": " we",
+            "probability": 0.99907
+          },
+          {
+            "start": 25.48,
+            "end": 26.04,
+            "word": " explore,",
+            "probability": 0.99882
+          },
+          {
+            "start": 26.32,
+            "end": 26.44,
+            "word": " you'll",
+            "probability": 0.99381
+          },
+          {
+            "start": 26.44,
+            "end": 26.64,
+            "word": " see",
+            "probability": 0.99861
+          },
+          {
+            "start": 26.64,
+            "end": 26.8,
+            "word": " the",
+            "probability": 0.99127
+          },
+          {
+            "start": 26.8,
+            "end": 27.16,
+            "word": " unique",
+            "probability": 0.99855
+          },
+          {
+            "start": 27.16,
+            "end": 27.6,
+            "word": " blend",
+            "probability": 0.99378
+          }
+        ]
+      },
+      {
+        "start": 27.6,
+        "end": 31.48,
+        "text": "of history and modern life that makes our town so special.",
+        "words": [
+          {
+            "start": 27.6,
+            "end": 27.88,
+            "word": " of",
+            "probability": 0.58931
+          },
+          {
+            "start": 27.88,
+            "end": 28.4,
+            "word": " history",
+            "probability": 0.98125
+          },
+          {
+            "start": 28.4,
+            "end": 28.8,
+            "word": " and",
+            "probability": 0.95667
+          },
+          {
+            "start": 28.8,
+            "end": 29.16,
+            "word": " modern",
+            "probability": 0.99718
+          },
+          {
+            "start": 29.16,
+            "end": 29.64,
+            "word": " life",
+            "probability": 0.99892
+          },
+          {
+            "start": 29.64,
+            "end": 29.94,
+            "word": " that",
+            "probability": 0.73783
+          },
+          {
+            "start": 29.94,
+            "end": 30.14,
+            "word": " makes",
+            "probability": 0.99491
+          },
+          {
+            "start": 30.14,
+            "end": 30.36,
+            "word": " our",
+            "probability": 0.99786
+          },
+          {
+            "start": 30.36,
+            "end": 30.64,
+            "word": " town",
+            "probability": 0.49789
+          },
+          {
+            "start": 30.64,
+            "end": 31.0,
+            "word": " so",
+            "probability": 0.99514
+          },
+          {
+            "start": 31.0,
+            "end": 31.48,
+            "word": " special.",
+            "probability": 0.996
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q08",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 82,
+            "speechStart": 0.88,
+            "speechEnd": 31.48,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "welcome everyone today i'm excited to introduce you to our charming small town right here in the town square you'll find local shops cozy cafes and a beautiful fountain where people gather to relax this square is the heart of our community often filled with cool events like farmers markets and live music currently there are 10 000 people living in this town as we explore you'll see the unique blend of history and modern life that makes our town so special",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

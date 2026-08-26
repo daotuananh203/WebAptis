@@ -1,0 +1,1037 @@
+{
+  "testId": "aptis-b2-09",
+  "blockId": "p1-q06",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-09/part-1/q06.mp3",
+  "audioSha256": "2135cb5b76fe7c0ff2095a5522e64205642d8d2bb5f88e119290529a61ab2df0",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 2.96,
+        "text": "I'm thinking about what to do this evening.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.32,
+            "word": " I'm",
+            "probability": 0.5853
+          },
+          {
+            "start": 1.32,
+            "end": 1.6,
+            "word": " thinking",
+            "probability": 0.98696
+          },
+          {
+            "start": 1.6,
+            "end": 1.88,
+            "word": " about",
+            "probability": 0.99675
+          },
+          {
+            "start": 1.88,
+            "end": 2.12,
+            "word": " what",
+            "probability": 0.98833
+          },
+          {
+            "start": 2.12,
+            "end": 2.3,
+            "word": " to",
+            "probability": 0.99764
+          },
+          {
+            "start": 2.3,
+            "end": 2.42,
+            "word": " do",
+            "probability": 0.9985
+          },
+          {
+            "start": 2.42,
+            "end": 2.62,
+            "word": " this",
+            "probability": 0.99811
+          },
+          {
+            "start": 2.62,
+            "end": 2.96,
+            "word": " evening.",
+            "probability": 0.99201
+          }
+        ]
+      },
+      {
+        "start": 3.36,
+        "end": 6.8,
+        "text": "I could go to the movies, but I'm not sure if that's the best idea.",
+        "words": [
+          {
+            "start": 3.36,
+            "end": 3.56,
+            "word": " I",
+            "probability": 0.98718
+          },
+          {
+            "start": 3.56,
+            "end": 3.72,
+            "word": " could",
+            "probability": 0.91841
+          },
+          {
+            "start": 3.72,
+            "end": 3.9,
+            "word": " go",
+            "probability": 0.99338
+          },
+          {
+            "start": 3.9,
+            "end": 4.04,
+            "word": " to",
+            "probability": 0.99529
+          },
+          {
+            "start": 4.04,
+            "end": 4.16,
+            "word": " the",
+            "probability": 0.99575
+          },
+          {
+            "start": 4.16,
+            "end": 4.5,
+            "word": " movies,",
+            "probability": 0.99456
+          },
+          {
+            "start": 4.98,
+            "end": 5.1,
+            "word": " but",
+            "probability": 0.99195
+          },
+          {
+            "start": 5.1,
+            "end": 5.32,
+            "word": " I'm",
+            "probability": 0.99191
+          },
+          {
+            "start": 5.32,
+            "end": 5.42,
+            "word": " not",
+            "probability": 0.99828
+          },
+          {
+            "start": 5.42,
+            "end": 5.7,
+            "word": " sure",
+            "probability": 0.99894
+          },
+          {
+            "start": 5.7,
+            "end": 5.96,
+            "word": " if",
+            "probability": 0.99779
+          },
+          {
+            "start": 5.96,
+            "end": 6.14,
+            "word": " that's",
+            "probability": 0.99603
+          },
+          {
+            "start": 6.14,
+            "end": 6.24,
+            "word": " the",
+            "probability": 0.99786
+          },
+          {
+            "start": 6.24,
+            "end": 6.44,
+            "word": " best",
+            "probability": 0.99853
+          },
+          {
+            "start": 6.44,
+            "end": 6.8,
+            "word": " idea.",
+            "probability": 0.99663
+          }
+        ]
+      },
+      {
+        "start": 7.56,
+        "end": 9.72,
+        "text": "I might prefer to stay at home and relax.",
+        "words": [
+          {
+            "start": 7.56,
+            "end": 7.78,
+            "word": " I",
+            "probability": 0.9808
+          },
+          {
+            "start": 7.78,
+            "end": 7.96,
+            "word": " might",
+            "probability": 0.95642
+          },
+          {
+            "start": 7.96,
+            "end": 8.34,
+            "word": " prefer",
+            "probability": 0.99087
+          },
+          {
+            "start": 8.34,
+            "end": 8.58,
+            "word": " to",
+            "probability": 0.99772
+          },
+          {
+            "start": 8.58,
+            "end": 8.8,
+            "word": " stay",
+            "probability": 0.99938
+          },
+          {
+            "start": 8.8,
+            "end": 8.98,
+            "word": " at",
+            "probability": 0.99429
+          },
+          {
+            "start": 8.98,
+            "end": 9.22,
+            "word": " home",
+            "probability": 0.99951
+          },
+          {
+            "start": 9.22,
+            "end": 9.4,
+            "word": " and",
+            "probability": 0.99691
+          },
+          {
+            "start": 9.4,
+            "end": 9.72,
+            "word": " relax.",
+            "probability": 0.9979
+          }
+        ]
+      },
+      {
+        "start": 10.24,
+        "end": 13.38,
+        "text": "However, I want to discuss this with my friend first.",
+        "words": [
+          {
+            "start": 10.24,
+            "end": 10.72,
+            "word": " However,",
+            "probability": 0.99008
+          },
+          {
+            "start": 11.16,
+            "end": 11.36,
+            "word": " I",
+            "probability": 0.99624
+          },
+          {
+            "start": 11.36,
+            "end": 11.52,
+            "word": " want",
+            "probability": 0.98728
+          },
+          {
+            "start": 11.52,
+            "end": 11.68,
+            "word": " to",
+            "probability": 0.99915
+          },
+          {
+            "start": 11.68,
+            "end": 12.0,
+            "word": " discuss",
+            "probability": 0.99845
+          },
+          {
+            "start": 12.0,
+            "end": 12.24,
+            "word": " this",
+            "probability": 0.99743
+          },
+          {
+            "start": 12.24,
+            "end": 12.44,
+            "word": " with",
+            "probability": 0.99947
+          },
+          {
+            "start": 12.44,
+            "end": 12.58,
+            "word": " my",
+            "probability": 0.9994
+          },
+          {
+            "start": 12.58,
+            "end": 12.9,
+            "word": " friend",
+            "probability": 0.98476
+          },
+          {
+            "start": 12.9,
+            "end": 13.38,
+            "word": " first.",
+            "probability": 0.99294
+          }
+        ]
+      },
+      {
+        "start": 13.86,
+        "end": 16.4,
+        "text": "It might be better to plan when we can decide together.",
+        "words": [
+          {
+            "start": 13.86,
+            "end": 13.98,
+            "word": " It",
+            "probability": 0.99074
+          },
+          {
+            "start": 13.98,
+            "end": 14.18,
+            "word": " might",
+            "probability": 0.99547
+          },
+          {
+            "start": 14.18,
+            "end": 14.36,
+            "word": " be",
+            "probability": 0.99637
+          },
+          {
+            "start": 14.36,
+            "end": 14.64,
+            "word": " better",
+            "probability": 0.99946
+          },
+          {
+            "start": 14.64,
+            "end": 14.82,
+            "word": " to",
+            "probability": 0.99817
+          },
+          {
+            "start": 14.82,
+            "end": 15.1,
+            "word": " plan",
+            "probability": 0.99902
+          },
+          {
+            "start": 15.1,
+            "end": 15.38,
+            "word": " when",
+            "probability": 0.9967
+          },
+          {
+            "start": 15.38,
+            "end": 15.52,
+            "word": " we",
+            "probability": 0.99913
+          },
+          {
+            "start": 15.52,
+            "end": 15.64,
+            "word": " can",
+            "probability": 0.99868
+          },
+          {
+            "start": 15.64,
+            "end": 15.92,
+            "word": " decide",
+            "probability": 0.99697
+          },
+          {
+            "start": 15.92,
+            "end": 16.4,
+            "word": " together.",
+            "probability": 0.99607
+          }
+        ]
+      },
+      {
+        "start": 16.88,
+        "end": 19.6,
+        "text": "I believe keeping our options open is a good idea.",
+        "words": [
+          {
+            "start": 16.88,
+            "end": 17.0,
+            "word": " I",
+            "probability": 0.99668
+          },
+          {
+            "start": 17.0,
+            "end": 17.26,
+            "word": " believe",
+            "probability": 0.9968
+          },
+          {
+            "start": 17.26,
+            "end": 17.68,
+            "word": " keeping",
+            "probability": 0.95728
+          },
+          {
+            "start": 17.68,
+            "end": 17.94,
+            "word": " our",
+            "probability": 0.99481
+          },
+          {
+            "start": 17.94,
+            "end": 18.26,
+            "word": " options",
+            "probability": 0.88392
+          },
+          {
+            "start": 18.26,
+            "end": 18.66,
+            "word": " open",
+            "probability": 0.9994
+          },
+          {
+            "start": 18.66,
+            "end": 18.94,
+            "word": " is",
+            "probability": 0.9978
+          },
+          {
+            "start": 18.94,
+            "end": 19.04,
+            "word": " a",
+            "probability": 0.999
+          },
+          {
+            "start": 19.04,
+            "end": 19.18,
+            "word": " good",
+            "probability": 0.99912
+          },
+          {
+            "start": 19.18,
+            "end": 19.6,
+            "word": " idea.",
+            "probability": 0.99962
+          }
+        ]
+      },
+      {
+        "start": 20.04,
+        "end": 22.86,
+        "text": "So for now, I'll wait and see what we want to do.",
+        "words": [
+          {
+            "start": 20.04,
+            "end": 20.28,
+            "word": " So",
+            "probability": 0.99067
+          },
+          {
+            "start": 20.28,
+            "end": 20.46,
+            "word": " for",
+            "probability": 0.96677
+          },
+          {
+            "start": 20.46,
+            "end": 20.7,
+            "word": " now,",
+            "probability": 0.99796
+          },
+          {
+            "start": 21.12,
+            "end": 21.34,
+            "word": " I'll",
+            "probability": 0.93459
+          },
+          {
+            "start": 21.34,
+            "end": 21.5,
+            "word": " wait",
+            "probability": 0.99888
+          },
+          {
+            "start": 21.5,
+            "end": 21.76,
+            "word": " and",
+            "probability": 0.99776
+          },
+          {
+            "start": 21.76,
+            "end": 21.98,
+            "word": " see",
+            "probability": 0.99917
+          },
+          {
+            "start": 21.98,
+            "end": 22.16,
+            "word": " what",
+            "probability": 0.9989
+          },
+          {
+            "start": 22.16,
+            "end": 22.3,
+            "word": " we",
+            "probability": 0.99622
+          },
+          {
+            "start": 22.3,
+            "end": 22.44,
+            "word": " want",
+            "probability": 0.99681
+          },
+          {
+            "start": 22.44,
+            "end": 22.62,
+            "word": " to",
+            "probability": 0.99811
+          },
+          {
+            "start": 22.62,
+            "end": 22.86,
+            "word": " do.",
+            "probability": 0.99876
+          }
+        ]
+      },
+      {
+        "start": 26.71,
+        "end": 28.81,
+        "text": "I'm thinking about what to do this evening.",
+        "words": [
+          {
+            "start": 26.71,
+            "end": 27.15,
+            "word": " I'm",
+            "probability": 0.98321
+          },
+          {
+            "start": 27.15,
+            "end": 27.45,
+            "word": " thinking",
+            "probability": 0.99601
+          },
+          {
+            "start": 27.45,
+            "end": 27.73,
+            "word": " about",
+            "probability": 0.999
+          },
+          {
+            "start": 27.73,
+            "end": 27.95,
+            "word": " what",
+            "probability": 0.99814
+          },
+          {
+            "start": 27.95,
+            "end": 28.13,
+            "word": " to",
+            "probability": 0.99896
+          },
+          {
+            "start": 28.13,
+            "end": 28.27,
+            "word": " do",
+            "probability": 0.99888
+          },
+          {
+            "start": 28.27,
+            "end": 28.47,
+            "word": " this",
+            "probability": 0.99953
+          },
+          {
+            "start": 28.47,
+            "end": 28.81,
+            "word": " evening.",
+            "probability": 0.9975
+          }
+        ]
+      },
+      {
+        "start": 29.29,
+        "end": 32.63,
+        "text": "I could go to the movies, but I'm not sure if that's the best idea.",
+        "words": [
+          {
+            "start": 29.29,
+            "end": 29.41,
+            "word": " I",
+            "probability": 0.99701
+          },
+          {
+            "start": 29.41,
+            "end": 29.55,
+            "word": " could",
+            "probability": 0.96833
+          },
+          {
+            "start": 29.55,
+            "end": 29.75,
+            "word": " go",
+            "probability": 0.99694
+          },
+          {
+            "start": 29.75,
+            "end": 29.89,
+            "word": " to",
+            "probability": 0.99743
+          },
+          {
+            "start": 29.89,
+            "end": 29.99,
+            "word": " the",
+            "probability": 0.9981
+          },
+          {
+            "start": 29.99,
+            "end": 30.35,
+            "word": " movies,",
+            "probability": 0.99841
+          },
+          {
+            "start": 30.83,
+            "end": 30.93,
+            "word": " but",
+            "probability": 0.99557
+          },
+          {
+            "start": 30.93,
+            "end": 31.15,
+            "word": " I'm",
+            "probability": 0.99724
+          },
+          {
+            "start": 31.15,
+            "end": 31.25,
+            "word": " not",
+            "probability": 0.99622
+          },
+          {
+            "start": 31.25,
+            "end": 31.53,
+            "word": " sure",
+            "probability": 0.9992
+          },
+          {
+            "start": 31.53,
+            "end": 31.77,
+            "word": " if",
+            "probability": 0.9983
+          },
+          {
+            "start": 31.77,
+            "end": 31.97,
+            "word": " that's",
+            "probability": 0.99693
+          },
+          {
+            "start": 31.97,
+            "end": 32.05,
+            "word": " the",
+            "probability": 0.99884
+          },
+          {
+            "start": 32.05,
+            "end": 32.29,
+            "word": " best",
+            "probability": 0.99902
+          },
+          {
+            "start": 32.29,
+            "end": 32.63,
+            "word": " idea.",
+            "probability": 0.99871
+          }
+        ]
+      },
+      {
+        "start": 32.63,
+        "end": 38.61,
+        "text": "I might prefer to stay at home and relax. However, I want to discuss this with my friend",
+        "words": [
+          {
+            "start": 32.63,
+            "end": 33.57,
+            "word": " I",
+            "probability": 0.46414
+          },
+          {
+            "start": 33.57,
+            "end": 33.75,
+            "word": " might",
+            "probability": 0.93301
+          },
+          {
+            "start": 33.75,
+            "end": 34.15,
+            "word": " prefer",
+            "probability": 0.99026
+          },
+          {
+            "start": 34.15,
+            "end": 34.37,
+            "word": " to",
+            "probability": 0.99885
+          },
+          {
+            "start": 34.37,
+            "end": 34.61,
+            "word": " stay",
+            "probability": 0.99945
+          },
+          {
+            "start": 34.61,
+            "end": 34.77,
+            "word": " at",
+            "probability": 0.99375
+          },
+          {
+            "start": 34.77,
+            "end": 34.99,
+            "word": " home",
+            "probability": 0.99962
+          },
+          {
+            "start": 34.99,
+            "end": 35.17,
+            "word": " and",
+            "probability": 0.99509
+          },
+          {
+            "start": 35.17,
+            "end": 35.51,
+            "word": " relax.",
+            "probability": 0.99887
+          },
+          {
+            "start": 36.15,
+            "end": 36.47,
+            "word": " However,",
+            "probability": 0.98854
+          },
+          {
+            "start": 36.95,
+            "end": 37.11,
+            "word": " I",
+            "probability": 0.99662
+          },
+          {
+            "start": 37.11,
+            "end": 37.27,
+            "word": " want",
+            "probability": 0.98903
+          },
+          {
+            "start": 37.27,
+            "end": 37.43,
+            "word": " to",
+            "probability": 0.99748
+          },
+          {
+            "start": 37.43,
+            "end": 37.73,
+            "word": " discuss",
+            "probability": 0.99925
+          },
+          {
+            "start": 37.73,
+            "end": 37.99,
+            "word": " this",
+            "probability": 0.99754
+          },
+          {
+            "start": 37.99,
+            "end": 38.17,
+            "word": " with",
+            "probability": 0.99952
+          },
+          {
+            "start": 38.17,
+            "end": 38.33,
+            "word": " my",
+            "probability": 0.99929
+          },
+          {
+            "start": 38.33,
+            "end": 38.61,
+            "word": " friend",
+            "probability": 0.98736
+          }
+        ]
+      },
+      {
+        "start": 38.61,
+        "end": 43.65,
+        "text": "first. It might be better to plan when we can decide together. I believe keeping our",
+        "words": [
+          {
+            "start": 38.61,
+            "end": 39.13,
+            "word": " first.",
+            "probability": 0.98829
+          },
+          {
+            "start": 39.59,
+            "end": 39.71,
+            "word": " It",
+            "probability": 0.98647
+          },
+          {
+            "start": 39.71,
+            "end": 39.89,
+            "word": " might",
+            "probability": 0.99635
+          },
+          {
+            "start": 39.89,
+            "end": 40.09,
+            "word": " be",
+            "probability": 0.99553
+          },
+          {
+            "start": 40.09,
+            "end": 40.37,
+            "word": " better",
+            "probability": 0.99966
+          },
+          {
+            "start": 40.37,
+            "end": 40.53,
+            "word": " to",
+            "probability": 0.99933
+          },
+          {
+            "start": 40.53,
+            "end": 40.81,
+            "word": " plan",
+            "probability": 0.9991
+          },
+          {
+            "start": 40.81,
+            "end": 41.09,
+            "word": " when",
+            "probability": 0.99724
+          },
+          {
+            "start": 41.09,
+            "end": 41.23,
+            "word": " we",
+            "probability": 0.99885
+          },
+          {
+            "start": 41.23,
+            "end": 41.35,
+            "word": " can",
+            "probability": 0.99856
+          },
+          {
+            "start": 41.35,
+            "end": 41.63,
+            "word": " decide",
+            "probability": 0.99588
+          },
+          {
+            "start": 41.63,
+            "end": 42.11,
+            "word": " together.",
+            "probability": 0.99261
+          },
+          {
+            "start": 42.59,
+            "end": 42.73,
+            "word": " I",
+            "probability": 0.99433
+          },
+          {
+            "start": 42.73,
+            "end": 42.97,
+            "word": " believe",
+            "probability": 0.99821
+          },
+          {
+            "start": 42.97,
+            "end": 43.39,
+            "word": " keeping",
+            "probability": 0.94313
+          },
+          {
+            "start": 43.39,
+            "end": 43.65,
+            "word": " our",
+            "probability": 0.99583
+          }
+        ]
+      },
+      {
+        "start": 43.65,
+        "end": 48.59,
+        "text": "options open is a good idea. So for now, I'll wait and see what we want to do.",
+        "words": [
+          {
+            "start": 43.65,
+            "end": 43.97,
+            "word": " options",
+            "probability": 0.9329
+          },
+          {
+            "start": 43.97,
+            "end": 44.39,
+            "word": " open",
+            "probability": 0.99937
+          },
+          {
+            "start": 44.39,
+            "end": 44.65,
+            "word": " is",
+            "probability": 0.99834
+          },
+          {
+            "start": 44.65,
+            "end": 44.75,
+            "word": " a",
+            "probability": 0.99967
+          },
+          {
+            "start": 44.75,
+            "end": 44.89,
+            "word": " good",
+            "probability": 0.99912
+          },
+          {
+            "start": 44.89,
+            "end": 45.31,
+            "word": " idea.",
+            "probability": 0.99947
+          },
+          {
+            "start": 45.75,
+            "end": 46.01,
+            "word": " So",
+            "probability": 0.98023
+          },
+          {
+            "start": 46.01,
+            "end": 46.17,
+            "word": " for",
+            "probability": 0.98939
+          },
+          {
+            "start": 46.17,
+            "end": 46.43,
+            "word": " now,",
+            "probability": 0.99671
+          },
+          {
+            "start": 46.85,
+            "end": 47.05,
+            "word": " I'll",
+            "probability": 0.94021
+          },
+          {
+            "start": 47.05,
+            "end": 47.21,
+            "word": " wait",
+            "probability": 0.99885
+          },
+          {
+            "start": 47.21,
+            "end": 47.47,
+            "word": " and",
+            "probability": 0.99849
+          },
+          {
+            "start": 47.47,
+            "end": 47.71,
+            "word": " see",
+            "probability": 0.99942
+          },
+          {
+            "start": 47.71,
+            "end": 47.89,
+            "word": " what",
+            "probability": 0.99941
+          },
+          {
+            "start": 47.89,
+            "end": 48.03,
+            "word": " we",
+            "probability": 0.99894
+          },
+          {
+            "start": 48.03,
+            "end": 48.17,
+            "word": " want",
+            "probability": 0.9976
+          },
+          {
+            "start": 48.17,
+            "end": 48.33,
+            "word": " to",
+            "probability": 0.99914
+          },
+          {
+            "start": 48.33,
+            "end": 48.59,
+            "word": " do.",
+            "probability": 0.99912
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q06",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 75,
+            "speechStart": 0.78,
+            "speechEnd": 22.86,
+            "sourceTokenCoverage": 0.9868,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9934,
+            "transcript": "i'm thinking about what to do this evening i could go to the movies but i'm not sure if that's the best idea i might prefer to stay at home and relax however i want to discuss this with my friend first it might be better to plan when we can decide together i believe keeping our options open is a good idea so for now i'll wait and see what we want to do",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 75,
+            "wordEndIndexExclusive": 150,
+            "speechStart": 26.71,
+            "speechEnd": 48.59,
+            "sourceTokenCoverage": 0.9868,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9934,
+            "transcript": "i'm thinking about what to do this evening i could go to the movies but i'm not sure if that's the best idea i might prefer to stay at home and relax however i want to discuss this with my friend first it might be better to plan when we can decide together i believe keeping our options open is a good idea so for now i'll wait and see what we want to do",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

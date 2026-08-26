@@ -1,0 +1,441 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p1-q09",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-1/q09.mp3",
+  "audioSha256": "ae24bd95ace687e2c1921d4f03847c10a2f38b432eb64b81c3a31910eefe9845",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.82,
+        "end": 5.74,
+        "text": "I'm excited about dinner tonight. I just need to check how long it takes to get to the station.",
+        "words": [
+          {
+            "start": 0.82,
+            "end": 1.34,
+            "word": " I'm",
+            "probability": 0.89359
+          },
+          {
+            "start": 1.34,
+            "end": 1.62,
+            "word": " excited",
+            "probability": 0.99829
+          },
+          {
+            "start": 1.62,
+            "end": 1.9,
+            "word": " about",
+            "probability": 0.99841
+          },
+          {
+            "start": 1.9,
+            "end": 2.16,
+            "word": " dinner",
+            "probability": 0.98443
+          },
+          {
+            "start": 2.16,
+            "end": 2.52,
+            "word": " tonight.",
+            "probability": 0.99062
+          },
+          {
+            "start": 3.06,
+            "end": 3.18,
+            "word": " I",
+            "probability": 0.99553
+          },
+          {
+            "start": 3.18,
+            "end": 3.32,
+            "word": " just",
+            "probability": 0.99667
+          },
+          {
+            "start": 3.32,
+            "end": 3.56,
+            "word": " need",
+            "probability": 0.99867
+          },
+          {
+            "start": 3.56,
+            "end": 3.68,
+            "word": " to",
+            "probability": 0.99902
+          },
+          {
+            "start": 3.68,
+            "end": 3.86,
+            "word": " check",
+            "probability": 0.99387
+          },
+          {
+            "start": 3.86,
+            "end": 4.06,
+            "word": " how",
+            "probability": 0.99294
+          },
+          {
+            "start": 4.06,
+            "end": 4.24,
+            "word": " long",
+            "probability": 0.99892
+          },
+          {
+            "start": 4.24,
+            "end": 4.42,
+            "word": " it",
+            "probability": 0.99734
+          },
+          {
+            "start": 4.42,
+            "end": 4.58,
+            "word": " takes",
+            "probability": 0.99777
+          },
+          {
+            "start": 4.58,
+            "end": 4.82,
+            "word": " to",
+            "probability": 0.99673
+          },
+          {
+            "start": 4.82,
+            "end": 4.94,
+            "word": " get",
+            "probability": 0.99828
+          },
+          {
+            "start": 4.94,
+            "end": 5.14,
+            "word": " to",
+            "probability": 0.98927
+          },
+          {
+            "start": 5.14,
+            "end": 5.26,
+            "word": " the",
+            "probability": 0.98269
+          },
+          {
+            "start": 5.26,
+            "end": 5.74,
+            "word": " station.",
+            "probability": 0.99678
+          }
+        ]
+      },
+      {
+        "start": 7.1,
+        "end": 10.06,
+        "text": "Hmm, I think it takes about 40 minutes if I walk quickly.",
+        "words": [
+          {
+            "start": 7.1,
+            "end": 7.42,
+            "word": " Hmm,",
+            "probability": 0.505
+          },
+          {
+            "start": 7.56,
+            "end": 7.64,
+            "word": " I",
+            "probability": 0.99626
+          },
+          {
+            "start": 7.64,
+            "end": 7.76,
+            "word": " think",
+            "probability": 0.99912
+          },
+          {
+            "start": 7.76,
+            "end": 7.88,
+            "word": " it",
+            "probability": 0.99769
+          },
+          {
+            "start": 7.88,
+            "end": 8.06,
+            "word": " takes",
+            "probability": 0.98946
+          },
+          {
+            "start": 8.06,
+            "end": 8.3,
+            "word": " about",
+            "probability": 0.99489
+          },
+          {
+            "start": 8.3,
+            "end": 8.7,
+            "word": " 40",
+            "probability": 0.86695
+          },
+          {
+            "start": 8.7,
+            "end": 8.98,
+            "word": " minutes",
+            "probability": 0.99217
+          },
+          {
+            "start": 8.98,
+            "end": 9.22,
+            "word": " if",
+            "probability": 0.90381
+          },
+          {
+            "start": 9.22,
+            "end": 9.34,
+            "word": " I",
+            "probability": 0.99573
+          },
+          {
+            "start": 9.34,
+            "end": 9.54,
+            "word": " walk",
+            "probability": 0.99176
+          },
+          {
+            "start": 9.54,
+            "end": 10.06,
+            "word": " quickly.",
+            "probability": 0.9962
+          }
+        ]
+      },
+      {
+        "start": 10.82,
+        "end": 12.96,
+        "text": "I should leave soon so I don't miss the train.",
+        "words": [
+          {
+            "start": 10.82,
+            "end": 11.04,
+            "word": " I",
+            "probability": 0.99722
+          },
+          {
+            "start": 11.04,
+            "end": 11.2,
+            "word": " should",
+            "probability": 0.99822
+          },
+          {
+            "start": 11.2,
+            "end": 11.38,
+            "word": " leave",
+            "probability": 0.9987
+          },
+          {
+            "start": 11.38,
+            "end": 11.74,
+            "word": " soon",
+            "probability": 0.99929
+          },
+          {
+            "start": 11.74,
+            "end": 12.02,
+            "word": " so",
+            "probability": 0.76182
+          },
+          {
+            "start": 12.02,
+            "end": 12.14,
+            "word": " I",
+            "probability": 0.99515
+          },
+          {
+            "start": 12.14,
+            "end": 12.34,
+            "word": " don't",
+            "probability": 0.99911
+          },
+          {
+            "start": 12.34,
+            "end": 12.48,
+            "word": " miss",
+            "probability": 0.9947
+          },
+          {
+            "start": 12.48,
+            "end": 12.68,
+            "word": " the",
+            "probability": 0.9978
+          },
+          {
+            "start": 12.68,
+            "end": 12.96,
+            "word": " train.",
+            "probability": 0.99877
+          }
+        ]
+      },
+      {
+        "start": 13.62,
+        "end": 15.92,
+        "text": "Or else, that would be another 30 minutes.",
+        "words": [
+          {
+            "start": 13.62,
+            "end": 13.84,
+            "word": " Or",
+            "probability": 0.9807
+          },
+          {
+            "start": 13.84,
+            "end": 14.2,
+            "word": " else,",
+            "probability": 0.99674
+          },
+          {
+            "start": 14.5,
+            "end": 14.74,
+            "word": " that",
+            "probability": 0.99779
+          },
+          {
+            "start": 14.74,
+            "end": 14.86,
+            "word": " would",
+            "probability": 0.99369
+          },
+          {
+            "start": 14.86,
+            "end": 15.02,
+            "word": " be",
+            "probability": 0.99279
+          },
+          {
+            "start": 15.02,
+            "end": 15.22,
+            "word": " another",
+            "probability": 0.99807
+          },
+          {
+            "start": 15.22,
+            "end": 15.64,
+            "word": " 30",
+            "probability": 0.98301
+          },
+          {
+            "start": 15.64,
+            "end": 15.92,
+            "word": " minutes.",
+            "probability": 0.99349
+          }
+        ]
+      },
+      {
+        "start": 16.44,
+        "end": 19.36,
+        "text": "I can't wait to try that new restaurant. It's gonna be great.",
+        "words": [
+          {
+            "start": 16.44,
+            "end": 16.66,
+            "word": " I",
+            "probability": 0.99753
+          },
+          {
+            "start": 16.66,
+            "end": 16.92,
+            "word": " can't",
+            "probability": 0.99824
+          },
+          {
+            "start": 16.92,
+            "end": 17.02,
+            "word": " wait",
+            "probability": 0.99971
+          },
+          {
+            "start": 17.02,
+            "end": 17.18,
+            "word": " to",
+            "probability": 0.99746
+          },
+          {
+            "start": 17.18,
+            "end": 17.4,
+            "word": " try",
+            "probability": 0.99835
+          },
+          {
+            "start": 17.4,
+            "end": 17.56,
+            "word": " that",
+            "probability": 0.98477
+          },
+          {
+            "start": 17.56,
+            "end": 17.76,
+            "word": " new",
+            "probability": 0.99553
+          },
+          {
+            "start": 17.76,
+            "end": 18.2,
+            "word": " restaurant.",
+            "probability": 0.99714
+          },
+          {
+            "start": 18.6,
+            "end": 18.8,
+            "word": " It's",
+            "probability": 0.99521
+          },
+          {
+            "start": 18.8,
+            "end": 18.92,
+            "word": " gonna",
+            "probability": 0.71847
+          },
+          {
+            "start": 18.92,
+            "end": 19.1,
+            "word": " be",
+            "probability": 0.99806
+          },
+          {
+            "start": 19.1,
+            "end": 19.36,
+            "word": " great.",
+            "probability": 0.99889
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q09",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 61,
+            "speechStart": 0.82,
+            "speechEnd": 19.36,
+            "sourceTokenCoverage": 0.9677,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9756,
+            "transcript": "i'm excited about dinner tonight i just need to check how long it takes to get to the station hmm i think it takes about 40 minutes if i walk quickly i should leave soon so i don't miss the train or else that would be another 30 minutes i can't wait to try that new restaurant it's gonna be great",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

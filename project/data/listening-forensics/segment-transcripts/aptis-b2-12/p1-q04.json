@@ -1,0 +1,843 @@
+{
+  "testId": "aptis-b2-12",
+  "blockId": "p1-q04",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-12/part-1/q04.mp3",
+  "audioSha256": "0df37fb5118714060198b05c11dec5736f743f141cf3d8271189caae7dcf4d72",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 3.03,
+        "text": "Last year, I had an amazing trip.",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.33,
+            "word": " Last",
+            "probability": 0.70623
+          },
+          {
+            "start": 1.33,
+            "end": 1.63,
+            "word": " year,",
+            "probability": 0.99686
+          },
+          {
+            "start": 1.89,
+            "end": 1.97,
+            "word": " I",
+            "probability": 0.99159
+          },
+          {
+            "start": 1.97,
+            "end": 2.13,
+            "word": " had",
+            "probability": 0.99847
+          },
+          {
+            "start": 2.13,
+            "end": 2.23,
+            "word": " an",
+            "probability": 0.99241
+          },
+          {
+            "start": 2.23,
+            "end": 2.67,
+            "word": " amazing",
+            "probability": 0.97976
+          },
+          {
+            "start": 2.67,
+            "end": 3.03,
+            "word": " trip.",
+            "probability": 0.99586
+          }
+        ]
+      },
+      {
+        "start": 3.65,
+        "end": 6.83,
+        "text": "One of the best things I enjoyed was going cycling in the countryside.",
+        "words": [
+          {
+            "start": 3.65,
+            "end": 3.89,
+            "word": " One",
+            "probability": 0.98399
+          },
+          {
+            "start": 3.89,
+            "end": 3.97,
+            "word": " of",
+            "probability": 0.99585
+          },
+          {
+            "start": 3.97,
+            "end": 4.11,
+            "word": " the",
+            "probability": 0.99403
+          },
+          {
+            "start": 4.11,
+            "end": 4.41,
+            "word": " best",
+            "probability": 0.99432
+          },
+          {
+            "start": 4.41,
+            "end": 4.59,
+            "word": " things",
+            "probability": 0.99446
+          },
+          {
+            "start": 4.59,
+            "end": 4.79,
+            "word": " I",
+            "probability": 0.98916
+          },
+          {
+            "start": 4.79,
+            "end": 5.17,
+            "word": " enjoyed",
+            "probability": 0.99229
+          },
+          {
+            "start": 5.17,
+            "end": 5.37,
+            "word": " was",
+            "probability": 0.9953
+          },
+          {
+            "start": 5.37,
+            "end": 5.59,
+            "word": " going",
+            "probability": 0.98982
+          },
+          {
+            "start": 5.59,
+            "end": 6.03,
+            "word": " cycling",
+            "probability": 0.99366
+          },
+          {
+            "start": 6.03,
+            "end": 6.21,
+            "word": " in",
+            "probability": 0.98904
+          },
+          {
+            "start": 6.21,
+            "end": 6.31,
+            "word": " the",
+            "probability": 0.9964
+          },
+          {
+            "start": 6.31,
+            "end": 6.83,
+            "word": " countryside.",
+            "probability": 0.98952
+          }
+        ]
+      },
+      {
+        "start": 7.55,
+        "end": 10.35,
+        "text": "The views were stunning and it felt great to be outdoors.",
+        "words": [
+          {
+            "start": 7.55,
+            "end": 7.73,
+            "word": " The",
+            "probability": 0.99221
+          },
+          {
+            "start": 7.73,
+            "end": 7.95,
+            "word": " views",
+            "probability": 0.99269
+          },
+          {
+            "start": 7.95,
+            "end": 8.17,
+            "word": " were",
+            "probability": 0.99567
+          },
+          {
+            "start": 8.17,
+            "end": 8.59,
+            "word": " stunning",
+            "probability": 0.99887
+          },
+          {
+            "start": 8.59,
+            "end": 9.05,
+            "word": " and",
+            "probability": 0.56148
+          },
+          {
+            "start": 9.05,
+            "end": 9.15,
+            "word": " it",
+            "probability": 0.97235
+          },
+          {
+            "start": 9.15,
+            "end": 9.31,
+            "word": " felt",
+            "probability": 0.99929
+          },
+          {
+            "start": 9.31,
+            "end": 9.65,
+            "word": " great",
+            "probability": 0.99791
+          },
+          {
+            "start": 9.65,
+            "end": 9.85,
+            "word": " to",
+            "probability": 0.99696
+          },
+          {
+            "start": 9.85,
+            "end": 9.97,
+            "word": " be",
+            "probability": 0.99733
+          },
+          {
+            "start": 9.97,
+            "end": 10.35,
+            "word": " outdoors.",
+            "probability": 0.99787
+          }
+        ]
+      },
+      {
+        "start": 11.05,
+        "end": 15.59,
+        "text": "I also went for a walk a few times, but cycling really allowed me to explore more areas.",
+        "words": [
+          {
+            "start": 11.05,
+            "end": 11.25,
+            "word": " I",
+            "probability": 0.99771
+          },
+          {
+            "start": 11.25,
+            "end": 11.51,
+            "word": " also",
+            "probability": 0.99827
+          },
+          {
+            "start": 11.51,
+            "end": 11.69,
+            "word": " went",
+            "probability": 0.99791
+          },
+          {
+            "start": 11.69,
+            "end": 11.87,
+            "word": " for",
+            "probability": 0.99787
+          },
+          {
+            "start": 11.87,
+            "end": 11.99,
+            "word": " a",
+            "probability": 0.99754
+          },
+          {
+            "start": 11.99,
+            "end": 12.21,
+            "word": " walk",
+            "probability": 0.99813
+          },
+          {
+            "start": 12.21,
+            "end": 12.35,
+            "word": " a",
+            "probability": 0.99771
+          },
+          {
+            "start": 12.35,
+            "end": 12.51,
+            "word": " few",
+            "probability": 0.99849
+          },
+          {
+            "start": 12.51,
+            "end": 12.85,
+            "word": " times,",
+            "probability": 0.99878
+          },
+          {
+            "start": 13.05,
+            "end": 13.11,
+            "word": " but",
+            "probability": 0.9978
+          },
+          {
+            "start": 13.11,
+            "end": 13.51,
+            "word": " cycling",
+            "probability": 0.99204
+          },
+          {
+            "start": 13.51,
+            "end": 13.87,
+            "word": " really",
+            "probability": 0.99876
+          },
+          {
+            "start": 13.87,
+            "end": 14.21,
+            "word": " allowed",
+            "probability": 0.99913
+          },
+          {
+            "start": 14.21,
+            "end": 14.41,
+            "word": " me",
+            "probability": 0.9973
+          },
+          {
+            "start": 14.41,
+            "end": 14.57,
+            "word": " to",
+            "probability": 0.99946
+          },
+          {
+            "start": 14.57,
+            "end": 14.95,
+            "word": " explore",
+            "probability": 0.99878
+          },
+          {
+            "start": 14.95,
+            "end": 15.17,
+            "word": " more",
+            "probability": 0.99871
+          },
+          {
+            "start": 15.17,
+            "end": 15.59,
+            "word": " areas.",
+            "probability": 0.99361
+          }
+        ]
+      },
+      {
+        "start": 16.11,
+        "end": 18.95,
+        "text": "We even had a picnic one day, which was lovely too.",
+        "words": [
+          {
+            "start": 16.11,
+            "end": 16.31,
+            "word": " We",
+            "probability": 0.9946
+          },
+          {
+            "start": 16.31,
+            "end": 16.55,
+            "word": " even",
+            "probability": 0.99796
+          },
+          {
+            "start": 16.55,
+            "end": 16.71,
+            "word": " had",
+            "probability": 0.99858
+          },
+          {
+            "start": 16.71,
+            "end": 16.81,
+            "word": " a",
+            "probability": 0.98899
+          },
+          {
+            "start": 16.81,
+            "end": 17.11,
+            "word": " picnic",
+            "probability": 0.99549
+          },
+          {
+            "start": 17.11,
+            "end": 17.37,
+            "word": " one",
+            "probability": 0.98923
+          },
+          {
+            "start": 17.37,
+            "end": 17.59,
+            "word": " day,",
+            "probability": 0.9935
+          },
+          {
+            "start": 17.85,
+            "end": 18.07,
+            "word": " which",
+            "probability": 0.99854
+          },
+          {
+            "start": 18.07,
+            "end": 18.25,
+            "word": " was",
+            "probability": 0.99847
+          },
+          {
+            "start": 18.25,
+            "end": 18.59,
+            "word": " lovely",
+            "probability": 0.99451
+          },
+          {
+            "start": 18.59,
+            "end": 18.95,
+            "word": " too.",
+            "probability": 0.55437
+          }
+        ]
+      },
+      {
+        "start": 22.82,
+        "end": 24.78,
+        "text": "Last year, I had an amazing trip.",
+        "words": [
+          {
+            "start": 22.82,
+            "end": 23.02,
+            "word": " Last",
+            "probability": 0.98641
+          },
+          {
+            "start": 23.02,
+            "end": 23.36,
+            "word": " year,",
+            "probability": 0.99907
+          },
+          {
+            "start": 23.58,
+            "end": 23.66,
+            "word": " I",
+            "probability": 0.99865
+          },
+          {
+            "start": 23.66,
+            "end": 23.84,
+            "word": " had",
+            "probability": 0.99899
+          },
+          {
+            "start": 23.84,
+            "end": 23.92,
+            "word": " an",
+            "probability": 0.99789
+          },
+          {
+            "start": 23.92,
+            "end": 24.36,
+            "word": " amazing",
+            "probability": 0.99583
+          },
+          {
+            "start": 24.36,
+            "end": 24.78,
+            "word": " trip.",
+            "probability": 0.99909
+          }
+        ]
+      },
+      {
+        "start": 25.42,
+        "end": 28.52,
+        "text": "One of the best things I enjoyed was going cycling in the countryside.",
+        "words": [
+          {
+            "start": 25.42,
+            "end": 25.58,
+            "word": " One",
+            "probability": 0.99442
+          },
+          {
+            "start": 25.58,
+            "end": 25.68,
+            "word": " of",
+            "probability": 0.99627
+          },
+          {
+            "start": 25.68,
+            "end": 25.78,
+            "word": " the",
+            "probability": 0.99898
+          },
+          {
+            "start": 25.78,
+            "end": 26.06,
+            "word": " best",
+            "probability": 0.99714
+          },
+          {
+            "start": 26.06,
+            "end": 26.28,
+            "word": " things",
+            "probability": 0.99614
+          },
+          {
+            "start": 26.28,
+            "end": 26.5,
+            "word": " I",
+            "probability": 0.99494
+          },
+          {
+            "start": 26.5,
+            "end": 26.88,
+            "word": " enjoyed",
+            "probability": 0.99414
+          },
+          {
+            "start": 26.88,
+            "end": 27.06,
+            "word": " was",
+            "probability": 0.9976
+          },
+          {
+            "start": 27.06,
+            "end": 27.28,
+            "word": " going",
+            "probability": 0.99792
+          },
+          {
+            "start": 27.28,
+            "end": 27.74,
+            "word": " cycling",
+            "probability": 0.9978
+          },
+          {
+            "start": 27.74,
+            "end": 27.92,
+            "word": " in",
+            "probability": 0.99312
+          },
+          {
+            "start": 27.92,
+            "end": 28.0,
+            "word": " the",
+            "probability": 0.99879
+          },
+          {
+            "start": 28.0,
+            "end": 28.52,
+            "word": " countryside.",
+            "probability": 0.99901
+          }
+        ]
+      },
+      {
+        "start": 29.32,
+        "end": 32.14,
+        "text": "The views were stunning and it felt great to be outdoors.",
+        "words": [
+          {
+            "start": 29.32,
+            "end": 29.42,
+            "word": " The",
+            "probability": 0.99483
+          },
+          {
+            "start": 29.42,
+            "end": 29.66,
+            "word": " views",
+            "probability": 0.99713
+          },
+          {
+            "start": 29.66,
+            "end": 29.88,
+            "word": " were",
+            "probability": 0.99642
+          },
+          {
+            "start": 29.88,
+            "end": 30.3,
+            "word": " stunning",
+            "probability": 0.99963
+          },
+          {
+            "start": 30.3,
+            "end": 30.74,
+            "word": " and",
+            "probability": 0.93386
+          },
+          {
+            "start": 30.74,
+            "end": 30.86,
+            "word": " it",
+            "probability": 0.99102
+          },
+          {
+            "start": 30.86,
+            "end": 31.02,
+            "word": " felt",
+            "probability": 0.99944
+          },
+          {
+            "start": 31.02,
+            "end": 31.34,
+            "word": " great",
+            "probability": 0.99914
+          },
+          {
+            "start": 31.34,
+            "end": 31.54,
+            "word": " to",
+            "probability": 0.99855
+          },
+          {
+            "start": 31.54,
+            "end": 31.66,
+            "word": " be",
+            "probability": 0.99783
+          },
+          {
+            "start": 31.66,
+            "end": 32.14,
+            "word": " outdoors.",
+            "probability": 0.99818
+          }
+        ]
+      },
+      {
+        "start": 32.14,
+        "end": 37.3,
+        "text": "I also went for a walk a few times, but cycling really allowed me to explore more areas.",
+        "words": [
+          {
+            "start": 32.14,
+            "end": 32.94,
+            "word": " I",
+            "probability": 0.58252
+          },
+          {
+            "start": 32.94,
+            "end": 33.18,
+            "word": " also",
+            "probability": 0.98611
+          },
+          {
+            "start": 33.18,
+            "end": 33.38,
+            "word": " went",
+            "probability": 0.99649
+          },
+          {
+            "start": 33.38,
+            "end": 33.58,
+            "word": " for",
+            "probability": 0.99258
+          },
+          {
+            "start": 33.58,
+            "end": 33.7,
+            "word": " a",
+            "probability": 0.99761
+          },
+          {
+            "start": 33.7,
+            "end": 33.92,
+            "word": " walk",
+            "probability": 0.99836
+          },
+          {
+            "start": 33.92,
+            "end": 34.06,
+            "word": " a",
+            "probability": 0.9946
+          },
+          {
+            "start": 34.06,
+            "end": 34.22,
+            "word": " few",
+            "probability": 0.9967
+          },
+          {
+            "start": 34.22,
+            "end": 34.52,
+            "word": " times,",
+            "probability": 0.99836
+          },
+          {
+            "start": 34.52,
+            "end": 34.82,
+            "word": " but",
+            "probability": 0.99693
+          },
+          {
+            "start": 34.82,
+            "end": 35.2,
+            "word": " cycling",
+            "probability": 0.88501
+          },
+          {
+            "start": 35.2,
+            "end": 35.56,
+            "word": " really",
+            "probability": 0.99411
+          },
+          {
+            "start": 35.56,
+            "end": 35.92,
+            "word": " allowed",
+            "probability": 0.99887
+          },
+          {
+            "start": 35.92,
+            "end": 36.12,
+            "word": " me",
+            "probability": 0.99534
+          },
+          {
+            "start": 36.12,
+            "end": 36.28,
+            "word": " to",
+            "probability": 0.99746
+          },
+          {
+            "start": 36.28,
+            "end": 36.64,
+            "word": " explore",
+            "probability": 0.99837
+          },
+          {
+            "start": 36.64,
+            "end": 36.9,
+            "word": " more",
+            "probability": 0.99758
+          },
+          {
+            "start": 36.9,
+            "end": 37.3,
+            "word": " areas.",
+            "probability": 0.99488
+          }
+        ]
+      },
+      {
+        "start": 37.8,
+        "end": 40.64,
+        "text": "We even had a picnic one day, which was lovely too.",
+        "words": [
+          {
+            "start": 37.8,
+            "end": 38.02,
+            "word": " We",
+            "probability": 0.99075
+          },
+          {
+            "start": 38.02,
+            "end": 38.26,
+            "word": " even",
+            "probability": 0.99605
+          },
+          {
+            "start": 38.26,
+            "end": 38.42,
+            "word": " had",
+            "probability": 0.99828
+          },
+          {
+            "start": 38.42,
+            "end": 38.5,
+            "word": " a",
+            "probability": 0.9941
+          },
+          {
+            "start": 38.5,
+            "end": 38.8,
+            "word": " picnic",
+            "probability": 0.99396
+          },
+          {
+            "start": 38.8,
+            "end": 39.08,
+            "word": " one",
+            "probability": 0.98534
+          },
+          {
+            "start": 39.08,
+            "end": 39.3,
+            "word": " day,",
+            "probability": 0.99375
+          },
+          {
+            "start": 39.56,
+            "end": 39.78,
+            "word": " which",
+            "probability": 0.99695
+          },
+          {
+            "start": 39.78,
+            "end": 39.96,
+            "word": " was",
+            "probability": 0.99682
+          },
+          {
+            "start": 39.96,
+            "end": 40.3,
+            "word": " lovely",
+            "probability": 0.98575
+          },
+          {
+            "start": 40.3,
+            "end": 40.64,
+            "word": " too.",
+            "probability": 0.80217
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q04",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 60,
+            "speechStart": 0.75,
+            "speechEnd": 18.95,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "last year i had an amazing trip 1 of the best things i enjoyed was going cycling in the countryside the views were stunning and it felt great to be outdoors i also went for a walk a few times but cycling really allowed me to explore more areas we even had a picnic 1 day which was lovely too",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 60,
+            "wordEndIndexExclusive": 120,
+            "speechStart": 22.82,
+            "speechEnd": 40.64,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "last year i had an amazing trip 1 of the best things i enjoyed was going cycling in the countryside the views were stunning and it felt great to be outdoors i also went for a walk a few times but cycling really allowed me to explore more areas we even had a picnic 1 day which was lovely too",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

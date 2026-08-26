@@ -1,0 +1,458 @@
+{
+  "testId": "aptis-b2-07",
+  "blockId": "p1-q04",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-07/part-1/q04.mp3",
+  "audioSha256": "6e180835c501ccafc642cfec8a47bf949ae6b0b9a8c66cd2b1e00a4d2c054c7b",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.66,
+        "end": 3.52,
+        "text": "Hi, mom. It's Jack. I hope you're doing well.",
+        "words": [
+          {
+            "start": 0.66,
+            "end": 1.16,
+            "word": " Hi,",
+            "probability": 0.85121
+          },
+          {
+            "start": 1.3,
+            "end": 1.36,
+            "word": " mom.",
+            "probability": 0.46691
+          },
+          {
+            "start": 1.62,
+            "end": 1.84,
+            "word": " It's",
+            "probability": 0.99305
+          },
+          {
+            "start": 1.84,
+            "end": 2.02,
+            "word": " Jack.",
+            "probability": 0.91591
+          },
+          {
+            "start": 2.48,
+            "end": 2.6,
+            "word": " I",
+            "probability": 0.99628
+          },
+          {
+            "start": 2.6,
+            "end": 2.76,
+            "word": " hope",
+            "probability": 0.99891
+          },
+          {
+            "start": 2.76,
+            "end": 2.96,
+            "word": " you're",
+            "probability": 0.99337
+          },
+          {
+            "start": 2.96,
+            "end": 3.2,
+            "word": " doing",
+            "probability": 0.99916
+          },
+          {
+            "start": 3.2,
+            "end": 3.52,
+            "word": " well.",
+            "probability": 0.99755
+          }
+        ]
+      },
+      {
+        "start": 4.36,
+        "end": 7.86,
+        "text": "I'm out shopping and I need to buy some chocolates for my sister's birthday.",
+        "words": [
+          {
+            "start": 4.36,
+            "end": 4.72,
+            "word": " I'm",
+            "probability": 0.99263
+          },
+          {
+            "start": 4.72,
+            "end": 4.84,
+            "word": " out",
+            "probability": 0.99537
+          },
+          {
+            "start": 4.84,
+            "end": 5.18,
+            "word": " shopping",
+            "probability": 0.9262
+          },
+          {
+            "start": 5.18,
+            "end": 5.5,
+            "word": " and",
+            "probability": 0.69768
+          },
+          {
+            "start": 5.5,
+            "end": 5.6,
+            "word": " I",
+            "probability": 0.9922
+          },
+          {
+            "start": 5.6,
+            "end": 5.72,
+            "word": " need",
+            "probability": 0.99953
+          },
+          {
+            "start": 5.72,
+            "end": 5.86,
+            "word": " to",
+            "probability": 0.99931
+          },
+          {
+            "start": 5.86,
+            "end": 6.04,
+            "word": " buy",
+            "probability": 0.99956
+          },
+          {
+            "start": 6.04,
+            "end": 6.3,
+            "word": " some",
+            "probability": 0.99453
+          },
+          {
+            "start": 6.3,
+            "end": 6.68,
+            "word": " chocolates",
+            "probability": 0.98689
+          },
+          {
+            "start": 6.68,
+            "end": 6.98,
+            "word": " for",
+            "probability": 0.99276
+          },
+          {
+            "start": 6.98,
+            "end": 7.1,
+            "word": " my",
+            "probability": 0.99549
+          },
+          {
+            "start": 7.1,
+            "end": 7.52,
+            "word": " sister's",
+            "probability": 0.98301
+          },
+          {
+            "start": 7.52,
+            "end": 7.86,
+            "word": " birthday.",
+            "probability": 0.9765
+          }
+        ]
+      },
+      {
+        "start": 8.26,
+        "end": 11.5,
+        "text": "She loves dark chocolate, so I want to get her some nice ones.",
+        "words": [
+          {
+            "start": 8.26,
+            "end": 8.64,
+            "word": " She",
+            "probability": 0.9947
+          },
+          {
+            "start": 8.64,
+            "end": 8.84,
+            "word": " loves",
+            "probability": 0.99751
+          },
+          {
+            "start": 8.84,
+            "end": 9.04,
+            "word": " dark",
+            "probability": 0.99259
+          },
+          {
+            "start": 9.04,
+            "end": 9.48,
+            "word": " chocolate,",
+            "probability": 0.98527
+          },
+          {
+            "start": 9.7,
+            "end": 9.98,
+            "word": " so",
+            "probability": 0.99449
+          },
+          {
+            "start": 9.98,
+            "end": 10.1,
+            "word": " I",
+            "probability": 0.9973
+          },
+          {
+            "start": 10.1,
+            "end": 10.24,
+            "word": " want",
+            "probability": 0.9031
+          },
+          {
+            "start": 10.24,
+            "end": 10.34,
+            "word": " to",
+            "probability": 0.99845
+          },
+          {
+            "start": 10.34,
+            "end": 10.48,
+            "word": " get",
+            "probability": 0.99855
+          },
+          {
+            "start": 10.48,
+            "end": 10.68,
+            "word": " her",
+            "probability": 0.98827
+          },
+          {
+            "start": 10.68,
+            "end": 10.9,
+            "word": " some",
+            "probability": 0.99895
+          },
+          {
+            "start": 10.9,
+            "end": 11.06,
+            "word": " nice",
+            "probability": 0.99775
+          },
+          {
+            "start": 11.06,
+            "end": 11.5,
+            "word": " ones.",
+            "probability": 0.99847
+          }
+        ]
+      },
+      {
+        "start": 11.98,
+        "end": 18.6,
+        "text": "By the way, do you need anything while I'm here? I can pick up some milk or fruit if you want. Let me know. I'll talk to you soon.",
+        "words": [
+          {
+            "start": 11.98,
+            "end": 12.24,
+            "word": " By",
+            "probability": 0.98278
+          },
+          {
+            "start": 12.24,
+            "end": 12.38,
+            "word": " the",
+            "probability": 0.99943
+          },
+          {
+            "start": 12.38,
+            "end": 12.58,
+            "word": " way,",
+            "probability": 0.99938
+          },
+          {
+            "start": 12.72,
+            "end": 12.78,
+            "word": " do",
+            "probability": 0.99307
+          },
+          {
+            "start": 12.78,
+            "end": 12.86,
+            "word": " you",
+            "probability": 0.99888
+          },
+          {
+            "start": 12.86,
+            "end": 13.02,
+            "word": " need",
+            "probability": 0.99779
+          },
+          {
+            "start": 13.02,
+            "end": 13.38,
+            "word": " anything",
+            "probability": 0.99293
+          },
+          {
+            "start": 13.38,
+            "end": 13.6,
+            "word": " while",
+            "probability": 0.99338
+          },
+          {
+            "start": 13.6,
+            "end": 13.78,
+            "word": " I'm",
+            "probability": 0.99722
+          },
+          {
+            "start": 13.78,
+            "end": 13.96,
+            "word": " here?",
+            "probability": 0.99938
+          },
+          {
+            "start": 14.58,
+            "end": 14.68,
+            "word": " I",
+            "probability": 0.99628
+          },
+          {
+            "start": 14.68,
+            "end": 14.8,
+            "word": " can",
+            "probability": 0.99804
+          },
+          {
+            "start": 14.8,
+            "end": 14.98,
+            "word": " pick",
+            "probability": 0.99509
+          },
+          {
+            "start": 14.98,
+            "end": 15.12,
+            "word": " up",
+            "probability": 0.99494
+          },
+          {
+            "start": 15.12,
+            "end": 15.34,
+            "word": " some",
+            "probability": 0.999
+          },
+          {
+            "start": 15.34,
+            "end": 15.66,
+            "word": " milk",
+            "probability": 0.99645
+          },
+          {
+            "start": 15.66,
+            "end": 15.98,
+            "word": " or",
+            "probability": 0.93966
+          },
+          {
+            "start": 15.98,
+            "end": 16.26,
+            "word": " fruit",
+            "probability": 0.9743
+          },
+          {
+            "start": 16.26,
+            "end": 16.44,
+            "word": " if",
+            "probability": 0.94639
+          },
+          {
+            "start": 16.44,
+            "end": 16.54,
+            "word": " you",
+            "probability": 0.9986
+          },
+          {
+            "start": 16.54,
+            "end": 16.76,
+            "word": " want.",
+            "probability": 0.99947
+          },
+          {
+            "start": 17.12,
+            "end": 17.22,
+            "word": " Let",
+            "probability": 0.99411
+          },
+          {
+            "start": 17.22,
+            "end": 17.36,
+            "word": " me",
+            "probability": 0.99862
+          },
+          {
+            "start": 17.36,
+            "end": 17.54,
+            "word": " know.",
+            "probability": 0.9998
+          },
+          {
+            "start": 17.9,
+            "end": 17.98,
+            "word": " I'll",
+            "probability": 0.99705
+          },
+          {
+            "start": 17.98,
+            "end": 18.12,
+            "word": " talk",
+            "probability": 0.99775
+          },
+          {
+            "start": 18.12,
+            "end": 18.28,
+            "word": " to",
+            "probability": 0.99799
+          },
+          {
+            "start": 18.28,
+            "end": 18.36,
+            "word": " you",
+            "probability": 0.99606
+          },
+          {
+            "start": 18.36,
+            "end": 18.6,
+            "word": " soon.",
+            "probability": 0.9978
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q04",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 65,
+            "speechStart": 0.66,
+            "speechEnd": 18.6,
+            "sourceTokenCoverage": 0.9701,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9848,
+            "transcript": "hi mom it's jack i hope you're doing well i'm out shopping and i need to buy some chocolates for my sister's birthday she loves dark chocolate so i want to get her some nice ones by the way do you need anything while i'm here i can pick up some milk or fruit if you want let me know i'll talk to you soon",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,797 @@
+{
+  "testId": "aptis-b2-12",
+  "blockId": "p1-q07",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-12/part-1/q07.mp3",
+  "audioSha256": "0db87251dcc5f3b63fa71fb9ad8b14c4af61bd40e1fd86006ae6b29d896157c1",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.85,
+        "end": 4.81,
+        "text": "Hi James, it's Vincent. I just wanted to check in and see how you're doing.",
+        "words": [
+          {
+            "start": 0.85,
+            "end": 1.33,
+            "word": " Hi",
+            "probability": 0.28833
+          },
+          {
+            "start": 1.33,
+            "end": 1.55,
+            "word": " James,",
+            "probability": 0.4493
+          },
+          {
+            "start": 1.77,
+            "end": 1.91,
+            "word": " it's",
+            "probability": 0.96322
+          },
+          {
+            "start": 1.91,
+            "end": 2.07,
+            "word": " Vincent.",
+            "probability": 0.98534
+          },
+          {
+            "start": 2.65,
+            "end": 2.77,
+            "word": " I",
+            "probability": 0.98298
+          },
+          {
+            "start": 2.77,
+            "end": 2.89,
+            "word": " just",
+            "probability": 0.99619
+          },
+          {
+            "start": 2.89,
+            "end": 3.15,
+            "word": " wanted",
+            "probability": 0.98296
+          },
+          {
+            "start": 3.15,
+            "end": 3.31,
+            "word": " to",
+            "probability": 0.99918
+          },
+          {
+            "start": 3.31,
+            "end": 3.49,
+            "word": " check",
+            "probability": 0.99765
+          },
+          {
+            "start": 3.49,
+            "end": 3.77,
+            "word": " in",
+            "probability": 0.9757
+          },
+          {
+            "start": 3.77,
+            "end": 3.95,
+            "word": " and",
+            "probability": 0.98321
+          },
+          {
+            "start": 3.95,
+            "end": 4.19,
+            "word": " see",
+            "probability": 0.99782
+          },
+          {
+            "start": 4.19,
+            "end": 4.39,
+            "word": " how",
+            "probability": 0.99818
+          },
+          {
+            "start": 4.39,
+            "end": 4.57,
+            "word": " you're",
+            "probability": 0.99122
+          },
+          {
+            "start": 4.57,
+            "end": 4.81,
+            "word": " doing.",
+            "probability": 0.99892
+          }
+        ]
+      },
+      {
+        "start": 5.47,
+        "end": 7.19,
+        "text": "It's been a while since we last caught up.",
+        "words": [
+          {
+            "start": 5.47,
+            "end": 5.65,
+            "word": " It's",
+            "probability": 0.99148
+          },
+          {
+            "start": 5.65,
+            "end": 5.75,
+            "word": " been",
+            "probability": 0.99983
+          },
+          {
+            "start": 5.75,
+            "end": 5.87,
+            "word": " a",
+            "probability": 0.8402
+          },
+          {
+            "start": 5.87,
+            "end": 6.07,
+            "word": " while",
+            "probability": 0.99895
+          },
+          {
+            "start": 6.07,
+            "end": 6.33,
+            "word": " since",
+            "probability": 0.99729
+          },
+          {
+            "start": 6.33,
+            "end": 6.49,
+            "word": " we",
+            "probability": 0.99875
+          },
+          {
+            "start": 6.49,
+            "end": 6.65,
+            "word": " last",
+            "probability": 0.96241
+          },
+          {
+            "start": 6.65,
+            "end": 6.91,
+            "word": " caught",
+            "probability": 0.99381
+          },
+          {
+            "start": 6.91,
+            "end": 7.19,
+            "word": " up.",
+            "probability": 0.99953
+          }
+        ]
+      },
+      {
+        "start": 7.79,
+        "end": 9.01,
+        "text": "How about we grab a drink later?",
+        "words": [
+          {
+            "start": 7.79,
+            "end": 7.89,
+            "word": " How",
+            "probability": 0.9809
+          },
+          {
+            "start": 7.89,
+            "end": 8.05,
+            "word": " about",
+            "probability": 0.91838
+          },
+          {
+            "start": 8.05,
+            "end": 8.21,
+            "word": " we",
+            "probability": 0.99701
+          },
+          {
+            "start": 8.21,
+            "end": 8.35,
+            "word": " grab",
+            "probability": 0.99914
+          },
+          {
+            "start": 8.35,
+            "end": 8.49,
+            "word": " a",
+            "probability": 0.99854
+          },
+          {
+            "start": 8.49,
+            "end": 8.65,
+            "word": " drink",
+            "probability": 0.99844
+          },
+          {
+            "start": 8.65,
+            "end": 9.01,
+            "word": " later?",
+            "probability": 0.99894
+          }
+        ]
+      },
+      {
+        "start": 9.85,
+        "end": 12.03,
+        "text": "I know a great new place that has very nice tea.",
+        "words": [
+          {
+            "start": 9.85,
+            "end": 9.99,
+            "word": " I",
+            "probability": 0.93781
+          },
+          {
+            "start": 9.99,
+            "end": 10.11,
+            "word": " know",
+            "probability": 0.99777
+          },
+          {
+            "start": 10.11,
+            "end": 10.21,
+            "word": " a",
+            "probability": 0.99846
+          },
+          {
+            "start": 10.21,
+            "end": 10.39,
+            "word": " great",
+            "probability": 0.99788
+          },
+          {
+            "start": 10.39,
+            "end": 10.59,
+            "word": " new",
+            "probability": 0.9952
+          },
+          {
+            "start": 10.59,
+            "end": 10.83,
+            "word": " place",
+            "probability": 0.99898
+          },
+          {
+            "start": 10.83,
+            "end": 11.05,
+            "word": " that",
+            "probability": 0.99753
+          },
+          {
+            "start": 11.05,
+            "end": 11.19,
+            "word": " has",
+            "probability": 0.99913
+          },
+          {
+            "start": 11.19,
+            "end": 11.47,
+            "word": " very",
+            "probability": 0.96737
+          },
+          {
+            "start": 11.47,
+            "end": 11.77,
+            "word": " nice",
+            "probability": 0.99752
+          },
+          {
+            "start": 11.77,
+            "end": 12.03,
+            "word": " tea.",
+            "probability": 0.91531
+          }
+        ]
+      },
+      {
+        "start": 12.57,
+        "end": 14.73,
+        "text": "You should definitely try it next time you visit me.",
+        "words": [
+          {
+            "start": 12.57,
+            "end": 12.71,
+            "word": " You",
+            "probability": 0.99506
+          },
+          {
+            "start": 12.71,
+            "end": 12.83,
+            "word": " should",
+            "probability": 0.99832
+          },
+          {
+            "start": 12.83,
+            "end": 13.23,
+            "word": " definitely",
+            "probability": 0.99577
+          },
+          {
+            "start": 13.23,
+            "end": 13.61,
+            "word": " try",
+            "probability": 0.99931
+          },
+          {
+            "start": 13.61,
+            "end": 13.73,
+            "word": " it",
+            "probability": 0.99831
+          },
+          {
+            "start": 13.73,
+            "end": 13.87,
+            "word": " next",
+            "probability": 0.99651
+          },
+          {
+            "start": 13.87,
+            "end": 14.11,
+            "word": " time",
+            "probability": 0.99962
+          },
+          {
+            "start": 14.11,
+            "end": 14.27,
+            "word": " you",
+            "probability": 0.9976
+          },
+          {
+            "start": 14.27,
+            "end": 14.49,
+            "word": " visit",
+            "probability": 0.99967
+          },
+          {
+            "start": 14.49,
+            "end": 14.73,
+            "word": " me.",
+            "probability": 0.99835
+          }
+        ]
+      },
+      {
+        "start": 15.33,
+        "end": 16.03,
+        "text": "Text me back.",
+        "words": [
+          {
+            "start": 15.33,
+            "end": 15.59,
+            "word": " Text",
+            "probability": 0.98088
+          },
+          {
+            "start": 15.59,
+            "end": 15.77,
+            "word": " me",
+            "probability": 0.99905
+          },
+          {
+            "start": 15.77,
+            "end": 16.03,
+            "word": " back.",
+            "probability": 0.9982
+          }
+        ]
+      },
+      {
+        "start": 21.73,
+        "end": 22.71,
+        "text": "Hi James, it's Vincent.",
+        "words": [
+          {
+            "start": 21.73,
+            "end": 21.85,
+            "word": " Hi",
+            "probability": 0.89064
+          },
+          {
+            "start": 21.85,
+            "end": 22.15,
+            "word": " James,",
+            "probability": 0.94019
+          },
+          {
+            "start": 22.31,
+            "end": 22.43,
+            "word": " it's",
+            "probability": 0.99648
+          },
+          {
+            "start": 22.43,
+            "end": 22.71,
+            "word": " Vincent.",
+            "probability": 0.99922
+          }
+        ]
+      },
+      {
+        "start": 23.17,
+        "end": 25.37,
+        "text": "I just wanted to check in and see how you're doing.",
+        "words": [
+          {
+            "start": 23.17,
+            "end": 23.31,
+            "word": " I",
+            "probability": 0.99858
+          },
+          {
+            "start": 23.31,
+            "end": 23.45,
+            "word": " just",
+            "probability": 0.99902
+          },
+          {
+            "start": 23.45,
+            "end": 23.69,
+            "word": " wanted",
+            "probability": 0.97732
+          },
+          {
+            "start": 23.69,
+            "end": 23.85,
+            "word": " to",
+            "probability": 0.99945
+          },
+          {
+            "start": 23.85,
+            "end": 24.05,
+            "word": " check",
+            "probability": 0.99872
+          },
+          {
+            "start": 24.05,
+            "end": 24.33,
+            "word": " in",
+            "probability": 0.99871
+          },
+          {
+            "start": 24.33,
+            "end": 24.49,
+            "word": " and",
+            "probability": 0.99288
+          },
+          {
+            "start": 24.49,
+            "end": 24.75,
+            "word": " see",
+            "probability": 0.99908
+          },
+          {
+            "start": 24.75,
+            "end": 24.93,
+            "word": " how",
+            "probability": 0.99917
+          },
+          {
+            "start": 24.93,
+            "end": 25.11,
+            "word": " you're",
+            "probability": 0.99481
+          },
+          {
+            "start": 25.11,
+            "end": 25.37,
+            "word": " doing.",
+            "probability": 0.99937
+          }
+        ]
+      },
+      {
+        "start": 26.01,
+        "end": 27.75,
+        "text": "It's been a while since we last caught up.",
+        "words": [
+          {
+            "start": 26.01,
+            "end": 26.19,
+            "word": " It's",
+            "probability": 0.99772
+          },
+          {
+            "start": 26.19,
+            "end": 26.31,
+            "word": " been",
+            "probability": 0.99972
+          },
+          {
+            "start": 26.31,
+            "end": 26.43,
+            "word": " a",
+            "probability": 0.97699
+          },
+          {
+            "start": 26.43,
+            "end": 26.63,
+            "word": " while",
+            "probability": 0.99917
+          },
+          {
+            "start": 26.63,
+            "end": 26.85,
+            "word": " since",
+            "probability": 0.99863
+          },
+          {
+            "start": 26.85,
+            "end": 27.03,
+            "word": " we",
+            "probability": 0.99896
+          },
+          {
+            "start": 27.03,
+            "end": 27.19,
+            "word": " last",
+            "probability": 0.99352
+          },
+          {
+            "start": 27.19,
+            "end": 27.47,
+            "word": " caught",
+            "probability": 0.99869
+          },
+          {
+            "start": 27.47,
+            "end": 27.75,
+            "word": " up.",
+            "probability": 0.99972
+          }
+        ]
+      },
+      {
+        "start": 28.29,
+        "end": 29.57,
+        "text": "How about we grab a drink later?",
+        "words": [
+          {
+            "start": 28.29,
+            "end": 28.43,
+            "word": " How",
+            "probability": 0.99402
+          },
+          {
+            "start": 28.43,
+            "end": 28.59,
+            "word": " about",
+            "probability": 0.9915
+          },
+          {
+            "start": 28.59,
+            "end": 28.75,
+            "word": " we",
+            "probability": 0.99847
+          },
+          {
+            "start": 28.75,
+            "end": 28.91,
+            "word": " grab",
+            "probability": 0.9996
+          },
+          {
+            "start": 28.91,
+            "end": 29.03,
+            "word": " a",
+            "probability": 0.99945
+          },
+          {
+            "start": 29.03,
+            "end": 29.21,
+            "word": " drink",
+            "probability": 0.99835
+          },
+          {
+            "start": 29.21,
+            "end": 29.57,
+            "word": " later?",
+            "probability": 0.99946
+          }
+        ]
+      },
+      {
+        "start": 30.23,
+        "end": 32.59,
+        "text": "I know a great new place that has very nice tea.",
+        "words": [
+          {
+            "start": 30.23,
+            "end": 30.55,
+            "word": " I",
+            "probability": 0.99133
+          },
+          {
+            "start": 30.55,
+            "end": 30.65,
+            "word": " know",
+            "probability": 0.99911
+          },
+          {
+            "start": 30.65,
+            "end": 30.77,
+            "word": " a",
+            "probability": 0.9984
+          },
+          {
+            "start": 30.77,
+            "end": 30.95,
+            "word": " great",
+            "probability": 0.99876
+          },
+          {
+            "start": 30.95,
+            "end": 31.15,
+            "word": " new",
+            "probability": 0.99921
+          },
+          {
+            "start": 31.15,
+            "end": 31.39,
+            "word": " place",
+            "probability": 0.99879
+          },
+          {
+            "start": 31.39,
+            "end": 31.61,
+            "word": " that",
+            "probability": 0.99912
+          },
+          {
+            "start": 31.61,
+            "end": 31.75,
+            "word": " has",
+            "probability": 0.99928
+          },
+          {
+            "start": 31.75,
+            "end": 32.01,
+            "word": " very",
+            "probability": 0.99181
+          },
+          {
+            "start": 32.01,
+            "end": 32.31,
+            "word": " nice",
+            "probability": 0.99921
+          },
+          {
+            "start": 32.31,
+            "end": 32.59,
+            "word": " tea.",
+            "probability": 0.99768
+          }
+        ]
+      },
+      {
+        "start": 32.59,
+        "end": 36.61,
+        "text": "You should definitely try it next time you visit me text me back",
+        "words": [
+          {
+            "start": 32.59,
+            "end": 33.25,
+            "word": " You",
+            "probability": 0.17579
+          },
+          {
+            "start": 33.25,
+            "end": 33.41,
+            "word": " should",
+            "probability": 0.97805
+          },
+          {
+            "start": 33.41,
+            "end": 33.81,
+            "word": " definitely",
+            "probability": 0.98336
+          },
+          {
+            "start": 33.81,
+            "end": 34.15,
+            "word": " try",
+            "probability": 0.99682
+          },
+          {
+            "start": 34.15,
+            "end": 34.29,
+            "word": " it",
+            "probability": 0.99212
+          },
+          {
+            "start": 34.29,
+            "end": 34.45,
+            "word": " next",
+            "probability": 0.98535
+          },
+          {
+            "start": 34.45,
+            "end": 34.67,
+            "word": " time",
+            "probability": 0.99815
+          },
+          {
+            "start": 34.67,
+            "end": 34.81,
+            "word": " you",
+            "probability": 0.98355
+          },
+          {
+            "start": 34.81,
+            "end": 35.03,
+            "word": " visit",
+            "probability": 0.99922
+          },
+          {
+            "start": 35.03,
+            "end": 35.35,
+            "word": " me",
+            "probability": 0.9907
+          },
+          {
+            "start": 35.35,
+            "end": 36.17,
+            "word": " text",
+            "probability": 0.21962
+          },
+          {
+            "start": 36.17,
+            "end": 36.33,
+            "word": " me",
+            "probability": 0.99539
+          },
+          {
+            "start": 36.33,
+            "end": 36.61,
+            "word": " back",
+            "probability": 0.99506
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q07",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 55,
+            "speechStart": 0.85,
+            "speechEnd": 16.03,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi james it's vincent i just wanted to check in and see how you're doing it's been a while since we last caught up how about we grab a drink later i know a great new place that has very nice tea you should definitely try it next time you visit me text me back",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 55,
+            "wordEndIndexExclusive": 110,
+            "speechStart": 21.73,
+            "speechEnd": 36.61,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi james it's vincent i just wanted to check in and see how you're doing it's been a while since we last caught up how about we grab a drink later i know a great new place that has very nice tea you should definitely try it next time you visit me text me back",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

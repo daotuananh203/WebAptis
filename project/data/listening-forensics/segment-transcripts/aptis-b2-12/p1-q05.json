@@ -1,0 +1,855 @@
+{
+  "testId": "aptis-b2-12",
+  "blockId": "p1-q05",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-12/part-1/q05.mp3",
+  "audioSha256": "74169012c7b88667b39d80bb28c60deba630d9565302e9a86c8dd74d797f3eee",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 4.89,
+        "text": "Hello, this is the doctor's office calling to change your appointment.",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.33,
+            "word": " Hello,",
+            "probability": 0.7805
+          },
+          {
+            "start": 1.81,
+            "end": 2.05,
+            "word": " this",
+            "probability": 0.98113
+          },
+          {
+            "start": 2.05,
+            "end": 2.23,
+            "word": " is",
+            "probability": 0.99415
+          },
+          {
+            "start": 2.23,
+            "end": 2.37,
+            "word": " the",
+            "probability": 0.95398
+          },
+          {
+            "start": 2.37,
+            "end": 2.91,
+            "word": " doctor's",
+            "probability": 0.81912
+          },
+          {
+            "start": 2.91,
+            "end": 3.19,
+            "word": " office",
+            "probability": 0.98767
+          },
+          {
+            "start": 3.19,
+            "end": 3.61,
+            "word": " calling",
+            "probability": 0.98846
+          },
+          {
+            "start": 3.61,
+            "end": 3.95,
+            "word": " to",
+            "probability": 0.97293
+          },
+          {
+            "start": 3.95,
+            "end": 4.23,
+            "word": " change",
+            "probability": 0.98846
+          },
+          {
+            "start": 4.23,
+            "end": 4.47,
+            "word": " your",
+            "probability": 0.99663
+          },
+          {
+            "start": 4.47,
+            "end": 4.89,
+            "word": " appointment.",
+            "probability": 0.99829
+          }
+        ]
+      },
+      {
+        "start": 5.72,
+        "end": 10.4,
+        "text": "I wanted to let you know that the new appointment is on Thursday the 13th.",
+        "words": [
+          {
+            "start": 5.72,
+            "end": 6.06,
+            "word": " I",
+            "probability": 0.98831
+          },
+          {
+            "start": 6.06,
+            "end": 6.32,
+            "word": " wanted",
+            "probability": 0.98612
+          },
+          {
+            "start": 6.32,
+            "end": 6.48,
+            "word": " to",
+            "probability": 0.99755
+          },
+          {
+            "start": 6.48,
+            "end": 6.64,
+            "word": " let",
+            "probability": 0.997
+          },
+          {
+            "start": 6.64,
+            "end": 6.82,
+            "word": " you",
+            "probability": 0.99834
+          },
+          {
+            "start": 6.82,
+            "end": 7.06,
+            "word": " know",
+            "probability": 0.99806
+          },
+          {
+            "start": 7.06,
+            "end": 7.38,
+            "word": " that",
+            "probability": 0.99033
+          },
+          {
+            "start": 7.38,
+            "end": 7.52,
+            "word": " the",
+            "probability": 0.98869
+          },
+          {
+            "start": 7.52,
+            "end": 7.7,
+            "word": " new",
+            "probability": 0.91399
+          },
+          {
+            "start": 7.7,
+            "end": 8.16,
+            "word": " appointment",
+            "probability": 0.99829
+          },
+          {
+            "start": 8.16,
+            "end": 8.56,
+            "word": " is",
+            "probability": 0.9959
+          },
+          {
+            "start": 8.56,
+            "end": 8.76,
+            "word": " on",
+            "probability": 0.99778
+          },
+          {
+            "start": 8.76,
+            "end": 9.26,
+            "word": " Thursday",
+            "probability": 0.98572
+          },
+          {
+            "start": 9.26,
+            "end": 9.56,
+            "word": " the",
+            "probability": 0.90313
+          },
+          {
+            "start": 9.56,
+            "end": 10.4,
+            "word": " 13th.",
+            "probability": 0.97551
+          }
+        ]
+      },
+      {
+        "start": 10.74,
+        "end": 15.44,
+        "text": "I understand you might have been expecting it to be on Friday the 14th, but we're all",
+        "words": [
+          {
+            "start": 10.74,
+            "end": 11.1,
+            "word": " I",
+            "probability": 0.99582
+          },
+          {
+            "start": 11.1,
+            "end": 11.56,
+            "word": " understand",
+            "probability": 0.99639
+          },
+          {
+            "start": 11.56,
+            "end": 11.82,
+            "word": " you",
+            "probability": 0.99639
+          },
+          {
+            "start": 11.82,
+            "end": 11.96,
+            "word": " might",
+            "probability": 0.99564
+          },
+          {
+            "start": 11.96,
+            "end": 12.08,
+            "word": " have",
+            "probability": 0.92969
+          },
+          {
+            "start": 12.08,
+            "end": 12.18,
+            "word": " been",
+            "probability": 0.9991
+          },
+          {
+            "start": 12.18,
+            "end": 12.64,
+            "word": " expecting",
+            "probability": 0.99725
+          },
+          {
+            "start": 12.64,
+            "end": 12.88,
+            "word": " it",
+            "probability": 0.99026
+          },
+          {
+            "start": 12.88,
+            "end": 13.04,
+            "word": " to",
+            "probability": 0.99125
+          },
+          {
+            "start": 13.04,
+            "end": 13.2,
+            "word": " be",
+            "probability": 0.99743
+          },
+          {
+            "start": 13.2,
+            "end": 13.4,
+            "word": " on",
+            "probability": 0.995
+          },
+          {
+            "start": 13.4,
+            "end": 13.74,
+            "word": " Friday",
+            "probability": 0.99192
+          },
+          {
+            "start": 13.74,
+            "end": 13.98,
+            "word": " the",
+            "probability": 0.98733
+          },
+          {
+            "start": 13.98,
+            "end": 14.68,
+            "word": " 14th,",
+            "probability": 0.99259
+          },
+          {
+            "start": 14.9,
+            "end": 15.1,
+            "word": " but",
+            "probability": 0.99667
+          },
+          {
+            "start": 15.1,
+            "end": 15.3,
+            "word": " we're",
+            "probability": 0.9589
+          },
+          {
+            "start": 15.3,
+            "end": 15.44,
+            "word": " all",
+            "probability": 0.99026
+          }
+        ]
+      },
+      {
+        "start": 15.44,
+        "end": 18.28,
+        "text": "off this day due to the National Dentist holiday.",
+        "words": [
+          {
+            "start": 15.44,
+            "end": 15.72,
+            "word": " off",
+            "probability": 0.99704
+          },
+          {
+            "start": 15.72,
+            "end": 15.92,
+            "word": " this",
+            "probability": 0.99332
+          },
+          {
+            "start": 15.92,
+            "end": 16.26,
+            "word": " day",
+            "probability": 0.99103
+          },
+          {
+            "start": 16.26,
+            "end": 16.7,
+            "word": " due",
+            "probability": 0.80226
+          },
+          {
+            "start": 16.7,
+            "end": 16.82,
+            "word": " to",
+            "probability": 0.99606
+          },
+          {
+            "start": 16.82,
+            "end": 16.96,
+            "word": " the",
+            "probability": 0.99403
+          },
+          {
+            "start": 16.96,
+            "end": 17.38,
+            "word": " National",
+            "probability": 0.66873
+          },
+          {
+            "start": 17.38,
+            "end": 17.86,
+            "word": " Dentist",
+            "probability": 0.86467
+          },
+          {
+            "start": 17.86,
+            "end": 18.28,
+            "word": " holiday.",
+            "probability": 0.49726
+          }
+        ]
+      },
+      {
+        "start": 19.17,
+        "end": 21.21,
+        "text": "Please let us know if that works for you.",
+        "words": [
+          {
+            "start": 19.17,
+            "end": 19.57,
+            "word": " Please",
+            "probability": 0.99431
+          },
+          {
+            "start": 19.57,
+            "end": 19.81,
+            "word": " let",
+            "probability": 0.98234
+          },
+          {
+            "start": 19.81,
+            "end": 19.93,
+            "word": " us",
+            "probability": 0.99899
+          },
+          {
+            "start": 19.93,
+            "end": 20.17,
+            "word": " know",
+            "probability": 0.99891
+          },
+          {
+            "start": 20.17,
+            "end": 20.35,
+            "word": " if",
+            "probability": 0.99037
+          },
+          {
+            "start": 20.35,
+            "end": 20.51,
+            "word": " that",
+            "probability": 0.99418
+          },
+          {
+            "start": 20.51,
+            "end": 20.75,
+            "word": " works",
+            "probability": 0.99725
+          },
+          {
+            "start": 20.75,
+            "end": 20.97,
+            "word": " for",
+            "probability": 0.99907
+          },
+          {
+            "start": 20.97,
+            "end": 21.21,
+            "word": " you.",
+            "probability": 0.99934
+          }
+        ]
+      },
+      {
+        "start": 23.14,
+        "end": 27.0,
+        "text": "Hello, this is the doctor's office calling to change your appointment.",
+        "words": [
+          {
+            "start": 23.14,
+            "end": 23.46,
+            "word": " Hello,",
+            "probability": 0.96836
+          },
+          {
+            "start": 23.9,
+            "end": 24.16,
+            "word": " this",
+            "probability": 0.9943
+          },
+          {
+            "start": 24.16,
+            "end": 24.34,
+            "word": " is",
+            "probability": 0.99579
+          },
+          {
+            "start": 24.34,
+            "end": 24.48,
+            "word": " the",
+            "probability": 0.9925
+          },
+          {
+            "start": 24.48,
+            "end": 25.0,
+            "word": " doctor's",
+            "probability": 0.97683
+          },
+          {
+            "start": 25.0,
+            "end": 25.28,
+            "word": " office",
+            "probability": 0.99515
+          },
+          {
+            "start": 25.28,
+            "end": 25.76,
+            "word": " calling",
+            "probability": 0.99549
+          },
+          {
+            "start": 25.76,
+            "end": 26.06,
+            "word": " to",
+            "probability": 0.99702
+          },
+          {
+            "start": 26.06,
+            "end": 26.34,
+            "word": " change",
+            "probability": 0.99446
+          },
+          {
+            "start": 26.34,
+            "end": 26.56,
+            "word": " your",
+            "probability": 0.99721
+          },
+          {
+            "start": 26.56,
+            "end": 27.0,
+            "word": " appointment.",
+            "probability": 0.99937
+          }
+        ]
+      },
+      {
+        "start": 27.66,
+        "end": 32.42,
+        "text": "I wanted to let you know that the new appointment is on Thursday the 13th.",
+        "words": [
+          {
+            "start": 27.66,
+            "end": 28.14,
+            "word": " I",
+            "probability": 0.50165
+          },
+          {
+            "start": 28.14,
+            "end": 28.4,
+            "word": " wanted",
+            "probability": 0.92331
+          },
+          {
+            "start": 28.4,
+            "end": 28.58,
+            "word": " to",
+            "probability": 0.99162
+          },
+          {
+            "start": 28.58,
+            "end": 28.74,
+            "word": " let",
+            "probability": 0.99218
+          },
+          {
+            "start": 28.74,
+            "end": 28.92,
+            "word": " you",
+            "probability": 0.99607
+          },
+          {
+            "start": 28.92,
+            "end": 29.16,
+            "word": " know",
+            "probability": 0.99502
+          },
+          {
+            "start": 29.16,
+            "end": 29.48,
+            "word": " that",
+            "probability": 0.95754
+          },
+          {
+            "start": 29.48,
+            "end": 29.62,
+            "word": " the",
+            "probability": 0.96498
+          },
+          {
+            "start": 29.62,
+            "end": 29.8,
+            "word": " new",
+            "probability": 0.86286
+          },
+          {
+            "start": 29.8,
+            "end": 30.24,
+            "word": " appointment",
+            "probability": 0.994
+          },
+          {
+            "start": 30.24,
+            "end": 30.64,
+            "word": " is",
+            "probability": 0.99239
+          },
+          {
+            "start": 30.64,
+            "end": 30.86,
+            "word": " on",
+            "probability": 0.97792
+          },
+          {
+            "start": 30.86,
+            "end": 31.28,
+            "word": " Thursday",
+            "probability": 0.96252
+          },
+          {
+            "start": 31.28,
+            "end": 31.66,
+            "word": " the",
+            "probability": 0.86927
+          },
+          {
+            "start": 31.66,
+            "end": 32.42,
+            "word": " 13th.",
+            "probability": 0.97036
+          }
+        ]
+      },
+      {
+        "start": 32.86,
+        "end": 37.46,
+        "text": "I understand you might have been expecting it to be on Friday the 14th, but we're all",
+        "words": [
+          {
+            "start": 32.86,
+            "end": 33.14,
+            "word": " I",
+            "probability": 0.99191
+          },
+          {
+            "start": 33.14,
+            "end": 33.62,
+            "word": " understand",
+            "probability": 0.99678
+          },
+          {
+            "start": 33.62,
+            "end": 33.86,
+            "word": " you",
+            "probability": 0.99486
+          },
+          {
+            "start": 33.86,
+            "end": 34.02,
+            "word": " might",
+            "probability": 0.99534
+          },
+          {
+            "start": 34.02,
+            "end": 34.14,
+            "word": " have",
+            "probability": 0.90613
+          },
+          {
+            "start": 34.14,
+            "end": 34.24,
+            "word": " been",
+            "probability": 0.99893
+          },
+          {
+            "start": 34.24,
+            "end": 34.7,
+            "word": " expecting",
+            "probability": 0.99714
+          },
+          {
+            "start": 34.7,
+            "end": 34.94,
+            "word": " it",
+            "probability": 0.97198
+          },
+          {
+            "start": 34.94,
+            "end": 35.08,
+            "word": " to",
+            "probability": 0.97866
+          },
+          {
+            "start": 35.08,
+            "end": 35.24,
+            "word": " be",
+            "probability": 0.99379
+          },
+          {
+            "start": 35.24,
+            "end": 35.44,
+            "word": " on",
+            "probability": 0.99156
+          },
+          {
+            "start": 35.44,
+            "end": 35.8,
+            "word": " Friday",
+            "probability": 0.99108
+          },
+          {
+            "start": 35.8,
+            "end": 36.02,
+            "word": " the",
+            "probability": 0.98365
+          },
+          {
+            "start": 36.02,
+            "end": 36.74,
+            "word": " 14th,",
+            "probability": 0.98989
+          },
+          {
+            "start": 36.96,
+            "end": 37.16,
+            "word": " but",
+            "probability": 0.99527
+          },
+          {
+            "start": 37.16,
+            "end": 37.34,
+            "word": " we're",
+            "probability": 0.95438
+          },
+          {
+            "start": 37.34,
+            "end": 37.46,
+            "word": " all",
+            "probability": 0.99012
+          }
+        ]
+      },
+      {
+        "start": 37.46,
+        "end": 40.34,
+        "text": "off this day due to the National Dentist holiday.",
+        "words": [
+          {
+            "start": 37.46,
+            "end": 37.76,
+            "word": " off",
+            "probability": 0.99591
+          },
+          {
+            "start": 37.76,
+            "end": 37.96,
+            "word": " this",
+            "probability": 0.97925
+          },
+          {
+            "start": 37.96,
+            "end": 38.26,
+            "word": " day",
+            "probability": 0.9847
+          },
+          {
+            "start": 38.26,
+            "end": 38.74,
+            "word": " due",
+            "probability": 0.61799
+          },
+          {
+            "start": 38.74,
+            "end": 38.88,
+            "word": " to",
+            "probability": 0.99566
+          },
+          {
+            "start": 38.88,
+            "end": 39.0,
+            "word": " the",
+            "probability": 0.98602
+          },
+          {
+            "start": 39.0,
+            "end": 39.44,
+            "word": " National",
+            "probability": 0.75501
+          },
+          {
+            "start": 39.44,
+            "end": 39.92,
+            "word": " Dentist",
+            "probability": 0.85104
+          },
+          {
+            "start": 39.92,
+            "end": 40.34,
+            "word": " holiday.",
+            "probability": 0.56289
+          }
+        ]
+      },
+      {
+        "start": 41.2,
+        "end": 43.32,
+        "text": "Please let us know if that works for you.",
+        "words": [
+          {
+            "start": 41.2,
+            "end": 41.64,
+            "word": " Please",
+            "probability": 0.99022
+          },
+          {
+            "start": 41.64,
+            "end": 41.88,
+            "word": " let",
+            "probability": 0.98509
+          },
+          {
+            "start": 41.88,
+            "end": 41.98,
+            "word": " us",
+            "probability": 0.99878
+          },
+          {
+            "start": 41.98,
+            "end": 42.22,
+            "word": " know",
+            "probability": 0.99856
+          },
+          {
+            "start": 42.22,
+            "end": 42.42,
+            "word": " if",
+            "probability": 0.99391
+          },
+          {
+            "start": 42.42,
+            "end": 42.56,
+            "word": " that",
+            "probability": 0.99117
+          },
+          {
+            "start": 42.56,
+            "end": 42.8,
+            "word": " works",
+            "probability": 0.99477
+          },
+          {
+            "start": 42.8,
+            "end": 43.04,
+            "word": " for",
+            "probability": 0.99839
+          },
+          {
+            "start": 43.04,
+            "end": 43.32,
+            "word": " you.",
+            "probability": 0.99822
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q05",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 61,
+            "speechStart": 0.75,
+            "speechEnd": 21.21,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hello this is the doctor's office calling to change your appointment i wanted to let you know that the new appointment is on thursday the 13th i understand you might have been expecting it to be on friday the 14th but we're all off this day due to the national dentist holiday please let us know if that works for you",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 61,
+            "wordEndIndexExclusive": 122,
+            "speechStart": 23.14,
+            "speechEnd": 43.32,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hello this is the doctor's office calling to change your appointment i wanted to let you know that the new appointment is on thursday the 13th i understand you might have been expecting it to be on friday the 14th but we're all off this day due to the national dentist holiday please let us know if that works for you",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

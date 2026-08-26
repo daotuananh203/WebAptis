@@ -1,0 +1,628 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p2-spk-d",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-2/spk-d.mp3",
+  "audioSha256": "b508d06ed43b5949084d406973f1c311e97f08bc425c0df94f3e0b9b6774576d",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 6.2,
+        "text": "Exercise? I can't stand it. I know it's supposed to be good for you and all that,",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.56,
+            "word": " Exercise?",
+            "probability": 0.28083
+          },
+          {
+            "start": 2.52,
+            "end": 3.04,
+            "word": " I",
+            "probability": 0.80298
+          },
+          {
+            "start": 3.04,
+            "end": 3.4,
+            "word": " can't",
+            "probability": 0.97585
+          },
+          {
+            "start": 3.4,
+            "end": 3.66,
+            "word": " stand",
+            "probability": 0.98571
+          },
+          {
+            "start": 3.66,
+            "end": 3.86,
+            "word": " it.",
+            "probability": 0.99929
+          },
+          {
+            "start": 4.24,
+            "end": 4.42,
+            "word": " I",
+            "probability": 0.97793
+          },
+          {
+            "start": 4.42,
+            "end": 4.56,
+            "word": " know",
+            "probability": 0.99723
+          },
+          {
+            "start": 4.56,
+            "end": 4.76,
+            "word": " it's",
+            "probability": 0.98632
+          },
+          {
+            "start": 4.76,
+            "end": 4.96,
+            "word": " supposed",
+            "probability": 0.98929
+          },
+          {
+            "start": 4.96,
+            "end": 5.16,
+            "word": " to",
+            "probability": 0.99683
+          },
+          {
+            "start": 5.16,
+            "end": 5.26,
+            "word": " be",
+            "probability": 0.99805
+          },
+          {
+            "start": 5.26,
+            "end": 5.42,
+            "word": " good",
+            "probability": 0.99608
+          },
+          {
+            "start": 5.42,
+            "end": 5.6,
+            "word": " for",
+            "probability": 0.99856
+          },
+          {
+            "start": 5.6,
+            "end": 5.74,
+            "word": " you",
+            "probability": 0.99867
+          },
+          {
+            "start": 5.74,
+            "end": 5.88,
+            "word": " and",
+            "probability": 0.90995
+          },
+          {
+            "start": 5.88,
+            "end": 6.0,
+            "word": " all",
+            "probability": 0.99821
+          },
+          {
+            "start": 6.0,
+            "end": 6.2,
+            "word": " that,",
+            "probability": 0.99267
+          }
+        ]
+      },
+      {
+        "start": 6.56,
+        "end": 13.06,
+        "text": "but I find it completely miserable, the sweat, the strain, the way my muscles burn afterward.",
+        "words": [
+          {
+            "start": 6.56,
+            "end": 7.04,
+            "word": " but",
+            "probability": 0.96061
+          },
+          {
+            "start": 7.04,
+            "end": 7.14,
+            "word": " I",
+            "probability": 0.99477
+          },
+          {
+            "start": 7.14,
+            "end": 7.34,
+            "word": " find",
+            "probability": 0.99555
+          },
+          {
+            "start": 7.34,
+            "end": 7.46,
+            "word": " it",
+            "probability": 0.99921
+          },
+          {
+            "start": 7.46,
+            "end": 7.84,
+            "word": " completely",
+            "probability": 0.99768
+          },
+          {
+            "start": 7.84,
+            "end": 8.42,
+            "word": " miserable,",
+            "probability": 0.99355
+          },
+          {
+            "start": 8.9,
+            "end": 9.14,
+            "word": " the",
+            "probability": 0.95318
+          },
+          {
+            "start": 9.14,
+            "end": 9.52,
+            "word": " sweat,",
+            "probability": 0.99485
+          },
+          {
+            "start": 9.82,
+            "end": 10.22,
+            "word": " the",
+            "probability": 0.99726
+          },
+          {
+            "start": 10.22,
+            "end": 10.7,
+            "word": " strain,",
+            "probability": 0.98517
+          },
+          {
+            "start": 11.18,
+            "end": 11.48,
+            "word": " the",
+            "probability": 0.99539
+          },
+          {
+            "start": 11.48,
+            "end": 11.62,
+            "word": " way",
+            "probability": 0.99736
+          },
+          {
+            "start": 11.62,
+            "end": 11.78,
+            "word": " my",
+            "probability": 0.99638
+          },
+          {
+            "start": 11.78,
+            "end": 12.18,
+            "word": " muscles",
+            "probability": 0.99543
+          },
+          {
+            "start": 12.18,
+            "end": 12.52,
+            "word": " burn",
+            "probability": 0.99553
+          },
+          {
+            "start": 12.52,
+            "end": 13.06,
+            "word": " afterward.",
+            "probability": 0.98366
+          }
+        ]
+      },
+      {
+        "start": 13.56,
+        "end": 18.6,
+        "text": "It's like a punishment. People say it'll get better or that I'll start to like it eventually,",
+        "words": [
+          {
+            "start": 13.56,
+            "end": 13.86,
+            "word": " It's",
+            "probability": 0.99634
+          },
+          {
+            "start": 13.86,
+            "end": 13.98,
+            "word": " like",
+            "probability": 0.99728
+          },
+          {
+            "start": 13.98,
+            "end": 14.1,
+            "word": " a",
+            "probability": 0.98495
+          },
+          {
+            "start": 14.1,
+            "end": 14.52,
+            "word": " punishment.",
+            "probability": 0.99526
+          },
+          {
+            "start": 15.36,
+            "end": 15.58,
+            "word": " People",
+            "probability": 0.98434
+          },
+          {
+            "start": 15.58,
+            "end": 15.86,
+            "word": " say",
+            "probability": 0.99839
+          },
+          {
+            "start": 15.86,
+            "end": 16.04,
+            "word": " it'll",
+            "probability": 0.93394
+          },
+          {
+            "start": 16.04,
+            "end": 16.16,
+            "word": " get",
+            "probability": 0.99709
+          },
+          {
+            "start": 16.16,
+            "end": 16.54,
+            "word": " better",
+            "probability": 0.99872
+          },
+          {
+            "start": 16.54,
+            "end": 17.08,
+            "word": " or",
+            "probability": 0.74595
+          },
+          {
+            "start": 17.08,
+            "end": 17.24,
+            "word": " that",
+            "probability": 0.96287
+          },
+          {
+            "start": 17.24,
+            "end": 17.5,
+            "word": " I'll",
+            "probability": 0.99407
+          },
+          {
+            "start": 17.5,
+            "end": 17.7,
+            "word": " start",
+            "probability": 0.99702
+          },
+          {
+            "start": 17.7,
+            "end": 17.9,
+            "word": " to",
+            "probability": 0.99745
+          },
+          {
+            "start": 17.9,
+            "end": 18.04,
+            "word": " like",
+            "probability": 0.98928
+          },
+          {
+            "start": 18.04,
+            "end": 18.16,
+            "word": " it",
+            "probability": 0.99921
+          },
+          {
+            "start": 18.16,
+            "end": 18.6,
+            "word": " eventually,",
+            "probability": 0.97807
+          }
+        ]
+      },
+      {
+        "start": 18.86,
+        "end": 25.26,
+        "text": "but I've tried and I still hate it. Honestly, life's too short to spend it doing something you can't stand.",
+        "words": [
+          {
+            "start": 18.86,
+            "end": 19.3,
+            "word": " but",
+            "probability": 0.9899
+          },
+          {
+            "start": 19.3,
+            "end": 19.54,
+            "word": " I've",
+            "probability": 0.99822
+          },
+          {
+            "start": 19.54,
+            "end": 19.86,
+            "word": " tried",
+            "probability": 0.99864
+          },
+          {
+            "start": 19.86,
+            "end": 20.26,
+            "word": " and",
+            "probability": 0.84379
+          },
+          {
+            "start": 20.26,
+            "end": 20.42,
+            "word": " I",
+            "probability": 0.99285
+          },
+          {
+            "start": 20.42,
+            "end": 20.72,
+            "word": " still",
+            "probability": 0.99812
+          },
+          {
+            "start": 20.72,
+            "end": 20.96,
+            "word": " hate",
+            "probability": 0.98383
+          },
+          {
+            "start": 20.96,
+            "end": 21.16,
+            "word": " it.",
+            "probability": 0.99897
+          },
+          {
+            "start": 21.8,
+            "end": 22.24,
+            "word": " Honestly,",
+            "probability": 0.98746
+          },
+          {
+            "start": 22.46,
+            "end": 22.78,
+            "word": " life's",
+            "probability": 0.97691
+          },
+          {
+            "start": 22.78,
+            "end": 22.92,
+            "word": " too",
+            "probability": 0.99811
+          },
+          {
+            "start": 22.92,
+            "end": 23.24,
+            "word": " short",
+            "probability": 0.99876
+          },
+          {
+            "start": 23.24,
+            "end": 23.38,
+            "word": " to",
+            "probability": 0.99906
+          },
+          {
+            "start": 23.38,
+            "end": 23.58,
+            "word": " spend",
+            "probability": 0.998
+          },
+          {
+            "start": 23.58,
+            "end": 23.72,
+            "word": " it",
+            "probability": 0.96505
+          },
+          {
+            "start": 23.72,
+            "end": 23.9,
+            "word": " doing",
+            "probability": 0.99685
+          },
+          {
+            "start": 23.9,
+            "end": 24.26,
+            "word": " something",
+            "probability": 0.99945
+          },
+          {
+            "start": 24.26,
+            "end": 24.5,
+            "word": " you",
+            "probability": 0.99661
+          },
+          {
+            "start": 24.5,
+            "end": 24.84,
+            "word": " can't",
+            "probability": 0.99885
+          },
+          {
+            "start": 24.84,
+            "end": 25.26,
+            "word": " stand.",
+            "probability": 0.99749
+          }
+        ]
+      },
+      {
+        "start": 25.76,
+        "end": 29.08,
+        "text": "There are other ways to be healthy that don't involve torturing myself.",
+        "words": [
+          {
+            "start": 25.76,
+            "end": 26.0,
+            "word": " There",
+            "probability": 0.99636
+          },
+          {
+            "start": 26.0,
+            "end": 26.14,
+            "word": " are",
+            "probability": 0.99782
+          },
+          {
+            "start": 26.14,
+            "end": 26.44,
+            "word": " other",
+            "probability": 0.99865
+          },
+          {
+            "start": 26.44,
+            "end": 26.66,
+            "word": " ways",
+            "probability": 0.99967
+          },
+          {
+            "start": 26.66,
+            "end": 26.84,
+            "word": " to",
+            "probability": 0.99722
+          },
+          {
+            "start": 26.84,
+            "end": 26.92,
+            "word": " be",
+            "probability": 0.99807
+          },
+          {
+            "start": 26.92,
+            "end": 27.24,
+            "word": " healthy",
+            "probability": 0.99871
+          },
+          {
+            "start": 27.24,
+            "end": 27.5,
+            "word": " that",
+            "probability": 0.97792
+          },
+          {
+            "start": 27.5,
+            "end": 27.76,
+            "word": " don't",
+            "probability": 0.99903
+          },
+          {
+            "start": 27.76,
+            "end": 28.16,
+            "word": " involve",
+            "probability": 0.99445
+          },
+          {
+            "start": 28.16,
+            "end": 28.6,
+            "word": " torturing",
+            "probability": 0.99409
+          },
+          {
+            "start": 28.6,
+            "end": 29.08,
+            "word": " myself.",
+            "probability": 0.99663
+          }
+        ]
+      },
+      {
+        "start": 29.64,
+        "end": 31.6,
+        "text": "I'd rather read a book than jog any day.",
+        "words": [
+          {
+            "start": 29.64,
+            "end": 30.04,
+            "word": " I'd",
+            "probability": 0.85232
+          },
+          {
+            "start": 30.04,
+            "end": 30.18,
+            "word": " rather",
+            "probability": 0.99748
+          },
+          {
+            "start": 30.18,
+            "end": 30.42,
+            "word": " read",
+            "probability": 0.9941
+          },
+          {
+            "start": 30.42,
+            "end": 30.54,
+            "word": " a",
+            "probability": 0.99702
+          },
+          {
+            "start": 30.54,
+            "end": 30.72,
+            "word": " book",
+            "probability": 0.99592
+          },
+          {
+            "start": 30.72,
+            "end": 30.92,
+            "word": " than",
+            "probability": 0.96803
+          },
+          {
+            "start": 30.92,
+            "end": 31.12,
+            "word": " jog",
+            "probability": 0.17413
+          },
+          {
+            "start": 31.12,
+            "end": 31.34,
+            "word": " any",
+            "probability": 0.97624
+          },
+          {
+            "start": 31.34,
+            "end": 31.6,
+            "word": " day.",
+            "probability": 0.99796
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-d",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 91,
+            "speechStart": 0.78,
+            "speechEnd": 31.6,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "exercise i can't stand it i know it's supposed to be good for you and all that but i find it completely miserable the sweat the strain the way my muscles burn afterward it's like a punishment people say it'll get better or that i'll start to like it eventually but i've tried and i still hate it honestly life's too short to spend it doing something you can't stand there are other ways to be healthy that don't involve torturing myself i'd rather read a book than jog any day",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

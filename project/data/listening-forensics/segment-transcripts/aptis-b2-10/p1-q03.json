@@ -1,0 +1,756 @@
+{
+  "testId": "aptis-b2-10",
+  "blockId": "p1-q03",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-10/part-1/q03.mp3",
+  "audioSha256": "1f21f06a6ca6d5af09a4828f76fb628527e20493d098b2b8ccd6f8f74fc414e8",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 6.52,
+        "text": "I can't wait for my next holiday. This time, I'm heading to the south, where the mountains",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.24,
+            "word": " I",
+            "probability": 0.52238
+          },
+          {
+            "start": 1.24,
+            "end": 1.6,
+            "word": " can't",
+            "probability": 0.87612
+          },
+          {
+            "start": 1.6,
+            "end": 1.78,
+            "word": " wait",
+            "probability": 0.99466
+          },
+          {
+            "start": 1.78,
+            "end": 1.98,
+            "word": " for",
+            "probability": 0.99608
+          },
+          {
+            "start": 1.98,
+            "end": 2.16,
+            "word": " my",
+            "probability": 0.99731
+          },
+          {
+            "start": 2.16,
+            "end": 2.52,
+            "word": " next",
+            "probability": 0.99534
+          },
+          {
+            "start": 2.52,
+            "end": 3.0,
+            "word": " holiday.",
+            "probability": 0.97428
+          },
+          {
+            "start": 3.36,
+            "end": 3.74,
+            "word": " This",
+            "probability": 0.8945
+          },
+          {
+            "start": 3.74,
+            "end": 4.0,
+            "word": " time,",
+            "probability": 0.99733
+          },
+          {
+            "start": 4.36,
+            "end": 4.56,
+            "word": " I'm",
+            "probability": 0.98471
+          },
+          {
+            "start": 4.56,
+            "end": 4.82,
+            "word": " heading",
+            "probability": 0.98958
+          },
+          {
+            "start": 4.82,
+            "end": 5.16,
+            "word": " to",
+            "probability": 0.9942
+          },
+          {
+            "start": 5.16,
+            "end": 5.26,
+            "word": " the",
+            "probability": 0.98257
+          },
+          {
+            "start": 5.26,
+            "end": 5.6,
+            "word": " south,",
+            "probability": 0.84594
+          },
+          {
+            "start": 5.96,
+            "end": 6.06,
+            "word": " where",
+            "probability": 0.97574
+          },
+          {
+            "start": 6.06,
+            "end": 6.2,
+            "word": " the",
+            "probability": 0.99773
+          },
+          {
+            "start": 6.2,
+            "end": 6.52,
+            "word": " mountains",
+            "probability": 0.97853
+          }
+        ]
+      },
+      {
+        "start": 6.52,
+        "end": 11.72,
+        "text": "are. I've never been there before, but I've heard it's beautiful. I'm looking forward",
+        "words": [
+          {
+            "start": 6.52,
+            "end": 6.94,
+            "word": " are.",
+            "probability": 0.99838
+          },
+          {
+            "start": 7.36,
+            "end": 7.62,
+            "word": " I've",
+            "probability": 0.99144
+          },
+          {
+            "start": 7.62,
+            "end": 7.78,
+            "word": " never",
+            "probability": 0.99741
+          },
+          {
+            "start": 7.78,
+            "end": 8.04,
+            "word": " been",
+            "probability": 0.99823
+          },
+          {
+            "start": 8.04,
+            "end": 8.24,
+            "word": " there",
+            "probability": 0.99937
+          },
+          {
+            "start": 8.24,
+            "end": 8.58,
+            "word": " before,",
+            "probability": 0.99918
+          },
+          {
+            "start": 8.98,
+            "end": 9.12,
+            "word": " but",
+            "probability": 0.99397
+          },
+          {
+            "start": 9.12,
+            "end": 9.38,
+            "word": " I've",
+            "probability": 0.99618
+          },
+          {
+            "start": 9.38,
+            "end": 9.54,
+            "word": " heard",
+            "probability": 0.98851
+          },
+          {
+            "start": 9.54,
+            "end": 9.82,
+            "word": " it's",
+            "probability": 0.90313
+          },
+          {
+            "start": 9.82,
+            "end": 10.08,
+            "word": " beautiful.",
+            "probability": 0.94641
+          },
+          {
+            "start": 10.88,
+            "end": 11.14,
+            "word": " I'm",
+            "probability": 0.99572
+          },
+          {
+            "start": 11.14,
+            "end": 11.32,
+            "word": " looking",
+            "probability": 0.99758
+          },
+          {
+            "start": 11.32,
+            "end": 11.72,
+            "word": " forward",
+            "probability": 0.99697
+          }
+        ]
+      },
+      {
+        "start": 11.72,
+        "end": 16.72,
+        "text": "to hiking and seeing the snow covered beaks. It's going to be an ice change from the city.",
+        "words": [
+          {
+            "start": 11.72,
+            "end": 11.96,
+            "word": " to",
+            "probability": 0.99893
+          },
+          {
+            "start": 11.96,
+            "end": 12.24,
+            "word": " hiking",
+            "probability": 0.76575
+          },
+          {
+            "start": 12.24,
+            "end": 12.54,
+            "word": " and",
+            "probability": 0.99362
+          },
+          {
+            "start": 12.54,
+            "end": 12.86,
+            "word": " seeing",
+            "probability": 0.99554
+          },
+          {
+            "start": 12.86,
+            "end": 13.04,
+            "word": " the",
+            "probability": 0.99697
+          },
+          {
+            "start": 13.04,
+            "end": 13.32,
+            "word": " snow",
+            "probability": 0.98051
+          },
+          {
+            "start": 13.32,
+            "end": 13.62,
+            "word": " covered",
+            "probability": 0.62878
+          },
+          {
+            "start": 13.62,
+            "end": 14.06,
+            "word": " beaks.",
+            "probability": 0.89816
+          },
+          {
+            "start": 14.5,
+            "end": 14.72,
+            "word": " It's",
+            "probability": 0.98857
+          },
+          {
+            "start": 14.72,
+            "end": 14.94,
+            "word": " going",
+            "probability": 0.99822
+          },
+          {
+            "start": 14.94,
+            "end": 15.12,
+            "word": " to",
+            "probability": 0.99946
+          },
+          {
+            "start": 15.12,
+            "end": 15.3,
+            "word": " be",
+            "probability": 0.99902
+          },
+          {
+            "start": 15.3,
+            "end": 15.5,
+            "word": " an",
+            "probability": 0.88577
+          },
+          {
+            "start": 15.5,
+            "end": 15.66,
+            "word": " ice",
+            "probability": 0.9538
+          },
+          {
+            "start": 15.66,
+            "end": 15.94,
+            "word": " change",
+            "probability": 0.50989
+          },
+          {
+            "start": 15.94,
+            "end": 16.26,
+            "word": " from",
+            "probability": 0.99747
+          },
+          {
+            "start": 16.26,
+            "end": 16.4,
+            "word": " the",
+            "probability": 0.9955
+          },
+          {
+            "start": 16.4,
+            "end": 16.72,
+            "word": " city.",
+            "probability": 0.99033
+          }
+        ]
+      },
+      {
+        "start": 17.18,
+        "end": 25.33,
+        "text": "Hopefully, the weather will be perfect. I can't wait for my next holiday. This time,",
+        "words": [
+          {
+            "start": 17.18,
+            "end": 17.72,
+            "word": " Hopefully,",
+            "probability": 0.98345
+          },
+          {
+            "start": 18.12,
+            "end": 18.2,
+            "word": " the",
+            "probability": 0.99523
+          },
+          {
+            "start": 18.2,
+            "end": 18.44,
+            "word": " weather",
+            "probability": 0.99927
+          },
+          {
+            "start": 18.44,
+            "end": 18.64,
+            "word": " will",
+            "probability": 0.99665
+          },
+          {
+            "start": 18.64,
+            "end": 18.78,
+            "word": " be",
+            "probability": 0.99895
+          },
+          {
+            "start": 18.78,
+            "end": 19.18,
+            "word": " perfect.",
+            "probability": 0.99868
+          },
+          {
+            "start": 22.17,
+            "end": 22.53,
+            "word": " I",
+            "probability": 0.9774
+          },
+          {
+            "start": 22.53,
+            "end": 22.91,
+            "word": " can't",
+            "probability": 0.99727
+          },
+          {
+            "start": 22.91,
+            "end": 23.09,
+            "word": " wait",
+            "probability": 0.99914
+          },
+          {
+            "start": 23.09,
+            "end": 23.29,
+            "word": " for",
+            "probability": 0.99945
+          },
+          {
+            "start": 23.29,
+            "end": 23.45,
+            "word": " my",
+            "probability": 0.99969
+          },
+          {
+            "start": 23.45,
+            "end": 23.79,
+            "word": " next",
+            "probability": 0.99964
+          },
+          {
+            "start": 23.79,
+            "end": 24.29,
+            "word": " holiday.",
+            "probability": 0.99626
+          },
+          {
+            "start": 24.85,
+            "end": 25.03,
+            "word": " This",
+            "probability": 0.9805
+          },
+          {
+            "start": 25.03,
+            "end": 25.33,
+            "word": " time,",
+            "probability": 0.99907
+          }
+        ]
+      },
+      {
+        "start": 25.63,
+        "end": 30.69,
+        "text": "I'm heading to the south, where the mountains are. I've never been there before, but I've",
+        "words": [
+          {
+            "start": 25.63,
+            "end": 25.87,
+            "word": " I'm",
+            "probability": 0.9983
+          },
+          {
+            "start": 25.87,
+            "end": 26.13,
+            "word": " heading",
+            "probability": 0.99894
+          },
+          {
+            "start": 26.13,
+            "end": 26.45,
+            "word": " to",
+            "probability": 0.99884
+          },
+          {
+            "start": 26.45,
+            "end": 26.57,
+            "word": " the",
+            "probability": 0.99864
+          },
+          {
+            "start": 26.57,
+            "end": 27.01,
+            "word": " south,",
+            "probability": 0.9953
+          },
+          {
+            "start": 27.27,
+            "end": 27.37,
+            "word": " where",
+            "probability": 0.99378
+          },
+          {
+            "start": 27.37,
+            "end": 27.49,
+            "word": " the",
+            "probability": 0.99859
+          },
+          {
+            "start": 27.49,
+            "end": 27.97,
+            "word": " mountains",
+            "probability": 0.99395
+          },
+          {
+            "start": 27.97,
+            "end": 28.25,
+            "word": " are.",
+            "probability": 0.99934
+          },
+          {
+            "start": 28.77,
+            "end": 28.91,
+            "word": " I've",
+            "probability": 0.99739
+          },
+          {
+            "start": 28.91,
+            "end": 29.09,
+            "word": " never",
+            "probability": 0.99824
+          },
+          {
+            "start": 29.09,
+            "end": 29.33,
+            "word": " been",
+            "probability": 0.99898
+          },
+          {
+            "start": 29.33,
+            "end": 29.53,
+            "word": " there",
+            "probability": 0.99928
+          },
+          {
+            "start": 29.53,
+            "end": 29.91,
+            "word": " before,",
+            "probability": 0.99962
+          },
+          {
+            "start": 30.29,
+            "end": 30.41,
+            "word": " but",
+            "probability": 0.99639
+          },
+          {
+            "start": 30.41,
+            "end": 30.69,
+            "word": " I've",
+            "probability": 0.99629
+          }
+        ]
+      },
+      {
+        "start": 30.69,
+        "end": 36.25,
+        "text": "it's beautiful. I'm looking forward to hacking and seeing the snow covered beaks. It's going",
+        "words": [
+          {
+            "start": 30.69,
+            "end": 31.09,
+            "word": " it's",
+            "probability": 0.5736
+          },
+          {
+            "start": 31.09,
+            "end": 31.59,
+            "word": " beautiful.",
+            "probability": 0.97368
+          },
+          {
+            "start": 32.17,
+            "end": 32.43,
+            "word": " I'm",
+            "probability": 0.96124
+          },
+          {
+            "start": 32.43,
+            "end": 32.65,
+            "word": " looking",
+            "probability": 0.99767
+          },
+          {
+            "start": 32.65,
+            "end": 33.03,
+            "word": " forward",
+            "probability": 0.99757
+          },
+          {
+            "start": 33.03,
+            "end": 33.27,
+            "word": " to",
+            "probability": 0.99932
+          },
+          {
+            "start": 33.27,
+            "end": 33.53,
+            "word": " hacking",
+            "probability": 0.32204
+          },
+          {
+            "start": 33.53,
+            "end": 33.83,
+            "word": " and",
+            "probability": 0.99461
+          },
+          {
+            "start": 33.83,
+            "end": 34.15,
+            "word": " seeing",
+            "probability": 0.99841
+          },
+          {
+            "start": 34.15,
+            "end": 34.35,
+            "word": " the",
+            "probability": 0.99608
+          },
+          {
+            "start": 34.35,
+            "end": 34.63,
+            "word": " snow",
+            "probability": 0.95469
+          },
+          {
+            "start": 34.63,
+            "end": 34.93,
+            "word": " covered",
+            "probability": 0.79566
+          },
+          {
+            "start": 34.93,
+            "end": 35.39,
+            "word": " beaks.",
+            "probability": 0.9295
+          },
+          {
+            "start": 35.77,
+            "end": 36.03,
+            "word": " It's",
+            "probability": 0.95821
+          },
+          {
+            "start": 36.03,
+            "end": 36.25,
+            "word": " going",
+            "probability": 0.99884
+          }
+        ]
+      },
+      {
+        "start": 36.25,
+        "end": 40.49,
+        "text": "to be an ice change from the city. Hopefully, the weather will be perfect.",
+        "words": [
+          {
+            "start": 36.25,
+            "end": 36.43,
+            "word": " to",
+            "probability": 0.99953
+          },
+          {
+            "start": 36.43,
+            "end": 36.59,
+            "word": " be",
+            "probability": 0.99913
+          },
+          {
+            "start": 36.59,
+            "end": 36.79,
+            "word": " an",
+            "probability": 0.58972
+          },
+          {
+            "start": 36.79,
+            "end": 36.95,
+            "word": " ice",
+            "probability": 0.9523
+          },
+          {
+            "start": 36.95,
+            "end": 37.27,
+            "word": " change",
+            "probability": 0.74756
+          },
+          {
+            "start": 37.27,
+            "end": 37.55,
+            "word": " from",
+            "probability": 0.99703
+          },
+          {
+            "start": 37.55,
+            "end": 37.71,
+            "word": " the",
+            "probability": 0.99743
+          },
+          {
+            "start": 37.71,
+            "end": 38.03,
+            "word": " city.",
+            "probability": 0.98271
+          },
+          {
+            "start": 38.51,
+            "end": 39.03,
+            "word": " Hopefully,",
+            "probability": 0.97433
+          },
+          {
+            "start": 39.41,
+            "end": 39.49,
+            "word": " the",
+            "probability": 0.99169
+          },
+          {
+            "start": 39.49,
+            "end": 39.75,
+            "word": " weather",
+            "probability": 0.99823
+          },
+          {
+            "start": 39.75,
+            "end": 39.93,
+            "word": " will",
+            "probability": 0.9959
+          },
+          {
+            "start": 39.93,
+            "end": 40.09,
+            "word": " be",
+            "probability": 0.99931
+          },
+          {
+            "start": 40.09,
+            "end": 40.49,
+            "word": " perfect.",
+            "probability": 0.99735
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q03",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 55,
+            "speechStart": 0.78,
+            "speechEnd": 19.18,
+            "sourceTokenCoverage": 0.9636,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9636,
+            "transcript": "i can't wait for my next holiday this time i'm heading to the south where the mountains are i've never been there before but i've heard it's beautiful i'm looking forward to hiking and seeing the snow covered beaks it's going to be an ice change from the city hopefully the weather will be perfect",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 55,
+            "wordEndIndexExclusive": 109,
+            "speechStart": 22.17,
+            "speechEnd": 40.49,
+            "sourceTokenCoverage": 0.9273,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9358,
+            "transcript": "i can't wait for my next holiday this time i'm heading to the south where the mountains are i've never been there before but i've it's beautiful i'm looking forward to hacking and seeing the snow covered beaks it's going to be an ice change from the city hopefully the weather will be perfect",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

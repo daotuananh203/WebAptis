@@ -1,0 +1,1025 @@
+{
+  "testId": "aptis-b2-11",
+  "blockId": "p1-q04",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-11/part-1/q04.mp3",
+  "audioSha256": "5d8dc56b769c7103cd0ccae44dbc640ced30576251db506c4a20001a7f562b05",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 2.61,
+        "text": "I've been having a tough time lately.",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.27,
+            "word": " I've",
+            "probability": 0.87667
+          },
+          {
+            "start": 1.27,
+            "end": 1.37,
+            "word": " been",
+            "probability": 0.9965
+          },
+          {
+            "start": 1.37,
+            "end": 1.61,
+            "word": " having",
+            "probability": 0.99462
+          },
+          {
+            "start": 1.61,
+            "end": 1.75,
+            "word": " a",
+            "probability": 0.9982
+          },
+          {
+            "start": 1.75,
+            "end": 1.95,
+            "word": " tough",
+            "probability": 0.99635
+          },
+          {
+            "start": 1.95,
+            "end": 2.25,
+            "word": " time",
+            "probability": 0.98696
+          },
+          {
+            "start": 2.25,
+            "end": 2.61,
+            "word": " lately.",
+            "probability": 0.99518
+          }
+        ]
+      },
+      {
+        "start": 3.5,
+        "end": 8.06,
+        "text": "I really want to move abroad for a new job, but my family isn't on board with it.",
+        "words": [
+          {
+            "start": 3.5,
+            "end": 3.84,
+            "word": " I",
+            "probability": 0.9963
+          },
+          {
+            "start": 3.84,
+            "end": 4.06,
+            "word": " really",
+            "probability": 0.99694
+          },
+          {
+            "start": 4.06,
+            "end": 4.32,
+            "word": " want",
+            "probability": 0.99491
+          },
+          {
+            "start": 4.32,
+            "end": 4.48,
+            "word": " to",
+            "probability": 0.99851
+          },
+          {
+            "start": 4.48,
+            "end": 4.66,
+            "word": " move",
+            "probability": 0.99543
+          },
+          {
+            "start": 4.66,
+            "end": 4.96,
+            "word": " abroad",
+            "probability": 0.97239
+          },
+          {
+            "start": 4.96,
+            "end": 5.28,
+            "word": " for",
+            "probability": 0.99848
+          },
+          {
+            "start": 5.28,
+            "end": 5.38,
+            "word": " a",
+            "probability": 0.99837
+          },
+          {
+            "start": 5.38,
+            "end": 5.54,
+            "word": " new",
+            "probability": 0.99794
+          },
+          {
+            "start": 5.54,
+            "end": 5.84,
+            "word": " job,",
+            "probability": 0.9997
+          },
+          {
+            "start": 6.22,
+            "end": 6.34,
+            "word": " but",
+            "probability": 0.99636
+          },
+          {
+            "start": 6.34,
+            "end": 6.5,
+            "word": " my",
+            "probability": 0.99838
+          },
+          {
+            "start": 6.5,
+            "end": 6.86,
+            "word": " family",
+            "probability": 0.99763
+          },
+          {
+            "start": 6.86,
+            "end": 7.28,
+            "word": " isn't",
+            "probability": 0.99841
+          },
+          {
+            "start": 7.28,
+            "end": 7.4,
+            "word": " on",
+            "probability": 0.97542
+          },
+          {
+            "start": 7.4,
+            "end": 7.64,
+            "word": " board",
+            "probability": 0.99556
+          },
+          {
+            "start": 7.64,
+            "end": 7.9,
+            "word": " with",
+            "probability": 0.99922
+          },
+          {
+            "start": 7.9,
+            "end": 8.06,
+            "word": " it.",
+            "probability": 0.99696
+          }
+        ]
+      },
+      {
+        "start": 8.86,
+        "end": 12.88,
+        "text": "They're worried about me leaving and don't understand why I want to go so far away.",
+        "words": [
+          {
+            "start": 8.86,
+            "end": 9.2,
+            "word": " They're",
+            "probability": 0.99065
+          },
+          {
+            "start": 9.2,
+            "end": 9.46,
+            "word": " worried",
+            "probability": 0.99889
+          },
+          {
+            "start": 9.46,
+            "end": 9.7,
+            "word": " about",
+            "probability": 0.99938
+          },
+          {
+            "start": 9.7,
+            "end": 9.9,
+            "word": " me",
+            "probability": 0.99921
+          },
+          {
+            "start": 9.9,
+            "end": 10.2,
+            "word": " leaving",
+            "probability": 0.9933
+          },
+          {
+            "start": 10.2,
+            "end": 10.44,
+            "word": " and",
+            "probability": 0.89385
+          },
+          {
+            "start": 10.44,
+            "end": 10.7,
+            "word": " don't",
+            "probability": 0.99886
+          },
+          {
+            "start": 10.7,
+            "end": 11.16,
+            "word": " understand",
+            "probability": 0.99806
+          },
+          {
+            "start": 11.16,
+            "end": 11.52,
+            "word": " why",
+            "probability": 0.99836
+          },
+          {
+            "start": 11.52,
+            "end": 11.64,
+            "word": " I",
+            "probability": 0.9941
+          },
+          {
+            "start": 11.64,
+            "end": 11.78,
+            "word": " want",
+            "probability": 0.99632
+          },
+          {
+            "start": 11.78,
+            "end": 11.92,
+            "word": " to",
+            "probability": 0.99832
+          },
+          {
+            "start": 11.92,
+            "end": 12.06,
+            "word": " go",
+            "probability": 0.99371
+          },
+          {
+            "start": 12.06,
+            "end": 12.3,
+            "word": " so",
+            "probability": 0.99832
+          },
+          {
+            "start": 12.3,
+            "end": 12.58,
+            "word": " far",
+            "probability": 0.99936
+          },
+          {
+            "start": 12.58,
+            "end": 12.88,
+            "word": " away.",
+            "probability": 0.99909
+          }
+        ]
+      },
+      {
+        "start": 13.84,
+        "end": 17.78,
+        "text": "I've tried to explain all the benefits, but they just don't seem to get it.",
+        "words": [
+          {
+            "start": 13.84,
+            "end": 14.2,
+            "word": " I've",
+            "probability": 0.99203
+          },
+          {
+            "start": 14.2,
+            "end": 14.38,
+            "word": " tried",
+            "probability": 0.98526
+          },
+          {
+            "start": 14.38,
+            "end": 14.58,
+            "word": " to",
+            "probability": 0.99943
+          },
+          {
+            "start": 14.58,
+            "end": 14.92,
+            "word": " explain",
+            "probability": 0.998
+          },
+          {
+            "start": 14.92,
+            "end": 15.32,
+            "word": " all",
+            "probability": 0.99684
+          },
+          {
+            "start": 15.32,
+            "end": 15.46,
+            "word": " the",
+            "probability": 0.99383
+          },
+          {
+            "start": 15.46,
+            "end": 15.88,
+            "word": " benefits,",
+            "probability": 0.99941
+          },
+          {
+            "start": 16.3,
+            "end": 16.42,
+            "word": " but",
+            "probability": 0.99882
+          },
+          {
+            "start": 16.42,
+            "end": 16.58,
+            "word": " they",
+            "probability": 0.99804
+          },
+          {
+            "start": 16.58,
+            "end": 16.78,
+            "word": " just",
+            "probability": 0.99627
+          },
+          {
+            "start": 16.78,
+            "end": 17.06,
+            "word": " don't",
+            "probability": 0.99924
+          },
+          {
+            "start": 17.06,
+            "end": 17.28,
+            "word": " seem",
+            "probability": 0.99944
+          },
+          {
+            "start": 17.28,
+            "end": 17.44,
+            "word": " to",
+            "probability": 0.99942
+          },
+          {
+            "start": 17.44,
+            "end": 17.6,
+            "word": " get",
+            "probability": 0.99919
+          },
+          {
+            "start": 17.6,
+            "end": 17.78,
+            "word": " it.",
+            "probability": 0.99938
+          }
+        ]
+      },
+      {
+        "start": 18.53,
+        "end": 22.89,
+        "text": "It's really frustrating because I want their support, but it feels like I'm not getting",
+        "words": [
+          {
+            "start": 18.53,
+            "end": 18.95,
+            "word": " It's",
+            "probability": 0.99592
+          },
+          {
+            "start": 18.95,
+            "end": 19.21,
+            "word": " really",
+            "probability": 0.99544
+          },
+          {
+            "start": 19.21,
+            "end": 19.73,
+            "word": " frustrating",
+            "probability": 0.99914
+          },
+          {
+            "start": 19.73,
+            "end": 20.19,
+            "word": " because",
+            "probability": 0.92683
+          },
+          {
+            "start": 20.19,
+            "end": 20.37,
+            "word": " I",
+            "probability": 0.99875
+          },
+          {
+            "start": 20.37,
+            "end": 20.55,
+            "word": " want",
+            "probability": 0.99832
+          },
+          {
+            "start": 20.55,
+            "end": 20.71,
+            "word": " their",
+            "probability": 0.99814
+          },
+          {
+            "start": 20.71,
+            "end": 21.07,
+            "word": " support,",
+            "probability": 0.99966
+          },
+          {
+            "start": 21.49,
+            "end": 21.65,
+            "word": " but",
+            "probability": 0.99867
+          },
+          {
+            "start": 21.65,
+            "end": 21.75,
+            "word": " it",
+            "probability": 0.99806
+          },
+          {
+            "start": 21.75,
+            "end": 22.03,
+            "word": " feels",
+            "probability": 0.99867
+          },
+          {
+            "start": 22.03,
+            "end": 22.27,
+            "word": " like",
+            "probability": 0.99956
+          },
+          {
+            "start": 22.27,
+            "end": 22.49,
+            "word": " I'm",
+            "probability": 0.99758
+          },
+          {
+            "start": 22.49,
+            "end": 22.61,
+            "word": " not",
+            "probability": 0.99584
+          },
+          {
+            "start": 22.61,
+            "end": 22.89,
+            "word": " getting",
+            "probability": 0.99806
+          }
+        ]
+      },
+      {
+        "start": 22.89,
+        "end": 23.49,
+        "text": "through to them.",
+        "words": [
+          {
+            "start": 22.89,
+            "end": 23.13,
+            "word": " through",
+            "probability": 0.99638
+          },
+          {
+            "start": 23.13,
+            "end": 23.33,
+            "word": " to",
+            "probability": 0.99737
+          },
+          {
+            "start": 23.33,
+            "end": 23.49,
+            "word": " them.",
+            "probability": 0.99874
+          }
+        ]
+      },
+      {
+        "start": 29.06,
+        "end": 30.7,
+        "text": "I've been having a tough time lately.",
+        "words": [
+          {
+            "start": 29.06,
+            "end": 29.38,
+            "word": " I've",
+            "probability": 0.996
+          },
+          {
+            "start": 29.38,
+            "end": 29.48,
+            "word": " been",
+            "probability": 0.99807
+          },
+          {
+            "start": 29.48,
+            "end": 29.72,
+            "word": " having",
+            "probability": 0.99798
+          },
+          {
+            "start": 29.72,
+            "end": 29.86,
+            "word": " a",
+            "probability": 0.99895
+          },
+          {
+            "start": 29.86,
+            "end": 30.04,
+            "word": " tough",
+            "probability": 0.99892
+          },
+          {
+            "start": 30.04,
+            "end": 30.34,
+            "word": " time",
+            "probability": 0.99495
+          },
+          {
+            "start": 30.34,
+            "end": 30.7,
+            "word": " lately.",
+            "probability": 0.99852
+          }
+        ]
+      },
+      {
+        "start": 30.7,
+        "end": 36.18,
+        "text": "I really want to move abroad for a new job, but my family isn't on board with it.",
+        "words": [
+          {
+            "start": 30.7,
+            "end": 31.12,
+            "word": " I",
+            "probability": 0.57315
+          },
+          {
+            "start": 31.34,
+            "end": 32.14,
+            "word": " really",
+            "probability": 0.95265
+          },
+          {
+            "start": 32.14,
+            "end": 32.44,
+            "word": " want",
+            "probability": 0.98905
+          },
+          {
+            "start": 32.44,
+            "end": 32.58,
+            "word": " to",
+            "probability": 0.99746
+          },
+          {
+            "start": 32.58,
+            "end": 32.76,
+            "word": " move",
+            "probability": 0.99489
+          },
+          {
+            "start": 32.76,
+            "end": 33.08,
+            "word": " abroad",
+            "probability": 0.94934
+          },
+          {
+            "start": 33.08,
+            "end": 33.38,
+            "word": " for",
+            "probability": 0.9987
+          },
+          {
+            "start": 33.38,
+            "end": 33.48,
+            "word": " a",
+            "probability": 0.99863
+          },
+          {
+            "start": 33.48,
+            "end": 33.64,
+            "word": " new",
+            "probability": 0.9977
+          },
+          {
+            "start": 33.64,
+            "end": 33.94,
+            "word": " job,",
+            "probability": 0.99966
+          },
+          {
+            "start": 34.34,
+            "end": 34.44,
+            "word": " but",
+            "probability": 0.99531
+          },
+          {
+            "start": 34.44,
+            "end": 34.58,
+            "word": " my",
+            "probability": 0.99868
+          },
+          {
+            "start": 34.58,
+            "end": 34.96,
+            "word": " family",
+            "probability": 0.99763
+          },
+          {
+            "start": 34.96,
+            "end": 35.36,
+            "word": " isn't",
+            "probability": 0.99631
+          },
+          {
+            "start": 35.36,
+            "end": 35.5,
+            "word": " on",
+            "probability": 0.97809
+          },
+          {
+            "start": 35.5,
+            "end": 35.74,
+            "word": " board",
+            "probability": 0.99664
+          },
+          {
+            "start": 35.74,
+            "end": 35.96,
+            "word": " with",
+            "probability": 0.9993
+          },
+          {
+            "start": 35.96,
+            "end": 36.18,
+            "word": " it.",
+            "probability": 0.99816
+          }
+        ]
+      },
+      {
+        "start": 37.0,
+        "end": 40.98,
+        "text": "They're worried about me leaving and don't understand why I want to go so far away.",
+        "words": [
+          {
+            "start": 37.0,
+            "end": 37.3,
+            "word": " They're",
+            "probability": 0.99029
+          },
+          {
+            "start": 37.3,
+            "end": 37.56,
+            "word": " worried",
+            "probability": 0.99844
+          },
+          {
+            "start": 37.56,
+            "end": 37.82,
+            "word": " about",
+            "probability": 0.99945
+          },
+          {
+            "start": 37.82,
+            "end": 38.0,
+            "word": " me",
+            "probability": 0.99912
+          },
+          {
+            "start": 38.0,
+            "end": 38.3,
+            "word": " leaving",
+            "probability": 0.99313
+          },
+          {
+            "start": 38.3,
+            "end": 38.56,
+            "word": " and",
+            "probability": 0.80943
+          },
+          {
+            "start": 38.56,
+            "end": 38.8,
+            "word": " don't",
+            "probability": 0.99846
+          },
+          {
+            "start": 38.8,
+            "end": 39.26,
+            "word": " understand",
+            "probability": 0.99786
+          },
+          {
+            "start": 39.26,
+            "end": 39.62,
+            "word": " why",
+            "probability": 0.99895
+          },
+          {
+            "start": 39.62,
+            "end": 39.76,
+            "word": " I",
+            "probability": 0.99552
+          },
+          {
+            "start": 39.76,
+            "end": 39.9,
+            "word": " want",
+            "probability": 0.9964
+          },
+          {
+            "start": 39.9,
+            "end": 40.04,
+            "word": " to",
+            "probability": 0.99799
+          },
+          {
+            "start": 40.04,
+            "end": 40.16,
+            "word": " go",
+            "probability": 0.99301
+          },
+          {
+            "start": 40.16,
+            "end": 40.42,
+            "word": " so",
+            "probability": 0.99697
+          },
+          {
+            "start": 40.42,
+            "end": 40.68,
+            "word": " far",
+            "probability": 0.99923
+          },
+          {
+            "start": 40.68,
+            "end": 40.98,
+            "word": " away.",
+            "probability": 0.99918
+          }
+        ]
+      },
+      {
+        "start": 41.9,
+        "end": 45.96,
+        "text": "I've tried to explain all the benefits, but they just don't seem to get it.",
+        "words": [
+          {
+            "start": 41.9,
+            "end": 42.3,
+            "word": " I've",
+            "probability": 0.99439
+          },
+          {
+            "start": 42.3,
+            "end": 42.48,
+            "word": " tried",
+            "probability": 0.99705
+          },
+          {
+            "start": 42.48,
+            "end": 42.68,
+            "word": " to",
+            "probability": 0.99906
+          },
+          {
+            "start": 42.68,
+            "end": 43.04,
+            "word": " explain",
+            "probability": 0.99804
+          },
+          {
+            "start": 43.04,
+            "end": 43.42,
+            "word": " all",
+            "probability": 0.99036
+          },
+          {
+            "start": 43.42,
+            "end": 43.58,
+            "word": " the",
+            "probability": 0.99247
+          },
+          {
+            "start": 43.58,
+            "end": 43.98,
+            "word": " benefits,",
+            "probability": 0.99929
+          },
+          {
+            "start": 44.44,
+            "end": 44.54,
+            "word": " but",
+            "probability": 0.99805
+          },
+          {
+            "start": 44.54,
+            "end": 44.7,
+            "word": " they",
+            "probability": 0.99794
+          },
+          {
+            "start": 44.7,
+            "end": 44.92,
+            "word": " just",
+            "probability": 0.99393
+          },
+          {
+            "start": 44.92,
+            "end": 45.22,
+            "word": " don't",
+            "probability": 0.9991
+          },
+          {
+            "start": 45.22,
+            "end": 45.42,
+            "word": " seem",
+            "probability": 0.99933
+          },
+          {
+            "start": 45.42,
+            "end": 45.6,
+            "word": " to",
+            "probability": 0.99817
+          },
+          {
+            "start": 45.6,
+            "end": 45.76,
+            "word": " get",
+            "probability": 0.99924
+          },
+          {
+            "start": 45.76,
+            "end": 45.96,
+            "word": " it.",
+            "probability": 0.99942
+          }
+        ]
+      },
+      {
+        "start": 46.69,
+        "end": 51.11,
+        "text": "It's really frustrating because I want their support, but it feels like I'm not getting",
+        "words": [
+          {
+            "start": 46.69,
+            "end": 47.13,
+            "word": " It's",
+            "probability": 0.99508
+          },
+          {
+            "start": 47.13,
+            "end": 47.39,
+            "word": " really",
+            "probability": 0.99074
+          },
+          {
+            "start": 47.39,
+            "end": 47.95,
+            "word": " frustrating",
+            "probability": 0.99932
+          },
+          {
+            "start": 47.95,
+            "end": 48.37,
+            "word": " because",
+            "probability": 0.90828
+          },
+          {
+            "start": 48.37,
+            "end": 48.55,
+            "word": " I",
+            "probability": 0.99853
+          },
+          {
+            "start": 48.55,
+            "end": 48.73,
+            "word": " want",
+            "probability": 0.99842
+          },
+          {
+            "start": 48.73,
+            "end": 48.91,
+            "word": " their",
+            "probability": 0.99838
+          },
+          {
+            "start": 48.91,
+            "end": 49.27,
+            "word": " support,",
+            "probability": 0.99967
+          },
+          {
+            "start": 49.73,
+            "end": 49.85,
+            "word": " but",
+            "probability": 0.99782
+          },
+          {
+            "start": 49.85,
+            "end": 49.95,
+            "word": " it",
+            "probability": 0.99842
+          },
+          {
+            "start": 49.95,
+            "end": 50.21,
+            "word": " feels",
+            "probability": 0.99822
+          },
+          {
+            "start": 50.21,
+            "end": 50.49,
+            "word": " like",
+            "probability": 0.99886
+          },
+          {
+            "start": 50.49,
+            "end": 50.71,
+            "word": " I'm",
+            "probability": 0.99748
+          },
+          {
+            "start": 50.71,
+            "end": 50.85,
+            "word": " not",
+            "probability": 0.99494
+          },
+          {
+            "start": 50.85,
+            "end": 51.11,
+            "word": " getting",
+            "probability": 0.99825
+          }
+        ]
+      },
+      {
+        "start": 51.11,
+        "end": 51.75,
+        "text": "through to them.",
+        "words": [
+          {
+            "start": 51.11,
+            "end": 51.37,
+            "word": " through",
+            "probability": 0.99463
+          },
+          {
+            "start": 51.37,
+            "end": 51.55,
+            "word": " to",
+            "probability": 0.99694
+          },
+          {
+            "start": 51.55,
+            "end": 51.75,
+            "word": " them.",
+            "probability": 0.99786
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q04",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 74,
+            "speechStart": 0.75,
+            "speechEnd": 23.49,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i've been having a tough time lately i really want to move abroad for a new job but my family isn't on board with it they're worried about me leaving and don't understand why i want to go so far away i've tried to explain all the benefits but they just don't seem to get it it's really frustrating because i want their support but it feels like i'm not getting through to them",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 74,
+            "wordEndIndexExclusive": 148,
+            "speechStart": 29.06,
+            "speechEnd": 51.75,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i've been having a tough time lately i really want to move abroad for a new job but my family isn't on board with it they're worried about me leaving and don't understand why i want to go so far away i've tried to explain all the benefits but they just don't seem to get it it's really frustrating because i want their support but it feels like i'm not getting through to them",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

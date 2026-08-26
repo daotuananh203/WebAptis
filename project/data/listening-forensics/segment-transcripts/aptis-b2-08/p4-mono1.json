@@ -1,0 +1,1866 @@
+{
+  "testId": "aptis-b2-08",
+  "blockId": "p4-mono1",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-08/part-4/mono1.mp3",
+  "audioSha256": "43655c728d82b5cec6747965ab8ca38acbbf844006a98745110e7a437b4def20",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.85,
+        "end": 5.61,
+        "text": "Ladies and gentlemen of the press, thank you for joining us today to discuss our regional",
+        "words": [
+          {
+            "start": 0.85,
+            "end": 1.45,
+            "word": " Ladies",
+            "probability": 0.55769
+          },
+          {
+            "start": 1.45,
+            "end": 1.69,
+            "word": " and",
+            "probability": 0.99708
+          },
+          {
+            "start": 1.69,
+            "end": 1.89,
+            "word": " gentlemen",
+            "probability": 0.93203
+          },
+          {
+            "start": 1.89,
+            "end": 2.11,
+            "word": " of",
+            "probability": 0.96139
+          },
+          {
+            "start": 2.11,
+            "end": 2.21,
+            "word": " the",
+            "probability": 0.99238
+          },
+          {
+            "start": 2.21,
+            "end": 2.47,
+            "word": " press,",
+            "probability": 0.88394
+          },
+          {
+            "start": 3.17,
+            "end": 3.45,
+            "word": " thank",
+            "probability": 0.94837
+          },
+          {
+            "start": 3.45,
+            "end": 3.59,
+            "word": " you",
+            "probability": 0.99702
+          },
+          {
+            "start": 3.59,
+            "end": 3.69,
+            "word": " for",
+            "probability": 0.99606
+          },
+          {
+            "start": 3.69,
+            "end": 3.95,
+            "word": " joining",
+            "probability": 0.99812
+          },
+          {
+            "start": 3.95,
+            "end": 4.19,
+            "word": " us",
+            "probability": 0.99556
+          },
+          {
+            "start": 4.19,
+            "end": 4.45,
+            "word": " today",
+            "probability": 0.98852
+          },
+          {
+            "start": 4.45,
+            "end": 4.67,
+            "word": " to",
+            "probability": 0.98073
+          },
+          {
+            "start": 4.67,
+            "end": 4.99,
+            "word": " discuss",
+            "probability": 0.9979
+          },
+          {
+            "start": 4.99,
+            "end": 5.25,
+            "word": " our",
+            "probability": 0.99463
+          },
+          {
+            "start": 5.25,
+            "end": 5.61,
+            "word": " regional",
+            "probability": 0.85006
+          }
+        ]
+      },
+      {
+        "start": 5.61,
+        "end": 6.57,
+        "text": "development plan.",
+        "words": [
+          {
+            "start": 5.61,
+            "end": 6.15,
+            "word": " development",
+            "probability": 0.98956
+          },
+          {
+            "start": 6.15,
+            "end": 6.57,
+            "word": " plan.",
+            "probability": 0.99776
+          }
+        ]
+      },
+      {
+        "start": 7.41,
+        "end": 11.77,
+        "text": "As we move forward with this ambitious project, I'd like to address some of the concerns",
+        "words": [
+          {
+            "start": 7.41,
+            "end": 7.73,
+            "word": " As",
+            "probability": 0.99044
+          },
+          {
+            "start": 7.73,
+            "end": 7.85,
+            "word": " we",
+            "probability": 0.99893
+          },
+          {
+            "start": 7.85,
+            "end": 8.07,
+            "word": " move",
+            "probability": 0.99852
+          },
+          {
+            "start": 8.07,
+            "end": 8.47,
+            "word": " forward",
+            "probability": 0.99841
+          },
+          {
+            "start": 8.47,
+            "end": 8.67,
+            "word": " with",
+            "probability": 0.99361
+          },
+          {
+            "start": 8.67,
+            "end": 8.87,
+            "word": " this",
+            "probability": 0.98528
+          },
+          {
+            "start": 8.87,
+            "end": 9.23,
+            "word": " ambitious",
+            "probability": 0.98202
+          },
+          {
+            "start": 9.23,
+            "end": 9.83,
+            "word": " project,",
+            "probability": 0.99759
+          },
+          {
+            "start": 10.11,
+            "end": 10.33,
+            "word": " I'd",
+            "probability": 0.96408
+          },
+          {
+            "start": 10.33,
+            "end": 10.45,
+            "word": " like",
+            "probability": 0.99846
+          },
+          {
+            "start": 10.45,
+            "end": 10.63,
+            "word": " to",
+            "probability": 0.9979
+          },
+          {
+            "start": 10.63,
+            "end": 10.91,
+            "word": " address",
+            "probability": 0.99712
+          },
+          {
+            "start": 10.91,
+            "end": 11.19,
+            "word": " some",
+            "probability": 0.99751
+          },
+          {
+            "start": 11.19,
+            "end": 11.29,
+            "word": " of",
+            "probability": 0.99858
+          },
+          {
+            "start": 11.29,
+            "end": 11.41,
+            "word": " the",
+            "probability": 0.99913
+          },
+          {
+            "start": 11.41,
+            "end": 11.77,
+            "word": " concerns",
+            "probability": 0.99876
+          }
+        ]
+      },
+      {
+        "start": 11.77,
+        "end": 12.85,
+        "text": "that have been raised.",
+        "words": [
+          {
+            "start": 11.77,
+            "end": 12.15,
+            "word": " that",
+            "probability": 0.99694
+          },
+          {
+            "start": 12.15,
+            "end": 12.27,
+            "word": " have",
+            "probability": 0.9924
+          },
+          {
+            "start": 12.27,
+            "end": 12.43,
+            "word": " been",
+            "probability": 0.99837
+          },
+          {
+            "start": 12.43,
+            "end": 12.85,
+            "word": " raised.",
+            "probability": 0.99942
+          }
+        ]
+      },
+      {
+        "start": 14.06,
+        "end": 19.8,
+        "text": "Now I've heard whispers about our plan being too expensive or placing excessive emphasis on",
+        "words": [
+          {
+            "start": 14.06,
+            "end": 14.24,
+            "word": " Now",
+            "probability": 0.96306
+          },
+          {
+            "start": 14.24,
+            "end": 14.48,
+            "word": " I've",
+            "probability": 0.64702
+          },
+          {
+            "start": 14.48,
+            "end": 14.72,
+            "word": " heard",
+            "probability": 0.99824
+          },
+          {
+            "start": 14.72,
+            "end": 15.14,
+            "word": " whispers",
+            "probability": 0.93301
+          },
+          {
+            "start": 15.14,
+            "end": 15.56,
+            "word": " about",
+            "probability": 0.99881
+          },
+          {
+            "start": 15.56,
+            "end": 15.74,
+            "word": " our",
+            "probability": 0.99645
+          },
+          {
+            "start": 15.74,
+            "end": 16.06,
+            "word": " plan",
+            "probability": 0.9936
+          },
+          {
+            "start": 16.06,
+            "end": 16.38,
+            "word": " being",
+            "probability": 0.99594
+          },
+          {
+            "start": 16.38,
+            "end": 16.66,
+            "word": " too",
+            "probability": 0.99316
+          },
+          {
+            "start": 16.66,
+            "end": 17.22,
+            "word": " expensive",
+            "probability": 0.99811
+          },
+          {
+            "start": 17.22,
+            "end": 17.94,
+            "word": " or",
+            "probability": 0.51437
+          },
+          {
+            "start": 17.94,
+            "end": 18.34,
+            "word": " placing",
+            "probability": 0.97702
+          },
+          {
+            "start": 18.34,
+            "end": 19.06,
+            "word": " excessive",
+            "probability": 0.99321
+          },
+          {
+            "start": 19.06,
+            "end": 19.52,
+            "word": " emphasis",
+            "probability": 0.99332
+          },
+          {
+            "start": 19.52,
+            "end": 19.8,
+            "word": " on",
+            "probability": 0.99807
+          }
+        ]
+      },
+      {
+        "start": 19.8,
+        "end": 20.86,
+        "text": "public transportation.",
+        "words": [
+          {
+            "start": 19.8,
+            "end": 20.1,
+            "word": " public",
+            "probability": 0.99931
+          },
+          {
+            "start": 20.1,
+            "end": 20.86,
+            "word": " transportation.",
+            "probability": 0.99866
+          }
+        ]
+      },
+      {
+        "start": 21.66,
+        "end": 25.82,
+        "text": "Let me assure you, these are not accurate representations of our vision.",
+        "words": [
+          {
+            "start": 21.66,
+            "end": 22.02,
+            "word": " Let",
+            "probability": 0.99099
+          },
+          {
+            "start": 22.02,
+            "end": 22.16,
+            "word": " me",
+            "probability": 0.99851
+          },
+          {
+            "start": 22.16,
+            "end": 22.42,
+            "word": " assure",
+            "probability": 0.99812
+          },
+          {
+            "start": 22.42,
+            "end": 22.76,
+            "word": " you,",
+            "probability": 0.99847
+          },
+          {
+            "start": 23.06,
+            "end": 23.34,
+            "word": " these",
+            "probability": 0.99322
+          },
+          {
+            "start": 23.34,
+            "end": 23.48,
+            "word": " are",
+            "probability": 0.99041
+          },
+          {
+            "start": 23.48,
+            "end": 23.68,
+            "word": " not",
+            "probability": 0.99688
+          },
+          {
+            "start": 23.68,
+            "end": 24.22,
+            "word": " accurate",
+            "probability": 0.99707
+          },
+          {
+            "start": 24.22,
+            "end": 24.82,
+            "word": " representations",
+            "probability": 0.99632
+          },
+          {
+            "start": 24.82,
+            "end": 25.34,
+            "word": " of",
+            "probability": 0.99745
+          },
+          {
+            "start": 25.34,
+            "end": 25.48,
+            "word": " our",
+            "probability": 0.99816
+          },
+          {
+            "start": 25.48,
+            "end": 25.82,
+            "word": " vision.",
+            "probability": 0.99831
+          }
+        ]
+      },
+      {
+        "start": 26.89,
+        "end": 31.69,
+        "text": "Our budget has been carefully calculated and we believe it strikes the right balance between",
+        "words": [
+          {
+            "start": 26.89,
+            "end": 27.13,
+            "word": " Our",
+            "probability": 0.99261
+          },
+          {
+            "start": 27.13,
+            "end": 27.47,
+            "word": " budget",
+            "probability": 0.99876
+          },
+          {
+            "start": 27.47,
+            "end": 27.69,
+            "word": " has",
+            "probability": 0.99766
+          },
+          {
+            "start": 27.69,
+            "end": 27.87,
+            "word": " been",
+            "probability": 0.99878
+          },
+          {
+            "start": 27.87,
+            "end": 28.35,
+            "word": " carefully",
+            "probability": 0.99792
+          },
+          {
+            "start": 28.35,
+            "end": 29.15,
+            "word": " calculated",
+            "probability": 0.99657
+          },
+          {
+            "start": 29.15,
+            "end": 29.47,
+            "word": " and",
+            "probability": 0.53386
+          },
+          {
+            "start": 29.47,
+            "end": 29.59,
+            "word": " we",
+            "probability": 0.9985
+          },
+          {
+            "start": 29.59,
+            "end": 29.89,
+            "word": " believe",
+            "probability": 0.99937
+          },
+          {
+            "start": 29.89,
+            "end": 30.05,
+            "word": " it",
+            "probability": 0.99618
+          },
+          {
+            "start": 30.05,
+            "end": 30.37,
+            "word": " strikes",
+            "probability": 0.99636
+          },
+          {
+            "start": 30.37,
+            "end": 30.61,
+            "word": " the",
+            "probability": 0.99814
+          },
+          {
+            "start": 30.61,
+            "end": 30.79,
+            "word": " right",
+            "probability": 0.99771
+          },
+          {
+            "start": 30.79,
+            "end": 31.25,
+            "word": " balance",
+            "probability": 0.99929
+          },
+          {
+            "start": 31.25,
+            "end": 31.69,
+            "word": " between",
+            "probability": 0.99774
+          }
+        ]
+      },
+      {
+        "start": 31.69,
+        "end": 38.62,
+        "text": "fiscal responsibility and necessary improvements. However, I will acknowledge that one of the",
+        "words": [
+          {
+            "start": 31.69,
+            "end": 32.19,
+            "word": " fiscal",
+            "probability": 0.4493
+          },
+          {
+            "start": 32.19,
+            "end": 33.17,
+            "word": " responsibility",
+            "probability": 0.97867
+          },
+          {
+            "start": 33.17,
+            "end": 33.99,
+            "word": " and",
+            "probability": 0.86868
+          },
+          {
+            "start": 33.99,
+            "end": 34.49,
+            "word": " necessary",
+            "probability": 0.98465
+          },
+          {
+            "start": 34.49,
+            "end": 35.33,
+            "word": " improvements.",
+            "probability": 0.99539
+          },
+          {
+            "start": 36.06,
+            "end": 36.78,
+            "word": " However,",
+            "probability": 0.99363
+          },
+          {
+            "start": 37.14,
+            "end": 37.44,
+            "word": " I",
+            "probability": 0.98986
+          },
+          {
+            "start": 37.44,
+            "end": 37.54,
+            "word": " will",
+            "probability": 0.9827
+          },
+          {
+            "start": 37.54,
+            "end": 37.86,
+            "word": " acknowledge",
+            "probability": 0.99873
+          },
+          {
+            "start": 37.86,
+            "end": 38.24,
+            "word": " that",
+            "probability": 0.98461
+          },
+          {
+            "start": 38.24,
+            "end": 38.42,
+            "word": " one",
+            "probability": 0.98981
+          },
+          {
+            "start": 38.42,
+            "end": 38.52,
+            "word": " of",
+            "probability": 0.99768
+          },
+          {
+            "start": 38.52,
+            "end": 38.62,
+            "word": " the",
+            "probability": 0.99806
+          }
+        ]
+      },
+      {
+        "start": 38.62,
+        "end": 44.26,
+        "text": "main criticisms we've received is that our plan doesn't provide enough alternatives to driving.",
+        "words": [
+          {
+            "start": 38.62,
+            "end": 38.86,
+            "word": " main",
+            "probability": 0.999
+          },
+          {
+            "start": 38.86,
+            "end": 39.42,
+            "word": " criticisms",
+            "probability": 0.99409
+          },
+          {
+            "start": 39.42,
+            "end": 39.86,
+            "word": " we've",
+            "probability": 0.94128
+          },
+          {
+            "start": 39.86,
+            "end": 40.22,
+            "word": " received",
+            "probability": 0.99829
+          },
+          {
+            "start": 40.22,
+            "end": 41.0,
+            "word": " is",
+            "probability": 0.95427
+          },
+          {
+            "start": 41.0,
+            "end": 41.14,
+            "word": " that",
+            "probability": 0.99621
+          },
+          {
+            "start": 41.14,
+            "end": 41.28,
+            "word": " our",
+            "probability": 0.99508
+          },
+          {
+            "start": 41.28,
+            "end": 41.64,
+            "word": " plan",
+            "probability": 0.99104
+          },
+          {
+            "start": 41.64,
+            "end": 42.1,
+            "word": " doesn't",
+            "probability": 0.99134
+          },
+          {
+            "start": 42.1,
+            "end": 42.44,
+            "word": " provide",
+            "probability": 0.99931
+          },
+          {
+            "start": 42.44,
+            "end": 42.88,
+            "word": " enough",
+            "probability": 0.99803
+          },
+          {
+            "start": 42.88,
+            "end": 43.54,
+            "word": " alternatives",
+            "probability": 0.99112
+          },
+          {
+            "start": 43.54,
+            "end": 43.88,
+            "word": " to",
+            "probability": 0.99876
+          },
+          {
+            "start": 43.88,
+            "end": 44.26,
+            "word": " driving.",
+            "probability": 0.99756
+          }
+        ]
+      },
+      {
+        "start": 44.96,
+        "end": 49.12,
+        "text": "This is a valid concern, and I want to assure you that we're taking it seriously.",
+        "words": [
+          {
+            "start": 44.96,
+            "end": 45.38,
+            "word": " This",
+            "probability": 0.99513
+          },
+          {
+            "start": 45.38,
+            "end": 45.52,
+            "word": " is",
+            "probability": 0.99642
+          },
+          {
+            "start": 45.52,
+            "end": 45.62,
+            "word": " a",
+            "probability": 0.99682
+          },
+          {
+            "start": 45.62,
+            "end": 45.9,
+            "word": " valid",
+            "probability": 0.99933
+          },
+          {
+            "start": 45.9,
+            "end": 46.42,
+            "word": " concern,",
+            "probability": 0.99793
+          },
+          {
+            "start": 46.76,
+            "end": 47.0,
+            "word": " and",
+            "probability": 0.99534
+          },
+          {
+            "start": 47.0,
+            "end": 47.1,
+            "word": " I",
+            "probability": 0.99848
+          },
+          {
+            "start": 47.1,
+            "end": 47.26,
+            "word": " want",
+            "probability": 0.99742
+          },
+          {
+            "start": 47.26,
+            "end": 47.44,
+            "word": " to",
+            "probability": 0.9986
+          },
+          {
+            "start": 47.44,
+            "end": 47.72,
+            "word": " assure",
+            "probability": 0.99731
+          },
+          {
+            "start": 47.72,
+            "end": 47.92,
+            "word": " you",
+            "probability": 0.98712
+          },
+          {
+            "start": 47.92,
+            "end": 48.06,
+            "word": " that",
+            "probability": 0.97252
+          },
+          {
+            "start": 48.06,
+            "end": 48.16,
+            "word": " we're",
+            "probability": 0.97006
+          },
+          {
+            "start": 48.16,
+            "end": 48.44,
+            "word": " taking",
+            "probability": 0.99763
+          },
+          {
+            "start": 48.44,
+            "end": 48.6,
+            "word": " it",
+            "probability": 0.9985
+          },
+          {
+            "start": 48.6,
+            "end": 49.12,
+            "word": " seriously.",
+            "probability": 0.99575
+          }
+        ]
+      },
+      {
+        "start": 50.0,
+        "end": 54.58,
+        "text": "We're actively exploring additional options to diversify our transportation network",
+        "words": [
+          {
+            "start": 50.0,
+            "end": 50.32,
+            "word": " We're",
+            "probability": 0.98624
+          },
+          {
+            "start": 50.32,
+            "end": 50.66,
+            "word": " actively",
+            "probability": 0.99898
+          },
+          {
+            "start": 50.66,
+            "end": 51.4,
+            "word": " exploring",
+            "probability": 0.99837
+          },
+          {
+            "start": 51.4,
+            "end": 51.78,
+            "word": " additional",
+            "probability": 0.9975
+          },
+          {
+            "start": 51.78,
+            "end": 52.36,
+            "word": " options",
+            "probability": 0.99868
+          },
+          {
+            "start": 52.36,
+            "end": 52.68,
+            "word": " to",
+            "probability": 0.99885
+          },
+          {
+            "start": 52.68,
+            "end": 53.24,
+            "word": " diversify",
+            "probability": 0.99759
+          },
+          {
+            "start": 53.24,
+            "end": 53.46,
+            "word": " our",
+            "probability": 0.99723
+          },
+          {
+            "start": 53.46,
+            "end": 54.02,
+            "word": " transportation",
+            "probability": 0.94771
+          },
+          {
+            "start": 54.02,
+            "end": 54.58,
+            "word": " network",
+            "probability": 0.99809
+          }
+        ]
+      },
+      {
+        "start": 54.98,
+        "end": 60.18,
+        "text": "and reduce reliance on personal vehicles. Some have suggested that we might face delays",
+        "words": [
+          {
+            "start": 54.98,
+            "end": 55.34,
+            "word": " and",
+            "probability": 0.94224
+          },
+          {
+            "start": 55.34,
+            "end": 55.68,
+            "word": " reduce",
+            "probability": 0.99521
+          },
+          {
+            "start": 55.68,
+            "end": 56.18,
+            "word": " reliance",
+            "probability": 0.99378
+          },
+          {
+            "start": 56.18,
+            "end": 56.36,
+            "word": " on",
+            "probability": 0.99923
+          },
+          {
+            "start": 56.36,
+            "end": 56.74,
+            "word": " personal",
+            "probability": 0.99529
+          },
+          {
+            "start": 56.74,
+            "end": 57.26,
+            "word": " vehicles.",
+            "probability": 0.99426
+          },
+          {
+            "start": 57.62,
+            "end": 57.88,
+            "word": " Some",
+            "probability": 0.99805
+          },
+          {
+            "start": 57.88,
+            "end": 58.04,
+            "word": " have",
+            "probability": 0.99582
+          },
+          {
+            "start": 58.04,
+            "end": 58.58,
+            "word": " suggested",
+            "probability": 0.99828
+          },
+          {
+            "start": 58.58,
+            "end": 58.92,
+            "word": " that",
+            "probability": 0.98986
+          },
+          {
+            "start": 58.92,
+            "end": 59.08,
+            "word": " we",
+            "probability": 0.99867
+          },
+          {
+            "start": 59.08,
+            "end": 59.32,
+            "word": " might",
+            "probability": 0.99619
+          },
+          {
+            "start": 59.32,
+            "end": 59.72,
+            "word": " face",
+            "probability": 0.99711
+          },
+          {
+            "start": 59.72,
+            "end": 60.18,
+            "word": " delays",
+            "probability": 0.99951
+          }
+        ]
+      },
+      {
+        "start": 60.18,
+        "end": 64.26,
+        "text": "days due to funding issues or difficulties in gaining government approval.",
+        "words": [
+          {
+            "start": 60.18,
+            "end": 60.4,
+            "word": " days",
+            "probability": 0.0219
+          },
+          {
+            "start": 60.4,
+            "end": 60.68,
+            "word": " due",
+            "probability": 0.74417
+          },
+          {
+            "start": 60.68,
+            "end": 60.8,
+            "word": " to",
+            "probability": 0.99804
+          },
+          {
+            "start": 60.8,
+            "end": 61.14,
+            "word": " funding",
+            "probability": 0.98029
+          },
+          {
+            "start": 61.14,
+            "end": 61.58,
+            "word": " issues",
+            "probability": 0.96247
+          },
+          {
+            "start": 61.58,
+            "end": 62.28,
+            "word": " or",
+            "probability": 0.6069
+          },
+          {
+            "start": 62.28,
+            "end": 62.88,
+            "word": " difficulties",
+            "probability": 0.98877
+          },
+          {
+            "start": 62.88,
+            "end": 63.08,
+            "word": " in",
+            "probability": 0.98556
+          },
+          {
+            "start": 63.08,
+            "end": 63.34,
+            "word": " gaining",
+            "probability": 0.98829
+          },
+          {
+            "start": 63.34,
+            "end": 63.8,
+            "word": " government",
+            "probability": 0.95579
+          },
+          {
+            "start": 63.8,
+            "end": 64.26,
+            "word": " approval.",
+            "probability": 0.99744
+          }
+        ]
+      },
+      {
+        "start": 65.41,
+        "end": 70.63,
+        "text": "While we always prepare for potential hurdles, I'm confident that our thorough planning and",
+        "words": [
+          {
+            "start": 65.41,
+            "end": 65.81,
+            "word": " While",
+            "probability": 0.96863
+          },
+          {
+            "start": 65.81,
+            "end": 65.93,
+            "word": " we",
+            "probability": 0.99781
+          },
+          {
+            "start": 65.93,
+            "end": 66.29,
+            "word": " always",
+            "probability": 0.98607
+          },
+          {
+            "start": 66.29,
+            "end": 66.71,
+            "word": " prepare",
+            "probability": 0.99601
+          },
+          {
+            "start": 66.71,
+            "end": 66.95,
+            "word": " for",
+            "probability": 0.99843
+          },
+          {
+            "start": 66.95,
+            "end": 67.35,
+            "word": " potential",
+            "probability": 0.99823
+          },
+          {
+            "start": 67.35,
+            "end": 67.79,
+            "word": " hurdles,",
+            "probability": 0.96529
+          },
+          {
+            "start": 68.31,
+            "end": 68.61,
+            "word": " I'm",
+            "probability": 0.92835
+          },
+          {
+            "start": 68.61,
+            "end": 69.09,
+            "word": " confident",
+            "probability": 0.99775
+          },
+          {
+            "start": 69.09,
+            "end": 69.43,
+            "word": " that",
+            "probability": 0.98304
+          },
+          {
+            "start": 69.43,
+            "end": 69.55,
+            "word": " our",
+            "probability": 0.9887
+          },
+          {
+            "start": 69.55,
+            "end": 69.85,
+            "word": " thorough",
+            "probability": 0.99862
+          },
+          {
+            "start": 69.85,
+            "end": 70.35,
+            "word": " planning",
+            "probability": 0.99202
+          },
+          {
+            "start": 70.35,
+            "end": 70.63,
+            "word": " and",
+            "probability": 0.99235
+          }
+        ]
+      },
+      {
+        "start": 70.63,
+        "end": 76.23,
+        "text": "strong relationships with various governmental bodies will help us navigate any bureaucratic",
+        "words": [
+          {
+            "start": 70.63,
+            "end": 70.99,
+            "word": " strong",
+            "probability": 0.99514
+          },
+          {
+            "start": 70.99,
+            "end": 71.67,
+            "word": " relationships",
+            "probability": 0.9762
+          },
+          {
+            "start": 71.67,
+            "end": 72.03,
+            "word": " with",
+            "probability": 0.98679
+          },
+          {
+            "start": 72.03,
+            "end": 72.53,
+            "word": " various",
+            "probability": 0.99638
+          },
+          {
+            "start": 72.53,
+            "end": 72.97,
+            "word": " governmental",
+            "probability": 0.98081
+          },
+          {
+            "start": 72.97,
+            "end": 73.55,
+            "word": " bodies",
+            "probability": 0.99841
+          },
+          {
+            "start": 73.55,
+            "end": 74.09,
+            "word": " will",
+            "probability": 0.98455
+          },
+          {
+            "start": 74.09,
+            "end": 74.31,
+            "word": " help",
+            "probability": 0.99797
+          },
+          {
+            "start": 74.31,
+            "end": 74.49,
+            "word": " us",
+            "probability": 0.99807
+          },
+          {
+            "start": 74.49,
+            "end": 74.95,
+            "word": " navigate",
+            "probability": 0.99733
+          },
+          {
+            "start": 74.95,
+            "end": 75.45,
+            "word": " any",
+            "probability": 0.98807
+          },
+          {
+            "start": 75.45,
+            "end": 76.23,
+            "word": " bureaucratic",
+            "probability": 0.99494
+          }
+        ]
+      },
+      {
+        "start": 76.23,
+        "end": 77.45,
+        "text": "challenges smoothly.",
+        "words": [
+          {
+            "start": 76.23,
+            "end": 76.79,
+            "word": " challenges",
+            "probability": 0.99524
+          },
+          {
+            "start": 76.79,
+            "end": 77.45,
+            "word": " smoothly.",
+            "probability": 0.99086
+          }
+        ]
+      },
+      {
+        "start": 78.38,
+        "end": 82.68,
+        "text": "The real challenge we're anticipating and the one we're preparing for most diligently",
+        "words": [
+          {
+            "start": 78.38,
+            "end": 78.66,
+            "word": " The",
+            "probability": 0.99415
+          },
+          {
+            "start": 78.66,
+            "end": 78.86,
+            "word": " real",
+            "probability": 0.98956
+          },
+          {
+            "start": 78.86,
+            "end": 79.28,
+            "word": " challenge",
+            "probability": 0.99259
+          },
+          {
+            "start": 79.28,
+            "end": 79.52,
+            "word": " we're",
+            "probability": 0.96189
+          },
+          {
+            "start": 79.52,
+            "end": 80.2,
+            "word": " anticipating",
+            "probability": 0.99727
+          },
+          {
+            "start": 80.2,
+            "end": 80.8,
+            "word": " and",
+            "probability": 0.49639
+          },
+          {
+            "start": 80.8,
+            "end": 80.92,
+            "word": " the",
+            "probability": 0.99024
+          },
+          {
+            "start": 80.92,
+            "end": 81.08,
+            "word": " one",
+            "probability": 0.99048
+          },
+          {
+            "start": 81.08,
+            "end": 81.28,
+            "word": " we're",
+            "probability": 0.9844
+          },
+          {
+            "start": 81.28,
+            "end": 81.64,
+            "word": " preparing",
+            "probability": 0.99711
+          },
+          {
+            "start": 81.64,
+            "end": 81.92,
+            "word": " for",
+            "probability": 0.99385
+          },
+          {
+            "start": 81.92,
+            "end": 82.2,
+            "word": " most",
+            "probability": 0.99007
+          },
+          {
+            "start": 82.2,
+            "end": 82.68,
+            "word": " diligently",
+            "probability": 0.99448
+          }
+        ]
+      },
+      {
+        "start": 83.12,
+        "end": 86.08,
+        "text": "is the likelihood of resistance from local communities.",
+        "words": [
+          {
+            "start": 83.12,
+            "end": 83.52,
+            "word": " is",
+            "probability": 0.91791
+          },
+          {
+            "start": 83.52,
+            "end": 83.66,
+            "word": " the",
+            "probability": 0.99651
+          },
+          {
+            "start": 83.66,
+            "end": 84.1,
+            "word": " likelihood",
+            "probability": 0.98723
+          },
+          {
+            "start": 84.1,
+            "end": 84.38,
+            "word": " of",
+            "probability": 0.99877
+          },
+          {
+            "start": 84.38,
+            "end": 84.82,
+            "word": " resistance",
+            "probability": 0.99441
+          },
+          {
+            "start": 84.82,
+            "end": 85.2,
+            "word": " from",
+            "probability": 0.99481
+          },
+          {
+            "start": 85.2,
+            "end": 85.48,
+            "word": " local",
+            "probability": 0.9965
+          },
+          {
+            "start": 85.48,
+            "end": 86.08,
+            "word": " communities.",
+            "probability": 0.99791
+          }
+        ]
+      },
+      {
+        "start": 86.82,
+        "end": 89.52,
+        "text": "Change can be difficult and we understand that.",
+        "words": [
+          {
+            "start": 86.82,
+            "end": 87.28,
+            "word": " Change",
+            "probability": 0.98382
+          },
+          {
+            "start": 87.28,
+            "end": 87.52,
+            "word": " can",
+            "probability": 0.99816
+          },
+          {
+            "start": 87.52,
+            "end": 87.68,
+            "word": " be",
+            "probability": 0.99854
+          },
+          {
+            "start": 87.68,
+            "end": 88.12,
+            "word": " difficult",
+            "probability": 0.99917
+          },
+          {
+            "start": 88.12,
+            "end": 88.64,
+            "word": " and",
+            "probability": 0.76327
+          },
+          {
+            "start": 88.64,
+            "end": 88.74,
+            "word": " we",
+            "probability": 0.99766
+          },
+          {
+            "start": 88.74,
+            "end": 89.2,
+            "word": " understand",
+            "probability": 0.99858
+          },
+          {
+            "start": 89.2,
+            "end": 89.52,
+            "word": " that.",
+            "probability": 0.99856
+          }
+        ]
+      },
+      {
+        "start": 89.58,
+        "end": 93.24,
+        "text": "That's why we're committed to extensive community engagement,",
+        "words": [
+          {
+            "start": 89.58,
+            "end": 90.58,
+            "word": " That's",
+            "probability": 0.8844
+          },
+          {
+            "start": 90.58,
+            "end": 90.7,
+            "word": " why",
+            "probability": 0.99837
+          },
+          {
+            "start": 90.7,
+            "end": 90.88,
+            "word": " we're",
+            "probability": 0.9231
+          },
+          {
+            "start": 90.88,
+            "end": 91.3,
+            "word": " committed",
+            "probability": 0.99462
+          },
+          {
+            "start": 91.3,
+            "end": 91.58,
+            "word": " to",
+            "probability": 0.9972
+          },
+          {
+            "start": 91.58,
+            "end": 92.0,
+            "word": " extensive",
+            "probability": 0.99688
+          },
+          {
+            "start": 92.0,
+            "end": 92.56,
+            "word": " community",
+            "probability": 0.99422
+          },
+          {
+            "start": 92.56,
+            "end": 93.24,
+            "word": " engagement,",
+            "probability": 0.99905
+          }
+        ]
+      },
+      {
+        "start": 93.85,
+        "end": 98.47,
+        "text": "transparent communication and working closely with neighborhood representatives",
+        "words": [
+          {
+            "start": 93.85,
+            "end": 94.63,
+            "word": " transparent",
+            "probability": 0.99157
+          },
+          {
+            "start": 94.63,
+            "end": 95.49,
+            "word": " communication",
+            "probability": 0.99501
+          },
+          {
+            "start": 95.49,
+            "end": 96.07,
+            "word": " and",
+            "probability": 0.21689
+          },
+          {
+            "start": 96.07,
+            "end": 96.41,
+            "word": " working",
+            "probability": 0.99692
+          },
+          {
+            "start": 96.41,
+            "end": 96.93,
+            "word": " closely",
+            "probability": 0.99909
+          },
+          {
+            "start": 96.93,
+            "end": 97.25,
+            "word": " with",
+            "probability": 0.99786
+          },
+          {
+            "start": 97.25,
+            "end": 97.63,
+            "word": " neighborhood",
+            "probability": 0.94349
+          },
+          {
+            "start": 97.63,
+            "end": 98.47,
+            "word": " representatives",
+            "probability": 0.99543
+          }
+        ]
+      },
+      {
+        "start": 98.47,
+        "end": 101.71,
+        "text": "to address concerns and incorporate local feedback.",
+        "words": [
+          {
+            "start": 98.47,
+            "end": 99.15,
+            "word": " to",
+            "probability": 0.96346
+          },
+          {
+            "start": 99.15,
+            "end": 99.37,
+            "word": " address",
+            "probability": 0.99839
+          },
+          {
+            "start": 99.37,
+            "end": 100.07,
+            "word": " concerns",
+            "probability": 0.99832
+          },
+          {
+            "start": 100.07,
+            "end": 100.39,
+            "word": " and",
+            "probability": 0.991
+          },
+          {
+            "start": 100.39,
+            "end": 100.89,
+            "word": " incorporate",
+            "probability": 0.99748
+          },
+          {
+            "start": 100.89,
+            "end": 101.25,
+            "word": " local",
+            "probability": 0.997
+          },
+          {
+            "start": 101.25,
+            "end": 101.71,
+            "word": " feedback.",
+            "probability": 0.99612
+          }
+        ]
+      },
+      {
+        "start": 102.33,
+        "end": 106.71,
+        "text": "We believe this regional development plan is crucial for our areas future",
+        "words": [
+          {
+            "start": 102.33,
+            "end": 102.97,
+            "word": " We",
+            "probability": 0.9973
+          },
+          {
+            "start": 102.97,
+            "end": 103.27,
+            "word": " believe",
+            "probability": 0.99859
+          },
+          {
+            "start": 103.27,
+            "end": 103.57,
+            "word": " this",
+            "probability": 0.98908
+          },
+          {
+            "start": 103.57,
+            "end": 103.95,
+            "word": " regional",
+            "probability": 0.68512
+          },
+          {
+            "start": 103.95,
+            "end": 104.39,
+            "word": " development",
+            "probability": 0.9981
+          },
+          {
+            "start": 104.39,
+            "end": 104.71,
+            "word": " plan",
+            "probability": 0.99898
+          },
+          {
+            "start": 104.71,
+            "end": 104.99,
+            "word": " is",
+            "probability": 0.99897
+          },
+          {
+            "start": 104.99,
+            "end": 105.45,
+            "word": " crucial",
+            "probability": 0.99905
+          },
+          {
+            "start": 105.45,
+            "end": 105.73,
+            "word": " for",
+            "probability": 0.99637
+          },
+          {
+            "start": 105.73,
+            "end": 105.89,
+            "word": " our",
+            "probability": 0.99572
+          },
+          {
+            "start": 105.89,
+            "end": 106.25,
+            "word": " areas",
+            "probability": 0.62735
+          },
+          {
+            "start": 106.25,
+            "end": 106.71,
+            "word": " future",
+            "probability": 0.96319
+          }
+        ]
+      },
+      {
+        "start": 106.71,
+        "end": 110.01,
+        "text": "and we're dedicated to making it work for everyone.",
+        "words": [
+          {
+            "start": 106.71,
+            "end": 107.57,
+            "word": " and",
+            "probability": 0.43569
+          },
+          {
+            "start": 107.57,
+            "end": 107.71,
+            "word": " we're",
+            "probability": 0.98447
+          },
+          {
+            "start": 107.71,
+            "end": 108.15,
+            "word": " dedicated",
+            "probability": 0.99918
+          },
+          {
+            "start": 108.15,
+            "end": 108.51,
+            "word": " to",
+            "probability": 0.99878
+          },
+          {
+            "start": 108.51,
+            "end": 108.69,
+            "word": " making",
+            "probability": 0.99706
+          },
+          {
+            "start": 108.69,
+            "end": 108.91,
+            "word": " it",
+            "probability": 0.99468
+          },
+          {
+            "start": 108.91,
+            "end": 109.11,
+            "word": " work",
+            "probability": 0.99879
+          },
+          {
+            "start": 109.11,
+            "end": 109.49,
+            "word": " for",
+            "probability": 0.998
+          },
+          {
+            "start": 109.49,
+            "end": 110.01,
+            "word": " everyone.",
+            "probability": 0.99692
+          }
+        ]
+      },
+      {
+        "start": 110.67,
+        "end": 114.21,
+        "text": "Thank you for your attention and I'm now ready to take your questions.",
+        "words": [
+          {
+            "start": 110.67,
+            "end": 111.05,
+            "word": " Thank",
+            "probability": 0.99533
+          },
+          {
+            "start": 111.05,
+            "end": 111.19,
+            "word": " you",
+            "probability": 0.99648
+          },
+          {
+            "start": 111.19,
+            "end": 111.35,
+            "word": " for",
+            "probability": 0.99772
+          },
+          {
+            "start": 111.35,
+            "end": 111.47,
+            "word": " your",
+            "probability": 0.99813
+          },
+          {
+            "start": 111.47,
+            "end": 111.85,
+            "word": " attention",
+            "probability": 0.99881
+          },
+          {
+            "start": 111.85,
+            "end": 112.53,
+            "word": " and",
+            "probability": 0.83869
+          },
+          {
+            "start": 112.53,
+            "end": 112.71,
+            "word": " I'm",
+            "probability": 0.98036
+          },
+          {
+            "start": 112.71,
+            "end": 112.91,
+            "word": " now",
+            "probability": 0.99322
+          },
+          {
+            "start": 112.91,
+            "end": 113.23,
+            "word": " ready",
+            "probability": 0.99894
+          },
+          {
+            "start": 113.23,
+            "end": 113.45,
+            "word": " to",
+            "probability": 0.99876
+          },
+          {
+            "start": 113.45,
+            "end": 113.61,
+            "word": " take",
+            "probability": 0.99889
+          },
+          {
+            "start": 113.61,
+            "end": 113.79,
+            "word": " your",
+            "probability": 0.99651
+          },
+          {
+            "start": 113.79,
+            "end": 114.21,
+            "word": " questions.",
+            "probability": 0.99844
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono1",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 274,
+            "speechStart": 0.85,
+            "speechEnd": 114.21,
+            "sourceTokenCoverage": 0.9963,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9945,
+            "transcript": "ladies and gentlemen of the press thank you for joining us today to discuss our regional development plan as we move forward with this ambitious project i'd like to address some of the concerns that have been raised now i've heard whispers about our plan being too expensive or placing excessive emphasis on public transportation let me assure you these are not accurate representations of our vision our budget has been carefully calculated and we believe it strikes the right balance between fiscal responsibility and necessary improvements however i will acknowledge that 1 of the main criticisms we've received is that our plan doesn't provide enough alternatives to driving this is a valid concern and i want to assure you that we're taking it seriously we're actively exploring additional options to diversify our transportation network and reduce reliance on personal vehicles some have suggested that we might face delays days due to funding issues or difficulties in gaining government approval while we always prepare for potential hurdles i'm confident that our thorough planning and strong relationships with various governmental bodies will help us navigate any bureaucratic challenges smoothly the real challenge we're anticipating and the 1 we're preparing for most diligently is the likelihood of resistance from local communities change can be difficult and we understand that that's why we're committed to extensive community engagement transparent communication and working closely with neighborhood representatives to address concerns and incorporate local feedback we believe this regional development plan is crucial for our areas future and we're dedicated to making it work for everyone thank you for your attention and i'm now ready to take your questions",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

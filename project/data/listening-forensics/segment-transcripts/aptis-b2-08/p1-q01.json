@@ -1,0 +1,416 @@
+{
+  "testId": "aptis-b2-08",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-08/part-1/q01.mp3",
+  "audioSha256": "69fc05e51cd9373f873cf43e0197620cc4962d6772e3e45c3a5073662e188216",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.98,
+        "end": 5.7,
+        "text": "Good morning, everyone. This is an important announcement about a change in the train schedule.",
+        "words": [
+          {
+            "start": 0.98,
+            "end": 1.46,
+            "word": " Good",
+            "probability": 0.83057
+          },
+          {
+            "start": 1.46,
+            "end": 1.78,
+            "word": " morning,",
+            "probability": 0.95373
+          },
+          {
+            "start": 1.94,
+            "end": 2.24,
+            "word": " everyone.",
+            "probability": 0.98788
+          },
+          {
+            "start": 2.66,
+            "end": 2.74,
+            "word": " This",
+            "probability": 0.99428
+          },
+          {
+            "start": 2.74,
+            "end": 2.86,
+            "word": " is",
+            "probability": 0.99825
+          },
+          {
+            "start": 2.86,
+            "end": 2.98,
+            "word": " an",
+            "probability": 0.99295
+          },
+          {
+            "start": 2.98,
+            "end": 3.32,
+            "word": " important",
+            "probability": 0.99569
+          },
+          {
+            "start": 3.32,
+            "end": 3.86,
+            "word": " announcement",
+            "probability": 0.99917
+          },
+          {
+            "start": 3.86,
+            "end": 4.24,
+            "word": " about",
+            "probability": 0.99436
+          },
+          {
+            "start": 4.24,
+            "end": 4.38,
+            "word": " a",
+            "probability": 0.99459
+          },
+          {
+            "start": 4.38,
+            "end": 4.64,
+            "word": " change",
+            "probability": 0.99559
+          },
+          {
+            "start": 4.64,
+            "end": 4.86,
+            "word": " in",
+            "probability": 0.99946
+          },
+          {
+            "start": 4.86,
+            "end": 4.96,
+            "word": " the",
+            "probability": 0.99688
+          },
+          {
+            "start": 4.96,
+            "end": 5.18,
+            "word": " train",
+            "probability": 0.87783
+          },
+          {
+            "start": 5.18,
+            "end": 5.7,
+            "word": " schedule.",
+            "probability": 0.99506
+          }
+        ]
+      },
+      {
+        "start": 6.18,
+        "end": 13.84,
+        "text": "The train to London will now leave at 9.15, not 9.30 as planned. Please listen carefully to this information.",
+        "words": [
+          {
+            "start": 6.18,
+            "end": 6.44,
+            "word": " The",
+            "probability": 0.99648
+          },
+          {
+            "start": 6.44,
+            "end": 6.7,
+            "word": " train",
+            "probability": 0.9249
+          },
+          {
+            "start": 6.7,
+            "end": 6.86,
+            "word": " to",
+            "probability": 0.99769
+          },
+          {
+            "start": 6.86,
+            "end": 7.16,
+            "word": " London",
+            "probability": 0.98775
+          },
+          {
+            "start": 7.16,
+            "end": 7.6,
+            "word": " will",
+            "probability": 0.98665
+          },
+          {
+            "start": 7.6,
+            "end": 7.84,
+            "word": " now",
+            "probability": 0.99516
+          },
+          {
+            "start": 7.84,
+            "end": 8.14,
+            "word": " leave",
+            "probability": 0.99401
+          },
+          {
+            "start": 8.14,
+            "end": 8.38,
+            "word": " at",
+            "probability": 0.99513
+          },
+          {
+            "start": 8.38,
+            "end": 8.56,
+            "word": " 9",
+            "probability": 0.97977
+          },
+          {
+            "start": 8.56,
+            "end": 9.12,
+            "word": ".15,",
+            "probability": 0.77647
+          },
+          {
+            "start": 9.68,
+            "end": 9.98,
+            "word": " not",
+            "probability": 0.95032
+          },
+          {
+            "start": 9.98,
+            "end": 10.2,
+            "word": " 9",
+            "probability": 0.99378
+          },
+          {
+            "start": 10.2,
+            "end": 10.56,
+            "word": ".30",
+            "probability": 0.99673
+          },
+          {
+            "start": 10.56,
+            "end": 10.9,
+            "word": " as",
+            "probability": 0.80303
+          },
+          {
+            "start": 10.9,
+            "end": 11.24,
+            "word": " planned.",
+            "probability": 0.99949
+          },
+          {
+            "start": 11.8,
+            "end": 12.04,
+            "word": " Please",
+            "probability": 0.99447
+          },
+          {
+            "start": 12.04,
+            "end": 12.34,
+            "word": " listen",
+            "probability": 0.99102
+          },
+          {
+            "start": 12.34,
+            "end": 12.8,
+            "word": " carefully",
+            "probability": 0.99963
+          },
+          {
+            "start": 12.8,
+            "end": 13.04,
+            "word": " to",
+            "probability": 0.99856
+          },
+          {
+            "start": 13.04,
+            "end": 13.22,
+            "word": " this",
+            "probability": 0.99738
+          },
+          {
+            "start": 13.22,
+            "end": 13.84,
+            "word": " information.",
+            "probability": 0.99931
+          }
+        ]
+      },
+      {
+        "start": 14.46,
+        "end": 17.7,
+        "text": "If you are taking this train, please go to Platform 3 now.",
+        "words": [
+          {
+            "start": 14.46,
+            "end": 14.68,
+            "word": " If",
+            "probability": 0.99718
+          },
+          {
+            "start": 14.68,
+            "end": 14.76,
+            "word": " you",
+            "probability": 0.99779
+          },
+          {
+            "start": 14.76,
+            "end": 14.84,
+            "word": " are",
+            "probability": 0.89855
+          },
+          {
+            "start": 14.84,
+            "end": 15.16,
+            "word": " taking",
+            "probability": 0.99754
+          },
+          {
+            "start": 15.16,
+            "end": 15.4,
+            "word": " this",
+            "probability": 0.99727
+          },
+          {
+            "start": 15.4,
+            "end": 15.76,
+            "word": " train,",
+            "probability": 0.99832
+          },
+          {
+            "start": 16.14,
+            "end": 16.3,
+            "word": " please",
+            "probability": 0.99006
+          },
+          {
+            "start": 16.3,
+            "end": 16.5,
+            "word": " go",
+            "probability": 0.99679
+          },
+          {
+            "start": 16.5,
+            "end": 16.62,
+            "word": " to",
+            "probability": 0.99849
+          },
+          {
+            "start": 16.62,
+            "end": 16.86,
+            "word": " Platform",
+            "probability": 0.64259
+          },
+          {
+            "start": 16.86,
+            "end": 17.38,
+            "word": " 3",
+            "probability": 0.89284
+          },
+          {
+            "start": 17.38,
+            "end": 17.7,
+            "word": " now.",
+            "probability": 0.9736
+          }
+        ]
+      },
+      {
+        "start": 18.49,
+        "end": 20.33,
+        "text": "Thank you for your attention and have a good day.",
+        "words": [
+          {
+            "start": 18.49,
+            "end": 18.75,
+            "word": " Thank",
+            "probability": 0.99185
+          },
+          {
+            "start": 18.75,
+            "end": 18.91,
+            "word": " you",
+            "probability": 0.99666
+          },
+          {
+            "start": 18.91,
+            "end": 19.05,
+            "word": " for",
+            "probability": 0.99725
+          },
+          {
+            "start": 19.05,
+            "end": 19.19,
+            "word": " your",
+            "probability": 0.9976
+          },
+          {
+            "start": 19.19,
+            "end": 19.51,
+            "word": " attention",
+            "probability": 0.9989
+          },
+          {
+            "start": 19.51,
+            "end": 19.79,
+            "word": " and",
+            "probability": 0.95458
+          },
+          {
+            "start": 19.79,
+            "end": 19.93,
+            "word": " have",
+            "probability": 0.99701
+          },
+          {
+            "start": 19.93,
+            "end": 20.03,
+            "word": " a",
+            "probability": 0.99735
+          },
+          {
+            "start": 20.03,
+            "end": 20.13,
+            "word": " good",
+            "probability": 0.99551
+          },
+          {
+            "start": 20.13,
+            "end": 20.33,
+            "word": " day.",
+            "probability": 0.99917
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 58,
+            "speechStart": 0.98,
+            "speechEnd": 20.33,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "good morning everyone this is an important announcement about a change in the train schedule the train to london will now leave at 9 15 not 9 30 as planned please listen carefully to this information if you are taking this train please go to platform 3 now thank you for your attention and have a good day",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

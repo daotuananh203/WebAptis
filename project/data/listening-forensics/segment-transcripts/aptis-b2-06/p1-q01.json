@@ -1,0 +1,994 @@
+{
+  "testId": "aptis-b2-06",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-06/part-1/q01.mp3",
+  "audioSha256": "4163225cbd810b94b464a0dab7c4c8b549f2b34b45de1aa1036568c02a8f9f4c",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.01,
+        "end": 5.49,
+        "text": "Hey, Mike, it's Tom. How are you? I was thinking, why don't we meet up tonight?",
+        "words": [
+          {
+            "start": 1.01,
+            "end": 1.47,
+            "word": " Hey,",
+            "probability": 0.69206
+          },
+          {
+            "start": 1.55,
+            "end": 1.65,
+            "word": " Mike,",
+            "probability": 0.92129
+          },
+          {
+            "start": 1.97,
+            "end": 2.21,
+            "word": " it's",
+            "probability": 0.97891
+          },
+          {
+            "start": 2.21,
+            "end": 2.37,
+            "word": " Tom.",
+            "probability": 0.93503
+          },
+          {
+            "start": 2.95,
+            "end": 3.11,
+            "word": " How",
+            "probability": 0.96327
+          },
+          {
+            "start": 3.11,
+            "end": 3.23,
+            "word": " are",
+            "probability": 0.99592
+          },
+          {
+            "start": 3.23,
+            "end": 3.45,
+            "word": " you?",
+            "probability": 0.99726
+          },
+          {
+            "start": 3.91,
+            "end": 3.97,
+            "word": " I",
+            "probability": 0.96669
+          },
+          {
+            "start": 3.97,
+            "end": 4.09,
+            "word": " was",
+            "probability": 0.95145
+          },
+          {
+            "start": 4.09,
+            "end": 4.33,
+            "word": " thinking,",
+            "probability": 0.99859
+          },
+          {
+            "start": 4.57,
+            "end": 4.71,
+            "word": " why",
+            "probability": 0.31057
+          },
+          {
+            "start": 4.71,
+            "end": 4.83,
+            "word": " don't",
+            "probability": 0.97768
+          },
+          {
+            "start": 4.83,
+            "end": 4.91,
+            "word": " we",
+            "probability": 0.99629
+          },
+          {
+            "start": 4.91,
+            "end": 5.07,
+            "word": " meet",
+            "probability": 0.99896
+          },
+          {
+            "start": 5.07,
+            "end": 5.21,
+            "word": " up",
+            "probability": 0.9898
+          },
+          {
+            "start": 5.21,
+            "end": 5.49,
+            "word": " tonight?",
+            "probability": 0.99511
+          }
+        ]
+      },
+      {
+        "start": 6.19,
+        "end": 8.43,
+        "text": "I'm free, and it would be fun to hang out.",
+        "words": [
+          {
+            "start": 6.19,
+            "end": 6.39,
+            "word": " I'm",
+            "probability": 0.9708
+          },
+          {
+            "start": 6.39,
+            "end": 6.65,
+            "word": " free,",
+            "probability": 0.98798
+          },
+          {
+            "start": 7.01,
+            "end": 7.31,
+            "word": " and",
+            "probability": 0.99571
+          },
+          {
+            "start": 7.31,
+            "end": 7.39,
+            "word": " it",
+            "probability": 0.99632
+          },
+          {
+            "start": 7.39,
+            "end": 7.49,
+            "word": " would",
+            "probability": 0.98781
+          },
+          {
+            "start": 7.49,
+            "end": 7.61,
+            "word": " be",
+            "probability": 0.99628
+          },
+          {
+            "start": 7.61,
+            "end": 7.83,
+            "word": " fun",
+            "probability": 0.9992
+          },
+          {
+            "start": 7.83,
+            "end": 7.99,
+            "word": " to",
+            "probability": 0.99848
+          },
+          {
+            "start": 7.99,
+            "end": 8.17,
+            "word": " hang",
+            "probability": 0.99759
+          },
+          {
+            "start": 8.17,
+            "end": 8.43,
+            "word": " out.",
+            "probability": 0.97251
+          }
+        ]
+      },
+      {
+        "start": 9.19,
+        "end": 15.69,
+        "text": "Let's meet at the park at 7 p.m. Does that work for you? We can grab some snacks and maybe play basketball or just talk.",
+        "words": [
+          {
+            "start": 9.19,
+            "end": 9.43,
+            "word": " Let's",
+            "probability": 0.98892
+          },
+          {
+            "start": 9.43,
+            "end": 9.53,
+            "word": " meet",
+            "probability": 0.99464
+          },
+          {
+            "start": 9.53,
+            "end": 9.63,
+            "word": " at",
+            "probability": 0.99441
+          },
+          {
+            "start": 9.63,
+            "end": 9.75,
+            "word": " the",
+            "probability": 0.99691
+          },
+          {
+            "start": 9.75,
+            "end": 9.99,
+            "word": " park",
+            "probability": 0.98609
+          },
+          {
+            "start": 9.99,
+            "end": 10.15,
+            "word": " at",
+            "probability": 0.99707
+          },
+          {
+            "start": 10.15,
+            "end": 10.45,
+            "word": " 7",
+            "probability": 0.94521
+          },
+          {
+            "start": 10.45,
+            "end": 10.69,
+            "word": " p",
+            "probability": 0.36832
+          },
+          {
+            "start": 10.69,
+            "end": 10.89,
+            "word": ".m.",
+            "probability": 0.99756
+          },
+          {
+            "start": 11.33,
+            "end": 11.39,
+            "word": " Does",
+            "probability": 0.94891
+          },
+          {
+            "start": 11.39,
+            "end": 11.55,
+            "word": " that",
+            "probability": 0.99849
+          },
+          {
+            "start": 11.55,
+            "end": 11.75,
+            "word": " work",
+            "probability": 0.99901
+          },
+          {
+            "start": 11.75,
+            "end": 11.95,
+            "word": " for",
+            "probability": 0.9994
+          },
+          {
+            "start": 11.95,
+            "end": 12.15,
+            "word": " you?",
+            "probability": 0.99951
+          },
+          {
+            "start": 12.55,
+            "end": 12.67,
+            "word": " We",
+            "probability": 0.99324
+          },
+          {
+            "start": 12.67,
+            "end": 12.79,
+            "word": " can",
+            "probability": 0.996
+          },
+          {
+            "start": 12.79,
+            "end": 12.99,
+            "word": " grab",
+            "probability": 0.99856
+          },
+          {
+            "start": 12.99,
+            "end": 13.23,
+            "word": " some",
+            "probability": 0.99855
+          },
+          {
+            "start": 13.23,
+            "end": 13.57,
+            "word": " snacks",
+            "probability": 0.97494
+          },
+          {
+            "start": 13.57,
+            "end": 13.83,
+            "word": " and",
+            "probability": 0.92165
+          },
+          {
+            "start": 13.83,
+            "end": 14.03,
+            "word": " maybe",
+            "probability": 0.9887
+          },
+          {
+            "start": 14.03,
+            "end": 14.29,
+            "word": " play",
+            "probability": 0.99755
+          },
+          {
+            "start": 14.29,
+            "end": 14.71,
+            "word": " basketball",
+            "probability": 0.99627
+          },
+          {
+            "start": 14.71,
+            "end": 15.21,
+            "word": " or",
+            "probability": 0.87789
+          },
+          {
+            "start": 15.21,
+            "end": 15.41,
+            "word": " just",
+            "probability": 0.99295
+          },
+          {
+            "start": 15.41,
+            "end": 15.69,
+            "word": " talk.",
+            "probability": 0.99747
+          }
+        ]
+      },
+      {
+        "start": 16.76,
+        "end": 20.84,
+        "text": "Let me know if you're in, and if anyone else wants to join, we can invite them to.",
+        "words": [
+          {
+            "start": 16.76,
+            "end": 16.92,
+            "word": " Let",
+            "probability": 0.98909
+          },
+          {
+            "start": 16.92,
+            "end": 17.04,
+            "word": " me",
+            "probability": 0.99725
+          },
+          {
+            "start": 17.04,
+            "end": 17.18,
+            "word": " know",
+            "probability": 0.99968
+          },
+          {
+            "start": 17.18,
+            "end": 17.32,
+            "word": " if",
+            "probability": 0.99255
+          },
+          {
+            "start": 17.32,
+            "end": 17.46,
+            "word": " you're",
+            "probability": 0.99314
+          },
+          {
+            "start": 17.46,
+            "end": 17.62,
+            "word": " in,",
+            "probability": 0.99936
+          },
+          {
+            "start": 17.86,
+            "end": 17.92,
+            "word": " and",
+            "probability": 0.99665
+          },
+          {
+            "start": 17.92,
+            "end": 18.04,
+            "word": " if",
+            "probability": 0.99781
+          },
+          {
+            "start": 18.04,
+            "end": 18.36,
+            "word": " anyone",
+            "probability": 0.99277
+          },
+          {
+            "start": 18.36,
+            "end": 18.6,
+            "word": " else",
+            "probability": 0.99789
+          },
+          {
+            "start": 18.6,
+            "end": 18.78,
+            "word": " wants",
+            "probability": 0.997
+          },
+          {
+            "start": 18.78,
+            "end": 19.0,
+            "word": " to",
+            "probability": 0.99918
+          },
+          {
+            "start": 19.0,
+            "end": 19.32,
+            "word": " join,",
+            "probability": 0.99941
+          },
+          {
+            "start": 19.7,
+            "end": 19.92,
+            "word": " we",
+            "probability": 0.99599
+          },
+          {
+            "start": 19.92,
+            "end": 20.06,
+            "word": " can",
+            "probability": 0.9987
+          },
+          {
+            "start": 20.06,
+            "end": 20.34,
+            "word": " invite",
+            "probability": 0.99919
+          },
+          {
+            "start": 20.34,
+            "end": 20.58,
+            "word": " them",
+            "probability": 0.99882
+          },
+          {
+            "start": 20.58,
+            "end": 20.84,
+            "word": " to.",
+            "probability": 0.22765
+          }
+        ]
+      },
+      {
+        "start": 21.56,
+        "end": 27.46,
+        "text": "See you later. Hey, Mike, it's Tom. How are you? I was thinking, why don't we meet up tonight?",
+        "words": [
+          {
+            "start": 21.56,
+            "end": 21.76,
+            "word": " See",
+            "probability": 0.9958
+          },
+          {
+            "start": 21.76,
+            "end": 21.86,
+            "word": " you",
+            "probability": 0.98297
+          },
+          {
+            "start": 21.86,
+            "end": 22.1,
+            "word": " later.",
+            "probability": 0.99875
+          },
+          {
+            "start": 23.2,
+            "end": 23.44,
+            "word": " Hey,",
+            "probability": 0.96567
+          },
+          {
+            "start": 23.52,
+            "end": 23.7,
+            "word": " Mike,",
+            "probability": 0.99418
+          },
+          {
+            "start": 23.96,
+            "end": 24.16,
+            "word": " it's",
+            "probability": 0.99576
+          },
+          {
+            "start": 24.16,
+            "end": 24.38,
+            "word": " Tom.",
+            "probability": 0.98896
+          },
+          {
+            "start": 24.94,
+            "end": 25.08,
+            "word": " How",
+            "probability": 0.99393
+          },
+          {
+            "start": 25.08,
+            "end": 25.22,
+            "word": " are",
+            "probability": 0.99657
+          },
+          {
+            "start": 25.22,
+            "end": 25.44,
+            "word": " you?",
+            "probability": 0.99922
+          },
+          {
+            "start": 25.8,
+            "end": 25.94,
+            "word": " I",
+            "probability": 0.98545
+          },
+          {
+            "start": 25.94,
+            "end": 26.06,
+            "word": " was",
+            "probability": 0.99886
+          },
+          {
+            "start": 26.06,
+            "end": 26.32,
+            "word": " thinking,",
+            "probability": 0.9994
+          },
+          {
+            "start": 26.56,
+            "end": 26.68,
+            "word": " why",
+            "probability": 0.97249
+          },
+          {
+            "start": 26.68,
+            "end": 26.8,
+            "word": " don't",
+            "probability": 0.99564
+          },
+          {
+            "start": 26.8,
+            "end": 26.88,
+            "word": " we",
+            "probability": 0.99817
+          },
+          {
+            "start": 26.88,
+            "end": 27.04,
+            "word": " meet",
+            "probability": 0.99941
+          },
+          {
+            "start": 27.04,
+            "end": 27.2,
+            "word": " up",
+            "probability": 0.99778
+          },
+          {
+            "start": 27.2,
+            "end": 27.46,
+            "word": " tonight?",
+            "probability": 0.99902
+          }
+        ]
+      },
+      {
+        "start": 27.92,
+        "end": 30.42,
+        "text": "I'm free, and it would be fun to hang out.",
+        "words": [
+          {
+            "start": 27.92,
+            "end": 28.36,
+            "word": " I'm",
+            "probability": 0.86542
+          },
+          {
+            "start": 28.36,
+            "end": 28.62,
+            "word": " free,",
+            "probability": 0.97463
+          },
+          {
+            "start": 28.98,
+            "end": 29.28,
+            "word": " and",
+            "probability": 0.99439
+          },
+          {
+            "start": 29.28,
+            "end": 29.38,
+            "word": " it",
+            "probability": 0.99601
+          },
+          {
+            "start": 29.38,
+            "end": 29.46,
+            "word": " would",
+            "probability": 0.978
+          },
+          {
+            "start": 29.46,
+            "end": 29.6,
+            "word": " be",
+            "probability": 0.99655
+          },
+          {
+            "start": 29.6,
+            "end": 29.8,
+            "word": " fun",
+            "probability": 0.99768
+          },
+          {
+            "start": 29.8,
+            "end": 29.96,
+            "word": " to",
+            "probability": 0.99906
+          },
+          {
+            "start": 29.96,
+            "end": 30.14,
+            "word": " hang",
+            "probability": 0.99651
+          },
+          {
+            "start": 30.14,
+            "end": 30.42,
+            "word": " out.",
+            "probability": 0.97749
+          }
+        ]
+      },
+      {
+        "start": 31.08,
+        "end": 32.8,
+        "text": "Let's meet at the park at 7pm.",
+        "words": [
+          {
+            "start": 31.08,
+            "end": 31.4,
+            "word": " Let's",
+            "probability": 0.98125
+          },
+          {
+            "start": 31.4,
+            "end": 31.5,
+            "word": " meet",
+            "probability": 0.99367
+          },
+          {
+            "start": 31.5,
+            "end": 31.62,
+            "word": " at",
+            "probability": 0.99323
+          },
+          {
+            "start": 31.62,
+            "end": 31.72,
+            "word": " the",
+            "probability": 0.98377
+          },
+          {
+            "start": 31.72,
+            "end": 31.98,
+            "word": " park",
+            "probability": 0.97671
+          },
+          {
+            "start": 31.98,
+            "end": 32.14,
+            "word": " at",
+            "probability": 0.99868
+          },
+          {
+            "start": 32.14,
+            "end": 32.8,
+            "word": " 7pm.",
+            "probability": 0.68271
+          }
+        ]
+      },
+      {
+        "start": 33.26,
+        "end": 34.12,
+        "text": "Does that work for you?",
+        "words": [
+          {
+            "start": 33.26,
+            "end": 33.38,
+            "word": " Does",
+            "probability": 0.97567
+          },
+          {
+            "start": 33.38,
+            "end": 33.52,
+            "word": " that",
+            "probability": 0.99864
+          },
+          {
+            "start": 33.52,
+            "end": 33.7,
+            "word": " work",
+            "probability": 0.99868
+          },
+          {
+            "start": 33.7,
+            "end": 33.92,
+            "word": " for",
+            "probability": 0.99784
+          },
+          {
+            "start": 33.92,
+            "end": 34.12,
+            "word": " you?",
+            "probability": 0.99797
+          }
+        ]
+      },
+      {
+        "start": 34.54,
+        "end": 37.66,
+        "text": "We can grab some snacks and maybe play basketball or just talk.",
+        "words": [
+          {
+            "start": 34.54,
+            "end": 34.64,
+            "word": " We",
+            "probability": 0.99144
+          },
+          {
+            "start": 34.64,
+            "end": 34.76,
+            "word": " can",
+            "probability": 0.99554
+          },
+          {
+            "start": 34.76,
+            "end": 34.96,
+            "word": " grab",
+            "probability": 0.99883
+          },
+          {
+            "start": 34.96,
+            "end": 35.22,
+            "word": " some",
+            "probability": 0.99768
+          },
+          {
+            "start": 35.22,
+            "end": 35.54,
+            "word": " snacks",
+            "probability": 0.97968
+          },
+          {
+            "start": 35.54,
+            "end": 35.82,
+            "word": " and",
+            "probability": 0.96091
+          },
+          {
+            "start": 35.82,
+            "end": 36.0,
+            "word": " maybe",
+            "probability": 0.98885
+          },
+          {
+            "start": 36.0,
+            "end": 36.26,
+            "word": " play",
+            "probability": 0.99687
+          },
+          {
+            "start": 36.26,
+            "end": 36.78,
+            "word": " basketball",
+            "probability": 0.99558
+          },
+          {
+            "start": 36.78,
+            "end": 37.18,
+            "word": " or",
+            "probability": 0.6995
+          },
+          {
+            "start": 37.18,
+            "end": 37.38,
+            "word": " just",
+            "probability": 0.99052
+          },
+          {
+            "start": 37.38,
+            "end": 37.66,
+            "word": " talk.",
+            "probability": 0.99647
+          }
+        ]
+      },
+      {
+        "start": 38.72,
+        "end": 42.86,
+        "text": "Let me know if you're in, and if anyone else wants to join, we can invite them too.",
+        "words": [
+          {
+            "start": 38.72,
+            "end": 38.9,
+            "word": " Let",
+            "probability": 0.99296
+          },
+          {
+            "start": 38.9,
+            "end": 39.0,
+            "word": " me",
+            "probability": 0.99698
+          },
+          {
+            "start": 39.0,
+            "end": 39.16,
+            "word": " know",
+            "probability": 0.99977
+          },
+          {
+            "start": 39.16,
+            "end": 39.3,
+            "word": " if",
+            "probability": 0.99368
+          },
+          {
+            "start": 39.3,
+            "end": 39.44,
+            "word": " you're",
+            "probability": 0.98783
+          },
+          {
+            "start": 39.44,
+            "end": 39.58,
+            "word": " in,",
+            "probability": 0.99731
+          },
+          {
+            "start": 39.82,
+            "end": 39.88,
+            "word": " and",
+            "probability": 0.99532
+          },
+          {
+            "start": 39.88,
+            "end": 40.02,
+            "word": " if",
+            "probability": 0.9966
+          },
+          {
+            "start": 40.02,
+            "end": 40.32,
+            "word": " anyone",
+            "probability": 0.99134
+          },
+          {
+            "start": 40.32,
+            "end": 40.58,
+            "word": " else",
+            "probability": 0.99618
+          },
+          {
+            "start": 40.58,
+            "end": 40.74,
+            "word": " wants",
+            "probability": 0.99695
+          },
+          {
+            "start": 40.74,
+            "end": 40.98,
+            "word": " to",
+            "probability": 0.99776
+          },
+          {
+            "start": 40.98,
+            "end": 41.28,
+            "word": " join,",
+            "probability": 0.99945
+          },
+          {
+            "start": 41.66,
+            "end": 41.9,
+            "word": " we",
+            "probability": 0.99377
+          },
+          {
+            "start": 41.9,
+            "end": 42.04,
+            "word": " can",
+            "probability": 0.9974
+          },
+          {
+            "start": 42.04,
+            "end": 42.3,
+            "word": " invite",
+            "probability": 0.99915
+          },
+          {
+            "start": 42.3,
+            "end": 42.56,
+            "word": " them",
+            "probability": 0.99885
+          },
+          {
+            "start": 42.56,
+            "end": 42.86,
+            "word": " too.",
+            "probability": 0.59241
+          }
+        ]
+      },
+      {
+        "start": 43.54,
+        "end": 44.06,
+        "text": "See you later.",
+        "words": [
+          {
+            "start": 43.54,
+            "end": 43.74,
+            "word": " See",
+            "probability": 0.99543
+          },
+          {
+            "start": 43.74,
+            "end": 43.84,
+            "word": " you",
+            "probability": 0.94815
+          },
+          {
+            "start": 43.84,
+            "end": 44.06,
+            "word": " later.",
+            "probability": 0.99855
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 73,
+            "speechStart": 1.01,
+            "speechEnd": 22.1,
+            "sourceTokenCoverage": 0.9863,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9863,
+            "transcript": "hey mike it's tom how are you i was thinking why don't we meet up tonight i'm free and it would be fun to hang out let's meet at the park at 7 p m does that work for you we can grab some snacks and maybe play basketball or just talk let me know if you're in and if anyone else wants to join we can invite them to see you later",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 73,
+            "wordEndIndexExclusive": 144,
+            "speechStart": 23.2,
+            "speechEnd": 44.06,
+            "sourceTokenCoverage": 0.9589,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9722,
+            "transcript": "hey mike it's tom how are you i was thinking why don't we meet up tonight i'm free and it would be fun to hang out let's meet at the park at 7pm does that work for you we can grab some snacks and maybe play basketball or just talk let me know if you're in and if anyone else wants to join we can invite them too see you later",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

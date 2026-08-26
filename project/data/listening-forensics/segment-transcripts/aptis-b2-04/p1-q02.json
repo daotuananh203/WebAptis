@@ -1,0 +1,527 @@
+{
+  "testId": "aptis-b2-04",
+  "blockId": "p1-q02",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-04/part-1/q02.mp3",
+  "audioSha256": "2e86692c67a099b9423dca302ab4eff650399affe249eb510a4c2e1187b9489e",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.94,
+        "end": 3.28,
+        "text": "Hey, just wanted to give you a quick heads-up.",
+        "words": [
+          {
+            "start": 0.94,
+            "end": 1.44,
+            "word": " Hey,",
+            "probability": 0.90224
+          },
+          {
+            "start": 1.68,
+            "end": 1.86,
+            "word": " just",
+            "probability": 0.87043
+          },
+          {
+            "start": 1.86,
+            "end": 2.1,
+            "word": " wanted",
+            "probability": 0.99102
+          },
+          {
+            "start": 2.1,
+            "end": 2.26,
+            "word": " to",
+            "probability": 0.99686
+          },
+          {
+            "start": 2.26,
+            "end": 2.38,
+            "word": " give",
+            "probability": 0.99766
+          },
+          {
+            "start": 2.38,
+            "end": 2.52,
+            "word": " you",
+            "probability": 0.9908
+          },
+          {
+            "start": 2.52,
+            "end": 2.62,
+            "word": " a",
+            "probability": 0.99006
+          },
+          {
+            "start": 2.62,
+            "end": 2.8,
+            "word": " quick",
+            "probability": 0.99815
+          },
+          {
+            "start": 2.8,
+            "end": 3.06,
+            "word": " heads",
+            "probability": 0.9553
+          },
+          {
+            "start": 3.06,
+            "end": 3.28,
+            "word": "-up.",
+            "probability": 0.62443
+          }
+        ]
+      },
+      {
+        "start": 3.92,
+        "end": 7.64,
+        "text": "I won't be able to join the meeting with the clients at 10-15 like we planned.",
+        "words": [
+          {
+            "start": 3.92,
+            "end": 4.14,
+            "word": " I",
+            "probability": 0.99175
+          },
+          {
+            "start": 4.14,
+            "end": 4.54,
+            "word": " won't",
+            "probability": 0.9908
+          },
+          {
+            "start": 4.54,
+            "end": 4.66,
+            "word": " be",
+            "probability": 0.9983
+          },
+          {
+            "start": 4.66,
+            "end": 4.82,
+            "word": " able",
+            "probability": 0.99878
+          },
+          {
+            "start": 4.82,
+            "end": 4.96,
+            "word": " to",
+            "probability": 0.99846
+          },
+          {
+            "start": 4.96,
+            "end": 5.18,
+            "word": " join",
+            "probability": 0.99683
+          },
+          {
+            "start": 5.18,
+            "end": 5.32,
+            "word": " the",
+            "probability": 0.9938
+          },
+          {
+            "start": 5.32,
+            "end": 5.54,
+            "word": " meeting",
+            "probability": 0.99294
+          },
+          {
+            "start": 5.54,
+            "end": 5.74,
+            "word": " with",
+            "probability": 0.99757
+          },
+          {
+            "start": 5.74,
+            "end": 5.86,
+            "word": " the",
+            "probability": 0.97967
+          },
+          {
+            "start": 5.86,
+            "end": 6.16,
+            "word": " clients",
+            "probability": 0.98661
+          },
+          {
+            "start": 6.16,
+            "end": 6.34,
+            "word": " at",
+            "probability": 0.99808
+          },
+          {
+            "start": 6.34,
+            "end": 6.52,
+            "word": " 10",
+            "probability": 0.89153
+          },
+          {
+            "start": 6.52,
+            "end": 6.94,
+            "word": "-15",
+            "probability": 0.63876
+          },
+          {
+            "start": 6.94,
+            "end": 7.16,
+            "word": " like",
+            "probability": 0.84505
+          },
+          {
+            "start": 7.16,
+            "end": 7.32,
+            "word": " we",
+            "probability": 0.994
+          },
+          {
+            "start": 7.32,
+            "end": 7.64,
+            "word": " planned.",
+            "probability": 0.99812
+          }
+        ]
+      },
+      {
+        "start": 8.22,
+        "end": 9.84,
+        "text": "I've got something that suddenly came up.",
+        "words": [
+          {
+            "start": 8.22,
+            "end": 8.48,
+            "word": " I've",
+            "probability": 0.9937
+          },
+          {
+            "start": 8.48,
+            "end": 8.56,
+            "word": " got",
+            "probability": 0.99698
+          },
+          {
+            "start": 8.56,
+            "end": 8.9,
+            "word": " something",
+            "probability": 0.99733
+          },
+          {
+            "start": 8.9,
+            "end": 9.06,
+            "word": " that",
+            "probability": 0.99002
+          },
+          {
+            "start": 9.06,
+            "end": 9.4,
+            "word": " suddenly",
+            "probability": 0.98372
+          },
+          {
+            "start": 9.4,
+            "end": 9.64,
+            "word": " came",
+            "probability": 0.99763
+          },
+          {
+            "start": 9.64,
+            "end": 9.84,
+            "word": " up.",
+            "probability": 0.99051
+          }
+        ]
+      },
+      {
+        "start": 10.3,
+        "end": 14.34,
+        "text": "I know it's last minute, but could you go ahead and handle the presentation on your own?",
+        "words": [
+          {
+            "start": 10.3,
+            "end": 10.48,
+            "word": " I",
+            "probability": 0.99841
+          },
+          {
+            "start": 10.48,
+            "end": 10.62,
+            "word": " know",
+            "probability": 0.99885
+          },
+          {
+            "start": 10.62,
+            "end": 10.84,
+            "word": " it's",
+            "probability": 0.98977
+          },
+          {
+            "start": 10.84,
+            "end": 10.96,
+            "word": " last",
+            "probability": 0.93844
+          },
+          {
+            "start": 10.96,
+            "end": 11.3,
+            "word": " minute,",
+            "probability": 0.93307
+          },
+          {
+            "start": 11.42,
+            "end": 11.6,
+            "word": " but",
+            "probability": 0.99601
+          },
+          {
+            "start": 11.6,
+            "end": 12.24,
+            "word": " could",
+            "probability": 0.9309
+          },
+          {
+            "start": 12.24,
+            "end": 12.38,
+            "word": " you",
+            "probability": 0.99804
+          },
+          {
+            "start": 12.38,
+            "end": 12.54,
+            "word": " go",
+            "probability": 0.99881
+          },
+          {
+            "start": 12.54,
+            "end": 12.78,
+            "word": " ahead",
+            "probability": 0.99871
+          },
+          {
+            "start": 12.78,
+            "end": 12.92,
+            "word": " and",
+            "probability": 0.99354
+          },
+          {
+            "start": 12.92,
+            "end": 13.16,
+            "word": " handle",
+            "probability": 0.99743
+          },
+          {
+            "start": 13.16,
+            "end": 13.3,
+            "word": " the",
+            "probability": 0.99771
+          },
+          {
+            "start": 13.3,
+            "end": 13.72,
+            "word": " presentation",
+            "probability": 0.99809
+          },
+          {
+            "start": 13.72,
+            "end": 14.0,
+            "word": " on",
+            "probability": 0.99685
+          },
+          {
+            "start": 14.0,
+            "end": 14.14,
+            "word": " your",
+            "probability": 0.9969
+          },
+          {
+            "start": 14.14,
+            "end": 14.34,
+            "word": " own?",
+            "probability": 0.99932
+          }
+        ]
+      },
+      {
+        "start": 14.7,
+        "end": 17.32,
+        "text": "You're familiar with everything, so I trust you've got this.",
+        "words": [
+          {
+            "start": 14.7,
+            "end": 14.9,
+            "word": " You're",
+            "probability": 0.98212
+          },
+          {
+            "start": 14.9,
+            "end": 15.24,
+            "word": " familiar",
+            "probability": 0.9979
+          },
+          {
+            "start": 15.24,
+            "end": 15.52,
+            "word": " with",
+            "probability": 0.99966
+          },
+          {
+            "start": 15.52,
+            "end": 15.86,
+            "word": " everything,",
+            "probability": 0.99863
+          },
+          {
+            "start": 16.1,
+            "end": 16.36,
+            "word": " so",
+            "probability": 0.9989
+          },
+          {
+            "start": 16.36,
+            "end": 16.52,
+            "word": " I",
+            "probability": 0.98963
+          },
+          {
+            "start": 16.52,
+            "end": 16.74,
+            "word": " trust",
+            "probability": 0.99469
+          },
+          {
+            "start": 16.74,
+            "end": 17.0,
+            "word": " you've",
+            "probability": 0.9846
+          },
+          {
+            "start": 17.0,
+            "end": 17.1,
+            "word": " got",
+            "probability": 0.99919
+          },
+          {
+            "start": 17.1,
+            "end": 17.32,
+            "word": " this.",
+            "probability": 0.99844
+          }
+        ]
+      },
+      {
+        "start": 18.04,
+        "end": 19.42,
+        "text": "Let me know how it goes afterward.",
+        "words": [
+          {
+            "start": 18.04,
+            "end": 18.28,
+            "word": " Let",
+            "probability": 0.99534
+          },
+          {
+            "start": 18.28,
+            "end": 18.42,
+            "word": " me",
+            "probability": 0.99878
+          },
+          {
+            "start": 18.42,
+            "end": 18.58,
+            "word": " know",
+            "probability": 0.99893
+          },
+          {
+            "start": 18.58,
+            "end": 18.72,
+            "word": " how",
+            "probability": 0.9962
+          },
+          {
+            "start": 18.72,
+            "end": 18.88,
+            "word": " it",
+            "probability": 0.9979
+          },
+          {
+            "start": 18.88,
+            "end": 19.04,
+            "word": " goes",
+            "probability": 0.9977
+          },
+          {
+            "start": 19.04,
+            "end": 19.42,
+            "word": " afterward.",
+            "probability": 0.86373
+          }
+        ]
+      },
+      {
+        "start": 19.96,
+        "end": 21.54,
+        "text": "Thanks, I really appreciate it.",
+        "words": [
+          {
+            "start": 19.96,
+            "end": 20.32,
+            "word": " Thanks,",
+            "probability": 0.99629
+          },
+          {
+            "start": 20.56,
+            "end": 20.68,
+            "word": " I",
+            "probability": 0.9972
+          },
+          {
+            "start": 20.68,
+            "end": 20.9,
+            "word": " really",
+            "probability": 0.99877
+          },
+          {
+            "start": 20.9,
+            "end": 21.36,
+            "word": " appreciate",
+            "probability": 0.99561
+          },
+          {
+            "start": 21.36,
+            "end": 21.54,
+            "word": " it.",
+            "probability": 0.99912
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q02",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 73,
+            "speechStart": 0.94,
+            "speechEnd": 21.54,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey just wanted to give you a quick heads up i won't be able to join the meeting with the clients at 10 15 like we planned i've got something that suddenly came up i know it's last minute but could you go ahead and handle the presentation on your own you're familiar with everything so i trust you've got this let me know how it goes afterward thanks i really appreciate it",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,677 @@
+{
+  "testId": "aptis-b2-07",
+  "blockId": "p2-spk-d",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-07/part-2/spk-d.mp3",
+  "audioSha256": "ec5c0f8371a374e396fe4067b418bde63ecdffccf9b33c538df755c711cba2ee",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.72,
+        "end": 4.74,
+        "text": "Every morning, it's just me, my car, and the open road.",
+        "words": [
+          {
+            "start": 0.72,
+            "end": 1.3,
+            "word": " Every",
+            "probability": 0.50769
+          },
+          {
+            "start": 1.3,
+            "end": 1.74,
+            "word": " morning,",
+            "probability": 0.99561
+          },
+          {
+            "start": 1.98,
+            "end": 2.16,
+            "word": " it's",
+            "probability": 0.98532
+          },
+          {
+            "start": 2.16,
+            "end": 2.32,
+            "word": " just",
+            "probability": 0.99511
+          },
+          {
+            "start": 2.32,
+            "end": 2.74,
+            "word": " me,",
+            "probability": 0.97774
+          },
+          {
+            "start": 3.12,
+            "end": 3.24,
+            "word": " my",
+            "probability": 0.99343
+          },
+          {
+            "start": 3.24,
+            "end": 3.56,
+            "word": " car,",
+            "probability": 0.99805
+          },
+          {
+            "start": 3.82,
+            "end": 3.88,
+            "word": " and",
+            "probability": 0.98552
+          },
+          {
+            "start": 3.88,
+            "end": 3.98,
+            "word": " the",
+            "probability": 0.99401
+          },
+          {
+            "start": 3.98,
+            "end": 4.3,
+            "word": " open",
+            "probability": 0.9924
+          },
+          {
+            "start": 4.3,
+            "end": 4.74,
+            "word": " road.",
+            "probability": 0.9977
+          }
+        ]
+      },
+      {
+        "start": 5.24,
+        "end": 7.16,
+        "text": "There's a kind of freedom in it, you know?",
+        "words": [
+          {
+            "start": 5.24,
+            "end": 5.56,
+            "word": " There's",
+            "probability": 0.98395
+          },
+          {
+            "start": 5.56,
+            "end": 5.64,
+            "word": " a",
+            "probability": 0.99187
+          },
+          {
+            "start": 5.64,
+            "end": 5.88,
+            "word": " kind",
+            "probability": 0.96807
+          },
+          {
+            "start": 5.88,
+            "end": 6.08,
+            "word": " of",
+            "probability": 0.99845
+          },
+          {
+            "start": 6.08,
+            "end": 6.44,
+            "word": " freedom",
+            "probability": 0.96704
+          },
+          {
+            "start": 6.44,
+            "end": 6.72,
+            "word": " in",
+            "probability": 0.99418
+          },
+          {
+            "start": 6.72,
+            "end": 6.84,
+            "word": " it,",
+            "probability": 0.99812
+          },
+          {
+            "start": 6.92,
+            "end": 7.0,
+            "word": " you",
+            "probability": 0.9636
+          },
+          {
+            "start": 7.0,
+            "end": 7.16,
+            "word": " know?",
+            "probability": 0.9991
+          }
+        ]
+      },
+      {
+        "start": 7.78,
+        "end": 12.0,
+        "text": "I get to decide my route, crank up my favorite tunes, and just go.",
+        "words": [
+          {
+            "start": 7.78,
+            "end": 7.88,
+            "word": " I",
+            "probability": 0.97536
+          },
+          {
+            "start": 7.88,
+            "end": 8.02,
+            "word": " get",
+            "probability": 0.99842
+          },
+          {
+            "start": 8.02,
+            "end": 8.2,
+            "word": " to",
+            "probability": 0.99917
+          },
+          {
+            "start": 8.2,
+            "end": 8.56,
+            "word": " decide",
+            "probability": 0.99455
+          },
+          {
+            "start": 8.56,
+            "end": 8.86,
+            "word": " my",
+            "probability": 0.9836
+          },
+          {
+            "start": 8.86,
+            "end": 9.2,
+            "word": " route,",
+            "probability": 0.92186
+          },
+          {
+            "start": 9.66,
+            "end": 9.8,
+            "word": " crank",
+            "probability": 0.98747
+          },
+          {
+            "start": 9.8,
+            "end": 10.0,
+            "word": " up",
+            "probability": 0.99367
+          },
+          {
+            "start": 10.0,
+            "end": 10.2,
+            "word": " my",
+            "probability": 0.99771
+          },
+          {
+            "start": 10.2,
+            "end": 10.58,
+            "word": " favorite",
+            "probability": 0.96659
+          },
+          {
+            "start": 10.58,
+            "end": 10.94,
+            "word": " tunes,",
+            "probability": 0.9667
+          },
+          {
+            "start": 10.94,
+            "end": 11.44,
+            "word": " and",
+            "probability": 0.99843
+          },
+          {
+            "start": 11.44,
+            "end": 11.66,
+            "word": " just",
+            "probability": 0.99756
+          },
+          {
+            "start": 11.66,
+            "end": 12.0,
+            "word": " go.",
+            "probability": 0.99339
+          }
+        ]
+      },
+      {
+        "start": 12.68,
+        "end": 17.92,
+        "text": "Traffic can be a pain, sure, but it's worth it for those moments when it's just me and my thoughts.",
+        "words": [
+          {
+            "start": 12.68,
+            "end": 13.0,
+            "word": " Traffic",
+            "probability": 0.90291
+          },
+          {
+            "start": 13.0,
+            "end": 13.24,
+            "word": " can",
+            "probability": 0.99868
+          },
+          {
+            "start": 13.24,
+            "end": 13.4,
+            "word": " be",
+            "probability": 0.99856
+          },
+          {
+            "start": 13.4,
+            "end": 13.5,
+            "word": " a",
+            "probability": 0.99322
+          },
+          {
+            "start": 13.5,
+            "end": 13.8,
+            "word": " pain,",
+            "probability": 0.99772
+          },
+          {
+            "start": 14.08,
+            "end": 14.32,
+            "word": " sure,",
+            "probability": 0.98962
+          },
+          {
+            "start": 14.76,
+            "end": 14.84,
+            "word": " but",
+            "probability": 0.99791
+          },
+          {
+            "start": 14.84,
+            "end": 15.06,
+            "word": " it's",
+            "probability": 0.99765
+          },
+          {
+            "start": 15.06,
+            "end": 15.3,
+            "word": " worth",
+            "probability": 0.99939
+          },
+          {
+            "start": 15.3,
+            "end": 15.46,
+            "word": " it",
+            "probability": 0.99929
+          },
+          {
+            "start": 15.46,
+            "end": 15.62,
+            "word": " for",
+            "probability": 0.98126
+          },
+          {
+            "start": 15.62,
+            "end": 15.86,
+            "word": " those",
+            "probability": 0.99914
+          },
+          {
+            "start": 15.86,
+            "end": 16.26,
+            "word": " moments",
+            "probability": 0.99773
+          },
+          {
+            "start": 16.26,
+            "end": 16.5,
+            "word": " when",
+            "probability": 0.97531
+          },
+          {
+            "start": 16.5,
+            "end": 16.74,
+            "word": " it's",
+            "probability": 0.99747
+          },
+          {
+            "start": 16.74,
+            "end": 16.92,
+            "word": " just",
+            "probability": 0.99728
+          },
+          {
+            "start": 16.92,
+            "end": 17.28,
+            "word": " me",
+            "probability": 0.99371
+          },
+          {
+            "start": 17.28,
+            "end": 17.42,
+            "word": " and",
+            "probability": 0.96933
+          },
+          {
+            "start": 17.42,
+            "end": 17.58,
+            "word": " my",
+            "probability": 0.99862
+          },
+          {
+            "start": 17.58,
+            "end": 17.92,
+            "word": " thoughts.",
+            "probability": 0.99927
+          }
+        ]
+      },
+      {
+        "start": 18.5,
+        "end": 22.3,
+        "text": "I like having that bit of control, especially before a busy day.",
+        "words": [
+          {
+            "start": 18.5,
+            "end": 18.74,
+            "word": " I",
+            "probability": 0.99691
+          },
+          {
+            "start": 18.74,
+            "end": 18.92,
+            "word": " like",
+            "probability": 0.99815
+          },
+          {
+            "start": 18.92,
+            "end": 19.26,
+            "word": " having",
+            "probability": 0.99882
+          },
+          {
+            "start": 19.26,
+            "end": 19.46,
+            "word": " that",
+            "probability": 0.99861
+          },
+          {
+            "start": 19.46,
+            "end": 19.62,
+            "word": " bit",
+            "probability": 0.98841
+          },
+          {
+            "start": 19.62,
+            "end": 19.78,
+            "word": " of",
+            "probability": 0.9993
+          },
+          {
+            "start": 19.78,
+            "end": 20.26,
+            "word": " control,",
+            "probability": 0.99829
+          },
+          {
+            "start": 20.62,
+            "end": 21.16,
+            "word": " especially",
+            "probability": 0.99819
+          },
+          {
+            "start": 21.16,
+            "end": 21.56,
+            "word": " before",
+            "probability": 0.9967
+          },
+          {
+            "start": 21.56,
+            "end": 21.74,
+            "word": " a",
+            "probability": 0.99759
+          },
+          {
+            "start": 21.74,
+            "end": 21.9,
+            "word": " busy",
+            "probability": 0.99784
+          },
+          {
+            "start": 21.9,
+            "end": 22.3,
+            "word": " day.",
+            "probability": 0.9992
+          }
+        ]
+      },
+      {
+        "start": 22.98,
+        "end": 27.3,
+        "text": "Sometimes I even take the scenic route, just to stretch out the time a bit.",
+        "words": [
+          {
+            "start": 22.98,
+            "end": 23.46,
+            "word": " Sometimes",
+            "probability": 0.9953
+          },
+          {
+            "start": 23.46,
+            "end": 23.84,
+            "word": " I",
+            "probability": 0.71798
+          },
+          {
+            "start": 23.84,
+            "end": 24.1,
+            "word": " even",
+            "probability": 0.99742
+          },
+          {
+            "start": 24.1,
+            "end": 24.3,
+            "word": " take",
+            "probability": 0.99829
+          },
+          {
+            "start": 24.3,
+            "end": 24.5,
+            "word": " the",
+            "probability": 0.99472
+          },
+          {
+            "start": 24.5,
+            "end": 24.88,
+            "word": " scenic",
+            "probability": 0.99641
+          },
+          {
+            "start": 24.88,
+            "end": 25.24,
+            "word": " route,",
+            "probability": 0.99834
+          },
+          {
+            "start": 25.52,
+            "end": 25.8,
+            "word": " just",
+            "probability": 0.99753
+          },
+          {
+            "start": 25.8,
+            "end": 25.98,
+            "word": " to",
+            "probability": 0.99868
+          },
+          {
+            "start": 25.98,
+            "end": 26.26,
+            "word": " stretch",
+            "probability": 0.99872
+          },
+          {
+            "start": 26.26,
+            "end": 26.48,
+            "word": " out",
+            "probability": 0.99923
+          },
+          {
+            "start": 26.48,
+            "end": 26.64,
+            "word": " the",
+            "probability": 0.99382
+          },
+          {
+            "start": 26.64,
+            "end": 26.9,
+            "word": " time",
+            "probability": 0.99768
+          },
+          {
+            "start": 26.9,
+            "end": 27.1,
+            "word": " a",
+            "probability": 0.98029
+          },
+          {
+            "start": 27.1,
+            "end": 27.3,
+            "word": " bit.",
+            "probability": 0.99876
+          }
+        ]
+      },
+      {
+        "start": 27.3,
+        "end": 32.72,
+        "text": "it. By the time I park, I'm in my zone, ready to take on whatever comes next.",
+        "words": [
+          {
+            "start": 27.3,
+            "end": 27.38,
+            "word": " it.",
+            "probability": 0.14524
+          },
+          {
+            "start": 27.88,
+            "end": 28.1,
+            "word": " By",
+            "probability": 0.97632
+          },
+          {
+            "start": 28.1,
+            "end": 28.22,
+            "word": " the",
+            "probability": 0.9908
+          },
+          {
+            "start": 28.22,
+            "end": 28.46,
+            "word": " time",
+            "probability": 0.99694
+          },
+          {
+            "start": 28.46,
+            "end": 28.62,
+            "word": " I",
+            "probability": 0.97816
+          },
+          {
+            "start": 28.62,
+            "end": 28.92,
+            "word": " park,",
+            "probability": 0.98652
+          },
+          {
+            "start": 29.22,
+            "end": 29.42,
+            "word": " I'm",
+            "probability": 0.97197
+          },
+          {
+            "start": 29.42,
+            "end": 29.5,
+            "word": " in",
+            "probability": 0.99398
+          },
+          {
+            "start": 29.5,
+            "end": 29.68,
+            "word": " my",
+            "probability": 0.99624
+          },
+          {
+            "start": 29.68,
+            "end": 30.08,
+            "word": " zone,",
+            "probability": 0.97649
+          },
+          {
+            "start": 30.48,
+            "end": 30.76,
+            "word": " ready",
+            "probability": 0.99434
+          },
+          {
+            "start": 30.76,
+            "end": 30.96,
+            "word": " to",
+            "probability": 0.99741
+          },
+          {
+            "start": 30.96,
+            "end": 31.2,
+            "word": " take",
+            "probability": 0.99775
+          },
+          {
+            "start": 31.2,
+            "end": 31.46,
+            "word": " on",
+            "probability": 0.9924
+          },
+          {
+            "start": 31.46,
+            "end": 31.78,
+            "word": " whatever",
+            "probability": 0.98823
+          },
+          {
+            "start": 31.78,
+            "end": 32.34,
+            "word": " comes",
+            "probability": 0.99113
+          },
+          {
+            "start": 32.34,
+            "end": 32.72,
+            "word": " next.",
+            "probability": 0.99489
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-d",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 98,
+            "speechStart": 0.72,
+            "speechEnd": 32.72,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9949,
+            "transcript": "every morning it's just me my car and the open road there's a kind of freedom in it you know i get to decide my route crank up my favorite tunes and just go traffic can be a pain sure but it's worth it for those moments when it's just me and my thoughts i like having that bit of control especially before a busy day sometimes i even take the scenic route just to stretch out the time a bit it by the time i park i'm in my zone ready to take on whatever comes next",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

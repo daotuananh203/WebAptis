@@ -1,0 +1,755 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p1-q05",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-1/q05.mp3",
+  "audioSha256": "6159ce18ca247eada5af0f2157157d21f1711e7cb42b90f2d070d831b01bac07",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.62,
+        "end": 4.66,
+        "text": "Good morning, Sarah. You are early today. How do you get to school every day?",
+        "words": [
+          {
+            "start": 0.62,
+            "end": 1.08,
+            "word": " Good",
+            "probability": 0.34338
+          },
+          {
+            "start": 1.08,
+            "end": 1.34,
+            "word": " morning,",
+            "probability": 0.95697
+          },
+          {
+            "start": 1.52,
+            "end": 1.68,
+            "word": " Sarah.",
+            "probability": 0.76679
+          },
+          {
+            "start": 2.08,
+            "end": 2.16,
+            "word": " You",
+            "probability": 0.99307
+          },
+          {
+            "start": 2.16,
+            "end": 2.26,
+            "word": " are",
+            "probability": 0.97689
+          },
+          {
+            "start": 2.26,
+            "end": 2.58,
+            "word": " early",
+            "probability": 0.9918
+          },
+          {
+            "start": 2.58,
+            "end": 2.94,
+            "word": " today.",
+            "probability": 0.99649
+          },
+          {
+            "start": 3.5,
+            "end": 3.62,
+            "word": " How",
+            "probability": 0.99007
+          },
+          {
+            "start": 3.62,
+            "end": 3.7,
+            "word": " do",
+            "probability": 0.99409
+          },
+          {
+            "start": 3.7,
+            "end": 3.78,
+            "word": " you",
+            "probability": 0.99893
+          },
+          {
+            "start": 3.78,
+            "end": 3.9,
+            "word": " get",
+            "probability": 0.99816
+          },
+          {
+            "start": 3.9,
+            "end": 4.02,
+            "word": " to",
+            "probability": 0.99944
+          },
+          {
+            "start": 4.02,
+            "end": 4.22,
+            "word": " school",
+            "probability": 0.99838
+          },
+          {
+            "start": 4.22,
+            "end": 4.46,
+            "word": " every",
+            "probability": 0.72558
+          },
+          {
+            "start": 4.46,
+            "end": 4.66,
+            "word": " day?",
+            "probability": 0.99914
+          }
+        ]
+      },
+      {
+        "start": 5.6,
+        "end": 11.12,
+        "text": "Hi, Mr. Smith. I usually take the bus. It's not far from my house, but sometimes I have to",
+        "words": [
+          {
+            "start": 5.6,
+            "end": 5.82,
+            "word": " Hi,",
+            "probability": 0.5678
+          },
+          {
+            "start": 5.94,
+            "end": 6.12,
+            "word": " Mr.",
+            "probability": 0.93564
+          },
+          {
+            "start": 6.3,
+            "end": 6.46,
+            "word": " Smith.",
+            "probability": 0.99447
+          },
+          {
+            "start": 7.0,
+            "end": 7.06,
+            "word": " I",
+            "probability": 0.99714
+          },
+          {
+            "start": 7.06,
+            "end": 7.32,
+            "word": " usually",
+            "probability": 0.99918
+          },
+          {
+            "start": 7.32,
+            "end": 7.62,
+            "word": " take",
+            "probability": 0.99845
+          },
+          {
+            "start": 7.62,
+            "end": 7.78,
+            "word": " the",
+            "probability": 0.99718
+          },
+          {
+            "start": 7.78,
+            "end": 7.98,
+            "word": " bus.",
+            "probability": 0.99838
+          },
+          {
+            "start": 8.54,
+            "end": 8.72,
+            "word": " It's",
+            "probability": 0.99416
+          },
+          {
+            "start": 8.72,
+            "end": 8.84,
+            "word": " not",
+            "probability": 0.99855
+          },
+          {
+            "start": 8.84,
+            "end": 9.08,
+            "word": " far",
+            "probability": 0.98971
+          },
+          {
+            "start": 9.08,
+            "end": 9.26,
+            "word": " from",
+            "probability": 0.99323
+          },
+          {
+            "start": 9.26,
+            "end": 9.4,
+            "word": " my",
+            "probability": 0.99774
+          },
+          {
+            "start": 9.4,
+            "end": 9.8,
+            "word": " house,",
+            "probability": 0.99761
+          },
+          {
+            "start": 10.02,
+            "end": 10.3,
+            "word": " but",
+            "probability": 0.99313
+          },
+          {
+            "start": 10.3,
+            "end": 10.66,
+            "word": " sometimes",
+            "probability": 0.99075
+          },
+          {
+            "start": 10.66,
+            "end": 10.86,
+            "word": " I",
+            "probability": 0.98271
+          },
+          {
+            "start": 10.86,
+            "end": 11.0,
+            "word": " have",
+            "probability": 0.99699
+          },
+          {
+            "start": 11.0,
+            "end": 11.12,
+            "word": " to",
+            "probability": 0.99855
+          }
+        ]
+      },
+      {
+        "start": 11.12,
+        "end": 16.2,
+        "text": "wait a long time for it. I understand. I walk to school every day. It helps me get some",
+        "words": [
+          {
+            "start": 11.12,
+            "end": 11.22,
+            "word": " wait",
+            "probability": 0.52257
+          },
+          {
+            "start": 11.22,
+            "end": 11.34,
+            "word": " a",
+            "probability": 0.90017
+          },
+          {
+            "start": 11.34,
+            "end": 11.5,
+            "word": " long",
+            "probability": 0.99141
+          },
+          {
+            "start": 11.5,
+            "end": 11.72,
+            "word": " time",
+            "probability": 0.99734
+          },
+          {
+            "start": 11.72,
+            "end": 11.96,
+            "word": " for",
+            "probability": 0.99198
+          },
+          {
+            "start": 11.96,
+            "end": 12.14,
+            "word": " it.",
+            "probability": 0.99738
+          },
+          {
+            "start": 12.4,
+            "end": 12.5,
+            "word": " I",
+            "probability": 0.94449
+          },
+          {
+            "start": 12.5,
+            "end": 12.96,
+            "word": " understand.",
+            "probability": 0.99557
+          },
+          {
+            "start": 13.66,
+            "end": 13.92,
+            "word": " I",
+            "probability": 0.99764
+          },
+          {
+            "start": 13.92,
+            "end": 14.06,
+            "word": " walk",
+            "probability": 0.9893
+          },
+          {
+            "start": 14.06,
+            "end": 14.24,
+            "word": " to",
+            "probability": 0.99868
+          },
+          {
+            "start": 14.24,
+            "end": 14.48,
+            "word": " school",
+            "probability": 0.99943
+          },
+          {
+            "start": 14.48,
+            "end": 14.74,
+            "word": " every",
+            "probability": 0.98754
+          },
+          {
+            "start": 14.74,
+            "end": 15.02,
+            "word": " day.",
+            "probability": 0.99977
+          },
+          {
+            "start": 15.42,
+            "end": 15.52,
+            "word": " It",
+            "probability": 0.99708
+          },
+          {
+            "start": 15.52,
+            "end": 15.68,
+            "word": " helps",
+            "probability": 0.99838
+          },
+          {
+            "start": 15.68,
+            "end": 15.9,
+            "word": " me",
+            "probability": 0.99889
+          },
+          {
+            "start": 15.9,
+            "end": 16.02,
+            "word": " get",
+            "probability": 0.9937
+          },
+          {
+            "start": 16.02,
+            "end": 16.2,
+            "word": " some",
+            "probability": 0.992
+          }
+        ]
+      },
+      {
+        "start": 16.2,
+        "end": 19.82,
+        "text": "exercise and I enjoy the fresh air. That sounds nice. Do you walk alone?",
+        "words": [
+          {
+            "start": 16.2,
+            "end": 16.7,
+            "word": " exercise",
+            "probability": 0.9956
+          },
+          {
+            "start": 16.7,
+            "end": 17.06,
+            "word": " and",
+            "probability": 0.63084
+          },
+          {
+            "start": 17.06,
+            "end": 17.16,
+            "word": " I",
+            "probability": 0.99497
+          },
+          {
+            "start": 17.16,
+            "end": 17.48,
+            "word": " enjoy",
+            "probability": 0.99895
+          },
+          {
+            "start": 17.48,
+            "end": 17.7,
+            "word": " the",
+            "probability": 0.99646
+          },
+          {
+            "start": 17.7,
+            "end": 17.94,
+            "word": " fresh",
+            "probability": 0.9935
+          },
+          {
+            "start": 17.94,
+            "end": 18.24,
+            "word": " air.",
+            "probability": 0.99828
+          },
+          {
+            "start": 18.48,
+            "end": 18.6,
+            "word": " That",
+            "probability": 0.98404
+          },
+          {
+            "start": 18.6,
+            "end": 18.84,
+            "word": " sounds",
+            "probability": 0.99618
+          },
+          {
+            "start": 18.84,
+            "end": 19.12,
+            "word": " nice.",
+            "probability": 0.99911
+          },
+          {
+            "start": 19.34,
+            "end": 19.4,
+            "word": " Do",
+            "probability": 0.97288
+          },
+          {
+            "start": 19.4,
+            "end": 19.46,
+            "word": " you",
+            "probability": 0.99892
+          },
+          {
+            "start": 19.46,
+            "end": 19.56,
+            "word": " walk",
+            "probability": 0.99266
+          },
+          {
+            "start": 19.56,
+            "end": 19.82,
+            "word": " alone?",
+            "probability": 0.99455
+          }
+        ]
+      },
+      {
+        "start": 20.56,
+        "end": 25.6,
+        "text": "No. I often walk with a few other teachers. We chat while walking, and it makes the time",
+        "words": [
+          {
+            "start": 20.56,
+            "end": 20.86,
+            "word": " No.",
+            "probability": 0.9903
+          },
+          {
+            "start": 21.22,
+            "end": 21.38,
+            "word": " I",
+            "probability": 0.99888
+          },
+          {
+            "start": 21.38,
+            "end": 21.64,
+            "word": " often",
+            "probability": 0.99591
+          },
+          {
+            "start": 21.64,
+            "end": 21.88,
+            "word": " walk",
+            "probability": 0.99905
+          },
+          {
+            "start": 21.88,
+            "end": 22.1,
+            "word": " with",
+            "probability": 0.99864
+          },
+          {
+            "start": 22.1,
+            "end": 22.18,
+            "word": " a",
+            "probability": 0.99154
+          },
+          {
+            "start": 22.18,
+            "end": 22.34,
+            "word": " few",
+            "probability": 0.99896
+          },
+          {
+            "start": 22.34,
+            "end": 22.52,
+            "word": " other",
+            "probability": 0.99644
+          },
+          {
+            "start": 22.52,
+            "end": 22.94,
+            "word": " teachers.",
+            "probability": 0.99786
+          },
+          {
+            "start": 23.48,
+            "end": 23.6,
+            "word": " We",
+            "probability": 0.99806
+          },
+          {
+            "start": 23.6,
+            "end": 23.84,
+            "word": " chat",
+            "probability": 0.99307
+          },
+          {
+            "start": 23.84,
+            "end": 24.06,
+            "word": " while",
+            "probability": 0.99769
+          },
+          {
+            "start": 24.06,
+            "end": 24.46,
+            "word": " walking,",
+            "probability": 0.99543
+          },
+          {
+            "start": 24.68,
+            "end": 24.86,
+            "word": " and",
+            "probability": 0.99832
+          },
+          {
+            "start": 24.86,
+            "end": 24.96,
+            "word": " it",
+            "probability": 0.99743
+          },
+          {
+            "start": 24.96,
+            "end": 25.14,
+            "word": " makes",
+            "probability": 0.99693
+          },
+          {
+            "start": 25.14,
+            "end": 25.36,
+            "word": " the",
+            "probability": 0.99736
+          },
+          {
+            "start": 25.36,
+            "end": 25.6,
+            "word": " time",
+            "probability": 0.99795
+          }
+        ]
+      },
+      {
+        "start": 25.6,
+        "end": 30.96,
+        "text": "go by faster. I wish I could walk to school too, but the bus is faster for me, especially",
+        "words": [
+          {
+            "start": 25.6,
+            "end": 25.76,
+            "word": " go",
+            "probability": 0.29187
+          },
+          {
+            "start": 25.76,
+            "end": 25.92,
+            "word": " by",
+            "probability": 0.94244
+          },
+          {
+            "start": 25.92,
+            "end": 26.36,
+            "word": " faster.",
+            "probability": 0.97432
+          },
+          {
+            "start": 26.84,
+            "end": 27.02,
+            "word": " I",
+            "probability": 0.94125
+          },
+          {
+            "start": 27.02,
+            "end": 27.18,
+            "word": " wish",
+            "probability": 0.9975
+          },
+          {
+            "start": 27.18,
+            "end": 27.34,
+            "word": " I",
+            "probability": 0.99131
+          },
+          {
+            "start": 27.34,
+            "end": 27.48,
+            "word": " could",
+            "probability": 0.9865
+          },
+          {
+            "start": 27.48,
+            "end": 27.66,
+            "word": " walk",
+            "probability": 0.99242
+          },
+          {
+            "start": 27.66,
+            "end": 27.82,
+            "word": " to",
+            "probability": 0.99808
+          },
+          {
+            "start": 27.82,
+            "end": 28.04,
+            "word": " school",
+            "probability": 0.99377
+          },
+          {
+            "start": 28.04,
+            "end": 28.38,
+            "word": " too,",
+            "probability": 0.71685
+          },
+          {
+            "start": 28.96,
+            "end": 29.12,
+            "word": " but",
+            "probability": 0.99715
+          },
+          {
+            "start": 29.12,
+            "end": 29.24,
+            "word": " the",
+            "probability": 0.99612
+          },
+          {
+            "start": 29.24,
+            "end": 29.42,
+            "word": " bus",
+            "probability": 0.99384
+          },
+          {
+            "start": 29.42,
+            "end": 29.62,
+            "word": " is",
+            "probability": 0.99209
+          },
+          {
+            "start": 29.62,
+            "end": 29.98,
+            "word": " faster",
+            "probability": 0.9955
+          },
+          {
+            "start": 29.98,
+            "end": 30.2,
+            "word": " for",
+            "probability": 0.96478
+          },
+          {
+            "start": 30.2,
+            "end": 30.36,
+            "word": " me,",
+            "probability": 0.9988
+          },
+          {
+            "start": 30.64,
+            "end": 30.96,
+            "word": " especially",
+            "probability": 0.99745
+          }
+        ]
+      },
+      {
+        "start": 30.96,
+        "end": 32.32,
+        "text": "when I have to get here early.",
+        "words": [
+          {
+            "start": 30.96,
+            "end": 31.28,
+            "word": " when",
+            "probability": 0.99249
+          },
+          {
+            "start": 31.28,
+            "end": 31.38,
+            "word": " I",
+            "probability": 0.98256
+          },
+          {
+            "start": 31.38,
+            "end": 31.54,
+            "word": " have",
+            "probability": 0.9933
+          },
+          {
+            "start": 31.54,
+            "end": 31.64,
+            "word": " to",
+            "probability": 0.99836
+          },
+          {
+            "start": 31.64,
+            "end": 31.76,
+            "word": " get",
+            "probability": 0.99631
+          },
+          {
+            "start": 31.76,
+            "end": 31.96,
+            "word": " here",
+            "probability": 0.99437
+          },
+          {
+            "start": 31.96,
+            "end": 32.32,
+            "word": " early.",
+            "probability": 0.99264
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q05",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 111,
+            "speechStart": 0.62,
+            "speechEnd": 32.32,
+            "sourceTokenCoverage": 0.9569,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.978,
+            "transcript": "good morning sarah you are early today how do you get to school every day hi mr smith i usually take the bus it's not far from my house but sometimes i have to wait a long time for it i understand i walk to school every day it helps me get some exercise and i enjoy the fresh air that sounds nice do you walk alone no i often walk with a few other teachers we chat while walking and it makes the time go by faster i wish i could walk to school too but the bus is faster for me especially when i have to get here early",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

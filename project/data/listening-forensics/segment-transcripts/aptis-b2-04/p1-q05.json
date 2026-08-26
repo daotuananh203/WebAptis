@@ -1,0 +1,905 @@
+{
+  "testId": "aptis-b2-04",
+  "blockId": "p1-q05",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-04/part-1/q05.mp3",
+  "audioSha256": "b39affca3dca8791c2d4ab851b2b9e236ad17934cd3ba354f793ebb7a9f481ca",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 4.26,
+        "text": "Hey Sarah, I've got some news. I'm moving to a new place.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.26,
+            "word": " Hey",
+            "probability": 0.55015
+          },
+          {
+            "start": 1.26,
+            "end": 1.58,
+            "word": " Sarah,",
+            "probability": 0.57917
+          },
+          {
+            "start": 1.88,
+            "end": 1.96,
+            "word": " I've",
+            "probability": 0.98198
+          },
+          {
+            "start": 1.96,
+            "end": 2.06,
+            "word": " got",
+            "probability": 0.99512
+          },
+          {
+            "start": 2.06,
+            "end": 2.26,
+            "word": " some",
+            "probability": 0.99524
+          },
+          {
+            "start": 2.26,
+            "end": 2.54,
+            "word": " news.",
+            "probability": 0.99564
+          },
+          {
+            "start": 2.98,
+            "end": 3.08,
+            "word": " I'm",
+            "probability": 0.99321
+          },
+          {
+            "start": 3.08,
+            "end": 3.3,
+            "word": " moving",
+            "probability": 0.99643
+          },
+          {
+            "start": 3.3,
+            "end": 3.52,
+            "word": " to",
+            "probability": 0.99666
+          },
+          {
+            "start": 3.52,
+            "end": 3.62,
+            "word": " a",
+            "probability": 0.99758
+          },
+          {
+            "start": 3.62,
+            "end": 3.76,
+            "word": " new",
+            "probability": 0.99946
+          },
+          {
+            "start": 3.76,
+            "end": 4.26,
+            "word": " place.",
+            "probability": 0.99953
+          }
+        ]
+      },
+      {
+        "start": 4.56,
+        "end": 6.96,
+        "text": "Oh really? That sounds exciting. Where's your new place?",
+        "words": [
+          {
+            "start": 4.56,
+            "end": 4.64,
+            "word": " Oh",
+            "probability": 0.83171
+          },
+          {
+            "start": 4.64,
+            "end": 4.92,
+            "word": " really?",
+            "probability": 0.80074
+          },
+          {
+            "start": 5.22,
+            "end": 5.34,
+            "word": " That",
+            "probability": 0.95818
+          },
+          {
+            "start": 5.34,
+            "end": 5.58,
+            "word": " sounds",
+            "probability": 0.98619
+          },
+          {
+            "start": 5.58,
+            "end": 6.06,
+            "word": " exciting.",
+            "probability": 0.99646
+          },
+          {
+            "start": 6.32,
+            "end": 6.48,
+            "word": " Where's",
+            "probability": 0.97721
+          },
+          {
+            "start": 6.48,
+            "end": 6.56,
+            "word": " your",
+            "probability": 0.99483
+          },
+          {
+            "start": 6.56,
+            "end": 6.68,
+            "word": " new",
+            "probability": 0.99855
+          },
+          {
+            "start": 6.68,
+            "end": 6.96,
+            "word": " place?",
+            "probability": 0.99784
+          }
+        ]
+      },
+      {
+        "start": 7.9,
+        "end": 12.26,
+        "text": "It's actually pretty far from my workplace and the public transport there isn't great.",
+        "words": [
+          {
+            "start": 7.9,
+            "end": 8.1,
+            "word": " It's",
+            "probability": 0.68668
+          },
+          {
+            "start": 8.1,
+            "end": 8.36,
+            "word": " actually",
+            "probability": 0.99697
+          },
+          {
+            "start": 8.36,
+            "end": 8.8,
+            "word": " pretty",
+            "probability": 0.99442
+          },
+          {
+            "start": 8.8,
+            "end": 9.2,
+            "word": " far",
+            "probability": 0.99757
+          },
+          {
+            "start": 9.2,
+            "end": 9.4,
+            "word": " from",
+            "probability": 0.99583
+          },
+          {
+            "start": 9.4,
+            "end": 9.58,
+            "word": " my",
+            "probability": 0.9967
+          },
+          {
+            "start": 9.58,
+            "end": 10.02,
+            "word": " workplace",
+            "probability": 0.96601
+          },
+          {
+            "start": 10.02,
+            "end": 10.56,
+            "word": " and",
+            "probability": 0.49046
+          },
+          {
+            "start": 10.56,
+            "end": 10.66,
+            "word": " the",
+            "probability": 0.99418
+          },
+          {
+            "start": 10.66,
+            "end": 10.94,
+            "word": " public",
+            "probability": 0.99558
+          },
+          {
+            "start": 10.94,
+            "end": 11.44,
+            "word": " transport",
+            "probability": 0.99883
+          },
+          {
+            "start": 11.44,
+            "end": 11.72,
+            "word": " there",
+            "probability": 0.98629
+          },
+          {
+            "start": 11.72,
+            "end": 12.0,
+            "word": " isn't",
+            "probability": 0.99513
+          },
+          {
+            "start": 12.0,
+            "end": 12.26,
+            "word": " great.",
+            "probability": 0.99691
+          }
+        ]
+      },
+      {
+        "start": 13.49,
+        "end": 15.97,
+        "text": "So I've been thinking I need to learn how to drive.",
+        "words": [
+          {
+            "start": 13.49,
+            "end": 13.75,
+            "word": " So",
+            "probability": 0.98335
+          },
+          {
+            "start": 13.75,
+            "end": 13.91,
+            "word": " I've",
+            "probability": 0.9017
+          },
+          {
+            "start": 13.91,
+            "end": 14.01,
+            "word": " been",
+            "probability": 0.99677
+          },
+          {
+            "start": 14.01,
+            "end": 14.33,
+            "word": " thinking",
+            "probability": 0.99918
+          },
+          {
+            "start": 14.33,
+            "end": 14.81,
+            "word": " I",
+            "probability": 0.20986
+          },
+          {
+            "start": 14.81,
+            "end": 14.97,
+            "word": " need",
+            "probability": 0.99744
+          },
+          {
+            "start": 14.97,
+            "end": 15.13,
+            "word": " to",
+            "probability": 0.99937
+          },
+          {
+            "start": 15.13,
+            "end": 15.27,
+            "word": " learn",
+            "probability": 0.99907
+          },
+          {
+            "start": 15.27,
+            "end": 15.43,
+            "word": " how",
+            "probability": 0.99643
+          },
+          {
+            "start": 15.43,
+            "end": 15.51,
+            "word": " to",
+            "probability": 0.99844
+          },
+          {
+            "start": 15.51,
+            "end": 15.97,
+            "word": " drive.",
+            "probability": 0.99786
+          }
+        ]
+      },
+      {
+        "start": 16.29,
+        "end": 20.83,
+        "text": "Yeah that makes sense. It's hard to rely on public transport if it's not reliable.",
+        "words": [
+          {
+            "start": 16.29,
+            "end": 16.51,
+            "word": " Yeah",
+            "probability": 0.97078
+          },
+          {
+            "start": 16.51,
+            "end": 16.69,
+            "word": " that",
+            "probability": 0.45485
+          },
+          {
+            "start": 16.69,
+            "end": 16.87,
+            "word": " makes",
+            "probability": 0.97087
+          },
+          {
+            "start": 16.87,
+            "end": 17.39,
+            "word": " sense.",
+            "probability": 0.99979
+          },
+          {
+            "start": 17.83,
+            "end": 18.01,
+            "word": " It's",
+            "probability": 0.99452
+          },
+          {
+            "start": 18.01,
+            "end": 18.15,
+            "word": " hard",
+            "probability": 0.9987
+          },
+          {
+            "start": 18.15,
+            "end": 18.31,
+            "word": " to",
+            "probability": 0.99938
+          },
+          {
+            "start": 18.31,
+            "end": 18.55,
+            "word": " rely",
+            "probability": 0.9986
+          },
+          {
+            "start": 18.55,
+            "end": 18.73,
+            "word": " on",
+            "probability": 0.99904
+          },
+          {
+            "start": 18.73,
+            "end": 19.01,
+            "word": " public",
+            "probability": 0.99466
+          },
+          {
+            "start": 19.01,
+            "end": 19.67,
+            "word": " transport",
+            "probability": 0.99776
+          },
+          {
+            "start": 19.67,
+            "end": 19.93,
+            "word": " if",
+            "probability": 0.94194
+          },
+          {
+            "start": 19.93,
+            "end": 20.15,
+            "word": " it's",
+            "probability": 0.99522
+          },
+          {
+            "start": 20.15,
+            "end": 20.27,
+            "word": " not",
+            "probability": 0.99806
+          },
+          {
+            "start": 20.27,
+            "end": 20.83,
+            "word": " reliable.",
+            "probability": 0.99846
+          }
+        ]
+      },
+      {
+        "start": 21.75,
+        "end": 22.75,
+        "text": "Have you ever driven before?",
+        "words": [
+          {
+            "start": 21.75,
+            "end": 21.85,
+            "word": " Have",
+            "probability": 0.99219
+          },
+          {
+            "start": 21.85,
+            "end": 21.95,
+            "word": " you",
+            "probability": 0.99855
+          },
+          {
+            "start": 21.95,
+            "end": 22.15,
+            "word": " ever",
+            "probability": 0.99927
+          },
+          {
+            "start": 22.15,
+            "end": 22.39,
+            "word": " driven",
+            "probability": 0.99873
+          },
+          {
+            "start": 22.39,
+            "end": 22.75,
+            "word": " before?",
+            "probability": 0.99943
+          }
+        ]
+      },
+      {
+        "start": 23.65,
+        "end": 28.69,
+        "text": "Not really. I've always used buses and trains but now it looks like I don't have a choice.",
+        "words": [
+          {
+            "start": 23.65,
+            "end": 23.83,
+            "word": " Not",
+            "probability": 0.988
+          },
+          {
+            "start": 23.83,
+            "end": 24.19,
+            "word": " really.",
+            "probability": 0.99813
+          },
+          {
+            "start": 24.95,
+            "end": 25.31,
+            "word": " I've",
+            "probability": 0.98865
+          },
+          {
+            "start": 25.31,
+            "end": 25.49,
+            "word": " always",
+            "probability": 0.99818
+          },
+          {
+            "start": 25.49,
+            "end": 25.75,
+            "word": " used",
+            "probability": 0.98724
+          },
+          {
+            "start": 25.75,
+            "end": 26.03,
+            "word": " buses",
+            "probability": 0.97886
+          },
+          {
+            "start": 26.03,
+            "end": 26.27,
+            "word": " and",
+            "probability": 0.98741
+          },
+          {
+            "start": 26.27,
+            "end": 26.51,
+            "word": " trains",
+            "probability": 0.99701
+          },
+          {
+            "start": 26.51,
+            "end": 27.17,
+            "word": " but",
+            "probability": 0.2038
+          },
+          {
+            "start": 27.17,
+            "end": 27.35,
+            "word": " now",
+            "probability": 0.99642
+          },
+          {
+            "start": 27.35,
+            "end": 27.49,
+            "word": " it",
+            "probability": 0.99012
+          },
+          {
+            "start": 27.49,
+            "end": 27.65,
+            "word": " looks",
+            "probability": 0.99129
+          },
+          {
+            "start": 27.65,
+            "end": 27.83,
+            "word": " like",
+            "probability": 0.99687
+          },
+          {
+            "start": 27.83,
+            "end": 27.95,
+            "word": " I",
+            "probability": 0.99527
+          },
+          {
+            "start": 27.95,
+            "end": 28.15,
+            "word": " don't",
+            "probability": 0.99922
+          },
+          {
+            "start": 28.15,
+            "end": 28.25,
+            "word": " have",
+            "probability": 0.99931
+          },
+          {
+            "start": 28.25,
+            "end": 28.35,
+            "word": " a",
+            "probability": 0.99493
+          },
+          {
+            "start": 28.35,
+            "end": 28.69,
+            "word": " choice.",
+            "probability": 0.99922
+          }
+        ]
+      },
+      {
+        "start": 29.21,
+        "end": 30.43,
+        "text": "I need to get a license.",
+        "words": [
+          {
+            "start": 29.21,
+            "end": 29.63,
+            "word": " I",
+            "probability": 0.43388
+          },
+          {
+            "start": 29.63,
+            "end": 29.77,
+            "word": " need",
+            "probability": 0.87728
+          },
+          {
+            "start": 29.77,
+            "end": 29.89,
+            "word": " to",
+            "probability": 0.99464
+          },
+          {
+            "start": 29.89,
+            "end": 29.99,
+            "word": " get",
+            "probability": 0.99129
+          },
+          {
+            "start": 29.99,
+            "end": 30.09,
+            "word": " a",
+            "probability": 0.99763
+          },
+          {
+            "start": 30.09,
+            "end": 30.43,
+            "word": " license.",
+            "probability": 0.97926
+          }
+        ]
+      },
+      {
+        "start": 30.81,
+        "end": 31.79,
+        "text": "You'll get the hang of it.",
+        "words": [
+          {
+            "start": 30.81,
+            "end": 30.97,
+            "word": " You'll",
+            "probability": 0.96375
+          },
+          {
+            "start": 30.97,
+            "end": 31.09,
+            "word": " get",
+            "probability": 0.99796
+          },
+          {
+            "start": 31.09,
+            "end": 31.27,
+            "word": " the",
+            "probability": 0.99346
+          },
+          {
+            "start": 31.27,
+            "end": 31.39,
+            "word": " hang",
+            "probability": 0.99689
+          },
+          {
+            "start": 31.39,
+            "end": 31.57,
+            "word": " of",
+            "probability": 0.99412
+          },
+          {
+            "start": 31.57,
+            "end": 31.79,
+            "word": " it.",
+            "probability": 0.99873
+          }
+        ]
+      },
+      {
+        "start": 32.23,
+        "end": 34.53,
+        "text": "Driving will definitely make your commute easier.",
+        "words": [
+          {
+            "start": 32.23,
+            "end": 32.55,
+            "word": " Driving",
+            "probability": 0.94371
+          },
+          {
+            "start": 32.55,
+            "end": 32.89,
+            "word": " will",
+            "probability": 0.96053
+          },
+          {
+            "start": 32.89,
+            "end": 33.33,
+            "word": " definitely",
+            "probability": 0.98988
+          },
+          {
+            "start": 33.33,
+            "end": 33.67,
+            "word": " make",
+            "probability": 0.99803
+          },
+          {
+            "start": 33.67,
+            "end": 33.85,
+            "word": " your",
+            "probability": 0.97704
+          },
+          {
+            "start": 33.85,
+            "end": 34.05,
+            "word": " commute",
+            "probability": 0.99436
+          },
+          {
+            "start": 34.05,
+            "end": 34.53,
+            "word": " easier.",
+            "probability": 0.99563
+          }
+        ]
+      },
+      {
+        "start": 35.17,
+        "end": 36.63,
+        "text": "Are you planning to take lessons soon?",
+        "words": [
+          {
+            "start": 35.17,
+            "end": 35.29,
+            "word": " Are",
+            "probability": 0.99702
+          },
+          {
+            "start": 35.29,
+            "end": 35.39,
+            "word": " you",
+            "probability": 0.99864
+          },
+          {
+            "start": 35.39,
+            "end": 35.63,
+            "word": " planning",
+            "probability": 0.99885
+          },
+          {
+            "start": 35.63,
+            "end": 35.83,
+            "word": " to",
+            "probability": 0.99762
+          },
+          {
+            "start": 35.83,
+            "end": 35.99,
+            "word": " take",
+            "probability": 0.99815
+          },
+          {
+            "start": 35.99,
+            "end": 36.27,
+            "word": " lessons",
+            "probability": 0.94332
+          },
+          {
+            "start": 36.27,
+            "end": 36.63,
+            "word": " soon?",
+            "probability": 0.99357
+          }
+        ]
+      },
+      {
+        "start": 37.57,
+        "end": 40.71,
+        "text": "Yeah, I'm going to sign up for a driving school next week.",
+        "words": [
+          {
+            "start": 37.57,
+            "end": 37.99,
+            "word": " Yeah,",
+            "probability": 0.95033
+          },
+          {
+            "start": 38.51,
+            "end": 38.85,
+            "word": " I'm",
+            "probability": 0.97391
+          },
+          {
+            "start": 38.85,
+            "end": 38.93,
+            "word": " going",
+            "probability": 0.47294
+          },
+          {
+            "start": 38.93,
+            "end": 39.01,
+            "word": " to",
+            "probability": 0.99893
+          },
+          {
+            "start": 39.01,
+            "end": 39.19,
+            "word": " sign",
+            "probability": 0.99252
+          },
+          {
+            "start": 39.19,
+            "end": 39.33,
+            "word": " up",
+            "probability": 0.98763
+          },
+          {
+            "start": 39.33,
+            "end": 39.49,
+            "word": " for",
+            "probability": 0.99768
+          },
+          {
+            "start": 39.49,
+            "end": 39.53,
+            "word": " a",
+            "probability": 0.94678
+          },
+          {
+            "start": 39.53,
+            "end": 39.83,
+            "word": " driving",
+            "probability": 0.95384
+          },
+          {
+            "start": 39.83,
+            "end": 40.15,
+            "word": " school",
+            "probability": 0.9922
+          },
+          {
+            "start": 40.15,
+            "end": 40.37,
+            "word": " next",
+            "probability": 0.99462
+          },
+          {
+            "start": 40.37,
+            "end": 40.71,
+            "word": " week.",
+            "probability": 0.99873
+          }
+        ]
+      },
+      {
+        "start": 41.94,
+        "end": 43.26,
+        "text": "Hopefully I can get it done quickly.",
+        "words": [
+          {
+            "start": 41.94,
+            "end": 42.24,
+            "word": " Hopefully",
+            "probability": 0.99273
+          },
+          {
+            "start": 42.24,
+            "end": 42.42,
+            "word": " I",
+            "probability": 0.90069
+          },
+          {
+            "start": 42.42,
+            "end": 42.54,
+            "word": " can",
+            "probability": 0.9881
+          },
+          {
+            "start": 42.54,
+            "end": 42.66,
+            "word": " get",
+            "probability": 0.99772
+          },
+          {
+            "start": 42.66,
+            "end": 42.76,
+            "word": " it",
+            "probability": 0.99707
+          },
+          {
+            "start": 42.76,
+            "end": 42.92,
+            "word": " done",
+            "probability": 0.99963
+          },
+          {
+            "start": 42.92,
+            "end": 43.26,
+            "word": " quickly.",
+            "probability": 0.9858
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q05",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 129,
+            "speechStart": 0.78,
+            "speechEnd": 43.26,
+            "sourceTokenCoverage": 0.9556,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9773,
+            "transcript": "hey sarah i've got some news i'm moving to a new place oh really that sounds exciting where's your new place it's actually pretty far from my workplace and the public transport there isn't great so i've been thinking i need to learn how to drive yeah that makes sense it's hard to rely on public transport if it's not reliable have you ever driven before not really i've always used buses and trains but now it looks like i don't have a choice i need to get a license you'll get the hang of it driving will definitely make your commute easier are you planning to take lessons soon yeah i'm going to sign up for a driving school next week hopefully i can get it done quickly",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

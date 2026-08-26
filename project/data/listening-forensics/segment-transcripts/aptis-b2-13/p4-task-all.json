@@ -1,0 +1,3951 @@
+{
+  "testId": "aptis-b2-13",
+  "blockId": "p4-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-13/part-4/task-all.mp3",
+  "audioSha256": "cf228e8229b5ec76e3cd565be4bbe52643b60c6df80797f6eab5e1d3d4f49e63",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.91,
+        "end": 8.65,
+        "text": "Good morning listeners. Today we're diving into a recent research study on happiness that has sparked quite a bit of discussion.",
+        "words": [
+          {
+            "start": 0.91,
+            "end": 1.37,
+            "word": " Good",
+            "probability": 0.82915
+          },
+          {
+            "start": 1.37,
+            "end": 1.63,
+            "word": " morning",
+            "probability": 0.87483
+          },
+          {
+            "start": 1.63,
+            "end": 2.11,
+            "word": " listeners.",
+            "probability": 0.88766
+          },
+          {
+            "start": 2.67,
+            "end": 3.11,
+            "word": " Today",
+            "probability": 0.99048
+          },
+          {
+            "start": 3.11,
+            "end": 3.67,
+            "word": " we're",
+            "probability": 0.7386
+          },
+          {
+            "start": 3.67,
+            "end": 3.91,
+            "word": " diving",
+            "probability": 0.99754
+          },
+          {
+            "start": 3.91,
+            "end": 4.25,
+            "word": " into",
+            "probability": 0.98853
+          },
+          {
+            "start": 4.25,
+            "end": 4.39,
+            "word": " a",
+            "probability": 0.99122
+          },
+          {
+            "start": 4.39,
+            "end": 4.71,
+            "word": " recent",
+            "probability": 0.99226
+          },
+          {
+            "start": 4.71,
+            "end": 5.15,
+            "word": " research",
+            "probability": 0.96152
+          },
+          {
+            "start": 5.15,
+            "end": 5.67,
+            "word": " study",
+            "probability": 0.99195
+          },
+          {
+            "start": 5.67,
+            "end": 5.93,
+            "word": " on",
+            "probability": 0.98483
+          },
+          {
+            "start": 5.93,
+            "end": 6.37,
+            "word": " happiness",
+            "probability": 0.91669
+          },
+          {
+            "start": 6.37,
+            "end": 6.99,
+            "word": " that",
+            "probability": 0.94276
+          },
+          {
+            "start": 6.99,
+            "end": 7.11,
+            "word": " has",
+            "probability": 0.9931
+          },
+          {
+            "start": 7.11,
+            "end": 7.45,
+            "word": " sparked",
+            "probability": 0.99343
+          },
+          {
+            "start": 7.45,
+            "end": 7.79,
+            "word": " quite",
+            "probability": 0.98224
+          },
+          {
+            "start": 7.79,
+            "end": 7.89,
+            "word": " a",
+            "probability": 0.99779
+          },
+          {
+            "start": 7.89,
+            "end": 8.05,
+            "word": " bit",
+            "probability": 0.9955
+          },
+          {
+            "start": 8.05,
+            "end": 8.15,
+            "word": " of",
+            "probability": 0.99701
+          },
+          {
+            "start": 8.15,
+            "end": 8.65,
+            "word": " discussion.",
+            "probability": 0.99563
+          }
+        ]
+      },
+      {
+        "start": 9.85,
+        "end": 18.33,
+        "text": "Unfortunately, it seems that the media has focused more on sensational headlines rather than accurately reporting the core findings of the research.",
+        "words": [
+          {
+            "start": 9.85,
+            "end": 10.53,
+            "word": " Unfortunately,",
+            "probability": 0.98648
+          },
+          {
+            "start": 11.05,
+            "end": 11.15,
+            "word": " it",
+            "probability": 0.9901
+          },
+          {
+            "start": 11.15,
+            "end": 11.45,
+            "word": " seems",
+            "probability": 0.99656
+          },
+          {
+            "start": 11.45,
+            "end": 11.67,
+            "word": " that",
+            "probability": 0.98679
+          },
+          {
+            "start": 11.67,
+            "end": 11.79,
+            "word": " the",
+            "probability": 0.9833
+          },
+          {
+            "start": 11.79,
+            "end": 12.15,
+            "word": " media",
+            "probability": 0.99769
+          },
+          {
+            "start": 12.15,
+            "end": 12.35,
+            "word": " has",
+            "probability": 0.99051
+          },
+          {
+            "start": 12.35,
+            "end": 12.67,
+            "word": " focused",
+            "probability": 0.98834
+          },
+          {
+            "start": 12.67,
+            "end": 13.05,
+            "word": " more",
+            "probability": 0.99569
+          },
+          {
+            "start": 13.05,
+            "end": 13.27,
+            "word": " on",
+            "probability": 0.99922
+          },
+          {
+            "start": 13.27,
+            "end": 13.81,
+            "word": " sensational",
+            "probability": 0.97413
+          },
+          {
+            "start": 13.81,
+            "end": 14.47,
+            "word": " headlines",
+            "probability": 0.9969
+          },
+          {
+            "start": 14.47,
+            "end": 15.15,
+            "word": " rather",
+            "probability": 0.65322
+          },
+          {
+            "start": 15.15,
+            "end": 15.37,
+            "word": " than",
+            "probability": 0.97239
+          },
+          {
+            "start": 15.37,
+            "end": 15.89,
+            "word": " accurately",
+            "probability": 0.99403
+          },
+          {
+            "start": 15.89,
+            "end": 16.51,
+            "word": " reporting",
+            "probability": 0.99263
+          },
+          {
+            "start": 16.51,
+            "end": 16.73,
+            "word": " the",
+            "probability": 0.9961
+          },
+          {
+            "start": 16.73,
+            "end": 16.99,
+            "word": " core",
+            "probability": 0.99375
+          },
+          {
+            "start": 16.99,
+            "end": 17.39,
+            "word": " findings",
+            "probability": 0.99895
+          },
+          {
+            "start": 17.39,
+            "end": 17.69,
+            "word": " of",
+            "probability": 0.99839
+          },
+          {
+            "start": 17.69,
+            "end": 17.81,
+            "word": " the",
+            "probability": 0.99014
+          },
+          {
+            "start": 17.81,
+            "end": 18.33,
+            "word": " research.",
+            "probability": 0.99802
+          }
+        ]
+      },
+      {
+        "start": 18.91,
+        "end": 24.65,
+        "text": "As a result, many people are left with a distorted understanding of what truly contributes to happiness.",
+        "words": [
+          {
+            "start": 18.91,
+            "end": 19.25,
+            "word": " As",
+            "probability": 0.99254
+          },
+          {
+            "start": 19.25,
+            "end": 19.35,
+            "word": " a",
+            "probability": 0.99869
+          },
+          {
+            "start": 19.35,
+            "end": 19.75,
+            "word": " result,",
+            "probability": 0.99973
+          },
+          {
+            "start": 20.07,
+            "end": 20.31,
+            "word": " many",
+            "probability": 0.99601
+          },
+          {
+            "start": 20.31,
+            "end": 20.63,
+            "word": " people",
+            "probability": 0.99871
+          },
+          {
+            "start": 20.63,
+            "end": 20.77,
+            "word": " are",
+            "probability": 0.99867
+          },
+          {
+            "start": 20.77,
+            "end": 21.01,
+            "word": " left",
+            "probability": 0.99814
+          },
+          {
+            "start": 21.01,
+            "end": 21.25,
+            "word": " with",
+            "probability": 0.99938
+          },
+          {
+            "start": 21.25,
+            "end": 21.37,
+            "word": " a",
+            "probability": 0.98916
+          },
+          {
+            "start": 21.37,
+            "end": 21.77,
+            "word": " distorted",
+            "probability": 0.99554
+          },
+          {
+            "start": 21.77,
+            "end": 22.55,
+            "word": " understanding",
+            "probability": 0.99847
+          },
+          {
+            "start": 22.55,
+            "end": 22.85,
+            "word": " of",
+            "probability": 0.99282
+          },
+          {
+            "start": 22.85,
+            "end": 22.99,
+            "word": " what",
+            "probability": 0.99792
+          },
+          {
+            "start": 22.99,
+            "end": 23.33,
+            "word": " truly",
+            "probability": 0.99431
+          },
+          {
+            "start": 23.33,
+            "end": 23.97,
+            "word": " contributes",
+            "probability": 0.99552
+          },
+          {
+            "start": 23.97,
+            "end": 24.25,
+            "word": " to",
+            "probability": 0.99951
+          },
+          {
+            "start": 24.25,
+            "end": 24.65,
+            "word": " happiness.",
+            "probability": 0.99759
+          }
+        ]
+      },
+      {
+        "start": 25.46,
+        "end": 30.62,
+        "text": "While numerous studies have attempted to uncover the secrets to a happy life, it's important",
+        "words": [
+          {
+            "start": 25.46,
+            "end": 26.06,
+            "word": " While",
+            "probability": 0.31112
+          },
+          {
+            "start": 26.06,
+            "end": 26.38,
+            "word": " numerous",
+            "probability": 0.98548
+          },
+          {
+            "start": 26.38,
+            "end": 26.94,
+            "word": " studies",
+            "probability": 0.99558
+          },
+          {
+            "start": 26.94,
+            "end": 27.24,
+            "word": " have",
+            "probability": 0.99742
+          },
+          {
+            "start": 27.24,
+            "end": 27.66,
+            "word": " attempted",
+            "probability": 0.99744
+          },
+          {
+            "start": 27.66,
+            "end": 27.88,
+            "word": " to",
+            "probability": 0.99844
+          },
+          {
+            "start": 27.88,
+            "end": 28.32,
+            "word": " uncover",
+            "probability": 0.99859
+          },
+          {
+            "start": 28.32,
+            "end": 28.56,
+            "word": " the",
+            "probability": 0.99292
+          },
+          {
+            "start": 28.56,
+            "end": 28.9,
+            "word": " secrets",
+            "probability": 0.99452
+          },
+          {
+            "start": 28.9,
+            "end": 29.2,
+            "word": " to",
+            "probability": 0.98556
+          },
+          {
+            "start": 29.2,
+            "end": 29.32,
+            "word": " a",
+            "probability": 0.99337
+          },
+          {
+            "start": 29.32,
+            "end": 29.56,
+            "word": " happy",
+            "probability": 0.93925
+          },
+          {
+            "start": 29.56,
+            "end": 29.98,
+            "word": " life,",
+            "probability": 0.9974
+          },
+          {
+            "start": 30.2,
+            "end": 30.3,
+            "word": " it's",
+            "probability": 0.95248
+          },
+          {
+            "start": 30.3,
+            "end": 30.62,
+            "word": " important",
+            "probability": 0.99852
+          }
+        ]
+      },
+      {
+        "start": 30.62,
+        "end": 33.42,
+        "text": "to recognize that there may never be a conclusive answer.",
+        "words": [
+          {
+            "start": 30.62,
+            "end": 30.76,
+            "word": " to",
+            "probability": 0.99696
+          },
+          {
+            "start": 30.76,
+            "end": 31.22,
+            "word": " recognize",
+            "probability": 0.98019
+          },
+          {
+            "start": 31.22,
+            "end": 31.52,
+            "word": " that",
+            "probability": 0.95195
+          },
+          {
+            "start": 31.52,
+            "end": 31.68,
+            "word": " there",
+            "probability": 0.9944
+          },
+          {
+            "start": 31.68,
+            "end": 31.82,
+            "word": " may",
+            "probability": 0.99508
+          },
+          {
+            "start": 31.82,
+            "end": 32.12,
+            "word": " never",
+            "probability": 0.99359
+          },
+          {
+            "start": 32.12,
+            "end": 32.32,
+            "word": " be",
+            "probability": 0.99852
+          },
+          {
+            "start": 32.32,
+            "end": 32.44,
+            "word": " a",
+            "probability": 0.99886
+          },
+          {
+            "start": 32.44,
+            "end": 32.94,
+            "word": " conclusive",
+            "probability": 0.97455
+          },
+          {
+            "start": 32.94,
+            "end": 33.42,
+            "word": " answer.",
+            "probability": 0.99846
+          }
+        ]
+      },
+      {
+        "start": 34.92,
+        "end": 39.82,
+        "text": "Happiness is a complex and personal experience, influenced by a variety of factors unique",
+        "words": [
+          {
+            "start": 34.92,
+            "end": 35.2,
+            "word": " Happiness",
+            "probability": 0.9631
+          },
+          {
+            "start": 35.2,
+            "end": 35.48,
+            "word": " is",
+            "probability": 0.9877
+          },
+          {
+            "start": 35.48,
+            "end": 35.6,
+            "word": " a",
+            "probability": 0.99709
+          },
+          {
+            "start": 35.6,
+            "end": 35.96,
+            "word": " complex",
+            "probability": 0.99878
+          },
+          {
+            "start": 35.96,
+            "end": 36.34,
+            "word": " and",
+            "probability": 0.9534
+          },
+          {
+            "start": 36.34,
+            "end": 36.72,
+            "word": " personal",
+            "probability": 0.99738
+          },
+          {
+            "start": 36.72,
+            "end": 37.4,
+            "word": " experience,",
+            "probability": 0.99875
+          },
+          {
+            "start": 37.88,
+            "end": 38.26,
+            "word": " influenced",
+            "probability": 0.98684
+          },
+          {
+            "start": 38.26,
+            "end": 38.52,
+            "word": " by",
+            "probability": 0.99939
+          },
+          {
+            "start": 38.52,
+            "end": 38.64,
+            "word": " a",
+            "probability": 0.99774
+          },
+          {
+            "start": 38.64,
+            "end": 38.98,
+            "word": " variety",
+            "probability": 0.99793
+          },
+          {
+            "start": 38.98,
+            "end": 39.12,
+            "word": " of",
+            "probability": 0.99512
+          },
+          {
+            "start": 39.12,
+            "end": 39.44,
+            "word": " factors",
+            "probability": 0.99755
+          },
+          {
+            "start": 39.44,
+            "end": 39.82,
+            "word": " unique",
+            "probability": 0.99603
+          }
+        ]
+      },
+      {
+        "start": 39.82,
+        "end": 40.98,
+        "text": "to each individual.",
+        "words": [
+          {
+            "start": 39.82,
+            "end": 40.1,
+            "word": " to",
+            "probability": 0.9986
+          },
+          {
+            "start": 40.1,
+            "end": 40.34,
+            "word": " each",
+            "probability": 0.99849
+          },
+          {
+            "start": 40.34,
+            "end": 40.98,
+            "word": " individual.",
+            "probability": 0.99933
+          }
+        ]
+      },
+      {
+        "start": 41.6,
+        "end": 46.62,
+        "text": "Instead of seeking a one-size-fits-all solution, we should focus on understanding our own needs",
+        "words": [
+          {
+            "start": 41.6,
+            "end": 41.94,
+            "word": " Instead",
+            "probability": 0.9954
+          },
+          {
+            "start": 41.94,
+            "end": 42.1,
+            "word": " of",
+            "probability": 0.99831
+          },
+          {
+            "start": 42.1,
+            "end": 42.38,
+            "word": " seeking",
+            "probability": 0.99866
+          },
+          {
+            "start": 42.38,
+            "end": 42.56,
+            "word": " a",
+            "probability": 0.99547
+          },
+          {
+            "start": 42.56,
+            "end": 42.72,
+            "word": " one",
+            "probability": 0.9744
+          },
+          {
+            "start": 42.72,
+            "end": 42.94,
+            "word": "-size",
+            "probability": 0.87042
+          },
+          {
+            "start": 42.94,
+            "end": 43.22,
+            "word": "-fits",
+            "probability": 0.98977
+          },
+          {
+            "start": 43.22,
+            "end": 43.44,
+            "word": "-all",
+            "probability": 0.99731
+          },
+          {
+            "start": 43.44,
+            "end": 44.0,
+            "word": " solution,",
+            "probability": 0.99546
+          },
+          {
+            "start": 44.48,
+            "end": 44.58,
+            "word": " we",
+            "probability": 0.99819
+          },
+          {
+            "start": 44.58,
+            "end": 44.74,
+            "word": " should",
+            "probability": 0.99761
+          },
+          {
+            "start": 44.74,
+            "end": 45.0,
+            "word": " focus",
+            "probability": 0.99825
+          },
+          {
+            "start": 45.0,
+            "end": 45.24,
+            "word": " on",
+            "probability": 0.99843
+          },
+          {
+            "start": 45.24,
+            "end": 45.76,
+            "word": " understanding",
+            "probability": 0.9978
+          },
+          {
+            "start": 45.76,
+            "end": 46.1,
+            "word": " our",
+            "probability": 0.99829
+          },
+          {
+            "start": 46.1,
+            "end": 46.28,
+            "word": " own",
+            "probability": 0.99572
+          },
+          {
+            "start": 46.28,
+            "end": 46.62,
+            "word": " needs",
+            "probability": 0.99868
+          }
+        ]
+      },
+      {
+        "start": 46.62,
+        "end": 47.46,
+        "text": "and values.",
+        "words": [
+          {
+            "start": 46.62,
+            "end": 47.0,
+            "word": " and",
+            "probability": 0.98599
+          },
+          {
+            "start": 47.0,
+            "end": 47.46,
+            "word": " values.",
+            "probability": 0.99644
+          }
+        ]
+      },
+      {
+        "start": 48.34,
+        "end": 53.78,
+        "text": "Remember, happiness is not a destination but a journey, and it's crucial to approach it",
+        "words": [
+          {
+            "start": 48.34,
+            "end": 48.94,
+            "word": " Remember,",
+            "probability": 0.99459
+          },
+          {
+            "start": 49.48,
+            "end": 49.78,
+            "word": " happiness",
+            "probability": 0.98496
+          },
+          {
+            "start": 49.78,
+            "end": 50.06,
+            "word": " is",
+            "probability": 0.98925
+          },
+          {
+            "start": 50.06,
+            "end": 50.3,
+            "word": " not",
+            "probability": 0.99225
+          },
+          {
+            "start": 50.3,
+            "end": 50.44,
+            "word": " a",
+            "probability": 0.99783
+          },
+          {
+            "start": 50.44,
+            "end": 50.88,
+            "word": " destination",
+            "probability": 0.999
+          },
+          {
+            "start": 50.88,
+            "end": 51.32,
+            "word": " but",
+            "probability": 0.78258
+          },
+          {
+            "start": 51.32,
+            "end": 51.44,
+            "word": " a",
+            "probability": 0.995
+          },
+          {
+            "start": 51.44,
+            "end": 51.78,
+            "word": " journey,",
+            "probability": 0.99848
+          },
+          {
+            "start": 52.4,
+            "end": 52.5,
+            "word": " and",
+            "probability": 0.99742
+          },
+          {
+            "start": 52.5,
+            "end": 52.68,
+            "word": " it's",
+            "probability": 0.96376
+          },
+          {
+            "start": 52.68,
+            "end": 53.02,
+            "word": " crucial",
+            "probability": 0.99894
+          },
+          {
+            "start": 53.02,
+            "end": 53.26,
+            "word": " to",
+            "probability": 0.99882
+          },
+          {
+            "start": 53.26,
+            "end": 53.62,
+            "word": " approach",
+            "probability": 0.99688
+          },
+          {
+            "start": 53.62,
+            "end": 53.78,
+            "word": " it",
+            "probability": 0.99738
+          }
+        ]
+      },
+      {
+        "start": 53.78,
+        "end": 54.62,
+        "text": "with an open mind.",
+        "words": [
+          {
+            "start": 53.78,
+            "end": 53.92,
+            "word": " with",
+            "probability": 0.9944
+          },
+          {
+            "start": 53.92,
+            "end": 54.04,
+            "word": " an",
+            "probability": 0.99242
+          },
+          {
+            "start": 54.04,
+            "end": 54.28,
+            "word": " open",
+            "probability": 0.99572
+          },
+          {
+            "start": 54.28,
+            "end": 54.62,
+            "word": " mind.",
+            "probability": 0.99249
+          }
+        ]
+      },
+      {
+        "start": 54.62,
+        "end": 59.02,
+        "text": "stand. Stay tuned for more insights and discussions on this fascinating topic.",
+        "words": [
+          {
+            "start": 54.62,
+            "end": 54.78,
+            "word": " stand.",
+            "probability": 0.00681
+          },
+          {
+            "start": 55.22,
+            "end": 55.56,
+            "word": " Stay",
+            "probability": 0.95621
+          },
+          {
+            "start": 55.56,
+            "end": 55.86,
+            "word": " tuned",
+            "probability": 0.99349
+          },
+          {
+            "start": 55.86,
+            "end": 56.02,
+            "word": " for",
+            "probability": 0.98978
+          },
+          {
+            "start": 56.02,
+            "end": 56.2,
+            "word": " more",
+            "probability": 0.99213
+          },
+          {
+            "start": 56.2,
+            "end": 56.54,
+            "word": " insights",
+            "probability": 0.89819
+          },
+          {
+            "start": 56.54,
+            "end": 56.92,
+            "word": " and",
+            "probability": 0.98405
+          },
+          {
+            "start": 56.92,
+            "end": 57.38,
+            "word": " discussions",
+            "probability": 0.97266
+          },
+          {
+            "start": 57.38,
+            "end": 57.82,
+            "word": " on",
+            "probability": 0.98451
+          },
+          {
+            "start": 57.82,
+            "end": 57.98,
+            "word": " this",
+            "probability": 0.98814
+          },
+          {
+            "start": 57.98,
+            "end": 58.54,
+            "word": " fascinating",
+            "probability": 0.98177
+          },
+          {
+            "start": 58.54,
+            "end": 59.02,
+            "word": " topic.",
+            "probability": 0.99503
+          }
+        ]
+      },
+      {
+        "start": 62.95,
+        "end": 68.28,
+        "text": "Good morning listeners. Today, we're diving into a recent research study on happiness",
+        "words": [
+          {
+            "start": 62.95,
+            "end": 63.28,
+            "word": " Good",
+            "probability": 0.94614
+          },
+          {
+            "start": 63.28,
+            "end": 63.56,
+            "word": " morning",
+            "probability": 0.82001
+          },
+          {
+            "start": 63.56,
+            "end": 64.0,
+            "word": " listeners.",
+            "probability": 0.83064
+          },
+          {
+            "start": 64.74,
+            "end": 65.04,
+            "word": " Today,",
+            "probability": 0.98897
+          },
+          {
+            "start": 65.46,
+            "end": 65.58,
+            "word": " we're",
+            "probability": 0.89648
+          },
+          {
+            "start": 65.58,
+            "end": 65.84,
+            "word": " diving",
+            "probability": 0.99766
+          },
+          {
+            "start": 65.84,
+            "end": 66.16,
+            "word": " into",
+            "probability": 0.98393
+          },
+          {
+            "start": 66.16,
+            "end": 66.32,
+            "word": " a",
+            "probability": 0.9559
+          },
+          {
+            "start": 66.32,
+            "end": 66.62,
+            "word": " recent",
+            "probability": 0.99451
+          },
+          {
+            "start": 66.62,
+            "end": 67.06,
+            "word": " research",
+            "probability": 0.96036
+          },
+          {
+            "start": 67.06,
+            "end": 67.58,
+            "word": " study",
+            "probability": 0.9952
+          },
+          {
+            "start": 67.58,
+            "end": 67.84,
+            "word": " on",
+            "probability": 0.99246
+          },
+          {
+            "start": 67.84,
+            "end": 68.28,
+            "word": " happiness",
+            "probability": 0.9532
+          }
+        ]
+      },
+      {
+        "start": 68.28,
+        "end": 74.24,
+        "text": "that has sparked quite a bit of discussion. Unfortunately, it seems that the media has",
+        "words": [
+          {
+            "start": 68.28,
+            "end": 68.9,
+            "word": " that",
+            "probability": 0.97914
+          },
+          {
+            "start": 68.9,
+            "end": 69.02,
+            "word": " has",
+            "probability": 0.99378
+          },
+          {
+            "start": 69.02,
+            "end": 69.36,
+            "word": " sparked",
+            "probability": 0.99519
+          },
+          {
+            "start": 69.36,
+            "end": 69.7,
+            "word": " quite",
+            "probability": 0.98654
+          },
+          {
+            "start": 69.7,
+            "end": 69.82,
+            "word": " a",
+            "probability": 0.99175
+          },
+          {
+            "start": 69.82,
+            "end": 69.94,
+            "word": " bit",
+            "probability": 0.99512
+          },
+          {
+            "start": 69.94,
+            "end": 70.04,
+            "word": " of",
+            "probability": 0.99576
+          },
+          {
+            "start": 70.04,
+            "end": 70.54,
+            "word": " discussion.",
+            "probability": 0.99179
+          },
+          {
+            "start": 71.76,
+            "end": 72.42,
+            "word": " Unfortunately,",
+            "probability": 0.98524
+          },
+          {
+            "start": 72.96,
+            "end": 73.06,
+            "word": " it",
+            "probability": 0.99198
+          },
+          {
+            "start": 73.06,
+            "end": 73.34,
+            "word": " seems",
+            "probability": 0.99694
+          },
+          {
+            "start": 73.34,
+            "end": 73.58,
+            "word": " that",
+            "probability": 0.96448
+          },
+          {
+            "start": 73.58,
+            "end": 73.7,
+            "word": " the",
+            "probability": 0.99314
+          },
+          {
+            "start": 73.7,
+            "end": 74.06,
+            "word": " media",
+            "probability": 0.9973
+          },
+          {
+            "start": 74.06,
+            "end": 74.24,
+            "word": " has",
+            "probability": 0.98905
+          }
+        ]
+      },
+      {
+        "start": 74.24,
+        "end": 79.32,
+        "text": "focused more on sensational headlines rather than accurately reporting the core findings",
+        "words": [
+          {
+            "start": 74.24,
+            "end": 74.58,
+            "word": " focused",
+            "probability": 0.98505
+          },
+          {
+            "start": 74.58,
+            "end": 74.96,
+            "word": " more",
+            "probability": 0.99512
+          },
+          {
+            "start": 74.96,
+            "end": 75.2,
+            "word": " on",
+            "probability": 0.99876
+          },
+          {
+            "start": 75.2,
+            "end": 75.64,
+            "word": " sensational",
+            "probability": 0.97836
+          },
+          {
+            "start": 75.64,
+            "end": 76.4,
+            "word": " headlines",
+            "probability": 0.99506
+          },
+          {
+            "start": 76.4,
+            "end": 77.06,
+            "word": " rather",
+            "probability": 0.74103
+          },
+          {
+            "start": 77.06,
+            "end": 77.28,
+            "word": " than",
+            "probability": 0.97654
+          },
+          {
+            "start": 77.28,
+            "end": 77.78,
+            "word": " accurately",
+            "probability": 0.99086
+          },
+          {
+            "start": 77.78,
+            "end": 78.4,
+            "word": " reporting",
+            "probability": 0.99108
+          },
+          {
+            "start": 78.4,
+            "end": 78.64,
+            "word": " the",
+            "probability": 0.99592
+          },
+          {
+            "start": 78.64,
+            "end": 78.9,
+            "word": " core",
+            "probability": 0.99563
+          },
+          {
+            "start": 78.9,
+            "end": 79.32,
+            "word": " findings",
+            "probability": 0.9985
+          }
+        ]
+      },
+      {
+        "start": 79.32,
+        "end": 84.9,
+        "text": "of the research. As a result, many people are left with a distorted understanding of what",
+        "words": [
+          {
+            "start": 79.32,
+            "end": 79.6,
+            "word": " of",
+            "probability": 0.9975
+          },
+          {
+            "start": 79.6,
+            "end": 79.72,
+            "word": " the",
+            "probability": 0.98407
+          },
+          {
+            "start": 79.72,
+            "end": 80.16,
+            "word": " research.",
+            "probability": 0.99724
+          },
+          {
+            "start": 80.84,
+            "end": 81.16,
+            "word": " As",
+            "probability": 0.99308
+          },
+          {
+            "start": 81.16,
+            "end": 81.26,
+            "word": " a",
+            "probability": 0.998
+          },
+          {
+            "start": 81.26,
+            "end": 81.66,
+            "word": " result,",
+            "probability": 0.99969
+          },
+          {
+            "start": 82.0,
+            "end": 82.22,
+            "word": " many",
+            "probability": 0.99526
+          },
+          {
+            "start": 82.22,
+            "end": 82.54,
+            "word": " people",
+            "probability": 0.99765
+          },
+          {
+            "start": 82.54,
+            "end": 82.68,
+            "word": " are",
+            "probability": 0.9979
+          },
+          {
+            "start": 82.68,
+            "end": 82.92,
+            "word": " left",
+            "probability": 0.99822
+          },
+          {
+            "start": 82.92,
+            "end": 83.16,
+            "word": " with",
+            "probability": 0.99885
+          },
+          {
+            "start": 83.16,
+            "end": 83.28,
+            "word": " a",
+            "probability": 0.98666
+          },
+          {
+            "start": 83.28,
+            "end": 83.7,
+            "word": " distorted",
+            "probability": 0.99347
+          },
+          {
+            "start": 83.7,
+            "end": 84.46,
+            "word": " understanding",
+            "probability": 0.99679
+          },
+          {
+            "start": 84.46,
+            "end": 84.78,
+            "word": " of",
+            "probability": 0.99668
+          },
+          {
+            "start": 84.78,
+            "end": 84.9,
+            "word": " what",
+            "probability": 0.99555
+          }
+        ]
+      },
+      {
+        "start": 84.9,
+        "end": 90.81,
+        "text": "truly contributes to happiness. While numerous studies have attempted to uncover the secrets",
+        "words": [
+          {
+            "start": 84.9,
+            "end": 85.22,
+            "word": " truly",
+            "probability": 0.76809
+          },
+          {
+            "start": 85.22,
+            "end": 85.96,
+            "word": " contributes",
+            "probability": 0.97493
+          },
+          {
+            "start": 85.96,
+            "end": 86.16,
+            "word": " to",
+            "probability": 0.99622
+          },
+          {
+            "start": 86.16,
+            "end": 86.52,
+            "word": " happiness.",
+            "probability": 0.97399
+          },
+          {
+            "start": 87.71,
+            "end": 87.99,
+            "word": " While",
+            "probability": 0.96432
+          },
+          {
+            "start": 87.99,
+            "end": 88.31,
+            "word": " numerous",
+            "probability": 0.98931
+          },
+          {
+            "start": 88.31,
+            "end": 88.87,
+            "word": " studies",
+            "probability": 0.99674
+          },
+          {
+            "start": 88.87,
+            "end": 89.15,
+            "word": " have",
+            "probability": 0.9979
+          },
+          {
+            "start": 89.15,
+            "end": 89.57,
+            "word": " attempted",
+            "probability": 0.99717
+          },
+          {
+            "start": 89.57,
+            "end": 89.79,
+            "word": " to",
+            "probability": 0.99824
+          },
+          {
+            "start": 89.79,
+            "end": 90.23,
+            "word": " uncover",
+            "probability": 0.99749
+          },
+          {
+            "start": 90.23,
+            "end": 90.49,
+            "word": " the",
+            "probability": 0.98554
+          },
+          {
+            "start": 90.49,
+            "end": 90.81,
+            "word": " secrets",
+            "probability": 0.9919
+          }
+        ]
+      },
+      {
+        "start": 90.81,
+        "end": 95.27,
+        "text": "to a happy life, it's important to recognize that there may never be a conclusive answer.",
+        "words": [
+          {
+            "start": 90.81,
+            "end": 91.11,
+            "word": " to",
+            "probability": 0.98775
+          },
+          {
+            "start": 91.11,
+            "end": 91.23,
+            "word": " a",
+            "probability": 0.99695
+          },
+          {
+            "start": 91.23,
+            "end": 91.47,
+            "word": " happy",
+            "probability": 0.95382
+          },
+          {
+            "start": 91.47,
+            "end": 91.89,
+            "word": " life,",
+            "probability": 0.99704
+          },
+          {
+            "start": 92.11,
+            "end": 92.21,
+            "word": " it's",
+            "probability": 0.92517
+          },
+          {
+            "start": 92.21,
+            "end": 92.51,
+            "word": " important",
+            "probability": 0.99749
+          },
+          {
+            "start": 92.51,
+            "end": 92.67,
+            "word": " to",
+            "probability": 0.99747
+          },
+          {
+            "start": 92.67,
+            "end": 93.11,
+            "word": " recognize",
+            "probability": 0.97709
+          },
+          {
+            "start": 93.11,
+            "end": 93.43,
+            "word": " that",
+            "probability": 0.93218
+          },
+          {
+            "start": 93.43,
+            "end": 93.59,
+            "word": " there",
+            "probability": 0.9965
+          },
+          {
+            "start": 93.59,
+            "end": 93.73,
+            "word": " may",
+            "probability": 0.99509
+          },
+          {
+            "start": 93.73,
+            "end": 94.01,
+            "word": " never",
+            "probability": 0.99196
+          },
+          {
+            "start": 94.01,
+            "end": 94.23,
+            "word": " be",
+            "probability": 0.99774
+          },
+          {
+            "start": 94.23,
+            "end": 94.37,
+            "word": " a",
+            "probability": 0.99704
+          },
+          {
+            "start": 94.37,
+            "end": 94.85,
+            "word": " conclusive",
+            "probability": 0.9732
+          },
+          {
+            "start": 94.85,
+            "end": 95.27,
+            "word": " answer.",
+            "probability": 0.99808
+          }
+        ]
+      },
+      {
+        "start": 96.81,
+        "end": 101.73,
+        "text": "Happiness is a complex and personal experience, influenced by a variety of factors unique",
+        "words": [
+          {
+            "start": 96.81,
+            "end": 97.11,
+            "word": " Happiness",
+            "probability": 0.96728
+          },
+          {
+            "start": 97.11,
+            "end": 97.39,
+            "word": " is",
+            "probability": 0.97366
+          },
+          {
+            "start": 97.39,
+            "end": 97.51,
+            "word": " a",
+            "probability": 0.97813
+          },
+          {
+            "start": 97.51,
+            "end": 97.87,
+            "word": " complex",
+            "probability": 0.9987
+          },
+          {
+            "start": 97.87,
+            "end": 98.25,
+            "word": " and",
+            "probability": 0.95751
+          },
+          {
+            "start": 98.25,
+            "end": 98.65,
+            "word": " personal",
+            "probability": 0.9985
+          },
+          {
+            "start": 98.65,
+            "end": 99.29,
+            "word": " experience,",
+            "probability": 0.99895
+          },
+          {
+            "start": 99.79,
+            "end": 100.17,
+            "word": " influenced",
+            "probability": 0.98408
+          },
+          {
+            "start": 100.17,
+            "end": 100.43,
+            "word": " by",
+            "probability": 0.99944
+          },
+          {
+            "start": 100.43,
+            "end": 100.55,
+            "word": " a",
+            "probability": 0.99828
+          },
+          {
+            "start": 100.55,
+            "end": 100.87,
+            "word": " variety",
+            "probability": 0.99824
+          },
+          {
+            "start": 100.87,
+            "end": 101.05,
+            "word": " of",
+            "probability": 0.99758
+          },
+          {
+            "start": 101.05,
+            "end": 101.35,
+            "word": " factors",
+            "probability": 0.99825
+          },
+          {
+            "start": 101.35,
+            "end": 101.73,
+            "word": " unique",
+            "probability": 0.99698
+          }
+        ]
+      },
+      {
+        "start": 101.73,
+        "end": 107.69,
+        "text": "to each individual. Instead of seeking a one-size-fits-all solution, we should focus on understanding",
+        "words": [
+          {
+            "start": 101.73,
+            "end": 102.01,
+            "word": " to",
+            "probability": 0.99947
+          },
+          {
+            "start": 102.01,
+            "end": 102.27,
+            "word": " each",
+            "probability": 0.99805
+          },
+          {
+            "start": 102.27,
+            "end": 102.87,
+            "word": " individual.",
+            "probability": 0.99935
+          },
+          {
+            "start": 103.53,
+            "end": 103.85,
+            "word": " Instead",
+            "probability": 0.99624
+          },
+          {
+            "start": 103.85,
+            "end": 104.01,
+            "word": " of",
+            "probability": 0.999
+          },
+          {
+            "start": 104.01,
+            "end": 104.29,
+            "word": " seeking",
+            "probability": 0.99839
+          },
+          {
+            "start": 104.29,
+            "end": 104.47,
+            "word": " a",
+            "probability": 0.99435
+          },
+          {
+            "start": 104.47,
+            "end": 104.63,
+            "word": " one",
+            "probability": 0.97591
+          },
+          {
+            "start": 104.63,
+            "end": 104.83,
+            "word": "-size",
+            "probability": 0.85287
+          },
+          {
+            "start": 104.83,
+            "end": 105.13,
+            "word": "-fits",
+            "probability": 0.98719
+          },
+          {
+            "start": 105.13,
+            "end": 105.35,
+            "word": "-all",
+            "probability": 0.99765
+          },
+          {
+            "start": 105.35,
+            "end": 105.89,
+            "word": " solution,",
+            "probability": 0.99503
+          },
+          {
+            "start": 106.39,
+            "end": 106.49,
+            "word": " we",
+            "probability": 0.99797
+          },
+          {
+            "start": 106.49,
+            "end": 106.65,
+            "word": " should",
+            "probability": 0.99802
+          },
+          {
+            "start": 106.65,
+            "end": 106.93,
+            "word": " focus",
+            "probability": 0.9978
+          },
+          {
+            "start": 106.93,
+            "end": 107.15,
+            "word": " on",
+            "probability": 0.99799
+          },
+          {
+            "start": 107.15,
+            "end": 107.69,
+            "word": " understanding",
+            "probability": 0.99778
+          }
+        ]
+      },
+      {
+        "start": 107.69,
+        "end": 114.6,
+        "text": "our own needs and values. Remember, happiness is not a destination but a journey, and it's",
+        "words": [
+          {
+            "start": 107.69,
+            "end": 108.01,
+            "word": " our",
+            "probability": 0.99788
+          },
+          {
+            "start": 108.01,
+            "end": 108.19,
+            "word": " own",
+            "probability": 0.99643
+          },
+          {
+            "start": 108.19,
+            "end": 108.57,
+            "word": " needs",
+            "probability": 0.99861
+          },
+          {
+            "start": 108.57,
+            "end": 108.91,
+            "word": " and",
+            "probability": 0.98952
+          },
+          {
+            "start": 108.91,
+            "end": 109.39,
+            "word": " values.",
+            "probability": 0.99682
+          },
+          {
+            "start": 110.38,
+            "end": 110.86,
+            "word": " Remember,",
+            "probability": 0.99222
+          },
+          {
+            "start": 111.4,
+            "end": 111.7,
+            "word": " happiness",
+            "probability": 0.99043
+          },
+          {
+            "start": 111.7,
+            "end": 111.98,
+            "word": " is",
+            "probability": 0.99242
+          },
+          {
+            "start": 111.98,
+            "end": 112.22,
+            "word": " not",
+            "probability": 0.99283
+          },
+          {
+            "start": 112.22,
+            "end": 112.36,
+            "word": " a",
+            "probability": 0.99872
+          },
+          {
+            "start": 112.36,
+            "end": 112.8,
+            "word": " destination",
+            "probability": 0.99921
+          },
+          {
+            "start": 112.8,
+            "end": 113.24,
+            "word": " but",
+            "probability": 0.85023
+          },
+          {
+            "start": 113.24,
+            "end": 113.36,
+            "word": " a",
+            "probability": 0.99816
+          },
+          {
+            "start": 113.36,
+            "end": 113.72,
+            "word": " journey,",
+            "probability": 0.99855
+          },
+          {
+            "start": 114.26,
+            "end": 114.42,
+            "word": " and",
+            "probability": 0.99613
+          },
+          {
+            "start": 114.42,
+            "end": 114.6,
+            "word": " it's",
+            "probability": 0.95305
+          }
+        ]
+      },
+      {
+        "start": 114.6,
+        "end": 119.9,
+        "text": "crucial to approach it with an open mind. Stay tuned for more insights and discussions on this",
+        "words": [
+          {
+            "start": 114.6,
+            "end": 114.96,
+            "word": " crucial",
+            "probability": 0.19162
+          },
+          {
+            "start": 114.96,
+            "end": 115.18,
+            "word": " to",
+            "probability": 0.98391
+          },
+          {
+            "start": 115.18,
+            "end": 115.56,
+            "word": " approach",
+            "probability": 0.98945
+          },
+          {
+            "start": 115.56,
+            "end": 115.7,
+            "word": " it",
+            "probability": 0.99264
+          },
+          {
+            "start": 115.7,
+            "end": 115.86,
+            "word": " with",
+            "probability": 0.99196
+          },
+          {
+            "start": 115.86,
+            "end": 115.98,
+            "word": " an",
+            "probability": 0.99131
+          },
+          {
+            "start": 115.98,
+            "end": 116.2,
+            "word": " open",
+            "probability": 0.98101
+          },
+          {
+            "start": 116.2,
+            "end": 116.62,
+            "word": " mind.",
+            "probability": 0.99174
+          },
+          {
+            "start": 117.28,
+            "end": 117.48,
+            "word": " Stay",
+            "probability": 0.9737
+          },
+          {
+            "start": 117.48,
+            "end": 117.76,
+            "word": " tuned",
+            "probability": 0.99603
+          },
+          {
+            "start": 117.76,
+            "end": 117.92,
+            "word": " for",
+            "probability": 0.9975
+          },
+          {
+            "start": 117.92,
+            "end": 118.12,
+            "word": " more",
+            "probability": 0.9977
+          },
+          {
+            "start": 118.12,
+            "end": 118.46,
+            "word": " insights",
+            "probability": 0.91082
+          },
+          {
+            "start": 118.46,
+            "end": 118.84,
+            "word": " and",
+            "probability": 0.993
+          },
+          {
+            "start": 118.84,
+            "end": 119.3,
+            "word": " discussions",
+            "probability": 0.98213
+          },
+          {
+            "start": 119.3,
+            "end": 119.74,
+            "word": " on",
+            "probability": 0.99369
+          },
+          {
+            "start": 119.74,
+            "end": 119.9,
+            "word": " this",
+            "probability": 0.99514
+          }
+        ]
+      },
+      {
+        "start": 119.9,
+        "end": 127.57,
+        "text": "fascinating topic. Good morning everyone. Today I want to talk about professionalism and how it has",
+        "words": [
+          {
+            "start": 119.9,
+            "end": 120.44,
+            "word": " fascinating",
+            "probability": 0.9774
+          },
+          {
+            "start": 120.44,
+            "end": 120.92,
+            "word": " topic.",
+            "probability": 0.997
+          },
+          {
+            "start": 123.01,
+            "end": 123.45,
+            "word": " Good",
+            "probability": 0.68104
+          },
+          {
+            "start": 123.45,
+            "end": 123.75,
+            "word": " morning",
+            "probability": 0.97231
+          },
+          {
+            "start": 123.75,
+            "end": 124.21,
+            "word": " everyone.",
+            "probability": 0.55269
+          },
+          {
+            "start": 124.93,
+            "end": 125.09,
+            "word": " Today",
+            "probability": 0.99573
+          },
+          {
+            "start": 125.09,
+            "end": 125.29,
+            "word": " I",
+            "probability": 0.87997
+          },
+          {
+            "start": 125.29,
+            "end": 125.43,
+            "word": " want",
+            "probability": 0.96513
+          },
+          {
+            "start": 125.43,
+            "end": 125.49,
+            "word": " to",
+            "probability": 0.99177
+          },
+          {
+            "start": 125.49,
+            "end": 125.71,
+            "word": " talk",
+            "probability": 0.99811
+          },
+          {
+            "start": 125.71,
+            "end": 125.93,
+            "word": " about",
+            "probability": 0.9981
+          },
+          {
+            "start": 125.93,
+            "end": 126.87,
+            "word": " professionalism",
+            "probability": 0.99215
+          },
+          {
+            "start": 126.87,
+            "end": 127.11,
+            "word": " and",
+            "probability": 0.94552
+          },
+          {
+            "start": 127.11,
+            "end": 127.29,
+            "word": " how",
+            "probability": 0.99906
+          },
+          {
+            "start": 127.29,
+            "end": 127.45,
+            "word": " it",
+            "probability": 0.99814
+          },
+          {
+            "start": 127.45,
+            "end": 127.57,
+            "word": " has",
+            "probability": 0.99705
+          }
+        ]
+      },
+      {
+        "start": 127.57,
+        "end": 134.17,
+        "text": "changed over the years. To be seen as a professional, it's essential to be friendly, open-minded and",
+        "words": [
+          {
+            "start": 127.57,
+            "end": 127.81,
+            "word": " changed",
+            "probability": 0.99264
+          },
+          {
+            "start": 127.81,
+            "end": 128.13,
+            "word": " over",
+            "probability": 0.99747
+          },
+          {
+            "start": 128.13,
+            "end": 128.27,
+            "word": " the",
+            "probability": 0.99575
+          },
+          {
+            "start": 128.27,
+            "end": 128.65,
+            "word": " years.",
+            "probability": 0.99821
+          },
+          {
+            "start": 129.31,
+            "end": 129.51,
+            "word": " To",
+            "probability": 0.99694
+          },
+          {
+            "start": 129.51,
+            "end": 129.61,
+            "word": " be",
+            "probability": 0.99954
+          },
+          {
+            "start": 129.61,
+            "end": 129.91,
+            "word": " seen",
+            "probability": 0.99752
+          },
+          {
+            "start": 129.91,
+            "end": 130.03,
+            "word": " as",
+            "probability": 0.99858
+          },
+          {
+            "start": 130.03,
+            "end": 130.09,
+            "word": " a",
+            "probability": 0.99102
+          },
+          {
+            "start": 130.09,
+            "end": 130.65,
+            "word": " professional,",
+            "probability": 0.99484
+          },
+          {
+            "start": 131.11,
+            "end": 131.35,
+            "word": " it's",
+            "probability": 0.91943
+          },
+          {
+            "start": 131.35,
+            "end": 131.81,
+            "word": " essential",
+            "probability": 0.99801
+          },
+          {
+            "start": 131.81,
+            "end": 132.03,
+            "word": " to",
+            "probability": 0.99687
+          },
+          {
+            "start": 132.03,
+            "end": 132.15,
+            "word": " be",
+            "probability": 0.99835
+          },
+          {
+            "start": 132.15,
+            "end": 132.57,
+            "word": " friendly,",
+            "probability": 0.98459
+          },
+          {
+            "start": 133.09,
+            "end": 133.43,
+            "word": " open",
+            "probability": 0.99805
+          },
+          {
+            "start": 133.43,
+            "end": 133.85,
+            "word": "-minded",
+            "probability": 0.93334
+          },
+          {
+            "start": 133.85,
+            "end": 134.17,
+            "word": " and",
+            "probability": 0.39698
+          }
+        ]
+      },
+      {
+        "start": 134.17,
+        "end": 140.21,
+        "text": "willing to help others. An optimistic attitude not only makes a good impression but also creates a",
+        "words": [
+          {
+            "start": 134.17,
+            "end": 134.37,
+            "word": " willing",
+            "probability": 0.99973
+          },
+          {
+            "start": 134.37,
+            "end": 134.59,
+            "word": " to",
+            "probability": 0.99758
+          },
+          {
+            "start": 134.59,
+            "end": 134.75,
+            "word": " help",
+            "probability": 0.99921
+          },
+          {
+            "start": 134.75,
+            "end": 135.13,
+            "word": " others.",
+            "probability": 0.99875
+          },
+          {
+            "start": 135.79,
+            "end": 136.11,
+            "word": " An",
+            "probability": 0.9859
+          },
+          {
+            "start": 136.11,
+            "end": 136.63,
+            "word": " optimistic",
+            "probability": 0.99096
+          },
+          {
+            "start": 136.63,
+            "end": 137.19,
+            "word": " attitude",
+            "probability": 0.9989
+          },
+          {
+            "start": 137.19,
+            "end": 137.59,
+            "word": " not",
+            "probability": 0.88643
+          },
+          {
+            "start": 137.59,
+            "end": 137.83,
+            "word": " only",
+            "probability": 0.99884
+          },
+          {
+            "start": 137.83,
+            "end": 138.01,
+            "word": " makes",
+            "probability": 0.99699
+          },
+          {
+            "start": 138.01,
+            "end": 138.19,
+            "word": " a",
+            "probability": 0.98272
+          },
+          {
+            "start": 138.19,
+            "end": 138.33,
+            "word": " good",
+            "probability": 0.99913
+          },
+          {
+            "start": 138.33,
+            "end": 138.75,
+            "word": " impression",
+            "probability": 0.99847
+          },
+          {
+            "start": 138.75,
+            "end": 139.31,
+            "word": " but",
+            "probability": 0.42985
+          },
+          {
+            "start": 139.31,
+            "end": 139.65,
+            "word": " also",
+            "probability": 0.99084
+          },
+          {
+            "start": 139.65,
+            "end": 140.03,
+            "word": " creates",
+            "probability": 0.99631
+          },
+          {
+            "start": 140.03,
+            "end": 140.21,
+            "word": " a",
+            "probability": 0.99784
+          }
+        ]
+      },
+      {
+        "start": 140.21,
+        "end": 145.35,
+        "text": "better work environment. Additionally, with the rapid changes in technology and globalization,",
+        "words": [
+          {
+            "start": 140.21,
+            "end": 140.43,
+            "word": " better",
+            "probability": 0.99886
+          },
+          {
+            "start": 140.43,
+            "end": 140.69,
+            "word": " work",
+            "probability": 0.9913
+          },
+          {
+            "start": 140.69,
+            "end": 141.23,
+            "word": " environment.",
+            "probability": 0.99704
+          },
+          {
+            "start": 142.11,
+            "end": 142.63,
+            "word": " Additionally,",
+            "probability": 0.99039
+          },
+          {
+            "start": 142.99,
+            "end": 143.09,
+            "word": " with",
+            "probability": 0.99507
+          },
+          {
+            "start": 143.09,
+            "end": 143.21,
+            "word": " the",
+            "probability": 0.99601
+          },
+          {
+            "start": 143.21,
+            "end": 143.45,
+            "word": " rapid",
+            "probability": 0.99568
+          },
+          {
+            "start": 143.45,
+            "end": 143.87,
+            "word": " changes",
+            "probability": 0.99585
+          },
+          {
+            "start": 143.87,
+            "end": 144.01,
+            "word": " in",
+            "probability": 0.99447
+          },
+          {
+            "start": 144.01,
+            "end": 144.63,
+            "word": " technology",
+            "probability": 0.99601
+          },
+          {
+            "start": 144.63,
+            "end": 144.81,
+            "word": " and",
+            "probability": 0.99383
+          },
+          {
+            "start": 144.81,
+            "end": 145.35,
+            "word": " globalization,",
+            "probability": 0.98411
+          }
+        ]
+      },
+      {
+        "start": 145.35,
+        "end": 150.19,
+        "text": "Our definition of professionalism is no longer the same as it was 40 years ago.",
+        "words": [
+          {
+            "start": 145.35,
+            "end": 146.07,
+            "word": " Our",
+            "probability": 0.05926
+          },
+          {
+            "start": 146.07,
+            "end": 146.43,
+            "word": " definition",
+            "probability": 0.92379
+          },
+          {
+            "start": 146.43,
+            "end": 146.71,
+            "word": " of",
+            "probability": 0.99162
+          },
+          {
+            "start": 146.71,
+            "end": 147.55,
+            "word": " professionalism",
+            "probability": 0.96551
+          },
+          {
+            "start": 147.55,
+            "end": 147.75,
+            "word": " is",
+            "probability": 0.97716
+          },
+          {
+            "start": 147.75,
+            "end": 147.99,
+            "word": " no",
+            "probability": 0.99288
+          },
+          {
+            "start": 147.99,
+            "end": 148.31,
+            "word": " longer",
+            "probability": 0.99972
+          },
+          {
+            "start": 148.31,
+            "end": 148.51,
+            "word": " the",
+            "probability": 0.99662
+          },
+          {
+            "start": 148.51,
+            "end": 148.77,
+            "word": " same",
+            "probability": 0.99899
+          },
+          {
+            "start": 148.77,
+            "end": 148.93,
+            "word": " as",
+            "probability": 0.99424
+          },
+          {
+            "start": 148.93,
+            "end": 149.05,
+            "word": " it",
+            "probability": 0.9952
+          },
+          {
+            "start": 149.05,
+            "end": 149.19,
+            "word": " was",
+            "probability": 0.99742
+          },
+          {
+            "start": 149.19,
+            "end": 149.61,
+            "word": " 40",
+            "probability": 0.75334
+          },
+          {
+            "start": 149.61,
+            "end": 149.83,
+            "word": " years",
+            "probability": 0.99662
+          },
+          {
+            "start": 149.83,
+            "end": 150.19,
+            "word": " ago.",
+            "probability": 0.99924
+          }
+        ]
+      },
+      {
+        "start": 150.75,
+        "end": 156.11,
+        "text": "In the past, being professional often meant simply dressing well and following strict rules.",
+        "words": [
+          {
+            "start": 150.75,
+            "end": 151.07,
+            "word": " In",
+            "probability": 0.98592
+          },
+          {
+            "start": 151.07,
+            "end": 151.15,
+            "word": " the",
+            "probability": 0.99552
+          },
+          {
+            "start": 151.15,
+            "end": 151.63,
+            "word": " past,",
+            "probability": 0.99973
+          },
+          {
+            "start": 151.97,
+            "end": 152.09,
+            "word": " being",
+            "probability": 0.9836
+          },
+          {
+            "start": 152.09,
+            "end": 152.81,
+            "word": " professional",
+            "probability": 0.9919
+          },
+          {
+            "start": 152.81,
+            "end": 153.39,
+            "word": " often",
+            "probability": 0.85645
+          },
+          {
+            "start": 153.39,
+            "end": 153.63,
+            "word": " meant",
+            "probability": 0.99101
+          },
+          {
+            "start": 153.63,
+            "end": 154.05,
+            "word": " simply",
+            "probability": 0.99407
+          },
+          {
+            "start": 154.05,
+            "end": 154.35,
+            "word": " dressing",
+            "probability": 0.93995
+          },
+          {
+            "start": 154.35,
+            "end": 154.71,
+            "word": " well",
+            "probability": 0.99875
+          },
+          {
+            "start": 154.71,
+            "end": 154.99,
+            "word": " and",
+            "probability": 0.96344
+          },
+          {
+            "start": 154.99,
+            "end": 155.33,
+            "word": " following",
+            "probability": 0.99515
+          },
+          {
+            "start": 155.33,
+            "end": 155.67,
+            "word": " strict",
+            "probability": 0.99682
+          },
+          {
+            "start": 155.67,
+            "end": 156.11,
+            "word": " rules.",
+            "probability": 0.99846
+          }
+        ]
+      },
+      {
+        "start": 156.77,
+        "end": 162.79,
+        "text": "Now it includes being adaptable, understanding different cultures, and using technology effectively.",
+        "words": [
+          {
+            "start": 156.77,
+            "end": 157.11,
+            "word": " Now",
+            "probability": 0.99244
+          },
+          {
+            "start": 157.11,
+            "end": 157.27,
+            "word": " it",
+            "probability": 0.85241
+          },
+          {
+            "start": 157.27,
+            "end": 157.59,
+            "word": " includes",
+            "probability": 0.99533
+          },
+          {
+            "start": 157.59,
+            "end": 157.85,
+            "word": " being",
+            "probability": 0.99735
+          },
+          {
+            "start": 157.85,
+            "end": 158.49,
+            "word": " adaptable,",
+            "probability": 0.99374
+          },
+          {
+            "start": 159.05,
+            "end": 159.61,
+            "word": " understanding",
+            "probability": 0.9929
+          },
+          {
+            "start": 159.61,
+            "end": 159.97,
+            "word": " different",
+            "probability": 0.99906
+          },
+          {
+            "start": 159.97,
+            "end": 160.43,
+            "word": " cultures,",
+            "probability": 0.99912
+          },
+          {
+            "start": 160.99,
+            "end": 161.23,
+            "word": " and",
+            "probability": 0.99716
+          },
+          {
+            "start": 161.23,
+            "end": 161.51,
+            "word": " using",
+            "probability": 0.99501
+          },
+          {
+            "start": 161.51,
+            "end": 162.09,
+            "word": " technology",
+            "probability": 0.99697
+          },
+          {
+            "start": 162.09,
+            "end": 162.79,
+            "word": " effectively.",
+            "probability": 0.98524
+          }
+        ]
+      },
+      {
+        "start": 163.45,
+        "end": 169.77,
+        "text": "As we continue to evolve in our careers, we must embrace these changes and redefine what it means to be a professional.",
+        "words": [
+          {
+            "start": 163.45,
+            "end": 163.79,
+            "word": " As",
+            "probability": 0.992
+          },
+          {
+            "start": 163.79,
+            "end": 163.93,
+            "word": " we",
+            "probability": 0.99901
+          },
+          {
+            "start": 163.93,
+            "end": 164.35,
+            "word": " continue",
+            "probability": 0.99768
+          },
+          {
+            "start": 164.35,
+            "end": 164.59,
+            "word": " to",
+            "probability": 0.99847
+          },
+          {
+            "start": 164.59,
+            "end": 164.89,
+            "word": " evolve",
+            "probability": 0.99695
+          },
+          {
+            "start": 164.89,
+            "end": 165.09,
+            "word": " in",
+            "probability": 0.99585
+          },
+          {
+            "start": 165.09,
+            "end": 165.19,
+            "word": " our",
+            "probability": 0.99817
+          },
+          {
+            "start": 165.19,
+            "end": 165.51,
+            "word": " careers,",
+            "probability": 0.99783
+          },
+          {
+            "start": 165.89,
+            "end": 165.97,
+            "word": " we",
+            "probability": 0.99756
+          },
+          {
+            "start": 165.97,
+            "end": 166.17,
+            "word": " must",
+            "probability": 0.99917
+          },
+          {
+            "start": 166.17,
+            "end": 166.55,
+            "word": " embrace",
+            "probability": 0.99811
+          },
+          {
+            "start": 166.55,
+            "end": 166.87,
+            "word": " these",
+            "probability": 0.99715
+          },
+          {
+            "start": 166.87,
+            "end": 167.31,
+            "word": " changes",
+            "probability": 0.99796
+          },
+          {
+            "start": 167.31,
+            "end": 167.73,
+            "word": " and",
+            "probability": 0.95207
+          },
+          {
+            "start": 167.73,
+            "end": 168.31,
+            "word": " redefine",
+            "probability": 0.99499
+          },
+          {
+            "start": 168.31,
+            "end": 168.53,
+            "word": " what",
+            "probability": 0.99821
+          },
+          {
+            "start": 168.53,
+            "end": 168.63,
+            "word": " it",
+            "probability": 0.99628
+          },
+          {
+            "start": 168.63,
+            "end": 168.83,
+            "word": " means",
+            "probability": 0.99901
+          },
+          {
+            "start": 168.83,
+            "end": 169.11,
+            "word": " to",
+            "probability": 0.99648
+          },
+          {
+            "start": 169.11,
+            "end": 169.19,
+            "word": " be",
+            "probability": 0.9988
+          },
+          {
+            "start": 169.19,
+            "end": 169.27,
+            "word": " a",
+            "probability": 0.95747
+          },
+          {
+            "start": 169.27,
+            "end": 169.77,
+            "word": " professional.",
+            "probability": 0.99684
+          }
+        ]
+      },
+      {
+        "start": 169.77,
+        "end": 175.33,
+        "text": "by doing so, we can better meet the needs of our diverse workplaces and succeed in today's",
+        "words": [
+          {
+            "start": 169.77,
+            "end": 170.35,
+            "word": " by",
+            "probability": 0.16257
+          },
+          {
+            "start": 170.35,
+            "end": 170.59,
+            "word": " doing",
+            "probability": 0.9934
+          },
+          {
+            "start": 170.59,
+            "end": 170.93,
+            "word": " so,",
+            "probability": 0.99842
+          },
+          {
+            "start": 171.13,
+            "end": 171.33,
+            "word": " we",
+            "probability": 0.99253
+          },
+          {
+            "start": 171.33,
+            "end": 171.47,
+            "word": " can",
+            "probability": 0.99469
+          },
+          {
+            "start": 171.47,
+            "end": 171.71,
+            "word": " better",
+            "probability": 0.99431
+          },
+          {
+            "start": 171.71,
+            "end": 171.93,
+            "word": " meet",
+            "probability": 0.987
+          },
+          {
+            "start": 171.93,
+            "end": 172.11,
+            "word": " the",
+            "probability": 0.99806
+          },
+          {
+            "start": 172.11,
+            "end": 172.37,
+            "word": " needs",
+            "probability": 0.99574
+          },
+          {
+            "start": 172.37,
+            "end": 172.57,
+            "word": " of",
+            "probability": 0.99517
+          },
+          {
+            "start": 172.57,
+            "end": 172.69,
+            "word": " our",
+            "probability": 0.99587
+          },
+          {
+            "start": 172.69,
+            "end": 173.11,
+            "word": " diverse",
+            "probability": 0.99785
+          },
+          {
+            "start": 173.11,
+            "end": 173.77,
+            "word": " workplaces",
+            "probability": 0.9751
+          },
+          {
+            "start": 173.77,
+            "end": 174.11,
+            "word": " and",
+            "probability": 0.95398
+          },
+          {
+            "start": 174.11,
+            "end": 174.51,
+            "word": " succeed",
+            "probability": 0.9957
+          },
+          {
+            "start": 174.51,
+            "end": 174.87,
+            "word": " in",
+            "probability": 0.99615
+          },
+          {
+            "start": 174.87,
+            "end": 175.33,
+            "word": " today's",
+            "probability": 0.9948
+          }
+        ]
+      },
+      {
+        "start": 175.33,
+        "end": 183.56,
+        "text": "fast-paced world. Thank you. Good morning, everyone. Today, I want to talk about professionalism",
+        "words": [
+          {
+            "start": 175.33,
+            "end": 175.65,
+            "word": " fast",
+            "probability": 0.90755
+          },
+          {
+            "start": 175.65,
+            "end": 175.87,
+            "word": "-paced",
+            "probability": 0.83457
+          },
+          {
+            "start": 175.87,
+            "end": 176.33,
+            "word": " world.",
+            "probability": 0.99622
+          },
+          {
+            "start": 177.0,
+            "end": 177.46,
+            "word": " Thank",
+            "probability": 0.9724
+          },
+          {
+            "start": 177.46,
+            "end": 177.66,
+            "word": " you.",
+            "probability": 0.97941
+          },
+          {
+            "start": 179.9,
+            "end": 180.14,
+            "word": " Good",
+            "probability": 0.97679
+          },
+          {
+            "start": 180.14,
+            "end": 180.48,
+            "word": " morning,",
+            "probability": 0.95989
+          },
+          {
+            "start": 180.62,
+            "end": 180.94,
+            "word": " everyone.",
+            "probability": 0.99312
+          },
+          {
+            "start": 181.64,
+            "end": 181.82,
+            "word": " Today,",
+            "probability": 0.99696
+          },
+          {
+            "start": 182.0,
+            "end": 182.0,
+            "word": " I",
+            "probability": 0.99918
+          },
+          {
+            "start": 182.0,
+            "end": 182.12,
+            "word": " want",
+            "probability": 0.91182
+          },
+          {
+            "start": 182.12,
+            "end": 182.2,
+            "word": " to",
+            "probability": 0.99745
+          },
+          {
+            "start": 182.2,
+            "end": 182.4,
+            "word": " talk",
+            "probability": 0.99891
+          },
+          {
+            "start": 182.4,
+            "end": 182.64,
+            "word": " about",
+            "probability": 0.99828
+          },
+          {
+            "start": 182.64,
+            "end": 183.56,
+            "word": " professionalism",
+            "probability": 0.99183
+          }
+        ]
+      },
+      {
+        "start": 183.56,
+        "end": 188.74,
+        "text": "and how it has changed over the years. To be seen as a professional, it's essential to",
+        "words": [
+          {
+            "start": 183.56,
+            "end": 183.8,
+            "word": " and",
+            "probability": 0.96243
+          },
+          {
+            "start": 183.8,
+            "end": 184.0,
+            "word": " how",
+            "probability": 0.99937
+          },
+          {
+            "start": 184.0,
+            "end": 184.16,
+            "word": " it",
+            "probability": 0.99896
+          },
+          {
+            "start": 184.16,
+            "end": 184.28,
+            "word": " has",
+            "probability": 0.99787
+          },
+          {
+            "start": 184.28,
+            "end": 184.54,
+            "word": " changed",
+            "probability": 0.99064
+          },
+          {
+            "start": 184.54,
+            "end": 184.84,
+            "word": " over",
+            "probability": 0.99881
+          },
+          {
+            "start": 184.84,
+            "end": 184.98,
+            "word": " the",
+            "probability": 0.99875
+          },
+          {
+            "start": 184.98,
+            "end": 185.36,
+            "word": " years.",
+            "probability": 0.99895
+          },
+          {
+            "start": 186.02,
+            "end": 186.22,
+            "word": " To",
+            "probability": 0.99723
+          },
+          {
+            "start": 186.22,
+            "end": 186.32,
+            "word": " be",
+            "probability": 0.99967
+          },
+          {
+            "start": 186.32,
+            "end": 186.6,
+            "word": " seen",
+            "probability": 0.99771
+          },
+          {
+            "start": 186.6,
+            "end": 186.74,
+            "word": " as",
+            "probability": 0.99867
+          },
+          {
+            "start": 186.74,
+            "end": 186.82,
+            "word": " a",
+            "probability": 0.98477
+          },
+          {
+            "start": 186.82,
+            "end": 187.36,
+            "word": " professional,",
+            "probability": 0.99312
+          },
+          {
+            "start": 187.82,
+            "end": 188.04,
+            "word": " it's",
+            "probability": 0.93733
+          },
+          {
+            "start": 188.04,
+            "end": 188.52,
+            "word": " essential",
+            "probability": 0.99748
+          },
+          {
+            "start": 188.52,
+            "end": 188.74,
+            "word": " to",
+            "probability": 0.99844
+          }
+        ]
+      },
+      {
+        "start": 188.74,
+        "end": 194.7,
+        "text": "be friendly, open-minded, and willing to help others. An optimistic attitude not only makes",
+        "words": [
+          {
+            "start": 188.74,
+            "end": 188.84,
+            "word": " be",
+            "probability": 0.99876
+          },
+          {
+            "start": 188.84,
+            "end": 189.26,
+            "word": " friendly,",
+            "probability": 0.98337
+          },
+          {
+            "start": 189.88,
+            "end": 190.14,
+            "word": " open",
+            "probability": 0.99856
+          },
+          {
+            "start": 190.14,
+            "end": 190.56,
+            "word": "-minded,",
+            "probability": 0.97399
+          },
+          {
+            "start": 190.8,
+            "end": 190.88,
+            "word": " and",
+            "probability": 0.99669
+          },
+          {
+            "start": 190.88,
+            "end": 191.08,
+            "word": " willing",
+            "probability": 0.99983
+          },
+          {
+            "start": 191.08,
+            "end": 191.28,
+            "word": " to",
+            "probability": 0.99761
+          },
+          {
+            "start": 191.28,
+            "end": 191.44,
+            "word": " help",
+            "probability": 0.9996
+          },
+          {
+            "start": 191.44,
+            "end": 191.84,
+            "word": " others.",
+            "probability": 0.99919
+          },
+          {
+            "start": 192.5,
+            "end": 192.8,
+            "word": " An",
+            "probability": 0.98024
+          },
+          {
+            "start": 192.8,
+            "end": 193.34,
+            "word": " optimistic",
+            "probability": 0.99248
+          },
+          {
+            "start": 193.34,
+            "end": 193.9,
+            "word": " attitude",
+            "probability": 0.9992
+          },
+          {
+            "start": 193.9,
+            "end": 194.28,
+            "word": " not",
+            "probability": 0.88123
+          },
+          {
+            "start": 194.28,
+            "end": 194.52,
+            "word": " only",
+            "probability": 0.99937
+          },
+          {
+            "start": 194.52,
+            "end": 194.7,
+            "word": " makes",
+            "probability": 0.99781
+          }
+        ]
+      },
+      {
+        "start": 194.7,
+        "end": 200.16,
+        "text": "a good impression, but also creates a better work environment. Additionally, with the rapid",
+        "words": [
+          {
+            "start": 194.7,
+            "end": 194.88,
+            "word": " a",
+            "probability": 0.97226
+          },
+          {
+            "start": 194.88,
+            "end": 195.02,
+            "word": " good",
+            "probability": 0.99916
+          },
+          {
+            "start": 195.02,
+            "end": 195.46,
+            "word": " impression,",
+            "probability": 0.99876
+          },
+          {
+            "start": 195.92,
+            "end": 196.04,
+            "word": " but",
+            "probability": 0.99852
+          },
+          {
+            "start": 196.04,
+            "end": 196.34,
+            "word": " also",
+            "probability": 0.99618
+          },
+          {
+            "start": 196.34,
+            "end": 196.74,
+            "word": " creates",
+            "probability": 0.99614
+          },
+          {
+            "start": 196.74,
+            "end": 196.92,
+            "word": " a",
+            "probability": 0.99935
+          },
+          {
+            "start": 196.92,
+            "end": 197.12,
+            "word": " better",
+            "probability": 0.99929
+          },
+          {
+            "start": 197.12,
+            "end": 197.38,
+            "word": " work",
+            "probability": 0.99315
+          },
+          {
+            "start": 197.38,
+            "end": 197.92,
+            "word": " environment.",
+            "probability": 0.99808
+          },
+          {
+            "start": 198.8,
+            "end": 199.32,
+            "word": " Additionally,",
+            "probability": 0.98788
+          },
+          {
+            "start": 199.7,
+            "end": 199.8,
+            "word": " with",
+            "probability": 0.99623
+          },
+          {
+            "start": 199.8,
+            "end": 199.9,
+            "word": " the",
+            "probability": 0.99629
+          },
+          {
+            "start": 199.9,
+            "end": 200.16,
+            "word": " rapid",
+            "probability": 0.99666
+          }
+        ]
+      },
+      {
+        "start": 200.16,
+        "end": 205.04,
+        "text": "changes in technology and globalization, our definition of professionalism is no longer",
+        "words": [
+          {
+            "start": 200.16,
+            "end": 200.56,
+            "word": " changes",
+            "probability": 0.09745
+          },
+          {
+            "start": 200.56,
+            "end": 200.72,
+            "word": " in",
+            "probability": 0.99298
+          },
+          {
+            "start": 200.72,
+            "end": 201.24,
+            "word": " technology",
+            "probability": 0.99334
+          },
+          {
+            "start": 201.24,
+            "end": 201.52,
+            "word": " and",
+            "probability": 0.99128
+          },
+          {
+            "start": 201.52,
+            "end": 202.06,
+            "word": " globalization,",
+            "probability": 0.97262
+          },
+          {
+            "start": 202.68,
+            "end": 202.78,
+            "word": " our",
+            "probability": 0.9972
+          },
+          {
+            "start": 202.78,
+            "end": 203.16,
+            "word": " definition",
+            "probability": 0.99865
+          },
+          {
+            "start": 203.16,
+            "end": 203.42,
+            "word": " of",
+            "probability": 0.99875
+          },
+          {
+            "start": 203.42,
+            "end": 204.24,
+            "word": " professionalism",
+            "probability": 0.98329
+          },
+          {
+            "start": 204.24,
+            "end": 204.44,
+            "word": " is",
+            "probability": 0.6849
+          },
+          {
+            "start": 204.44,
+            "end": 204.7,
+            "word": " no",
+            "probability": 0.99409
+          },
+          {
+            "start": 204.7,
+            "end": 205.04,
+            "word": " longer",
+            "probability": 0.99966
+          }
+        ]
+      },
+      {
+        "start": 205.04,
+        "end": 211.02,
+        "text": "the same as it was 40 years ago. In the past, being professional often meant simply dressing",
+        "words": [
+          {
+            "start": 205.04,
+            "end": 205.2,
+            "word": " the",
+            "probability": 0.99893
+          },
+          {
+            "start": 205.2,
+            "end": 205.48,
+            "word": " same",
+            "probability": 0.99939
+          },
+          {
+            "start": 205.48,
+            "end": 205.64,
+            "word": " as",
+            "probability": 0.9989
+          },
+          {
+            "start": 205.64,
+            "end": 205.74,
+            "word": " it",
+            "probability": 0.99724
+          },
+          {
+            "start": 205.74,
+            "end": 205.9,
+            "word": " was",
+            "probability": 0.99757
+          },
+          {
+            "start": 205.9,
+            "end": 206.28,
+            "word": " 40",
+            "probability": 0.81822
+          },
+          {
+            "start": 206.28,
+            "end": 206.5,
+            "word": " years",
+            "probability": 0.99753
+          },
+          {
+            "start": 206.5,
+            "end": 206.82,
+            "word": " ago.",
+            "probability": 0.99927
+          },
+          {
+            "start": 207.62,
+            "end": 207.76,
+            "word": " In",
+            "probability": 0.99022
+          },
+          {
+            "start": 207.76,
+            "end": 207.86,
+            "word": " the",
+            "probability": 0.99548
+          },
+          {
+            "start": 207.86,
+            "end": 208.3,
+            "word": " past,",
+            "probability": 0.99985
+          },
+          {
+            "start": 208.68,
+            "end": 208.8,
+            "word": " being",
+            "probability": 0.98947
+          },
+          {
+            "start": 208.8,
+            "end": 209.5,
+            "word": " professional",
+            "probability": 0.9874
+          },
+          {
+            "start": 209.5,
+            "end": 210.1,
+            "word": " often",
+            "probability": 0.94803
+          },
+          {
+            "start": 210.1,
+            "end": 210.32,
+            "word": " meant",
+            "probability": 0.99162
+          },
+          {
+            "start": 210.32,
+            "end": 210.76,
+            "word": " simply",
+            "probability": 0.99396
+          },
+          {
+            "start": 210.76,
+            "end": 211.02,
+            "word": " dressing",
+            "probability": 0.93098
+          }
+        ]
+      },
+      {
+        "start": 211.02,
+        "end": 217.12,
+        "text": "well and following strict rules. Now it includes being adaptable, understanding different cultures,",
+        "words": [
+          {
+            "start": 211.02,
+            "end": 211.4,
+            "word": " well",
+            "probability": 0.99897
+          },
+          {
+            "start": 211.4,
+            "end": 211.68,
+            "word": " and",
+            "probability": 0.96973
+          },
+          {
+            "start": 211.68,
+            "end": 212.04,
+            "word": " following",
+            "probability": 0.99699
+          },
+          {
+            "start": 212.04,
+            "end": 212.36,
+            "word": " strict",
+            "probability": 0.9976
+          },
+          {
+            "start": 212.36,
+            "end": 212.8,
+            "word": " rules.",
+            "probability": 0.999
+          },
+          {
+            "start": 213.54,
+            "end": 213.82,
+            "word": " Now",
+            "probability": 0.99404
+          },
+          {
+            "start": 213.82,
+            "end": 213.98,
+            "word": " it",
+            "probability": 0.79973
+          },
+          {
+            "start": 213.98,
+            "end": 214.3,
+            "word": " includes",
+            "probability": 0.99726
+          },
+          {
+            "start": 214.3,
+            "end": 214.56,
+            "word": " being",
+            "probability": 0.998
+          },
+          {
+            "start": 214.56,
+            "end": 215.16,
+            "word": " adaptable,",
+            "probability": 0.99583
+          },
+          {
+            "start": 215.7,
+            "end": 216.3,
+            "word": " understanding",
+            "probability": 0.99517
+          },
+          {
+            "start": 216.3,
+            "end": 216.68,
+            "word": " different",
+            "probability": 0.9994
+          },
+          {
+            "start": 216.68,
+            "end": 217.12,
+            "word": " cultures,",
+            "probability": 0.9992
+          }
+        ]
+      },
+      {
+        "start": 217.72,
+        "end": 223.98,
+        "text": "and using technology effectively. As we continue to evolve in our careers, we must embrace these changes",
+        "words": [
+          {
+            "start": 217.72,
+            "end": 217.94,
+            "word": " and",
+            "probability": 0.99545
+          },
+          {
+            "start": 217.94,
+            "end": 218.22,
+            "word": " using",
+            "probability": 0.99728
+          },
+          {
+            "start": 218.22,
+            "end": 218.7,
+            "word": " technology",
+            "probability": 0.99776
+          },
+          {
+            "start": 218.7,
+            "end": 219.5,
+            "word": " effectively.",
+            "probability": 0.99636
+          },
+          {
+            "start": 220.14,
+            "end": 220.5,
+            "word": " As",
+            "probability": 0.99384
+          },
+          {
+            "start": 220.5,
+            "end": 220.64,
+            "word": " we",
+            "probability": 0.99944
+          },
+          {
+            "start": 220.64,
+            "end": 221.06,
+            "word": " continue",
+            "probability": 0.99827
+          },
+          {
+            "start": 221.06,
+            "end": 221.3,
+            "word": " to",
+            "probability": 0.99917
+          },
+          {
+            "start": 221.3,
+            "end": 221.6,
+            "word": " evolve",
+            "probability": 0.9959
+          },
+          {
+            "start": 221.6,
+            "end": 221.78,
+            "word": " in",
+            "probability": 0.99794
+          },
+          {
+            "start": 221.78,
+            "end": 221.88,
+            "word": " our",
+            "probability": 0.99917
+          },
+          {
+            "start": 221.88,
+            "end": 222.22,
+            "word": " careers,",
+            "probability": 0.99835
+          },
+          {
+            "start": 222.58,
+            "end": 222.66,
+            "word": " we",
+            "probability": 0.99864
+          },
+          {
+            "start": 222.66,
+            "end": 222.9,
+            "word": " must",
+            "probability": 0.99946
+          },
+          {
+            "start": 222.9,
+            "end": 223.24,
+            "word": " embrace",
+            "probability": 0.99858
+          },
+          {
+            "start": 223.24,
+            "end": 223.54,
+            "word": " these",
+            "probability": 0.99701
+          },
+          {
+            "start": 223.54,
+            "end": 223.98,
+            "word": " changes",
+            "probability": 0.99786
+          }
+        ]
+      },
+      {
+        "start": 223.98,
+        "end": 229.38,
+        "text": "and redefine what it means to be a professional. By doing so, we can better meet the needs of our",
+        "words": [
+          {
+            "start": 223.98,
+            "end": 224.44,
+            "word": " and",
+            "probability": 0.96085
+          },
+          {
+            "start": 224.44,
+            "end": 225.02,
+            "word": " redefine",
+            "probability": 0.99576
+          },
+          {
+            "start": 225.02,
+            "end": 225.22,
+            "word": " what",
+            "probability": 0.99889
+          },
+          {
+            "start": 225.22,
+            "end": 225.32,
+            "word": " it",
+            "probability": 0.99626
+          },
+          {
+            "start": 225.32,
+            "end": 225.54,
+            "word": " means",
+            "probability": 0.99931
+          },
+          {
+            "start": 225.54,
+            "end": 225.8,
+            "word": " to",
+            "probability": 0.99499
+          },
+          {
+            "start": 225.8,
+            "end": 225.88,
+            "word": " be",
+            "probability": 0.99878
+          },
+          {
+            "start": 225.88,
+            "end": 225.96,
+            "word": " a",
+            "probability": 0.94723
+          },
+          {
+            "start": 225.96,
+            "end": 226.46,
+            "word": " professional.",
+            "probability": 0.9959
+          },
+          {
+            "start": 226.86,
+            "end": 227.06,
+            "word": " By",
+            "probability": 0.9964
+          },
+          {
+            "start": 227.06,
+            "end": 227.3,
+            "word": " doing",
+            "probability": 0.99908
+          },
+          {
+            "start": 227.3,
+            "end": 227.62,
+            "word": " so,",
+            "probability": 0.99967
+          },
+          {
+            "start": 227.88,
+            "end": 228.04,
+            "word": " we",
+            "probability": 0.99872
+          },
+          {
+            "start": 228.04,
+            "end": 228.18,
+            "word": " can",
+            "probability": 0.99796
+          },
+          {
+            "start": 228.18,
+            "end": 228.4,
+            "word": " better",
+            "probability": 0.99757
+          },
+          {
+            "start": 228.4,
+            "end": 228.62,
+            "word": " meet",
+            "probability": 0.99378
+          },
+          {
+            "start": 228.62,
+            "end": 228.8,
+            "word": " the",
+            "probability": 0.99672
+          },
+          {
+            "start": 228.8,
+            "end": 229.06,
+            "word": " needs",
+            "probability": 0.99712
+          },
+          {
+            "start": 229.06,
+            "end": 229.26,
+            "word": " of",
+            "probability": 0.9988
+          },
+          {
+            "start": 229.26,
+            "end": 229.38,
+            "word": " our",
+            "probability": 0.99718
+          }
+        ]
+      },
+      {
+        "start": 229.38,
+        "end": 233.0,
+        "text": "diverse workplaces and succeed in today's fast-paced world.",
+        "words": [
+          {
+            "start": 229.38,
+            "end": 229.78,
+            "word": " diverse",
+            "probability": 0.97384
+          },
+          {
+            "start": 229.78,
+            "end": 230.48,
+            "word": " workplaces",
+            "probability": 0.98334
+          },
+          {
+            "start": 230.48,
+            "end": 230.82,
+            "word": " and",
+            "probability": 0.88537
+          },
+          {
+            "start": 230.82,
+            "end": 231.2,
+            "word": " succeed",
+            "probability": 0.99579
+          },
+          {
+            "start": 231.2,
+            "end": 231.58,
+            "word": " in",
+            "probability": 0.99758
+          },
+          {
+            "start": 231.58,
+            "end": 232.04,
+            "word": " today's",
+            "probability": 0.98521
+          },
+          {
+            "start": 232.04,
+            "end": 232.3,
+            "word": " fast",
+            "probability": 0.87316
+          },
+          {
+            "start": 232.3,
+            "end": 232.54,
+            "word": "-paced",
+            "probability": 0.87945
+          },
+          {
+            "start": 232.54,
+            "end": 233.0,
+            "word": " world.",
+            "probability": 0.99655
+          }
+        ]
+      },
+      {
+        "start": 233.68,
+        "end": 234.34,
+        "text": "Thank you.",
+        "words": [
+          {
+            "start": 233.68,
+            "end": 234.16,
+            "word": " Thank",
+            "probability": 0.99092
+          },
+          {
+            "start": 234.16,
+            "end": 234.34,
+            "word": " you.",
+            "probability": 0.96135
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono1",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 152,
+            "speechStart": 0.91,
+            "speechEnd": 59.02,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9967,
+            "transcript": "good morning listeners today we're diving into a recent research study on happiness that has sparked quite a bit of discussion unfortunately it seems that the media has focused more on sensational headlines rather than accurately reporting the core findings of the research as a result many people are left with a distorted understanding of what truly contributes to happiness while numerous studies have attempted to uncover the secrets to a happy life it's important to recognize that there may never be a conclusive answer happiness is a complex and personal experience influenced by a variety of factors unique to each individual instead of seeking a 1 size fits all solution we should focus on understanding our own needs and values remember happiness is not a destination but a journey and it's crucial to approach it with an open mind stand stay tuned for more insights and discussions on this fascinating topic",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 152,
+            "wordEndIndexExclusive": 303,
+            "speechStart": 62.95,
+            "speechEnd": 120.92,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "good morning listeners today we're diving into a recent research study on happiness that has sparked quite a bit of discussion unfortunately it seems that the media has focused more on sensational headlines rather than accurately reporting the core findings of the research as a result many people are left with a distorted understanding of what truly contributes to happiness while numerous studies have attempted to uncover the secrets to a happy life it's important to recognize that there may never be a conclusive answer happiness is a complex and personal experience influenced by a variety of factors unique to each individual instead of seeking a 1 size fits all solution we should focus on understanding our own needs and values remember happiness is not a destination but a journey and it's crucial to approach it with an open mind stay tuned for more insights and discussions on this fascinating topic",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p4-mono2",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 303,
+            "wordEndIndexExclusive": 449,
+            "speechStart": 123.01,
+            "speechEnd": 177.66,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "good morning everyone today i want to talk about professionalism and how it has changed over the years to be seen as a professional it's essential to be friendly open minded and willing to help others an optimistic attitude not only makes a good impression but also creates a better work environment additionally with the rapid changes in technology and globalization our definition of professionalism is no longer the same as it was 40 years ago in the past being professional often meant simply dressing well and following strict rules now it includes being adaptable understanding different cultures and using technology effectively as we continue to evolve in our careers we must embrace these changes and redefine what it means to be a professional by doing so we can better meet the needs of our diverse workplaces and succeed in today's fast paced world thank you",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 449,
+            "wordEndIndexExclusive": 595,
+            "speechStart": 179.9,
+            "speechEnd": 234.34,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "good morning everyone today i want to talk about professionalism and how it has changed over the years to be seen as a professional it's essential to be friendly open minded and willing to help others an optimistic attitude not only makes a good impression but also creates a better work environment additionally with the rapid changes in technology and globalization our definition of professionalism is no longer the same as it was 40 years ago in the past being professional often meant simply dressing well and following strict rules now it includes being adaptable understanding different cultures and using technology effectively as we continue to evolve in our careers we must embrace these changes and redefine what it means to be a professional by doing so we can better meet the needs of our diverse workplaces and succeed in today's fast paced world thank you",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "testId": "aptis-b2-07",
+  "blockId": "p1-q07",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-07/part-1/q07.mp3",
+  "audioSha256": "a8f5d89958ea9d5d290c63d80d00946583e2e7a5a23e72274bfc7d6687080886",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 3.54,
+        "text": "Ladies and gentlemen, welcome to today's auction.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.36,
+            "word": " Ladies",
+            "probability": 0.95545
+          },
+          {
+            "start": 1.36,
+            "end": 1.58,
+            "word": " and",
+            "probability": 0.99229
+          },
+          {
+            "start": 1.58,
+            "end": 1.86,
+            "word": " gentlemen,",
+            "probability": 0.85339
+          },
+          {
+            "start": 2.32,
+            "end": 2.62,
+            "word": " welcome",
+            "probability": 0.87356
+          },
+          {
+            "start": 2.62,
+            "end": 2.82,
+            "word": " to",
+            "probability": 0.99895
+          },
+          {
+            "start": 2.82,
+            "end": 3.24,
+            "word": " today's",
+            "probability": 0.94363
+          },
+          {
+            "start": 3.24,
+            "end": 3.54,
+            "word": " auction.",
+            "probability": 0.89511
+          }
+        ]
+      },
+      {
+        "start": 4.52,
+        "end": 7.52,
+        "text": "I have a beautiful cabinet here that I want to show you.",
+        "words": [
+          {
+            "start": 4.52,
+            "end": 4.84,
+            "word": " I",
+            "probability": 0.99357
+          },
+          {
+            "start": 4.84,
+            "end": 4.98,
+            "word": " have",
+            "probability": 0.99814
+          },
+          {
+            "start": 4.98,
+            "end": 5.12,
+            "word": " a",
+            "probability": 0.9907
+          },
+          {
+            "start": 5.12,
+            "end": 5.64,
+            "word": " beautiful",
+            "probability": 0.99524
+          },
+          {
+            "start": 5.64,
+            "end": 6.12,
+            "word": " cabinet",
+            "probability": 0.98108
+          },
+          {
+            "start": 6.12,
+            "end": 6.38,
+            "word": " here",
+            "probability": 0.99515
+          },
+          {
+            "start": 6.38,
+            "end": 6.56,
+            "word": " that",
+            "probability": 0.96383
+          },
+          {
+            "start": 6.56,
+            "end": 6.68,
+            "word": " I",
+            "probability": 0.98526
+          },
+          {
+            "start": 6.68,
+            "end": 6.84,
+            "word": " want",
+            "probability": 0.99565
+          },
+          {
+            "start": 6.84,
+            "end": 7.0,
+            "word": " to",
+            "probability": 0.99595
+          },
+          {
+            "start": 7.0,
+            "end": 7.22,
+            "word": " show",
+            "probability": 0.99869
+          },
+          {
+            "start": 7.22,
+            "end": 7.52,
+            "word": " you.",
+            "probability": 0.99755
+          }
+        ]
+      },
+      {
+        "start": 8.08,
+        "end": 13.16,
+        "text": "This cabinet is made of high quality wood and it has a lovely design that will fit in",
+        "words": [
+          {
+            "start": 8.08,
+            "end": 8.48,
+            "word": " This",
+            "probability": 0.99505
+          },
+          {
+            "start": 8.48,
+            "end": 8.86,
+            "word": " cabinet",
+            "probability": 0.99839
+          },
+          {
+            "start": 8.86,
+            "end": 9.08,
+            "word": " is",
+            "probability": 0.99882
+          },
+          {
+            "start": 9.08,
+            "end": 9.32,
+            "word": " made",
+            "probability": 0.99974
+          },
+          {
+            "start": 9.32,
+            "end": 9.54,
+            "word": " of",
+            "probability": 0.99607
+          },
+          {
+            "start": 9.54,
+            "end": 9.8,
+            "word": " high",
+            "probability": 0.99216
+          },
+          {
+            "start": 9.8,
+            "end": 10.24,
+            "word": " quality",
+            "probability": 0.43868
+          },
+          {
+            "start": 10.24,
+            "end": 10.6,
+            "word": " wood",
+            "probability": 0.99878
+          },
+          {
+            "start": 10.6,
+            "end": 11.12,
+            "word": " and",
+            "probability": 0.68078
+          },
+          {
+            "start": 11.12,
+            "end": 11.22,
+            "word": " it",
+            "probability": 0.96515
+          },
+          {
+            "start": 11.22,
+            "end": 11.38,
+            "word": " has",
+            "probability": 0.99662
+          },
+          {
+            "start": 11.38,
+            "end": 11.52,
+            "word": " a",
+            "probability": 0.99786
+          },
+          {
+            "start": 11.52,
+            "end": 11.76,
+            "word": " lovely",
+            "probability": 0.99574
+          },
+          {
+            "start": 11.76,
+            "end": 12.24,
+            "word": " design",
+            "probability": 0.99906
+          },
+          {
+            "start": 12.24,
+            "end": 12.52,
+            "word": " that",
+            "probability": 0.9949
+          },
+          {
+            "start": 12.52,
+            "end": 12.66,
+            "word": " will",
+            "probability": 0.99609
+          },
+          {
+            "start": 12.66,
+            "end": 12.9,
+            "word": " fit",
+            "probability": 0.99935
+          },
+          {
+            "start": 12.9,
+            "end": 13.16,
+            "word": " in",
+            "probability": 0.98976
+          }
+        ]
+      },
+      {
+        "start": 13.16,
+        "end": 13.84,
+        "text": "any room.",
+        "words": [
+          {
+            "start": 13.16,
+            "end": 13.48,
+            "word": " any",
+            "probability": 0.99765
+          },
+          {
+            "start": 13.48,
+            "end": 13.84,
+            "word": " room.",
+            "probability": 0.99845
+          }
+        ]
+      },
+      {
+        "start": 14.54,
+        "end": 19.86,
+        "text": "What makes it special is that the drawer is kept original, which adds to its charm and value.",
+        "words": [
+          {
+            "start": 14.54,
+            "end": 14.76,
+            "word": " What",
+            "probability": 0.99667
+          },
+          {
+            "start": 14.76,
+            "end": 14.94,
+            "word": " makes",
+            "probability": 0.9987
+          },
+          {
+            "start": 14.94,
+            "end": 15.12,
+            "word": " it",
+            "probability": 0.99729
+          },
+          {
+            "start": 15.12,
+            "end": 15.54,
+            "word": " special",
+            "probability": 0.998
+          },
+          {
+            "start": 15.54,
+            "end": 15.92,
+            "word": " is",
+            "probability": 0.96885
+          },
+          {
+            "start": 15.92,
+            "end": 16.12,
+            "word": " that",
+            "probability": 0.99378
+          },
+          {
+            "start": 16.12,
+            "end": 16.28,
+            "word": " the",
+            "probability": 0.99429
+          },
+          {
+            "start": 16.28,
+            "end": 16.6,
+            "word": " drawer",
+            "probability": 0.99328
+          },
+          {
+            "start": 16.6,
+            "end": 16.84,
+            "word": " is",
+            "probability": 0.98429
+          },
+          {
+            "start": 16.84,
+            "end": 17.04,
+            "word": " kept",
+            "probability": 0.99871
+          },
+          {
+            "start": 17.04,
+            "end": 17.56,
+            "word": " original,",
+            "probability": 0.99755
+          },
+          {
+            "start": 17.98,
+            "end": 18.16,
+            "word": " which",
+            "probability": 0.99806
+          },
+          {
+            "start": 18.16,
+            "end": 18.4,
+            "word": " adds",
+            "probability": 0.99835
+          },
+          {
+            "start": 18.4,
+            "end": 18.64,
+            "word": " to",
+            "probability": 0.997
+          },
+          {
+            "start": 18.64,
+            "end": 18.82,
+            "word": " its",
+            "probability": 0.88121
+          },
+          {
+            "start": 18.82,
+            "end": 19.18,
+            "word": " charm",
+            "probability": 0.99528
+          },
+          {
+            "start": 19.18,
+            "end": 19.44,
+            "word": " and",
+            "probability": 0.99836
+          },
+          {
+            "start": 19.44,
+            "end": 19.86,
+            "word": " value.",
+            "probability": 0.99805
+          }
+        ]
+      },
+      {
+        "start": 20.2,
+        "end": 24.22,
+        "text": "You can store your favorite items or use it as a display for your beautiful decorations.",
+        "words": [
+          {
+            "start": 20.2,
+            "end": 20.28,
+            "word": " You",
+            "probability": 0.99603
+          },
+          {
+            "start": 20.28,
+            "end": 20.4,
+            "word": " can",
+            "probability": 0.99903
+          },
+          {
+            "start": 20.4,
+            "end": 20.72,
+            "word": " store",
+            "probability": 0.99718
+          },
+          {
+            "start": 20.72,
+            "end": 20.92,
+            "word": " your",
+            "probability": 0.99688
+          },
+          {
+            "start": 20.92,
+            "end": 21.28,
+            "word": " favorite",
+            "probability": 0.90359
+          },
+          {
+            "start": 21.28,
+            "end": 21.66,
+            "word": " items",
+            "probability": 0.99891
+          },
+          {
+            "start": 21.66,
+            "end": 22.0,
+            "word": " or",
+            "probability": 0.8683
+          },
+          {
+            "start": 22.0,
+            "end": 22.22,
+            "word": " use",
+            "probability": 0.99772
+          },
+          {
+            "start": 22.22,
+            "end": 22.36,
+            "word": " it",
+            "probability": 0.99695
+          },
+          {
+            "start": 22.36,
+            "end": 22.48,
+            "word": " as",
+            "probability": 0.99547
+          },
+          {
+            "start": 22.48,
+            "end": 22.56,
+            "word": " a",
+            "probability": 0.99614
+          },
+          {
+            "start": 22.56,
+            "end": 22.94,
+            "word": " display",
+            "probability": 0.99921
+          },
+          {
+            "start": 22.94,
+            "end": 23.18,
+            "word": " for",
+            "probability": 0.99641
+          },
+          {
+            "start": 23.18,
+            "end": 23.28,
+            "word": " your",
+            "probability": 0.98976
+          },
+          {
+            "start": 23.28,
+            "end": 23.64,
+            "word": " beautiful",
+            "probability": 0.99715
+          },
+          {
+            "start": 23.64,
+            "end": 24.22,
+            "word": " decorations.",
+            "probability": 0.98909
+          }
+        ]
+      },
+      {
+        "start": 25.1,
+        "end": 27.82,
+        "text": "Don't miss this chance to own a unique piece of furniture.",
+        "words": [
+          {
+            "start": 25.1,
+            "end": 25.38,
+            "word": " Don't",
+            "probability": 0.99151
+          },
+          {
+            "start": 25.38,
+            "end": 25.52,
+            "word": " miss",
+            "probability": 0.99484
+          },
+          {
+            "start": 25.52,
+            "end": 25.78,
+            "word": " this",
+            "probability": 0.99418
+          },
+          {
+            "start": 25.78,
+            "end": 26.06,
+            "word": " chance",
+            "probability": 0.99707
+          },
+          {
+            "start": 26.06,
+            "end": 26.38,
+            "word": " to",
+            "probability": 0.99865
+          },
+          {
+            "start": 26.38,
+            "end": 26.56,
+            "word": " own",
+            "probability": 0.99492
+          },
+          {
+            "start": 26.56,
+            "end": 26.68,
+            "word": " a",
+            "probability": 0.99691
+          },
+          {
+            "start": 26.68,
+            "end": 26.96,
+            "word": " unique",
+            "probability": 0.99898
+          },
+          {
+            "start": 26.96,
+            "end": 27.3,
+            "word": " piece",
+            "probability": 0.99724
+          },
+          {
+            "start": 27.3,
+            "end": 27.46,
+            "word": " of",
+            "probability": 0.99841
+          },
+          {
+            "start": 27.46,
+            "end": 27.82,
+            "word": " furniture.",
+            "probability": 0.9987
+          }
+        ]
+      },
+      {
+        "start": 28.52,
+        "end": 29.52,
+        "text": "Let's start the bidding.",
+        "words": [
+          {
+            "start": 28.52,
+            "end": 28.96,
+            "word": " Let's",
+            "probability": 0.7517
+          },
+          {
+            "start": 28.96,
+            "end": 29.12,
+            "word": " start",
+            "probability": 0.96369
+          },
+          {
+            "start": 29.12,
+            "end": 29.3,
+            "word": " the",
+            "probability": 0.98692
+          },
+          {
+            "start": 29.3,
+            "end": 29.52,
+            "word": " bidding.",
+            "probability": 0.99255
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q07",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 88,
+            "speechStart": 0.78,
+            "speechEnd": 29.52,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "ladies and gentlemen welcome to today's auction i have a beautiful cabinet here that i want to show you this cabinet is made of high quality wood and it has a lovely design that will fit in any room what makes it special is that the drawer is kept original which adds to its charm and value you can store your favorite items or use it as a display for your beautiful decorations don't miss this chance to own a unique piece of furniture let's start the bidding",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

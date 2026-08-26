@@ -1,0 +1,2750 @@
+{
+  "testId": "aptis-b2-14",
+  "blockId": "p3-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-14/part-3/task-all.mp3",
+  "audioSha256": "e97d4d9489f16481dfa5f41041c356a8be62776247c10fafd0f53dfbd61e658f",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.14,
+        "end": 6.62,
+        "text": "Hi, David. You look so serious reading while watching that beauty show. What happened?",
+        "words": [
+          {
+            "start": 1.14,
+            "end": 1.66,
+            "word": " Hi,",
+            "probability": 0.34924
+          },
+          {
+            "start": 1.82,
+            "end": 2.06,
+            "word": " David.",
+            "probability": 0.9929
+          },
+          {
+            "start": 2.5,
+            "end": 2.58,
+            "word": " You",
+            "probability": 0.98762
+          },
+          {
+            "start": 2.58,
+            "end": 2.72,
+            "word": " look",
+            "probability": 0.98384
+          },
+          {
+            "start": 2.72,
+            "end": 3.02,
+            "word": " so",
+            "probability": 0.99693
+          },
+          {
+            "start": 3.02,
+            "end": 3.5,
+            "word": " serious",
+            "probability": 0.99512
+          },
+          {
+            "start": 3.5,
+            "end": 3.9,
+            "word": " reading",
+            "probability": 0.91655
+          },
+          {
+            "start": 3.9,
+            "end": 4.12,
+            "word": " while",
+            "probability": 0.95289
+          },
+          {
+            "start": 4.12,
+            "end": 4.52,
+            "word": " watching",
+            "probability": 0.99781
+          },
+          {
+            "start": 4.52,
+            "end": 4.76,
+            "word": " that",
+            "probability": 0.97489
+          },
+          {
+            "start": 4.76,
+            "end": 5.06,
+            "word": " beauty",
+            "probability": 0.72476
+          },
+          {
+            "start": 5.06,
+            "end": 5.44,
+            "word": " show.",
+            "probability": 0.99726
+          },
+          {
+            "start": 5.82,
+            "end": 6.22,
+            "word": " What",
+            "probability": 0.98852
+          },
+          {
+            "start": 6.22,
+            "end": 6.62,
+            "word": " happened?",
+            "probability": 0.99826
+          }
+        ]
+      },
+      {
+        "start": 7.48,
+        "end": 9.88,
+        "text": "You know, I've been thinking a lot about beauty lately.",
+        "words": [
+          {
+            "start": 7.48,
+            "end": 7.62,
+            "word": " You",
+            "probability": 0.89104
+          },
+          {
+            "start": 7.62,
+            "end": 7.72,
+            "word": " know,",
+            "probability": 0.99388
+          },
+          {
+            "start": 7.78,
+            "end": 7.9,
+            "word": " I've",
+            "probability": 0.98525
+          },
+          {
+            "start": 7.9,
+            "end": 8.02,
+            "word": " been",
+            "probability": 0.99859
+          },
+          {
+            "start": 8.02,
+            "end": 8.32,
+            "word": " thinking",
+            "probability": 0.99688
+          },
+          {
+            "start": 8.32,
+            "end": 8.5,
+            "word": " a",
+            "probability": 0.99169
+          },
+          {
+            "start": 8.5,
+            "end": 8.7,
+            "word": " lot",
+            "probability": 0.99903
+          },
+          {
+            "start": 8.7,
+            "end": 8.98,
+            "word": " about",
+            "probability": 0.99843
+          },
+          {
+            "start": 8.98,
+            "end": 9.4,
+            "word": " beauty",
+            "probability": 0.78814
+          },
+          {
+            "start": 9.4,
+            "end": 9.88,
+            "word": " lately.",
+            "probability": 0.9453
+          }
+        ]
+      },
+      {
+        "start": 10.5,
+        "end": 19.66,
+        "text": "It seems like so many people share similar ideas about it, especially with social media showing the same types of looks and trends everywhere.",
+        "words": [
+          {
+            "start": 10.5,
+            "end": 10.6,
+            "word": " It",
+            "probability": 0.99292
+          },
+          {
+            "start": 10.6,
+            "end": 10.82,
+            "word": " seems",
+            "probability": 0.99391
+          },
+          {
+            "start": 10.82,
+            "end": 11.04,
+            "word": " like",
+            "probability": 0.99418
+          },
+          {
+            "start": 11.04,
+            "end": 11.4,
+            "word": " so",
+            "probability": 0.99544
+          },
+          {
+            "start": 11.4,
+            "end": 11.64,
+            "word": " many",
+            "probability": 0.99832
+          },
+          {
+            "start": 11.64,
+            "end": 11.98,
+            "word": " people",
+            "probability": 0.99874
+          },
+          {
+            "start": 11.98,
+            "end": 12.46,
+            "word": " share",
+            "probability": 0.99321
+          },
+          {
+            "start": 12.46,
+            "end": 13.2,
+            "word": " similar",
+            "probability": 0.99786
+          },
+          {
+            "start": 13.2,
+            "end": 13.7,
+            "word": " ideas",
+            "probability": 0.99915
+          },
+          {
+            "start": 13.7,
+            "end": 14.14,
+            "word": " about",
+            "probability": 0.99928
+          },
+          {
+            "start": 14.14,
+            "end": 14.44,
+            "word": " it,",
+            "probability": 0.99832
+          },
+          {
+            "start": 14.62,
+            "end": 15.2,
+            "word": " especially",
+            "probability": 0.99185
+          },
+          {
+            "start": 15.2,
+            "end": 15.4,
+            "word": " with",
+            "probability": 0.99664
+          },
+          {
+            "start": 15.4,
+            "end": 15.76,
+            "word": " social",
+            "probability": 0.99741
+          },
+          {
+            "start": 15.76,
+            "end": 16.2,
+            "word": " media",
+            "probability": 0.99941
+          },
+          {
+            "start": 16.2,
+            "end": 16.62,
+            "word": " showing",
+            "probability": 0.8542
+          },
+          {
+            "start": 16.62,
+            "end": 16.92,
+            "word": " the",
+            "probability": 0.99033
+          },
+          {
+            "start": 16.92,
+            "end": 17.36,
+            "word": " same",
+            "probability": 0.99904
+          },
+          {
+            "start": 17.36,
+            "end": 17.78,
+            "word": " types",
+            "probability": 0.99347
+          },
+          {
+            "start": 17.78,
+            "end": 18.02,
+            "word": " of",
+            "probability": 0.99749
+          },
+          {
+            "start": 18.02,
+            "end": 18.24,
+            "word": " looks",
+            "probability": 0.97036
+          },
+          {
+            "start": 18.24,
+            "end": 18.66,
+            "word": " and",
+            "probability": 0.98913
+          },
+          {
+            "start": 18.66,
+            "end": 18.94,
+            "word": " trends",
+            "probability": 0.99782
+          },
+          {
+            "start": 18.94,
+            "end": 19.66,
+            "word": " everywhere.",
+            "probability": 0.99388
+          }
+        ]
+      },
+      {
+        "start": 20.24,
+        "end": 23.2,
+        "text": "It's almost like there's a formula for what's considered beautiful.",
+        "words": [
+          {
+            "start": 20.24,
+            "end": 20.48,
+            "word": " It's",
+            "probability": 0.99532
+          },
+          {
+            "start": 20.48,
+            "end": 20.66,
+            "word": " almost",
+            "probability": 0.99708
+          },
+          {
+            "start": 20.66,
+            "end": 20.9,
+            "word": " like",
+            "probability": 0.99555
+          },
+          {
+            "start": 20.9,
+            "end": 21.12,
+            "word": " there's",
+            "probability": 0.99224
+          },
+          {
+            "start": 21.12,
+            "end": 21.2,
+            "word": " a",
+            "probability": 0.99846
+          },
+          {
+            "start": 21.2,
+            "end": 21.62,
+            "word": " formula",
+            "probability": 0.99921
+          },
+          {
+            "start": 21.62,
+            "end": 21.96,
+            "word": " for",
+            "probability": 0.99798
+          },
+          {
+            "start": 21.96,
+            "end": 22.24,
+            "word": " what's",
+            "probability": 0.99356
+          },
+          {
+            "start": 22.24,
+            "end": 22.62,
+            "word": " considered",
+            "probability": 0.99845
+          },
+          {
+            "start": 22.62,
+            "end": 23.2,
+            "word": " beautiful.",
+            "probability": 0.83298
+          }
+        ]
+      },
+      {
+        "start": 23.78,
+        "end": 29.0,
+        "text": "That's a good point. However, I believe that ideas about beauty change over time.",
+        "words": [
+          {
+            "start": 23.78,
+            "end": 24.3,
+            "word": " That's",
+            "probability": 0.99474
+          },
+          {
+            "start": 24.3,
+            "end": 24.36,
+            "word": " a",
+            "probability": 0.99755
+          },
+          {
+            "start": 24.36,
+            "end": 24.52,
+            "word": " good",
+            "probability": 0.9985
+          },
+          {
+            "start": 24.52,
+            "end": 24.92,
+            "word": " point.",
+            "probability": 0.99956
+          },
+          {
+            "start": 25.5,
+            "end": 25.78,
+            "word": " However,",
+            "probability": 0.99614
+          },
+          {
+            "start": 26.04,
+            "end": 26.14,
+            "word": " I",
+            "probability": 0.99896
+          },
+          {
+            "start": 26.14,
+            "end": 26.42,
+            "word": " believe",
+            "probability": 0.99787
+          },
+          {
+            "start": 26.42,
+            "end": 26.68,
+            "word": " that",
+            "probability": 0.99707
+          },
+          {
+            "start": 26.68,
+            "end": 27.04,
+            "word": " ideas",
+            "probability": 0.99286
+          },
+          {
+            "start": 27.04,
+            "end": 27.38,
+            "word": " about",
+            "probability": 0.9995
+          },
+          {
+            "start": 27.38,
+            "end": 27.82,
+            "word": " beauty",
+            "probability": 0.99702
+          },
+          {
+            "start": 27.82,
+            "end": 28.26,
+            "word": " change",
+            "probability": 0.99392
+          },
+          {
+            "start": 28.26,
+            "end": 28.56,
+            "word": " over",
+            "probability": 0.98893
+          },
+          {
+            "start": 28.56,
+            "end": 29.0,
+            "word": " time.",
+            "probability": 0.99985
+          }
+        ]
+      },
+      {
+        "start": 29.0,
+        "end": 33.36,
+        "text": "What we find beautiful today might not be the same in a few years.",
+        "words": [
+          {
+            "start": 29.0,
+            "end": 29.88,
+            "word": " What",
+            "probability": 0.18802
+          },
+          {
+            "start": 29.88,
+            "end": 30.04,
+            "word": " we",
+            "probability": 0.97254
+          },
+          {
+            "start": 30.04,
+            "end": 30.32,
+            "word": " find",
+            "probability": 0.99414
+          },
+          {
+            "start": 30.32,
+            "end": 30.8,
+            "word": " beautiful",
+            "probability": 0.99265
+          },
+          {
+            "start": 30.8,
+            "end": 31.2,
+            "word": " today",
+            "probability": 0.99261
+          },
+          {
+            "start": 31.2,
+            "end": 31.6,
+            "word": " might",
+            "probability": 0.84021
+          },
+          {
+            "start": 31.6,
+            "end": 31.86,
+            "word": " not",
+            "probability": 0.99527
+          },
+          {
+            "start": 31.86,
+            "end": 32.06,
+            "word": " be",
+            "probability": 0.99797
+          },
+          {
+            "start": 32.06,
+            "end": 32.2,
+            "word": " the",
+            "probability": 0.99754
+          },
+          {
+            "start": 32.2,
+            "end": 32.5,
+            "word": " same",
+            "probability": 0.99908
+          },
+          {
+            "start": 32.5,
+            "end": 32.64,
+            "word": " in",
+            "probability": 0.99484
+          },
+          {
+            "start": 32.64,
+            "end": 32.74,
+            "word": " a",
+            "probability": 0.99587
+          },
+          {
+            "start": 32.74,
+            "end": 32.94,
+            "word": " few",
+            "probability": 0.99884
+          },
+          {
+            "start": 32.94,
+            "end": 33.36,
+            "word": " years.",
+            "probability": 0.99854
+          }
+        ]
+      },
+      {
+        "start": 34.0,
+        "end": 38.02,
+        "text": "Just look at how fashion and beauty standards have shifted over the decades.",
+        "words": [
+          {
+            "start": 34.0,
+            "end": 34.24,
+            "word": " Just",
+            "probability": 0.98122
+          },
+          {
+            "start": 34.24,
+            "end": 34.44,
+            "word": " look",
+            "probability": 0.9974
+          },
+          {
+            "start": 34.44,
+            "end": 34.56,
+            "word": " at",
+            "probability": 0.99583
+          },
+          {
+            "start": 34.56,
+            "end": 34.7,
+            "word": " how",
+            "probability": 0.99299
+          },
+          {
+            "start": 34.7,
+            "end": 35.2,
+            "word": " fashion",
+            "probability": 0.97979
+          },
+          {
+            "start": 35.2,
+            "end": 35.52,
+            "word": " and",
+            "probability": 0.99641
+          },
+          {
+            "start": 35.52,
+            "end": 35.74,
+            "word": " beauty",
+            "probability": 0.99778
+          },
+          {
+            "start": 35.74,
+            "end": 36.32,
+            "word": " standards",
+            "probability": 0.99244
+          },
+          {
+            "start": 36.32,
+            "end": 36.58,
+            "word": " have",
+            "probability": 0.99647
+          },
+          {
+            "start": 36.58,
+            "end": 37.0,
+            "word": " shifted",
+            "probability": 0.99534
+          },
+          {
+            "start": 37.0,
+            "end": 37.34,
+            "word": " over",
+            "probability": 0.99783
+          },
+          {
+            "start": 37.34,
+            "end": 37.5,
+            "word": " the",
+            "probability": 0.9894
+          },
+          {
+            "start": 37.5,
+            "end": 38.02,
+            "word": " decades.",
+            "probability": 0.995
+          }
+        ]
+      },
+      {
+        "start": 38.74,
+        "end": 42.52,
+        "text": "Remember how popular certain hairstyles or clothing styles were?",
+        "words": [
+          {
+            "start": 38.74,
+            "end": 39.1,
+            "word": " Remember",
+            "probability": 0.98375
+          },
+          {
+            "start": 39.1,
+            "end": 39.4,
+            "word": " how",
+            "probability": 0.93765
+          },
+          {
+            "start": 39.4,
+            "end": 39.92,
+            "word": " popular",
+            "probability": 0.99779
+          },
+          {
+            "start": 39.92,
+            "end": 40.4,
+            "word": " certain",
+            "probability": 0.81707
+          },
+          {
+            "start": 40.4,
+            "end": 41.2,
+            "word": " hairstyles",
+            "probability": 0.8813
+          },
+          {
+            "start": 41.2,
+            "end": 41.38,
+            "word": " or",
+            "probability": 0.95585
+          },
+          {
+            "start": 41.38,
+            "end": 41.7,
+            "word": " clothing",
+            "probability": 0.99168
+          },
+          {
+            "start": 41.7,
+            "end": 42.18,
+            "word": " styles",
+            "probability": 0.99187
+          },
+          {
+            "start": 42.18,
+            "end": 42.52,
+            "word": " were?",
+            "probability": 0.9907
+          }
+        ]
+      },
+      {
+        "start": 43.92,
+        "end": 47.18,
+        "text": "It's fascinating to see how those perceptions evolve.",
+        "words": [
+          {
+            "start": 43.92,
+            "end": 44.52,
+            "word": " It's",
+            "probability": 0.92563
+          },
+          {
+            "start": 44.52,
+            "end": 45.04,
+            "word": " fascinating",
+            "probability": 0.99666
+          },
+          {
+            "start": 45.04,
+            "end": 45.4,
+            "word": " to",
+            "probability": 0.99757
+          },
+          {
+            "start": 45.4,
+            "end": 45.64,
+            "word": " see",
+            "probability": 0.99847
+          },
+          {
+            "start": 45.64,
+            "end": 45.88,
+            "word": " how",
+            "probability": 0.99177
+          },
+          {
+            "start": 45.88,
+            "end": 46.14,
+            "word": " those",
+            "probability": 0.98427
+          },
+          {
+            "start": 46.14,
+            "end": 46.72,
+            "word": " perceptions",
+            "probability": 0.99235
+          },
+          {
+            "start": 46.72,
+            "end": 47.18,
+            "word": " evolve.",
+            "probability": 0.97956
+          }
+        ]
+      },
+      {
+        "start": 48.4,
+        "end": 51.92,
+        "text": "And I think beauty can be found in unexpected places too.",
+        "words": [
+          {
+            "start": 48.4,
+            "end": 48.66,
+            "word": " And",
+            "probability": 0.97176
+          },
+          {
+            "start": 48.66,
+            "end": 48.76,
+            "word": " I",
+            "probability": 0.98741
+          },
+          {
+            "start": 48.76,
+            "end": 48.98,
+            "word": " think",
+            "probability": 0.99886
+          },
+          {
+            "start": 48.98,
+            "end": 49.36,
+            "word": " beauty",
+            "probability": 0.98502
+          },
+          {
+            "start": 49.36,
+            "end": 49.66,
+            "word": " can",
+            "probability": 0.99894
+          },
+          {
+            "start": 49.66,
+            "end": 49.82,
+            "word": " be",
+            "probability": 0.9965
+          },
+          {
+            "start": 49.82,
+            "end": 50.2,
+            "word": " found",
+            "probability": 0.99948
+          },
+          {
+            "start": 50.2,
+            "end": 50.4,
+            "word": " in",
+            "probability": 0.9984
+          },
+          {
+            "start": 50.4,
+            "end": 50.86,
+            "word": " unexpected",
+            "probability": 0.9976
+          },
+          {
+            "start": 50.86,
+            "end": 51.52,
+            "word": " places",
+            "probability": 0.99772
+          },
+          {
+            "start": 51.52,
+            "end": 51.92,
+            "word": " too.",
+            "probability": 0.88287
+          }
+        ]
+      },
+      {
+        "start": 52.9,
+        "end": 55.28,
+        "text": "For instance, when I walk through my neighborhood,",
+        "words": [
+          {
+            "start": 52.9,
+            "end": 53.08,
+            "word": " For",
+            "probability": 0.99279
+          },
+          {
+            "start": 53.08,
+            "end": 53.48,
+            "word": " instance,",
+            "probability": 0.99807
+          },
+          {
+            "start": 53.92,
+            "end": 54.02,
+            "word": " when",
+            "probability": 0.96469
+          },
+          {
+            "start": 54.02,
+            "end": 54.14,
+            "word": " I",
+            "probability": 0.99741
+          },
+          {
+            "start": 54.14,
+            "end": 54.36,
+            "word": " walk",
+            "probability": 0.96324
+          },
+          {
+            "start": 54.36,
+            "end": 54.6,
+            "word": " through",
+            "probability": 0.9957
+          },
+          {
+            "start": 54.6,
+            "end": 54.76,
+            "word": " my",
+            "probability": 0.99872
+          },
+          {
+            "start": 54.76,
+            "end": 55.28,
+            "word": " neighborhood,",
+            "probability": 0.94635
+          }
+        ]
+      },
+      {
+        "start": 55.28,
+        "end": 61.7,
+        "text": "I notice beauty not only in nature, like the way the sun sets or flowers bloom, but also",
+        "words": [
+          {
+            "start": 55.28,
+            "end": 56.0,
+            "word": " I",
+            "probability": 0.09344
+          },
+          {
+            "start": 56.0,
+            "end": 56.3,
+            "word": " notice",
+            "probability": 0.71383
+          },
+          {
+            "start": 56.3,
+            "end": 56.78,
+            "word": " beauty",
+            "probability": 0.9796
+          },
+          {
+            "start": 56.78,
+            "end": 57.06,
+            "word": " not",
+            "probability": 0.818
+          },
+          {
+            "start": 57.06,
+            "end": 57.42,
+            "word": " only",
+            "probability": 0.99778
+          },
+          {
+            "start": 57.42,
+            "end": 57.58,
+            "word": " in",
+            "probability": 0.9961
+          },
+          {
+            "start": 57.58,
+            "end": 58.0,
+            "word": " nature,",
+            "probability": 0.98655
+          },
+          {
+            "start": 58.48,
+            "end": 58.64,
+            "word": " like",
+            "probability": 0.88848
+          },
+          {
+            "start": 58.64,
+            "end": 58.78,
+            "word": " the",
+            "probability": 0.98907
+          },
+          {
+            "start": 58.78,
+            "end": 58.94,
+            "word": " way",
+            "probability": 0.98932
+          },
+          {
+            "start": 58.94,
+            "end": 59.12,
+            "word": " the",
+            "probability": 0.98478
+          },
+          {
+            "start": 59.12,
+            "end": 59.38,
+            "word": " sun",
+            "probability": 0.85889
+          },
+          {
+            "start": 59.38,
+            "end": 59.86,
+            "word": " sets",
+            "probability": 0.91295
+          },
+          {
+            "start": 59.86,
+            "end": 60.1,
+            "word": " or",
+            "probability": 0.79013
+          },
+          {
+            "start": 60.1,
+            "end": 60.48,
+            "word": " flowers",
+            "probability": 0.93042
+          },
+          {
+            "start": 60.48,
+            "end": 60.9,
+            "word": " bloom,",
+            "probability": 0.99742
+          },
+          {
+            "start": 61.26,
+            "end": 61.32,
+            "word": " but",
+            "probability": 0.98248
+          },
+          {
+            "start": 61.32,
+            "end": 61.7,
+            "word": " also",
+            "probability": 0.99142
+          }
+        ]
+      },
+      {
+        "start": 61.7,
+        "end": 67.5,
+        "text": "in everyday moments, like a street musician playing a beautiful tune, or people sharing",
+        "words": [
+          {
+            "start": 61.7,
+            "end": 61.92,
+            "word": " in",
+            "probability": 0.98612
+          },
+          {
+            "start": 61.92,
+            "end": 62.36,
+            "word": " everyday",
+            "probability": 0.93123
+          },
+          {
+            "start": 62.36,
+            "end": 62.92,
+            "word": " moments,",
+            "probability": 0.97706
+          },
+          {
+            "start": 63.36,
+            "end": 63.58,
+            "word": " like",
+            "probability": 0.96242
+          },
+          {
+            "start": 63.58,
+            "end": 63.72,
+            "word": " a",
+            "probability": 0.99406
+          },
+          {
+            "start": 63.72,
+            "end": 63.98,
+            "word": " street",
+            "probability": 0.94883
+          },
+          {
+            "start": 63.98,
+            "end": 64.52,
+            "word": " musician",
+            "probability": 0.97885
+          },
+          {
+            "start": 64.52,
+            "end": 65.08,
+            "word": " playing",
+            "probability": 0.9578
+          },
+          {
+            "start": 65.08,
+            "end": 65.28,
+            "word": " a",
+            "probability": 0.99601
+          },
+          {
+            "start": 65.28,
+            "end": 65.64,
+            "word": " beautiful",
+            "probability": 0.99721
+          },
+          {
+            "start": 65.64,
+            "end": 66.04,
+            "word": " tune,",
+            "probability": 0.99677
+          },
+          {
+            "start": 66.7,
+            "end": 66.76,
+            "word": " or",
+            "probability": 0.98659
+          },
+          {
+            "start": 66.76,
+            "end": 67.06,
+            "word": " people",
+            "probability": 0.99156
+          },
+          {
+            "start": 67.06,
+            "end": 67.5,
+            "word": " sharing",
+            "probability": 0.9937
+          }
+        ]
+      },
+      {
+        "start": 67.5,
+        "end": 67.94,
+        "text": "a laugh.",
+        "words": [
+          {
+            "start": 67.5,
+            "end": 67.66,
+            "word": " a",
+            "probability": 0.89585
+          },
+          {
+            "start": 67.66,
+            "end": 67.94,
+            "word": " laugh.",
+            "probability": 0.97461
+          }
+        ]
+      },
+      {
+        "start": 68.54,
+        "end": 74.56,
+        "text": "Those little things can be incredibly beautiful, and I think traditional ideas of beauty are",
+        "words": [
+          {
+            "start": 68.54,
+            "end": 68.8,
+            "word": " Those",
+            "probability": 0.8174
+          },
+          {
+            "start": 68.8,
+            "end": 69.1,
+            "word": " little",
+            "probability": 0.99876
+          },
+          {
+            "start": 69.1,
+            "end": 69.4,
+            "word": " things",
+            "probability": 0.99764
+          },
+          {
+            "start": 69.4,
+            "end": 69.62,
+            "word": " can",
+            "probability": 0.9986
+          },
+          {
+            "start": 69.62,
+            "end": 69.76,
+            "word": " be",
+            "probability": 0.99605
+          },
+          {
+            "start": 69.76,
+            "end": 70.32,
+            "word": " incredibly",
+            "probability": 0.99673
+          },
+          {
+            "start": 70.32,
+            "end": 71.02,
+            "word": " beautiful,",
+            "probability": 0.998
+          },
+          {
+            "start": 71.44,
+            "end": 71.78,
+            "word": " and",
+            "probability": 0.98961
+          },
+          {
+            "start": 71.78,
+            "end": 71.88,
+            "word": " I",
+            "probability": 0.99321
+          },
+          {
+            "start": 71.88,
+            "end": 72.04,
+            "word": " think",
+            "probability": 0.99892
+          },
+          {
+            "start": 72.04,
+            "end": 72.56,
+            "word": " traditional",
+            "probability": 0.99366
+          },
+          {
+            "start": 72.56,
+            "end": 73.04,
+            "word": " ideas",
+            "probability": 0.99858
+          },
+          {
+            "start": 73.04,
+            "end": 73.36,
+            "word": " of",
+            "probability": 0.99787
+          },
+          {
+            "start": 73.36,
+            "end": 73.92,
+            "word": " beauty",
+            "probability": 0.98539
+          },
+          {
+            "start": 73.92,
+            "end": 74.56,
+            "word": " are",
+            "probability": 0.98798
+          }
+        ]
+      },
+      {
+        "start": 74.56,
+        "end": 76.26,
+        "text": "going to change even more.",
+        "words": [
+          {
+            "start": 74.56,
+            "end": 74.76,
+            "word": " going",
+            "probability": 0.99517
+          },
+          {
+            "start": 74.76,
+            "end": 74.92,
+            "word": " to",
+            "probability": 0.99924
+          },
+          {
+            "start": 74.92,
+            "end": 75.3,
+            "word": " change",
+            "probability": 0.99849
+          },
+          {
+            "start": 75.3,
+            "end": 75.88,
+            "word": " even",
+            "probability": 0.99234
+          },
+          {
+            "start": 75.88,
+            "end": 76.26,
+            "word": " more.",
+            "probability": 0.99918
+          }
+        ]
+      },
+      {
+        "start": 77.02,
+        "end": 82.26,
+        "text": "People are starting to value authenticity and unique qualities rather than just sticking",
+        "words": [
+          {
+            "start": 77.02,
+            "end": 77.34,
+            "word": " People",
+            "probability": 0.9934
+          },
+          {
+            "start": 77.34,
+            "end": 77.52,
+            "word": " are",
+            "probability": 0.99946
+          },
+          {
+            "start": 77.52,
+            "end": 77.86,
+            "word": " starting",
+            "probability": 0.99855
+          },
+          {
+            "start": 77.86,
+            "end": 78.08,
+            "word": " to",
+            "probability": 0.9994
+          },
+          {
+            "start": 78.08,
+            "end": 78.48,
+            "word": " value",
+            "probability": 0.99801
+          },
+          {
+            "start": 78.48,
+            "end": 79.24,
+            "word": " authenticity",
+            "probability": 0.99693
+          },
+          {
+            "start": 79.24,
+            "end": 79.96,
+            "word": " and",
+            "probability": 0.86592
+          },
+          {
+            "start": 79.96,
+            "end": 80.28,
+            "word": " unique",
+            "probability": 0.99908
+          },
+          {
+            "start": 80.28,
+            "end": 80.92,
+            "word": " qualities",
+            "probability": 0.99245
+          },
+          {
+            "start": 80.92,
+            "end": 81.38,
+            "word": " rather",
+            "probability": 0.94303
+          },
+          {
+            "start": 81.38,
+            "end": 81.62,
+            "word": " than",
+            "probability": 0.99632
+          },
+          {
+            "start": 81.62,
+            "end": 81.8,
+            "word": " just",
+            "probability": 0.99727
+          },
+          {
+            "start": 81.8,
+            "end": 82.26,
+            "word": " sticking",
+            "probability": 0.99811
+          }
+        ]
+      },
+      {
+        "start": 82.26,
+        "end": 83.38,
+        "text": "to old standards.",
+        "words": [
+          {
+            "start": 82.26,
+            "end": 82.54,
+            "word": " to",
+            "probability": 0.99583
+          },
+          {
+            "start": 82.54,
+            "end": 82.78,
+            "word": " old",
+            "probability": 0.9918
+          },
+          {
+            "start": 82.78,
+            "end": 83.38,
+            "word": " standards.",
+            "probability": 0.99571
+          }
+        ]
+      },
+      {
+        "start": 83.38,
+        "end": 91.6,
+        "text": "Hi, David. You look so serious reading while watching that beauty show. What happened?",
+        "words": [
+          {
+            "start": 83.38,
+            "end": 84.6,
+            "word": " Hi,",
+            "probability": 0.10407
+          },
+          {
+            "start": 86.82,
+            "end": 87.04,
+            "word": " David.",
+            "probability": 0.97989
+          },
+          {
+            "start": 87.48,
+            "end": 87.58,
+            "word": " You",
+            "probability": 0.98099
+          },
+          {
+            "start": 87.58,
+            "end": 87.72,
+            "word": " look",
+            "probability": 0.98506
+          },
+          {
+            "start": 87.72,
+            "end": 88.0,
+            "word": " so",
+            "probability": 0.99471
+          },
+          {
+            "start": 88.0,
+            "end": 88.48,
+            "word": " serious",
+            "probability": 0.99594
+          },
+          {
+            "start": 88.48,
+            "end": 88.9,
+            "word": " reading",
+            "probability": 0.89388
+          },
+          {
+            "start": 88.9,
+            "end": 89.12,
+            "word": " while",
+            "probability": 0.97471
+          },
+          {
+            "start": 89.12,
+            "end": 89.52,
+            "word": " watching",
+            "probability": 0.99716
+          },
+          {
+            "start": 89.52,
+            "end": 89.76,
+            "word": " that",
+            "probability": 0.98085
+          },
+          {
+            "start": 89.76,
+            "end": 90.06,
+            "word": " beauty",
+            "probability": 0.76687
+          },
+          {
+            "start": 90.06,
+            "end": 90.44,
+            "word": " show.",
+            "probability": 0.9979
+          },
+          {
+            "start": 90.86,
+            "end": 91.2,
+            "word": " What",
+            "probability": 0.989
+          },
+          {
+            "start": 91.2,
+            "end": 91.6,
+            "word": " happened?",
+            "probability": 0.99798
+          }
+        ]
+      },
+      {
+        "start": 92.44,
+        "end": 99.42,
+        "text": "You know, I've been thinking a lot about beauty lately. It seems like so many people share similar ideas about it,",
+        "words": [
+          {
+            "start": 92.44,
+            "end": 92.62,
+            "word": " You",
+            "probability": 0.84849
+          },
+          {
+            "start": 92.62,
+            "end": 92.72,
+            "word": " know,",
+            "probability": 0.99549
+          },
+          {
+            "start": 92.78,
+            "end": 92.9,
+            "word": " I've",
+            "probability": 0.98394
+          },
+          {
+            "start": 92.9,
+            "end": 93.0,
+            "word": " been",
+            "probability": 0.99843
+          },
+          {
+            "start": 93.0,
+            "end": 93.32,
+            "word": " thinking",
+            "probability": 0.99572
+          },
+          {
+            "start": 93.32,
+            "end": 93.5,
+            "word": " a",
+            "probability": 0.99184
+          },
+          {
+            "start": 93.5,
+            "end": 93.68,
+            "word": " lot",
+            "probability": 0.99881
+          },
+          {
+            "start": 93.68,
+            "end": 93.96,
+            "word": " about",
+            "probability": 0.9985
+          },
+          {
+            "start": 93.96,
+            "end": 94.34,
+            "word": " beauty",
+            "probability": 0.81294
+          },
+          {
+            "start": 94.34,
+            "end": 94.88,
+            "word": " lately.",
+            "probability": 0.99471
+          },
+          {
+            "start": 95.48,
+            "end": 95.58,
+            "word": " It",
+            "probability": 0.99388
+          },
+          {
+            "start": 95.58,
+            "end": 95.82,
+            "word": " seems",
+            "probability": 0.99264
+          },
+          {
+            "start": 95.82,
+            "end": 96.02,
+            "word": " like",
+            "probability": 0.99246
+          },
+          {
+            "start": 96.02,
+            "end": 96.4,
+            "word": " so",
+            "probability": 0.99614
+          },
+          {
+            "start": 96.4,
+            "end": 96.64,
+            "word": " many",
+            "probability": 0.99864
+          },
+          {
+            "start": 96.64,
+            "end": 96.98,
+            "word": " people",
+            "probability": 0.99809
+          },
+          {
+            "start": 96.98,
+            "end": 97.46,
+            "word": " share",
+            "probability": 0.99416
+          },
+          {
+            "start": 97.46,
+            "end": 98.2,
+            "word": " similar",
+            "probability": 0.99794
+          },
+          {
+            "start": 98.2,
+            "end": 98.7,
+            "word": " ideas",
+            "probability": 0.99898
+          },
+          {
+            "start": 98.7,
+            "end": 99.14,
+            "word": " about",
+            "probability": 0.99914
+          },
+          {
+            "start": 99.14,
+            "end": 99.42,
+            "word": " it,",
+            "probability": 0.99835
+          }
+        ]
+      },
+      {
+        "start": 99.66,
+        "end": 108.2,
+        "text": "especially with social media showing the same types of looks and trends everywhere. It's almost like there's a formula for what's considered beautiful.",
+        "words": [
+          {
+            "start": 99.66,
+            "end": 100.2,
+            "word": " especially",
+            "probability": 0.9946
+          },
+          {
+            "start": 100.2,
+            "end": 100.4,
+            "word": " with",
+            "probability": 0.99583
+          },
+          {
+            "start": 100.4,
+            "end": 100.76,
+            "word": " social",
+            "probability": 0.99728
+          },
+          {
+            "start": 100.76,
+            "end": 101.2,
+            "word": " media",
+            "probability": 0.99936
+          },
+          {
+            "start": 101.2,
+            "end": 101.62,
+            "word": " showing",
+            "probability": 0.87634
+          },
+          {
+            "start": 101.62,
+            "end": 101.92,
+            "word": " the",
+            "probability": 0.99241
+          },
+          {
+            "start": 101.92,
+            "end": 102.34,
+            "word": " same",
+            "probability": 0.99893
+          },
+          {
+            "start": 102.34,
+            "end": 102.78,
+            "word": " types",
+            "probability": 0.99418
+          },
+          {
+            "start": 102.78,
+            "end": 103.02,
+            "word": " of",
+            "probability": 0.99629
+          },
+          {
+            "start": 103.02,
+            "end": 103.24,
+            "word": " looks",
+            "probability": 0.97227
+          },
+          {
+            "start": 103.24,
+            "end": 103.64,
+            "word": " and",
+            "probability": 0.98823
+          },
+          {
+            "start": 103.64,
+            "end": 103.96,
+            "word": " trends",
+            "probability": 0.99737
+          },
+          {
+            "start": 103.96,
+            "end": 104.66,
+            "word": " everywhere.",
+            "probability": 0.99326
+          },
+          {
+            "start": 105.3,
+            "end": 105.48,
+            "word": " It's",
+            "probability": 0.99599
+          },
+          {
+            "start": 105.48,
+            "end": 105.66,
+            "word": " almost",
+            "probability": 0.99806
+          },
+          {
+            "start": 105.66,
+            "end": 105.88,
+            "word": " like",
+            "probability": 0.9971
+          },
+          {
+            "start": 105.88,
+            "end": 106.1,
+            "word": " there's",
+            "probability": 0.99222
+          },
+          {
+            "start": 106.1,
+            "end": 106.18,
+            "word": " a",
+            "probability": 0.99855
+          },
+          {
+            "start": 106.18,
+            "end": 106.64,
+            "word": " formula",
+            "probability": 0.99916
+          },
+          {
+            "start": 106.64,
+            "end": 106.96,
+            "word": " for",
+            "probability": 0.99719
+          },
+          {
+            "start": 106.96,
+            "end": 107.24,
+            "word": " what's",
+            "probability": 0.99005
+          },
+          {
+            "start": 107.24,
+            "end": 107.62,
+            "word": " considered",
+            "probability": 0.99847
+          },
+          {
+            "start": 107.62,
+            "end": 108.2,
+            "word": " beautiful.",
+            "probability": 0.85512
+          }
+        ]
+      },
+      {
+        "start": 108.82,
+        "end": 113.9,
+        "text": "That's a good point. However, I believe that ideas about beauty change over time.",
+        "words": [
+          {
+            "start": 108.82,
+            "end": 109.3,
+            "word": " That's",
+            "probability": 0.99428
+          },
+          {
+            "start": 109.3,
+            "end": 109.36,
+            "word": " a",
+            "probability": 0.99773
+          },
+          {
+            "start": 109.36,
+            "end": 109.52,
+            "word": " good",
+            "probability": 0.99809
+          },
+          {
+            "start": 109.52,
+            "end": 109.9,
+            "word": " point.",
+            "probability": 0.99951
+          },
+          {
+            "start": 110.5,
+            "end": 110.76,
+            "word": " However,",
+            "probability": 0.99522
+          },
+          {
+            "start": 111.06,
+            "end": 111.14,
+            "word": " I",
+            "probability": 0.99885
+          },
+          {
+            "start": 111.14,
+            "end": 111.42,
+            "word": " believe",
+            "probability": 0.99764
+          },
+          {
+            "start": 111.42,
+            "end": 111.68,
+            "word": " that",
+            "probability": 0.99707
+          },
+          {
+            "start": 111.68,
+            "end": 112.04,
+            "word": " ideas",
+            "probability": 0.99185
+          },
+          {
+            "start": 112.04,
+            "end": 112.36,
+            "word": " about",
+            "probability": 0.99946
+          },
+          {
+            "start": 112.36,
+            "end": 112.8,
+            "word": " beauty",
+            "probability": 0.99678
+          },
+          {
+            "start": 112.8,
+            "end": 113.26,
+            "word": " change",
+            "probability": 0.99304
+          },
+          {
+            "start": 113.26,
+            "end": 113.56,
+            "word": " over",
+            "probability": 0.98704
+          },
+          {
+            "start": 113.56,
+            "end": 113.9,
+            "word": " time.",
+            "probability": 0.99978
+          }
+        ]
+      },
+      {
+        "start": 113.9,
+        "end": 119.7,
+        "text": "time. What we find beautiful today might not be the same in a few years. Just look at how",
+        "words": [
+          {
+            "start": 113.9,
+            "end": 114.08,
+            "word": " time.",
+            "probability": 0.02181
+          },
+          {
+            "start": 114.66,
+            "end": 114.9,
+            "word": " What",
+            "probability": 0.92196
+          },
+          {
+            "start": 114.9,
+            "end": 115.04,
+            "word": " we",
+            "probability": 0.99265
+          },
+          {
+            "start": 115.04,
+            "end": 115.32,
+            "word": " find",
+            "probability": 0.99422
+          },
+          {
+            "start": 115.32,
+            "end": 115.8,
+            "word": " beautiful",
+            "probability": 0.99197
+          },
+          {
+            "start": 115.8,
+            "end": 116.2,
+            "word": " today",
+            "probability": 0.98617
+          },
+          {
+            "start": 116.2,
+            "end": 116.6,
+            "word": " might",
+            "probability": 0.96429
+          },
+          {
+            "start": 116.6,
+            "end": 116.84,
+            "word": " not",
+            "probability": 0.99139
+          },
+          {
+            "start": 116.84,
+            "end": 117.04,
+            "word": " be",
+            "probability": 0.9969
+          },
+          {
+            "start": 117.04,
+            "end": 117.2,
+            "word": " the",
+            "probability": 0.99813
+          },
+          {
+            "start": 117.2,
+            "end": 117.48,
+            "word": " same",
+            "probability": 0.99907
+          },
+          {
+            "start": 117.48,
+            "end": 117.64,
+            "word": " in",
+            "probability": 0.99343
+          },
+          {
+            "start": 117.64,
+            "end": 117.72,
+            "word": " a",
+            "probability": 0.99079
+          },
+          {
+            "start": 117.72,
+            "end": 117.94,
+            "word": " few",
+            "probability": 0.99792
+          },
+          {
+            "start": 117.94,
+            "end": 118.36,
+            "word": " years.",
+            "probability": 0.99741
+          },
+          {
+            "start": 119.08,
+            "end": 119.22,
+            "word": " Just",
+            "probability": 0.98293
+          },
+          {
+            "start": 119.22,
+            "end": 119.44,
+            "word": " look",
+            "probability": 0.9965
+          },
+          {
+            "start": 119.44,
+            "end": 119.56,
+            "word": " at",
+            "probability": 0.98998
+          },
+          {
+            "start": 119.56,
+            "end": 119.7,
+            "word": " how",
+            "probability": 0.98626
+          }
+        ]
+      },
+      {
+        "start": 119.7,
+        "end": 125.38,
+        "text": "fashion and beauty standards have shifted over the decades. Remember how popular certain",
+        "words": [
+          {
+            "start": 119.7,
+            "end": 120.2,
+            "word": " fashion",
+            "probability": 0.98241
+          },
+          {
+            "start": 120.2,
+            "end": 120.52,
+            "word": " and",
+            "probability": 0.99607
+          },
+          {
+            "start": 120.52,
+            "end": 120.76,
+            "word": " beauty",
+            "probability": 0.99847
+          },
+          {
+            "start": 120.76,
+            "end": 121.32,
+            "word": " standards",
+            "probability": 0.99189
+          },
+          {
+            "start": 121.32,
+            "end": 121.58,
+            "word": " have",
+            "probability": 0.99534
+          },
+          {
+            "start": 121.58,
+            "end": 122.0,
+            "word": " shifted",
+            "probability": 0.99415
+          },
+          {
+            "start": 122.0,
+            "end": 122.34,
+            "word": " over",
+            "probability": 0.99693
+          },
+          {
+            "start": 122.34,
+            "end": 122.5,
+            "word": " the",
+            "probability": 0.98076
+          },
+          {
+            "start": 122.5,
+            "end": 123.0,
+            "word": " decades.",
+            "probability": 0.99312
+          },
+          {
+            "start": 123.74,
+            "end": 124.08,
+            "word": " Remember",
+            "probability": 0.98072
+          },
+          {
+            "start": 124.08,
+            "end": 124.4,
+            "word": " how",
+            "probability": 0.94092
+          },
+          {
+            "start": 124.4,
+            "end": 124.9,
+            "word": " popular",
+            "probability": 0.99793
+          },
+          {
+            "start": 124.9,
+            "end": 125.38,
+            "word": " certain",
+            "probability": 0.79503
+          }
+        ]
+      },
+      {
+        "start": 125.38,
+        "end": 132.21,
+        "text": "hairstyles or clothing styles were? It's fascinating to see how those perceptions evolve.",
+        "words": [
+          {
+            "start": 125.38,
+            "end": 126.2,
+            "word": " hairstyles",
+            "probability": 0.85964
+          },
+          {
+            "start": 126.2,
+            "end": 126.38,
+            "word": " or",
+            "probability": 0.96265
+          },
+          {
+            "start": 126.38,
+            "end": 126.7,
+            "word": " clothing",
+            "probability": 0.99401
+          },
+          {
+            "start": 126.7,
+            "end": 127.2,
+            "word": " styles",
+            "probability": 0.99052
+          },
+          {
+            "start": 127.2,
+            "end": 127.5,
+            "word": " were?",
+            "probability": 0.98251
+          },
+          {
+            "start": 128.87,
+            "end": 129.51,
+            "word": " It's",
+            "probability": 0.91332
+          },
+          {
+            "start": 129.51,
+            "end": 130.05,
+            "word": " fascinating",
+            "probability": 0.99644
+          },
+          {
+            "start": 130.05,
+            "end": 130.39,
+            "word": " to",
+            "probability": 0.99779
+          },
+          {
+            "start": 130.39,
+            "end": 130.65,
+            "word": " see",
+            "probability": 0.99796
+          },
+          {
+            "start": 130.65,
+            "end": 130.89,
+            "word": " how",
+            "probability": 0.99163
+          },
+          {
+            "start": 130.89,
+            "end": 131.15,
+            "word": " those",
+            "probability": 0.97913
+          },
+          {
+            "start": 131.15,
+            "end": 131.71,
+            "word": " perceptions",
+            "probability": 0.99126
+          },
+          {
+            "start": 131.71,
+            "end": 132.21,
+            "word": " evolve.",
+            "probability": 0.98335
+          }
+        ]
+      },
+      {
+        "start": 133.46,
+        "end": 139.6,
+        "text": "And I think beauty can be found in unexpected places too. For instance, when I walk through",
+        "words": [
+          {
+            "start": 133.46,
+            "end": 133.66,
+            "word": " And",
+            "probability": 0.95823
+          },
+          {
+            "start": 133.66,
+            "end": 133.76,
+            "word": " I",
+            "probability": 0.98218
+          },
+          {
+            "start": 133.76,
+            "end": 133.98,
+            "word": " think",
+            "probability": 0.9989
+          },
+          {
+            "start": 133.98,
+            "end": 134.34,
+            "word": " beauty",
+            "probability": 0.9872
+          },
+          {
+            "start": 134.34,
+            "end": 134.66,
+            "word": " can",
+            "probability": 0.99921
+          },
+          {
+            "start": 134.66,
+            "end": 134.82,
+            "word": " be",
+            "probability": 0.99709
+          },
+          {
+            "start": 134.82,
+            "end": 135.2,
+            "word": " found",
+            "probability": 0.99923
+          },
+          {
+            "start": 135.2,
+            "end": 135.38,
+            "word": " in",
+            "probability": 0.99894
+          },
+          {
+            "start": 135.38,
+            "end": 135.88,
+            "word": " unexpected",
+            "probability": 0.99636
+          },
+          {
+            "start": 135.88,
+            "end": 136.52,
+            "word": " places",
+            "probability": 0.99687
+          },
+          {
+            "start": 136.52,
+            "end": 136.92,
+            "word": " too.",
+            "probability": 0.89862
+          },
+          {
+            "start": 137.86,
+            "end": 138.08,
+            "word": " For",
+            "probability": 0.99371
+          },
+          {
+            "start": 138.08,
+            "end": 138.48,
+            "word": " instance,",
+            "probability": 0.99727
+          },
+          {
+            "start": 138.86,
+            "end": 139.02,
+            "word": " when",
+            "probability": 0.9804
+          },
+          {
+            "start": 139.02,
+            "end": 139.16,
+            "word": " I",
+            "probability": 0.9959
+          },
+          {
+            "start": 139.16,
+            "end": 139.36,
+            "word": " walk",
+            "probability": 0.96964
+          },
+          {
+            "start": 139.36,
+            "end": 139.6,
+            "word": " through",
+            "probability": 0.9959
+          }
+        ]
+      },
+      {
+        "start": 139.6,
+        "end": 145.48,
+        "text": "my neighborhood, I notice beauty not only in nature, like the way the sun sets or flowers",
+        "words": [
+          {
+            "start": 139.6,
+            "end": 139.74,
+            "word": " my",
+            "probability": 0.2731
+          },
+          {
+            "start": 139.74,
+            "end": 140.26,
+            "word": " neighborhood,",
+            "probability": 0.94997
+          },
+          {
+            "start": 140.88,
+            "end": 141.0,
+            "word": " I",
+            "probability": 0.99427
+          },
+          {
+            "start": 141.0,
+            "end": 141.32,
+            "word": " notice",
+            "probability": 0.87625
+          },
+          {
+            "start": 141.32,
+            "end": 141.78,
+            "word": " beauty",
+            "probability": 0.98566
+          },
+          {
+            "start": 141.78,
+            "end": 142.06,
+            "word": " not",
+            "probability": 0.87427
+          },
+          {
+            "start": 142.06,
+            "end": 142.42,
+            "word": " only",
+            "probability": 0.99897
+          },
+          {
+            "start": 142.42,
+            "end": 142.56,
+            "word": " in",
+            "probability": 0.99661
+          },
+          {
+            "start": 142.56,
+            "end": 143.02,
+            "word": " nature,",
+            "probability": 0.99227
+          },
+          {
+            "start": 143.44,
+            "end": 143.64,
+            "word": " like",
+            "probability": 0.93929
+          },
+          {
+            "start": 143.64,
+            "end": 143.8,
+            "word": " the",
+            "probability": 0.99034
+          },
+          {
+            "start": 143.8,
+            "end": 143.94,
+            "word": " way",
+            "probability": 0.99159
+          },
+          {
+            "start": 143.94,
+            "end": 144.1,
+            "word": " the",
+            "probability": 0.98478
+          },
+          {
+            "start": 144.1,
+            "end": 144.38,
+            "word": " sun",
+            "probability": 0.94279
+          },
+          {
+            "start": 144.38,
+            "end": 144.84,
+            "word": " sets",
+            "probability": 0.74465
+          },
+          {
+            "start": 144.84,
+            "end": 145.1,
+            "word": " or",
+            "probability": 0.85832
+          },
+          {
+            "start": 145.1,
+            "end": 145.48,
+            "word": " flowers",
+            "probability": 0.94016
+          }
+        ]
+      },
+      {
+        "start": 145.48,
+        "end": 151.04,
+        "text": "bloom, but also in everyday moments, like a street musician playing a beautiful tune,",
+        "words": [
+          {
+            "start": 145.48,
+            "end": 145.9,
+            "word": " bloom,",
+            "probability": 0.99765
+          },
+          {
+            "start": 146.26,
+            "end": 146.32,
+            "word": " but",
+            "probability": 0.99705
+          },
+          {
+            "start": 146.32,
+            "end": 146.7,
+            "word": " also",
+            "probability": 0.98763
+          },
+          {
+            "start": 146.7,
+            "end": 146.92,
+            "word": " in",
+            "probability": 0.98007
+          },
+          {
+            "start": 146.92,
+            "end": 147.36,
+            "word": " everyday",
+            "probability": 0.92921
+          },
+          {
+            "start": 147.36,
+            "end": 147.8,
+            "word": " moments,",
+            "probability": 0.96648
+          },
+          {
+            "start": 148.44,
+            "end": 148.58,
+            "word": " like",
+            "probability": 0.99227
+          },
+          {
+            "start": 148.58,
+            "end": 148.72,
+            "word": " a",
+            "probability": 0.99004
+          },
+          {
+            "start": 148.72,
+            "end": 148.98,
+            "word": " street",
+            "probability": 0.96914
+          },
+          {
+            "start": 148.98,
+            "end": 149.52,
+            "word": " musician",
+            "probability": 0.97292
+          },
+          {
+            "start": 149.52,
+            "end": 150.08,
+            "word": " playing",
+            "probability": 0.9336
+          },
+          {
+            "start": 150.08,
+            "end": 150.26,
+            "word": " a",
+            "probability": 0.99515
+          },
+          {
+            "start": 150.26,
+            "end": 150.64,
+            "word": " beautiful",
+            "probability": 0.99795
+          },
+          {
+            "start": 150.64,
+            "end": 151.04,
+            "word": " tune,",
+            "probability": 0.99481
+          }
+        ]
+      },
+      {
+        "start": 151.7,
+        "end": 152.9,
+        "text": "or people sharing a laugh.",
+        "words": [
+          {
+            "start": 151.7,
+            "end": 151.76,
+            "word": " or",
+            "probability": 0.99176
+          },
+          {
+            "start": 151.76,
+            "end": 152.06,
+            "word": " people",
+            "probability": 0.99402
+          },
+          {
+            "start": 152.06,
+            "end": 152.5,
+            "word": " sharing",
+            "probability": 0.99468
+          },
+          {
+            "start": 152.5,
+            "end": 152.66,
+            "word": " a",
+            "probability": 0.92676
+          },
+          {
+            "start": 152.66,
+            "end": 152.9,
+            "word": " laugh.",
+            "probability": 0.97774
+          }
+        ]
+      },
+      {
+        "start": 153.6,
+        "end": 159.76,
+        "text": "Those little things can be incredibly beautiful, and I think traditional ideas of beauty are going",
+        "words": [
+          {
+            "start": 153.6,
+            "end": 153.8,
+            "word": " Those",
+            "probability": 0.88641
+          },
+          {
+            "start": 153.8,
+            "end": 154.1,
+            "word": " little",
+            "probability": 0.99806
+          },
+          {
+            "start": 154.1,
+            "end": 154.38,
+            "word": " things",
+            "probability": 0.99773
+          },
+          {
+            "start": 154.38,
+            "end": 154.62,
+            "word": " can",
+            "probability": 0.99826
+          },
+          {
+            "start": 154.62,
+            "end": 154.76,
+            "word": " be",
+            "probability": 0.99436
+          },
+          {
+            "start": 154.76,
+            "end": 155.32,
+            "word": " incredibly",
+            "probability": 0.99732
+          },
+          {
+            "start": 155.32,
+            "end": 156.04,
+            "word": " beautiful,",
+            "probability": 0.99821
+          },
+          {
+            "start": 156.46,
+            "end": 156.78,
+            "word": " and",
+            "probability": 0.99552
+          },
+          {
+            "start": 156.78,
+            "end": 156.88,
+            "word": " I",
+            "probability": 0.99368
+          },
+          {
+            "start": 156.88,
+            "end": 157.04,
+            "word": " think",
+            "probability": 0.99921
+          },
+          {
+            "start": 157.04,
+            "end": 157.56,
+            "word": " traditional",
+            "probability": 0.99512
+          },
+          {
+            "start": 157.56,
+            "end": 158.06,
+            "word": " ideas",
+            "probability": 0.99865
+          },
+          {
+            "start": 158.06,
+            "end": 158.36,
+            "word": " of",
+            "probability": 0.99717
+          },
+          {
+            "start": 158.36,
+            "end": 158.9,
+            "word": " beauty",
+            "probability": 0.99325
+          },
+          {
+            "start": 158.9,
+            "end": 159.56,
+            "word": " are",
+            "probability": 0.99429
+          },
+          {
+            "start": 159.56,
+            "end": 159.76,
+            "word": " going",
+            "probability": 0.99689
+          }
+        ]
+      },
+      {
+        "start": 159.76,
+        "end": 161.26,
+        "text": "to change even more.",
+        "words": [
+          {
+            "start": 159.76,
+            "end": 159.92,
+            "word": " to",
+            "probability": 0.99855
+          },
+          {
+            "start": 159.92,
+            "end": 160.3,
+            "word": " change",
+            "probability": 0.99864
+          },
+          {
+            "start": 160.3,
+            "end": 160.88,
+            "word": " even",
+            "probability": 0.99546
+          },
+          {
+            "start": 160.88,
+            "end": 161.26,
+            "word": " more.",
+            "probability": 0.99944
+          }
+        ]
+      },
+      {
+        "start": 162.04,
+        "end": 167.3,
+        "text": "People are starting to value authenticity and unique qualities rather than just sticking",
+        "words": [
+          {
+            "start": 162.04,
+            "end": 162.36,
+            "word": " People",
+            "probability": 0.99409
+          },
+          {
+            "start": 162.36,
+            "end": 162.52,
+            "word": " are",
+            "probability": 0.99893
+          },
+          {
+            "start": 162.52,
+            "end": 162.86,
+            "word": " starting",
+            "probability": 0.99853
+          },
+          {
+            "start": 162.86,
+            "end": 163.08,
+            "word": " to",
+            "probability": 0.99801
+          },
+          {
+            "start": 163.08,
+            "end": 163.48,
+            "word": " value",
+            "probability": 0.99843
+          },
+          {
+            "start": 163.48,
+            "end": 164.24,
+            "word": " authenticity",
+            "probability": 0.99605
+          },
+          {
+            "start": 164.24,
+            "end": 164.96,
+            "word": " and",
+            "probability": 0.85875
+          },
+          {
+            "start": 164.96,
+            "end": 165.28,
+            "word": " unique",
+            "probability": 0.99915
+          },
+          {
+            "start": 165.28,
+            "end": 165.9,
+            "word": " qualities",
+            "probability": 0.98857
+          },
+          {
+            "start": 165.9,
+            "end": 166.36,
+            "word": " rather",
+            "probability": 0.91291
+          },
+          {
+            "start": 166.36,
+            "end": 166.62,
+            "word": " than",
+            "probability": 0.99385
+          },
+          {
+            "start": 166.62,
+            "end": 166.8,
+            "word": " just",
+            "probability": 0.99582
+          },
+          {
+            "start": 166.8,
+            "end": 167.3,
+            "word": " sticking",
+            "probability": 0.99831
+          }
+        ]
+      },
+      {
+        "start": 167.3,
+        "end": 168.36,
+        "text": "to old standards.",
+        "words": [
+          {
+            "start": 167.3,
+            "end": 167.56,
+            "word": " to",
+            "probability": 0.80699
+          },
+          {
+            "start": 167.56,
+            "end": 167.78,
+            "word": " old",
+            "probability": 0.85688
+          },
+          {
+            "start": 167.78,
+            "end": 168.36,
+            "word": " standards.",
+            "probability": 0.99047
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p3-task-all",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 205,
+            "speechStart": 1.14,
+            "speechEnd": 83.38,
+            "sourceTokenCoverage": 0.9809,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9903,
+            "transcript": "hi david you look so serious reading while watching that beauty show what happened you know i've been thinking a lot about beauty lately it seems like so many people share similar ideas about it especially with social media showing the same types of looks and trends everywhere it's almost like there's a formula for what's considered beautiful that's a good point however i believe that ideas about beauty change over time what we find beautiful today might not be the same in a few years just look at how fashion and beauty standards have shifted over the decades remember how popular certain hairstyles or clothing styles were it's fascinating to see how those perceptions evolve and i think beauty can be found in unexpected places too for instance when i walk through my neighborhood i notice beauty not only in nature like the way the sun sets or flowers bloom but also in everyday moments like a street musician playing a beautiful tune or people sharing a laugh those little things can be incredibly beautiful and i think traditional ideas of beauty are going to change even more people are starting to value authenticity and unique qualities rather than just sticking to old standards",
+            "openingMatch": 0.9556,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 205,
+            "wordEndIndexExclusive": 411,
+            "speechStart": 83.38,
+            "speechEnd": 168.36,
+            "sourceTokenCoverage": 0.9809,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.988,
+            "transcript": "hi david you look so serious reading while watching that beauty show what happened you know i've been thinking a lot about beauty lately it seems like so many people share similar ideas about it especially with social media showing the same types of looks and trends everywhere it's almost like there's a formula for what's considered beautiful that's a good point however i believe that ideas about beauty change over time time what we find beautiful today might not be the same in a few years just look at how fashion and beauty standards have shifted over the decades remember how popular certain hairstyles or clothing styles were it's fascinating to see how those perceptions evolve and i think beauty can be found in unexpected places too for instance when i walk through my neighborhood i notice beauty not only in nature like the way the sun sets or flowers bloom but also in everyday moments like a street musician playing a beautiful tune or people sharing a laugh those little things can be incredibly beautiful and i think traditional ideas of beauty are going to change even more people are starting to value authenticity and unique qualities rather than just sticking to old standards",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

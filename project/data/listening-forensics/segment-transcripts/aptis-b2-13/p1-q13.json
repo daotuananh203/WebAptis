@@ -1,0 +1,1098 @@
+{
+  "testId": "aptis-b2-13",
+  "blockId": "p1-q13",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-13/part-1/q13.mp3",
+  "audioSha256": "01392080117e8100ab7bf6297bc0e650491fae6a1514a82b1cd7589aa4ee2383",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.33,
+        "end": 3.85,
+        "text": "Hello, I need to call the tele shop for some information.",
+        "words": [
+          {
+            "start": 1.33,
+            "end": 1.85,
+            "word": " Hello,",
+            "probability": 0.90658
+          },
+          {
+            "start": 2.11,
+            "end": 2.19,
+            "word": " I",
+            "probability": 0.98995
+          },
+          {
+            "start": 2.19,
+            "end": 2.33,
+            "word": " need",
+            "probability": 0.99822
+          },
+          {
+            "start": 2.33,
+            "end": 2.43,
+            "word": " to",
+            "probability": 0.99895
+          },
+          {
+            "start": 2.43,
+            "end": 2.55,
+            "word": " call",
+            "probability": 0.99205
+          },
+          {
+            "start": 2.55,
+            "end": 2.71,
+            "word": " the",
+            "probability": 0.99202
+          },
+          {
+            "start": 2.71,
+            "end": 2.85,
+            "word": " tele",
+            "probability": 0.1647
+          },
+          {
+            "start": 2.85,
+            "end": 3.07,
+            "word": " shop",
+            "probability": 0.70528
+          },
+          {
+            "start": 3.07,
+            "end": 3.25,
+            "word": " for",
+            "probability": 0.98743
+          },
+          {
+            "start": 3.25,
+            "end": 3.39,
+            "word": " some",
+            "probability": 0.99778
+          },
+          {
+            "start": 3.39,
+            "end": 3.85,
+            "word": " information.",
+            "probability": 0.99742
+          }
+        ]
+      },
+      {
+        "start": 4.37,
+        "end": 5.43,
+        "text": "My phone is not working.",
+        "words": [
+          {
+            "start": 4.37,
+            "end": 4.57,
+            "word": " My",
+            "probability": 0.98007
+          },
+          {
+            "start": 4.57,
+            "end": 4.81,
+            "word": " phone",
+            "probability": 0.99676
+          },
+          {
+            "start": 4.81,
+            "end": 4.95,
+            "word": " is",
+            "probability": 0.99789
+          },
+          {
+            "start": 4.95,
+            "end": 5.09,
+            "word": " not",
+            "probability": 0.99711
+          },
+          {
+            "start": 5.09,
+            "end": 5.43,
+            "word": " working.",
+            "probability": 0.99957
+          }
+        ]
+      },
+      {
+        "start": 5.99,
+        "end": 6.99,
+        "text": "Can you remind me of the number?",
+        "words": [
+          {
+            "start": 5.99,
+            "end": 6.09,
+            "word": " Can",
+            "probability": 0.9955
+          },
+          {
+            "start": 6.09,
+            "end": 6.19,
+            "word": " you",
+            "probability": 0.99894
+          },
+          {
+            "start": 6.19,
+            "end": 6.39,
+            "word": " remind",
+            "probability": 0.99104
+          },
+          {
+            "start": 6.39,
+            "end": 6.57,
+            "word": " me",
+            "probability": 0.9972
+          },
+          {
+            "start": 6.57,
+            "end": 6.65,
+            "word": " of",
+            "probability": 0.99655
+          },
+          {
+            "start": 6.65,
+            "end": 6.75,
+            "word": " the",
+            "probability": 0.98809
+          },
+          {
+            "start": 6.75,
+            "end": 6.99,
+            "word": " number?",
+            "probability": 0.99561
+          }
+        ]
+      },
+      {
+        "start": 7.65,
+        "end": 11.51,
+        "text": "I think it starts with 2.0 or 1.0 or 3.0 something.",
+        "words": [
+          {
+            "start": 7.65,
+            "end": 7.79,
+            "word": " I",
+            "probability": 0.99702
+          },
+          {
+            "start": 7.79,
+            "end": 7.93,
+            "word": " think",
+            "probability": 0.99922
+          },
+          {
+            "start": 7.93,
+            "end": 8.05,
+            "word": " it",
+            "probability": 0.99454
+          },
+          {
+            "start": 8.05,
+            "end": 8.25,
+            "word": " starts",
+            "probability": 0.99175
+          },
+          {
+            "start": 8.25,
+            "end": 8.47,
+            "word": " with",
+            "probability": 0.99691
+          },
+          {
+            "start": 8.47,
+            "end": 8.73,
+            "word": " 2",
+            "probability": 0.50726
+          },
+          {
+            "start": 8.73,
+            "end": 9.19,
+            "word": ".0",
+            "probability": 0.72824
+          },
+          {
+            "start": 9.19,
+            "end": 9.51,
+            "word": " or",
+            "probability": 0.94479
+          },
+          {
+            "start": 9.51,
+            "end": 9.73,
+            "word": " 1",
+            "probability": 0.9579
+          },
+          {
+            "start": 9.73,
+            "end": 10.09,
+            "word": ".0",
+            "probability": 0.9956
+          },
+          {
+            "start": 10.09,
+            "end": 10.43,
+            "word": " or",
+            "probability": 0.96413
+          },
+          {
+            "start": 10.43,
+            "end": 10.73,
+            "word": " 3",
+            "probability": 0.89955
+          },
+          {
+            "start": 10.73,
+            "end": 11.09,
+            "word": ".0",
+            "probability": 0.99852
+          },
+          {
+            "start": 11.09,
+            "end": 11.51,
+            "word": " something.",
+            "probability": 0.80968
+          }
+        ]
+      },
+      {
+        "start": 12.09,
+        "end": 15.89,
+        "text": "Is it 1.0, 2.0, 3.0, or 3.0, 1.0, 2.0?",
+        "words": [
+          {
+            "start": 12.09,
+            "end": 12.21,
+            "word": " Is",
+            "probability": 0.99169
+          },
+          {
+            "start": 12.21,
+            "end": 12.29,
+            "word": " it",
+            "probability": 0.99844
+          },
+          {
+            "start": 12.29,
+            "end": 12.47,
+            "word": " 1",
+            "probability": 0.95077
+          },
+          {
+            "start": 12.47,
+            "end": 12.75,
+            "word": ".0,",
+            "probability": 0.99351
+          },
+          {
+            "start": 12.93,
+            "end": 13.01,
+            "word": " 2",
+            "probability": 0.98435
+          },
+          {
+            "start": 13.01,
+            "end": 13.31,
+            "word": ".0,",
+            "probability": 0.99487
+          },
+          {
+            "start": 13.51,
+            "end": 13.55,
+            "word": " 3",
+            "probability": 0.99396
+          },
+          {
+            "start": 13.55,
+            "end": 13.95,
+            "word": ".0,",
+            "probability": 0.99669
+          },
+          {
+            "start": 14.15,
+            "end": 14.21,
+            "word": " or",
+            "probability": 0.71186
+          },
+          {
+            "start": 14.21,
+            "end": 14.45,
+            "word": " 3",
+            "probability": 0.98135
+          },
+          {
+            "start": 14.45,
+            "end": 14.83,
+            "word": ".0,",
+            "probability": 0.99777
+          },
+          {
+            "start": 14.97,
+            "end": 15.09,
+            "word": " 1",
+            "probability": 0.97682
+          },
+          {
+            "start": 15.09,
+            "end": 15.29,
+            "word": ".0,",
+            "probability": 0.99694
+          },
+          {
+            "start": 15.51,
+            "end": 15.55,
+            "word": " 2",
+            "probability": 0.98852
+          },
+          {
+            "start": 15.55,
+            "end": 15.89,
+            "word": ".0?",
+            "probability": 0.99635
+          }
+        ]
+      },
+      {
+        "start": 16.43,
+        "end": 17.19,
+        "text": "No, wait.",
+        "words": [
+          {
+            "start": 16.43,
+            "end": 16.83,
+            "word": " No,",
+            "probability": 0.97935
+          },
+          {
+            "start": 17.05,
+            "end": 17.19,
+            "word": " wait.",
+            "probability": 0.99724
+          }
+        ]
+      },
+      {
+        "start": 17.65,
+        "end": 18.39,
+        "text": "I remember now.",
+        "words": [
+          {
+            "start": 17.65,
+            "end": 17.73,
+            "word": " I",
+            "probability": 0.99586
+          },
+          {
+            "start": 17.73,
+            "end": 18.09,
+            "word": " remember",
+            "probability": 0.99482
+          },
+          {
+            "start": 18.09,
+            "end": 18.39,
+            "word": " now.",
+            "probability": 0.99321
+          }
+        ]
+      },
+      {
+        "start": 18.83,
+        "end": 20.91,
+        "text": "It's 2.0, 1.0, 3.0.",
+        "words": [
+          {
+            "start": 18.83,
+            "end": 19.03,
+            "word": " It's",
+            "probability": 0.98701
+          },
+          {
+            "start": 19.03,
+            "end": 19.21,
+            "word": " 2",
+            "probability": 0.99226
+          },
+          {
+            "start": 19.21,
+            "end": 19.67,
+            "word": ".0,",
+            "probability": 0.99863
+          },
+          {
+            "start": 19.85,
+            "end": 19.95,
+            "word": " 1",
+            "probability": 0.98502
+          },
+          {
+            "start": 19.95,
+            "end": 20.17,
+            "word": ".0,",
+            "probability": 0.99691
+          },
+          {
+            "start": 20.37,
+            "end": 20.49,
+            "word": " 3",
+            "probability": 0.99306
+          },
+          {
+            "start": 20.49,
+            "end": 20.91,
+            "word": ".0.",
+            "probability": 0.99836
+          }
+        ]
+      },
+      {
+        "start": 21.41,
+        "end": 23.31,
+        "text": "I really need to order that new gadget.",
+        "words": [
+          {
+            "start": 21.41,
+            "end": 21.81,
+            "word": " I",
+            "probability": 0.99274
+          },
+          {
+            "start": 21.81,
+            "end": 22.05,
+            "word": " really",
+            "probability": 0.98727
+          },
+          {
+            "start": 22.05,
+            "end": 22.31,
+            "word": " need",
+            "probability": 0.99846
+          },
+          {
+            "start": 22.31,
+            "end": 22.45,
+            "word": " to",
+            "probability": 0.9988
+          },
+          {
+            "start": 22.45,
+            "end": 22.59,
+            "word": " order",
+            "probability": 0.99927
+          },
+          {
+            "start": 22.59,
+            "end": 22.77,
+            "word": " that",
+            "probability": 0.99106
+          },
+          {
+            "start": 22.77,
+            "end": 22.95,
+            "word": " new",
+            "probability": 0.99402
+          },
+          {
+            "start": 22.95,
+            "end": 23.31,
+            "word": " gadget.",
+            "probability": 0.99882
+          }
+        ]
+      },
+      {
+        "start": 23.91,
+        "end": 24.59,
+        "text": "Thanks for your help.",
+        "words": [
+          {
+            "start": 23.91,
+            "end": 24.13,
+            "word": " Thanks",
+            "probability": 0.99632
+          },
+          {
+            "start": 24.13,
+            "end": 24.25,
+            "word": " for",
+            "probability": 0.99872
+          },
+          {
+            "start": 24.25,
+            "end": 24.35,
+            "word": " your",
+            "probability": 0.99848
+          },
+          {
+            "start": 24.35,
+            "end": 24.59,
+            "word": " help.",
+            "probability": 0.99937
+          }
+        ]
+      },
+      {
+        "start": 27.48,
+        "end": 29.7,
+        "text": "Hello, I need to call the tele shop for some information.",
+        "words": [
+          {
+            "start": 27.48,
+            "end": 27.74,
+            "word": " Hello,",
+            "probability": 0.99518
+          },
+          {
+            "start": 27.94,
+            "end": 28.04,
+            "word": " I",
+            "probability": 0.99943
+          },
+          {
+            "start": 28.04,
+            "end": 28.16,
+            "word": " need",
+            "probability": 0.99913
+          },
+          {
+            "start": 28.16,
+            "end": 28.28,
+            "word": " to",
+            "probability": 0.99845
+          },
+          {
+            "start": 28.28,
+            "end": 28.4,
+            "word": " call",
+            "probability": 0.99715
+          },
+          {
+            "start": 28.4,
+            "end": 28.52,
+            "word": " the",
+            "probability": 0.99734
+          },
+          {
+            "start": 28.52,
+            "end": 28.66,
+            "word": " tele",
+            "probability": 0.98276
+          },
+          {
+            "start": 28.66,
+            "end": 28.92,
+            "word": " shop",
+            "probability": 0.99529
+          },
+          {
+            "start": 28.92,
+            "end": 29.1,
+            "word": " for",
+            "probability": 0.99765
+          },
+          {
+            "start": 29.1,
+            "end": 29.24,
+            "word": " some",
+            "probability": 0.9989
+          },
+          {
+            "start": 29.24,
+            "end": 29.7,
+            "word": " information.",
+            "probability": 0.99919
+          }
+        ]
+      },
+      {
+        "start": 30.26,
+        "end": 31.3,
+        "text": "My phone is not working.",
+        "words": [
+          {
+            "start": 30.26,
+            "end": 30.42,
+            "word": " My",
+            "probability": 0.99543
+          },
+          {
+            "start": 30.42,
+            "end": 30.66,
+            "word": " phone",
+            "probability": 0.99924
+          },
+          {
+            "start": 30.66,
+            "end": 30.82,
+            "word": " is",
+            "probability": 0.99891
+          },
+          {
+            "start": 30.82,
+            "end": 30.94,
+            "word": " not",
+            "probability": 0.99856
+          },
+          {
+            "start": 30.94,
+            "end": 31.3,
+            "word": " working.",
+            "probability": 0.99963
+          }
+        ]
+      },
+      {
+        "start": 31.3,
+        "end": 32.84,
+        "text": "Can you remind me of the number?",
+        "words": [
+          {
+            "start": 31.3,
+            "end": 31.92,
+            "word": " Can",
+            "probability": 0.65985
+          },
+          {
+            "start": 31.92,
+            "end": 32.04,
+            "word": " you",
+            "probability": 0.99686
+          },
+          {
+            "start": 32.04,
+            "end": 32.26,
+            "word": " remind",
+            "probability": 0.98477
+          },
+          {
+            "start": 32.26,
+            "end": 32.42,
+            "word": " me",
+            "probability": 0.99705
+          },
+          {
+            "start": 32.42,
+            "end": 32.5,
+            "word": " of",
+            "probability": 0.99384
+          },
+          {
+            "start": 32.5,
+            "end": 32.6,
+            "word": " the",
+            "probability": 0.98653
+          },
+          {
+            "start": 32.6,
+            "end": 32.84,
+            "word": " number?",
+            "probability": 0.99413
+          }
+        ]
+      },
+      {
+        "start": 33.52,
+        "end": 37.36,
+        "text": "I think it starts with 2.0 or 1.0 or 3.0 something.",
+        "words": [
+          {
+            "start": 33.52,
+            "end": 33.66,
+            "word": " I",
+            "probability": 0.98338
+          },
+          {
+            "start": 33.66,
+            "end": 33.78,
+            "word": " think",
+            "probability": 0.99845
+          },
+          {
+            "start": 33.78,
+            "end": 33.9,
+            "word": " it",
+            "probability": 0.99541
+          },
+          {
+            "start": 33.9,
+            "end": 34.1,
+            "word": " starts",
+            "probability": 0.99025
+          },
+          {
+            "start": 34.1,
+            "end": 34.34,
+            "word": " with",
+            "probability": 0.99453
+          },
+          {
+            "start": 34.34,
+            "end": 34.6,
+            "word": " 2",
+            "probability": 0.4946
+          },
+          {
+            "start": 34.6,
+            "end": 35.02,
+            "word": ".0",
+            "probability": 0.68388
+          },
+          {
+            "start": 35.02,
+            "end": 35.38,
+            "word": " or",
+            "probability": 0.90828
+          },
+          {
+            "start": 35.38,
+            "end": 35.58,
+            "word": " 1",
+            "probability": 0.92884
+          },
+          {
+            "start": 35.58,
+            "end": 35.96,
+            "word": ".0",
+            "probability": 0.99342
+          },
+          {
+            "start": 35.96,
+            "end": 36.3,
+            "word": " or",
+            "probability": 0.88284
+          },
+          {
+            "start": 36.3,
+            "end": 36.58,
+            "word": " 3",
+            "probability": 0.88983
+          },
+          {
+            "start": 36.58,
+            "end": 36.96,
+            "word": ".0",
+            "probability": 0.99655
+          },
+          {
+            "start": 36.96,
+            "end": 37.36,
+            "word": " something.",
+            "probability": 0.80264
+          }
+        ]
+      },
+      {
+        "start": 37.96,
+        "end": 41.76,
+        "text": "Is it 1.0, 2.0, 3.0 or 3.0, 1.0, 2.0?",
+        "words": [
+          {
+            "start": 37.96,
+            "end": 38.06,
+            "word": " Is",
+            "probability": 0.98302
+          },
+          {
+            "start": 38.06,
+            "end": 38.14,
+            "word": " it",
+            "probability": 0.99811
+          },
+          {
+            "start": 38.14,
+            "end": 38.32,
+            "word": " 1",
+            "probability": 0.91553
+          },
+          {
+            "start": 38.32,
+            "end": 38.62,
+            "word": ".0,",
+            "probability": 0.98268
+          },
+          {
+            "start": 38.8,
+            "end": 38.88,
+            "word": " 2",
+            "probability": 0.97821
+          },
+          {
+            "start": 38.88,
+            "end": 39.16,
+            "word": ".0,",
+            "probability": 0.99154
+          },
+          {
+            "start": 39.36,
+            "end": 39.4,
+            "word": " 3",
+            "probability": 0.99204
+          },
+          {
+            "start": 39.4,
+            "end": 39.8,
+            "word": ".0",
+            "probability": 0.99573
+          },
+          {
+            "start": 39.8,
+            "end": 40.06,
+            "word": " or",
+            "probability": 0.4475
+          },
+          {
+            "start": 40.06,
+            "end": 40.32,
+            "word": " 3",
+            "probability": 0.98363
+          },
+          {
+            "start": 40.32,
+            "end": 40.7,
+            "word": ".0,",
+            "probability": 0.99666
+          },
+          {
+            "start": 40.86,
+            "end": 40.94,
+            "word": " 1",
+            "probability": 0.98931
+          },
+          {
+            "start": 40.94,
+            "end": 41.12,
+            "word": ".0,",
+            "probability": 0.99644
+          },
+          {
+            "start": 41.36,
+            "end": 41.42,
+            "word": " 2",
+            "probability": 0.99353
+          },
+          {
+            "start": 41.42,
+            "end": 41.76,
+            "word": ".0?",
+            "probability": 0.99484
+          }
+        ]
+      },
+      {
+        "start": 42.22,
+        "end": 44.24,
+        "text": "No, wait. I remember now.",
+        "words": [
+          {
+            "start": 42.22,
+            "end": 42.68,
+            "word": " No,",
+            "probability": 0.96612
+          },
+          {
+            "start": 42.88,
+            "end": 43.04,
+            "word": " wait.",
+            "probability": 0.99629
+          },
+          {
+            "start": 43.48,
+            "end": 43.6,
+            "word": " I",
+            "probability": 0.99539
+          },
+          {
+            "start": 43.6,
+            "end": 43.94,
+            "word": " remember",
+            "probability": 0.99284
+          },
+          {
+            "start": 43.94,
+            "end": 44.24,
+            "word": " now.",
+            "probability": 0.98897
+          }
+        ]
+      },
+      {
+        "start": 44.7,
+        "end": 46.78,
+        "text": "It's 2.0, 1.0, 3.0.",
+        "words": [
+          {
+            "start": 44.7,
+            "end": 44.88,
+            "word": " It's",
+            "probability": 0.97717
+          },
+          {
+            "start": 44.88,
+            "end": 45.08,
+            "word": " 2",
+            "probability": 0.99109
+          },
+          {
+            "start": 45.08,
+            "end": 45.52,
+            "word": ".0,",
+            "probability": 0.99734
+          },
+          {
+            "start": 45.7,
+            "end": 45.8,
+            "word": " 1",
+            "probability": 0.991
+          },
+          {
+            "start": 45.8,
+            "end": 46.02,
+            "word": ".0,",
+            "probability": 0.99094
+          },
+          {
+            "start": 46.22,
+            "end": 46.34,
+            "word": " 3",
+            "probability": 0.99621
+          },
+          {
+            "start": 46.34,
+            "end": 46.78,
+            "word": ".0.",
+            "probability": 0.99611
+          }
+        ]
+      },
+      {
+        "start": 47.2,
+        "end": 49.16,
+        "text": "I really need to order that new gadget.",
+        "words": [
+          {
+            "start": 47.2,
+            "end": 47.68,
+            "word": " I",
+            "probability": 0.99431
+          },
+          {
+            "start": 47.68,
+            "end": 47.94,
+            "word": " really",
+            "probability": 0.98803
+          },
+          {
+            "start": 47.94,
+            "end": 48.18,
+            "word": " need",
+            "probability": 0.99688
+          },
+          {
+            "start": 48.18,
+            "end": 48.32,
+            "word": " to",
+            "probability": 0.99891
+          },
+          {
+            "start": 48.32,
+            "end": 48.44,
+            "word": " order",
+            "probability": 0.99903
+          },
+          {
+            "start": 48.44,
+            "end": 48.62,
+            "word": " that",
+            "probability": 0.99432
+          },
+          {
+            "start": 48.62,
+            "end": 48.8,
+            "word": " new",
+            "probability": 0.99166
+          },
+          {
+            "start": 48.8,
+            "end": 49.16,
+            "word": " gadget.",
+            "probability": 0.99857
+          }
+        ]
+      },
+      {
+        "start": 49.72,
+        "end": 50.46,
+        "text": "Thanks for your help.",
+        "words": [
+          {
+            "start": 49.72,
+            "end": 49.96,
+            "word": " Thanks",
+            "probability": 0.99607
+          },
+          {
+            "start": 49.96,
+            "end": 50.12,
+            "word": " for",
+            "probability": 0.99893
+          },
+          {
+            "start": 50.12,
+            "end": 50.22,
+            "word": " your",
+            "probability": 0.99683
+          },
+          {
+            "start": 50.22,
+            "end": 50.46,
+            "word": " help.",
+            "probability": 0.99847
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q13",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 76,
+            "speechStart": 1.33,
+            "speechEnd": 24.59,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hello i need to call the tele shop for some information my phone is not working can you remind me of the number i think it starts with 2 0 or 1 0 or 3 0 something is it 1 0 2 0 3 0 or 3 0 1 0 2 0 no wait i remember now it's 2 0 1 0 3 0 i really need to order that new gadget thanks for your help",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 76,
+            "wordEndIndexExclusive": 152,
+            "speechStart": 27.48,
+            "speechEnd": 50.46,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hello i need to call the tele shop for some information my phone is not working can you remind me of the number i think it starts with 2 0 or 1 0 or 3 0 something is it 1 0 2 0 3 0 or 3 0 1 0 2 0 no wait i remember now it's 2 0 1 0 3 0 i really need to order that new gadget thanks for your help",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

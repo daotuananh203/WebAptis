@@ -1,0 +1,945 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p1-q12",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-1/q12.mp3",
+  "audioSha256": "ca0f815fb19beb4a72792f600834a42178277390be4c359c7d7a534870b6f865",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.69,
+        "end": 6.09,
+        "text": "Good morning, Alex. I've just finished reading your thesis, and I must say it's very well-done.",
+        "words": [
+          {
+            "start": 0.69,
+            "end": 1.15,
+            "word": " Good",
+            "probability": 0.19119
+          },
+          {
+            "start": 1.15,
+            "end": 1.49,
+            "word": " morning,",
+            "probability": 0.96436
+          },
+          {
+            "start": 1.71,
+            "end": 1.91,
+            "word": " Alex.",
+            "probability": 0.97602
+          },
+          {
+            "start": 2.43,
+            "end": 2.83,
+            "word": " I've",
+            "probability": 0.97758
+          },
+          {
+            "start": 2.83,
+            "end": 2.97,
+            "word": " just",
+            "probability": 0.99876
+          },
+          {
+            "start": 2.97,
+            "end": 3.31,
+            "word": " finished",
+            "probability": 0.99848
+          },
+          {
+            "start": 3.31,
+            "end": 3.69,
+            "word": " reading",
+            "probability": 0.99658
+          },
+          {
+            "start": 3.69,
+            "end": 3.87,
+            "word": " your",
+            "probability": 0.99072
+          },
+          {
+            "start": 3.87,
+            "end": 4.23,
+            "word": " thesis,",
+            "probability": 0.99582
+          },
+          {
+            "start": 4.51,
+            "end": 4.57,
+            "word": " and",
+            "probability": 0.99575
+          },
+          {
+            "start": 4.57,
+            "end": 4.65,
+            "word": " I",
+            "probability": 0.99338
+          },
+          {
+            "start": 4.65,
+            "end": 4.83,
+            "word": " must",
+            "probability": 0.99917
+          },
+          {
+            "start": 4.83,
+            "end": 5.15,
+            "word": " say",
+            "probability": 0.99943
+          },
+          {
+            "start": 5.15,
+            "end": 5.41,
+            "word": " it's",
+            "probability": 0.94651
+          },
+          {
+            "start": 5.41,
+            "end": 5.59,
+            "word": " very",
+            "probability": 0.9464
+          },
+          {
+            "start": 5.59,
+            "end": 5.89,
+            "word": " well",
+            "probability": 0.9984
+          },
+          {
+            "start": 5.89,
+            "end": 6.09,
+            "word": "-done.",
+            "probability": 0.56917
+          }
+        ]
+      },
+      {
+        "start": 6.69,
+        "end": 8.39,
+        "text": "You've put a lot of effort into it.",
+        "words": [
+          {
+            "start": 6.69,
+            "end": 7.03,
+            "word": " You've",
+            "probability": 0.98606
+          },
+          {
+            "start": 7.03,
+            "end": 7.15,
+            "word": " put",
+            "probability": 0.99734
+          },
+          {
+            "start": 7.15,
+            "end": 7.27,
+            "word": " a",
+            "probability": 0.99778
+          },
+          {
+            "start": 7.27,
+            "end": 7.47,
+            "word": " lot",
+            "probability": 0.99748
+          },
+          {
+            "start": 7.47,
+            "end": 7.61,
+            "word": " of",
+            "probability": 0.9961
+          },
+          {
+            "start": 7.61,
+            "end": 7.81,
+            "word": " effort",
+            "probability": 0.99875
+          },
+          {
+            "start": 7.81,
+            "end": 8.13,
+            "word": " into",
+            "probability": 0.99363
+          },
+          {
+            "start": 8.13,
+            "end": 8.39,
+            "word": " it.",
+            "probability": 0.99952
+          }
+        ]
+      },
+      {
+        "start": 8.73,
+        "end": 11.93,
+        "text": "Thank you, Professor. I'm glad you liked it. I worked hard on it.",
+        "words": [
+          {
+            "start": 8.73,
+            "end": 8.97,
+            "word": " Thank",
+            "probability": 0.83192
+          },
+          {
+            "start": 8.97,
+            "end": 9.13,
+            "word": " you,",
+            "probability": 0.99477
+          },
+          {
+            "start": 9.25,
+            "end": 9.41,
+            "word": " Professor.",
+            "probability": 0.61848
+          },
+          {
+            "start": 9.89,
+            "end": 9.97,
+            "word": " I'm",
+            "probability": 0.99591
+          },
+          {
+            "start": 9.97,
+            "end": 10.09,
+            "word": " glad",
+            "probability": 0.9991
+          },
+          {
+            "start": 10.09,
+            "end": 10.23,
+            "word": " you",
+            "probability": 0.99876
+          },
+          {
+            "start": 10.23,
+            "end": 10.41,
+            "word": " liked",
+            "probability": 0.99183
+          },
+          {
+            "start": 10.41,
+            "end": 10.59,
+            "word": " it.",
+            "probability": 0.99947
+          },
+          {
+            "start": 10.99,
+            "end": 11.17,
+            "word": " I",
+            "probability": 0.99756
+          },
+          {
+            "start": 11.17,
+            "end": 11.31,
+            "word": " worked",
+            "probability": 0.96916
+          },
+          {
+            "start": 11.31,
+            "end": 11.53,
+            "word": " hard",
+            "probability": 0.99888
+          },
+          {
+            "start": 11.53,
+            "end": 11.71,
+            "word": " on",
+            "probability": 0.9992
+          },
+          {
+            "start": 11.71,
+            "end": 11.93,
+            "word": " it.",
+            "probability": 0.99953
+          }
+        ]
+      },
+      {
+        "start": 12.43,
+        "end": 15.23,
+        "text": "Your research is good, and your arguments are clear.",
+        "words": [
+          {
+            "start": 12.43,
+            "end": 12.61,
+            "word": " Your",
+            "probability": 0.96996
+          },
+          {
+            "start": 12.61,
+            "end": 12.95,
+            "word": " research",
+            "probability": 0.99764
+          },
+          {
+            "start": 12.95,
+            "end": 13.21,
+            "word": " is",
+            "probability": 0.99482
+          },
+          {
+            "start": 13.21,
+            "end": 13.43,
+            "word": " good,",
+            "probability": 0.99912
+          },
+          {
+            "start": 13.79,
+            "end": 14.15,
+            "word": " and",
+            "probability": 0.99738
+          },
+          {
+            "start": 14.15,
+            "end": 14.29,
+            "word": " your",
+            "probability": 0.99734
+          },
+          {
+            "start": 14.29,
+            "end": 14.67,
+            "word": " arguments",
+            "probability": 0.99829
+          },
+          {
+            "start": 14.67,
+            "end": 14.91,
+            "word": " are",
+            "probability": 0.99808
+          },
+          {
+            "start": 14.91,
+            "end": 15.23,
+            "word": " clear.",
+            "probability": 0.99919
+          }
+        ]
+      },
+      {
+        "start": 16.4,
+        "end": 20.26,
+        "text": "I actually think you should consider presenting it at the upcoming student conference.",
+        "words": [
+          {
+            "start": 16.4,
+            "end": 16.62,
+            "word": " I",
+            "probability": 0.99838
+          },
+          {
+            "start": 16.62,
+            "end": 16.94,
+            "word": " actually",
+            "probability": 0.99166
+          },
+          {
+            "start": 16.94,
+            "end": 17.16,
+            "word": " think",
+            "probability": 0.99832
+          },
+          {
+            "start": 17.16,
+            "end": 17.32,
+            "word": " you",
+            "probability": 0.99592
+          },
+          {
+            "start": 17.32,
+            "end": 17.46,
+            "word": " should",
+            "probability": 0.99949
+          },
+          {
+            "start": 17.46,
+            "end": 17.88,
+            "word": " consider",
+            "probability": 0.99881
+          },
+          {
+            "start": 17.88,
+            "end": 18.36,
+            "word": " presenting",
+            "probability": 0.99772
+          },
+          {
+            "start": 18.36,
+            "end": 18.6,
+            "word": " it",
+            "probability": 0.99269
+          },
+          {
+            "start": 18.6,
+            "end": 18.8,
+            "word": " at",
+            "probability": 0.97447
+          },
+          {
+            "start": 18.8,
+            "end": 18.94,
+            "word": " the",
+            "probability": 0.99846
+          },
+          {
+            "start": 18.94,
+            "end": 19.26,
+            "word": " upcoming",
+            "probability": 0.9623
+          },
+          {
+            "start": 19.26,
+            "end": 19.76,
+            "word": " student",
+            "probability": 0.82731
+          },
+          {
+            "start": 19.76,
+            "end": 20.26,
+            "word": " conference.",
+            "probability": 0.99461
+          }
+        ]
+      },
+      {
+        "start": 20.82,
+        "end": 23.1,
+        "text": "Wow, really? That sounds exciting.",
+        "words": [
+          {
+            "start": 20.82,
+            "end": 21.26,
+            "word": " Wow,",
+            "probability": 0.98778
+          },
+          {
+            "start": 21.56,
+            "end": 21.88,
+            "word": " really?",
+            "probability": 0.99711
+          },
+          {
+            "start": 22.24,
+            "end": 22.36,
+            "word": " That",
+            "probability": 0.9957
+          },
+          {
+            "start": 22.36,
+            "end": 22.62,
+            "word": " sounds",
+            "probability": 0.9825
+          },
+          {
+            "start": 22.62,
+            "end": 23.1,
+            "word": " exciting.",
+            "probability": 0.99886
+          }
+        ]
+      },
+      {
+        "start": 23.7,
+        "end": 26.54,
+        "text": "But I'm not sure how that works. Could you tell me more about it?",
+        "words": [
+          {
+            "start": 23.7,
+            "end": 24.04,
+            "word": " But",
+            "probability": 0.99302
+          },
+          {
+            "start": 24.04,
+            "end": 24.28,
+            "word": " I'm",
+            "probability": 0.94165
+          },
+          {
+            "start": 24.28,
+            "end": 24.4,
+            "word": " not",
+            "probability": 0.99882
+          },
+          {
+            "start": 24.4,
+            "end": 24.6,
+            "word": " sure",
+            "probability": 0.99926
+          },
+          {
+            "start": 24.6,
+            "end": 24.78,
+            "word": " how",
+            "probability": 0.99768
+          },
+          {
+            "start": 24.78,
+            "end": 24.96,
+            "word": " that",
+            "probability": 0.99783
+          },
+          {
+            "start": 24.96,
+            "end": 25.34,
+            "word": " works.",
+            "probability": 0.99918
+          },
+          {
+            "start": 25.54,
+            "end": 25.6,
+            "word": " Could",
+            "probability": 0.97459
+          },
+          {
+            "start": 25.6,
+            "end": 25.7,
+            "word": " you",
+            "probability": 0.99951
+          },
+          {
+            "start": 25.7,
+            "end": 25.86,
+            "word": " tell",
+            "probability": 0.99918
+          },
+          {
+            "start": 25.86,
+            "end": 25.98,
+            "word": " me",
+            "probability": 0.99962
+          },
+          {
+            "start": 25.98,
+            "end": 26.18,
+            "word": " more",
+            "probability": 0.99924
+          },
+          {
+            "start": 26.18,
+            "end": 26.4,
+            "word": " about",
+            "probability": 0.99965
+          },
+          {
+            "start": 26.4,
+            "end": 26.54,
+            "word": " it?",
+            "probability": 0.99957
+          }
+        ]
+      },
+      {
+        "start": 26.54,
+        "end": 32.72,
+        "text": "Of course. The conference is a great opportunity to share your findings with a wider audience.",
+        "words": [
+          {
+            "start": 26.54,
+            "end": 27.4,
+            "word": " Of",
+            "probability": 0.49605
+          },
+          {
+            "start": 27.4,
+            "end": 27.72,
+            "word": " course.",
+            "probability": 0.995
+          },
+          {
+            "start": 28.48,
+            "end": 28.86,
+            "word": " The",
+            "probability": 0.97523
+          },
+          {
+            "start": 28.86,
+            "end": 29.24,
+            "word": " conference",
+            "probability": 0.98411
+          },
+          {
+            "start": 29.24,
+            "end": 29.46,
+            "word": " is",
+            "probability": 0.9818
+          },
+          {
+            "start": 29.46,
+            "end": 29.58,
+            "word": " a",
+            "probability": 0.99481
+          },
+          {
+            "start": 29.58,
+            "end": 29.82,
+            "word": " great",
+            "probability": 0.99864
+          },
+          {
+            "start": 29.82,
+            "end": 30.5,
+            "word": " opportunity",
+            "probability": 0.99866
+          },
+          {
+            "start": 30.5,
+            "end": 30.72,
+            "word": " to",
+            "probability": 0.99601
+          },
+          {
+            "start": 30.72,
+            "end": 30.94,
+            "word": " share",
+            "probability": 0.9959
+          },
+          {
+            "start": 30.94,
+            "end": 31.12,
+            "word": " your",
+            "probability": 0.99336
+          },
+          {
+            "start": 31.12,
+            "end": 31.46,
+            "word": " findings",
+            "probability": 0.99907
+          },
+          {
+            "start": 31.46,
+            "end": 31.72,
+            "word": " with",
+            "probability": 0.99706
+          },
+          {
+            "start": 31.72,
+            "end": 31.86,
+            "word": " a",
+            "probability": 0.93044
+          },
+          {
+            "start": 31.86,
+            "end": 32.08,
+            "word": " wider",
+            "probability": 0.9976
+          },
+          {
+            "start": 32.08,
+            "end": 32.72,
+            "word": " audience.",
+            "probability": 0.9997
+          }
+        ]
+      },
+      {
+        "start": 33.1,
+        "end": 38.36,
+        "text": "You would prepare a short presentation around 10 to 15 minutes and then answer some questions",
+        "words": [
+          {
+            "start": 33.1,
+            "end": 33.22,
+            "word": " You",
+            "probability": 0.99362
+          },
+          {
+            "start": 33.22,
+            "end": 33.32,
+            "word": " would",
+            "probability": 0.9823
+          },
+          {
+            "start": 33.32,
+            "end": 33.56,
+            "word": " prepare",
+            "probability": 0.99347
+          },
+          {
+            "start": 33.56,
+            "end": 33.74,
+            "word": " a",
+            "probability": 0.99715
+          },
+          {
+            "start": 33.74,
+            "end": 33.92,
+            "word": " short",
+            "probability": 0.99852
+          },
+          {
+            "start": 33.92,
+            "end": 34.66,
+            "word": " presentation",
+            "probability": 0.99749
+          },
+          {
+            "start": 34.66,
+            "end": 35.24,
+            "word": " around",
+            "probability": 0.49374
+          },
+          {
+            "start": 35.24,
+            "end": 35.68,
+            "word": " 10",
+            "probability": 0.87235
+          },
+          {
+            "start": 35.68,
+            "end": 35.9,
+            "word": " to",
+            "probability": 0.64749
+          },
+          {
+            "start": 35.9,
+            "end": 36.24,
+            "word": " 15",
+            "probability": 0.99282
+          },
+          {
+            "start": 36.24,
+            "end": 36.56,
+            "word": " minutes",
+            "probability": 0.9954
+          },
+          {
+            "start": 36.56,
+            "end": 37.24,
+            "word": " and",
+            "probability": 0.7042
+          },
+          {
+            "start": 37.24,
+            "end": 37.36,
+            "word": " then",
+            "probability": 0.98004
+          },
+          {
+            "start": 37.36,
+            "end": 37.66,
+            "word": " answer",
+            "probability": 0.9953
+          },
+          {
+            "start": 37.66,
+            "end": 37.9,
+            "word": " some",
+            "probability": 0.98487
+          },
+          {
+            "start": 37.9,
+            "end": 38.36,
+            "word": " questions",
+            "probability": 0.99838
+          }
+        ]
+      },
+      {
+        "start": 38.36,
+        "end": 44.1,
+        "text": "from the audience. It's a good way to get feedback and gain experience speaking publicly.",
+        "words": [
+          {
+            "start": 38.36,
+            "end": 38.66,
+            "word": " from",
+            "probability": 0.99493
+          },
+          {
+            "start": 38.66,
+            "end": 38.8,
+            "word": " the",
+            "probability": 0.99752
+          },
+          {
+            "start": 38.8,
+            "end": 39.24,
+            "word": " audience.",
+            "probability": 0.99896
+          },
+          {
+            "start": 40.0,
+            "end": 40.48,
+            "word": " It's",
+            "probability": 0.98165
+          },
+          {
+            "start": 40.48,
+            "end": 40.54,
+            "word": " a",
+            "probability": 0.99609
+          },
+          {
+            "start": 40.54,
+            "end": 40.7,
+            "word": " good",
+            "probability": 0.99815
+          },
+          {
+            "start": 40.7,
+            "end": 40.88,
+            "word": " way",
+            "probability": 0.99828
+          },
+          {
+            "start": 40.88,
+            "end": 41.0,
+            "word": " to",
+            "probability": 0.99917
+          },
+          {
+            "start": 41.0,
+            "end": 41.16,
+            "word": " get",
+            "probability": 0.99808
+          },
+          {
+            "start": 41.16,
+            "end": 41.62,
+            "word": " feedback",
+            "probability": 0.99949
+          },
+          {
+            "start": 41.62,
+            "end": 42.24,
+            "word": " and",
+            "probability": 0.96994
+          },
+          {
+            "start": 42.24,
+            "end": 42.42,
+            "word": " gain",
+            "probability": 0.99747
+          },
+          {
+            "start": 42.42,
+            "end": 43.14,
+            "word": " experience",
+            "probability": 0.99493
+          },
+          {
+            "start": 43.14,
+            "end": 43.6,
+            "word": " speaking",
+            "probability": 0.98945
+          },
+          {
+            "start": 43.6,
+            "end": 44.1,
+            "word": " publicly.",
+            "probability": 0.97576
+          }
+        ]
+      },
+      {
+        "start": 44.6,
+        "end": 47.56,
+        "text": "That sounds interesting. I will check it out. Thank you so much.",
+        "words": [
+          {
+            "start": 44.6,
+            "end": 44.86,
+            "word": " That",
+            "probability": 0.9603
+          },
+          {
+            "start": 44.86,
+            "end": 45.06,
+            "word": " sounds",
+            "probability": 0.99038
+          },
+          {
+            "start": 45.06,
+            "end": 45.54,
+            "word": " interesting.",
+            "probability": 0.99868
+          },
+          {
+            "start": 45.92,
+            "end": 46.0,
+            "word": " I",
+            "probability": 0.99709
+          },
+          {
+            "start": 46.0,
+            "end": 46.08,
+            "word": " will",
+            "probability": 0.99503
+          },
+          {
+            "start": 46.08,
+            "end": 46.26,
+            "word": " check",
+            "probability": 0.99753
+          },
+          {
+            "start": 46.26,
+            "end": 46.4,
+            "word": " it",
+            "probability": 0.99623
+          },
+          {
+            "start": 46.4,
+            "end": 46.6,
+            "word": " out.",
+            "probability": 0.99956
+          },
+          {
+            "start": 46.74,
+            "end": 46.92,
+            "word": " Thank",
+            "probability": 0.99555
+          },
+          {
+            "start": 46.92,
+            "end": 47.08,
+            "word": " you",
+            "probability": 0.99124
+          },
+          {
+            "start": 47.08,
+            "end": 47.32,
+            "word": " so",
+            "probability": 0.99066
+          },
+          {
+            "start": 47.32,
+            "end": 47.56,
+            "word": " much.",
+            "probability": 0.99815
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q12",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 138,
+            "speechStart": 0.69,
+            "speechEnd": 47.56,
+            "sourceTokenCoverage": 0.9545,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9259,
+            "transcript": "good morning alex i've just finished reading your thesis and i must say it's very well done you've put a lot of effort into it thank you professor i'm glad you liked it i worked hard on it your research is good and your arguments are clear i actually think you should consider presenting it at the upcoming student conference wow really that sounds exciting but i'm not sure how that works could you tell me more about it of course the conference is a great opportunity to share your findings with a wider audience you would prepare a short presentation around 10 to 15 minutes and then answer some questions from the audience it's a good way to get feedback and gain experience speaking publicly that sounds interesting i will check it out thank you so much",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

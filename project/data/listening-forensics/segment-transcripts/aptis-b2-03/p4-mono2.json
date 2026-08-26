@@ -1,0 +1,1293 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p4-mono2",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-4/mono2.mp3",
+  "audioSha256": "4a37c600d598ab73b94b6207cf0063b228b6e156ede627189304f880838d9bc5",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.91,
+        "end": 6.61,
+        "text": "Sleep is very important for our health, but there are many ideas about it that are not entirely true.",
+        "words": [
+          {
+            "start": 0.91,
+            "end": 1.39,
+            "word": " Sleep",
+            "probability": 0.70586
+          },
+          {
+            "start": 1.39,
+            "end": 1.67,
+            "word": " is",
+            "probability": 0.99419
+          },
+          {
+            "start": 1.67,
+            "end": 1.89,
+            "word": " very",
+            "probability": 0.99022
+          },
+          {
+            "start": 1.89,
+            "end": 2.35,
+            "word": " important",
+            "probability": 0.99954
+          },
+          {
+            "start": 2.35,
+            "end": 2.57,
+            "word": " for",
+            "probability": 0.99574
+          },
+          {
+            "start": 2.57,
+            "end": 2.69,
+            "word": " our",
+            "probability": 0.99399
+          },
+          {
+            "start": 2.69,
+            "end": 3.11,
+            "word": " health,",
+            "probability": 0.9966
+          },
+          {
+            "start": 3.25,
+            "end": 3.53,
+            "word": " but",
+            "probability": 0.99472
+          },
+          {
+            "start": 3.53,
+            "end": 3.67,
+            "word": " there",
+            "probability": 0.99819
+          },
+          {
+            "start": 3.67,
+            "end": 3.75,
+            "word": " are",
+            "probability": 0.99735
+          },
+          {
+            "start": 3.75,
+            "end": 3.99,
+            "word": " many",
+            "probability": 0.99827
+          },
+          {
+            "start": 3.99,
+            "end": 4.37,
+            "word": " ideas",
+            "probability": 0.99614
+          },
+          {
+            "start": 4.37,
+            "end": 4.65,
+            "word": " about",
+            "probability": 0.99833
+          },
+          {
+            "start": 4.65,
+            "end": 4.81,
+            "word": " it",
+            "probability": 0.99516
+          },
+          {
+            "start": 4.81,
+            "end": 5.03,
+            "word": " that",
+            "probability": 0.97962
+          },
+          {
+            "start": 5.03,
+            "end": 5.15,
+            "word": " are",
+            "probability": 0.98471
+          },
+          {
+            "start": 5.15,
+            "end": 5.45,
+            "word": " not",
+            "probability": 0.96031
+          },
+          {
+            "start": 5.45,
+            "end": 6.09,
+            "word": " entirely",
+            "probability": 0.99866
+          },
+          {
+            "start": 6.09,
+            "end": 6.61,
+            "word": " true.",
+            "probability": 0.99776
+          }
+        ]
+      },
+      {
+        "start": 7.15,
+        "end": 13.89,
+        "text": "Many people say you should sleep at fixed hours to get enough rest, but that isn't always necessary according to science.",
+        "words": [
+          {
+            "start": 7.15,
+            "end": 7.43,
+            "word": " Many",
+            "probability": 0.9963
+          },
+          {
+            "start": 7.43,
+            "end": 7.75,
+            "word": " people",
+            "probability": 0.99688
+          },
+          {
+            "start": 7.75,
+            "end": 8.07,
+            "word": " say",
+            "probability": 0.99752
+          },
+          {
+            "start": 8.07,
+            "end": 8.37,
+            "word": " you",
+            "probability": 0.95799
+          },
+          {
+            "start": 8.37,
+            "end": 8.55,
+            "word": " should",
+            "probability": 0.99674
+          },
+          {
+            "start": 8.55,
+            "end": 8.87,
+            "word": " sleep",
+            "probability": 0.98862
+          },
+          {
+            "start": 8.87,
+            "end": 9.05,
+            "word": " at",
+            "probability": 0.99777
+          },
+          {
+            "start": 9.05,
+            "end": 9.37,
+            "word": " fixed",
+            "probability": 0.99368
+          },
+          {
+            "start": 9.37,
+            "end": 9.75,
+            "word": " hours",
+            "probability": 0.9979
+          },
+          {
+            "start": 9.75,
+            "end": 10.03,
+            "word": " to",
+            "probability": 0.99281
+          },
+          {
+            "start": 10.03,
+            "end": 10.17,
+            "word": " get",
+            "probability": 0.99881
+          },
+          {
+            "start": 10.17,
+            "end": 10.43,
+            "word": " enough",
+            "probability": 0.99792
+          },
+          {
+            "start": 10.43,
+            "end": 10.75,
+            "word": " rest,",
+            "probability": 0.99907
+          },
+          {
+            "start": 11.21,
+            "end": 11.35,
+            "word": " but",
+            "probability": 0.99557
+          },
+          {
+            "start": 11.35,
+            "end": 11.53,
+            "word": " that",
+            "probability": 0.99833
+          },
+          {
+            "start": 11.53,
+            "end": 11.83,
+            "word": " isn't",
+            "probability": 0.99482
+          },
+          {
+            "start": 11.83,
+            "end": 12.15,
+            "word": " always",
+            "probability": 0.99796
+          },
+          {
+            "start": 12.15,
+            "end": 12.81,
+            "word": " necessary",
+            "probability": 0.99858
+          },
+          {
+            "start": 12.81,
+            "end": 13.27,
+            "word": " according",
+            "probability": 0.77177
+          },
+          {
+            "start": 13.27,
+            "end": 13.49,
+            "word": " to",
+            "probability": 0.99947
+          },
+          {
+            "start": 13.49,
+            "end": 13.89,
+            "word": " science.",
+            "probability": 0.99368
+          }
+        ]
+      },
+      {
+        "start": 14.51,
+        "end": 19.43,
+        "text": "Our bodies can adjust to different sleep schedules, so it really depends on the individual.",
+        "words": [
+          {
+            "start": 14.51,
+            "end": 14.69,
+            "word": " Our",
+            "probability": 0.96853
+          },
+          {
+            "start": 14.69,
+            "end": 15.03,
+            "word": " bodies",
+            "probability": 0.99352
+          },
+          {
+            "start": 15.03,
+            "end": 15.27,
+            "word": " can",
+            "probability": 0.99882
+          },
+          {
+            "start": 15.27,
+            "end": 15.55,
+            "word": " adjust",
+            "probability": 0.99518
+          },
+          {
+            "start": 15.55,
+            "end": 15.83,
+            "word": " to",
+            "probability": 0.99917
+          },
+          {
+            "start": 15.83,
+            "end": 16.11,
+            "word": " different",
+            "probability": 0.99896
+          },
+          {
+            "start": 16.11,
+            "end": 16.45,
+            "word": " sleep",
+            "probability": 0.98911
+          },
+          {
+            "start": 16.45,
+            "end": 16.93,
+            "word": " schedules,",
+            "probability": 0.99619
+          },
+          {
+            "start": 16.93,
+            "end": 17.49,
+            "word": " so",
+            "probability": 0.99849
+          },
+          {
+            "start": 17.49,
+            "end": 17.61,
+            "word": " it",
+            "probability": 0.99685
+          },
+          {
+            "start": 17.61,
+            "end": 18.05,
+            "word": " really",
+            "probability": 0.99617
+          },
+          {
+            "start": 18.05,
+            "end": 18.41,
+            "word": " depends",
+            "probability": 0.9987
+          },
+          {
+            "start": 18.41,
+            "end": 18.73,
+            "word": " on",
+            "probability": 0.9982
+          },
+          {
+            "start": 18.73,
+            "end": 18.87,
+            "word": " the",
+            "probability": 0.99823
+          },
+          {
+            "start": 18.87,
+            "end": 19.43,
+            "word": " individual.",
+            "probability": 0.99871
+          }
+        ]
+      },
+      {
+        "start": 20.24,
+        "end": 26.06,
+        "text": "Another common belief is that you should always sleep on a bed instead of a hard floor, but this is questionable.",
+        "words": [
+          {
+            "start": 20.24,
+            "end": 20.6,
+            "word": " Another",
+            "probability": 0.99192
+          },
+          {
+            "start": 20.6,
+            "end": 21.02,
+            "word": " common",
+            "probability": 0.99596
+          },
+          {
+            "start": 21.02,
+            "end": 21.36,
+            "word": " belief",
+            "probability": 0.99902
+          },
+          {
+            "start": 21.36,
+            "end": 21.78,
+            "word": " is",
+            "probability": 0.99293
+          },
+          {
+            "start": 21.78,
+            "end": 21.96,
+            "word": " that",
+            "probability": 0.99289
+          },
+          {
+            "start": 21.96,
+            "end": 22.12,
+            "word": " you",
+            "probability": 0.99606
+          },
+          {
+            "start": 22.12,
+            "end": 22.3,
+            "word": " should",
+            "probability": 0.99606
+          },
+          {
+            "start": 22.3,
+            "end": 22.66,
+            "word": " always",
+            "probability": 0.99411
+          },
+          {
+            "start": 22.66,
+            "end": 23.0,
+            "word": " sleep",
+            "probability": 0.99768
+          },
+          {
+            "start": 23.0,
+            "end": 23.14,
+            "word": " on",
+            "probability": 0.99767
+          },
+          {
+            "start": 23.14,
+            "end": 23.26,
+            "word": " a",
+            "probability": 0.99695
+          },
+          {
+            "start": 23.26,
+            "end": 23.46,
+            "word": " bed",
+            "probability": 0.99946
+          },
+          {
+            "start": 23.46,
+            "end": 23.84,
+            "word": " instead",
+            "probability": 0.98147
+          },
+          {
+            "start": 23.84,
+            "end": 24.02,
+            "word": " of",
+            "probability": 0.99757
+          },
+          {
+            "start": 24.02,
+            "end": 24.12,
+            "word": " a",
+            "probability": 0.99532
+          },
+          {
+            "start": 24.12,
+            "end": 24.32,
+            "word": " hard",
+            "probability": 0.99703
+          },
+          {
+            "start": 24.32,
+            "end": 24.7,
+            "word": " floor,",
+            "probability": 0.99403
+          },
+          {
+            "start": 25.0,
+            "end": 25.14,
+            "word": " but",
+            "probability": 0.99644
+          },
+          {
+            "start": 25.14,
+            "end": 25.36,
+            "word": " this",
+            "probability": 0.99719
+          },
+          {
+            "start": 25.36,
+            "end": 25.5,
+            "word": " is",
+            "probability": 0.99791
+          },
+          {
+            "start": 25.5,
+            "end": 26.06,
+            "word": " questionable.",
+            "probability": 0.98928
+          }
+        ]
+      },
+      {
+        "start": 26.06,
+        "end": 33.9,
+        "text": "What everyone agrees on, and what studies show, is that blocking out light and noise can help improve sleep quality.",
+        "words": [
+          {
+            "start": 26.06,
+            "end": 26.94,
+            "word": " What",
+            "probability": 0.10578
+          },
+          {
+            "start": 26.94,
+            "end": 27.34,
+            "word": " everyone",
+            "probability": 0.90105
+          },
+          {
+            "start": 27.34,
+            "end": 27.66,
+            "word": " agrees",
+            "probability": 0.99349
+          },
+          {
+            "start": 27.66,
+            "end": 28.0,
+            "word": " on,",
+            "probability": 0.99458
+          },
+          {
+            "start": 28.32,
+            "end": 28.46,
+            "word": " and",
+            "probability": 0.98635
+          },
+          {
+            "start": 28.46,
+            "end": 28.62,
+            "word": " what",
+            "probability": 0.99368
+          },
+          {
+            "start": 28.62,
+            "end": 29.0,
+            "word": " studies",
+            "probability": 0.98507
+          },
+          {
+            "start": 29.0,
+            "end": 29.4,
+            "word": " show,",
+            "probability": 0.99446
+          },
+          {
+            "start": 29.98,
+            "end": 30.08,
+            "word": " is",
+            "probability": 0.99218
+          },
+          {
+            "start": 30.08,
+            "end": 30.28,
+            "word": " that",
+            "probability": 0.99534
+          },
+          {
+            "start": 30.28,
+            "end": 30.64,
+            "word": " blocking",
+            "probability": 0.98824
+          },
+          {
+            "start": 30.64,
+            "end": 30.9,
+            "word": " out",
+            "probability": 0.99451
+          },
+          {
+            "start": 30.9,
+            "end": 31.2,
+            "word": " light",
+            "probability": 0.98773
+          },
+          {
+            "start": 31.2,
+            "end": 31.66,
+            "word": " and",
+            "probability": 0.93937
+          },
+          {
+            "start": 31.66,
+            "end": 32.02,
+            "word": " noise",
+            "probability": 0.99373
+          },
+          {
+            "start": 32.02,
+            "end": 32.34,
+            "word": " can",
+            "probability": 0.98888
+          },
+          {
+            "start": 32.34,
+            "end": 32.56,
+            "word": " help",
+            "probability": 0.99648
+          },
+          {
+            "start": 32.56,
+            "end": 33.0,
+            "word": " improve",
+            "probability": 0.99431
+          },
+          {
+            "start": 33.0,
+            "end": 33.4,
+            "word": " sleep",
+            "probability": 0.99712
+          },
+          {
+            "start": 33.4,
+            "end": 33.9,
+            "word": " quality.",
+            "probability": 0.99379
+          }
+        ]
+      },
+      {
+        "start": 34.6,
+        "end": 41.24,
+        "text": "Darkness helps our body produce melatonin, which is the hormone that makes us feel sleepy, while silence allows us to rest better.",
+        "words": [
+          {
+            "start": 34.6,
+            "end": 34.9,
+            "word": " Darkness",
+            "probability": 0.97475
+          },
+          {
+            "start": 34.9,
+            "end": 35.26,
+            "word": " helps",
+            "probability": 0.99409
+          },
+          {
+            "start": 35.26,
+            "end": 35.44,
+            "word": " our",
+            "probability": 0.99813
+          },
+          {
+            "start": 35.44,
+            "end": 35.7,
+            "word": " body",
+            "probability": 0.97137
+          },
+          {
+            "start": 35.7,
+            "end": 36.12,
+            "word": " produce",
+            "probability": 0.98747
+          },
+          {
+            "start": 36.12,
+            "end": 36.86,
+            "word": " melatonin,",
+            "probability": 0.98397
+          },
+          {
+            "start": 36.98,
+            "end": 37.1,
+            "word": " which",
+            "probability": 0.9962
+          },
+          {
+            "start": 37.1,
+            "end": 37.2,
+            "word": " is",
+            "probability": 0.99693
+          },
+          {
+            "start": 37.2,
+            "end": 37.32,
+            "word": " the",
+            "probability": 0.99597
+          },
+          {
+            "start": 37.32,
+            "end": 37.6,
+            "word": " hormone",
+            "probability": 0.99039
+          },
+          {
+            "start": 37.6,
+            "end": 37.86,
+            "word": " that",
+            "probability": 0.99181
+          },
+          {
+            "start": 37.86,
+            "end": 38.04,
+            "word": " makes",
+            "probability": 0.99647
+          },
+          {
+            "start": 38.04,
+            "end": 38.22,
+            "word": " us",
+            "probability": 0.99913
+          },
+          {
+            "start": 38.22,
+            "end": 38.42,
+            "word": " feel",
+            "probability": 0.99706
+          },
+          {
+            "start": 38.42,
+            "end": 38.84,
+            "word": " sleepy,",
+            "probability": 0.9688
+          },
+          {
+            "start": 39.24,
+            "end": 39.42,
+            "word": " while",
+            "probability": 0.98971
+          },
+          {
+            "start": 39.42,
+            "end": 39.84,
+            "word": " silence",
+            "probability": 0.98665
+          },
+          {
+            "start": 39.84,
+            "end": 40.26,
+            "word": " allows",
+            "probability": 0.99764
+          },
+          {
+            "start": 40.26,
+            "end": 40.48,
+            "word": " us",
+            "probability": 0.99154
+          },
+          {
+            "start": 40.48,
+            "end": 40.64,
+            "word": " to",
+            "probability": 0.99945
+          },
+          {
+            "start": 40.64,
+            "end": 40.82,
+            "word": " rest",
+            "probability": 0.99803
+          },
+          {
+            "start": 40.82,
+            "end": 41.24,
+            "word": " better.",
+            "probability": 0.99879
+          }
+        ]
+      },
+      {
+        "start": 42.56,
+        "end": 48.36,
+        "text": "Some say that sleep is getting worse for people today, but there is no solid proof to support this claim.",
+        "words": [
+          {
+            "start": 42.56,
+            "end": 42.86,
+            "word": " Some",
+            "probability": 0.98863
+          },
+          {
+            "start": 42.86,
+            "end": 43.18,
+            "word": " say",
+            "probability": 0.99914
+          },
+          {
+            "start": 43.18,
+            "end": 43.38,
+            "word": " that",
+            "probability": 0.97277
+          },
+          {
+            "start": 43.38,
+            "end": 43.7,
+            "word": " sleep",
+            "probability": 0.96959
+          },
+          {
+            "start": 43.7,
+            "end": 43.88,
+            "word": " is",
+            "probability": 0.99875
+          },
+          {
+            "start": 43.88,
+            "end": 44.12,
+            "word": " getting",
+            "probability": 0.99709
+          },
+          {
+            "start": 44.12,
+            "end": 44.4,
+            "word": " worse",
+            "probability": 0.9975
+          },
+          {
+            "start": 44.4,
+            "end": 44.62,
+            "word": " for",
+            "probability": 0.99805
+          },
+          {
+            "start": 44.62,
+            "end": 44.86,
+            "word": " people",
+            "probability": 0.99907
+          },
+          {
+            "start": 44.86,
+            "end": 45.2,
+            "word": " today,",
+            "probability": 0.99831
+          },
+          {
+            "start": 45.66,
+            "end": 45.8,
+            "word": " but",
+            "probability": 0.99493
+          },
+          {
+            "start": 45.8,
+            "end": 45.96,
+            "word": " there",
+            "probability": 0.9987
+          },
+          {
+            "start": 45.96,
+            "end": 46.14,
+            "word": " is",
+            "probability": 0.99432
+          },
+          {
+            "start": 46.14,
+            "end": 46.4,
+            "word": " no",
+            "probability": 0.99522
+          },
+          {
+            "start": 46.4,
+            "end": 46.8,
+            "word": " solid",
+            "probability": 0.99624
+          },
+          {
+            "start": 46.8,
+            "end": 47.14,
+            "word": " proof",
+            "probability": 0.99264
+          },
+          {
+            "start": 47.14,
+            "end": 47.44,
+            "word": " to",
+            "probability": 0.9985
+          },
+          {
+            "start": 47.44,
+            "end": 47.76,
+            "word": " support",
+            "probability": 0.99871
+          },
+          {
+            "start": 47.76,
+            "end": 48.0,
+            "word": " this",
+            "probability": 0.99775
+          },
+          {
+            "start": 48.0,
+            "end": 48.36,
+            "word": " claim.",
+            "probability": 0.99582
+          }
+        ]
+      },
+      {
+        "start": 48.96,
+        "end": 54.98,
+        "text": "Critics often point fingers at the younger generation for their unhealthy sleep patterns, but this is sometimes unfair.",
+        "words": [
+          {
+            "start": 48.96,
+            "end": 49.42,
+            "word": " Critics",
+            "probability": 0.97989
+          },
+          {
+            "start": 49.42,
+            "end": 49.72,
+            "word": " often",
+            "probability": 0.98309
+          },
+          {
+            "start": 49.72,
+            "end": 50.02,
+            "word": " point",
+            "probability": 0.99639
+          },
+          {
+            "start": 50.02,
+            "end": 50.38,
+            "word": " fingers",
+            "probability": 0.99882
+          },
+          {
+            "start": 50.38,
+            "end": 50.58,
+            "word": " at",
+            "probability": 0.99816
+          },
+          {
+            "start": 50.58,
+            "end": 50.72,
+            "word": " the",
+            "probability": 0.99376
+          },
+          {
+            "start": 50.72,
+            "end": 50.98,
+            "word": " younger",
+            "probability": 0.99664
+          },
+          {
+            "start": 50.98,
+            "end": 51.56,
+            "word": " generation",
+            "probability": 0.99853
+          },
+          {
+            "start": 51.56,
+            "end": 51.8,
+            "word": " for",
+            "probability": 0.9964
+          },
+          {
+            "start": 51.8,
+            "end": 51.96,
+            "word": " their",
+            "probability": 0.99636
+          },
+          {
+            "start": 51.96,
+            "end": 52.28,
+            "word": " unhealthy",
+            "probability": 0.99324
+          },
+          {
+            "start": 52.28,
+            "end": 52.76,
+            "word": " sleep",
+            "probability": 0.98869
+          },
+          {
+            "start": 52.76,
+            "end": 53.1,
+            "word": " patterns,",
+            "probability": 0.99773
+          },
+          {
+            "start": 53.64,
+            "end": 53.78,
+            "word": " but",
+            "probability": 0.99647
+          },
+          {
+            "start": 53.78,
+            "end": 53.96,
+            "word": " this",
+            "probability": 0.99502
+          },
+          {
+            "start": 53.96,
+            "end": 54.08,
+            "word": " is",
+            "probability": 0.99197
+          },
+          {
+            "start": 54.08,
+            "end": 54.5,
+            "word": " sometimes",
+            "probability": 0.99694
+          },
+          {
+            "start": 54.5,
+            "end": 54.98,
+            "word": " unfair.",
+            "probability": 0.99758
+          }
+        ]
+      },
+      {
+        "start": 54.98,
+        "end": 61.13,
+        "text": "What we can agree on is that the media tends to overemphasize the subject, making it seem",
+        "words": [
+          {
+            "start": 54.98,
+            "end": 56.0,
+            "word": " What",
+            "probability": 0.61901
+          },
+          {
+            "start": 56.03,
+            "end": 56.15,
+            "word": " we",
+            "probability": 0.99562
+          },
+          {
+            "start": 56.15,
+            "end": 56.33,
+            "word": " can",
+            "probability": 0.99776
+          },
+          {
+            "start": 56.33,
+            "end": 56.61,
+            "word": " agree",
+            "probability": 0.99368
+          },
+          {
+            "start": 56.61,
+            "end": 56.89,
+            "word": " on",
+            "probability": 0.99491
+          },
+          {
+            "start": 56.89,
+            "end": 57.23,
+            "word": " is",
+            "probability": 0.93404
+          },
+          {
+            "start": 57.23,
+            "end": 57.39,
+            "word": " that",
+            "probability": 0.9872
+          },
+          {
+            "start": 57.39,
+            "end": 57.55,
+            "word": " the",
+            "probability": 0.98991
+          },
+          {
+            "start": 57.55,
+            "end": 57.93,
+            "word": " media",
+            "probability": 0.99033
+          },
+          {
+            "start": 57.93,
+            "end": 58.31,
+            "word": " tends",
+            "probability": 0.99249
+          },
+          {
+            "start": 58.31,
+            "end": 58.59,
+            "word": " to",
+            "probability": 0.99847
+          },
+          {
+            "start": 58.59,
+            "end": 59.43,
+            "word": " overemphasize",
+            "probability": 0.89739
+          },
+          {
+            "start": 59.43,
+            "end": 59.63,
+            "word": " the",
+            "probability": 0.99451
+          },
+          {
+            "start": 59.63,
+            "end": 60.03,
+            "word": " subject,",
+            "probability": 0.9988
+          },
+          {
+            "start": 60.49,
+            "end": 60.69,
+            "word": " making",
+            "probability": 0.99663
+          },
+          {
+            "start": 60.69,
+            "end": 60.89,
+            "word": " it",
+            "probability": 0.99764
+          },
+          {
+            "start": 60.89,
+            "end": 61.13,
+            "word": " seem",
+            "probability": 0.99022
+          }
+        ]
+      },
+      {
+        "start": 61.13,
+        "end": 62.95,
+        "text": "more serious than it really is.",
+        "words": [
+          {
+            "start": 61.13,
+            "end": 61.41,
+            "word": " more",
+            "probability": 0.99258
+          },
+          {
+            "start": 61.41,
+            "end": 61.87,
+            "word": " serious",
+            "probability": 0.99731
+          },
+          {
+            "start": 61.87,
+            "end": 62.17,
+            "word": " than",
+            "probability": 0.99371
+          },
+          {
+            "start": 62.17,
+            "end": 62.27,
+            "word": " it",
+            "probability": 0.99689
+          },
+          {
+            "start": 62.27,
+            "end": 62.53,
+            "word": " really",
+            "probability": 0.99227
+          },
+          {
+            "start": 62.53,
+            "end": 62.95,
+            "word": " is.",
+            "probability": 0.99751
+          }
+        ]
+      },
+      {
+        "start": 64.02,
+        "end": 68.7,
+        "text": "In the end, finding what works best for you is key to getting a good night's sleep.",
+        "words": [
+          {
+            "start": 64.02,
+            "end": 64.36,
+            "word": " In",
+            "probability": 0.9825
+          },
+          {
+            "start": 64.36,
+            "end": 64.52,
+            "word": " the",
+            "probability": 0.99801
+          },
+          {
+            "start": 64.52,
+            "end": 64.82,
+            "word": " end,",
+            "probability": 0.99238
+          },
+          {
+            "start": 65.08,
+            "end": 65.32,
+            "word": " finding",
+            "probability": 0.96879
+          },
+          {
+            "start": 65.32,
+            "end": 65.52,
+            "word": " what",
+            "probability": 0.99687
+          },
+          {
+            "start": 65.52,
+            "end": 65.76,
+            "word": " works",
+            "probability": 0.99877
+          },
+          {
+            "start": 65.76,
+            "end": 66.0,
+            "word": " best",
+            "probability": 0.99938
+          },
+          {
+            "start": 66.0,
+            "end": 66.28,
+            "word": " for",
+            "probability": 0.99875
+          },
+          {
+            "start": 66.28,
+            "end": 66.62,
+            "word": " you",
+            "probability": 0.9959
+          },
+          {
+            "start": 66.62,
+            "end": 67.02,
+            "word": " is",
+            "probability": 0.80354
+          },
+          {
+            "start": 67.02,
+            "end": 67.3,
+            "word": " key",
+            "probability": 0.99534
+          },
+          {
+            "start": 67.3,
+            "end": 67.52,
+            "word": " to",
+            "probability": 0.99563
+          },
+          {
+            "start": 67.52,
+            "end": 67.74,
+            "word": " getting",
+            "probability": 0.99693
+          },
+          {
+            "start": 67.74,
+            "end": 67.92,
+            "word": " a",
+            "probability": 0.99753
+          },
+          {
+            "start": 67.92,
+            "end": 68.08,
+            "word": " good",
+            "probability": 0.85128
+          },
+          {
+            "start": 68.08,
+            "end": 68.5,
+            "word": " night's",
+            "probability": 0.92181
+          },
+          {
+            "start": 68.5,
+            "end": 68.7,
+            "word": " sleep.",
+            "probability": 0.9988
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono2",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 196,
+            "speechStart": 0.91,
+            "speechEnd": 68.7,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "sleep is very important for our health but there are many ideas about it that are not entirely true many people say you should sleep at fixed hours to get enough rest but that isn't always necessary according to science our bodies can adjust to different sleep schedules so it really depends on the individual another common belief is that you should always sleep on a bed instead of a hard floor but this is questionable what everyone agrees on and what studies show is that blocking out light and noise can help improve sleep quality darkness helps our body produce melatonin which is the hormone that makes us feel sleepy while silence allows us to rest better some say that sleep is getting worse for people today but there is no solid proof to support this claim critics often point fingers at the younger generation for their unhealthy sleep patterns but this is sometimes unfair what we can agree on is that the media tends to overemphasize the subject making it seem more serious than it really is in the end finding what works best for you is key to getting a good night's sleep",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

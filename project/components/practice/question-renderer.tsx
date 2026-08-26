@@ -395,6 +395,16 @@ export function QuestionRenderer({
   // 4. LISTENING (PARTS 1–4)
   // ----------------------------------------------------
   if (skill === "listening") {
+    // Audio assets were historically served for one year as immutable while
+    // retaining stable paths.  Keep a release token in the browser URL so a
+    // corrected segment can never resolve to bytes from that stale cache.
+    const listeningAudioVersion = "20260826-contract-v1";
+    const versionAudioUrl = (url: string, audio?: any) => {
+      if (!url) return url;
+      const separator = url.includes("?") ? "&" : "?";
+      const version = audio?.sha256?.slice(0, 16) || audio?.cacheVersion || listeningAudioVersion;
+      return `${url}${separator}v=${version}`;
+    };
     const handleAudioPlay = (e: React.SyntheticEvent<HTMLAudioElement>) => {
       const currentTarget = e.currentTarget;
       if (typeof document !== "undefined") {
@@ -417,6 +427,7 @@ export function QuestionRenderer({
       partData.audioUrl ||
       (partData.tasks && partData.tasks[0]?.audio?.url) ||
       "";
+    const browserAudioUrl = versionAudioUrl(audioUrl, partData.audio);
     const isMissingAudio = partData.audio?.status === "missing" || !audioUrl;
     const hasQuestionLevelAudio =
       partIdentifier === "part1" &&
@@ -448,7 +459,7 @@ export function QuestionRenderer({
               ) : (
                 <span className="text-[11px] text-amber-400 font-medium flex items-center gap-1.5 bg-amber-500/10 px-2.5 py-1 rounded-md border border-amber-500/20">
                   <Volume2 className="h-3.5 w-3.5 text-amber-400" />
-                  {hasQuestionLevelAudio ? "Một số câu dùng audio toàn bài" : "Audio chưa tách Part — Tua đến phần cần nghe"}
+                  {hasQuestionLevelAudio ? "Một số câu chưa có audio được xác minh" : "Audio chưa tách Part — Tua đến phần cần nghe"}
                 </span>
               )
             )}
@@ -457,7 +468,7 @@ export function QuestionRenderer({
 
           {/* Top Audio Player (Shown for Parts 2, 3, 4, or unsegmented Part 1) */}
           {!isMissingAudio ? (
-            (!hasQuestionLevelAudio || hasUnverifiedTasks || partIdentifier !== "part1") && (
+            (!hasQuestionLevelAudio || partIdentifier !== "part1") && (
               <div className="rounded-xl border border-[#262632] bg-[#16161d] p-4 space-y-2.5 mt-3 shadow-xs">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
                   <div className="flex items-center gap-2 text-xs text-emerald-300 font-bold">
@@ -472,7 +483,7 @@ export function QuestionRenderer({
                               : "Bài thuyết trình độc thoại • Monologue 1 & 2"
                           })`
                         : hasQuestionLevelAudio
-                        ? "Bản thu âm toàn bộ Part 1 (Dùng cho các câu chưa tách riêng)"
+                        ? "Bản thu âm toàn bộ Part 1"
                         : "Bản thu âm Listening — File audio toàn bộ bài thi"}
                     </span>
                   </div>
@@ -481,10 +492,10 @@ export function QuestionRenderer({
                   </span>
                 </div>
                 <audio
-                  key={audioUrl}
+                  key={browserAudioUrl}
                   controls
                   onPlay={handleAudioPlay}
-                  src={audioUrl}
+                  src={browserAudioUrl}
                   className="w-full h-10 rounded-lg"
                   preload="metadata"
                 />
@@ -510,6 +521,7 @@ export function QuestionRenderer({
               const currentAns = answers[task.id] as string | undefined;
               const qNum = task.questionNumber || taskIdx + 1;
               const taskAudioUrl = task.audio?.url;
+              const browserTaskAudioUrl = versionAudioUrl(taskAudioUrl || "", task.audio);
               const isTaskVerified = task.audio?.status === "VERIFIED";
 
               return (
@@ -520,11 +532,11 @@ export function QuestionRenderer({
                     </span>
                     {isTaskVerified ? (
                       <span className="text-[11px] text-emerald-300 font-mono bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20">
-                        Audio {qNum} • {task.audio.start}s - {task.audio.end}s
+                        Audio {qNum} • {task.audio.duration}s
                       </span>
                     ) : (
                       <span className="text-[10px] text-slate-400 font-medium bg-[#1a1a24] px-2 py-0.5 rounded border border-[#2a2a38]">
-                        Audio toàn bài (Tua đến câu {qNum})
+                        Audio chưa xác minh
                       </span>
                     )}
                   </div>
@@ -540,10 +552,10 @@ export function QuestionRenderer({
                         <span className="text-[10px] text-slate-400 font-normal">Bản nghe riêng cho câu hỏi này</span>
                       </div>
                       <audio
-                        key={taskAudioUrl}
+                        key={browserTaskAudioUrl}
                         controls
                         onPlay={handleAudioPlay}
-                        src={taskAudioUrl}
+                        src={browserTaskAudioUrl}
                         className="w-full h-9 rounded"
                         preload="none"
                       />
@@ -552,7 +564,7 @@ export function QuestionRenderer({
                     <div className="rounded-xl border border-[#262632] bg-[#16161d] p-3 text-xs text-slate-400 flex items-center gap-2">
                       <Volume2 className="h-4 w-4 text-amber-400/80 shrink-0" />
                       <span className="text-[11px] text-slate-300">
-                        Audio riêng cho câu này chưa được xác minh — vui lòng sử dụng trình phát audio ở đầu trang.
+                        Audio nguồn của câu này chưa chứng minh đủ nội dung nên tạm thời không phát.
                       </span>
                     </div>
                   ) : null}

@@ -1,0 +1,618 @@
+{
+  "testId": "aptis-b2-06",
+  "blockId": "p1-q08",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-06/part-1/q08.mp3",
+  "audioSha256": "69466e88d29318e275fe5721ac312573c6da843523e4fe53398e2326383ca8dc",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.82,
+        "end": 3.86,
+        "text": "Hi, I'm Jack, and I want to talk about where I live.",
+        "words": [
+          {
+            "start": 0.82,
+            "end": 1.32,
+            "word": " Hi,",
+            "probability": 0.89529
+          },
+          {
+            "start": 1.6,
+            "end": 1.86,
+            "word": " I'm",
+            "probability": 0.99209
+          },
+          {
+            "start": 1.86,
+            "end": 2.02,
+            "word": " Jack,",
+            "probability": 0.93934
+          },
+          {
+            "start": 2.4,
+            "end": 2.5,
+            "word": " and",
+            "probability": 0.99614
+          },
+          {
+            "start": 2.5,
+            "end": 2.58,
+            "word": " I",
+            "probability": 0.99678
+          },
+          {
+            "start": 2.58,
+            "end": 2.7,
+            "word": " want",
+            "probability": 0.81436
+          },
+          {
+            "start": 2.7,
+            "end": 2.8,
+            "word": " to",
+            "probability": 0.99562
+          },
+          {
+            "start": 2.8,
+            "end": 3.02,
+            "word": " talk",
+            "probability": 0.99786
+          },
+          {
+            "start": 3.02,
+            "end": 3.28,
+            "word": " about",
+            "probability": 0.99766
+          },
+          {
+            "start": 3.28,
+            "end": 3.52,
+            "word": " where",
+            "probability": 0.99511
+          },
+          {
+            "start": 3.52,
+            "end": 3.66,
+            "word": " I",
+            "probability": 0.99711
+          },
+          {
+            "start": 3.66,
+            "end": 3.86,
+            "word": " live.",
+            "probability": 0.99889
+          }
+        ]
+      },
+      {
+        "start": 4.77,
+        "end": 7.55,
+        "text": "Right now, I'm staying in a town hall near my university.",
+        "words": [
+          {
+            "start": 4.77,
+            "end": 5.09,
+            "word": " Right",
+            "probability": 0.98872
+          },
+          {
+            "start": 5.09,
+            "end": 5.35,
+            "word": " now,",
+            "probability": 0.99898
+          },
+          {
+            "start": 5.59,
+            "end": 5.71,
+            "word": " I'm",
+            "probability": 0.98933
+          },
+          {
+            "start": 5.71,
+            "end": 5.93,
+            "word": " staying",
+            "probability": 0.99717
+          },
+          {
+            "start": 5.93,
+            "end": 6.07,
+            "word": " in",
+            "probability": 0.98137
+          },
+          {
+            "start": 6.07,
+            "end": 6.17,
+            "word": " a",
+            "probability": 0.97073
+          },
+          {
+            "start": 6.17,
+            "end": 6.37,
+            "word": " town",
+            "probability": 0.98163
+          },
+          {
+            "start": 6.37,
+            "end": 6.67,
+            "word": " hall",
+            "probability": 0.99225
+          },
+          {
+            "start": 6.67,
+            "end": 6.85,
+            "word": " near",
+            "probability": 0.98471
+          },
+          {
+            "start": 6.85,
+            "end": 6.99,
+            "word": " my",
+            "probability": 0.99388
+          },
+          {
+            "start": 6.99,
+            "end": 7.55,
+            "word": " university.",
+            "probability": 0.94351
+          }
+        ]
+      },
+      {
+        "start": 8.21,
+        "end": 11.23,
+        "text": "It's a nice place, and I've met a lot of other students here.",
+        "words": [
+          {
+            "start": 8.21,
+            "end": 8.49,
+            "word": " It's",
+            "probability": 0.99451
+          },
+          {
+            "start": 8.49,
+            "end": 8.51,
+            "word": " a",
+            "probability": 0.99707
+          },
+          {
+            "start": 8.51,
+            "end": 8.65,
+            "word": " nice",
+            "probability": 0.99935
+          },
+          {
+            "start": 8.65,
+            "end": 9.01,
+            "word": " place,",
+            "probability": 0.99966
+          },
+          {
+            "start": 9.45,
+            "end": 9.71,
+            "word": " and",
+            "probability": 0.99767
+          },
+          {
+            "start": 9.71,
+            "end": 9.87,
+            "word": " I've",
+            "probability": 0.98936
+          },
+          {
+            "start": 9.87,
+            "end": 9.97,
+            "word": " met",
+            "probability": 0.99712
+          },
+          {
+            "start": 9.97,
+            "end": 10.07,
+            "word": " a",
+            "probability": 0.99726
+          },
+          {
+            "start": 10.07,
+            "end": 10.25,
+            "word": " lot",
+            "probability": 0.99926
+          },
+          {
+            "start": 10.25,
+            "end": 10.39,
+            "word": " of",
+            "probability": 0.9948
+          },
+          {
+            "start": 10.39,
+            "end": 10.55,
+            "word": " other",
+            "probability": 0.99664
+          },
+          {
+            "start": 10.55,
+            "end": 10.91,
+            "word": " students",
+            "probability": 0.99628
+          },
+          {
+            "start": 10.91,
+            "end": 11.23,
+            "word": " here.",
+            "probability": 0.99059
+          }
+        ]
+      },
+      {
+        "start": 12.28,
+        "end": 15.44,
+        "text": "Before this, I used to live with my parents in a small village.",
+        "words": [
+          {
+            "start": 12.28,
+            "end": 12.58,
+            "word": " Before",
+            "probability": 0.99417
+          },
+          {
+            "start": 12.58,
+            "end": 12.86,
+            "word": " this,",
+            "probability": 0.9963
+          },
+          {
+            "start": 13.24,
+            "end": 13.32,
+            "word": " I",
+            "probability": 0.99898
+          },
+          {
+            "start": 13.32,
+            "end": 13.46,
+            "word": " used",
+            "probability": 0.99506
+          },
+          {
+            "start": 13.46,
+            "end": 13.62,
+            "word": " to",
+            "probability": 0.9996
+          },
+          {
+            "start": 13.62,
+            "end": 13.76,
+            "word": " live",
+            "probability": 0.99859
+          },
+          {
+            "start": 13.76,
+            "end": 13.9,
+            "word": " with",
+            "probability": 0.9964
+          },
+          {
+            "start": 13.9,
+            "end": 14.04,
+            "word": " my",
+            "probability": 0.99921
+          },
+          {
+            "start": 14.04,
+            "end": 14.4,
+            "word": " parents",
+            "probability": 0.99875
+          },
+          {
+            "start": 14.4,
+            "end": 14.64,
+            "word": " in",
+            "probability": 0.98246
+          },
+          {
+            "start": 14.64,
+            "end": 14.74,
+            "word": " a",
+            "probability": 0.99485
+          },
+          {
+            "start": 14.74,
+            "end": 15.0,
+            "word": " small",
+            "probability": 0.99816
+          },
+          {
+            "start": 15.0,
+            "end": 15.44,
+            "word": " village.",
+            "probability": 0.99901
+          }
+        ]
+      },
+      {
+        "start": 16.0,
+        "end": 18.78,
+        "text": "It was quiet, but I needed to be closer to school.",
+        "words": [
+          {
+            "start": 16.0,
+            "end": 16.22,
+            "word": " It",
+            "probability": 0.99604
+          },
+          {
+            "start": 16.22,
+            "end": 16.36,
+            "word": " was",
+            "probability": 0.99884
+          },
+          {
+            "start": 16.36,
+            "end": 16.72,
+            "word": " quiet,",
+            "probability": 0.99545
+          },
+          {
+            "start": 17.06,
+            "end": 17.38,
+            "word": " but",
+            "probability": 0.99678
+          },
+          {
+            "start": 17.38,
+            "end": 17.48,
+            "word": " I",
+            "probability": 0.99811
+          },
+          {
+            "start": 17.48,
+            "end": 17.64,
+            "word": " needed",
+            "probability": 0.98702
+          },
+          {
+            "start": 17.64,
+            "end": 17.8,
+            "word": " to",
+            "probability": 0.99874
+          },
+          {
+            "start": 17.8,
+            "end": 17.9,
+            "word": " be",
+            "probability": 0.99812
+          },
+          {
+            "start": 17.9,
+            "end": 18.24,
+            "word": " closer",
+            "probability": 0.9948
+          },
+          {
+            "start": 18.24,
+            "end": 18.44,
+            "word": " to",
+            "probability": 0.99844
+          },
+          {
+            "start": 18.44,
+            "end": 18.78,
+            "word": " school.",
+            "probability": 0.99899
+          }
+        ]
+      },
+      {
+        "start": 19.26,
+        "end": 22.32,
+        "text": "Soon, I'll move to an apartment nearby with a few friends.",
+        "words": [
+          {
+            "start": 19.26,
+            "end": 19.66,
+            "word": " Soon,",
+            "probability": 0.99614
+          },
+          {
+            "start": 19.96,
+            "end": 20.16,
+            "word": " I'll",
+            "probability": 0.99692
+          },
+          {
+            "start": 20.16,
+            "end": 20.32,
+            "word": " move",
+            "probability": 0.99517
+          },
+          {
+            "start": 20.32,
+            "end": 20.48,
+            "word": " to",
+            "probability": 0.99806
+          },
+          {
+            "start": 20.48,
+            "end": 20.56,
+            "word": " an",
+            "probability": 0.9931
+          },
+          {
+            "start": 20.56,
+            "end": 20.9,
+            "word": " apartment",
+            "probability": 0.99698
+          },
+          {
+            "start": 20.9,
+            "end": 21.3,
+            "word": " nearby",
+            "probability": 0.99202
+          },
+          {
+            "start": 21.3,
+            "end": 21.66,
+            "word": " with",
+            "probability": 0.9963
+          },
+          {
+            "start": 21.66,
+            "end": 21.74,
+            "word": " a",
+            "probability": 0.99774
+          },
+          {
+            "start": 21.74,
+            "end": 21.94,
+            "word": " few",
+            "probability": 0.99982
+          },
+          {
+            "start": 21.94,
+            "end": 22.32,
+            "word": " friends.",
+            "probability": 0.99927
+          }
+        ]
+      },
+      {
+        "start": 22.94,
+        "end": 24.88,
+        "text": "I think it'll be fun to share a place with them.",
+        "words": [
+          {
+            "start": 22.94,
+            "end": 23.12,
+            "word": " I",
+            "probability": 0.99784
+          },
+          {
+            "start": 23.12,
+            "end": 23.28,
+            "word": " think",
+            "probability": 0.99846
+          },
+          {
+            "start": 23.28,
+            "end": 23.48,
+            "word": " it'll",
+            "probability": 0.94848
+          },
+          {
+            "start": 23.48,
+            "end": 23.58,
+            "word": " be",
+            "probability": 0.99891
+          },
+          {
+            "start": 23.58,
+            "end": 23.82,
+            "word": " fun",
+            "probability": 0.99903
+          },
+          {
+            "start": 23.82,
+            "end": 23.98,
+            "word": " to",
+            "probability": 0.99907
+          },
+          {
+            "start": 23.98,
+            "end": 24.18,
+            "word": " share",
+            "probability": 0.99682
+          },
+          {
+            "start": 24.18,
+            "end": 24.28,
+            "word": " a",
+            "probability": 0.98983
+          },
+          {
+            "start": 24.28,
+            "end": 24.48,
+            "word": " place",
+            "probability": 0.99837
+          },
+          {
+            "start": 24.48,
+            "end": 24.7,
+            "word": " with",
+            "probability": 0.99955
+          },
+          {
+            "start": 24.7,
+            "end": 24.88,
+            "word": " them.",
+            "probability": 0.99885
+          }
+        ]
+      },
+      {
+        "start": 24.88,
+        "end": 26.52,
+        "text": "I'm excited about the change.",
+        "words": [
+          {
+            "start": 24.88,
+            "end": 25.56,
+            "word": " I'm",
+            "probability": 0.72136
+          },
+          {
+            "start": 25.56,
+            "end": 25.86,
+            "word": " excited",
+            "probability": 0.99107
+          },
+          {
+            "start": 25.86,
+            "end": 26.1,
+            "word": " about",
+            "probability": 0.98842
+          },
+          {
+            "start": 26.1,
+            "end": 26.24,
+            "word": " the",
+            "probability": 0.98248
+          },
+          {
+            "start": 26.24,
+            "end": 26.52,
+            "word": " change.",
+            "probability": 0.99486
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q08",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 87,
+            "speechStart": 0.82,
+            "speechEnd": 26.52,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi i'm jack and i want to talk about where i live right now i'm staying in a town hall near my university it's a nice place and i've met a lot of other students here before this i used to live with my parents in a small village it was quiet but i needed to be closer to school soon i'll move to an apartment nearby with a few friends i think it'll be fun to share a place with them i'm excited about the change",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

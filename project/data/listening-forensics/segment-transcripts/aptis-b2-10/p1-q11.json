@@ -1,0 +1,913 @@
+{
+  "testId": "aptis-b2-10",
+  "blockId": "p1-q11",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-10/part-1/q11.mp3",
+  "audioSha256": "f91f58fa6e18a0c5e4a0e664ee6ceb55711a3ca69ea3fe94222e95019151211c",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.82,
+        "end": 6.16,
+        "text": "We have a big meeting coming up next week. There are a few things I still need to do to get ready.",
+        "words": [
+          {
+            "start": 0.82,
+            "end": 1.28,
+            "word": " We",
+            "probability": 0.72935
+          },
+          {
+            "start": 1.28,
+            "end": 1.44,
+            "word": " have",
+            "probability": 0.99496
+          },
+          {
+            "start": 1.44,
+            "end": 1.58,
+            "word": " a",
+            "probability": 0.9941
+          },
+          {
+            "start": 1.58,
+            "end": 1.8,
+            "word": " big",
+            "probability": 0.98522
+          },
+          {
+            "start": 1.8,
+            "end": 2.12,
+            "word": " meeting",
+            "probability": 0.9954
+          },
+          {
+            "start": 2.12,
+            "end": 2.5,
+            "word": " coming",
+            "probability": 0.99589
+          },
+          {
+            "start": 2.5,
+            "end": 2.68,
+            "word": " up",
+            "probability": 0.99453
+          },
+          {
+            "start": 2.68,
+            "end": 2.98,
+            "word": " next",
+            "probability": 0.99869
+          },
+          {
+            "start": 2.98,
+            "end": 3.28,
+            "word": " week.",
+            "probability": 0.99928
+          },
+          {
+            "start": 3.76,
+            "end": 3.84,
+            "word": " There",
+            "probability": 0.93176
+          },
+          {
+            "start": 3.84,
+            "end": 3.96,
+            "word": " are",
+            "probability": 0.99453
+          },
+          {
+            "start": 3.96,
+            "end": 4.08,
+            "word": " a",
+            "probability": 0.99188
+          },
+          {
+            "start": 4.08,
+            "end": 4.26,
+            "word": " few",
+            "probability": 0.99392
+          },
+          {
+            "start": 4.26,
+            "end": 4.52,
+            "word": " things",
+            "probability": 0.99824
+          },
+          {
+            "start": 4.52,
+            "end": 4.74,
+            "word": " I",
+            "probability": 0.9828
+          },
+          {
+            "start": 4.74,
+            "end": 4.98,
+            "word": " still",
+            "probability": 0.99101
+          },
+          {
+            "start": 4.98,
+            "end": 5.18,
+            "word": " need",
+            "probability": 0.99863
+          },
+          {
+            "start": 5.18,
+            "end": 5.34,
+            "word": " to",
+            "probability": 0.99776
+          },
+          {
+            "start": 5.34,
+            "end": 5.5,
+            "word": " do",
+            "probability": 0.75619
+          },
+          {
+            "start": 5.5,
+            "end": 5.66,
+            "word": " to",
+            "probability": 0.99776
+          },
+          {
+            "start": 5.66,
+            "end": 5.78,
+            "word": " get",
+            "probability": 0.99909
+          },
+          {
+            "start": 5.78,
+            "end": 6.16,
+            "word": " ready.",
+            "probability": 0.99766
+          }
+        ]
+      },
+      {
+        "start": 6.64,
+        "end": 13.3,
+        "text": "For example, I need to set up the chairs for everyone. Then, of course, I have to order the food so we can eat during the break.",
+        "words": [
+          {
+            "start": 6.64,
+            "end": 6.74,
+            "word": " For",
+            "probability": 0.9901
+          },
+          {
+            "start": 6.74,
+            "end": 7.08,
+            "word": " example,",
+            "probability": 0.99781
+          },
+          {
+            "start": 7.32,
+            "end": 7.42,
+            "word": " I",
+            "probability": 0.9693
+          },
+          {
+            "start": 7.42,
+            "end": 7.54,
+            "word": " need",
+            "probability": 0.99669
+          },
+          {
+            "start": 7.54,
+            "end": 7.7,
+            "word": " to",
+            "probability": 0.99883
+          },
+          {
+            "start": 7.7,
+            "end": 7.86,
+            "word": " set",
+            "probability": 0.98041
+          },
+          {
+            "start": 7.86,
+            "end": 8.02,
+            "word": " up",
+            "probability": 0.9936
+          },
+          {
+            "start": 8.02,
+            "end": 8.2,
+            "word": " the",
+            "probability": 0.99432
+          },
+          {
+            "start": 8.2,
+            "end": 8.42,
+            "word": " chairs",
+            "probability": 0.9911
+          },
+          {
+            "start": 8.42,
+            "end": 8.68,
+            "word": " for",
+            "probability": 0.99886
+          },
+          {
+            "start": 8.68,
+            "end": 9.2,
+            "word": " everyone.",
+            "probability": 0.99129
+          },
+          {
+            "start": 9.78,
+            "end": 9.98,
+            "word": " Then,",
+            "probability": 0.99014
+          },
+          {
+            "start": 10.14,
+            "end": 10.28,
+            "word": " of",
+            "probability": 0.99517
+          },
+          {
+            "start": 10.28,
+            "end": 10.48,
+            "word": " course,",
+            "probability": 0.99813
+          },
+          {
+            "start": 10.74,
+            "end": 10.82,
+            "word": " I",
+            "probability": 0.99837
+          },
+          {
+            "start": 10.82,
+            "end": 10.98,
+            "word": " have",
+            "probability": 0.99633
+          },
+          {
+            "start": 10.98,
+            "end": 11.1,
+            "word": " to",
+            "probability": 0.99946
+          },
+          {
+            "start": 11.1,
+            "end": 11.28,
+            "word": " order",
+            "probability": 0.98577
+          },
+          {
+            "start": 11.28,
+            "end": 11.48,
+            "word": " the",
+            "probability": 0.99445
+          },
+          {
+            "start": 11.48,
+            "end": 11.72,
+            "word": " food",
+            "probability": 0.90186
+          },
+          {
+            "start": 11.72,
+            "end": 12.0,
+            "word": " so",
+            "probability": 0.96333
+          },
+          {
+            "start": 12.0,
+            "end": 12.16,
+            "word": " we",
+            "probability": 0.99624
+          },
+          {
+            "start": 12.16,
+            "end": 12.3,
+            "word": " can",
+            "probability": 0.99806
+          },
+          {
+            "start": 12.3,
+            "end": 12.54,
+            "word": " eat",
+            "probability": 0.99849
+          },
+          {
+            "start": 12.54,
+            "end": 12.86,
+            "word": " during",
+            "probability": 0.9965
+          },
+          {
+            "start": 12.86,
+            "end": 13.02,
+            "word": " the",
+            "probability": 0.99784
+          },
+          {
+            "start": 13.02,
+            "end": 13.3,
+            "word": " break.",
+            "probability": 0.99292
+          }
+        ]
+      },
+      {
+        "start": 13.92,
+        "end": 19.16,
+        "text": "I'll also organise the documents that will need for the discussion, but food is the priority right now.",
+        "words": [
+          {
+            "start": 13.92,
+            "end": 14.22,
+            "word": " I'll",
+            "probability": 0.98179
+          },
+          {
+            "start": 14.22,
+            "end": 14.48,
+            "word": " also",
+            "probability": 0.99892
+          },
+          {
+            "start": 14.48,
+            "end": 14.92,
+            "word": " organise",
+            "probability": 0.7788
+          },
+          {
+            "start": 14.92,
+            "end": 15.16,
+            "word": " the",
+            "probability": 0.99813
+          },
+          {
+            "start": 15.16,
+            "end": 15.56,
+            "word": " documents",
+            "probability": 0.99817
+          },
+          {
+            "start": 15.56,
+            "end": 15.84,
+            "word": " that",
+            "probability": 0.99334
+          },
+          {
+            "start": 15.84,
+            "end": 16.0,
+            "word": " will",
+            "probability": 0.53516
+          },
+          {
+            "start": 16.0,
+            "end": 16.2,
+            "word": " need",
+            "probability": 0.99703
+          },
+          {
+            "start": 16.2,
+            "end": 16.38,
+            "word": " for",
+            "probability": 0.99581
+          },
+          {
+            "start": 16.38,
+            "end": 16.5,
+            "word": " the",
+            "probability": 0.98795
+          },
+          {
+            "start": 16.5,
+            "end": 16.98,
+            "word": " discussion,",
+            "probability": 0.99806
+          },
+          {
+            "start": 17.36,
+            "end": 17.56,
+            "word": " but",
+            "probability": 0.99407
+          },
+          {
+            "start": 17.56,
+            "end": 17.86,
+            "word": " food",
+            "probability": 0.98605
+          },
+          {
+            "start": 17.86,
+            "end": 18.04,
+            "word": " is",
+            "probability": 0.99165
+          },
+          {
+            "start": 18.04,
+            "end": 18.16,
+            "word": " the",
+            "probability": 0.99764
+          },
+          {
+            "start": 18.16,
+            "end": 18.62,
+            "word": " priority",
+            "probability": 0.99913
+          },
+          {
+            "start": 18.62,
+            "end": 18.9,
+            "word": " right",
+            "probability": 0.9942
+          },
+          {
+            "start": 18.9,
+            "end": 19.16,
+            "word": " now.",
+            "probability": 0.99916
+          }
+        ]
+      },
+      {
+        "start": 22.57,
+        "end": 27.61,
+        "text": "We have a big meeting coming up next week. There are a few things I still need to do to get ready.",
+        "words": [
+          {
+            "start": 22.57,
+            "end": 22.73,
+            "word": " We",
+            "probability": 0.9656
+          },
+          {
+            "start": 22.73,
+            "end": 22.89,
+            "word": " have",
+            "probability": 0.99867
+          },
+          {
+            "start": 22.89,
+            "end": 23.03,
+            "word": " a",
+            "probability": 0.99803
+          },
+          {
+            "start": 23.03,
+            "end": 23.23,
+            "word": " big",
+            "probability": 0.99535
+          },
+          {
+            "start": 23.23,
+            "end": 23.57,
+            "word": " meeting",
+            "probability": 0.99912
+          },
+          {
+            "start": 23.57,
+            "end": 23.95,
+            "word": " coming",
+            "probability": 0.998
+          },
+          {
+            "start": 23.95,
+            "end": 24.13,
+            "word": " up",
+            "probability": 0.99877
+          },
+          {
+            "start": 24.13,
+            "end": 24.39,
+            "word": " next",
+            "probability": 0.99878
+          },
+          {
+            "start": 24.39,
+            "end": 24.73,
+            "word": " week.",
+            "probability": 0.99939
+          },
+          {
+            "start": 25.19,
+            "end": 25.29,
+            "word": " There",
+            "probability": 0.98893
+          },
+          {
+            "start": 25.29,
+            "end": 25.41,
+            "word": " are",
+            "probability": 0.99409
+          },
+          {
+            "start": 25.41,
+            "end": 25.55,
+            "word": " a",
+            "probability": 0.98434
+          },
+          {
+            "start": 25.55,
+            "end": 25.69,
+            "word": " few",
+            "probability": 0.99866
+          },
+          {
+            "start": 25.69,
+            "end": 25.95,
+            "word": " things",
+            "probability": 0.99799
+          },
+          {
+            "start": 25.95,
+            "end": 26.19,
+            "word": " I",
+            "probability": 0.99772
+          },
+          {
+            "start": 26.19,
+            "end": 26.43,
+            "word": " still",
+            "probability": 0.99651
+          },
+          {
+            "start": 26.43,
+            "end": 26.61,
+            "word": " need",
+            "probability": 0.99826
+          },
+          {
+            "start": 26.61,
+            "end": 26.79,
+            "word": " to",
+            "probability": 0.99875
+          },
+          {
+            "start": 26.79,
+            "end": 26.95,
+            "word": " do",
+            "probability": 0.94016
+          },
+          {
+            "start": 26.95,
+            "end": 27.11,
+            "word": " to",
+            "probability": 0.99918
+          },
+          {
+            "start": 27.11,
+            "end": 27.25,
+            "word": " get",
+            "probability": 0.99892
+          },
+          {
+            "start": 27.25,
+            "end": 27.61,
+            "word": " ready.",
+            "probability": 0.99962
+          }
+        ]
+      },
+      {
+        "start": 27.61,
+        "end": 30.69,
+        "text": "For example, I need to set up the chairs for everyone.",
+        "words": [
+          {
+            "start": 27.61,
+            "end": 28.17,
+            "word": " For",
+            "probability": 0.6634
+          },
+          {
+            "start": 28.17,
+            "end": 28.55,
+            "word": " example,",
+            "probability": 0.99734
+          },
+          {
+            "start": 28.77,
+            "end": 28.87,
+            "word": " I",
+            "probability": 0.96229
+          },
+          {
+            "start": 28.87,
+            "end": 29.01,
+            "word": " need",
+            "probability": 0.99392
+          },
+          {
+            "start": 29.01,
+            "end": 29.15,
+            "word": " to",
+            "probability": 0.99897
+          },
+          {
+            "start": 29.15,
+            "end": 29.33,
+            "word": " set",
+            "probability": 0.93946
+          },
+          {
+            "start": 29.33,
+            "end": 29.45,
+            "word": " up",
+            "probability": 0.9928
+          },
+          {
+            "start": 29.45,
+            "end": 29.63,
+            "word": " the",
+            "probability": 0.98467
+          },
+          {
+            "start": 29.63,
+            "end": 29.87,
+            "word": " chairs",
+            "probability": 0.9842
+          },
+          {
+            "start": 29.87,
+            "end": 30.13,
+            "word": " for",
+            "probability": 0.99798
+          },
+          {
+            "start": 30.13,
+            "end": 30.69,
+            "word": " everyone.",
+            "probability": 0.99271
+          }
+        ]
+      },
+      {
+        "start": 31.15,
+        "end": 34.75,
+        "text": "Then, of course, I have to order the food so we can eat during the break.",
+        "words": [
+          {
+            "start": 31.15,
+            "end": 31.47,
+            "word": " Then,",
+            "probability": 0.97936
+          },
+          {
+            "start": 31.61,
+            "end": 31.71,
+            "word": " of",
+            "probability": 0.99326
+          },
+          {
+            "start": 31.71,
+            "end": 31.93,
+            "word": " course,",
+            "probability": 0.99748
+          },
+          {
+            "start": 32.19,
+            "end": 32.27,
+            "word": " I",
+            "probability": 0.99789
+          },
+          {
+            "start": 32.27,
+            "end": 32.41,
+            "word": " have",
+            "probability": 0.99634
+          },
+          {
+            "start": 32.41,
+            "end": 32.57,
+            "word": " to",
+            "probability": 0.9993
+          },
+          {
+            "start": 32.57,
+            "end": 32.77,
+            "word": " order",
+            "probability": 0.9943
+          },
+          {
+            "start": 32.77,
+            "end": 32.93,
+            "word": " the",
+            "probability": 0.98534
+          },
+          {
+            "start": 32.93,
+            "end": 33.19,
+            "word": " food",
+            "probability": 0.98293
+          },
+          {
+            "start": 33.19,
+            "end": 33.45,
+            "word": " so",
+            "probability": 0.94274
+          },
+          {
+            "start": 33.45,
+            "end": 33.61,
+            "word": " we",
+            "probability": 0.98419
+          },
+          {
+            "start": 33.61,
+            "end": 33.75,
+            "word": " can",
+            "probability": 0.99428
+          },
+          {
+            "start": 33.75,
+            "end": 33.99,
+            "word": " eat",
+            "probability": 0.998
+          },
+          {
+            "start": 33.99,
+            "end": 34.31,
+            "word": " during",
+            "probability": 0.9973
+          },
+          {
+            "start": 34.31,
+            "end": 34.47,
+            "word": " the",
+            "probability": 0.99064
+          },
+          {
+            "start": 34.47,
+            "end": 34.75,
+            "word": " break.",
+            "probability": 0.99066
+          }
+        ]
+      },
+      {
+        "start": 35.43,
+        "end": 38.43,
+        "text": "I'll also organise the documents that will need for the discussion,",
+        "words": [
+          {
+            "start": 35.43,
+            "end": 35.69,
+            "word": " I'll",
+            "probability": 0.96759
+          },
+          {
+            "start": 35.69,
+            "end": 35.93,
+            "word": " also",
+            "probability": 0.99772
+          },
+          {
+            "start": 35.93,
+            "end": 36.33,
+            "word": " organise",
+            "probability": 0.82625
+          },
+          {
+            "start": 36.33,
+            "end": 36.61,
+            "word": " the",
+            "probability": 0.99751
+          },
+          {
+            "start": 36.61,
+            "end": 37.03,
+            "word": " documents",
+            "probability": 0.99639
+          },
+          {
+            "start": 37.03,
+            "end": 37.29,
+            "word": " that",
+            "probability": 0.9833
+          },
+          {
+            "start": 37.29,
+            "end": 37.45,
+            "word": " will",
+            "probability": 0.68502
+          },
+          {
+            "start": 37.45,
+            "end": 37.67,
+            "word": " need",
+            "probability": 0.99344
+          },
+          {
+            "start": 37.67,
+            "end": 37.85,
+            "word": " for",
+            "probability": 0.99172
+          },
+          {
+            "start": 37.85,
+            "end": 37.95,
+            "word": " the",
+            "probability": 0.98766
+          },
+          {
+            "start": 37.95,
+            "end": 38.43,
+            "word": " discussion,",
+            "probability": 0.99652
+          }
+        ]
+      },
+      {
+        "start": 38.83,
+        "end": 40.65,
+        "text": "but food is the priority right now.",
+        "words": [
+          {
+            "start": 38.83,
+            "end": 39.03,
+            "word": " but",
+            "probability": 0.9874
+          },
+          {
+            "start": 39.03,
+            "end": 39.33,
+            "word": " food",
+            "probability": 0.97343
+          },
+          {
+            "start": 39.33,
+            "end": 39.51,
+            "word": " is",
+            "probability": 0.99528
+          },
+          {
+            "start": 39.51,
+            "end": 39.61,
+            "word": " the",
+            "probability": 0.97272
+          },
+          {
+            "start": 39.61,
+            "end": 40.11,
+            "word": " priority",
+            "probability": 0.99844
+          },
+          {
+            "start": 40.11,
+            "end": 40.35,
+            "word": " right",
+            "probability": 0.98759
+          },
+          {
+            "start": 40.35,
+            "end": 40.65,
+            "word": " now.",
+            "probability": 0.99772
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q11",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 67,
+            "speechStart": 0.82,
+            "speechEnd": 19.16,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "we have a big meeting coming up next week there are a few things i still need to do to get ready for example i need to set up the chairs for everyone then of course i have to order the food so we can eat during the break i'll also organise the documents that will need for the discussion but food is the priority right now",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 67,
+            "wordEndIndexExclusive": 134,
+            "speechStart": 22.57,
+            "speechEnd": 40.65,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "we have a big meeting coming up next week there are a few things i still need to do to get ready for example i need to set up the chairs for everyone then of course i have to order the food so we can eat during the break i'll also organise the documents that will need for the discussion but food is the priority right now",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p1-q09",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-1/q09.mp3",
+  "audioSha256": "76b7c6f2659cd313eedba5662c550c548dacfe19f21c00a0774d447d132f4c5d",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 3.5,
+        "text": "I've been thinking about how to get to work every day.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.26,
+            "word": " I've",
+            "probability": 0.96263
+          },
+          {
+            "start": 1.26,
+            "end": 1.36,
+            "word": " been",
+            "probability": 0.99742
+          },
+          {
+            "start": 1.36,
+            "end": 1.68,
+            "word": " thinking",
+            "probability": 0.9981
+          },
+          {
+            "start": 1.68,
+            "end": 1.96,
+            "word": " about",
+            "probability": 0.99738
+          },
+          {
+            "start": 1.96,
+            "end": 2.24,
+            "word": " how",
+            "probability": 0.99445
+          },
+          {
+            "start": 2.24,
+            "end": 2.36,
+            "word": " to",
+            "probability": 0.99481
+          },
+          {
+            "start": 2.36,
+            "end": 2.48,
+            "word": " get",
+            "probability": 0.99394
+          },
+          {
+            "start": 2.48,
+            "end": 2.66,
+            "word": " to",
+            "probability": 0.99655
+          },
+          {
+            "start": 2.66,
+            "end": 2.86,
+            "word": " work",
+            "probability": 0.99932
+          },
+          {
+            "start": 2.86,
+            "end": 3.24,
+            "word": " every",
+            "probability": 0.87412
+          },
+          {
+            "start": 3.24,
+            "end": 3.5,
+            "word": " day.",
+            "probability": 0.99947
+          }
+        ]
+      },
+      {
+        "start": 4.0,
+        "end": 8.12,
+        "text": "At first, I considered driving, but the traffic is always really bad in the morning.",
+        "words": [
+          {
+            "start": 4.0,
+            "end": 4.1,
+            "word": " At",
+            "probability": 0.99325
+          },
+          {
+            "start": 4.1,
+            "end": 4.38,
+            "word": " first,",
+            "probability": 0.99819
+          },
+          {
+            "start": 4.6,
+            "end": 4.66,
+            "word": " I",
+            "probability": 0.99734
+          },
+          {
+            "start": 4.66,
+            "end": 5.04,
+            "word": " considered",
+            "probability": 0.91252
+          },
+          {
+            "start": 5.04,
+            "end": 5.5,
+            "word": " driving,",
+            "probability": 0.99604
+          },
+          {
+            "start": 5.92,
+            "end": 6.1,
+            "word": " but",
+            "probability": 0.9948
+          },
+          {
+            "start": 6.1,
+            "end": 6.22,
+            "word": " the",
+            "probability": 0.99194
+          },
+          {
+            "start": 6.22,
+            "end": 6.54,
+            "word": " traffic",
+            "probability": 0.99959
+          },
+          {
+            "start": 6.54,
+            "end": 6.78,
+            "word": " is",
+            "probability": 0.98674
+          },
+          {
+            "start": 6.78,
+            "end": 7.04,
+            "word": " always",
+            "probability": 0.98648
+          },
+          {
+            "start": 7.04,
+            "end": 7.38,
+            "word": " really",
+            "probability": 0.98692
+          },
+          {
+            "start": 7.38,
+            "end": 7.58,
+            "word": " bad",
+            "probability": 0.99899
+          },
+          {
+            "start": 7.58,
+            "end": 7.76,
+            "word": " in",
+            "probability": 0.99454
+          },
+          {
+            "start": 7.76,
+            "end": 7.82,
+            "word": " the",
+            "probability": 0.99813
+          },
+          {
+            "start": 7.82,
+            "end": 8.12,
+            "word": " morning.",
+            "probability": 0.99889
+          }
+        ]
+      },
+      {
+        "start": 8.78,
+        "end": 13.56,
+        "text": "Then, I thought about riding my bike, but it's too far, and I'd be tired before I even",
+        "words": [
+          {
+            "start": 8.78,
+            "end": 9.06,
+            "word": " Then,",
+            "probability": 0.9918
+          },
+          {
+            "start": 9.4,
+            "end": 9.5,
+            "word": " I",
+            "probability": 0.99806
+          },
+          {
+            "start": 9.5,
+            "end": 9.68,
+            "word": " thought",
+            "probability": 0.99212
+          },
+          {
+            "start": 9.68,
+            "end": 9.9,
+            "word": " about",
+            "probability": 0.99806
+          },
+          {
+            "start": 9.9,
+            "end": 10.14,
+            "word": " riding",
+            "probability": 0.98781
+          },
+          {
+            "start": 10.14,
+            "end": 10.36,
+            "word": " my",
+            "probability": 0.99618
+          },
+          {
+            "start": 10.36,
+            "end": 10.64,
+            "word": " bike,",
+            "probability": 0.99918
+          },
+          {
+            "start": 11.06,
+            "end": 11.14,
+            "word": " but",
+            "probability": 0.99633
+          },
+          {
+            "start": 11.14,
+            "end": 11.36,
+            "word": " it's",
+            "probability": 0.98448
+          },
+          {
+            "start": 11.36,
+            "end": 11.52,
+            "word": " too",
+            "probability": 0.9964
+          },
+          {
+            "start": 11.52,
+            "end": 11.86,
+            "word": " far,",
+            "probability": 0.99816
+          },
+          {
+            "start": 12.14,
+            "end": 12.28,
+            "word": " and",
+            "probability": 0.99658
+          },
+          {
+            "start": 12.28,
+            "end": 12.44,
+            "word": " I'd",
+            "probability": 0.99047
+          },
+          {
+            "start": 12.44,
+            "end": 12.52,
+            "word": " be",
+            "probability": 0.98837
+          },
+          {
+            "start": 12.52,
+            "end": 12.9,
+            "word": " tired",
+            "probability": 0.99828
+          },
+          {
+            "start": 12.9,
+            "end": 13.26,
+            "word": " before",
+            "probability": 0.98699
+          },
+          {
+            "start": 13.26,
+            "end": 13.4,
+            "word": " I",
+            "probability": 0.9949
+          },
+          {
+            "start": 13.4,
+            "end": 13.56,
+            "word": " even",
+            "probability": 0.99771
+          }
+        ]
+      },
+      {
+        "start": 13.56,
+        "end": 14.2,
+        "text": "start my day.",
+        "words": [
+          {
+            "start": 13.56,
+            "end": 13.8,
+            "word": " start",
+            "probability": 0.99406
+          },
+          {
+            "start": 13.8,
+            "end": 13.98,
+            "word": " my",
+            "probability": 0.99312
+          },
+          {
+            "start": 13.98,
+            "end": 14.2,
+            "word": " day.",
+            "probability": 0.99956
+          }
+        ]
+      },
+      {
+        "start": 14.86,
+        "end": 17.3,
+        "text": "The bus is another option, but it's often late.",
+        "words": [
+          {
+            "start": 14.86,
+            "end": 14.96,
+            "word": " The",
+            "probability": 0.9864
+          },
+          {
+            "start": 14.96,
+            "end": 15.14,
+            "word": " bus",
+            "probability": 0.99493
+          },
+          {
+            "start": 15.14,
+            "end": 15.32,
+            "word": " is",
+            "probability": 0.99086
+          },
+          {
+            "start": 15.32,
+            "end": 15.48,
+            "word": " another",
+            "probability": 0.99301
+          },
+          {
+            "start": 15.48,
+            "end": 15.94,
+            "word": " option,",
+            "probability": 0.99899
+          },
+          {
+            "start": 16.4,
+            "end": 16.54,
+            "word": " but",
+            "probability": 0.99794
+          },
+          {
+            "start": 16.54,
+            "end": 16.72,
+            "word": " it's",
+            "probability": 0.9906
+          },
+          {
+            "start": 16.72,
+            "end": 17.04,
+            "word": " often",
+            "probability": 0.98656
+          },
+          {
+            "start": 17.04,
+            "end": 17.3,
+            "word": " late.",
+            "probability": 0.99731
+          }
+        ]
+      },
+      {
+        "start": 18.2,
+        "end": 21.3,
+        "text": "After thinking about all the choices, I decided to travel by train.",
+        "words": [
+          {
+            "start": 18.2,
+            "end": 18.46,
+            "word": " After",
+            "probability": 0.99731
+          },
+          {
+            "start": 18.46,
+            "end": 18.7,
+            "word": " thinking",
+            "probability": 0.99773
+          },
+          {
+            "start": 18.7,
+            "end": 18.98,
+            "word": " about",
+            "probability": 0.99898
+          },
+          {
+            "start": 18.98,
+            "end": 19.22,
+            "word": " all",
+            "probability": 0.99764
+          },
+          {
+            "start": 19.22,
+            "end": 19.34,
+            "word": " the",
+            "probability": 0.98499
+          },
+          {
+            "start": 19.34,
+            "end": 19.66,
+            "word": " choices,",
+            "probability": 0.99806
+          },
+          {
+            "start": 19.94,
+            "end": 19.98,
+            "word": " I",
+            "probability": 0.99925
+          },
+          {
+            "start": 19.98,
+            "end": 20.28,
+            "word": " decided",
+            "probability": 0.99744
+          },
+          {
+            "start": 20.28,
+            "end": 20.48,
+            "word": " to",
+            "probability": 0.99971
+          },
+          {
+            "start": 20.48,
+            "end": 20.74,
+            "word": " travel",
+            "probability": 0.99875
+          },
+          {
+            "start": 20.74,
+            "end": 20.98,
+            "word": " by",
+            "probability": 0.99623
+          },
+          {
+            "start": 20.98,
+            "end": 21.3,
+            "word": " train.",
+            "probability": 0.99807
+          }
+        ]
+      },
+      {
+        "start": 21.94,
+        "end": 25.38,
+        "text": "It's practical because it's on time, and I can relax during the trip.",
+        "words": [
+          {
+            "start": 21.94,
+            "end": 22.18,
+            "word": " It's",
+            "probability": 0.99457
+          },
+          {
+            "start": 22.18,
+            "end": 22.52,
+            "word": " practical",
+            "probability": 0.99398
+          },
+          {
+            "start": 22.52,
+            "end": 22.88,
+            "word": " because",
+            "probability": 0.94403
+          },
+          {
+            "start": 22.88,
+            "end": 23.1,
+            "word": " it's",
+            "probability": 0.99442
+          },
+          {
+            "start": 23.1,
+            "end": 23.22,
+            "word": " on",
+            "probability": 0.99261
+          },
+          {
+            "start": 23.22,
+            "end": 23.54,
+            "word": " time,",
+            "probability": 0.98899
+          },
+          {
+            "start": 23.54,
+            "end": 24.06,
+            "word": " and",
+            "probability": 0.99788
+          },
+          {
+            "start": 24.06,
+            "end": 24.18,
+            "word": " I",
+            "probability": 0.99306
+          },
+          {
+            "start": 24.18,
+            "end": 24.3,
+            "word": " can",
+            "probability": 0.99796
+          },
+          {
+            "start": 24.3,
+            "end": 24.62,
+            "word": " relax",
+            "probability": 0.9961
+          },
+          {
+            "start": 24.62,
+            "end": 25.0,
+            "word": " during",
+            "probability": 0.99826
+          },
+          {
+            "start": 25.0,
+            "end": 25.16,
+            "word": " the",
+            "probability": 0.99746
+          },
+          {
+            "start": 25.16,
+            "end": 25.38,
+            "word": " trip.",
+            "probability": 0.99956
+          }
+        ]
+      },
+      {
+        "start": 26.17,
+        "end": 28.33,
+        "text": "Plus, the station is close to my office.",
+        "words": [
+          {
+            "start": 26.17,
+            "end": 26.49,
+            "word": " Plus,",
+            "probability": 0.99333
+          },
+          {
+            "start": 26.79,
+            "end": 26.87,
+            "word": " the",
+            "probability": 0.99661
+          },
+          {
+            "start": 26.87,
+            "end": 27.21,
+            "word": " station",
+            "probability": 0.98908
+          },
+          {
+            "start": 27.21,
+            "end": 27.37,
+            "word": " is",
+            "probability": 0.9971
+          },
+          {
+            "start": 27.37,
+            "end": 27.61,
+            "word": " close",
+            "probability": 0.96832
+          },
+          {
+            "start": 27.61,
+            "end": 27.85,
+            "word": " to",
+            "probability": 0.99887
+          },
+          {
+            "start": 27.85,
+            "end": 27.97,
+            "word": " my",
+            "probability": 0.99809
+          },
+          {
+            "start": 27.97,
+            "end": 28.33,
+            "word": " office.",
+            "probability": 0.99951
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q09",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 89,
+            "speechStart": 0.78,
+            "speechEnd": 28.33,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i've been thinking about how to get to work every day at first i considered driving but the traffic is always really bad in the morning then i thought about riding my bike but it's too far and i'd be tired before i even start my day the bus is another option but it's often late after thinking about all the choices i decided to travel by train it's practical because it's on time and i can relax during the trip plus the station is close to my office",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,970 @@
+{
+  "testId": "aptis-b2-10",
+  "blockId": "p1-q04",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-10/part-1/q04.mp3",
+  "audioSha256": "f533a6903170ceee9ea43e09cb6f4698b45636d766a78269d90bb3b011028b11",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.07,
+        "end": 4.63,
+        "text": "When I was younger, I didn't always dream of being a writer.",
+        "words": [
+          {
+            "start": 1.07,
+            "end": 1.55,
+            "word": " When",
+            "probability": 0.27869
+          },
+          {
+            "start": 1.55,
+            "end": 1.71,
+            "word": " I",
+            "probability": 0.97125
+          },
+          {
+            "start": 1.71,
+            "end": 1.91,
+            "word": " was",
+            "probability": 0.99821
+          },
+          {
+            "start": 1.91,
+            "end": 2.27,
+            "word": " younger,",
+            "probability": 0.96085
+          },
+          {
+            "start": 2.61,
+            "end": 2.67,
+            "word": " I",
+            "probability": 0.99168
+          },
+          {
+            "start": 2.67,
+            "end": 2.95,
+            "word": " didn't",
+            "probability": 0.98695
+          },
+          {
+            "start": 2.95,
+            "end": 3.21,
+            "word": " always",
+            "probability": 0.99732
+          },
+          {
+            "start": 3.21,
+            "end": 3.57,
+            "word": " dream",
+            "probability": 0.9921
+          },
+          {
+            "start": 3.57,
+            "end": 3.85,
+            "word": " of",
+            "probability": 0.99809
+          },
+          {
+            "start": 3.85,
+            "end": 4.13,
+            "word": " being",
+            "probability": 0.99802
+          },
+          {
+            "start": 4.13,
+            "end": 4.29,
+            "word": " a",
+            "probability": 0.99843
+          },
+          {
+            "start": 4.29,
+            "end": 4.63,
+            "word": " writer.",
+            "probability": 0.99059
+          }
+        ]
+      },
+      {
+        "start": 5.11,
+        "end": 7.43,
+        "text": "My first job was actually as a teacher.",
+        "words": [
+          {
+            "start": 5.11,
+            "end": 5.31,
+            "word": " My",
+            "probability": 0.98109
+          },
+          {
+            "start": 5.31,
+            "end": 5.61,
+            "word": " first",
+            "probability": 0.99647
+          },
+          {
+            "start": 5.61,
+            "end": 5.93,
+            "word": " job",
+            "probability": 0.99792
+          },
+          {
+            "start": 5.93,
+            "end": 6.25,
+            "word": " was",
+            "probability": 0.99953
+          },
+          {
+            "start": 6.25,
+            "end": 6.69,
+            "word": " actually",
+            "probability": 0.99586
+          },
+          {
+            "start": 6.69,
+            "end": 7.03,
+            "word": " as",
+            "probability": 0.98371
+          },
+          {
+            "start": 7.03,
+            "end": 7.11,
+            "word": " a",
+            "probability": 0.99334
+          },
+          {
+            "start": 7.11,
+            "end": 7.43,
+            "word": " teacher.",
+            "probability": 0.99768
+          }
+        ]
+      },
+      {
+        "start": 7.89,
+        "end": 12.53,
+        "text": "I taught English to small children, and I loved helping them learn to read and write.",
+        "words": [
+          {
+            "start": 7.89,
+            "end": 8.15,
+            "word": " I",
+            "probability": 0.99814
+          },
+          {
+            "start": 8.15,
+            "end": 8.41,
+            "word": " taught",
+            "probability": 0.99215
+          },
+          {
+            "start": 8.41,
+            "end": 8.91,
+            "word": " English",
+            "probability": 0.99328
+          },
+          {
+            "start": 8.91,
+            "end": 9.17,
+            "word": " to",
+            "probability": 0.99907
+          },
+          {
+            "start": 9.17,
+            "end": 9.45,
+            "word": " small",
+            "probability": 0.99483
+          },
+          {
+            "start": 9.45,
+            "end": 9.93,
+            "word": " children,",
+            "probability": 0.99786
+          },
+          {
+            "start": 10.31,
+            "end": 10.45,
+            "word": " and",
+            "probability": 0.98722
+          },
+          {
+            "start": 10.45,
+            "end": 10.55,
+            "word": " I",
+            "probability": 0.99722
+          },
+          {
+            "start": 10.55,
+            "end": 10.79,
+            "word": " loved",
+            "probability": 0.99185
+          },
+          {
+            "start": 10.79,
+            "end": 11.21,
+            "word": " helping",
+            "probability": 0.99809
+          },
+          {
+            "start": 11.21,
+            "end": 11.47,
+            "word": " them",
+            "probability": 0.99736
+          },
+          {
+            "start": 11.47,
+            "end": 11.69,
+            "word": " learn",
+            "probability": 0.99831
+          },
+          {
+            "start": 11.69,
+            "end": 11.93,
+            "word": " to",
+            "probability": 0.99915
+          },
+          {
+            "start": 11.93,
+            "end": 12.13,
+            "word": " read",
+            "probability": 0.99922
+          },
+          {
+            "start": 12.13,
+            "end": 12.29,
+            "word": " and",
+            "probability": 0.99577
+          },
+          {
+            "start": 12.29,
+            "end": 12.53,
+            "word": " write.",
+            "probability": 0.99902
+          }
+        ]
+      },
+      {
+        "start": 13.03,
+        "end": 14.47,
+        "text": "It wasn't easy, though.",
+        "words": [
+          {
+            "start": 13.03,
+            "end": 13.25,
+            "word": " It",
+            "probability": 0.98604
+          },
+          {
+            "start": 13.25,
+            "end": 13.59,
+            "word": " wasn't",
+            "probability": 0.99407
+          },
+          {
+            "start": 13.59,
+            "end": 13.91,
+            "word": " easy,",
+            "probability": 0.99854
+          },
+          {
+            "start": 14.23,
+            "end": 14.47,
+            "word": " though.",
+            "probability": 0.99481
+          }
+        ]
+      },
+      {
+        "start": 14.97,
+        "end": 18.37,
+        "text": "I spent a lot of time grading papers and preparing lessons.",
+        "words": [
+          {
+            "start": 14.97,
+            "end": 15.11,
+            "word": " I",
+            "probability": 0.99604
+          },
+          {
+            "start": 15.11,
+            "end": 15.39,
+            "word": " spent",
+            "probability": 0.99208
+          },
+          {
+            "start": 15.39,
+            "end": 15.63,
+            "word": " a",
+            "probability": 0.99808
+          },
+          {
+            "start": 15.63,
+            "end": 15.79,
+            "word": " lot",
+            "probability": 0.99962
+          },
+          {
+            "start": 15.79,
+            "end": 15.97,
+            "word": " of",
+            "probability": 0.99942
+          },
+          {
+            "start": 15.97,
+            "end": 16.25,
+            "word": " time",
+            "probability": 0.99727
+          },
+          {
+            "start": 16.25,
+            "end": 16.75,
+            "word": " grading",
+            "probability": 0.96308
+          },
+          {
+            "start": 16.75,
+            "end": 17.23,
+            "word": " papers",
+            "probability": 0.99502
+          },
+          {
+            "start": 17.23,
+            "end": 17.51,
+            "word": " and",
+            "probability": 0.99791
+          },
+          {
+            "start": 17.51,
+            "end": 17.93,
+            "word": " preparing",
+            "probability": 0.99388
+          },
+          {
+            "start": 17.93,
+            "end": 18.37,
+            "word": " lessons.",
+            "probability": 0.99868
+          }
+        ]
+      },
+      {
+        "start": 18.99,
+        "end": 24.43,
+        "text": "But that job taught me how to use words well, and now I write stories for everyone to enjoy.",
+        "words": [
+          {
+            "start": 18.99,
+            "end": 19.13,
+            "word": " But",
+            "probability": 0.9885
+          },
+          {
+            "start": 19.13,
+            "end": 19.31,
+            "word": " that",
+            "probability": 0.99718
+          },
+          {
+            "start": 19.31,
+            "end": 19.63,
+            "word": " job",
+            "probability": 0.99815
+          },
+          {
+            "start": 19.63,
+            "end": 19.91,
+            "word": " taught",
+            "probability": 0.99189
+          },
+          {
+            "start": 19.91,
+            "end": 20.17,
+            "word": " me",
+            "probability": 0.99957
+          },
+          {
+            "start": 20.17,
+            "end": 20.43,
+            "word": " how",
+            "probability": 0.99932
+          },
+          {
+            "start": 20.43,
+            "end": 20.59,
+            "word": " to",
+            "probability": 0.99893
+          },
+          {
+            "start": 20.59,
+            "end": 20.81,
+            "word": " use",
+            "probability": 0.99856
+          },
+          {
+            "start": 20.81,
+            "end": 21.13,
+            "word": " words",
+            "probability": 0.99324
+          },
+          {
+            "start": 21.13,
+            "end": 21.49,
+            "word": " well,",
+            "probability": 0.99643
+          },
+          {
+            "start": 21.91,
+            "end": 22.05,
+            "word": " and",
+            "probability": 0.99453
+          },
+          {
+            "start": 22.05,
+            "end": 22.31,
+            "word": " now",
+            "probability": 0.99567
+          },
+          {
+            "start": 22.31,
+            "end": 22.43,
+            "word": " I",
+            "probability": 0.99784
+          },
+          {
+            "start": 22.43,
+            "end": 22.63,
+            "word": " write",
+            "probability": 0.99873
+          },
+          {
+            "start": 22.63,
+            "end": 23.17,
+            "word": " stories",
+            "probability": 0.99646
+          },
+          {
+            "start": 23.17,
+            "end": 23.45,
+            "word": " for",
+            "probability": 0.9987
+          },
+          {
+            "start": 23.45,
+            "end": 23.81,
+            "word": " everyone",
+            "probability": 0.99516
+          },
+          {
+            "start": 23.81,
+            "end": 24.05,
+            "word": " to",
+            "probability": 0.99955
+          },
+          {
+            "start": 24.05,
+            "end": 24.43,
+            "word": " enjoy.",
+            "probability": 0.99841
+          }
+        ]
+      },
+      {
+        "start": 28.14,
+        "end": 31.56,
+        "text": "When I was younger, I didn't always dream of being a writer.",
+        "words": [
+          {
+            "start": 28.14,
+            "end": 28.5,
+            "word": " When",
+            "probability": 0.97911
+          },
+          {
+            "start": 28.5,
+            "end": 28.64,
+            "word": " I",
+            "probability": 0.99778
+          },
+          {
+            "start": 28.64,
+            "end": 28.86,
+            "word": " was",
+            "probability": 0.99956
+          },
+          {
+            "start": 28.86,
+            "end": 29.22,
+            "word": " younger,",
+            "probability": 0.99613
+          },
+          {
+            "start": 29.54,
+            "end": 29.6,
+            "word": " I",
+            "probability": 0.99897
+          },
+          {
+            "start": 29.6,
+            "end": 29.92,
+            "word": " didn't",
+            "probability": 0.9988
+          },
+          {
+            "start": 29.92,
+            "end": 30.16,
+            "word": " always",
+            "probability": 0.99929
+          },
+          {
+            "start": 30.16,
+            "end": 30.52,
+            "word": " dream",
+            "probability": 0.99452
+          },
+          {
+            "start": 30.52,
+            "end": 30.8,
+            "word": " of",
+            "probability": 0.99947
+          },
+          {
+            "start": 30.8,
+            "end": 31.06,
+            "word": " being",
+            "probability": 0.99782
+          },
+          {
+            "start": 31.06,
+            "end": 31.24,
+            "word": " a",
+            "probability": 0.99955
+          },
+          {
+            "start": 31.24,
+            "end": 31.56,
+            "word": " writer.",
+            "probability": 0.99837
+          }
+        ]
+      },
+      {
+        "start": 31.56,
+        "end": 37.8,
+        "text": "My first job was actually as a teacher. I taught English to small children, and I loved",
+        "words": [
+          {
+            "start": 31.56,
+            "end": 32.22,
+            "word": " My",
+            "probability": 0.21418
+          },
+          {
+            "start": 32.22,
+            "end": 32.54,
+            "word": " first",
+            "probability": 0.99265
+          },
+          {
+            "start": 32.54,
+            "end": 32.86,
+            "word": " job",
+            "probability": 0.99732
+          },
+          {
+            "start": 32.86,
+            "end": 33.22,
+            "word": " was",
+            "probability": 0.99874
+          },
+          {
+            "start": 33.22,
+            "end": 33.64,
+            "word": " actually",
+            "probability": 0.9947
+          },
+          {
+            "start": 33.64,
+            "end": 33.96,
+            "word": " as",
+            "probability": 0.98023
+          },
+          {
+            "start": 33.96,
+            "end": 34.04,
+            "word": " a",
+            "probability": 0.99343
+          },
+          {
+            "start": 34.04,
+            "end": 34.36,
+            "word": " teacher.",
+            "probability": 0.99733
+          },
+          {
+            "start": 34.78,
+            "end": 35.1,
+            "word": " I",
+            "probability": 0.99345
+          },
+          {
+            "start": 35.1,
+            "end": 35.38,
+            "word": " taught",
+            "probability": 0.99608
+          },
+          {
+            "start": 35.38,
+            "end": 35.84,
+            "word": " English",
+            "probability": 0.99011
+          },
+          {
+            "start": 35.84,
+            "end": 36.12,
+            "word": " to",
+            "probability": 0.99875
+          },
+          {
+            "start": 36.12,
+            "end": 36.38,
+            "word": " small",
+            "probability": 0.99366
+          },
+          {
+            "start": 36.38,
+            "end": 36.88,
+            "word": " children,",
+            "probability": 0.99842
+          },
+          {
+            "start": 37.22,
+            "end": 37.4,
+            "word": " and",
+            "probability": 0.99051
+          },
+          {
+            "start": 37.4,
+            "end": 37.5,
+            "word": " I",
+            "probability": 0.99659
+          },
+          {
+            "start": 37.5,
+            "end": 37.8,
+            "word": " loved",
+            "probability": 0.99213
+          }
+        ]
+      },
+      {
+        "start": 37.8,
+        "end": 43.68,
+        "text": "helping them learn to read and write. It wasn't easy, though. I spent a lot of time grading",
+        "words": [
+          {
+            "start": 37.8,
+            "end": 38.16,
+            "word": " helping",
+            "probability": 0.99837
+          },
+          {
+            "start": 38.16,
+            "end": 38.4,
+            "word": " them",
+            "probability": 0.99808
+          },
+          {
+            "start": 38.4,
+            "end": 38.64,
+            "word": " learn",
+            "probability": 0.99575
+          },
+          {
+            "start": 38.64,
+            "end": 38.88,
+            "word": " to",
+            "probability": 0.99918
+          },
+          {
+            "start": 38.88,
+            "end": 39.08,
+            "word": " read",
+            "probability": 0.9989
+          },
+          {
+            "start": 39.08,
+            "end": 39.24,
+            "word": " and",
+            "probability": 0.99356
+          },
+          {
+            "start": 39.24,
+            "end": 39.46,
+            "word": " write.",
+            "probability": 0.99875
+          },
+          {
+            "start": 40.04,
+            "end": 40.18,
+            "word": " It",
+            "probability": 0.98853
+          },
+          {
+            "start": 40.18,
+            "end": 40.54,
+            "word": " wasn't",
+            "probability": 0.99107
+          },
+          {
+            "start": 40.54,
+            "end": 40.84,
+            "word": " easy,",
+            "probability": 0.99855
+          },
+          {
+            "start": 41.16,
+            "end": 41.4,
+            "word": " though.",
+            "probability": 0.99729
+          },
+          {
+            "start": 41.9,
+            "end": 42.06,
+            "word": " I",
+            "probability": 0.99684
+          },
+          {
+            "start": 42.06,
+            "end": 42.34,
+            "word": " spent",
+            "probability": 0.98786
+          },
+          {
+            "start": 42.34,
+            "end": 42.58,
+            "word": " a",
+            "probability": 0.99808
+          },
+          {
+            "start": 42.58,
+            "end": 42.74,
+            "word": " lot",
+            "probability": 0.99962
+          },
+          {
+            "start": 42.74,
+            "end": 42.92,
+            "word": " of",
+            "probability": 0.99972
+          },
+          {
+            "start": 42.92,
+            "end": 43.2,
+            "word": " time",
+            "probability": 0.99841
+          },
+          {
+            "start": 43.2,
+            "end": 43.68,
+            "word": " grading",
+            "probability": 0.96216
+          }
+        ]
+      },
+      {
+        "start": 43.68,
+        "end": 49.56,
+        "text": "papers and preparing lessons, but that job taught me how to use words well, and now I write",
+        "words": [
+          {
+            "start": 43.68,
+            "end": 44.18,
+            "word": " papers",
+            "probability": 0.99575
+          },
+          {
+            "start": 44.18,
+            "end": 44.44,
+            "word": " and",
+            "probability": 0.99634
+          },
+          {
+            "start": 44.44,
+            "end": 44.86,
+            "word": " preparing",
+            "probability": 0.99245
+          },
+          {
+            "start": 44.86,
+            "end": 45.32,
+            "word": " lessons,",
+            "probability": 0.99853
+          },
+          {
+            "start": 45.92,
+            "end": 46.08,
+            "word": " but",
+            "probability": 0.99329
+          },
+          {
+            "start": 46.08,
+            "end": 46.26,
+            "word": " that",
+            "probability": 0.99849
+          },
+          {
+            "start": 46.26,
+            "end": 46.56,
+            "word": " job",
+            "probability": 0.99787
+          },
+          {
+            "start": 46.56,
+            "end": 46.84,
+            "word": " taught",
+            "probability": 0.99547
+          },
+          {
+            "start": 46.84,
+            "end": 47.1,
+            "word": " me",
+            "probability": 0.9996
+          },
+          {
+            "start": 47.1,
+            "end": 47.38,
+            "word": " how",
+            "probability": 0.99943
+          },
+          {
+            "start": 47.38,
+            "end": 47.54,
+            "word": " to",
+            "probability": 0.99904
+          },
+          {
+            "start": 47.54,
+            "end": 47.78,
+            "word": " use",
+            "probability": 0.99918
+          },
+          {
+            "start": 47.78,
+            "end": 48.06,
+            "word": " words",
+            "probability": 0.99192
+          },
+          {
+            "start": 48.06,
+            "end": 48.44,
+            "word": " well,",
+            "probability": 0.99705
+          },
+          {
+            "start": 48.86,
+            "end": 49.0,
+            "word": " and",
+            "probability": 0.99626
+          },
+          {
+            "start": 49.0,
+            "end": 49.24,
+            "word": " now",
+            "probability": 0.99382
+          },
+          {
+            "start": 49.24,
+            "end": 49.38,
+            "word": " I",
+            "probability": 0.99717
+          },
+          {
+            "start": 49.38,
+            "end": 49.56,
+            "word": " write",
+            "probability": 0.99923
+          }
+        ]
+      },
+      {
+        "start": 49.56,
+        "end": 51.38,
+        "text": "stories for everyone to enjoy.",
+        "words": [
+          {
+            "start": 49.56,
+            "end": 50.1,
+            "word": " stories",
+            "probability": 0.99744
+          },
+          {
+            "start": 50.1,
+            "end": 50.4,
+            "word": " for",
+            "probability": 0.99928
+          },
+          {
+            "start": 50.4,
+            "end": 50.76,
+            "word": " everyone",
+            "probability": 0.99432
+          },
+          {
+            "start": 50.76,
+            "end": 51.0,
+            "word": " to",
+            "probability": 0.99931
+          },
+          {
+            "start": 51.0,
+            "end": 51.38,
+            "word": " enjoy.",
+            "probability": 0.9982
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q04",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 70,
+            "speechStart": 1.07,
+            "speechEnd": 24.43,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "when i was younger i didn't always dream of being a writer my first job was actually as a teacher i taught english to small children and i loved helping them learn to read and write it wasn't easy though i spent a lot of time grading papers and preparing lessons but that job taught me how to use words well and now i write stories for everyone to enjoy",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 70,
+            "wordEndIndexExclusive": 140,
+            "speechStart": 28.14,
+            "speechEnd": 51.38,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "when i was younger i didn't always dream of being a writer my first job was actually as a teacher i taught english to small children and i loved helping them learn to read and write it wasn't easy though i spent a lot of time grading papers and preparing lessons but that job taught me how to use words well and now i write stories for everyone to enjoy",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-1/q01.mp3",
+  "audioSha256": "c12fea877e8b5854a02969b544ada55b4dad13864edc7d9bb610e230198e5714",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.98,
+        "end": 5.4,
+        "text": "Hey sweetie, it's mom. Can you please pick up three things on your way home?",
+        "words": [
+          {
+            "start": 0.98,
+            "end": 1.46,
+            "word": " Hey",
+            "probability": 0.82346
+          },
+          {
+            "start": 1.46,
+            "end": 1.78,
+            "word": " sweetie,",
+            "probability": 0.51505
+          },
+          {
+            "start": 2.22,
+            "end": 2.42,
+            "word": " it's",
+            "probability": 0.9402
+          },
+          {
+            "start": 2.42,
+            "end": 2.6,
+            "word": " mom.",
+            "probability": 0.53932
+          },
+          {
+            "start": 3.08,
+            "end": 3.42,
+            "word": " Can",
+            "probability": 0.96894
+          },
+          {
+            "start": 3.42,
+            "end": 3.56,
+            "word": " you",
+            "probability": 0.9969
+          },
+          {
+            "start": 3.56,
+            "end": 3.76,
+            "word": " please",
+            "probability": 0.99436
+          },
+          {
+            "start": 3.76,
+            "end": 3.98,
+            "word": " pick",
+            "probability": 0.99763
+          },
+          {
+            "start": 3.98,
+            "end": 4.12,
+            "word": " up",
+            "probability": 0.99655
+          },
+          {
+            "start": 4.12,
+            "end": 4.38,
+            "word": " three",
+            "probability": 0.93143
+          },
+          {
+            "start": 4.38,
+            "end": 4.68,
+            "word": " things",
+            "probability": 0.99906
+          },
+          {
+            "start": 4.68,
+            "end": 4.82,
+            "word": " on",
+            "probability": 0.99744
+          },
+          {
+            "start": 4.82,
+            "end": 4.96,
+            "word": " your",
+            "probability": 0.99633
+          },
+          {
+            "start": 4.96,
+            "end": 5.1,
+            "word": " way",
+            "probability": 0.99819
+          },
+          {
+            "start": 5.1,
+            "end": 5.4,
+            "word": " home?",
+            "probability": 0.99913
+          }
+        ]
+      },
+      {
+        "start": 5.9,
+        "end": 8.46,
+        "text": "I need a dozen eggs. They're one pound fifty each.",
+        "words": [
+          {
+            "start": 5.9,
+            "end": 5.98,
+            "word": " I",
+            "probability": 0.99516
+          },
+          {
+            "start": 5.98,
+            "end": 6.1,
+            "word": " need",
+            "probability": 0.99822
+          },
+          {
+            "start": 6.1,
+            "end": 6.22,
+            "word": " a",
+            "probability": 0.99085
+          },
+          {
+            "start": 6.22,
+            "end": 6.46,
+            "word": " dozen",
+            "probability": 0.99872
+          },
+          {
+            "start": 6.46,
+            "end": 6.9,
+            "word": " eggs.",
+            "probability": 0.99174
+          },
+          {
+            "start": 7.2,
+            "end": 7.32,
+            "word": " They're",
+            "probability": 0.96119
+          },
+          {
+            "start": 7.32,
+            "end": 7.46,
+            "word": " one",
+            "probability": 0.45914
+          },
+          {
+            "start": 7.46,
+            "end": 7.66,
+            "word": " pound",
+            "probability": 0.98477
+          },
+          {
+            "start": 7.66,
+            "end": 8.02,
+            "word": " fifty",
+            "probability": 0.70797
+          },
+          {
+            "start": 8.02,
+            "end": 8.46,
+            "word": " each.",
+            "probability": 0.9961
+          }
+        ]
+      },
+      {
+        "start": 8.86,
+        "end": 11.54,
+        "text": "Also grab a loaf of bread and some milk please.",
+        "words": [
+          {
+            "start": 8.86,
+            "end": 9.2,
+            "word": " Also",
+            "probability": 0.9755
+          },
+          {
+            "start": 9.2,
+            "end": 9.38,
+            "word": " grab",
+            "probability": 0.91888
+          },
+          {
+            "start": 9.38,
+            "end": 9.54,
+            "word": " a",
+            "probability": 0.98515
+          },
+          {
+            "start": 9.54,
+            "end": 9.72,
+            "word": " loaf",
+            "probability": 0.99602
+          },
+          {
+            "start": 9.72,
+            "end": 9.9,
+            "word": " of",
+            "probability": 0.99816
+          },
+          {
+            "start": 9.9,
+            "end": 10.1,
+            "word": " bread",
+            "probability": 0.99801
+          },
+          {
+            "start": 10.1,
+            "end": 10.72,
+            "word": " and",
+            "probability": 0.91927
+          },
+          {
+            "start": 10.72,
+            "end": 10.9,
+            "word": " some",
+            "probability": 0.99935
+          },
+          {
+            "start": 10.9,
+            "end": 11.16,
+            "word": " milk",
+            "probability": 0.99855
+          },
+          {
+            "start": 11.16,
+            "end": 11.54,
+            "word": " please.",
+            "probability": 0.59695
+          }
+        ]
+      },
+      {
+        "start": 12.06,
+        "end": 13.38,
+        "text": "Thanks. Love you.",
+        "words": [
+          {
+            "start": 12.06,
+            "end": 12.54,
+            "word": " Thanks.",
+            "probability": 0.98804
+          },
+          {
+            "start": 12.92,
+            "end": 13.14,
+            "word": " Love",
+            "probability": 0.98851
+          },
+          {
+            "start": 13.14,
+            "end": 13.38,
+            "word": " you.",
+            "probability": 0.99385
+          }
+        ]
+      },
+      {
+        "start": 15.3,
+        "end": 19.52,
+        "text": "Hey sweetie, it's mom. Can you please pick up three things on your way home?",
+        "words": [
+          {
+            "start": 15.3,
+            "end": 15.58,
+            "word": " Hey",
+            "probability": 0.9925
+          },
+          {
+            "start": 15.58,
+            "end": 15.92,
+            "word": " sweetie,",
+            "probability": 0.93436
+          },
+          {
+            "start": 16.34,
+            "end": 16.52,
+            "word": " it's",
+            "probability": 0.99389
+          },
+          {
+            "start": 16.52,
+            "end": 16.72,
+            "word": " mom.",
+            "probability": 0.97215
+          },
+          {
+            "start": 17.48,
+            "end": 17.54,
+            "word": " Can",
+            "probability": 0.99589
+          },
+          {
+            "start": 17.54,
+            "end": 17.7,
+            "word": " you",
+            "probability": 0.99885
+          },
+          {
+            "start": 17.7,
+            "end": 17.9,
+            "word": " please",
+            "probability": 0.9989
+          },
+          {
+            "start": 17.9,
+            "end": 18.1,
+            "word": " pick",
+            "probability": 0.99844
+          },
+          {
+            "start": 18.1,
+            "end": 18.24,
+            "word": " up",
+            "probability": 0.99874
+          },
+          {
+            "start": 18.24,
+            "end": 18.48,
+            "word": " three",
+            "probability": 0.99622
+          },
+          {
+            "start": 18.48,
+            "end": 18.8,
+            "word": " things",
+            "probability": 0.99906
+          },
+          {
+            "start": 18.8,
+            "end": 18.94,
+            "word": " on",
+            "probability": 0.99816
+          },
+          {
+            "start": 18.94,
+            "end": 19.08,
+            "word": " your",
+            "probability": 0.99736
+          },
+          {
+            "start": 19.08,
+            "end": 19.22,
+            "word": " way",
+            "probability": 0.99864
+          },
+          {
+            "start": 19.22,
+            "end": 19.52,
+            "word": " home?",
+            "probability": 0.99873
+          }
+        ]
+      },
+      {
+        "start": 20.02,
+        "end": 22.6,
+        "text": "I need a dozen eggs. They're one pound fifty each.",
+        "words": [
+          {
+            "start": 20.02,
+            "end": 20.1,
+            "word": " I",
+            "probability": 0.99789
+          },
+          {
+            "start": 20.1,
+            "end": 20.22,
+            "word": " need",
+            "probability": 0.99811
+          },
+          {
+            "start": 20.22,
+            "end": 20.32,
+            "word": " a",
+            "probability": 0.99853
+          },
+          {
+            "start": 20.32,
+            "end": 20.58,
+            "word": " dozen",
+            "probability": 0.99927
+          },
+          {
+            "start": 20.58,
+            "end": 21.04,
+            "word": " eggs.",
+            "probability": 0.99571
+          },
+          {
+            "start": 21.32,
+            "end": 21.44,
+            "word": " They're",
+            "probability": 0.99628
+          },
+          {
+            "start": 21.44,
+            "end": 21.56,
+            "word": " one",
+            "probability": 0.99025
+          },
+          {
+            "start": 21.56,
+            "end": 21.78,
+            "word": " pound",
+            "probability": 0.99649
+          },
+          {
+            "start": 21.78,
+            "end": 22.14,
+            "word": " fifty",
+            "probability": 0.97944
+          },
+          {
+            "start": 22.14,
+            "end": 22.6,
+            "word": " each.",
+            "probability": 0.99803
+          }
+        ]
+      },
+      {
+        "start": 23.08,
+        "end": 25.7,
+        "text": "Also grab a loaf of bread and some milk please.",
+        "words": [
+          {
+            "start": 23.08,
+            "end": 23.3,
+            "word": " Also",
+            "probability": 0.98749
+          },
+          {
+            "start": 23.3,
+            "end": 23.52,
+            "word": " grab",
+            "probability": 0.99152
+          },
+          {
+            "start": 23.52,
+            "end": 23.66,
+            "word": " a",
+            "probability": 0.99874
+          },
+          {
+            "start": 23.66,
+            "end": 23.86,
+            "word": " loaf",
+            "probability": 0.99903
+          },
+          {
+            "start": 23.86,
+            "end": 24.0,
+            "word": " of",
+            "probability": 0.99241
+          },
+          {
+            "start": 24.0,
+            "end": 24.26,
+            "word": " bread",
+            "probability": 0.99881
+          },
+          {
+            "start": 24.26,
+            "end": 24.82,
+            "word": " and",
+            "probability": 0.99143
+          },
+          {
+            "start": 24.82,
+            "end": 25.0,
+            "word": " some",
+            "probability": 0.99938
+          },
+          {
+            "start": 25.0,
+            "end": 25.3,
+            "word": " milk",
+            "probability": 0.9978
+          },
+          {
+            "start": 25.3,
+            "end": 25.7,
+            "word": " please.",
+            "probability": 0.93993
+          }
+        ]
+      },
+      {
+        "start": 26.28,
+        "end": 27.52,
+        "text": "Thanks. Love you.",
+        "words": [
+          {
+            "start": 26.28,
+            "end": 26.6,
+            "word": " Thanks.",
+            "probability": 0.99559
+          },
+          {
+            "start": 27.14,
+            "end": 27.26,
+            "word": " Love",
+            "probability": 0.99589
+          },
+          {
+            "start": 27.26,
+            "end": 27.52,
+            "word": " you.",
+            "probability": 0.99671
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 38,
+            "speechStart": 0.98,
+            "speechEnd": 13.38,
+            "sourceTokenCoverage": 0.9737,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9737,
+            "transcript": "hey sweetie it's mom can you please pick up 3 things on your way home i need a dozen eggs they're 1 pound fifty each also grab a loaf of bread and some milk please thanks love you",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 38,
+            "wordEndIndexExclusive": 76,
+            "speechStart": 15.3,
+            "speechEnd": 27.52,
+            "sourceTokenCoverage": 0.9737,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9737,
+            "transcript": "hey sweetie it's mom can you please pick up 3 things on your way home i need a dozen eggs they're 1 pound fifty each also grab a loaf of bread and some milk please thanks love you",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

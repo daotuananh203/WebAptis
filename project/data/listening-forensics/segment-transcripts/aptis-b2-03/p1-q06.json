@@ -1,0 +1,537 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p1-q06",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-1/q06.mp3",
+  "audioSha256": "b8ea1119578458dc94073458cb1002716151c78527463372b9b77a3a4b202321",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.85,
+        "end": 1.47,
+        "text": "Come in.",
+        "words": [
+          {
+            "start": 0.85,
+            "end": 1.29,
+            "word": " Come",
+            "probability": 0.80451
+          },
+          {
+            "start": 1.29,
+            "end": 1.47,
+            "word": " in.",
+            "probability": 0.99071
+          }
+        ]
+      },
+      {
+        "start": 1.97,
+        "end": 2.43,
+        "text": "Hi, Professor.",
+        "words": [
+          {
+            "start": 1.97,
+            "end": 2.09,
+            "word": " Hi,",
+            "probability": 0.8034
+          },
+          {
+            "start": 2.23,
+            "end": 2.43,
+            "word": " Professor.",
+            "probability": 0.63737
+          }
+        ]
+      },
+      {
+        "start": 2.73,
+        "end": 3.31,
+        "text": "It is me, Julie.",
+        "words": [
+          {
+            "start": 2.73,
+            "end": 2.79,
+            "word": " It",
+            "probability": 0.99146
+          },
+          {
+            "start": 2.79,
+            "end": 2.95,
+            "word": " is",
+            "probability": 0.9876
+          },
+          {
+            "start": 2.95,
+            "end": 3.11,
+            "word": " me,",
+            "probability": 0.98935
+          },
+          {
+            "start": 3.23,
+            "end": 3.31,
+            "word": " Julie.",
+            "probability": 0.96381
+          }
+        ]
+      },
+      {
+        "start": 3.73,
+        "end": 5.53,
+        "text": "I wanted to ask about the assignment.",
+        "words": [
+          {
+            "start": 3.73,
+            "end": 3.93,
+            "word": " I",
+            "probability": 0.99608
+          },
+          {
+            "start": 3.93,
+            "end": 4.17,
+            "word": " wanted",
+            "probability": 0.98535
+          },
+          {
+            "start": 4.17,
+            "end": 4.35,
+            "word": " to",
+            "probability": 0.99962
+          },
+          {
+            "start": 4.35,
+            "end": 4.67,
+            "word": " ask",
+            "probability": 0.99861
+          },
+          {
+            "start": 4.67,
+            "end": 4.89,
+            "word": " about",
+            "probability": 0.99692
+          },
+          {
+            "start": 4.89,
+            "end": 5.09,
+            "word": " the",
+            "probability": 0.99584
+          },
+          {
+            "start": 5.09,
+            "end": 5.53,
+            "word": " assignment.",
+            "probability": 0.9934
+          }
+        ]
+      },
+      {
+        "start": 6.15,
+        "end": 8.43,
+        "text": "Is it possible to get an extension until Friday?",
+        "words": [
+          {
+            "start": 6.15,
+            "end": 6.23,
+            "word": " Is",
+            "probability": 0.9876
+          },
+          {
+            "start": 6.23,
+            "end": 6.35,
+            "word": " it",
+            "probability": 0.99915
+          },
+          {
+            "start": 6.35,
+            "end": 6.75,
+            "word": " possible",
+            "probability": 0.9995
+          },
+          {
+            "start": 6.75,
+            "end": 6.95,
+            "word": " to",
+            "probability": 0.9989
+          },
+          {
+            "start": 6.95,
+            "end": 7.09,
+            "word": " get",
+            "probability": 0.99948
+          },
+          {
+            "start": 7.09,
+            "end": 7.21,
+            "word": " an",
+            "probability": 0.99814
+          },
+          {
+            "start": 7.21,
+            "end": 7.73,
+            "word": " extension",
+            "probability": 0.9961
+          },
+          {
+            "start": 7.73,
+            "end": 8.07,
+            "word": " until",
+            "probability": 0.98599
+          },
+          {
+            "start": 8.07,
+            "end": 8.43,
+            "word": " Friday?",
+            "probability": 0.99045
+          }
+        ]
+      },
+      {
+        "start": 9.09,
+        "end": 10.09,
+        "text": "What's the matter, Julie?",
+        "words": [
+          {
+            "start": 9.09,
+            "end": 9.49,
+            "word": " What's",
+            "probability": 0.99531
+          },
+          {
+            "start": 9.49,
+            "end": 9.57,
+            "word": " the",
+            "probability": 0.99805
+          },
+          {
+            "start": 9.57,
+            "end": 9.75,
+            "word": " matter,",
+            "probability": 0.99955
+          },
+          {
+            "start": 9.91,
+            "end": 10.09,
+            "word": " Julie?",
+            "probability": 0.99672
+          }
+        ]
+      },
+      {
+        "start": 10.65,
+        "end": 11.57,
+        "text": "Do you have any difficulties?",
+        "words": [
+          {
+            "start": 10.65,
+            "end": 10.73,
+            "word": " Do",
+            "probability": 0.99582
+          },
+          {
+            "start": 10.73,
+            "end": 10.81,
+            "word": " you",
+            "probability": 0.99902
+          },
+          {
+            "start": 10.81,
+            "end": 10.95,
+            "word": " have",
+            "probability": 0.99926
+          },
+          {
+            "start": 10.95,
+            "end": 11.11,
+            "word": " any",
+            "probability": 0.9994
+          },
+          {
+            "start": 11.11,
+            "end": 11.57,
+            "word": " difficulties?",
+            "probability": 0.99778
+          }
+        ]
+      },
+      {
+        "start": 12.41,
+        "end": 15.99,
+        "text": "I have a lot of work lately, so I can't complete it by Thursday.",
+        "words": [
+          {
+            "start": 12.41,
+            "end": 12.81,
+            "word": " I",
+            "probability": 0.99548
+          },
+          {
+            "start": 12.81,
+            "end": 12.89,
+            "word": " have",
+            "probability": 0.99492
+          },
+          {
+            "start": 12.89,
+            "end": 12.93,
+            "word": " a",
+            "probability": 0.99879
+          },
+          {
+            "start": 12.93,
+            "end": 13.09,
+            "word": " lot",
+            "probability": 0.99949
+          },
+          {
+            "start": 13.09,
+            "end": 13.23,
+            "word": " of",
+            "probability": 0.99944
+          },
+          {
+            "start": 13.23,
+            "end": 13.37,
+            "word": " work",
+            "probability": 0.99948
+          },
+          {
+            "start": 13.37,
+            "end": 13.75,
+            "word": " lately,",
+            "probability": 0.99772
+          },
+          {
+            "start": 14.03,
+            "end": 14.13,
+            "word": " so",
+            "probability": 0.998
+          },
+          {
+            "start": 14.13,
+            "end": 14.79,
+            "word": " I",
+            "probability": 0.91266
+          },
+          {
+            "start": 14.79,
+            "end": 15.05,
+            "word": " can't",
+            "probability": 0.99858
+          },
+          {
+            "start": 15.05,
+            "end": 15.33,
+            "word": " complete",
+            "probability": 0.99459
+          },
+          {
+            "start": 15.33,
+            "end": 15.47,
+            "word": " it",
+            "probability": 0.99937
+          },
+          {
+            "start": 15.47,
+            "end": 15.61,
+            "word": " by",
+            "probability": 0.99733
+          },
+          {
+            "start": 15.61,
+            "end": 15.99,
+            "word": " Thursday.",
+            "probability": 0.99919
+          }
+        ]
+      },
+      {
+        "start": 16.55,
+        "end": 21.29,
+        "text": "Actually, all assignments need to be submitted by Saturday morning, so you have two more days.",
+        "words": [
+          {
+            "start": 16.55,
+            "end": 16.95,
+            "word": " Actually,",
+            "probability": 0.9941
+          },
+          {
+            "start": 17.33,
+            "end": 17.45,
+            "word": " all",
+            "probability": 0.99854
+          },
+          {
+            "start": 17.45,
+            "end": 17.91,
+            "word": " assignments",
+            "probability": 0.99876
+          },
+          {
+            "start": 17.91,
+            "end": 18.23,
+            "word": " need",
+            "probability": 0.99806
+          },
+          {
+            "start": 18.23,
+            "end": 18.43,
+            "word": " to",
+            "probability": 0.99908
+          },
+          {
+            "start": 18.43,
+            "end": 18.53,
+            "word": " be",
+            "probability": 0.99971
+          },
+          {
+            "start": 18.53,
+            "end": 18.89,
+            "word": " submitted",
+            "probability": 0.99837
+          },
+          {
+            "start": 18.89,
+            "end": 19.13,
+            "word": " by",
+            "probability": 0.99568
+          },
+          {
+            "start": 19.13,
+            "end": 19.47,
+            "word": " Saturday",
+            "probability": 0.99769
+          },
+          {
+            "start": 19.47,
+            "end": 19.91,
+            "word": " morning,",
+            "probability": 0.91294
+          },
+          {
+            "start": 20.15,
+            "end": 20.37,
+            "word": " so",
+            "probability": 0.99742
+          },
+          {
+            "start": 20.37,
+            "end": 20.49,
+            "word": " you",
+            "probability": 0.99839
+          },
+          {
+            "start": 20.49,
+            "end": 20.59,
+            "word": " have",
+            "probability": 0.99847
+          },
+          {
+            "start": 20.59,
+            "end": 20.83,
+            "word": " two",
+            "probability": 0.97713
+          },
+          {
+            "start": 20.83,
+            "end": 21.03,
+            "word": " more",
+            "probability": 0.99982
+          },
+          {
+            "start": 21.03,
+            "end": 21.29,
+            "word": " days.",
+            "probability": 0.99923
+          }
+        ]
+      },
+      {
+        "start": 21.81,
+        "end": 22.47,
+        "text": "Oh, that's great.",
+        "words": [
+          {
+            "start": 21.81,
+            "end": 21.99,
+            "word": " Oh,",
+            "probability": 0.98389
+          },
+          {
+            "start": 22.07,
+            "end": 22.29,
+            "word": " that's",
+            "probability": 0.99833
+          },
+          {
+            "start": 22.29,
+            "end": 22.47,
+            "word": " great.",
+            "probability": 0.99884
+          }
+        ]
+      },
+      {
+        "start": 22.81,
+        "end": 23.77,
+        "text": "Thank you so much.",
+        "words": [
+          {
+            "start": 22.81,
+            "end": 22.97,
+            "word": " Thank",
+            "probability": 0.9983
+          },
+          {
+            "start": 22.97,
+            "end": 23.13,
+            "word": " you",
+            "probability": 0.99719
+          },
+          {
+            "start": 23.13,
+            "end": 23.29,
+            "word": " so",
+            "probability": 0.99312
+          },
+          {
+            "start": 23.29,
+            "end": 23.77,
+            "word": " much.",
+            "probability": 0.99923
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q06",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 70,
+            "speechStart": 0.85,
+            "speechEnd": 23.77,
+            "sourceTokenCoverage": 0.9333,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9655,
+            "transcript": "come in hi professor it is me julie i wanted to ask about the assignment is it possible to get an extension until friday what's the matter julie do you have any difficulties i have a lot of work lately so i can't complete it by thursday actually all assignments need to be submitted by saturday morning so you have 2 more days oh that's great thank you so much",
+            "openingMatch": 0.8556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

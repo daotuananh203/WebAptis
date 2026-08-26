@@ -1,0 +1,4657 @@
+{
+  "testId": "aptis-b2-10",
+  "blockId": "p2-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-10/part-2/task-all.mp3",
+  "audioSha256": "f43c995c9a480edcebfb6ac8074cd51fb1de16a372e1cab0c2ca8f8d40d24c06",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.72,
+        "end": 4.46,
+        "text": "The city gives me new things to see every time I run.",
+        "words": [
+          {
+            "start": 0.72,
+            "end": 1.2,
+            "word": " The",
+            "probability": 0.91923
+          },
+          {
+            "start": 1.2,
+            "end": 1.48,
+            "word": " city",
+            "probability": 0.91963
+          },
+          {
+            "start": 1.48,
+            "end": 1.78,
+            "word": " gives",
+            "probability": 0.99641
+          },
+          {
+            "start": 1.78,
+            "end": 2.02,
+            "word": " me",
+            "probability": 0.99915
+          },
+          {
+            "start": 2.02,
+            "end": 2.26,
+            "word": " new",
+            "probability": 0.99804
+          },
+          {
+            "start": 2.26,
+            "end": 2.58,
+            "word": " things",
+            "probability": 0.99902
+          },
+          {
+            "start": 2.58,
+            "end": 2.86,
+            "word": " to",
+            "probability": 0.99838
+          },
+          {
+            "start": 2.86,
+            "end": 3.14,
+            "word": " see",
+            "probability": 0.99672
+          },
+          {
+            "start": 3.14,
+            "end": 3.64,
+            "word": " every",
+            "probability": 0.92652
+          },
+          {
+            "start": 3.64,
+            "end": 3.94,
+            "word": " time",
+            "probability": 0.99663
+          },
+          {
+            "start": 3.94,
+            "end": 4.2,
+            "word": " I",
+            "probability": 0.99144
+          },
+          {
+            "start": 4.2,
+            "end": 4.46,
+            "word": " run.",
+            "probability": 0.99831
+          }
+        ]
+      },
+      {
+        "start": 5.12,
+        "end": 8.5,
+        "text": "I like the busy streets and different buildings around me.",
+        "words": [
+          {
+            "start": 5.12,
+            "end": 5.34,
+            "word": " I",
+            "probability": 0.99798
+          },
+          {
+            "start": 5.34,
+            "end": 5.54,
+            "word": " like",
+            "probability": 0.98925
+          },
+          {
+            "start": 5.54,
+            "end": 5.76,
+            "word": " the",
+            "probability": 0.99483
+          },
+          {
+            "start": 5.76,
+            "end": 6.02,
+            "word": " busy",
+            "probability": 0.99202
+          },
+          {
+            "start": 6.02,
+            "end": 6.52,
+            "word": " streets",
+            "probability": 0.99688
+          },
+          {
+            "start": 6.52,
+            "end": 6.82,
+            "word": " and",
+            "probability": 0.96355
+          },
+          {
+            "start": 6.82,
+            "end": 7.14,
+            "word": " different",
+            "probability": 0.99848
+          },
+          {
+            "start": 7.14,
+            "end": 7.68,
+            "word": " buildings",
+            "probability": 0.99653
+          },
+          {
+            "start": 7.68,
+            "end": 8.14,
+            "word": " around",
+            "probability": 0.99737
+          },
+          {
+            "start": 8.14,
+            "end": 8.5,
+            "word": " me.",
+            "probability": 0.9983
+          }
+        ]
+      },
+      {
+        "start": 9.47,
+        "end": 13.69,
+        "text": "Stopping at traffic lights and watching out for people helps me stay alert.",
+        "words": [
+          {
+            "start": 9.47,
+            "end": 9.97,
+            "word": " Stopping",
+            "probability": 0.97562
+          },
+          {
+            "start": 9.97,
+            "end": 10.13,
+            "word": " at",
+            "probability": 0.97708
+          },
+          {
+            "start": 10.13,
+            "end": 10.55,
+            "word": " traffic",
+            "probability": 0.99764
+          },
+          {
+            "start": 10.55,
+            "end": 10.87,
+            "word": " lights",
+            "probability": 0.99086
+          },
+          {
+            "start": 10.87,
+            "end": 11.13,
+            "word": " and",
+            "probability": 0.9907
+          },
+          {
+            "start": 11.13,
+            "end": 11.51,
+            "word": " watching",
+            "probability": 0.99457
+          },
+          {
+            "start": 11.51,
+            "end": 11.79,
+            "word": " out",
+            "probability": 0.99708
+          },
+          {
+            "start": 11.79,
+            "end": 12.03,
+            "word": " for",
+            "probability": 0.99679
+          },
+          {
+            "start": 12.03,
+            "end": 12.41,
+            "word": " people",
+            "probability": 0.99908
+          },
+          {
+            "start": 12.41,
+            "end": 12.73,
+            "word": " helps",
+            "probability": 0.99525
+          },
+          {
+            "start": 12.73,
+            "end": 13.05,
+            "word": " me",
+            "probability": 0.99793
+          },
+          {
+            "start": 13.05,
+            "end": 13.35,
+            "word": " stay",
+            "probability": 0.99836
+          },
+          {
+            "start": 13.35,
+            "end": 13.69,
+            "word": " alert.",
+            "probability": 0.99959
+          }
+        ]
+      },
+      {
+        "start": 14.69,
+        "end": 16.97,
+        "text": "Running in the street is what I love most.",
+        "words": [
+          {
+            "start": 14.69,
+            "end": 14.93,
+            "word": " Running",
+            "probability": 0.97281
+          },
+          {
+            "start": 14.93,
+            "end": 15.11,
+            "word": " in",
+            "probability": 0.99767
+          },
+          {
+            "start": 15.11,
+            "end": 15.25,
+            "word": " the",
+            "probability": 0.98381
+          },
+          {
+            "start": 15.25,
+            "end": 15.59,
+            "word": " street",
+            "probability": 0.99072
+          },
+          {
+            "start": 15.59,
+            "end": 15.95,
+            "word": " is",
+            "probability": 0.99693
+          },
+          {
+            "start": 15.95,
+            "end": 16.17,
+            "word": " what",
+            "probability": 0.99882
+          },
+          {
+            "start": 16.17,
+            "end": 16.31,
+            "word": " I",
+            "probability": 0.9979
+          },
+          {
+            "start": 16.31,
+            "end": 16.57,
+            "word": " love",
+            "probability": 0.99441
+          },
+          {
+            "start": 16.57,
+            "end": 16.97,
+            "word": " most.",
+            "probability": 0.99175
+          }
+        ]
+      },
+      {
+        "start": 18.38,
+        "end": 21.7,
+        "text": "I also get to find new places in my city this way.",
+        "words": [
+          {
+            "start": 18.38,
+            "end": 18.6,
+            "word": " I",
+            "probability": 0.99882
+          },
+          {
+            "start": 18.6,
+            "end": 18.9,
+            "word": " also",
+            "probability": 0.99767
+          },
+          {
+            "start": 18.9,
+            "end": 19.1,
+            "word": " get",
+            "probability": 0.99786
+          },
+          {
+            "start": 19.1,
+            "end": 19.28,
+            "word": " to",
+            "probability": 0.99981
+          },
+          {
+            "start": 19.28,
+            "end": 19.52,
+            "word": " find",
+            "probability": 0.99429
+          },
+          {
+            "start": 19.52,
+            "end": 19.8,
+            "word": " new",
+            "probability": 0.99877
+          },
+          {
+            "start": 19.8,
+            "end": 20.26,
+            "word": " places",
+            "probability": 0.99925
+          },
+          {
+            "start": 20.26,
+            "end": 20.6,
+            "word": " in",
+            "probability": 0.99898
+          },
+          {
+            "start": 20.6,
+            "end": 20.78,
+            "word": " my",
+            "probability": 0.9981
+          },
+          {
+            "start": 20.78,
+            "end": 21.12,
+            "word": " city",
+            "probability": 0.99463
+          },
+          {
+            "start": 21.12,
+            "end": 21.48,
+            "word": " this",
+            "probability": 0.99547
+          },
+          {
+            "start": 21.48,
+            "end": 21.7,
+            "word": " way.",
+            "probability": 0.99764
+          }
+        ]
+      },
+      {
+        "start": 22.68,
+        "end": 25.14,
+        "text": "The hard ground makes my legs stronger.",
+        "words": [
+          {
+            "start": 22.68,
+            "end": 22.92,
+            "word": " The",
+            "probability": 0.99669
+          },
+          {
+            "start": 22.92,
+            "end": 23.22,
+            "word": " hard",
+            "probability": 0.9482
+          },
+          {
+            "start": 23.22,
+            "end": 23.64,
+            "word": " ground",
+            "probability": 0.97536
+          },
+          {
+            "start": 23.64,
+            "end": 23.9,
+            "word": " makes",
+            "probability": 0.99733
+          },
+          {
+            "start": 23.9,
+            "end": 24.22,
+            "word": " my",
+            "probability": 0.99919
+          },
+          {
+            "start": 24.22,
+            "end": 24.52,
+            "word": " legs",
+            "probability": 0.99198
+          },
+          {
+            "start": 24.52,
+            "end": 25.14,
+            "word": " stronger.",
+            "probability": 0.99544
+          }
+        ]
+      },
+      {
+        "start": 26.05,
+        "end": 28.11,
+        "text": "It can be a bit dangerous with cars,",
+        "words": [
+          {
+            "start": 26.05,
+            "end": 26.25,
+            "word": " It",
+            "probability": 0.99694
+          },
+          {
+            "start": 26.25,
+            "end": 26.43,
+            "word": " can",
+            "probability": 0.99736
+          },
+          {
+            "start": 26.43,
+            "end": 26.61,
+            "word": " be",
+            "probability": 0.99853
+          },
+          {
+            "start": 26.61,
+            "end": 26.73,
+            "word": " a",
+            "probability": 0.99673
+          },
+          {
+            "start": 26.73,
+            "end": 26.91,
+            "word": " bit",
+            "probability": 0.9998
+          },
+          {
+            "start": 26.91,
+            "end": 27.39,
+            "word": " dangerous",
+            "probability": 0.99829
+          },
+          {
+            "start": 27.39,
+            "end": 27.75,
+            "word": " with",
+            "probability": 0.99493
+          },
+          {
+            "start": 27.75,
+            "end": 28.11,
+            "word": " cars,",
+            "probability": 0.9976
+          }
+        ]
+      },
+      {
+        "start": 28.11,
+        "end": 30.79,
+        "text": "cars, but that's what makes it exciting for me.",
+        "words": [
+          {
+            "start": 28.11,
+            "end": 28.29,
+            "word": " cars,",
+            "probability": 0.01415
+          },
+          {
+            "start": 28.61,
+            "end": 28.87,
+            "word": " but",
+            "probability": 0.98787
+          },
+          {
+            "start": 28.87,
+            "end": 29.27,
+            "word": " that's",
+            "probability": 0.97495
+          },
+          {
+            "start": 29.27,
+            "end": 29.39,
+            "word": " what",
+            "probability": 0.99572
+          },
+          {
+            "start": 29.39,
+            "end": 29.61,
+            "word": " makes",
+            "probability": 0.99411
+          },
+          {
+            "start": 29.61,
+            "end": 29.85,
+            "word": " it",
+            "probability": 0.99609
+          },
+          {
+            "start": 29.85,
+            "end": 30.27,
+            "word": " exciting",
+            "probability": 0.99789
+          },
+          {
+            "start": 30.27,
+            "end": 30.61,
+            "word": " for",
+            "probability": 0.98085
+          },
+          {
+            "start": 30.61,
+            "end": 30.79,
+            "word": " me.",
+            "probability": 0.99925
+          }
+        ]
+      },
+      {
+        "start": 35.31,
+        "end": 38.71,
+        "text": "The city gives me new things to see every time I run.",
+        "words": [
+          {
+            "start": 35.31,
+            "end": 35.43,
+            "word": " The",
+            "probability": 0.94481
+          },
+          {
+            "start": 35.43,
+            "end": 35.71,
+            "word": " city",
+            "probability": 0.91032
+          },
+          {
+            "start": 35.71,
+            "end": 36.03,
+            "word": " gives",
+            "probability": 0.99351
+          },
+          {
+            "start": 36.03,
+            "end": 36.27,
+            "word": " me",
+            "probability": 0.99798
+          },
+          {
+            "start": 36.27,
+            "end": 36.51,
+            "word": " new",
+            "probability": 0.99669
+          },
+          {
+            "start": 36.51,
+            "end": 36.83,
+            "word": " things",
+            "probability": 0.99783
+          },
+          {
+            "start": 36.83,
+            "end": 37.11,
+            "word": " to",
+            "probability": 0.99509
+          },
+          {
+            "start": 37.11,
+            "end": 37.37,
+            "word": " see",
+            "probability": 0.9945
+          },
+          {
+            "start": 37.37,
+            "end": 37.89,
+            "word": " every",
+            "probability": 0.97027
+          },
+          {
+            "start": 37.89,
+            "end": 38.19,
+            "word": " time",
+            "probability": 0.99124
+          },
+          {
+            "start": 38.19,
+            "end": 38.43,
+            "word": " I",
+            "probability": 0.99497
+          },
+          {
+            "start": 38.43,
+            "end": 38.71,
+            "word": " run.",
+            "probability": 0.99749
+          }
+        ]
+      },
+      {
+        "start": 39.43,
+        "end": 42.71,
+        "text": "I like the busy streets and different buildings around me.",
+        "words": [
+          {
+            "start": 39.43,
+            "end": 39.59,
+            "word": " I",
+            "probability": 0.99322
+          },
+          {
+            "start": 39.59,
+            "end": 39.79,
+            "word": " like",
+            "probability": 0.98546
+          },
+          {
+            "start": 39.79,
+            "end": 39.99,
+            "word": " the",
+            "probability": 0.99581
+          },
+          {
+            "start": 39.99,
+            "end": 40.27,
+            "word": " busy",
+            "probability": 0.98641
+          },
+          {
+            "start": 40.27,
+            "end": 40.83,
+            "word": " streets",
+            "probability": 0.99522
+          },
+          {
+            "start": 40.83,
+            "end": 41.07,
+            "word": " and",
+            "probability": 0.94709
+          },
+          {
+            "start": 41.07,
+            "end": 41.39,
+            "word": " different",
+            "probability": 0.99602
+          },
+          {
+            "start": 41.39,
+            "end": 41.95,
+            "word": " buildings",
+            "probability": 0.9951
+          },
+          {
+            "start": 41.95,
+            "end": 42.39,
+            "word": " around",
+            "probability": 0.99534
+          },
+          {
+            "start": 42.39,
+            "end": 42.71,
+            "word": " me.",
+            "probability": 0.99728
+          }
+        ]
+      },
+      {
+        "start": 43.75,
+        "end": 47.93,
+        "text": "Stopping at traffic lights and watching out for people helps me stay alert.",
+        "words": [
+          {
+            "start": 43.75,
+            "end": 44.21,
+            "word": " Stopping",
+            "probability": 0.9709
+          },
+          {
+            "start": 44.21,
+            "end": 44.37,
+            "word": " at",
+            "probability": 0.96357
+          },
+          {
+            "start": 44.37,
+            "end": 44.79,
+            "word": " traffic",
+            "probability": 0.9976
+          },
+          {
+            "start": 44.79,
+            "end": 45.15,
+            "word": " lights",
+            "probability": 0.99272
+          },
+          {
+            "start": 45.15,
+            "end": 45.37,
+            "word": " and",
+            "probability": 0.99236
+          },
+          {
+            "start": 45.37,
+            "end": 45.77,
+            "word": " watching",
+            "probability": 0.99063
+          },
+          {
+            "start": 45.77,
+            "end": 46.05,
+            "word": " out",
+            "probability": 0.99564
+          },
+          {
+            "start": 46.05,
+            "end": 46.27,
+            "word": " for",
+            "probability": 0.99469
+          },
+          {
+            "start": 46.27,
+            "end": 46.67,
+            "word": " people",
+            "probability": 0.99887
+          },
+          {
+            "start": 46.67,
+            "end": 46.99,
+            "word": " helps",
+            "probability": 0.9943
+          },
+          {
+            "start": 46.99,
+            "end": 47.29,
+            "word": " me",
+            "probability": 0.99718
+          },
+          {
+            "start": 47.29,
+            "end": 47.59,
+            "word": " stay",
+            "probability": 0.99765
+          },
+          {
+            "start": 47.59,
+            "end": 47.93,
+            "word": " alert.",
+            "probability": 0.99948
+          }
+        ]
+      },
+      {
+        "start": 48.93,
+        "end": 51.21,
+        "text": "Running in the street is what I love most.",
+        "words": [
+          {
+            "start": 48.93,
+            "end": 49.17,
+            "word": " Running",
+            "probability": 0.96663
+          },
+          {
+            "start": 49.17,
+            "end": 49.35,
+            "word": " in",
+            "probability": 0.99663
+          },
+          {
+            "start": 49.35,
+            "end": 49.49,
+            "word": " the",
+            "probability": 0.98876
+          },
+          {
+            "start": 49.49,
+            "end": 49.85,
+            "word": " street",
+            "probability": 0.98839
+          },
+          {
+            "start": 49.85,
+            "end": 50.19,
+            "word": " is",
+            "probability": 0.98814
+          },
+          {
+            "start": 50.19,
+            "end": 50.41,
+            "word": " what",
+            "probability": 0.99845
+          },
+          {
+            "start": 50.41,
+            "end": 50.55,
+            "word": " I",
+            "probability": 0.9981
+          },
+          {
+            "start": 50.55,
+            "end": 50.81,
+            "word": " love",
+            "probability": 0.99508
+          },
+          {
+            "start": 50.81,
+            "end": 51.21,
+            "word": " most.",
+            "probability": 0.98966
+          }
+        ]
+      },
+      {
+        "start": 52.58,
+        "end": 55.94,
+        "text": "I also get to find new places in my city this way.",
+        "words": [
+          {
+            "start": 52.58,
+            "end": 52.86,
+            "word": " I",
+            "probability": 0.99413
+          },
+          {
+            "start": 52.86,
+            "end": 53.14,
+            "word": " also",
+            "probability": 0.99665
+          },
+          {
+            "start": 53.14,
+            "end": 53.34,
+            "word": " get",
+            "probability": 0.99535
+          },
+          {
+            "start": 53.34,
+            "end": 53.52,
+            "word": " to",
+            "probability": 0.99959
+          },
+          {
+            "start": 53.52,
+            "end": 53.78,
+            "word": " find",
+            "probability": 0.99392
+          },
+          {
+            "start": 53.78,
+            "end": 54.04,
+            "word": " new",
+            "probability": 0.99781
+          },
+          {
+            "start": 54.04,
+            "end": 54.5,
+            "word": " places",
+            "probability": 0.99874
+          },
+          {
+            "start": 54.5,
+            "end": 54.84,
+            "word": " in",
+            "probability": 0.99678
+          },
+          {
+            "start": 54.84,
+            "end": 55.02,
+            "word": " my",
+            "probability": 0.99758
+          },
+          {
+            "start": 55.02,
+            "end": 55.38,
+            "word": " city",
+            "probability": 0.99194
+          },
+          {
+            "start": 55.38,
+            "end": 55.72,
+            "word": " this",
+            "probability": 0.99502
+          },
+          {
+            "start": 55.72,
+            "end": 55.94,
+            "word": " way.",
+            "probability": 0.99688
+          }
+        ]
+      },
+      {
+        "start": 56.96,
+        "end": 59.38,
+        "text": "The hard ground makes my legs stronger.",
+        "words": [
+          {
+            "start": 56.96,
+            "end": 57.16,
+            "word": " The",
+            "probability": 0.9907
+          },
+          {
+            "start": 57.16,
+            "end": 57.46,
+            "word": " hard",
+            "probability": 0.93563
+          },
+          {
+            "start": 57.46,
+            "end": 57.9,
+            "word": " ground",
+            "probability": 0.98172
+          },
+          {
+            "start": 57.9,
+            "end": 58.16,
+            "word": " makes",
+            "probability": 0.99567
+          },
+          {
+            "start": 58.16,
+            "end": 58.44,
+            "word": " my",
+            "probability": 0.99835
+          },
+          {
+            "start": 58.44,
+            "end": 58.76,
+            "word": " legs",
+            "probability": 0.99026
+          },
+          {
+            "start": 58.76,
+            "end": 59.38,
+            "word": " stronger.",
+            "probability": 0.99417
+          }
+        ]
+      },
+      {
+        "start": 59.38,
+        "end": 65.07,
+        "text": "It can be a bit dangerous with cars, but that's what makes it exciting for me.",
+        "words": [
+          {
+            "start": 59.38,
+            "end": 60.44,
+            "word": " It",
+            "probability": 0.33452
+          },
+          {
+            "start": 60.47,
+            "end": 60.65,
+            "word": " can",
+            "probability": 0.98538
+          },
+          {
+            "start": 60.65,
+            "end": 60.87,
+            "word": " be",
+            "probability": 0.99597
+          },
+          {
+            "start": 60.87,
+            "end": 60.97,
+            "word": " a",
+            "probability": 0.99426
+          },
+          {
+            "start": 60.97,
+            "end": 61.15,
+            "word": " bit",
+            "probability": 0.99927
+          },
+          {
+            "start": 61.15,
+            "end": 61.63,
+            "word": " dangerous",
+            "probability": 0.99592
+          },
+          {
+            "start": 61.63,
+            "end": 61.99,
+            "word": " with",
+            "probability": 0.97916
+          },
+          {
+            "start": 61.99,
+            "end": 62.35,
+            "word": " cars,",
+            "probability": 0.99076
+          },
+          {
+            "start": 62.81,
+            "end": 63.09,
+            "word": " but",
+            "probability": 0.98957
+          },
+          {
+            "start": 63.09,
+            "end": 63.51,
+            "word": " that's",
+            "probability": 0.97931
+          },
+          {
+            "start": 63.51,
+            "end": 63.63,
+            "word": " what",
+            "probability": 0.99446
+          },
+          {
+            "start": 63.63,
+            "end": 63.83,
+            "word": " makes",
+            "probability": 0.99274
+          },
+          {
+            "start": 63.83,
+            "end": 64.09,
+            "word": " it",
+            "probability": 0.99731
+          },
+          {
+            "start": 64.09,
+            "end": 64.53,
+            "word": " exciting",
+            "probability": 0.99633
+          },
+          {
+            "start": 64.53,
+            "end": 64.85,
+            "word": " for",
+            "probability": 0.96805
+          },
+          {
+            "start": 64.85,
+            "end": 65.07,
+            "word": " me.",
+            "probability": 0.9989
+          }
+        ]
+      },
+      {
+        "start": 66.94,
+        "end": 71.18,
+        "text": "The clean air by the sea makes me feel good and helps clear my head.",
+        "words": [
+          {
+            "start": 66.94,
+            "end": 67.16,
+            "word": " The",
+            "probability": 0.84526
+          },
+          {
+            "start": 67.16,
+            "end": 67.48,
+            "word": " clean",
+            "probability": 0.92143
+          },
+          {
+            "start": 67.48,
+            "end": 67.76,
+            "word": " air",
+            "probability": 0.99167
+          },
+          {
+            "start": 67.76,
+            "end": 67.96,
+            "word": " by",
+            "probability": 0.99253
+          },
+          {
+            "start": 67.96,
+            "end": 68.14,
+            "word": " the",
+            "probability": 0.98216
+          },
+          {
+            "start": 68.14,
+            "end": 68.46,
+            "word": " sea",
+            "probability": 0.97295
+          },
+          {
+            "start": 68.46,
+            "end": 68.74,
+            "word": " makes",
+            "probability": 0.99499
+          },
+          {
+            "start": 68.74,
+            "end": 69.0,
+            "word": " me",
+            "probability": 0.99803
+          },
+          {
+            "start": 69.0,
+            "end": 69.32,
+            "word": " feel",
+            "probability": 0.99895
+          },
+          {
+            "start": 69.32,
+            "end": 69.66,
+            "word": " good",
+            "probability": 0.99484
+          },
+          {
+            "start": 69.66,
+            "end": 69.98,
+            "word": " and",
+            "probability": 0.93316
+          },
+          {
+            "start": 69.98,
+            "end": 70.24,
+            "word": " helps",
+            "probability": 0.9949
+          },
+          {
+            "start": 70.24,
+            "end": 70.6,
+            "word": " clear",
+            "probability": 0.99364
+          },
+          {
+            "start": 70.6,
+            "end": 70.84,
+            "word": " my",
+            "probability": 0.99862
+          },
+          {
+            "start": 70.84,
+            "end": 71.18,
+            "word": " head.",
+            "probability": 0.99711
+          }
+        ]
+      },
+      {
+        "start": 71.86,
+        "end": 76.74,
+        "text": "I enjoy feeling the sand under my feet which helps make my legs stronger.",
+        "words": [
+          {
+            "start": 71.86,
+            "end": 72.08,
+            "word": " I",
+            "probability": 0.98992
+          },
+          {
+            "start": 72.08,
+            "end": 72.38,
+            "word": " enjoy",
+            "probability": 0.99778
+          },
+          {
+            "start": 72.38,
+            "end": 72.84,
+            "word": " feeling",
+            "probability": 0.99503
+          },
+          {
+            "start": 72.84,
+            "end": 73.08,
+            "word": " the",
+            "probability": 0.99766
+          },
+          {
+            "start": 73.08,
+            "end": 73.5,
+            "word": " sand",
+            "probability": 0.98854
+          },
+          {
+            "start": 73.5,
+            "end": 73.96,
+            "word": " under",
+            "probability": 0.98846
+          },
+          {
+            "start": 73.96,
+            "end": 74.18,
+            "word": " my",
+            "probability": 0.99843
+          },
+          {
+            "start": 74.18,
+            "end": 74.52,
+            "word": " feet",
+            "probability": 0.99879
+          },
+          {
+            "start": 74.52,
+            "end": 75.08,
+            "word": " which",
+            "probability": 0.36314
+          },
+          {
+            "start": 75.08,
+            "end": 75.36,
+            "word": " helps",
+            "probability": 0.99064
+          },
+          {
+            "start": 75.36,
+            "end": 75.66,
+            "word": " make",
+            "probability": 0.96243
+          },
+          {
+            "start": 75.66,
+            "end": 75.9,
+            "word": " my",
+            "probability": 0.99813
+          },
+          {
+            "start": 75.9,
+            "end": 76.14,
+            "word": " legs",
+            "probability": 0.98163
+          },
+          {
+            "start": 76.14,
+            "end": 76.74,
+            "word": " stronger.",
+            "probability": 0.99206
+          }
+        ]
+      },
+      {
+        "start": 77.5,
+        "end": 80.44,
+        "text": "The sound of the waves makes a nice beat for my run.",
+        "words": [
+          {
+            "start": 77.5,
+            "end": 77.62,
+            "word": " The",
+            "probability": 0.99436
+          },
+          {
+            "start": 77.62,
+            "end": 77.9,
+            "word": " sound",
+            "probability": 0.99614
+          },
+          {
+            "start": 77.9,
+            "end": 78.1,
+            "word": " of",
+            "probability": 0.99712
+          },
+          {
+            "start": 78.1,
+            "end": 78.24,
+            "word": " the",
+            "probability": 0.99663
+          },
+          {
+            "start": 78.24,
+            "end": 78.56,
+            "word": " waves",
+            "probability": 0.98965
+          },
+          {
+            "start": 78.56,
+            "end": 78.9,
+            "word": " makes",
+            "probability": 0.98899
+          },
+          {
+            "start": 78.9,
+            "end": 79.14,
+            "word": " a",
+            "probability": 0.99367
+          },
+          {
+            "start": 79.14,
+            "end": 79.38,
+            "word": " nice",
+            "probability": 0.99861
+          },
+          {
+            "start": 79.38,
+            "end": 79.72,
+            "word": " beat",
+            "probability": 0.98669
+          },
+          {
+            "start": 79.72,
+            "end": 80.0,
+            "word": " for",
+            "probability": 0.9979
+          },
+          {
+            "start": 80.0,
+            "end": 80.16,
+            "word": " my",
+            "probability": 0.9974
+          },
+          {
+            "start": 80.16,
+            "end": 80.44,
+            "word": " run.",
+            "probability": 0.99586
+          }
+        ]
+      },
+      {
+        "start": 81.26,
+        "end": 83.86,
+        "text": "There's nothing better than running by the seaside.",
+        "words": [
+          {
+            "start": 81.26,
+            "end": 81.52,
+            "word": " There's",
+            "probability": 0.95714
+          },
+          {
+            "start": 81.52,
+            "end": 81.84,
+            "word": " nothing",
+            "probability": 0.99805
+          },
+          {
+            "start": 81.84,
+            "end": 82.26,
+            "word": " better",
+            "probability": 0.99891
+          },
+          {
+            "start": 82.26,
+            "end": 82.46,
+            "word": " than",
+            "probability": 0.99233
+          },
+          {
+            "start": 82.46,
+            "end": 82.74,
+            "word": " running",
+            "probability": 0.99598
+          },
+          {
+            "start": 82.74,
+            "end": 83.0,
+            "word": " by",
+            "probability": 0.9967
+          },
+          {
+            "start": 83.0,
+            "end": 83.2,
+            "word": " the",
+            "probability": 0.99545
+          },
+          {
+            "start": 83.2,
+            "end": 83.86,
+            "word": " seaside.",
+            "probability": 0.81124
+          }
+        ]
+      },
+      {
+        "start": 84.72,
+        "end": 89.14,
+        "text": "Seeing the sun come up or go down while I run is really pretty.",
+        "words": [
+          {
+            "start": 84.72,
+            "end": 85.08,
+            "word": " Seeing",
+            "probability": 0.96623
+          },
+          {
+            "start": 85.08,
+            "end": 85.34,
+            "word": " the",
+            "probability": 0.99716
+          },
+          {
+            "start": 85.34,
+            "end": 85.66,
+            "word": " sun",
+            "probability": 0.97047
+          },
+          {
+            "start": 85.66,
+            "end": 85.98,
+            "word": " come",
+            "probability": 0.99639
+          },
+          {
+            "start": 85.98,
+            "end": 86.32,
+            "word": " up",
+            "probability": 0.99826
+          },
+          {
+            "start": 86.32,
+            "end": 86.62,
+            "word": " or",
+            "probability": 0.87013
+          },
+          {
+            "start": 86.62,
+            "end": 86.84,
+            "word": " go",
+            "probability": 0.99155
+          },
+          {
+            "start": 86.84,
+            "end": 87.16,
+            "word": " down",
+            "probability": 0.99849
+          },
+          {
+            "start": 87.16,
+            "end": 87.5,
+            "word": " while",
+            "probability": 0.99607
+          },
+          {
+            "start": 87.5,
+            "end": 87.68,
+            "word": " I",
+            "probability": 0.99073
+          },
+          {
+            "start": 87.68,
+            "end": 87.94,
+            "word": " run",
+            "probability": 0.99827
+          },
+          {
+            "start": 87.94,
+            "end": 88.32,
+            "word": " is",
+            "probability": 0.93243
+          },
+          {
+            "start": 88.32,
+            "end": 88.72,
+            "word": " really",
+            "probability": 0.97836
+          },
+          {
+            "start": 88.72,
+            "end": 89.14,
+            "word": " pretty.",
+            "probability": 0.99776
+          }
+        ]
+      },
+      {
+        "start": 89.14,
+        "end": 96.82,
+        "text": "The cool wind from the sea keeps me from getting too hot and after I'm done I can jump in the",
+        "words": [
+          {
+            "start": 89.14,
+            "end": 90.16,
+            "word": " The",
+            "probability": 0.31425
+          },
+          {
+            "start": 90.26,
+            "end": 90.58,
+            "word": " cool",
+            "probability": 0.98286
+          },
+          {
+            "start": 90.58,
+            "end": 90.98,
+            "word": " wind",
+            "probability": 0.98981
+          },
+          {
+            "start": 90.98,
+            "end": 91.22,
+            "word": " from",
+            "probability": 0.99632
+          },
+          {
+            "start": 91.22,
+            "end": 91.4,
+            "word": " the",
+            "probability": 0.98997
+          },
+          {
+            "start": 91.4,
+            "end": 91.72,
+            "word": " sea",
+            "probability": 0.99066
+          },
+          {
+            "start": 91.72,
+            "end": 92.28,
+            "word": " keeps",
+            "probability": 0.96574
+          },
+          {
+            "start": 92.28,
+            "end": 92.54,
+            "word": " me",
+            "probability": 0.99541
+          },
+          {
+            "start": 92.54,
+            "end": 92.76,
+            "word": " from",
+            "probability": 0.97253
+          },
+          {
+            "start": 92.76,
+            "end": 93.0,
+            "word": " getting",
+            "probability": 0.99692
+          },
+          {
+            "start": 93.0,
+            "end": 93.32,
+            "word": " too",
+            "probability": 0.96549
+          },
+          {
+            "start": 93.32,
+            "end": 93.7,
+            "word": " hot",
+            "probability": 0.99773
+          },
+          {
+            "start": 93.7,
+            "end": 94.54,
+            "word": " and",
+            "probability": 0.19136
+          },
+          {
+            "start": 94.54,
+            "end": 94.88,
+            "word": " after",
+            "probability": 0.95811
+          },
+          {
+            "start": 94.88,
+            "end": 95.12,
+            "word": " I'm",
+            "probability": 0.955
+          },
+          {
+            "start": 95.12,
+            "end": 95.36,
+            "word": " done",
+            "probability": 0.99778
+          },
+          {
+            "start": 95.36,
+            "end": 96.08,
+            "word": " I",
+            "probability": 0.47133
+          },
+          {
+            "start": 96.08,
+            "end": 96.24,
+            "word": " can",
+            "probability": 0.99585
+          },
+          {
+            "start": 96.24,
+            "end": 96.48,
+            "word": " jump",
+            "probability": 0.99554
+          },
+          {
+            "start": 96.48,
+            "end": 96.72,
+            "word": " in",
+            "probability": 0.99615
+          },
+          {
+            "start": 96.72,
+            "end": 96.82,
+            "word": " the",
+            "probability": 0.99648
+          }
+        ]
+      },
+      {
+        "start": 96.82,
+        "end": 109.44,
+        "text": "water to cool off. The clean air by the sea makes me feel good and helps clear my head. I enjoy",
+        "words": [
+          {
+            "start": 96.82,
+            "end": 97.14,
+            "word": " water",
+            "probability": 0.99751
+          },
+          {
+            "start": 97.14,
+            "end": 97.54,
+            "word": " to",
+            "probability": 0.98555
+          },
+          {
+            "start": 97.54,
+            "end": 97.82,
+            "word": " cool",
+            "probability": 0.99198
+          },
+          {
+            "start": 97.82,
+            "end": 98.32,
+            "word": " off.",
+            "probability": 0.99206
+          },
+          {
+            "start": 103.92,
+            "end": 104.24,
+            "word": " The",
+            "probability": 0.9731
+          },
+          {
+            "start": 104.24,
+            "end": 104.56,
+            "word": " clean",
+            "probability": 0.96849
+          },
+          {
+            "start": 104.56,
+            "end": 104.84,
+            "word": " air",
+            "probability": 0.99683
+          },
+          {
+            "start": 104.84,
+            "end": 105.04,
+            "word": " by",
+            "probability": 0.9932
+          },
+          {
+            "start": 105.04,
+            "end": 105.2,
+            "word": " the",
+            "probability": 0.99381
+          },
+          {
+            "start": 105.2,
+            "end": 105.54,
+            "word": " sea",
+            "probability": 0.99393
+          },
+          {
+            "start": 105.54,
+            "end": 105.8,
+            "word": " makes",
+            "probability": 0.99298
+          },
+          {
+            "start": 105.8,
+            "end": 106.08,
+            "word": " me",
+            "probability": 0.99891
+          },
+          {
+            "start": 106.08,
+            "end": 106.42,
+            "word": " feel",
+            "probability": 0.99899
+          },
+          {
+            "start": 106.42,
+            "end": 106.74,
+            "word": " good",
+            "probability": 0.99667
+          },
+          {
+            "start": 106.74,
+            "end": 107.06,
+            "word": " and",
+            "probability": 0.97762
+          },
+          {
+            "start": 107.06,
+            "end": 107.34,
+            "word": " helps",
+            "probability": 0.99577
+          },
+          {
+            "start": 107.34,
+            "end": 107.68,
+            "word": " clear",
+            "probability": 0.99362
+          },
+          {
+            "start": 107.68,
+            "end": 107.9,
+            "word": " my",
+            "probability": 0.99929
+          },
+          {
+            "start": 107.9,
+            "end": 108.3,
+            "word": " head.",
+            "probability": 0.99611
+          },
+          {
+            "start": 108.8,
+            "end": 109.16,
+            "word": " I",
+            "probability": 0.9969
+          },
+          {
+            "start": 109.16,
+            "end": 109.44,
+            "word": " enjoy",
+            "probability": 0.99768
+          }
+        ]
+      },
+      {
+        "start": 109.44,
+        "end": 116.48,
+        "text": "feeling the sand under my feet which helps make my legs stronger. The sound of the waves makes a nice",
+        "words": [
+          {
+            "start": 109.44,
+            "end": 109.9,
+            "word": " feeling",
+            "probability": 0.99603
+          },
+          {
+            "start": 109.9,
+            "end": 110.16,
+            "word": " the",
+            "probability": 0.99753
+          },
+          {
+            "start": 110.16,
+            "end": 110.56,
+            "word": " sand",
+            "probability": 0.98803
+          },
+          {
+            "start": 110.56,
+            "end": 111.04,
+            "word": " under",
+            "probability": 0.99195
+          },
+          {
+            "start": 111.04,
+            "end": 111.26,
+            "word": " my",
+            "probability": 0.99875
+          },
+          {
+            "start": 111.26,
+            "end": 111.6,
+            "word": " feet",
+            "probability": 0.99931
+          },
+          {
+            "start": 111.6,
+            "end": 112.16,
+            "word": " which",
+            "probability": 0.45043
+          },
+          {
+            "start": 112.16,
+            "end": 112.44,
+            "word": " helps",
+            "probability": 0.99213
+          },
+          {
+            "start": 112.44,
+            "end": 112.74,
+            "word": " make",
+            "probability": 0.96032
+          },
+          {
+            "start": 112.74,
+            "end": 112.98,
+            "word": " my",
+            "probability": 0.99912
+          },
+          {
+            "start": 112.98,
+            "end": 113.2,
+            "word": " legs",
+            "probability": 0.95926
+          },
+          {
+            "start": 113.2,
+            "end": 113.82,
+            "word": " stronger.",
+            "probability": 0.99512
+          },
+          {
+            "start": 114.5,
+            "end": 114.7,
+            "word": " The",
+            "probability": 0.99495
+          },
+          {
+            "start": 114.7,
+            "end": 114.98,
+            "word": " sound",
+            "probability": 0.9943
+          },
+          {
+            "start": 114.98,
+            "end": 115.18,
+            "word": " of",
+            "probability": 0.99779
+          },
+          {
+            "start": 115.18,
+            "end": 115.3,
+            "word": " the",
+            "probability": 0.99447
+          },
+          {
+            "start": 115.3,
+            "end": 115.64,
+            "word": " waves",
+            "probability": 0.9882
+          },
+          {
+            "start": 115.64,
+            "end": 115.98,
+            "word": " makes",
+            "probability": 0.98783
+          },
+          {
+            "start": 115.98,
+            "end": 116.22,
+            "word": " a",
+            "probability": 0.99503
+          },
+          {
+            "start": 116.22,
+            "end": 116.48,
+            "word": " nice",
+            "probability": 0.99895
+          }
+        ]
+      },
+      {
+        "start": 116.48,
+        "end": 123.92,
+        "text": "beat for my run. There's nothing better than running by the sea side. Seeing the sun come up or go",
+        "words": [
+          {
+            "start": 116.48,
+            "end": 116.78,
+            "word": " beat",
+            "probability": 0.9876
+          },
+          {
+            "start": 116.78,
+            "end": 117.06,
+            "word": " for",
+            "probability": 0.99817
+          },
+          {
+            "start": 117.06,
+            "end": 117.24,
+            "word": " my",
+            "probability": 0.99761
+          },
+          {
+            "start": 117.24,
+            "end": 117.58,
+            "word": " run.",
+            "probability": 0.99719
+          },
+          {
+            "start": 118.32,
+            "end": 118.6,
+            "word": " There's",
+            "probability": 0.97952
+          },
+          {
+            "start": 118.6,
+            "end": 118.9,
+            "word": " nothing",
+            "probability": 0.99842
+          },
+          {
+            "start": 118.9,
+            "end": 119.34,
+            "word": " better",
+            "probability": 0.99873
+          },
+          {
+            "start": 119.34,
+            "end": 119.54,
+            "word": " than",
+            "probability": 0.99169
+          },
+          {
+            "start": 119.54,
+            "end": 119.84,
+            "word": " running",
+            "probability": 0.99805
+          },
+          {
+            "start": 119.84,
+            "end": 120.08,
+            "word": " by",
+            "probability": 0.99664
+          },
+          {
+            "start": 120.08,
+            "end": 120.28,
+            "word": " the",
+            "probability": 0.99415
+          },
+          {
+            "start": 120.28,
+            "end": 120.5,
+            "word": " sea",
+            "probability": 0.4651
+          },
+          {
+            "start": 120.5,
+            "end": 121.0,
+            "word": " side.",
+            "probability": 0.89091
+          },
+          {
+            "start": 121.76,
+            "end": 122.18,
+            "word": " Seeing",
+            "probability": 0.94289
+          },
+          {
+            "start": 122.18,
+            "end": 122.42,
+            "word": " the",
+            "probability": 0.99666
+          },
+          {
+            "start": 122.42,
+            "end": 122.74,
+            "word": " sun",
+            "probability": 0.95996
+          },
+          {
+            "start": 122.74,
+            "end": 123.06,
+            "word": " come",
+            "probability": 0.99604
+          },
+          {
+            "start": 123.06,
+            "end": 123.38,
+            "word": " up",
+            "probability": 0.99861
+          },
+          {
+            "start": 123.38,
+            "end": 123.7,
+            "word": " or",
+            "probability": 0.83827
+          },
+          {
+            "start": 123.7,
+            "end": 123.92,
+            "word": " go",
+            "probability": 0.99303
+          }
+        ]
+      },
+      {
+        "start": 123.92,
+        "end": 130.05,
+        "text": "down while I run is really pretty. The cool wind from the sea keeps me from getting",
+        "words": [
+          {
+            "start": 123.92,
+            "end": 124.26,
+            "word": " down",
+            "probability": 0.36535
+          },
+          {
+            "start": 124.26,
+            "end": 124.6,
+            "word": " while",
+            "probability": 0.97032
+          },
+          {
+            "start": 124.6,
+            "end": 124.78,
+            "word": " I",
+            "probability": 0.95044
+          },
+          {
+            "start": 124.78,
+            "end": 125.04,
+            "word": " run",
+            "probability": 0.99608
+          },
+          {
+            "start": 125.04,
+            "end": 125.4,
+            "word": " is",
+            "probability": 0.8507
+          },
+          {
+            "start": 125.4,
+            "end": 125.8,
+            "word": " really",
+            "probability": 0.96314
+          },
+          {
+            "start": 125.8,
+            "end": 126.24,
+            "word": " pretty.",
+            "probability": 0.99522
+          },
+          {
+            "start": 127.17,
+            "end": 127.35,
+            "word": " The",
+            "probability": 0.98377
+          },
+          {
+            "start": 127.35,
+            "end": 127.69,
+            "word": " cool",
+            "probability": 0.988
+          },
+          {
+            "start": 127.69,
+            "end": 128.07,
+            "word": " wind",
+            "probability": 0.96631
+          },
+          {
+            "start": 128.07,
+            "end": 128.31,
+            "word": " from",
+            "probability": 0.99683
+          },
+          {
+            "start": 128.31,
+            "end": 128.49,
+            "word": " the",
+            "probability": 0.99248
+          },
+          {
+            "start": 128.49,
+            "end": 128.83,
+            "word": " sea",
+            "probability": 0.98723
+          },
+          {
+            "start": 128.83,
+            "end": 129.33,
+            "word": " keeps",
+            "probability": 0.97801
+          },
+          {
+            "start": 129.33,
+            "end": 129.61,
+            "word": " me",
+            "probability": 0.99276
+          },
+          {
+            "start": 129.61,
+            "end": 129.85,
+            "word": " from",
+            "probability": 0.98132
+          },
+          {
+            "start": 129.85,
+            "end": 130.05,
+            "word": " getting",
+            "probability": 0.99645
+          }
+        ]
+      },
+      {
+        "start": 130.05,
+        "end": 135.39,
+        "text": "too hot and after I'm done I can jump in the water to cool off.",
+        "words": [
+          {
+            "start": 130.05,
+            "end": 130.37,
+            "word": " too",
+            "probability": 0.97471
+          },
+          {
+            "start": 130.37,
+            "end": 130.75,
+            "word": " hot",
+            "probability": 0.99213
+          },
+          {
+            "start": 130.75,
+            "end": 131.63,
+            "word": " and",
+            "probability": 0.17073
+          },
+          {
+            "start": 131.63,
+            "end": 131.97,
+            "word": " after",
+            "probability": 0.97795
+          },
+          {
+            "start": 131.97,
+            "end": 132.19,
+            "word": " I'm",
+            "probability": 0.93554
+          },
+          {
+            "start": 132.19,
+            "end": 132.41,
+            "word": " done",
+            "probability": 0.99838
+          },
+          {
+            "start": 132.41,
+            "end": 133.15,
+            "word": " I",
+            "probability": 0.66966
+          },
+          {
+            "start": 133.15,
+            "end": 133.33,
+            "word": " can",
+            "probability": 0.99539
+          },
+          {
+            "start": 133.33,
+            "end": 133.57,
+            "word": " jump",
+            "probability": 0.99218
+          },
+          {
+            "start": 133.57,
+            "end": 133.79,
+            "word": " in",
+            "probability": 0.98506
+          },
+          {
+            "start": 133.79,
+            "end": 133.91,
+            "word": " the",
+            "probability": 0.9899
+          },
+          {
+            "start": 133.91,
+            "end": 134.21,
+            "word": " water",
+            "probability": 0.99832
+          },
+          {
+            "start": 134.21,
+            "end": 134.61,
+            "word": " to",
+            "probability": 0.9949
+          },
+          {
+            "start": 134.61,
+            "end": 134.93,
+            "word": " cool",
+            "probability": 0.99026
+          },
+          {
+            "start": 134.93,
+            "end": 135.39,
+            "word": " off.",
+            "probability": 0.99628
+          }
+        ]
+      },
+      {
+        "start": 137.35,
+        "end": 144.67,
+        "text": "The track lets me know exactly how far I've run and helps me set goals. The smooth surface",
+        "words": [
+          {
+            "start": 137.35,
+            "end": 137.75,
+            "word": " The",
+            "probability": 0.95013
+          },
+          {
+            "start": 137.75,
+            "end": 138.03,
+            "word": " track",
+            "probability": 0.98263
+          },
+          {
+            "start": 138.03,
+            "end": 138.37,
+            "word": " lets",
+            "probability": 0.96176
+          },
+          {
+            "start": 138.37,
+            "end": 138.59,
+            "word": " me",
+            "probability": 0.99873
+          },
+          {
+            "start": 138.59,
+            "end": 138.79,
+            "word": " know",
+            "probability": 0.99698
+          },
+          {
+            "start": 138.79,
+            "end": 139.17,
+            "word": " exactly",
+            "probability": 0.9755
+          },
+          {
+            "start": 139.17,
+            "end": 139.61,
+            "word": " how",
+            "probability": 0.99814
+          },
+          {
+            "start": 139.61,
+            "end": 139.95,
+            "word": " far",
+            "probability": 0.9978
+          },
+          {
+            "start": 139.95,
+            "end": 140.27,
+            "word": " I've",
+            "probability": 0.98361
+          },
+          {
+            "start": 140.27,
+            "end": 140.47,
+            "word": " run",
+            "probability": 0.99361
+          },
+          {
+            "start": 140.47,
+            "end": 141.29,
+            "word": " and",
+            "probability": 0.91523
+          },
+          {
+            "start": 141.29,
+            "end": 141.59,
+            "word": " helps",
+            "probability": 0.96849
+          },
+          {
+            "start": 141.59,
+            "end": 141.85,
+            "word": " me",
+            "probability": 0.99223
+          },
+          {
+            "start": 141.85,
+            "end": 142.15,
+            "word": " set",
+            "probability": 0.99686
+          },
+          {
+            "start": 142.15,
+            "end": 142.55,
+            "word": " goals.",
+            "probability": 0.99299
+          },
+          {
+            "start": 143.49,
+            "end": 143.77,
+            "word": " The",
+            "probability": 0.98995
+          },
+          {
+            "start": 143.77,
+            "end": 144.09,
+            "word": " smooth",
+            "probability": 0.99484
+          },
+          {
+            "start": 144.09,
+            "end": 144.67,
+            "word": " surface",
+            "probability": 0.99089
+          }
+        ]
+      },
+      {
+        "start": 144.67,
+        "end": 151.46,
+        "text": "is better for my knees and ankles. There are no bumps or things in the way so I can focus",
+        "words": [
+          {
+            "start": 144.67,
+            "end": 144.91,
+            "word": " is",
+            "probability": 0.9979
+          },
+          {
+            "start": 144.91,
+            "end": 145.19,
+            "word": " better",
+            "probability": 0.99781
+          },
+          {
+            "start": 145.19,
+            "end": 145.41,
+            "word": " for",
+            "probability": 0.99759
+          },
+          {
+            "start": 145.41,
+            "end": 145.59,
+            "word": " my",
+            "probability": 0.99431
+          },
+          {
+            "start": 145.59,
+            "end": 145.89,
+            "word": " knees",
+            "probability": 0.99394
+          },
+          {
+            "start": 145.89,
+            "end": 146.19,
+            "word": " and",
+            "probability": 0.99671
+          },
+          {
+            "start": 146.19,
+            "end": 146.59,
+            "word": " ankles.",
+            "probability": 0.99667
+          },
+          {
+            "start": 147.64,
+            "end": 147.96,
+            "word": " There",
+            "probability": 0.9935
+          },
+          {
+            "start": 147.96,
+            "end": 148.08,
+            "word": " are",
+            "probability": 0.99388
+          },
+          {
+            "start": 148.08,
+            "end": 148.28,
+            "word": " no",
+            "probability": 0.99827
+          },
+          {
+            "start": 148.28,
+            "end": 148.76,
+            "word": " bumps",
+            "probability": 0.98334
+          },
+          {
+            "start": 148.76,
+            "end": 149.04,
+            "word": " or",
+            "probability": 0.98775
+          },
+          {
+            "start": 149.04,
+            "end": 149.32,
+            "word": " things",
+            "probability": 0.99324
+          },
+          {
+            "start": 149.32,
+            "end": 149.54,
+            "word": " in",
+            "probability": 0.99382
+          },
+          {
+            "start": 149.54,
+            "end": 149.66,
+            "word": " the",
+            "probability": 0.99609
+          },
+          {
+            "start": 149.66,
+            "end": 149.9,
+            "word": " way",
+            "probability": 0.99713
+          },
+          {
+            "start": 149.9,
+            "end": 150.72,
+            "word": " so",
+            "probability": 0.71297
+          },
+          {
+            "start": 150.72,
+            "end": 150.9,
+            "word": " I",
+            "probability": 0.99416
+          },
+          {
+            "start": 150.9,
+            "end": 151.06,
+            "word": " can",
+            "probability": 0.99735
+          },
+          {
+            "start": 151.06,
+            "end": 151.46,
+            "word": " focus",
+            "probability": 0.99559
+          }
+        ]
+      },
+      {
+        "start": 151.46,
+        "end": 158.45,
+        "text": "on how I run. For me, the running track is the best place to run. I can easily see how",
+        "words": [
+          {
+            "start": 151.46,
+            "end": 151.7,
+            "word": " on",
+            "probability": 0.33237
+          },
+          {
+            "start": 151.7,
+            "end": 151.94,
+            "word": " how",
+            "probability": 0.98074
+          },
+          {
+            "start": 151.94,
+            "end": 152.1,
+            "word": " I",
+            "probability": 0.97884
+          },
+          {
+            "start": 152.1,
+            "end": 152.34,
+            "word": " run.",
+            "probability": 0.9972
+          },
+          {
+            "start": 153.1,
+            "end": 153.24,
+            "word": " For",
+            "probability": 0.98064
+          },
+          {
+            "start": 153.24,
+            "end": 153.48,
+            "word": " me,",
+            "probability": 0.9935
+          },
+          {
+            "start": 153.82,
+            "end": 153.88,
+            "word": " the",
+            "probability": 0.99204
+          },
+          {
+            "start": 153.88,
+            "end": 154.12,
+            "word": " running",
+            "probability": 0.95672
+          },
+          {
+            "start": 154.12,
+            "end": 154.46,
+            "word": " track",
+            "probability": 0.9985
+          },
+          {
+            "start": 154.46,
+            "end": 154.72,
+            "word": " is",
+            "probability": 0.99683
+          },
+          {
+            "start": 154.72,
+            "end": 154.88,
+            "word": " the",
+            "probability": 0.99384
+          },
+          {
+            "start": 154.88,
+            "end": 155.18,
+            "word": " best",
+            "probability": 0.99218
+          },
+          {
+            "start": 155.18,
+            "end": 155.46,
+            "word": " place",
+            "probability": 0.99693
+          },
+          {
+            "start": 155.46,
+            "end": 155.72,
+            "word": " to",
+            "probability": 0.9976
+          },
+          {
+            "start": 155.72,
+            "end": 156.0,
+            "word": " run.",
+            "probability": 0.9966
+          },
+          {
+            "start": 157.05,
+            "end": 157.25,
+            "word": " I",
+            "probability": 0.99453
+          },
+          {
+            "start": 157.25,
+            "end": 157.41,
+            "word": " can",
+            "probability": 0.99727
+          },
+          {
+            "start": 157.41,
+            "end": 157.83,
+            "word": " easily",
+            "probability": 0.99478
+          },
+          {
+            "start": 157.83,
+            "end": 158.23,
+            "word": " see",
+            "probability": 0.9978
+          },
+          {
+            "start": 158.23,
+            "end": 158.45,
+            "word": " how",
+            "probability": 0.99709
+          }
+        ]
+      },
+      {
+        "start": 158.45,
+        "end": 165.16,
+        "text": "long each lap takes me. Having other runners around makes me want to try harder. I can",
+        "words": [
+          {
+            "start": 158.45,
+            "end": 158.67,
+            "word": " long",
+            "probability": 0.99443
+          },
+          {
+            "start": 158.67,
+            "end": 159.05,
+            "word": " each",
+            "probability": 0.99856
+          },
+          {
+            "start": 159.05,
+            "end": 159.25,
+            "word": " lap",
+            "probability": 0.99211
+          },
+          {
+            "start": 159.25,
+            "end": 159.59,
+            "word": " takes",
+            "probability": 0.99666
+          },
+          {
+            "start": 159.59,
+            "end": 159.95,
+            "word": " me.",
+            "probability": 0.99681
+          },
+          {
+            "start": 160.8,
+            "end": 161.1,
+            "word": " Having",
+            "probability": 0.99085
+          },
+          {
+            "start": 161.1,
+            "end": 161.4,
+            "word": " other",
+            "probability": 0.99396
+          },
+          {
+            "start": 161.4,
+            "end": 161.74,
+            "word": " runners",
+            "probability": 0.9639
+          },
+          {
+            "start": 161.74,
+            "end": 162.12,
+            "word": " around",
+            "probability": 0.99441
+          },
+          {
+            "start": 162.12,
+            "end": 162.76,
+            "word": " makes",
+            "probability": 0.86772
+          },
+          {
+            "start": 162.76,
+            "end": 163.0,
+            "word": " me",
+            "probability": 0.99781
+          },
+          {
+            "start": 163.0,
+            "end": 163.16,
+            "word": " want",
+            "probability": 0.99508
+          },
+          {
+            "start": 163.16,
+            "end": 163.32,
+            "word": " to",
+            "probability": 0.99803
+          },
+          {
+            "start": 163.32,
+            "end": 163.56,
+            "word": " try",
+            "probability": 0.99766
+          },
+          {
+            "start": 163.56,
+            "end": 164.02,
+            "word": " harder.",
+            "probability": 0.99647
+          },
+          {
+            "start": 164.74,
+            "end": 165.0,
+            "word": " I",
+            "probability": 0.99581
+          },
+          {
+            "start": 165.0,
+            "end": 165.16,
+            "word": " can",
+            "probability": 0.99561
+          }
+        ]
+      },
+      {
+        "start": 165.16,
+        "end": 168.64,
+        "text": "run on the track in almost any weather, which is great.",
+        "words": [
+          {
+            "start": 165.16,
+            "end": 165.32,
+            "word": " run",
+            "probability": 0.99556
+          },
+          {
+            "start": 165.32,
+            "end": 165.48,
+            "word": " on",
+            "probability": 0.99723
+          },
+          {
+            "start": 165.48,
+            "end": 165.6,
+            "word": " the",
+            "probability": 0.99534
+          },
+          {
+            "start": 165.6,
+            "end": 165.88,
+            "word": " track",
+            "probability": 0.99818
+          },
+          {
+            "start": 165.88,
+            "end": 166.2,
+            "word": " in",
+            "probability": 0.98053
+          },
+          {
+            "start": 166.2,
+            "end": 166.54,
+            "word": " almost",
+            "probability": 0.99684
+          },
+          {
+            "start": 166.54,
+            "end": 166.98,
+            "word": " any",
+            "probability": 0.96855
+          },
+          {
+            "start": 166.98,
+            "end": 167.36,
+            "word": " weather,",
+            "probability": 0.98702
+          },
+          {
+            "start": 167.92,
+            "end": 168.18,
+            "word": " which",
+            "probability": 0.99686
+          },
+          {
+            "start": 168.18,
+            "end": 168.32,
+            "word": " is",
+            "probability": 0.99658
+          },
+          {
+            "start": 168.32,
+            "end": 168.64,
+            "word": " great.",
+            "probability": 0.99625
+          }
+        ]
+      },
+      {
+        "start": 173.4,
+        "end": 180.52,
+        "text": "The track lets me know exactly how far I've run, and helps me set goals. The smooth surface",
+        "words": [
+          {
+            "start": 173.4,
+            "end": 173.62,
+            "word": " The",
+            "probability": 0.9928
+          },
+          {
+            "start": 173.62,
+            "end": 173.9,
+            "word": " track",
+            "probability": 0.99664
+          },
+          {
+            "start": 173.9,
+            "end": 174.18,
+            "word": " lets",
+            "probability": 0.97732
+          },
+          {
+            "start": 174.18,
+            "end": 174.46,
+            "word": " me",
+            "probability": 0.99915
+          },
+          {
+            "start": 174.46,
+            "end": 174.62,
+            "word": " know",
+            "probability": 0.99863
+          },
+          {
+            "start": 174.62,
+            "end": 175.02,
+            "word": " exactly",
+            "probability": 0.98513
+          },
+          {
+            "start": 175.02,
+            "end": 175.46,
+            "word": " how",
+            "probability": 0.99796
+          },
+          {
+            "start": 175.46,
+            "end": 175.84,
+            "word": " far",
+            "probability": 0.99803
+          },
+          {
+            "start": 175.84,
+            "end": 176.14,
+            "word": " I've",
+            "probability": 0.96764
+          },
+          {
+            "start": 176.14,
+            "end": 176.36,
+            "word": " run,",
+            "probability": 0.9947
+          },
+          {
+            "start": 176.94,
+            "end": 177.14,
+            "word": " and",
+            "probability": 0.99304
+          },
+          {
+            "start": 177.14,
+            "end": 177.44,
+            "word": " helps",
+            "probability": 0.99276
+          },
+          {
+            "start": 177.44,
+            "end": 177.7,
+            "word": " me",
+            "probability": 0.9916
+          },
+          {
+            "start": 177.7,
+            "end": 178.02,
+            "word": " set",
+            "probability": 0.99639
+          },
+          {
+            "start": 178.02,
+            "end": 178.4,
+            "word": " goals.",
+            "probability": 0.99559
+          },
+          {
+            "start": 179.36,
+            "end": 179.62,
+            "word": " The",
+            "probability": 0.99451
+          },
+          {
+            "start": 179.62,
+            "end": 179.94,
+            "word": " smooth",
+            "probability": 0.98847
+          },
+          {
+            "start": 179.94,
+            "end": 180.52,
+            "word": " surface",
+            "probability": 0.99302
+          }
+        ]
+      },
+      {
+        "start": 180.52,
+        "end": 186.91,
+        "text": "is better for my knees and ankles. There are no bumps or things in the way, so I can",
+        "words": [
+          {
+            "start": 180.52,
+            "end": 180.74,
+            "word": " is",
+            "probability": 0.62397
+          },
+          {
+            "start": 180.74,
+            "end": 181.04,
+            "word": " better",
+            "probability": 0.99125
+          },
+          {
+            "start": 181.04,
+            "end": 181.26,
+            "word": " for",
+            "probability": 0.99488
+          },
+          {
+            "start": 181.26,
+            "end": 181.46,
+            "word": " my",
+            "probability": 0.995
+          },
+          {
+            "start": 181.46,
+            "end": 181.72,
+            "word": " knees",
+            "probability": 0.98679
+          },
+          {
+            "start": 181.72,
+            "end": 182.04,
+            "word": " and",
+            "probability": 0.98895
+          },
+          {
+            "start": 182.04,
+            "end": 182.42,
+            "word": " ankles.",
+            "probability": 0.99611
+          },
+          {
+            "start": 183.59,
+            "end": 183.81,
+            "word": " There",
+            "probability": 0.97315
+          },
+          {
+            "start": 183.81,
+            "end": 183.93,
+            "word": " are",
+            "probability": 0.99548
+          },
+          {
+            "start": 183.93,
+            "end": 184.13,
+            "word": " no",
+            "probability": 0.99799
+          },
+          {
+            "start": 184.13,
+            "end": 184.63,
+            "word": " bumps",
+            "probability": 0.96398
+          },
+          {
+            "start": 184.63,
+            "end": 184.89,
+            "word": " or",
+            "probability": 0.93686
+          },
+          {
+            "start": 184.89,
+            "end": 185.17,
+            "word": " things",
+            "probability": 0.99005
+          },
+          {
+            "start": 185.17,
+            "end": 185.37,
+            "word": " in",
+            "probability": 0.99213
+          },
+          {
+            "start": 185.37,
+            "end": 185.51,
+            "word": " the",
+            "probability": 0.99471
+          },
+          {
+            "start": 185.51,
+            "end": 185.75,
+            "word": " way,",
+            "probability": 0.9962
+          },
+          {
+            "start": 186.37,
+            "end": 186.59,
+            "word": " so",
+            "probability": 0.99699
+          },
+          {
+            "start": 186.59,
+            "end": 186.75,
+            "word": " I",
+            "probability": 0.99191
+          },
+          {
+            "start": 186.75,
+            "end": 186.91,
+            "word": " can",
+            "probability": 0.99722
+          }
+        ]
+      },
+      {
+        "start": 186.91,
+        "end": 194.08,
+        "text": "focus on how I run. For me, the running track is the best place to run. I can easily see",
+        "words": [
+          {
+            "start": 186.91,
+            "end": 187.29,
+            "word": " focus",
+            "probability": 0.99503
+          },
+          {
+            "start": 187.29,
+            "end": 187.55,
+            "word": " on",
+            "probability": 0.99633
+          },
+          {
+            "start": 187.55,
+            "end": 187.77,
+            "word": " how",
+            "probability": 0.99408
+          },
+          {
+            "start": 187.77,
+            "end": 187.93,
+            "word": " I",
+            "probability": 0.99383
+          },
+          {
+            "start": 187.93,
+            "end": 188.19,
+            "word": " run.",
+            "probability": 0.99762
+          },
+          {
+            "start": 188.95,
+            "end": 189.11,
+            "word": " For",
+            "probability": 0.98843
+          },
+          {
+            "start": 189.11,
+            "end": 189.33,
+            "word": " me,",
+            "probability": 0.9959
+          },
+          {
+            "start": 189.67,
+            "end": 189.73,
+            "word": " the",
+            "probability": 0.98472
+          },
+          {
+            "start": 189.73,
+            "end": 189.97,
+            "word": " running",
+            "probability": 0.95674
+          },
+          {
+            "start": 189.97,
+            "end": 190.31,
+            "word": " track",
+            "probability": 0.99828
+          },
+          {
+            "start": 190.31,
+            "end": 190.55,
+            "word": " is",
+            "probability": 0.99661
+          },
+          {
+            "start": 190.55,
+            "end": 190.73,
+            "word": " the",
+            "probability": 0.99513
+          },
+          {
+            "start": 190.73,
+            "end": 190.99,
+            "word": " best",
+            "probability": 0.99452
+          },
+          {
+            "start": 190.99,
+            "end": 191.31,
+            "word": " place",
+            "probability": 0.99704
+          },
+          {
+            "start": 191.31,
+            "end": 191.57,
+            "word": " to",
+            "probability": 0.99861
+          },
+          {
+            "start": 191.57,
+            "end": 191.83,
+            "word": " run.",
+            "probability": 0.99785
+          },
+          {
+            "start": 192.86,
+            "end": 193.1,
+            "word": " I",
+            "probability": 0.9975
+          },
+          {
+            "start": 193.1,
+            "end": 193.26,
+            "word": " can",
+            "probability": 0.99825
+          },
+          {
+            "start": 193.26,
+            "end": 193.68,
+            "word": " easily",
+            "probability": 0.99472
+          },
+          {
+            "start": 193.68,
+            "end": 194.08,
+            "word": " see",
+            "probability": 0.99816
+          }
+        ]
+      },
+      {
+        "start": 194.08,
+        "end": 199.88,
+        "text": "how long each lap takes me. Having other runners around makes me want to try harder.",
+        "words": [
+          {
+            "start": 194.08,
+            "end": 194.3,
+            "word": " how",
+            "probability": 0.99748
+          },
+          {
+            "start": 194.3,
+            "end": 194.54,
+            "word": " long",
+            "probability": 0.9952
+          },
+          {
+            "start": 194.54,
+            "end": 194.9,
+            "word": " each",
+            "probability": 0.99844
+          },
+          {
+            "start": 194.9,
+            "end": 195.12,
+            "word": " lap",
+            "probability": 0.99313
+          },
+          {
+            "start": 195.12,
+            "end": 195.46,
+            "word": " takes",
+            "probability": 0.99762
+          },
+          {
+            "start": 195.46,
+            "end": 195.82,
+            "word": " me.",
+            "probability": 0.99632
+          },
+          {
+            "start": 196.64,
+            "end": 196.96,
+            "word": " Having",
+            "probability": 0.98797
+          },
+          {
+            "start": 196.96,
+            "end": 197.24,
+            "word": " other",
+            "probability": 0.99499
+          },
+          {
+            "start": 197.24,
+            "end": 197.58,
+            "word": " runners",
+            "probability": 0.96831
+          },
+          {
+            "start": 197.58,
+            "end": 197.96,
+            "word": " around",
+            "probability": 0.9954
+          },
+          {
+            "start": 197.96,
+            "end": 198.62,
+            "word": " makes",
+            "probability": 0.87404
+          },
+          {
+            "start": 198.62,
+            "end": 198.88,
+            "word": " me",
+            "probability": 0.99843
+          },
+          {
+            "start": 198.88,
+            "end": 199.02,
+            "word": " want",
+            "probability": 0.99595
+          },
+          {
+            "start": 199.02,
+            "end": 199.18,
+            "word": " to",
+            "probability": 0.99739
+          },
+          {
+            "start": 199.18,
+            "end": 199.42,
+            "word": " try",
+            "probability": 0.99828
+          },
+          {
+            "start": 199.42,
+            "end": 199.88,
+            "word": " harder.",
+            "probability": 0.99734
+          }
+        ]
+      },
+      {
+        "start": 200.62,
+        "end": 204.5,
+        "text": "I can run on the track in almost any weather, which is great.",
+        "words": [
+          {
+            "start": 200.62,
+            "end": 200.86,
+            "word": " I",
+            "probability": 0.99826
+          },
+          {
+            "start": 200.86,
+            "end": 201.02,
+            "word": " can",
+            "probability": 0.99626
+          },
+          {
+            "start": 201.02,
+            "end": 201.18,
+            "word": " run",
+            "probability": 0.99638
+          },
+          {
+            "start": 201.18,
+            "end": 201.34,
+            "word": " on",
+            "probability": 0.99476
+          },
+          {
+            "start": 201.34,
+            "end": 201.46,
+            "word": " the",
+            "probability": 0.9918
+          },
+          {
+            "start": 201.46,
+            "end": 201.72,
+            "word": " track",
+            "probability": 0.99869
+          },
+          {
+            "start": 201.72,
+            "end": 202.06,
+            "word": " in",
+            "probability": 0.99393
+          },
+          {
+            "start": 202.06,
+            "end": 202.4,
+            "word": " almost",
+            "probability": 0.99668
+          },
+          {
+            "start": 202.4,
+            "end": 202.84,
+            "word": " any",
+            "probability": 0.98763
+          },
+          {
+            "start": 202.84,
+            "end": 203.22,
+            "word": " weather,",
+            "probability": 0.99328
+          },
+          {
+            "start": 203.78,
+            "end": 204.04,
+            "word": " which",
+            "probability": 0.99693
+          },
+          {
+            "start": 204.04,
+            "end": 204.18,
+            "word": " is",
+            "probability": 0.99792
+          },
+          {
+            "start": 204.18,
+            "end": 204.5,
+            "word": " great.",
+            "probability": 0.99474
+          }
+        ]
+      },
+      {
+        "start": 206.45,
+        "end": 210.97,
+        "text": "Inside, I don't have to worry about it being too hot, cold, or rainy.",
+        "words": [
+          {
+            "start": 206.45,
+            "end": 207.01,
+            "word": " Inside,",
+            "probability": 0.33201
+          },
+          {
+            "start": 207.31,
+            "end": 207.33,
+            "word": " I",
+            "probability": 0.99157
+          },
+          {
+            "start": 207.33,
+            "end": 207.49,
+            "word": " don't",
+            "probability": 0.98571
+          },
+          {
+            "start": 207.49,
+            "end": 207.63,
+            "word": " have",
+            "probability": 0.98959
+          },
+          {
+            "start": 207.63,
+            "end": 207.81,
+            "word": " to",
+            "probability": 0.99774
+          },
+          {
+            "start": 207.81,
+            "end": 208.11,
+            "word": " worry",
+            "probability": 0.99791
+          },
+          {
+            "start": 208.11,
+            "end": 208.37,
+            "word": " about",
+            "probability": 0.9947
+          },
+          {
+            "start": 208.37,
+            "end": 208.51,
+            "word": " it",
+            "probability": 0.98917
+          },
+          {
+            "start": 208.51,
+            "end": 208.75,
+            "word": " being",
+            "probability": 0.99314
+          },
+          {
+            "start": 208.75,
+            "end": 209.07,
+            "word": " too",
+            "probability": 0.99009
+          },
+          {
+            "start": 209.07,
+            "end": 209.43,
+            "word": " hot,",
+            "probability": 0.9944
+          },
+          {
+            "start": 209.81,
+            "end": 210.13,
+            "word": " cold,",
+            "probability": 0.99939
+          },
+          {
+            "start": 210.49,
+            "end": 210.55,
+            "word": " or",
+            "probability": 0.9904
+          },
+          {
+            "start": 210.55,
+            "end": 210.97,
+            "word": " rainy.",
+            "probability": 0.98694
+          }
+        ]
+      },
+      {
+        "start": 212.21,
+        "end": 216.21,
+        "text": "I can use the treadmill and other machines to mix up my workout.",
+        "words": [
+          {
+            "start": 212.21,
+            "end": 212.53,
+            "word": " I",
+            "probability": 0.99231
+          },
+          {
+            "start": 212.53,
+            "end": 212.67,
+            "word": " can",
+            "probability": 0.99561
+          },
+          {
+            "start": 212.67,
+            "end": 212.87,
+            "word": " use",
+            "probability": 0.99583
+          },
+          {
+            "start": 212.87,
+            "end": 213.05,
+            "word": " the",
+            "probability": 0.99596
+          },
+          {
+            "start": 213.05,
+            "end": 213.45,
+            "word": " treadmill",
+            "probability": 0.86515
+          },
+          {
+            "start": 213.45,
+            "end": 213.83,
+            "word": " and",
+            "probability": 0.97675
+          },
+          {
+            "start": 213.83,
+            "end": 214.13,
+            "word": " other",
+            "probability": 0.99627
+          },
+          {
+            "start": 214.13,
+            "end": 214.55,
+            "word": " machines",
+            "probability": 0.99605
+          },
+          {
+            "start": 214.55,
+            "end": 215.17,
+            "word": " to",
+            "probability": 0.98229
+          },
+          {
+            "start": 215.17,
+            "end": 215.39,
+            "word": " mix",
+            "probability": 0.996
+          },
+          {
+            "start": 215.39,
+            "end": 215.61,
+            "word": " up",
+            "probability": 0.97831
+          },
+          {
+            "start": 215.61,
+            "end": 215.81,
+            "word": " my",
+            "probability": 0.99665
+          },
+          {
+            "start": 215.81,
+            "end": 216.21,
+            "word": " workout.",
+            "probability": 0.82588
+          }
+        ]
+      },
+      {
+        "start": 217.6,
+        "end": 221.78,
+        "text": "The soft surface of the treadmill is easier on my knees than the road.",
+        "words": [
+          {
+            "start": 217.6,
+            "end": 217.86,
+            "word": " The",
+            "probability": 0.98129
+          },
+          {
+            "start": 217.86,
+            "end": 218.16,
+            "word": " soft",
+            "probability": 0.99693
+          },
+          {
+            "start": 218.16,
+            "end": 218.66,
+            "word": " surface",
+            "probability": 0.99741
+          },
+          {
+            "start": 218.66,
+            "end": 218.9,
+            "word": " of",
+            "probability": 0.99613
+          },
+          {
+            "start": 218.9,
+            "end": 219.04,
+            "word": " the",
+            "probability": 0.99415
+          },
+          {
+            "start": 219.04,
+            "end": 219.48,
+            "word": " treadmill",
+            "probability": 0.99565
+          },
+          {
+            "start": 219.48,
+            "end": 219.8,
+            "word": " is",
+            "probability": 0.99765
+          },
+          {
+            "start": 219.8,
+            "end": 220.28,
+            "word": " easier",
+            "probability": 0.99353
+          },
+          {
+            "start": 220.28,
+            "end": 220.5,
+            "word": " on",
+            "probability": 0.99738
+          },
+          {
+            "start": 220.5,
+            "end": 220.7,
+            "word": " my",
+            "probability": 0.99845
+          },
+          {
+            "start": 220.7,
+            "end": 221.02,
+            "word": " knees",
+            "probability": 0.99764
+          },
+          {
+            "start": 221.02,
+            "end": 221.34,
+            "word": " than",
+            "probability": 0.98724
+          },
+          {
+            "start": 221.34,
+            "end": 221.5,
+            "word": " the",
+            "probability": 0.99088
+          },
+          {
+            "start": 221.5,
+            "end": 221.78,
+            "word": " road.",
+            "probability": 0.96524
+          }
+        ]
+      },
+      {
+        "start": 223.13,
+        "end": 225.25,
+        "text": "I like running in the fitness center best.",
+        "words": [
+          {
+            "start": 223.13,
+            "end": 223.41,
+            "word": " I",
+            "probability": 0.99534
+          },
+          {
+            "start": 223.41,
+            "end": 223.59,
+            "word": " like",
+            "probability": 0.99703
+          },
+          {
+            "start": 223.59,
+            "end": 223.91,
+            "word": " running",
+            "probability": 0.9967
+          },
+          {
+            "start": 223.91,
+            "end": 224.11,
+            "word": " in",
+            "probability": 0.99722
+          },
+          {
+            "start": 224.11,
+            "end": 224.29,
+            "word": " the",
+            "probability": 0.99186
+          },
+          {
+            "start": 224.29,
+            "end": 224.55,
+            "word": " fitness",
+            "probability": 0.98151
+          },
+          {
+            "start": 224.55,
+            "end": 224.91,
+            "word": " center",
+            "probability": 0.97577
+          },
+          {
+            "start": 224.91,
+            "end": 225.25,
+            "word": " best.",
+            "probability": 0.99084
+          }
+        ]
+      },
+      {
+        "start": 226.25,
+        "end": 230.43,
+        "text": "I can change how steep or fast the treadmill goes to make it more challenging.",
+        "words": [
+          {
+            "start": 226.25,
+            "end": 226.45,
+            "word": " I",
+            "probability": 0.99435
+          },
+          {
+            "start": 226.45,
+            "end": 226.59,
+            "word": " can",
+            "probability": 0.99257
+          },
+          {
+            "start": 226.59,
+            "end": 226.93,
+            "word": " change",
+            "probability": 0.99399
+          },
+          {
+            "start": 226.93,
+            "end": 227.13,
+            "word": " how",
+            "probability": 0.9967
+          },
+          {
+            "start": 227.13,
+            "end": 227.49,
+            "word": " steep",
+            "probability": 0.99762
+          },
+          {
+            "start": 227.49,
+            "end": 227.71,
+            "word": " or",
+            "probability": 0.97234
+          },
+          {
+            "start": 227.71,
+            "end": 228.01,
+            "word": " fast",
+            "probability": 0.99656
+          },
+          {
+            "start": 228.01,
+            "end": 228.29,
+            "word": " the",
+            "probability": 0.99616
+          },
+          {
+            "start": 228.29,
+            "end": 228.67,
+            "word": " treadmill",
+            "probability": 0.99749
+          },
+          {
+            "start": 228.67,
+            "end": 229.07,
+            "word": " goes",
+            "probability": 0.99447
+          },
+          {
+            "start": 229.07,
+            "end": 229.35,
+            "word": " to",
+            "probability": 0.96093
+          },
+          {
+            "start": 229.35,
+            "end": 229.49,
+            "word": " make",
+            "probability": 0.99722
+          },
+          {
+            "start": 229.49,
+            "end": 229.65,
+            "word": " it",
+            "probability": 0.99749
+          },
+          {
+            "start": 229.65,
+            "end": 229.83,
+            "word": " more",
+            "probability": 0.99062
+          },
+          {
+            "start": 229.83,
+            "end": 230.43,
+            "word": " challenging.",
+            "probability": 0.99952
+          }
+        ]
+      },
+      {
+        "start": 231.66,
+        "end": 235.52,
+        "text": "The machines tell me how fast my heart is beating and how well I'm doing.",
+        "words": [
+          {
+            "start": 231.66,
+            "end": 231.92,
+            "word": " The",
+            "probability": 0.99494
+          },
+          {
+            "start": 231.92,
+            "end": 232.3,
+            "word": " machines",
+            "probability": 0.98894
+          },
+          {
+            "start": 232.3,
+            "end": 232.66,
+            "word": " tell",
+            "probability": 0.99805
+          },
+          {
+            "start": 232.66,
+            "end": 232.86,
+            "word": " me",
+            "probability": 0.99523
+          },
+          {
+            "start": 232.86,
+            "end": 233.0,
+            "word": " how",
+            "probability": 0.99292
+          },
+          {
+            "start": 233.0,
+            "end": 233.36,
+            "word": " fast",
+            "probability": 0.99951
+          },
+          {
+            "start": 233.36,
+            "end": 233.6,
+            "word": " my",
+            "probability": 0.99645
+          },
+          {
+            "start": 233.6,
+            "end": 233.88,
+            "word": " heart",
+            "probability": 0.98518
+          },
+          {
+            "start": 233.88,
+            "end": 234.08,
+            "word": " is",
+            "probability": 0.99887
+          },
+          {
+            "start": 234.08,
+            "end": 234.34,
+            "word": " beating",
+            "probability": 0.99143
+          },
+          {
+            "start": 234.34,
+            "end": 234.58,
+            "word": " and",
+            "probability": 0.88898
+          },
+          {
+            "start": 234.58,
+            "end": 234.76,
+            "word": " how",
+            "probability": 0.99486
+          },
+          {
+            "start": 234.76,
+            "end": 235.0,
+            "word": " well",
+            "probability": 0.99139
+          },
+          {
+            "start": 235.0,
+            "end": 235.22,
+            "word": " I'm",
+            "probability": 0.95064
+          },
+          {
+            "start": 235.22,
+            "end": 235.52,
+            "word": " doing.",
+            "probability": 0.99863
+          }
+        ]
+      },
+      {
+        "start": 235.52,
+        "end": 240.04,
+        "text": "And when I'm done, I can take a shower and change right there.",
+        "words": [
+          {
+            "start": 235.52,
+            "end": 236.4,
+            "word": " And",
+            "probability": 0.19999
+          },
+          {
+            "start": 236.4,
+            "end": 236.52,
+            "word": " when",
+            "probability": 0.89078
+          },
+          {
+            "start": 236.52,
+            "end": 236.74,
+            "word": " I'm",
+            "probability": 0.92725
+          },
+          {
+            "start": 236.74,
+            "end": 236.96,
+            "word": " done,",
+            "probability": 0.99863
+          },
+          {
+            "start": 237.34,
+            "end": 237.6,
+            "word": " I",
+            "probability": 0.99108
+          },
+          {
+            "start": 237.6,
+            "end": 237.74,
+            "word": " can",
+            "probability": 0.99039
+          },
+          {
+            "start": 237.74,
+            "end": 237.92,
+            "word": " take",
+            "probability": 0.9882
+          },
+          {
+            "start": 237.92,
+            "end": 238.08,
+            "word": " a",
+            "probability": 0.99616
+          },
+          {
+            "start": 238.08,
+            "end": 238.5,
+            "word": " shower",
+            "probability": 0.9991
+          },
+          {
+            "start": 238.5,
+            "end": 238.94,
+            "word": " and",
+            "probability": 0.93768
+          },
+          {
+            "start": 238.94,
+            "end": 239.32,
+            "word": " change",
+            "probability": 0.98275
+          },
+          {
+            "start": 239.32,
+            "end": 239.66,
+            "word": " right",
+            "probability": 0.94367
+          },
+          {
+            "start": 239.66,
+            "end": 240.04,
+            "word": " there.",
+            "probability": 0.99005
+          }
+        ]
+      },
+      {
+        "start": 244.64,
+        "end": 249.14,
+        "text": "Inside I don't have to worry about it being too hot, cold or rainy.",
+        "words": [
+          {
+            "start": 244.64,
+            "end": 245.24,
+            "word": " Inside",
+            "probability": 0.95222
+          },
+          {
+            "start": 245.24,
+            "end": 245.52,
+            "word": " I",
+            "probability": 0.2025
+          },
+          {
+            "start": 245.52,
+            "end": 245.68,
+            "word": " don't",
+            "probability": 0.99391
+          },
+          {
+            "start": 245.68,
+            "end": 245.8,
+            "word": " have",
+            "probability": 0.99257
+          },
+          {
+            "start": 245.8,
+            "end": 245.98,
+            "word": " to",
+            "probability": 0.99607
+          },
+          {
+            "start": 245.98,
+            "end": 246.3,
+            "word": " worry",
+            "probability": 0.9978
+          },
+          {
+            "start": 246.3,
+            "end": 246.54,
+            "word": " about",
+            "probability": 0.99583
+          },
+          {
+            "start": 246.54,
+            "end": 246.7,
+            "word": " it",
+            "probability": 0.98599
+          },
+          {
+            "start": 246.7,
+            "end": 246.92,
+            "word": " being",
+            "probability": 0.99302
+          },
+          {
+            "start": 246.92,
+            "end": 247.24,
+            "word": " too",
+            "probability": 0.98436
+          },
+          {
+            "start": 247.24,
+            "end": 247.62,
+            "word": " hot,",
+            "probability": 0.9973
+          },
+          {
+            "start": 247.98,
+            "end": 248.24,
+            "word": " cold",
+            "probability": 0.99947
+          },
+          {
+            "start": 248.24,
+            "end": 248.74,
+            "word": " or",
+            "probability": 0.57477
+          },
+          {
+            "start": 248.74,
+            "end": 249.14,
+            "word": " rainy.",
+            "probability": 0.98853
+          }
+        ]
+      },
+      {
+        "start": 250.44,
+        "end": 254.42,
+        "text": "I can use the treadmill and other machines to mix up my workout.",
+        "words": [
+          {
+            "start": 250.44,
+            "end": 250.72,
+            "word": " I",
+            "probability": 0.98627
+          },
+          {
+            "start": 250.72,
+            "end": 250.86,
+            "word": " can",
+            "probability": 0.99541
+          },
+          {
+            "start": 250.86,
+            "end": 251.04,
+            "word": " use",
+            "probability": 0.99496
+          },
+          {
+            "start": 251.04,
+            "end": 251.22,
+            "word": " the",
+            "probability": 0.99433
+          },
+          {
+            "start": 251.22,
+            "end": 251.62,
+            "word": " treadmill",
+            "probability": 0.90899
+          },
+          {
+            "start": 251.62,
+            "end": 252.0,
+            "word": " and",
+            "probability": 0.96977
+          },
+          {
+            "start": 252.0,
+            "end": 252.32,
+            "word": " other",
+            "probability": 0.99532
+          },
+          {
+            "start": 252.32,
+            "end": 252.74,
+            "word": " machines",
+            "probability": 0.99522
+          },
+          {
+            "start": 252.74,
+            "end": 253.34,
+            "word": " to",
+            "probability": 0.9915
+          },
+          {
+            "start": 253.34,
+            "end": 253.56,
+            "word": " mix",
+            "probability": 0.99612
+          },
+          {
+            "start": 253.56,
+            "end": 253.8,
+            "word": " up",
+            "probability": 0.96537
+          },
+          {
+            "start": 253.8,
+            "end": 254.0,
+            "word": " my",
+            "probability": 0.99409
+          },
+          {
+            "start": 254.0,
+            "end": 254.42,
+            "word": " workout.",
+            "probability": 0.88888
+          }
+        ]
+      },
+      {
+        "start": 255.77,
+        "end": 259.93,
+        "text": "The soft surface of the treadmill is easier on my knees than the road.",
+        "words": [
+          {
+            "start": 255.77,
+            "end": 256.03,
+            "word": " The",
+            "probability": 0.97642
+          },
+          {
+            "start": 256.03,
+            "end": 256.35,
+            "word": " soft",
+            "probability": 0.99646
+          },
+          {
+            "start": 256.35,
+            "end": 256.85,
+            "word": " surface",
+            "probability": 0.99588
+          },
+          {
+            "start": 256.85,
+            "end": 257.09,
+            "word": " of",
+            "probability": 0.99339
+          },
+          {
+            "start": 257.09,
+            "end": 257.21,
+            "word": " the",
+            "probability": 0.9917
+          },
+          {
+            "start": 257.21,
+            "end": 257.65,
+            "word": " treadmill",
+            "probability": 0.99413
+          },
+          {
+            "start": 257.65,
+            "end": 257.97,
+            "word": " is",
+            "probability": 0.99474
+          },
+          {
+            "start": 257.97,
+            "end": 258.45,
+            "word": " easier",
+            "probability": 0.99116
+          },
+          {
+            "start": 258.45,
+            "end": 258.67,
+            "word": " on",
+            "probability": 0.99569
+          },
+          {
+            "start": 258.67,
+            "end": 258.87,
+            "word": " my",
+            "probability": 0.99778
+          },
+          {
+            "start": 258.87,
+            "end": 259.19,
+            "word": " knees",
+            "probability": 0.99707
+          },
+          {
+            "start": 259.19,
+            "end": 259.53,
+            "word": " than",
+            "probability": 0.99566
+          },
+          {
+            "start": 259.53,
+            "end": 259.69,
+            "word": " the",
+            "probability": 0.97594
+          },
+          {
+            "start": 259.69,
+            "end": 259.93,
+            "word": " road.",
+            "probability": 0.97319
+          }
+        ]
+      },
+      {
+        "start": 261.34,
+        "end": 263.4,
+        "text": "I like running in the fitness center best.",
+        "words": [
+          {
+            "start": 261.34,
+            "end": 261.58,
+            "word": " I",
+            "probability": 0.99595
+          },
+          {
+            "start": 261.58,
+            "end": 261.74,
+            "word": " like",
+            "probability": 0.9977
+          },
+          {
+            "start": 261.74,
+            "end": 262.08,
+            "word": " running",
+            "probability": 0.9957
+          },
+          {
+            "start": 262.08,
+            "end": 262.3,
+            "word": " in",
+            "probability": 0.99659
+          },
+          {
+            "start": 262.3,
+            "end": 262.44,
+            "word": " the",
+            "probability": 0.9925
+          },
+          {
+            "start": 262.44,
+            "end": 262.74,
+            "word": " fitness",
+            "probability": 0.98076
+          },
+          {
+            "start": 262.74,
+            "end": 263.08,
+            "word": " center",
+            "probability": 0.97156
+          },
+          {
+            "start": 263.08,
+            "end": 263.4,
+            "word": " best.",
+            "probability": 0.98697
+          }
+        ]
+      },
+      {
+        "start": 264.4,
+        "end": 268.6,
+        "text": "I can change how steep or fast the treadmill goes to make it more challenging.",
+        "words": [
+          {
+            "start": 264.4,
+            "end": 264.62,
+            "word": " I",
+            "probability": 0.99491
+          },
+          {
+            "start": 264.62,
+            "end": 264.76,
+            "word": " can",
+            "probability": 0.99168
+          },
+          {
+            "start": 264.76,
+            "end": 265.1,
+            "word": " change",
+            "probability": 0.99144
+          },
+          {
+            "start": 265.1,
+            "end": 265.3,
+            "word": " how",
+            "probability": 0.99655
+          },
+          {
+            "start": 265.3,
+            "end": 265.64,
+            "word": " steep",
+            "probability": 0.99388
+          },
+          {
+            "start": 265.64,
+            "end": 265.9,
+            "word": " or",
+            "probability": 0.98714
+          },
+          {
+            "start": 265.9,
+            "end": 266.2,
+            "word": " fast",
+            "probability": 0.98993
+          },
+          {
+            "start": 266.2,
+            "end": 266.48,
+            "word": " the",
+            "probability": 0.99577
+          },
+          {
+            "start": 266.48,
+            "end": 266.84,
+            "word": " treadmill",
+            "probability": 0.99681
+          },
+          {
+            "start": 266.84,
+            "end": 267.24,
+            "word": " goes",
+            "probability": 0.99402
+          },
+          {
+            "start": 267.24,
+            "end": 267.54,
+            "word": " to",
+            "probability": 0.96184
+          },
+          {
+            "start": 267.54,
+            "end": 267.66,
+            "word": " make",
+            "probability": 0.99745
+          },
+          {
+            "start": 267.66,
+            "end": 267.84,
+            "word": " it",
+            "probability": 0.99809
+          },
+          {
+            "start": 267.84,
+            "end": 268.0,
+            "word": " more",
+            "probability": 0.9885
+          },
+          {
+            "start": 268.0,
+            "end": 268.6,
+            "word": " challenging.",
+            "probability": 0.99955
+          }
+        ]
+      },
+      {
+        "start": 269.66,
+        "end": 274.02,
+        "text": "the machine's tell me how fast my heart is beating and how well I'm doing and",
+        "words": [
+          {
+            "start": 269.66,
+            "end": 270.18,
+            "word": " the",
+            "probability": 0.22567
+          },
+          {
+            "start": 270.18,
+            "end": 270.7,
+            "word": " machine's",
+            "probability": 0.69954
+          },
+          {
+            "start": 270.7,
+            "end": 270.86,
+            "word": " tell",
+            "probability": 0.87054
+          },
+          {
+            "start": 270.86,
+            "end": 271.04,
+            "word": " me",
+            "probability": 0.97
+          },
+          {
+            "start": 271.04,
+            "end": 271.2,
+            "word": " how",
+            "probability": 0.99438
+          },
+          {
+            "start": 271.2,
+            "end": 271.5,
+            "word": " fast",
+            "probability": 0.99837
+          },
+          {
+            "start": 271.5,
+            "end": 271.8,
+            "word": " my",
+            "probability": 0.9921
+          },
+          {
+            "start": 271.8,
+            "end": 272.06,
+            "word": " heart",
+            "probability": 0.94192
+          },
+          {
+            "start": 272.06,
+            "end": 272.26,
+            "word": " is",
+            "probability": 0.99666
+          },
+          {
+            "start": 272.26,
+            "end": 272.54,
+            "word": " beating",
+            "probability": 0.99167
+          },
+          {
+            "start": 272.54,
+            "end": 272.78,
+            "word": " and",
+            "probability": 0.93128
+          },
+          {
+            "start": 272.78,
+            "end": 272.94,
+            "word": " how",
+            "probability": 0.9936
+          },
+          {
+            "start": 272.94,
+            "end": 273.18,
+            "word": " well",
+            "probability": 0.98867
+          },
+          {
+            "start": 273.18,
+            "end": 273.4,
+            "word": " I'm",
+            "probability": 0.93995
+          },
+          {
+            "start": 273.4,
+            "end": 273.7,
+            "word": " doing",
+            "probability": 0.99772
+          },
+          {
+            "start": 273.7,
+            "end": 274.02,
+            "word": " and",
+            "probability": 0.76488
+          }
+        ]
+      },
+      {
+        "start": 274.58,
+        "end": 278.2,
+        "text": "when I'm done I can take a shower and change right there",
+        "words": [
+          {
+            "start": 274.58,
+            "end": 274.7,
+            "word": " when",
+            "probability": 0.92075
+          },
+          {
+            "start": 274.7,
+            "end": 274.9,
+            "word": " I'm",
+            "probability": 0.99045
+          },
+          {
+            "start": 274.9,
+            "end": 275.16,
+            "word": " done",
+            "probability": 0.99799
+          },
+          {
+            "start": 275.16,
+            "end": 275.78,
+            "word": " I",
+            "probability": 0.74479
+          },
+          {
+            "start": 275.78,
+            "end": 275.92,
+            "word": " can",
+            "probability": 0.99603
+          },
+          {
+            "start": 275.92,
+            "end": 276.1,
+            "word": " take",
+            "probability": 0.99629
+          },
+          {
+            "start": 276.1,
+            "end": 276.26,
+            "word": " a",
+            "probability": 0.99695
+          },
+          {
+            "start": 276.26,
+            "end": 276.7,
+            "word": " shower",
+            "probability": 0.99925
+          },
+          {
+            "start": 276.7,
+            "end": 277.12,
+            "word": " and",
+            "probability": 0.9847
+          },
+          {
+            "start": 277.12,
+            "end": 277.52,
+            "word": " change",
+            "probability": 0.99381
+          },
+          {
+            "start": 277.52,
+            "end": 277.84,
+            "word": " right",
+            "probability": 0.99033
+          },
+          {
+            "start": 277.84,
+            "end": 278.2,
+            "word": " there",
+            "probability": 0.9933
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-a",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 80,
+            "speechStart": 0.72,
+            "speechEnd": 30.79,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9937,
+            "transcript": "the city gives me new things to see every time i run i like the busy streets and different buildings around me stopping at traffic lights and watching out for people helps me stay alert running in the street is what i love most i also get to find new places in my city this way the hard ground makes my legs stronger it can be a bit dangerous with cars cars but that's what makes it exciting for me",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 80,
+            "wordEndIndexExclusive": 159,
+            "speechStart": 35.31,
+            "speechEnd": 65.07,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "the city gives me new things to see every time i run i like the busy streets and different buildings around me stopping at traffic lights and watching out for people helps me stay alert running in the street is what i love most i also get to find new places in my city this way the hard ground makes my legs stronger it can be a bit dangerous with cars but that's what makes it exciting for me",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-b",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 159,
+            "wordEndIndexExclusive": 247,
+            "speechStart": 66.94,
+            "speechEnd": 98.32,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "the clean air by the sea makes me feel good and helps clear my head i enjoy feeling the sand under my feet which helps make my legs stronger the sound of the waves makes a nice beat for my run there's nothing better than running by the seaside seeing the sun come up or go down while i run is really pretty the cool wind from the sea keeps me from getting too hot and after i'm done i can jump in the water to cool off",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 247,
+            "wordEndIndexExclusive": 336,
+            "speechStart": 103.92,
+            "speechEnd": 135.39,
+            "sourceTokenCoverage": 0.9886,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9831,
+            "transcript": "the clean air by the sea makes me feel good and helps clear my head i enjoy feeling the sand under my feet which helps make my legs stronger the sound of the waves makes a nice beat for my run there's nothing better than running by the sea side seeing the sun come up or go down while i run is really pretty the cool wind from the sea keeps me from getting too hot and after i'm done i can jump in the water to cool off",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-c",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 336,
+            "wordEndIndexExclusive": 422,
+            "speechStart": 137.35,
+            "speechEnd": 168.64,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "the track lets me know exactly how far i've run and helps me set goals the smooth surface is better for my knees and ankles there are no bumps or things in the way so i can focus on how i run for me the running track is the best place to run i can easily see how long each lap takes me having other runners around makes me want to try harder i can run on the track in almost any weather which is great",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 422,
+            "wordEndIndexExclusive": 508,
+            "speechStart": 173.4,
+            "speechEnd": 204.5,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "the track lets me know exactly how far i've run and helps me set goals the smooth surface is better for my knees and ankles there are no bumps or things in the way so i can focus on how i run for me the running track is the best place to run i can easily see how long each lap takes me having other runners around makes me want to try harder i can run on the track in almost any weather which is great",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-d",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 508,
+            "wordEndIndexExclusive": 600,
+            "speechStart": 206.45,
+            "speechEnd": 240.04,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "inside i don't have to worry about it being too hot cold or rainy i can use the treadmill and other machines to mix up my workout the soft surface of the treadmill is easier on my knees than the road i like running in the fitness center best i can change how steep or fast the treadmill goes to make it more challenging the machines tell me how fast my heart is beating and how well i'm doing and when i'm done i can take a shower and change right there",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 600,
+            "wordEndIndexExclusive": 692,
+            "speechStart": 244.64,
+            "speechEnd": 278.2,
+            "sourceTokenCoverage": 0.9891,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9891,
+            "transcript": "inside i don't have to worry about it being too hot cold or rainy i can use the treadmill and other machines to mix up my workout the soft surface of the treadmill is easier on my knees than the road i like running in the fitness center best i can change how steep or fast the treadmill goes to make it more challenging the machine's tell me how fast my heart is beating and how well i'm doing and when i'm done i can take a shower and change right there",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

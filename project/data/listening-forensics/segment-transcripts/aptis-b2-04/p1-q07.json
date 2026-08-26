@@ -1,0 +1,745 @@
+{
+  "testId": "aptis-b2-04",
+  "blockId": "p1-q07",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-04/part-1/q07.mp3",
+  "audioSha256": "973428a5f5dadfe508a0d8a0e0caee427e4e0d049d5ec09c7c8d5c57028a3746",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.98,
+        "end": 4.76,
+        "text": "Hey, do you remember our old school days? You were on the football team, right?",
+        "words": [
+          {
+            "start": 0.98,
+            "end": 1.46,
+            "word": " Hey,",
+            "probability": 0.62463
+          },
+          {
+            "start": 1.6,
+            "end": 1.62,
+            "word": " do",
+            "probability": 0.9762
+          },
+          {
+            "start": 1.62,
+            "end": 1.7,
+            "word": " you",
+            "probability": 0.99727
+          },
+          {
+            "start": 1.7,
+            "end": 2.0,
+            "word": " remember",
+            "probability": 0.99477
+          },
+          {
+            "start": 2.0,
+            "end": 2.22,
+            "word": " our",
+            "probability": 0.98593
+          },
+          {
+            "start": 2.22,
+            "end": 2.44,
+            "word": " old",
+            "probability": 0.9865
+          },
+          {
+            "start": 2.44,
+            "end": 2.7,
+            "word": " school",
+            "probability": 0.98844
+          },
+          {
+            "start": 2.7,
+            "end": 2.96,
+            "word": " days?",
+            "probability": 0.99363
+          },
+          {
+            "start": 3.56,
+            "end": 3.68,
+            "word": " You",
+            "probability": 0.98381
+          },
+          {
+            "start": 3.68,
+            "end": 3.78,
+            "word": " were",
+            "probability": 0.97172
+          },
+          {
+            "start": 3.78,
+            "end": 3.88,
+            "word": " on",
+            "probability": 0.9977
+          },
+          {
+            "start": 3.88,
+            "end": 3.98,
+            "word": " the",
+            "probability": 0.98964
+          },
+          {
+            "start": 3.98,
+            "end": 4.16,
+            "word": " football",
+            "probability": 0.99421
+          },
+          {
+            "start": 4.16,
+            "end": 4.54,
+            "word": " team,",
+            "probability": 0.99852
+          },
+          {
+            "start": 4.62,
+            "end": 4.76,
+            "word": " right?",
+            "probability": 0.99861
+          }
+        ]
+      },
+      {
+        "start": 5.32,
+        "end": 10.12,
+        "text": "Yeah, I played for the school team. Those were some of my best memories. We even won a few medals.",
+        "words": [
+          {
+            "start": 5.32,
+            "end": 5.54,
+            "word": " Yeah,",
+            "probability": 0.94449
+          },
+          {
+            "start": 5.74,
+            "end": 5.9,
+            "word": " I",
+            "probability": 0.9959
+          },
+          {
+            "start": 5.9,
+            "end": 6.1,
+            "word": " played",
+            "probability": 0.98093
+          },
+          {
+            "start": 6.1,
+            "end": 6.28,
+            "word": " for",
+            "probability": 0.99672
+          },
+          {
+            "start": 6.28,
+            "end": 6.38,
+            "word": " the",
+            "probability": 0.99608
+          },
+          {
+            "start": 6.38,
+            "end": 6.56,
+            "word": " school",
+            "probability": 0.99241
+          },
+          {
+            "start": 6.56,
+            "end": 6.94,
+            "word": " team.",
+            "probability": 0.99017
+          },
+          {
+            "start": 7.34,
+            "end": 7.46,
+            "word": " Those",
+            "probability": 0.99541
+          },
+          {
+            "start": 7.46,
+            "end": 7.6,
+            "word": " were",
+            "probability": 0.99356
+          },
+          {
+            "start": 7.6,
+            "end": 7.78,
+            "word": " some",
+            "probability": 0.99662
+          },
+          {
+            "start": 7.78,
+            "end": 7.88,
+            "word": " of",
+            "probability": 0.99553
+          },
+          {
+            "start": 7.88,
+            "end": 8.02,
+            "word": " my",
+            "probability": 0.99613
+          },
+          {
+            "start": 8.02,
+            "end": 8.28,
+            "word": " best",
+            "probability": 0.9983
+          },
+          {
+            "start": 8.28,
+            "end": 8.58,
+            "word": " memories.",
+            "probability": 0.99696
+          },
+          {
+            "start": 9.04,
+            "end": 9.2,
+            "word": " We",
+            "probability": 0.99626
+          },
+          {
+            "start": 9.2,
+            "end": 9.42,
+            "word": " even",
+            "probability": 0.99479
+          },
+          {
+            "start": 9.42,
+            "end": 9.58,
+            "word": " won",
+            "probability": 0.97058
+          },
+          {
+            "start": 9.58,
+            "end": 9.7,
+            "word": " a",
+            "probability": 0.99862
+          },
+          {
+            "start": 9.7,
+            "end": 9.88,
+            "word": " few",
+            "probability": 0.99904
+          },
+          {
+            "start": 9.88,
+            "end": 10.12,
+            "word": " medals.",
+            "probability": 0.99078
+          }
+        ]
+      },
+      {
+        "start": 10.96,
+        "end": 12.58,
+        "text": "What about you? Were you into football?",
+        "words": [
+          {
+            "start": 10.96,
+            "end": 11.14,
+            "word": " What",
+            "probability": 0.99276
+          },
+          {
+            "start": 11.14,
+            "end": 11.34,
+            "word": " about",
+            "probability": 0.99938
+          },
+          {
+            "start": 11.34,
+            "end": 11.66,
+            "word": " you?",
+            "probability": 0.99783
+          },
+          {
+            "start": 11.98,
+            "end": 12.06,
+            "word": " Were",
+            "probability": 0.98924
+          },
+          {
+            "start": 12.06,
+            "end": 12.18,
+            "word": " you",
+            "probability": 0.99888
+          },
+          {
+            "start": 12.18,
+            "end": 12.34,
+            "word": " into",
+            "probability": 0.86297
+          },
+          {
+            "start": 12.34,
+            "end": 12.58,
+            "word": " football?",
+            "probability": 0.96867
+          }
+        ]
+      },
+      {
+        "start": 13.26,
+        "end": 16.88,
+        "text": "Not really. I wasn't great at football, but I was pretty good at swimming.",
+        "words": [
+          {
+            "start": 13.26,
+            "end": 13.56,
+            "word": " Not",
+            "probability": 0.99122
+          },
+          {
+            "start": 13.56,
+            "end": 13.86,
+            "word": " really.",
+            "probability": 0.99715
+          },
+          {
+            "start": 14.4,
+            "end": 14.64,
+            "word": " I",
+            "probability": 0.99834
+          },
+          {
+            "start": 14.64,
+            "end": 14.86,
+            "word": " wasn't",
+            "probability": 0.99753
+          },
+          {
+            "start": 14.86,
+            "end": 15.0,
+            "word": " great",
+            "probability": 0.96182
+          },
+          {
+            "start": 15.0,
+            "end": 15.1,
+            "word": " at",
+            "probability": 0.98423
+          },
+          {
+            "start": 15.1,
+            "end": 15.4,
+            "word": " football,",
+            "probability": 0.99867
+          },
+          {
+            "start": 15.84,
+            "end": 15.94,
+            "word": " but",
+            "probability": 0.99637
+          },
+          {
+            "start": 15.94,
+            "end": 16.04,
+            "word": " I",
+            "probability": 0.9974
+          },
+          {
+            "start": 16.04,
+            "end": 16.12,
+            "word": " was",
+            "probability": 0.99932
+          },
+          {
+            "start": 16.12,
+            "end": 16.34,
+            "word": " pretty",
+            "probability": 0.99835
+          },
+          {
+            "start": 16.34,
+            "end": 16.52,
+            "word": " good",
+            "probability": 0.99889
+          },
+          {
+            "start": 16.52,
+            "end": 16.62,
+            "word": " at",
+            "probability": 0.99899
+          },
+          {
+            "start": 16.62,
+            "end": 16.88,
+            "word": " swimming.",
+            "probability": 0.99805
+          }
+        ]
+      },
+      {
+        "start": 17.46,
+        "end": 19.72,
+        "text": "I actually won a medal in a competition once.",
+        "words": [
+          {
+            "start": 17.46,
+            "end": 17.88,
+            "word": " I",
+            "probability": 0.99774
+          },
+          {
+            "start": 17.88,
+            "end": 18.14,
+            "word": " actually",
+            "probability": 0.99713
+          },
+          {
+            "start": 18.14,
+            "end": 18.3,
+            "word": " won",
+            "probability": 0.33891
+          },
+          {
+            "start": 18.3,
+            "end": 18.42,
+            "word": " a",
+            "probability": 0.99634
+          },
+          {
+            "start": 18.42,
+            "end": 18.66,
+            "word": " medal",
+            "probability": 0.99711
+          },
+          {
+            "start": 18.66,
+            "end": 18.84,
+            "word": " in",
+            "probability": 0.99255
+          },
+          {
+            "start": 18.84,
+            "end": 18.9,
+            "word": " a",
+            "probability": 0.99123
+          },
+          {
+            "start": 18.9,
+            "end": 19.3,
+            "word": " competition",
+            "probability": 0.99732
+          },
+          {
+            "start": 19.3,
+            "end": 19.72,
+            "word": " once.",
+            "probability": 0.99368
+          }
+        ]
+      },
+      {
+        "start": 20.5,
+        "end": 25.88,
+        "text": "That's right. I remember. Swimming was totally your strength. Just like football was mine.",
+        "words": [
+          {
+            "start": 20.5,
+            "end": 20.84,
+            "word": " That's",
+            "probability": 0.99751
+          },
+          {
+            "start": 20.84,
+            "end": 20.98,
+            "word": " right.",
+            "probability": 0.99903
+          },
+          {
+            "start": 21.18,
+            "end": 21.28,
+            "word": " I",
+            "probability": 0.99858
+          },
+          {
+            "start": 21.28,
+            "end": 21.68,
+            "word": " remember.",
+            "probability": 0.99862
+          },
+          {
+            "start": 22.4,
+            "end": 22.76,
+            "word": " Swimming",
+            "probability": 0.98754
+          },
+          {
+            "start": 22.76,
+            "end": 22.96,
+            "word": " was",
+            "probability": 0.99938
+          },
+          {
+            "start": 22.96,
+            "end": 23.34,
+            "word": " totally",
+            "probability": 0.9929
+          },
+          {
+            "start": 23.34,
+            "end": 23.58,
+            "word": " your",
+            "probability": 0.99773
+          },
+          {
+            "start": 23.58,
+            "end": 24.06,
+            "word": " strength.",
+            "probability": 0.99315
+          },
+          {
+            "start": 24.58,
+            "end": 24.7,
+            "word": " Just",
+            "probability": 0.99716
+          },
+          {
+            "start": 24.7,
+            "end": 24.9,
+            "word": " like",
+            "probability": 0.99869
+          },
+          {
+            "start": 24.9,
+            "end": 25.26,
+            "word": " football",
+            "probability": 0.99911
+          },
+          {
+            "start": 25.26,
+            "end": 25.58,
+            "word": " was",
+            "probability": 0.98367
+          },
+          {
+            "start": 25.58,
+            "end": 25.88,
+            "word": " mine.",
+            "probability": 0.99736
+          }
+        ]
+      },
+      {
+        "start": 26.36,
+        "end": 29.6,
+        "text": "My team also brought home some medals. It was such a good feeling.",
+        "words": [
+          {
+            "start": 26.36,
+            "end": 26.46,
+            "word": " My",
+            "probability": 0.99575
+          },
+          {
+            "start": 26.46,
+            "end": 26.68,
+            "word": " team",
+            "probability": 0.99931
+          },
+          {
+            "start": 26.68,
+            "end": 27.02,
+            "word": " also",
+            "probability": 0.99618
+          },
+          {
+            "start": 27.02,
+            "end": 27.22,
+            "word": " brought",
+            "probability": 0.99618
+          },
+          {
+            "start": 27.22,
+            "end": 27.44,
+            "word": " home",
+            "probability": 0.9165
+          },
+          {
+            "start": 27.44,
+            "end": 27.64,
+            "word": " some",
+            "probability": 0.99952
+          },
+          {
+            "start": 27.64,
+            "end": 27.92,
+            "word": " medals.",
+            "probability": 0.99732
+          },
+          {
+            "start": 28.4,
+            "end": 28.54,
+            "word": " It",
+            "probability": 0.99752
+          },
+          {
+            "start": 28.54,
+            "end": 28.64,
+            "word": " was",
+            "probability": 0.99924
+          },
+          {
+            "start": 28.64,
+            "end": 29.0,
+            "word": " such",
+            "probability": 0.99464
+          },
+          {
+            "start": 29.0,
+            "end": 29.08,
+            "word": " a",
+            "probability": 0.99893
+          },
+          {
+            "start": 29.08,
+            "end": 29.22,
+            "word": " good",
+            "probability": 0.99937
+          },
+          {
+            "start": 29.22,
+            "end": 29.6,
+            "word": " feeling.",
+            "probability": 0.99948
+          }
+        ]
+      },
+      {
+        "start": 29.6,
+        "end": 31.26,
+        "text": "Yeah, those were good times.",
+        "words": [
+          {
+            "start": 29.6,
+            "end": 30.4,
+            "word": " Yeah,",
+            "probability": 0.72115
+          },
+          {
+            "start": 30.48,
+            "end": 30.58,
+            "word": " those",
+            "probability": 0.99195
+          },
+          {
+            "start": 30.58,
+            "end": 30.72,
+            "word": " were",
+            "probability": 0.97659
+          },
+          {
+            "start": 30.72,
+            "end": 30.86,
+            "word": " good",
+            "probability": 0.98897
+          },
+          {
+            "start": 30.86,
+            "end": 31.26,
+            "word": " times.",
+            "probability": 0.99856
+          }
+        ]
+      },
+      {
+        "start": 31.86,
+        "end": 34.42,
+        "text": "We really had our own things going on back then.",
+        "words": [
+          {
+            "start": 31.86,
+            "end": 32.22,
+            "word": " We",
+            "probability": 0.98848
+          },
+          {
+            "start": 32.22,
+            "end": 32.46,
+            "word": " really",
+            "probability": 0.97864
+          },
+          {
+            "start": 32.46,
+            "end": 32.68,
+            "word": " had",
+            "probability": 0.99613
+          },
+          {
+            "start": 32.68,
+            "end": 32.82,
+            "word": " our",
+            "probability": 0.99528
+          },
+          {
+            "start": 32.82,
+            "end": 33.06,
+            "word": " own",
+            "probability": 0.9944
+          },
+          {
+            "start": 33.06,
+            "end": 33.34,
+            "word": " things",
+            "probability": 0.98091
+          },
+          {
+            "start": 33.34,
+            "end": 33.64,
+            "word": " going",
+            "probability": 0.99417
+          },
+          {
+            "start": 33.64,
+            "end": 33.84,
+            "word": " on",
+            "probability": 0.99849
+          },
+          {
+            "start": 33.84,
+            "end": 34.08,
+            "word": " back",
+            "probability": 0.99267
+          },
+          {
+            "start": 34.08,
+            "end": 34.42,
+            "word": " then.",
+            "probability": 0.99252
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q07",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 107,
+            "speechStart": 0.98,
+            "speechEnd": 34.42,
+            "sourceTokenCoverage": 0.964,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9817,
+            "transcript": "hey do you remember our old school days you were on the football team right yeah i played for the school team those were some of my best memories we even won a few medals what about you were you into football not really i wasn't great at football but i was pretty good at swimming i actually won a medal in a competition once that's right i remember swimming was totally your strength just like football was mine my team also brought home some medals it was such a good feeling yeah those were good times we really had our own things going on back then",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

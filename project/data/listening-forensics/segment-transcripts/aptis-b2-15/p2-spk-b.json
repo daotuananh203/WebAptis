@@ -1,0 +1,535 @@
+{
+  "testId": "aptis-b2-15",
+  "blockId": "p2-spk-b",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-15/part-2/spk-b.mp3",
+  "audioSha256": "a5cb00df122f5fc8ecf35677619430749a035efae69e42eaf1608567ffc619dc",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.82,
+        "end": 3.96,
+        "text": "For me, music is a must when I'm studying.",
+        "words": [
+          {
+            "start": 0.82,
+            "end": 1.28,
+            "word": " For",
+            "probability": 0.81137
+          },
+          {
+            "start": 1.28,
+            "end": 1.48,
+            "word": " me,",
+            "probability": 0.99878
+          },
+          {
+            "start": 1.98,
+            "end": 2.32,
+            "word": " music",
+            "probability": 0.98176
+          },
+          {
+            "start": 2.32,
+            "end": 2.54,
+            "word": " is",
+            "probability": 0.99695
+          },
+          {
+            "start": 2.54,
+            "end": 2.62,
+            "word": " a",
+            "probability": 0.99511
+          },
+          {
+            "start": 2.62,
+            "end": 2.88,
+            "word": " must",
+            "probability": 0.99088
+          },
+          {
+            "start": 2.88,
+            "end": 3.42,
+            "word": " when",
+            "probability": 0.9201
+          },
+          {
+            "start": 3.42,
+            "end": 3.6,
+            "word": " I'm",
+            "probability": 0.97282
+          },
+          {
+            "start": 3.6,
+            "end": 3.96,
+            "word": " studying.",
+            "probability": 0.99204
+          }
+        ]
+      },
+      {
+        "start": 4.83,
+        "end": 6.71,
+        "text": "I know some people find it distracting,",
+        "words": [
+          {
+            "start": 4.83,
+            "end": 5.07,
+            "word": " I",
+            "probability": 0.99848
+          },
+          {
+            "start": 5.07,
+            "end": 5.21,
+            "word": " know",
+            "probability": 0.9992
+          },
+          {
+            "start": 5.21,
+            "end": 5.41,
+            "word": " some",
+            "probability": 0.9957
+          },
+          {
+            "start": 5.41,
+            "end": 5.75,
+            "word": " people",
+            "probability": 0.99903
+          },
+          {
+            "start": 5.75,
+            "end": 6.05,
+            "word": " find",
+            "probability": 0.99816
+          },
+          {
+            "start": 6.05,
+            "end": 6.19,
+            "word": " it",
+            "probability": 0.99954
+          },
+          {
+            "start": 6.19,
+            "end": 6.71,
+            "word": " distracting,",
+            "probability": 0.99109
+          }
+        ]
+      },
+      {
+        "start": 7.11,
+        "end": 10.49,
+        "text": "but I actually concentrate better when there's music playing in the background.",
+        "words": [
+          {
+            "start": 7.11,
+            "end": 7.35,
+            "word": " but",
+            "probability": 0.99403
+          },
+          {
+            "start": 7.35,
+            "end": 7.47,
+            "word": " I",
+            "probability": 0.99665
+          },
+          {
+            "start": 7.47,
+            "end": 7.81,
+            "word": " actually",
+            "probability": 0.9966
+          },
+          {
+            "start": 7.81,
+            "end": 8.27,
+            "word": " concentrate",
+            "probability": 0.99162
+          },
+          {
+            "start": 8.27,
+            "end": 8.79,
+            "word": " better",
+            "probability": 0.99842
+          },
+          {
+            "start": 8.79,
+            "end": 9.07,
+            "word": " when",
+            "probability": 0.99152
+          },
+          {
+            "start": 9.07,
+            "end": 9.27,
+            "word": " there's",
+            "probability": 0.98631
+          },
+          {
+            "start": 9.27,
+            "end": 9.51,
+            "word": " music",
+            "probability": 0.99856
+          },
+          {
+            "start": 9.51,
+            "end": 9.85,
+            "word": " playing",
+            "probability": 0.99617
+          },
+          {
+            "start": 9.85,
+            "end": 10.01,
+            "word": " in",
+            "probability": 0.99682
+          },
+          {
+            "start": 10.01,
+            "end": 10.09,
+            "word": " the",
+            "probability": 0.99846
+          },
+          {
+            "start": 10.09,
+            "end": 10.49,
+            "word": " background.",
+            "probability": 0.9992
+          }
+        ]
+      },
+      {
+        "start": 11.52,
+        "end": 13.54,
+        "text": "I usually pick something without lyrics,",
+        "words": [
+          {
+            "start": 11.52,
+            "end": 11.84,
+            "word": " I",
+            "probability": 0.99698
+          },
+          {
+            "start": 11.84,
+            "end": 12.14,
+            "word": " usually",
+            "probability": 0.99828
+          },
+          {
+            "start": 12.14,
+            "end": 12.46,
+            "word": " pick",
+            "probability": 0.99502
+          },
+          {
+            "start": 12.46,
+            "end": 12.86,
+            "word": " something",
+            "probability": 0.99831
+          },
+          {
+            "start": 12.86,
+            "end": 13.22,
+            "word": " without",
+            "probability": 0.99657
+          },
+          {
+            "start": 13.22,
+            "end": 13.54,
+            "word": " lyrics,",
+            "probability": 0.99698
+          }
+        ]
+      },
+      {
+        "start": 14.08,
+        "end": 16.14,
+        "text": "like instrumental or electronic music,",
+        "words": [
+          {
+            "start": 14.08,
+            "end": 14.28,
+            "word": " like",
+            "probability": 0.99775
+          },
+          {
+            "start": 14.28,
+            "end": 14.82,
+            "word": " instrumental",
+            "probability": 0.84666
+          },
+          {
+            "start": 14.82,
+            "end": 15.28,
+            "word": " or",
+            "probability": 0.84753
+          },
+          {
+            "start": 15.28,
+            "end": 15.64,
+            "word": " electronic",
+            "probability": 0.99785
+          },
+          {
+            "start": 15.64,
+            "end": 16.14,
+            "word": " music,",
+            "probability": 0.99902
+          }
+        ]
+      },
+      {
+        "start": 16.56,
+        "end": 18.02,
+        "text": "so it doesn't interrupt my thinking.",
+        "words": [
+          {
+            "start": 16.56,
+            "end": 16.74,
+            "word": " so",
+            "probability": 0.99854
+          },
+          {
+            "start": 16.74,
+            "end": 16.86,
+            "word": " it",
+            "probability": 0.99763
+          },
+          {
+            "start": 16.86,
+            "end": 17.1,
+            "word": " doesn't",
+            "probability": 0.99893
+          },
+          {
+            "start": 17.1,
+            "end": 17.42,
+            "word": " interrupt",
+            "probability": 0.99877
+          },
+          {
+            "start": 17.42,
+            "end": 17.66,
+            "word": " my",
+            "probability": 0.99947
+          },
+          {
+            "start": 17.66,
+            "end": 18.02,
+            "word": " thinking.",
+            "probability": 0.99858
+          }
+        ]
+      },
+      {
+        "start": 18.72,
+        "end": 21.32,
+        "text": "It keeps me focused and helps me stay motivated",
+        "words": [
+          {
+            "start": 18.72,
+            "end": 18.98,
+            "word": " It",
+            "probability": 0.99742
+          },
+          {
+            "start": 18.98,
+            "end": 19.2,
+            "word": " keeps",
+            "probability": 0.99824
+          },
+          {
+            "start": 19.2,
+            "end": 19.38,
+            "word": " me",
+            "probability": 0.99891
+          },
+          {
+            "start": 19.38,
+            "end": 19.74,
+            "word": " focused",
+            "probability": 0.98067
+          },
+          {
+            "start": 19.74,
+            "end": 20.2,
+            "word": " and",
+            "probability": 0.86088
+          },
+          {
+            "start": 20.2,
+            "end": 20.44,
+            "word": " helps",
+            "probability": 0.99736
+          },
+          {
+            "start": 20.44,
+            "end": 20.56,
+            "word": " me",
+            "probability": 0.99665
+          },
+          {
+            "start": 20.56,
+            "end": 20.76,
+            "word": " stay",
+            "probability": 0.99336
+          },
+          {
+            "start": 20.76,
+            "end": 21.32,
+            "word": " motivated",
+            "probability": 0.99897
+          }
+        ]
+      },
+      {
+        "start": 21.32,
+        "end": 24.36,
+        "text": "when I'm working on long assignments or preparing for exams.",
+        "words": [
+          {
+            "start": 21.32,
+            "end": 21.56,
+            "word": " when",
+            "probability": 0.99824
+          },
+          {
+            "start": 21.56,
+            "end": 21.72,
+            "word": " I'm",
+            "probability": 0.99501
+          },
+          {
+            "start": 21.72,
+            "end": 21.96,
+            "word": " working",
+            "probability": 0.99919
+          },
+          {
+            "start": 21.96,
+            "end": 22.12,
+            "word": " on",
+            "probability": 0.999
+          },
+          {
+            "start": 22.12,
+            "end": 22.34,
+            "word": " long",
+            "probability": 0.98311
+          },
+          {
+            "start": 22.34,
+            "end": 22.82,
+            "word": " assignments",
+            "probability": 0.99733
+          },
+          {
+            "start": 22.82,
+            "end": 23.22,
+            "word": " or",
+            "probability": 0.97516
+          },
+          {
+            "start": 23.22,
+            "end": 23.66,
+            "word": " preparing",
+            "probability": 0.99778
+          },
+          {
+            "start": 23.66,
+            "end": 23.88,
+            "word": " for",
+            "probability": 0.9991
+          },
+          {
+            "start": 23.88,
+            "end": 24.36,
+            "word": " exams.",
+            "probability": 0.99523
+          }
+        ]
+      },
+      {
+        "start": 25.04,
+        "end": 27.12,
+        "text": "It's become part of my study routine now.",
+        "words": [
+          {
+            "start": 25.04,
+            "end": 25.3,
+            "word": " It's",
+            "probability": 0.9949
+          },
+          {
+            "start": 25.3,
+            "end": 25.5,
+            "word": " become",
+            "probability": 0.99813
+          },
+          {
+            "start": 25.5,
+            "end": 25.8,
+            "word": " part",
+            "probability": 0.99716
+          },
+          {
+            "start": 25.8,
+            "end": 25.96,
+            "word": " of",
+            "probability": 0.99302
+          },
+          {
+            "start": 25.96,
+            "end": 26.08,
+            "word": " my",
+            "probability": 0.99841
+          },
+          {
+            "start": 26.08,
+            "end": 26.42,
+            "word": " study",
+            "probability": 0.97433
+          },
+          {
+            "start": 26.42,
+            "end": 26.82,
+            "word": " routine",
+            "probability": 0.99808
+          },
+          {
+            "start": 26.82,
+            "end": 27.12,
+            "word": " now.",
+            "probability": 0.98249
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-b",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 72,
+            "speechStart": 0.82,
+            "speechEnd": 27.12,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "for me music is a must when i'm studying i know some people find it distracting but i actually concentrate better when there's music playing in the background i usually pick something without lyrics like instrumental or electronic music so it doesn't interrupt my thinking it keeps me focused and helps me stay motivated when i'm working on long assignments or preparing for exams it's become part of my study routine now",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p1-q07",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-1/q07.mp3",
+  "audioSha256": "ea12892970ce7a86a60a0b60da24914f6bc82cb868e70c21e88dc9c65ac2b412",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.08,
+        "text": "This picture is of my aunt and my mom.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.06,
+            "word": " This",
+            "probability": 0.69224
+          },
+          {
+            "start": 0.06,
+            "end": 0.38,
+            "word": " picture",
+            "probability": 0.9939
+          },
+          {
+            "start": 0.38,
+            "end": 0.6,
+            "word": " is",
+            "probability": 0.98603
+          },
+          {
+            "start": 0.6,
+            "end": 0.76,
+            "word": " of",
+            "probability": 0.99184
+          },
+          {
+            "start": 0.76,
+            "end": 0.9,
+            "word": " my",
+            "probability": 0.98811
+          },
+          {
+            "start": 0.9,
+            "end": 1.18,
+            "word": " aunt",
+            "probability": 0.93361
+          },
+          {
+            "start": 1.18,
+            "end": 1.64,
+            "word": " and",
+            "probability": 0.94445
+          },
+          {
+            "start": 1.64,
+            "end": 1.8,
+            "word": " my",
+            "probability": 0.97075
+          },
+          {
+            "start": 1.8,
+            "end": 2.08,
+            "word": " mom.",
+            "probability": 0.95915
+          }
+        ]
+      },
+      {
+        "start": 3.08,
+        "end": 4.52,
+        "text": "Many people say they look alike.",
+        "words": [
+          {
+            "start": 3.08,
+            "end": 3.28,
+            "word": " Many",
+            "probability": 0.99459
+          },
+          {
+            "start": 3.28,
+            "end": 3.56,
+            "word": " people",
+            "probability": 0.99366
+          },
+          {
+            "start": 3.56,
+            "end": 3.86,
+            "word": " say",
+            "probability": 0.99627
+          },
+          {
+            "start": 3.86,
+            "end": 4.04,
+            "word": " they",
+            "probability": 0.9871
+          },
+          {
+            "start": 4.04,
+            "end": 4.24,
+            "word": " look",
+            "probability": 0.97101
+          },
+          {
+            "start": 4.24,
+            "end": 4.52,
+            "word": " alike.",
+            "probability": 0.99753
+          }
+        ]
+      },
+      {
+        "start": 5.26,
+        "end": 9.8,
+        "text": "I find it funny though because when they were teenagers, my mom had long hair, while my",
+        "words": [
+          {
+            "start": 5.26,
+            "end": 5.38,
+            "word": " I",
+            "probability": 0.99545
+          },
+          {
+            "start": 5.38,
+            "end": 5.58,
+            "word": " find",
+            "probability": 0.99566
+          },
+          {
+            "start": 5.58,
+            "end": 5.68,
+            "word": " it",
+            "probability": 0.99837
+          },
+          {
+            "start": 5.68,
+            "end": 5.96,
+            "word": " funny",
+            "probability": 0.99882
+          },
+          {
+            "start": 5.96,
+            "end": 6.18,
+            "word": " though",
+            "probability": 0.82117
+          },
+          {
+            "start": 6.18,
+            "end": 6.46,
+            "word": " because",
+            "probability": 0.69762
+          },
+          {
+            "start": 6.46,
+            "end": 6.66,
+            "word": " when",
+            "probability": 0.98409
+          },
+          {
+            "start": 6.66,
+            "end": 6.78,
+            "word": " they",
+            "probability": 0.93815
+          },
+          {
+            "start": 6.78,
+            "end": 6.88,
+            "word": " were",
+            "probability": 0.99661
+          },
+          {
+            "start": 6.88,
+            "end": 7.38,
+            "word": " teenagers,",
+            "probability": 0.99113
+          },
+          {
+            "start": 7.94,
+            "end": 8.02,
+            "word": " my",
+            "probability": 0.99696
+          },
+          {
+            "start": 8.02,
+            "end": 8.26,
+            "word": " mom",
+            "probability": 0.98541
+          },
+          {
+            "start": 8.26,
+            "end": 8.48,
+            "word": " had",
+            "probability": 0.99809
+          },
+          {
+            "start": 8.48,
+            "end": 8.74,
+            "word": " long",
+            "probability": 0.99596
+          },
+          {
+            "start": 8.74,
+            "end": 9.12,
+            "word": " hair,",
+            "probability": 0.99938
+          },
+          {
+            "start": 9.5,
+            "end": 9.64,
+            "word": " while",
+            "probability": 0.99753
+          },
+          {
+            "start": 9.64,
+            "end": 9.8,
+            "word": " my",
+            "probability": 0.99825
+          }
+        ]
+      },
+      {
+        "start": 9.8,
+        "end": 10.9,
+        "text": "aunt had short hair.",
+        "words": [
+          {
+            "start": 9.8,
+            "end": 10.08,
+            "word": " aunt",
+            "probability": 0.99015
+          },
+          {
+            "start": 10.08,
+            "end": 10.28,
+            "word": " had",
+            "probability": 0.99749
+          },
+          {
+            "start": 10.28,
+            "end": 10.54,
+            "word": " short",
+            "probability": 0.9962
+          },
+          {
+            "start": 10.54,
+            "end": 10.9,
+            "word": " hair.",
+            "probability": 0.99834
+          }
+        ]
+      },
+      {
+        "start": 11.93,
+        "end": 15.31,
+        "text": "They were both equally thin back then, but their eyes were different.",
+        "words": [
+          {
+            "start": 11.93,
+            "end": 12.17,
+            "word": " They",
+            "probability": 0.99216
+          },
+          {
+            "start": 12.17,
+            "end": 12.29,
+            "word": " were",
+            "probability": 0.99497
+          },
+          {
+            "start": 12.29,
+            "end": 12.59,
+            "word": " both",
+            "probability": 0.99827
+          },
+          {
+            "start": 12.59,
+            "end": 13.11,
+            "word": " equally",
+            "probability": 0.99676
+          },
+          {
+            "start": 13.11,
+            "end": 13.37,
+            "word": " thin",
+            "probability": 0.99927
+          },
+          {
+            "start": 13.37,
+            "end": 13.65,
+            "word": " back",
+            "probability": 0.99115
+          },
+          {
+            "start": 13.65,
+            "end": 13.91,
+            "word": " then,",
+            "probability": 0.99749
+          },
+          {
+            "start": 14.29,
+            "end": 14.37,
+            "word": " but",
+            "probability": 0.99668
+          },
+          {
+            "start": 14.37,
+            "end": 14.55,
+            "word": " their",
+            "probability": 0.99593
+          },
+          {
+            "start": 14.55,
+            "end": 14.81,
+            "word": " eyes",
+            "probability": 0.99707
+          },
+          {
+            "start": 14.81,
+            "end": 14.99,
+            "word": " were",
+            "probability": 0.99666
+          },
+          {
+            "start": 14.99,
+            "end": 15.31,
+            "word": " different.",
+            "probability": 0.99949
+          }
+        ]
+      },
+      {
+        "start": 16.13,
+        "end": 21.43,
+        "text": "My mom has lovely brown eyes, and my aunt has strikingly beautiful blue eyes.",
+        "words": [
+          {
+            "start": 16.13,
+            "end": 16.35,
+            "word": " My",
+            "probability": 0.98089
+          },
+          {
+            "start": 16.35,
+            "end": 16.65,
+            "word": " mom",
+            "probability": 0.98351
+          },
+          {
+            "start": 16.65,
+            "end": 16.87,
+            "word": " has",
+            "probability": 0.99649
+          },
+          {
+            "start": 16.87,
+            "end": 17.19,
+            "word": " lovely",
+            "probability": 0.99387
+          },
+          {
+            "start": 17.19,
+            "end": 17.49,
+            "word": " brown",
+            "probability": 0.96214
+          },
+          {
+            "start": 17.49,
+            "end": 17.93,
+            "word": " eyes,",
+            "probability": 0.9976
+          },
+          {
+            "start": 18.45,
+            "end": 18.63,
+            "word": " and",
+            "probability": 0.99802
+          },
+          {
+            "start": 18.63,
+            "end": 18.79,
+            "word": " my",
+            "probability": 0.99841
+          },
+          {
+            "start": 18.79,
+            "end": 19.15,
+            "word": " aunt",
+            "probability": 0.98602
+          },
+          {
+            "start": 19.15,
+            "end": 19.35,
+            "word": " has",
+            "probability": 0.99762
+          },
+          {
+            "start": 19.35,
+            "end": 20.19,
+            "word": " strikingly",
+            "probability": 0.99338
+          },
+          {
+            "start": 20.19,
+            "end": 20.63,
+            "word": " beautiful",
+            "probability": 0.9839
+          },
+          {
+            "start": 20.63,
+            "end": 21.01,
+            "word": " blue",
+            "probability": 0.94981
+          },
+          {
+            "start": 21.01,
+            "end": 21.43,
+            "word": " eyes.",
+            "probability": 0.99469
+          }
+        ]
+      },
+      {
+        "start": 21.43,
+        "end": 27.01,
+        "text": "even with their differences they share a special bond that makes them so similar in spirit.",
+        "words": [
+          {
+            "start": 21.43,
+            "end": 22.41,
+            "word": " even",
+            "probability": 0.49359
+          },
+          {
+            "start": 22.41,
+            "end": 22.63,
+            "word": " with",
+            "probability": 0.97755
+          },
+          {
+            "start": 22.63,
+            "end": 22.75,
+            "word": " their",
+            "probability": 0.9954
+          },
+          {
+            "start": 22.75,
+            "end": 23.21,
+            "word": " differences",
+            "probability": 0.99453
+          },
+          {
+            "start": 23.21,
+            "end": 23.49,
+            "word": " they",
+            "probability": 0.78861
+          },
+          {
+            "start": 23.49,
+            "end": 23.73,
+            "word": " share",
+            "probability": 0.99747
+          },
+          {
+            "start": 23.73,
+            "end": 23.87,
+            "word": " a",
+            "probability": 0.99769
+          },
+          {
+            "start": 23.87,
+            "end": 24.27,
+            "word": " special",
+            "probability": 0.99613
+          },
+          {
+            "start": 24.27,
+            "end": 24.71,
+            "word": " bond",
+            "probability": 0.99695
+          },
+          {
+            "start": 24.71,
+            "end": 25.05,
+            "word": " that",
+            "probability": 0.97792
+          },
+          {
+            "start": 25.05,
+            "end": 25.25,
+            "word": " makes",
+            "probability": 0.99594
+          },
+          {
+            "start": 25.25,
+            "end": 25.57,
+            "word": " them",
+            "probability": 0.99872
+          },
+          {
+            "start": 25.57,
+            "end": 25.87,
+            "word": " so",
+            "probability": 0.99387
+          },
+          {
+            "start": 25.87,
+            "end": 26.39,
+            "word": " similar",
+            "probability": 0.9972
+          },
+          {
+            "start": 26.39,
+            "end": 26.61,
+            "word": " in",
+            "probability": 0.99801
+          },
+          {
+            "start": 26.61,
+            "end": 27.01,
+            "word": " spirit.",
+            "probability": 0.9658
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q07",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 78,
+            "speechStart": 0.0,
+            "speechEnd": 27.01,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "this picture is of my aunt and my mom many people say they look alike i find it funny though because when they were teenagers my mom had long hair while my aunt had short hair they were both equally thin back then but their eyes were different my mom has lovely brown eyes and my aunt has strikingly beautiful blue eyes even with their differences they share a special bond that makes them so similar in spirit",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

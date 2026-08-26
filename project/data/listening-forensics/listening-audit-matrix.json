@@ -1,0 +1,480 @@
+{
+  "contractVersion": 1,
+  "totalTests": 16,
+  "totalParts": 64,
+  "summary": {
+    "verified": 58,
+    "mismatch": 0,
+    "uncertain": 6
+  },
+  "matrix": [
+    {
+      "testId": "aptis-b2-01",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-02",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-03",
+      "parts": [
+        {
+          "part": 1,
+          "status": "UNCERTAIN",
+          "reason": "SOURCE_OR_AUDIO_CONTRACT_NOT_PROVEN",
+          "unverifiedBlocks": [
+            "p1-q13"
+          ]
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-04",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-05",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-06",
+      "parts": [
+        {
+          "part": 1,
+          "status": "UNCERTAIN",
+          "reason": "SOURCE_OR_AUDIO_CONTRACT_NOT_PROVEN",
+          "unverifiedBlocks": [
+            "p1-q07"
+          ]
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-07",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-08",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-09",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-10",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-11",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-12",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-13",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-14",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-15",
+      "parts": [
+        {
+          "part": 1,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
+        }
+      ]
+    },
+    {
+      "testId": "aptis-b2-16",
+      "parts": [
+        {
+          "part": 1,
+          "status": "UNCERTAIN",
+          "reason": "MISSING_SOURCE_AUDIO",
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 2,
+          "status": "UNCERTAIN",
+          "reason": "MISSING_SOURCE_AUDIO",
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 3,
+          "status": "UNCERTAIN",
+          "reason": "MISSING_SOURCE_AUDIO",
+          "unverifiedBlocks": []
+        },
+        {
+          "part": 4,
+          "status": "UNCERTAIN",
+          "reason": "MISSING_SOURCE_AUDIO",
+          "unverifiedBlocks": []
+        }
+      ]
+    }
+  ]
+}

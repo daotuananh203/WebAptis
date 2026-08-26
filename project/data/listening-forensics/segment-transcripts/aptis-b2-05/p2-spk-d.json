@@ -1,0 +1,575 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p2-spk-d",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-2/spk-d.mp3",
+  "audioSha256": "2af546dd571fa36479a165aab00174fc0995eabf4472821a61e549333176e84f",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 5.27,
+        "text": "What I love about shopping online is the incredible variety of products available.",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.25,
+            "word": " What",
+            "probability": 0.94659
+          },
+          {
+            "start": 1.25,
+            "end": 1.35,
+            "word": " I",
+            "probability": 0.99499
+          },
+          {
+            "start": 1.35,
+            "end": 1.55,
+            "word": " love",
+            "probability": 0.99724
+          },
+          {
+            "start": 1.55,
+            "end": 1.85,
+            "word": " about",
+            "probability": 0.99959
+          },
+          {
+            "start": 1.85,
+            "end": 2.21,
+            "word": " shopping",
+            "probability": 0.92159
+          },
+          {
+            "start": 2.21,
+            "end": 2.61,
+            "word": " online",
+            "probability": 0.99085
+          },
+          {
+            "start": 2.61,
+            "end": 2.97,
+            "word": " is",
+            "probability": 0.97657
+          },
+          {
+            "start": 2.97,
+            "end": 3.13,
+            "word": " the",
+            "probability": 0.99729
+          },
+          {
+            "start": 3.13,
+            "end": 3.61,
+            "word": " incredible",
+            "probability": 0.99574
+          },
+          {
+            "start": 3.61,
+            "end": 4.13,
+            "word": " variety",
+            "probability": 0.99646
+          },
+          {
+            "start": 4.13,
+            "end": 4.39,
+            "word": " of",
+            "probability": 0.99879
+          },
+          {
+            "start": 4.39,
+            "end": 4.69,
+            "word": " products",
+            "probability": 0.99879
+          },
+          {
+            "start": 4.69,
+            "end": 5.27,
+            "word": " available.",
+            "probability": 0.99614
+          }
+        ]
+      },
+      {
+        "start": 5.73,
+        "end": 10.99,
+        "text": "When I go to a store, I'm limited to what's in stock, but online there's so much more",
+        "words": [
+          {
+            "start": 5.73,
+            "end": 6.19,
+            "word": " When",
+            "probability": 0.99657
+          },
+          {
+            "start": 6.19,
+            "end": 6.29,
+            "word": " I",
+            "probability": 0.99793
+          },
+          {
+            "start": 6.29,
+            "end": 6.43,
+            "word": " go",
+            "probability": 0.99846
+          },
+          {
+            "start": 6.43,
+            "end": 6.55,
+            "word": " to",
+            "probability": 0.99813
+          },
+          {
+            "start": 6.55,
+            "end": 6.63,
+            "word": " a",
+            "probability": 0.99759
+          },
+          {
+            "start": 6.63,
+            "end": 6.91,
+            "word": " store,",
+            "probability": 0.99851
+          },
+          {
+            "start": 7.31,
+            "end": 7.71,
+            "word": " I'm",
+            "probability": 0.98578
+          },
+          {
+            "start": 7.71,
+            "end": 7.97,
+            "word": " limited",
+            "probability": 0.99899
+          },
+          {
+            "start": 7.97,
+            "end": 8.19,
+            "word": " to",
+            "probability": 0.99863
+          },
+          {
+            "start": 8.19,
+            "end": 8.43,
+            "word": " what's",
+            "probability": 0.97521
+          },
+          {
+            "start": 8.43,
+            "end": 8.51,
+            "word": " in",
+            "probability": 0.99812
+          },
+          {
+            "start": 8.51,
+            "end": 8.77,
+            "word": " stock,",
+            "probability": 0.99685
+          },
+          {
+            "start": 9.15,
+            "end": 9.37,
+            "word": " but",
+            "probability": 0.99464
+          },
+          {
+            "start": 9.37,
+            "end": 9.81,
+            "word": " online",
+            "probability": 0.99197
+          },
+          {
+            "start": 9.81,
+            "end": 10.37,
+            "word": " there's",
+            "probability": 0.72476
+          },
+          {
+            "start": 10.37,
+            "end": 10.63,
+            "word": " so",
+            "probability": 0.98963
+          },
+          {
+            "start": 10.63,
+            "end": 10.85,
+            "word": " much",
+            "probability": 0.99895
+          },
+          {
+            "start": 10.85,
+            "end": 10.99,
+            "word": " more",
+            "probability": 0.99844
+          }
+        ]
+      },
+      {
+        "start": 10.99,
+        "end": 11.33,
+        "text": "choice.",
+        "words": [
+          {
+            "start": 10.99,
+            "end": 11.33,
+            "word": " choice.",
+            "probability": 0.99684
+          }
+        ]
+      },
+      {
+        "start": 11.85,
+        "end": 16.63,
+        "text": "I can find different brands, styles, and even products that aren't available locally.",
+        "words": [
+          {
+            "start": 11.85,
+            "end": 11.95,
+            "word": " I",
+            "probability": 0.99822
+          },
+          {
+            "start": 11.95,
+            "end": 12.05,
+            "word": " can",
+            "probability": 0.99728
+          },
+          {
+            "start": 12.05,
+            "end": 12.27,
+            "word": " find",
+            "probability": 0.99787
+          },
+          {
+            "start": 12.27,
+            "end": 12.59,
+            "word": " different",
+            "probability": 0.9979
+          },
+          {
+            "start": 12.59,
+            "end": 13.05,
+            "word": " brands,",
+            "probability": 0.99815
+          },
+          {
+            "start": 13.49,
+            "end": 14.05,
+            "word": " styles,",
+            "probability": 0.99472
+          },
+          {
+            "start": 14.35,
+            "end": 14.45,
+            "word": " and",
+            "probability": 0.99626
+          },
+          {
+            "start": 14.45,
+            "end": 14.73,
+            "word": " even",
+            "probability": 0.99584
+          },
+          {
+            "start": 14.73,
+            "end": 15.17,
+            "word": " products",
+            "probability": 0.99884
+          },
+          {
+            "start": 15.17,
+            "end": 15.45,
+            "word": " that",
+            "probability": 0.99684
+          },
+          {
+            "start": 15.45,
+            "end": 15.75,
+            "word": " aren't",
+            "probability": 0.99731
+          },
+          {
+            "start": 15.75,
+            "end": 16.15,
+            "word": " available",
+            "probability": 0.99979
+          },
+          {
+            "start": 16.15,
+            "end": 16.63,
+            "word": " locally.",
+            "probability": 0.99806
+          }
+        ]
+      },
+      {
+        "start": 17.43,
+        "end": 20.43,
+        "text": "It's great for finding unique items or hard-defined sizes.",
+        "words": [
+          {
+            "start": 17.43,
+            "end": 17.67,
+            "word": " It's",
+            "probability": 0.99379
+          },
+          {
+            "start": 17.67,
+            "end": 17.89,
+            "word": " great",
+            "probability": 0.99932
+          },
+          {
+            "start": 17.89,
+            "end": 18.09,
+            "word": " for",
+            "probability": 0.99923
+          },
+          {
+            "start": 18.09,
+            "end": 18.37,
+            "word": " finding",
+            "probability": 0.99914
+          },
+          {
+            "start": 18.37,
+            "end": 18.73,
+            "word": " unique",
+            "probability": 0.99954
+          },
+          {
+            "start": 18.73,
+            "end": 19.19,
+            "word": " items",
+            "probability": 0.99884
+          },
+          {
+            "start": 19.19,
+            "end": 19.39,
+            "word": " or",
+            "probability": 0.98346
+          },
+          {
+            "start": 19.39,
+            "end": 19.65,
+            "word": " hard",
+            "probability": 0.99791
+          },
+          {
+            "start": 19.65,
+            "end": 19.99,
+            "word": "-defined",
+            "probability": 0.60189
+          },
+          {
+            "start": 19.99,
+            "end": 20.43,
+            "word": " sizes.",
+            "probability": 0.99906
+          }
+        ]
+      },
+      {
+        "start": 21.01,
+        "end": 26.01,
+        "text": "I can spend time browsing until I find exactly what I'm looking for without feeling rushed.",
+        "words": [
+          {
+            "start": 21.01,
+            "end": 21.15,
+            "word": " I",
+            "probability": 0.99816
+          },
+          {
+            "start": 21.15,
+            "end": 21.25,
+            "word": " can",
+            "probability": 0.99894
+          },
+          {
+            "start": 21.25,
+            "end": 21.51,
+            "word": " spend",
+            "probability": 0.99937
+          },
+          {
+            "start": 21.51,
+            "end": 21.91,
+            "word": " time",
+            "probability": 0.99705
+          },
+          {
+            "start": 21.91,
+            "end": 22.41,
+            "word": " browsing",
+            "probability": 0.9963
+          },
+          {
+            "start": 22.41,
+            "end": 22.79,
+            "word": " until",
+            "probability": 0.99204
+          },
+          {
+            "start": 22.79,
+            "end": 22.95,
+            "word": " I",
+            "probability": 0.99869
+          },
+          {
+            "start": 22.95,
+            "end": 23.17,
+            "word": " find",
+            "probability": 0.99706
+          },
+          {
+            "start": 23.17,
+            "end": 23.67,
+            "word": " exactly",
+            "probability": 0.99637
+          },
+          {
+            "start": 23.67,
+            "end": 23.97,
+            "word": " what",
+            "probability": 0.99928
+          },
+          {
+            "start": 23.97,
+            "end": 24.13,
+            "word": " I'm",
+            "probability": 0.99619
+          },
+          {
+            "start": 24.13,
+            "end": 24.31,
+            "word": " looking",
+            "probability": 0.9989
+          },
+          {
+            "start": 24.31,
+            "end": 24.63,
+            "word": " for",
+            "probability": 0.99921
+          },
+          {
+            "start": 24.63,
+            "end": 25.07,
+            "word": " without",
+            "probability": 0.7996
+          },
+          {
+            "start": 25.07,
+            "end": 25.55,
+            "word": " feeling",
+            "probability": 0.99792
+          },
+          {
+            "start": 25.55,
+            "end": 26.01,
+            "word": " rushed.",
+            "probability": 0.97016
+          }
+        ]
+      },
+      {
+        "start": 26.01,
+        "end": 29.05,
+        "text": "It gives me the freedom to explore all my options.",
+        "words": [
+          {
+            "start": 26.01,
+            "end": 26.55,
+            "word": " It",
+            "probability": 0.51935
+          },
+          {
+            "start": 26.55,
+            "end": 26.71,
+            "word": " gives",
+            "probability": 0.98895
+          },
+          {
+            "start": 26.71,
+            "end": 26.89,
+            "word": " me",
+            "probability": 0.97953
+          },
+          {
+            "start": 26.89,
+            "end": 27.01,
+            "word": " the",
+            "probability": 0.97481
+          },
+          {
+            "start": 27.01,
+            "end": 27.31,
+            "word": " freedom",
+            "probability": 0.9911
+          },
+          {
+            "start": 27.31,
+            "end": 27.57,
+            "word": " to",
+            "probability": 0.99817
+          },
+          {
+            "start": 27.57,
+            "end": 27.99,
+            "word": " explore",
+            "probability": 0.9951
+          },
+          {
+            "start": 27.99,
+            "end": 28.39,
+            "word": " all",
+            "probability": 0.98431
+          },
+          {
+            "start": 28.39,
+            "end": 28.57,
+            "word": " my",
+            "probability": 0.97778
+          },
+          {
+            "start": 28.57,
+            "end": 29.05,
+            "word": " options.",
+            "probability": 0.99314
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-d",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 81,
+            "speechStart": 0.75,
+            "speechEnd": 29.05,
+            "sourceTokenCoverage": 0.9756,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9816,
+            "transcript": "what i love about shopping online is the incredible variety of products available when i go to a store i'm limited to what's in stock but online there's so much more choice i can find different brands styles and even products that aren't available locally it's great for finding unique items or hard defined sizes i can spend time browsing until i find exactly what i'm looking for without feeling rushed it gives me the freedom to explore all my options",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

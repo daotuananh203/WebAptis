@@ -1,0 +1,514 @@
+{
+  "testId": "aptis-b2-06",
+  "blockId": "p1-q12",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-06/part-1/q12.mp3",
+  "audioSha256": "1aba1834b048a4681c1d954b63b5a9f2a2b5877cd14d9d714d2ca78ba88302c9",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 5.24,
+        "text": "Hi, I'm Emma and I'm super excited about a show I'm going to this weekend.",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.42,
+            "word": " Hi,",
+            "probability": 0.93124
+          },
+          {
+            "start": 1.66,
+            "end": 2.0,
+            "word": " I'm",
+            "probability": 0.99191
+          },
+          {
+            "start": 2.0,
+            "end": 2.12,
+            "word": " Emma",
+            "probability": 0.98765
+          },
+          {
+            "start": 2.12,
+            "end": 2.68,
+            "word": " and",
+            "probability": 0.59019
+          },
+          {
+            "start": 2.68,
+            "end": 2.84,
+            "word": " I'm",
+            "probability": 0.98901
+          },
+          {
+            "start": 2.84,
+            "end": 3.14,
+            "word": " super",
+            "probability": 0.998
+          },
+          {
+            "start": 3.14,
+            "end": 3.5,
+            "word": " excited",
+            "probability": 0.99616
+          },
+          {
+            "start": 3.5,
+            "end": 3.76,
+            "word": " about",
+            "probability": 0.99797
+          },
+          {
+            "start": 3.76,
+            "end": 3.9,
+            "word": " a",
+            "probability": 0.99733
+          },
+          {
+            "start": 3.9,
+            "end": 4.08,
+            "word": " show",
+            "probability": 0.99902
+          },
+          {
+            "start": 4.08,
+            "end": 4.3,
+            "word": " I'm",
+            "probability": 0.98242
+          },
+          {
+            "start": 4.3,
+            "end": 4.48,
+            "word": " going",
+            "probability": 0.99808
+          },
+          {
+            "start": 4.48,
+            "end": 4.66,
+            "word": " to",
+            "probability": 0.99479
+          },
+          {
+            "start": 4.66,
+            "end": 4.88,
+            "word": " this",
+            "probability": 0.99642
+          },
+          {
+            "start": 4.88,
+            "end": 5.24,
+            "word": " weekend.",
+            "probability": 0.99341
+          }
+        ]
+      },
+      {
+        "start": 5.88,
+        "end": 9.14,
+        "text": "It's happening on Saturday at 7 p.m. at the City Theatre.",
+        "words": [
+          {
+            "start": 5.88,
+            "end": 6.2,
+            "word": " It's",
+            "probability": 0.99461
+          },
+          {
+            "start": 6.2,
+            "end": 6.44,
+            "word": " happening",
+            "probability": 0.99756
+          },
+          {
+            "start": 6.44,
+            "end": 6.68,
+            "word": " on",
+            "probability": 0.99253
+          },
+          {
+            "start": 6.68,
+            "end": 7.1,
+            "word": " Saturday",
+            "probability": 0.98364
+          },
+          {
+            "start": 7.1,
+            "end": 7.36,
+            "word": " at",
+            "probability": 0.96695
+          },
+          {
+            "start": 7.36,
+            "end": 7.68,
+            "word": " 7",
+            "probability": 0.95881
+          },
+          {
+            "start": 7.68,
+            "end": 7.9,
+            "word": " p",
+            "probability": 0.34154
+          },
+          {
+            "start": 7.9,
+            "end": 8.1,
+            "word": ".m.",
+            "probability": 0.9977
+          },
+          {
+            "start": 8.4,
+            "end": 8.42,
+            "word": " at",
+            "probability": 0.96722
+          },
+          {
+            "start": 8.42,
+            "end": 8.56,
+            "word": " the",
+            "probability": 0.96977
+          },
+          {
+            "start": 8.56,
+            "end": 8.76,
+            "word": " City",
+            "probability": 0.55773
+          },
+          {
+            "start": 8.76,
+            "end": 9.14,
+            "word": " Theatre.",
+            "probability": 0.54802
+          }
+        ]
+      },
+      {
+        "start": 9.76,
+        "end": 12.74,
+        "text": "There will be different performances like dancing and singing.",
+        "words": [
+          {
+            "start": 9.76,
+            "end": 9.98,
+            "word": " There",
+            "probability": 0.99621
+          },
+          {
+            "start": 9.98,
+            "end": 10.08,
+            "word": " will",
+            "probability": 0.99143
+          },
+          {
+            "start": 10.08,
+            "end": 10.22,
+            "word": " be",
+            "probability": 0.99923
+          },
+          {
+            "start": 10.22,
+            "end": 10.52,
+            "word": " different",
+            "probability": 0.99784
+          },
+          {
+            "start": 10.52,
+            "end": 11.12,
+            "word": " performances",
+            "probability": 0.99838
+          },
+          {
+            "start": 11.12,
+            "end": 11.68,
+            "word": " like",
+            "probability": 0.70154
+          },
+          {
+            "start": 11.68,
+            "end": 12.14,
+            "word": " dancing",
+            "probability": 0.47392
+          },
+          {
+            "start": 12.14,
+            "end": 12.38,
+            "word": " and",
+            "probability": 0.99336
+          },
+          {
+            "start": 12.38,
+            "end": 12.74,
+            "word": " singing.",
+            "probability": 0.99634
+          }
+        ]
+      },
+      {
+        "start": 13.3,
+        "end": 16.5,
+        "text": "I've heard the show is really fun and I can't wait to see it.",
+        "words": [
+          {
+            "start": 13.3,
+            "end": 13.62,
+            "word": " I've",
+            "probability": 0.989
+          },
+          {
+            "start": 13.62,
+            "end": 13.74,
+            "word": " heard",
+            "probability": 0.99877
+          },
+          {
+            "start": 13.74,
+            "end": 13.9,
+            "word": " the",
+            "probability": 0.98714
+          },
+          {
+            "start": 13.9,
+            "end": 14.1,
+            "word": " show",
+            "probability": 0.99776
+          },
+          {
+            "start": 14.1,
+            "end": 14.26,
+            "word": " is",
+            "probability": 0.97269
+          },
+          {
+            "start": 14.26,
+            "end": 14.58,
+            "word": " really",
+            "probability": 0.99361
+          },
+          {
+            "start": 14.58,
+            "end": 14.92,
+            "word": " fun",
+            "probability": 0.99866
+          },
+          {
+            "start": 14.92,
+            "end": 15.36,
+            "word": " and",
+            "probability": 0.81879
+          },
+          {
+            "start": 15.36,
+            "end": 15.46,
+            "word": " I",
+            "probability": 0.99176
+          },
+          {
+            "start": 15.46,
+            "end": 15.76,
+            "word": " can't",
+            "probability": 0.99651
+          },
+          {
+            "start": 15.76,
+            "end": 15.9,
+            "word": " wait",
+            "probability": 0.99969
+          },
+          {
+            "start": 15.9,
+            "end": 16.08,
+            "word": " to",
+            "probability": 0.99602
+          },
+          {
+            "start": 16.08,
+            "end": 16.28,
+            "word": " see",
+            "probability": 0.99947
+          },
+          {
+            "start": 16.28,
+            "end": 16.5,
+            "word": " it.",
+            "probability": 0.99826
+          }
+        ]
+      },
+      {
+        "start": 16.92,
+        "end": 20.26,
+        "text": "But the best part is that it will end with a surprise performance.",
+        "words": [
+          {
+            "start": 16.92,
+            "end": 17.1,
+            "word": " But",
+            "probability": 0.97747
+          },
+          {
+            "start": 17.1,
+            "end": 17.24,
+            "word": " the",
+            "probability": 0.9804
+          },
+          {
+            "start": 17.24,
+            "end": 17.46,
+            "word": " best",
+            "probability": 0.99873
+          },
+          {
+            "start": 17.46,
+            "end": 17.76,
+            "word": " part",
+            "probability": 0.99904
+          },
+          {
+            "start": 17.76,
+            "end": 18.18,
+            "word": " is",
+            "probability": 0.98721
+          },
+          {
+            "start": 18.18,
+            "end": 18.34,
+            "word": " that",
+            "probability": 0.9961
+          },
+          {
+            "start": 18.34,
+            "end": 18.44,
+            "word": " it",
+            "probability": 0.99525
+          },
+          {
+            "start": 18.44,
+            "end": 18.56,
+            "word": " will",
+            "probability": 0.99197
+          },
+          {
+            "start": 18.56,
+            "end": 18.92,
+            "word": " end",
+            "probability": 0.99664
+          },
+          {
+            "start": 18.92,
+            "end": 19.18,
+            "word": " with",
+            "probability": 0.99833
+          },
+          {
+            "start": 19.18,
+            "end": 19.24,
+            "word": " a",
+            "probability": 0.96946
+          },
+          {
+            "start": 19.24,
+            "end": 19.6,
+            "word": " surprise",
+            "probability": 0.9708
+          },
+          {
+            "start": 19.6,
+            "end": 20.26,
+            "word": " performance.",
+            "probability": 0.99839
+          }
+        ]
+      },
+      {
+        "start": 20.92,
+        "end": 23.42,
+        "text": "I'm really curious to find out what it is.",
+        "words": [
+          {
+            "start": 20.92,
+            "end": 21.34,
+            "word": " I'm",
+            "probability": 0.99224
+          },
+          {
+            "start": 21.34,
+            "end": 21.68,
+            "word": " really",
+            "probability": 0.99461
+          },
+          {
+            "start": 21.68,
+            "end": 22.12,
+            "word": " curious",
+            "probability": 0.99966
+          },
+          {
+            "start": 22.12,
+            "end": 22.36,
+            "word": " to",
+            "probability": 0.99949
+          },
+          {
+            "start": 22.36,
+            "end": 22.56,
+            "word": " find",
+            "probability": 0.99727
+          },
+          {
+            "start": 22.56,
+            "end": 22.76,
+            "word": " out",
+            "probability": 0.99927
+          },
+          {
+            "start": 22.76,
+            "end": 22.94,
+            "word": " what",
+            "probability": 0.99741
+          },
+          {
+            "start": 22.94,
+            "end": 23.08,
+            "word": " it",
+            "probability": 0.99766
+          },
+          {
+            "start": 23.08,
+            "end": 23.42,
+            "word": " is.",
+            "probability": 0.99731
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q12",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 72,
+            "speechStart": 0.88,
+            "speechEnd": 23.42,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi i'm emma and i'm super excited about a show i'm going to this weekend it's happening on saturday at 7 p m at the city theatre there will be different performances like dancing and singing i've heard the show is really fun and i can't wait to see it but the best part is that it will end with a surprise performance i'm really curious to find out what it is",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

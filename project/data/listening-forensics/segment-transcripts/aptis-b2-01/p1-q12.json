@@ -1,0 +1,865 @@
+{
+  "testId": "aptis-b2-01",
+  "blockId": "p1-q12",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-01/part-1/q12.mp3",
+  "audioSha256": "a87f5b5d1ce481ff932e9642ecf44e94f18463d26a6b8c51ad429d72cb95d1d3",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.72,
+        "end": 6.7,
+        "text": "Hi, it's me. I wanted to confirm where we're meeting today. I thought we agreed to meet at the park, right?",
+        "words": [
+          {
+            "start": 0.72,
+            "end": 1.22,
+            "word": " Hi,",
+            "probability": 0.79181
+          },
+          {
+            "start": 1.38,
+            "end": 1.56,
+            "word": " it's",
+            "probability": 0.98129
+          },
+          {
+            "start": 1.56,
+            "end": 1.72,
+            "word": " me.",
+            "probability": 0.9806
+          },
+          {
+            "start": 2.46,
+            "end": 2.52,
+            "word": " I",
+            "probability": 0.80636
+          },
+          {
+            "start": 2.52,
+            "end": 2.76,
+            "word": " wanted",
+            "probability": 0.98788
+          },
+          {
+            "start": 2.76,
+            "end": 2.92,
+            "word": " to",
+            "probability": 0.99916
+          },
+          {
+            "start": 2.92,
+            "end": 3.26,
+            "word": " confirm",
+            "probability": 0.98886
+          },
+          {
+            "start": 3.26,
+            "end": 3.52,
+            "word": " where",
+            "probability": 0.99217
+          },
+          {
+            "start": 3.52,
+            "end": 3.66,
+            "word": " we're",
+            "probability": 0.97822
+          },
+          {
+            "start": 3.66,
+            "end": 3.86,
+            "word": " meeting",
+            "probability": 0.99557
+          },
+          {
+            "start": 3.86,
+            "end": 4.26,
+            "word": " today.",
+            "probability": 0.99911
+          },
+          {
+            "start": 4.82,
+            "end": 4.9,
+            "word": " I",
+            "probability": 0.88972
+          },
+          {
+            "start": 4.9,
+            "end": 5.06,
+            "word": " thought",
+            "probability": 0.99592
+          },
+          {
+            "start": 5.06,
+            "end": 5.22,
+            "word": " we",
+            "probability": 0.99867
+          },
+          {
+            "start": 5.22,
+            "end": 5.48,
+            "word": " agreed",
+            "probability": 0.99595
+          },
+          {
+            "start": 5.48,
+            "end": 5.64,
+            "word": " to",
+            "probability": 0.99923
+          },
+          {
+            "start": 5.64,
+            "end": 5.8,
+            "word": " meet",
+            "probability": 0.99602
+          },
+          {
+            "start": 5.8,
+            "end": 6.02,
+            "word": " at",
+            "probability": 0.99607
+          },
+          {
+            "start": 6.02,
+            "end": 6.12,
+            "word": " the",
+            "probability": 0.99828
+          },
+          {
+            "start": 6.12,
+            "end": 6.4,
+            "word": " park,",
+            "probability": 0.98036
+          },
+          {
+            "start": 6.54,
+            "end": 6.7,
+            "word": " right?",
+            "probability": 0.99791
+          }
+        ]
+      },
+      {
+        "start": 7.96,
+        "end": 14.46,
+        "text": "It's a nice place to relax and catch up. The station would be too crowded and the university is a bit far for me.",
+        "words": [
+          {
+            "start": 7.96,
+            "end": 8.3,
+            "word": " It's",
+            "probability": 0.99515
+          },
+          {
+            "start": 8.3,
+            "end": 8.34,
+            "word": " a",
+            "probability": 0.99837
+          },
+          {
+            "start": 8.34,
+            "end": 8.48,
+            "word": " nice",
+            "probability": 0.99978
+          },
+          {
+            "start": 8.48,
+            "end": 8.74,
+            "word": " place",
+            "probability": 0.99963
+          },
+          {
+            "start": 8.74,
+            "end": 8.96,
+            "word": " to",
+            "probability": 0.99944
+          },
+          {
+            "start": 8.96,
+            "end": 9.2,
+            "word": " relax",
+            "probability": 0.99847
+          },
+          {
+            "start": 9.2,
+            "end": 9.56,
+            "word": " and",
+            "probability": 0.99562
+          },
+          {
+            "start": 9.56,
+            "end": 9.74,
+            "word": " catch",
+            "probability": 0.99686
+          },
+          {
+            "start": 9.74,
+            "end": 10.08,
+            "word": " up.",
+            "probability": 0.99801
+          },
+          {
+            "start": 10.62,
+            "end": 10.72,
+            "word": " The",
+            "probability": 0.99509
+          },
+          {
+            "start": 10.72,
+            "end": 11.06,
+            "word": " station",
+            "probability": 0.99187
+          },
+          {
+            "start": 11.06,
+            "end": 11.26,
+            "word": " would",
+            "probability": 0.99683
+          },
+          {
+            "start": 11.26,
+            "end": 11.4,
+            "word": " be",
+            "probability": 0.99901
+          },
+          {
+            "start": 11.4,
+            "end": 11.62,
+            "word": " too",
+            "probability": 0.95291
+          },
+          {
+            "start": 11.62,
+            "end": 11.96,
+            "word": " crowded",
+            "probability": 0.9989
+          },
+          {
+            "start": 11.96,
+            "end": 12.56,
+            "word": " and",
+            "probability": 0.56012
+          },
+          {
+            "start": 12.56,
+            "end": 12.68,
+            "word": " the",
+            "probability": 0.99764
+          },
+          {
+            "start": 12.68,
+            "end": 13.22,
+            "word": " university",
+            "probability": 0.88067
+          },
+          {
+            "start": 13.22,
+            "end": 13.64,
+            "word": " is",
+            "probability": 0.99551
+          },
+          {
+            "start": 13.64,
+            "end": 13.72,
+            "word": " a",
+            "probability": 0.99796
+          },
+          {
+            "start": 13.72,
+            "end": 13.8,
+            "word": " bit",
+            "probability": 0.99961
+          },
+          {
+            "start": 13.8,
+            "end": 14.1,
+            "word": " far",
+            "probability": 0.99758
+          },
+          {
+            "start": 14.1,
+            "end": 14.3,
+            "word": " for",
+            "probability": 0.90767
+          },
+          {
+            "start": 14.3,
+            "end": 14.46,
+            "word": " me.",
+            "probability": 0.9998
+          }
+        ]
+      },
+      {
+        "start": 15.28,
+        "end": 19.28,
+        "text": "Let's stick to the park so we can enjoy the weather. What time should I meet you there?",
+        "words": [
+          {
+            "start": 15.28,
+            "end": 15.62,
+            "word": " Let's",
+            "probability": 0.99732
+          },
+          {
+            "start": 15.62,
+            "end": 15.74,
+            "word": " stick",
+            "probability": 0.99912
+          },
+          {
+            "start": 15.74,
+            "end": 15.92,
+            "word": " to",
+            "probability": 0.99892
+          },
+          {
+            "start": 15.92,
+            "end": 16.02,
+            "word": " the",
+            "probability": 0.9994
+          },
+          {
+            "start": 16.02,
+            "end": 16.28,
+            "word": " park",
+            "probability": 0.99314
+          },
+          {
+            "start": 16.28,
+            "end": 16.54,
+            "word": " so",
+            "probability": 0.97622
+          },
+          {
+            "start": 16.54,
+            "end": 16.66,
+            "word": " we",
+            "probability": 0.99717
+          },
+          {
+            "start": 16.66,
+            "end": 16.78,
+            "word": " can",
+            "probability": 0.99843
+          },
+          {
+            "start": 16.78,
+            "end": 17.06,
+            "word": " enjoy",
+            "probability": 0.99911
+          },
+          {
+            "start": 17.06,
+            "end": 17.22,
+            "word": " the",
+            "probability": 0.9988
+          },
+          {
+            "start": 17.22,
+            "end": 17.46,
+            "word": " weather.",
+            "probability": 0.99931
+          },
+          {
+            "start": 18.14,
+            "end": 18.3,
+            "word": " What",
+            "probability": 0.99496
+          },
+          {
+            "start": 18.3,
+            "end": 18.52,
+            "word": " time",
+            "probability": 0.99878
+          },
+          {
+            "start": 18.52,
+            "end": 18.7,
+            "word": " should",
+            "probability": 0.99806
+          },
+          {
+            "start": 18.7,
+            "end": 18.78,
+            "word": " I",
+            "probability": 0.99755
+          },
+          {
+            "start": 18.78,
+            "end": 18.96,
+            "word": " meet",
+            "probability": 0.99836
+          },
+          {
+            "start": 18.96,
+            "end": 19.12,
+            "word": " you",
+            "probability": 0.9996
+          },
+          {
+            "start": 19.12,
+            "end": 19.28,
+            "word": " there?",
+            "probability": 0.99458
+          }
+        ]
+      },
+      {
+        "start": 23.44,
+        "end": 29.12,
+        "text": "Hi, it's me. I wanted to confirm where we're meeting today. I thought we agreed to meet at the park, right?",
+        "words": [
+          {
+            "start": 23.44,
+            "end": 23.64,
+            "word": " Hi,",
+            "probability": 0.97347
+          },
+          {
+            "start": 23.78,
+            "end": 23.96,
+            "word": " it's",
+            "probability": 0.99868
+          },
+          {
+            "start": 23.96,
+            "end": 24.12,
+            "word": " me.",
+            "probability": 0.9974
+          },
+          {
+            "start": 24.8,
+            "end": 24.92,
+            "word": " I",
+            "probability": 0.99614
+          },
+          {
+            "start": 24.92,
+            "end": 25.14,
+            "word": " wanted",
+            "probability": 0.99346
+          },
+          {
+            "start": 25.14,
+            "end": 25.3,
+            "word": " to",
+            "probability": 0.99981
+          },
+          {
+            "start": 25.3,
+            "end": 25.66,
+            "word": " confirm",
+            "probability": 0.99687
+          },
+          {
+            "start": 25.66,
+            "end": 25.92,
+            "word": " where",
+            "probability": 0.99345
+          },
+          {
+            "start": 25.92,
+            "end": 26.04,
+            "word": " we're",
+            "probability": 0.99717
+          },
+          {
+            "start": 26.04,
+            "end": 26.3,
+            "word": " meeting",
+            "probability": 0.99808
+          },
+          {
+            "start": 26.3,
+            "end": 26.68,
+            "word": " today.",
+            "probability": 0.99967
+          },
+          {
+            "start": 27.18,
+            "end": 27.3,
+            "word": " I",
+            "probability": 0.99781
+          },
+          {
+            "start": 27.3,
+            "end": 27.44,
+            "word": " thought",
+            "probability": 0.99848
+          },
+          {
+            "start": 27.44,
+            "end": 27.62,
+            "word": " we",
+            "probability": 0.99874
+          },
+          {
+            "start": 27.62,
+            "end": 27.88,
+            "word": " agreed",
+            "probability": 0.99839
+          },
+          {
+            "start": 27.88,
+            "end": 28.04,
+            "word": " to",
+            "probability": 0.99916
+          },
+          {
+            "start": 28.04,
+            "end": 28.2,
+            "word": " meet",
+            "probability": 0.9988
+          },
+          {
+            "start": 28.2,
+            "end": 28.42,
+            "word": " at",
+            "probability": 0.99862
+          },
+          {
+            "start": 28.42,
+            "end": 28.52,
+            "word": " the",
+            "probability": 0.99936
+          },
+          {
+            "start": 28.52,
+            "end": 28.82,
+            "word": " park,",
+            "probability": 0.99713
+          },
+          {
+            "start": 28.94,
+            "end": 29.12,
+            "word": " right?",
+            "probability": 0.9994
+          }
+        ]
+      },
+      {
+        "start": 30.32,
+        "end": 34.42,
+        "text": "It's a nice place to relax and catch up. The station would be too crowded.",
+        "words": [
+          {
+            "start": 30.32,
+            "end": 30.7,
+            "word": " It's",
+            "probability": 0.99697
+          },
+          {
+            "start": 30.7,
+            "end": 30.74,
+            "word": " a",
+            "probability": 0.9994
+          },
+          {
+            "start": 30.74,
+            "end": 30.88,
+            "word": " nice",
+            "probability": 0.99978
+          },
+          {
+            "start": 30.88,
+            "end": 31.14,
+            "word": " place",
+            "probability": 0.99955
+          },
+          {
+            "start": 31.14,
+            "end": 31.36,
+            "word": " to",
+            "probability": 0.9997
+          },
+          {
+            "start": 31.36,
+            "end": 31.62,
+            "word": " relax",
+            "probability": 0.99859
+          },
+          {
+            "start": 31.62,
+            "end": 31.94,
+            "word": " and",
+            "probability": 0.99875
+          },
+          {
+            "start": 31.94,
+            "end": 32.2,
+            "word": " catch",
+            "probability": 0.9986
+          },
+          {
+            "start": 32.2,
+            "end": 32.52,
+            "word": " up.",
+            "probability": 0.99889
+          },
+          {
+            "start": 32.96,
+            "end": 33.1,
+            "word": " The",
+            "probability": 0.99469
+          },
+          {
+            "start": 33.1,
+            "end": 33.46,
+            "word": " station",
+            "probability": 0.99885
+          },
+          {
+            "start": 33.46,
+            "end": 33.66,
+            "word": " would",
+            "probability": 0.99819
+          },
+          {
+            "start": 33.66,
+            "end": 33.8,
+            "word": " be",
+            "probability": 0.99928
+          },
+          {
+            "start": 33.8,
+            "end": 34.02,
+            "word": " too",
+            "probability": 0.99675
+          },
+          {
+            "start": 34.02,
+            "end": 34.42,
+            "word": " crowded.",
+            "probability": 0.99939
+          }
+        ]
+      },
+      {
+        "start": 34.78,
+        "end": 36.86,
+        "text": "and the university is a bit far for me.",
+        "words": [
+          {
+            "start": 34.78,
+            "end": 35.0,
+            "word": " and",
+            "probability": 0.74152
+          },
+          {
+            "start": 35.0,
+            "end": 35.1,
+            "word": " the",
+            "probability": 0.97502
+          },
+          {
+            "start": 35.1,
+            "end": 35.66,
+            "word": " university",
+            "probability": 0.6041
+          },
+          {
+            "start": 35.66,
+            "end": 36.04,
+            "word": " is",
+            "probability": 0.98413
+          },
+          {
+            "start": 36.04,
+            "end": 36.12,
+            "word": " a",
+            "probability": 0.98949
+          },
+          {
+            "start": 36.12,
+            "end": 36.2,
+            "word": " bit",
+            "probability": 0.99859
+          },
+          {
+            "start": 36.2,
+            "end": 36.5,
+            "word": " far",
+            "probability": 0.998
+          },
+          {
+            "start": 36.5,
+            "end": 36.7,
+            "word": " for",
+            "probability": 0.7517
+          },
+          {
+            "start": 36.7,
+            "end": 36.86,
+            "word": " me.",
+            "probability": 0.99903
+          }
+        ]
+      },
+      {
+        "start": 37.8,
+        "end": 39.86,
+        "text": "Let's stick to the park so we can enjoy the weather.",
+        "words": [
+          {
+            "start": 37.8,
+            "end": 38.02,
+            "word": " Let's",
+            "probability": 0.98705
+          },
+          {
+            "start": 38.02,
+            "end": 38.14,
+            "word": " stick",
+            "probability": 0.99792
+          },
+          {
+            "start": 38.14,
+            "end": 38.32,
+            "word": " to",
+            "probability": 0.99694
+          },
+          {
+            "start": 38.32,
+            "end": 38.42,
+            "word": " the",
+            "probability": 0.99896
+          },
+          {
+            "start": 38.42,
+            "end": 38.66,
+            "word": " park",
+            "probability": 0.96778
+          },
+          {
+            "start": 38.66,
+            "end": 38.96,
+            "word": " so",
+            "probability": 0.97037
+          },
+          {
+            "start": 38.96,
+            "end": 39.06,
+            "word": " we",
+            "probability": 0.98968
+          },
+          {
+            "start": 39.06,
+            "end": 39.18,
+            "word": " can",
+            "probability": 0.99742
+          },
+          {
+            "start": 39.18,
+            "end": 39.46,
+            "word": " enjoy",
+            "probability": 0.99831
+          },
+          {
+            "start": 39.46,
+            "end": 39.62,
+            "word": " the",
+            "probability": 0.99814
+          },
+          {
+            "start": 39.62,
+            "end": 39.86,
+            "word": " weather.",
+            "probability": 0.99915
+          }
+        ]
+      },
+      {
+        "start": 40.5,
+        "end": 41.7,
+        "text": "What time should I meet you there?",
+        "words": [
+          {
+            "start": 40.5,
+            "end": 40.7,
+            "word": " What",
+            "probability": 0.98836
+          },
+          {
+            "start": 40.7,
+            "end": 40.92,
+            "word": " time",
+            "probability": 0.9987
+          },
+          {
+            "start": 40.92,
+            "end": 41.1,
+            "word": " should",
+            "probability": 0.99755
+          },
+          {
+            "start": 41.1,
+            "end": 41.18,
+            "word": " I",
+            "probability": 0.96302
+          },
+          {
+            "start": 41.18,
+            "end": 41.34,
+            "word": " meet",
+            "probability": 0.99589
+          },
+          {
+            "start": 41.34,
+            "end": 41.52,
+            "word": " you",
+            "probability": 0.9989
+          },
+          {
+            "start": 41.52,
+            "end": 41.7,
+            "word": " there?",
+            "probability": 0.98836
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q12",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 63,
+            "speechStart": 0.72,
+            "speechEnd": 19.28,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi it's me i wanted to confirm where we're meeting today i thought we agreed to meet at the park right it's a nice place to relax and catch up the station would be too crowded and the university is a bit far for me let's stick to the park so we can enjoy the weather what time should i meet you there",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 63,
+            "wordEndIndexExclusive": 126,
+            "speechStart": 23.44,
+            "speechEnd": 41.7,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi it's me i wanted to confirm where we're meeting today i thought we agreed to meet at the park right it's a nice place to relax and catch up the station would be too crowded and the university is a bit far for me let's stick to the park so we can enjoy the weather what time should i meet you there",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

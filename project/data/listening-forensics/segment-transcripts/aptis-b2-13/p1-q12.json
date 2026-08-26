@@ -1,0 +1,810 @@
+{
+  "testId": "aptis-b2-13",
+  "blockId": "p1-q12",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-13/part-1/q12.mp3",
+  "audioSha256": "641705d24792d7f24b961d7942d7eecb19c3cb47f5d3f33968c55aea940b3f04",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.69,
+        "end": 6.55,
+        "text": "Hey Max, it's Anna. I wanted to ask you for a favor this afternoon. I have to stay late",
+        "words": [
+          {
+            "start": 0.69,
+            "end": 1.17,
+            "word": " Hey",
+            "probability": 0.3627
+          },
+          {
+            "start": 1.17,
+            "end": 1.37,
+            "word": " Max,",
+            "probability": 0.51184
+          },
+          {
+            "start": 1.69,
+            "end": 1.87,
+            "word": " it's",
+            "probability": 0.94254
+          },
+          {
+            "start": 1.87,
+            "end": 2.03,
+            "word": " Anna.",
+            "probability": 0.76145
+          },
+          {
+            "start": 2.47,
+            "end": 2.89,
+            "word": " I",
+            "probability": 0.97625
+          },
+          {
+            "start": 2.89,
+            "end": 3.11,
+            "word": " wanted",
+            "probability": 0.95719
+          },
+          {
+            "start": 3.11,
+            "end": 3.29,
+            "word": " to",
+            "probability": 0.99428
+          },
+          {
+            "start": 3.29,
+            "end": 3.55,
+            "word": " ask",
+            "probability": 0.99653
+          },
+          {
+            "start": 3.55,
+            "end": 3.71,
+            "word": " you",
+            "probability": 0.99713
+          },
+          {
+            "start": 3.71,
+            "end": 3.91,
+            "word": " for",
+            "probability": 0.99442
+          },
+          {
+            "start": 3.91,
+            "end": 4.03,
+            "word": " a",
+            "probability": 0.99486
+          },
+          {
+            "start": 4.03,
+            "end": 4.29,
+            "word": " favor",
+            "probability": 0.9879
+          },
+          {
+            "start": 4.29,
+            "end": 4.53,
+            "word": " this",
+            "probability": 0.99638
+          },
+          {
+            "start": 4.53,
+            "end": 4.99,
+            "word": " afternoon.",
+            "probability": 0.99531
+          },
+          {
+            "start": 5.59,
+            "end": 5.79,
+            "word": " I",
+            "probability": 0.994
+          },
+          {
+            "start": 5.79,
+            "end": 5.93,
+            "word": " have",
+            "probability": 0.99542
+          },
+          {
+            "start": 5.93,
+            "end": 6.07,
+            "word": " to",
+            "probability": 0.99794
+          },
+          {
+            "start": 6.07,
+            "end": 6.29,
+            "word": " stay",
+            "probability": 0.99733
+          },
+          {
+            "start": 6.29,
+            "end": 6.55,
+            "word": " late",
+            "probability": 0.9647
+          }
+        ]
+      },
+      {
+        "start": 6.55,
+        "end": 11.84,
+        "text": "at the office to finish some work. Could you please pick up my kids from school? After",
+        "words": [
+          {
+            "start": 6.55,
+            "end": 6.73,
+            "word": " at",
+            "probability": 0.99545
+          },
+          {
+            "start": 6.73,
+            "end": 6.85,
+            "word": " the",
+            "probability": 0.99875
+          },
+          {
+            "start": 6.85,
+            "end": 7.11,
+            "word": " office",
+            "probability": 0.99083
+          },
+          {
+            "start": 7.11,
+            "end": 7.33,
+            "word": " to",
+            "probability": 0.99622
+          },
+          {
+            "start": 7.33,
+            "end": 7.57,
+            "word": " finish",
+            "probability": 0.99874
+          },
+          {
+            "start": 7.57,
+            "end": 7.81,
+            "word": " some",
+            "probability": 0.99726
+          },
+          {
+            "start": 7.81,
+            "end": 8.09,
+            "word": " work.",
+            "probability": 0.99907
+          },
+          {
+            "start": 8.73,
+            "end": 8.95,
+            "word": " Could",
+            "probability": 0.9868
+          },
+          {
+            "start": 8.95,
+            "end": 9.07,
+            "word": " you",
+            "probability": 0.99898
+          },
+          {
+            "start": 9.07,
+            "end": 9.37,
+            "word": " please",
+            "probability": 0.99131
+          },
+          {
+            "start": 9.37,
+            "end": 9.57,
+            "word": " pick",
+            "probability": 0.99652
+          },
+          {
+            "start": 9.57,
+            "end": 9.69,
+            "word": " up",
+            "probability": 0.99739
+          },
+          {
+            "start": 9.69,
+            "end": 9.85,
+            "word": " my",
+            "probability": 0.99817
+          },
+          {
+            "start": 9.85,
+            "end": 10.05,
+            "word": " kids",
+            "probability": 0.99196
+          },
+          {
+            "start": 10.05,
+            "end": 10.29,
+            "word": " from",
+            "probability": 0.99409
+          },
+          {
+            "start": 10.29,
+            "end": 10.61,
+            "word": " school?",
+            "probability": 0.99879
+          },
+          {
+            "start": 11.5,
+            "end": 11.84,
+            "word": " After",
+            "probability": 0.9821
+          }
+        ]
+      },
+      {
+        "start": 11.84,
+        "end": 16.48,
+        "text": "that, I know you'll want to hang out with your friends, so feel free to take them along.",
+        "words": [
+          {
+            "start": 11.84,
+            "end": 12.08,
+            "word": " that,",
+            "probability": 0.99872
+          },
+          {
+            "start": 12.42,
+            "end": 12.52,
+            "word": " I",
+            "probability": 0.99681
+          },
+          {
+            "start": 12.52,
+            "end": 12.8,
+            "word": " know",
+            "probability": 0.99576
+          },
+          {
+            "start": 12.8,
+            "end": 13.04,
+            "word": " you'll",
+            "probability": 0.98955
+          },
+          {
+            "start": 13.04,
+            "end": 13.22,
+            "word": " want",
+            "probability": 0.99563
+          },
+          {
+            "start": 13.22,
+            "end": 13.38,
+            "word": " to",
+            "probability": 0.99944
+          },
+          {
+            "start": 13.38,
+            "end": 13.62,
+            "word": " hang",
+            "probability": 0.99786
+          },
+          {
+            "start": 13.62,
+            "end": 13.82,
+            "word": " out",
+            "probability": 0.99042
+          },
+          {
+            "start": 13.82,
+            "end": 14.0,
+            "word": " with",
+            "probability": 0.99937
+          },
+          {
+            "start": 14.0,
+            "end": 14.1,
+            "word": " your",
+            "probability": 0.99298
+          },
+          {
+            "start": 14.1,
+            "end": 14.5,
+            "word": " friends,",
+            "probability": 0.99889
+          },
+          {
+            "start": 14.94,
+            "end": 15.3,
+            "word": " so",
+            "probability": 0.99697
+          },
+          {
+            "start": 15.3,
+            "end": 15.5,
+            "word": " feel",
+            "probability": 0.99803
+          },
+          {
+            "start": 15.5,
+            "end": 15.72,
+            "word": " free",
+            "probability": 0.99937
+          },
+          {
+            "start": 15.72,
+            "end": 15.82,
+            "word": " to",
+            "probability": 0.99786
+          },
+          {
+            "start": 15.82,
+            "end": 16.02,
+            "word": " take",
+            "probability": 0.99858
+          },
+          {
+            "start": 16.02,
+            "end": 16.2,
+            "word": " them",
+            "probability": 0.99909
+          },
+          {
+            "start": 16.2,
+            "end": 16.48,
+            "word": " along.",
+            "probability": 0.99815
+          }
+        ]
+      },
+      {
+        "start": 17.0,
+        "end": 26.37,
+        "text": "I really appreciate your help. Hey Max, it's Anna. I wanted to ask you for a favor this afternoon.",
+        "words": [
+          {
+            "start": 17.0,
+            "end": 17.24,
+            "word": " I",
+            "probability": 0.99667
+          },
+          {
+            "start": 17.24,
+            "end": 17.48,
+            "word": " really",
+            "probability": 0.99748
+          },
+          {
+            "start": 17.48,
+            "end": 17.96,
+            "word": " appreciate",
+            "probability": 0.99961
+          },
+          {
+            "start": 17.96,
+            "end": 18.14,
+            "word": " your",
+            "probability": 0.99635
+          },
+          {
+            "start": 18.14,
+            "end": 18.38,
+            "word": " help.",
+            "probability": 0.9994
+          },
+          {
+            "start": 22.45,
+            "end": 22.55,
+            "word": " Hey",
+            "probability": 0.97993
+          },
+          {
+            "start": 22.55,
+            "end": 22.77,
+            "word": " Max,",
+            "probability": 0.98552
+          },
+          {
+            "start": 23.09,
+            "end": 23.25,
+            "word": " it's",
+            "probability": 0.99669
+          },
+          {
+            "start": 23.25,
+            "end": 23.41,
+            "word": " Anna.",
+            "probability": 0.98436
+          },
+          {
+            "start": 24.07,
+            "end": 24.27,
+            "word": " I",
+            "probability": 0.99718
+          },
+          {
+            "start": 24.27,
+            "end": 24.49,
+            "word": " wanted",
+            "probability": 0.97718
+          },
+          {
+            "start": 24.49,
+            "end": 24.65,
+            "word": " to",
+            "probability": 0.99776
+          },
+          {
+            "start": 24.65,
+            "end": 24.93,
+            "word": " ask",
+            "probability": 0.99719
+          },
+          {
+            "start": 24.93,
+            "end": 25.11,
+            "word": " you",
+            "probability": 0.99227
+          },
+          {
+            "start": 25.11,
+            "end": 25.29,
+            "word": " for",
+            "probability": 0.99878
+          },
+          {
+            "start": 25.29,
+            "end": 25.41,
+            "word": " a",
+            "probability": 0.99764
+          },
+          {
+            "start": 25.41,
+            "end": 25.69,
+            "word": " favor",
+            "probability": 0.99747
+          },
+          {
+            "start": 25.69,
+            "end": 25.89,
+            "word": " this",
+            "probability": 0.99843
+          },
+          {
+            "start": 25.89,
+            "end": 26.37,
+            "word": " afternoon.",
+            "probability": 0.99853
+          }
+        ]
+      },
+      {
+        "start": 26.97,
+        "end": 31.47,
+        "text": "I have to stay late at the office to finish some work. Could you please pick up my kids",
+        "words": [
+          {
+            "start": 26.97,
+            "end": 27.17,
+            "word": " I",
+            "probability": 0.99861
+          },
+          {
+            "start": 27.17,
+            "end": 27.31,
+            "word": " have",
+            "probability": 0.99852
+          },
+          {
+            "start": 27.31,
+            "end": 27.45,
+            "word": " to",
+            "probability": 0.99829
+          },
+          {
+            "start": 27.45,
+            "end": 27.67,
+            "word": " stay",
+            "probability": 0.99807
+          },
+          {
+            "start": 27.67,
+            "end": 27.93,
+            "word": " late",
+            "probability": 0.99907
+          },
+          {
+            "start": 27.93,
+            "end": 28.11,
+            "word": " at",
+            "probability": 0.99902
+          },
+          {
+            "start": 28.11,
+            "end": 28.23,
+            "word": " the",
+            "probability": 0.99753
+          },
+          {
+            "start": 28.23,
+            "end": 28.49,
+            "word": " office",
+            "probability": 0.99896
+          },
+          {
+            "start": 28.49,
+            "end": 28.73,
+            "word": " to",
+            "probability": 0.99894
+          },
+          {
+            "start": 28.73,
+            "end": 28.95,
+            "word": " finish",
+            "probability": 0.99885
+          },
+          {
+            "start": 28.95,
+            "end": 29.19,
+            "word": " some",
+            "probability": 0.99897
+          },
+          {
+            "start": 29.19,
+            "end": 29.41,
+            "word": " work.",
+            "probability": 0.99901
+          },
+          {
+            "start": 30.15,
+            "end": 30.31,
+            "word": " Could",
+            "probability": 0.99167
+          },
+          {
+            "start": 30.31,
+            "end": 30.45,
+            "word": " you",
+            "probability": 0.99968
+          },
+          {
+            "start": 30.45,
+            "end": 30.73,
+            "word": " please",
+            "probability": 0.99789
+          },
+          {
+            "start": 30.73,
+            "end": 30.95,
+            "word": " pick",
+            "probability": 0.99808
+          },
+          {
+            "start": 30.95,
+            "end": 31.07,
+            "word": " up",
+            "probability": 0.99846
+          },
+          {
+            "start": 31.07,
+            "end": 31.23,
+            "word": " my",
+            "probability": 0.99866
+          },
+          {
+            "start": 31.23,
+            "end": 31.47,
+            "word": " kids",
+            "probability": 0.99137
+          }
+        ]
+      },
+      {
+        "start": 31.47,
+        "end": 37.09,
+        "text": "from school? After that, I know you'll want to hang out with your friends, so feel free",
+        "words": [
+          {
+            "start": 31.47,
+            "end": 31.67,
+            "word": " from",
+            "probability": 0.74632
+          },
+          {
+            "start": 31.67,
+            "end": 32.01,
+            "word": " school?",
+            "probability": 0.99579
+          },
+          {
+            "start": 32.79,
+            "end": 33.21,
+            "word": " After",
+            "probability": 0.97525
+          },
+          {
+            "start": 33.21,
+            "end": 33.47,
+            "word": " that,",
+            "probability": 0.99692
+          },
+          {
+            "start": 33.79,
+            "end": 33.91,
+            "word": " I",
+            "probability": 0.98612
+          },
+          {
+            "start": 33.91,
+            "end": 34.15,
+            "word": " know",
+            "probability": 0.99252
+          },
+          {
+            "start": 34.15,
+            "end": 34.43,
+            "word": " you'll",
+            "probability": 0.95713
+          },
+          {
+            "start": 34.43,
+            "end": 34.59,
+            "word": " want",
+            "probability": 0.99584
+          },
+          {
+            "start": 34.59,
+            "end": 34.77,
+            "word": " to",
+            "probability": 0.99821
+          },
+          {
+            "start": 34.77,
+            "end": 34.99,
+            "word": " hang",
+            "probability": 0.99302
+          },
+          {
+            "start": 34.99,
+            "end": 35.21,
+            "word": " out",
+            "probability": 0.98624
+          },
+          {
+            "start": 35.21,
+            "end": 35.37,
+            "word": " with",
+            "probability": 0.99898
+          },
+          {
+            "start": 35.37,
+            "end": 35.49,
+            "word": " your",
+            "probability": 0.99377
+          },
+          {
+            "start": 35.49,
+            "end": 35.91,
+            "word": " friends,",
+            "probability": 0.99868
+          },
+          {
+            "start": 36.39,
+            "end": 36.69,
+            "word": " so",
+            "probability": 0.99028
+          },
+          {
+            "start": 36.69,
+            "end": 36.89,
+            "word": " feel",
+            "probability": 0.99402
+          },
+          {
+            "start": 36.89,
+            "end": 37.09,
+            "word": " free",
+            "probability": 0.99838
+          }
+        ]
+      },
+      {
+        "start": 37.09,
+        "end": 39.83,
+        "text": "to take them along. I really appreciate your help.",
+        "words": [
+          {
+            "start": 37.09,
+            "end": 37.21,
+            "word": " to",
+            "probability": 0.99894
+          },
+          {
+            "start": 37.21,
+            "end": 37.39,
+            "word": " take",
+            "probability": 0.99682
+          },
+          {
+            "start": 37.39,
+            "end": 37.57,
+            "word": " them",
+            "probability": 0.99537
+          },
+          {
+            "start": 37.57,
+            "end": 37.85,
+            "word": " along.",
+            "probability": 0.99548
+          },
+          {
+            "start": 38.41,
+            "end": 38.61,
+            "word": " I",
+            "probability": 0.99609
+          },
+          {
+            "start": 38.61,
+            "end": 38.85,
+            "word": " really",
+            "probability": 0.99576
+          },
+          {
+            "start": 38.85,
+            "end": 39.35,
+            "word": " appreciate",
+            "probability": 0.99893
+          },
+          {
+            "start": 39.35,
+            "end": 39.51,
+            "word": " your",
+            "probability": 0.99598
+          },
+          {
+            "start": 39.51,
+            "end": 39.83,
+            "word": " help.",
+            "probability": 0.99798
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q12",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 59,
+            "speechStart": 0.69,
+            "speechEnd": 18.38,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey max it's anna i wanted to ask you for a favor this afternoon i have to stay late at the office to finish some work could you please pick up my kids from school after that i know you'll want to hang out with your friends so feel free to take them along i really appreciate your help",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 59,
+            "wordEndIndexExclusive": 118,
+            "speechStart": 22.45,
+            "speechEnd": 39.83,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey max it's anna i wanted to ask you for a favor this afternoon i have to stay late at the office to finish some work could you please pick up my kids from school after that i know you'll want to hang out with your friends so feel free to take them along i really appreciate your help",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

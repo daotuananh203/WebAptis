@@ -1,0 +1,691 @@
+{
+  "testId": "aptis-b2-07",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-07/part-1/q01.mp3",
+  "audioSha256": "9b1e0c413eaa520ed0d50d7eb923b72db56b54772d7abe506dc256776881189a",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.01,
+        "end": 5.27,
+        "text": "Hello everyone. I want to share what my family usually does on weekends.",
+        "words": [
+          {
+            "start": 1.01,
+            "end": 1.53,
+            "word": " Hello",
+            "probability": 0.57558
+          },
+          {
+            "start": 1.53,
+            "end": 2.01,
+            "word": " everyone.",
+            "probability": 0.48777
+          },
+          {
+            "start": 2.43,
+            "end": 2.79,
+            "word": " I",
+            "probability": 0.97222
+          },
+          {
+            "start": 2.79,
+            "end": 2.91,
+            "word": " want",
+            "probability": 0.99016
+          },
+          {
+            "start": 2.91,
+            "end": 3.05,
+            "word": " to",
+            "probability": 0.99468
+          },
+          {
+            "start": 3.05,
+            "end": 3.23,
+            "word": " share",
+            "probability": 0.98012
+          },
+          {
+            "start": 3.23,
+            "end": 3.39,
+            "word": " what",
+            "probability": 0.95934
+          },
+          {
+            "start": 3.39,
+            "end": 3.51,
+            "word": " my",
+            "probability": 0.99192
+          },
+          {
+            "start": 3.51,
+            "end": 3.87,
+            "word": " family",
+            "probability": 0.99623
+          },
+          {
+            "start": 3.87,
+            "end": 4.21,
+            "word": " usually",
+            "probability": 0.97091
+          },
+          {
+            "start": 4.21,
+            "end": 4.57,
+            "word": " does",
+            "probability": 0.98181
+          },
+          {
+            "start": 4.57,
+            "end": 4.95,
+            "word": " on",
+            "probability": 0.99241
+          },
+          {
+            "start": 4.95,
+            "end": 5.27,
+            "word": " weekends.",
+            "probability": 0.98525
+          }
+        ]
+      },
+      {
+        "start": 6.11,
+        "end": 9.63,
+        "text": "We love spending time together and often go for a walk in the park.",
+        "words": [
+          {
+            "start": 6.11,
+            "end": 6.27,
+            "word": " We",
+            "probability": 0.9922
+          },
+          {
+            "start": 6.27,
+            "end": 6.49,
+            "word": " love",
+            "probability": 0.9962
+          },
+          {
+            "start": 6.49,
+            "end": 6.81,
+            "word": " spending",
+            "probability": 0.99946
+          },
+          {
+            "start": 6.81,
+            "end": 7.17,
+            "word": " time",
+            "probability": 0.99713
+          },
+          {
+            "start": 7.17,
+            "end": 7.67,
+            "word": " together",
+            "probability": 0.99938
+          },
+          {
+            "start": 7.67,
+            "end": 7.99,
+            "word": " and",
+            "probability": 0.88155
+          },
+          {
+            "start": 7.99,
+            "end": 8.29,
+            "word": " often",
+            "probability": 0.99041
+          },
+          {
+            "start": 8.29,
+            "end": 8.51,
+            "word": " go",
+            "probability": 0.99356
+          },
+          {
+            "start": 8.51,
+            "end": 8.71,
+            "word": " for",
+            "probability": 0.99468
+          },
+          {
+            "start": 8.71,
+            "end": 8.83,
+            "word": " a",
+            "probability": 0.99541
+          },
+          {
+            "start": 8.83,
+            "end": 9.05,
+            "word": " walk",
+            "probability": 0.99917
+          },
+          {
+            "start": 9.05,
+            "end": 9.25,
+            "word": " in",
+            "probability": 0.99712
+          },
+          {
+            "start": 9.25,
+            "end": 9.33,
+            "word": " the",
+            "probability": 0.99681
+          },
+          {
+            "start": 9.33,
+            "end": 9.63,
+            "word": " park.",
+            "probability": 0.99188
+          }
+        ]
+      },
+      {
+        "start": 10.19,
+        "end": 12.35,
+        "text": "It's a nice way to relax and enjoy nature.",
+        "words": [
+          {
+            "start": 10.19,
+            "end": 10.43,
+            "word": " It's",
+            "probability": 0.97806
+          },
+          {
+            "start": 10.43,
+            "end": 10.43,
+            "word": " a",
+            "probability": 0.99615
+          },
+          {
+            "start": 10.43,
+            "end": 10.57,
+            "word": " nice",
+            "probability": 0.99907
+          },
+          {
+            "start": 10.57,
+            "end": 10.77,
+            "word": " way",
+            "probability": 0.99869
+          },
+          {
+            "start": 10.77,
+            "end": 10.89,
+            "word": " to",
+            "probability": 0.99928
+          },
+          {
+            "start": 10.89,
+            "end": 11.17,
+            "word": " relax",
+            "probability": 0.99848
+          },
+          {
+            "start": 11.17,
+            "end": 11.65,
+            "word": " and",
+            "probability": 0.9868
+          },
+          {
+            "start": 11.65,
+            "end": 11.97,
+            "word": " enjoy",
+            "probability": 0.99617
+          },
+          {
+            "start": 11.97,
+            "end": 12.35,
+            "word": " nature.",
+            "probability": 0.99845
+          }
+        ]
+      },
+      {
+        "start": 13.03,
+        "end": 15.61,
+        "text": "We like to see the flowers and sometimes have a picnic.",
+        "words": [
+          {
+            "start": 13.03,
+            "end": 13.23,
+            "word": " We",
+            "probability": 0.99571
+          },
+          {
+            "start": 13.23,
+            "end": 13.37,
+            "word": " like",
+            "probability": 0.99493
+          },
+          {
+            "start": 13.37,
+            "end": 13.53,
+            "word": " to",
+            "probability": 0.99672
+          },
+          {
+            "start": 13.53,
+            "end": 13.67,
+            "word": " see",
+            "probability": 0.99883
+          },
+          {
+            "start": 13.67,
+            "end": 13.79,
+            "word": " the",
+            "probability": 0.98847
+          },
+          {
+            "start": 13.79,
+            "end": 14.15,
+            "word": " flowers",
+            "probability": 0.99353
+          },
+          {
+            "start": 14.15,
+            "end": 14.51,
+            "word": " and",
+            "probability": 0.96773
+          },
+          {
+            "start": 14.51,
+            "end": 14.91,
+            "word": " sometimes",
+            "probability": 0.9956
+          },
+          {
+            "start": 14.91,
+            "end": 15.17,
+            "word": " have",
+            "probability": 0.99888
+          },
+          {
+            "start": 15.17,
+            "end": 15.29,
+            "word": " a",
+            "probability": 0.9973
+          },
+          {
+            "start": 15.29,
+            "end": 15.61,
+            "word": " picnic.",
+            "probability": 0.99159
+          }
+        ]
+      },
+      {
+        "start": 16.37,
+        "end": 18.05,
+        "text": "However, this weekend is different.",
+        "words": [
+          {
+            "start": 16.37,
+            "end": 16.59,
+            "word": " However,",
+            "probability": 0.9877
+          },
+          {
+            "start": 17.01,
+            "end": 17.23,
+            "word": " this",
+            "probability": 0.99565
+          },
+          {
+            "start": 17.23,
+            "end": 17.53,
+            "word": " weekend",
+            "probability": 0.99804
+          },
+          {
+            "start": 17.53,
+            "end": 17.73,
+            "word": " is",
+            "probability": 0.99813
+          },
+          {
+            "start": 17.73,
+            "end": 18.05,
+            "word": " different.",
+            "probability": 0.99956
+          }
+        ]
+      },
+      {
+        "start": 18.59,
+        "end": 22.89,
+        "text": "My sister is visiting us and we have planned a small family gathering at home.",
+        "words": [
+          {
+            "start": 18.59,
+            "end": 18.69,
+            "word": " My",
+            "probability": 0.9953
+          },
+          {
+            "start": 18.69,
+            "end": 18.99,
+            "word": " sister",
+            "probability": 0.99134
+          },
+          {
+            "start": 18.99,
+            "end": 19.17,
+            "word": " is",
+            "probability": 0.95659
+          },
+          {
+            "start": 19.17,
+            "end": 19.51,
+            "word": " visiting",
+            "probability": 0.99835
+          },
+          {
+            "start": 19.51,
+            "end": 19.85,
+            "word": " us",
+            "probability": 0.99933
+          },
+          {
+            "start": 19.85,
+            "end": 20.27,
+            "word": " and",
+            "probability": 0.71648
+          },
+          {
+            "start": 20.27,
+            "end": 20.41,
+            "word": " we",
+            "probability": 0.99846
+          },
+          {
+            "start": 20.41,
+            "end": 20.51,
+            "word": " have",
+            "probability": 0.98318
+          },
+          {
+            "start": 20.51,
+            "end": 20.79,
+            "word": " planned",
+            "probability": 0.99393
+          },
+          {
+            "start": 20.79,
+            "end": 20.95,
+            "word": " a",
+            "probability": 0.99727
+          },
+          {
+            "start": 20.95,
+            "end": 21.25,
+            "word": " small",
+            "probability": 0.99292
+          },
+          {
+            "start": 21.25,
+            "end": 21.79,
+            "word": " family",
+            "probability": 0.95138
+          },
+          {
+            "start": 21.79,
+            "end": 22.23,
+            "word": " gathering",
+            "probability": 0.98872
+          },
+          {
+            "start": 22.23,
+            "end": 22.61,
+            "word": " at",
+            "probability": 0.99061
+          },
+          {
+            "start": 22.61,
+            "end": 22.89,
+            "word": " home.",
+            "probability": 0.99849
+          }
+        ]
+      },
+      {
+        "start": 23.76,
+        "end": 26.46,
+        "text": "We will cook a big meal together and play some games.",
+        "words": [
+          {
+            "start": 23.76,
+            "end": 24.02,
+            "word": " We",
+            "probability": 0.99635
+          },
+          {
+            "start": 24.02,
+            "end": 24.12,
+            "word": " will",
+            "probability": 0.99193
+          },
+          {
+            "start": 24.12,
+            "end": 24.28,
+            "word": " cook",
+            "probability": 0.98367
+          },
+          {
+            "start": 24.28,
+            "end": 24.46,
+            "word": " a",
+            "probability": 0.99389
+          },
+          {
+            "start": 24.46,
+            "end": 24.78,
+            "word": " big",
+            "probability": 0.99533
+          },
+          {
+            "start": 24.78,
+            "end": 24.96,
+            "word": " meal",
+            "probability": 0.99819
+          },
+          {
+            "start": 24.96,
+            "end": 25.46,
+            "word": " together",
+            "probability": 0.99861
+          },
+          {
+            "start": 25.46,
+            "end": 25.76,
+            "word": " and",
+            "probability": 0.97514
+          },
+          {
+            "start": 25.76,
+            "end": 25.96,
+            "word": " play",
+            "probability": 0.94663
+          },
+          {
+            "start": 25.96,
+            "end": 26.18,
+            "word": " some",
+            "probability": 0.9933
+          },
+          {
+            "start": 26.18,
+            "end": 26.46,
+            "word": " games.",
+            "probability": 0.99903
+          }
+        ]
+      },
+      {
+        "start": 27.04,
+        "end": 30.08,
+        "text": "It will be fun to catch up and spend quality time as a family.",
+        "words": [
+          {
+            "start": 27.04,
+            "end": 27.22,
+            "word": " It",
+            "probability": 0.99569
+          },
+          {
+            "start": 27.22,
+            "end": 27.32,
+            "word": " will",
+            "probability": 0.98335
+          },
+          {
+            "start": 27.32,
+            "end": 27.46,
+            "word": " be",
+            "probability": 0.99953
+          },
+          {
+            "start": 27.46,
+            "end": 27.66,
+            "word": " fun",
+            "probability": 0.99946
+          },
+          {
+            "start": 27.66,
+            "end": 27.82,
+            "word": " to",
+            "probability": 0.99943
+          },
+          {
+            "start": 27.82,
+            "end": 27.98,
+            "word": " catch",
+            "probability": 0.99702
+          },
+          {
+            "start": 27.98,
+            "end": 28.24,
+            "word": " up",
+            "probability": 0.99714
+          },
+          {
+            "start": 28.24,
+            "end": 28.42,
+            "word": " and",
+            "probability": 0.99373
+          },
+          {
+            "start": 28.42,
+            "end": 28.66,
+            "word": " spend",
+            "probability": 0.99753
+          },
+          {
+            "start": 28.66,
+            "end": 29.06,
+            "word": " quality",
+            "probability": 0.99232
+          },
+          {
+            "start": 29.06,
+            "end": 29.46,
+            "word": " time",
+            "probability": 0.99789
+          },
+          {
+            "start": 29.46,
+            "end": 29.64,
+            "word": " as",
+            "probability": 0.99279
+          },
+          {
+            "start": 29.64,
+            "end": 29.72,
+            "word": " a",
+            "probability": 0.99478
+          },
+          {
+            "start": 29.72,
+            "end": 30.08,
+            "word": " family.",
+            "probability": 0.99918
+          }
+        ]
+      },
+      {
+        "start": 30.08,
+        "end": 31.66,
+        "text": "I'm really looking forward to it.",
+        "words": [
+          {
+            "start": 30.08,
+            "end": 30.48,
+            "word": " I'm",
+            "probability": 0.90578
+          },
+          {
+            "start": 30.48,
+            "end": 30.66,
+            "word": " really",
+            "probability": 0.96521
+          },
+          {
+            "start": 30.66,
+            "end": 30.94,
+            "word": " looking",
+            "probability": 0.99903
+          },
+          {
+            "start": 30.94,
+            "end": 31.24,
+            "word": " forward",
+            "probability": 0.99375
+          },
+          {
+            "start": 31.24,
+            "end": 31.5,
+            "word": " to",
+            "probability": 0.99802
+          },
+          {
+            "start": 31.5,
+            "end": 31.66,
+            "word": " it.",
+            "probability": 0.99836
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 98,
+            "speechStart": 1.01,
+            "speechEnd": 31.66,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hello everyone i want to share what my family usually does on weekends we love spending time together and often go for a walk in the park it's a nice way to relax and enjoy nature we like to see the flowers and sometimes have a picnic however this weekend is different my sister is visiting us and we have planned a small family gathering at home we will cook a big meal together and play some games it will be fun to catch up and spend quality time as a family i'm really looking forward to it",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

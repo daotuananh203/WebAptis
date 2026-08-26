@@ -1,0 +1,526 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p1-q05",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-1/q05.mp3",
+  "audioSha256": "f4fda661ed153b9d32dbba08d8b44b17d945a07fdd89f32980104d0a3201e03f",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.91,
+        "end": 3.03,
+        "text": "I usually have dinner every evening.",
+        "words": [
+          {
+            "start": 0.91,
+            "end": 1.39,
+            "word": " I",
+            "probability": 0.96411
+          },
+          {
+            "start": 1.39,
+            "end": 1.69,
+            "word": " usually",
+            "probability": 0.99786
+          },
+          {
+            "start": 1.69,
+            "end": 1.95,
+            "word": " have",
+            "probability": 0.99835
+          },
+          {
+            "start": 1.95,
+            "end": 2.17,
+            "word": " dinner",
+            "probability": 0.99694
+          },
+          {
+            "start": 2.17,
+            "end": 2.59,
+            "word": " every",
+            "probability": 0.99531
+          },
+          {
+            "start": 2.59,
+            "end": 3.03,
+            "word": " evening.",
+            "probability": 0.99583
+          }
+        ]
+      },
+      {
+        "start": 3.51,
+        "end": 7.67,
+        "text": "It's become a habit for me to enjoy a meal at that time after a long day.",
+        "words": [
+          {
+            "start": 3.51,
+            "end": 3.63,
+            "word": " It's",
+            "probability": 0.9813
+          },
+          {
+            "start": 3.63,
+            "end": 3.85,
+            "word": " become",
+            "probability": 0.99514
+          },
+          {
+            "start": 3.85,
+            "end": 4.05,
+            "word": " a",
+            "probability": 0.99702
+          },
+          {
+            "start": 4.05,
+            "end": 4.27,
+            "word": " habit",
+            "probability": 0.99871
+          },
+          {
+            "start": 4.27,
+            "end": 4.51,
+            "word": " for",
+            "probability": 0.99432
+          },
+          {
+            "start": 4.51,
+            "end": 4.77,
+            "word": " me",
+            "probability": 0.99888
+          },
+          {
+            "start": 4.77,
+            "end": 5.07,
+            "word": " to",
+            "probability": 0.99563
+          },
+          {
+            "start": 5.07,
+            "end": 5.41,
+            "word": " enjoy",
+            "probability": 0.99746
+          },
+          {
+            "start": 5.41,
+            "end": 5.53,
+            "word": " a",
+            "probability": 0.99224
+          },
+          {
+            "start": 5.53,
+            "end": 5.73,
+            "word": " meal",
+            "probability": 0.99952
+          },
+          {
+            "start": 5.73,
+            "end": 5.93,
+            "word": " at",
+            "probability": 0.97565
+          },
+          {
+            "start": 5.93,
+            "end": 6.13,
+            "word": " that",
+            "probability": 0.99211
+          },
+          {
+            "start": 6.13,
+            "end": 6.55,
+            "word": " time",
+            "probability": 0.99849
+          },
+          {
+            "start": 6.55,
+            "end": 6.99,
+            "word": " after",
+            "probability": 0.93936
+          },
+          {
+            "start": 6.99,
+            "end": 7.13,
+            "word": " a",
+            "probability": 0.99679
+          },
+          {
+            "start": 7.13,
+            "end": 7.33,
+            "word": " long",
+            "probability": 0.99895
+          },
+          {
+            "start": 7.33,
+            "end": 7.67,
+            "word": " day.",
+            "probability": 0.99745
+          }
+        ]
+      },
+      {
+        "start": 8.19,
+        "end": 11.03,
+        "text": "I find it's the perfect time to unwind and relax.",
+        "words": [
+          {
+            "start": 8.19,
+            "end": 8.29,
+            "word": " I",
+            "probability": 0.99756
+          },
+          {
+            "start": 8.29,
+            "end": 8.57,
+            "word": " find",
+            "probability": 0.99887
+          },
+          {
+            "start": 8.57,
+            "end": 8.81,
+            "word": " it's",
+            "probability": 0.98117
+          },
+          {
+            "start": 8.81,
+            "end": 8.93,
+            "word": " the",
+            "probability": 0.99312
+          },
+          {
+            "start": 8.93,
+            "end": 9.25,
+            "word": " perfect",
+            "probability": 0.99887
+          },
+          {
+            "start": 9.25,
+            "end": 9.59,
+            "word": " time",
+            "probability": 0.99884
+          },
+          {
+            "start": 9.59,
+            "end": 9.79,
+            "word": " to",
+            "probability": 0.99893
+          },
+          {
+            "start": 9.79,
+            "end": 10.33,
+            "word": " unwind",
+            "probability": 0.98527
+          },
+          {
+            "start": 10.33,
+            "end": 10.71,
+            "word": " and",
+            "probability": 0.97633
+          },
+          {
+            "start": 10.71,
+            "end": 11.03,
+            "word": " relax.",
+            "probability": 0.9984
+          }
+        ]
+      },
+      {
+        "start": 11.67,
+        "end": 14.71,
+        "text": "Plus I love to spend time with my family during dinner.",
+        "words": [
+          {
+            "start": 11.67,
+            "end": 11.85,
+            "word": " Plus",
+            "probability": 0.98897
+          },
+          {
+            "start": 11.85,
+            "end": 12.07,
+            "word": " I",
+            "probability": 0.48089
+          },
+          {
+            "start": 12.07,
+            "end": 12.35,
+            "word": " love",
+            "probability": 0.98499
+          },
+          {
+            "start": 12.35,
+            "end": 12.57,
+            "word": " to",
+            "probability": 0.98172
+          },
+          {
+            "start": 12.57,
+            "end": 12.79,
+            "word": " spend",
+            "probability": 0.99932
+          },
+          {
+            "start": 12.79,
+            "end": 13.19,
+            "word": " time",
+            "probability": 0.99576
+          },
+          {
+            "start": 13.19,
+            "end": 13.45,
+            "word": " with",
+            "probability": 0.99861
+          },
+          {
+            "start": 13.45,
+            "end": 13.65,
+            "word": " my",
+            "probability": 0.99868
+          },
+          {
+            "start": 13.65,
+            "end": 14.05,
+            "word": " family",
+            "probability": 0.99946
+          },
+          {
+            "start": 14.05,
+            "end": 14.39,
+            "word": " during",
+            "probability": 0.99804
+          },
+          {
+            "start": 14.39,
+            "end": 14.71,
+            "word": " dinner.",
+            "probability": 0.99848
+          }
+        ]
+      },
+      {
+        "start": 15.15,
+        "end": 18.09,
+        "text": "It's our chance to catch up and enjoy some good food together.",
+        "words": [
+          {
+            "start": 15.15,
+            "end": 15.31,
+            "word": " It's",
+            "probability": 0.99177
+          },
+          {
+            "start": 15.31,
+            "end": 15.51,
+            "word": " our",
+            "probability": 0.99072
+          },
+          {
+            "start": 15.51,
+            "end": 15.77,
+            "word": " chance",
+            "probability": 0.99881
+          },
+          {
+            "start": 15.77,
+            "end": 15.99,
+            "word": " to",
+            "probability": 0.99891
+          },
+          {
+            "start": 15.99,
+            "end": 16.17,
+            "word": " catch",
+            "probability": 0.99235
+          },
+          {
+            "start": 16.17,
+            "end": 16.41,
+            "word": " up",
+            "probability": 0.99815
+          },
+          {
+            "start": 16.41,
+            "end": 16.53,
+            "word": " and",
+            "probability": 0.99714
+          },
+          {
+            "start": 16.53,
+            "end": 16.85,
+            "word": " enjoy",
+            "probability": 0.99781
+          },
+          {
+            "start": 16.85,
+            "end": 17.09,
+            "word": " some",
+            "probability": 0.99426
+          },
+          {
+            "start": 17.09,
+            "end": 17.31,
+            "word": " good",
+            "probability": 0.99491
+          },
+          {
+            "start": 17.31,
+            "end": 17.61,
+            "word": " food",
+            "probability": 0.99623
+          },
+          {
+            "start": 17.61,
+            "end": 18.09,
+            "word": " together.",
+            "probability": 0.99633
+          }
+        ]
+      },
+      {
+        "start": 18.87,
+        "end": 23.83,
+        "text": "We usually have dinner at 7 o'clock and it is definitely my favorite meal of the day.",
+        "words": [
+          {
+            "start": 18.87,
+            "end": 19.09,
+            "word": " We",
+            "probability": 0.99109
+          },
+          {
+            "start": 19.09,
+            "end": 19.45,
+            "word": " usually",
+            "probability": 0.99889
+          },
+          {
+            "start": 19.45,
+            "end": 19.79,
+            "word": " have",
+            "probability": 0.99876
+          },
+          {
+            "start": 19.79,
+            "end": 20.07,
+            "word": " dinner",
+            "probability": 0.99914
+          },
+          {
+            "start": 20.07,
+            "end": 20.27,
+            "word": " at",
+            "probability": 0.99889
+          },
+          {
+            "start": 20.27,
+            "end": 20.57,
+            "word": " 7",
+            "probability": 0.64334
+          },
+          {
+            "start": 20.57,
+            "end": 20.67,
+            "word": " o",
+            "probability": 0.87332
+          },
+          {
+            "start": 20.67,
+            "end": 20.97,
+            "word": "'clock",
+            "probability": 0.97983
+          },
+          {
+            "start": 20.97,
+            "end": 21.33,
+            "word": " and",
+            "probability": 0.51755
+          },
+          {
+            "start": 21.33,
+            "end": 21.45,
+            "word": " it",
+            "probability": 0.99587
+          },
+          {
+            "start": 21.45,
+            "end": 21.61,
+            "word": " is",
+            "probability": 0.96355
+          },
+          {
+            "start": 21.61,
+            "end": 22.03,
+            "word": " definitely",
+            "probability": 0.98828
+          },
+          {
+            "start": 22.03,
+            "end": 22.49,
+            "word": " my",
+            "probability": 0.99823
+          },
+          {
+            "start": 22.49,
+            "end": 22.93,
+            "word": " favorite",
+            "probability": 0.89527
+          },
+          {
+            "start": 22.93,
+            "end": 23.19,
+            "word": " meal",
+            "probability": 0.99841
+          },
+          {
+            "start": 23.19,
+            "end": 23.45,
+            "word": " of",
+            "probability": 0.99656
+          },
+          {
+            "start": 23.45,
+            "end": 23.57,
+            "word": " the",
+            "probability": 0.99883
+          },
+          {
+            "start": 23.57,
+            "end": 23.83,
+            "word": " day.",
+            "probability": 0.99957
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q05",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 74,
+            "speechStart": 0.91,
+            "speechEnd": 23.83,
+            "sourceTokenCoverage": 0.9863,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9796,
+            "transcript": "i usually have dinner every evening it's become a habit for me to enjoy a meal at that time after a long day i find it's the perfect time to unwind and relax plus i love to spend time with my family during dinner it's our chance to catch up and enjoy some good food together we usually have dinner at 7 o clock and it is definitely my favorite meal of the day",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,2753 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p2-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-2/task-all.mp3",
+  "audioSha256": "66fb4c9995790ad92856ca56a58ebe67bd982d7d9e86fef99ba7d9252b9997bd",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 4.52,
+        "text": "I try to help the environment by using less electricity at home.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.2,
+            "word": " I",
+            "probability": 0.79382
+          },
+          {
+            "start": 1.2,
+            "end": 1.36,
+            "word": " try",
+            "probability": 0.93698
+          },
+          {
+            "start": 1.36,
+            "end": 1.5,
+            "word": " to",
+            "probability": 0.99016
+          },
+          {
+            "start": 1.5,
+            "end": 1.64,
+            "word": " help",
+            "probability": 0.99572
+          },
+          {
+            "start": 1.64,
+            "end": 1.84,
+            "word": " the",
+            "probability": 0.99415
+          },
+          {
+            "start": 1.84,
+            "end": 2.3,
+            "word": " environment",
+            "probability": 0.99323
+          },
+          {
+            "start": 2.3,
+            "end": 2.7,
+            "word": " by",
+            "probability": 0.97768
+          },
+          {
+            "start": 2.7,
+            "end": 3.0,
+            "word": " using",
+            "probability": 0.99646
+          },
+          {
+            "start": 3.0,
+            "end": 3.3,
+            "word": " less",
+            "probability": 0.9972
+          },
+          {
+            "start": 3.3,
+            "end": 3.74,
+            "word": " electricity",
+            "probability": 0.99837
+          },
+          {
+            "start": 3.74,
+            "end": 4.26,
+            "word": " at",
+            "probability": 0.99242
+          },
+          {
+            "start": 4.26,
+            "end": 4.52,
+            "word": " home.",
+            "probability": 0.99883
+          }
+        ]
+      },
+      {
+        "start": 5.23,
+        "end": 10.91,
+        "text": "I always turn off the lights when I don't need them and make sure my appliances are energy efficient.",
+        "words": [
+          {
+            "start": 5.23,
+            "end": 5.67,
+            "word": " I",
+            "probability": 0.99509
+          },
+          {
+            "start": 5.67,
+            "end": 6.07,
+            "word": " always",
+            "probability": 0.98848
+          },
+          {
+            "start": 6.07,
+            "end": 6.35,
+            "word": " turn",
+            "probability": 0.99839
+          },
+          {
+            "start": 6.35,
+            "end": 6.55,
+            "word": " off",
+            "probability": 0.99589
+          },
+          {
+            "start": 6.55,
+            "end": 6.73,
+            "word": " the",
+            "probability": 0.98191
+          },
+          {
+            "start": 6.73,
+            "end": 6.95,
+            "word": " lights",
+            "probability": 0.996
+          },
+          {
+            "start": 6.95,
+            "end": 7.35,
+            "word": " when",
+            "probability": 0.97399
+          },
+          {
+            "start": 7.35,
+            "end": 7.47,
+            "word": " I",
+            "probability": 0.99247
+          },
+          {
+            "start": 7.47,
+            "end": 7.71,
+            "word": " don't",
+            "probability": 0.99558
+          },
+          {
+            "start": 7.71,
+            "end": 7.89,
+            "word": " need",
+            "probability": 0.99765
+          },
+          {
+            "start": 7.89,
+            "end": 8.11,
+            "word": " them",
+            "probability": 0.9986
+          },
+          {
+            "start": 8.11,
+            "end": 8.49,
+            "word": " and",
+            "probability": 0.6989
+          },
+          {
+            "start": 8.49,
+            "end": 8.63,
+            "word": " make",
+            "probability": 0.99519
+          },
+          {
+            "start": 8.63,
+            "end": 8.89,
+            "word": " sure",
+            "probability": 0.99655
+          },
+          {
+            "start": 8.89,
+            "end": 9.09,
+            "word": " my",
+            "probability": 0.99248
+          },
+          {
+            "start": 9.09,
+            "end": 9.55,
+            "word": " appliances",
+            "probability": 0.99532
+          },
+          {
+            "start": 9.55,
+            "end": 10.01,
+            "word": " are",
+            "probability": 0.99519
+          },
+          {
+            "start": 10.01,
+            "end": 10.43,
+            "word": " energy",
+            "probability": 0.99499
+          },
+          {
+            "start": 10.43,
+            "end": 10.91,
+            "word": " efficient.",
+            "probability": 0.86627
+          }
+        ]
+      },
+      {
+        "start": 11.67,
+        "end": 17.17,
+        "text": "I've also started unplugging things like chargers when I'm not using them because they still use power.",
+        "words": [
+          {
+            "start": 11.67,
+            "end": 12.09,
+            "word": " I've",
+            "probability": 0.96004
+          },
+          {
+            "start": 12.09,
+            "end": 12.31,
+            "word": " also",
+            "probability": 0.99582
+          },
+          {
+            "start": 12.31,
+            "end": 12.71,
+            "word": " started",
+            "probability": 0.99782
+          },
+          {
+            "start": 12.71,
+            "end": 13.33,
+            "word": " unplugging",
+            "probability": 0.97644
+          },
+          {
+            "start": 13.33,
+            "end": 13.69,
+            "word": " things",
+            "probability": 0.99812
+          },
+          {
+            "start": 13.69,
+            "end": 13.91,
+            "word": " like",
+            "probability": 0.98912
+          },
+          {
+            "start": 13.91,
+            "end": 14.47,
+            "word": " chargers",
+            "probability": 0.96284
+          },
+          {
+            "start": 14.47,
+            "end": 14.69,
+            "word": " when",
+            "probability": 0.99201
+          },
+          {
+            "start": 14.69,
+            "end": 14.87,
+            "word": " I'm",
+            "probability": 0.99066
+          },
+          {
+            "start": 14.87,
+            "end": 14.99,
+            "word": " not",
+            "probability": 0.993
+          },
+          {
+            "start": 14.99,
+            "end": 15.39,
+            "word": " using",
+            "probability": 0.99764
+          },
+          {
+            "start": 15.39,
+            "end": 15.67,
+            "word": " them",
+            "probability": 0.99552
+          },
+          {
+            "start": 15.67,
+            "end": 16.09,
+            "word": " because",
+            "probability": 0.76044
+          },
+          {
+            "start": 16.09,
+            "end": 16.27,
+            "word": " they",
+            "probability": 0.99592
+          },
+          {
+            "start": 16.27,
+            "end": 16.53,
+            "word": " still",
+            "probability": 0.98775
+          },
+          {
+            "start": 16.53,
+            "end": 16.79,
+            "word": " use",
+            "probability": 0.99693
+          },
+          {
+            "start": 16.79,
+            "end": 17.17,
+            "word": " power.",
+            "probability": 0.99729
+          }
+        ]
+      },
+      {
+        "start": 18.05,
+        "end": 22.33,
+        "text": "This helps lower my electricity bill and reduces my impact on the planet.",
+        "words": [
+          {
+            "start": 18.05,
+            "end": 18.39,
+            "word": " This",
+            "probability": 0.99543
+          },
+          {
+            "start": 18.39,
+            "end": 18.65,
+            "word": " helps",
+            "probability": 0.99529
+          },
+          {
+            "start": 18.65,
+            "end": 19.09,
+            "word": " lower",
+            "probability": 0.986
+          },
+          {
+            "start": 19.09,
+            "end": 19.33,
+            "word": " my",
+            "probability": 0.99775
+          },
+          {
+            "start": 19.33,
+            "end": 19.77,
+            "word": " electricity",
+            "probability": 0.99724
+          },
+          {
+            "start": 19.77,
+            "end": 20.25,
+            "word": " bill",
+            "probability": 0.994
+          },
+          {
+            "start": 20.25,
+            "end": 20.59,
+            "word": " and",
+            "probability": 0.96901
+          },
+          {
+            "start": 20.59,
+            "end": 20.99,
+            "word": " reduces",
+            "probability": 0.99373
+          },
+          {
+            "start": 20.99,
+            "end": 21.25,
+            "word": " my",
+            "probability": 0.99507
+          },
+          {
+            "start": 21.25,
+            "end": 21.57,
+            "word": " impact",
+            "probability": 0.99773
+          },
+          {
+            "start": 21.57,
+            "end": 21.85,
+            "word": " on",
+            "probability": 0.99764
+          },
+          {
+            "start": 21.85,
+            "end": 21.97,
+            "word": " the",
+            "probability": 0.99859
+          },
+          {
+            "start": 21.97,
+            "end": 22.33,
+            "word": " planet.",
+            "probability": 0.99775
+          }
+        ]
+      },
+      {
+        "start": 22.97,
+        "end": 29.71,
+        "text": "I believe that if everyone made these small changes, we could save a lot of energy and help fight climate change.",
+        "words": [
+          {
+            "start": 22.97,
+            "end": 23.55,
+            "word": " I",
+            "probability": 0.99683
+          },
+          {
+            "start": 23.55,
+            "end": 23.81,
+            "word": " believe",
+            "probability": 0.99772
+          },
+          {
+            "start": 23.81,
+            "end": 24.05,
+            "word": " that",
+            "probability": 0.93539
+          },
+          {
+            "start": 24.05,
+            "end": 24.21,
+            "word": " if",
+            "probability": 0.98874
+          },
+          {
+            "start": 24.21,
+            "end": 24.69,
+            "word": " everyone",
+            "probability": 0.97955
+          },
+          {
+            "start": 24.69,
+            "end": 24.97,
+            "word": " made",
+            "probability": 0.99583
+          },
+          {
+            "start": 24.97,
+            "end": 25.19,
+            "word": " these",
+            "probability": 0.9753
+          },
+          {
+            "start": 25.19,
+            "end": 25.55,
+            "word": " small",
+            "probability": 0.99401
+          },
+          {
+            "start": 25.55,
+            "end": 26.01,
+            "word": " changes,",
+            "probability": 0.99895
+          },
+          {
+            "start": 26.41,
+            "end": 26.67,
+            "word": " we",
+            "probability": 0.99626
+          },
+          {
+            "start": 26.67,
+            "end": 26.81,
+            "word": " could",
+            "probability": 0.98356
+          },
+          {
+            "start": 26.81,
+            "end": 27.05,
+            "word": " save",
+            "probability": 0.99872
+          },
+          {
+            "start": 27.05,
+            "end": 27.21,
+            "word": " a",
+            "probability": 0.99754
+          },
+          {
+            "start": 27.21,
+            "end": 27.45,
+            "word": " lot",
+            "probability": 0.99818
+          },
+          {
+            "start": 27.45,
+            "end": 27.63,
+            "word": " of",
+            "probability": 0.99764
+          },
+          {
+            "start": 27.63,
+            "end": 28.03,
+            "word": " energy",
+            "probability": 0.99876
+          },
+          {
+            "start": 28.03,
+            "end": 28.43,
+            "word": " and",
+            "probability": 0.98077
+          },
+          {
+            "start": 28.43,
+            "end": 28.63,
+            "word": " help",
+            "probability": 0.99455
+          },
+          {
+            "start": 28.63,
+            "end": 28.89,
+            "word": " fight",
+            "probability": 0.99196
+          },
+          {
+            "start": 28.89,
+            "end": 29.23,
+            "word": " climate",
+            "probability": 0.99944
+          },
+          {
+            "start": 29.23,
+            "end": 29.71,
+            "word": " change.",
+            "probability": 0.99939
+          }
+        ]
+      },
+      {
+        "start": 29.71,
+        "end": 34.18,
+        "text": "To protect the environment, I don't drive to work anymore.",
+        "words": [
+          {
+            "start": 29.71,
+            "end": 30.55,
+            "word": " To",
+            "probability": 0.17177
+          },
+          {
+            "start": 31.54,
+            "end": 31.78,
+            "word": " protect",
+            "probability": 0.98719
+          },
+          {
+            "start": 31.78,
+            "end": 32.0,
+            "word": " the",
+            "probability": 0.98856
+          },
+          {
+            "start": 32.0,
+            "end": 32.44,
+            "word": " environment,",
+            "probability": 0.99802
+          },
+          {
+            "start": 32.8,
+            "end": 32.86,
+            "word": " I",
+            "probability": 0.99167
+          },
+          {
+            "start": 32.86,
+            "end": 33.1,
+            "word": " don't",
+            "probability": 0.9927
+          },
+          {
+            "start": 33.1,
+            "end": 33.36,
+            "word": " drive",
+            "probability": 0.9627
+          },
+          {
+            "start": 33.36,
+            "end": 33.58,
+            "word": " to",
+            "probability": 0.99301
+          },
+          {
+            "start": 33.58,
+            "end": 33.76,
+            "word": " work",
+            "probability": 0.999
+          },
+          {
+            "start": 33.76,
+            "end": 34.18,
+            "word": " anymore.",
+            "probability": 0.8014
+          }
+        ]
+      },
+      {
+        "start": 35.06,
+        "end": 39.1,
+        "text": "Instead, I walk when the weather is nice, or I take the bus.",
+        "words": [
+          {
+            "start": 35.06,
+            "end": 35.54,
+            "word": " Instead,",
+            "probability": 0.99021
+          },
+          {
+            "start": 35.54,
+            "end": 36.02,
+            "word": " I",
+            "probability": 0.99658
+          },
+          {
+            "start": 36.02,
+            "end": 36.24,
+            "word": " walk",
+            "probability": 0.9947
+          },
+          {
+            "start": 36.24,
+            "end": 36.5,
+            "word": " when",
+            "probability": 0.99399
+          },
+          {
+            "start": 36.5,
+            "end": 36.6,
+            "word": " the",
+            "probability": 0.98449
+          },
+          {
+            "start": 36.6,
+            "end": 36.82,
+            "word": " weather",
+            "probability": 0.999
+          },
+          {
+            "start": 36.82,
+            "end": 37.06,
+            "word": " is",
+            "probability": 0.99469
+          },
+          {
+            "start": 37.06,
+            "end": 37.28,
+            "word": " nice,",
+            "probability": 0.99531
+          },
+          {
+            "start": 38.06,
+            "end": 38.34,
+            "word": " or",
+            "probability": 0.96151
+          },
+          {
+            "start": 38.34,
+            "end": 38.52,
+            "word": " I",
+            "probability": 0.97281
+          },
+          {
+            "start": 38.52,
+            "end": 38.72,
+            "word": " take",
+            "probability": 0.99763
+          },
+          {
+            "start": 38.72,
+            "end": 38.9,
+            "word": " the",
+            "probability": 0.99542
+          },
+          {
+            "start": 38.9,
+            "end": 39.1,
+            "word": " bus.",
+            "probability": 0.99686
+          }
+        ]
+      },
+      {
+        "start": 39.76,
+        "end": 43.16,
+        "text": "It's not only better for the planet, but it also keeps me more active,",
+        "words": [
+          {
+            "start": 39.76,
+            "end": 40.04,
+            "word": " It's",
+            "probability": 0.98838
+          },
+          {
+            "start": 40.04,
+            "end": 40.16,
+            "word": " not",
+            "probability": 0.99698
+          },
+          {
+            "start": 40.16,
+            "end": 40.38,
+            "word": " only",
+            "probability": 0.99745
+          },
+          {
+            "start": 40.38,
+            "end": 40.62,
+            "word": " better",
+            "probability": 0.99869
+          },
+          {
+            "start": 40.62,
+            "end": 40.82,
+            "word": " for",
+            "probability": 0.99828
+          },
+          {
+            "start": 40.82,
+            "end": 40.92,
+            "word": " the",
+            "probability": 0.99498
+          },
+          {
+            "start": 40.92,
+            "end": 41.26,
+            "word": " planet,",
+            "probability": 0.99701
+          },
+          {
+            "start": 41.62,
+            "end": 41.74,
+            "word": " but",
+            "probability": 0.9945
+          },
+          {
+            "start": 41.74,
+            "end": 41.86,
+            "word": " it",
+            "probability": 0.99444
+          },
+          {
+            "start": 41.86,
+            "end": 42.12,
+            "word": " also",
+            "probability": 0.99585
+          },
+          {
+            "start": 42.12,
+            "end": 42.34,
+            "word": " keeps",
+            "probability": 0.99552
+          },
+          {
+            "start": 42.34,
+            "end": 42.58,
+            "word": " me",
+            "probability": 0.99895
+          },
+          {
+            "start": 42.58,
+            "end": 42.78,
+            "word": " more",
+            "probability": 0.98435
+          },
+          {
+            "start": 42.78,
+            "end": 43.16,
+            "word": " active,",
+            "probability": 0.99898
+          }
+        ]
+      },
+      {
+        "start": 43.64,
+        "end": 45.08,
+        "text": "and I enjoy the fresh air.",
+        "words": [
+          {
+            "start": 43.64,
+            "end": 43.9,
+            "word": " and",
+            "probability": 0.99256
+          },
+          {
+            "start": 43.9,
+            "end": 44.02,
+            "word": " I",
+            "probability": 0.99782
+          },
+          {
+            "start": 44.02,
+            "end": 44.34,
+            "word": " enjoy",
+            "probability": 0.99877
+          },
+          {
+            "start": 44.34,
+            "end": 44.5,
+            "word": " the",
+            "probability": 0.99206
+          },
+          {
+            "start": 44.5,
+            "end": 44.76,
+            "word": " fresh",
+            "probability": 0.99852
+          },
+          {
+            "start": 44.76,
+            "end": 45.08,
+            "word": " air.",
+            "probability": 0.99951
+          }
+        ]
+      },
+      {
+        "start": 45.84,
+        "end": 49.72,
+        "text": "By not driving, I use less fuel and help reduce air pollution in the city.",
+        "words": [
+          {
+            "start": 45.84,
+            "end": 46.02,
+            "word": " By",
+            "probability": 0.97134
+          },
+          {
+            "start": 46.02,
+            "end": 46.24,
+            "word": " not",
+            "probability": 0.99792
+          },
+          {
+            "start": 46.24,
+            "end": 46.66,
+            "word": " driving,",
+            "probability": 0.99797
+          },
+          {
+            "start": 46.86,
+            "end": 46.88,
+            "word": " I",
+            "probability": 0.99788
+          },
+          {
+            "start": 46.88,
+            "end": 47.06,
+            "word": " use",
+            "probability": 0.99703
+          },
+          {
+            "start": 47.06,
+            "end": 47.26,
+            "word": " less",
+            "probability": 0.99915
+          },
+          {
+            "start": 47.26,
+            "end": 47.64,
+            "word": " fuel",
+            "probability": 0.99941
+          },
+          {
+            "start": 47.64,
+            "end": 47.9,
+            "word": " and",
+            "probability": 0.9342
+          },
+          {
+            "start": 47.9,
+            "end": 48.06,
+            "word": " help",
+            "probability": 0.9939
+          },
+          {
+            "start": 48.06,
+            "end": 48.4,
+            "word": " reduce",
+            "probability": 0.93347
+          },
+          {
+            "start": 48.4,
+            "end": 48.78,
+            "word": " air",
+            "probability": 0.99377
+          },
+          {
+            "start": 48.78,
+            "end": 49.18,
+            "word": " pollution",
+            "probability": 0.99912
+          },
+          {
+            "start": 49.18,
+            "end": 49.38,
+            "word": " in",
+            "probability": 0.99053
+          },
+          {
+            "start": 49.38,
+            "end": 49.48,
+            "word": " the",
+            "probability": 0.99486
+          },
+          {
+            "start": 49.48,
+            "end": 49.72,
+            "word": " city.",
+            "probability": 0.99207
+          }
+        ]
+      },
+      {
+        "start": 50.42,
+        "end": 53.2,
+        "text": "I think if more people chose to walk or use public transport,",
+        "words": [
+          {
+            "start": 50.42,
+            "end": 50.62,
+            "word": " I",
+            "probability": 0.99554
+          },
+          {
+            "start": 50.62,
+            "end": 50.74,
+            "word": " think",
+            "probability": 0.99866
+          },
+          {
+            "start": 50.74,
+            "end": 50.88,
+            "word": " if",
+            "probability": 0.9515
+          },
+          {
+            "start": 50.88,
+            "end": 51.04,
+            "word": " more",
+            "probability": 0.99855
+          },
+          {
+            "start": 51.04,
+            "end": 51.28,
+            "word": " people",
+            "probability": 0.99813
+          },
+          {
+            "start": 51.28,
+            "end": 51.58,
+            "word": " chose",
+            "probability": 0.98368
+          },
+          {
+            "start": 51.58,
+            "end": 51.78,
+            "word": " to",
+            "probability": 0.99862
+          },
+          {
+            "start": 51.78,
+            "end": 52.04,
+            "word": " walk",
+            "probability": 0.9961
+          },
+          {
+            "start": 52.04,
+            "end": 52.2,
+            "word": " or",
+            "probability": 0.91647
+          },
+          {
+            "start": 52.2,
+            "end": 52.34,
+            "word": " use",
+            "probability": 0.99508
+          },
+          {
+            "start": 52.34,
+            "end": 52.62,
+            "word": " public",
+            "probability": 0.99778
+          },
+          {
+            "start": 52.62,
+            "end": 53.2,
+            "word": " transport,",
+            "probability": 0.99874
+          }
+        ]
+      },
+      {
+        "start": 53.54,
+        "end": 58.26,
+        "text": "we could reduce traffic and make our towns and cities cleaner and healthier for everyone.",
+        "words": [
+          {
+            "start": 53.54,
+            "end": 53.66,
+            "word": " we",
+            "probability": 0.99398
+          },
+          {
+            "start": 53.66,
+            "end": 53.8,
+            "word": " could",
+            "probability": 0.99191
+          },
+          {
+            "start": 53.8,
+            "end": 54.1,
+            "word": " reduce",
+            "probability": 0.97988
+          },
+          {
+            "start": 54.1,
+            "end": 54.54,
+            "word": " traffic",
+            "probability": 0.9996
+          },
+          {
+            "start": 54.54,
+            "end": 54.72,
+            "word": " and",
+            "probability": 0.96609
+          },
+          {
+            "start": 54.72,
+            "end": 54.86,
+            "word": " make",
+            "probability": 0.99797
+          },
+          {
+            "start": 54.86,
+            "end": 55.02,
+            "word": " our",
+            "probability": 0.99453
+          },
+          {
+            "start": 55.02,
+            "end": 55.32,
+            "word": " towns",
+            "probability": 0.98371
+          },
+          {
+            "start": 55.32,
+            "end": 55.6,
+            "word": " and",
+            "probability": 0.98463
+          },
+          {
+            "start": 55.6,
+            "end": 55.94,
+            "word": " cities",
+            "probability": 0.99559
+          },
+          {
+            "start": 55.94,
+            "end": 56.5,
+            "word": " cleaner",
+            "probability": 0.98369
+          },
+          {
+            "start": 56.5,
+            "end": 57.1,
+            "word": " and",
+            "probability": 0.91847
+          },
+          {
+            "start": 57.1,
+            "end": 57.46,
+            "word": " healthier",
+            "probability": 0.99197
+          },
+          {
+            "start": 57.46,
+            "end": 57.82,
+            "word": " for",
+            "probability": 0.98468
+          },
+          {
+            "start": 57.82,
+            "end": 58.26,
+            "word": " everyone.",
+            "probability": 0.99546
+          }
+        ]
+      },
+      {
+        "start": 58.26,
+        "end": 63.79,
+        "text": "I've decided to shop online as a way to protect the environment.",
+        "words": [
+          {
+            "start": 58.26,
+            "end": 59.34,
+            "word": " I've",
+            "probability": 0.74248
+          },
+          {
+            "start": 60.75,
+            "end": 61.03,
+            "word": " decided",
+            "probability": 0.98717
+          },
+          {
+            "start": 61.03,
+            "end": 61.25,
+            "word": " to",
+            "probability": 0.99809
+          },
+          {
+            "start": 61.25,
+            "end": 61.41,
+            "word": " shop",
+            "probability": 0.99411
+          },
+          {
+            "start": 61.41,
+            "end": 61.81,
+            "word": " online",
+            "probability": 0.9947
+          },
+          {
+            "start": 61.81,
+            "end": 62.29,
+            "word": " as",
+            "probability": 0.96851
+          },
+          {
+            "start": 62.29,
+            "end": 62.41,
+            "word": " a",
+            "probability": 0.99254
+          },
+          {
+            "start": 62.41,
+            "end": 62.55,
+            "word": " way",
+            "probability": 0.99969
+          },
+          {
+            "start": 62.55,
+            "end": 62.69,
+            "word": " to",
+            "probability": 0.99617
+          },
+          {
+            "start": 62.69,
+            "end": 63.01,
+            "word": " protect",
+            "probability": 0.99592
+          },
+          {
+            "start": 63.01,
+            "end": 63.25,
+            "word": " the",
+            "probability": 0.98504
+          },
+          {
+            "start": 63.25,
+            "end": 63.79,
+            "word": " environment.",
+            "probability": 0.99671
+          }
+        ]
+      },
+      {
+        "start": 64.47,
+        "end": 69.53,
+        "text": "By ordering things online, I don't need to drive to the store, which means I'm using",
+        "words": [
+          {
+            "start": 64.47,
+            "end": 64.73,
+            "word": " By",
+            "probability": 0.98709
+          },
+          {
+            "start": 64.73,
+            "end": 65.11,
+            "word": " ordering",
+            "probability": 0.98811
+          },
+          {
+            "start": 65.11,
+            "end": 65.41,
+            "word": " things",
+            "probability": 0.98884
+          },
+          {
+            "start": 65.41,
+            "end": 65.91,
+            "word": " online,",
+            "probability": 0.99266
+          },
+          {
+            "start": 66.43,
+            "end": 66.55,
+            "word": " I",
+            "probability": 0.99371
+          },
+          {
+            "start": 66.55,
+            "end": 66.73,
+            "word": " don't",
+            "probability": 0.99801
+          },
+          {
+            "start": 66.73,
+            "end": 66.85,
+            "word": " need",
+            "probability": 0.99428
+          },
+          {
+            "start": 66.85,
+            "end": 67.01,
+            "word": " to",
+            "probability": 0.99556
+          },
+          {
+            "start": 67.01,
+            "end": 67.27,
+            "word": " drive",
+            "probability": 0.99243
+          },
+          {
+            "start": 67.27,
+            "end": 67.49,
+            "word": " to",
+            "probability": 0.99588
+          },
+          {
+            "start": 67.49,
+            "end": 67.61,
+            "word": " the",
+            "probability": 0.99444
+          },
+          {
+            "start": 67.61,
+            "end": 67.97,
+            "word": " store,",
+            "probability": 0.99123
+          },
+          {
+            "start": 68.47,
+            "end": 68.73,
+            "word": " which",
+            "probability": 0.99539
+          },
+          {
+            "start": 68.73,
+            "end": 68.93,
+            "word": " means",
+            "probability": 0.99668
+          },
+          {
+            "start": 68.93,
+            "end": 69.25,
+            "word": " I'm",
+            "probability": 0.97641
+          },
+          {
+            "start": 69.25,
+            "end": 69.53,
+            "word": " using",
+            "probability": 0.99743
+          }
+        ]
+      },
+      {
+        "start": 69.53,
+        "end": 72.37,
+        "text": "less fuel and producing less pollution.",
+        "words": [
+          {
+            "start": 69.53,
+            "end": 69.85,
+            "word": " less",
+            "probability": 0.98493
+          },
+          {
+            "start": 69.85,
+            "end": 70.35,
+            "word": " fuel",
+            "probability": 0.99748
+          },
+          {
+            "start": 70.35,
+            "end": 70.97,
+            "word": " and",
+            "probability": 0.92275
+          },
+          {
+            "start": 70.97,
+            "end": 71.45,
+            "word": " producing",
+            "probability": 0.98295
+          },
+          {
+            "start": 71.45,
+            "end": 71.81,
+            "word": " less",
+            "probability": 0.99754
+          },
+          {
+            "start": 71.81,
+            "end": 72.37,
+            "word": " pollution.",
+            "probability": 0.9976
+          }
+        ]
+      },
+      {
+        "start": 72.95,
+        "end": 78.21,
+        "text": "Many companies now offer eco-friendly packaging, and I try to buy from them whenever possible.",
+        "words": [
+          {
+            "start": 72.95,
+            "end": 73.15,
+            "word": " Many",
+            "probability": 0.99317
+          },
+          {
+            "start": 73.15,
+            "end": 73.59,
+            "word": " companies",
+            "probability": 0.9985
+          },
+          {
+            "start": 73.59,
+            "end": 73.87,
+            "word": " now",
+            "probability": 0.99499
+          },
+          {
+            "start": 73.87,
+            "end": 74.25,
+            "word": " offer",
+            "probability": 0.99808
+          },
+          {
+            "start": 74.25,
+            "end": 74.53,
+            "word": " eco",
+            "probability": 0.99513
+          },
+          {
+            "start": 74.53,
+            "end": 74.79,
+            "word": "-friendly",
+            "probability": 0.95529
+          },
+          {
+            "start": 74.79,
+            "end": 75.33,
+            "word": " packaging,",
+            "probability": 0.99351
+          },
+          {
+            "start": 75.97,
+            "end": 76.05,
+            "word": " and",
+            "probability": 0.99427
+          },
+          {
+            "start": 76.05,
+            "end": 76.15,
+            "word": " I",
+            "probability": 0.99754
+          },
+          {
+            "start": 76.15,
+            "end": 76.29,
+            "word": " try",
+            "probability": 0.99784
+          },
+          {
+            "start": 76.29,
+            "end": 76.43,
+            "word": " to",
+            "probability": 0.99483
+          },
+          {
+            "start": 76.43,
+            "end": 76.61,
+            "word": " buy",
+            "probability": 0.99942
+          },
+          {
+            "start": 76.61,
+            "end": 76.83,
+            "word": " from",
+            "probability": 0.98892
+          },
+          {
+            "start": 76.83,
+            "end": 77.03,
+            "word": " them",
+            "probability": 0.9989
+          },
+          {
+            "start": 77.03,
+            "end": 77.47,
+            "word": " whenever",
+            "probability": 0.98565
+          },
+          {
+            "start": 77.47,
+            "end": 78.21,
+            "word": " possible.",
+            "probability": 0.99855
+          }
+        ]
+      },
+      {
+        "start": 78.89,
+        "end": 83.91,
+        "text": "Also, online deliveries often group items together, which reduces the number of trips made.",
+        "words": [
+          {
+            "start": 78.89,
+            "end": 79.23,
+            "word": " Also,",
+            "probability": 0.9831
+          },
+          {
+            "start": 79.47,
+            "end": 79.73,
+            "word": " online",
+            "probability": 0.98768
+          },
+          {
+            "start": 79.73,
+            "end": 80.19,
+            "word": " deliveries",
+            "probability": 0.99021
+          },
+          {
+            "start": 80.19,
+            "end": 80.63,
+            "word": " often",
+            "probability": 0.99866
+          },
+          {
+            "start": 80.63,
+            "end": 80.87,
+            "word": " group",
+            "probability": 0.99045
+          },
+          {
+            "start": 80.87,
+            "end": 81.21,
+            "word": " items",
+            "probability": 0.99782
+          },
+          {
+            "start": 81.21,
+            "end": 81.79,
+            "word": " together,",
+            "probability": 0.98902
+          },
+          {
+            "start": 82.03,
+            "end": 82.29,
+            "word": " which",
+            "probability": 0.99803
+          },
+          {
+            "start": 82.29,
+            "end": 82.75,
+            "word": " reduces",
+            "probability": 0.99783
+          },
+          {
+            "start": 82.75,
+            "end": 82.99,
+            "word": " the",
+            "probability": 0.99755
+          },
+          {
+            "start": 82.99,
+            "end": 83.21,
+            "word": " number",
+            "probability": 0.9982
+          },
+          {
+            "start": 83.21,
+            "end": 83.39,
+            "word": " of",
+            "probability": 0.99688
+          },
+          {
+            "start": 83.39,
+            "end": 83.57,
+            "word": " trips",
+            "probability": 0.98994
+          },
+          {
+            "start": 83.57,
+            "end": 83.91,
+            "word": " made.",
+            "probability": 0.99365
+          }
+        ]
+      },
+      {
+        "start": 84.51,
+        "end": 88.79,
+        "text": "It's convenient for me, and I feel like I'm doing something good for the environment at",
+        "words": [
+          {
+            "start": 84.51,
+            "end": 84.71,
+            "word": " It's",
+            "probability": 0.99382
+          },
+          {
+            "start": 84.71,
+            "end": 85.03,
+            "word": " convenient",
+            "probability": 0.99086
+          },
+          {
+            "start": 85.03,
+            "end": 85.35,
+            "word": " for",
+            "probability": 0.9941
+          },
+          {
+            "start": 85.35,
+            "end": 85.57,
+            "word": " me,",
+            "probability": 0.99956
+          },
+          {
+            "start": 86.03,
+            "end": 86.13,
+            "word": " and",
+            "probability": 0.99777
+          },
+          {
+            "start": 86.13,
+            "end": 86.23,
+            "word": " I",
+            "probability": 0.99696
+          },
+          {
+            "start": 86.23,
+            "end": 86.37,
+            "word": " feel",
+            "probability": 0.9974
+          },
+          {
+            "start": 86.37,
+            "end": 86.55,
+            "word": " like",
+            "probability": 0.98425
+          },
+          {
+            "start": 86.55,
+            "end": 86.69,
+            "word": " I'm",
+            "probability": 0.99629
+          },
+          {
+            "start": 86.69,
+            "end": 86.83,
+            "word": " doing",
+            "probability": 0.99878
+          },
+          {
+            "start": 86.83,
+            "end": 87.17,
+            "word": " something",
+            "probability": 0.99388
+          },
+          {
+            "start": 87.17,
+            "end": 87.45,
+            "word": " good",
+            "probability": 0.9983
+          },
+          {
+            "start": 87.45,
+            "end": 87.67,
+            "word": " for",
+            "probability": 0.99751
+          },
+          {
+            "start": 87.67,
+            "end": 87.81,
+            "word": " the",
+            "probability": 0.99569
+          },
+          {
+            "start": 87.81,
+            "end": 88.37,
+            "word": " environment",
+            "probability": 0.99895
+          },
+          {
+            "start": 88.37,
+            "end": 88.79,
+            "word": " at",
+            "probability": 0.87799
+          }
+        ]
+      },
+      {
+        "start": 88.79,
+        "end": 89.53,
+        "text": "at the same time.",
+        "words": [
+          {
+            "start": 88.79,
+            "end": 88.87,
+            "word": " at",
+            "probability": 0.3241
+          },
+          {
+            "start": 88.87,
+            "end": 88.95,
+            "word": " the",
+            "probability": 0.96213
+          },
+          {
+            "start": 88.95,
+            "end": 89.19,
+            "word": " same",
+            "probability": 0.9964
+          },
+          {
+            "start": 89.19,
+            "end": 89.53,
+            "word": " time.",
+            "probability": 0.99682
+          }
+        ]
+      },
+      {
+        "start": 91.07,
+        "end": 94.73,
+        "text": "I try to save water every day as a way to protect the environment.",
+        "words": [
+          {
+            "start": 91.07,
+            "end": 91.29,
+            "word": " I",
+            "probability": 0.946
+          },
+          {
+            "start": 91.29,
+            "end": 91.45,
+            "word": " try",
+            "probability": 0.99114
+          },
+          {
+            "start": 91.45,
+            "end": 91.61,
+            "word": " to",
+            "probability": 0.99678
+          },
+          {
+            "start": 91.61,
+            "end": 91.79,
+            "word": " save",
+            "probability": 0.99234
+          },
+          {
+            "start": 91.79,
+            "end": 92.13,
+            "word": " water",
+            "probability": 0.99691
+          },
+          {
+            "start": 92.13,
+            "end": 92.51,
+            "word": " every",
+            "probability": 0.82938
+          },
+          {
+            "start": 92.51,
+            "end": 92.81,
+            "word": " day",
+            "probability": 0.9982
+          },
+          {
+            "start": 92.81,
+            "end": 93.15,
+            "word": " as",
+            "probability": 0.86525
+          },
+          {
+            "start": 93.15,
+            "end": 93.25,
+            "word": " a",
+            "probability": 0.98913
+          },
+          {
+            "start": 93.25,
+            "end": 93.45,
+            "word": " way",
+            "probability": 0.99909
+          },
+          {
+            "start": 93.45,
+            "end": 93.71,
+            "word": " to",
+            "probability": 0.99614
+          },
+          {
+            "start": 93.71,
+            "end": 93.99,
+            "word": " protect",
+            "probability": 0.99711
+          },
+          {
+            "start": 93.99,
+            "end": 94.25,
+            "word": " the",
+            "probability": 0.98282
+          },
+          {
+            "start": 94.25,
+            "end": 94.73,
+            "word": " environment.",
+            "probability": 0.99869
+          }
+        ]
+      },
+      {
+        "start": 95.25,
+        "end": 101.07,
+        "text": "For example, I take shorter showers, turn off the tap while brushing my teeth and use",
+        "words": [
+          {
+            "start": 95.25,
+            "end": 95.39,
+            "word": " For",
+            "probability": 0.99181
+          },
+          {
+            "start": 95.39,
+            "end": 95.77,
+            "word": " example,",
+            "probability": 0.99713
+          },
+          {
+            "start": 96.39,
+            "end": 96.47,
+            "word": " I",
+            "probability": 0.99407
+          },
+          {
+            "start": 96.47,
+            "end": 96.67,
+            "word": " take",
+            "probability": 0.99468
+          },
+          {
+            "start": 96.67,
+            "end": 97.11,
+            "word": " shorter",
+            "probability": 0.99407
+          },
+          {
+            "start": 97.11,
+            "end": 97.59,
+            "word": " showers,",
+            "probability": 0.99716
+          },
+          {
+            "start": 98.25,
+            "end": 98.39,
+            "word": " turn",
+            "probability": 0.99153
+          },
+          {
+            "start": 98.39,
+            "end": 98.59,
+            "word": " off",
+            "probability": 0.99609
+          },
+          {
+            "start": 98.59,
+            "end": 98.75,
+            "word": " the",
+            "probability": 0.99881
+          },
+          {
+            "start": 98.75,
+            "end": 98.97,
+            "word": " tap",
+            "probability": 0.99231
+          },
+          {
+            "start": 98.97,
+            "end": 99.31,
+            "word": " while",
+            "probability": 0.99061
+          },
+          {
+            "start": 99.31,
+            "end": 99.65,
+            "word": " brushing",
+            "probability": 0.98951
+          },
+          {
+            "start": 99.65,
+            "end": 99.87,
+            "word": " my",
+            "probability": 0.99811
+          },
+          {
+            "start": 99.87,
+            "end": 100.13,
+            "word": " teeth",
+            "probability": 0.99963
+          },
+          {
+            "start": 100.13,
+            "end": 100.89,
+            "word": " and",
+            "probability": 0.40913
+          },
+          {
+            "start": 100.89,
+            "end": 101.07,
+            "word": " use",
+            "probability": 0.99742
+          }
+        ]
+      },
+      {
+        "start": 101.07,
+        "end": 102.71,
+        "text": "less water when washing dishes.",
+        "words": [
+          {
+            "start": 101.07,
+            "end": 101.31,
+            "word": " less",
+            "probability": 0.9995
+          },
+          {
+            "start": 101.31,
+            "end": 101.75,
+            "word": " water",
+            "probability": 0.99896
+          },
+          {
+            "start": 101.75,
+            "end": 102.01,
+            "word": " when",
+            "probability": 0.99143
+          },
+          {
+            "start": 102.01,
+            "end": 102.37,
+            "word": " washing",
+            "probability": 0.99002
+          },
+          {
+            "start": 102.37,
+            "end": 102.71,
+            "word": " dishes.",
+            "probability": 0.99822
+          }
+        ]
+      },
+      {
+        "start": 103.45,
+        "end": 108.43,
+        "text": "I've also installed special taps and shower heads that use less water but still work well.",
+        "words": [
+          {
+            "start": 103.45,
+            "end": 103.73,
+            "word": " I've",
+            "probability": 0.95561
+          },
+          {
+            "start": 103.73,
+            "end": 104.01,
+            "word": " also",
+            "probability": 0.99807
+          },
+          {
+            "start": 104.01,
+            "end": 104.51,
+            "word": " installed",
+            "probability": 0.99827
+          },
+          {
+            "start": 104.51,
+            "end": 104.85,
+            "word": " special",
+            "probability": 0.99523
+          },
+          {
+            "start": 104.85,
+            "end": 105.23,
+            "word": " taps",
+            "probability": 0.98919
+          },
+          {
+            "start": 105.23,
+            "end": 105.47,
+            "word": " and",
+            "probability": 0.9779
+          },
+          {
+            "start": 105.47,
+            "end": 105.79,
+            "word": " shower",
+            "probability": 0.9971
+          },
+          {
+            "start": 105.79,
+            "end": 106.11,
+            "word": " heads",
+            "probability": 0.89547
+          },
+          {
+            "start": 106.11,
+            "end": 106.31,
+            "word": " that",
+            "probability": 0.99459
+          },
+          {
+            "start": 106.31,
+            "end": 106.49,
+            "word": " use",
+            "probability": 0.99399
+          },
+          {
+            "start": 106.49,
+            "end": 106.79,
+            "word": " less",
+            "probability": 0.99839
+          },
+          {
+            "start": 106.79,
+            "end": 107.21,
+            "word": " water",
+            "probability": 0.99828
+          },
+          {
+            "start": 107.21,
+            "end": 107.61,
+            "word": " but",
+            "probability": 0.55111
+          },
+          {
+            "start": 107.61,
+            "end": 107.89,
+            "word": " still",
+            "probability": 0.98946
+          },
+          {
+            "start": 107.89,
+            "end": 108.13,
+            "word": " work",
+            "probability": 0.99809
+          },
+          {
+            "start": 108.13,
+            "end": 108.43,
+            "word": " well.",
+            "probability": 0.99816
+          }
+        ]
+      },
+      {
+        "start": 109.28,
+        "end": 113.32,
+        "text": "Water is a limited resource and many places don't have enough clean water.",
+        "words": [
+          {
+            "start": 109.28,
+            "end": 109.56,
+            "word": " Water",
+            "probability": 0.9907
+          },
+          {
+            "start": 109.56,
+            "end": 109.76,
+            "word": " is",
+            "probability": 0.9934
+          },
+          {
+            "start": 109.76,
+            "end": 109.84,
+            "word": " a",
+            "probability": 0.99803
+          },
+          {
+            "start": 109.84,
+            "end": 110.08,
+            "word": " limited",
+            "probability": 0.99554
+          },
+          {
+            "start": 110.08,
+            "end": 110.6,
+            "word": " resource",
+            "probability": 0.99278
+          },
+          {
+            "start": 110.6,
+            "end": 111.34,
+            "word": " and",
+            "probability": 0.64291
+          },
+          {
+            "start": 111.34,
+            "end": 111.58,
+            "word": " many",
+            "probability": 0.98698
+          },
+          {
+            "start": 111.58,
+            "end": 111.96,
+            "word": " places",
+            "probability": 0.999
+          },
+          {
+            "start": 111.96,
+            "end": 112.28,
+            "word": " don't",
+            "probability": 0.98681
+          },
+          {
+            "start": 112.28,
+            "end": 112.44,
+            "word": " have",
+            "probability": 0.99621
+          },
+          {
+            "start": 112.44,
+            "end": 112.66,
+            "word": " enough",
+            "probability": 0.99204
+          },
+          {
+            "start": 112.66,
+            "end": 112.96,
+            "word": " clean",
+            "probability": 0.99634
+          },
+          {
+            "start": 112.96,
+            "end": 113.32,
+            "word": " water.",
+            "probability": 0.99873
+          }
+        ]
+      },
+      {
+        "start": 113.9,
+        "end": 117.52,
+        "text": "That's why I think it's important for all of us to be careful and not waste it.",
+        "words": [
+          {
+            "start": 113.9,
+            "end": 114.3,
+            "word": " That's",
+            "probability": 0.99389
+          },
+          {
+            "start": 114.3,
+            "end": 114.42,
+            "word": " why",
+            "probability": 0.99715
+          },
+          {
+            "start": 114.42,
+            "end": 114.54,
+            "word": " I",
+            "probability": 0.98496
+          },
+          {
+            "start": 114.54,
+            "end": 114.7,
+            "word": " think",
+            "probability": 0.99762
+          },
+          {
+            "start": 114.7,
+            "end": 114.88,
+            "word": " it's",
+            "probability": 0.98162
+          },
+          {
+            "start": 114.88,
+            "end": 115.2,
+            "word": " important",
+            "probability": 0.99858
+          },
+          {
+            "start": 115.2,
+            "end": 115.4,
+            "word": " for",
+            "probability": 0.99495
+          },
+          {
+            "start": 115.4,
+            "end": 115.56,
+            "word": " all",
+            "probability": 0.98999
+          },
+          {
+            "start": 115.56,
+            "end": 115.7,
+            "word": " of",
+            "probability": 0.99369
+          },
+          {
+            "start": 115.7,
+            "end": 115.86,
+            "word": " us",
+            "probability": 0.99831
+          },
+          {
+            "start": 115.86,
+            "end": 116.0,
+            "word": " to",
+            "probability": 0.99272
+          },
+          {
+            "start": 116.0,
+            "end": 116.08,
+            "word": " be",
+            "probability": 0.99651
+          },
+          {
+            "start": 116.08,
+            "end": 116.46,
+            "word": " careful",
+            "probability": 0.99781
+          },
+          {
+            "start": 116.46,
+            "end": 116.8,
+            "word": " and",
+            "probability": 0.99246
+          },
+          {
+            "start": 116.8,
+            "end": 117.0,
+            "word": " not",
+            "probability": 0.99763
+          },
+          {
+            "start": 117.0,
+            "end": 117.36,
+            "word": " waste",
+            "probability": 0.9703
+          },
+          {
+            "start": 117.36,
+            "end": 117.52,
+            "word": " it.",
+            "probability": 0.98912
+          }
+        ]
+      },
+      {
+        "start": 117.52,
+        "end": 120.26,
+        "text": "But even small actions can make a big difference.",
+        "words": [
+          {
+            "start": 117.52,
+            "end": 117.62,
+            "word": " But",
+            "probability": 0.06114
+          },
+          {
+            "start": 117.62,
+            "end": 117.94,
+            "word": " even",
+            "probability": 0.95863
+          },
+          {
+            "start": 117.94,
+            "end": 118.26,
+            "word": " small",
+            "probability": 0.99119
+          },
+          {
+            "start": 118.26,
+            "end": 118.8,
+            "word": " actions",
+            "probability": 0.98732
+          },
+          {
+            "start": 118.8,
+            "end": 119.36,
+            "word": " can",
+            "probability": 0.98433
+          },
+          {
+            "start": 119.36,
+            "end": 119.52,
+            "word": " make",
+            "probability": 0.99555
+          },
+          {
+            "start": 119.52,
+            "end": 119.66,
+            "word": " a",
+            "probability": 0.99773
+          },
+          {
+            "start": 119.66,
+            "end": 119.82,
+            "word": " big",
+            "probability": 0.9972
+          },
+          {
+            "start": 119.82,
+            "end": 120.26,
+            "word": " difference.",
+            "probability": 0.9992
+          }
+        ]
+      },
+      {
+        "start": 125.99,
+        "end": 127.17,
+        "text": "That looks interesting.",
+        "words": [
+          {
+            "start": 125.99,
+            "end": 126.49,
+            "word": " That",
+            "probability": 0.74023
+          },
+          {
+            "start": 126.49,
+            "end": 126.65,
+            "word": " looks",
+            "probability": 0.99489
+          },
+          {
+            "start": 126.65,
+            "end": 127.17,
+            "word": " interesting.",
+            "probability": 0.9969
+          }
+        ]
+      },
+      {
+        "start": 127.65,
+        "end": 128.33,
+        "text": "What are you up to?",
+        "words": [
+          {
+            "start": 127.65,
+            "end": 127.85,
+            "word": " What",
+            "probability": 0.99109
+          },
+          {
+            "start": 127.85,
+            "end": 127.91,
+            "word": " are",
+            "probability": 0.98953
+          },
+          {
+            "start": 127.91,
+            "end": 128.01,
+            "word": " you",
+            "probability": 0.99768
+          },
+          {
+            "start": 128.01,
+            "end": 128.15,
+            "word": " up",
+            "probability": 0.9989
+          },
+          {
+            "start": 128.15,
+            "end": 128.33,
+            "word": " to?",
+            "probability": 0.99814
+          }
+        ]
+      },
+      {
+        "start": 129.52,
+        "end": 134.68,
+        "text": "Oh, I just came across this interesting report about universities and how they're",
+        "words": [
+          {
+            "start": 129.52,
+            "end": 129.72,
+            "word": " Oh,",
+            "probability": 0.87851
+          },
+          {
+            "start": 129.8,
+            "end": 129.9,
+            "word": " I",
+            "probability": 0.99499
+          },
+          {
+            "start": 129.9,
+            "end": 130.04,
+            "word": " just",
+            "probability": 0.99728
+          },
+          {
+            "start": 130.04,
+            "end": 130.28,
+            "word": " came",
+            "probability": 0.99439
+          },
+          {
+            "start": 130.28,
+            "end": 130.66,
+            "word": " across",
+            "probability": 0.99917
+          },
+          {
+            "start": 130.66,
+            "end": 131.24,
+            "word": " this",
+            "probability": 0.99487
+          },
+          {
+            "start": 131.24,
+            "end": 131.76,
+            "word": " interesting",
+            "probability": 0.99277
+          },
+          {
+            "start": 131.76,
+            "end": 132.22,
+            "word": " report",
+            "probability": 0.99705
+          },
+          {
+            "start": 132.22,
+            "end": 132.76,
+            "word": " about",
+            "probability": 0.99404
+          },
+          {
+            "start": 132.76,
+            "end": 133.5,
+            "word": " universities",
+            "probability": 0.87766
+          },
+          {
+            "start": 133.5,
+            "end": 134.24,
+            "word": " and",
+            "probability": 0.8816
+          },
+          {
+            "start": 134.24,
+            "end": 134.46,
+            "word": " how",
+            "probability": 0.99822
+          },
+          {
+            "start": 134.46,
+            "end": 134.68,
+            "word": " they're",
+            "probability": 0.95922
+          }
+        ]
+      },
+      {
+        "start": 134.68,
+        "end": 136.54,
+        "text": "evolving in the digital age.",
+        "words": [
+          {
+            "start": 134.68,
+            "end": 135.22,
+            "word": " evolving",
+            "probability": 0.99699
+          },
+          {
+            "start": 135.22,
+            "end": 135.5,
+            "word": " in",
+            "probability": 0.9923
+          },
+          {
+            "start": 135.5,
+            "end": 135.6,
+            "word": " the",
+            "probability": 0.99569
+          },
+          {
+            "start": 135.6,
+            "end": 135.96,
+            "word": " digital",
+            "probability": 0.99288
+          },
+          {
+            "start": 135.96,
+            "end": 136.54,
+            "word": " age.",
+            "probability": 0.99871
+          }
+        ]
+      },
+      {
+        "start": 137.02,
+        "end": 142.54,
+        "text": "It talked about the impact of the internet, student experiences, and even competition",
+        "words": [
+          {
+            "start": 137.02,
+            "end": 137.34,
+            "word": " It",
+            "probability": 0.96815
+          },
+          {
+            "start": 137.34,
+            "end": 137.5,
+            "word": " talked",
+            "probability": 0.9874
+          },
+          {
+            "start": 137.5,
+            "end": 137.82,
+            "word": " about",
+            "probability": 0.99938
+          },
+          {
+            "start": 137.82,
+            "end": 138.0,
+            "word": " the",
+            "probability": 0.99919
+          },
+          {
+            "start": 138.0,
+            "end": 138.38,
+            "word": " impact",
+            "probability": 0.99924
+          },
+          {
+            "start": 138.38,
+            "end": 138.66,
+            "word": " of",
+            "probability": 0.99841
+          },
+          {
+            "start": 138.66,
+            "end": 138.8,
+            "word": " the",
+            "probability": 0.99777
+          },
+          {
+            "start": 138.8,
+            "end": 139.24,
+            "word": " internet,",
+            "probability": 0.65589
+          },
+          {
+            "start": 139.7,
+            "end": 140.04,
+            "word": " student",
+            "probability": 0.99395
+          },
+          {
+            "start": 140.04,
+            "end": 140.86,
+            "word": " experiences,",
+            "probability": 0.99337
+          },
+          {
+            "start": 141.34,
+            "end": 141.62,
+            "word": " and",
+            "probability": 0.99642
+          },
+          {
+            "start": 141.62,
+            "end": 141.86,
+            "word": " even",
+            "probability": 0.99754
+          },
+          {
+            "start": 141.86,
+            "end": 142.54,
+            "word": " competition",
+            "probability": 0.99074
+          }
+        ]
+      },
+      {
+        "start": 142.54,
+        "end": 144.14,
+        "text": "between institutions.",
+        "words": [
+          {
+            "start": 142.54,
+            "end": 143.06,
+            "word": " between",
+            "probability": 0.99771
+          },
+          {
+            "start": 143.06,
+            "end": 144.14,
+            "word": " institutions.",
+            "probability": 0.99839
+          }
+        ]
+      },
+      {
+        "start": 144.74,
+        "end": 150.42,
+        "text": "It got me thinking, there's so much to unpack when it comes to how education is changing,",
+        "words": [
+          {
+            "start": 144.74,
+            "end": 144.96,
+            "word": " It",
+            "probability": 0.99402
+          },
+          {
+            "start": 144.96,
+            "end": 145.1,
+            "word": " got",
+            "probability": 0.99863
+          },
+          {
+            "start": 145.1,
+            "end": 145.26,
+            "word": " me",
+            "probability": 0.99822
+          },
+          {
+            "start": 145.26,
+            "end": 145.66,
+            "word": " thinking,",
+            "probability": 0.99746
+          },
+          {
+            "start": 146.1,
+            "end": 146.32,
+            "word": " there's",
+            "probability": 0.82395
+          },
+          {
+            "start": 146.32,
+            "end": 146.56,
+            "word": " so",
+            "probability": 0.99661
+          },
+          {
+            "start": 146.56,
+            "end": 146.88,
+            "word": " much",
+            "probability": 0.99956
+          },
+          {
+            "start": 146.88,
+            "end": 147.08,
+            "word": " to",
+            "probability": 0.99822
+          },
+          {
+            "start": 147.08,
+            "end": 147.52,
+            "word": " unpack",
+            "probability": 0.99937
+          },
+          {
+            "start": 147.52,
+            "end": 147.94,
+            "word": " when",
+            "probability": 0.99042
+          },
+          {
+            "start": 147.94,
+            "end": 148.04,
+            "word": " it",
+            "probability": 0.99779
+          },
+          {
+            "start": 148.04,
+            "end": 148.3,
+            "word": " comes",
+            "probability": 0.99835
+          },
+          {
+            "start": 148.3,
+            "end": 148.66,
+            "word": " to",
+            "probability": 0.99935
+          },
+          {
+            "start": 148.66,
+            "end": 149.12,
+            "word": " how",
+            "probability": 0.91952
+          },
+          {
+            "start": 149.12,
+            "end": 149.58,
+            "word": " education",
+            "probability": 0.99754
+          },
+          {
+            "start": 149.58,
+            "end": 149.96,
+            "word": " is",
+            "probability": 0.99859
+          },
+          {
+            "start": 149.96,
+            "end": 150.42,
+            "word": " changing,",
+            "probability": 0.99936
+          }
+        ]
+      },
+      {
+        "start": 150.42,
+        "end": 151.18,
+        "text": "Don't you think?",
+        "words": [
+          {
+            "start": 150.42,
+            "end": 150.84,
+            "word": " Don't",
+            "probability": 0.771
+          },
+          {
+            "start": 150.84,
+            "end": 150.94,
+            "word": " you",
+            "probability": 0.97722
+          },
+          {
+            "start": 150.94,
+            "end": 151.18,
+            "word": " think?",
+            "probability": 0.98346
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-a",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 82,
+            "speechStart": 0.78,
+            "speechEnd": 29.71,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i try to help the environment by using less electricity at home i always turn off the lights when i don't need them and make sure my appliances are energy efficient i've also started unplugging things like chargers when i'm not using them because they still use power this helps lower my electricity bill and reduces my impact on the planet i believe that if everyone made these small changes we could save a lot of energy and help fight climate change",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-b",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 82,
+            "wordEndIndexExclusive": 167,
+            "speechStart": 29.71,
+            "speechEnd": 58.26,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "to protect the environment i don't drive to work anymore instead i walk when the weather is nice or i take the bus it's not only better for the planet but it also keeps me more active and i enjoy the fresh air by not driving i use less fuel and help reduce air pollution in the city i think if more people chose to walk or use public transport we could reduce traffic and make our towns and cities cleaner and healthier for everyone",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-c",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 167,
+            "wordEndIndexExclusive": 251,
+            "speechStart": 58.26,
+            "speechEnd": 89.53,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.994,
+            "transcript": "i've decided to shop online as a way to protect the environment by ordering things online i don't need to drive to the store which means i'm using less fuel and producing less pollution many companies now offer eco friendly packaging and i try to buy from them whenever possible also online deliveries often group items together which reduces the number of trips made it's convenient for me and i feel like i'm doing something good for the environment at at the same time",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-d",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 251,
+            "wordEndIndexExclusive": 396,
+            "speechStart": 91.07,
+            "speechEnd": 149.12,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.7607,
+            "transcript": "i try to save water every day as a way to protect the environment for example i take shorter showers turn off the tap while brushing my teeth and use less water when washing dishes i've also installed special taps and shower heads that use less water but still work well water is a limited resource and many places don't have enough clean water that's why i think it's important for all of us to be careful and not waste it but even small actions can make a big difference that looks interesting what are you up to oh i just came across this interesting report about universities and how they're evolving in the digital age it talked about the impact of the internet student experiences and even competition between institutions it got me thinking there's so much to unpack when it comes to how",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

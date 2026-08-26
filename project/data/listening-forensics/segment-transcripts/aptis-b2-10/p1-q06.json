@@ -1,0 +1,1042 @@
+{
+  "testId": "aptis-b2-10",
+  "blockId": "p1-q06",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-10/part-1/q06.mp3",
+  "audioSha256": "55fb8017ff0b96d17bde2785b8f36a8e695c8135601b2de81103899da2f103c6",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.1,
+        "end": 7.18,
+        "text": "This week is pretty busy, but the most important thing is the meeting on Wednesday afternoon.",
+        "words": [
+          {
+            "start": 1.1,
+            "end": 1.7,
+            "word": " This",
+            "probability": 0.94933
+          },
+          {
+            "start": 1.7,
+            "end": 1.92,
+            "word": " week",
+            "probability": 0.9963
+          },
+          {
+            "start": 1.92,
+            "end": 2.26,
+            "word": " is",
+            "probability": 0.99388
+          },
+          {
+            "start": 2.26,
+            "end": 2.58,
+            "word": " pretty",
+            "probability": 0.99815
+          },
+          {
+            "start": 2.58,
+            "end": 3.0,
+            "word": " busy,",
+            "probability": 0.99663
+          },
+          {
+            "start": 3.24,
+            "end": 3.44,
+            "word": " but",
+            "probability": 0.9971
+          },
+          {
+            "start": 3.44,
+            "end": 3.6,
+            "word": " the",
+            "probability": 0.99141
+          },
+          {
+            "start": 3.6,
+            "end": 3.84,
+            "word": " most",
+            "probability": 0.99751
+          },
+          {
+            "start": 3.84,
+            "end": 4.46,
+            "word": " important",
+            "probability": 0.9984
+          },
+          {
+            "start": 4.46,
+            "end": 4.76,
+            "word": " thing",
+            "probability": 0.9945
+          },
+          {
+            "start": 4.76,
+            "end": 5.2,
+            "word": " is",
+            "probability": 0.99334
+          },
+          {
+            "start": 5.2,
+            "end": 5.38,
+            "word": " the",
+            "probability": 0.98232
+          },
+          {
+            "start": 5.38,
+            "end": 5.74,
+            "word": " meeting",
+            "probability": 0.98693
+          },
+          {
+            "start": 5.74,
+            "end": 6.04,
+            "word": " on",
+            "probability": 0.99407
+          },
+          {
+            "start": 6.04,
+            "end": 6.46,
+            "word": " Wednesday",
+            "probability": 0.99732
+          },
+          {
+            "start": 6.46,
+            "end": 7.18,
+            "word": " afternoon.",
+            "probability": 0.95329
+          }
+        ]
+      },
+      {
+        "start": 7.99,
+        "end": 12.59,
+        "text": "We usually have it on Monday, but this time we had to change the day.",
+        "words": [
+          {
+            "start": 7.99,
+            "end": 8.43,
+            "word": " We",
+            "probability": 0.99205
+          },
+          {
+            "start": 8.43,
+            "end": 8.81,
+            "word": " usually",
+            "probability": 0.99928
+          },
+          {
+            "start": 8.81,
+            "end": 9.13,
+            "word": " have",
+            "probability": 0.99858
+          },
+          {
+            "start": 9.13,
+            "end": 9.27,
+            "word": " it",
+            "probability": 0.99778
+          },
+          {
+            "start": 9.27,
+            "end": 9.43,
+            "word": " on",
+            "probability": 0.99404
+          },
+          {
+            "start": 9.43,
+            "end": 9.87,
+            "word": " Monday,",
+            "probability": 0.99468
+          },
+          {
+            "start": 10.23,
+            "end": 10.47,
+            "word": " but",
+            "probability": 0.99701
+          },
+          {
+            "start": 10.47,
+            "end": 10.83,
+            "word": " this",
+            "probability": 0.99564
+          },
+          {
+            "start": 10.83,
+            "end": 11.19,
+            "word": " time",
+            "probability": 0.9991
+          },
+          {
+            "start": 11.19,
+            "end": 11.41,
+            "word": " we",
+            "probability": 0.84595
+          },
+          {
+            "start": 11.41,
+            "end": 11.59,
+            "word": " had",
+            "probability": 0.99257
+          },
+          {
+            "start": 11.59,
+            "end": 11.75,
+            "word": " to",
+            "probability": 0.99781
+          },
+          {
+            "start": 11.75,
+            "end": 12.05,
+            "word": " change",
+            "probability": 0.99717
+          },
+          {
+            "start": 12.05,
+            "end": 12.33,
+            "word": " the",
+            "probability": 0.99681
+          },
+          {
+            "start": 12.33,
+            "end": 12.59,
+            "word": " day.",
+            "probability": 0.9987
+          }
+        ]
+      },
+      {
+        "start": 13.13,
+        "end": 15.91,
+        "text": "Wednesday works better because everyone is free.",
+        "words": [
+          {
+            "start": 13.13,
+            "end": 13.57,
+            "word": " Wednesday",
+            "probability": 0.995
+          },
+          {
+            "start": 13.57,
+            "end": 13.91,
+            "word": " works",
+            "probability": 0.99857
+          },
+          {
+            "start": 13.91,
+            "end": 14.33,
+            "word": " better",
+            "probability": 0.99957
+          },
+          {
+            "start": 14.33,
+            "end": 14.71,
+            "word": " because",
+            "probability": 0.89049
+          },
+          {
+            "start": 14.71,
+            "end": 15.33,
+            "word": " everyone",
+            "probability": 0.99606
+          },
+          {
+            "start": 15.33,
+            "end": 15.59,
+            "word": " is",
+            "probability": 0.99709
+          },
+          {
+            "start": 15.59,
+            "end": 15.91,
+            "word": " free.",
+            "probability": 0.99836
+          }
+        ]
+      },
+      {
+        "start": 16.58,
+        "end": 22.1,
+        "text": "I have a lot to prepare before then, so I'll spend Tuesday getting everything ready.",
+        "words": [
+          {
+            "start": 16.58,
+            "end": 17.0,
+            "word": " I",
+            "probability": 0.99641
+          },
+          {
+            "start": 17.0,
+            "end": 17.14,
+            "word": " have",
+            "probability": 0.99714
+          },
+          {
+            "start": 17.14,
+            "end": 17.26,
+            "word": " a",
+            "probability": 0.99705
+          },
+          {
+            "start": 17.26,
+            "end": 17.44,
+            "word": " lot",
+            "probability": 0.99944
+          },
+          {
+            "start": 17.44,
+            "end": 17.64,
+            "word": " to",
+            "probability": 0.99963
+          },
+          {
+            "start": 17.64,
+            "end": 17.92,
+            "word": " prepare",
+            "probability": 0.99728
+          },
+          {
+            "start": 17.92,
+            "end": 18.4,
+            "word": " before",
+            "probability": 0.99409
+          },
+          {
+            "start": 18.4,
+            "end": 18.78,
+            "word": " then,",
+            "probability": 0.97947
+          },
+          {
+            "start": 19.1,
+            "end": 19.34,
+            "word": " so",
+            "probability": 0.99829
+          },
+          {
+            "start": 19.34,
+            "end": 19.54,
+            "word": " I'll",
+            "probability": 0.99301
+          },
+          {
+            "start": 19.54,
+            "end": 19.84,
+            "word": " spend",
+            "probability": 0.99827
+          },
+          {
+            "start": 19.84,
+            "end": 20.42,
+            "word": " Tuesday",
+            "probability": 0.98302
+          },
+          {
+            "start": 20.42,
+            "end": 21.16,
+            "word": " getting",
+            "probability": 0.95432
+          },
+          {
+            "start": 21.16,
+            "end": 21.66,
+            "word": " everything",
+            "probability": 0.99824
+          },
+          {
+            "start": 21.66,
+            "end": 22.1,
+            "word": " ready.",
+            "probability": 0.99866
+          }
+        ]
+      },
+      {
+        "start": 22.85,
+        "end": 26.37,
+        "text": "It's a big meeting and we need to finalize some plans.",
+        "words": [
+          {
+            "start": 22.85,
+            "end": 23.27,
+            "word": " It's",
+            "probability": 0.99451
+          },
+          {
+            "start": 23.27,
+            "end": 23.35,
+            "word": " a",
+            "probability": 0.99819
+          },
+          {
+            "start": 23.35,
+            "end": 23.57,
+            "word": " big",
+            "probability": 0.99766
+          },
+          {
+            "start": 23.57,
+            "end": 24.01,
+            "word": " meeting",
+            "probability": 0.99821
+          },
+          {
+            "start": 24.01,
+            "end": 24.55,
+            "word": " and",
+            "probability": 0.51203
+          },
+          {
+            "start": 24.55,
+            "end": 24.73,
+            "word": " we",
+            "probability": 0.9985
+          },
+          {
+            "start": 24.73,
+            "end": 24.91,
+            "word": " need",
+            "probability": 0.99877
+          },
+          {
+            "start": 24.91,
+            "end": 25.11,
+            "word": " to",
+            "probability": 0.99882
+          },
+          {
+            "start": 25.11,
+            "end": 25.71,
+            "word": " finalize",
+            "probability": 0.9889
+          },
+          {
+            "start": 25.71,
+            "end": 25.95,
+            "word": " some",
+            "probability": 0.99132
+          },
+          {
+            "start": 25.95,
+            "end": 26.37,
+            "word": " plans.",
+            "probability": 0.99963
+          }
+        ]
+      },
+      {
+        "start": 27.15,
+        "end": 30.29,
+        "text": "I'm just glad it's not on Friday or I'd be too tired.",
+        "words": [
+          {
+            "start": 27.15,
+            "end": 27.47,
+            "word": " I'm",
+            "probability": 0.99296
+          },
+          {
+            "start": 27.47,
+            "end": 27.59,
+            "word": " just",
+            "probability": 0.99256
+          },
+          {
+            "start": 27.59,
+            "end": 27.89,
+            "word": " glad",
+            "probability": 0.99818
+          },
+          {
+            "start": 27.89,
+            "end": 28.15,
+            "word": " it's",
+            "probability": 0.99157
+          },
+          {
+            "start": 28.15,
+            "end": 28.27,
+            "word": " not",
+            "probability": 0.9984
+          },
+          {
+            "start": 28.27,
+            "end": 28.45,
+            "word": " on",
+            "probability": 0.99771
+          },
+          {
+            "start": 28.45,
+            "end": 28.79,
+            "word": " Friday",
+            "probability": 0.98819
+          },
+          {
+            "start": 28.79,
+            "end": 29.33,
+            "word": " or",
+            "probability": 0.58445
+          },
+          {
+            "start": 29.33,
+            "end": 29.53,
+            "word": " I'd",
+            "probability": 0.99582
+          },
+          {
+            "start": 29.53,
+            "end": 29.61,
+            "word": " be",
+            "probability": 0.99898
+          },
+          {
+            "start": 29.61,
+            "end": 29.85,
+            "word": " too",
+            "probability": 0.99597
+          },
+          {
+            "start": 29.85,
+            "end": 30.29,
+            "word": " tired.",
+            "probability": 0.99941
+          }
+        ]
+      },
+      {
+        "start": 33.18,
+        "end": 38.94,
+        "text": "This week is pretty busy, but the most important thing is the meeting on Wednesday afternoon.",
+        "words": [
+          {
+            "start": 33.18,
+            "end": 33.46,
+            "word": " This",
+            "probability": 0.93359
+          },
+          {
+            "start": 33.46,
+            "end": 33.68,
+            "word": " week",
+            "probability": 0.99713
+          },
+          {
+            "start": 33.68,
+            "end": 34.02,
+            "word": " is",
+            "probability": 0.98901
+          },
+          {
+            "start": 34.02,
+            "end": 34.34,
+            "word": " pretty",
+            "probability": 0.99807
+          },
+          {
+            "start": 34.34,
+            "end": 34.74,
+            "word": " busy,",
+            "probability": 0.99719
+          },
+          {
+            "start": 35.04,
+            "end": 35.2,
+            "word": " but",
+            "probability": 0.99742
+          },
+          {
+            "start": 35.2,
+            "end": 35.36,
+            "word": " the",
+            "probability": 0.99442
+          },
+          {
+            "start": 35.36,
+            "end": 35.6,
+            "word": " most",
+            "probability": 0.99746
+          },
+          {
+            "start": 35.6,
+            "end": 36.22,
+            "word": " important",
+            "probability": 0.99838
+          },
+          {
+            "start": 36.22,
+            "end": 36.52,
+            "word": " thing",
+            "probability": 0.99556
+          },
+          {
+            "start": 36.52,
+            "end": 36.96,
+            "word": " is",
+            "probability": 0.99022
+          },
+          {
+            "start": 36.96,
+            "end": 37.14,
+            "word": " the",
+            "probability": 0.97349
+          },
+          {
+            "start": 37.14,
+            "end": 37.5,
+            "word": " meeting",
+            "probability": 0.9884
+          },
+          {
+            "start": 37.5,
+            "end": 37.8,
+            "word": " on",
+            "probability": 0.99415
+          },
+          {
+            "start": 37.8,
+            "end": 38.22,
+            "word": " Wednesday",
+            "probability": 0.99724
+          },
+          {
+            "start": 38.22,
+            "end": 38.94,
+            "word": " afternoon.",
+            "probability": 0.92272
+          }
+        ]
+      },
+      {
+        "start": 39.85,
+        "end": 46.47,
+        "text": "We usually have it on Monday, but this time we had to change the day. Wednesday works better because",
+        "words": [
+          {
+            "start": 39.85,
+            "end": 40.19,
+            "word": " We",
+            "probability": 0.99175
+          },
+          {
+            "start": 40.19,
+            "end": 40.57,
+            "word": " usually",
+            "probability": 0.99941
+          },
+          {
+            "start": 40.57,
+            "end": 40.89,
+            "word": " have",
+            "probability": 0.99811
+          },
+          {
+            "start": 40.89,
+            "end": 41.03,
+            "word": " it",
+            "probability": 0.99833
+          },
+          {
+            "start": 41.03,
+            "end": 41.19,
+            "word": " on",
+            "probability": 0.99739
+          },
+          {
+            "start": 41.19,
+            "end": 41.63,
+            "word": " Monday,",
+            "probability": 0.99525
+          },
+          {
+            "start": 41.99,
+            "end": 42.23,
+            "word": " but",
+            "probability": 0.99797
+          },
+          {
+            "start": 42.23,
+            "end": 42.59,
+            "word": " this",
+            "probability": 0.99626
+          },
+          {
+            "start": 42.59,
+            "end": 42.95,
+            "word": " time",
+            "probability": 0.99905
+          },
+          {
+            "start": 42.95,
+            "end": 43.17,
+            "word": " we",
+            "probability": 0.85296
+          },
+          {
+            "start": 43.17,
+            "end": 43.35,
+            "word": " had",
+            "probability": 0.99361
+          },
+          {
+            "start": 43.35,
+            "end": 43.51,
+            "word": " to",
+            "probability": 0.99777
+          },
+          {
+            "start": 43.51,
+            "end": 43.83,
+            "word": " change",
+            "probability": 0.99785
+          },
+          {
+            "start": 43.83,
+            "end": 44.07,
+            "word": " the",
+            "probability": 0.998
+          },
+          {
+            "start": 44.07,
+            "end": 44.33,
+            "word": " day.",
+            "probability": 0.99889
+          },
+          {
+            "start": 44.91,
+            "end": 45.33,
+            "word": " Wednesday",
+            "probability": 0.99421
+          },
+          {
+            "start": 45.33,
+            "end": 45.69,
+            "word": " works",
+            "probability": 0.99843
+          },
+          {
+            "start": 45.69,
+            "end": 46.11,
+            "word": " better",
+            "probability": 0.99955
+          },
+          {
+            "start": 46.11,
+            "end": 46.47,
+            "word": " because",
+            "probability": 0.95756
+          }
+        ]
+      },
+      {
+        "start": 46.47,
+        "end": 53.86,
+        "text": "everyone is free. I have a lot to prepare before then, so I'll spend Tuesday getting everything ready.",
+        "words": [
+          {
+            "start": 46.47,
+            "end": 47.07,
+            "word": " everyone",
+            "probability": 0.99486
+          },
+          {
+            "start": 47.07,
+            "end": 47.35,
+            "word": " is",
+            "probability": 0.99572
+          },
+          {
+            "start": 47.35,
+            "end": 47.67,
+            "word": " free.",
+            "probability": 0.99828
+          },
+          {
+            "start": 48.38,
+            "end": 48.76,
+            "word": " I",
+            "probability": 0.99527
+          },
+          {
+            "start": 48.76,
+            "end": 48.9,
+            "word": " have",
+            "probability": 0.99908
+          },
+          {
+            "start": 48.9,
+            "end": 49.02,
+            "word": " a",
+            "probability": 0.99847
+          },
+          {
+            "start": 49.02,
+            "end": 49.2,
+            "word": " lot",
+            "probability": 0.99955
+          },
+          {
+            "start": 49.2,
+            "end": 49.4,
+            "word": " to",
+            "probability": 0.99948
+          },
+          {
+            "start": 49.4,
+            "end": 49.68,
+            "word": " prepare",
+            "probability": 0.99794
+          },
+          {
+            "start": 49.68,
+            "end": 50.14,
+            "word": " before",
+            "probability": 0.99503
+          },
+          {
+            "start": 50.14,
+            "end": 50.54,
+            "word": " then,",
+            "probability": 0.97736
+          },
+          {
+            "start": 50.86,
+            "end": 51.1,
+            "word": " so",
+            "probability": 0.9982
+          },
+          {
+            "start": 51.1,
+            "end": 51.3,
+            "word": " I'll",
+            "probability": 0.99421
+          },
+          {
+            "start": 51.3,
+            "end": 51.6,
+            "word": " spend",
+            "probability": 0.99849
+          },
+          {
+            "start": 51.6,
+            "end": 52.2,
+            "word": " Tuesday",
+            "probability": 0.98853
+          },
+          {
+            "start": 52.2,
+            "end": 52.92,
+            "word": " getting",
+            "probability": 0.94956
+          },
+          {
+            "start": 52.92,
+            "end": 53.42,
+            "word": " everything",
+            "probability": 0.99889
+          },
+          {
+            "start": 53.42,
+            "end": 53.86,
+            "word": " ready.",
+            "probability": 0.99908
+          }
+        ]
+      },
+      {
+        "start": 54.56,
+        "end": 60.54,
+        "text": "It's a big meeting, and we need to finalize some plans. I'm just glad it's not on Friday,",
+        "words": [
+          {
+            "start": 54.56,
+            "end": 55.02,
+            "word": " It's",
+            "probability": 0.99678
+          },
+          {
+            "start": 55.02,
+            "end": 55.1,
+            "word": " a",
+            "probability": 0.99854
+          },
+          {
+            "start": 55.1,
+            "end": 55.32,
+            "word": " big",
+            "probability": 0.99813
+          },
+          {
+            "start": 55.32,
+            "end": 55.78,
+            "word": " meeting,",
+            "probability": 0.99874
+          },
+          {
+            "start": 56.18,
+            "end": 56.32,
+            "word": " and",
+            "probability": 0.99881
+          },
+          {
+            "start": 56.32,
+            "end": 56.48,
+            "word": " we",
+            "probability": 0.99898
+          },
+          {
+            "start": 56.48,
+            "end": 56.66,
+            "word": " need",
+            "probability": 0.99904
+          },
+          {
+            "start": 56.66,
+            "end": 56.86,
+            "word": " to",
+            "probability": 0.99897
+          },
+          {
+            "start": 56.86,
+            "end": 57.46,
+            "word": " finalize",
+            "probability": 0.99002
+          },
+          {
+            "start": 57.46,
+            "end": 57.72,
+            "word": " some",
+            "probability": 0.9934
+          },
+          {
+            "start": 57.72,
+            "end": 58.24,
+            "word": " plans.",
+            "probability": 0.99966
+          },
+          {
+            "start": 58.88,
+            "end": 59.22,
+            "word": " I'm",
+            "probability": 0.99531
+          },
+          {
+            "start": 59.22,
+            "end": 59.34,
+            "word": " just",
+            "probability": 0.99732
+          },
+          {
+            "start": 59.34,
+            "end": 59.64,
+            "word": " glad",
+            "probability": 0.99813
+          },
+          {
+            "start": 59.64,
+            "end": 59.9,
+            "word": " it's",
+            "probability": 0.99348
+          },
+          {
+            "start": 59.9,
+            "end": 60.02,
+            "word": " not",
+            "probability": 0.99767
+          },
+          {
+            "start": 60.02,
+            "end": 60.2,
+            "word": " on",
+            "probability": 0.9988
+          },
+          {
+            "start": 60.2,
+            "end": 60.54,
+            "word": " Friday,",
+            "probability": 0.99102
+          }
+        ]
+      },
+      {
+        "start": 60.54,
+        "end": 62.06,
+        "text": "or I'd be too tired.",
+        "words": [
+          {
+            "start": 60.54,
+            "end": 61.1,
+            "word": " or",
+            "probability": 0.52656
+          },
+          {
+            "start": 61.1,
+            "end": 61.28,
+            "word": " I'd",
+            "probability": 0.95985
+          },
+          {
+            "start": 61.28,
+            "end": 61.38,
+            "word": " be",
+            "probability": 0.9983
+          },
+          {
+            "start": 61.38,
+            "end": 61.62,
+            "word": " too",
+            "probability": 0.99353
+          },
+          {
+            "start": 61.62,
+            "end": 62.06,
+            "word": " tired.",
+            "probability": 0.99851
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q06",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 76,
+            "speechStart": 1.1,
+            "speechEnd": 30.29,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "this week is pretty busy but the most important thing is the meeting on wednesday afternoon we usually have it on monday but this time we had to change the day wednesday works better because everyone is free i have a lot to prepare before then so i'll spend tuesday getting everything ready it's a big meeting and we need to finalize some plans i'm just glad it's not on friday or i'd be too tired",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 76,
+            "wordEndIndexExclusive": 152,
+            "speechStart": 33.18,
+            "speechEnd": 62.06,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "this week is pretty busy but the most important thing is the meeting on wednesday afternoon we usually have it on monday but this time we had to change the day wednesday works better because everyone is free i have a lot to prepare before then so i'll spend tuesday getting everything ready it's a big meeting and we need to finalize some plans i'm just glad it's not on friday or i'd be too tired",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

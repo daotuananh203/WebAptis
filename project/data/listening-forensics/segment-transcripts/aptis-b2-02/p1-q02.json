@@ -1,0 +1,479 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p1-q02",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-1/q02.mp3",
+  "audioSha256": "de55c191c43b934fdfba95aa57d8d8949fbcc7505f3ef5082211fdc368d6fdd8",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.11,
+        "end": 2.89,
+        "text": "All right, let me go over the list of clients for today.",
+        "words": [
+          {
+            "start": 0.11,
+            "end": 0.59,
+            "word": " All",
+            "probability": 0.51118
+          },
+          {
+            "start": 0.59,
+            "end": 0.73,
+            "word": " right,",
+            "probability": 0.99658
+          },
+          {
+            "start": 0.99,
+            "end": 1.21,
+            "word": " let",
+            "probability": 0.99371
+          },
+          {
+            "start": 1.21,
+            "end": 1.31,
+            "word": " me",
+            "probability": 0.997
+          },
+          {
+            "start": 1.31,
+            "end": 1.45,
+            "word": " go",
+            "probability": 0.99535
+          },
+          {
+            "start": 1.45,
+            "end": 1.65,
+            "word": " over",
+            "probability": 0.9984
+          },
+          {
+            "start": 1.65,
+            "end": 1.75,
+            "word": " the",
+            "probability": 0.99757
+          },
+          {
+            "start": 1.75,
+            "end": 1.97,
+            "word": " list",
+            "probability": 0.99828
+          },
+          {
+            "start": 1.97,
+            "end": 2.11,
+            "word": " of",
+            "probability": 0.99919
+          },
+          {
+            "start": 2.11,
+            "end": 2.41,
+            "word": " clients",
+            "probability": 0.99463
+          },
+          {
+            "start": 2.41,
+            "end": 2.63,
+            "word": " for",
+            "probability": 0.99144
+          },
+          {
+            "start": 2.63,
+            "end": 2.89,
+            "word": " today.",
+            "probability": 0.99915
+          }
+        ]
+      },
+      {
+        "start": 3.17,
+        "end": 6.05,
+        "text": "We've got Carl, Harry, and Matthew all from the UK.",
+        "words": [
+          {
+            "start": 3.17,
+            "end": 3.31,
+            "word": " We've",
+            "probability": 0.99311
+          },
+          {
+            "start": 3.31,
+            "end": 3.47,
+            "word": " got",
+            "probability": 0.9993
+          },
+          {
+            "start": 3.47,
+            "end": 3.83,
+            "word": " Carl,",
+            "probability": 0.64424
+          },
+          {
+            "start": 4.31,
+            "end": 4.43,
+            "word": " Harry,",
+            "probability": 0.98174
+          },
+          {
+            "start": 4.67,
+            "end": 4.71,
+            "word": " and",
+            "probability": 0.98984
+          },
+          {
+            "start": 4.71,
+            "end": 5.03,
+            "word": " Matthew",
+            "probability": 0.96249
+          },
+          {
+            "start": 5.03,
+            "end": 5.37,
+            "word": " all",
+            "probability": 0.85262
+          },
+          {
+            "start": 5.37,
+            "end": 5.57,
+            "word": " from",
+            "probability": 0.99643
+          },
+          {
+            "start": 5.57,
+            "end": 5.71,
+            "word": " the",
+            "probability": 0.99906
+          },
+          {
+            "start": 5.71,
+            "end": 6.05,
+            "word": " UK.",
+            "probability": 0.87925
+          }
+        ]
+      },
+      {
+        "start": 6.73,
+        "end": 9.67,
+        "text": "Leslie, who's from the US, is also scheduled for an appointment.",
+        "words": [
+          {
+            "start": 6.73,
+            "end": 6.97,
+            "word": " Leslie,",
+            "probability": 0.8632
+          },
+          {
+            "start": 7.05,
+            "end": 7.33,
+            "word": " who's",
+            "probability": 0.97321
+          },
+          {
+            "start": 7.33,
+            "end": 7.45,
+            "word": " from",
+            "probability": 0.99876
+          },
+          {
+            "start": 7.45,
+            "end": 7.55,
+            "word": " the",
+            "probability": 0.99887
+          },
+          {
+            "start": 7.55,
+            "end": 7.83,
+            "word": " US,",
+            "probability": 0.82304
+          },
+          {
+            "start": 8.09,
+            "end": 8.23,
+            "word": " is",
+            "probability": 0.99394
+          },
+          {
+            "start": 8.23,
+            "end": 8.57,
+            "word": " also",
+            "probability": 0.99872
+          },
+          {
+            "start": 8.57,
+            "end": 8.89,
+            "word": " scheduled",
+            "probability": 0.99885
+          },
+          {
+            "start": 8.89,
+            "end": 9.17,
+            "word": " for",
+            "probability": 0.99926
+          },
+          {
+            "start": 9.17,
+            "end": 9.27,
+            "word": " an",
+            "probability": 0.99547
+          },
+          {
+            "start": 9.27,
+            "end": 9.67,
+            "word": " appointment.",
+            "probability": 0.99921
+          }
+        ]
+      },
+      {
+        "start": 10.48,
+        "end": 13.12,
+        "text": "Then we have two more clients coming in from France.",
+        "words": [
+          {
+            "start": 10.48,
+            "end": 10.8,
+            "word": " Then",
+            "probability": 0.99051
+          },
+          {
+            "start": 10.8,
+            "end": 10.96,
+            "word": " we",
+            "probability": 0.90033
+          },
+          {
+            "start": 10.96,
+            "end": 11.1,
+            "word": " have",
+            "probability": 0.99882
+          },
+          {
+            "start": 11.1,
+            "end": 11.36,
+            "word": " two",
+            "probability": 0.98459
+          },
+          {
+            "start": 11.36,
+            "end": 11.58,
+            "word": " more",
+            "probability": 0.99958
+          },
+          {
+            "start": 11.58,
+            "end": 11.92,
+            "word": " clients",
+            "probability": 0.99801
+          },
+          {
+            "start": 11.92,
+            "end": 12.2,
+            "word": " coming",
+            "probability": 0.99803
+          },
+          {
+            "start": 12.2,
+            "end": 12.38,
+            "word": " in",
+            "probability": 0.99822
+          },
+          {
+            "start": 12.38,
+            "end": 12.6,
+            "word": " from",
+            "probability": 0.99821
+          },
+          {
+            "start": 12.6,
+            "end": 13.12,
+            "word": " France.",
+            "probability": 0.99941
+          }
+        ]
+      },
+      {
+        "start": 13.92,
+        "end": 15.68,
+        "text": "So that gives us one American,",
+        "words": [
+          {
+            "start": 13.92,
+            "end": 14.18,
+            "word": " So",
+            "probability": 0.98754
+          },
+          {
+            "start": 14.18,
+            "end": 14.34,
+            "word": " that",
+            "probability": 0.95604
+          },
+          {
+            "start": 14.34,
+            "end": 14.54,
+            "word": " gives",
+            "probability": 0.99709
+          },
+          {
+            "start": 14.54,
+            "end": 14.84,
+            "word": " us",
+            "probability": 0.99813
+          },
+          {
+            "start": 14.84,
+            "end": 15.22,
+            "word": " one",
+            "probability": 0.97275
+          },
+          {
+            "start": 15.22,
+            "end": 15.68,
+            "word": " American,",
+            "probability": 0.97962
+          }
+        ]
+      },
+      {
+        "start": 15.98,
+        "end": 18.0,
+        "text": "a few from the UK, and the rest from France.",
+        "words": [
+          {
+            "start": 15.98,
+            "end": 16.06,
+            "word": " a",
+            "probability": 0.99641
+          },
+          {
+            "start": 16.06,
+            "end": 16.22,
+            "word": " few",
+            "probability": 0.99768
+          },
+          {
+            "start": 16.22,
+            "end": 16.44,
+            "word": " from",
+            "probability": 0.99656
+          },
+          {
+            "start": 16.44,
+            "end": 16.54,
+            "word": " the",
+            "probability": 0.99944
+          },
+          {
+            "start": 16.54,
+            "end": 16.84,
+            "word": " UK,",
+            "probability": 0.99175
+          },
+          {
+            "start": 17.18,
+            "end": 17.18,
+            "word": " and",
+            "probability": 0.99939
+          },
+          {
+            "start": 17.18,
+            "end": 17.28,
+            "word": " the",
+            "probability": 0.99736
+          },
+          {
+            "start": 17.28,
+            "end": 17.46,
+            "word": " rest",
+            "probability": 0.99894
+          },
+          {
+            "start": 17.46,
+            "end": 17.7,
+            "word": " from",
+            "probability": 0.99733
+          },
+          {
+            "start": 17.7,
+            "end": 18.0,
+            "word": " France.",
+            "probability": 0.99971
+          }
+        ]
+      },
+      {
+        "start": 19.09,
+        "end": 20.71,
+        "text": "It looks like everything's in order.",
+        "words": [
+          {
+            "start": 19.09,
+            "end": 19.57,
+            "word": " It",
+            "probability": 0.99192
+          },
+          {
+            "start": 19.57,
+            "end": 19.71,
+            "word": " looks",
+            "probability": 0.99731
+          },
+          {
+            "start": 19.71,
+            "end": 19.89,
+            "word": " like",
+            "probability": 0.99944
+          },
+          {
+            "start": 19.89,
+            "end": 20.37,
+            "word": " everything's",
+            "probability": 0.94026
+          },
+          {
+            "start": 20.37,
+            "end": 20.45,
+            "word": " in",
+            "probability": 0.99493
+          },
+          {
+            "start": 20.45,
+            "end": 20.71,
+            "word": " order.",
+            "probability": 0.99877
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q02",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 2,
+            "wordEndIndexExclusive": 65,
+            "speechStart": 0.99,
+            "speechEnd": 20.71,
+            "sourceTokenCoverage": 0.9683,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9683,
+            "transcript": "let me go over the list of clients for today we've got carl harry and matthew all from the uk leslie who's from the us is also scheduled for an appointment then we have 2 more clients coming in from france so that gives us 1 american a few from the uk and the rest from france it looks like everything's in order",
+            "openingMatch": 0.7556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

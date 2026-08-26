@@ -1,0 +1,1839 @@
+{
+  "testId": "aptis-b2-11",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-11/part-1/q01.mp3",
+  "audioSha256": "00212f2d337089e489a0c97ad0de99d25a7a7f93dab8764084b06f9964b167a3",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.98,
+        "end": 4.14,
+        "text": "Hey, I'm really excited about my trip to the city tomorrow.",
+        "words": [
+          {
+            "start": 0.98,
+            "end": 1.48,
+            "word": " Hey,",
+            "probability": 0.64657
+          },
+          {
+            "start": 1.72,
+            "end": 1.96,
+            "word": " I'm",
+            "probability": 0.96722
+          },
+          {
+            "start": 1.96,
+            "end": 2.14,
+            "word": " really",
+            "probability": 0.99341
+          },
+          {
+            "start": 2.14,
+            "end": 2.56,
+            "word": " excited",
+            "probability": 0.99788
+          },
+          {
+            "start": 2.56,
+            "end": 2.82,
+            "word": " about",
+            "probability": 0.99736
+          },
+          {
+            "start": 2.82,
+            "end": 3.04,
+            "word": " my",
+            "probability": 0.99715
+          },
+          {
+            "start": 3.04,
+            "end": 3.22,
+            "word": " trip",
+            "probability": 0.99967
+          },
+          {
+            "start": 3.22,
+            "end": 3.42,
+            "word": " to",
+            "probability": 0.99783
+          },
+          {
+            "start": 3.42,
+            "end": 3.52,
+            "word": " the",
+            "probability": 0.97127
+          },
+          {
+            "start": 3.52,
+            "end": 3.74,
+            "word": " city",
+            "probability": 0.88912
+          },
+          {
+            "start": 3.74,
+            "end": 4.14,
+            "word": " tomorrow.",
+            "probability": 0.99422
+          }
+        ]
+      },
+      {
+        "start": 4.96,
+        "end": 6.94,
+        "text": "I was just thinking about how I'll get there.",
+        "words": [
+          {
+            "start": 4.96,
+            "end": 5.32,
+            "word": " I",
+            "probability": 0.98515
+          },
+          {
+            "start": 5.32,
+            "end": 5.44,
+            "word": " was",
+            "probability": 0.99673
+          },
+          {
+            "start": 5.44,
+            "end": 5.6,
+            "word": " just",
+            "probability": 0.99249
+          },
+          {
+            "start": 5.6,
+            "end": 5.96,
+            "word": " thinking",
+            "probability": 0.99829
+          },
+          {
+            "start": 5.96,
+            "end": 6.22,
+            "word": " about",
+            "probability": 0.99699
+          },
+          {
+            "start": 6.22,
+            "end": 6.44,
+            "word": " how",
+            "probability": 0.9977
+          },
+          {
+            "start": 6.44,
+            "end": 6.56,
+            "word": " I'll",
+            "probability": 0.9874
+          },
+          {
+            "start": 6.56,
+            "end": 6.68,
+            "word": " get",
+            "probability": 0.99889
+          },
+          {
+            "start": 6.68,
+            "end": 6.94,
+            "word": " there.",
+            "probability": 0.99909
+          }
+        ]
+      },
+      {
+        "start": 7.94,
+        "end": 9.42,
+        "text": "Do you know how much the bus fare is?",
+        "words": [
+          {
+            "start": 7.94,
+            "end": 8.04,
+            "word": " Do",
+            "probability": 0.92756
+          },
+          {
+            "start": 8.04,
+            "end": 8.12,
+            "word": " you",
+            "probability": 0.9961
+          },
+          {
+            "start": 8.12,
+            "end": 8.24,
+            "word": " know",
+            "probability": 0.99736
+          },
+          {
+            "start": 8.24,
+            "end": 8.38,
+            "word": " how",
+            "probability": 0.99648
+          },
+          {
+            "start": 8.38,
+            "end": 8.54,
+            "word": " much",
+            "probability": 0.99933
+          },
+          {
+            "start": 8.54,
+            "end": 8.68,
+            "word": " the",
+            "probability": 0.99169
+          },
+          {
+            "start": 8.68,
+            "end": 8.82,
+            "word": " bus",
+            "probability": 0.98295
+          },
+          {
+            "start": 8.82,
+            "end": 9.08,
+            "word": " fare",
+            "probability": 0.92159
+          },
+          {
+            "start": 9.08,
+            "end": 9.42,
+            "word": " is?",
+            "probability": 0.97802
+          }
+        ]
+      },
+      {
+        "start": 10.2,
+        "end": 13.54,
+        "text": "I think I heard it's 2.5 pounds that sounds pretty reasonable.",
+        "words": [
+          {
+            "start": 10.2,
+            "end": 10.48,
+            "word": " I",
+            "probability": 0.99428
+          },
+          {
+            "start": 10.48,
+            "end": 10.62,
+            "word": " think",
+            "probability": 0.99749
+          },
+          {
+            "start": 10.62,
+            "end": 10.78,
+            "word": " I",
+            "probability": 0.99712
+          },
+          {
+            "start": 10.78,
+            "end": 10.94,
+            "word": " heard",
+            "probability": 0.96117
+          },
+          {
+            "start": 10.94,
+            "end": 11.12,
+            "word": " it's",
+            "probability": 0.93828
+          },
+          {
+            "start": 11.12,
+            "end": 11.28,
+            "word": " 2",
+            "probability": 0.93009
+          },
+          {
+            "start": 11.28,
+            "end": 11.76,
+            "word": ".5",
+            "probability": 0.99627
+          },
+          {
+            "start": 11.76,
+            "end": 12.12,
+            "word": " pounds",
+            "probability": 0.90585
+          },
+          {
+            "start": 12.12,
+            "end": 12.52,
+            "word": " that",
+            "probability": 0.33276
+          },
+          {
+            "start": 12.52,
+            "end": 12.8,
+            "word": " sounds",
+            "probability": 0.98283
+          },
+          {
+            "start": 12.8,
+            "end": 13.08,
+            "word": " pretty",
+            "probability": 0.99774
+          },
+          {
+            "start": 13.08,
+            "end": 13.54,
+            "word": " reasonable.",
+            "probability": 0.9965
+          }
+        ]
+      },
+      {
+        "start": 14.48,
+        "end": 17.58,
+        "text": "If I take the subway, that'll be just 4.5 pounds.",
+        "words": [
+          {
+            "start": 14.48,
+            "end": 14.74,
+            "word": " If",
+            "probability": 0.98272
+          },
+          {
+            "start": 14.74,
+            "end": 14.84,
+            "word": " I",
+            "probability": 0.99765
+          },
+          {
+            "start": 14.84,
+            "end": 15.02,
+            "word": " take",
+            "probability": 0.99856
+          },
+          {
+            "start": 15.02,
+            "end": 15.18,
+            "word": " the",
+            "probability": 0.99006
+          },
+          {
+            "start": 15.18,
+            "end": 15.54,
+            "word": " subway,",
+            "probability": 0.99196
+          },
+          {
+            "start": 15.84,
+            "end": 16.04,
+            "word": " that'll",
+            "probability": 0.96656
+          },
+          {
+            "start": 16.04,
+            "end": 16.18,
+            "word": " be",
+            "probability": 0.99551
+          },
+          {
+            "start": 16.18,
+            "end": 16.34,
+            "word": " just",
+            "probability": 0.98558
+          },
+          {
+            "start": 16.34,
+            "end": 16.66,
+            "word": " 4",
+            "probability": 0.99462
+          },
+          {
+            "start": 16.66,
+            "end": 17.14,
+            "word": ".5",
+            "probability": 0.99909
+          },
+          {
+            "start": 17.14,
+            "end": 17.58,
+            "word": " pounds.",
+            "probability": 0.99562
+          }
+        ]
+      },
+      {
+        "start": 18.37,
+        "end": 20.83,
+        "text": "I love how affordable public transport can be.",
+        "words": [
+          {
+            "start": 18.37,
+            "end": 18.81,
+            "word": " I",
+            "probability": 0.9974
+          },
+          {
+            "start": 18.81,
+            "end": 18.97,
+            "word": " love",
+            "probability": 0.99138
+          },
+          {
+            "start": 18.97,
+            "end": 19.15,
+            "word": " how",
+            "probability": 0.99949
+          },
+          {
+            "start": 19.15,
+            "end": 19.49,
+            "word": " affordable",
+            "probability": 0.9854
+          },
+          {
+            "start": 19.49,
+            "end": 19.95,
+            "word": " public",
+            "probability": 0.99827
+          },
+          {
+            "start": 19.95,
+            "end": 20.39,
+            "word": " transport",
+            "probability": 0.9977
+          },
+          {
+            "start": 20.39,
+            "end": 20.65,
+            "word": " can",
+            "probability": 0.99812
+          },
+          {
+            "start": 20.65,
+            "end": 20.83,
+            "word": " be.",
+            "probability": 0.99963
+          }
+        ]
+      },
+      {
+        "start": 21.53,
+        "end": 23.61,
+        "text": "I'll definitely need to have some change ready.",
+        "words": [
+          {
+            "start": 21.53,
+            "end": 21.97,
+            "word": " I'll",
+            "probability": 0.99572
+          },
+          {
+            "start": 21.97,
+            "end": 22.25,
+            "word": " definitely",
+            "probability": 0.99785
+          },
+          {
+            "start": 22.25,
+            "end": 22.65,
+            "word": " need",
+            "probability": 0.9959
+          },
+          {
+            "start": 22.65,
+            "end": 22.77,
+            "word": " to",
+            "probability": 0.99672
+          },
+          {
+            "start": 22.77,
+            "end": 22.91,
+            "word": " have",
+            "probability": 0.99894
+          },
+          {
+            "start": 22.91,
+            "end": 23.07,
+            "word": " some",
+            "probability": 0.99885
+          },
+          {
+            "start": 23.07,
+            "end": 23.29,
+            "word": " change",
+            "probability": 0.98992
+          },
+          {
+            "start": 23.29,
+            "end": 23.61,
+            "word": " ready.",
+            "probability": 0.97098
+          }
+        ]
+      },
+      {
+        "start": 24.58,
+        "end": 26.68,
+        "text": "By the way, do you know what time the bus leaves?",
+        "words": [
+          {
+            "start": 24.58,
+            "end": 24.8,
+            "word": " By",
+            "probability": 0.98548
+          },
+          {
+            "start": 24.8,
+            "end": 24.92,
+            "word": " the",
+            "probability": 0.99906
+          },
+          {
+            "start": 24.92,
+            "end": 25.12,
+            "word": " way,",
+            "probability": 0.99951
+          },
+          {
+            "start": 25.5,
+            "end": 25.58,
+            "word": " do",
+            "probability": 0.96476
+          },
+          {
+            "start": 25.58,
+            "end": 25.64,
+            "word": " you",
+            "probability": 0.99768
+          },
+          {
+            "start": 25.64,
+            "end": 25.78,
+            "word": " know",
+            "probability": 0.99784
+          },
+          {
+            "start": 25.78,
+            "end": 25.92,
+            "word": " what",
+            "probability": 0.9983
+          },
+          {
+            "start": 25.92,
+            "end": 26.1,
+            "word": " time",
+            "probability": 0.96043
+          },
+          {
+            "start": 26.1,
+            "end": 26.24,
+            "word": " the",
+            "probability": 0.99596
+          },
+          {
+            "start": 26.24,
+            "end": 26.42,
+            "word": " bus",
+            "probability": 0.9976
+          },
+          {
+            "start": 26.42,
+            "end": 26.68,
+            "word": " leaves?",
+            "probability": 0.99355
+          }
+        ]
+      },
+      {
+        "start": 27.49,
+        "end": 29.33,
+        "text": "I want to make sure I don't miss it.",
+        "words": [
+          {
+            "start": 27.49,
+            "end": 27.93,
+            "word": " I",
+            "probability": 0.99781
+          },
+          {
+            "start": 27.93,
+            "end": 28.07,
+            "word": " want",
+            "probability": 0.99691
+          },
+          {
+            "start": 28.07,
+            "end": 28.19,
+            "word": " to",
+            "probability": 0.99802
+          },
+          {
+            "start": 28.19,
+            "end": 28.33,
+            "word": " make",
+            "probability": 0.99793
+          },
+          {
+            "start": 28.33,
+            "end": 28.53,
+            "word": " sure",
+            "probability": 0.99955
+          },
+          {
+            "start": 28.53,
+            "end": 28.65,
+            "word": " I",
+            "probability": 0.99532
+          },
+          {
+            "start": 28.65,
+            "end": 28.85,
+            "word": " don't",
+            "probability": 0.99934
+          },
+          {
+            "start": 28.85,
+            "end": 29.01,
+            "word": " miss",
+            "probability": 0.99228
+          },
+          {
+            "start": 29.01,
+            "end": 29.33,
+            "word": " it.",
+            "probability": 0.9994
+          }
+        ]
+      },
+      {
+        "start": 33.11,
+        "end": 36.23,
+        "text": "Hey, I'm really excited about my trip to the city tomorrow.",
+        "words": [
+          {
+            "start": 33.11,
+            "end": 33.55,
+            "word": " Hey,",
+            "probability": 0.28245
+          },
+          {
+            "start": 33.81,
+            "end": 34.05,
+            "word": " I'm",
+            "probability": 0.97481
+          },
+          {
+            "start": 34.05,
+            "end": 34.23,
+            "word": " really",
+            "probability": 0.98742
+          },
+          {
+            "start": 34.23,
+            "end": 34.63,
+            "word": " excited",
+            "probability": 0.99746
+          },
+          {
+            "start": 34.63,
+            "end": 34.91,
+            "word": " about",
+            "probability": 0.99604
+          },
+          {
+            "start": 34.91,
+            "end": 35.11,
+            "word": " my",
+            "probability": 0.9978
+          },
+          {
+            "start": 35.11,
+            "end": 35.29,
+            "word": " trip",
+            "probability": 0.99954
+          },
+          {
+            "start": 35.29,
+            "end": 35.49,
+            "word": " to",
+            "probability": 0.99758
+          },
+          {
+            "start": 35.49,
+            "end": 35.59,
+            "word": " the",
+            "probability": 0.9831
+          },
+          {
+            "start": 35.59,
+            "end": 35.81,
+            "word": " city",
+            "probability": 0.90405
+          },
+          {
+            "start": 35.81,
+            "end": 36.23,
+            "word": " tomorrow.",
+            "probability": 0.98619
+          }
+        ]
+      },
+      {
+        "start": 37.2,
+        "end": 39.02,
+        "text": "I was just thinking about how I'll get there.",
+        "words": [
+          {
+            "start": 37.2,
+            "end": 37.4,
+            "word": " I",
+            "probability": 0.97712
+          },
+          {
+            "start": 37.4,
+            "end": 37.52,
+            "word": " was",
+            "probability": 0.99737
+          },
+          {
+            "start": 37.52,
+            "end": 37.68,
+            "word": " just",
+            "probability": 0.9917
+          },
+          {
+            "start": 37.68,
+            "end": 38.04,
+            "word": " thinking",
+            "probability": 0.99726
+          },
+          {
+            "start": 38.04,
+            "end": 38.3,
+            "word": " about",
+            "probability": 0.99623
+          },
+          {
+            "start": 38.3,
+            "end": 38.5,
+            "word": " how",
+            "probability": 0.99735
+          },
+          {
+            "start": 38.5,
+            "end": 38.64,
+            "word": " I'll",
+            "probability": 0.99027
+          },
+          {
+            "start": 38.64,
+            "end": 38.76,
+            "word": " get",
+            "probability": 0.99858
+          },
+          {
+            "start": 38.76,
+            "end": 39.02,
+            "word": " there.",
+            "probability": 0.99891
+          }
+        ]
+      },
+      {
+        "start": 39.91,
+        "end": 41.49,
+        "text": "Do you know how much the bus fare is?",
+        "words": [
+          {
+            "start": 39.91,
+            "end": 40.13,
+            "word": " Do",
+            "probability": 0.91397
+          },
+          {
+            "start": 40.13,
+            "end": 40.19,
+            "word": " you",
+            "probability": 0.9969
+          },
+          {
+            "start": 40.19,
+            "end": 40.31,
+            "word": " know",
+            "probability": 0.99574
+          },
+          {
+            "start": 40.31,
+            "end": 40.47,
+            "word": " how",
+            "probability": 0.99687
+          },
+          {
+            "start": 40.47,
+            "end": 40.63,
+            "word": " much",
+            "probability": 0.99935
+          },
+          {
+            "start": 40.63,
+            "end": 40.75,
+            "word": " the",
+            "probability": 0.99153
+          },
+          {
+            "start": 40.75,
+            "end": 40.91,
+            "word": " bus",
+            "probability": 0.98179
+          },
+          {
+            "start": 40.91,
+            "end": 41.15,
+            "word": " fare",
+            "probability": 0.95653
+          },
+          {
+            "start": 41.15,
+            "end": 41.49,
+            "word": " is?",
+            "probability": 0.98187
+          }
+        ]
+      },
+      {
+        "start": 42.26,
+        "end": 45.6,
+        "text": "I think I heard it's 2.5 pounds, that sounds pretty reasonable.",
+        "words": [
+          {
+            "start": 42.26,
+            "end": 42.54,
+            "word": " I",
+            "probability": 0.99179
+          },
+          {
+            "start": 42.54,
+            "end": 42.72,
+            "word": " think",
+            "probability": 0.99735
+          },
+          {
+            "start": 42.72,
+            "end": 42.86,
+            "word": " I",
+            "probability": 0.99561
+          },
+          {
+            "start": 42.86,
+            "end": 43.02,
+            "word": " heard",
+            "probability": 0.9562
+          },
+          {
+            "start": 43.02,
+            "end": 43.2,
+            "word": " it's",
+            "probability": 0.93828
+          },
+          {
+            "start": 43.2,
+            "end": 43.36,
+            "word": " 2",
+            "probability": 0.9419
+          },
+          {
+            "start": 43.36,
+            "end": 43.86,
+            "word": ".5",
+            "probability": 0.99602
+          },
+          {
+            "start": 43.86,
+            "end": 44.2,
+            "word": " pounds,",
+            "probability": 0.89479
+          },
+          {
+            "start": 44.48,
+            "end": 44.6,
+            "word": " that",
+            "probability": 0.98144
+          },
+          {
+            "start": 44.6,
+            "end": 44.86,
+            "word": " sounds",
+            "probability": 0.98931
+          },
+          {
+            "start": 44.86,
+            "end": 45.14,
+            "word": " pretty",
+            "probability": 0.99788
+          },
+          {
+            "start": 45.14,
+            "end": 45.6,
+            "word": " reasonable.",
+            "probability": 0.99675
+          }
+        ]
+      },
+      {
+        "start": 46.49,
+        "end": 49.65,
+        "text": "If I take the subway, that'll be just 4.5 pounds.",
+        "words": [
+          {
+            "start": 46.49,
+            "end": 46.83,
+            "word": " If",
+            "probability": 0.96121
+          },
+          {
+            "start": 46.83,
+            "end": 46.93,
+            "word": " I",
+            "probability": 0.99666
+          },
+          {
+            "start": 46.93,
+            "end": 47.11,
+            "word": " take",
+            "probability": 0.99863
+          },
+          {
+            "start": 47.11,
+            "end": 47.27,
+            "word": " the",
+            "probability": 0.9895
+          },
+          {
+            "start": 47.27,
+            "end": 47.61,
+            "word": " subway,",
+            "probability": 0.99269
+          },
+          {
+            "start": 47.91,
+            "end": 48.13,
+            "word": " that'll",
+            "probability": 0.96695
+          },
+          {
+            "start": 48.13,
+            "end": 48.25,
+            "word": " be",
+            "probability": 0.99231
+          },
+          {
+            "start": 48.25,
+            "end": 48.43,
+            "word": " just",
+            "probability": 0.98532
+          },
+          {
+            "start": 48.43,
+            "end": 48.75,
+            "word": " 4",
+            "probability": 0.99594
+          },
+          {
+            "start": 48.75,
+            "end": 49.23,
+            "word": ".5",
+            "probability": 0.99914
+          },
+          {
+            "start": 49.23,
+            "end": 49.65,
+            "word": " pounds.",
+            "probability": 0.99447
+          }
+        ]
+      },
+      {
+        "start": 50.48,
+        "end": 52.9,
+        "text": "I love how affordable public transport can be.",
+        "words": [
+          {
+            "start": 50.48,
+            "end": 50.88,
+            "word": " I",
+            "probability": 0.99402
+          },
+          {
+            "start": 50.88,
+            "end": 51.04,
+            "word": " love",
+            "probability": 0.9864
+          },
+          {
+            "start": 51.04,
+            "end": 51.22,
+            "word": " how",
+            "probability": 0.99951
+          },
+          {
+            "start": 51.22,
+            "end": 51.58,
+            "word": " affordable",
+            "probability": 0.9869
+          },
+          {
+            "start": 51.58,
+            "end": 52.02,
+            "word": " public",
+            "probability": 0.99784
+          },
+          {
+            "start": 52.02,
+            "end": 52.46,
+            "word": " transport",
+            "probability": 0.9971
+          },
+          {
+            "start": 52.46,
+            "end": 52.72,
+            "word": " can",
+            "probability": 0.9974
+          },
+          {
+            "start": 52.72,
+            "end": 52.9,
+            "word": " be.",
+            "probability": 0.99927
+          }
+        ]
+      },
+      {
+        "start": 53.84,
+        "end": 55.7,
+        "text": "I'll definitely need to have some change ready.",
+        "words": [
+          {
+            "start": 53.84,
+            "end": 54.06,
+            "word": " I'll",
+            "probability": 0.99401
+          },
+          {
+            "start": 54.06,
+            "end": 54.34,
+            "word": " definitely",
+            "probability": 0.99696
+          },
+          {
+            "start": 54.34,
+            "end": 54.72,
+            "word": " need",
+            "probability": 0.99538
+          },
+          {
+            "start": 54.72,
+            "end": 54.86,
+            "word": " to",
+            "probability": 0.99817
+          },
+          {
+            "start": 54.86,
+            "end": 54.98,
+            "word": " have",
+            "probability": 0.99882
+          },
+          {
+            "start": 54.98,
+            "end": 55.14,
+            "word": " some",
+            "probability": 0.99735
+          },
+          {
+            "start": 55.14,
+            "end": 55.38,
+            "word": " change",
+            "probability": 0.99084
+          },
+          {
+            "start": 55.38,
+            "end": 55.7,
+            "word": " ready.",
+            "probability": 0.98263
+          }
+        ]
+      },
+      {
+        "start": 56.71,
+        "end": 58.77,
+        "text": "By the way, do you know what time the bus leaves?",
+        "words": [
+          {
+            "start": 56.71,
+            "end": 56.89,
+            "word": " By",
+            "probability": 0.98992
+          },
+          {
+            "start": 56.89,
+            "end": 56.99,
+            "word": " the",
+            "probability": 0.9993
+          },
+          {
+            "start": 56.99,
+            "end": 57.19,
+            "word": " way,",
+            "probability": 0.9995
+          },
+          {
+            "start": 57.59,
+            "end": 57.65,
+            "word": " do",
+            "probability": 0.97845
+          },
+          {
+            "start": 57.65,
+            "end": 57.73,
+            "word": " you",
+            "probability": 0.99817
+          },
+          {
+            "start": 57.73,
+            "end": 57.85,
+            "word": " know",
+            "probability": 0.99768
+          },
+          {
+            "start": 57.85,
+            "end": 57.99,
+            "word": " what",
+            "probability": 0.99832
+          },
+          {
+            "start": 57.99,
+            "end": 58.17,
+            "word": " time",
+            "probability": 0.97748
+          },
+          {
+            "start": 58.17,
+            "end": 58.33,
+            "word": " the",
+            "probability": 0.99298
+          },
+          {
+            "start": 58.33,
+            "end": 58.51,
+            "word": " bus",
+            "probability": 0.997
+          },
+          {
+            "start": 58.51,
+            "end": 58.77,
+            "word": " leaves?",
+            "probability": 0.99441
+          }
+        ]
+      },
+      {
+        "start": 59.56,
+        "end": 61.4,
+        "text": "I want to make sure I don't miss it.",
+        "words": [
+          {
+            "start": 59.56,
+            "end": 60.0,
+            "word": " I",
+            "probability": 0.99815
+          },
+          {
+            "start": 60.0,
+            "end": 60.14,
+            "word": " want",
+            "probability": 0.99521
+          },
+          {
+            "start": 60.14,
+            "end": 60.26,
+            "word": " to",
+            "probability": 0.99815
+          },
+          {
+            "start": 60.26,
+            "end": 60.4,
+            "word": " make",
+            "probability": 0.99817
+          },
+          {
+            "start": 60.4,
+            "end": 60.6,
+            "word": " sure",
+            "probability": 0.99933
+          },
+          {
+            "start": 60.6,
+            "end": 60.72,
+            "word": " I",
+            "probability": 0.99299
+          },
+          {
+            "start": 60.72,
+            "end": 60.94,
+            "word": " don't",
+            "probability": 0.99931
+          },
+          {
+            "start": 60.94,
+            "end": 61.1,
+            "word": " miss",
+            "probability": 0.97544
+          },
+          {
+            "start": 61.1,
+            "end": 61.4,
+            "word": " it.",
+            "probability": 0.99914
+          }
+        ]
+      },
+      {
+        "start": 71.02,
+        "end": 74.12,
+        "text": "Hey, I'm really excited about my trip to the city tomorrow.",
+        "words": [
+          {
+            "start": 71.02,
+            "end": 71.46,
+            "word": " Hey,",
+            "probability": 0.69768
+          },
+          {
+            "start": 71.74,
+            "end": 71.92,
+            "word": " I'm",
+            "probability": 0.98462
+          },
+          {
+            "start": 71.92,
+            "end": 72.14,
+            "word": " really",
+            "probability": 0.99426
+          },
+          {
+            "start": 72.14,
+            "end": 72.56,
+            "word": " excited",
+            "probability": 0.99884
+          },
+          {
+            "start": 72.56,
+            "end": 72.8,
+            "word": " about",
+            "probability": 0.99726
+          },
+          {
+            "start": 72.8,
+            "end": 73.0,
+            "word": " my",
+            "probability": 0.99749
+          },
+          {
+            "start": 73.0,
+            "end": 73.18,
+            "word": " trip",
+            "probability": 0.99966
+          },
+          {
+            "start": 73.18,
+            "end": 73.38,
+            "word": " to",
+            "probability": 0.9964
+          },
+          {
+            "start": 73.38,
+            "end": 73.48,
+            "word": " the",
+            "probability": 0.98119
+          },
+          {
+            "start": 73.48,
+            "end": 73.7,
+            "word": " city",
+            "probability": 0.90883
+          },
+          {
+            "start": 73.7,
+            "end": 74.12,
+            "word": " tomorrow.",
+            "probability": 0.99146
+          }
+        ]
+      },
+      {
+        "start": 74.99,
+        "end": 76.91,
+        "text": "I was just thinking about how I'll get there.",
+        "words": [
+          {
+            "start": 74.99,
+            "end": 75.31,
+            "word": " I",
+            "probability": 0.99676
+          },
+          {
+            "start": 75.31,
+            "end": 75.43,
+            "word": " was",
+            "probability": 0.99868
+          },
+          {
+            "start": 75.43,
+            "end": 75.57,
+            "word": " just",
+            "probability": 0.99464
+          },
+          {
+            "start": 75.57,
+            "end": 75.93,
+            "word": " thinking",
+            "probability": 0.99853
+          },
+          {
+            "start": 75.93,
+            "end": 76.19,
+            "word": " about",
+            "probability": 0.9947
+          },
+          {
+            "start": 76.19,
+            "end": 76.41,
+            "word": " how",
+            "probability": 0.99811
+          },
+          {
+            "start": 76.41,
+            "end": 76.53,
+            "word": " I'll",
+            "probability": 0.98941
+          },
+          {
+            "start": 76.53,
+            "end": 76.67,
+            "word": " get",
+            "probability": 0.99861
+          },
+          {
+            "start": 76.67,
+            "end": 76.91,
+            "word": " there.",
+            "probability": 0.99916
+          }
+        ]
+      },
+      {
+        "start": 77.91,
+        "end": 79.37,
+        "text": "Do you know how much the bus fare is?",
+        "words": [
+          {
+            "start": 77.91,
+            "end": 78.03,
+            "word": " Do",
+            "probability": 0.96882
+          },
+          {
+            "start": 78.03,
+            "end": 78.09,
+            "word": " you",
+            "probability": 0.99648
+          },
+          {
+            "start": 78.09,
+            "end": 78.21,
+            "word": " know",
+            "probability": 0.99725
+          },
+          {
+            "start": 78.21,
+            "end": 78.37,
+            "word": " how",
+            "probability": 0.99741
+          },
+          {
+            "start": 78.37,
+            "end": 78.51,
+            "word": " much",
+            "probability": 0.99944
+          },
+          {
+            "start": 78.51,
+            "end": 78.67,
+            "word": " the",
+            "probability": 0.99071
+          },
+          {
+            "start": 78.67,
+            "end": 78.81,
+            "word": " bus",
+            "probability": 0.97857
+          },
+          {
+            "start": 78.81,
+            "end": 79.05,
+            "word": " fare",
+            "probability": 0.94209
+          },
+          {
+            "start": 79.05,
+            "end": 79.37,
+            "word": " is?",
+            "probability": 0.9776
+          }
+        ]
+      },
+      {
+        "start": 80.22,
+        "end": 83.48,
+        "text": "I think I heard it's 2.5 pounds, that sounds pretty reasonable.",
+        "words": [
+          {
+            "start": 80.22,
+            "end": 80.44,
+            "word": " I",
+            "probability": 0.99711
+          },
+          {
+            "start": 80.44,
+            "end": 80.6,
+            "word": " think",
+            "probability": 0.99797
+          },
+          {
+            "start": 80.6,
+            "end": 80.76,
+            "word": " I",
+            "probability": 0.99742
+          },
+          {
+            "start": 80.76,
+            "end": 80.9,
+            "word": " heard",
+            "probability": 0.95815
+          },
+          {
+            "start": 80.9,
+            "end": 81.08,
+            "word": " it's",
+            "probability": 0.94311
+          },
+          {
+            "start": 81.08,
+            "end": 81.24,
+            "word": " 2",
+            "probability": 0.941
+          },
+          {
+            "start": 81.24,
+            "end": 81.74,
+            "word": ".5",
+            "probability": 0.99649
+          },
+          {
+            "start": 81.74,
+            "end": 82.08,
+            "word": " pounds,",
+            "probability": 0.88515
+          },
+          {
+            "start": 82.38,
+            "end": 82.5,
+            "word": " that",
+            "probability": 0.98378
+          },
+          {
+            "start": 82.5,
+            "end": 82.76,
+            "word": " sounds",
+            "probability": 0.9899
+          },
+          {
+            "start": 82.76,
+            "end": 83.04,
+            "word": " pretty",
+            "probability": 0.99758
+          },
+          {
+            "start": 83.04,
+            "end": 83.48,
+            "word": " reasonable.",
+            "probability": 0.99657
+          }
+        ]
+      },
+      {
+        "start": 84.39,
+        "end": 87.53,
+        "text": "If I take the subway, that'll be just 4.5 pounds.",
+        "words": [
+          {
+            "start": 84.39,
+            "end": 84.73,
+            "word": " If",
+            "probability": 0.99339
+          },
+          {
+            "start": 84.73,
+            "end": 84.83,
+            "word": " I",
+            "probability": 0.99729
+          },
+          {
+            "start": 84.83,
+            "end": 85.01,
+            "word": " take",
+            "probability": 0.99871
+          },
+          {
+            "start": 85.01,
+            "end": 85.17,
+            "word": " the",
+            "probability": 0.9748
+          },
+          {
+            "start": 85.17,
+            "end": 85.49,
+            "word": " subway,",
+            "probability": 0.99002
+          },
+          {
+            "start": 85.81,
+            "end": 86.03,
+            "word": " that'll",
+            "probability": 0.96653
+          },
+          {
+            "start": 86.03,
+            "end": 86.15,
+            "word": " be",
+            "probability": 0.98966
+          },
+          {
+            "start": 86.15,
+            "end": 86.33,
+            "word": " just",
+            "probability": 0.98632
+          },
+          {
+            "start": 86.33,
+            "end": 86.63,
+            "word": " 4",
+            "probability": 0.99561
+          },
+          {
+            "start": 86.63,
+            "end": 87.11,
+            "word": ".5",
+            "probability": 0.99922
+          },
+          {
+            "start": 87.11,
+            "end": 87.53,
+            "word": " pounds.",
+            "probability": 0.99429
+          }
+        ]
+      },
+      {
+        "start": 88.34,
+        "end": 90.8,
+        "text": "I love how affordable public transport can be.",
+        "words": [
+          {
+            "start": 88.34,
+            "end": 88.78,
+            "word": " I",
+            "probability": 0.99776
+          },
+          {
+            "start": 88.78,
+            "end": 88.96,
+            "word": " love",
+            "probability": 0.99475
+          },
+          {
+            "start": 88.96,
+            "end": 89.14,
+            "word": " how",
+            "probability": 0.99966
+          },
+          {
+            "start": 89.14,
+            "end": 89.48,
+            "word": " affordable",
+            "probability": 0.98174
+          },
+          {
+            "start": 89.48,
+            "end": 89.92,
+            "word": " public",
+            "probability": 0.99826
+          },
+          {
+            "start": 89.92,
+            "end": 90.36,
+            "word": " transport",
+            "probability": 0.99779
+          },
+          {
+            "start": 90.36,
+            "end": 90.62,
+            "word": " can",
+            "probability": 0.99746
+          },
+          {
+            "start": 90.62,
+            "end": 90.8,
+            "word": " be.",
+            "probability": 0.99943
+          }
+        ]
+      },
+      {
+        "start": 91.74,
+        "end": 93.6,
+        "text": "I'll definitely need to have some change ready.",
+        "words": [
+          {
+            "start": 91.74,
+            "end": 91.96,
+            "word": " I'll",
+            "probability": 0.99472
+          },
+          {
+            "start": 91.96,
+            "end": 92.24,
+            "word": " definitely",
+            "probability": 0.99784
+          },
+          {
+            "start": 92.24,
+            "end": 92.62,
+            "word": " need",
+            "probability": 0.99563
+          },
+          {
+            "start": 92.62,
+            "end": 92.76,
+            "word": " to",
+            "probability": 0.99872
+          },
+          {
+            "start": 92.76,
+            "end": 92.88,
+            "word": " have",
+            "probability": 0.99892
+          },
+          {
+            "start": 92.88,
+            "end": 93.04,
+            "word": " some",
+            "probability": 0.9982
+          },
+          {
+            "start": 93.04,
+            "end": 93.28,
+            "word": " change",
+            "probability": 0.9897
+          },
+          {
+            "start": 93.28,
+            "end": 93.6,
+            "word": " ready.",
+            "probability": 0.98612
+          }
+        ]
+      },
+      {
+        "start": 94.58,
+        "end": 96.66,
+        "text": "By the way, do you know what time the bus leaves?",
+        "words": [
+          {
+            "start": 94.58,
+            "end": 94.78,
+            "word": " By",
+            "probability": 0.99302
+          },
+          {
+            "start": 94.78,
+            "end": 94.88,
+            "word": " the",
+            "probability": 0.99907
+          },
+          {
+            "start": 94.88,
+            "end": 95.1,
+            "word": " way,",
+            "probability": 0.99949
+          },
+          {
+            "start": 95.48,
+            "end": 95.54,
+            "word": " do",
+            "probability": 0.97586
+          },
+          {
+            "start": 95.54,
+            "end": 95.62,
+            "word": " you",
+            "probability": 0.99829
+          },
+          {
+            "start": 95.62,
+            "end": 95.74,
+            "word": " know",
+            "probability": 0.99724
+          },
+          {
+            "start": 95.74,
+            "end": 95.88,
+            "word": " what",
+            "probability": 0.9981
+          },
+          {
+            "start": 95.88,
+            "end": 96.06,
+            "word": " time",
+            "probability": 0.97783
+          },
+          {
+            "start": 96.06,
+            "end": 96.22,
+            "word": " the",
+            "probability": 0.99616
+          },
+          {
+            "start": 96.22,
+            "end": 96.42,
+            "word": " bus",
+            "probability": 0.99729
+          },
+          {
+            "start": 96.42,
+            "end": 96.66,
+            "word": " leaves?",
+            "probability": 0.99599
+          }
+        ]
+      },
+      {
+        "start": 97.32,
+        "end": 99.38,
+        "text": "I want to make sure I don't miss it.",
+        "words": [
+          {
+            "start": 97.32,
+            "end": 97.68,
+            "word": " I",
+            "probability": 0.78201
+          },
+          {
+            "start": 97.68,
+            "end": 98.04,
+            "word": " want",
+            "probability": 0.98316
+          },
+          {
+            "start": 98.04,
+            "end": 98.18,
+            "word": " to",
+            "probability": 0.99556
+          },
+          {
+            "start": 98.18,
+            "end": 98.3,
+            "word": " make",
+            "probability": 0.99466
+          },
+          {
+            "start": 98.3,
+            "end": 98.5,
+            "word": " sure",
+            "probability": 0.99857
+          },
+          {
+            "start": 98.5,
+            "end": 98.64,
+            "word": " I",
+            "probability": 0.98223
+          },
+          {
+            "start": 98.64,
+            "end": 98.84,
+            "word": " don't",
+            "probability": 0.9935
+          },
+          {
+            "start": 98.84,
+            "end": 99.0,
+            "word": " miss",
+            "probability": 0.80468
+          },
+          {
+            "start": 99.0,
+            "end": 99.38,
+            "word": " it.",
+            "probability": 0.9957
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 3,
+        "detectedCompleteRenditions": 3,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 88,
+            "speechStart": 0.98,
+            "speechEnd": 29.33,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey i'm really excited about my trip to the city tomorrow i was just thinking about how i'll get there do you know how much the bus fare is i think i heard it's 2 5 pounds that sounds pretty reasonable if i take the subway that'll be just 4 5 pounds i love how affordable public transport can be i'll definitely need to have some change ready by the way do you know what time the bus leaves i want to make sure i don't miss it",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 88,
+            "wordEndIndexExclusive": 176,
+            "speechStart": 33.11,
+            "speechEnd": 61.4,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey i'm really excited about my trip to the city tomorrow i was just thinking about how i'll get there do you know how much the bus fare is i think i heard it's 2 5 pounds that sounds pretty reasonable if i take the subway that'll be just 4 5 pounds i love how affordable public transport can be i'll definitely need to have some change ready by the way do you know what time the bus leaves i want to make sure i don't miss it",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 176,
+            "wordEndIndexExclusive": 264,
+            "speechStart": 71.02,
+            "speechEnd": 99.38,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey i'm really excited about my trip to the city tomorrow i was just thinking about how i'll get there do you know how much the bus fare is i think i heard it's 2 5 pounds that sounds pretty reasonable if i take the subway that'll be just 4 5 pounds i love how affordable public transport can be i'll definitely need to have some change ready by the way do you know what time the bus leaves i want to make sure i don't miss it",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

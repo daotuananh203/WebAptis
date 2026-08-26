@@ -1,0 +1,879 @@
+{
+  "testId": "aptis-b2-11",
+  "blockId": "p2-spk-c",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-11/part-2/spk-c.mp3",
+  "audioSha256": "d590d7eac4dcd033c86d6246734ecfd0666fcbbbee04b1b4f513ff248f6a0916",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.17,
+        "end": 5.83,
+        "text": "I've discovered that the right soundtrack can enhance my study sessions significantly.",
+        "words": [
+          {
+            "start": 1.17,
+            "end": 1.69,
+            "word": " I've",
+            "probability": 0.76273
+          },
+          {
+            "start": 1.69,
+            "end": 2.13,
+            "word": " discovered",
+            "probability": 0.99624
+          },
+          {
+            "start": 2.13,
+            "end": 2.43,
+            "word": " that",
+            "probability": 0.98676
+          },
+          {
+            "start": 2.43,
+            "end": 2.59,
+            "word": " the",
+            "probability": 0.99282
+          },
+          {
+            "start": 2.59,
+            "end": 2.75,
+            "word": " right",
+            "probability": 0.83757
+          },
+          {
+            "start": 2.75,
+            "end": 3.33,
+            "word": " soundtrack",
+            "probability": 0.9438
+          },
+          {
+            "start": 3.33,
+            "end": 3.69,
+            "word": " can",
+            "probability": 0.99884
+          },
+          {
+            "start": 3.69,
+            "end": 4.05,
+            "word": " enhance",
+            "probability": 0.99556
+          },
+          {
+            "start": 4.05,
+            "end": 4.39,
+            "word": " my",
+            "probability": 0.99849
+          },
+          {
+            "start": 4.39,
+            "end": 4.73,
+            "word": " study",
+            "probability": 0.96854
+          },
+          {
+            "start": 4.73,
+            "end": 5.19,
+            "word": " sessions",
+            "probability": 0.78755
+          },
+          {
+            "start": 5.19,
+            "end": 5.83,
+            "word": " significantly.",
+            "probability": 0.99157
+          }
+        ]
+      },
+      {
+        "start": 6.57,
+        "end": 10.65,
+        "text": "When I study, having some background music makes a noticeable difference.",
+        "words": [
+          {
+            "start": 6.57,
+            "end": 6.75,
+            "word": " When",
+            "probability": 0.98786
+          },
+          {
+            "start": 6.75,
+            "end": 6.91,
+            "word": " I",
+            "probability": 0.99309
+          },
+          {
+            "start": 6.91,
+            "end": 7.29,
+            "word": " study,",
+            "probability": 0.99792
+          },
+          {
+            "start": 7.69,
+            "end": 7.93,
+            "word": " having",
+            "probability": 0.99462
+          },
+          {
+            "start": 7.93,
+            "end": 8.19,
+            "word": " some",
+            "probability": 0.99692
+          },
+          {
+            "start": 8.19,
+            "end": 8.59,
+            "word": " background",
+            "probability": 0.99796
+          },
+          {
+            "start": 8.59,
+            "end": 9.11,
+            "word": " music",
+            "probability": 0.9971
+          },
+          {
+            "start": 9.11,
+            "end": 9.43,
+            "word": " makes",
+            "probability": 0.98849
+          },
+          {
+            "start": 9.43,
+            "end": 9.65,
+            "word": " a",
+            "probability": 0.99446
+          },
+          {
+            "start": 9.65,
+            "end": 10.01,
+            "word": " noticeable",
+            "probability": 0.98229
+          },
+          {
+            "start": 10.01,
+            "end": 10.65,
+            "word": " difference.",
+            "probability": 0.99929
+          }
+        ]
+      },
+      {
+        "start": 11.39,
+        "end": 15.73,
+        "text": "I tend to choose soft melodies or instrumental tracks that won't distract me.",
+        "words": [
+          {
+            "start": 11.39,
+            "end": 11.49,
+            "word": " I",
+            "probability": 0.98895
+          },
+          {
+            "start": 11.49,
+            "end": 11.71,
+            "word": " tend",
+            "probability": 0.99875
+          },
+          {
+            "start": 11.71,
+            "end": 11.93,
+            "word": " to",
+            "probability": 0.9997
+          },
+          {
+            "start": 11.93,
+            "end": 12.27,
+            "word": " choose",
+            "probability": 0.99252
+          },
+          {
+            "start": 12.27,
+            "end": 12.57,
+            "word": " soft",
+            "probability": 0.98709
+          },
+          {
+            "start": 12.57,
+            "end": 12.93,
+            "word": " melodies",
+            "probability": 0.99223
+          },
+          {
+            "start": 12.93,
+            "end": 13.41,
+            "word": " or",
+            "probability": 0.9284
+          },
+          {
+            "start": 13.41,
+            "end": 13.93,
+            "word": " instrumental",
+            "probability": 0.99072
+          },
+          {
+            "start": 13.93,
+            "end": 14.45,
+            "word": " tracks",
+            "probability": 0.99374
+          },
+          {
+            "start": 14.45,
+            "end": 14.73,
+            "word": " that",
+            "probability": 0.99791
+          },
+          {
+            "start": 14.73,
+            "end": 15.05,
+            "word": " won't",
+            "probability": 0.99291
+          },
+          {
+            "start": 15.05,
+            "end": 15.39,
+            "word": " distract",
+            "probability": 0.99319
+          },
+          {
+            "start": 15.39,
+            "end": 15.73,
+            "word": " me.",
+            "probability": 0.99897
+          }
+        ]
+      },
+      {
+        "start": 16.19,
+        "end": 20.97,
+        "text": "The right music helps maintain my energy and makes long study sessions feel less tedious.",
+        "words": [
+          {
+            "start": 16.19,
+            "end": 16.31,
+            "word": " The",
+            "probability": 0.99491
+          },
+          {
+            "start": 16.31,
+            "end": 16.51,
+            "word": " right",
+            "probability": 0.98051
+          },
+          {
+            "start": 16.51,
+            "end": 16.99,
+            "word": " music",
+            "probability": 0.99283
+          },
+          {
+            "start": 16.99,
+            "end": 17.29,
+            "word": " helps",
+            "probability": 0.99751
+          },
+          {
+            "start": 17.29,
+            "end": 17.75,
+            "word": " maintain",
+            "probability": 0.99574
+          },
+          {
+            "start": 17.75,
+            "end": 18.01,
+            "word": " my",
+            "probability": 0.99968
+          },
+          {
+            "start": 18.01,
+            "end": 18.41,
+            "word": " energy",
+            "probability": 0.99931
+          },
+          {
+            "start": 18.41,
+            "end": 18.73,
+            "word": " and",
+            "probability": 0.96619
+          },
+          {
+            "start": 18.73,
+            "end": 18.91,
+            "word": " makes",
+            "probability": 0.98651
+          },
+          {
+            "start": 18.91,
+            "end": 19.19,
+            "word": " long",
+            "probability": 0.9901
+          },
+          {
+            "start": 19.19,
+            "end": 19.55,
+            "word": " study",
+            "probability": 0.81325
+          },
+          {
+            "start": 19.55,
+            "end": 20.09,
+            "word": " sessions",
+            "probability": 0.99806
+          },
+          {
+            "start": 20.09,
+            "end": 20.35,
+            "word": " feel",
+            "probability": 0.9982
+          },
+          {
+            "start": 20.35,
+            "end": 20.61,
+            "word": " less",
+            "probability": 0.94824
+          },
+          {
+            "start": 20.61,
+            "end": 20.97,
+            "word": " tedious.",
+            "probability": 0.99837
+          }
+        ]
+      },
+      {
+        "start": 21.63,
+        "end": 25.83,
+        "text": "It creates a motivating atmosphere that encourages me to keep pushing through.",
+        "words": [
+          {
+            "start": 21.63,
+            "end": 21.79,
+            "word": " It",
+            "probability": 0.99639
+          },
+          {
+            "start": 21.79,
+            "end": 22.15,
+            "word": " creates",
+            "probability": 0.99806
+          },
+          {
+            "start": 22.15,
+            "end": 22.41,
+            "word": " a",
+            "probability": 0.9982
+          },
+          {
+            "start": 22.41,
+            "end": 23.01,
+            "word": " motivating",
+            "probability": 0.98829
+          },
+          {
+            "start": 23.01,
+            "end": 23.57,
+            "word": " atmosphere",
+            "probability": 0.99949
+          },
+          {
+            "start": 23.57,
+            "end": 23.95,
+            "word": " that",
+            "probability": 0.99882
+          },
+          {
+            "start": 23.95,
+            "end": 24.43,
+            "word": " encourages",
+            "probability": 0.99795
+          },
+          {
+            "start": 24.43,
+            "end": 24.79,
+            "word": " me",
+            "probability": 0.99903
+          },
+          {
+            "start": 24.79,
+            "end": 24.95,
+            "word": " to",
+            "probability": 0.99943
+          },
+          {
+            "start": 24.95,
+            "end": 25.13,
+            "word": " keep",
+            "probability": 0.99926
+          },
+          {
+            "start": 25.13,
+            "end": 25.49,
+            "word": " pushing",
+            "probability": 0.99843
+          },
+          {
+            "start": 25.49,
+            "end": 25.83,
+            "word": " through.",
+            "probability": 0.99678
+          }
+        ]
+      },
+      {
+        "start": 25.83,
+        "end": 35.07,
+        "text": "I've discovered that the right soundtrack can enhance my study sessions significantly.",
+        "words": [
+          {
+            "start": 25.83,
+            "end": 26.89,
+            "word": " I've",
+            "probability": 0.86995
+          },
+          {
+            "start": 30.73,
+            "end": 31.17,
+            "word": " discovered",
+            "probability": 0.99723
+          },
+          {
+            "start": 31.17,
+            "end": 31.45,
+            "word": " that",
+            "probability": 0.98547
+          },
+          {
+            "start": 31.45,
+            "end": 31.63,
+            "word": " the",
+            "probability": 0.99353
+          },
+          {
+            "start": 31.63,
+            "end": 31.79,
+            "word": " right",
+            "probability": 0.86196
+          },
+          {
+            "start": 31.79,
+            "end": 32.35,
+            "word": " soundtrack",
+            "probability": 0.87395
+          },
+          {
+            "start": 32.35,
+            "end": 32.73,
+            "word": " can",
+            "probability": 0.998
+          },
+          {
+            "start": 32.73,
+            "end": 33.21,
+            "word": " enhance",
+            "probability": 0.9951
+          },
+          {
+            "start": 33.21,
+            "end": 33.43,
+            "word": " my",
+            "probability": 0.99723
+          },
+          {
+            "start": 33.43,
+            "end": 33.77,
+            "word": " study",
+            "probability": 0.95774
+          },
+          {
+            "start": 33.77,
+            "end": 34.27,
+            "word": " sessions",
+            "probability": 0.86514
+          },
+          {
+            "start": 34.27,
+            "end": 35.07,
+            "word": " significantly.",
+            "probability": 0.99479
+          }
+        ]
+      },
+      {
+        "start": 35.69,
+        "end": 39.67,
+        "text": "When I study, having some background music makes a noticeable difference.",
+        "words": [
+          {
+            "start": 35.69,
+            "end": 35.79,
+            "word": " When",
+            "probability": 0.99204
+          },
+          {
+            "start": 35.79,
+            "end": 35.95,
+            "word": " I",
+            "probability": 0.9954
+          },
+          {
+            "start": 35.95,
+            "end": 36.33,
+            "word": " study,",
+            "probability": 0.9977
+          },
+          {
+            "start": 36.79,
+            "end": 36.99,
+            "word": " having",
+            "probability": 0.99668
+          },
+          {
+            "start": 36.99,
+            "end": 37.23,
+            "word": " some",
+            "probability": 0.99742
+          },
+          {
+            "start": 37.23,
+            "end": 37.65,
+            "word": " background",
+            "probability": 0.9974
+          },
+          {
+            "start": 37.65,
+            "end": 38.15,
+            "word": " music",
+            "probability": 0.9977
+          },
+          {
+            "start": 38.15,
+            "end": 38.47,
+            "word": " makes",
+            "probability": 0.9903
+          },
+          {
+            "start": 38.47,
+            "end": 38.69,
+            "word": " a",
+            "probability": 0.99461
+          },
+          {
+            "start": 38.69,
+            "end": 39.15,
+            "word": " noticeable",
+            "probability": 0.98298
+          },
+          {
+            "start": 39.15,
+            "end": 39.67,
+            "word": " difference.",
+            "probability": 0.99924
+          }
+        ]
+      },
+      {
+        "start": 40.33,
+        "end": 44.75,
+        "text": "I tend to choose soft melodies or instrumental tracks that won't distract me.",
+        "words": [
+          {
+            "start": 40.33,
+            "end": 40.53,
+            "word": " I",
+            "probability": 0.99874
+          },
+          {
+            "start": 40.53,
+            "end": 40.75,
+            "word": " tend",
+            "probability": 0.99878
+          },
+          {
+            "start": 40.75,
+            "end": 40.97,
+            "word": " to",
+            "probability": 0.99957
+          },
+          {
+            "start": 40.97,
+            "end": 41.31,
+            "word": " choose",
+            "probability": 0.99259
+          },
+          {
+            "start": 41.31,
+            "end": 41.61,
+            "word": " soft",
+            "probability": 0.99027
+          },
+          {
+            "start": 41.61,
+            "end": 41.97,
+            "word": " melodies",
+            "probability": 0.99256
+          },
+          {
+            "start": 41.97,
+            "end": 42.43,
+            "word": " or",
+            "probability": 0.96898
+          },
+          {
+            "start": 42.43,
+            "end": 42.95,
+            "word": " instrumental",
+            "probability": 0.98863
+          },
+          {
+            "start": 42.95,
+            "end": 43.47,
+            "word": " tracks",
+            "probability": 0.9943
+          },
+          {
+            "start": 43.47,
+            "end": 43.77,
+            "word": " that",
+            "probability": 0.99892
+          },
+          {
+            "start": 43.77,
+            "end": 44.07,
+            "word": " won't",
+            "probability": 0.99327
+          },
+          {
+            "start": 44.07,
+            "end": 44.41,
+            "word": " distract",
+            "probability": 0.99261
+          },
+          {
+            "start": 44.41,
+            "end": 44.75,
+            "word": " me.",
+            "probability": 0.99874
+          }
+        ]
+      },
+      {
+        "start": 45.25,
+        "end": 50.03,
+        "text": "The right music helps maintain my energy and makes long study sessions feel less tedious.",
+        "words": [
+          {
+            "start": 45.25,
+            "end": 45.37,
+            "word": " The",
+            "probability": 0.99645
+          },
+          {
+            "start": 45.37,
+            "end": 45.55,
+            "word": " right",
+            "probability": 0.98035
+          },
+          {
+            "start": 45.55,
+            "end": 46.03,
+            "word": " music",
+            "probability": 0.99495
+          },
+          {
+            "start": 46.03,
+            "end": 46.33,
+            "word": " helps",
+            "probability": 0.9971
+          },
+          {
+            "start": 46.33,
+            "end": 46.79,
+            "word": " maintain",
+            "probability": 0.99644
+          },
+          {
+            "start": 46.79,
+            "end": 47.05,
+            "word": " my",
+            "probability": 0.99961
+          },
+          {
+            "start": 47.05,
+            "end": 47.45,
+            "word": " energy",
+            "probability": 0.9993
+          },
+          {
+            "start": 47.45,
+            "end": 47.75,
+            "word": " and",
+            "probability": 0.94872
+          },
+          {
+            "start": 47.75,
+            "end": 47.95,
+            "word": " makes",
+            "probability": 0.9881
+          },
+          {
+            "start": 47.95,
+            "end": 48.23,
+            "word": " long",
+            "probability": 0.99055
+          },
+          {
+            "start": 48.23,
+            "end": 48.55,
+            "word": " study",
+            "probability": 0.84899
+          },
+          {
+            "start": 48.55,
+            "end": 49.15,
+            "word": " sessions",
+            "probability": 0.99869
+          },
+          {
+            "start": 49.15,
+            "end": 49.41,
+            "word": " feel",
+            "probability": 0.99872
+          },
+          {
+            "start": 49.41,
+            "end": 49.65,
+            "word": " less",
+            "probability": 0.96097
+          },
+          {
+            "start": 49.65,
+            "end": 50.03,
+            "word": " tedious.",
+            "probability": 0.99753
+          }
+        ]
+      },
+      {
+        "start": 50.03,
+        "end": 54.87,
+        "text": "It creates a motivating atmosphere that encourages me to keep pushing through.",
+        "words": [
+          {
+            "start": 50.03,
+            "end": 50.81,
+            "word": " It",
+            "probability": 0.59548
+          },
+          {
+            "start": 50.81,
+            "end": 51.19,
+            "word": " creates",
+            "probability": 0.99521
+          },
+          {
+            "start": 51.19,
+            "end": 51.45,
+            "word": " a",
+            "probability": 0.99343
+          },
+          {
+            "start": 51.45,
+            "end": 52.05,
+            "word": " motivating",
+            "probability": 0.98306
+          },
+          {
+            "start": 52.05,
+            "end": 52.67,
+            "word": " atmosphere",
+            "probability": 0.999
+          },
+          {
+            "start": 52.67,
+            "end": 52.97,
+            "word": " that",
+            "probability": 0.99422
+          },
+          {
+            "start": 52.97,
+            "end": 53.49,
+            "word": " encourages",
+            "probability": 0.99766
+          },
+          {
+            "start": 53.49,
+            "end": 53.83,
+            "word": " me",
+            "probability": 0.99769
+          },
+          {
+            "start": 53.83,
+            "end": 53.99,
+            "word": " to",
+            "probability": 0.99898
+          },
+          {
+            "start": 53.99,
+            "end": 54.15,
+            "word": " keep",
+            "probability": 0.99859
+          },
+          {
+            "start": 54.15,
+            "end": 54.53,
+            "word": " pushing",
+            "probability": 0.99713
+          },
+          {
+            "start": 54.53,
+            "end": 54.87,
+            "word": " through.",
+            "probability": 0.9914
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-c",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 63,
+            "speechStart": 1.17,
+            "speechEnd": 25.83,
+            "sourceTokenCoverage": 0.9844,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9921,
+            "transcript": "i've discovered that the right soundtrack can enhance my study sessions significantly when i study having some background music makes a noticeable difference i tend to choose soft melodies or instrumental tracks that won't distract me the right music helps maintain my energy and makes long study sessions feel less tedious it creates a motivating atmosphere that encourages me to keep pushing through",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 63,
+            "wordEndIndexExclusive": 126,
+            "speechStart": 25.83,
+            "speechEnd": 54.87,
+            "sourceTokenCoverage": 0.9844,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9921,
+            "transcript": "i've discovered that the right soundtrack can enhance my study sessions significantly when i study having some background music makes a noticeable difference i tend to choose soft melodies or instrumental tracks that won't distract me the right music helps maintain my energy and makes long study sessions feel less tedious it creates a motivating atmosphere that encourages me to keep pushing through",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,2462 @@
+{
+  "testId": "aptis-b2-13",
+  "blockId": "p1-q05",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-13/part-1/q05.mp3",
+  "audioSha256": "e25cd57c97e4603d38e91699bfdcfc5fb842a372d4a5d0748a4ba98eeb32eb39",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.94,
+        "end": 2.24,
+        "text": "Welcome to the park.",
+        "words": [
+          {
+            "start": 0.94,
+            "end": 1.6,
+            "word": " Welcome",
+            "probability": 0.65888
+          },
+          {
+            "start": 1.6,
+            "end": 1.84,
+            "word": " to",
+            "probability": 0.99106
+          },
+          {
+            "start": 1.84,
+            "end": 1.96,
+            "word": " the",
+            "probability": 0.76547
+          },
+          {
+            "start": 1.96,
+            "end": 2.24,
+            "word": " park.",
+            "probability": 0.71346
+          }
+        ]
+      },
+      {
+        "start": 2.95,
+        "end": 5.11,
+        "text": "We extend our thanks to local businesses",
+        "words": [
+          {
+            "start": 2.95,
+            "end": 3.33,
+            "word": " We",
+            "probability": 0.99332
+          },
+          {
+            "start": 3.33,
+            "end": 3.63,
+            "word": " extend",
+            "probability": 0.99653
+          },
+          {
+            "start": 3.63,
+            "end": 3.87,
+            "word": " our",
+            "probability": 0.98351
+          },
+          {
+            "start": 3.87,
+            "end": 4.13,
+            "word": " thanks",
+            "probability": 0.99064
+          },
+          {
+            "start": 4.13,
+            "end": 4.33,
+            "word": " to",
+            "probability": 0.9972
+          },
+          {
+            "start": 4.33,
+            "end": 4.59,
+            "word": " local",
+            "probability": 0.96237
+          },
+          {
+            "start": 4.59,
+            "end": 5.11,
+            "word": " businesses",
+            "probability": 0.99406
+          }
+        ]
+      },
+      {
+        "start": 5.11,
+        "end": 7.05,
+        "text": "for sponsoring this free concert event.",
+        "words": [
+          {
+            "start": 5.11,
+            "end": 5.41,
+            "word": " for",
+            "probability": 0.9968
+          },
+          {
+            "start": 5.41,
+            "end": 5.89,
+            "word": " sponsoring",
+            "probability": 0.99825
+          },
+          {
+            "start": 5.89,
+            "end": 6.13,
+            "word": " this",
+            "probability": 0.99217
+          },
+          {
+            "start": 6.13,
+            "end": 6.39,
+            "word": " free",
+            "probability": 0.92123
+          },
+          {
+            "start": 6.39,
+            "end": 6.71,
+            "word": " concert",
+            "probability": 0.99192
+          },
+          {
+            "start": 6.71,
+            "end": 7.05,
+            "word": " event.",
+            "probability": 0.99926
+          }
+        ]
+      },
+      {
+        "start": 7.51,
+        "end": 9.29,
+        "text": "Be sure to check out their special offers.",
+        "words": [
+          {
+            "start": 7.51,
+            "end": 7.71,
+            "word": " Be",
+            "probability": 0.99172
+          },
+          {
+            "start": 7.71,
+            "end": 7.91,
+            "word": " sure",
+            "probability": 0.99717
+          },
+          {
+            "start": 7.91,
+            "end": 8.05,
+            "word": " to",
+            "probability": 0.99794
+          },
+          {
+            "start": 8.05,
+            "end": 8.23,
+            "word": " check",
+            "probability": 0.9939
+          },
+          {
+            "start": 8.23,
+            "end": 8.41,
+            "word": " out",
+            "probability": 0.99755
+          },
+          {
+            "start": 8.41,
+            "end": 8.63,
+            "word": " their",
+            "probability": 0.99668
+          },
+          {
+            "start": 8.63,
+            "end": 8.97,
+            "word": " special",
+            "probability": 0.98817
+          },
+          {
+            "start": 8.97,
+            "end": 9.29,
+            "word": " offers.",
+            "probability": 0.99607
+          }
+        ]
+      },
+      {
+        "start": 10.33,
+        "end": 12.15,
+        "text": "The concert will open with an orchestra",
+        "words": [
+          {
+            "start": 10.33,
+            "end": 10.51,
+            "word": " The",
+            "probability": 0.99507
+          },
+          {
+            "start": 10.51,
+            "end": 10.85,
+            "word": " concert",
+            "probability": 0.99502
+          },
+          {
+            "start": 10.85,
+            "end": 11.07,
+            "word": " will",
+            "probability": 0.99227
+          },
+          {
+            "start": 11.07,
+            "end": 11.35,
+            "word": " open",
+            "probability": 0.99761
+          },
+          {
+            "start": 11.35,
+            "end": 11.53,
+            "word": " with",
+            "probability": 0.98555
+          },
+          {
+            "start": 11.53,
+            "end": 11.69,
+            "word": " an",
+            "probability": 0.99873
+          },
+          {
+            "start": 11.69,
+            "end": 12.15,
+            "word": " orchestra",
+            "probability": 0.95048
+          }
+        ]
+      },
+      {
+        "start": 12.15,
+        "end": 13.69,
+        "text": "performing traditional songs,",
+        "words": [
+          {
+            "start": 12.15,
+            "end": 12.69,
+            "word": " performing",
+            "probability": 0.98904
+          },
+          {
+            "start": 12.69,
+            "end": 13.17,
+            "word": " traditional",
+            "probability": 0.99485
+          },
+          {
+            "start": 13.17,
+            "end": 13.69,
+            "word": " songs,",
+            "probability": 0.99587
+          }
+        ]
+      },
+      {
+        "start": 13.95,
+        "end": 16.07,
+        "text": "and this year is especially exciting",
+        "words": [
+          {
+            "start": 13.95,
+            "end": 14.23,
+            "word": " and",
+            "probability": 0.99669
+          },
+          {
+            "start": 14.23,
+            "end": 14.49,
+            "word": " this",
+            "probability": 0.9967
+          },
+          {
+            "start": 14.49,
+            "end": 14.77,
+            "word": " year",
+            "probability": 0.9977
+          },
+          {
+            "start": 14.77,
+            "end": 15.03,
+            "word": " is",
+            "probability": 0.97006
+          },
+          {
+            "start": 15.03,
+            "end": 15.57,
+            "word": " especially",
+            "probability": 0.99369
+          },
+          {
+            "start": 15.57,
+            "end": 16.07,
+            "word": " exciting",
+            "probability": 0.99969
+          }
+        ]
+      },
+      {
+        "start": 16.07,
+        "end": 18.49,
+        "text": "as many school orchestras are joining in.",
+        "words": [
+          {
+            "start": 16.07,
+            "end": 16.49,
+            "word": " as",
+            "probability": 0.87376
+          },
+          {
+            "start": 16.49,
+            "end": 16.81,
+            "word": " many",
+            "probability": 0.99924
+          },
+          {
+            "start": 16.81,
+            "end": 17.13,
+            "word": " school",
+            "probability": 0.99473
+          },
+          {
+            "start": 17.13,
+            "end": 17.65,
+            "word": " orchestras",
+            "probability": 0.9909
+          },
+          {
+            "start": 17.65,
+            "end": 17.91,
+            "word": " are",
+            "probability": 0.99889
+          },
+          {
+            "start": 17.91,
+            "end": 18.23,
+            "word": " joining",
+            "probability": 0.99842
+          },
+          {
+            "start": 18.23,
+            "end": 18.49,
+            "word": " in.",
+            "probability": 0.99821
+          }
+        ]
+      },
+      {
+        "start": 19.19,
+        "end": 22.09,
+        "text": "Following that, there will be a surprise talent performance",
+        "words": [
+          {
+            "start": 19.19,
+            "end": 19.57,
+            "word": " Following",
+            "probability": 0.99765
+          },
+          {
+            "start": 19.57,
+            "end": 19.89,
+            "word": " that,",
+            "probability": 0.99961
+          },
+          {
+            "start": 20.19,
+            "end": 20.43,
+            "word": " there",
+            "probability": 0.99731
+          },
+          {
+            "start": 20.43,
+            "end": 20.53,
+            "word": " will",
+            "probability": 0.99655
+          },
+          {
+            "start": 20.53,
+            "end": 20.69,
+            "word": " be",
+            "probability": 0.99906
+          },
+          {
+            "start": 20.69,
+            "end": 20.79,
+            "word": " a",
+            "probability": 0.9984
+          },
+          {
+            "start": 20.79,
+            "end": 21.17,
+            "word": " surprise",
+            "probability": 0.83266
+          },
+          {
+            "start": 21.17,
+            "end": 21.61,
+            "word": " talent",
+            "probability": 0.98762
+          },
+          {
+            "start": 21.61,
+            "end": 22.09,
+            "word": " performance",
+            "probability": 0.99843
+          }
+        ]
+      },
+      {
+        "start": 22.09,
+        "end": 25.37,
+        "text": "which has been praised by critics as a highlight of the show,",
+        "words": [
+          {
+            "start": 22.09,
+            "end": 22.73,
+            "word": " which",
+            "probability": 0.25168
+          },
+          {
+            "start": 22.73,
+            "end": 22.87,
+            "word": " has",
+            "probability": 0.99566
+          },
+          {
+            "start": 22.87,
+            "end": 23.05,
+            "word": " been",
+            "probability": 0.99839
+          },
+          {
+            "start": 23.05,
+            "end": 23.39,
+            "word": " praised",
+            "probability": 0.97625
+          },
+          {
+            "start": 23.39,
+            "end": 23.63,
+            "word": " by",
+            "probability": 0.99927
+          },
+          {
+            "start": 23.63,
+            "end": 23.93,
+            "word": " critics",
+            "probability": 0.99266
+          },
+          {
+            "start": 23.93,
+            "end": 24.27,
+            "word": " as",
+            "probability": 0.99637
+          },
+          {
+            "start": 24.27,
+            "end": 24.39,
+            "word": " a",
+            "probability": 0.98124
+          },
+          {
+            "start": 24.39,
+            "end": 24.79,
+            "word": " highlight",
+            "probability": 0.99634
+          },
+          {
+            "start": 24.79,
+            "end": 25.01,
+            "word": " of",
+            "probability": 0.998
+          },
+          {
+            "start": 25.01,
+            "end": 25.13,
+            "word": " the",
+            "probability": 0.99407
+          },
+          {
+            "start": 25.13,
+            "end": 25.37,
+            "word": " show,",
+            "probability": 0.99895
+          }
+        ]
+      },
+      {
+        "start": 25.91,
+        "end": 27.43,
+        "text": "leading up to a closing performance",
+        "words": [
+          {
+            "start": 25.91,
+            "end": 26.03,
+            "word": " leading",
+            "probability": 0.99806
+          },
+          {
+            "start": 26.03,
+            "end": 26.27,
+            "word": " up",
+            "probability": 0.99771
+          },
+          {
+            "start": 26.27,
+            "end": 26.41,
+            "word": " to",
+            "probability": 0.99927
+          },
+          {
+            "start": 26.41,
+            "end": 26.51,
+            "word": " a",
+            "probability": 0.99339
+          },
+          {
+            "start": 26.51,
+            "end": 26.85,
+            "word": " closing",
+            "probability": 0.98344
+          },
+          {
+            "start": 26.85,
+            "end": 27.43,
+            "word": " performance",
+            "probability": 0.99933
+          }
+        ]
+      },
+      {
+        "start": 27.43,
+        "end": 29.15,
+        "text": "by the local favorite boy band.",
+        "words": [
+          {
+            "start": 27.43,
+            "end": 27.63,
+            "word": " by",
+            "probability": 0.99862
+          },
+          {
+            "start": 27.63,
+            "end": 27.77,
+            "word": " the",
+            "probability": 0.97975
+          },
+          {
+            "start": 27.77,
+            "end": 28.11,
+            "word": " local",
+            "probability": 0.96594
+          },
+          {
+            "start": 28.11,
+            "end": 28.55,
+            "word": " favorite",
+            "probability": 0.44384
+          },
+          {
+            "start": 28.55,
+            "end": 28.83,
+            "word": " boy",
+            "probability": 0.92873
+          },
+          {
+            "start": 28.83,
+            "end": 29.15,
+            "word": " band.",
+            "probability": 0.93752
+          }
+        ]
+      },
+      {
+        "start": 29.15,
+        "end": 32.11,
+        "text": "While entry is free, seating is limited.",
+        "words": [
+          {
+            "start": 29.15,
+            "end": 30.15,
+            "word": " While",
+            "probability": 0.02408
+          },
+          {
+            "start": 30.15,
+            "end": 30.45,
+            "word": " entry",
+            "probability": 0.84187
+          },
+          {
+            "start": 30.45,
+            "end": 30.67,
+            "word": " is",
+            "probability": 0.99638
+          },
+          {
+            "start": 30.67,
+            "end": 30.93,
+            "word": " free,",
+            "probability": 0.99321
+          },
+          {
+            "start": 31.49,
+            "end": 31.63,
+            "word": " seating",
+            "probability": 0.97958
+          },
+          {
+            "start": 31.63,
+            "end": 31.81,
+            "word": " is",
+            "probability": 0.99917
+          },
+          {
+            "start": 31.81,
+            "end": 32.11,
+            "word": " limited.",
+            "probability": 0.99784
+          }
+        ]
+      },
+      {
+        "start": 32.81,
+        "end": 36.69,
+        "text": "You can reserve tickets online, especially for elderly guests or young children.",
+        "words": [
+          {
+            "start": 32.81,
+            "end": 32.99,
+            "word": " You",
+            "probability": 0.98712
+          },
+          {
+            "start": 32.99,
+            "end": 33.13,
+            "word": " can",
+            "probability": 0.99929
+          },
+          {
+            "start": 33.13,
+            "end": 33.47,
+            "word": " reserve",
+            "probability": 0.99098
+          },
+          {
+            "start": 33.47,
+            "end": 33.85,
+            "word": " tickets",
+            "probability": 0.96876
+          },
+          {
+            "start": 33.85,
+            "end": 34.31,
+            "word": " online,",
+            "probability": 0.99371
+          },
+          {
+            "start": 34.73,
+            "end": 35.13,
+            "word": " especially",
+            "probability": 0.99576
+          },
+          {
+            "start": 35.13,
+            "end": 35.33,
+            "word": " for",
+            "probability": 0.99659
+          },
+          {
+            "start": 35.33,
+            "end": 35.55,
+            "word": " elderly",
+            "probability": 0.99717
+          },
+          {
+            "start": 35.55,
+            "end": 35.89,
+            "word": " guests",
+            "probability": 0.99602
+          },
+          {
+            "start": 35.89,
+            "end": 36.11,
+            "word": " or",
+            "probability": 0.988
+          },
+          {
+            "start": 36.11,
+            "end": 36.29,
+            "word": " young",
+            "probability": 0.99448
+          },
+          {
+            "start": 36.29,
+            "end": 36.69,
+            "word": " children.",
+            "probability": 0.99798
+          }
+        ]
+      },
+      {
+        "start": 37.49,
+        "end": 41.61,
+        "text": "A standing area will also be available for those who want to enjoy the rhythm and dance",
+        "words": [
+          {
+            "start": 37.49,
+            "end": 37.67,
+            "word": " A",
+            "probability": 0.99236
+          },
+          {
+            "start": 37.67,
+            "end": 38.05,
+            "word": " standing",
+            "probability": 0.98654
+          },
+          {
+            "start": 38.05,
+            "end": 38.45,
+            "word": " area",
+            "probability": 0.99713
+          },
+          {
+            "start": 38.45,
+            "end": 38.61,
+            "word": " will",
+            "probability": 0.99611
+          },
+          {
+            "start": 38.61,
+            "end": 38.89,
+            "word": " also",
+            "probability": 0.96588
+          },
+          {
+            "start": 38.89,
+            "end": 39.09,
+            "word": " be",
+            "probability": 0.99757
+          },
+          {
+            "start": 39.09,
+            "end": 39.47,
+            "word": " available",
+            "probability": 0.99951
+          },
+          {
+            "start": 39.47,
+            "end": 39.73,
+            "word": " for",
+            "probability": 0.99451
+          },
+          {
+            "start": 39.73,
+            "end": 39.97,
+            "word": " those",
+            "probability": 0.99779
+          },
+          {
+            "start": 39.97,
+            "end": 40.13,
+            "word": " who",
+            "probability": 0.99472
+          },
+          {
+            "start": 40.13,
+            "end": 40.29,
+            "word": " want",
+            "probability": 0.99532
+          },
+          {
+            "start": 40.29,
+            "end": 40.43,
+            "word": " to",
+            "probability": 0.99807
+          },
+          {
+            "start": 40.43,
+            "end": 40.77,
+            "word": " enjoy",
+            "probability": 0.99694
+          },
+          {
+            "start": 40.77,
+            "end": 40.91,
+            "word": " the",
+            "probability": 0.9873
+          },
+          {
+            "start": 40.91,
+            "end": 41.17,
+            "word": " rhythm",
+            "probability": 0.98792
+          },
+          {
+            "start": 41.17,
+            "end": 41.35,
+            "word": " and",
+            "probability": 0.99666
+          },
+          {
+            "start": 41.35,
+            "end": 41.61,
+            "word": " dance",
+            "probability": 0.99346
+          }
+        ]
+      },
+      {
+        "start": 41.61,
+        "end": 41.87,
+        "text": "along.",
+        "words": [
+          {
+            "start": 41.61,
+            "end": 41.87,
+            "word": " along.",
+            "probability": 0.97999
+          }
+        ]
+      },
+      {
+        "start": 44.53,
+        "end": 45.49,
+        "text": "Welcome to the park.",
+        "words": [
+          {
+            "start": 44.53,
+            "end": 44.87,
+            "word": " Welcome",
+            "probability": 0.92217
+          },
+          {
+            "start": 44.87,
+            "end": 45.11,
+            "word": " to",
+            "probability": 0.99752
+          },
+          {
+            "start": 45.11,
+            "end": 45.21,
+            "word": " the",
+            "probability": 0.85506
+          },
+          {
+            "start": 45.21,
+            "end": 45.49,
+            "word": " park.",
+            "probability": 0.80146
+          }
+        ]
+      },
+      {
+        "start": 46.34,
+        "end": 50.3,
+        "text": "We extend our thanks to local businesses for sponsoring this free concert event.",
+        "words": [
+          {
+            "start": 46.34,
+            "end": 46.58,
+            "word": " We",
+            "probability": 0.9871
+          },
+          {
+            "start": 46.58,
+            "end": 46.9,
+            "word": " extend",
+            "probability": 0.99708
+          },
+          {
+            "start": 46.9,
+            "end": 47.14,
+            "word": " our",
+            "probability": 0.99148
+          },
+          {
+            "start": 47.14,
+            "end": 47.42,
+            "word": " thanks",
+            "probability": 0.99425
+          },
+          {
+            "start": 47.42,
+            "end": 47.6,
+            "word": " to",
+            "probability": 0.99589
+          },
+          {
+            "start": 47.6,
+            "end": 47.88,
+            "word": " local",
+            "probability": 0.98252
+          },
+          {
+            "start": 47.88,
+            "end": 48.36,
+            "word": " businesses",
+            "probability": 0.99508
+          },
+          {
+            "start": 48.36,
+            "end": 48.66,
+            "word": " for",
+            "probability": 0.99776
+          },
+          {
+            "start": 48.66,
+            "end": 49.14,
+            "word": " sponsoring",
+            "probability": 0.99821
+          },
+          {
+            "start": 49.14,
+            "end": 49.38,
+            "word": " this",
+            "probability": 0.9956
+          },
+          {
+            "start": 49.38,
+            "end": 49.64,
+            "word": " free",
+            "probability": 0.96318
+          },
+          {
+            "start": 49.64,
+            "end": 49.96,
+            "word": " concert",
+            "probability": 0.98974
+          },
+          {
+            "start": 49.96,
+            "end": 50.3,
+            "word": " event.",
+            "probability": 0.99901
+          }
+        ]
+      },
+      {
+        "start": 50.78,
+        "end": 52.58,
+        "text": "Be sure to check out their special offers.",
+        "words": [
+          {
+            "start": 50.78,
+            "end": 50.96,
+            "word": " Be",
+            "probability": 0.99297
+          },
+          {
+            "start": 50.96,
+            "end": 51.18,
+            "word": " sure",
+            "probability": 0.99778
+          },
+          {
+            "start": 51.18,
+            "end": 51.32,
+            "word": " to",
+            "probability": 0.99839
+          },
+          {
+            "start": 51.32,
+            "end": 51.5,
+            "word": " check",
+            "probability": 0.99309
+          },
+          {
+            "start": 51.5,
+            "end": 51.68,
+            "word": " out",
+            "probability": 0.99623
+          },
+          {
+            "start": 51.68,
+            "end": 51.88,
+            "word": " their",
+            "probability": 0.99663
+          },
+          {
+            "start": 51.88,
+            "end": 52.24,
+            "word": " special",
+            "probability": 0.97425
+          },
+          {
+            "start": 52.24,
+            "end": 52.58,
+            "word": " offers.",
+            "probability": 0.99335
+          }
+        ]
+      },
+      {
+        "start": 53.58,
+        "end": 58.72,
+        "text": "The concert will open with an orchestra performing traditional songs, and this year is especially",
+        "words": [
+          {
+            "start": 53.58,
+            "end": 53.78,
+            "word": " The",
+            "probability": 0.99424
+          },
+          {
+            "start": 53.78,
+            "end": 54.1,
+            "word": " concert",
+            "probability": 0.99612
+          },
+          {
+            "start": 54.1,
+            "end": 54.34,
+            "word": " will",
+            "probability": 0.99554
+          },
+          {
+            "start": 54.34,
+            "end": 54.62,
+            "word": " open",
+            "probability": 0.99812
+          },
+          {
+            "start": 54.62,
+            "end": 54.82,
+            "word": " with",
+            "probability": 0.98146
+          },
+          {
+            "start": 54.82,
+            "end": 54.96,
+            "word": " an",
+            "probability": 0.999
+          },
+          {
+            "start": 54.96,
+            "end": 55.44,
+            "word": " orchestra",
+            "probability": 0.94272
+          },
+          {
+            "start": 55.44,
+            "end": 55.94,
+            "word": " performing",
+            "probability": 0.9677
+          },
+          {
+            "start": 55.94,
+            "end": 56.42,
+            "word": " traditional",
+            "probability": 0.99687
+          },
+          {
+            "start": 56.42,
+            "end": 56.92,
+            "word": " songs,",
+            "probability": 0.99569
+          },
+          {
+            "start": 57.28,
+            "end": 57.5,
+            "word": " and",
+            "probability": 0.99647
+          },
+          {
+            "start": 57.5,
+            "end": 57.76,
+            "word": " this",
+            "probability": 0.99397
+          },
+          {
+            "start": 57.76,
+            "end": 58.04,
+            "word": " year",
+            "probability": 0.99832
+          },
+          {
+            "start": 58.04,
+            "end": 58.3,
+            "word": " is",
+            "probability": 0.96733
+          },
+          {
+            "start": 58.3,
+            "end": 58.72,
+            "word": " especially",
+            "probability": 0.97062
+          }
+        ]
+      },
+      {
+        "start": 58.72,
+        "end": 61.82,
+        "text": "especially exciting as many school orchestras are joining in.",
+        "words": [
+          {
+            "start": 58.72,
+            "end": 58.82,
+            "word": " especially",
+            "probability": 0.05029
+          },
+          {
+            "start": 58.82,
+            "end": 59.36,
+            "word": " exciting",
+            "probability": 0.99277
+          },
+          {
+            "start": 59.36,
+            "end": 59.76,
+            "word": " as",
+            "probability": 0.90447
+          },
+          {
+            "start": 59.76,
+            "end": 60.08,
+            "word": " many",
+            "probability": 0.9976
+          },
+          {
+            "start": 60.08,
+            "end": 60.4,
+            "word": " school",
+            "probability": 0.99112
+          },
+          {
+            "start": 60.4,
+            "end": 60.92,
+            "word": " orchestras",
+            "probability": 0.98507
+          },
+          {
+            "start": 60.92,
+            "end": 61.18,
+            "word": " are",
+            "probability": 0.99671
+          },
+          {
+            "start": 61.18,
+            "end": 61.48,
+            "word": " joining",
+            "probability": 0.99773
+          },
+          {
+            "start": 61.48,
+            "end": 61.82,
+            "word": " in.",
+            "probability": 0.99357
+          }
+        ]
+      },
+      {
+        "start": 62.5,
+        "end": 65.38,
+        "text": "Following that, there will be a surprise talent performance,",
+        "words": [
+          {
+            "start": 62.5,
+            "end": 62.84,
+            "word": " Following",
+            "probability": 0.99615
+          },
+          {
+            "start": 62.84,
+            "end": 63.18,
+            "word": " that,",
+            "probability": 0.99858
+          },
+          {
+            "start": 63.46,
+            "end": 63.7,
+            "word": " there",
+            "probability": 0.99689
+          },
+          {
+            "start": 63.7,
+            "end": 63.8,
+            "word": " will",
+            "probability": 0.99558
+          },
+          {
+            "start": 63.8,
+            "end": 63.94,
+            "word": " be",
+            "probability": 0.99838
+          },
+          {
+            "start": 63.94,
+            "end": 64.06,
+            "word": " a",
+            "probability": 0.99774
+          },
+          {
+            "start": 64.06,
+            "end": 64.46,
+            "word": " surprise",
+            "probability": 0.80454
+          },
+          {
+            "start": 64.46,
+            "end": 64.88,
+            "word": " talent",
+            "probability": 0.98275
+          },
+          {
+            "start": 64.88,
+            "end": 65.38,
+            "word": " performance,",
+            "probability": 0.99799
+          }
+        ]
+      },
+      {
+        "start": 65.7,
+        "end": 68.6,
+        "text": "which has been praised by critics as a highlight of the show,",
+        "words": [
+          {
+            "start": 65.7,
+            "end": 66.04,
+            "word": " which",
+            "probability": 0.99822
+          },
+          {
+            "start": 66.04,
+            "end": 66.14,
+            "word": " has",
+            "probability": 0.99492
+          },
+          {
+            "start": 66.14,
+            "end": 66.32,
+            "word": " been",
+            "probability": 0.99843
+          },
+          {
+            "start": 66.32,
+            "end": 66.66,
+            "word": " praised",
+            "probability": 0.98427
+          },
+          {
+            "start": 66.66,
+            "end": 66.9,
+            "word": " by",
+            "probability": 0.99942
+          },
+          {
+            "start": 66.9,
+            "end": 67.2,
+            "word": " critics",
+            "probability": 0.97512
+          },
+          {
+            "start": 67.2,
+            "end": 67.54,
+            "word": " as",
+            "probability": 0.99487
+          },
+          {
+            "start": 67.54,
+            "end": 67.64,
+            "word": " a",
+            "probability": 0.95873
+          },
+          {
+            "start": 67.64,
+            "end": 68.06,
+            "word": " highlight",
+            "probability": 0.9929
+          },
+          {
+            "start": 68.06,
+            "end": 68.26,
+            "word": " of",
+            "probability": 0.99777
+          },
+          {
+            "start": 68.26,
+            "end": 68.38,
+            "word": " the",
+            "probability": 0.994
+          },
+          {
+            "start": 68.38,
+            "end": 68.6,
+            "word": " show,",
+            "probability": 0.99881
+          }
+        ]
+      },
+      {
+        "start": 69.16,
+        "end": 72.44,
+        "text": "leading up to a closing performance by the local favorite boy band.",
+        "words": [
+          {
+            "start": 69.16,
+            "end": 69.3,
+            "word": " leading",
+            "probability": 0.99632
+          },
+          {
+            "start": 69.3,
+            "end": 69.52,
+            "word": " up",
+            "probability": 0.99841
+          },
+          {
+            "start": 69.52,
+            "end": 69.68,
+            "word": " to",
+            "probability": 0.99923
+          },
+          {
+            "start": 69.68,
+            "end": 69.78,
+            "word": " a",
+            "probability": 0.99777
+          },
+          {
+            "start": 69.78,
+            "end": 70.1,
+            "word": " closing",
+            "probability": 0.98452
+          },
+          {
+            "start": 70.1,
+            "end": 70.68,
+            "word": " performance",
+            "probability": 0.99942
+          },
+          {
+            "start": 70.68,
+            "end": 70.9,
+            "word": " by",
+            "probability": 0.99797
+          },
+          {
+            "start": 70.9,
+            "end": 71.04,
+            "word": " the",
+            "probability": 0.9821
+          },
+          {
+            "start": 71.04,
+            "end": 71.36,
+            "word": " local",
+            "probability": 0.95516
+          },
+          {
+            "start": 71.36,
+            "end": 71.8,
+            "word": " favorite",
+            "probability": 0.62829
+          },
+          {
+            "start": 71.8,
+            "end": 72.08,
+            "word": " boy",
+            "probability": 0.92119
+          },
+          {
+            "start": 72.08,
+            "end": 72.44,
+            "word": " band.",
+            "probability": 0.94292
+          }
+        ]
+      },
+      {
+        "start": 73.18,
+        "end": 75.36,
+        "text": "While entry is free, seating is limited.",
+        "words": [
+          {
+            "start": 73.18,
+            "end": 73.44,
+            "word": " While",
+            "probability": 0.87837
+          },
+          {
+            "start": 73.44,
+            "end": 73.72,
+            "word": " entry",
+            "probability": 0.83975
+          },
+          {
+            "start": 73.72,
+            "end": 73.94,
+            "word": " is",
+            "probability": 0.99807
+          },
+          {
+            "start": 73.94,
+            "end": 74.18,
+            "word": " free,",
+            "probability": 0.99788
+          },
+          {
+            "start": 74.74,
+            "end": 74.88,
+            "word": " seating",
+            "probability": 0.9954
+          },
+          {
+            "start": 74.88,
+            "end": 75.06,
+            "word": " is",
+            "probability": 0.99938
+          },
+          {
+            "start": 75.06,
+            "end": 75.36,
+            "word": " limited.",
+            "probability": 0.99908
+          }
+        ]
+      },
+      {
+        "start": 76.02,
+        "end": 79.94,
+        "text": "You can reserve tickets online, especially for elderly guests or young children.",
+        "words": [
+          {
+            "start": 76.02,
+            "end": 76.26,
+            "word": " You",
+            "probability": 0.99682
+          },
+          {
+            "start": 76.26,
+            "end": 76.4,
+            "word": " can",
+            "probability": 0.99963
+          },
+          {
+            "start": 76.4,
+            "end": 76.72,
+            "word": " reserve",
+            "probability": 0.99452
+          },
+          {
+            "start": 76.72,
+            "end": 77.1,
+            "word": " tickets",
+            "probability": 0.98706
+          },
+          {
+            "start": 77.1,
+            "end": 77.54,
+            "word": " online,",
+            "probability": 0.99635
+          },
+          {
+            "start": 77.96,
+            "end": 78.4,
+            "word": " especially",
+            "probability": 0.99803
+          },
+          {
+            "start": 78.4,
+            "end": 78.58,
+            "word": " for",
+            "probability": 0.99853
+          },
+          {
+            "start": 78.58,
+            "end": 78.8,
+            "word": " elderly",
+            "probability": 0.99822
+          },
+          {
+            "start": 78.8,
+            "end": 79.16,
+            "word": " guests",
+            "probability": 0.99708
+          },
+          {
+            "start": 79.16,
+            "end": 79.38,
+            "word": " or",
+            "probability": 0.99595
+          },
+          {
+            "start": 79.38,
+            "end": 79.58,
+            "word": " young",
+            "probability": 0.997
+          },
+          {
+            "start": 79.58,
+            "end": 79.94,
+            "word": " children.",
+            "probability": 0.99914
+          }
+        ]
+      },
+      {
+        "start": 80.66,
+        "end": 85.12,
+        "text": "A standing area will also be available for those who want to enjoy the rhythm and dance along.",
+        "words": [
+          {
+            "start": 80.66,
+            "end": 80.94,
+            "word": " A",
+            "probability": 0.99417
+          },
+          {
+            "start": 80.94,
+            "end": 81.3,
+            "word": " standing",
+            "probability": 0.98947
+          },
+          {
+            "start": 81.3,
+            "end": 81.7,
+            "word": " area",
+            "probability": 0.99806
+          },
+          {
+            "start": 81.7,
+            "end": 81.88,
+            "word": " will",
+            "probability": 0.99537
+          },
+          {
+            "start": 81.88,
+            "end": 82.16,
+            "word": " also",
+            "probability": 0.99484
+          },
+          {
+            "start": 82.16,
+            "end": 82.36,
+            "word": " be",
+            "probability": 0.99829
+          },
+          {
+            "start": 82.36,
+            "end": 82.72,
+            "word": " available",
+            "probability": 0.99965
+          },
+          {
+            "start": 82.72,
+            "end": 83.0,
+            "word": " for",
+            "probability": 0.99755
+          },
+          {
+            "start": 83.0,
+            "end": 83.24,
+            "word": " those",
+            "probability": 0.999
+          },
+          {
+            "start": 83.24,
+            "end": 83.4,
+            "word": " who",
+            "probability": 0.99205
+          },
+          {
+            "start": 83.4,
+            "end": 83.56,
+            "word": " want",
+            "probability": 0.99725
+          },
+          {
+            "start": 83.56,
+            "end": 83.7,
+            "word": " to",
+            "probability": 0.99841
+          },
+          {
+            "start": 83.7,
+            "end": 84.02,
+            "word": " enjoy",
+            "probability": 0.99807
+          },
+          {
+            "start": 84.02,
+            "end": 84.18,
+            "word": " the",
+            "probability": 0.99355
+          },
+          {
+            "start": 84.18,
+            "end": 84.44,
+            "word": " rhythm",
+            "probability": 0.99052
+          },
+          {
+            "start": 84.44,
+            "end": 84.64,
+            "word": " and",
+            "probability": 0.99861
+          },
+          {
+            "start": 84.64,
+            "end": 84.86,
+            "word": " dance",
+            "probability": 0.98612
+          },
+          {
+            "start": 84.86,
+            "end": 85.12,
+            "word": " along.",
+            "probability": 0.97213
+          }
+        ]
+      },
+      {
+        "start": 89.99,
+        "end": 90.91,
+        "text": "Welcome to the park!",
+        "words": [
+          {
+            "start": 89.99,
+            "end": 90.31,
+            "word": " Welcome",
+            "probability": 0.98108
+          },
+          {
+            "start": 90.31,
+            "end": 90.57,
+            "word": " to",
+            "probability": 0.99678
+          },
+          {
+            "start": 90.57,
+            "end": 90.67,
+            "word": " the",
+            "probability": 0.90663
+          },
+          {
+            "start": 90.67,
+            "end": 90.91,
+            "word": " park!",
+            "probability": 0.73961
+          }
+        ]
+      },
+      {
+        "start": 90.91,
+        "end": 95.75,
+        "text": "We extend our thanks to local businesses for sponsoring this free concert event.",
+        "words": [
+          {
+            "start": 90.91,
+            "end": 91.95,
+            "word": " We",
+            "probability": 0.63182
+          },
+          {
+            "start": 92.01,
+            "end": 92.33,
+            "word": " extend",
+            "probability": 0.99221
+          },
+          {
+            "start": 92.33,
+            "end": 92.57,
+            "word": " our",
+            "probability": 0.98131
+          },
+          {
+            "start": 92.57,
+            "end": 92.83,
+            "word": " thanks",
+            "probability": 0.99186
+          },
+          {
+            "start": 92.83,
+            "end": 93.03,
+            "word": " to",
+            "probability": 0.99583
+          },
+          {
+            "start": 93.03,
+            "end": 93.29,
+            "word": " local",
+            "probability": 0.97111
+          },
+          {
+            "start": 93.29,
+            "end": 93.77,
+            "word": " businesses",
+            "probability": 0.99391
+          },
+          {
+            "start": 93.77,
+            "end": 94.11,
+            "word": " for",
+            "probability": 0.99744
+          },
+          {
+            "start": 94.11,
+            "end": 94.57,
+            "word": " sponsoring",
+            "probability": 0.99859
+          },
+          {
+            "start": 94.57,
+            "end": 94.83,
+            "word": " this",
+            "probability": 0.99139
+          },
+          {
+            "start": 94.83,
+            "end": 95.09,
+            "word": " free",
+            "probability": 0.90846
+          },
+          {
+            "start": 95.09,
+            "end": 95.43,
+            "word": " concert",
+            "probability": 0.98734
+          },
+          {
+            "start": 95.43,
+            "end": 95.75,
+            "word": " event.",
+            "probability": 0.99878
+          }
+        ]
+      },
+      {
+        "start": 96.17,
+        "end": 98.01,
+        "text": "Be sure to check out their special offers.",
+        "words": [
+          {
+            "start": 96.17,
+            "end": 96.41,
+            "word": " Be",
+            "probability": 0.99262
+          },
+          {
+            "start": 96.41,
+            "end": 96.61,
+            "word": " sure",
+            "probability": 0.99811
+          },
+          {
+            "start": 96.61,
+            "end": 96.75,
+            "word": " to",
+            "probability": 0.99826
+          },
+          {
+            "start": 96.75,
+            "end": 96.95,
+            "word": " check",
+            "probability": 0.99197
+          },
+          {
+            "start": 96.95,
+            "end": 97.13,
+            "word": " out",
+            "probability": 0.99459
+          },
+          {
+            "start": 97.13,
+            "end": 97.33,
+            "word": " their",
+            "probability": 0.99666
+          },
+          {
+            "start": 97.33,
+            "end": 97.67,
+            "word": " special",
+            "probability": 0.97843
+          },
+          {
+            "start": 97.67,
+            "end": 98.01,
+            "word": " offers.",
+            "probability": 0.99691
+          }
+        ]
+      },
+      {
+        "start": 99.07,
+        "end": 102.37,
+        "text": "The concert will open with an orchestra performing traditional songs",
+        "words": [
+          {
+            "start": 99.07,
+            "end": 99.23,
+            "word": " The",
+            "probability": 0.99362
+          },
+          {
+            "start": 99.23,
+            "end": 99.55,
+            "word": " concert",
+            "probability": 0.99505
+          },
+          {
+            "start": 99.55,
+            "end": 99.77,
+            "word": " will",
+            "probability": 0.9933
+          },
+          {
+            "start": 99.77,
+            "end": 100.05,
+            "word": " open",
+            "probability": 0.9982
+          },
+          {
+            "start": 100.05,
+            "end": 100.23,
+            "word": " with",
+            "probability": 0.98621
+          },
+          {
+            "start": 100.23,
+            "end": 100.39,
+            "word": " an",
+            "probability": 0.99873
+          },
+          {
+            "start": 100.39,
+            "end": 100.87,
+            "word": " orchestra",
+            "probability": 0.95173
+          },
+          {
+            "start": 100.87,
+            "end": 101.37,
+            "word": " performing",
+            "probability": 0.98435
+          },
+          {
+            "start": 101.37,
+            "end": 101.81,
+            "word": " traditional",
+            "probability": 0.99479
+          },
+          {
+            "start": 101.81,
+            "end": 102.37,
+            "word": " songs",
+            "probability": 0.99612
+          }
+        ]
+      },
+      {
+        "start": 102.37,
+        "end": 107.21,
+        "text": "and this year is especially exciting as many school orchestras are joining in.",
+        "words": [
+          {
+            "start": 102.37,
+            "end": 102.91,
+            "word": " and",
+            "probability": 0.32568
+          },
+          {
+            "start": 102.91,
+            "end": 103.19,
+            "word": " this",
+            "probability": 0.98825
+          },
+          {
+            "start": 103.19,
+            "end": 103.49,
+            "word": " year",
+            "probability": 0.99783
+          },
+          {
+            "start": 103.49,
+            "end": 103.73,
+            "word": " is",
+            "probability": 0.97843
+          },
+          {
+            "start": 103.73,
+            "end": 104.25,
+            "word": " especially",
+            "probability": 0.99116
+          },
+          {
+            "start": 104.25,
+            "end": 104.77,
+            "word": " exciting",
+            "probability": 0.99954
+          },
+          {
+            "start": 104.77,
+            "end": 105.21,
+            "word": " as",
+            "probability": 0.94617
+          },
+          {
+            "start": 105.21,
+            "end": 105.53,
+            "word": " many",
+            "probability": 0.99943
+          },
+          {
+            "start": 105.53,
+            "end": 105.83,
+            "word": " school",
+            "probability": 0.99468
+          },
+          {
+            "start": 105.83,
+            "end": 106.35,
+            "word": " orchestras",
+            "probability": 0.99006
+          },
+          {
+            "start": 106.35,
+            "end": 106.61,
+            "word": " are",
+            "probability": 0.99838
+          },
+          {
+            "start": 106.61,
+            "end": 106.91,
+            "word": " joining",
+            "probability": 0.99856
+          },
+          {
+            "start": 106.91,
+            "end": 107.21,
+            "word": " in.",
+            "probability": 0.9977
+          }
+        ]
+      },
+      {
+        "start": 107.93,
+        "end": 110.79,
+        "text": "Following that, there will be a surprise talent performance",
+        "words": [
+          {
+            "start": 107.93,
+            "end": 108.29,
+            "word": " Following",
+            "probability": 0.99776
+          },
+          {
+            "start": 108.29,
+            "end": 108.61,
+            "word": " that,",
+            "probability": 0.99963
+          },
+          {
+            "start": 108.89,
+            "end": 109.13,
+            "word": " there",
+            "probability": 0.99764
+          },
+          {
+            "start": 109.13,
+            "end": 109.23,
+            "word": " will",
+            "probability": 0.99705
+          },
+          {
+            "start": 109.23,
+            "end": 109.39,
+            "word": " be",
+            "probability": 0.99905
+          },
+          {
+            "start": 109.39,
+            "end": 109.49,
+            "word": " a",
+            "probability": 0.99771
+          },
+          {
+            "start": 109.49,
+            "end": 109.89,
+            "word": " surprise",
+            "probability": 0.80883
+          },
+          {
+            "start": 109.89,
+            "end": 110.29,
+            "word": " talent",
+            "probability": 0.98864
+          },
+          {
+            "start": 110.29,
+            "end": 110.79,
+            "word": " performance",
+            "probability": 0.99753
+          }
+        ]
+      },
+      {
+        "start": 110.79,
+        "end": 114.07,
+        "text": "which has been praised by critics as a highlight of the show,",
+        "words": [
+          {
+            "start": 110.79,
+            "end": 111.43,
+            "word": " which",
+            "probability": 0.75316
+          },
+          {
+            "start": 111.43,
+            "end": 111.57,
+            "word": " has",
+            "probability": 0.99521
+          },
+          {
+            "start": 111.57,
+            "end": 111.75,
+            "word": " been",
+            "probability": 0.99878
+          },
+          {
+            "start": 111.75,
+            "end": 112.09,
+            "word": " praised",
+            "probability": 0.98494
+          },
+          {
+            "start": 112.09,
+            "end": 112.33,
+            "word": " by",
+            "probability": 0.9993
+          },
+          {
+            "start": 112.33,
+            "end": 112.63,
+            "word": " critics",
+            "probability": 0.98953
+          },
+          {
+            "start": 112.63,
+            "end": 112.97,
+            "word": " as",
+            "probability": 0.99355
+          },
+          {
+            "start": 112.97,
+            "end": 113.09,
+            "word": " a",
+            "probability": 0.96532
+          },
+          {
+            "start": 113.09,
+            "end": 113.49,
+            "word": " highlight",
+            "probability": 0.99379
+          },
+          {
+            "start": 113.49,
+            "end": 113.69,
+            "word": " of",
+            "probability": 0.99822
+          },
+          {
+            "start": 113.69,
+            "end": 113.83,
+            "word": " the",
+            "probability": 0.99737
+          },
+          {
+            "start": 113.83,
+            "end": 114.07,
+            "word": " show,",
+            "probability": 0.99803
+          }
+        ]
+      },
+      {
+        "start": 114.63,
+        "end": 117.87,
+        "text": "leading up to a closing performance by the local favorite boy band.",
+        "words": [
+          {
+            "start": 114.63,
+            "end": 114.75,
+            "word": " leading",
+            "probability": 0.99792
+          },
+          {
+            "start": 114.75,
+            "end": 114.97,
+            "word": " up",
+            "probability": 0.99752
+          },
+          {
+            "start": 114.97,
+            "end": 115.11,
+            "word": " to",
+            "probability": 0.99952
+          },
+          {
+            "start": 115.11,
+            "end": 115.21,
+            "word": " a",
+            "probability": 0.99221
+          },
+          {
+            "start": 115.21,
+            "end": 115.55,
+            "word": " closing",
+            "probability": 0.9877
+          },
+          {
+            "start": 115.55,
+            "end": 116.11,
+            "word": " performance",
+            "probability": 0.99929
+          },
+          {
+            "start": 116.11,
+            "end": 116.33,
+            "word": " by",
+            "probability": 0.99826
+          },
+          {
+            "start": 116.33,
+            "end": 116.47,
+            "word": " the",
+            "probability": 0.9904
+          },
+          {
+            "start": 116.47,
+            "end": 116.81,
+            "word": " local",
+            "probability": 0.96443
+          },
+          {
+            "start": 116.81,
+            "end": 117.25,
+            "word": " favorite",
+            "probability": 0.53414
+          },
+          {
+            "start": 117.25,
+            "end": 117.53,
+            "word": " boy",
+            "probability": 0.92724
+          },
+          {
+            "start": 117.53,
+            "end": 117.87,
+            "word": " band.",
+            "probability": 0.92858
+          }
+        ]
+      },
+      {
+        "start": 117.94,
+        "end": 120.82,
+        "text": "While entry is free, seating is limited.",
+        "words": [
+          {
+            "start": 117.94,
+            "end": 118.86,
+            "word": " While",
+            "probability": 0.52737
+          },
+          {
+            "start": 118.86,
+            "end": 119.16,
+            "word": " entry",
+            "probability": 0.9611
+          },
+          {
+            "start": 119.16,
+            "end": 119.38,
+            "word": " is",
+            "probability": 0.99586
+          },
+          {
+            "start": 119.38,
+            "end": 119.62,
+            "word": " free,",
+            "probability": 0.99204
+          },
+          {
+            "start": 120.12,
+            "end": 120.34,
+            "word": " seating",
+            "probability": 0.99337
+          },
+          {
+            "start": 120.34,
+            "end": 120.52,
+            "word": " is",
+            "probability": 0.99916
+          },
+          {
+            "start": 120.52,
+            "end": 120.82,
+            "word": " limited.",
+            "probability": 0.99827
+          }
+        ]
+      },
+      {
+        "start": 121.48,
+        "end": 125.42,
+        "text": "You can reserve tickets online, especially for elderly guests or young children.",
+        "words": [
+          {
+            "start": 121.48,
+            "end": 121.7,
+            "word": " You",
+            "probability": 0.99498
+          },
+          {
+            "start": 121.7,
+            "end": 121.84,
+            "word": " can",
+            "probability": 0.99932
+          },
+          {
+            "start": 121.84,
+            "end": 122.18,
+            "word": " reserve",
+            "probability": 0.99176
+          },
+          {
+            "start": 122.18,
+            "end": 122.56,
+            "word": " tickets",
+            "probability": 0.97939
+          },
+          {
+            "start": 122.56,
+            "end": 123.0,
+            "word": " online,",
+            "probability": 0.99439
+          },
+          {
+            "start": 123.4,
+            "end": 123.84,
+            "word": " especially",
+            "probability": 0.99536
+          },
+          {
+            "start": 123.84,
+            "end": 124.04,
+            "word": " for",
+            "probability": 0.99771
+          },
+          {
+            "start": 124.04,
+            "end": 124.24,
+            "word": " elderly",
+            "probability": 0.99776
+          },
+          {
+            "start": 124.24,
+            "end": 124.6,
+            "word": " guests",
+            "probability": 0.99554
+          },
+          {
+            "start": 124.6,
+            "end": 124.82,
+            "word": " or",
+            "probability": 0.98816
+          },
+          {
+            "start": 124.82,
+            "end": 125.0,
+            "word": " young",
+            "probability": 0.99479
+          },
+          {
+            "start": 125.0,
+            "end": 125.42,
+            "word": " children.",
+            "probability": 0.99804
+          }
+        ]
+      },
+      {
+        "start": 126.1,
+        "end": 130.58,
+        "text": "A standing area will also be available for those who want to enjoy the rhythm and dance along.",
+        "words": [
+          {
+            "start": 126.1,
+            "end": 126.38,
+            "word": " A",
+            "probability": 0.9936
+          },
+          {
+            "start": 126.38,
+            "end": 126.76,
+            "word": " standing",
+            "probability": 0.9848
+          },
+          {
+            "start": 126.76,
+            "end": 127.16,
+            "word": " area",
+            "probability": 0.99759
+          },
+          {
+            "start": 127.16,
+            "end": 127.32,
+            "word": " will",
+            "probability": 0.99306
+          },
+          {
+            "start": 127.32,
+            "end": 127.6,
+            "word": " also",
+            "probability": 0.9913
+          },
+          {
+            "start": 127.6,
+            "end": 127.8,
+            "word": " be",
+            "probability": 0.99823
+          },
+          {
+            "start": 127.8,
+            "end": 128.18,
+            "word": " available",
+            "probability": 0.99952
+          },
+          {
+            "start": 128.18,
+            "end": 128.44,
+            "word": " for",
+            "probability": 0.99758
+          },
+          {
+            "start": 128.44,
+            "end": 128.7,
+            "word": " those",
+            "probability": 0.99821
+          },
+          {
+            "start": 128.7,
+            "end": 128.86,
+            "word": " who",
+            "probability": 0.99423
+          },
+          {
+            "start": 128.86,
+            "end": 129.02,
+            "word": " want",
+            "probability": 0.99609
+          },
+          {
+            "start": 129.02,
+            "end": 129.14,
+            "word": " to",
+            "probability": 0.99877
+          },
+          {
+            "start": 129.14,
+            "end": 129.46,
+            "word": " enjoy",
+            "probability": 0.99712
+          },
+          {
+            "start": 129.46,
+            "end": 129.62,
+            "word": " the",
+            "probability": 0.99432
+          },
+          {
+            "start": 129.62,
+            "end": 129.86,
+            "word": " rhythm",
+            "probability": 0.99016
+          },
+          {
+            "start": 129.86,
+            "end": 130.04,
+            "word": " and",
+            "probability": 0.99777
+          },
+          {
+            "start": 130.04,
+            "end": 130.3,
+            "word": " dance",
+            "probability": 0.9922
+          },
+          {
+            "start": 130.3,
+            "end": 130.58,
+            "word": " along.",
+            "probability": 0.98161
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q05",
+        "expectedCompleteRenditions": 3,
+        "detectedCompleteRenditions": 3,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 118,
+            "speechStart": 0.94,
+            "speechEnd": 41.87,
+            "sourceTokenCoverage": 0.9915,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9915,
+            "transcript": "welcome to the park we extend our thanks to local businesses for sponsoring this free concert event be sure to check out their special offers the concert will open with an orchestra performing traditional songs and this year is especially exciting as many school orchestras are joining in following that there will be a surprise talent performance which has been praised by critics as a highlight of the show leading up to a closing performance by the local favorite boy band while entry is free seating is limited you can reserve tickets online especially for elderly guests or young children a standing area will also be available for those who want to enjoy the rhythm and dance along",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 118,
+            "wordEndIndexExclusive": 237,
+            "speechStart": 44.53,
+            "speechEnd": 85.12,
+            "sourceTokenCoverage": 0.9915,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9873,
+            "transcript": "welcome to the park we extend our thanks to local businesses for sponsoring this free concert event be sure to check out their special offers the concert will open with an orchestra performing traditional songs and this year is especially especially exciting as many school orchestras are joining in following that there will be a surprise talent performance which has been praised by critics as a highlight of the show leading up to a closing performance by the local favorite boy band while entry is free seating is limited you can reserve tickets online especially for elderly guests or young children a standing area will also be available for those who want to enjoy the rhythm and dance along",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 237,
+            "wordEndIndexExclusive": 355,
+            "speechStart": 89.99,
+            "speechEnd": 130.58,
+            "sourceTokenCoverage": 0.9915,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9915,
+            "transcript": "welcome to the park we extend our thanks to local businesses for sponsoring this free concert event be sure to check out their special offers the concert will open with an orchestra performing traditional songs and this year is especially exciting as many school orchestras are joining in following that there will be a surprise talent performance which has been praised by critics as a highlight of the show leading up to a closing performance by the local favorite boy band while entry is free seating is limited you can reserve tickets online especially for elderly guests or young children a standing area will also be available for those who want to enjoy the rhythm and dance along",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

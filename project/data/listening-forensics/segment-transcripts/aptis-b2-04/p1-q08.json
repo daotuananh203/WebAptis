@@ -1,0 +1,837 @@
+{
+  "testId": "aptis-b2-04",
+  "blockId": "p1-q08",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-04/part-1/q08.mp3",
+  "audioSha256": "5a91300db1b8f7a7c0ab0de4991fe7f55882cbaa90e660efa3c62128b2e634e1",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.66,
+        "end": 3.28,
+        "text": "Hey, Emma, are you ready for the picnic this weekend?",
+        "words": [
+          {
+            "start": 0.66,
+            "end": 1.2,
+            "word": " Hey,",
+            "probability": 0.40433
+          },
+          {
+            "start": 1.58,
+            "end": 1.74,
+            "word": " Emma,",
+            "probability": 0.44222
+          },
+          {
+            "start": 1.84,
+            "end": 1.9,
+            "word": " are",
+            "probability": 0.98441
+          },
+          {
+            "start": 1.9,
+            "end": 1.98,
+            "word": " you",
+            "probability": 0.99818
+          },
+          {
+            "start": 1.98,
+            "end": 2.12,
+            "word": " ready",
+            "probability": 0.99861
+          },
+          {
+            "start": 2.12,
+            "end": 2.34,
+            "word": " for",
+            "probability": 0.99673
+          },
+          {
+            "start": 2.34,
+            "end": 2.46,
+            "word": " the",
+            "probability": 0.97011
+          },
+          {
+            "start": 2.46,
+            "end": 2.7,
+            "word": " picnic",
+            "probability": 0.98795
+          },
+          {
+            "start": 2.7,
+            "end": 3.0,
+            "word": " this",
+            "probability": 0.99622
+          },
+          {
+            "start": 3.0,
+            "end": 3.28,
+            "word": " weekend?",
+            "probability": 0.98541
+          }
+        ]
+      },
+      {
+        "start": 4.56,
+        "end": 6.82,
+        "text": "Definitely, I'm really looking forward to it.",
+        "words": [
+          {
+            "start": 4.56,
+            "end": 5.04,
+            "word": " Definitely,",
+            "probability": 0.93383
+          },
+          {
+            "start": 5.04,
+            "end": 5.52,
+            "word": " I'm",
+            "probability": 0.9823
+          },
+          {
+            "start": 5.52,
+            "end": 5.72,
+            "word": " really",
+            "probability": 0.97924
+          },
+          {
+            "start": 5.72,
+            "end": 6.0,
+            "word": " looking",
+            "probability": 0.99885
+          },
+          {
+            "start": 6.0,
+            "end": 6.28,
+            "word": " forward",
+            "probability": 0.99192
+          },
+          {
+            "start": 6.28,
+            "end": 6.54,
+            "word": " to",
+            "probability": 0.99825
+          },
+          {
+            "start": 6.54,
+            "end": 6.82,
+            "word": " it.",
+            "probability": 0.99934
+          }
+        ]
+      },
+      {
+        "start": 7.57,
+        "end": 8.71,
+        "text": "Do you know what everyone's bringing?",
+        "words": [
+          {
+            "start": 7.57,
+            "end": 7.79,
+            "word": " Do",
+            "probability": 0.94656
+          },
+          {
+            "start": 7.79,
+            "end": 7.87,
+            "word": " you",
+            "probability": 0.99674
+          },
+          {
+            "start": 7.87,
+            "end": 7.99,
+            "word": " know",
+            "probability": 0.99574
+          },
+          {
+            "start": 7.99,
+            "end": 8.11,
+            "word": " what",
+            "probability": 0.99436
+          },
+          {
+            "start": 8.11,
+            "end": 8.47,
+            "word": " everyone's",
+            "probability": 0.96486
+          },
+          {
+            "start": 8.47,
+            "end": 8.71,
+            "word": " bringing?",
+            "probability": 0.9853
+          }
+        ]
+      },
+      {
+        "start": 9.13,
+        "end": 10.65,
+        "text": "Yeah, I spoke with a few people.",
+        "words": [
+          {
+            "start": 9.13,
+            "end": 9.31,
+            "word": " Yeah,",
+            "probability": 0.94359
+          },
+          {
+            "start": 9.49,
+            "end": 9.59,
+            "word": " I",
+            "probability": 0.99601
+          },
+          {
+            "start": 9.59,
+            "end": 9.77,
+            "word": " spoke",
+            "probability": 0.99346
+          },
+          {
+            "start": 9.77,
+            "end": 9.99,
+            "word": " with",
+            "probability": 0.99479
+          },
+          {
+            "start": 9.99,
+            "end": 10.07,
+            "word": " a",
+            "probability": 0.99167
+          },
+          {
+            "start": 10.07,
+            "end": 10.23,
+            "word": " few",
+            "probability": 0.99899
+          },
+          {
+            "start": 10.23,
+            "end": 10.65,
+            "word": " people.",
+            "probability": 0.99881
+          }
+        ]
+      },
+      {
+        "start": 11.35,
+        "end": 14.75,
+        "text": "Sarah's bringing cups and bowls, and Tom said he'll take care of drinks.",
+        "words": [
+          {
+            "start": 11.35,
+            "end": 11.65,
+            "word": " Sarah's",
+            "probability": 0.86998
+          },
+          {
+            "start": 11.65,
+            "end": 11.87,
+            "word": " bringing",
+            "probability": 0.99149
+          },
+          {
+            "start": 11.87,
+            "end": 12.13,
+            "word": " cups",
+            "probability": 0.95827
+          },
+          {
+            "start": 12.13,
+            "end": 12.39,
+            "word": " and",
+            "probability": 0.99333
+          },
+          {
+            "start": 12.39,
+            "end": 12.59,
+            "word": " bowls,",
+            "probability": 0.98194
+          },
+          {
+            "start": 13.19,
+            "end": 13.29,
+            "word": " and",
+            "probability": 0.98876
+          },
+          {
+            "start": 13.29,
+            "end": 13.51,
+            "word": " Tom",
+            "probability": 0.97862
+          },
+          {
+            "start": 13.51,
+            "end": 13.83,
+            "word": " said",
+            "probability": 0.99261
+          },
+          {
+            "start": 13.83,
+            "end": 13.99,
+            "word": " he'll",
+            "probability": 0.99327
+          },
+          {
+            "start": 13.99,
+            "end": 14.13,
+            "word": " take",
+            "probability": 0.99896
+          },
+          {
+            "start": 14.13,
+            "end": 14.33,
+            "word": " care",
+            "probability": 0.99904
+          },
+          {
+            "start": 14.33,
+            "end": 14.45,
+            "word": " of",
+            "probability": 0.99358
+          },
+          {
+            "start": 14.45,
+            "end": 14.75,
+            "word": " drinks.",
+            "probability": 0.99723
+          }
+        ]
+      },
+      {
+        "start": 15.63,
+        "end": 17.71,
+        "text": "He's got some lemonade and iced tea ready.",
+        "words": [
+          {
+            "start": 15.63,
+            "end": 15.85,
+            "word": " He's",
+            "probability": 0.99402
+          },
+          {
+            "start": 15.85,
+            "end": 15.95,
+            "word": " got",
+            "probability": 0.99781
+          },
+          {
+            "start": 15.95,
+            "end": 16.21,
+            "word": " some",
+            "probability": 0.98892
+          },
+          {
+            "start": 16.21,
+            "end": 16.61,
+            "word": " lemonade",
+            "probability": 0.9707
+          },
+          {
+            "start": 16.61,
+            "end": 16.93,
+            "word": " and",
+            "probability": 0.9901
+          },
+          {
+            "start": 16.93,
+            "end": 17.15,
+            "word": " iced",
+            "probability": 0.89696
+          },
+          {
+            "start": 17.15,
+            "end": 17.41,
+            "word": " tea",
+            "probability": 0.99789
+          },
+          {
+            "start": 17.41,
+            "end": 17.71,
+            "word": " ready.",
+            "probability": 0.85982
+          }
+        ]
+      },
+      {
+        "start": 18.19,
+        "end": 18.77,
+        "text": "Sounds great.",
+        "words": [
+          {
+            "start": 18.19,
+            "end": 18.49,
+            "word": " Sounds",
+            "probability": 0.98471
+          },
+          {
+            "start": 18.49,
+            "end": 18.77,
+            "word": " great.",
+            "probability": 0.9988
+          }
+        ]
+      },
+      {
+        "start": 19.21,
+        "end": 21.63,
+        "text": "I think Clara mentioned she's making a fruit salad, right?",
+        "words": [
+          {
+            "start": 19.21,
+            "end": 19.33,
+            "word": " I",
+            "probability": 0.99732
+          },
+          {
+            "start": 19.33,
+            "end": 19.49,
+            "word": " think",
+            "probability": 0.99877
+          },
+          {
+            "start": 19.49,
+            "end": 19.79,
+            "word": " Clara",
+            "probability": 0.93257
+          },
+          {
+            "start": 19.79,
+            "end": 20.15,
+            "word": " mentioned",
+            "probability": 0.8796
+          },
+          {
+            "start": 20.15,
+            "end": 20.51,
+            "word": " she's",
+            "probability": 0.9944
+          },
+          {
+            "start": 20.51,
+            "end": 20.75,
+            "word": " making",
+            "probability": 0.99774
+          },
+          {
+            "start": 20.75,
+            "end": 20.87,
+            "word": " a",
+            "probability": 0.97707
+          },
+          {
+            "start": 20.87,
+            "end": 21.05,
+            "word": " fruit",
+            "probability": 0.99322
+          },
+          {
+            "start": 21.05,
+            "end": 21.35,
+            "word": " salad,",
+            "probability": 0.99852
+          },
+          {
+            "start": 21.35,
+            "end": 21.63,
+            "word": " right?",
+            "probability": 0.99865
+          }
+        ]
+      },
+      {
+        "start": 22.23,
+        "end": 24.29,
+        "text": "Yep, and Leo's bringing chips and dips.",
+        "words": [
+          {
+            "start": 22.23,
+            "end": 22.37,
+            "word": " Yep,",
+            "probability": 0.66603
+          },
+          {
+            "start": 22.77,
+            "end": 22.89,
+            "word": " and",
+            "probability": 0.99652
+          },
+          {
+            "start": 22.89,
+            "end": 23.23,
+            "word": " Leo's",
+            "probability": 0.98527
+          },
+          {
+            "start": 23.23,
+            "end": 23.45,
+            "word": " bringing",
+            "probability": 0.99351
+          },
+          {
+            "start": 23.45,
+            "end": 23.77,
+            "word": " chips",
+            "probability": 0.99113
+          },
+          {
+            "start": 23.77,
+            "end": 24.07,
+            "word": " and",
+            "probability": 0.96911
+          },
+          {
+            "start": 24.07,
+            "end": 24.29,
+            "word": " dips.",
+            "probability": 0.99626
+          }
+        ]
+      },
+      {
+        "start": 24.79,
+        "end": 26.31,
+        "text": "I guess we're pretty covered on snacks.",
+        "words": [
+          {
+            "start": 24.79,
+            "end": 24.87,
+            "word": " I",
+            "probability": 0.99872
+          },
+          {
+            "start": 24.87,
+            "end": 25.03,
+            "word": " guess",
+            "probability": 0.99903
+          },
+          {
+            "start": 25.03,
+            "end": 25.25,
+            "word": " we're",
+            "probability": 0.98116
+          },
+          {
+            "start": 25.25,
+            "end": 25.49,
+            "word": " pretty",
+            "probability": 0.9989
+          },
+          {
+            "start": 25.49,
+            "end": 25.75,
+            "word": " covered",
+            "probability": 0.99469
+          },
+          {
+            "start": 25.75,
+            "end": 25.99,
+            "word": " on",
+            "probability": 0.99865
+          },
+          {
+            "start": 25.99,
+            "end": 26.31,
+            "word": " snacks.",
+            "probability": 0.97439
+          }
+        ]
+      },
+      {
+        "start": 26.81,
+        "end": 27.15,
+        "text": "Awesome.",
+        "words": [
+          {
+            "start": 26.81,
+            "end": 27.15,
+            "word": " Awesome.",
+            "probability": 0.98314
+          }
+        ]
+      },
+      {
+        "start": 27.89,
+        "end": 28.81,
+        "text": "So what should we bring?",
+        "words": [
+          {
+            "start": 27.89,
+            "end": 28.13,
+            "word": " So",
+            "probability": 0.99485
+          },
+          {
+            "start": 28.13,
+            "end": 28.29,
+            "word": " what",
+            "probability": 0.78505
+          },
+          {
+            "start": 28.29,
+            "end": 28.43,
+            "word": " should",
+            "probability": 0.99871
+          },
+          {
+            "start": 28.43,
+            "end": 28.57,
+            "word": " we",
+            "probability": 0.9975
+          },
+          {
+            "start": 28.57,
+            "end": 28.81,
+            "word": " bring?",
+            "probability": 0.99467
+          }
+        ]
+      },
+      {
+        "start": 28.81,
+        "end": 31.31,
+        "text": "Maybe some food in case we might get hungry?",
+        "words": [
+          {
+            "start": 28.81,
+            "end": 29.61,
+            "word": " Maybe",
+            "probability": 0.55116
+          },
+          {
+            "start": 29.61,
+            "end": 29.83,
+            "word": " some",
+            "probability": 0.99371
+          },
+          {
+            "start": 29.83,
+            "end": 30.17,
+            "word": " food",
+            "probability": 0.99656
+          },
+          {
+            "start": 30.17,
+            "end": 30.33,
+            "word": " in",
+            "probability": 0.94273
+          },
+          {
+            "start": 30.33,
+            "end": 30.49,
+            "word": " case",
+            "probability": 0.99738
+          },
+          {
+            "start": 30.49,
+            "end": 30.65,
+            "word": " we",
+            "probability": 0.99672
+          },
+          {
+            "start": 30.65,
+            "end": 30.79,
+            "word": " might",
+            "probability": 0.97475
+          },
+          {
+            "start": 30.79,
+            "end": 30.95,
+            "word": " get",
+            "probability": 0.99726
+          },
+          {
+            "start": 30.95,
+            "end": 31.31,
+            "word": " hungry?",
+            "probability": 0.99747
+          }
+        ]
+      },
+      {
+        "start": 31.65,
+        "end": 32.43,
+        "text": "That's a good idea.",
+        "words": [
+          {
+            "start": 31.65,
+            "end": 31.87,
+            "word": " That's",
+            "probability": 0.97459
+          },
+          {
+            "start": 31.87,
+            "end": 31.93,
+            "word": " a",
+            "probability": 0.99866
+          },
+          {
+            "start": 31.93,
+            "end": 32.05,
+            "word": " good",
+            "probability": 0.99853
+          },
+          {
+            "start": 32.05,
+            "end": 32.43,
+            "word": " idea.",
+            "probability": 0.9998
+          }
+        ]
+      },
+      {
+        "start": 33.11,
+        "end": 35.43,
+        "text": "How about we prepare some chicken and french fries?",
+        "words": [
+          {
+            "start": 33.11,
+            "end": 33.31,
+            "word": " How",
+            "probability": 0.99601
+          },
+          {
+            "start": 33.31,
+            "end": 33.45,
+            "word": " about",
+            "probability": 0.94099
+          },
+          {
+            "start": 33.45,
+            "end": 33.61,
+            "word": " we",
+            "probability": 0.99316
+          },
+          {
+            "start": 33.61,
+            "end": 33.89,
+            "word": " prepare",
+            "probability": 0.99632
+          },
+          {
+            "start": 33.89,
+            "end": 34.17,
+            "word": " some",
+            "probability": 0.99759
+          },
+          {
+            "start": 34.17,
+            "end": 34.45,
+            "word": " chicken",
+            "probability": 0.99337
+          },
+          {
+            "start": 34.45,
+            "end": 34.75,
+            "word": " and",
+            "probability": 0.99101
+          },
+          {
+            "start": 34.75,
+            "end": 35.03,
+            "word": " french",
+            "probability": 0.64267
+          },
+          {
+            "start": 35.03,
+            "end": 35.43,
+            "word": " fries?",
+            "probability": 0.99925
+          }
+        ]
+      },
+      {
+        "start": 35.89,
+        "end": 36.29,
+        "text": "Perfect.",
+        "words": [
+          {
+            "start": 35.89,
+            "end": 36.29,
+            "word": " Perfect.",
+            "probability": 0.97588
+          }
+        ]
+      },
+      {
+        "start": 36.63,
+        "end": 38.19,
+        "text": "This picnic is going to be amazing.",
+        "words": [
+          {
+            "start": 36.63,
+            "end": 36.77,
+            "word": " This",
+            "probability": 0.98874
+          },
+          {
+            "start": 36.77,
+            "end": 37.07,
+            "word": " picnic",
+            "probability": 0.97978
+          },
+          {
+            "start": 37.07,
+            "end": 37.29,
+            "word": " is",
+            "probability": 0.99488
+          },
+          {
+            "start": 37.29,
+            "end": 37.41,
+            "word": " going",
+            "probability": 0.9826
+          },
+          {
+            "start": 37.41,
+            "end": 37.59,
+            "word": " to",
+            "probability": 0.9996
+          },
+          {
+            "start": 37.59,
+            "end": 37.71,
+            "word": " be",
+            "probability": 0.99909
+          },
+          {
+            "start": 37.71,
+            "end": 38.19,
+            "word": " amazing.",
+            "probability": 0.98249
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q08",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 113,
+            "speechStart": 0.66,
+            "speechEnd": 38.19,
+            "sourceTokenCoverage": 0.9417,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.97,
+            "transcript": "hey emma are you ready for the picnic this weekend definitely i'm really looking forward to it do you know what everyone's bringing yeah i spoke with a few people sarah's bringing cups and bowls and tom said he'll take care of drinks he's got some lemonade and iced tea ready sounds great i think clara mentioned she's making a fruit salad right yep and leo's bringing chips and dips i guess we're pretty covered on snacks awesome so what should we bring maybe some food in case we might get hungry that's a good idea how about we prepare some chicken and french fries perfect this picnic is going to be amazing",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

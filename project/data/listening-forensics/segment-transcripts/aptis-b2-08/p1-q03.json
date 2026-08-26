@@ -1,0 +1,415 @@
+{
+  "testId": "aptis-b2-08",
+  "blockId": "p1-q03",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-08/part-1/q03.mp3",
+  "audioSha256": "afca06411d7d2f22f2d75b15526a89213fb94f95b5c252aee069e1bd9970542f",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.69,
+        "end": 6.43,
+        "text": "Hi, John. Hi, John. This is Sarah calling. I'm leaving you a message about our meeting today.",
+        "words": [
+          {
+            "start": 0.69,
+            "end": 1.17,
+            "word": " Hi,",
+            "probability": 0.7494
+          },
+          {
+            "start": 1.31,
+            "end": 1.43,
+            "word": " John.",
+            "probability": 0.88827
+          },
+          {
+            "start": 1.97,
+            "end": 2.07,
+            "word": " Hi,",
+            "probability": 0.88062
+          },
+          {
+            "start": 2.15,
+            "end": 2.27,
+            "word": " John.",
+            "probability": 0.99177
+          },
+          {
+            "start": 2.63,
+            "end": 2.73,
+            "word": " This",
+            "probability": 0.9937
+          },
+          {
+            "start": 2.73,
+            "end": 2.91,
+            "word": " is",
+            "probability": 0.99795
+          },
+          {
+            "start": 2.91,
+            "end": 3.23,
+            "word": " Sarah",
+            "probability": 0.84817
+          },
+          {
+            "start": 3.23,
+            "end": 3.55,
+            "word": " calling.",
+            "probability": 0.58846
+          },
+          {
+            "start": 4.27,
+            "end": 4.53,
+            "word": " I'm",
+            "probability": 0.9907
+          },
+          {
+            "start": 4.53,
+            "end": 4.73,
+            "word": " leaving",
+            "probability": 0.99766
+          },
+          {
+            "start": 4.73,
+            "end": 4.95,
+            "word": " you",
+            "probability": 0.99908
+          },
+          {
+            "start": 4.95,
+            "end": 5.03,
+            "word": " a",
+            "probability": 0.99835
+          },
+          {
+            "start": 5.03,
+            "end": 5.33,
+            "word": " message",
+            "probability": 0.99935
+          },
+          {
+            "start": 5.33,
+            "end": 5.63,
+            "word": " about",
+            "probability": 0.9969
+          },
+          {
+            "start": 5.63,
+            "end": 5.77,
+            "word": " our",
+            "probability": 0.99863
+          },
+          {
+            "start": 5.77,
+            "end": 6.03,
+            "word": " meeting",
+            "probability": 0.99558
+          },
+          {
+            "start": 6.03,
+            "end": 6.43,
+            "word": " today.",
+            "probability": 0.99796
+          }
+        ]
+      },
+      {
+        "start": 7.07,
+        "end": 12.17,
+        "text": "I know we said we'd meet at two, but some things come up. Can we change the time to three o'clock instead?",
+        "words": [
+          {
+            "start": 7.07,
+            "end": 7.35,
+            "word": " I",
+            "probability": 0.9888
+          },
+          {
+            "start": 7.35,
+            "end": 7.49,
+            "word": " know",
+            "probability": 0.99678
+          },
+          {
+            "start": 7.49,
+            "end": 7.63,
+            "word": " we",
+            "probability": 0.99304
+          },
+          {
+            "start": 7.63,
+            "end": 7.81,
+            "word": " said",
+            "probability": 0.99632
+          },
+          {
+            "start": 7.81,
+            "end": 8.07,
+            "word": " we'd",
+            "probability": 0.97615
+          },
+          {
+            "start": 8.07,
+            "end": 8.21,
+            "word": " meet",
+            "probability": 0.99524
+          },
+          {
+            "start": 8.21,
+            "end": 8.33,
+            "word": " at",
+            "probability": 0.95341
+          },
+          {
+            "start": 8.33,
+            "end": 8.65,
+            "word": " two,",
+            "probability": 0.77034
+          },
+          {
+            "start": 8.89,
+            "end": 9.05,
+            "word": " but",
+            "probability": 0.99626
+          },
+          {
+            "start": 9.05,
+            "end": 9.27,
+            "word": " some",
+            "probability": 0.83027
+          },
+          {
+            "start": 9.27,
+            "end": 9.53,
+            "word": " things",
+            "probability": 0.99927
+          },
+          {
+            "start": 9.53,
+            "end": 9.71,
+            "word": " come",
+            "probability": 0.99679
+          },
+          {
+            "start": 9.71,
+            "end": 9.97,
+            "word": " up.",
+            "probability": 0.99927
+          },
+          {
+            "start": 10.07,
+            "end": 10.15,
+            "word": " Can",
+            "probability": 0.99204
+          },
+          {
+            "start": 10.15,
+            "end": 10.25,
+            "word": " we",
+            "probability": 0.99852
+          },
+          {
+            "start": 10.25,
+            "end": 10.55,
+            "word": " change",
+            "probability": 0.99774
+          },
+          {
+            "start": 10.55,
+            "end": 10.73,
+            "word": " the",
+            "probability": 0.99818
+          },
+          {
+            "start": 10.73,
+            "end": 10.95,
+            "word": " time",
+            "probability": 0.99793
+          },
+          {
+            "start": 10.95,
+            "end": 11.17,
+            "word": " to",
+            "probability": 0.99695
+          },
+          {
+            "start": 11.17,
+            "end": 11.45,
+            "word": " three",
+            "probability": 0.94998
+          },
+          {
+            "start": 11.45,
+            "end": 11.65,
+            "word": " o",
+            "probability": 0.98521
+          },
+          {
+            "start": 11.65,
+            "end": 11.73,
+            "word": "'clock",
+            "probability": 0.99131
+          },
+          {
+            "start": 11.73,
+            "end": 12.17,
+            "word": " instead?",
+            "probability": 0.9821
+          }
+        ]
+      },
+      {
+        "start": 13.01,
+        "end": 18.07,
+        "text": "I'll be at the usual coffee shop at three. Please call me back if this doesn't work for you.",
+        "words": [
+          {
+            "start": 13.01,
+            "end": 13.25,
+            "word": " I'll",
+            "probability": 0.99679
+          },
+          {
+            "start": 13.25,
+            "end": 13.39,
+            "word": " be",
+            "probability": 0.99927
+          },
+          {
+            "start": 13.39,
+            "end": 13.51,
+            "word": " at",
+            "probability": 0.99854
+          },
+          {
+            "start": 13.51,
+            "end": 13.63,
+            "word": " the",
+            "probability": 0.998
+          },
+          {
+            "start": 13.63,
+            "end": 13.95,
+            "word": " usual",
+            "probability": 0.99805
+          },
+          {
+            "start": 13.95,
+            "end": 14.33,
+            "word": " coffee",
+            "probability": 0.98882
+          },
+          {
+            "start": 14.33,
+            "end": 14.59,
+            "word": " shop",
+            "probability": 0.99892
+          },
+          {
+            "start": 14.59,
+            "end": 14.77,
+            "word": " at",
+            "probability": 0.99768
+          },
+          {
+            "start": 14.77,
+            "end": 15.07,
+            "word": " three.",
+            "probability": 0.9748
+          },
+          {
+            "start": 15.57,
+            "end": 15.83,
+            "word": " Please",
+            "probability": 0.99668
+          },
+          {
+            "start": 15.83,
+            "end": 16.11,
+            "word": " call",
+            "probability": 0.9839
+          },
+          {
+            "start": 16.11,
+            "end": 16.29,
+            "word": " me",
+            "probability": 0.99945
+          },
+          {
+            "start": 16.29,
+            "end": 16.61,
+            "word": " back",
+            "probability": 0.99887
+          },
+          {
+            "start": 16.61,
+            "end": 17.01,
+            "word": " if",
+            "probability": 0.84328
+          },
+          {
+            "start": 17.01,
+            "end": 17.21,
+            "word": " this",
+            "probability": 0.99918
+          },
+          {
+            "start": 17.21,
+            "end": 17.49,
+            "word": " doesn't",
+            "probability": 0.99925
+          },
+          {
+            "start": 17.49,
+            "end": 17.67,
+            "word": " work",
+            "probability": 0.99895
+          },
+          {
+            "start": 17.67,
+            "end": 17.87,
+            "word": " for",
+            "probability": 0.99952
+          },
+          {
+            "start": 17.87,
+            "end": 18.07,
+            "word": " you.",
+            "probability": 0.99949
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q03",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 59,
+            "speechStart": 0.69,
+            "speechEnd": 18.07,
+            "sourceTokenCoverage": 0.9649,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9483,
+            "transcript": "hi john hi john this is sarah calling i'm leaving you a message about our meeting today i know we said we'd meet at 2 but some things come up can we change the time to 3 o clock instead i'll be at the usual coffee shop at 3 please call me back if this doesn't work for you",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,896 @@
+{
+  "testId": "aptis-b2-11",
+  "blockId": "p1-q07",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-11/part-1/q07.mp3",
+  "audioSha256": "d61dc878a83b4d92365a87a53b33a299e0e3c12d3e8483659ec4acc397e0640f",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 5.34,
+        "text": "You know, when I think about my favorite room in the house, it's kind of hard to choose.",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.38,
+            "word": " You",
+            "probability": 0.52064
+          },
+          {
+            "start": 1.38,
+            "end": 1.52,
+            "word": " know,",
+            "probability": 0.9871
+          },
+          {
+            "start": 1.86,
+            "end": 1.98,
+            "word": " when",
+            "probability": 0.99045
+          },
+          {
+            "start": 1.98,
+            "end": 2.08,
+            "word": " I",
+            "probability": 0.99462
+          },
+          {
+            "start": 2.08,
+            "end": 2.26,
+            "word": " think",
+            "probability": 0.9969
+          },
+          {
+            "start": 2.26,
+            "end": 2.5,
+            "word": " about",
+            "probability": 0.99467
+          },
+          {
+            "start": 2.5,
+            "end": 2.7,
+            "word": " my",
+            "probability": 0.99409
+          },
+          {
+            "start": 2.7,
+            "end": 3.06,
+            "word": " favorite",
+            "probability": 0.86814
+          },
+          {
+            "start": 3.06,
+            "end": 3.28,
+            "word": " room",
+            "probability": 0.99726
+          },
+          {
+            "start": 3.28,
+            "end": 3.42,
+            "word": " in",
+            "probability": 0.99709
+          },
+          {
+            "start": 3.42,
+            "end": 3.52,
+            "word": " the",
+            "probability": 0.99876
+          },
+          {
+            "start": 3.52,
+            "end": 3.72,
+            "word": " house,",
+            "probability": 0.98555
+          },
+          {
+            "start": 4.2,
+            "end": 4.36,
+            "word": " it's",
+            "probability": 0.97351
+          },
+          {
+            "start": 4.36,
+            "end": 4.54,
+            "word": " kind",
+            "probability": 0.96728
+          },
+          {
+            "start": 4.54,
+            "end": 4.66,
+            "word": " of",
+            "probability": 0.99704
+          },
+          {
+            "start": 4.66,
+            "end": 4.86,
+            "word": " hard",
+            "probability": 0.99902
+          },
+          {
+            "start": 4.86,
+            "end": 5.02,
+            "word": " to",
+            "probability": 0.99888
+          },
+          {
+            "start": 5.02,
+            "end": 5.34,
+            "word": " choose.",
+            "probability": 0.98609
+          }
+        ]
+      },
+      {
+        "start": 6.3,
+        "end": 10.92,
+        "text": "I mean, I really enjoy the kitchen since I love cooking, and the living room is great",
+        "words": [
+          {
+            "start": 6.3,
+            "end": 6.54,
+            "word": " I",
+            "probability": 0.98532
+          },
+          {
+            "start": 6.54,
+            "end": 6.72,
+            "word": " mean,",
+            "probability": 0.99691
+          },
+          {
+            "start": 7.06,
+            "end": 7.16,
+            "word": " I",
+            "probability": 0.99332
+          },
+          {
+            "start": 7.16,
+            "end": 7.38,
+            "word": " really",
+            "probability": 0.99519
+          },
+          {
+            "start": 7.38,
+            "end": 7.78,
+            "word": " enjoy",
+            "probability": 0.99595
+          },
+          {
+            "start": 7.78,
+            "end": 7.96,
+            "word": " the",
+            "probability": 0.99735
+          },
+          {
+            "start": 7.96,
+            "end": 8.24,
+            "word": " kitchen",
+            "probability": 0.99274
+          },
+          {
+            "start": 8.24,
+            "end": 8.56,
+            "word": " since",
+            "probability": 0.98163
+          },
+          {
+            "start": 8.56,
+            "end": 8.76,
+            "word": " I",
+            "probability": 0.99763
+          },
+          {
+            "start": 8.76,
+            "end": 8.96,
+            "word": " love",
+            "probability": 0.99298
+          },
+          {
+            "start": 8.96,
+            "end": 9.32,
+            "word": " cooking,",
+            "probability": 0.99789
+          },
+          {
+            "start": 9.74,
+            "end": 9.86,
+            "word": " and",
+            "probability": 0.99711
+          },
+          {
+            "start": 9.86,
+            "end": 9.96,
+            "word": " the",
+            "probability": 0.99444
+          },
+          {
+            "start": 9.96,
+            "end": 10.16,
+            "word": " living",
+            "probability": 0.99741
+          },
+          {
+            "start": 10.16,
+            "end": 10.44,
+            "word": " room",
+            "probability": 0.99949
+          },
+          {
+            "start": 10.44,
+            "end": 10.66,
+            "word": " is",
+            "probability": 0.99835
+          },
+          {
+            "start": 10.66,
+            "end": 10.92,
+            "word": " great",
+            "probability": 0.99787
+          }
+        ]
+      },
+      {
+        "start": 10.92,
+        "end": 12.18,
+        "text": "for hanging out with friends.",
+        "words": [
+          {
+            "start": 10.92,
+            "end": 11.16,
+            "word": " for",
+            "probability": 0.99819
+          },
+          {
+            "start": 11.16,
+            "end": 11.38,
+            "word": " hanging",
+            "probability": 0.99737
+          },
+          {
+            "start": 11.38,
+            "end": 11.62,
+            "word": " out",
+            "probability": 0.99665
+          },
+          {
+            "start": 11.62,
+            "end": 11.78,
+            "word": " with",
+            "probability": 0.999
+          },
+          {
+            "start": 11.78,
+            "end": 12.18,
+            "word": " friends.",
+            "probability": 0.99859
+          }
+        ]
+      },
+      {
+        "start": 13.07,
+        "end": 16.13,
+        "text": "But honestly, I have to say the bathroom is my favorite.",
+        "words": [
+          {
+            "start": 13.07,
+            "end": 13.33,
+            "word": " But",
+            "probability": 0.99427
+          },
+          {
+            "start": 13.33,
+            "end": 13.81,
+            "word": " honestly,",
+            "probability": 0.9751
+          },
+          {
+            "start": 14.17,
+            "end": 14.27,
+            "word": " I",
+            "probability": 0.99901
+          },
+          {
+            "start": 14.27,
+            "end": 14.41,
+            "word": " have",
+            "probability": 0.99887
+          },
+          {
+            "start": 14.41,
+            "end": 14.55,
+            "word": " to",
+            "probability": 0.99852
+          },
+          {
+            "start": 14.55,
+            "end": 14.73,
+            "word": " say",
+            "probability": 0.99596
+          },
+          {
+            "start": 14.73,
+            "end": 14.89,
+            "word": " the",
+            "probability": 0.97251
+          },
+          {
+            "start": 14.89,
+            "end": 15.27,
+            "word": " bathroom",
+            "probability": 0.99039
+          },
+          {
+            "start": 15.27,
+            "end": 15.57,
+            "word": " is",
+            "probability": 0.99763
+          },
+          {
+            "start": 15.57,
+            "end": 15.71,
+            "word": " my",
+            "probability": 0.99836
+          },
+          {
+            "start": 15.71,
+            "end": 16.13,
+            "word": " favorite.",
+            "probability": 0.94251
+          }
+        ]
+      },
+      {
+        "start": 16.91,
+        "end": 20.55,
+        "text": "It might sound strange, but it's the one place where I can truly relax.",
+        "words": [
+          {
+            "start": 16.91,
+            "end": 17.25,
+            "word": " It",
+            "probability": 0.99306
+          },
+          {
+            "start": 17.25,
+            "end": 17.41,
+            "word": " might",
+            "probability": 0.99736
+          },
+          {
+            "start": 17.41,
+            "end": 17.73,
+            "word": " sound",
+            "probability": 0.99189
+          },
+          {
+            "start": 17.73,
+            "end": 18.11,
+            "word": " strange,",
+            "probability": 0.99847
+          },
+          {
+            "start": 18.57,
+            "end": 18.69,
+            "word": " but",
+            "probability": 0.99865
+          },
+          {
+            "start": 18.69,
+            "end": 18.89,
+            "word": " it's",
+            "probability": 0.99576
+          },
+          {
+            "start": 18.89,
+            "end": 18.99,
+            "word": " the",
+            "probability": 0.99324
+          },
+          {
+            "start": 18.99,
+            "end": 19.17,
+            "word": " one",
+            "probability": 0.99224
+          },
+          {
+            "start": 19.17,
+            "end": 19.43,
+            "word": " place",
+            "probability": 0.99871
+          },
+          {
+            "start": 19.43,
+            "end": 19.67,
+            "word": " where",
+            "probability": 0.99233
+          },
+          {
+            "start": 19.67,
+            "end": 19.75,
+            "word": " I",
+            "probability": 0.99855
+          },
+          {
+            "start": 19.75,
+            "end": 19.87,
+            "word": " can",
+            "probability": 0.99469
+          },
+          {
+            "start": 19.87,
+            "end": 20.15,
+            "word": " truly",
+            "probability": 0.99709
+          },
+          {
+            "start": 20.15,
+            "end": 20.55,
+            "word": " relax.",
+            "probability": 0.99831
+          }
+        ]
+      },
+      {
+        "start": 23.0,
+        "end": 27.22,
+        "text": "You know, when I think about my favorite room in the house, it's kind of hard to choose.",
+        "words": [
+          {
+            "start": 23.0,
+            "end": 23.22,
+            "word": " You",
+            "probability": 0.98413
+          },
+          {
+            "start": 23.22,
+            "end": 23.4,
+            "word": " know,",
+            "probability": 0.99844
+          },
+          {
+            "start": 23.68,
+            "end": 23.82,
+            "word": " when",
+            "probability": 0.99809
+          },
+          {
+            "start": 23.82,
+            "end": 23.94,
+            "word": " I",
+            "probability": 0.99893
+          },
+          {
+            "start": 23.94,
+            "end": 24.12,
+            "word": " think",
+            "probability": 0.99801
+          },
+          {
+            "start": 24.12,
+            "end": 24.36,
+            "word": " about",
+            "probability": 0.99865
+          },
+          {
+            "start": 24.36,
+            "end": 24.54,
+            "word": " my",
+            "probability": 0.99726
+          },
+          {
+            "start": 24.54,
+            "end": 24.9,
+            "word": " favorite",
+            "probability": 0.98011
+          },
+          {
+            "start": 24.9,
+            "end": 25.14,
+            "word": " room",
+            "probability": 0.9987
+          },
+          {
+            "start": 25.14,
+            "end": 25.26,
+            "word": " in",
+            "probability": 0.99646
+          },
+          {
+            "start": 25.26,
+            "end": 25.36,
+            "word": " the",
+            "probability": 0.99725
+          },
+          {
+            "start": 25.36,
+            "end": 25.6,
+            "word": " house,",
+            "probability": 0.99596
+          },
+          {
+            "start": 26.06,
+            "end": 26.2,
+            "word": " it's",
+            "probability": 0.99775
+          },
+          {
+            "start": 26.2,
+            "end": 26.38,
+            "word": " kind",
+            "probability": 0.98932
+          },
+          {
+            "start": 26.38,
+            "end": 26.56,
+            "word": " of",
+            "probability": 0.99693
+          },
+          {
+            "start": 26.56,
+            "end": 26.72,
+            "word": " hard",
+            "probability": 0.99919
+          },
+          {
+            "start": 26.72,
+            "end": 26.88,
+            "word": " to",
+            "probability": 0.99921
+          },
+          {
+            "start": 26.88,
+            "end": 27.22,
+            "word": " choose.",
+            "probability": 0.99
+          }
+        ]
+      },
+      {
+        "start": 27.89,
+        "end": 34.01,
+        "text": "I mean, I really enjoy the kitchen since I love cooking, and the living room is great for hanging out with friends.",
+        "words": [
+          {
+            "start": 27.89,
+            "end": 28.39,
+            "word": " I",
+            "probability": 0.77639
+          },
+          {
+            "start": 28.39,
+            "end": 28.59,
+            "word": " mean,",
+            "probability": 0.99026
+          },
+          {
+            "start": 28.91,
+            "end": 29.01,
+            "word": " I",
+            "probability": 0.99403
+          },
+          {
+            "start": 29.01,
+            "end": 29.27,
+            "word": " really",
+            "probability": 0.99593
+          },
+          {
+            "start": 29.27,
+            "end": 29.63,
+            "word": " enjoy",
+            "probability": 0.99178
+          },
+          {
+            "start": 29.63,
+            "end": 29.83,
+            "word": " the",
+            "probability": 0.9954
+          },
+          {
+            "start": 29.83,
+            "end": 30.09,
+            "word": " kitchen",
+            "probability": 0.99167
+          },
+          {
+            "start": 30.09,
+            "end": 30.41,
+            "word": " since",
+            "probability": 0.99542
+          },
+          {
+            "start": 30.41,
+            "end": 30.59,
+            "word": " I",
+            "probability": 0.99809
+          },
+          {
+            "start": 30.59,
+            "end": 30.81,
+            "word": " love",
+            "probability": 0.99423
+          },
+          {
+            "start": 30.81,
+            "end": 31.19,
+            "word": " cooking,",
+            "probability": 0.99714
+          },
+          {
+            "start": 31.63,
+            "end": 31.71,
+            "word": " and",
+            "probability": 0.9974
+          },
+          {
+            "start": 31.71,
+            "end": 31.81,
+            "word": " the",
+            "probability": 0.99628
+          },
+          {
+            "start": 31.81,
+            "end": 32.03,
+            "word": " living",
+            "probability": 0.99741
+          },
+          {
+            "start": 32.03,
+            "end": 32.29,
+            "word": " room",
+            "probability": 0.99887
+          },
+          {
+            "start": 32.29,
+            "end": 32.49,
+            "word": " is",
+            "probability": 0.99879
+          },
+          {
+            "start": 32.49,
+            "end": 32.77,
+            "word": " great",
+            "probability": 0.99737
+          },
+          {
+            "start": 32.77,
+            "end": 33.01,
+            "word": " for",
+            "probability": 0.99896
+          },
+          {
+            "start": 33.01,
+            "end": 33.23,
+            "word": " hanging",
+            "probability": 0.99758
+          },
+          {
+            "start": 33.23,
+            "end": 33.47,
+            "word": " out",
+            "probability": 0.98202
+          },
+          {
+            "start": 33.47,
+            "end": 33.63,
+            "word": " with",
+            "probability": 0.99785
+          },
+          {
+            "start": 33.63,
+            "end": 34.01,
+            "word": " friends.",
+            "probability": 0.997
+          }
+        ]
+      },
+      {
+        "start": 34.83,
+        "end": 37.97,
+        "text": "But honestly, I have to say the bathroom is my favorite.",
+        "words": [
+          {
+            "start": 34.83,
+            "end": 35.19,
+            "word": " But",
+            "probability": 0.99282
+          },
+          {
+            "start": 35.19,
+            "end": 35.65,
+            "word": " honestly,",
+            "probability": 0.97415
+          },
+          {
+            "start": 36.01,
+            "end": 36.13,
+            "word": " I",
+            "probability": 0.99811
+          },
+          {
+            "start": 36.13,
+            "end": 36.25,
+            "word": " have",
+            "probability": 0.99894
+          },
+          {
+            "start": 36.25,
+            "end": 36.39,
+            "word": " to",
+            "probability": 0.9991
+          },
+          {
+            "start": 36.39,
+            "end": 36.59,
+            "word": " say",
+            "probability": 0.99772
+          },
+          {
+            "start": 36.59,
+            "end": 36.73,
+            "word": " the",
+            "probability": 0.97423
+          },
+          {
+            "start": 36.73,
+            "end": 37.13,
+            "word": " bathroom",
+            "probability": 0.9856
+          },
+          {
+            "start": 37.13,
+            "end": 37.41,
+            "word": " is",
+            "probability": 0.99692
+          },
+          {
+            "start": 37.41,
+            "end": 37.57,
+            "word": " my",
+            "probability": 0.9978
+          },
+          {
+            "start": 37.57,
+            "end": 37.97,
+            "word": " favorite.",
+            "probability": 0.8098
+          }
+        ]
+      },
+      {
+        "start": 38.86,
+        "end": 42.44,
+        "text": "It might sound strange, but it's the one place where I can truly relax.",
+        "words": [
+          {
+            "start": 38.86,
+            "end": 39.12,
+            "word": " It",
+            "probability": 0.9936
+          },
+          {
+            "start": 39.12,
+            "end": 39.28,
+            "word": " might",
+            "probability": 0.99697
+          },
+          {
+            "start": 39.28,
+            "end": 39.58,
+            "word": " sound",
+            "probability": 0.99496
+          },
+          {
+            "start": 39.58,
+            "end": 39.98,
+            "word": " strange,",
+            "probability": 0.99763
+          },
+          {
+            "start": 40.44,
+            "end": 40.56,
+            "word": " but",
+            "probability": 0.99648
+          },
+          {
+            "start": 40.56,
+            "end": 40.74,
+            "word": " it's",
+            "probability": 0.98874
+          },
+          {
+            "start": 40.74,
+            "end": 40.86,
+            "word": " the",
+            "probability": 0.99243
+          },
+          {
+            "start": 40.86,
+            "end": 41.02,
+            "word": " one",
+            "probability": 0.98844
+          },
+          {
+            "start": 41.02,
+            "end": 41.3,
+            "word": " place",
+            "probability": 0.99831
+          },
+          {
+            "start": 41.3,
+            "end": 41.52,
+            "word": " where",
+            "probability": 0.98467
+          },
+          {
+            "start": 41.52,
+            "end": 41.62,
+            "word": " I",
+            "probability": 0.99556
+          },
+          {
+            "start": 41.62,
+            "end": 41.74,
+            "word": " can",
+            "probability": 0.99449
+          },
+          {
+            "start": 41.74,
+            "end": 42.02,
+            "word": " truly",
+            "probability": 0.99375
+          },
+          {
+            "start": 42.02,
+            "end": 42.44,
+            "word": " relax.",
+            "probability": 0.99804
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q07",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 65,
+            "speechStart": 0.88,
+            "speechEnd": 20.55,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "you know when i think about my favorite room in the house it's kind of hard to choose i mean i really enjoy the kitchen since i love cooking and the living room is great for hanging out with friends but honestly i have to say the bathroom is my favorite it might sound strange but it's the 1 place where i can truly relax",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 65,
+            "wordEndIndexExclusive": 130,
+            "speechStart": 23.0,
+            "speechEnd": 42.44,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "you know when i think about my favorite room in the house it's kind of hard to choose i mean i really enjoy the kitchen since i love cooking and the living room is great for hanging out with friends but honestly i have to say the bathroom is my favorite it might sound strange but it's the 1 place where i can truly relax",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

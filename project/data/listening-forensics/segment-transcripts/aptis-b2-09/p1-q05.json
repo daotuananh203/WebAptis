@@ -1,0 +1,955 @@
+{
+  "testId": "aptis-b2-09",
+  "blockId": "p1-q05",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-09/part-1/q05.mp3",
+  "audioSha256": "ea69179d848728cdb58cc1a30c40e87c94f928c3e8865d743c23b1fa8a2bec48",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.66,
+        "end": 8.76,
+        "text": "Hi, K. It's Douglas. I hope you are doing well. I wanted to call you today to say thank",
+        "words": [
+          {
+            "start": 0.66,
+            "end": 1.2,
+            "word": " Hi,",
+            "probability": 0.39722
+          },
+          {
+            "start": 1.48,
+            "end": 1.66,
+            "word": " K.",
+            "probability": 0.38881
+          },
+          {
+            "start": 2.65,
+            "end": 3.11,
+            "word": " It's",
+            "probability": 0.97408
+          },
+          {
+            "start": 3.11,
+            "end": 3.37,
+            "word": " Douglas.",
+            "probability": 0.9214
+          },
+          {
+            "start": 4.29,
+            "end": 4.71,
+            "word": " I",
+            "probability": 0.97946
+          },
+          {
+            "start": 4.71,
+            "end": 4.91,
+            "word": " hope",
+            "probability": 0.9956
+          },
+          {
+            "start": 4.91,
+            "end": 5.15,
+            "word": " you",
+            "probability": 0.99841
+          },
+          {
+            "start": 5.15,
+            "end": 5.23,
+            "word": " are",
+            "probability": 0.94241
+          },
+          {
+            "start": 5.23,
+            "end": 5.47,
+            "word": " doing",
+            "probability": 0.99874
+          },
+          {
+            "start": 5.47,
+            "end": 5.75,
+            "word": " well.",
+            "probability": 0.99878
+          },
+          {
+            "start": 6.56,
+            "end": 7.02,
+            "word": " I",
+            "probability": 0.99434
+          },
+          {
+            "start": 7.02,
+            "end": 7.24,
+            "word": " wanted",
+            "probability": 0.97413
+          },
+          {
+            "start": 7.24,
+            "end": 7.42,
+            "word": " to",
+            "probability": 0.99943
+          },
+          {
+            "start": 7.42,
+            "end": 7.62,
+            "word": " call",
+            "probability": 0.99465
+          },
+          {
+            "start": 7.62,
+            "end": 7.78,
+            "word": " you",
+            "probability": 0.99866
+          },
+          {
+            "start": 7.78,
+            "end": 8.04,
+            "word": " today",
+            "probability": 0.99513
+          },
+          {
+            "start": 8.04,
+            "end": 8.26,
+            "word": " to",
+            "probability": 0.99221
+          },
+          {
+            "start": 8.26,
+            "end": 8.48,
+            "word": " say",
+            "probability": 0.99741
+          },
+          {
+            "start": 8.48,
+            "end": 8.76,
+            "word": " thank",
+            "probability": 0.95004
+          }
+        ]
+      },
+      {
+        "start": 8.76,
+        "end": 13.96,
+        "text": "you for all your help with the project. Your advice was really valuable, and it made",
+        "words": [
+          {
+            "start": 8.76,
+            "end": 8.94,
+            "word": " you",
+            "probability": 0.9927
+          },
+          {
+            "start": 8.94,
+            "end": 9.1,
+            "word": " for",
+            "probability": 0.99495
+          },
+          {
+            "start": 9.1,
+            "end": 9.28,
+            "word": " all",
+            "probability": 0.99248
+          },
+          {
+            "start": 9.28,
+            "end": 9.44,
+            "word": " your",
+            "probability": 0.98178
+          },
+          {
+            "start": 9.44,
+            "end": 9.66,
+            "word": " help",
+            "probability": 0.99753
+          },
+          {
+            "start": 9.66,
+            "end": 9.88,
+            "word": " with",
+            "probability": 0.99303
+          },
+          {
+            "start": 9.88,
+            "end": 10.0,
+            "word": " the",
+            "probability": 0.99234
+          },
+          {
+            "start": 10.0,
+            "end": 10.46,
+            "word": " project.",
+            "probability": 0.99827
+          },
+          {
+            "start": 11.5,
+            "end": 11.64,
+            "word": " Your",
+            "probability": 0.95383
+          },
+          {
+            "start": 11.64,
+            "end": 12.02,
+            "word": " advice",
+            "probability": 0.99447
+          },
+          {
+            "start": 12.02,
+            "end": 12.24,
+            "word": " was",
+            "probability": 0.99841
+          },
+          {
+            "start": 12.24,
+            "end": 12.62,
+            "word": " really",
+            "probability": 0.98939
+          },
+          {
+            "start": 12.62,
+            "end": 13.1,
+            "word": " valuable,",
+            "probability": 0.99715
+          },
+          {
+            "start": 13.56,
+            "end": 13.68,
+            "word": " and",
+            "probability": 0.998
+          },
+          {
+            "start": 13.68,
+            "end": 13.8,
+            "word": " it",
+            "probability": 0.99737
+          },
+          {
+            "start": 13.8,
+            "end": 13.96,
+            "word": " made",
+            "probability": 0.99903
+          }
+        ]
+      },
+      {
+        "start": 13.96,
+        "end": 20.51,
+        "text": "a big difference. I also wanted to ask for a favor. If you have some time, I would love",
+        "words": [
+          {
+            "start": 13.96,
+            "end": 14.12,
+            "word": " a",
+            "probability": 0.99898
+          },
+          {
+            "start": 14.12,
+            "end": 14.36,
+            "word": " big",
+            "probability": 0.996
+          },
+          {
+            "start": 14.36,
+            "end": 14.8,
+            "word": " difference.",
+            "probability": 0.99921
+          },
+          {
+            "start": 15.76,
+            "end": 16.12,
+            "word": " I",
+            "probability": 0.99545
+          },
+          {
+            "start": 16.12,
+            "end": 16.36,
+            "word": " also",
+            "probability": 0.9983
+          },
+          {
+            "start": 16.36,
+            "end": 16.68,
+            "word": " wanted",
+            "probability": 0.9927
+          },
+          {
+            "start": 16.68,
+            "end": 16.9,
+            "word": " to",
+            "probability": 0.99869
+          },
+          {
+            "start": 16.9,
+            "end": 17.18,
+            "word": " ask",
+            "probability": 0.99957
+          },
+          {
+            "start": 17.18,
+            "end": 17.36,
+            "word": " for",
+            "probability": 0.99387
+          },
+          {
+            "start": 17.36,
+            "end": 17.5,
+            "word": " a",
+            "probability": 0.99453
+          },
+          {
+            "start": 17.5,
+            "end": 17.84,
+            "word": " favor.",
+            "probability": 0.70927
+          },
+          {
+            "start": 18.83,
+            "end": 19.01,
+            "word": " If",
+            "probability": 0.95677
+          },
+          {
+            "start": 19.01,
+            "end": 19.13,
+            "word": " you",
+            "probability": 0.9991
+          },
+          {
+            "start": 19.13,
+            "end": 19.25,
+            "word": " have",
+            "probability": 0.99885
+          },
+          {
+            "start": 19.25,
+            "end": 19.45,
+            "word": " some",
+            "probability": 0.96587
+          },
+          {
+            "start": 19.45,
+            "end": 19.83,
+            "word": " time,",
+            "probability": 0.99942
+          },
+          {
+            "start": 20.09,
+            "end": 20.19,
+            "word": " I",
+            "probability": 0.99558
+          },
+          {
+            "start": 20.19,
+            "end": 20.35,
+            "word": " would",
+            "probability": 0.99091
+          },
+          {
+            "start": 20.35,
+            "end": 20.51,
+            "word": " love",
+            "probability": 0.99264
+          }
+        ]
+      },
+      {
+        "start": 20.51,
+        "end": 31.03,
+        "text": "to meet and discuss a few ideas I have. Let me know when you are free. Hi, K. It's Douglas.",
+        "words": [
+          {
+            "start": 20.51,
+            "end": 20.69,
+            "word": " to",
+            "probability": 0.99856
+          },
+          {
+            "start": 20.69,
+            "end": 20.87,
+            "word": " meet",
+            "probability": 0.99851
+          },
+          {
+            "start": 20.87,
+            "end": 21.01,
+            "word": " and",
+            "probability": 0.99697
+          },
+          {
+            "start": 21.01,
+            "end": 21.29,
+            "word": " discuss",
+            "probability": 0.99881
+          },
+          {
+            "start": 21.29,
+            "end": 21.49,
+            "word": " a",
+            "probability": 0.97168
+          },
+          {
+            "start": 21.49,
+            "end": 21.69,
+            "word": " few",
+            "probability": 0.99972
+          },
+          {
+            "start": 21.69,
+            "end": 22.01,
+            "word": " ideas",
+            "probability": 0.99812
+          },
+          {
+            "start": 22.01,
+            "end": 22.27,
+            "word": " I",
+            "probability": 0.99556
+          },
+          {
+            "start": 22.27,
+            "end": 22.49,
+            "word": " have.",
+            "probability": 0.99933
+          },
+          {
+            "start": 23.54,
+            "end": 23.8,
+            "word": " Let",
+            "probability": 0.98971
+          },
+          {
+            "start": 23.8,
+            "end": 23.98,
+            "word": " me",
+            "probability": 0.99852
+          },
+          {
+            "start": 23.98,
+            "end": 24.24,
+            "word": " know",
+            "probability": 0.99942
+          },
+          {
+            "start": 24.24,
+            "end": 24.44,
+            "word": " when",
+            "probability": 0.99674
+          },
+          {
+            "start": 24.44,
+            "end": 24.64,
+            "word": " you",
+            "probability": 0.99844
+          },
+          {
+            "start": 24.64,
+            "end": 24.74,
+            "word": " are",
+            "probability": 0.99547
+          },
+          {
+            "start": 24.74,
+            "end": 25.04,
+            "word": " free.",
+            "probability": 0.99791
+          },
+          {
+            "start": 28.7,
+            "end": 28.88,
+            "word": " Hi,",
+            "probability": 0.95838
+          },
+          {
+            "start": 29.18,
+            "end": 29.36,
+            "word": " K.",
+            "probability": 0.99416
+          },
+          {
+            "start": 30.37,
+            "end": 30.77,
+            "word": " It's",
+            "probability": 0.99377
+          },
+          {
+            "start": 30.77,
+            "end": 31.03,
+            "word": " Douglas.",
+            "probability": 0.99797
+          }
+        ]
+      },
+      {
+        "start": 31.03,
+        "end": 36.92,
+        "text": "this. I hope you are doing well. I wanted to call you today to say thank you for all",
+        "words": [
+          {
+            "start": 31.03,
+            "end": 31.25,
+            "word": " this.",
+            "probability": 0.19047
+          },
+          {
+            "start": 31.93,
+            "end": 32.37,
+            "word": " I",
+            "probability": 0.9855
+          },
+          {
+            "start": 32.37,
+            "end": 32.57,
+            "word": " hope",
+            "probability": 0.99763
+          },
+          {
+            "start": 32.57,
+            "end": 32.79,
+            "word": " you",
+            "probability": 0.99587
+          },
+          {
+            "start": 32.79,
+            "end": 32.89,
+            "word": " are",
+            "probability": 0.97009
+          },
+          {
+            "start": 32.89,
+            "end": 33.11,
+            "word": " doing",
+            "probability": 0.99896
+          },
+          {
+            "start": 33.11,
+            "end": 33.39,
+            "word": " well.",
+            "probability": 0.99817
+          },
+          {
+            "start": 34.46,
+            "end": 34.66,
+            "word": " I",
+            "probability": 0.99254
+          },
+          {
+            "start": 34.66,
+            "end": 34.9,
+            "word": " wanted",
+            "probability": 0.96134
+          },
+          {
+            "start": 34.9,
+            "end": 35.08,
+            "word": " to",
+            "probability": 0.99852
+          },
+          {
+            "start": 35.08,
+            "end": 35.28,
+            "word": " call",
+            "probability": 0.99139
+          },
+          {
+            "start": 35.28,
+            "end": 35.44,
+            "word": " you",
+            "probability": 0.99758
+          },
+          {
+            "start": 35.44,
+            "end": 35.68,
+            "word": " today",
+            "probability": 0.98289
+          },
+          {
+            "start": 35.68,
+            "end": 35.92,
+            "word": " to",
+            "probability": 0.99671
+          },
+          {
+            "start": 35.92,
+            "end": 36.14,
+            "word": " say",
+            "probability": 0.99521
+          },
+          {
+            "start": 36.14,
+            "end": 36.42,
+            "word": " thank",
+            "probability": 0.90895
+          },
+          {
+            "start": 36.42,
+            "end": 36.6,
+            "word": " you",
+            "probability": 0.9933
+          },
+          {
+            "start": 36.6,
+            "end": 36.74,
+            "word": " for",
+            "probability": 0.99348
+          },
+          {
+            "start": 36.74,
+            "end": 36.92,
+            "word": " all",
+            "probability": 0.9891
+          }
+        ]
+      },
+      {
+        "start": 36.92,
+        "end": 42.44,
+        "text": "your help with the project. Your advice was really valuable, and it made a big difference.",
+        "words": [
+          {
+            "start": 36.92,
+            "end": 37.08,
+            "word": " your",
+            "probability": 0.98431
+          },
+          {
+            "start": 37.08,
+            "end": 37.32,
+            "word": " help",
+            "probability": 0.99659
+          },
+          {
+            "start": 37.32,
+            "end": 37.52,
+            "word": " with",
+            "probability": 0.9909
+          },
+          {
+            "start": 37.52,
+            "end": 37.64,
+            "word": " the",
+            "probability": 0.99286
+          },
+          {
+            "start": 37.64,
+            "end": 38.0,
+            "word": " project.",
+            "probability": 0.99644
+          },
+          {
+            "start": 39.06,
+            "end": 39.3,
+            "word": " Your",
+            "probability": 0.99141
+          },
+          {
+            "start": 39.3,
+            "end": 39.66,
+            "word": " advice",
+            "probability": 0.99086
+          },
+          {
+            "start": 39.66,
+            "end": 39.9,
+            "word": " was",
+            "probability": 0.99821
+          },
+          {
+            "start": 39.9,
+            "end": 40.26,
+            "word": " really",
+            "probability": 0.97798
+          },
+          {
+            "start": 40.26,
+            "end": 40.74,
+            "word": " valuable,",
+            "probability": 0.99778
+          },
+          {
+            "start": 41.24,
+            "end": 41.32,
+            "word": " and",
+            "probability": 0.99691
+          },
+          {
+            "start": 41.32,
+            "end": 41.44,
+            "word": " it",
+            "probability": 0.99553
+          },
+          {
+            "start": 41.44,
+            "end": 41.62,
+            "word": " made",
+            "probability": 0.9986
+          },
+          {
+            "start": 41.62,
+            "end": 41.78,
+            "word": " a",
+            "probability": 0.99692
+          },
+          {
+            "start": 41.78,
+            "end": 42.0,
+            "word": " big",
+            "probability": 0.99346
+          },
+          {
+            "start": 42.0,
+            "end": 42.44,
+            "word": " difference.",
+            "probability": 0.99907
+          }
+        ]
+      },
+      {
+        "start": 43.33,
+        "end": 48.96,
+        "text": "I also wanted to ask for a favor. If you have some time, I would love to meet and discuss",
+        "words": [
+          {
+            "start": 43.33,
+            "end": 43.77,
+            "word": " I",
+            "probability": 0.99657
+          },
+          {
+            "start": 43.77,
+            "end": 44.01,
+            "word": " also",
+            "probability": 0.99645
+          },
+          {
+            "start": 44.01,
+            "end": 44.35,
+            "word": " wanted",
+            "probability": 0.99046
+          },
+          {
+            "start": 44.35,
+            "end": 44.55,
+            "word": " to",
+            "probability": 0.99912
+          },
+          {
+            "start": 44.55,
+            "end": 44.83,
+            "word": " ask",
+            "probability": 0.99928
+          },
+          {
+            "start": 44.83,
+            "end": 45.03,
+            "word": " for",
+            "probability": 0.98862
+          },
+          {
+            "start": 45.03,
+            "end": 45.13,
+            "word": " a",
+            "probability": 0.9975
+          },
+          {
+            "start": 45.13,
+            "end": 45.47,
+            "word": " favor.",
+            "probability": 0.86569
+          },
+          {
+            "start": 46.24,
+            "end": 46.68,
+            "word": " If",
+            "probability": 0.98907
+          },
+          {
+            "start": 46.68,
+            "end": 46.78,
+            "word": " you",
+            "probability": 0.99886
+          },
+          {
+            "start": 46.78,
+            "end": 46.92,
+            "word": " have",
+            "probability": 0.99826
+          },
+          {
+            "start": 46.92,
+            "end": 47.1,
+            "word": " some",
+            "probability": 0.93952
+          },
+          {
+            "start": 47.1,
+            "end": 47.46,
+            "word": " time,",
+            "probability": 0.99926
+          },
+          {
+            "start": 47.78,
+            "end": 47.86,
+            "word": " I",
+            "probability": 0.99807
+          },
+          {
+            "start": 47.86,
+            "end": 48.0,
+            "word": " would",
+            "probability": 0.9899
+          },
+          {
+            "start": 48.0,
+            "end": 48.16,
+            "word": " love",
+            "probability": 0.99232
+          },
+          {
+            "start": 48.16,
+            "end": 48.34,
+            "word": " to",
+            "probability": 0.99881
+          },
+          {
+            "start": 48.34,
+            "end": 48.52,
+            "word": " meet",
+            "probability": 0.99765
+          },
+          {
+            "start": 48.52,
+            "end": 48.66,
+            "word": " and",
+            "probability": 0.99638
+          },
+          {
+            "start": 48.66,
+            "end": 48.96,
+            "word": " discuss",
+            "probability": 0.99916
+          }
+        ]
+      },
+      {
+        "start": 48.96,
+        "end": 52.72,
+        "text": "a few ideas I have. Let me know when you are free.",
+        "words": [
+          {
+            "start": 48.96,
+            "end": 49.16,
+            "word": " a",
+            "probability": 0.9872
+          },
+          {
+            "start": 49.16,
+            "end": 49.34,
+            "word": " few",
+            "probability": 0.99959
+          },
+          {
+            "start": 49.34,
+            "end": 49.68,
+            "word": " ideas",
+            "probability": 0.99796
+          },
+          {
+            "start": 49.68,
+            "end": 49.94,
+            "word": " I",
+            "probability": 0.99388
+          },
+          {
+            "start": 49.94,
+            "end": 50.14,
+            "word": " have.",
+            "probability": 0.99894
+          },
+          {
+            "start": 51.2,
+            "end": 51.44,
+            "word": " Let",
+            "probability": 0.99223
+          },
+          {
+            "start": 51.44,
+            "end": 51.62,
+            "word": " me",
+            "probability": 0.99685
+          },
+          {
+            "start": 51.62,
+            "end": 51.88,
+            "word": " know",
+            "probability": 0.99941
+          },
+          {
+            "start": 51.88,
+            "end": 52.08,
+            "word": " when",
+            "probability": 0.99574
+          },
+          {
+            "start": 52.08,
+            "end": 52.28,
+            "word": " you",
+            "probability": 0.99697
+          },
+          {
+            "start": 52.28,
+            "end": 52.38,
+            "word": " are",
+            "probability": 0.99538
+          },
+          {
+            "start": 52.38,
+            "end": 52.72,
+            "word": " free.",
+            "probability": 0.99376
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q05",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 70,
+            "speechStart": 0.66,
+            "speechEnd": 25.04,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi k it's douglas i hope you are doing well i wanted to call you today to say thank you for all your help with the project your advice was really valuable and it made a big difference i also wanted to ask for a favor if you have some time i would love to meet and discuss a few ideas i have let me know when you are free",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 70,
+            "wordEndIndexExclusive": 141,
+            "speechStart": 28.7,
+            "speechEnd": 52.72,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9929,
+            "transcript": "hi k it's douglas this i hope you are doing well i wanted to call you today to say thank you for all your help with the project your advice was really valuable and it made a big difference i also wanted to ask for a favor if you have some time i would love to meet and discuss a few ideas i have let me know when you are free",
+            "openingMatch": 0.9767,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

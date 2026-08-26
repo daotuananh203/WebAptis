@@ -1,0 +1,567 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p2-spk-a",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-2/spk-a.mp3",
+  "audioSha256": "2a47c63bd2ac9107d8901031d10d8a21b498f47a5555bdfba587f2ad035a66eb",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 4.52,
+        "text": "I try to help the environment by using less electricity at home.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.2,
+            "word": " I",
+            "probability": 0.97865
+          },
+          {
+            "start": 1.2,
+            "end": 1.36,
+            "word": " try",
+            "probability": 0.97149
+          },
+          {
+            "start": 1.36,
+            "end": 1.5,
+            "word": " to",
+            "probability": 0.99401
+          },
+          {
+            "start": 1.5,
+            "end": 1.64,
+            "word": " help",
+            "probability": 0.9971
+          },
+          {
+            "start": 1.64,
+            "end": 1.84,
+            "word": " the",
+            "probability": 0.99374
+          },
+          {
+            "start": 1.84,
+            "end": 2.32,
+            "word": " environment",
+            "probability": 0.99425
+          },
+          {
+            "start": 2.32,
+            "end": 2.7,
+            "word": " by",
+            "probability": 0.98119
+          },
+          {
+            "start": 2.7,
+            "end": 3.02,
+            "word": " using",
+            "probability": 0.99685
+          },
+          {
+            "start": 3.02,
+            "end": 3.3,
+            "word": " less",
+            "probability": 0.99697
+          },
+          {
+            "start": 3.3,
+            "end": 3.74,
+            "word": " electricity",
+            "probability": 0.99855
+          },
+          {
+            "start": 3.74,
+            "end": 4.26,
+            "word": " at",
+            "probability": 0.9965
+          },
+          {
+            "start": 4.26,
+            "end": 4.52,
+            "word": " home.",
+            "probability": 0.99914
+          }
+        ]
+      },
+      {
+        "start": 5.33,
+        "end": 10.91,
+        "text": "I always turn off the lights when I don't need them and make sure my appliances are energy efficient.",
+        "words": [
+          {
+            "start": 5.33,
+            "end": 5.67,
+            "word": " I",
+            "probability": 0.99687
+          },
+          {
+            "start": 5.67,
+            "end": 6.07,
+            "word": " always",
+            "probability": 0.98621
+          },
+          {
+            "start": 6.07,
+            "end": 6.35,
+            "word": " turn",
+            "probability": 0.99854
+          },
+          {
+            "start": 6.35,
+            "end": 6.55,
+            "word": " off",
+            "probability": 0.99677
+          },
+          {
+            "start": 6.55,
+            "end": 6.73,
+            "word": " the",
+            "probability": 0.99252
+          },
+          {
+            "start": 6.73,
+            "end": 6.95,
+            "word": " lights",
+            "probability": 0.99638
+          },
+          {
+            "start": 6.95,
+            "end": 7.35,
+            "word": " when",
+            "probability": 0.97616
+          },
+          {
+            "start": 7.35,
+            "end": 7.47,
+            "word": " I",
+            "probability": 0.99449
+          },
+          {
+            "start": 7.47,
+            "end": 7.71,
+            "word": " don't",
+            "probability": 0.99479
+          },
+          {
+            "start": 7.71,
+            "end": 7.89,
+            "word": " need",
+            "probability": 0.99777
+          },
+          {
+            "start": 7.89,
+            "end": 8.11,
+            "word": " them",
+            "probability": 0.99861
+          },
+          {
+            "start": 8.11,
+            "end": 8.49,
+            "word": " and",
+            "probability": 0.69624
+          },
+          {
+            "start": 8.49,
+            "end": 8.63,
+            "word": " make",
+            "probability": 0.99653
+          },
+          {
+            "start": 8.63,
+            "end": 8.89,
+            "word": " sure",
+            "probability": 0.99861
+          },
+          {
+            "start": 8.89,
+            "end": 9.09,
+            "word": " my",
+            "probability": 0.99417
+          },
+          {
+            "start": 9.09,
+            "end": 9.55,
+            "word": " appliances",
+            "probability": 0.99625
+          },
+          {
+            "start": 9.55,
+            "end": 10.01,
+            "word": " are",
+            "probability": 0.994
+          },
+          {
+            "start": 10.01,
+            "end": 10.43,
+            "word": " energy",
+            "probability": 0.99484
+          },
+          {
+            "start": 10.43,
+            "end": 10.91,
+            "word": " efficient.",
+            "probability": 0.76311
+          }
+        ]
+      },
+      {
+        "start": 11.77,
+        "end": 17.17,
+        "text": "I've also started unplugging things like chargers when I'm not using them because they still use power.",
+        "words": [
+          {
+            "start": 11.77,
+            "end": 12.09,
+            "word": " I've",
+            "probability": 0.96795
+          },
+          {
+            "start": 12.09,
+            "end": 12.31,
+            "word": " also",
+            "probability": 0.99529
+          },
+          {
+            "start": 12.31,
+            "end": 12.71,
+            "word": " started",
+            "probability": 0.99797
+          },
+          {
+            "start": 12.71,
+            "end": 13.31,
+            "word": " unplugging",
+            "probability": 0.98058
+          },
+          {
+            "start": 13.31,
+            "end": 13.57,
+            "word": " things",
+            "probability": 0.99845
+          },
+          {
+            "start": 13.57,
+            "end": 13.91,
+            "word": " like",
+            "probability": 0.98412
+          },
+          {
+            "start": 13.91,
+            "end": 14.47,
+            "word": " chargers",
+            "probability": 0.95385
+          },
+          {
+            "start": 14.47,
+            "end": 14.69,
+            "word": " when",
+            "probability": 0.99048
+          },
+          {
+            "start": 14.69,
+            "end": 14.87,
+            "word": " I'm",
+            "probability": 0.99065
+          },
+          {
+            "start": 14.87,
+            "end": 14.99,
+            "word": " not",
+            "probability": 0.99475
+          },
+          {
+            "start": 14.99,
+            "end": 15.37,
+            "word": " using",
+            "probability": 0.99751
+          },
+          {
+            "start": 15.37,
+            "end": 15.65,
+            "word": " them",
+            "probability": 0.99678
+          },
+          {
+            "start": 15.65,
+            "end": 16.09,
+            "word": " because",
+            "probability": 0.8632
+          },
+          {
+            "start": 16.09,
+            "end": 16.27,
+            "word": " they",
+            "probability": 0.99662
+          },
+          {
+            "start": 16.27,
+            "end": 16.53,
+            "word": " still",
+            "probability": 0.98873
+          },
+          {
+            "start": 16.53,
+            "end": 16.79,
+            "word": " use",
+            "probability": 0.99667
+          },
+          {
+            "start": 16.79,
+            "end": 17.17,
+            "word": " power.",
+            "probability": 0.99614
+          }
+        ]
+      },
+      {
+        "start": 18.11,
+        "end": 22.31,
+        "text": "This helps lower my electricity bill and reduces my impact on the planet.",
+        "words": [
+          {
+            "start": 18.11,
+            "end": 18.39,
+            "word": " This",
+            "probability": 0.99716
+          },
+          {
+            "start": 18.39,
+            "end": 18.65,
+            "word": " helps",
+            "probability": 0.99617
+          },
+          {
+            "start": 18.65,
+            "end": 19.07,
+            "word": " lower",
+            "probability": 0.98937
+          },
+          {
+            "start": 19.07,
+            "end": 19.33,
+            "word": " my",
+            "probability": 0.99863
+          },
+          {
+            "start": 19.33,
+            "end": 19.77,
+            "word": " electricity",
+            "probability": 0.99716
+          },
+          {
+            "start": 19.77,
+            "end": 20.25,
+            "word": " bill",
+            "probability": 0.99434
+          },
+          {
+            "start": 20.25,
+            "end": 20.59,
+            "word": " and",
+            "probability": 0.96459
+          },
+          {
+            "start": 20.59,
+            "end": 20.99,
+            "word": " reduces",
+            "probability": 0.99466
+          },
+          {
+            "start": 20.99,
+            "end": 21.27,
+            "word": " my",
+            "probability": 0.99658
+          },
+          {
+            "start": 21.27,
+            "end": 21.57,
+            "word": " impact",
+            "probability": 0.99823
+          },
+          {
+            "start": 21.57,
+            "end": 21.85,
+            "word": " on",
+            "probability": 0.99877
+          },
+          {
+            "start": 21.85,
+            "end": 21.97,
+            "word": " the",
+            "probability": 0.99659
+          },
+          {
+            "start": 21.97,
+            "end": 22.31,
+            "word": " planet.",
+            "probability": 0.99801
+          }
+        ]
+      },
+      {
+        "start": 23.01,
+        "end": 29.71,
+        "text": "I believe that if everyone made these small changes, we could save a lot of energy and help fight climate change.",
+        "words": [
+          {
+            "start": 23.01,
+            "end": 23.55,
+            "word": " I",
+            "probability": 0.99691
+          },
+          {
+            "start": 23.55,
+            "end": 23.81,
+            "word": " believe",
+            "probability": 0.99828
+          },
+          {
+            "start": 23.81,
+            "end": 24.05,
+            "word": " that",
+            "probability": 0.98142
+          },
+          {
+            "start": 24.05,
+            "end": 24.21,
+            "word": " if",
+            "probability": 0.99058
+          },
+          {
+            "start": 24.21,
+            "end": 24.69,
+            "word": " everyone",
+            "probability": 0.97443
+          },
+          {
+            "start": 24.69,
+            "end": 24.97,
+            "word": " made",
+            "probability": 0.99736
+          },
+          {
+            "start": 24.97,
+            "end": 25.19,
+            "word": " these",
+            "probability": 0.97599
+          },
+          {
+            "start": 25.19,
+            "end": 25.55,
+            "word": " small",
+            "probability": 0.9941
+          },
+          {
+            "start": 25.55,
+            "end": 26.01,
+            "word": " changes,",
+            "probability": 0.99906
+          },
+          {
+            "start": 26.43,
+            "end": 26.67,
+            "word": " we",
+            "probability": 0.99707
+          },
+          {
+            "start": 26.67,
+            "end": 26.81,
+            "word": " could",
+            "probability": 0.98504
+          },
+          {
+            "start": 26.81,
+            "end": 27.05,
+            "word": " save",
+            "probability": 0.99873
+          },
+          {
+            "start": 27.05,
+            "end": 27.21,
+            "word": " a",
+            "probability": 0.99756
+          },
+          {
+            "start": 27.21,
+            "end": 27.45,
+            "word": " lot",
+            "probability": 0.99696
+          },
+          {
+            "start": 27.45,
+            "end": 27.63,
+            "word": " of",
+            "probability": 0.99808
+          },
+          {
+            "start": 27.63,
+            "end": 28.01,
+            "word": " energy",
+            "probability": 0.99899
+          },
+          {
+            "start": 28.01,
+            "end": 28.41,
+            "word": " and",
+            "probability": 0.98497
+          },
+          {
+            "start": 28.41,
+            "end": 28.65,
+            "word": " help",
+            "probability": 0.99541
+          },
+          {
+            "start": 28.65,
+            "end": 28.89,
+            "word": " fight",
+            "probability": 0.99212
+          },
+          {
+            "start": 28.89,
+            "end": 29.23,
+            "word": " climate",
+            "probability": 0.99928
+          },
+          {
+            "start": 29.23,
+            "end": 29.71,
+            "word": " change.",
+            "probability": 0.99934
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-a",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 82,
+            "speechStart": 0.78,
+            "speechEnd": 29.71,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i try to help the environment by using less electricity at home i always turn off the lights when i don't need them and make sure my appliances are energy efficient i've also started unplugging things like chargers when i'm not using them because they still use power this helps lower my electricity bill and reduces my impact on the planet i believe that if everyone made these small changes we could save a lot of energy and help fight climate change",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p1-q12",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-1/q12.mp3",
+  "audioSha256": "d279299b2150b7cb83c58abedba99d6b280f3b69abf8c1cab546429d46523fc6",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.91,
+        "end": 9.75,
+        "text": "I sold my old music player last week. I considered selling it for around $60 since it was in good condition, but I thought $40 would be a bit too low.",
+        "words": [
+          {
+            "start": 0.91,
+            "end": 1.33,
+            "word": " I",
+            "probability": 0.88737
+          },
+          {
+            "start": 1.33,
+            "end": 1.57,
+            "word": " sold",
+            "probability": 0.99465
+          },
+          {
+            "start": 1.57,
+            "end": 1.75,
+            "word": " my",
+            "probability": 0.998
+          },
+          {
+            "start": 1.75,
+            "end": 1.93,
+            "word": " old",
+            "probability": 0.99299
+          },
+          {
+            "start": 1.93,
+            "end": 2.19,
+            "word": " music",
+            "probability": 0.93473
+          },
+          {
+            "start": 2.19,
+            "end": 2.47,
+            "word": " player",
+            "probability": 0.97431
+          },
+          {
+            "start": 2.47,
+            "end": 2.73,
+            "word": " last",
+            "probability": 0.99848
+          },
+          {
+            "start": 2.73,
+            "end": 2.99,
+            "word": " week.",
+            "probability": 0.99921
+          },
+          {
+            "start": 3.53,
+            "end": 3.69,
+            "word": " I",
+            "probability": 0.99649
+          },
+          {
+            "start": 3.69,
+            "end": 4.05,
+            "word": " considered",
+            "probability": 0.98675
+          },
+          {
+            "start": 4.05,
+            "end": 4.43,
+            "word": " selling",
+            "probability": 0.99857
+          },
+          {
+            "start": 4.43,
+            "end": 4.57,
+            "word": " it",
+            "probability": 0.99108
+          },
+          {
+            "start": 4.57,
+            "end": 4.71,
+            "word": " for",
+            "probability": 0.99545
+          },
+          {
+            "start": 4.71,
+            "end": 4.95,
+            "word": " around",
+            "probability": 0.98896
+          },
+          {
+            "start": 4.95,
+            "end": 5.51,
+            "word": " $60",
+            "probability": 0.8934
+          },
+          {
+            "start": 5.51,
+            "end": 6.11,
+            "word": " since",
+            "probability": 0.86732
+          },
+          {
+            "start": 6.11,
+            "end": 6.27,
+            "word": " it",
+            "probability": 0.99642
+          },
+          {
+            "start": 6.27,
+            "end": 6.37,
+            "word": " was",
+            "probability": 0.99866
+          },
+          {
+            "start": 6.37,
+            "end": 6.49,
+            "word": " in",
+            "probability": 0.99873
+          },
+          {
+            "start": 6.49,
+            "end": 6.67,
+            "word": " good",
+            "probability": 0.99558
+          },
+          {
+            "start": 6.67,
+            "end": 7.21,
+            "word": " condition,",
+            "probability": 0.9958
+          },
+          {
+            "start": 7.59,
+            "end": 7.71,
+            "word": " but",
+            "probability": 0.9932
+          },
+          {
+            "start": 7.71,
+            "end": 7.83,
+            "word": " I",
+            "probability": 0.99795
+          },
+          {
+            "start": 7.83,
+            "end": 8.01,
+            "word": " thought",
+            "probability": 0.99102
+          },
+          {
+            "start": 8.01,
+            "end": 8.67,
+            "word": " $40",
+            "probability": 0.98963
+          },
+          {
+            "start": 8.67,
+            "end": 8.89,
+            "word": " would",
+            "probability": 0.99159
+          },
+          {
+            "start": 8.89,
+            "end": 9.01,
+            "word": " be",
+            "probability": 0.99835
+          },
+          {
+            "start": 9.01,
+            "end": 9.11,
+            "word": " a",
+            "probability": 0.99745
+          },
+          {
+            "start": 9.11,
+            "end": 9.25,
+            "word": " bit",
+            "probability": 0.99782
+          },
+          {
+            "start": 9.25,
+            "end": 9.53,
+            "word": " too",
+            "probability": 0.99759
+          },
+          {
+            "start": 9.53,
+            "end": 9.75,
+            "word": " low.",
+            "probability": 0.99878
+          }
+        ]
+      },
+      {
+        "start": 11.05,
+        "end": 19.35,
+        "text": "I finally sold it for $50, which felt just right. Now, I have a bit of extra cash to save or spend on something new.",
+        "words": [
+          {
+            "start": 11.05,
+            "end": 11.29,
+            "word": " I",
+            "probability": 0.99758
+          },
+          {
+            "start": 11.29,
+            "end": 11.77,
+            "word": " finally",
+            "probability": 0.99218
+          },
+          {
+            "start": 11.77,
+            "end": 12.11,
+            "word": " sold",
+            "probability": 0.99836
+          },
+          {
+            "start": 12.11,
+            "end": 12.33,
+            "word": " it",
+            "probability": 0.99872
+          },
+          {
+            "start": 12.33,
+            "end": 12.51,
+            "word": " for",
+            "probability": 0.99811
+          },
+          {
+            "start": 12.51,
+            "end": 12.99,
+            "word": " $50,",
+            "probability": 0.98266
+          },
+          {
+            "start": 13.63,
+            "end": 13.85,
+            "word": " which",
+            "probability": 0.99807
+          },
+          {
+            "start": 13.85,
+            "end": 14.05,
+            "word": " felt",
+            "probability": 0.99727
+          },
+          {
+            "start": 14.05,
+            "end": 14.51,
+            "word": " just",
+            "probability": 0.97572
+          },
+          {
+            "start": 14.51,
+            "end": 14.93,
+            "word": " right.",
+            "probability": 0.99867
+          },
+          {
+            "start": 15.63,
+            "end": 15.93,
+            "word": " Now,",
+            "probability": 0.99553
+          },
+          {
+            "start": 16.29,
+            "end": 16.43,
+            "word": " I",
+            "probability": 0.99322
+          },
+          {
+            "start": 16.43,
+            "end": 16.57,
+            "word": " have",
+            "probability": 0.99808
+          },
+          {
+            "start": 16.57,
+            "end": 16.63,
+            "word": " a",
+            "probability": 0.99858
+          },
+          {
+            "start": 16.63,
+            "end": 16.75,
+            "word": " bit",
+            "probability": 0.987
+          },
+          {
+            "start": 16.75,
+            "end": 16.87,
+            "word": " of",
+            "probability": 0.99174
+          },
+          {
+            "start": 16.87,
+            "end": 17.13,
+            "word": " extra",
+            "probability": 0.99325
+          },
+          {
+            "start": 17.13,
+            "end": 17.43,
+            "word": " cash",
+            "probability": 0.99592
+          },
+          {
+            "start": 17.43,
+            "end": 17.65,
+            "word": " to",
+            "probability": 0.99854
+          },
+          {
+            "start": 17.65,
+            "end": 17.97,
+            "word": " save",
+            "probability": 0.99254
+          },
+          {
+            "start": 17.97,
+            "end": 18.21,
+            "word": " or",
+            "probability": 0.9454
+          },
+          {
+            "start": 18.21,
+            "end": 18.47,
+            "word": " spend",
+            "probability": 0.99686
+          },
+          {
+            "start": 18.47,
+            "end": 18.67,
+            "word": " on",
+            "probability": 0.99713
+          },
+          {
+            "start": 18.67,
+            "end": 19.03,
+            "word": " something",
+            "probability": 0.99863
+          },
+          {
+            "start": 19.03,
+            "end": 19.35,
+            "word": " new.",
+            "probability": 0.99953
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q12",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 56,
+            "speechStart": 0.91,
+            "speechEnd": 19.35,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i sold my old music player last week i considered selling it for around 60 since it was in good condition but i thought 40 would be a bit too low i finally sold it for 50 which felt just right now i have a bit of extra cash to save or spend on something new",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

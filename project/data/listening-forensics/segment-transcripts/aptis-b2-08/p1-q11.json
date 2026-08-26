@@ -1,0 +1,547 @@
+{
+  "testId": "aptis-b2-08",
+  "blockId": "p1-q11",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-08/part-1/q11.mp3",
+  "audioSha256": "721197b134864b4a84d2eb1a82358d3f81374deed6071b74a52998c9402c812c",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.98,
+        "end": 3.04,
+        "text": "Hey, are you free for coffee later?",
+        "words": [
+          {
+            "start": 0.98,
+            "end": 1.48,
+            "word": " Hey,",
+            "probability": 0.93652
+          },
+          {
+            "start": 1.76,
+            "end": 2.02,
+            "word": " are",
+            "probability": 0.99304
+          },
+          {
+            "start": 2.02,
+            "end": 2.12,
+            "word": " you",
+            "probability": 0.99666
+          },
+          {
+            "start": 2.12,
+            "end": 2.3,
+            "word": " free",
+            "probability": 0.99274
+          },
+          {
+            "start": 2.3,
+            "end": 2.46,
+            "word": " for",
+            "probability": 0.99652
+          },
+          {
+            "start": 2.46,
+            "end": 2.72,
+            "word": " coffee",
+            "probability": 0.96199
+          },
+          {
+            "start": 2.72,
+            "end": 3.04,
+            "word": " later?",
+            "probability": 0.94688
+          }
+        ]
+      },
+      {
+        "start": 3.72,
+        "end": 5.46,
+        "text": "I found a great new place in town.",
+        "words": [
+          {
+            "start": 3.72,
+            "end": 4.08,
+            "word": " I",
+            "probability": 0.98821
+          },
+          {
+            "start": 4.08,
+            "end": 4.26,
+            "word": " found",
+            "probability": 0.95784
+          },
+          {
+            "start": 4.26,
+            "end": 4.38,
+            "word": " a",
+            "probability": 0.99847
+          },
+          {
+            "start": 4.38,
+            "end": 4.6,
+            "word": " great",
+            "probability": 0.99622
+          },
+          {
+            "start": 4.6,
+            "end": 4.8,
+            "word": " new",
+            "probability": 0.99107
+          },
+          {
+            "start": 4.8,
+            "end": 5.02,
+            "word": " place",
+            "probability": 0.9937
+          },
+          {
+            "start": 5.02,
+            "end": 5.22,
+            "word": " in",
+            "probability": 0.99911
+          },
+          {
+            "start": 5.22,
+            "end": 5.46,
+            "word": " town.",
+            "probability": 0.9962
+          }
+        ]
+      },
+      {
+        "start": 5.7,
+        "end": 6.98,
+        "text": "It's not hard to find at all.",
+        "words": [
+          {
+            "start": 5.7,
+            "end": 5.92,
+            "word": " It's",
+            "probability": 0.99228
+          },
+          {
+            "start": 5.92,
+            "end": 6.04,
+            "word": " not",
+            "probability": 0.99624
+          },
+          {
+            "start": 6.04,
+            "end": 6.22,
+            "word": " hard",
+            "probability": 0.9993
+          },
+          {
+            "start": 6.22,
+            "end": 6.36,
+            "word": " to",
+            "probability": 0.99906
+          },
+          {
+            "start": 6.36,
+            "end": 6.58,
+            "word": " find",
+            "probability": 0.99951
+          },
+          {
+            "start": 6.58,
+            "end": 6.78,
+            "word": " at",
+            "probability": 0.78093
+          },
+          {
+            "start": 6.78,
+            "end": 6.98,
+            "word": " all.",
+            "probability": 0.99845
+          }
+        ]
+      },
+      {
+        "start": 7.32,
+        "end": 8.98,
+        "text": "You know the big gift shop on Main Street?",
+        "words": [
+          {
+            "start": 7.32,
+            "end": 7.42,
+            "word": " You",
+            "probability": 0.97996
+          },
+          {
+            "start": 7.42,
+            "end": 7.5,
+            "word": " know",
+            "probability": 0.99869
+          },
+          {
+            "start": 7.5,
+            "end": 7.64,
+            "word": " the",
+            "probability": 0.9452
+          },
+          {
+            "start": 7.64,
+            "end": 7.84,
+            "word": " big",
+            "probability": 0.94903
+          },
+          {
+            "start": 7.84,
+            "end": 8.0,
+            "word": " gift",
+            "probability": 0.97929
+          },
+          {
+            "start": 8.0,
+            "end": 8.24,
+            "word": " shop",
+            "probability": 0.99048
+          },
+          {
+            "start": 8.24,
+            "end": 8.5,
+            "word": " on",
+            "probability": 0.99246
+          },
+          {
+            "start": 8.5,
+            "end": 8.66,
+            "word": " Main",
+            "probability": 0.90275
+          },
+          {
+            "start": 8.66,
+            "end": 8.98,
+            "word": " Street?",
+            "probability": 0.91056
+          }
+        ]
+      },
+      {
+        "start": 9.72,
+        "end": 11.8,
+        "text": "Well, the coffee shop is right across from it.",
+        "words": [
+          {
+            "start": 9.72,
+            "end": 9.96,
+            "word": " Well,",
+            "probability": 0.98241
+          },
+          {
+            "start": 10.02,
+            "end": 10.08,
+            "word": " the",
+            "probability": 0.99451
+          },
+          {
+            "start": 10.08,
+            "end": 10.32,
+            "word": " coffee",
+            "probability": 0.97252
+          },
+          {
+            "start": 10.32,
+            "end": 10.62,
+            "word": " shop",
+            "probability": 0.99883
+          },
+          {
+            "start": 10.62,
+            "end": 10.82,
+            "word": " is",
+            "probability": 0.99633
+          },
+          {
+            "start": 10.82,
+            "end": 11.0,
+            "word": " right",
+            "probability": 0.99684
+          },
+          {
+            "start": 11.0,
+            "end": 11.32,
+            "word": " across",
+            "probability": 0.99916
+          },
+          {
+            "start": 11.32,
+            "end": 11.64,
+            "word": " from",
+            "probability": 0.99678
+          },
+          {
+            "start": 11.64,
+            "end": 11.8,
+            "word": " it.",
+            "probability": 0.99771
+          }
+        ]
+      },
+      {
+        "start": 12.1,
+        "end": 14.72,
+        "text": "Just look for the gift shop, then cross the street.",
+        "words": [
+          {
+            "start": 12.1,
+            "end": 12.28,
+            "word": " Just",
+            "probability": 0.99082
+          },
+          {
+            "start": 12.28,
+            "end": 12.5,
+            "word": " look",
+            "probability": 0.99751
+          },
+          {
+            "start": 12.5,
+            "end": 12.66,
+            "word": " for",
+            "probability": 0.9988
+          },
+          {
+            "start": 12.66,
+            "end": 12.76,
+            "word": " the",
+            "probability": 0.99732
+          },
+          {
+            "start": 12.76,
+            "end": 12.92,
+            "word": " gift",
+            "probability": 0.98665
+          },
+          {
+            "start": 12.92,
+            "end": 13.2,
+            "word": " shop,",
+            "probability": 0.99797
+          },
+          {
+            "start": 13.42,
+            "end": 13.74,
+            "word": " then",
+            "probability": 0.98504
+          },
+          {
+            "start": 13.74,
+            "end": 14.18,
+            "word": " cross",
+            "probability": 0.84101
+          },
+          {
+            "start": 14.18,
+            "end": 14.44,
+            "word": " the",
+            "probability": 0.99844
+          },
+          {
+            "start": 14.44,
+            "end": 14.72,
+            "word": " street.",
+            "probability": 0.99425
+          }
+        ]
+      },
+      {
+        "start": 14.88,
+        "end": 17.64,
+        "text": "You'll see the coffee shop right there opposite the gift shop.",
+        "words": [
+          {
+            "start": 14.88,
+            "end": 14.98,
+            "word": " You'll",
+            "probability": 0.99309
+          },
+          {
+            "start": 14.98,
+            "end": 15.16,
+            "word": " see",
+            "probability": 0.99922
+          },
+          {
+            "start": 15.16,
+            "end": 15.3,
+            "word": " the",
+            "probability": 0.99798
+          },
+          {
+            "start": 15.3,
+            "end": 15.56,
+            "word": " coffee",
+            "probability": 0.99423
+          },
+          {
+            "start": 15.56,
+            "end": 15.82,
+            "word": " shop",
+            "probability": 0.99862
+          },
+          {
+            "start": 15.82,
+            "end": 16.1,
+            "word": " right",
+            "probability": 0.98087
+          },
+          {
+            "start": 16.1,
+            "end": 16.32,
+            "word": " there",
+            "probability": 0.99927
+          },
+          {
+            "start": 16.32,
+            "end": 16.84,
+            "word": " opposite",
+            "probability": 0.78342
+          },
+          {
+            "start": 16.84,
+            "end": 17.18,
+            "word": " the",
+            "probability": 0.97503
+          },
+          {
+            "start": 17.18,
+            "end": 17.32,
+            "word": " gift",
+            "probability": 0.99375
+          },
+          {
+            "start": 17.32,
+            "end": 17.64,
+            "word": " shop.",
+            "probability": 0.99809
+          }
+        ]
+      },
+      {
+        "start": 18.0,
+        "end": 20.04,
+        "text": "They have amazing pastries too.",
+        "words": [
+          {
+            "start": 18.0,
+            "end": 18.44,
+            "word": " They",
+            "probability": 0.99539
+          },
+          {
+            "start": 18.44,
+            "end": 18.54,
+            "word": " have",
+            "probability": 0.99925
+          },
+          {
+            "start": 18.54,
+            "end": 19.06,
+            "word": " amazing",
+            "probability": 0.99822
+          },
+          {
+            "start": 19.06,
+            "end": 19.7,
+            "word": " pastries",
+            "probability": 0.96252
+          },
+          {
+            "start": 19.7,
+            "end": 20.04,
+            "word": " too.",
+            "probability": 0.83117
+          }
+        ]
+      },
+      {
+        "start": 20.64,
+        "end": 22.58,
+        "text": "Let's meet there at 3 p.m., okay?",
+        "words": [
+          {
+            "start": 20.64,
+            "end": 20.92,
+            "word": " Let's",
+            "probability": 0.99461
+          },
+          {
+            "start": 20.92,
+            "end": 21.06,
+            "word": " meet",
+            "probability": 0.99749
+          },
+          {
+            "start": 21.06,
+            "end": 21.26,
+            "word": " there",
+            "probability": 0.98678
+          },
+          {
+            "start": 21.26,
+            "end": 21.4,
+            "word": " at",
+            "probability": 0.99615
+          },
+          {
+            "start": 21.4,
+            "end": 21.64,
+            "word": " 3",
+            "probability": 0.93137
+          },
+          {
+            "start": 21.64,
+            "end": 21.84,
+            "word": " p",
+            "probability": 0.32216
+          },
+          {
+            "start": 21.84,
+            "end": 22.32,
+            "word": ".m.,",
+            "probability": 0.85481
+          },
+          {
+            "start": 22.32,
+            "end": 22.58,
+            "word": " okay?",
+            "probability": 0.79238
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q11",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 74,
+            "speechStart": 0.98,
+            "speechEnd": 22.58,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey are you free for coffee later i found a great new place in town it's not hard to find at all you know the big gift shop on main street well the coffee shop is right across from it just look for the gift shop then cross the street you'll see the coffee shop right there opposite the gift shop they have amazing pastries too let's meet there at 3 p m okay",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

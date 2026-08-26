@@ -1,0 +1,3306 @@
+{
+  "testId": "aptis-b2-14",
+  "blockId": "p4-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-14/part-4/task-all.mp3",
+  "audioSha256": "825b2adeb46a1ef68bfb3f3b4f6d0559a6d93a36e459b9051010978e3bcc2495",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.91,
+        "end": 7.91,
+        "text": "When discussing short term goals, many people mistakenly think they only apply to specific situations or certain types of people.",
+        "words": [
+          {
+            "start": 0.91,
+            "end": 1.39,
+            "word": " When",
+            "probability": 0.64622
+          },
+          {
+            "start": 1.39,
+            "end": 1.83,
+            "word": " discussing",
+            "probability": 0.99485
+          },
+          {
+            "start": 1.83,
+            "end": 2.15,
+            "word": " short",
+            "probability": 0.99114
+          },
+          {
+            "start": 2.15,
+            "end": 2.41,
+            "word": " term",
+            "probability": 0.59535
+          },
+          {
+            "start": 2.41,
+            "end": 2.79,
+            "word": " goals,",
+            "probability": 0.98815
+          },
+          {
+            "start": 3.17,
+            "end": 3.31,
+            "word": " many",
+            "probability": 0.99536
+          },
+          {
+            "start": 3.31,
+            "end": 3.61,
+            "word": " people",
+            "probability": 0.99878
+          },
+          {
+            "start": 3.61,
+            "end": 4.23,
+            "word": " mistakenly",
+            "probability": 0.99
+          },
+          {
+            "start": 4.23,
+            "end": 4.45,
+            "word": " think",
+            "probability": 0.99552
+          },
+          {
+            "start": 4.45,
+            "end": 4.59,
+            "word": " they",
+            "probability": 0.98657
+          },
+          {
+            "start": 4.59,
+            "end": 4.83,
+            "word": " only",
+            "probability": 0.99387
+          },
+          {
+            "start": 4.83,
+            "end": 5.13,
+            "word": " apply",
+            "probability": 0.98607
+          },
+          {
+            "start": 5.13,
+            "end": 5.29,
+            "word": " to",
+            "probability": 0.9954
+          },
+          {
+            "start": 5.29,
+            "end": 5.67,
+            "word": " specific",
+            "probability": 0.98393
+          },
+          {
+            "start": 5.67,
+            "end": 6.37,
+            "word": " situations",
+            "probability": 0.99438
+          },
+          {
+            "start": 6.37,
+            "end": 6.71,
+            "word": " or",
+            "probability": 0.7788
+          },
+          {
+            "start": 6.71,
+            "end": 7.07,
+            "word": " certain",
+            "probability": 0.99782
+          },
+          {
+            "start": 7.07,
+            "end": 7.43,
+            "word": " types",
+            "probability": 0.9964
+          },
+          {
+            "start": 7.43,
+            "end": 7.59,
+            "word": " of",
+            "probability": 0.99827
+          },
+          {
+            "start": 7.59,
+            "end": 7.91,
+            "word": " people.",
+            "probability": 0.99885
+          }
+        ]
+      },
+      {
+        "start": 8.7,
+        "end": 14.0,
+        "text": "Some believe these goals create pressure and limit creativity, making it seem like they're not worth the effort.",
+        "words": [
+          {
+            "start": 8.7,
+            "end": 9.06,
+            "word": " Some",
+            "probability": 0.99287
+          },
+          {
+            "start": 9.06,
+            "end": 9.34,
+            "word": " believe",
+            "probability": 0.99494
+          },
+          {
+            "start": 9.34,
+            "end": 9.6,
+            "word": " these",
+            "probability": 0.98493
+          },
+          {
+            "start": 9.6,
+            "end": 9.82,
+            "word": " goals",
+            "probability": 0.99558
+          },
+          {
+            "start": 9.82,
+            "end": 10.18,
+            "word": " create",
+            "probability": 0.99571
+          },
+          {
+            "start": 10.18,
+            "end": 10.62,
+            "word": " pressure",
+            "probability": 0.99612
+          },
+          {
+            "start": 10.62,
+            "end": 10.82,
+            "word": " and",
+            "probability": 0.98267
+          },
+          {
+            "start": 10.82,
+            "end": 11.0,
+            "word": " limit",
+            "probability": 0.99493
+          },
+          {
+            "start": 11.0,
+            "end": 11.6,
+            "word": " creativity,",
+            "probability": 0.99711
+          },
+          {
+            "start": 12.06,
+            "end": 12.24,
+            "word": " making",
+            "probability": 0.99766
+          },
+          {
+            "start": 12.24,
+            "end": 12.44,
+            "word": " it",
+            "probability": 0.998
+          },
+          {
+            "start": 12.44,
+            "end": 12.66,
+            "word": " seem",
+            "probability": 0.98772
+          },
+          {
+            "start": 12.66,
+            "end": 12.88,
+            "word": " like",
+            "probability": 0.98621
+          },
+          {
+            "start": 12.88,
+            "end": 13.06,
+            "word": " they're",
+            "probability": 0.90488
+          },
+          {
+            "start": 13.06,
+            "end": 13.22,
+            "word": " not",
+            "probability": 0.99547
+          },
+          {
+            "start": 13.22,
+            "end": 13.54,
+            "word": " worth",
+            "probability": 0.98676
+          },
+          {
+            "start": 13.54,
+            "end": 13.7,
+            "word": " the",
+            "probability": 0.99635
+          },
+          {
+            "start": 13.7,
+            "end": 14.0,
+            "word": " effort.",
+            "probability": 0.99955
+          }
+        ]
+      },
+      {
+        "start": 14.97,
+        "end": 21.0,
+        "text": "However, this view is quite misleading. In reality, short term goals can actually be very flexible.",
+        "words": [
+          {
+            "start": 14.97,
+            "end": 15.23,
+            "word": " However,",
+            "probability": 0.99225
+          },
+          {
+            "start": 15.55,
+            "end": 15.71,
+            "word": " this",
+            "probability": 0.99639
+          },
+          {
+            "start": 15.71,
+            "end": 15.93,
+            "word": " view",
+            "probability": 0.99598
+          },
+          {
+            "start": 15.93,
+            "end": 16.15,
+            "word": " is",
+            "probability": 0.99876
+          },
+          {
+            "start": 16.15,
+            "end": 16.39,
+            "word": " quite",
+            "probability": 0.99589
+          },
+          {
+            "start": 16.39,
+            "end": 16.91,
+            "word": " misleading.",
+            "probability": 0.99774
+          },
+          {
+            "start": 17.9,
+            "end": 18.12,
+            "word": " In",
+            "probability": 0.99139
+          },
+          {
+            "start": 18.12,
+            "end": 18.48,
+            "word": " reality,",
+            "probability": 0.99391
+          },
+          {
+            "start": 18.88,
+            "end": 18.96,
+            "word": " short",
+            "probability": 0.99883
+          },
+          {
+            "start": 18.96,
+            "end": 19.24,
+            "word": " term",
+            "probability": 0.90109
+          },
+          {
+            "start": 19.24,
+            "end": 19.54,
+            "word": " goals",
+            "probability": 0.99779
+          },
+          {
+            "start": 19.54,
+            "end": 19.76,
+            "word": " can",
+            "probability": 0.99829
+          },
+          {
+            "start": 19.76,
+            "end": 20.12,
+            "word": " actually",
+            "probability": 0.99291
+          },
+          {
+            "start": 20.12,
+            "end": 20.3,
+            "word": " be",
+            "probability": 0.99644
+          },
+          {
+            "start": 20.3,
+            "end": 20.6,
+            "word": " very",
+            "probability": 0.99174
+          },
+          {
+            "start": 20.6,
+            "end": 21.0,
+            "word": " flexible.",
+            "probability": 0.99692
+          }
+        ]
+      },
+      {
+        "start": 21.87,
+        "end": 24.45,
+        "text": "They allow you to adjust your plans as life changes.",
+        "words": [
+          {
+            "start": 21.87,
+            "end": 22.23,
+            "word": " They",
+            "probability": 0.99689
+          },
+          {
+            "start": 22.23,
+            "end": 22.45,
+            "word": " allow",
+            "probability": 0.99784
+          },
+          {
+            "start": 22.45,
+            "end": 22.63,
+            "word": " you",
+            "probability": 0.99807
+          },
+          {
+            "start": 22.63,
+            "end": 22.77,
+            "word": " to",
+            "probability": 0.98159
+          },
+          {
+            "start": 22.77,
+            "end": 22.97,
+            "word": " adjust",
+            "probability": 0.99709
+          },
+          {
+            "start": 22.97,
+            "end": 23.17,
+            "word": " your",
+            "probability": 0.99721
+          },
+          {
+            "start": 23.17,
+            "end": 23.49,
+            "word": " plans",
+            "probability": 0.9891
+          },
+          {
+            "start": 23.49,
+            "end": 23.73,
+            "word": " as",
+            "probability": 0.99689
+          },
+          {
+            "start": 23.73,
+            "end": 23.93,
+            "word": " life",
+            "probability": 0.97791
+          },
+          {
+            "start": 23.93,
+            "end": 24.45,
+            "word": " changes.",
+            "probability": 0.99198
+          }
+        ]
+      },
+      {
+        "start": 24.45,
+        "end": 29.43,
+        "text": "For example, if you set a goal to read a few books this month, you might think that's",
+        "words": [
+          {
+            "start": 24.45,
+            "end": 25.49,
+            "word": " For",
+            "probability": 0.23745
+          },
+          {
+            "start": 25.65,
+            "end": 26.03,
+            "word": " example,",
+            "probability": 0.99642
+          },
+          {
+            "start": 26.35,
+            "end": 26.47,
+            "word": " if",
+            "probability": 0.97445
+          },
+          {
+            "start": 26.47,
+            "end": 26.55,
+            "word": " you",
+            "probability": 0.99778
+          },
+          {
+            "start": 26.55,
+            "end": 26.71,
+            "word": " set",
+            "probability": 0.99199
+          },
+          {
+            "start": 26.71,
+            "end": 26.85,
+            "word": " a",
+            "probability": 0.99725
+          },
+          {
+            "start": 26.85,
+            "end": 26.99,
+            "word": " goal",
+            "probability": 0.99856
+          },
+          {
+            "start": 26.99,
+            "end": 27.19,
+            "word": " to",
+            "probability": 0.99745
+          },
+          {
+            "start": 27.19,
+            "end": 27.39,
+            "word": " read",
+            "probability": 0.99021
+          },
+          {
+            "start": 27.39,
+            "end": 27.51,
+            "word": " a",
+            "probability": 0.99858
+          },
+          {
+            "start": 27.51,
+            "end": 27.67,
+            "word": " few",
+            "probability": 0.99819
+          },
+          {
+            "start": 27.67,
+            "end": 27.95,
+            "word": " books",
+            "probability": 0.99552
+          },
+          {
+            "start": 27.95,
+            "end": 28.15,
+            "word": " this",
+            "probability": 0.98699
+          },
+          {
+            "start": 28.15,
+            "end": 28.45,
+            "word": " month,",
+            "probability": 0.99775
+          },
+          {
+            "start": 28.71,
+            "end": 28.83,
+            "word": " you",
+            "probability": 0.99394
+          },
+          {
+            "start": 28.83,
+            "end": 28.99,
+            "word": " might",
+            "probability": 0.99071
+          },
+          {
+            "start": 28.99,
+            "end": 29.19,
+            "word": " think",
+            "probability": 0.99655
+          },
+          {
+            "start": 29.19,
+            "end": 29.43,
+            "word": " that's",
+            "probability": 0.98036
+          }
+        ]
+      },
+      {
+        "start": 29.43,
+        "end": 33.53,
+        "text": "too rigid, but you can easily change that goal if unexpected things come up, like work",
+        "words": [
+          {
+            "start": 29.43,
+            "end": 29.59,
+            "word": " too",
+            "probability": 0.98708
+          },
+          {
+            "start": 29.59,
+            "end": 29.91,
+            "word": " rigid,",
+            "probability": 0.99174
+          },
+          {
+            "start": 30.17,
+            "end": 30.23,
+            "word": " but",
+            "probability": 0.99377
+          },
+          {
+            "start": 30.23,
+            "end": 30.35,
+            "word": " you",
+            "probability": 0.99348
+          },
+          {
+            "start": 30.35,
+            "end": 30.47,
+            "word": " can",
+            "probability": 0.99369
+          },
+          {
+            "start": 30.47,
+            "end": 30.79,
+            "word": " easily",
+            "probability": 0.99505
+          },
+          {
+            "start": 30.79,
+            "end": 31.15,
+            "word": " change",
+            "probability": 0.99774
+          },
+          {
+            "start": 31.15,
+            "end": 31.35,
+            "word": " that",
+            "probability": 0.61392
+          },
+          {
+            "start": 31.35,
+            "end": 31.59,
+            "word": " goal",
+            "probability": 0.99798
+          },
+          {
+            "start": 31.59,
+            "end": 31.77,
+            "word": " if",
+            "probability": 0.99186
+          },
+          {
+            "start": 31.77,
+            "end": 31.95,
+            "word": " unexpected",
+            "probability": 0.99228
+          },
+          {
+            "start": 31.95,
+            "end": 32.51,
+            "word": " things",
+            "probability": 0.99636
+          },
+          {
+            "start": 32.51,
+            "end": 32.77,
+            "word": " come",
+            "probability": 0.99802
+          },
+          {
+            "start": 32.77,
+            "end": 32.97,
+            "word": " up,",
+            "probability": 0.99577
+          },
+          {
+            "start": 33.11,
+            "end": 33.29,
+            "word": " like",
+            "probability": 0.99763
+          },
+          {
+            "start": 33.29,
+            "end": 33.53,
+            "word": " work",
+            "probability": 0.98743
+          }
+        ]
+      },
+      {
+        "start": 33.53,
+        "end": 38.27,
+        "text": "commitments or social events, now, when we consider setting goals overall, there's a common",
+        "words": [
+          {
+            "start": 33.53,
+            "end": 33.91,
+            "word": " commitments",
+            "probability": 0.58864
+          },
+          {
+            "start": 33.91,
+            "end": 34.19,
+            "word": " or",
+            "probability": 0.97385
+          },
+          {
+            "start": 34.19,
+            "end": 34.53,
+            "word": " social",
+            "probability": 0.9976
+          },
+          {
+            "start": 34.53,
+            "end": 34.83,
+            "word": " events,",
+            "probability": 0.99816
+          },
+          {
+            "start": 35.21,
+            "end": 35.43,
+            "word": " now,",
+            "probability": 0.95951
+          },
+          {
+            "start": 35.67,
+            "end": 35.85,
+            "word": " when",
+            "probability": 0.99536
+          },
+          {
+            "start": 35.85,
+            "end": 35.97,
+            "word": " we",
+            "probability": 0.9981
+          },
+          {
+            "start": 35.97,
+            "end": 36.31,
+            "word": " consider",
+            "probability": 0.99486
+          },
+          {
+            "start": 36.31,
+            "end": 36.63,
+            "word": " setting",
+            "probability": 0.99605
+          },
+          {
+            "start": 36.63,
+            "end": 36.91,
+            "word": " goals",
+            "probability": 0.99905
+          },
+          {
+            "start": 36.91,
+            "end": 37.51,
+            "word": " overall,",
+            "probability": 0.9829
+          },
+          {
+            "start": 37.79,
+            "end": 37.99,
+            "word": " there's",
+            "probability": 0.97647
+          },
+          {
+            "start": 37.99,
+            "end": 38.05,
+            "word": " a",
+            "probability": 0.99829
+          },
+          {
+            "start": 38.05,
+            "end": 38.27,
+            "word": " common",
+            "probability": 0.99604
+          }
+        ]
+      },
+      {
+        "start": 38.27,
+        "end": 41.45,
+        "text": "belief that having too many goals leads to confusion and distraction.",
+        "words": [
+          {
+            "start": 38.27,
+            "end": 38.65,
+            "word": " belief",
+            "probability": 0.9997
+          },
+          {
+            "start": 38.65,
+            "end": 38.87,
+            "word": " that",
+            "probability": 0.99647
+          },
+          {
+            "start": 38.87,
+            "end": 39.11,
+            "word": " having",
+            "probability": 0.99752
+          },
+          {
+            "start": 39.11,
+            "end": 39.37,
+            "word": " too",
+            "probability": 0.98854
+          },
+          {
+            "start": 39.37,
+            "end": 39.61,
+            "word": " many",
+            "probability": 0.9989
+          },
+          {
+            "start": 39.61,
+            "end": 39.89,
+            "word": " goals",
+            "probability": 0.9989
+          },
+          {
+            "start": 39.89,
+            "end": 40.15,
+            "word": " leads",
+            "probability": 0.9979
+          },
+          {
+            "start": 40.15,
+            "end": 40.37,
+            "word": " to",
+            "probability": 0.99874
+          },
+          {
+            "start": 40.37,
+            "end": 40.79,
+            "word": " confusion",
+            "probability": 0.99801
+          },
+          {
+            "start": 40.79,
+            "end": 41.01,
+            "word": " and",
+            "probability": 0.99796
+          },
+          {
+            "start": 41.01,
+            "end": 41.45,
+            "word": " distraction.",
+            "probability": 0.9912
+          }
+        ]
+      },
+      {
+        "start": 42.32,
+        "end": 46.7,
+        "text": "Some argue that this approach complicates things and makes it difficult to focus on what",
+        "words": [
+          {
+            "start": 42.32,
+            "end": 42.78,
+            "word": " Some",
+            "probability": 0.99427
+          },
+          {
+            "start": 42.78,
+            "end": 43.12,
+            "word": " argue",
+            "probability": 0.99934
+          },
+          {
+            "start": 43.12,
+            "end": 43.42,
+            "word": " that",
+            "probability": 0.95427
+          },
+          {
+            "start": 43.42,
+            "end": 43.56,
+            "word": " this",
+            "probability": 0.99536
+          },
+          {
+            "start": 43.56,
+            "end": 43.92,
+            "word": " approach",
+            "probability": 0.9993
+          },
+          {
+            "start": 43.92,
+            "end": 44.58,
+            "word": " complicates",
+            "probability": 0.96576
+          },
+          {
+            "start": 44.58,
+            "end": 44.78,
+            "word": " things",
+            "probability": 0.99936
+          },
+          {
+            "start": 44.78,
+            "end": 45.14,
+            "word": " and",
+            "probability": 0.90675
+          },
+          {
+            "start": 45.14,
+            "end": 45.32,
+            "word": " makes",
+            "probability": 0.99769
+          },
+          {
+            "start": 45.32,
+            "end": 45.5,
+            "word": " it",
+            "probability": 0.99944
+          },
+          {
+            "start": 45.5,
+            "end": 45.8,
+            "word": " difficult",
+            "probability": 0.99961
+          },
+          {
+            "start": 45.8,
+            "end": 46.0,
+            "word": " to",
+            "probability": 0.99923
+          },
+          {
+            "start": 46.0,
+            "end": 46.28,
+            "word": " focus",
+            "probability": 0.99831
+          },
+          {
+            "start": 46.28,
+            "end": 46.5,
+            "word": " on",
+            "probability": 0.99862
+          },
+          {
+            "start": 46.5,
+            "end": 46.7,
+            "word": " what",
+            "probability": 0.99797
+          }
+        ]
+      },
+      {
+        "start": 46.7,
+        "end": 47.36,
+        "text": "really matters.",
+        "words": [
+          {
+            "start": 46.7,
+            "end": 46.96,
+            "word": " really",
+            "probability": 0.99435
+          },
+          {
+            "start": 46.96,
+            "end": 47.36,
+            "word": " matters.",
+            "probability": 0.99919
+          }
+        ]
+      },
+      {
+        "start": 48.44,
+        "end": 52.94,
+        "text": "However, this perspective fails to recognise that clear goals actually help prevent mistakes.",
+        "words": [
+          {
+            "start": 48.44,
+            "end": 48.74,
+            "word": " However,",
+            "probability": 0.99575
+          },
+          {
+            "start": 49.04,
+            "end": 49.14,
+            "word": " this",
+            "probability": 0.99769
+          },
+          {
+            "start": 49.14,
+            "end": 49.58,
+            "word": " perspective",
+            "probability": 0.9883
+          },
+          {
+            "start": 49.58,
+            "end": 49.92,
+            "word": " fails",
+            "probability": 0.99705
+          },
+          {
+            "start": 49.92,
+            "end": 50.16,
+            "word": " to",
+            "probability": 0.99937
+          },
+          {
+            "start": 50.16,
+            "end": 50.56,
+            "word": " recognise",
+            "probability": 0.59516
+          },
+          {
+            "start": 50.56,
+            "end": 50.86,
+            "word": " that",
+            "probability": 0.99561
+          },
+          {
+            "start": 50.86,
+            "end": 51.08,
+            "word": " clear",
+            "probability": 0.97071
+          },
+          {
+            "start": 51.08,
+            "end": 51.4,
+            "word": " goals",
+            "probability": 0.99633
+          },
+          {
+            "start": 51.4,
+            "end": 51.88,
+            "word": " actually",
+            "probability": 0.99621
+          },
+          {
+            "start": 51.88,
+            "end": 52.16,
+            "word": " help",
+            "probability": 0.99144
+          },
+          {
+            "start": 52.16,
+            "end": 52.52,
+            "word": " prevent",
+            "probability": 0.99808
+          },
+          {
+            "start": 52.52,
+            "end": 52.94,
+            "word": " mistakes.",
+            "probability": 0.99945
+          }
+        ]
+      },
+      {
+        "start": 52.94,
+        "end": 58.97,
+        "text": "weeks. They provide a sense of direction, guiding our choices. But the irony is that without",
+        "words": [
+          {
+            "start": 52.94,
+            "end": 53.14,
+            "word": " weeks.",
+            "probability": 0.02848
+          },
+          {
+            "start": 53.87,
+            "end": 54.21,
+            "word": " They",
+            "probability": 0.97568
+          },
+          {
+            "start": 54.21,
+            "end": 54.45,
+            "word": " provide",
+            "probability": 0.99772
+          },
+          {
+            "start": 54.45,
+            "end": 54.65,
+            "word": " a",
+            "probability": 0.99239
+          },
+          {
+            "start": 54.65,
+            "end": 54.83,
+            "word": " sense",
+            "probability": 0.99897
+          },
+          {
+            "start": 54.83,
+            "end": 55.01,
+            "word": " of",
+            "probability": 0.9975
+          },
+          {
+            "start": 55.01,
+            "end": 55.35,
+            "word": " direction,",
+            "probability": 0.99776
+          },
+          {
+            "start": 55.77,
+            "end": 55.97,
+            "word": " guiding",
+            "probability": 0.99782
+          },
+          {
+            "start": 55.97,
+            "end": 56.21,
+            "word": " our",
+            "probability": 0.99221
+          },
+          {
+            "start": 56.21,
+            "end": 56.65,
+            "word": " choices.",
+            "probability": 0.99744
+          },
+          {
+            "start": 57.65,
+            "end": 57.83,
+            "word": " But",
+            "probability": 0.98801
+          },
+          {
+            "start": 57.83,
+            "end": 57.97,
+            "word": " the",
+            "probability": 0.97438
+          },
+          {
+            "start": 57.97,
+            "end": 58.29,
+            "word": " irony",
+            "probability": 0.99893
+          },
+          {
+            "start": 58.29,
+            "end": 58.59,
+            "word": " is",
+            "probability": 0.99673
+          },
+          {
+            "start": 58.59,
+            "end": 58.71,
+            "word": " that",
+            "probability": 0.99651
+          },
+          {
+            "start": 58.71,
+            "end": 58.97,
+            "word": " without",
+            "probability": 0.8981
+          }
+        ]
+      },
+      {
+        "start": 58.97,
+        "end": 64.89,
+        "text": "flexibility, we might miss opportunities for creativity. So, while both short-term and long-term",
+        "words": [
+          {
+            "start": 58.97,
+            "end": 59.47,
+            "word": " flexibility,",
+            "probability": 0.9725
+          },
+          {
+            "start": 59.95,
+            "end": 60.03,
+            "word": " we",
+            "probability": 0.99757
+          },
+          {
+            "start": 60.03,
+            "end": 60.23,
+            "word": " might",
+            "probability": 0.98506
+          },
+          {
+            "start": 60.23,
+            "end": 60.41,
+            "word": " miss",
+            "probability": 0.98866
+          },
+          {
+            "start": 60.41,
+            "end": 60.95,
+            "word": " opportunities",
+            "probability": 0.995
+          },
+          {
+            "start": 60.95,
+            "end": 61.25,
+            "word": " for",
+            "probability": 0.99854
+          },
+          {
+            "start": 61.25,
+            "end": 61.85,
+            "word": " creativity.",
+            "probability": 0.99889
+          },
+          {
+            "start": 62.61,
+            "end": 63.13,
+            "word": " So,",
+            "probability": 0.99054
+          },
+          {
+            "start": 63.35,
+            "end": 63.51,
+            "word": " while",
+            "probability": 0.98468
+          },
+          {
+            "start": 63.51,
+            "end": 63.75,
+            "word": " both",
+            "probability": 0.99835
+          },
+          {
+            "start": 63.75,
+            "end": 64.03,
+            "word": " short",
+            "probability": 0.99804
+          },
+          {
+            "start": 64.03,
+            "end": 64.29,
+            "word": "-term",
+            "probability": 0.87177
+          },
+          {
+            "start": 64.29,
+            "end": 64.49,
+            "word": " and",
+            "probability": 0.99698
+          },
+          {
+            "start": 64.49,
+            "end": 64.65,
+            "word": " long",
+            "probability": 0.99862
+          },
+          {
+            "start": 64.65,
+            "end": 64.89,
+            "word": "-term",
+            "probability": 0.9899
+          }
+        ]
+      },
+      {
+        "start": 64.89,
+        "end": 68.87,
+        "text": "goals can be useful, it's important to strike a balance to avoid feeling overwhelmed.",
+        "words": [
+          {
+            "start": 64.89,
+            "end": 65.21,
+            "word": " goals",
+            "probability": 0.99761
+          },
+          {
+            "start": 65.21,
+            "end": 65.41,
+            "word": " can",
+            "probability": 0.99653
+          },
+          {
+            "start": 65.41,
+            "end": 65.53,
+            "word": " be",
+            "probability": 0.99717
+          },
+          {
+            "start": 65.53,
+            "end": 65.93,
+            "word": " useful,",
+            "probability": 0.99724
+          },
+          {
+            "start": 66.21,
+            "end": 66.35,
+            "word": " it's",
+            "probability": 0.96351
+          },
+          {
+            "start": 66.35,
+            "end": 66.75,
+            "word": " important",
+            "probability": 0.9992
+          },
+          {
+            "start": 66.75,
+            "end": 66.91,
+            "word": " to",
+            "probability": 0.99934
+          },
+          {
+            "start": 66.91,
+            "end": 67.17,
+            "word": " strike",
+            "probability": 0.99646
+          },
+          {
+            "start": 67.17,
+            "end": 67.29,
+            "word": " a",
+            "probability": 0.99939
+          },
+          {
+            "start": 67.29,
+            "end": 67.53,
+            "word": " balance",
+            "probability": 0.99578
+          },
+          {
+            "start": 67.53,
+            "end": 67.75,
+            "word": " to",
+            "probability": 0.99282
+          },
+          {
+            "start": 67.75,
+            "end": 68.01,
+            "word": " avoid",
+            "probability": 0.99749
+          },
+          {
+            "start": 68.01,
+            "end": 68.33,
+            "word": " feeling",
+            "probability": 0.9924
+          },
+          {
+            "start": 68.33,
+            "end": 68.87,
+            "word": " overwhelmed.",
+            "probability": 0.99842
+          }
+        ]
+      },
+      {
+        "start": 70.88,
+        "end": 75.52,
+        "text": "Recently, I've been reviewing the scripts for our new show, and I can't help but notice",
+        "words": [
+          {
+            "start": 70.88,
+            "end": 71.4,
+            "word": " Recently,",
+            "probability": 0.8893
+          },
+          {
+            "start": 71.76,
+            "end": 71.92,
+            "word": " I've",
+            "probability": 0.98052
+          },
+          {
+            "start": 71.92,
+            "end": 72.02,
+            "word": " been",
+            "probability": 0.9995
+          },
+          {
+            "start": 72.02,
+            "end": 72.42,
+            "word": " reviewing",
+            "probability": 0.99708
+          },
+          {
+            "start": 72.42,
+            "end": 72.62,
+            "word": " the",
+            "probability": 0.99696
+          },
+          {
+            "start": 72.62,
+            "end": 72.86,
+            "word": " scripts",
+            "probability": 0.99387
+          },
+          {
+            "start": 72.86,
+            "end": 73.16,
+            "word": " for",
+            "probability": 0.99741
+          },
+          {
+            "start": 73.16,
+            "end": 73.3,
+            "word": " our",
+            "probability": 0.99643
+          },
+          {
+            "start": 73.3,
+            "end": 73.48,
+            "word": " new",
+            "probability": 0.94963
+          },
+          {
+            "start": 73.48,
+            "end": 73.8,
+            "word": " show,",
+            "probability": 0.99713
+          },
+          {
+            "start": 74.22,
+            "end": 74.32,
+            "word": " and",
+            "probability": 0.996
+          },
+          {
+            "start": 74.32,
+            "end": 74.44,
+            "word": " I",
+            "probability": 0.99513
+          },
+          {
+            "start": 74.44,
+            "end": 74.78,
+            "word": " can't",
+            "probability": 0.99833
+          },
+          {
+            "start": 74.78,
+            "end": 74.96,
+            "word": " help",
+            "probability": 0.99961
+          },
+          {
+            "start": 74.96,
+            "end": 75.22,
+            "word": " but",
+            "probability": 0.9116
+          },
+          {
+            "start": 75.22,
+            "end": 75.52,
+            "word": " notice",
+            "probability": 0.99556
+          }
+        ]
+      },
+      {
+        "start": 75.52,
+        "end": 81.47,
+        "text": "that the dialogues feel a bit off. They come across as too polished, almost like the characters",
+        "words": [
+          {
+            "start": 75.52,
+            "end": 75.82,
+            "word": " that",
+            "probability": 0.99191
+          },
+          {
+            "start": 75.82,
+            "end": 75.92,
+            "word": " the",
+            "probability": 0.9931
+          },
+          {
+            "start": 75.92,
+            "end": 76.34,
+            "word": " dialogues",
+            "probability": 0.93981
+          },
+          {
+            "start": 76.34,
+            "end": 76.72,
+            "word": " feel",
+            "probability": 0.99787
+          },
+          {
+            "start": 76.72,
+            "end": 76.88,
+            "word": " a",
+            "probability": 0.99833
+          },
+          {
+            "start": 76.88,
+            "end": 77.02,
+            "word": " bit",
+            "probability": 0.99533
+          },
+          {
+            "start": 77.02,
+            "end": 77.32,
+            "word": " off.",
+            "probability": 0.98294
+          },
+          {
+            "start": 78.05,
+            "end": 78.53,
+            "word": " They",
+            "probability": 0.99311
+          },
+          {
+            "start": 78.53,
+            "end": 78.75,
+            "word": " come",
+            "probability": 0.99779
+          },
+          {
+            "start": 78.75,
+            "end": 79.07,
+            "word": " across",
+            "probability": 0.99851
+          },
+          {
+            "start": 79.07,
+            "end": 79.39,
+            "word": " as",
+            "probability": 0.98811
+          },
+          {
+            "start": 79.39,
+            "end": 79.57,
+            "word": " too",
+            "probability": 0.895
+          },
+          {
+            "start": 79.57,
+            "end": 80.01,
+            "word": " polished,",
+            "probability": 0.9661
+          },
+          {
+            "start": 80.43,
+            "end": 80.63,
+            "word": " almost",
+            "probability": 0.99754
+          },
+          {
+            "start": 80.63,
+            "end": 80.91,
+            "word": " like",
+            "probability": 0.99784
+          },
+          {
+            "start": 80.91,
+            "end": 81.05,
+            "word": " the",
+            "probability": 0.99297
+          },
+          {
+            "start": 81.05,
+            "end": 81.47,
+            "word": " characters",
+            "probability": 0.99782
+          }
+        ]
+      },
+      {
+        "start": 81.47,
+        "end": 84.63,
+        "text": "are reading from a script rather than having real conversations.",
+        "words": [
+          {
+            "start": 81.47,
+            "end": 81.79,
+            "word": " are",
+            "probability": 0.2158
+          },
+          {
+            "start": 81.79,
+            "end": 82.09,
+            "word": " reading",
+            "probability": 0.97505
+          },
+          {
+            "start": 82.09,
+            "end": 82.31,
+            "word": " from",
+            "probability": 0.99635
+          },
+          {
+            "start": 82.31,
+            "end": 82.45,
+            "word": " a",
+            "probability": 0.99027
+          },
+          {
+            "start": 82.45,
+            "end": 82.71,
+            "word": " script",
+            "probability": 0.99767
+          },
+          {
+            "start": 82.71,
+            "end": 83.17,
+            "word": " rather",
+            "probability": 0.98884
+          },
+          {
+            "start": 83.17,
+            "end": 83.35,
+            "word": " than",
+            "probability": 0.99797
+          },
+          {
+            "start": 83.35,
+            "end": 83.61,
+            "word": " having",
+            "probability": 0.99555
+          },
+          {
+            "start": 83.61,
+            "end": 83.91,
+            "word": " real",
+            "probability": 0.98552
+          },
+          {
+            "start": 83.91,
+            "end": 84.63,
+            "word": " conversations.",
+            "probability": 0.99186
+          }
+        ]
+      },
+      {
+        "start": 85.65,
+        "end": 88.59,
+        "text": "I wonder if viewers will notice this lack of authenticity.",
+        "words": [
+          {
+            "start": 85.65,
+            "end": 86.01,
+            "word": " I",
+            "probability": 0.94524
+          },
+          {
+            "start": 86.01,
+            "end": 86.31,
+            "word": " wonder",
+            "probability": 0.99718
+          },
+          {
+            "start": 86.31,
+            "end": 86.51,
+            "word": " if",
+            "probability": 0.99918
+          },
+          {
+            "start": 86.51,
+            "end": 86.81,
+            "word": " viewers",
+            "probability": 0.98265
+          },
+          {
+            "start": 86.81,
+            "end": 87.05,
+            "word": " will",
+            "probability": 0.99708
+          },
+          {
+            "start": 87.05,
+            "end": 87.33,
+            "word": " notice",
+            "probability": 0.99788
+          },
+          {
+            "start": 87.33,
+            "end": 87.65,
+            "word": " this",
+            "probability": 0.99724
+          },
+          {
+            "start": 87.65,
+            "end": 87.87,
+            "word": " lack",
+            "probability": 0.99759
+          },
+          {
+            "start": 87.87,
+            "end": 88.09,
+            "word": " of",
+            "probability": 0.99785
+          },
+          {
+            "start": 88.09,
+            "end": 88.59,
+            "word": " authenticity.",
+            "probability": 0.99699
+          }
+        ]
+      },
+      {
+        "start": 89.72,
+        "end": 94.02,
+        "text": "Some might think it adds a nice touch, but I believe people connect better with genuine",
+        "words": [
+          {
+            "start": 89.72,
+            "end": 90.06,
+            "word": " Some",
+            "probability": 0.98036
+          },
+          {
+            "start": 90.06,
+            "end": 90.28,
+            "word": " might",
+            "probability": 0.99802
+          },
+          {
+            "start": 90.28,
+            "end": 90.54,
+            "word": " think",
+            "probability": 0.99871
+          },
+          {
+            "start": 90.54,
+            "end": 90.68,
+            "word": " it",
+            "probability": 0.99185
+          },
+          {
+            "start": 90.68,
+            "end": 90.86,
+            "word": " adds",
+            "probability": 0.99505
+          },
+          {
+            "start": 90.86,
+            "end": 91.02,
+            "word": " a",
+            "probability": 0.99745
+          },
+          {
+            "start": 91.02,
+            "end": 91.24,
+            "word": " nice",
+            "probability": 0.95817
+          },
+          {
+            "start": 91.24,
+            "end": 91.54,
+            "word": " touch,",
+            "probability": 0.99683
+          },
+          {
+            "start": 92.0,
+            "end": 92.1,
+            "word": " but",
+            "probability": 0.99767
+          },
+          {
+            "start": 92.1,
+            "end": 92.2,
+            "word": " I",
+            "probability": 0.99132
+          },
+          {
+            "start": 92.2,
+            "end": 92.44,
+            "word": " believe",
+            "probability": 0.99883
+          },
+          {
+            "start": 92.44,
+            "end": 92.8,
+            "word": " people",
+            "probability": 0.99814
+          },
+          {
+            "start": 92.8,
+            "end": 93.08,
+            "word": " connect",
+            "probability": 0.98394
+          },
+          {
+            "start": 93.08,
+            "end": 93.48,
+            "word": " better",
+            "probability": 0.99953
+          },
+          {
+            "start": 93.48,
+            "end": 93.7,
+            "word": " with",
+            "probability": 0.99903
+          },
+          {
+            "start": 93.7,
+            "end": 94.02,
+            "word": " genuine",
+            "probability": 0.99816
+          }
+        ]
+      },
+      {
+        "start": 94.02,
+        "end": 97.0,
+        "text": "interactions, then there's the issue of industry demand.",
+        "words": [
+          {
+            "start": 94.02,
+            "end": 94.66,
+            "word": " interactions,",
+            "probability": 0.98542
+          },
+          {
+            "start": 95.22,
+            "end": 95.44,
+            "word": " then",
+            "probability": 0.70056
+          },
+          {
+            "start": 95.44,
+            "end": 95.72,
+            "word": " there's",
+            "probability": 0.98752
+          },
+          {
+            "start": 95.72,
+            "end": 95.82,
+            "word": " the",
+            "probability": 0.99683
+          },
+          {
+            "start": 95.82,
+            "end": 96.08,
+            "word": " issue",
+            "probability": 0.99814
+          },
+          {
+            "start": 96.08,
+            "end": 96.28,
+            "word": " of",
+            "probability": 0.99875
+          },
+          {
+            "start": 96.28,
+            "end": 96.62,
+            "word": " industry",
+            "probability": 0.99441
+          },
+          {
+            "start": 96.62,
+            "end": 97.0,
+            "word": " demand.",
+            "probability": 0.98892
+          }
+        ]
+      },
+      {
+        "start": 98.01,
+        "end": 102.25,
+        "text": "While it's great that there's a push for more content, I feel like this rush can hurt",
+        "words": [
+          {
+            "start": 98.01,
+            "end": 98.29,
+            "word": " While",
+            "probability": 0.97328
+          },
+          {
+            "start": 98.29,
+            "end": 98.55,
+            "word": " it's",
+            "probability": 0.98068
+          },
+          {
+            "start": 98.55,
+            "end": 98.75,
+            "word": " great",
+            "probability": 0.99756
+          },
+          {
+            "start": 98.75,
+            "end": 98.97,
+            "word": " that",
+            "probability": 0.99625
+          },
+          {
+            "start": 98.97,
+            "end": 99.19,
+            "word": " there's",
+            "probability": 0.99544
+          },
+          {
+            "start": 99.19,
+            "end": 99.27,
+            "word": " a",
+            "probability": 0.99864
+          },
+          {
+            "start": 99.27,
+            "end": 99.49,
+            "word": " push",
+            "probability": 0.99609
+          },
+          {
+            "start": 99.49,
+            "end": 99.73,
+            "word": " for",
+            "probability": 0.99912
+          },
+          {
+            "start": 99.73,
+            "end": 99.87,
+            "word": " more",
+            "probability": 0.9987
+          },
+          {
+            "start": 99.87,
+            "end": 100.35,
+            "word": " content,",
+            "probability": 0.99861
+          },
+          {
+            "start": 100.79,
+            "end": 100.91,
+            "word": " I",
+            "probability": 0.99823
+          },
+          {
+            "start": 100.91,
+            "end": 101.11,
+            "word": " feel",
+            "probability": 0.99913
+          },
+          {
+            "start": 101.11,
+            "end": 101.29,
+            "word": " like",
+            "probability": 0.99704
+          },
+          {
+            "start": 101.29,
+            "end": 101.53,
+            "word": " this",
+            "probability": 0.99841
+          },
+          {
+            "start": 101.53,
+            "end": 101.73,
+            "word": " rush",
+            "probability": 0.96238
+          },
+          {
+            "start": 101.73,
+            "end": 102.05,
+            "word": " can",
+            "probability": 0.99778
+          },
+          {
+            "start": 102.05,
+            "end": 102.25,
+            "word": " hurt",
+            "probability": 0.99643
+          }
+        ]
+      },
+      {
+        "start": 102.25,
+        "end": 103.49,
+        "text": "the quality of our scripts.",
+        "words": [
+          {
+            "start": 102.25,
+            "end": 102.41,
+            "word": " the",
+            "probability": 0.99893
+          },
+          {
+            "start": 102.41,
+            "end": 102.77,
+            "word": " quality",
+            "probability": 0.9995
+          },
+          {
+            "start": 102.77,
+            "end": 102.97,
+            "word": " of",
+            "probability": 0.9992
+          },
+          {
+            "start": 102.97,
+            "end": 103.07,
+            "word": " our",
+            "probability": 0.99553
+          },
+          {
+            "start": 103.07,
+            "end": 103.49,
+            "word": " scripts.",
+            "probability": 0.99307
+          }
+        ]
+      },
+      {
+        "start": 104.47,
+        "end": 108.07,
+        "text": "We're moving so fast that it's easy to overlook important details.",
+        "words": [
+          {
+            "start": 104.47,
+            "end": 104.79,
+            "word": " We're",
+            "probability": 0.99415
+          },
+          {
+            "start": 104.79,
+            "end": 105.07,
+            "word": " moving",
+            "probability": 0.99864
+          },
+          {
+            "start": 105.07,
+            "end": 105.35,
+            "word": " so",
+            "probability": 0.99833
+          },
+          {
+            "start": 105.35,
+            "end": 105.73,
+            "word": " fast",
+            "probability": 0.99954
+          },
+          {
+            "start": 105.73,
+            "end": 106.07,
+            "word": " that",
+            "probability": 0.99588
+          },
+          {
+            "start": 106.07,
+            "end": 106.27,
+            "word": " it's",
+            "probability": 0.99662
+          },
+          {
+            "start": 106.27,
+            "end": 106.51,
+            "word": " easy",
+            "probability": 0.99846
+          },
+          {
+            "start": 106.51,
+            "end": 106.71,
+            "word": " to",
+            "probability": 0.99878
+          },
+          {
+            "start": 106.71,
+            "end": 107.03,
+            "word": " overlook",
+            "probability": 0.98874
+          },
+          {
+            "start": 107.03,
+            "end": 107.65,
+            "word": " important",
+            "probability": 0.99819
+          },
+          {
+            "start": 107.65,
+            "end": 108.07,
+            "word": " details.",
+            "probability": 0.99838
+          }
+        ]
+      },
+      {
+        "start": 108.95,
+        "end": 115.75,
+        "text": "some might argue that the pressure leads to innovation, but I worry that we might lose the essence of good storytelling in the process.",
+        "words": [
+          {
+            "start": 108.95,
+            "end": 109.49,
+            "word": " some",
+            "probability": 0.22647
+          },
+          {
+            "start": 109.49,
+            "end": 109.75,
+            "word": " might",
+            "probability": 0.91163
+          },
+          {
+            "start": 109.75,
+            "end": 110.11,
+            "word": " argue",
+            "probability": 0.99821
+          },
+          {
+            "start": 110.11,
+            "end": 110.35,
+            "word": " that",
+            "probability": 0.9865
+          },
+          {
+            "start": 110.35,
+            "end": 110.47,
+            "word": " the",
+            "probability": 0.98861
+          },
+          {
+            "start": 110.47,
+            "end": 110.75,
+            "word": " pressure",
+            "probability": 0.99522
+          },
+          {
+            "start": 110.75,
+            "end": 111.05,
+            "word": " leads",
+            "probability": 0.98868
+          },
+          {
+            "start": 111.05,
+            "end": 111.29,
+            "word": " to",
+            "probability": 0.99905
+          },
+          {
+            "start": 111.29,
+            "end": 111.77,
+            "word": " innovation,",
+            "probability": 0.99119
+          },
+          {
+            "start": 112.25,
+            "end": 112.37,
+            "word": " but",
+            "probability": 0.99334
+          },
+          {
+            "start": 112.37,
+            "end": 112.47,
+            "word": " I",
+            "probability": 0.98677
+          },
+          {
+            "start": 112.47,
+            "end": 112.73,
+            "word": " worry",
+            "probability": 0.99608
+          },
+          {
+            "start": 112.73,
+            "end": 112.93,
+            "word": " that",
+            "probability": 0.95141
+          },
+          {
+            "start": 112.93,
+            "end": 113.07,
+            "word": " we",
+            "probability": 0.99846
+          },
+          {
+            "start": 113.07,
+            "end": 113.23,
+            "word": " might",
+            "probability": 0.99782
+          },
+          {
+            "start": 113.23,
+            "end": 113.49,
+            "word": " lose",
+            "probability": 0.99229
+          },
+          {
+            "start": 113.49,
+            "end": 113.69,
+            "word": " the",
+            "probability": 0.99729
+          },
+          {
+            "start": 113.69,
+            "end": 113.95,
+            "word": " essence",
+            "probability": 0.99673
+          },
+          {
+            "start": 113.95,
+            "end": 114.23,
+            "word": " of",
+            "probability": 0.9961
+          },
+          {
+            "start": 114.23,
+            "end": 114.39,
+            "word": " good",
+            "probability": 0.98478
+          },
+          {
+            "start": 114.39,
+            "end": 114.93,
+            "word": " storytelling",
+            "probability": 0.98568
+          },
+          {
+            "start": 114.93,
+            "end": 115.25,
+            "word": " in",
+            "probability": 0.99687
+          },
+          {
+            "start": 115.25,
+            "end": 115.31,
+            "word": " the",
+            "probability": 0.99632
+          },
+          {
+            "start": 115.31,
+            "end": 115.75,
+            "word": " process.",
+            "probability": 0.99874
+          }
+        ]
+      },
+      {
+        "start": 116.83,
+        "end": 122.43,
+        "text": "Balancing speed and quality is becoming increasingly difficult, and I hope we can maintain our standards.",
+        "words": [
+          {
+            "start": 116.83,
+            "end": 117.31,
+            "word": " Balancing",
+            "probability": 0.93815
+          },
+          {
+            "start": 117.31,
+            "end": 117.71,
+            "word": " speed",
+            "probability": 0.97742
+          },
+          {
+            "start": 117.71,
+            "end": 117.95,
+            "word": " and",
+            "probability": 0.97457
+          },
+          {
+            "start": 117.95,
+            "end": 118.37,
+            "word": " quality",
+            "probability": 0.99727
+          },
+          {
+            "start": 118.37,
+            "end": 118.69,
+            "word": " is",
+            "probability": 0.98994
+          },
+          {
+            "start": 118.69,
+            "end": 118.95,
+            "word": " becoming",
+            "probability": 0.99687
+          },
+          {
+            "start": 118.95,
+            "end": 119.65,
+            "word": " increasingly",
+            "probability": 0.99803
+          },
+          {
+            "start": 119.65,
+            "end": 120.29,
+            "word": " difficult,",
+            "probability": 0.99936
+          },
+          {
+            "start": 120.67,
+            "end": 120.73,
+            "word": " and",
+            "probability": 0.99836
+          },
+          {
+            "start": 120.73,
+            "end": 120.85,
+            "word": " I",
+            "probability": 0.99261
+          },
+          {
+            "start": 120.85,
+            "end": 121.03,
+            "word": " hope",
+            "probability": 0.999
+          },
+          {
+            "start": 121.03,
+            "end": 121.23,
+            "word": " we",
+            "probability": 0.99568
+          },
+          {
+            "start": 121.23,
+            "end": 121.37,
+            "word": " can",
+            "probability": 0.99662
+          },
+          {
+            "start": 121.37,
+            "end": 121.71,
+            "word": " maintain",
+            "probability": 0.9973
+          },
+          {
+            "start": 121.71,
+            "end": 121.97,
+            "word": " our",
+            "probability": 0.99809
+          },
+          {
+            "start": 121.97,
+            "end": 122.43,
+            "word": " standards.",
+            "probability": 0.99669
+          }
+        ]
+      },
+      {
+        "start": 127.14,
+        "end": 133.52,
+        "text": "Recently, I've been reviewing the scripts for our new show, and I can't help but notice that the dialogues feel a bit off.",
+        "words": [
+          {
+            "start": 127.14,
+            "end": 127.58,
+            "word": " Recently,",
+            "probability": 0.99003
+          },
+          {
+            "start": 127.98,
+            "end": 128.14,
+            "word": " I've",
+            "probability": 0.91507
+          },
+          {
+            "start": 128.14,
+            "end": 128.24,
+            "word": " been",
+            "probability": 0.99884
+          },
+          {
+            "start": 128.24,
+            "end": 128.62,
+            "word": " reviewing",
+            "probability": 0.9961
+          },
+          {
+            "start": 128.62,
+            "end": 128.82,
+            "word": " the",
+            "probability": 0.99756
+          },
+          {
+            "start": 128.82,
+            "end": 129.06,
+            "word": " scripts",
+            "probability": 0.99171
+          },
+          {
+            "start": 129.06,
+            "end": 129.36,
+            "word": " for",
+            "probability": 0.99748
+          },
+          {
+            "start": 129.36,
+            "end": 129.5,
+            "word": " our",
+            "probability": 0.99678
+          },
+          {
+            "start": 129.5,
+            "end": 129.68,
+            "word": " new",
+            "probability": 0.9668
+          },
+          {
+            "start": 129.68,
+            "end": 129.98,
+            "word": " show,",
+            "probability": 0.99744
+          },
+          {
+            "start": 130.4,
+            "end": 130.52,
+            "word": " and",
+            "probability": 0.99845
+          },
+          {
+            "start": 130.52,
+            "end": 130.62,
+            "word": " I",
+            "probability": 0.99155
+          },
+          {
+            "start": 130.62,
+            "end": 130.98,
+            "word": " can't",
+            "probability": 0.99713
+          },
+          {
+            "start": 130.98,
+            "end": 131.16,
+            "word": " help",
+            "probability": 0.99944
+          },
+          {
+            "start": 131.16,
+            "end": 131.42,
+            "word": " but",
+            "probability": 0.77172
+          },
+          {
+            "start": 131.42,
+            "end": 131.74,
+            "word": " notice",
+            "probability": 0.99627
+          },
+          {
+            "start": 131.74,
+            "end": 132.0,
+            "word": " that",
+            "probability": 0.99044
+          },
+          {
+            "start": 132.0,
+            "end": 132.12,
+            "word": " the",
+            "probability": 0.99469
+          },
+          {
+            "start": 132.12,
+            "end": 132.54,
+            "word": " dialogues",
+            "probability": 0.9345
+          },
+          {
+            "start": 132.54,
+            "end": 132.92,
+            "word": " feel",
+            "probability": 0.99751
+          },
+          {
+            "start": 132.92,
+            "end": 133.06,
+            "word": " a",
+            "probability": 0.99862
+          },
+          {
+            "start": 133.06,
+            "end": 133.22,
+            "word": " bit",
+            "probability": 0.99554
+          },
+          {
+            "start": 133.22,
+            "end": 133.52,
+            "word": " off.",
+            "probability": 0.98862
+          }
+        ]
+      },
+      {
+        "start": 134.45,
+        "end": 140.75,
+        "text": "They come across as too polished, almost like the characters are reading from a script rather than having real conversations.",
+        "words": [
+          {
+            "start": 134.45,
+            "end": 134.71,
+            "word": " They",
+            "probability": 0.99367
+          },
+          {
+            "start": 134.71,
+            "end": 134.93,
+            "word": " come",
+            "probability": 0.99697
+          },
+          {
+            "start": 134.93,
+            "end": 135.25,
+            "word": " across",
+            "probability": 0.99584
+          },
+          {
+            "start": 135.25,
+            "end": 135.59,
+            "word": " as",
+            "probability": 0.99593
+          },
+          {
+            "start": 135.59,
+            "end": 135.77,
+            "word": " too",
+            "probability": 0.83579
+          },
+          {
+            "start": 135.77,
+            "end": 136.23,
+            "word": " polished,",
+            "probability": 0.98436
+          },
+          {
+            "start": 136.63,
+            "end": 136.83,
+            "word": " almost",
+            "probability": 0.99769
+          },
+          {
+            "start": 136.83,
+            "end": 137.11,
+            "word": " like",
+            "probability": 0.99902
+          },
+          {
+            "start": 137.11,
+            "end": 137.25,
+            "word": " the",
+            "probability": 0.99713
+          },
+          {
+            "start": 137.25,
+            "end": 137.69,
+            "word": " characters",
+            "probability": 0.99656
+          },
+          {
+            "start": 137.69,
+            "end": 138.01,
+            "word": " are",
+            "probability": 0.90843
+          },
+          {
+            "start": 138.01,
+            "end": 138.29,
+            "word": " reading",
+            "probability": 0.99092
+          },
+          {
+            "start": 138.29,
+            "end": 138.51,
+            "word": " from",
+            "probability": 0.99646
+          },
+          {
+            "start": 138.51,
+            "end": 138.65,
+            "word": " a",
+            "probability": 0.99341
+          },
+          {
+            "start": 138.65,
+            "end": 138.93,
+            "word": " script",
+            "probability": 0.99906
+          },
+          {
+            "start": 138.93,
+            "end": 139.35,
+            "word": " rather",
+            "probability": 0.89323
+          },
+          {
+            "start": 139.35,
+            "end": 139.55,
+            "word": " than",
+            "probability": 0.99634
+          },
+          {
+            "start": 139.55,
+            "end": 139.81,
+            "word": " having",
+            "probability": 0.99566
+          },
+          {
+            "start": 139.81,
+            "end": 140.11,
+            "word": " real",
+            "probability": 0.98584
+          },
+          {
+            "start": 140.11,
+            "end": 140.75,
+            "word": " conversations.",
+            "probability": 0.9931
+          }
+        ]
+      },
+      {
+        "start": 140.75,
+        "end": 146.74,
+        "text": "questions. I wonder if viewers will notice this lack of authenticity. Some might think",
+        "words": [
+          {
+            "start": 140.75,
+            "end": 141.09,
+            "word": " questions.",
+            "probability": 0.03078
+          },
+          {
+            "start": 141.91,
+            "end": 142.21,
+            "word": " I",
+            "probability": 0.94441
+          },
+          {
+            "start": 142.21,
+            "end": 142.49,
+            "word": " wonder",
+            "probability": 0.99299
+          },
+          {
+            "start": 142.49,
+            "end": 142.71,
+            "word": " if",
+            "probability": 0.99858
+          },
+          {
+            "start": 142.71,
+            "end": 143.01,
+            "word": " viewers",
+            "probability": 0.97429
+          },
+          {
+            "start": 143.01,
+            "end": 143.23,
+            "word": " will",
+            "probability": 0.99765
+          },
+          {
+            "start": 143.23,
+            "end": 143.53,
+            "word": " notice",
+            "probability": 0.99667
+          },
+          {
+            "start": 143.53,
+            "end": 143.85,
+            "word": " this",
+            "probability": 0.99449
+          },
+          {
+            "start": 143.85,
+            "end": 144.05,
+            "word": " lack",
+            "probability": 0.99642
+          },
+          {
+            "start": 144.05,
+            "end": 144.27,
+            "word": " of",
+            "probability": 0.99456
+          },
+          {
+            "start": 144.27,
+            "end": 144.77,
+            "word": " authenticity.",
+            "probability": 0.99795
+          },
+          {
+            "start": 145.82,
+            "end": 146.26,
+            "word": " Some",
+            "probability": 0.97451
+          },
+          {
+            "start": 146.26,
+            "end": 146.48,
+            "word": " might",
+            "probability": 0.99634
+          },
+          {
+            "start": 146.48,
+            "end": 146.74,
+            "word": " think",
+            "probability": 0.9977
+          }
+        ]
+      },
+      {
+        "start": 146.74,
+        "end": 150.84,
+        "text": "it adds a nice touch, but I believe people connect better with genuine interactions,",
+        "words": [
+          {
+            "start": 146.74,
+            "end": 146.88,
+            "word": " it",
+            "probability": 0.99092
+          },
+          {
+            "start": 146.88,
+            "end": 147.08,
+            "word": " adds",
+            "probability": 0.99419
+          },
+          {
+            "start": 147.08,
+            "end": 147.22,
+            "word": " a",
+            "probability": 0.99595
+          },
+          {
+            "start": 147.22,
+            "end": 147.44,
+            "word": " nice",
+            "probability": 0.94774
+          },
+          {
+            "start": 147.44,
+            "end": 147.76,
+            "word": " touch,",
+            "probability": 0.99646
+          },
+          {
+            "start": 148.2,
+            "end": 148.3,
+            "word": " but",
+            "probability": 0.99705
+          },
+          {
+            "start": 148.3,
+            "end": 148.4,
+            "word": " I",
+            "probability": 0.98789
+          },
+          {
+            "start": 148.4,
+            "end": 148.64,
+            "word": " believe",
+            "probability": 0.99855
+          },
+          {
+            "start": 148.64,
+            "end": 149.0,
+            "word": " people",
+            "probability": 0.99764
+          },
+          {
+            "start": 149.0,
+            "end": 149.28,
+            "word": " connect",
+            "probability": 0.9917
+          },
+          {
+            "start": 149.28,
+            "end": 149.68,
+            "word": " better",
+            "probability": 0.99926
+          },
+          {
+            "start": 149.68,
+            "end": 149.9,
+            "word": " with",
+            "probability": 0.99902
+          },
+          {
+            "start": 149.9,
+            "end": 150.22,
+            "word": " genuine",
+            "probability": 0.99744
+          },
+          {
+            "start": 150.22,
+            "end": 150.84,
+            "word": " interactions,",
+            "probability": 0.98221
+          }
+        ]
+      },
+      {
+        "start": 151.42,
+        "end": 155.93,
+        "text": "then there's the issue of industry demand. While it's great that there's a push for",
+        "words": [
+          {
+            "start": 151.42,
+            "end": 151.64,
+            "word": " then",
+            "probability": 0.7368
+          },
+          {
+            "start": 151.64,
+            "end": 151.92,
+            "word": " there's",
+            "probability": 0.98321
+          },
+          {
+            "start": 151.92,
+            "end": 152.02,
+            "word": " the",
+            "probability": 0.99675
+          },
+          {
+            "start": 152.02,
+            "end": 152.28,
+            "word": " issue",
+            "probability": 0.99732
+          },
+          {
+            "start": 152.28,
+            "end": 152.48,
+            "word": " of",
+            "probability": 0.99836
+          },
+          {
+            "start": 152.48,
+            "end": 152.8,
+            "word": " industry",
+            "probability": 0.99114
+          },
+          {
+            "start": 152.8,
+            "end": 153.2,
+            "word": " demand.",
+            "probability": 0.98773
+          },
+          {
+            "start": 154.25,
+            "end": 154.51,
+            "word": " While",
+            "probability": 0.97912
+          },
+          {
+            "start": 154.51,
+            "end": 154.75,
+            "word": " it's",
+            "probability": 0.98204
+          },
+          {
+            "start": 154.75,
+            "end": 154.95,
+            "word": " great",
+            "probability": 0.99748
+          },
+          {
+            "start": 154.95,
+            "end": 155.17,
+            "word": " that",
+            "probability": 0.99609
+          },
+          {
+            "start": 155.17,
+            "end": 155.39,
+            "word": " there's",
+            "probability": 0.98989
+          },
+          {
+            "start": 155.39,
+            "end": 155.47,
+            "word": " a",
+            "probability": 0.99836
+          },
+          {
+            "start": 155.47,
+            "end": 155.69,
+            "word": " push",
+            "probability": 0.99511
+          },
+          {
+            "start": 155.69,
+            "end": 155.93,
+            "word": " for",
+            "probability": 0.9993
+          }
+        ]
+      },
+      {
+        "start": 155.93,
+        "end": 161.56,
+        "text": "more content, I feel like this rush can hurt the quality of our scripts. We're moving so",
+        "words": [
+          {
+            "start": 155.93,
+            "end": 156.07,
+            "word": " more",
+            "probability": 0.99778
+          },
+          {
+            "start": 156.07,
+            "end": 156.55,
+            "word": " content,",
+            "probability": 0.99827
+          },
+          {
+            "start": 156.99,
+            "end": 157.11,
+            "word": " I",
+            "probability": 0.99748
+          },
+          {
+            "start": 157.11,
+            "end": 157.31,
+            "word": " feel",
+            "probability": 0.99867
+          },
+          {
+            "start": 157.31,
+            "end": 157.49,
+            "word": " like",
+            "probability": 0.99754
+          },
+          {
+            "start": 157.49,
+            "end": 157.73,
+            "word": " this",
+            "probability": 0.99844
+          },
+          {
+            "start": 157.73,
+            "end": 157.95,
+            "word": " rush",
+            "probability": 0.96074
+          },
+          {
+            "start": 157.95,
+            "end": 158.25,
+            "word": " can",
+            "probability": 0.99539
+          },
+          {
+            "start": 158.25,
+            "end": 158.45,
+            "word": " hurt",
+            "probability": 0.99643
+          },
+          {
+            "start": 158.45,
+            "end": 158.61,
+            "word": " the",
+            "probability": 0.99863
+          },
+          {
+            "start": 158.61,
+            "end": 158.97,
+            "word": " quality",
+            "probability": 0.99922
+          },
+          {
+            "start": 158.97,
+            "end": 159.17,
+            "word": " of",
+            "probability": 0.99907
+          },
+          {
+            "start": 159.17,
+            "end": 159.29,
+            "word": " our",
+            "probability": 0.99392
+          },
+          {
+            "start": 159.29,
+            "end": 159.61,
+            "word": " scripts.",
+            "probability": 0.98963
+          },
+          {
+            "start": 160.66,
+            "end": 161.0,
+            "word": " We're",
+            "probability": 0.99324
+          },
+          {
+            "start": 161.0,
+            "end": 161.26,
+            "word": " moving",
+            "probability": 0.99839
+          },
+          {
+            "start": 161.26,
+            "end": 161.56,
+            "word": " so",
+            "probability": 0.99813
+          }
+        ]
+      },
+      {
+        "start": 161.56,
+        "end": 167.24,
+        "text": "fast that it's easy to overlook important details. Some might argue that the pressure leads",
+        "words": [
+          {
+            "start": 161.56,
+            "end": 161.94,
+            "word": " fast",
+            "probability": 0.9993
+          },
+          {
+            "start": 161.94,
+            "end": 162.28,
+            "word": " that",
+            "probability": 0.99563
+          },
+          {
+            "start": 162.28,
+            "end": 162.46,
+            "word": " it's",
+            "probability": 0.9946
+          },
+          {
+            "start": 162.46,
+            "end": 162.72,
+            "word": " easy",
+            "probability": 0.99825
+          },
+          {
+            "start": 162.72,
+            "end": 162.92,
+            "word": " to",
+            "probability": 0.9979
+          },
+          {
+            "start": 162.92,
+            "end": 163.24,
+            "word": " overlook",
+            "probability": 0.98513
+          },
+          {
+            "start": 163.24,
+            "end": 163.86,
+            "word": " important",
+            "probability": 0.99713
+          },
+          {
+            "start": 163.86,
+            "end": 164.26,
+            "word": " details.",
+            "probability": 0.99754
+          },
+          {
+            "start": 165.26,
+            "end": 165.72,
+            "word": " Some",
+            "probability": 0.992
+          },
+          {
+            "start": 165.72,
+            "end": 165.96,
+            "word": " might",
+            "probability": 0.99749
+          },
+          {
+            "start": 165.96,
+            "end": 166.32,
+            "word": " argue",
+            "probability": 0.9992
+          },
+          {
+            "start": 166.32,
+            "end": 166.56,
+            "word": " that",
+            "probability": 0.9981
+          },
+          {
+            "start": 166.56,
+            "end": 166.68,
+            "word": " the",
+            "probability": 0.98952
+          },
+          {
+            "start": 166.68,
+            "end": 166.98,
+            "word": " pressure",
+            "probability": 0.99404
+          },
+          {
+            "start": 166.98,
+            "end": 167.24,
+            "word": " leads",
+            "probability": 0.99211
+          }
+        ]
+      },
+      {
+        "start": 167.24,
+        "end": 171.56,
+        "text": "to innovation, but I worry that we might lose the essence of good storytelling in the",
+        "words": [
+          {
+            "start": 167.24,
+            "end": 167.5,
+            "word": " to",
+            "probability": 0.9993
+          },
+          {
+            "start": 167.5,
+            "end": 167.94,
+            "word": " innovation,",
+            "probability": 0.995
+          },
+          {
+            "start": 168.42,
+            "end": 168.56,
+            "word": " but",
+            "probability": 0.99732
+          },
+          {
+            "start": 168.56,
+            "end": 168.68,
+            "word": " I",
+            "probability": 0.99775
+          },
+          {
+            "start": 168.68,
+            "end": 168.92,
+            "word": " worry",
+            "probability": 0.99527
+          },
+          {
+            "start": 168.92,
+            "end": 169.12,
+            "word": " that",
+            "probability": 0.98834
+          },
+          {
+            "start": 169.12,
+            "end": 169.26,
+            "word": " we",
+            "probability": 0.99893
+          },
+          {
+            "start": 169.26,
+            "end": 169.44,
+            "word": " might",
+            "probability": 0.99865
+          },
+          {
+            "start": 169.44,
+            "end": 169.68,
+            "word": " lose",
+            "probability": 0.99523
+          },
+          {
+            "start": 169.68,
+            "end": 169.9,
+            "word": " the",
+            "probability": 0.99901
+          },
+          {
+            "start": 169.9,
+            "end": 170.16,
+            "word": " essence",
+            "probability": 0.99709
+          },
+          {
+            "start": 170.16,
+            "end": 170.42,
+            "word": " of",
+            "probability": 0.99774
+          },
+          {
+            "start": 170.42,
+            "end": 170.6,
+            "word": " good",
+            "probability": 0.99105
+          },
+          {
+            "start": 170.6,
+            "end": 171.16,
+            "word": " storytelling",
+            "probability": 0.97731
+          },
+          {
+            "start": 171.16,
+            "end": 171.44,
+            "word": " in",
+            "probability": 0.99317
+          },
+          {
+            "start": 171.44,
+            "end": 171.56,
+            "word": " the",
+            "probability": 0.98409
+          }
+        ]
+      },
+      {
+        "start": 171.56,
+        "end": 178.62,
+        "text": "process. Balancing speed and quality is becoming increasingly difficult and I hope we can maintain our standards.",
+        "words": [
+          {
+            "start": 171.56,
+            "end": 172.14,
+            "word": " process.",
+            "probability": 0.16228
+          },
+          {
+            "start": 173.14,
+            "end": 173.52,
+            "word": " Balancing",
+            "probability": 0.95856
+          },
+          {
+            "start": 173.52,
+            "end": 173.92,
+            "word": " speed",
+            "probability": 0.98841
+          },
+          {
+            "start": 173.92,
+            "end": 174.16,
+            "word": " and",
+            "probability": 0.98326
+          },
+          {
+            "start": 174.16,
+            "end": 174.58,
+            "word": " quality",
+            "probability": 0.99591
+          },
+          {
+            "start": 174.58,
+            "end": 174.9,
+            "word": " is",
+            "probability": 0.99244
+          },
+          {
+            "start": 174.9,
+            "end": 175.18,
+            "word": " becoming",
+            "probability": 0.99577
+          },
+          {
+            "start": 175.18,
+            "end": 175.86,
+            "word": " increasingly",
+            "probability": 0.99614
+          },
+          {
+            "start": 175.86,
+            "end": 176.52,
+            "word": " difficult",
+            "probability": 0.99944
+          },
+          {
+            "start": 176.52,
+            "end": 176.94,
+            "word": " and",
+            "probability": 0.76844
+          },
+          {
+            "start": 176.94,
+            "end": 177.04,
+            "word": " I",
+            "probability": 0.9628
+          },
+          {
+            "start": 177.04,
+            "end": 177.24,
+            "word": " hope",
+            "probability": 0.99901
+          },
+          {
+            "start": 177.24,
+            "end": 177.44,
+            "word": " we",
+            "probability": 0.99685
+          },
+          {
+            "start": 177.44,
+            "end": 177.58,
+            "word": " can",
+            "probability": 0.99555
+          },
+          {
+            "start": 177.58,
+            "end": 177.92,
+            "word": " maintain",
+            "probability": 0.99695
+          },
+          {
+            "start": 177.92,
+            "end": 178.18,
+            "word": " our",
+            "probability": 0.99612
+          },
+          {
+            "start": 178.18,
+            "end": 178.62,
+            "word": " standards.",
+            "probability": 0.99366
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono1",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 198,
+            "speechStart": 0.91,
+            "speechEnd": 68.87,
+            "sourceTokenCoverage": 0.9898,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9873,
+            "transcript": "when discussing short term goals many people mistakenly think they only apply to specific situations or certain types of people some believe these goals create pressure and limit creativity making it seem like they're not worth the effort however this view is quite misleading in reality short term goals can actually be very flexible they allow you to adjust your plans as life changes for example if you set a goal to read a few books this month you might think that's too rigid but you can easily change that goal if unexpected things come up like work commitments or social events now when we consider setting goals overall there's a common belief that having too many goals leads to confusion and distraction some argue that this approach complicates things and makes it difficult to focus on what really matters however this perspective fails to recognise that clear goals actually help prevent mistakes weeks they provide a sense of direction guiding our choices but the irony is that without flexibility we might miss opportunities for creativity so while both short term and long term goals can be useful it's important to strike a balance to avoid feeling overwhelmed",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p4-mono2",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 198,
+            "wordEndIndexExclusive": 348,
+            "speechStart": 70.88,
+            "speechEnd": 122.43,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "recently i've been reviewing the scripts for our new show and i can't help but notice that the dialogues feel a bit off they come across as too polished almost like the characters are reading from a script rather than having real conversations i wonder if viewers will notice this lack of authenticity some might think it adds a nice touch but i believe people connect better with genuine interactions then there's the issue of industry demand while it's great that there's a push for more content i feel like this rush can hurt the quality of our scripts we're moving so fast that it's easy to overlook important details some might argue that the pressure leads to innovation but i worry that we might lose the essence of good storytelling in the process balancing speed and quality is becoming increasingly difficult and i hope we can maintain our standards",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 348,
+            "wordEndIndexExclusive": 499,
+            "speechStart": 127.14,
+            "speechEnd": 178.62,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9967,
+            "transcript": "recently i've been reviewing the scripts for our new show and i can't help but notice that the dialogues feel a bit off they come across as too polished almost like the characters are reading from a script rather than having real conversations questions i wonder if viewers will notice this lack of authenticity some might think it adds a nice touch but i believe people connect better with genuine interactions then there's the issue of industry demand while it's great that there's a push for more content i feel like this rush can hurt the quality of our scripts we're moving so fast that it's easy to overlook important details some might argue that the pressure leads to innovation but i worry that we might lose the essence of good storytelling in the process balancing speed and quality is becoming increasingly difficult and i hope we can maintain our standards",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

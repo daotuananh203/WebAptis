@@ -1,0 +1,385 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p1-q03",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-1/q03.mp3",
+  "audioSha256": "d3121aa1feeeae0e6421165b542c44816a683fce6d20c6dc51ecc91b45af1389",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 6.74,
+        "text": "Hey, it's Jack. I just moved to a new house in this busy neighborhood, and it's really cool",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.3,
+            "word": " Hey,",
+            "probability": 0.91574
+          },
+          {
+            "start": 1.58,
+            "end": 2.44,
+            "word": " it's",
+            "probability": 0.97641
+          },
+          {
+            "start": 2.44,
+            "end": 2.62,
+            "word": " Jack.",
+            "probability": 0.94095
+          },
+          {
+            "start": 3.16,
+            "end": 3.44,
+            "word": " I",
+            "probability": 0.99598
+          },
+          {
+            "start": 3.44,
+            "end": 3.54,
+            "word": " just",
+            "probability": 0.9958
+          },
+          {
+            "start": 3.54,
+            "end": 3.8,
+            "word": " moved",
+            "probability": 0.96734
+          },
+          {
+            "start": 3.8,
+            "end": 4.0,
+            "word": " to",
+            "probability": 0.99867
+          },
+          {
+            "start": 4.0,
+            "end": 4.08,
+            "word": " a",
+            "probability": 0.99797
+          },
+          {
+            "start": 4.08,
+            "end": 4.3,
+            "word": " new",
+            "probability": 0.999
+          },
+          {
+            "start": 4.3,
+            "end": 4.64,
+            "word": " house",
+            "probability": 0.99792
+          },
+          {
+            "start": 4.64,
+            "end": 4.82,
+            "word": " in",
+            "probability": 0.99595
+          },
+          {
+            "start": 4.82,
+            "end": 4.96,
+            "word": " this",
+            "probability": 0.99307
+          },
+          {
+            "start": 4.96,
+            "end": 5.22,
+            "word": " busy",
+            "probability": 0.97736
+          },
+          {
+            "start": 5.22,
+            "end": 5.66,
+            "word": " neighborhood,",
+            "probability": 0.76263
+          },
+          {
+            "start": 5.9,
+            "end": 6.14,
+            "word": " and",
+            "probability": 0.99538
+          },
+          {
+            "start": 6.14,
+            "end": 6.3,
+            "word": " it's",
+            "probability": 0.99531
+          },
+          {
+            "start": 6.3,
+            "end": 6.46,
+            "word": " really",
+            "probability": 0.99787
+          },
+          {
+            "start": 6.46,
+            "end": 6.74,
+            "word": " cool",
+            "probability": 0.99946
+          }
+        ]
+      },
+      {
+        "start": 6.74,
+        "end": 11.92,
+        "text": "There are so many houses here in different colors purple blue and white",
+        "words": [
+          {
+            "start": 6.74,
+            "end": 7.54,
+            "word": " There",
+            "probability": 0.19059
+          },
+          {
+            "start": 7.54,
+            "end": 7.66,
+            "word": " are",
+            "probability": 0.99376
+          },
+          {
+            "start": 7.66,
+            "end": 7.94,
+            "word": " so",
+            "probability": 0.99536
+          },
+          {
+            "start": 7.94,
+            "end": 8.14,
+            "word": " many",
+            "probability": 0.99891
+          },
+          {
+            "start": 8.14,
+            "end": 8.5,
+            "word": " houses",
+            "probability": 0.99732
+          },
+          {
+            "start": 8.5,
+            "end": 8.76,
+            "word": " here",
+            "probability": 0.99825
+          },
+          {
+            "start": 8.76,
+            "end": 8.9,
+            "word": " in",
+            "probability": 0.96166
+          },
+          {
+            "start": 8.9,
+            "end": 9.12,
+            "word": " different",
+            "probability": 0.99927
+          },
+          {
+            "start": 9.12,
+            "end": 9.52,
+            "word": " colors",
+            "probability": 0.67415
+          },
+          {
+            "start": 9.52,
+            "end": 10.36,
+            "word": " purple",
+            "probability": 0.67826
+          },
+          {
+            "start": 10.36,
+            "end": 11.12,
+            "word": " blue",
+            "probability": 0.57195
+          },
+          {
+            "start": 11.12,
+            "end": 11.62,
+            "word": " and",
+            "probability": 0.98525
+          },
+          {
+            "start": 11.62,
+            "end": 11.92,
+            "word": " white",
+            "probability": 0.99219
+          }
+        ]
+      },
+      {
+        "start": 11.92,
+        "end": 17.7,
+        "text": "My house is big and red. I'd love for you to come over and check it out. Let me know when you're free",
+        "words": [
+          {
+            "start": 11.92,
+            "end": 12.68,
+            "word": " My",
+            "probability": 0.3328
+          },
+          {
+            "start": 12.68,
+            "end": 12.88,
+            "word": " house",
+            "probability": 0.9696
+          },
+          {
+            "start": 12.88,
+            "end": 13.02,
+            "word": " is",
+            "probability": 0.98992
+          },
+          {
+            "start": 13.02,
+            "end": 13.18,
+            "word": " big",
+            "probability": 0.99598
+          },
+          {
+            "start": 13.18,
+            "end": 13.32,
+            "word": " and",
+            "probability": 0.98364
+          },
+          {
+            "start": 13.32,
+            "end": 13.56,
+            "word": " red.",
+            "probability": 0.98997
+          },
+          {
+            "start": 13.78,
+            "end": 14.22,
+            "word": " I'd",
+            "probability": 0.99686
+          },
+          {
+            "start": 14.22,
+            "end": 14.44,
+            "word": " love",
+            "probability": 0.99599
+          },
+          {
+            "start": 14.44,
+            "end": 14.68,
+            "word": " for",
+            "probability": 0.85507
+          },
+          {
+            "start": 14.68,
+            "end": 14.74,
+            "word": " you",
+            "probability": 0.99943
+          },
+          {
+            "start": 14.74,
+            "end": 14.84,
+            "word": " to",
+            "probability": 0.99757
+          },
+          {
+            "start": 14.84,
+            "end": 15.0,
+            "word": " come",
+            "probability": 0.99907
+          },
+          {
+            "start": 15.0,
+            "end": 15.26,
+            "word": " over",
+            "probability": 0.99957
+          },
+          {
+            "start": 15.26,
+            "end": 15.4,
+            "word": " and",
+            "probability": 0.99767
+          },
+          {
+            "start": 15.4,
+            "end": 15.6,
+            "word": " check",
+            "probability": 0.99777
+          },
+          {
+            "start": 15.6,
+            "end": 15.76,
+            "word": " it",
+            "probability": 0.99792
+          },
+          {
+            "start": 15.76,
+            "end": 16.1,
+            "word": " out.",
+            "probability": 0.99982
+          },
+          {
+            "start": 16.34,
+            "end": 16.78,
+            "word": " Let",
+            "probability": 0.99205
+          },
+          {
+            "start": 16.78,
+            "end": 16.92,
+            "word": " me",
+            "probability": 0.99745
+          },
+          {
+            "start": 16.92,
+            "end": 17.08,
+            "word": " know",
+            "probability": 0.99968
+          },
+          {
+            "start": 17.08,
+            "end": 17.26,
+            "word": " when",
+            "probability": 0.99821
+          },
+          {
+            "start": 17.26,
+            "end": 17.44,
+            "word": " you're",
+            "probability": 0.99668
+          },
+          {
+            "start": 17.44,
+            "end": 17.7,
+            "word": " free",
+            "probability": 0.99919
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q03",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 54,
+            "speechStart": 0.78,
+            "speechEnd": 17.7,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey it's jack i just moved to a new house in this busy neighborhood and it's really cool there are so many houses here in different colors purple blue and white my house is big and red i'd love for you to come over and check it out let me know when you're free",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

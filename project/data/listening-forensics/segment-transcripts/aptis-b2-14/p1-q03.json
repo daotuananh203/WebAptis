@@ -1,0 +1,1222 @@
+{
+  "testId": "aptis-b2-14",
+  "blockId": "p1-q03",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-14/part-1/q03.mp3",
+  "audioSha256": "1c287eab8afc01e983ad57b768ef72c95032f560fb29b1b896c9a7972462e8a6",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 10.0,
+        "end": 15.14,
+        "text": "I just got back from shopping. I found a great jacket and also picked up some tea.",
+        "words": [
+          {
+            "start": 10.0,
+            "end": 10.32,
+            "word": " I",
+            "probability": 0.5403
+          },
+          {
+            "start": 10.32,
+            "end": 10.44,
+            "word": " just",
+            "probability": 0.84021
+          },
+          {
+            "start": 10.44,
+            "end": 10.64,
+            "word": " got",
+            "probability": 0.99527
+          },
+          {
+            "start": 10.64,
+            "end": 10.84,
+            "word": " back",
+            "probability": 0.99575
+          },
+          {
+            "start": 10.84,
+            "end": 11.12,
+            "word": " from",
+            "probability": 0.99611
+          },
+          {
+            "start": 11.12,
+            "end": 11.52,
+            "word": " shopping.",
+            "probability": 0.99094
+          },
+          {
+            "start": 11.98,
+            "end": 12.08,
+            "word": " I",
+            "probability": 0.98657
+          },
+          {
+            "start": 12.08,
+            "end": 12.28,
+            "word": " found",
+            "probability": 0.99106
+          },
+          {
+            "start": 12.28,
+            "end": 12.42,
+            "word": " a",
+            "probability": 0.99688
+          },
+          {
+            "start": 12.42,
+            "end": 12.62,
+            "word": " great",
+            "probability": 0.98638
+          },
+          {
+            "start": 12.62,
+            "end": 12.94,
+            "word": " jacket",
+            "probability": 0.99418
+          },
+          {
+            "start": 12.94,
+            "end": 13.6,
+            "word": " and",
+            "probability": 0.77006
+          },
+          {
+            "start": 13.6,
+            "end": 14.04,
+            "word": " also",
+            "probability": 0.9646
+          },
+          {
+            "start": 14.04,
+            "end": 14.3,
+            "word": " picked",
+            "probability": 0.98958
+          },
+          {
+            "start": 14.3,
+            "end": 14.54,
+            "word": " up",
+            "probability": 0.99157
+          },
+          {
+            "start": 14.54,
+            "end": 14.78,
+            "word": " some",
+            "probability": 0.99774
+          },
+          {
+            "start": 14.78,
+            "end": 15.14,
+            "word": " tea.",
+            "probability": 0.85671
+          }
+        ]
+      },
+      {
+        "start": 15.66,
+        "end": 17.62,
+        "text": "Nice. What kind of jacket did you get?",
+        "words": [
+          {
+            "start": 15.66,
+            "end": 15.98,
+            "word": " Nice.",
+            "probability": 0.88611
+          },
+          {
+            "start": 16.44,
+            "end": 16.54,
+            "word": " What",
+            "probability": 0.98048
+          },
+          {
+            "start": 16.54,
+            "end": 16.68,
+            "word": " kind",
+            "probability": 0.97927
+          },
+          {
+            "start": 16.68,
+            "end": 16.8,
+            "word": " of",
+            "probability": 0.99748
+          },
+          {
+            "start": 16.8,
+            "end": 17.06,
+            "word": " jacket",
+            "probability": 0.99866
+          },
+          {
+            "start": 17.06,
+            "end": 17.3,
+            "word": " did",
+            "probability": 0.99799
+          },
+          {
+            "start": 17.3,
+            "end": 17.42,
+            "word": " you",
+            "probability": 0.99129
+          },
+          {
+            "start": 17.42,
+            "end": 17.62,
+            "word": " get?",
+            "probability": 0.99896
+          }
+        ]
+      },
+      {
+        "start": 18.26,
+        "end": 22.52,
+        "text": "It's a stylish leather jacket. I think it'll be perfect for the fall.",
+        "words": [
+          {
+            "start": 18.26,
+            "end": 18.54,
+            "word": " It's",
+            "probability": 0.98242
+          },
+          {
+            "start": 18.54,
+            "end": 18.6,
+            "word": " a",
+            "probability": 0.99619
+          },
+          {
+            "start": 18.6,
+            "end": 19.1,
+            "word": " stylish",
+            "probability": 0.98985
+          },
+          {
+            "start": 19.1,
+            "end": 19.5,
+            "word": " leather",
+            "probability": 0.99454
+          },
+          {
+            "start": 19.5,
+            "end": 20.02,
+            "word": " jacket.",
+            "probability": 0.99947
+          },
+          {
+            "start": 20.66,
+            "end": 20.88,
+            "word": " I",
+            "probability": 0.99709
+          },
+          {
+            "start": 20.88,
+            "end": 21.04,
+            "word": " think",
+            "probability": 0.99829
+          },
+          {
+            "start": 21.04,
+            "end": 21.26,
+            "word": " it'll",
+            "probability": 0.9077
+          },
+          {
+            "start": 21.26,
+            "end": 21.4,
+            "word": " be",
+            "probability": 0.99921
+          },
+          {
+            "start": 21.4,
+            "end": 21.86,
+            "word": " perfect",
+            "probability": 0.99712
+          },
+          {
+            "start": 21.86,
+            "end": 22.14,
+            "word": " for",
+            "probability": 0.99772
+          },
+          {
+            "start": 22.14,
+            "end": 22.26,
+            "word": " the",
+            "probability": 0.99899
+          },
+          {
+            "start": 22.26,
+            "end": 22.52,
+            "word": " fall.",
+            "probability": 0.98578
+          }
+        ]
+      },
+      {
+        "start": 23.14,
+        "end": 23.76,
+        "text": "What about you?",
+        "words": [
+          {
+            "start": 23.14,
+            "end": 23.32,
+            "word": " What",
+            "probability": 0.9955
+          },
+          {
+            "start": 23.32,
+            "end": 23.5,
+            "word": " about",
+            "probability": 0.99945
+          },
+          {
+            "start": 23.5,
+            "end": 23.76,
+            "word": " you?",
+            "probability": 0.99844
+          }
+        ]
+      },
+      {
+        "start": 24.38,
+        "end": 27.96,
+        "text": "I bought a cozy sweater and also grabbed a delicious cake.",
+        "words": [
+          {
+            "start": 24.38,
+            "end": 24.56,
+            "word": " I",
+            "probability": 0.99572
+          },
+          {
+            "start": 24.56,
+            "end": 24.7,
+            "word": " bought",
+            "probability": 0.99725
+          },
+          {
+            "start": 24.7,
+            "end": 24.88,
+            "word": " a",
+            "probability": 0.9984
+          },
+          {
+            "start": 24.88,
+            "end": 25.14,
+            "word": " cozy",
+            "probability": 0.8365
+          },
+          {
+            "start": 25.14,
+            "end": 25.6,
+            "word": " sweater",
+            "probability": 0.9966
+          },
+          {
+            "start": 25.6,
+            "end": 26.24,
+            "word": " and",
+            "probability": 0.85895
+          },
+          {
+            "start": 26.24,
+            "end": 26.56,
+            "word": " also",
+            "probability": 0.99545
+          },
+          {
+            "start": 26.56,
+            "end": 26.82,
+            "word": " grabbed",
+            "probability": 0.98461
+          },
+          {
+            "start": 26.82,
+            "end": 27.04,
+            "word": " a",
+            "probability": 0.99957
+          },
+          {
+            "start": 27.04,
+            "end": 27.5,
+            "word": " delicious",
+            "probability": 0.99725
+          },
+          {
+            "start": 27.5,
+            "end": 27.96,
+            "word": " cake.",
+            "probability": 0.9905
+          }
+        ]
+      },
+      {
+        "start": 28.72,
+        "end": 31.64,
+        "text": "Sounds great. Those are perfect for this weather.",
+        "words": [
+          {
+            "start": 28.72,
+            "end": 29.14,
+            "word": " Sounds",
+            "probability": 0.98873
+          },
+          {
+            "start": 29.14,
+            "end": 29.48,
+            "word": " great.",
+            "probability": 0.99893
+          },
+          {
+            "start": 30.0,
+            "end": 30.14,
+            "word": " Those",
+            "probability": 0.99629
+          },
+          {
+            "start": 30.14,
+            "end": 30.28,
+            "word": " are",
+            "probability": 0.99836
+          },
+          {
+            "start": 30.28,
+            "end": 30.76,
+            "word": " perfect",
+            "probability": 0.99821
+          },
+          {
+            "start": 30.76,
+            "end": 31.1,
+            "word": " for",
+            "probability": 0.99859
+          },
+          {
+            "start": 31.1,
+            "end": 31.3,
+            "word": " this",
+            "probability": 0.99648
+          },
+          {
+            "start": 31.3,
+            "end": 31.64,
+            "word": " weather.",
+            "probability": 0.99584
+          }
+        ]
+      },
+      {
+        "start": 32.3,
+        "end": 34.66,
+        "text": "Thanks. I'm excited to try the cake later.",
+        "words": [
+          {
+            "start": 32.3,
+            "end": 32.7,
+            "word": " Thanks.",
+            "probability": 0.99448
+          },
+          {
+            "start": 33.0,
+            "end": 33.16,
+            "word": " I'm",
+            "probability": 0.99532
+          },
+          {
+            "start": 33.16,
+            "end": 33.48,
+            "word": " excited",
+            "probability": 0.99897
+          },
+          {
+            "start": 33.48,
+            "end": 33.7,
+            "word": " to",
+            "probability": 0.99939
+          },
+          {
+            "start": 33.7,
+            "end": 33.92,
+            "word": " try",
+            "probability": 0.99934
+          },
+          {
+            "start": 33.92,
+            "end": 34.08,
+            "word": " the",
+            "probability": 0.99858
+          },
+          {
+            "start": 34.08,
+            "end": 34.28,
+            "word": " cake",
+            "probability": 0.99289
+          },
+          {
+            "start": 34.28,
+            "end": 34.66,
+            "word": " later.",
+            "probability": 0.9966
+          }
+        ]
+      },
+      {
+        "start": 35.71,
+        "end": 37.95,
+        "text": "Looks like we both made good choices today.",
+        "words": [
+          {
+            "start": 35.71,
+            "end": 35.97,
+            "word": " Looks",
+            "probability": 0.97674
+          },
+          {
+            "start": 35.97,
+            "end": 36.13,
+            "word": " like",
+            "probability": 0.99882
+          },
+          {
+            "start": 36.13,
+            "end": 36.31,
+            "word": " we",
+            "probability": 0.99813
+          },
+          {
+            "start": 36.31,
+            "end": 36.53,
+            "word": " both",
+            "probability": 0.9609
+          },
+          {
+            "start": 36.53,
+            "end": 36.81,
+            "word": " made",
+            "probability": 0.99783
+          },
+          {
+            "start": 36.81,
+            "end": 37.03,
+            "word": " good",
+            "probability": 0.99705
+          },
+          {
+            "start": 37.03,
+            "end": 37.49,
+            "word": " choices",
+            "probability": 0.9986
+          },
+          {
+            "start": 37.49,
+            "end": 37.95,
+            "word": " today.",
+            "probability": 0.99569
+          }
+        ]
+      },
+      {
+        "start": 37.95,
+        "end": 46.11,
+        "text": "Absolutely. New clothes and tasty treats for the chilly days ahead. I just got back from",
+        "words": [
+          {
+            "start": 37.95,
+            "end": 39.01,
+            "word": " Absolutely.",
+            "probability": 0.04747
+          },
+          {
+            "start": 39.73,
+            "end": 39.97,
+            "word": " New",
+            "probability": 0.87954
+          },
+          {
+            "start": 39.97,
+            "end": 40.31,
+            "word": " clothes",
+            "probability": 0.98084
+          },
+          {
+            "start": 40.31,
+            "end": 40.81,
+            "word": " and",
+            "probability": 0.95102
+          },
+          {
+            "start": 40.81,
+            "end": 41.13,
+            "word": " tasty",
+            "probability": 0.98363
+          },
+          {
+            "start": 41.13,
+            "end": 41.43,
+            "word": " treats",
+            "probability": 0.99575
+          },
+          {
+            "start": 41.43,
+            "end": 41.69,
+            "word": " for",
+            "probability": 0.98239
+          },
+          {
+            "start": 41.69,
+            "end": 41.81,
+            "word": " the",
+            "probability": 0.99327
+          },
+          {
+            "start": 41.81,
+            "end": 42.07,
+            "word": " chilly",
+            "probability": 0.92421
+          },
+          {
+            "start": 42.07,
+            "end": 42.39,
+            "word": " days",
+            "probability": 0.97763
+          },
+          {
+            "start": 42.39,
+            "end": 42.85,
+            "word": " ahead.",
+            "probability": 0.98086
+          },
+          {
+            "start": 44.95,
+            "end": 45.31,
+            "word": " I",
+            "probability": 0.9869
+          },
+          {
+            "start": 45.31,
+            "end": 45.43,
+            "word": " just",
+            "probability": 0.9919
+          },
+          {
+            "start": 45.43,
+            "end": 45.63,
+            "word": " got",
+            "probability": 0.99731
+          },
+          {
+            "start": 45.63,
+            "end": 45.83,
+            "word": " back",
+            "probability": 0.99873
+          },
+          {
+            "start": 45.83,
+            "end": 46.11,
+            "word": " from",
+            "probability": 0.9969
+          }
+        ]
+      },
+      {
+        "start": 46.11,
+        "end": 52.03,
+        "text": "shopping. I found a great jacket and also picked up some tea. Nice. What kind of jacket",
+        "words": [
+          {
+            "start": 46.11,
+            "end": 46.51,
+            "word": " shopping.",
+            "probability": 0.9941
+          },
+          {
+            "start": 46.97,
+            "end": 47.05,
+            "word": " I",
+            "probability": 0.99556
+          },
+          {
+            "start": 47.05,
+            "end": 47.27,
+            "word": " found",
+            "probability": 0.99522
+          },
+          {
+            "start": 47.27,
+            "end": 47.39,
+            "word": " a",
+            "probability": 0.99825
+          },
+          {
+            "start": 47.39,
+            "end": 47.61,
+            "word": " great",
+            "probability": 0.98942
+          },
+          {
+            "start": 47.61,
+            "end": 47.99,
+            "word": " jacket",
+            "probability": 0.99676
+          },
+          {
+            "start": 47.99,
+            "end": 48.59,
+            "word": " and",
+            "probability": 0.81629
+          },
+          {
+            "start": 48.59,
+            "end": 49.03,
+            "word": " also",
+            "probability": 0.99191
+          },
+          {
+            "start": 49.03,
+            "end": 49.27,
+            "word": " picked",
+            "probability": 0.99248
+          },
+          {
+            "start": 49.27,
+            "end": 49.49,
+            "word": " up",
+            "probability": 0.99258
+          },
+          {
+            "start": 49.49,
+            "end": 49.75,
+            "word": " some",
+            "probability": 0.99862
+          },
+          {
+            "start": 49.75,
+            "end": 50.07,
+            "word": " tea.",
+            "probability": 0.90224
+          },
+          {
+            "start": 50.67,
+            "end": 50.97,
+            "word": " Nice.",
+            "probability": 0.94629
+          },
+          {
+            "start": 51.43,
+            "end": 51.51,
+            "word": " What",
+            "probability": 0.98107
+          },
+          {
+            "start": 51.51,
+            "end": 51.67,
+            "word": " kind",
+            "probability": 0.97892
+          },
+          {
+            "start": 51.67,
+            "end": 51.79,
+            "word": " of",
+            "probability": 0.99542
+          },
+          {
+            "start": 51.79,
+            "end": 52.03,
+            "word": " jacket",
+            "probability": 0.99932
+          }
+        ]
+      },
+      {
+        "start": 52.03,
+        "end": 58.29,
+        "text": "did you get? It's a stylish leather jacket. I think it'll be perfect for the fall. What",
+        "words": [
+          {
+            "start": 52.03,
+            "end": 52.29,
+            "word": " did",
+            "probability": 0.99691
+          },
+          {
+            "start": 52.29,
+            "end": 52.41,
+            "word": " you",
+            "probability": 0.99131
+          },
+          {
+            "start": 52.41,
+            "end": 52.61,
+            "word": " get?",
+            "probability": 0.99923
+          },
+          {
+            "start": 53.23,
+            "end": 53.53,
+            "word": " It's",
+            "probability": 0.99049
+          },
+          {
+            "start": 53.53,
+            "end": 53.59,
+            "word": " a",
+            "probability": 0.9974
+          },
+          {
+            "start": 53.59,
+            "end": 54.09,
+            "word": " stylish",
+            "probability": 0.99099
+          },
+          {
+            "start": 54.09,
+            "end": 54.49,
+            "word": " leather",
+            "probability": 0.9934
+          },
+          {
+            "start": 54.49,
+            "end": 54.99,
+            "word": " jacket.",
+            "probability": 0.9997
+          },
+          {
+            "start": 55.63,
+            "end": 55.85,
+            "word": " I",
+            "probability": 0.9989
+          },
+          {
+            "start": 55.85,
+            "end": 56.03,
+            "word": " think",
+            "probability": 0.9988
+          },
+          {
+            "start": 56.03,
+            "end": 56.25,
+            "word": " it'll",
+            "probability": 0.88991
+          },
+          {
+            "start": 56.25,
+            "end": 56.37,
+            "word": " be",
+            "probability": 0.99946
+          },
+          {
+            "start": 56.37,
+            "end": 56.85,
+            "word": " perfect",
+            "probability": 0.99736
+          },
+          {
+            "start": 56.85,
+            "end": 57.13,
+            "word": " for",
+            "probability": 0.998
+          },
+          {
+            "start": 57.13,
+            "end": 57.25,
+            "word": " the",
+            "probability": 0.9968
+          },
+          {
+            "start": 57.25,
+            "end": 57.51,
+            "word": " fall.",
+            "probability": 0.98617
+          },
+          {
+            "start": 58.11,
+            "end": 58.29,
+            "word": " What",
+            "probability": 0.99696
+          }
+        ]
+      },
+      {
+        "start": 58.29,
+        "end": 65.13,
+        "text": "about you? I bought a cozy sweater and also grabbed a delicious cake. Sounds great. Those",
+        "words": [
+          {
+            "start": 58.29,
+            "end": 58.49,
+            "word": " about",
+            "probability": 0.99945
+          },
+          {
+            "start": 58.49,
+            "end": 58.75,
+            "word": " you?",
+            "probability": 0.99858
+          },
+          {
+            "start": 59.37,
+            "end": 59.55,
+            "word": " I",
+            "probability": 0.99578
+          },
+          {
+            "start": 59.55,
+            "end": 59.69,
+            "word": " bought",
+            "probability": 0.99808
+          },
+          {
+            "start": 59.69,
+            "end": 59.85,
+            "word": " a",
+            "probability": 0.99865
+          },
+          {
+            "start": 59.85,
+            "end": 60.13,
+            "word": " cozy",
+            "probability": 0.83621
+          },
+          {
+            "start": 60.13,
+            "end": 60.59,
+            "word": " sweater",
+            "probability": 0.99713
+          },
+          {
+            "start": 60.59,
+            "end": 61.21,
+            "word": " and",
+            "probability": 0.93012
+          },
+          {
+            "start": 61.21,
+            "end": 61.53,
+            "word": " also",
+            "probability": 0.99593
+          },
+          {
+            "start": 61.53,
+            "end": 61.79,
+            "word": " grabbed",
+            "probability": 0.99064
+          },
+          {
+            "start": 61.79,
+            "end": 62.01,
+            "word": " a",
+            "probability": 0.99894
+          },
+          {
+            "start": 62.01,
+            "end": 62.47,
+            "word": " delicious",
+            "probability": 0.99784
+          },
+          {
+            "start": 62.47,
+            "end": 62.95,
+            "word": " cake.",
+            "probability": 0.99256
+          },
+          {
+            "start": 63.63,
+            "end": 64.13,
+            "word": " Sounds",
+            "probability": 0.99151
+          },
+          {
+            "start": 64.13,
+            "end": 64.47,
+            "word": " great.",
+            "probability": 0.99912
+          },
+          {
+            "start": 64.99,
+            "end": 65.13,
+            "word": " Those",
+            "probability": 0.99625
+          }
+        ]
+      },
+      {
+        "start": 65.13,
+        "end": 66.65,
+        "text": "Those are perfect for this weather.",
+        "words": [
+          {
+            "start": 65.13,
+            "end": 65.21,
+            "word": " Those",
+            "probability": 0.38516
+          },
+          {
+            "start": 65.21,
+            "end": 65.27,
+            "word": " are",
+            "probability": 0.99646
+          },
+          {
+            "start": 65.27,
+            "end": 65.75,
+            "word": " perfect",
+            "probability": 0.99487
+          },
+          {
+            "start": 65.75,
+            "end": 66.07,
+            "word": " for",
+            "probability": 0.99544
+          },
+          {
+            "start": 66.07,
+            "end": 66.29,
+            "word": " this",
+            "probability": 0.98913
+          },
+          {
+            "start": 66.29,
+            "end": 66.65,
+            "word": " weather.",
+            "probability": 0.99553
+          }
+        ]
+      },
+      {
+        "start": 67.35,
+        "end": 69.67,
+        "text": "Thanks, I'm excited to try the cake later.",
+        "words": [
+          {
+            "start": 67.35,
+            "end": 67.73,
+            "word": " Thanks,",
+            "probability": 0.98212
+          },
+          {
+            "start": 67.97,
+            "end": 68.13,
+            "word": " I'm",
+            "probability": 0.96686
+          },
+          {
+            "start": 68.13,
+            "end": 68.45,
+            "word": " excited",
+            "probability": 0.99554
+          },
+          {
+            "start": 68.45,
+            "end": 68.69,
+            "word": " to",
+            "probability": 0.99855
+          },
+          {
+            "start": 68.69,
+            "end": 68.89,
+            "word": " try",
+            "probability": 0.99705
+          },
+          {
+            "start": 68.89,
+            "end": 69.07,
+            "word": " the",
+            "probability": 0.99546
+          },
+          {
+            "start": 69.07,
+            "end": 69.25,
+            "word": " cake",
+            "probability": 0.99055
+          },
+          {
+            "start": 69.25,
+            "end": 69.67,
+            "word": " later.",
+            "probability": 0.99485
+          }
+        ]
+      },
+      {
+        "start": 70.74,
+        "end": 72.94,
+        "text": "Looks like we both made good choices today.",
+        "words": [
+          {
+            "start": 70.74,
+            "end": 70.96,
+            "word": " Looks",
+            "probability": 0.98245
+          },
+          {
+            "start": 70.96,
+            "end": 71.12,
+            "word": " like",
+            "probability": 0.99899
+          },
+          {
+            "start": 71.12,
+            "end": 71.28,
+            "word": " we",
+            "probability": 0.99643
+          },
+          {
+            "start": 71.28,
+            "end": 71.52,
+            "word": " both",
+            "probability": 0.90592
+          },
+          {
+            "start": 71.52,
+            "end": 71.78,
+            "word": " made",
+            "probability": 0.99389
+          },
+          {
+            "start": 71.78,
+            "end": 72.02,
+            "word": " good",
+            "probability": 0.99268
+          },
+          {
+            "start": 72.02,
+            "end": 72.48,
+            "word": " choices",
+            "probability": 0.99699
+          },
+          {
+            "start": 72.48,
+            "end": 72.94,
+            "word": " today.",
+            "probability": 0.99078
+          }
+        ]
+      },
+      {
+        "start": 73.64,
+        "end": 74.2,
+        "text": "Absolutely.",
+        "words": [
+          {
+            "start": 73.64,
+            "end": 74.2,
+            "word": " Absolutely.",
+            "probability": 0.98895
+          }
+        ]
+      },
+      {
+        "start": 74.84,
+        "end": 77.74,
+        "text": "New clothes and tasty treats for the chilly days ahead.",
+        "words": [
+          {
+            "start": 74.84,
+            "end": 74.96,
+            "word": " New",
+            "probability": 0.96633
+          },
+          {
+            "start": 74.96,
+            "end": 75.3,
+            "word": " clothes",
+            "probability": 0.96761
+          },
+          {
+            "start": 75.3,
+            "end": 75.78,
+            "word": " and",
+            "probability": 0.96925
+          },
+          {
+            "start": 75.78,
+            "end": 76.12,
+            "word": " tasty",
+            "probability": 0.98265
+          },
+          {
+            "start": 76.12,
+            "end": 76.44,
+            "word": " treats",
+            "probability": 0.99722
+          },
+          {
+            "start": 76.44,
+            "end": 76.66,
+            "word": " for",
+            "probability": 0.9956
+          },
+          {
+            "start": 76.66,
+            "end": 76.78,
+            "word": " the",
+            "probability": 0.99618
+          },
+          {
+            "start": 76.78,
+            "end": 77.06,
+            "word": " chilly",
+            "probability": 0.91128
+          },
+          {
+            "start": 77.06,
+            "end": 77.32,
+            "word": " days",
+            "probability": 0.98093
+          },
+          {
+            "start": 77.32,
+            "end": 77.74,
+            "word": " ahead.",
+            "probability": 0.99923
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q03",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 87,
+            "speechStart": 10.0,
+            "speechEnd": 42.85,
+            "sourceTokenCoverage": 0.9355,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9667,
+            "transcript": "i just got back from shopping i found a great jacket and also picked up some tea nice what kind of jacket did you get it's a stylish leather jacket i think it'll be perfect for the fall what about you i bought a cozy sweater and also grabbed a delicious cake sounds great those are perfect for this weather thanks i'm excited to try the cake later looks like we both made good choices today absolutely new clothes and tasty treats for the chilly days ahead",
+            "openingMatch": 0.9556,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 87,
+            "wordEndIndexExclusive": 175,
+            "speechStart": 44.95,
+            "speechEnd": 77.74,
+            "sourceTokenCoverage": 0.9355,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9613,
+            "transcript": "i just got back from shopping i found a great jacket and also picked up some tea nice what kind of jacket did you get it's a stylish leather jacket i think it'll be perfect for the fall what about you i bought a cozy sweater and also grabbed a delicious cake sounds great those those are perfect for this weather thanks i'm excited to try the cake later looks like we both made good choices today absolutely new clothes and tasty treats for the chilly days ahead",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

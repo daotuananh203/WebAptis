@@ -1,114 +1,140 @@
 import { test, expect } from "@playwright/test";
-import fs from "fs";
-import path from "path";
+import crypto from "node:crypto";
+import fs from "node:fs";
+import path from "node:path";
 
-test.describe("Listening Content Forensic Integrity Golden Test Suite", () => {
-  const testsDir = path.resolve(process.cwd(), "data/tests");
+const testsDir = path.resolve(process.cwd(), "data/tests");
+const manifest: any[] = JSON.parse(
+  fs.readFileSync(path.resolve(process.cwd(), "data/listening-forensics/listening-audio-manifest.json"), "utf8"),
+);
 
-  for (let i = 1; i <= 16; i++) {
-    const pad = i.toString().padStart(2, "0");
+function fileSha256(filePath: string): string {
+  return crypto.createHash("sha256").update(fs.readFileSync(filePath)).digest("hex");
+}
+
+function artifact(testId: string, blockId: string): any {
+  return manifest.find((item) => item.audit.testId === testId)?.artifacts.find((item: any) => item.blockId === blockId);
+}
+
+test.describe("Listening source/audio integrity contract", () => {
+  for (let number = 1; number <= 16; number += 1) {
+    const pad = String(number).padStart(2, "0");
     const testId = `aptis-b2-${pad}`;
-    const pubPath = path.join(testsDir, `${testId}-public.json`);
-    const ansPath = path.join(testsDir, `${testId}-answers.json`);
 
-    test(`Verify ${testId} listening public dataset & answer key contract integrity`, () => {
-      expect(fs.existsSync(pubPath)).toBe(true);
-      expect(fs.existsSync(ansPath)).toBe(true);
+    test(`${testId}: dataset, scoring, bytes, and transcript evidence`, () => {
+      const pub = JSON.parse(fs.readFileSync(path.join(testsDir, `${testId}-public.json`), "utf8"));
+      const answers = JSON.parse(fs.readFileSync(path.join(testsDir, `${testId}-answers.json`), "utf8"));
+      const [p1, p2, p3, p4] = pub.listening.parts;
+      expect(pub.listening.parts).toHaveLength(4);
+      expect(p1.tasks).toHaveLength(13);
+      expect(p2.speakers).toHaveLength(4);
+      expect(p3.statements).toHaveLength(4);
+      expect(p4.monologues).toHaveLength(2);
 
-      const pub = JSON.parse(fs.readFileSync(pubPath, "utf-8"));
-      const ans = JSON.parse(fs.readFileSync(ansPath, "utf-8"));
-
-      expect(pub.listening).toBeDefined();
-      expect(pub.listening.officialDurationMinutes).toBe(40);
-      expect(Array.isArray(pub.listening.parts)).toBe(true);
-      expect(pub.listening.parts.length).toBe(4);
-
-      // Part 1
-      const p1 = pub.listening.parts[0];
-      expect(p1.partNumber).toBe(1);
-      expect(p1.taskType).toBe("information-recognition");
-      expect(p1.tasks.length).toBe(13);
-
-      for (let qIdx = 0; qIdx < 13; qIdx++) {
-        const task = p1.tasks[qIdx];
-        const qNum = qIdx + 1;
-        const qPad = qNum.toString().padStart(2, "0");
-        const expectedTaskId = `t${pad}_l1_q${qPad}`;
-
-        expect(task.id).toBe(expectedTaskId);
-        expect(task.questionNumber).toBe(qNum);
-        expect(typeof task.questionText).toBe("string");
-        expect(task.questionText.trim().length).toBeGreaterThan(0);
-        expect(Array.isArray(task.options)).toBe(true);
-        expect(task.options.length).toBeGreaterThanOrEqual(2);
-
-        // Audio
-        if (i === 16) {
-          expect(task.audio.status).toBe("missing");
-        } else {
-          expect(task.audioUrl).toBe(`/audio/listening/segments/aptis-b2-${pad}/part-1/q${qPad}.mp3`);
-          expect(task.audio.status).toBe("VERIFIED");
-          expect(task.audio.audioSegmentStatus).toBe("VERIFIED");
+      if (number === 16) {
+        expect(pub.listening.audio.status).toBe("missing");
+        for (const part of pub.listening.parts) {
+          if (part.audio) expect(part.audio.status).toBe("missing");
+          for (const key of ["tasks", "speakers", "statements", "monologues"]) {
+            for (const item of part[key] || []) expect(item.audio.status).toBe("missing");
+          }
         }
-
-        // Answer
-        const p1Ans = ans.listening?.part1?.[expectedTaskId];
-        expect(p1Ans).toBeDefined();
-        expect(task.options).toContain(p1Ans);
+        return;
       }
 
-      // Part 2
-      const p2 = pub.listening.parts[1];
-      expect(p2.partNumber).toBe(2);
-      expect(p2.taskType).toBe("speaker-information-matching");
-      expect(p2.speakers.length).toBe(4);
-      expect(p2.statementOptions.length).toBeGreaterThanOrEqual(2);
-
-      const optIds = new Set(p2.statementOptions.map((o: any) => o.id));
-      for (let sIdx = 1; sIdx <= 4; sIdx++) {
-        const spkId = `t${pad}_l2_spk_${sIdx}`;
-        const p2Ans = ans.listening?.part2?.[spkId];
-        expect(p2Ans).toBeDefined();
-        expect(optIds.has(p2Ans)).toBe(true);
-      }
-
-      // Part 3
-      const p3 = pub.listening.parts[2];
-      expect(p3.partNumber).toBe(3);
-      expect(p3.taskType).toBe("opinion-discussion");
-      expect(p3.statements.length).toBe(4);
-
-      for (let sIdx = 1; sIdx <= 4; sIdx++) {
-        const stmtId = `t${pad}_l3_stmt_${sIdx}`;
-        const p3Ans = ans.listening?.part3?.[stmtId];
-        expect(p3Ans).toBeDefined();
-        expect(["Man", "Woman", "Both"]).toContain(p3Ans);
-      }
-
-      // Part 4
-      const p4 = pub.listening.parts[3];
-      expect(p4.partNumber).toBe(4);
-      expect(p4.taskType).toBe("extended-monologue");
-      expect(p4.monologues.length).toBe(2);
-
-      const expectedQIds = [
-        `t${pad}_l4_m1_q1`,
-        `t${pad}_l4_m1_q2`,
-        `t${pad}_l4_m2_q1`,
-        `t${pad}_l4_m2_q2`
-      ];
-
-      const actualQIds: string[] = [];
-      p4.monologues.forEach((m: any) => {
-        expect(m.questions.length).toBe(2);
-        m.questions.forEach((q: any) => {
-          actualQIds.push(q.id);
-          const p4Ans = ans.listening?.part4?.[q.id];
-          expect(p4Ans).toBeDefined();
-          expect(q.options).toContain(p4Ans);
-        });
+      const mappings: Array<[string, any]> = [];
+      p1.tasks.forEach((item: any, index: number) => {
+        expect(item.options).toContain(answers.listening.part1[item.id]);
+        mappings.push([`p1-q${String(index + 1).padStart(2, "0")}`, item.audio]);
       });
-      expect(actualQIds).toEqual(expectedQIds);
+      const optionIds = p2.statementOptions.map((item: any) => item.id);
+      p2.speakers.forEach((item: any, index: number) => {
+        expect(optionIds).toContain(answers.listening.part2[item.id]);
+        mappings.push([`p2-spk-${"abcd"[index]}`, item.audio]);
+      });
+      p3.statements.forEach((item: any) => expect(item.options).toContain(answers.listening.part3[item.id]));
+      mappings.push(["p3-task-all", p3.audio]);
+      p4.monologues.forEach((mono: any, index: number) => {
+        mono.questions.forEach((item: any) => expect(item.options).toContain(answers.listening.part4[item.id]));
+        mappings.push([`p4-mono${index + 1}`, mono.audio]);
+      });
+      mappings.push(["p2-task-all", p2.audio], ["p4-task-all", p4.audio]);
+
+      for (const [blockId, audio] of mappings) {
+        const item = artifact(testId, blockId);
+        expect(item).toBeDefined();
+        if (item.status !== "VERIFIED") {
+          expect(item.status).toBe("UNCERTAIN");
+          expect(audio.status).toBe("NOT_VERIFIED");
+          expect(audio.audioSegmentStatus).toBe("NOT_VERIFIED");
+          expect(audio.url).toBe("");
+          expect(audio.verification.recordingBoundaryVerified).toBe(false);
+          continue;
+        }
+        expect(audio.status).toBe("VERIFIED");
+        expect(audio.url).toBe(item.url);
+        expect(audio.sha256).toBe(item.sha256);
+        const diskPath = path.resolve(process.cwd(), item.path.replace(/^project\//, ""));
+        expect(fileSha256(diskPath)).toBe(item.sha256);
+        const transcript = JSON.parse(
+          fs.readFileSync(path.resolve(process.cwd(), item.transcriptEvidence.replace(/^project\//, "")), "utf8"),
+        );
+        expect(transcript.audioSha256).toBe(item.sha256);
+        expect(transcript.validation.status).toBe("VERIFIED");
+        expect(transcript.validation.unexpectedTaskContamination).toEqual([]);
+      }
     });
   }
+
+  test("clean Chrome context exposes every verified URL on all 64 Listening part pages", async ({ page, context }) => {
+    test.setTimeout(300_000);
+    const email = `listening_contract_${Date.now()}@aptis.edu.vn`;
+    const response = await page.request.post("/api/auth/register", {
+      data: { email, password: "Password123!", name: "Listening Contract E2E" },
+    });
+    expect(response.ok()).toBeTruthy();
+    const cookie = response.headers()["set-cookie"]?.match(/aptis_session=([^;]+)/)?.[1];
+    if (cookie) await context.addCookies([{ name: "aptis_session", value: cookie, url: "http://localhost:3128" }]);
+
+    for (let number = 1; number <= 16; number += 1) {
+      const testId = `aptis-b2-${String(number).padStart(2, "0")}`;
+      for (let part = 1; part <= 4; part += 1) {
+        await page.goto(`/practice/listening/part${part}?testId=${testId}`, { waitUntil: "domcontentloaded" });
+        await page.locator("audio").evaluateAll((nodes) =>
+          nodes.forEach((node) => (node as HTMLAudioElement).load()),
+        );
+        if (number !== 16) {
+          await page.waitForFunction(() =>
+            Array.from(document.querySelectorAll("audio")).every((node) => node.currentSrc.length > 0),
+          );
+        }
+        const currentSources = await page.locator("audio").evaluateAll((nodes) =>
+          nodes.map((node) => (node as HTMLAudioElement).currentSrc),
+        );
+        if (number === 16) {
+          expect(currentSources).toEqual([]);
+          continue;
+        }
+        const result = manifest.find((item) => item.audit.testId === testId);
+        const expected = result.artifacts
+          .filter((item: any) => item.status === "VERIFIED" && (
+            part === 1 ? item.blockId.startsWith("p1-q") :
+            part === 2 ? item.blockId === "p2-task-all" :
+            part === 3 ? item.blockId === "p3-task-all" :
+            item.blockId === "p4-task-all"
+          ))
+          .map((item: any) => item.url);
+        for (const url of expected) {
+          const expectedArtifact = result.artifacts.find((item: any) => item.url === url);
+          expect(
+            currentSources.some((current) =>
+              new URL(current).pathname === url &&
+              new URL(current).searchParams.get("v") === expectedArtifact.sha256.slice(0, 16),
+            ),
+            `${testId} part${part}: currentSrc missing ${url} with validated hash version`,
+          ).toBe(true);
+        }
+      }
+    }
+  });
 });

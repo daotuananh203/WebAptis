@@ -1,0 +1,870 @@
+{
+  "testId": "aptis-b2-12",
+  "blockId": "p1-q13",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-12/part-1/q13.mp3",
+  "audioSha256": "1a1d86d11c6d10fbe647ff983c3f5dfaa76e5f8a907615ea17dc6875a5264b34",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.94,
+        "end": 6.64,
+        "text": "Hey, could you do me a favor? My sister is waiting outside, and I need you to give her my book.",
+        "words": [
+          {
+            "start": 0.94,
+            "end": 1.46,
+            "word": " Hey,",
+            "probability": 0.46106
+          },
+          {
+            "start": 1.88,
+            "end": 2.0,
+            "word": " could",
+            "probability": 0.96954
+          },
+          {
+            "start": 2.0,
+            "end": 2.14,
+            "word": " you",
+            "probability": 0.99535
+          },
+          {
+            "start": 2.14,
+            "end": 2.28,
+            "word": " do",
+            "probability": 0.98302
+          },
+          {
+            "start": 2.28,
+            "end": 2.42,
+            "word": " me",
+            "probability": 0.99808
+          },
+          {
+            "start": 2.42,
+            "end": 2.54,
+            "word": " a",
+            "probability": 0.99704
+          },
+          {
+            "start": 2.54,
+            "end": 2.82,
+            "word": " favor?",
+            "probability": 0.97549
+          },
+          {
+            "start": 3.4,
+            "end": 3.48,
+            "word": " My",
+            "probability": 0.91351
+          },
+          {
+            "start": 3.48,
+            "end": 3.82,
+            "word": " sister",
+            "probability": 0.99633
+          },
+          {
+            "start": 3.82,
+            "end": 4.0,
+            "word": " is",
+            "probability": 0.92056
+          },
+          {
+            "start": 4.0,
+            "end": 4.2,
+            "word": " waiting",
+            "probability": 0.98734
+          },
+          {
+            "start": 4.2,
+            "end": 4.68,
+            "word": " outside,",
+            "probability": 0.9988
+          },
+          {
+            "start": 5.04,
+            "end": 5.38,
+            "word": " and",
+            "probability": 0.99217
+          },
+          {
+            "start": 5.38,
+            "end": 5.48,
+            "word": " I",
+            "probability": 0.99693
+          },
+          {
+            "start": 5.48,
+            "end": 5.64,
+            "word": " need",
+            "probability": 0.99726
+          },
+          {
+            "start": 5.64,
+            "end": 5.84,
+            "word": " you",
+            "probability": 0.99757
+          },
+          {
+            "start": 5.84,
+            "end": 5.94,
+            "word": " to",
+            "probability": 0.99808
+          },
+          {
+            "start": 5.94,
+            "end": 6.08,
+            "word": " give",
+            "probability": 0.99434
+          },
+          {
+            "start": 6.08,
+            "end": 6.26,
+            "word": " her",
+            "probability": 0.99761
+          },
+          {
+            "start": 6.26,
+            "end": 6.4,
+            "word": " my",
+            "probability": 0.99773
+          },
+          {
+            "start": 6.4,
+            "end": 6.64,
+            "word": " book.",
+            "probability": 0.99584
+          }
+        ]
+      },
+      {
+        "start": 7.56,
+        "end": 11.04,
+        "text": "She's the one who is short and has straight hair, so you can't miss her.",
+        "words": [
+          {
+            "start": 7.56,
+            "end": 7.92,
+            "word": " She's",
+            "probability": 0.96852
+          },
+          {
+            "start": 7.92,
+            "end": 8.0,
+            "word": " the",
+            "probability": 0.99918
+          },
+          {
+            "start": 8.0,
+            "end": 8.14,
+            "word": " one",
+            "probability": 0.99613
+          },
+          {
+            "start": 8.14,
+            "end": 8.28,
+            "word": " who",
+            "probability": 0.99133
+          },
+          {
+            "start": 8.28,
+            "end": 8.4,
+            "word": " is",
+            "probability": 0.9762
+          },
+          {
+            "start": 8.4,
+            "end": 8.72,
+            "word": " short",
+            "probability": 0.99567
+          },
+          {
+            "start": 8.72,
+            "end": 8.98,
+            "word": " and",
+            "probability": 0.95626
+          },
+          {
+            "start": 8.98,
+            "end": 9.14,
+            "word": " has",
+            "probability": 0.99866
+          },
+          {
+            "start": 9.14,
+            "end": 9.46,
+            "word": " straight",
+            "probability": 0.99197
+          },
+          {
+            "start": 9.46,
+            "end": 9.82,
+            "word": " hair,",
+            "probability": 0.99916
+          },
+          {
+            "start": 10.06,
+            "end": 10.24,
+            "word": " so",
+            "probability": 0.99764
+          },
+          {
+            "start": 10.24,
+            "end": 10.4,
+            "word": " you",
+            "probability": 0.99594
+          },
+          {
+            "start": 10.4,
+            "end": 10.7,
+            "word": " can't",
+            "probability": 0.99894
+          },
+          {
+            "start": 10.7,
+            "end": 10.82,
+            "word": " miss",
+            "probability": 0.99318
+          },
+          {
+            "start": 10.82,
+            "end": 11.04,
+            "word": " her.",
+            "probability": 0.99904
+          }
+        ]
+      },
+      {
+        "start": 11.78,
+        "end": 17.06,
+        "text": "I also think she's wearing a blue jacket today. If you see her, just hand it to her, and I'll be so grateful.",
+        "words": [
+          {
+            "start": 11.78,
+            "end": 11.98,
+            "word": " I",
+            "probability": 0.99495
+          },
+          {
+            "start": 11.98,
+            "end": 12.2,
+            "word": " also",
+            "probability": 0.99714
+          },
+          {
+            "start": 12.2,
+            "end": 12.38,
+            "word": " think",
+            "probability": 0.99548
+          },
+          {
+            "start": 12.38,
+            "end": 12.62,
+            "word": " she's",
+            "probability": 0.99285
+          },
+          {
+            "start": 12.62,
+            "end": 12.78,
+            "word": " wearing",
+            "probability": 0.99953
+          },
+          {
+            "start": 12.78,
+            "end": 12.9,
+            "word": " a",
+            "probability": 0.99856
+          },
+          {
+            "start": 12.9,
+            "end": 13.06,
+            "word": " blue",
+            "probability": 0.98784
+          },
+          {
+            "start": 13.06,
+            "end": 13.36,
+            "word": " jacket",
+            "probability": 0.99629
+          },
+          {
+            "start": 13.36,
+            "end": 13.74,
+            "word": " today.",
+            "probability": 0.9943
+          },
+          {
+            "start": 14.08,
+            "end": 14.18,
+            "word": " If",
+            "probability": 0.99325
+          },
+          {
+            "start": 14.18,
+            "end": 14.28,
+            "word": " you",
+            "probability": 0.99916
+          },
+          {
+            "start": 14.28,
+            "end": 14.5,
+            "word": " see",
+            "probability": 0.99912
+          },
+          {
+            "start": 14.5,
+            "end": 14.72,
+            "word": " her,",
+            "probability": 0.99785
+          },
+          {
+            "start": 14.9,
+            "end": 15.0,
+            "word": " just",
+            "probability": 0.99668
+          },
+          {
+            "start": 15.0,
+            "end": 15.28,
+            "word": " hand",
+            "probability": 0.99669
+          },
+          {
+            "start": 15.28,
+            "end": 15.4,
+            "word": " it",
+            "probability": 0.99915
+          },
+          {
+            "start": 15.4,
+            "end": 15.56,
+            "word": " to",
+            "probability": 0.99892
+          },
+          {
+            "start": 15.56,
+            "end": 15.72,
+            "word": " her,",
+            "probability": 0.99951
+          },
+          {
+            "start": 15.96,
+            "end": 16.24,
+            "word": " and",
+            "probability": 0.99788
+          },
+          {
+            "start": 16.24,
+            "end": 16.36,
+            "word": " I'll",
+            "probability": 0.99713
+          },
+          {
+            "start": 16.36,
+            "end": 16.46,
+            "word": " be",
+            "probability": 0.99927
+          },
+          {
+            "start": 16.46,
+            "end": 16.68,
+            "word": " so",
+            "probability": 0.99874
+          },
+          {
+            "start": 16.68,
+            "end": 17.06,
+            "word": " grateful.",
+            "probability": 0.99643
+          }
+        ]
+      },
+      {
+        "start": 17.8,
+        "end": 28.39,
+        "text": "Thanks for helping me out. Hey, could you do me a favor? My sister is waiting outside, and I need you to give her my book.",
+        "words": [
+          {
+            "start": 17.8,
+            "end": 18.08,
+            "word": " Thanks",
+            "probability": 0.99149
+          },
+          {
+            "start": 18.08,
+            "end": 18.22,
+            "word": " for",
+            "probability": 0.99955
+          },
+          {
+            "start": 18.22,
+            "end": 18.46,
+            "word": " helping",
+            "probability": 0.99859
+          },
+          {
+            "start": 18.46,
+            "end": 18.68,
+            "word": " me",
+            "probability": 0.9982
+          },
+          {
+            "start": 18.68,
+            "end": 18.88,
+            "word": " out.",
+            "probability": 0.99962
+          },
+          {
+            "start": 23.01,
+            "end": 23.21,
+            "word": " Hey,",
+            "probability": 0.97964
+          },
+          {
+            "start": 23.63,
+            "end": 23.73,
+            "word": " could",
+            "probability": 0.99466
+          },
+          {
+            "start": 23.73,
+            "end": 23.87,
+            "word": " you",
+            "probability": 0.99896
+          },
+          {
+            "start": 23.87,
+            "end": 24.01,
+            "word": " do",
+            "probability": 0.99301
+          },
+          {
+            "start": 24.01,
+            "end": 24.15,
+            "word": " me",
+            "probability": 0.9992
+          },
+          {
+            "start": 24.15,
+            "end": 24.25,
+            "word": " a",
+            "probability": 0.99872
+          },
+          {
+            "start": 24.25,
+            "end": 24.57,
+            "word": " favor?",
+            "probability": 0.99834
+          },
+          {
+            "start": 25.09,
+            "end": 25.21,
+            "word": " My",
+            "probability": 0.99385
+          },
+          {
+            "start": 25.21,
+            "end": 25.57,
+            "word": " sister",
+            "probability": 0.9973
+          },
+          {
+            "start": 25.57,
+            "end": 25.75,
+            "word": " is",
+            "probability": 0.96662
+          },
+          {
+            "start": 25.75,
+            "end": 25.95,
+            "word": " waiting",
+            "probability": 0.99604
+          },
+          {
+            "start": 25.95,
+            "end": 26.45,
+            "word": " outside,",
+            "probability": 0.9994
+          },
+          {
+            "start": 26.81,
+            "end": 27.11,
+            "word": " and",
+            "probability": 0.99717
+          },
+          {
+            "start": 27.11,
+            "end": 27.21,
+            "word": " I",
+            "probability": 0.99834
+          },
+          {
+            "start": 27.21,
+            "end": 27.39,
+            "word": " need",
+            "probability": 0.99837
+          },
+          {
+            "start": 27.39,
+            "end": 27.57,
+            "word": " you",
+            "probability": 0.9987
+          },
+          {
+            "start": 27.57,
+            "end": 27.69,
+            "word": " to",
+            "probability": 0.99834
+          },
+          {
+            "start": 27.69,
+            "end": 27.83,
+            "word": " give",
+            "probability": 0.99798
+          },
+          {
+            "start": 27.83,
+            "end": 27.99,
+            "word": " her",
+            "probability": 0.99912
+          },
+          {
+            "start": 27.99,
+            "end": 28.15,
+            "word": " my",
+            "probability": 0.99912
+          },
+          {
+            "start": 28.15,
+            "end": 28.39,
+            "word": " book.",
+            "probability": 0.99848
+          }
+        ]
+      },
+      {
+        "start": 29.3,
+        "end": 32.8,
+        "text": "She's the one who is short and has straight hair, so you can't miss her.",
+        "words": [
+          {
+            "start": 29.3,
+            "end": 29.66,
+            "word": " She's",
+            "probability": 0.99411
+          },
+          {
+            "start": 29.66,
+            "end": 29.74,
+            "word": " the",
+            "probability": 0.99959
+          },
+          {
+            "start": 29.74,
+            "end": 29.88,
+            "word": " one",
+            "probability": 0.99776
+          },
+          {
+            "start": 29.88,
+            "end": 30.02,
+            "word": " who",
+            "probability": 0.997
+          },
+          {
+            "start": 30.02,
+            "end": 30.14,
+            "word": " is",
+            "probability": 0.98236
+          },
+          {
+            "start": 30.14,
+            "end": 30.44,
+            "word": " short",
+            "probability": 0.99945
+          },
+          {
+            "start": 30.44,
+            "end": 30.72,
+            "word": " and",
+            "probability": 0.98909
+          },
+          {
+            "start": 30.72,
+            "end": 30.88,
+            "word": " has",
+            "probability": 0.99825
+          },
+          {
+            "start": 30.88,
+            "end": 31.2,
+            "word": " straight",
+            "probability": 0.99674
+          },
+          {
+            "start": 31.2,
+            "end": 31.6,
+            "word": " hair,",
+            "probability": 0.99948
+          },
+          {
+            "start": 31.8,
+            "end": 31.98,
+            "word": " so",
+            "probability": 0.99849
+          },
+          {
+            "start": 31.98,
+            "end": 32.14,
+            "word": " you",
+            "probability": 0.9989
+          },
+          {
+            "start": 32.14,
+            "end": 32.44,
+            "word": " can't",
+            "probability": 0.99954
+          },
+          {
+            "start": 32.44,
+            "end": 32.56,
+            "word": " miss",
+            "probability": 0.99633
+          },
+          {
+            "start": 32.56,
+            "end": 32.8,
+            "word": " her.",
+            "probability": 0.99961
+          }
+        ]
+      },
+      {
+        "start": 33.26,
+        "end": 38.8,
+        "text": "I also think she's wearing a blue jacket today if you see her just hand it to her and I'll be so grateful.",
+        "words": [
+          {
+            "start": 33.26,
+            "end": 33.7,
+            "word": " I",
+            "probability": 0.90323
+          },
+          {
+            "start": 33.7,
+            "end": 33.9,
+            "word": " also",
+            "probability": 0.98538
+          },
+          {
+            "start": 33.9,
+            "end": 34.12,
+            "word": " think",
+            "probability": 0.9913
+          },
+          {
+            "start": 34.12,
+            "end": 34.36,
+            "word": " she's",
+            "probability": 0.95083
+          },
+          {
+            "start": 34.36,
+            "end": 34.5,
+            "word": " wearing",
+            "probability": 0.99958
+          },
+          {
+            "start": 34.5,
+            "end": 34.64,
+            "word": " a",
+            "probability": 0.9961
+          },
+          {
+            "start": 34.64,
+            "end": 34.8,
+            "word": " blue",
+            "probability": 0.97119
+          },
+          {
+            "start": 34.8,
+            "end": 35.1,
+            "word": " jacket",
+            "probability": 0.9965
+          },
+          {
+            "start": 35.1,
+            "end": 35.48,
+            "word": " today",
+            "probability": 0.99326
+          },
+          {
+            "start": 35.48,
+            "end": 35.92,
+            "word": " if",
+            "probability": 0.24891
+          },
+          {
+            "start": 35.92,
+            "end": 36.02,
+            "word": " you",
+            "probability": 0.9976
+          },
+          {
+            "start": 36.02,
+            "end": 36.24,
+            "word": " see",
+            "probability": 0.99651
+          },
+          {
+            "start": 36.24,
+            "end": 36.46,
+            "word": " her",
+            "probability": 0.99562
+          },
+          {
+            "start": 36.46,
+            "end": 36.74,
+            "word": " just",
+            "probability": 0.73231
+          },
+          {
+            "start": 36.74,
+            "end": 37.02,
+            "word": " hand",
+            "probability": 0.98465
+          },
+          {
+            "start": 37.02,
+            "end": 37.16,
+            "word": " it",
+            "probability": 0.9977
+          },
+          {
+            "start": 37.16,
+            "end": 37.3,
+            "word": " to",
+            "probability": 0.9968
+          },
+          {
+            "start": 37.3,
+            "end": 37.48,
+            "word": " her",
+            "probability": 0.99637
+          },
+          {
+            "start": 37.48,
+            "end": 37.98,
+            "word": " and",
+            "probability": 0.85975
+          },
+          {
+            "start": 37.98,
+            "end": 38.1,
+            "word": " I'll",
+            "probability": 0.98267
+          },
+          {
+            "start": 38.1,
+            "end": 38.2,
+            "word": " be",
+            "probability": 0.99931
+          },
+          {
+            "start": 38.2,
+            "end": 38.4,
+            "word": " so",
+            "probability": 0.9962
+          },
+          {
+            "start": 38.4,
+            "end": 38.8,
+            "word": " grateful.",
+            "probability": 0.99726
+          }
+        ]
+      },
+      {
+        "start": 39.4,
+        "end": 40.62,
+        "text": "Thanks for helping me out.",
+        "words": [
+          {
+            "start": 39.4,
+            "end": 39.82,
+            "word": " Thanks",
+            "probability": 0.98663
+          },
+          {
+            "start": 39.82,
+            "end": 39.96,
+            "word": " for",
+            "probability": 0.99903
+          },
+          {
+            "start": 39.96,
+            "end": 40.22,
+            "word": " helping",
+            "probability": 0.99749
+          },
+          {
+            "start": 40.22,
+            "end": 40.42,
+            "word": " me",
+            "probability": 0.99872
+          },
+          {
+            "start": 40.42,
+            "end": 40.62,
+            "word": " out.",
+            "probability": 0.9994
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q13",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 64,
+            "speechStart": 0.94,
+            "speechEnd": 18.88,
+            "sourceTokenCoverage": 0.9844,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9844,
+            "transcript": "hey could you do me a favor my sister is waiting outside and i need you to give her my book she's the 1 who is short and has straight hair so you can't miss her i also think she's wearing a blue jacket today if you see her just hand it to her and i'll be so grateful thanks for helping me out",
+            "openingMatch": 0.9556,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 64,
+            "wordEndIndexExclusive": 128,
+            "speechStart": 23.01,
+            "speechEnd": 40.62,
+            "sourceTokenCoverage": 0.9844,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9844,
+            "transcript": "hey could you do me a favor my sister is waiting outside and i need you to give her my book she's the 1 who is short and has straight hair so you can't miss her i also think she's wearing a blue jacket today if you see her just hand it to her and i'll be so grateful thanks for helping me out",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

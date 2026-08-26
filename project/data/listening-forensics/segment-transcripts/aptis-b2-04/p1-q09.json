@@ -1,0 +1,881 @@
+{
+  "testId": "aptis-b2-04",
+  "blockId": "p1-q09",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-04/part-1/q09.mp3",
+  "audioSha256": "a17c4e7bdbcf0d471e36770ed1b7012ef6d09ada4688253b3f679fcddb60a2dc",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.85,
+        "end": 3.93,
+        "text": "Good morning, everyone. Let me walk you through today's schedule.",
+        "words": [
+          {
+            "start": 0.85,
+            "end": 1.33,
+            "word": " Good",
+            "probability": 0.75274
+          },
+          {
+            "start": 1.33,
+            "end": 1.59,
+            "word": " morning,",
+            "probability": 0.93599
+          },
+          {
+            "start": 1.77,
+            "end": 2.03,
+            "word": " everyone.",
+            "probability": 0.98785
+          },
+          {
+            "start": 2.43,
+            "end": 2.49,
+            "word": " Let",
+            "probability": 0.99215
+          },
+          {
+            "start": 2.49,
+            "end": 2.61,
+            "word": " me",
+            "probability": 0.9971
+          },
+          {
+            "start": 2.61,
+            "end": 2.83,
+            "word": " walk",
+            "probability": 0.99742
+          },
+          {
+            "start": 2.83,
+            "end": 2.97,
+            "word": " you",
+            "probability": 0.99818
+          },
+          {
+            "start": 2.97,
+            "end": 3.13,
+            "word": " through",
+            "probability": 0.99784
+          },
+          {
+            "start": 3.13,
+            "end": 3.61,
+            "word": " today's",
+            "probability": 0.99376
+          },
+          {
+            "start": 3.61,
+            "end": 3.93,
+            "word": " schedule.",
+            "probability": 0.99594
+          }
+        ]
+      },
+      {
+        "start": 4.84,
+        "end": 12.12,
+        "text": "First, we'll start the day at 9 a.m. with a visit to the City Museum, where you'll have about two hours to explore the exhibits.",
+        "words": [
+          {
+            "start": 4.84,
+            "end": 5.16,
+            "word": " First,",
+            "probability": 0.99085
+          },
+          {
+            "start": 5.48,
+            "end": 5.58,
+            "word": " we'll",
+            "probability": 0.98591
+          },
+          {
+            "start": 5.58,
+            "end": 5.78,
+            "word": " start",
+            "probability": 0.99849
+          },
+          {
+            "start": 5.78,
+            "end": 5.98,
+            "word": " the",
+            "probability": 0.97705
+          },
+          {
+            "start": 5.98,
+            "end": 6.16,
+            "word": " day",
+            "probability": 0.99793
+          },
+          {
+            "start": 6.16,
+            "end": 6.32,
+            "word": " at",
+            "probability": 0.99501
+          },
+          {
+            "start": 6.32,
+            "end": 6.62,
+            "word": " 9",
+            "probability": 0.93807
+          },
+          {
+            "start": 6.62,
+            "end": 6.88,
+            "word": " a",
+            "probability": 0.47313
+          },
+          {
+            "start": 6.88,
+            "end": 7.16,
+            "word": ".m.",
+            "probability": 0.99647
+          },
+          {
+            "start": 7.4,
+            "end": 7.48,
+            "word": " with",
+            "probability": 0.96716
+          },
+          {
+            "start": 7.48,
+            "end": 7.58,
+            "word": " a",
+            "probability": 0.99386
+          },
+          {
+            "start": 7.58,
+            "end": 7.82,
+            "word": " visit",
+            "probability": 0.99644
+          },
+          {
+            "start": 7.82,
+            "end": 8.02,
+            "word": " to",
+            "probability": 0.99633
+          },
+          {
+            "start": 8.02,
+            "end": 8.12,
+            "word": " the",
+            "probability": 0.9921
+          },
+          {
+            "start": 8.12,
+            "end": 8.36,
+            "word": " City",
+            "probability": 0.52825
+          },
+          {
+            "start": 8.36,
+            "end": 8.84,
+            "word": " Museum,",
+            "probability": 0.95327
+          },
+          {
+            "start": 9.32,
+            "end": 9.58,
+            "word": " where",
+            "probability": 0.99476
+          },
+          {
+            "start": 9.58,
+            "end": 9.74,
+            "word": " you'll",
+            "probability": 0.99303
+          },
+          {
+            "start": 9.74,
+            "end": 9.88,
+            "word": " have",
+            "probability": 0.99682
+          },
+          {
+            "start": 9.88,
+            "end": 10.1,
+            "word": " about",
+            "probability": 0.98109
+          },
+          {
+            "start": 10.1,
+            "end": 10.42,
+            "word": " two",
+            "probability": 0.61891
+          },
+          {
+            "start": 10.42,
+            "end": 10.82,
+            "word": " hours",
+            "probability": 0.99873
+          },
+          {
+            "start": 10.82,
+            "end": 11.1,
+            "word": " to",
+            "probability": 0.99807
+          },
+          {
+            "start": 11.1,
+            "end": 11.48,
+            "word": " explore",
+            "probability": 0.99678
+          },
+          {
+            "start": 11.48,
+            "end": 11.64,
+            "word": " the",
+            "probability": 0.99705
+          },
+          {
+            "start": 11.64,
+            "end": 12.12,
+            "word": " exhibits.",
+            "probability": 0.99398
+          }
+        ]
+      },
+      {
+        "start": 12.99,
+        "end": 19.13,
+        "text": "After that, at 12.30 p.m., we'll head to the Central Park for a picnic lunch and a relaxing stroll.",
+        "words": [
+          {
+            "start": 12.99,
+            "end": 13.41,
+            "word": " After",
+            "probability": 0.99546
+          },
+          {
+            "start": 13.41,
+            "end": 13.63,
+            "word": " that,",
+            "probability": 0.99887
+          },
+          {
+            "start": 13.89,
+            "end": 13.97,
+            "word": " at",
+            "probability": 0.99709
+          },
+          {
+            "start": 13.97,
+            "end": 14.19,
+            "word": " 12",
+            "probability": 0.97415
+          },
+          {
+            "start": 14.19,
+            "end": 14.61,
+            "word": ".30",
+            "probability": 0.91639
+          },
+          {
+            "start": 14.61,
+            "end": 14.81,
+            "word": " p",
+            "probability": 0.86292
+          },
+          {
+            "start": 14.81,
+            "end": 15.59,
+            "word": ".m.,",
+            "probability": 0.84381
+          },
+          {
+            "start": 15.59,
+            "end": 15.71,
+            "word": " we'll",
+            "probability": 0.99317
+          },
+          {
+            "start": 15.71,
+            "end": 15.87,
+            "word": " head",
+            "probability": 0.99837
+          },
+          {
+            "start": 15.87,
+            "end": 16.03,
+            "word": " to",
+            "probability": 0.99521
+          },
+          {
+            "start": 16.03,
+            "end": 16.15,
+            "word": " the",
+            "probability": 0.99385
+          },
+          {
+            "start": 16.15,
+            "end": 16.49,
+            "word": " Central",
+            "probability": 0.39181
+          },
+          {
+            "start": 16.49,
+            "end": 16.85,
+            "word": " Park",
+            "probability": 0.98692
+          },
+          {
+            "start": 16.85,
+            "end": 17.09,
+            "word": " for",
+            "probability": 0.98993
+          },
+          {
+            "start": 17.09,
+            "end": 17.21,
+            "word": " a",
+            "probability": 0.99355
+          },
+          {
+            "start": 17.21,
+            "end": 17.45,
+            "word": " picnic",
+            "probability": 0.98314
+          },
+          {
+            "start": 17.45,
+            "end": 17.81,
+            "word": " lunch",
+            "probability": 0.98691
+          },
+          {
+            "start": 17.81,
+            "end": 18.21,
+            "word": " and",
+            "probability": 0.96142
+          },
+          {
+            "start": 18.21,
+            "end": 18.31,
+            "word": " a",
+            "probability": 0.9818
+          },
+          {
+            "start": 18.31,
+            "end": 18.71,
+            "word": " relaxing",
+            "probability": 0.9836
+          },
+          {
+            "start": 18.71,
+            "end": 19.13,
+            "word": " stroll.",
+            "probability": 0.99715
+          }
+        ]
+      },
+      {
+        "start": 20.1,
+        "end": 26.76,
+        "text": "Around 3 p.m., we'll make our way to the Old Town Market, where you can shop for souvenirs and enjoy some local treats.",
+        "words": [
+          {
+            "start": 20.1,
+            "end": 20.42,
+            "word": " Around",
+            "probability": 0.96171
+          },
+          {
+            "start": 20.42,
+            "end": 20.72,
+            "word": " 3",
+            "probability": 0.8893
+          },
+          {
+            "start": 20.72,
+            "end": 21.06,
+            "word": " p",
+            "probability": 0.89888
+          },
+          {
+            "start": 21.06,
+            "end": 21.4,
+            "word": ".m.,",
+            "probability": 0.83168
+          },
+          {
+            "start": 21.4,
+            "end": 21.48,
+            "word": " we'll",
+            "probability": 0.99466
+          },
+          {
+            "start": 21.48,
+            "end": 21.62,
+            "word": " make",
+            "probability": 0.99664
+          },
+          {
+            "start": 21.62,
+            "end": 21.8,
+            "word": " our",
+            "probability": 0.99698
+          },
+          {
+            "start": 21.8,
+            "end": 21.98,
+            "word": " way",
+            "probability": 0.99982
+          },
+          {
+            "start": 21.98,
+            "end": 22.16,
+            "word": " to",
+            "probability": 0.99569
+          },
+          {
+            "start": 22.16,
+            "end": 22.3,
+            "word": " the",
+            "probability": 0.99276
+          },
+          {
+            "start": 22.3,
+            "end": 22.52,
+            "word": " Old",
+            "probability": 0.50294
+          },
+          {
+            "start": 22.52,
+            "end": 22.8,
+            "word": " Town",
+            "probability": 0.94332
+          },
+          {
+            "start": 22.8,
+            "end": 23.22,
+            "word": " Market,",
+            "probability": 0.93035
+          },
+          {
+            "start": 23.64,
+            "end": 23.84,
+            "word": " where",
+            "probability": 0.99787
+          },
+          {
+            "start": 23.84,
+            "end": 23.94,
+            "word": " you",
+            "probability": 0.99788
+          },
+          {
+            "start": 23.94,
+            "end": 24.08,
+            "word": " can",
+            "probability": 0.99729
+          },
+          {
+            "start": 24.08,
+            "end": 24.3,
+            "word": " shop",
+            "probability": 0.99713
+          },
+          {
+            "start": 24.3,
+            "end": 24.56,
+            "word": " for",
+            "probability": 0.99946
+          },
+          {
+            "start": 24.56,
+            "end": 25.18,
+            "word": " souvenirs",
+            "probability": 0.96628
+          },
+          {
+            "start": 25.18,
+            "end": 25.54,
+            "word": " and",
+            "probability": 0.97159
+          },
+          {
+            "start": 25.54,
+            "end": 25.84,
+            "word": " enjoy",
+            "probability": 0.99607
+          },
+          {
+            "start": 25.84,
+            "end": 26.08,
+            "word": " some",
+            "probability": 0.99759
+          },
+          {
+            "start": 26.08,
+            "end": 26.26,
+            "word": " local",
+            "probability": 0.99841
+          },
+          {
+            "start": 26.26,
+            "end": 26.76,
+            "word": " treats.",
+            "probability": 0.97839
+          }
+        ]
+      },
+      {
+        "start": 27.51,
+        "end": 32.43,
+        "text": "We'll wrap up our activities by 6 p.m. giving you a little free time back at the hotel.",
+        "words": [
+          {
+            "start": 27.51,
+            "end": 27.95,
+            "word": " We'll",
+            "probability": 0.72099
+          },
+          {
+            "start": 27.95,
+            "end": 28.13,
+            "word": " wrap",
+            "probability": 0.99535
+          },
+          {
+            "start": 28.13,
+            "end": 28.29,
+            "word": " up",
+            "probability": 0.99021
+          },
+          {
+            "start": 28.29,
+            "end": 28.45,
+            "word": " our",
+            "probability": 0.98545
+          },
+          {
+            "start": 28.45,
+            "end": 28.89,
+            "word": " activities",
+            "probability": 0.98124
+          },
+          {
+            "start": 28.89,
+            "end": 29.17,
+            "word": " by",
+            "probability": 0.99213
+          },
+          {
+            "start": 29.17,
+            "end": 29.49,
+            "word": " 6",
+            "probability": 0.92783
+          },
+          {
+            "start": 29.49,
+            "end": 29.73,
+            "word": " p",
+            "probability": 0.28767
+          },
+          {
+            "start": 29.73,
+            "end": 29.89,
+            "word": ".m.",
+            "probability": 0.99653
+          },
+          {
+            "start": 30.43,
+            "end": 30.59,
+            "word": " giving",
+            "probability": 0.84885
+          },
+          {
+            "start": 30.59,
+            "end": 30.77,
+            "word": " you",
+            "probability": 0.9975
+          },
+          {
+            "start": 30.77,
+            "end": 30.85,
+            "word": " a",
+            "probability": 0.97709
+          },
+          {
+            "start": 30.85,
+            "end": 31.03,
+            "word": " little",
+            "probability": 0.95497
+          },
+          {
+            "start": 31.03,
+            "end": 31.29,
+            "word": " free",
+            "probability": 0.99417
+          },
+          {
+            "start": 31.29,
+            "end": 31.57,
+            "word": " time",
+            "probability": 0.9973
+          },
+          {
+            "start": 31.57,
+            "end": 31.85,
+            "word": " back",
+            "probability": 0.98375
+          },
+          {
+            "start": 31.85,
+            "end": 32.01,
+            "word": " at",
+            "probability": 0.99713
+          },
+          {
+            "start": 32.01,
+            "end": 32.11,
+            "word": " the",
+            "probability": 0.99414
+          },
+          {
+            "start": 32.11,
+            "end": 32.43,
+            "word": " hotel.",
+            "probability": 0.99001
+          }
+        ]
+      },
+      {
+        "start": 33.57,
+        "end": 38.93,
+        "text": "Finally, at 8 p.m. we'll meet at the hotel's main entrance to catch the bus to the airport.",
+        "words": [
+          {
+            "start": 33.57,
+            "end": 34.01,
+            "word": " Finally,",
+            "probability": 0.98278
+          },
+          {
+            "start": 34.35,
+            "end": 34.47,
+            "word": " at",
+            "probability": 0.99122
+          },
+          {
+            "start": 34.47,
+            "end": 34.69,
+            "word": " 8",
+            "probability": 0.98808
+          },
+          {
+            "start": 34.69,
+            "end": 35.03,
+            "word": " p",
+            "probability": 0.97573
+          },
+          {
+            "start": 35.03,
+            "end": 35.23,
+            "word": ".m.",
+            "probability": 0.99915
+          },
+          {
+            "start": 35.83,
+            "end": 35.89,
+            "word": " we'll",
+            "probability": 0.92017
+          },
+          {
+            "start": 35.89,
+            "end": 36.05,
+            "word": " meet",
+            "probability": 0.99522
+          },
+          {
+            "start": 36.05,
+            "end": 36.15,
+            "word": " at",
+            "probability": 0.9958
+          },
+          {
+            "start": 36.15,
+            "end": 36.27,
+            "word": " the",
+            "probability": 0.99073
+          },
+          {
+            "start": 36.27,
+            "end": 36.73,
+            "word": " hotel's",
+            "probability": 0.98695
+          },
+          {
+            "start": 36.73,
+            "end": 36.89,
+            "word": " main",
+            "probability": 0.99784
+          },
+          {
+            "start": 36.89,
+            "end": 37.27,
+            "word": " entrance",
+            "probability": 0.99495
+          },
+          {
+            "start": 37.27,
+            "end": 37.71,
+            "word": " to",
+            "probability": 0.97311
+          },
+          {
+            "start": 37.71,
+            "end": 37.93,
+            "word": " catch",
+            "probability": 0.99354
+          },
+          {
+            "start": 37.93,
+            "end": 38.13,
+            "word": " the",
+            "probability": 0.99843
+          },
+          {
+            "start": 38.13,
+            "end": 38.29,
+            "word": " bus",
+            "probability": 0.98449
+          },
+          {
+            "start": 38.29,
+            "end": 38.51,
+            "word": " to",
+            "probability": 0.99311
+          },
+          {
+            "start": 38.51,
+            "end": 38.63,
+            "word": " the",
+            "probability": 0.99769
+          },
+          {
+            "start": 38.63,
+            "end": 38.93,
+            "word": " airport.",
+            "probability": 0.99047
+          }
+        ]
+      },
+      {
+        "start": 39.65,
+        "end": 42.69,
+        "text": "Make sure to be on time and we'll head to the airport together.",
+        "words": [
+          {
+            "start": 39.65,
+            "end": 39.79,
+            "word": " Make",
+            "probability": 0.97901
+          },
+          {
+            "start": 39.79,
+            "end": 40.03,
+            "word": " sure",
+            "probability": 0.99937
+          },
+          {
+            "start": 40.03,
+            "end": 40.15,
+            "word": " to",
+            "probability": 0.9986
+          },
+          {
+            "start": 40.15,
+            "end": 40.29,
+            "word": " be",
+            "probability": 0.98572
+          },
+          {
+            "start": 40.29,
+            "end": 40.45,
+            "word": " on",
+            "probability": 0.99777
+          },
+          {
+            "start": 40.45,
+            "end": 40.75,
+            "word": " time",
+            "probability": 0.99313
+          },
+          {
+            "start": 40.75,
+            "end": 41.37,
+            "word": " and",
+            "probability": 0.53335
+          },
+          {
+            "start": 41.37,
+            "end": 41.51,
+            "word": " we'll",
+            "probability": 0.98994
+          },
+          {
+            "start": 41.51,
+            "end": 41.63,
+            "word": " head",
+            "probability": 0.999
+          },
+          {
+            "start": 41.63,
+            "end": 41.79,
+            "word": " to",
+            "probability": 0.99502
+          },
+          {
+            "start": 41.79,
+            "end": 41.91,
+            "word": " the",
+            "probability": 0.996
+          },
+          {
+            "start": 41.91,
+            "end": 42.19,
+            "word": " airport",
+            "probability": 0.97088
+          },
+          {
+            "start": 42.19,
+            "end": 42.69,
+            "word": " together.",
+            "probability": 0.9901
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q09",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 132,
+            "speechStart": 0.85,
+            "speechEnd": 42.69,
+            "sourceTokenCoverage": 0.9313,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9278,
+            "transcript": "good morning everyone let me walk you through today's schedule first we'll start the day at 9 a m with a visit to the city museum where you'll have about 2 hours to explore the exhibits after that at 12 30 p m we'll head to the central park for a picnic lunch and a relaxing stroll around 3 p m we'll make our way to the old town market where you can shop for souvenirs and enjoy some local treats we'll wrap up our activities by 6 p m giving you a little free time back at the hotel finally at 8 p m we'll meet at the hotel's main entrance to catch the bus to the airport make sure to be on time and we'll head to the airport together",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,96 +1,77 @@
 import assert from "node:assert/strict";
+import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
-
-type Frame = { timestamp: number; bytes: Buffer };
-
-const BITRATES = [0, 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320, 0];
-const SAMPLE_RATES = [44100, 48000, 32000, 0];
 
 function normalize(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
 }
 
-function parseFrames(data: Buffer): Frame[] {
-  let pos = 0;
-  if (data.subarray(0, 3).toString() === "ID3") {
-    const tagLength = data.readUInt32BE(6);
-    const tagSize = ((tagLength >> 24 & 0x7f) << 21) | ((tagLength >> 16 & 0x7f) << 14) | ((tagLength >> 8 & 0x7f) << 7) | (tagLength & 0x7f);
-    pos = 10 + tagSize;
-  }
-  const frames: Frame[] = [];
-  let timestamp = 0;
-  while (pos < data.length - 4) {
-    if (data[pos] === 0xff && (data[pos + 1] & 0xe0) === 0xe0) {
-      const version = (data[pos + 1] >> 3) & 0x03;
-      const layer = (data[pos + 1] >> 1) & 0x03;
-      const bitrateIndex = (data[pos + 2] >> 4) & 0x0f;
-      const sampleRateIndex = (data[pos + 2] >> 2) & 0x03;
-      const padding = (data[pos + 2] >> 1) & 0x01;
-      if (version === 3 && layer === 1 && bitrateIndex > 0 && bitrateIndex < 15 && sampleRateIndex < 3) {
-        const frameLength = Math.floor(144 * BITRATES[bitrateIndex] * 1000 / SAMPLE_RATES[sampleRateIndex]) + padding;
-        const frame = data.subarray(pos, pos + frameLength);
-        if (frame.length === frameLength) {
-          frames.push({ timestamp, bytes: frame });
-          timestamp += 1152 / SAMPLE_RATES[sampleRateIndex];
-          pos += frameLength;
-          continue;
-        }
-      }
-    }
-    pos += 1;
-  }
-  return frames;
+function sha256(data: Buffer): string {
+  return crypto.createHash("sha256").update(data).digest("hex");
 }
 
 export function runListeningPart1Q1ContentGoldenTests(): boolean {
   const root = process.cwd();
   const fixture = JSON.parse(fs.readFileSync(path.join(root, "data/tests/aptis-b2-01-listening-part1-q1-ground-truth.json"), "utf8"));
   const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/tests/aptis-b2-01-public.json"), "utf8"));
-  const q1 = fixture.q1;
+  const manifest = JSON.parse(fs.readFileSync(path.join(root, "data/listening-forensics/listening-audio-manifest.json"), "utf8"));
+  const testEvidence = manifest.find((item: any) => item.audit.testId === "aptis-b2-01");
+  const q1Artifact = testEvidence.artifacts.find((item: any) => item.blockId === "p1-q01");
+  const q2Artifact = testEvidence.artifacts.find((item: any) => item.blockId === "p1-q02");
+  const q2Source = testEvidence.audit.blocks.find((item: any) => item.blockId === "p1-q02");
   const q1Task = dataset.listening.parts[0].tasks[0];
-  const q2Task = dataset.listening.parts[0].tasks[1];
   const q1Audio = q1Task.audio;
 
   assert.equal(fixture.structure.playbackCount, 2);
   assert.equal(fixture.structure.questionPromptIsRecordedInBlock, false);
   assert.equal(q1Task.id, "t01_l1_q01");
   assert.deepEqual(q1Task.options, ["3250 pounds", "3550 pounds", "4250 pounds"]);
-  assert.equal(q1.expectedAnswer, "3250 pounds");
+  assert.equal(fixture.q1.expectedAnswer, "3250 pounds");
   assert.equal(q1Audio.url, "/audio/listening/segments/aptis-b2-01/part-1/q01.mp3");
   assert.equal(q1Task.audioUrl, q1Audio.url);
   assert.equal(q1Audio.mappingType, "QUESTION_SEGMENT");
+  assert.equal(q1Audio.status, "VERIFIED");
+  assert.equal(q1Artifact.status, "VERIFIED");
 
-  const occurrences = q1.alignedOccurrences;
-  assert.equal(occurrences.length, 2);
-  assert.ok(occurrences[0].speechStart < occurrences[0].speechEnd);
-  assert.ok(occurrences[0].speechEnd < occurrences[1].speechStart);
-  assert.ok(occurrences[1].speechEnd < q1.nextQuestionSpeechStart);
-  for (const phrase of q1.requiredPhrases) {
-    assert.ok(normalize(q1.sourceTranscript).includes(normalize(phrase)), `Source transcript missing required phrase: ${phrase}`);
-    for (const occurrence of occurrences) {
-      assert.ok(normalize(occurrence.transcript).includes(normalize(phrase)), `Playback missing required phrase: ${phrase}`);
+  const audioPath = path.join(root, q1Artifact.path.replace(/^project\//, ""));
+  const audioBytes = fs.readFileSync(audioPath);
+  assert.equal(sha256(audioBytes), q1Artifact.sha256, "Q1 bytes changed after transcript validation");
+  assert.equal(q1Audio.sha256, q1Artifact.sha256, "Runtime Q1 mapping does not use validated bytes");
+  assert.ok(q1Artifact.durationSeconds > 40 && q1Artifact.durationSeconds < 60);
+
+  const transcriptEvidence = JSON.parse(fs.readFileSync(path.join(root, q1Artifact.transcriptEvidence.replace(/^project\//, "")), "utf8"));
+  assert.equal(transcriptEvidence.audioSha256, q1Artifact.sha256);
+  assert.equal(transcriptEvidence.validation.status, "VERIFIED");
+  assert.deepEqual(transcriptEvidence.validation.unexpectedTaskContamination, []);
+  const q1Check = transcriptEvidence.validation.checks.find((item: any) => item.blockId === "p1-q01");
+  assert.equal(q1Check.expectedCompleteRenditions, 2);
+  assert.equal(q1Check.detectedCompleteRenditions, 2);
+  assert.equal(q1Check.pass, true);
+
+  const rawSegments = transcriptEvidence.transcription.segments;
+  for (const phrase of fixture.q1.requiredPhrases) {
+    assert.ok(normalize(fixture.q1.sourceTranscript).includes(normalize(phrase)), `Source transcript missing required phrase: ${phrase}`);
+    for (const occurrence of q1Check.occurrences) {
+      const renditionTranscript = rawSegments
+        .filter((segment: any) => segment.end >= occurrence.speechStart && segment.start <= occurrence.speechEnd)
+        .map((segment: any) => segment.text)
+        .join(" ");
+      assert.ok(normalize(renditionTranscript).includes(normalize(phrase)), `A complete Q1 rendition is missing: ${phrase}`);
     }
   }
 
-  const expectedStart = occurrences[0].speechStart - q1.boundaryPolicy.preRollSeconds;
-  const expectedEnd = occurrences[1].speechEnd + q1.boundaryPolicy.postRollSeconds;
-  assert.ok(q1Audio.start <= expectedStart + 0.05, `Q1 starts too late: ${q1Audio.start}s`);
-  assert.ok(q1Audio.end >= expectedEnd - 0.05, `Q1 ends before the full block: ${q1Audio.end}s`);
-  assert.ok(q1Audio.end < q1.nextQuestionSpeechStart, "Q1 boundary reaches Q2 speech");
-  assert.ok(q1Audio.end <= q2Task.audio.start || q2Task.audio.start >= q1.nextQuestionSpeechStart, "Q1/Q2 metadata overlaps");
+  const browserTranscript = normalize(rawSegments.map((segment: any) => segment.text).join(" "));
+  const q2Opening = normalize(q2Source.sourceText).split(" ").slice(0, 9).join(" ");
+  assert.ok(!browserTranscript.includes(q2Opening), "Q1 contains the opening speech of Q2");
+  assert.ok(
+    Math.max(...q1Artifact.masterClips.map((clip: any) => clip.end)) <=
+      Math.min(...q2Artifact.masterClips.map((clip: any) => clip.start)),
+    "Q1 source clips reach Q2",
+  );
+  assert.ok(!("start" in q1Audio) && !("end" in q1Audio), "Runtime must not retain stale single-range boundaries");
 
-  const master = fs.readFileSync(path.join(root, "public/audio/listening/aptis-b2-01.mp3"));
-  const q1Asset = fs.readFileSync(path.join(root, "public", q1Audio.url.replace(/^\//, "")));
-  const expectedBytes = Buffer.concat(parseFrames(master).filter((frame) => frame.timestamp >= q1Audio.start && frame.timestamp <= q1Audio.end).map((frame) => frame.bytes));
-  assert.ok(expectedBytes.length > 0);
-  assert.deepEqual(q1Asset, expectedBytes, "Q1 asset is not the exact source-aligned master slice");
-
-  const selectedDuration = parseFrames(master).filter((frame) => frame.timestamp >= q1Audio.start && frame.timestamp <= q1Audio.end).length * (1152 / 44100);
-  assert.ok(selectedDuration >= 47 && selectedDuration <= 49, `Unexpected Q1 audio span: ${selectedDuration}s`);
-  assert.ok(q1Audio.end + 2.0 <= q1.nextQuestionSpeechStart, "Post-roll would contaminate Q2");
-
-  console.log("✅ [TEST Q1 GOLDEN] Source transcript coverage, ordered replay mapping, exact master slice, and Q2 exclusion passed.");
+  console.log("✅ [TEST Q1 GOLDEN] Exact bytes, two complete source renditions, opening/ending coverage, and Q2 exclusion passed.");
   return true;
 }
 

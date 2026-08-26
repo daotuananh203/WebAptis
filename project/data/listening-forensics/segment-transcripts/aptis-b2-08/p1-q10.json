@@ -1,0 +1,844 @@
+{
+  "testId": "aptis-b2-08",
+  "blockId": "p1-q10",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-08/part-1/q10.mp3",
+  "audioSha256": "8307a01dabf66edf02896df3b4405e2a9d60d5c3d37852e45bb28b8788cdcd1d",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 2.9,
+        "text": "I really like living in the countryside.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.2,
+            "word": " I",
+            "probability": 0.57832
+          },
+          {
+            "start": 1.2,
+            "end": 1.54,
+            "word": " really",
+            "probability": 0.9692
+          },
+          {
+            "start": 1.54,
+            "end": 1.9,
+            "word": " like",
+            "probability": 0.99509
+          },
+          {
+            "start": 1.9,
+            "end": 2.16,
+            "word": " living",
+            "probability": 0.99797
+          },
+          {
+            "start": 2.16,
+            "end": 2.36,
+            "word": " in",
+            "probability": 0.99495
+          },
+          {
+            "start": 2.36,
+            "end": 2.46,
+            "word": " the",
+            "probability": 0.98559
+          },
+          {
+            "start": 2.46,
+            "end": 2.9,
+            "word": " countryside.",
+            "probability": 0.99469
+          }
+        ]
+      },
+      {
+        "start": 3.48,
+        "end": 6.64,
+        "text": "There are many green fields, tall trees and small rivers.",
+        "words": [
+          {
+            "start": 3.48,
+            "end": 3.58,
+            "word": " There",
+            "probability": 0.99097
+          },
+          {
+            "start": 3.58,
+            "end": 3.68,
+            "word": " are",
+            "probability": 0.9976
+          },
+          {
+            "start": 3.68,
+            "end": 3.94,
+            "word": " many",
+            "probability": 0.99351
+          },
+          {
+            "start": 3.94,
+            "end": 4.24,
+            "word": " green",
+            "probability": 0.99057
+          },
+          {
+            "start": 4.24,
+            "end": 4.7,
+            "word": " fields,",
+            "probability": 0.9947
+          },
+          {
+            "start": 5.14,
+            "end": 5.28,
+            "word": " tall",
+            "probability": 0.99789
+          },
+          {
+            "start": 5.28,
+            "end": 5.64,
+            "word": " trees",
+            "probability": 0.99779
+          },
+          {
+            "start": 5.64,
+            "end": 6.04,
+            "word": " and",
+            "probability": 0.63506
+          },
+          {
+            "start": 6.04,
+            "end": 6.34,
+            "word": " small",
+            "probability": 0.99909
+          },
+          {
+            "start": 6.34,
+            "end": 6.64,
+            "word": " rivers.",
+            "probability": 0.99896
+          }
+        ]
+      },
+      {
+        "start": 7.26,
+        "end": 9.4,
+        "text": "The air usually smells fresh and clean,",
+        "words": [
+          {
+            "start": 7.26,
+            "end": 7.34,
+            "word": " The",
+            "probability": 0.99401
+          },
+          {
+            "start": 7.34,
+            "end": 7.54,
+            "word": " air",
+            "probability": 0.98987
+          },
+          {
+            "start": 7.54,
+            "end": 7.96,
+            "word": " usually",
+            "probability": 0.99572
+          },
+          {
+            "start": 7.96,
+            "end": 8.36,
+            "word": " smells",
+            "probability": 0.99645
+          },
+          {
+            "start": 8.36,
+            "end": 8.72,
+            "word": " fresh",
+            "probability": 0.99797
+          },
+          {
+            "start": 8.72,
+            "end": 9.12,
+            "word": " and",
+            "probability": 0.99663
+          },
+          {
+            "start": 9.12,
+            "end": 9.4,
+            "word": " clean,",
+            "probability": 0.99838
+          }
+        ]
+      },
+      {
+        "start": 9.88,
+        "end": 12.78,
+        "text": "but sometimes the air becomes dirty and hard to breathe.",
+        "words": [
+          {
+            "start": 9.88,
+            "end": 10.08,
+            "word": " but",
+            "probability": 0.99351
+          },
+          {
+            "start": 10.08,
+            "end": 10.56,
+            "word": " sometimes",
+            "probability": 0.99298
+          },
+          {
+            "start": 10.56,
+            "end": 10.88,
+            "word": " the",
+            "probability": 0.94602
+          },
+          {
+            "start": 10.88,
+            "end": 11.04,
+            "word": " air",
+            "probability": 0.9978
+          },
+          {
+            "start": 11.04,
+            "end": 11.36,
+            "word": " becomes",
+            "probability": 0.99578
+          },
+          {
+            "start": 11.36,
+            "end": 11.68,
+            "word": " dirty",
+            "probability": 0.98505
+          },
+          {
+            "start": 11.68,
+            "end": 12.08,
+            "word": " and",
+            "probability": 0.98595
+          },
+          {
+            "start": 12.08,
+            "end": 12.32,
+            "word": " hard",
+            "probability": 0.99927
+          },
+          {
+            "start": 12.32,
+            "end": 12.48,
+            "word": " to",
+            "probability": 0.96324
+          },
+          {
+            "start": 12.48,
+            "end": 12.78,
+            "word": " breathe.",
+            "probability": 0.86176
+          }
+        ]
+      },
+      {
+        "start": 13.42,
+        "end": 16.1,
+        "text": "Many people think cars on the roads make the air bad.",
+        "words": [
+          {
+            "start": 13.42,
+            "end": 13.6,
+            "word": " Many",
+            "probability": 0.99578
+          },
+          {
+            "start": 13.6,
+            "end": 13.92,
+            "word": " people",
+            "probability": 0.99749
+          },
+          {
+            "start": 13.92,
+            "end": 14.18,
+            "word": " think",
+            "probability": 0.99621
+          },
+          {
+            "start": 14.18,
+            "end": 14.46,
+            "word": " cars",
+            "probability": 0.98693
+          },
+          {
+            "start": 14.46,
+            "end": 14.66,
+            "word": " on",
+            "probability": 0.99778
+          },
+          {
+            "start": 14.66,
+            "end": 14.78,
+            "word": " the",
+            "probability": 0.99439
+          },
+          {
+            "start": 14.78,
+            "end": 15.06,
+            "word": " roads",
+            "probability": 0.98821
+          },
+          {
+            "start": 15.06,
+            "end": 15.38,
+            "word": " make",
+            "probability": 0.99583
+          },
+          {
+            "start": 15.38,
+            "end": 15.6,
+            "word": " the",
+            "probability": 0.99626
+          },
+          {
+            "start": 15.6,
+            "end": 15.76,
+            "word": " air",
+            "probability": 0.99463
+          },
+          {
+            "start": 15.76,
+            "end": 16.1,
+            "word": " bad.",
+            "probability": 0.99276
+          }
+        ]
+      },
+      {
+        "start": 16.88,
+        "end": 19.92,
+        "text": "Others say the smoke from big factories is the problem.",
+        "words": [
+          {
+            "start": 16.88,
+            "end": 17.12,
+            "word": " Others",
+            "probability": 0.98859
+          },
+          {
+            "start": 17.12,
+            "end": 17.38,
+            "word": " say",
+            "probability": 0.99074
+          },
+          {
+            "start": 17.38,
+            "end": 17.54,
+            "word": " the",
+            "probability": 0.96161
+          },
+          {
+            "start": 17.54,
+            "end": 17.9,
+            "word": " smoke",
+            "probability": 0.99247
+          },
+          {
+            "start": 17.9,
+            "end": 18.22,
+            "word": " from",
+            "probability": 0.99405
+          },
+          {
+            "start": 18.22,
+            "end": 18.48,
+            "word": " big",
+            "probability": 0.99481
+          },
+          {
+            "start": 18.48,
+            "end": 19.0,
+            "word": " factories",
+            "probability": 0.99663
+          },
+          {
+            "start": 19.0,
+            "end": 19.4,
+            "word": " is",
+            "probability": 0.99614
+          },
+          {
+            "start": 19.4,
+            "end": 19.52,
+            "word": " the",
+            "probability": 0.99259
+          },
+          {
+            "start": 19.52,
+            "end": 19.92,
+            "word": " problem.",
+            "probability": 0.99939
+          }
+        ]
+      },
+      {
+        "start": 20.7,
+        "end": 24.18,
+        "text": "These things can make the air dirty, but in the countryside there's a bigger issue.",
+        "words": [
+          {
+            "start": 20.7,
+            "end": 20.9,
+            "word": " These",
+            "probability": 0.98759
+          },
+          {
+            "start": 20.9,
+            "end": 21.14,
+            "word": " things",
+            "probability": 0.98886
+          },
+          {
+            "start": 21.14,
+            "end": 21.34,
+            "word": " can",
+            "probability": 0.99318
+          },
+          {
+            "start": 21.34,
+            "end": 21.46,
+            "word": " make",
+            "probability": 0.99729
+          },
+          {
+            "start": 21.46,
+            "end": 21.64,
+            "word": " the",
+            "probability": 0.99909
+          },
+          {
+            "start": 21.64,
+            "end": 21.78,
+            "word": " air",
+            "probability": 0.99805
+          },
+          {
+            "start": 21.78,
+            "end": 22.12,
+            "word": " dirty,",
+            "probability": 0.99234
+          },
+          {
+            "start": 22.32,
+            "end": 22.5,
+            "word": " but",
+            "probability": 0.99804
+          },
+          {
+            "start": 22.5,
+            "end": 22.62,
+            "word": " in",
+            "probability": 0.98354
+          },
+          {
+            "start": 22.62,
+            "end": 22.72,
+            "word": " the",
+            "probability": 0.99703
+          },
+          {
+            "start": 22.72,
+            "end": 23.18,
+            "word": " countryside",
+            "probability": 0.99862
+          },
+          {
+            "start": 23.18,
+            "end": 23.52,
+            "word": " there's",
+            "probability": 0.80067
+          },
+          {
+            "start": 23.52,
+            "end": 23.6,
+            "word": " a",
+            "probability": 0.99652
+          },
+          {
+            "start": 23.6,
+            "end": 23.8,
+            "word": " bigger",
+            "probability": 0.99684
+          },
+          {
+            "start": 23.8,
+            "end": 24.18,
+            "word": " issue.",
+            "probability": 0.99827
+          }
+        ]
+      },
+      {
+        "start": 25.02,
+        "end": 27.56,
+        "text": "Farmers often start fires to clean their fields.",
+        "words": [
+          {
+            "start": 25.02,
+            "end": 25.38,
+            "word": " Farmers",
+            "probability": 0.91969
+          },
+          {
+            "start": 25.38,
+            "end": 25.74,
+            "word": " often",
+            "probability": 0.99826
+          },
+          {
+            "start": 25.74,
+            "end": 26.12,
+            "word": " start",
+            "probability": 0.99873
+          },
+          {
+            "start": 26.12,
+            "end": 26.44,
+            "word": " fires",
+            "probability": 0.99669
+          },
+          {
+            "start": 26.44,
+            "end": 26.7,
+            "word": " to",
+            "probability": 0.99852
+          },
+          {
+            "start": 26.7,
+            "end": 26.92,
+            "word": " clean",
+            "probability": 0.99807
+          },
+          {
+            "start": 26.92,
+            "end": 27.12,
+            "word": " their",
+            "probability": 0.99862
+          },
+          {
+            "start": 27.12,
+            "end": 27.56,
+            "word": " fields.",
+            "probability": 0.99222
+          }
+        ]
+      },
+      {
+        "start": 28.12,
+        "end": 29.76,
+        "text": "They burn old plants and grass.",
+        "words": [
+          {
+            "start": 28.12,
+            "end": 28.34,
+            "word": " They",
+            "probability": 0.99652
+          },
+          {
+            "start": 28.34,
+            "end": 28.6,
+            "word": " burn",
+            "probability": 0.99804
+          },
+          {
+            "start": 28.6,
+            "end": 28.94,
+            "word": " old",
+            "probability": 0.98943
+          },
+          {
+            "start": 28.94,
+            "end": 29.24,
+            "word": " plants",
+            "probability": 0.99821
+          },
+          {
+            "start": 29.24,
+            "end": 29.54,
+            "word": " and",
+            "probability": 0.98667
+          },
+          {
+            "start": 29.54,
+            "end": 29.76,
+            "word": " grass.",
+            "probability": 0.98099
+          }
+        ]
+      },
+      {
+        "start": 29.76,
+        "end": 32.96,
+        "text": "These fires make a lot of smoke that goes into the air.",
+        "words": [
+          {
+            "start": 29.76,
+            "end": 30.42,
+            "word": " These",
+            "probability": 0.33175
+          },
+          {
+            "start": 30.42,
+            "end": 30.76,
+            "word": " fires",
+            "probability": 0.99411
+          },
+          {
+            "start": 30.76,
+            "end": 30.98,
+            "word": " make",
+            "probability": 0.99527
+          },
+          {
+            "start": 30.98,
+            "end": 31.14,
+            "word": " a",
+            "probability": 0.99656
+          },
+          {
+            "start": 31.14,
+            "end": 31.28,
+            "word": " lot",
+            "probability": 0.99836
+          },
+          {
+            "start": 31.28,
+            "end": 31.4,
+            "word": " of",
+            "probability": 0.99678
+          },
+          {
+            "start": 31.4,
+            "end": 31.68,
+            "word": " smoke",
+            "probability": 0.99768
+          },
+          {
+            "start": 31.68,
+            "end": 32.1,
+            "word": " that",
+            "probability": 0.98631
+          },
+          {
+            "start": 32.1,
+            "end": 32.26,
+            "word": " goes",
+            "probability": 0.99414
+          },
+          {
+            "start": 32.26,
+            "end": 32.54,
+            "word": " into",
+            "probability": 0.98676
+          },
+          {
+            "start": 32.54,
+            "end": 32.76,
+            "word": " the",
+            "probability": 0.99717
+          },
+          {
+            "start": 32.76,
+            "end": 32.96,
+            "word": " air.",
+            "probability": 0.99867
+          }
+        ]
+      },
+      {
+        "start": 33.66,
+        "end": 36.82,
+        "text": "It's sad because the smoke can hurt animals and make people sick.",
+        "words": [
+          {
+            "start": 33.66,
+            "end": 34.04,
+            "word": " It's",
+            "probability": 0.97674
+          },
+          {
+            "start": 34.04,
+            "end": 34.26,
+            "word": " sad",
+            "probability": 0.99561
+          },
+          {
+            "start": 34.26,
+            "end": 34.76,
+            "word": " because",
+            "probability": 0.75607
+          },
+          {
+            "start": 34.76,
+            "end": 34.94,
+            "word": " the",
+            "probability": 0.99376
+          },
+          {
+            "start": 34.94,
+            "end": 35.2,
+            "word": " smoke",
+            "probability": 0.99929
+          },
+          {
+            "start": 35.2,
+            "end": 35.38,
+            "word": " can",
+            "probability": 0.99599
+          },
+          {
+            "start": 35.38,
+            "end": 35.56,
+            "word": " hurt",
+            "probability": 0.99865
+          },
+          {
+            "start": 35.56,
+            "end": 35.9,
+            "word": " animals",
+            "probability": 0.99701
+          },
+          {
+            "start": 35.9,
+            "end": 36.12,
+            "word": " and",
+            "probability": 0.98809
+          },
+          {
+            "start": 36.12,
+            "end": 36.26,
+            "word": " make",
+            "probability": 0.99444
+          },
+          {
+            "start": 36.26,
+            "end": 36.56,
+            "word": " people",
+            "probability": 0.99572
+          },
+          {
+            "start": 36.56,
+            "end": 36.82,
+            "word": " sick.",
+            "probability": 0.99844
+          }
+        ]
+      },
+      {
+        "start": 37.48,
+        "end": 40.92,
+        "text": "We need to find better ways to clean fields without using fire.",
+        "words": [
+          {
+            "start": 37.48,
+            "end": 37.72,
+            "word": " We",
+            "probability": 0.99474
+          },
+          {
+            "start": 37.72,
+            "end": 37.88,
+            "word": " need",
+            "probability": 0.99869
+          },
+          {
+            "start": 37.88,
+            "end": 38.02,
+            "word": " to",
+            "probability": 0.99767
+          },
+          {
+            "start": 38.02,
+            "end": 38.24,
+            "word": " find",
+            "probability": 0.99867
+          },
+          {
+            "start": 38.24,
+            "end": 38.58,
+            "word": " better",
+            "probability": 0.99786
+          },
+          {
+            "start": 38.58,
+            "end": 38.86,
+            "word": " ways",
+            "probability": 0.99713
+          },
+          {
+            "start": 38.86,
+            "end": 39.1,
+            "word": " to",
+            "probability": 0.99773
+          },
+          {
+            "start": 39.1,
+            "end": 39.36,
+            "word": " clean",
+            "probability": 0.99846
+          },
+          {
+            "start": 39.36,
+            "end": 39.88,
+            "word": " fields",
+            "probability": 0.99374
+          },
+          {
+            "start": 39.88,
+            "end": 40.2,
+            "word": " without",
+            "probability": 0.99706
+          },
+          {
+            "start": 40.2,
+            "end": 40.54,
+            "word": " using",
+            "probability": 0.99636
+          },
+          {
+            "start": 40.54,
+            "end": 40.92,
+            "word": " fire.",
+            "probability": 0.99682
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q10",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 120,
+            "speechStart": 0.78,
+            "speechEnd": 40.92,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i really like living in the countryside there are many green fields tall trees and small rivers the air usually smells fresh and clean but sometimes the air becomes dirty and hard to breathe many people think cars on the roads make the air bad others say the smoke from big factories is the problem these things can make the air dirty but in the countryside there's a bigger issue farmers often start fires to clean their fields they burn old plants and grass these fires make a lot of smoke that goes into the air it's sad because the smoke can hurt animals and make people sick we need to find better ways to clean fields without using fire",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

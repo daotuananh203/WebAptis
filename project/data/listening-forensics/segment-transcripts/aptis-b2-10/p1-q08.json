@@ -1,0 +1,838 @@
+{
+  "testId": "aptis-b2-10",
+  "blockId": "p1-q08",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-10/part-1/q08.mp3",
+  "audioSha256": "49dc084540c1261a37d18c784ef9943fd3dc54a78b29d651c2824a4df8fb7c6f",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 3.63,
+        "text": "We'll wait for the bus by the hotel's main entrance.",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.29,
+            "word": " We'll",
+            "probability": 0.75906
+          },
+          {
+            "start": 1.29,
+            "end": 1.49,
+            "word": " wait",
+            "probability": 0.99751
+          },
+          {
+            "start": 1.49,
+            "end": 1.71,
+            "word": " for",
+            "probability": 0.99743
+          },
+          {
+            "start": 1.71,
+            "end": 1.89,
+            "word": " the",
+            "probability": 0.99671
+          },
+          {
+            "start": 1.89,
+            "end": 2.07,
+            "word": " bus",
+            "probability": 0.99265
+          },
+          {
+            "start": 2.07,
+            "end": 2.39,
+            "word": " by",
+            "probability": 0.9796
+          },
+          {
+            "start": 2.39,
+            "end": 2.57,
+            "word": " the",
+            "probability": 0.98926
+          },
+          {
+            "start": 2.57,
+            "end": 3.09,
+            "word": " hotel's",
+            "probability": 0.98278
+          },
+          {
+            "start": 3.09,
+            "end": 3.25,
+            "word": " main",
+            "probability": 0.99362
+          },
+          {
+            "start": 3.25,
+            "end": 3.63,
+            "word": " entrance.",
+            "probability": 0.99866
+          }
+        ]
+      },
+      {
+        "start": 4.39,
+        "end": 7.47,
+        "text": "It's the easiest place for the driver to see us.",
+        "words": [
+          {
+            "start": 4.39,
+            "end": 4.95,
+            "word": " It's",
+            "probability": 0.98418
+          },
+          {
+            "start": 4.95,
+            "end": 5.09,
+            "word": " the",
+            "probability": 0.9981
+          },
+          {
+            "start": 5.09,
+            "end": 5.59,
+            "word": " easiest",
+            "probability": 0.99761
+          },
+          {
+            "start": 5.59,
+            "end": 5.93,
+            "word": " place",
+            "probability": 0.99608
+          },
+          {
+            "start": 5.93,
+            "end": 6.23,
+            "word": " for",
+            "probability": 0.99402
+          },
+          {
+            "start": 6.23,
+            "end": 6.35,
+            "word": " the",
+            "probability": 0.986
+          },
+          {
+            "start": 6.35,
+            "end": 6.63,
+            "word": " driver",
+            "probability": 0.99807
+          },
+          {
+            "start": 6.63,
+            "end": 6.85,
+            "word": " to",
+            "probability": 0.99933
+          },
+          {
+            "start": 6.85,
+            "end": 7.11,
+            "word": " see",
+            "probability": 0.99461
+          },
+          {
+            "start": 7.11,
+            "end": 7.47,
+            "word": " us.",
+            "probability": 0.99905
+          }
+        ]
+      },
+      {
+        "start": 8.01,
+        "end": 10.59,
+        "text": "I know some people might think it's behind the hotel,",
+        "words": [
+          {
+            "start": 8.01,
+            "end": 8.23,
+            "word": " I",
+            "probability": 0.99298
+          },
+          {
+            "start": 8.23,
+            "end": 8.37,
+            "word": " know",
+            "probability": 0.99758
+          },
+          {
+            "start": 8.37,
+            "end": 8.59,
+            "word": " some",
+            "probability": 0.99225
+          },
+          {
+            "start": 8.59,
+            "end": 8.89,
+            "word": " people",
+            "probability": 0.9937
+          },
+          {
+            "start": 8.89,
+            "end": 9.13,
+            "word": " might",
+            "probability": 0.99567
+          },
+          {
+            "start": 9.13,
+            "end": 9.35,
+            "word": " think",
+            "probability": 0.99795
+          },
+          {
+            "start": 9.35,
+            "end": 9.59,
+            "word": " it's",
+            "probability": 0.98832
+          },
+          {
+            "start": 9.59,
+            "end": 9.93,
+            "word": " behind",
+            "probability": 0.98749
+          },
+          {
+            "start": 9.93,
+            "end": 10.19,
+            "word": " the",
+            "probability": 0.99862
+          },
+          {
+            "start": 10.19,
+            "end": 10.59,
+            "word": " hotel,",
+            "probability": 0.99779
+          }
+        ]
+      },
+      {
+        "start": 10.59,
+        "end": 13.09,
+        "text": "but that's not where the bus is usually stopped.",
+        "words": [
+          {
+            "start": 10.59,
+            "end": 10.89,
+            "word": " but",
+            "probability": 0.99204
+          },
+          {
+            "start": 10.89,
+            "end": 11.23,
+            "word": " that's",
+            "probability": 0.99814
+          },
+          {
+            "start": 11.23,
+            "end": 11.45,
+            "word": " not",
+            "probability": 0.99853
+          },
+          {
+            "start": 11.45,
+            "end": 11.69,
+            "word": " where",
+            "probability": 0.99746
+          },
+          {
+            "start": 11.69,
+            "end": 11.83,
+            "word": " the",
+            "probability": 0.99691
+          },
+          {
+            "start": 11.83,
+            "end": 12.05,
+            "word": " bus",
+            "probability": 0.90754
+          },
+          {
+            "start": 12.05,
+            "end": 12.27,
+            "word": " is",
+            "probability": 0.89702
+          },
+          {
+            "start": 12.27,
+            "end": 12.67,
+            "word": " usually",
+            "probability": 0.99449
+          },
+          {
+            "start": 12.67,
+            "end": 13.09,
+            "word": " stopped.",
+            "probability": 0.29184
+          }
+        ]
+      },
+      {
+        "start": 14.25,
+        "end": 16.51,
+        "text": "The side entrance can be confusing too.",
+        "words": [
+          {
+            "start": 14.25,
+            "end": 14.43,
+            "word": " The",
+            "probability": 0.99367
+          },
+          {
+            "start": 14.43,
+            "end": 14.77,
+            "word": " side",
+            "probability": 0.97983
+          },
+          {
+            "start": 14.77,
+            "end": 15.15,
+            "word": " entrance",
+            "probability": 0.99473
+          },
+          {
+            "start": 15.15,
+            "end": 15.45,
+            "word": " can",
+            "probability": 0.99699
+          },
+          {
+            "start": 15.45,
+            "end": 15.59,
+            "word": " be",
+            "probability": 0.9972
+          },
+          {
+            "start": 15.59,
+            "end": 16.13,
+            "word": " confusing",
+            "probability": 0.99662
+          },
+          {
+            "start": 16.13,
+            "end": 16.51,
+            "word": " too.",
+            "probability": 0.46454
+          }
+        ]
+      },
+      {
+        "start": 17.44,
+        "end": 20.9,
+        "text": "So let's just stand in front and be ready when the bus arrives.",
+        "words": [
+          {
+            "start": 17.44,
+            "end": 17.74,
+            "word": " So",
+            "probability": 0.9764
+          },
+          {
+            "start": 17.74,
+            "end": 18.06,
+            "word": " let's",
+            "probability": 0.89849
+          },
+          {
+            "start": 18.06,
+            "end": 18.2,
+            "word": " just",
+            "probability": 0.99763
+          },
+          {
+            "start": 18.2,
+            "end": 18.54,
+            "word": " stand",
+            "probability": 0.98386
+          },
+          {
+            "start": 18.54,
+            "end": 18.74,
+            "word": " in",
+            "probability": 0.99672
+          },
+          {
+            "start": 18.74,
+            "end": 19.02,
+            "word": " front",
+            "probability": 0.99733
+          },
+          {
+            "start": 19.02,
+            "end": 19.36,
+            "word": " and",
+            "probability": 0.89299
+          },
+          {
+            "start": 19.36,
+            "end": 19.58,
+            "word": " be",
+            "probability": 0.99705
+          },
+          {
+            "start": 19.58,
+            "end": 19.84,
+            "word": " ready",
+            "probability": 0.99929
+          },
+          {
+            "start": 19.84,
+            "end": 20.08,
+            "word": " when",
+            "probability": 0.99494
+          },
+          {
+            "start": 20.08,
+            "end": 20.22,
+            "word": " the",
+            "probability": 0.99739
+          },
+          {
+            "start": 20.22,
+            "end": 20.5,
+            "word": " bus",
+            "probability": 0.99867
+          },
+          {
+            "start": 20.5,
+            "end": 20.9,
+            "word": " arrives.",
+            "probability": 0.99517
+          }
+        ]
+      },
+      {
+        "start": 24.18,
+        "end": 26.92,
+        "text": "We'll wait for the bus by the hotel's main entrance.",
+        "words": [
+          {
+            "start": 24.18,
+            "end": 24.5,
+            "word": " We'll",
+            "probability": 0.99236
+          },
+          {
+            "start": 24.5,
+            "end": 24.72,
+            "word": " wait",
+            "probability": 0.99924
+          },
+          {
+            "start": 24.72,
+            "end": 24.94,
+            "word": " for",
+            "probability": 0.99919
+          },
+          {
+            "start": 24.94,
+            "end": 25.06,
+            "word": " the",
+            "probability": 0.99834
+          },
+          {
+            "start": 25.06,
+            "end": 25.32,
+            "word": " bus",
+            "probability": 0.99798
+          },
+          {
+            "start": 25.32,
+            "end": 25.6,
+            "word": " by",
+            "probability": 0.99576
+          },
+          {
+            "start": 25.6,
+            "end": 25.74,
+            "word": " the",
+            "probability": 0.9966
+          },
+          {
+            "start": 25.74,
+            "end": 26.3,
+            "word": " hotel's",
+            "probability": 0.99277
+          },
+          {
+            "start": 26.3,
+            "end": 26.46,
+            "word": " main",
+            "probability": 0.9976
+          },
+          {
+            "start": 26.46,
+            "end": 26.92,
+            "word": " entrance.",
+            "probability": 0.99972
+          }
+        ]
+      },
+      {
+        "start": 27.6,
+        "end": 30.68,
+        "text": "It's the easiest place for the driver to see us.",
+        "words": [
+          {
+            "start": 27.6,
+            "end": 28.16,
+            "word": " It's",
+            "probability": 0.99655
+          },
+          {
+            "start": 28.16,
+            "end": 28.3,
+            "word": " the",
+            "probability": 0.99751
+          },
+          {
+            "start": 28.3,
+            "end": 28.8,
+            "word": " easiest",
+            "probability": 0.99847
+          },
+          {
+            "start": 28.8,
+            "end": 29.16,
+            "word": " place",
+            "probability": 0.99677
+          },
+          {
+            "start": 29.16,
+            "end": 29.44,
+            "word": " for",
+            "probability": 0.99764
+          },
+          {
+            "start": 29.44,
+            "end": 29.56,
+            "word": " the",
+            "probability": 0.99606
+          },
+          {
+            "start": 29.56,
+            "end": 29.86,
+            "word": " driver",
+            "probability": 0.99869
+          },
+          {
+            "start": 29.86,
+            "end": 30.06,
+            "word": " to",
+            "probability": 0.99883
+          },
+          {
+            "start": 30.06,
+            "end": 30.3,
+            "word": " see",
+            "probability": 0.99887
+          },
+          {
+            "start": 30.3,
+            "end": 30.68,
+            "word": " us.",
+            "probability": 0.9994
+          }
+        ]
+      },
+      {
+        "start": 30.68,
+        "end": 36.28,
+        "text": "I know some people might think it's behind the hotel, but that's not where the bus is usually stop.",
+        "words": [
+          {
+            "start": 30.68,
+            "end": 31.46,
+            "word": " I",
+            "probability": 0.95918
+          },
+          {
+            "start": 31.46,
+            "end": 31.6,
+            "word": " know",
+            "probability": 0.99379
+          },
+          {
+            "start": 31.6,
+            "end": 31.82,
+            "word": " some",
+            "probability": 0.98619
+          },
+          {
+            "start": 31.82,
+            "end": 32.12,
+            "word": " people",
+            "probability": 0.9927
+          },
+          {
+            "start": 32.12,
+            "end": 32.34,
+            "word": " might",
+            "probability": 0.99339
+          },
+          {
+            "start": 32.34,
+            "end": 32.58,
+            "word": " think",
+            "probability": 0.9966
+          },
+          {
+            "start": 32.58,
+            "end": 32.8,
+            "word": " it's",
+            "probability": 0.94792
+          },
+          {
+            "start": 32.8,
+            "end": 33.14,
+            "word": " behind",
+            "probability": 0.97928
+          },
+          {
+            "start": 33.14,
+            "end": 33.42,
+            "word": " the",
+            "probability": 0.99576
+          },
+          {
+            "start": 33.42,
+            "end": 33.72,
+            "word": " hotel,",
+            "probability": 0.99707
+          },
+          {
+            "start": 33.72,
+            "end": 34.1,
+            "word": " but",
+            "probability": 0.99155
+          },
+          {
+            "start": 34.1,
+            "end": 34.46,
+            "word": " that's",
+            "probability": 0.99648
+          },
+          {
+            "start": 34.46,
+            "end": 34.68,
+            "word": " not",
+            "probability": 0.99736
+          },
+          {
+            "start": 34.68,
+            "end": 34.92,
+            "word": " where",
+            "probability": 0.99547
+          },
+          {
+            "start": 34.92,
+            "end": 35.06,
+            "word": " the",
+            "probability": 0.98718
+          },
+          {
+            "start": 35.06,
+            "end": 35.28,
+            "word": " bus",
+            "probability": 0.92162
+          },
+          {
+            "start": 35.28,
+            "end": 35.5,
+            "word": " is",
+            "probability": 0.85609
+          },
+          {
+            "start": 35.5,
+            "end": 35.9,
+            "word": " usually",
+            "probability": 0.99114
+          },
+          {
+            "start": 35.9,
+            "end": 36.28,
+            "word": " stop.",
+            "probability": 0.52968
+          }
+        ]
+      },
+      {
+        "start": 37.38,
+        "end": 39.72,
+        "text": "The side entrance can be confusing too.",
+        "words": [
+          {
+            "start": 37.38,
+            "end": 37.66,
+            "word": " The",
+            "probability": 0.98996
+          },
+          {
+            "start": 37.66,
+            "end": 38.0,
+            "word": " side",
+            "probability": 0.98269
+          },
+          {
+            "start": 38.0,
+            "end": 38.36,
+            "word": " entrance",
+            "probability": 0.98487
+          },
+          {
+            "start": 38.36,
+            "end": 38.66,
+            "word": " can",
+            "probability": 0.99582
+          },
+          {
+            "start": 38.66,
+            "end": 38.82,
+            "word": " be",
+            "probability": 0.99711
+          },
+          {
+            "start": 38.82,
+            "end": 39.34,
+            "word": " confusing",
+            "probability": 0.99716
+          },
+          {
+            "start": 39.34,
+            "end": 39.72,
+            "word": " too.",
+            "probability": 0.61052
+          }
+        ]
+      },
+      {
+        "start": 40.63,
+        "end": 44.11,
+        "text": "So let's just stand in front and be ready when the bus arrives.",
+        "words": [
+          {
+            "start": 40.63,
+            "end": 40.97,
+            "word": " So",
+            "probability": 0.97169
+          },
+          {
+            "start": 40.97,
+            "end": 41.29,
+            "word": " let's",
+            "probability": 0.89468
+          },
+          {
+            "start": 41.29,
+            "end": 41.43,
+            "word": " just",
+            "probability": 0.9961
+          },
+          {
+            "start": 41.43,
+            "end": 41.77,
+            "word": " stand",
+            "probability": 0.98137
+          },
+          {
+            "start": 41.77,
+            "end": 41.95,
+            "word": " in",
+            "probability": 0.99425
+          },
+          {
+            "start": 41.95,
+            "end": 42.23,
+            "word": " front",
+            "probability": 0.9974
+          },
+          {
+            "start": 42.23,
+            "end": 42.59,
+            "word": " and",
+            "probability": 0.93778
+          },
+          {
+            "start": 42.59,
+            "end": 42.79,
+            "word": " be",
+            "probability": 0.99656
+          },
+          {
+            "start": 42.79,
+            "end": 43.05,
+            "word": " ready",
+            "probability": 0.99878
+          },
+          {
+            "start": 43.05,
+            "end": 43.31,
+            "word": " when",
+            "probability": 0.9955
+          },
+          {
+            "start": 43.31,
+            "end": 43.43,
+            "word": " the",
+            "probability": 0.99715
+          },
+          {
+            "start": 43.43,
+            "end": 43.73,
+            "word": " bus",
+            "probability": 0.9986
+          },
+          {
+            "start": 43.73,
+            "end": 44.11,
+            "word": " arrives.",
+            "probability": 0.99617
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q08",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 59,
+            "speechStart": 0.75,
+            "speechEnd": 20.9,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "we'll wait for the bus by the hotel's main entrance it's the easiest place for the driver to see us i know some people might think it's behind the hotel but that's not where the bus is usually stopped the side entrance can be confusing too so let's just stand in front and be ready when the bus arrives",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 59,
+            "wordEndIndexExclusive": 118,
+            "speechStart": 24.18,
+            "speechEnd": 44.11,
+            "sourceTokenCoverage": 0.9831,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9831,
+            "transcript": "we'll wait for the bus by the hotel's main entrance it's the easiest place for the driver to see us i know some people might think it's behind the hotel but that's not where the bus is usually stop the side entrance can be confusing too so let's just stand in front and be ready when the bus arrives",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

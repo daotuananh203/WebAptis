@@ -1,0 +1,532 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-1/q01.mp3",
+  "audioSha256": "2090d357ef6e4e159ca427e8005a692a7c4f53fba22fbffaa5ab7fe0aada7e34",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.82,
+        "end": 2.66,
+        "text": "I've always loved the ocean.",
+        "words": [
+          {
+            "start": 0.82,
+            "end": 1.34,
+            "word": " I've",
+            "probability": 0.89646
+          },
+          {
+            "start": 1.34,
+            "end": 1.64,
+            "word": " always",
+            "probability": 0.99512
+          },
+          {
+            "start": 1.64,
+            "end": 2.1,
+            "word": " loved",
+            "probability": 0.99561
+          },
+          {
+            "start": 2.1,
+            "end": 2.32,
+            "word": " the",
+            "probability": 0.96866
+          },
+          {
+            "start": 2.32,
+            "end": 2.66,
+            "word": " ocean.",
+            "probability": 0.98464
+          }
+        ]
+      },
+      {
+        "start": 3.38,
+        "end": 8.04,
+        "text": "That is why I initially wanted to install a big window that looks out to the river at",
+        "words": [
+          {
+            "start": 3.38,
+            "end": 3.54,
+            "word": " That",
+            "probability": 0.99282
+          },
+          {
+            "start": 3.54,
+            "end": 3.64,
+            "word": " is",
+            "probability": 0.94146
+          },
+          {
+            "start": 3.64,
+            "end": 3.84,
+            "word": " why",
+            "probability": 0.99836
+          },
+          {
+            "start": 3.84,
+            "end": 3.98,
+            "word": " I",
+            "probability": 0.99265
+          },
+          {
+            "start": 3.98,
+            "end": 4.32,
+            "word": " initially",
+            "probability": 0.99473
+          },
+          {
+            "start": 4.32,
+            "end": 4.72,
+            "word": " wanted",
+            "probability": 0.99558
+          },
+          {
+            "start": 4.72,
+            "end": 4.92,
+            "word": " to",
+            "probability": 0.99868
+          },
+          {
+            "start": 4.92,
+            "end": 5.24,
+            "word": " install",
+            "probability": 0.99726
+          },
+          {
+            "start": 5.24,
+            "end": 5.4,
+            "word": " a",
+            "probability": 0.99727
+          },
+          {
+            "start": 5.4,
+            "end": 5.5,
+            "word": " big",
+            "probability": 0.9949
+          },
+          {
+            "start": 5.5,
+            "end": 5.9,
+            "word": " window",
+            "probability": 0.99664
+          },
+          {
+            "start": 5.9,
+            "end": 6.6,
+            "word": " that",
+            "probability": 0.85105
+          },
+          {
+            "start": 6.6,
+            "end": 6.78,
+            "word": " looks",
+            "probability": 0.98391
+          },
+          {
+            "start": 6.78,
+            "end": 7.02,
+            "word": " out",
+            "probability": 0.99223
+          },
+          {
+            "start": 7.02,
+            "end": 7.32,
+            "word": " to",
+            "probability": 0.9784
+          },
+          {
+            "start": 7.32,
+            "end": 7.44,
+            "word": " the",
+            "probability": 0.99746
+          },
+          {
+            "start": 7.44,
+            "end": 7.72,
+            "word": " river",
+            "probability": 0.98013
+          },
+          {
+            "start": 7.72,
+            "end": 8.04,
+            "word": " at",
+            "probability": 0.98863
+          }
+        ]
+      },
+      {
+        "start": 8.04,
+        "end": 8.56,
+        "text": "my house.",
+        "words": [
+          {
+            "start": 8.04,
+            "end": 8.18,
+            "word": " my",
+            "probability": 0.99646
+          },
+          {
+            "start": 8.18,
+            "end": 8.56,
+            "word": " house.",
+            "probability": 0.99857
+          }
+        ]
+      },
+      {
+        "start": 9.08,
+        "end": 13.46,
+        "text": "But now my husband and I realized it was too big, and now too much sunshine got in.",
+        "words": [
+          {
+            "start": 9.08,
+            "end": 9.24,
+            "word": " But",
+            "probability": 0.99214
+          },
+          {
+            "start": 9.24,
+            "end": 9.36,
+            "word": " now",
+            "probability": 0.98866
+          },
+          {
+            "start": 9.36,
+            "end": 9.52,
+            "word": " my",
+            "probability": 0.9457
+          },
+          {
+            "start": 9.52,
+            "end": 9.74,
+            "word": " husband",
+            "probability": 0.99982
+          },
+          {
+            "start": 9.74,
+            "end": 9.86,
+            "word": " and",
+            "probability": 0.98465
+          },
+          {
+            "start": 9.86,
+            "end": 9.96,
+            "word": " I",
+            "probability": 0.99815
+          },
+          {
+            "start": 9.96,
+            "end": 10.3,
+            "word": " realized",
+            "probability": 0.918
+          },
+          {
+            "start": 10.3,
+            "end": 10.52,
+            "word": " it",
+            "probability": 0.96749
+          },
+          {
+            "start": 10.52,
+            "end": 10.66,
+            "word": " was",
+            "probability": 0.99695
+          },
+          {
+            "start": 10.66,
+            "end": 10.9,
+            "word": " too",
+            "probability": 0.98283
+          },
+          {
+            "start": 10.9,
+            "end": 11.26,
+            "word": " big,",
+            "probability": 0.999
+          },
+          {
+            "start": 11.72,
+            "end": 11.86,
+            "word": " and",
+            "probability": 0.99503
+          },
+          {
+            "start": 11.86,
+            "end": 12.04,
+            "word": " now",
+            "probability": 0.99756
+          },
+          {
+            "start": 12.04,
+            "end": 12.28,
+            "word": " too",
+            "probability": 0.98812
+          },
+          {
+            "start": 12.28,
+            "end": 12.5,
+            "word": " much",
+            "probability": 0.99915
+          },
+          {
+            "start": 12.5,
+            "end": 12.88,
+            "word": " sunshine",
+            "probability": 0.99179
+          },
+          {
+            "start": 12.88,
+            "end": 13.22,
+            "word": " got",
+            "probability": 0.99656
+          },
+          {
+            "start": 13.22,
+            "end": 13.46,
+            "word": " in.",
+            "probability": 0.9994
+          }
+        ]
+      },
+      {
+        "start": 14.31,
+        "end": 18.83,
+        "text": "My car got heated, and the computer next to the window always seemed like it would explode.",
+        "words": [
+          {
+            "start": 14.31,
+            "end": 14.51,
+            "word": " My",
+            "probability": 0.99247
+          },
+          {
+            "start": 14.51,
+            "end": 14.75,
+            "word": " car",
+            "probability": 0.99865
+          },
+          {
+            "start": 14.75,
+            "end": 14.95,
+            "word": " got",
+            "probability": 0.99889
+          },
+          {
+            "start": 14.95,
+            "end": 15.31,
+            "word": " heated,",
+            "probability": 0.99691
+          },
+          {
+            "start": 15.77,
+            "end": 15.93,
+            "word": " and",
+            "probability": 0.99527
+          },
+          {
+            "start": 15.93,
+            "end": 16.05,
+            "word": " the",
+            "probability": 0.99667
+          },
+          {
+            "start": 16.05,
+            "end": 16.41,
+            "word": " computer",
+            "probability": 0.99702
+          },
+          {
+            "start": 16.41,
+            "end": 16.69,
+            "word": " next",
+            "probability": 0.99255
+          },
+          {
+            "start": 16.69,
+            "end": 16.93,
+            "word": " to",
+            "probability": 0.99817
+          },
+          {
+            "start": 16.93,
+            "end": 17.05,
+            "word": " the",
+            "probability": 0.99718
+          },
+          {
+            "start": 17.05,
+            "end": 17.35,
+            "word": " window",
+            "probability": 0.99902
+          },
+          {
+            "start": 17.35,
+            "end": 17.73,
+            "word": " always",
+            "probability": 0.99371
+          },
+          {
+            "start": 17.73,
+            "end": 18.01,
+            "word": " seemed",
+            "probability": 0.98806
+          },
+          {
+            "start": 18.01,
+            "end": 18.19,
+            "word": " like",
+            "probability": 0.99881
+          },
+          {
+            "start": 18.19,
+            "end": 18.33,
+            "word": " it",
+            "probability": 0.99902
+          },
+          {
+            "start": 18.33,
+            "end": 18.43,
+            "word": " would",
+            "probability": 0.98214
+          },
+          {
+            "start": 18.43,
+            "end": 18.83,
+            "word": " explode.",
+            "probability": 0.99867
+          }
+        ]
+      },
+      {
+        "start": 19.59,
+        "end": 24.37,
+        "text": "I have no choice but to change it into another window that can close entirely.",
+        "words": [
+          {
+            "start": 19.59,
+            "end": 19.91,
+            "word": " I",
+            "probability": 0.99632
+          },
+          {
+            "start": 19.91,
+            "end": 20.05,
+            "word": " have",
+            "probability": 0.99768
+          },
+          {
+            "start": 20.05,
+            "end": 20.19,
+            "word": " no",
+            "probability": 0.99922
+          },
+          {
+            "start": 20.19,
+            "end": 20.57,
+            "word": " choice",
+            "probability": 0.99942
+          },
+          {
+            "start": 20.57,
+            "end": 21.03,
+            "word": " but",
+            "probability": 0.85404
+          },
+          {
+            "start": 21.03,
+            "end": 21.19,
+            "word": " to",
+            "probability": 0.99668
+          },
+          {
+            "start": 21.19,
+            "end": 21.47,
+            "word": " change",
+            "probability": 0.99771
+          },
+          {
+            "start": 21.47,
+            "end": 21.71,
+            "word": " it",
+            "probability": 0.9939
+          },
+          {
+            "start": 21.71,
+            "end": 21.97,
+            "word": " into",
+            "probability": 0.99012
+          },
+          {
+            "start": 21.97,
+            "end": 22.35,
+            "word": " another",
+            "probability": 0.99539
+          },
+          {
+            "start": 22.35,
+            "end": 22.77,
+            "word": " window",
+            "probability": 0.99926
+          },
+          {
+            "start": 22.77,
+            "end": 23.29,
+            "word": " that",
+            "probability": 0.96397
+          },
+          {
+            "start": 23.29,
+            "end": 23.45,
+            "word": " can",
+            "probability": 0.98554
+          },
+          {
+            "start": 23.45,
+            "end": 23.69,
+            "word": " close",
+            "probability": 0.99371
+          },
+          {
+            "start": 23.69,
+            "end": 24.37,
+            "word": " entirely.",
+            "probability": 0.99748
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 75,
+            "speechStart": 0.82,
+            "speechEnd": 24.37,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i've always loved the ocean that is why i initially wanted to install a big window that looks out to the river at my house but now my husband and i realized it was too big and now too much sunshine got in my car got heated and the computer next to the window always seemed like it would explode i have no choice but to change it into another window that can close entirely",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

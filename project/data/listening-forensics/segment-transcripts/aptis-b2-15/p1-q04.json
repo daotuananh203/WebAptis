@@ -1,0 +1,956 @@
+{
+  "testId": "aptis-b2-15",
+  "blockId": "p1-q04",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-15/part-1/q04.mp3",
+  "audioSha256": "39906a0031c211a9e77e056528ca19ddcc1fbab734177c5111982054a86765c6",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.94,
+        "end": 6.6,
+        "text": "Hey, today is my first day at university, and I want to make sure I'm on the right route.",
+        "words": [
+          {
+            "start": 0.94,
+            "end": 1.44,
+            "word": " Hey,",
+            "probability": 0.31079
+          },
+          {
+            "start": 1.76,
+            "end": 2.46,
+            "word": " today",
+            "probability": 0.95066
+          },
+          {
+            "start": 2.46,
+            "end": 2.74,
+            "word": " is",
+            "probability": 0.99283
+          },
+          {
+            "start": 2.74,
+            "end": 2.9,
+            "word": " my",
+            "probability": 0.99525
+          },
+          {
+            "start": 2.9,
+            "end": 3.26,
+            "word": " first",
+            "probability": 0.99008
+          },
+          {
+            "start": 3.26,
+            "end": 3.46,
+            "word": " day",
+            "probability": 0.9937
+          },
+          {
+            "start": 3.46,
+            "end": 3.62,
+            "word": " at",
+            "probability": 0.9963
+          },
+          {
+            "start": 3.62,
+            "end": 4.08,
+            "word": " university,",
+            "probability": 0.68377
+          },
+          {
+            "start": 4.66,
+            "end": 4.88,
+            "word": " and",
+            "probability": 0.9731
+          },
+          {
+            "start": 4.88,
+            "end": 4.98,
+            "word": " I",
+            "probability": 0.99085
+          },
+          {
+            "start": 4.98,
+            "end": 5.14,
+            "word": " want",
+            "probability": 0.99037
+          },
+          {
+            "start": 5.14,
+            "end": 5.3,
+            "word": " to",
+            "probability": 0.99157
+          },
+          {
+            "start": 5.3,
+            "end": 5.44,
+            "word": " make",
+            "probability": 0.99584
+          },
+          {
+            "start": 5.44,
+            "end": 5.68,
+            "word": " sure",
+            "probability": 0.99885
+          },
+          {
+            "start": 5.68,
+            "end": 5.94,
+            "word": " I'm",
+            "probability": 0.95727
+          },
+          {
+            "start": 5.94,
+            "end": 6.0,
+            "word": " on",
+            "probability": 0.99436
+          },
+          {
+            "start": 6.0,
+            "end": 6.12,
+            "word": " the",
+            "probability": 0.995
+          },
+          {
+            "start": 6.12,
+            "end": 6.28,
+            "word": " right",
+            "probability": 0.91246
+          },
+          {
+            "start": 6.28,
+            "end": 6.6,
+            "word": " route.",
+            "probability": 0.99041
+          }
+        ]
+      },
+      {
+        "start": 7.36,
+        "end": 12.46,
+        "text": "First, I'll go straight to Main Street. After that, I need to turn left at the hospital.",
+        "words": [
+          {
+            "start": 7.36,
+            "end": 7.7,
+            "word": " First,",
+            "probability": 0.9735
+          },
+          {
+            "start": 8.02,
+            "end": 8.1,
+            "word": " I'll",
+            "probability": 0.98943
+          },
+          {
+            "start": 8.1,
+            "end": 8.2,
+            "word": " go",
+            "probability": 0.981
+          },
+          {
+            "start": 8.2,
+            "end": 8.5,
+            "word": " straight",
+            "probability": 0.9988
+          },
+          {
+            "start": 8.5,
+            "end": 8.7,
+            "word": " to",
+            "probability": 0.99743
+          },
+          {
+            "start": 8.7,
+            "end": 8.86,
+            "word": " Main",
+            "probability": 0.89447
+          },
+          {
+            "start": 8.86,
+            "end": 9.2,
+            "word": " Street.",
+            "probability": 0.95449
+          },
+          {
+            "start": 9.86,
+            "end": 10.3,
+            "word": " After",
+            "probability": 0.99094
+          },
+          {
+            "start": 10.3,
+            "end": 10.54,
+            "word": " that,",
+            "probability": 0.99846
+          },
+          {
+            "start": 10.9,
+            "end": 10.98,
+            "word": " I",
+            "probability": 0.99829
+          },
+          {
+            "start": 10.98,
+            "end": 11.14,
+            "word": " need",
+            "probability": 0.99498
+          },
+          {
+            "start": 11.14,
+            "end": 11.3,
+            "word": " to",
+            "probability": 0.99841
+          },
+          {
+            "start": 11.3,
+            "end": 11.52,
+            "word": " turn",
+            "probability": 0.99407
+          },
+          {
+            "start": 11.52,
+            "end": 11.76,
+            "word": " left",
+            "probability": 0.99857
+          },
+          {
+            "start": 11.76,
+            "end": 12.0,
+            "word": " at",
+            "probability": 0.99008
+          },
+          {
+            "start": 12.0,
+            "end": 12.1,
+            "word": " the",
+            "probability": 0.99404
+          },
+          {
+            "start": 12.1,
+            "end": 12.46,
+            "word": " hospital.",
+            "probability": 0.99052
+          }
+        ]
+      },
+      {
+        "start": 13.18,
+        "end": 15.6,
+        "text": "I've heard that the university is not far from there.",
+        "words": [
+          {
+            "start": 13.18,
+            "end": 13.48,
+            "word": " I've",
+            "probability": 0.98388
+          },
+          {
+            "start": 13.48,
+            "end": 13.62,
+            "word": " heard",
+            "probability": 0.99832
+          },
+          {
+            "start": 13.62,
+            "end": 13.8,
+            "word": " that",
+            "probability": 0.98067
+          },
+          {
+            "start": 13.8,
+            "end": 13.94,
+            "word": " the",
+            "probability": 0.98092
+          },
+          {
+            "start": 13.94,
+            "end": 14.46,
+            "word": " university",
+            "probability": 0.91065
+          },
+          {
+            "start": 14.46,
+            "end": 14.72,
+            "word": " is",
+            "probability": 0.99145
+          },
+          {
+            "start": 14.72,
+            "end": 14.9,
+            "word": " not",
+            "probability": 0.99812
+          },
+          {
+            "start": 14.9,
+            "end": 15.18,
+            "word": " far",
+            "probability": 0.99956
+          },
+          {
+            "start": 15.18,
+            "end": 15.4,
+            "word": " from",
+            "probability": 0.99841
+          },
+          {
+            "start": 15.4,
+            "end": 15.6,
+            "word": " there.",
+            "probability": 0.99772
+          }
+        ]
+      },
+      {
+        "start": 16.34,
+        "end": 21.04,
+        "text": "Once I reach the traffic lights, I'll turn right, and I should be able to see the campus soon.",
+        "words": [
+          {
+            "start": 16.34,
+            "end": 16.56,
+            "word": " Once",
+            "probability": 0.98983
+          },
+          {
+            "start": 16.56,
+            "end": 16.72,
+            "word": " I",
+            "probability": 0.99071
+          },
+          {
+            "start": 16.72,
+            "end": 16.88,
+            "word": " reach",
+            "probability": 0.96827
+          },
+          {
+            "start": 16.88,
+            "end": 17.12,
+            "word": " the",
+            "probability": 0.99309
+          },
+          {
+            "start": 17.12,
+            "end": 17.42,
+            "word": " traffic",
+            "probability": 0.99262
+          },
+          {
+            "start": 17.42,
+            "end": 17.74,
+            "word": " lights,",
+            "probability": 0.99163
+          },
+          {
+            "start": 18.28,
+            "end": 18.42,
+            "word": " I'll",
+            "probability": 0.99494
+          },
+          {
+            "start": 18.42,
+            "end": 18.64,
+            "word": " turn",
+            "probability": 0.99865
+          },
+          {
+            "start": 18.64,
+            "end": 18.92,
+            "word": " right,",
+            "probability": 0.99836
+          },
+          {
+            "start": 19.32,
+            "end": 19.44,
+            "word": " and",
+            "probability": 0.9949
+          },
+          {
+            "start": 19.44,
+            "end": 19.54,
+            "word": " I",
+            "probability": 0.99841
+          },
+          {
+            "start": 19.54,
+            "end": 19.68,
+            "word": " should",
+            "probability": 0.99533
+          },
+          {
+            "start": 19.68,
+            "end": 19.82,
+            "word": " be",
+            "probability": 0.98542
+          },
+          {
+            "start": 19.82,
+            "end": 19.96,
+            "word": " able",
+            "probability": 0.99901
+          },
+          {
+            "start": 19.96,
+            "end": 20.1,
+            "word": " to",
+            "probability": 0.99775
+          },
+          {
+            "start": 20.1,
+            "end": 20.3,
+            "word": " see",
+            "probability": 0.99695
+          },
+          {
+            "start": 20.3,
+            "end": 20.44,
+            "word": " the",
+            "probability": 0.99803
+          },
+          {
+            "start": 20.44,
+            "end": 20.7,
+            "word": " campus",
+            "probability": 0.97103
+          },
+          {
+            "start": 20.7,
+            "end": 21.04,
+            "word": " soon.",
+            "probability": 0.99773
+          }
+        ]
+      },
+      {
+        "start": 21.74,
+        "end": 32.25,
+        "text": "Is that the correct way? Hey, today is my first day at university, and I want to make sure I'm on the right route.",
+        "words": [
+          {
+            "start": 21.74,
+            "end": 21.96,
+            "word": " Is",
+            "probability": 0.98088
+          },
+          {
+            "start": 21.96,
+            "end": 22.12,
+            "word": " that",
+            "probability": 0.99793
+          },
+          {
+            "start": 22.12,
+            "end": 22.3,
+            "word": " the",
+            "probability": 0.99792
+          },
+          {
+            "start": 22.3,
+            "end": 22.54,
+            "word": " correct",
+            "probability": 0.99465
+          },
+          {
+            "start": 22.54,
+            "end": 22.82,
+            "word": " way?",
+            "probability": 0.99942
+          },
+          {
+            "start": 26.89,
+            "end": 27.11,
+            "word": " Hey,",
+            "probability": 0.97214
+          },
+          {
+            "start": 27.75,
+            "end": 28.09,
+            "word": " today",
+            "probability": 0.99284
+          },
+          {
+            "start": 28.09,
+            "end": 28.37,
+            "word": " is",
+            "probability": 0.99589
+          },
+          {
+            "start": 28.37,
+            "end": 28.53,
+            "word": " my",
+            "probability": 0.99923
+          },
+          {
+            "start": 28.53,
+            "end": 28.91,
+            "word": " first",
+            "probability": 0.99716
+          },
+          {
+            "start": 28.91,
+            "end": 29.11,
+            "word": " day",
+            "probability": 0.99681
+          },
+          {
+            "start": 29.11,
+            "end": 29.23,
+            "word": " at",
+            "probability": 0.99847
+          },
+          {
+            "start": 29.23,
+            "end": 29.81,
+            "word": " university,",
+            "probability": 0.95
+          },
+          {
+            "start": 30.31,
+            "end": 30.51,
+            "word": " and",
+            "probability": 0.9965
+          },
+          {
+            "start": 30.51,
+            "end": 30.61,
+            "word": " I",
+            "probability": 0.9984
+          },
+          {
+            "start": 30.61,
+            "end": 30.79,
+            "word": " want",
+            "probability": 0.99519
+          },
+          {
+            "start": 30.79,
+            "end": 30.93,
+            "word": " to",
+            "probability": 0.99196
+          },
+          {
+            "start": 30.93,
+            "end": 31.07,
+            "word": " make",
+            "probability": 0.99842
+          },
+          {
+            "start": 31.07,
+            "end": 31.31,
+            "word": " sure",
+            "probability": 0.99873
+          },
+          {
+            "start": 31.31,
+            "end": 31.57,
+            "word": " I'm",
+            "probability": 0.99581
+          },
+          {
+            "start": 31.57,
+            "end": 31.63,
+            "word": " on",
+            "probability": 0.99797
+          },
+          {
+            "start": 31.63,
+            "end": 31.77,
+            "word": " the",
+            "probability": 0.99898
+          },
+          {
+            "start": 31.77,
+            "end": 31.91,
+            "word": " right",
+            "probability": 0.99732
+          },
+          {
+            "start": 31.91,
+            "end": 32.25,
+            "word": " route.",
+            "probability": 0.99593
+          }
+        ]
+      },
+      {
+        "start": 32.85,
+        "end": 38.11,
+        "text": "First, I'll go straight to Main Street. After that, I need to turn left at the hospital.",
+        "words": [
+          {
+            "start": 32.85,
+            "end": 33.29,
+            "word": " First,",
+            "probability": 0.58215
+          },
+          {
+            "start": 33.65,
+            "end": 33.75,
+            "word": " I'll",
+            "probability": 0.9787
+          },
+          {
+            "start": 33.75,
+            "end": 33.85,
+            "word": " go",
+            "probability": 0.9933
+          },
+          {
+            "start": 33.85,
+            "end": 34.13,
+            "word": " straight",
+            "probability": 0.99644
+          },
+          {
+            "start": 34.13,
+            "end": 34.35,
+            "word": " to",
+            "probability": 0.99558
+          },
+          {
+            "start": 34.35,
+            "end": 34.49,
+            "word": " Main",
+            "probability": 0.90447
+          },
+          {
+            "start": 34.49,
+            "end": 34.87,
+            "word": " Street.",
+            "probability": 0.95424
+          },
+          {
+            "start": 35.57,
+            "end": 35.93,
+            "word": " After",
+            "probability": 0.98725
+          },
+          {
+            "start": 35.93,
+            "end": 36.19,
+            "word": " that,",
+            "probability": 0.9974
+          },
+          {
+            "start": 36.53,
+            "end": 36.61,
+            "word": " I",
+            "probability": 0.99815
+          },
+          {
+            "start": 36.61,
+            "end": 36.79,
+            "word": " need",
+            "probability": 0.98862
+          },
+          {
+            "start": 36.79,
+            "end": 36.95,
+            "word": " to",
+            "probability": 0.99695
+          },
+          {
+            "start": 36.95,
+            "end": 37.15,
+            "word": " turn",
+            "probability": 0.99075
+          },
+          {
+            "start": 37.15,
+            "end": 37.41,
+            "word": " left",
+            "probability": 0.99678
+          },
+          {
+            "start": 37.41,
+            "end": 37.63,
+            "word": " at",
+            "probability": 0.98511
+          },
+          {
+            "start": 37.63,
+            "end": 37.73,
+            "word": " the",
+            "probability": 0.9941
+          },
+          {
+            "start": 37.73,
+            "end": 38.11,
+            "word": " hospital.",
+            "probability": 0.98587
+          }
+        ]
+      },
+      {
+        "start": 38.81,
+        "end": 41.17,
+        "text": "I've heard that the university is not far from there.",
+        "words": [
+          {
+            "start": 38.81,
+            "end": 39.09,
+            "word": " I've",
+            "probability": 0.98792
+          },
+          {
+            "start": 39.09,
+            "end": 39.25,
+            "word": " heard",
+            "probability": 0.99861
+          },
+          {
+            "start": 39.25,
+            "end": 39.43,
+            "word": " that",
+            "probability": 0.97901
+          },
+          {
+            "start": 39.43,
+            "end": 39.55,
+            "word": " the",
+            "probability": 0.9804
+          },
+          {
+            "start": 39.55,
+            "end": 40.09,
+            "word": " university",
+            "probability": 0.80001
+          },
+          {
+            "start": 40.09,
+            "end": 40.31,
+            "word": " is",
+            "probability": 0.9609
+          },
+          {
+            "start": 40.31,
+            "end": 40.51,
+            "word": " not",
+            "probability": 0.99439
+          },
+          {
+            "start": 40.51,
+            "end": 40.77,
+            "word": " far",
+            "probability": 0.99947
+          },
+          {
+            "start": 40.77,
+            "end": 40.99,
+            "word": " from",
+            "probability": 0.99744
+          },
+          {
+            "start": 40.99,
+            "end": 41.17,
+            "word": " there.",
+            "probability": 0.99438
+          }
+        ]
+      },
+      {
+        "start": 41.93,
+        "end": 46.55,
+        "text": "Once I reach the traffic lights, I'll turn right, and I should be able to see the campus soon.",
+        "words": [
+          {
+            "start": 41.93,
+            "end": 42.15,
+            "word": " Once",
+            "probability": 0.9894
+          },
+          {
+            "start": 42.15,
+            "end": 42.27,
+            "word": " I",
+            "probability": 0.98932
+          },
+          {
+            "start": 42.27,
+            "end": 42.43,
+            "word": " reach",
+            "probability": 0.95965
+          },
+          {
+            "start": 42.43,
+            "end": 42.67,
+            "word": " the",
+            "probability": 0.98861
+          },
+          {
+            "start": 42.67,
+            "end": 42.97,
+            "word": " traffic",
+            "probability": 0.98948
+          },
+          {
+            "start": 42.97,
+            "end": 43.31,
+            "word": " lights,",
+            "probability": 0.98987
+          },
+          {
+            "start": 43.81,
+            "end": 43.95,
+            "word": " I'll",
+            "probability": 0.99247
+          },
+          {
+            "start": 43.95,
+            "end": 44.17,
+            "word": " turn",
+            "probability": 0.9983
+          },
+          {
+            "start": 44.17,
+            "end": 44.45,
+            "word": " right,",
+            "probability": 0.99754
+          },
+          {
+            "start": 44.87,
+            "end": 44.95,
+            "word": " and",
+            "probability": 0.99153
+          },
+          {
+            "start": 44.95,
+            "end": 45.07,
+            "word": " I",
+            "probability": 0.99722
+          },
+          {
+            "start": 45.07,
+            "end": 45.19,
+            "word": " should",
+            "probability": 0.98648
+          },
+          {
+            "start": 45.19,
+            "end": 45.33,
+            "word": " be",
+            "probability": 0.99084
+          },
+          {
+            "start": 45.33,
+            "end": 45.47,
+            "word": " able",
+            "probability": 0.99832
+          },
+          {
+            "start": 45.47,
+            "end": 45.61,
+            "word": " to",
+            "probability": 0.99462
+          },
+          {
+            "start": 45.61,
+            "end": 45.79,
+            "word": " see",
+            "probability": 0.99798
+          },
+          {
+            "start": 45.79,
+            "end": 45.95,
+            "word": " the",
+            "probability": 0.99544
+          },
+          {
+            "start": 45.95,
+            "end": 46.21,
+            "word": " campus",
+            "probability": 0.98358
+          },
+          {
+            "start": 46.21,
+            "end": 46.55,
+            "word": " soon.",
+            "probability": 0.99621
+          }
+        ]
+      },
+      {
+        "start": 47.19,
+        "end": 48.31,
+        "text": "Is that the correct way?",
+        "words": [
+          {
+            "start": 47.19,
+            "end": 47.45,
+            "word": " Is",
+            "probability": 0.98599
+          },
+          {
+            "start": 47.45,
+            "end": 47.59,
+            "word": " that",
+            "probability": 0.99774
+          },
+          {
+            "start": 47.59,
+            "end": 47.77,
+            "word": " the",
+            "probability": 0.99717
+          },
+          {
+            "start": 47.77,
+            "end": 48.01,
+            "word": " correct",
+            "probability": 0.98972
+          },
+          {
+            "start": 48.01,
+            "end": 48.31,
+            "word": " way?",
+            "probability": 0.99937
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q04",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 70,
+            "speechStart": 0.94,
+            "speechEnd": 22.82,
+            "sourceTokenCoverage": 0.9859,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9929,
+            "transcript": "hey today is my first day at university and i want to make sure i'm on the right route first i'll go straight to main street after that i need to turn left at the hospital i've heard that the university is not far from there once i reach the traffic lights i'll turn right and i should be able to see the campus soon is that the correct way",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 70,
+            "wordEndIndexExclusive": 140,
+            "speechStart": 26.89,
+            "speechEnd": 48.31,
+            "sourceTokenCoverage": 0.9859,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9929,
+            "transcript": "hey today is my first day at university and i want to make sure i'm on the right route first i'll go straight to main street after that i need to turn left at the hospital i've heard that the university is not far from there once i reach the traffic lights i'll turn right and i should be able to see the campus soon is that the correct way",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

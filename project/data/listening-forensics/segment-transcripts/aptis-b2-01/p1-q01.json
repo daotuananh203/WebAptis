@@ -1,0 +1,860 @@
+{
+  "testId": "aptis-b2-01",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-01/part-1/q01.mp3",
+  "audioSha256": "dc362d453b57827b5a6bc626a9f074552c5a979fa15e20096a0cca0763221e0c",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.94,
+        "end": 5.84,
+        "text": "Hey, I just wanted to tell you about my new car. It's a small one, perfect for my needs.",
+        "words": [
+          {
+            "start": 0.94,
+            "end": 1.46,
+            "word": " Hey,",
+            "probability": 0.74866
+          },
+          {
+            "start": 1.72,
+            "end": 1.9,
+            "word": " I",
+            "probability": 0.98311
+          },
+          {
+            "start": 1.9,
+            "end": 2.02,
+            "word": " just",
+            "probability": 0.99138
+          },
+          {
+            "start": 2.02,
+            "end": 2.26,
+            "word": " wanted",
+            "probability": 0.98428
+          },
+          {
+            "start": 2.26,
+            "end": 2.42,
+            "word": " to",
+            "probability": 0.99699
+          },
+          {
+            "start": 2.42,
+            "end": 2.6,
+            "word": " tell",
+            "probability": 0.99043
+          },
+          {
+            "start": 2.6,
+            "end": 2.74,
+            "word": " you",
+            "probability": 0.99526
+          },
+          {
+            "start": 2.74,
+            "end": 2.9,
+            "word": " about",
+            "probability": 0.99572
+          },
+          {
+            "start": 2.9,
+            "end": 3.04,
+            "word": " my",
+            "probability": 0.98774
+          },
+          {
+            "start": 3.04,
+            "end": 3.2,
+            "word": " new",
+            "probability": 0.99305
+          },
+          {
+            "start": 3.2,
+            "end": 3.46,
+            "word": " car.",
+            "probability": 0.98456
+          },
+          {
+            "start": 3.8,
+            "end": 4.1,
+            "word": " It's",
+            "probability": 0.98768
+          },
+          {
+            "start": 4.1,
+            "end": 4.14,
+            "word": " a",
+            "probability": 0.99572
+          },
+          {
+            "start": 4.14,
+            "end": 4.42,
+            "word": " small",
+            "probability": 0.9936
+          },
+          {
+            "start": 4.42,
+            "end": 4.7,
+            "word": " one,",
+            "probability": 0.99491
+          },
+          {
+            "start": 4.92,
+            "end": 5.22,
+            "word": " perfect",
+            "probability": 0.99574
+          },
+          {
+            "start": 5.22,
+            "end": 5.44,
+            "word": " for",
+            "probability": 0.99685
+          },
+          {
+            "start": 5.44,
+            "end": 5.6,
+            "word": " my",
+            "probability": 0.99755
+          },
+          {
+            "start": 5.6,
+            "end": 5.84,
+            "word": " needs.",
+            "probability": 0.99315
+          }
+        ]
+      },
+      {
+        "start": 6.38,
+        "end": 12.66,
+        "text": "I got it for a great price, only 3,250 pounds. Can you believe it? I was looking at bigger models too,",
+        "words": [
+          {
+            "start": 6.38,
+            "end": 6.52,
+            "word": " I",
+            "probability": 0.98831
+          },
+          {
+            "start": 6.52,
+            "end": 6.66,
+            "word": " got",
+            "probability": 0.99734
+          },
+          {
+            "start": 6.66,
+            "end": 6.76,
+            "word": " it",
+            "probability": 0.99455
+          },
+          {
+            "start": 6.76,
+            "end": 6.88,
+            "word": " for",
+            "probability": 0.99556
+          },
+          {
+            "start": 6.88,
+            "end": 6.98,
+            "word": " a",
+            "probability": 0.99211
+          },
+          {
+            "start": 6.98,
+            "end": 7.12,
+            "word": " great",
+            "probability": 0.99154
+          },
+          {
+            "start": 7.12,
+            "end": 7.42,
+            "word": " price,",
+            "probability": 0.99932
+          },
+          {
+            "start": 7.7,
+            "end": 7.8,
+            "word": " only",
+            "probability": 0.98137
+          },
+          {
+            "start": 7.8,
+            "end": 8.14,
+            "word": " 3",
+            "probability": 0.55681
+          },
+          {
+            "start": 8.14,
+            "end": 9.02,
+            "word": ",250",
+            "probability": 0.95581
+          },
+          {
+            "start": 9.02,
+            "end": 9.5,
+            "word": " pounds.",
+            "probability": 0.85455
+          },
+          {
+            "start": 9.96,
+            "end": 10.24,
+            "word": " Can",
+            "probability": 0.99165
+          },
+          {
+            "start": 10.24,
+            "end": 10.34,
+            "word": " you",
+            "probability": 0.99887
+          },
+          {
+            "start": 10.34,
+            "end": 10.58,
+            "word": " believe",
+            "probability": 0.99895
+          },
+          {
+            "start": 10.58,
+            "end": 10.72,
+            "word": " it?",
+            "probability": 0.99852
+          },
+          {
+            "start": 11.22,
+            "end": 11.34,
+            "word": " I",
+            "probability": 0.99527
+          },
+          {
+            "start": 11.34,
+            "end": 11.46,
+            "word": " was",
+            "probability": 0.99871
+          },
+          {
+            "start": 11.46,
+            "end": 11.68,
+            "word": " looking",
+            "probability": 0.99839
+          },
+          {
+            "start": 11.68,
+            "end": 11.82,
+            "word": " at",
+            "probability": 0.99883
+          },
+          {
+            "start": 11.82,
+            "end": 12.04,
+            "word": " bigger",
+            "probability": 0.99691
+          },
+          {
+            "start": 12.04,
+            "end": 12.34,
+            "word": " models",
+            "probability": 0.99758
+          },
+          {
+            "start": 12.34,
+            "end": 12.66,
+            "word": " too,",
+            "probability": 0.8133
+          }
+        ]
+      },
+      {
+        "start": 12.92,
+        "end": 20.82,
+        "text": "but they were way more expensive, around 3,550 pounds, or even 4,250 pounds. I'm really happy with my choice.",
+        "words": [
+          {
+            "start": 12.92,
+            "end": 13.0,
+            "word": " but",
+            "probability": 0.9954
+          },
+          {
+            "start": 13.0,
+            "end": 13.16,
+            "word": " they",
+            "probability": 0.99643
+          },
+          {
+            "start": 13.16,
+            "end": 13.26,
+            "word": " were",
+            "probability": 0.998
+          },
+          {
+            "start": 13.26,
+            "end": 13.46,
+            "word": " way",
+            "probability": 0.99749
+          },
+          {
+            "start": 13.46,
+            "end": 13.62,
+            "word": " more",
+            "probability": 0.99899
+          },
+          {
+            "start": 13.62,
+            "end": 14.1,
+            "word": " expensive,",
+            "probability": 0.99889
+          },
+          {
+            "start": 14.54,
+            "end": 14.72,
+            "word": " around",
+            "probability": 0.98651
+          },
+          {
+            "start": 14.72,
+            "end": 15.1,
+            "word": " 3",
+            "probability": 0.70389
+          },
+          {
+            "start": 15.1,
+            "end": 16.4,
+            "word": ",550",
+            "probability": 0.90039
+          },
+          {
+            "start": 16.4,
+            "end": 16.7,
+            "word": " pounds,",
+            "probability": 0.98097
+          },
+          {
+            "start": 17.08,
+            "end": 17.2,
+            "word": " or",
+            "probability": 0.99289
+          },
+          {
+            "start": 17.2,
+            "end": 17.44,
+            "word": " even",
+            "probability": 0.99865
+          },
+          {
+            "start": 17.44,
+            "end": 17.78,
+            "word": " 4",
+            "probability": 0.98142
+          },
+          {
+            "start": 17.78,
+            "end": 18.24,
+            "word": ",250",
+            "probability": 0.94335
+          },
+          {
+            "start": 18.24,
+            "end": 18.88,
+            "word": " pounds.",
+            "probability": 0.98894
+          },
+          {
+            "start": 19.38,
+            "end": 19.74,
+            "word": " I'm",
+            "probability": 0.99229
+          },
+          {
+            "start": 19.74,
+            "end": 19.9,
+            "word": " really",
+            "probability": 0.9964
+          },
+          {
+            "start": 19.9,
+            "end": 20.2,
+            "word": " happy",
+            "probability": 0.99944
+          },
+          {
+            "start": 20.2,
+            "end": 20.36,
+            "word": " with",
+            "probability": 0.99734
+          },
+          {
+            "start": 20.36,
+            "end": 20.52,
+            "word": " my",
+            "probability": 0.99778
+          },
+          {
+            "start": 20.52,
+            "end": 20.82,
+            "word": " choice.",
+            "probability": 0.99559
+          }
+        ]
+      },
+      {
+        "start": 24.84,
+        "end": 29.48,
+        "text": "Hey, I just wanted to tell you about my new car. It's a small one, perfect for my needs.",
+        "words": [
+          {
+            "start": 24.84,
+            "end": 25.04,
+            "word": " Hey,",
+            "probability": 0.976
+          },
+          {
+            "start": 25.3,
+            "end": 25.46,
+            "word": " I",
+            "probability": 0.99913
+          },
+          {
+            "start": 25.46,
+            "end": 25.6,
+            "word": " just",
+            "probability": 0.99708
+          },
+          {
+            "start": 25.6,
+            "end": 25.84,
+            "word": " wanted",
+            "probability": 0.99124
+          },
+          {
+            "start": 25.84,
+            "end": 26.0,
+            "word": " to",
+            "probability": 0.99606
+          },
+          {
+            "start": 26.0,
+            "end": 26.18,
+            "word": " tell",
+            "probability": 0.99605
+          },
+          {
+            "start": 26.18,
+            "end": 26.32,
+            "word": " you",
+            "probability": 0.99583
+          },
+          {
+            "start": 26.32,
+            "end": 26.46,
+            "word": " about",
+            "probability": 0.99784
+          },
+          {
+            "start": 26.46,
+            "end": 26.6,
+            "word": " my",
+            "probability": 0.99608
+          },
+          {
+            "start": 26.6,
+            "end": 26.76,
+            "word": " new",
+            "probability": 0.99881
+          },
+          {
+            "start": 26.76,
+            "end": 27.06,
+            "word": " car.",
+            "probability": 0.99551
+          },
+          {
+            "start": 27.52,
+            "end": 27.66,
+            "word": " It's",
+            "probability": 0.99579
+          },
+          {
+            "start": 27.66,
+            "end": 27.72,
+            "word": " a",
+            "probability": 0.99525
+          },
+          {
+            "start": 27.72,
+            "end": 27.98,
+            "word": " small",
+            "probability": 0.99771
+          },
+          {
+            "start": 27.98,
+            "end": 28.3,
+            "word": " one,",
+            "probability": 0.99799
+          },
+          {
+            "start": 28.58,
+            "end": 28.78,
+            "word": " perfect",
+            "probability": 0.99905
+          },
+          {
+            "start": 28.78,
+            "end": 29.02,
+            "word": " for",
+            "probability": 0.99781
+          },
+          {
+            "start": 29.02,
+            "end": 29.16,
+            "word": " my",
+            "probability": 0.99844
+          },
+          {
+            "start": 29.16,
+            "end": 29.48,
+            "word": " needs.",
+            "probability": 0.99823
+          }
+        ]
+      },
+      {
+        "start": 29.48,
+        "end": 33.06,
+        "text": "I got it for a great price, only 3,250 pounds.",
+        "words": [
+          {
+            "start": 29.48,
+            "end": 30.08,
+            "word": " I",
+            "probability": 0.83527
+          },
+          {
+            "start": 30.08,
+            "end": 30.22,
+            "word": " got",
+            "probability": 0.97706
+          },
+          {
+            "start": 30.22,
+            "end": 30.34,
+            "word": " it",
+            "probability": 0.98331
+          },
+          {
+            "start": 30.34,
+            "end": 30.46,
+            "word": " for",
+            "probability": 0.99352
+          },
+          {
+            "start": 30.46,
+            "end": 30.54,
+            "word": " a",
+            "probability": 0.98745
+          },
+          {
+            "start": 30.54,
+            "end": 30.68,
+            "word": " great",
+            "probability": 0.99338
+          },
+          {
+            "start": 30.68,
+            "end": 30.98,
+            "word": " price,",
+            "probability": 0.99874
+          },
+          {
+            "start": 31.28,
+            "end": 31.4,
+            "word": " only",
+            "probability": 0.98141
+          },
+          {
+            "start": 31.4,
+            "end": 31.72,
+            "word": " 3",
+            "probability": 0.61624
+          },
+          {
+            "start": 31.72,
+            "end": 32.44,
+            "word": ",250",
+            "probability": 0.96388
+          },
+          {
+            "start": 32.44,
+            "end": 33.06,
+            "word": " pounds.",
+            "probability": 0.61763
+          }
+        ]
+      },
+      {
+        "start": 33.58,
+        "end": 34.3,
+        "text": "Can you believe it?",
+        "words": [
+          {
+            "start": 33.58,
+            "end": 33.82,
+            "word": " Can",
+            "probability": 0.9807
+          },
+          {
+            "start": 33.82,
+            "end": 33.9,
+            "word": " you",
+            "probability": 0.99769
+          },
+          {
+            "start": 33.9,
+            "end": 34.16,
+            "word": " believe",
+            "probability": 0.99855
+          },
+          {
+            "start": 34.16,
+            "end": 34.3,
+            "word": " it?",
+            "probability": 0.99736
+          }
+        ]
+      },
+      {
+        "start": 34.74,
+        "end": 40.3,
+        "text": "I was looking at bigger models too, but they were way more expensive, around 3,550 pounds,",
+        "words": [
+          {
+            "start": 34.74,
+            "end": 34.92,
+            "word": " I",
+            "probability": 0.99339
+          },
+          {
+            "start": 34.92,
+            "end": 35.04,
+            "word": " was",
+            "probability": 0.99729
+          },
+          {
+            "start": 35.04,
+            "end": 35.24,
+            "word": " looking",
+            "probability": 0.99802
+          },
+          {
+            "start": 35.24,
+            "end": 35.4,
+            "word": " at",
+            "probability": 0.99799
+          },
+          {
+            "start": 35.4,
+            "end": 35.6,
+            "word": " bigger",
+            "probability": 0.99551
+          },
+          {
+            "start": 35.6,
+            "end": 35.9,
+            "word": " models",
+            "probability": 0.99498
+          },
+          {
+            "start": 35.9,
+            "end": 36.24,
+            "word": " too,",
+            "probability": 0.91122
+          },
+          {
+            "start": 36.5,
+            "end": 36.58,
+            "word": " but",
+            "probability": 0.99341
+          },
+          {
+            "start": 36.58,
+            "end": 36.72,
+            "word": " they",
+            "probability": 0.99373
+          },
+          {
+            "start": 36.72,
+            "end": 36.84,
+            "word": " were",
+            "probability": 0.99721
+          },
+          {
+            "start": 36.84,
+            "end": 37.04,
+            "word": " way",
+            "probability": 0.99579
+          },
+          {
+            "start": 37.04,
+            "end": 37.2,
+            "word": " more",
+            "probability": 0.9985
+          },
+          {
+            "start": 37.2,
+            "end": 37.68,
+            "word": " expensive,",
+            "probability": 0.99853
+          },
+          {
+            "start": 38.1,
+            "end": 38.3,
+            "word": " around",
+            "probability": 0.9821
+          },
+          {
+            "start": 38.3,
+            "end": 38.66,
+            "word": " 3",
+            "probability": 0.68849
+          },
+          {
+            "start": 38.66,
+            "end": 39.98,
+            "word": ",550",
+            "probability": 0.89877
+          },
+          {
+            "start": 39.98,
+            "end": 40.3,
+            "word": " pounds,",
+            "probability": 0.94434
+          }
+        ]
+      },
+      {
+        "start": 40.6,
+        "end": 42.48,
+        "text": "or even 4,250 pounds.",
+        "words": [
+          {
+            "start": 40.6,
+            "end": 40.78,
+            "word": " or",
+            "probability": 0.99345
+          },
+          {
+            "start": 40.78,
+            "end": 41.0,
+            "word": " even",
+            "probability": 0.99795
+          },
+          {
+            "start": 41.0,
+            "end": 41.36,
+            "word": " 4",
+            "probability": 0.98192
+          },
+          {
+            "start": 41.36,
+            "end": 41.82,
+            "word": ",250",
+            "probability": 0.88449
+          },
+          {
+            "start": 41.82,
+            "end": 42.48,
+            "word": " pounds.",
+            "probability": 0.97761
+          }
+        ]
+      },
+      {
+        "start": 42.86,
+        "end": 44.4,
+        "text": "I'm really happy with my choice.",
+        "words": [
+          {
+            "start": 42.86,
+            "end": 43.32,
+            "word": " I'm",
+            "probability": 0.97911
+          },
+          {
+            "start": 43.32,
+            "end": 43.48,
+            "word": " really",
+            "probability": 0.99308
+          },
+          {
+            "start": 43.48,
+            "end": 43.78,
+            "word": " happy",
+            "probability": 0.99899
+          },
+          {
+            "start": 43.78,
+            "end": 43.96,
+            "word": " with",
+            "probability": 0.99655
+          },
+          {
+            "start": 43.96,
+            "end": 44.08,
+            "word": " my",
+            "probability": 0.99793
+          },
+          {
+            "start": 44.08,
+            "end": 44.4,
+            "word": " choice.",
+            "probability": 0.99539
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 62,
+            "speechStart": 0.94,
+            "speechEnd": 20.82,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey i just wanted to tell you about my new car it's a small 1 perfect for my needs i got it for a great price only 3 250 pounds can you believe it i was looking at bigger models too but they were way more expensive around 3 550 pounds or even 4 250 pounds i'm really happy with my choice",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 62,
+            "wordEndIndexExclusive": 124,
+            "speechStart": 24.84,
+            "speechEnd": 44.4,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey i just wanted to tell you about my new car it's a small 1 perfect for my needs i got it for a great price only 3 250 pounds can you believe it i was looking at bigger models too but they were way more expensive around 3 550 pounds or even 4 250 pounds i'm really happy with my choice",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

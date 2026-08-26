@@ -1,0 +1,616 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p1-q08",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-1/q08.mp3",
+  "audioSha256": "89be557b7b47772c128a65162c9b9dba3217d3537152618d28763171603a1ab9",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.91,
+        "end": 4.99,
+        "text": "This year, my family and I are going to the beach for our holiday.",
+        "words": [
+          {
+            "start": 0.91,
+            "end": 1.53,
+            "word": " This",
+            "probability": 0.93039
+          },
+          {
+            "start": 1.53,
+            "end": 1.75,
+            "word": " year,",
+            "probability": 0.99758
+          },
+          {
+            "start": 2.11,
+            "end": 2.29,
+            "word": " my",
+            "probability": 0.99583
+          },
+          {
+            "start": 2.29,
+            "end": 2.69,
+            "word": " family",
+            "probability": 0.99858
+          },
+          {
+            "start": 2.69,
+            "end": 2.89,
+            "word": " and",
+            "probability": 0.99849
+          },
+          {
+            "start": 2.89,
+            "end": 3.09,
+            "word": " I",
+            "probability": 0.99718
+          },
+          {
+            "start": 3.09,
+            "end": 3.33,
+            "word": " are",
+            "probability": 0.9846
+          },
+          {
+            "start": 3.33,
+            "end": 3.59,
+            "word": " going",
+            "probability": 0.99816
+          },
+          {
+            "start": 3.59,
+            "end": 3.79,
+            "word": " to",
+            "probability": 0.99559
+          },
+          {
+            "start": 3.79,
+            "end": 3.91,
+            "word": " the",
+            "probability": 0.98924
+          },
+          {
+            "start": 3.91,
+            "end": 4.13,
+            "word": " beach",
+            "probability": 0.98887
+          },
+          {
+            "start": 4.13,
+            "end": 4.43,
+            "word": " for",
+            "probability": 0.99613
+          },
+          {
+            "start": 4.43,
+            "end": 4.61,
+            "word": " our",
+            "probability": 0.98878
+          },
+          {
+            "start": 4.61,
+            "end": 4.99,
+            "word": " holiday.",
+            "probability": 0.98957
+          }
+        ]
+      },
+      {
+        "start": 5.59,
+        "end": 9.33,
+        "text": "I'm really excited because I love swimming and relaxing by the sea.",
+        "words": [
+          {
+            "start": 5.59,
+            "end": 5.91,
+            "word": " I'm",
+            "probability": 0.97919
+          },
+          {
+            "start": 5.91,
+            "end": 6.19,
+            "word": " really",
+            "probability": 0.99727
+          },
+          {
+            "start": 6.19,
+            "end": 6.59,
+            "word": " excited",
+            "probability": 0.99826
+          },
+          {
+            "start": 6.59,
+            "end": 6.97,
+            "word": " because",
+            "probability": 0.9788
+          },
+          {
+            "start": 6.97,
+            "end": 7.13,
+            "word": " I",
+            "probability": 0.9959
+          },
+          {
+            "start": 7.13,
+            "end": 7.41,
+            "word": " love",
+            "probability": 0.98211
+          },
+          {
+            "start": 7.41,
+            "end": 7.87,
+            "word": " swimming",
+            "probability": 0.99795
+          },
+          {
+            "start": 7.87,
+            "end": 8.19,
+            "word": " and",
+            "probability": 0.99207
+          },
+          {
+            "start": 8.19,
+            "end": 8.63,
+            "word": " relaxing",
+            "probability": 0.99053
+          },
+          {
+            "start": 8.63,
+            "end": 8.91,
+            "word": " by",
+            "probability": 0.99444
+          },
+          {
+            "start": 8.91,
+            "end": 9.05,
+            "word": " the",
+            "probability": 0.99795
+          },
+          {
+            "start": 9.05,
+            "end": 9.33,
+            "word": " sea.",
+            "probability": 0.99228
+          }
+        ]
+      },
+      {
+        "start": 10.15,
+        "end": 16.07,
+        "text": "Last year we went camping on the mountain, which was fun, but this time we wanted to do something different.",
+        "words": [
+          {
+            "start": 10.15,
+            "end": 10.35,
+            "word": " Last",
+            "probability": 0.99467
+          },
+          {
+            "start": 10.35,
+            "end": 10.65,
+            "word": " year",
+            "probability": 0.99968
+          },
+          {
+            "start": 10.65,
+            "end": 10.81,
+            "word": " we",
+            "probability": 0.60199
+          },
+          {
+            "start": 10.81,
+            "end": 10.97,
+            "word": " went",
+            "probability": 0.99882
+          },
+          {
+            "start": 10.97,
+            "end": 11.27,
+            "word": " camping",
+            "probability": 0.99532
+          },
+          {
+            "start": 11.27,
+            "end": 11.57,
+            "word": " on",
+            "probability": 0.99509
+          },
+          {
+            "start": 11.57,
+            "end": 11.69,
+            "word": " the",
+            "probability": 0.9928
+          },
+          {
+            "start": 11.69,
+            "end": 11.99,
+            "word": " mountain,",
+            "probability": 0.98336
+          },
+          {
+            "start": 12.31,
+            "end": 12.51,
+            "word": " which",
+            "probability": 0.99838
+          },
+          {
+            "start": 12.51,
+            "end": 12.67,
+            "word": " was",
+            "probability": 0.9986
+          },
+          {
+            "start": 12.67,
+            "end": 13.01,
+            "word": " fun,",
+            "probability": 0.99862
+          },
+          {
+            "start": 13.49,
+            "end": 13.71,
+            "word": " but",
+            "probability": 0.99253
+          },
+          {
+            "start": 13.71,
+            "end": 13.95,
+            "word": " this",
+            "probability": 0.99412
+          },
+          {
+            "start": 13.95,
+            "end": 14.25,
+            "word": " time",
+            "probability": 0.99945
+          },
+          {
+            "start": 14.25,
+            "end": 14.77,
+            "word": " we",
+            "probability": 0.86819
+          },
+          {
+            "start": 14.77,
+            "end": 15.01,
+            "word": " wanted",
+            "probability": 0.99522
+          },
+          {
+            "start": 15.01,
+            "end": 15.21,
+            "word": " to",
+            "probability": 0.99162
+          },
+          {
+            "start": 15.21,
+            "end": 15.35,
+            "word": " do",
+            "probability": 0.99556
+          },
+          {
+            "start": 15.35,
+            "end": 15.67,
+            "word": " something",
+            "probability": 0.99878
+          },
+          {
+            "start": 15.67,
+            "end": 16.07,
+            "word": " different.",
+            "probability": 0.99956
+          }
+        ]
+      },
+      {
+        "start": 16.55,
+        "end": 21.67,
+        "text": "We're staying in a small house near the beach, and I can't wait to watch the sunset every evening.",
+        "words": [
+          {
+            "start": 16.55,
+            "end": 16.71,
+            "word": " We're",
+            "probability": 0.97908
+          },
+          {
+            "start": 16.71,
+            "end": 16.99,
+            "word": " staying",
+            "probability": 0.99881
+          },
+          {
+            "start": 16.99,
+            "end": 17.13,
+            "word": " in",
+            "probability": 0.99431
+          },
+          {
+            "start": 17.13,
+            "end": 17.23,
+            "word": " a",
+            "probability": 0.99771
+          },
+          {
+            "start": 17.23,
+            "end": 17.51,
+            "word": " small",
+            "probability": 0.99885
+          },
+          {
+            "start": 17.51,
+            "end": 17.85,
+            "word": " house",
+            "probability": 0.99471
+          },
+          {
+            "start": 17.85,
+            "end": 18.05,
+            "word": " near",
+            "probability": 0.99433
+          },
+          {
+            "start": 18.05,
+            "end": 18.19,
+            "word": " the",
+            "probability": 0.99917
+          },
+          {
+            "start": 18.19,
+            "end": 18.53,
+            "word": " beach,",
+            "probability": 0.99779
+          },
+          {
+            "start": 18.83,
+            "end": 18.95,
+            "word": " and",
+            "probability": 0.99809
+          },
+          {
+            "start": 18.95,
+            "end": 19.07,
+            "word": " I",
+            "probability": 0.9953
+          },
+          {
+            "start": 19.07,
+            "end": 19.49,
+            "word": " can't",
+            "probability": 0.99796
+          },
+          {
+            "start": 19.49,
+            "end": 19.69,
+            "word": " wait",
+            "probability": 0.99928
+          },
+          {
+            "start": 19.69,
+            "end": 19.97,
+            "word": " to",
+            "probability": 0.99536
+          },
+          {
+            "start": 19.97,
+            "end": 20.15,
+            "word": " watch",
+            "probability": 0.99488
+          },
+          {
+            "start": 20.15,
+            "end": 20.39,
+            "word": " the",
+            "probability": 0.99564
+          },
+          {
+            "start": 20.39,
+            "end": 20.77,
+            "word": " sunset",
+            "probability": 0.99379
+          },
+          {
+            "start": 20.77,
+            "end": 21.27,
+            "word": " every",
+            "probability": 0.98007
+          },
+          {
+            "start": 21.27,
+            "end": 21.67,
+            "word": " evening.",
+            "probability": 0.99626
+          }
+        ]
+      },
+      {
+        "start": 22.37,
+        "end": 26.33,
+        "text": "My kids are excited too. They want to build sandcastles and play in the water.",
+        "words": [
+          {
+            "start": 22.37,
+            "end": 22.55,
+            "word": " My",
+            "probability": 0.99304
+          },
+          {
+            "start": 22.55,
+            "end": 22.77,
+            "word": " kids",
+            "probability": 0.99754
+          },
+          {
+            "start": 22.77,
+            "end": 22.97,
+            "word": " are",
+            "probability": 0.99928
+          },
+          {
+            "start": 22.97,
+            "end": 23.39,
+            "word": " excited",
+            "probability": 0.99768
+          },
+          {
+            "start": 23.39,
+            "end": 23.73,
+            "word": " too.",
+            "probability": 0.55679
+          },
+          {
+            "start": 24.19,
+            "end": 24.27,
+            "word": " They",
+            "probability": 0.99578
+          },
+          {
+            "start": 24.27,
+            "end": 24.43,
+            "word": " want",
+            "probability": 0.83981
+          },
+          {
+            "start": 24.43,
+            "end": 24.53,
+            "word": " to",
+            "probability": 0.99759
+          },
+          {
+            "start": 24.53,
+            "end": 24.73,
+            "word": " build",
+            "probability": 0.99905
+          },
+          {
+            "start": 24.73,
+            "end": 25.45,
+            "word": " sandcastles",
+            "probability": 0.82762
+          },
+          {
+            "start": 25.45,
+            "end": 25.63,
+            "word": " and",
+            "probability": 0.95958
+          },
+          {
+            "start": 25.63,
+            "end": 25.85,
+            "word": " play",
+            "probability": 0.99754
+          },
+          {
+            "start": 25.85,
+            "end": 25.99,
+            "word": " in",
+            "probability": 0.99838
+          },
+          {
+            "start": 25.99,
+            "end": 26.07,
+            "word": " the",
+            "probability": 0.99921
+          },
+          {
+            "start": 26.07,
+            "end": 26.33,
+            "word": " water.",
+            "probability": 0.99916
+          }
+        ]
+      },
+      {
+        "start": 26.77,
+        "end": 28.35,
+        "text": "I think it's going to be a great holiday.",
+        "words": [
+          {
+            "start": 26.77,
+            "end": 26.91,
+            "word": " I",
+            "probability": 0.99812
+          },
+          {
+            "start": 26.91,
+            "end": 27.09,
+            "word": " think",
+            "probability": 0.99908
+          },
+          {
+            "start": 27.09,
+            "end": 27.29,
+            "word": " it's",
+            "probability": 0.99222
+          },
+          {
+            "start": 27.29,
+            "end": 27.41,
+            "word": " going",
+            "probability": 0.96865
+          },
+          {
+            "start": 27.41,
+            "end": 27.53,
+            "word": " to",
+            "probability": 0.99661
+          },
+          {
+            "start": 27.53,
+            "end": 27.63,
+            "word": " be",
+            "probability": 0.99837
+          },
+          {
+            "start": 27.63,
+            "end": 27.73,
+            "word": " a",
+            "probability": 0.9954
+          },
+          {
+            "start": 27.73,
+            "end": 27.91,
+            "word": " great",
+            "probability": 0.99805
+          },
+          {
+            "start": 27.91,
+            "end": 28.35,
+            "word": " holiday.",
+            "probability": 0.99766
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q08",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 89,
+            "speechStart": 0.91,
+            "speechEnd": 28.35,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "this year my family and i are going to the beach for our holiday i'm really excited because i love swimming and relaxing by the sea last year we went camping on the mountain which was fun but this time we wanted to do something different we're staying in a small house near the beach and i can't wait to watch the sunset every evening my kids are excited too they want to build sandcastles and play in the water i think it's going to be a great holiday",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

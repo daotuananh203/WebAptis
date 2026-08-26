@@ -1,0 +1,714 @@
+{
+  "testId": "aptis-b2-07",
+  "blockId": "p1-q13",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-07/part-1/q13.mp3",
+  "audioSha256": "6d9074fc3e92e68b96d050739149cf919f872cd791c566b9f956264aaa9b1959",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.94,
+        "end": 5.84,
+        "text": "Hello, everyone. Welcome to our tour. My name is Sam and I'm your tour guide today.",
+        "words": [
+          {
+            "start": 0.94,
+            "end": 1.44,
+            "word": " Hello,",
+            "probability": 0.67823
+          },
+          {
+            "start": 1.56,
+            "end": 1.88,
+            "word": " everyone.",
+            "probability": 0.97675
+          },
+          {
+            "start": 2.12,
+            "end": 2.3,
+            "word": " Welcome",
+            "probability": 0.99578
+          },
+          {
+            "start": 2.3,
+            "end": 2.5,
+            "word": " to",
+            "probability": 0.99501
+          },
+          {
+            "start": 2.5,
+            "end": 2.62,
+            "word": " our",
+            "probability": 0.99296
+          },
+          {
+            "start": 2.62,
+            "end": 2.9,
+            "word": " tour.",
+            "probability": 0.98798
+          },
+          {
+            "start": 3.52,
+            "end": 3.8,
+            "word": " My",
+            "probability": 0.9728
+          },
+          {
+            "start": 3.8,
+            "end": 3.96,
+            "word": " name",
+            "probability": 0.99945
+          },
+          {
+            "start": 3.96,
+            "end": 4.18,
+            "word": " is",
+            "probability": 0.99755
+          },
+          {
+            "start": 4.18,
+            "end": 4.34,
+            "word": " Sam",
+            "probability": 0.99139
+          },
+          {
+            "start": 4.34,
+            "end": 4.82,
+            "word": " and",
+            "probability": 0.37656
+          },
+          {
+            "start": 4.82,
+            "end": 5.0,
+            "word": " I'm",
+            "probability": 0.98115
+          },
+          {
+            "start": 5.0,
+            "end": 5.1,
+            "word": " your",
+            "probability": 0.99743
+          },
+          {
+            "start": 5.1,
+            "end": 5.26,
+            "word": " tour",
+            "probability": 0.9932
+          },
+          {
+            "start": 5.26,
+            "end": 5.5,
+            "word": " guide",
+            "probability": 0.99443
+          },
+          {
+            "start": 5.5,
+            "end": 5.84,
+            "word": " today.",
+            "probability": 0.98869
+          }
+        ]
+      },
+      {
+        "start": 6.58,
+        "end": 8.94,
+        "text": "I'm excited to show you around this beautiful city.",
+        "words": [
+          {
+            "start": 6.58,
+            "end": 6.78,
+            "word": " I'm",
+            "probability": 0.98819
+          },
+          {
+            "start": 6.78,
+            "end": 7.16,
+            "word": " excited",
+            "probability": 0.99697
+          },
+          {
+            "start": 7.16,
+            "end": 7.4,
+            "word": " to",
+            "probability": 0.99762
+          },
+          {
+            "start": 7.4,
+            "end": 7.6,
+            "word": " show",
+            "probability": 0.9963
+          },
+          {
+            "start": 7.6,
+            "end": 7.76,
+            "word": " you",
+            "probability": 0.99833
+          },
+          {
+            "start": 7.76,
+            "end": 8.0,
+            "word": " around",
+            "probability": 0.9957
+          },
+          {
+            "start": 8.0,
+            "end": 8.24,
+            "word": " this",
+            "probability": 0.99503
+          },
+          {
+            "start": 8.24,
+            "end": 8.62,
+            "word": " beautiful",
+            "probability": 0.99545
+          },
+          {
+            "start": 8.62,
+            "end": 8.94,
+            "word": " city.",
+            "probability": 0.99691
+          }
+        ]
+      },
+      {
+        "start": 9.5,
+        "end": 14.6,
+        "text": "We will visit many interesting places, including parks, museums and local markets.",
+        "words": [
+          {
+            "start": 9.5,
+            "end": 9.8,
+            "word": " We",
+            "probability": 0.99616
+          },
+          {
+            "start": 9.8,
+            "end": 9.9,
+            "word": " will",
+            "probability": 0.99216
+          },
+          {
+            "start": 9.9,
+            "end": 10.16,
+            "word": " visit",
+            "probability": 0.99859
+          },
+          {
+            "start": 10.16,
+            "end": 10.5,
+            "word": " many",
+            "probability": 0.99808
+          },
+          {
+            "start": 10.5,
+            "end": 10.96,
+            "word": " interesting",
+            "probability": 0.99718
+          },
+          {
+            "start": 10.96,
+            "end": 11.44,
+            "word": " places,",
+            "probability": 0.9988
+          },
+          {
+            "start": 11.9,
+            "end": 12.3,
+            "word": " including",
+            "probability": 0.998
+          },
+          {
+            "start": 12.3,
+            "end": 12.62,
+            "word": " parks,",
+            "probability": 0.94832
+          },
+          {
+            "start": 13.1,
+            "end": 13.46,
+            "word": " museums",
+            "probability": 0.99782
+          },
+          {
+            "start": 13.46,
+            "end": 13.9,
+            "word": " and",
+            "probability": 0.5986
+          },
+          {
+            "start": 13.9,
+            "end": 14.14,
+            "word": " local",
+            "probability": 0.99509
+          },
+          {
+            "start": 14.14,
+            "end": 14.6,
+            "word": " markets.",
+            "probability": 0.99744
+          }
+        ]
+      },
+      {
+        "start": 15.14,
+        "end": 18.72,
+        "text": "As we walk, I'll share fun facts and stories about each location.",
+        "words": [
+          {
+            "start": 15.14,
+            "end": 15.34,
+            "word": " As",
+            "probability": 0.99325
+          },
+          {
+            "start": 15.34,
+            "end": 15.46,
+            "word": " we",
+            "probability": 0.999
+          },
+          {
+            "start": 15.46,
+            "end": 15.72,
+            "word": " walk,",
+            "probability": 0.9979
+          },
+          {
+            "start": 15.98,
+            "end": 16.12,
+            "word": " I'll",
+            "probability": 0.99396
+          },
+          {
+            "start": 16.12,
+            "end": 16.26,
+            "word": " share",
+            "probability": 0.99855
+          },
+          {
+            "start": 16.26,
+            "end": 16.54,
+            "word": " fun",
+            "probability": 0.99689
+          },
+          {
+            "start": 16.54,
+            "end": 16.86,
+            "word": " facts",
+            "probability": 0.98851
+          },
+          {
+            "start": 16.86,
+            "end": 17.14,
+            "word": " and",
+            "probability": 0.99115
+          },
+          {
+            "start": 17.14,
+            "end": 17.58,
+            "word": " stories",
+            "probability": 0.99844
+          },
+          {
+            "start": 17.58,
+            "end": 17.88,
+            "word": " about",
+            "probability": 0.99569
+          },
+          {
+            "start": 17.88,
+            "end": 18.18,
+            "word": " each",
+            "probability": 0.99969
+          },
+          {
+            "start": 18.18,
+            "end": 18.72,
+            "word": " location.",
+            "probability": 0.99885
+          }
+        ]
+      },
+      {
+        "start": 19.26,
+        "end": 21.52,
+        "text": "If you have any questions, feel free to ask.",
+        "words": [
+          {
+            "start": 19.26,
+            "end": 19.42,
+            "word": " If",
+            "probability": 0.99414
+          },
+          {
+            "start": 19.42,
+            "end": 19.5,
+            "word": " you",
+            "probability": 0.99941
+          },
+          {
+            "start": 19.5,
+            "end": 19.64,
+            "word": " have",
+            "probability": 0.99842
+          },
+          {
+            "start": 19.64,
+            "end": 19.8,
+            "word": " any",
+            "probability": 0.99081
+          },
+          {
+            "start": 19.8,
+            "end": 20.24,
+            "word": " questions,",
+            "probability": 0.9981
+          },
+          {
+            "start": 20.72,
+            "end": 20.84,
+            "word": " feel",
+            "probability": 0.99853
+          },
+          {
+            "start": 20.84,
+            "end": 21.06,
+            "word": " free",
+            "probability": 0.999
+          },
+          {
+            "start": 21.06,
+            "end": 21.2,
+            "word": " to",
+            "probability": 0.99949
+          },
+          {
+            "start": 21.2,
+            "end": 21.52,
+            "word": " ask.",
+            "probability": 0.99831
+          }
+        ]
+      },
+      {
+        "start": 22.66,
+        "end": 27.6,
+        "text": "Now before we start, I want to let you know that our office is opposite the hotel where you are staying.",
+        "words": [
+          {
+            "start": 22.66,
+            "end": 22.92,
+            "word": " Now",
+            "probability": 0.96975
+          },
+          {
+            "start": 22.92,
+            "end": 23.14,
+            "word": " before",
+            "probability": 0.49599
+          },
+          {
+            "start": 23.14,
+            "end": 23.34,
+            "word": " we",
+            "probability": 0.99879
+          },
+          {
+            "start": 23.34,
+            "end": 23.58,
+            "word": " start,",
+            "probability": 0.99883
+          },
+          {
+            "start": 23.9,
+            "end": 24.1,
+            "word": " I",
+            "probability": 0.99727
+          },
+          {
+            "start": 24.1,
+            "end": 24.24,
+            "word": " want",
+            "probability": 0.99605
+          },
+          {
+            "start": 24.24,
+            "end": 24.4,
+            "word": " to",
+            "probability": 0.99724
+          },
+          {
+            "start": 24.4,
+            "end": 24.52,
+            "word": " let",
+            "probability": 0.99723
+          },
+          {
+            "start": 24.52,
+            "end": 24.66,
+            "word": " you",
+            "probability": 0.99769
+          },
+          {
+            "start": 24.66,
+            "end": 24.84,
+            "word": " know",
+            "probability": 0.9985
+          },
+          {
+            "start": 24.84,
+            "end": 25.12,
+            "word": " that",
+            "probability": 0.97403
+          },
+          {
+            "start": 25.12,
+            "end": 25.3,
+            "word": " our",
+            "probability": 0.99602
+          },
+          {
+            "start": 25.3,
+            "end": 25.62,
+            "word": " office",
+            "probability": 0.99016
+          },
+          {
+            "start": 25.62,
+            "end": 25.88,
+            "word": " is",
+            "probability": 0.99365
+          },
+          {
+            "start": 25.88,
+            "end": 26.2,
+            "word": " opposite",
+            "probability": 0.99653
+          },
+          {
+            "start": 26.2,
+            "end": 26.48,
+            "word": " the",
+            "probability": 0.99197
+          },
+          {
+            "start": 26.48,
+            "end": 26.8,
+            "word": " hotel",
+            "probability": 0.9983
+          },
+          {
+            "start": 26.8,
+            "end": 27.02,
+            "word": " where",
+            "probability": 0.96951
+          },
+          {
+            "start": 27.02,
+            "end": 27.12,
+            "word": " you",
+            "probability": 0.99698
+          },
+          {
+            "start": 27.12,
+            "end": 27.24,
+            "word": " are",
+            "probability": 0.97928
+          },
+          {
+            "start": 27.24,
+            "end": 27.6,
+            "word": " staying.",
+            "probability": 0.99959
+          }
+        ]
+      },
+      {
+        "start": 27.6,
+        "end": 32.14,
+        "text": "If you need any help or information during your stay, you can always come to us.",
+        "words": [
+          {
+            "start": 27.6,
+            "end": 28.0,
+            "word": " If",
+            "probability": 0.79582
+          },
+          {
+            "start": 28.0,
+            "end": 28.14,
+            "word": " you",
+            "probability": 0.99125
+          },
+          {
+            "start": 28.14,
+            "end": 28.36,
+            "word": " need",
+            "probability": 0.99786
+          },
+          {
+            "start": 28.36,
+            "end": 28.64,
+            "word": " any",
+            "probability": 0.96982
+          },
+          {
+            "start": 28.64,
+            "end": 28.94,
+            "word": " help",
+            "probability": 0.82828
+          },
+          {
+            "start": 28.94,
+            "end": 29.16,
+            "word": " or",
+            "probability": 0.9947
+          },
+          {
+            "start": 29.16,
+            "end": 29.7,
+            "word": " information",
+            "probability": 0.99509
+          },
+          {
+            "start": 29.7,
+            "end": 29.98,
+            "word": " during",
+            "probability": 0.99348
+          },
+          {
+            "start": 29.98,
+            "end": 30.18,
+            "word": " your",
+            "probability": 0.99515
+          },
+          {
+            "start": 30.18,
+            "end": 30.44,
+            "word": " stay,",
+            "probability": 0.99389
+          },
+          {
+            "start": 30.74,
+            "end": 30.8,
+            "word": " you",
+            "probability": 0.9959
+          },
+          {
+            "start": 30.8,
+            "end": 30.94,
+            "word": " can",
+            "probability": 0.99773
+          },
+          {
+            "start": 30.94,
+            "end": 31.32,
+            "word": " always",
+            "probability": 0.99001
+          },
+          {
+            "start": 31.32,
+            "end": 31.58,
+            "word": " come",
+            "probability": 0.99791
+          },
+          {
+            "start": 31.58,
+            "end": 31.8,
+            "word": " to",
+            "probability": 0.99337
+          },
+          {
+            "start": 31.8,
+            "end": 32.14,
+            "word": " us.",
+            "probability": 0.99772
+          }
+        ]
+      },
+      {
+        "start": 32.6,
+        "end": 35.88,
+        "text": "Let's begin our adventure and enjoy exploring together.",
+        "words": [
+          {
+            "start": 32.6,
+            "end": 32.9,
+            "word": " Let's",
+            "probability": 0.98103
+          },
+          {
+            "start": 32.9,
+            "end": 33.16,
+            "word": " begin",
+            "probability": 0.99121
+          },
+          {
+            "start": 33.16,
+            "end": 33.4,
+            "word": " our",
+            "probability": 0.99743
+          },
+          {
+            "start": 33.4,
+            "end": 33.88,
+            "word": " adventure",
+            "probability": 0.99155
+          },
+          {
+            "start": 33.88,
+            "end": 34.46,
+            "word": " and",
+            "probability": 0.89662
+          },
+          {
+            "start": 34.46,
+            "end": 34.86,
+            "word": " enjoy",
+            "probability": 0.99675
+          },
+          {
+            "start": 34.86,
+            "end": 35.46,
+            "word": " exploring",
+            "probability": 0.99475
+          },
+          {
+            "start": 35.46,
+            "end": 35.88,
+            "word": " together.",
+            "probability": 0.99449
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q13",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 103,
+            "speechStart": 0.94,
+            "speechEnd": 35.88,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hello everyone welcome to our tour my name is sam and i'm your tour guide today i'm excited to show you around this beautiful city we will visit many interesting places including parks museums and local markets as we walk i'll share fun facts and stories about each location if you have any questions feel free to ask now before we start i want to let you know that our office is opposite the hotel where you are staying if you need any help or information during your stay you can always come to us let's begin our adventure and enjoy exploring together",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

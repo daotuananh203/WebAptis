@@ -1,0 +1,2023 @@
+{
+  "testId": "aptis-b2-12",
+  "blockId": "p4-mono2",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-12/part-4/mono2.mp3",
+  "audioSha256": "f5f7637f073d0d60290f8cb5817497ef1ab33e70b78bb1bcb28332a0108868b3",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.72,
+        "end": 2.04,
+        "text": "Good afternoon everyone.",
+        "words": [
+          {
+            "start": 0.72,
+            "end": 1.2,
+            "word": " Good",
+            "probability": 0.96397
+          },
+          {
+            "start": 1.2,
+            "end": 1.54,
+            "word": " afternoon",
+            "probability": 0.95902
+          },
+          {
+            "start": 1.54,
+            "end": 2.04,
+            "word": " everyone.",
+            "probability": 0.59321
+          }
+        ]
+      },
+      {
+        "start": 2.78,
+        "end": 8.8,
+        "text": "Today we're diving into the life of a beloved musician who has decided to retire from singing professionally.",
+        "words": [
+          {
+            "start": 2.78,
+            "end": 3.04,
+            "word": " Today",
+            "probability": 0.99612
+          },
+          {
+            "start": 3.04,
+            "end": 3.38,
+            "word": " we're",
+            "probability": 0.56693
+          },
+          {
+            "start": 3.38,
+            "end": 3.64,
+            "word": " diving",
+            "probability": 0.99452
+          },
+          {
+            "start": 3.64,
+            "end": 3.98,
+            "word": " into",
+            "probability": 0.96405
+          },
+          {
+            "start": 3.98,
+            "end": 4.12,
+            "word": " the",
+            "probability": 0.98674
+          },
+          {
+            "start": 4.12,
+            "end": 4.36,
+            "word": " life",
+            "probability": 0.99457
+          },
+          {
+            "start": 4.36,
+            "end": 4.62,
+            "word": " of",
+            "probability": 0.99316
+          },
+          {
+            "start": 4.62,
+            "end": 4.72,
+            "word": " a",
+            "probability": 0.9853
+          },
+          {
+            "start": 4.72,
+            "end": 5.02,
+            "word": " beloved",
+            "probability": 0.99691
+          },
+          {
+            "start": 5.02,
+            "end": 5.64,
+            "word": " musician",
+            "probability": 0.99824
+          },
+          {
+            "start": 5.64,
+            "end": 6.08,
+            "word": " who",
+            "probability": 0.93455
+          },
+          {
+            "start": 6.08,
+            "end": 6.2,
+            "word": " has",
+            "probability": 0.94392
+          },
+          {
+            "start": 6.2,
+            "end": 6.64,
+            "word": " decided",
+            "probability": 0.99745
+          },
+          {
+            "start": 6.64,
+            "end": 6.94,
+            "word": " to",
+            "probability": 0.99878
+          },
+          {
+            "start": 6.94,
+            "end": 7.36,
+            "word": " retire",
+            "probability": 0.99524
+          },
+          {
+            "start": 7.36,
+            "end": 7.64,
+            "word": " from",
+            "probability": 0.99858
+          },
+          {
+            "start": 7.64,
+            "end": 7.98,
+            "word": " singing",
+            "probability": 0.98244
+          },
+          {
+            "start": 7.98,
+            "end": 8.8,
+            "word": " professionally.",
+            "probability": 0.98403
+          }
+        ]
+      },
+      {
+        "start": 9.7,
+        "end": 16.56,
+        "text": "Unlike in the past, where he would inform his fans and then make a comeback, this time he's serious about stepping away for good.",
+        "words": [
+          {
+            "start": 9.7,
+            "end": 10.06,
+            "word": " Unlike",
+            "probability": 0.99122
+          },
+          {
+            "start": 10.06,
+            "end": 10.26,
+            "word": " in",
+            "probability": 0.9934
+          },
+          {
+            "start": 10.26,
+            "end": 10.32,
+            "word": " the",
+            "probability": 0.98555
+          },
+          {
+            "start": 10.32,
+            "end": 10.78,
+            "word": " past,",
+            "probability": 0.99912
+          },
+          {
+            "start": 10.94,
+            "end": 11.08,
+            "word": " where",
+            "probability": 0.98318
+          },
+          {
+            "start": 11.08,
+            "end": 11.2,
+            "word": " he",
+            "probability": 0.99738
+          },
+          {
+            "start": 11.2,
+            "end": 11.34,
+            "word": " would",
+            "probability": 0.98841
+          },
+          {
+            "start": 11.34,
+            "end": 11.62,
+            "word": " inform",
+            "probability": 0.98978
+          },
+          {
+            "start": 11.62,
+            "end": 11.92,
+            "word": " his",
+            "probability": 0.98964
+          },
+          {
+            "start": 11.92,
+            "end": 12.24,
+            "word": " fans",
+            "probability": 0.9991
+          },
+          {
+            "start": 12.24,
+            "end": 12.5,
+            "word": " and",
+            "probability": 0.94874
+          },
+          {
+            "start": 12.5,
+            "end": 12.62,
+            "word": " then",
+            "probability": 0.8999
+          },
+          {
+            "start": 12.62,
+            "end": 12.8,
+            "word": " make",
+            "probability": 0.99568
+          },
+          {
+            "start": 12.8,
+            "end": 12.96,
+            "word": " a",
+            "probability": 0.98491
+          },
+          {
+            "start": 12.96,
+            "end": 13.36,
+            "word": " comeback,",
+            "probability": 0.97554
+          },
+          {
+            "start": 13.74,
+            "end": 13.98,
+            "word": " this",
+            "probability": 0.9918
+          },
+          {
+            "start": 13.98,
+            "end": 14.26,
+            "word": " time",
+            "probability": 0.99932
+          },
+          {
+            "start": 14.26,
+            "end": 14.64,
+            "word": " he's",
+            "probability": 0.95574
+          },
+          {
+            "start": 14.64,
+            "end": 15.1,
+            "word": " serious",
+            "probability": 0.97866
+          },
+          {
+            "start": 15.1,
+            "end": 15.4,
+            "word": " about",
+            "probability": 0.9984
+          },
+          {
+            "start": 15.4,
+            "end": 15.72,
+            "word": " stepping",
+            "probability": 0.99062
+          },
+          {
+            "start": 15.72,
+            "end": 16.08,
+            "word": " away",
+            "probability": 0.99739
+          },
+          {
+            "start": 16.08,
+            "end": 16.32,
+            "word": " for",
+            "probability": 0.99541
+          },
+          {
+            "start": 16.32,
+            "end": 16.56,
+            "word": " good.",
+            "probability": 0.9968
+          }
+        ]
+      },
+      {
+        "start": 17.24,
+        "end": 23.6,
+        "text": "His talent has always shown through and many believe he could have achieved even greater success with his recent albums.",
+        "words": [
+          {
+            "start": 17.24,
+            "end": 17.44,
+            "word": " His",
+            "probability": 0.98646
+          },
+          {
+            "start": 17.44,
+            "end": 17.78,
+            "word": " talent",
+            "probability": 0.99878
+          },
+          {
+            "start": 17.78,
+            "end": 17.96,
+            "word": " has",
+            "probability": 0.98568
+          },
+          {
+            "start": 17.96,
+            "end": 18.32,
+            "word": " always",
+            "probability": 0.9954
+          },
+          {
+            "start": 18.32,
+            "end": 18.62,
+            "word": " shown",
+            "probability": 0.95832
+          },
+          {
+            "start": 18.62,
+            "end": 18.96,
+            "word": " through",
+            "probability": 0.9936
+          },
+          {
+            "start": 18.96,
+            "end": 19.46,
+            "word": " and",
+            "probability": 0.31447
+          },
+          {
+            "start": 19.46,
+            "end": 19.68,
+            "word": " many",
+            "probability": 0.93735
+          },
+          {
+            "start": 19.68,
+            "end": 20.1,
+            "word": " believe",
+            "probability": 0.99105
+          },
+          {
+            "start": 20.1,
+            "end": 20.42,
+            "word": " he",
+            "probability": 0.97567
+          },
+          {
+            "start": 20.42,
+            "end": 20.6,
+            "word": " could",
+            "probability": 0.99771
+          },
+          {
+            "start": 20.6,
+            "end": 20.7,
+            "word": " have",
+            "probability": 0.75937
+          },
+          {
+            "start": 20.7,
+            "end": 21.0,
+            "word": " achieved",
+            "probability": 0.99157
+          },
+          {
+            "start": 21.0,
+            "end": 21.48,
+            "word": " even",
+            "probability": 0.99176
+          },
+          {
+            "start": 21.48,
+            "end": 21.82,
+            "word": " greater",
+            "probability": 0.99801
+          },
+          {
+            "start": 21.82,
+            "end": 22.3,
+            "word": " success",
+            "probability": 0.99918
+          },
+          {
+            "start": 22.3,
+            "end": 22.78,
+            "word": " with",
+            "probability": 0.99276
+          },
+          {
+            "start": 22.78,
+            "end": 22.92,
+            "word": " his",
+            "probability": 0.99592
+          },
+          {
+            "start": 22.92,
+            "end": 23.24,
+            "word": " recent",
+            "probability": 0.99725
+          },
+          {
+            "start": 23.24,
+            "end": 23.6,
+            "word": " albums.",
+            "probability": 0.99528
+          }
+        ]
+      },
+      {
+        "start": 24.32,
+        "end": 30.26,
+        "text": "However, the long break he took between projects made it difficult for him to regain his previous momentum.",
+        "words": [
+          {
+            "start": 24.32,
+            "end": 24.64,
+            "word": " However,",
+            "probability": 0.99535
+          },
+          {
+            "start": 25.04,
+            "end": 25.2,
+            "word": " the",
+            "probability": 0.99408
+          },
+          {
+            "start": 25.2,
+            "end": 25.48,
+            "word": " long",
+            "probability": 0.99527
+          },
+          {
+            "start": 25.48,
+            "end": 25.74,
+            "word": " break",
+            "probability": 0.98733
+          },
+          {
+            "start": 25.74,
+            "end": 26.0,
+            "word": " he",
+            "probability": 0.99647
+          },
+          {
+            "start": 26.0,
+            "end": 26.2,
+            "word": " took",
+            "probability": 0.99881
+          },
+          {
+            "start": 26.2,
+            "end": 26.54,
+            "word": " between",
+            "probability": 0.99649
+          },
+          {
+            "start": 26.54,
+            "end": 27.16,
+            "word": " projects",
+            "probability": 0.97593
+          },
+          {
+            "start": 27.16,
+            "end": 27.6,
+            "word": " made",
+            "probability": 0.98909
+          },
+          {
+            "start": 27.6,
+            "end": 27.74,
+            "word": " it",
+            "probability": 0.99926
+          },
+          {
+            "start": 27.74,
+            "end": 28.14,
+            "word": " difficult",
+            "probability": 0.9995
+          },
+          {
+            "start": 28.14,
+            "end": 28.4,
+            "word": " for",
+            "probability": 0.99654
+          },
+          {
+            "start": 28.4,
+            "end": 28.54,
+            "word": " him",
+            "probability": 0.99961
+          },
+          {
+            "start": 28.54,
+            "end": 28.7,
+            "word": " to",
+            "probability": 0.99807
+          },
+          {
+            "start": 28.7,
+            "end": 29.02,
+            "word": " regain",
+            "probability": 0.99707
+          },
+          {
+            "start": 29.02,
+            "end": 29.3,
+            "word": " his",
+            "probability": 0.99606
+          },
+          {
+            "start": 29.3,
+            "end": 29.7,
+            "word": " previous",
+            "probability": 0.98421
+          },
+          {
+            "start": 29.7,
+            "end": 30.26,
+            "word": " momentum.",
+            "probability": 0.98929
+          }
+        ]
+      },
+      {
+        "start": 30.26,
+        "end": 35.88,
+        "text": "them. Fans were excited to see him return, but the gap left some wondering if he could",
+        "words": [
+          {
+            "start": 30.26,
+            "end": 30.36,
+            "word": " them.",
+            "probability": 0.00251
+          },
+          {
+            "start": 30.9,
+            "end": 31.36,
+            "word": " Fans",
+            "probability": 0.97805
+          },
+          {
+            "start": 31.36,
+            "end": 31.5,
+            "word": " were",
+            "probability": 0.98957
+          },
+          {
+            "start": 31.5,
+            "end": 31.88,
+            "word": " excited",
+            "probability": 0.9928
+          },
+          {
+            "start": 31.88,
+            "end": 32.08,
+            "word": " to",
+            "probability": 0.99569
+          },
+          {
+            "start": 32.08,
+            "end": 32.26,
+            "word": " see",
+            "probability": 0.9976
+          },
+          {
+            "start": 32.26,
+            "end": 32.38,
+            "word": " him",
+            "probability": 0.99584
+          },
+          {
+            "start": 32.38,
+            "end": 32.72,
+            "word": " return,",
+            "probability": 0.99363
+          },
+          {
+            "start": 33.38,
+            "end": 33.56,
+            "word": " but",
+            "probability": 0.99491
+          },
+          {
+            "start": 33.56,
+            "end": 33.72,
+            "word": " the",
+            "probability": 0.99244
+          },
+          {
+            "start": 33.72,
+            "end": 33.96,
+            "word": " gap",
+            "probability": 0.87314
+          },
+          {
+            "start": 33.96,
+            "end": 34.32,
+            "word": " left",
+            "probability": 0.99649
+          },
+          {
+            "start": 34.32,
+            "end": 34.68,
+            "word": " some",
+            "probability": 0.8955
+          },
+          {
+            "start": 34.68,
+            "end": 35.18,
+            "word": " wondering",
+            "probability": 0.96986
+          },
+          {
+            "start": 35.18,
+            "end": 35.62,
+            "word": " if",
+            "probability": 0.98072
+          },
+          {
+            "start": 35.62,
+            "end": 35.72,
+            "word": " he",
+            "probability": 0.99516
+          },
+          {
+            "start": 35.72,
+            "end": 35.88,
+            "word": " could",
+            "probability": 0.98469
+          }
+        ]
+      },
+      {
+        "start": 35.88,
+        "end": 41.4,
+        "text": "still capture the magic he once had. As he prepares for this new chapter in his life,",
+        "words": [
+          {
+            "start": 35.88,
+            "end": 36.14,
+            "word": " still",
+            "probability": 0.88472
+          },
+          {
+            "start": 36.14,
+            "end": 36.62,
+            "word": " capture",
+            "probability": 0.99154
+          },
+          {
+            "start": 36.62,
+            "end": 36.82,
+            "word": " the",
+            "probability": 0.99341
+          },
+          {
+            "start": 36.82,
+            "end": 37.16,
+            "word": " magic",
+            "probability": 0.97939
+          },
+          {
+            "start": 37.16,
+            "end": 37.42,
+            "word": " he",
+            "probability": 0.98971
+          },
+          {
+            "start": 37.42,
+            "end": 37.7,
+            "word": " once",
+            "probability": 0.98226
+          },
+          {
+            "start": 37.7,
+            "end": 38.04,
+            "word": " had.",
+            "probability": 0.99783
+          },
+          {
+            "start": 38.92,
+            "end": 39.16,
+            "word": " As",
+            "probability": 0.98369
+          },
+          {
+            "start": 39.16,
+            "end": 39.28,
+            "word": " he",
+            "probability": 0.99682
+          },
+          {
+            "start": 39.28,
+            "end": 39.66,
+            "word": " prepares",
+            "probability": 0.98595
+          },
+          {
+            "start": 39.66,
+            "end": 39.96,
+            "word": " for",
+            "probability": 0.99857
+          },
+          {
+            "start": 39.96,
+            "end": 40.14,
+            "word": " this",
+            "probability": 0.98433
+          },
+          {
+            "start": 40.14,
+            "end": 40.36,
+            "word": " new",
+            "probability": 0.99563
+          },
+          {
+            "start": 40.36,
+            "end": 40.78,
+            "word": " chapter",
+            "probability": 0.9962
+          },
+          {
+            "start": 40.78,
+            "end": 40.98,
+            "word": " in",
+            "probability": 0.9916
+          },
+          {
+            "start": 40.98,
+            "end": 41.12,
+            "word": " his",
+            "probability": 0.99654
+          },
+          {
+            "start": 41.12,
+            "end": 41.4,
+            "word": " life,",
+            "probability": 0.99468
+          }
+        ]
+      },
+      {
+        "start": 41.88,
+        "end": 47.32,
+        "text": "we can only reflect on the incredible music he's given us over the years. He leaves behind",
+        "words": [
+          {
+            "start": 41.88,
+            "end": 42.0,
+            "word": " we",
+            "probability": 0.99315
+          },
+          {
+            "start": 42.0,
+            "end": 42.14,
+            "word": " can",
+            "probability": 0.99407
+          },
+          {
+            "start": 42.14,
+            "end": 42.34,
+            "word": " only",
+            "probability": 0.99723
+          },
+          {
+            "start": 42.34,
+            "end": 42.76,
+            "word": " reflect",
+            "probability": 0.99851
+          },
+          {
+            "start": 42.76,
+            "end": 43.04,
+            "word": " on",
+            "probability": 0.98979
+          },
+          {
+            "start": 43.04,
+            "end": 43.18,
+            "word": " the",
+            "probability": 0.99482
+          },
+          {
+            "start": 43.18,
+            "end": 43.7,
+            "word": " incredible",
+            "probability": 0.98671
+          },
+          {
+            "start": 43.7,
+            "end": 44.2,
+            "word": " music",
+            "probability": 0.99318
+          },
+          {
+            "start": 44.2,
+            "end": 44.74,
+            "word": " he's",
+            "probability": 0.91139
+          },
+          {
+            "start": 44.74,
+            "end": 44.96,
+            "word": " given",
+            "probability": 0.98265
+          },
+          {
+            "start": 44.96,
+            "end": 45.18,
+            "word": " us",
+            "probability": 0.98863
+          },
+          {
+            "start": 45.18,
+            "end": 45.44,
+            "word": " over",
+            "probability": 0.9937
+          },
+          {
+            "start": 45.44,
+            "end": 45.58,
+            "word": " the",
+            "probability": 0.99383
+          },
+          {
+            "start": 45.58,
+            "end": 45.86,
+            "word": " years.",
+            "probability": 0.99721
+          },
+          {
+            "start": 46.52,
+            "end": 46.74,
+            "word": " He",
+            "probability": 0.99183
+          },
+          {
+            "start": 46.74,
+            "end": 46.94,
+            "word": " leaves",
+            "probability": 0.99336
+          },
+          {
+            "start": 46.94,
+            "end": 47.32,
+            "word": " behind",
+            "probability": 0.99946
+          }
+        ]
+      },
+      {
+        "start": 47.32,
+        "end": 53.32,
+        "text": "a rich legacy that will inspire future generations of artists. Stay tuned for more updates on",
+        "words": [
+          {
+            "start": 47.32,
+            "end": 47.5,
+            "word": " a",
+            "probability": 0.99752
+          },
+          {
+            "start": 47.5,
+            "end": 47.78,
+            "word": " rich",
+            "probability": 0.99726
+          },
+          {
+            "start": 47.78,
+            "end": 48.28,
+            "word": " legacy",
+            "probability": 0.99634
+          },
+          {
+            "start": 48.28,
+            "end": 48.72,
+            "word": " that",
+            "probability": 0.99154
+          },
+          {
+            "start": 48.72,
+            "end": 48.86,
+            "word": " will",
+            "probability": 0.99604
+          },
+          {
+            "start": 48.86,
+            "end": 49.36,
+            "word": " inspire",
+            "probability": 0.99828
+          },
+          {
+            "start": 49.36,
+            "end": 49.92,
+            "word": " future",
+            "probability": 0.99883
+          },
+          {
+            "start": 49.92,
+            "end": 50.5,
+            "word": " generations",
+            "probability": 0.99559
+          },
+          {
+            "start": 50.5,
+            "end": 50.82,
+            "word": " of",
+            "probability": 0.99711
+          },
+          {
+            "start": 50.82,
+            "end": 51.1,
+            "word": " artists.",
+            "probability": 0.98921
+          },
+          {
+            "start": 51.74,
+            "end": 51.98,
+            "word": " Stay",
+            "probability": 0.98916
+          },
+          {
+            "start": 51.98,
+            "end": 52.3,
+            "word": " tuned",
+            "probability": 0.99796
+          },
+          {
+            "start": 52.3,
+            "end": 52.46,
+            "word": " for",
+            "probability": 0.99557
+          },
+          {
+            "start": 52.46,
+            "end": 52.64,
+            "word": " more",
+            "probability": 0.99706
+          },
+          {
+            "start": 52.64,
+            "end": 53.04,
+            "word": " updates",
+            "probability": 0.99396
+          },
+          {
+            "start": 53.04,
+            "end": 53.32,
+            "word": " on",
+            "probability": 0.99503
+          }
+        ]
+      },
+      {
+        "start": 53.32,
+        "end": 66.46,
+        "text": "this iconic musician. Good afternoon, everyone. Today we're diving into the life of a beloved",
+        "words": [
+          {
+            "start": 53.32,
+            "end": 53.5,
+            "word": " this",
+            "probability": 0.98413
+          },
+          {
+            "start": 53.5,
+            "end": 53.94,
+            "word": " iconic",
+            "probability": 0.99262
+          },
+          {
+            "start": 53.94,
+            "end": 54.44,
+            "word": " musician.",
+            "probability": 0.97493
+          },
+          {
+            "start": 62.42,
+            "end": 62.6,
+            "word": " Good",
+            "probability": 0.99172
+          },
+          {
+            "start": 62.6,
+            "end": 62.98,
+            "word": " afternoon,",
+            "probability": 0.94455
+          },
+          {
+            "start": 63.02,
+            "end": 63.46,
+            "word": " everyone.",
+            "probability": 0.99555
+          },
+          {
+            "start": 64.24,
+            "end": 64.48,
+            "word": " Today",
+            "probability": 0.99257
+          },
+          {
+            "start": 64.48,
+            "end": 64.8,
+            "word": " we're",
+            "probability": 0.75979
+          },
+          {
+            "start": 64.8,
+            "end": 65.06,
+            "word": " diving",
+            "probability": 0.99538
+          },
+          {
+            "start": 65.06,
+            "end": 65.4,
+            "word": " into",
+            "probability": 0.97544
+          },
+          {
+            "start": 65.4,
+            "end": 65.54,
+            "word": " the",
+            "probability": 0.98691
+          },
+          {
+            "start": 65.54,
+            "end": 65.78,
+            "word": " life",
+            "probability": 0.99438
+          },
+          {
+            "start": 65.78,
+            "end": 66.04,
+            "word": " of",
+            "probability": 0.99788
+          },
+          {
+            "start": 66.04,
+            "end": 66.14,
+            "word": " a",
+            "probability": 0.99175
+          },
+          {
+            "start": 66.14,
+            "end": 66.46,
+            "word": " beloved",
+            "probability": 0.99518
+          }
+        ]
+      },
+      {
+        "start": 66.46,
+        "end": 72.75,
+        "text": "musician who has decided to retire from singing professionally. Unlike in the past where he would",
+        "words": [
+          {
+            "start": 66.46,
+            "end": 67.18,
+            "word": " musician",
+            "probability": 0.48374
+          },
+          {
+            "start": 67.18,
+            "end": 67.5,
+            "word": " who",
+            "probability": 0.81966
+          },
+          {
+            "start": 67.5,
+            "end": 67.64,
+            "word": " has",
+            "probability": 0.82983
+          },
+          {
+            "start": 67.64,
+            "end": 68.08,
+            "word": " decided",
+            "probability": 0.99429
+          },
+          {
+            "start": 68.08,
+            "end": 68.36,
+            "word": " to",
+            "probability": 0.99837
+          },
+          {
+            "start": 68.36,
+            "end": 68.8,
+            "word": " retire",
+            "probability": 0.99695
+          },
+          {
+            "start": 68.8,
+            "end": 69.08,
+            "word": " from",
+            "probability": 0.99579
+          },
+          {
+            "start": 69.08,
+            "end": 69.4,
+            "word": " singing",
+            "probability": 0.97924
+          },
+          {
+            "start": 69.4,
+            "end": 70.22,
+            "word": " professionally.",
+            "probability": 0.98953
+          },
+          {
+            "start": 71.11,
+            "end": 71.49,
+            "word": " Unlike",
+            "probability": 0.98712
+          },
+          {
+            "start": 71.49,
+            "end": 71.67,
+            "word": " in",
+            "probability": 0.99377
+          },
+          {
+            "start": 71.67,
+            "end": 71.75,
+            "word": " the",
+            "probability": 0.97346
+          },
+          {
+            "start": 71.75,
+            "end": 72.17,
+            "word": " past",
+            "probability": 0.99804
+          },
+          {
+            "start": 72.17,
+            "end": 72.49,
+            "word": " where",
+            "probability": 0.52381
+          },
+          {
+            "start": 72.49,
+            "end": 72.63,
+            "word": " he",
+            "probability": 0.99727
+          },
+          {
+            "start": 72.63,
+            "end": 72.75,
+            "word": " would",
+            "probability": 0.99381
+          }
+        ]
+      },
+      {
+        "start": 72.75,
+        "end": 77.97,
+        "text": "inform his fans and then make a comeback, this time he's serious about stepping away for good.",
+        "words": [
+          {
+            "start": 72.75,
+            "end": 73.05,
+            "word": " inform",
+            "probability": 0.99394
+          },
+          {
+            "start": 73.05,
+            "end": 73.33,
+            "word": " his",
+            "probability": 0.99499
+          },
+          {
+            "start": 73.33,
+            "end": 73.67,
+            "word": " fans",
+            "probability": 0.99869
+          },
+          {
+            "start": 73.67,
+            "end": 73.91,
+            "word": " and",
+            "probability": 0.96646
+          },
+          {
+            "start": 73.91,
+            "end": 74.05,
+            "word": " then",
+            "probability": 0.87061
+          },
+          {
+            "start": 74.05,
+            "end": 74.23,
+            "word": " make",
+            "probability": 0.99581
+          },
+          {
+            "start": 74.23,
+            "end": 74.37,
+            "word": " a",
+            "probability": 0.98398
+          },
+          {
+            "start": 74.37,
+            "end": 74.77,
+            "word": " comeback,",
+            "probability": 0.97952
+          },
+          {
+            "start": 75.19,
+            "end": 75.39,
+            "word": " this",
+            "probability": 0.99318
+          },
+          {
+            "start": 75.39,
+            "end": 75.67,
+            "word": " time",
+            "probability": 0.99891
+          },
+          {
+            "start": 75.67,
+            "end": 76.09,
+            "word": " he's",
+            "probability": 0.92766
+          },
+          {
+            "start": 76.09,
+            "end": 76.51,
+            "word": " serious",
+            "probability": 0.98379
+          },
+          {
+            "start": 76.51,
+            "end": 76.81,
+            "word": " about",
+            "probability": 0.9985
+          },
+          {
+            "start": 76.81,
+            "end": 77.15,
+            "word": " stepping",
+            "probability": 0.99162
+          },
+          {
+            "start": 77.15,
+            "end": 77.51,
+            "word": " away",
+            "probability": 0.99599
+          },
+          {
+            "start": 77.51,
+            "end": 77.73,
+            "word": " for",
+            "probability": 0.99464
+          },
+          {
+            "start": 77.73,
+            "end": 77.97,
+            "word": " good.",
+            "probability": 0.99394
+          }
+        ]
+      },
+      {
+        "start": 78.67,
+        "end": 83.71,
+        "text": "His talent has always shown through, and many believe he could have achieved even greater success",
+        "words": [
+          {
+            "start": 78.67,
+            "end": 78.85,
+            "word": " His",
+            "probability": 0.97914
+          },
+          {
+            "start": 78.85,
+            "end": 79.21,
+            "word": " talent",
+            "probability": 0.9981
+          },
+          {
+            "start": 79.21,
+            "end": 79.37,
+            "word": " has",
+            "probability": 0.98913
+          },
+          {
+            "start": 79.37,
+            "end": 79.75,
+            "word": " always",
+            "probability": 0.99665
+          },
+          {
+            "start": 79.75,
+            "end": 80.03,
+            "word": " shown",
+            "probability": 0.97591
+          },
+          {
+            "start": 80.03,
+            "end": 80.39,
+            "word": " through,",
+            "probability": 0.99162
+          },
+          {
+            "start": 80.71,
+            "end": 80.91,
+            "word": " and",
+            "probability": 0.99778
+          },
+          {
+            "start": 80.91,
+            "end": 81.09,
+            "word": " many",
+            "probability": 0.9832
+          },
+          {
+            "start": 81.09,
+            "end": 81.51,
+            "word": " believe",
+            "probability": 0.98773
+          },
+          {
+            "start": 81.51,
+            "end": 81.83,
+            "word": " he",
+            "probability": 0.96536
+          },
+          {
+            "start": 81.83,
+            "end": 82.01,
+            "word": " could",
+            "probability": 0.99756
+          },
+          {
+            "start": 82.01,
+            "end": 82.13,
+            "word": " have",
+            "probability": 0.82292
+          },
+          {
+            "start": 82.13,
+            "end": 82.41,
+            "word": " achieved",
+            "probability": 0.98888
+          },
+          {
+            "start": 82.41,
+            "end": 82.89,
+            "word": " even",
+            "probability": 0.99124
+          },
+          {
+            "start": 82.89,
+            "end": 83.23,
+            "word": " greater",
+            "probability": 0.99799
+          },
+          {
+            "start": 83.23,
+            "end": 83.71,
+            "word": " success",
+            "probability": 0.99857
+          }
+        ]
+      },
+      {
+        "start": 83.71,
+        "end": 89.95,
+        "text": "with his recent albums. However, the long break he took between projects made it difficult for him",
+        "words": [
+          {
+            "start": 83.71,
+            "end": 84.21,
+            "word": " with",
+            "probability": 0.98849
+          },
+          {
+            "start": 84.21,
+            "end": 84.33,
+            "word": " his",
+            "probability": 0.9942
+          },
+          {
+            "start": 84.33,
+            "end": 84.67,
+            "word": " recent",
+            "probability": 0.99616
+          },
+          {
+            "start": 84.67,
+            "end": 85.01,
+            "word": " albums.",
+            "probability": 0.99572
+          },
+          {
+            "start": 85.73,
+            "end": 86.11,
+            "word": " However,",
+            "probability": 0.99468
+          },
+          {
+            "start": 86.47,
+            "end": 86.63,
+            "word": " the",
+            "probability": 0.98654
+          },
+          {
+            "start": 86.63,
+            "end": 86.91,
+            "word": " long",
+            "probability": 0.99432
+          },
+          {
+            "start": 86.91,
+            "end": 87.15,
+            "word": " break",
+            "probability": 0.9928
+          },
+          {
+            "start": 87.15,
+            "end": 87.41,
+            "word": " he",
+            "probability": 0.99681
+          },
+          {
+            "start": 87.41,
+            "end": 87.61,
+            "word": " took",
+            "probability": 0.99864
+          },
+          {
+            "start": 87.61,
+            "end": 87.97,
+            "word": " between",
+            "probability": 0.99726
+          },
+          {
+            "start": 87.97,
+            "end": 88.59,
+            "word": " projects",
+            "probability": 0.9733
+          },
+          {
+            "start": 88.59,
+            "end": 89.03,
+            "word": " made",
+            "probability": 0.98635
+          },
+          {
+            "start": 89.03,
+            "end": 89.15,
+            "word": " it",
+            "probability": 0.99927
+          },
+          {
+            "start": 89.15,
+            "end": 89.55,
+            "word": " difficult",
+            "probability": 0.99937
+          },
+          {
+            "start": 89.55,
+            "end": 89.81,
+            "word": " for",
+            "probability": 0.99608
+          },
+          {
+            "start": 89.81,
+            "end": 89.95,
+            "word": " him",
+            "probability": 0.99951
+          }
+        ]
+      },
+      {
+        "start": 89.95,
+        "end": 96.51,
+        "text": "to regain his previous momentum. Fans were excited to see him return, but the gap left some wondering",
+        "words": [
+          {
+            "start": 89.95,
+            "end": 90.11,
+            "word": " to",
+            "probability": 0.99895
+          },
+          {
+            "start": 90.11,
+            "end": 90.43,
+            "word": " regain",
+            "probability": 0.99595
+          },
+          {
+            "start": 90.43,
+            "end": 90.73,
+            "word": " his",
+            "probability": 0.99715
+          },
+          {
+            "start": 90.73,
+            "end": 91.13,
+            "word": " previous",
+            "probability": 0.9493
+          },
+          {
+            "start": 91.13,
+            "end": 91.67,
+            "word": " momentum.",
+            "probability": 0.98565
+          },
+          {
+            "start": 92.43,
+            "end": 92.75,
+            "word": " Fans",
+            "probability": 0.98641
+          },
+          {
+            "start": 92.75,
+            "end": 92.91,
+            "word": " were",
+            "probability": 0.99782
+          },
+          {
+            "start": 92.91,
+            "end": 93.29,
+            "word": " excited",
+            "probability": 0.99631
+          },
+          {
+            "start": 93.29,
+            "end": 93.49,
+            "word": " to",
+            "probability": 0.99891
+          },
+          {
+            "start": 93.49,
+            "end": 93.67,
+            "word": " see",
+            "probability": 0.99886
+          },
+          {
+            "start": 93.67,
+            "end": 93.79,
+            "word": " him",
+            "probability": 0.99891
+          },
+          {
+            "start": 93.79,
+            "end": 94.13,
+            "word": " return,",
+            "probability": 0.99515
+          },
+          {
+            "start": 94.83,
+            "end": 94.99,
+            "word": " but",
+            "probability": 0.99615
+          },
+          {
+            "start": 94.99,
+            "end": 95.13,
+            "word": " the",
+            "probability": 0.99595
+          },
+          {
+            "start": 95.13,
+            "end": 95.37,
+            "word": " gap",
+            "probability": 0.93814
+          },
+          {
+            "start": 95.37,
+            "end": 95.77,
+            "word": " left",
+            "probability": 0.99643
+          },
+          {
+            "start": 95.77,
+            "end": 96.11,
+            "word": " some",
+            "probability": 0.96968
+          },
+          {
+            "start": 96.11,
+            "end": 96.51,
+            "word": " wondering",
+            "probability": 0.88573
+          }
+        ]
+      },
+      {
+        "start": 96.51,
+        "end": 99.47,
+        "text": "if he could still capture the magic he once had.",
+        "words": [
+          {
+            "start": 96.51,
+            "end": 96.99,
+            "word": " if",
+            "probability": 0.44578
+          },
+          {
+            "start": 96.99,
+            "end": 97.13,
+            "word": " he",
+            "probability": 0.99441
+          },
+          {
+            "start": 97.13,
+            "end": 97.29,
+            "word": " could",
+            "probability": 0.99013
+          },
+          {
+            "start": 97.29,
+            "end": 97.55,
+            "word": " still",
+            "probability": 0.97488
+          },
+          {
+            "start": 97.55,
+            "end": 98.03,
+            "word": " capture",
+            "probability": 0.99624
+          },
+          {
+            "start": 98.03,
+            "end": 98.25,
+            "word": " the",
+            "probability": 0.9963
+          },
+          {
+            "start": 98.25,
+            "end": 98.57,
+            "word": " magic",
+            "probability": 0.97938
+          },
+          {
+            "start": 98.57,
+            "end": 98.85,
+            "word": " he",
+            "probability": 0.99539
+          },
+          {
+            "start": 98.85,
+            "end": 99.11,
+            "word": " once",
+            "probability": 0.99321
+          },
+          {
+            "start": 99.11,
+            "end": 99.47,
+            "word": " had.",
+            "probability": 0.99891
+          }
+        ]
+      },
+      {
+        "start": 100.34,
+        "end": 105.14,
+        "text": "As he prepares for this new chapter in his life, we can only reflect on the incredible",
+        "words": [
+          {
+            "start": 100.34,
+            "end": 100.58,
+            "word": " As",
+            "probability": 0.98587
+          },
+          {
+            "start": 100.58,
+            "end": 100.7,
+            "word": " he",
+            "probability": 0.99842
+          },
+          {
+            "start": 100.7,
+            "end": 101.08,
+            "word": " prepares",
+            "probability": 0.98888
+          },
+          {
+            "start": 101.08,
+            "end": 101.38,
+            "word": " for",
+            "probability": 0.99834
+          },
+          {
+            "start": 101.38,
+            "end": 101.56,
+            "word": " this",
+            "probability": 0.99163
+          },
+          {
+            "start": 101.56,
+            "end": 101.76,
+            "word": " new",
+            "probability": 0.99783
+          },
+          {
+            "start": 101.76,
+            "end": 102.22,
+            "word": " chapter",
+            "probability": 0.99788
+          },
+          {
+            "start": 102.22,
+            "end": 102.4,
+            "word": " in",
+            "probability": 0.99584
+          },
+          {
+            "start": 102.4,
+            "end": 102.54,
+            "word": " his",
+            "probability": 0.99777
+          },
+          {
+            "start": 102.54,
+            "end": 102.9,
+            "word": " life,",
+            "probability": 0.99748
+          },
+          {
+            "start": 103.22,
+            "end": 103.42,
+            "word": " we",
+            "probability": 0.99138
+          },
+          {
+            "start": 103.42,
+            "end": 103.56,
+            "word": " can",
+            "probability": 0.99627
+          },
+          {
+            "start": 103.56,
+            "end": 103.76,
+            "word": " only",
+            "probability": 0.99851
+          },
+          {
+            "start": 103.76,
+            "end": 104.2,
+            "word": " reflect",
+            "probability": 0.99892
+          },
+          {
+            "start": 104.2,
+            "end": 104.46,
+            "word": " on",
+            "probability": 0.99521
+          },
+          {
+            "start": 104.46,
+            "end": 104.6,
+            "word": " the",
+            "probability": 0.99645
+          },
+          {
+            "start": 104.6,
+            "end": 105.14,
+            "word": " incredible",
+            "probability": 0.99326
+          }
+        ]
+      },
+      {
+        "start": 105.14,
+        "end": 107.28,
+        "text": "music he's given us over the years.",
+        "words": [
+          {
+            "start": 105.14,
+            "end": 105.64,
+            "word": " music",
+            "probability": 0.99629
+          },
+          {
+            "start": 105.64,
+            "end": 106.16,
+            "word": " he's",
+            "probability": 0.93427
+          },
+          {
+            "start": 106.16,
+            "end": 106.38,
+            "word": " given",
+            "probability": 0.99193
+          },
+          {
+            "start": 106.38,
+            "end": 106.6,
+            "word": " us",
+            "probability": 0.98759
+          },
+          {
+            "start": 106.6,
+            "end": 106.84,
+            "word": " over",
+            "probability": 0.99547
+          },
+          {
+            "start": 106.84,
+            "end": 107.0,
+            "word": " the",
+            "probability": 0.99712
+          },
+          {
+            "start": 107.0,
+            "end": 107.28,
+            "word": " years.",
+            "probability": 0.9986
+          }
+        ]
+      },
+      {
+        "start": 107.92,
+        "end": 112.6,
+        "text": "He leaves behind a rich legacy that will inspire future generations of artists.",
+        "words": [
+          {
+            "start": 107.92,
+            "end": 108.16,
+            "word": " He",
+            "probability": 0.99476
+          },
+          {
+            "start": 108.16,
+            "end": 108.38,
+            "word": " leaves",
+            "probability": 0.99467
+          },
+          {
+            "start": 108.38,
+            "end": 108.76,
+            "word": " behind",
+            "probability": 0.99925
+          },
+          {
+            "start": 108.76,
+            "end": 108.92,
+            "word": " a",
+            "probability": 0.99891
+          },
+          {
+            "start": 108.92,
+            "end": 109.18,
+            "word": " rich",
+            "probability": 0.99793
+          },
+          {
+            "start": 109.18,
+            "end": 109.7,
+            "word": " legacy",
+            "probability": 0.99729
+          },
+          {
+            "start": 109.7,
+            "end": 110.14,
+            "word": " that",
+            "probability": 0.97963
+          },
+          {
+            "start": 110.14,
+            "end": 110.28,
+            "word": " will",
+            "probability": 0.99658
+          },
+          {
+            "start": 110.28,
+            "end": 110.8,
+            "word": " inspire",
+            "probability": 0.9986
+          },
+          {
+            "start": 110.8,
+            "end": 111.34,
+            "word": " future",
+            "probability": 0.99905
+          },
+          {
+            "start": 111.34,
+            "end": 111.96,
+            "word": " generations",
+            "probability": 0.99721
+          },
+          {
+            "start": 111.96,
+            "end": 112.24,
+            "word": " of",
+            "probability": 0.9992
+          },
+          {
+            "start": 112.24,
+            "end": 112.6,
+            "word": " artists.",
+            "probability": 0.99251
+          }
+        ]
+      },
+      {
+        "start": 113.12,
+        "end": 115.9,
+        "text": "Stay tuned for more updates on this iconic musician.",
+        "words": [
+          {
+            "start": 113.12,
+            "end": 113.4,
+            "word": " Stay",
+            "probability": 0.98982
+          },
+          {
+            "start": 113.4,
+            "end": 113.72,
+            "word": " tuned",
+            "probability": 0.99835
+          },
+          {
+            "start": 113.72,
+            "end": 113.88,
+            "word": " for",
+            "probability": 0.99702
+          },
+          {
+            "start": 113.88,
+            "end": 114.06,
+            "word": " more",
+            "probability": 0.99746
+          },
+          {
+            "start": 114.06,
+            "end": 114.46,
+            "word": " updates",
+            "probability": 0.99451
+          },
+          {
+            "start": 114.46,
+            "end": 114.74,
+            "word": " on",
+            "probability": 0.99821
+          },
+          {
+            "start": 114.74,
+            "end": 114.92,
+            "word": " this",
+            "probability": 0.98916
+          },
+          {
+            "start": 114.92,
+            "end": 115.38,
+            "word": " iconic",
+            "probability": 0.99624
+          },
+          {
+            "start": 115.38,
+            "end": 115.9,
+            "word": " musician.",
+            "probability": 0.98297
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono2",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 153,
+            "speechStart": 0.72,
+            "speechEnd": 54.44,
+            "sourceTokenCoverage": 0.8736,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9297,
+            "transcript": "good afternoon everyone today we're diving into the life of a beloved musician who has decided to retire from singing professionally unlike in the past where he would inform his fans and then make a comeback this time he's serious about stepping away for good his talent has always shown through and many believe he could have achieved even greater success with his recent albums however the long break he took between projects made it difficult for him to regain his previous momentum them fans were excited to see him return but the gap left some wondering if he could still capture the magic he once had as he prepares for this new chapter in his life we can only reflect on the incredible music he's given us over the years he leaves behind a rich legacy that will inspire future generations of artists stay tuned for more updates on this iconic musician",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 153,
+            "wordEndIndexExclusive": 305,
+            "speechStart": 62.42,
+            "speechEnd": 115.9,
+            "sourceTokenCoverage": 0.8736,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9325,
+            "transcript": "good afternoon everyone today we're diving into the life of a beloved musician who has decided to retire from singing professionally unlike in the past where he would inform his fans and then make a comeback this time he's serious about stepping away for good his talent has always shown through and many believe he could have achieved even greater success with his recent albums however the long break he took between projects made it difficult for him to regain his previous momentum fans were excited to see him return but the gap left some wondering if he could still capture the magic he once had as he prepares for this new chapter in his life we can only reflect on the incredible music he's given us over the years he leaves behind a rich legacy that will inspire future generations of artists stay tuned for more updates on this iconic musician",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

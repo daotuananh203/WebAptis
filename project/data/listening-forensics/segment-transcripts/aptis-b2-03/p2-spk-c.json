@@ -1,0 +1,601 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p2-spk-c",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-2/spk-c.mp3",
+  "audioSha256": "c711b391bd41feda32f4d13aa3649ee1c985a05fc92d0ad300b080efa8a58f4f",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.94,
+        "end": 4.54,
+        "text": "I've decided to shop online as a way to protect the environment.",
+        "words": [
+          {
+            "start": 0.94,
+            "end": 1.48,
+            "word": " I've",
+            "probability": 0.91554
+          },
+          {
+            "start": 1.48,
+            "end": 1.78,
+            "word": " decided",
+            "probability": 0.99642
+          },
+          {
+            "start": 1.78,
+            "end": 1.98,
+            "word": " to",
+            "probability": 0.99853
+          },
+          {
+            "start": 1.98,
+            "end": 2.14,
+            "word": " shop",
+            "probability": 0.99407
+          },
+          {
+            "start": 2.14,
+            "end": 2.56,
+            "word": " online",
+            "probability": 0.98932
+          },
+          {
+            "start": 2.56,
+            "end": 3.02,
+            "word": " as",
+            "probability": 0.97078
+          },
+          {
+            "start": 3.02,
+            "end": 3.14,
+            "word": " a",
+            "probability": 0.99039
+          },
+          {
+            "start": 3.14,
+            "end": 3.28,
+            "word": " way",
+            "probability": 0.99971
+          },
+          {
+            "start": 3.28,
+            "end": 3.4,
+            "word": " to",
+            "probability": 0.99827
+          },
+          {
+            "start": 3.4,
+            "end": 3.72,
+            "word": " protect",
+            "probability": 0.99683
+          },
+          {
+            "start": 3.72,
+            "end": 3.98,
+            "word": " the",
+            "probability": 0.98043
+          },
+          {
+            "start": 3.98,
+            "end": 4.54,
+            "word": " environment.",
+            "probability": 0.99757
+          }
+        ]
+      },
+      {
+        "start": 5.14,
+        "end": 8.68,
+        "text": "By ordering things online, I don't need to drive to the store,",
+        "words": [
+          {
+            "start": 5.14,
+            "end": 5.46,
+            "word": " By",
+            "probability": 0.99083
+          },
+          {
+            "start": 5.46,
+            "end": 5.84,
+            "word": " ordering",
+            "probability": 0.99152
+          },
+          {
+            "start": 5.84,
+            "end": 6.14,
+            "word": " things",
+            "probability": 0.99036
+          },
+          {
+            "start": 6.14,
+            "end": 6.6,
+            "word": " online,",
+            "probability": 0.9935
+          },
+          {
+            "start": 7.22,
+            "end": 7.28,
+            "word": " I",
+            "probability": 0.99498
+          },
+          {
+            "start": 7.28,
+            "end": 7.46,
+            "word": " don't",
+            "probability": 0.99808
+          },
+          {
+            "start": 7.46,
+            "end": 7.58,
+            "word": " need",
+            "probability": 0.99646
+          },
+          {
+            "start": 7.58,
+            "end": 7.74,
+            "word": " to",
+            "probability": 0.99649
+          },
+          {
+            "start": 7.74,
+            "end": 8.0,
+            "word": " drive",
+            "probability": 0.98871
+          },
+          {
+            "start": 8.0,
+            "end": 8.22,
+            "word": " to",
+            "probability": 0.99131
+          },
+          {
+            "start": 8.22,
+            "end": 8.34,
+            "word": " the",
+            "probability": 0.99255
+          },
+          {
+            "start": 8.34,
+            "end": 8.68,
+            "word": " store,",
+            "probability": 0.99059
+          }
+        ]
+      },
+      {
+        "start": 9.2,
+        "end": 13.08,
+        "text": "which means I'm using less fuel and producing less pollution.",
+        "words": [
+          {
+            "start": 9.2,
+            "end": 9.46,
+            "word": " which",
+            "probability": 0.99648
+          },
+          {
+            "start": 9.46,
+            "end": 9.66,
+            "word": " means",
+            "probability": 0.99747
+          },
+          {
+            "start": 9.66,
+            "end": 9.96,
+            "word": " I'm",
+            "probability": 0.96957
+          },
+          {
+            "start": 9.96,
+            "end": 10.24,
+            "word": " using",
+            "probability": 0.99747
+          },
+          {
+            "start": 10.24,
+            "end": 10.58,
+            "word": " less",
+            "probability": 0.98086
+          },
+          {
+            "start": 10.58,
+            "end": 11.06,
+            "word": " fuel",
+            "probability": 0.99711
+          },
+          {
+            "start": 11.06,
+            "end": 11.7,
+            "word": " and",
+            "probability": 0.93109
+          },
+          {
+            "start": 11.7,
+            "end": 12.18,
+            "word": " producing",
+            "probability": 0.98574
+          },
+          {
+            "start": 12.18,
+            "end": 12.52,
+            "word": " less",
+            "probability": 0.99807
+          },
+          {
+            "start": 12.52,
+            "end": 13.08,
+            "word": " pollution.",
+            "probability": 0.99797
+          }
+        ]
+      },
+      {
+        "start": 13.68,
+        "end": 16.06,
+        "text": "Many companies now offer eco-friendly packaging,",
+        "words": [
+          {
+            "start": 13.68,
+            "end": 13.86,
+            "word": " Many",
+            "probability": 0.99269
+          },
+          {
+            "start": 13.86,
+            "end": 14.3,
+            "word": " companies",
+            "probability": 0.99818
+          },
+          {
+            "start": 14.3,
+            "end": 14.6,
+            "word": " now",
+            "probability": 0.99348
+          },
+          {
+            "start": 14.6,
+            "end": 14.98,
+            "word": " offer",
+            "probability": 0.99839
+          },
+          {
+            "start": 14.98,
+            "end": 15.26,
+            "word": " eco",
+            "probability": 0.99541
+          },
+          {
+            "start": 15.26,
+            "end": 15.52,
+            "word": "-friendly",
+            "probability": 0.95936
+          },
+          {
+            "start": 15.52,
+            "end": 16.06,
+            "word": " packaging,",
+            "probability": 0.99602
+          }
+        ]
+      },
+      {
+        "start": 16.54,
+        "end": 18.92,
+        "text": "and I try to buy from them whenever possible.",
+        "words": [
+          {
+            "start": 16.54,
+            "end": 16.78,
+            "word": " and",
+            "probability": 0.99629
+          },
+          {
+            "start": 16.78,
+            "end": 16.88,
+            "word": " I",
+            "probability": 0.99424
+          },
+          {
+            "start": 16.88,
+            "end": 17.02,
+            "word": " try",
+            "probability": 0.99726
+          },
+          {
+            "start": 17.02,
+            "end": 17.16,
+            "word": " to",
+            "probability": 0.99667
+          },
+          {
+            "start": 17.16,
+            "end": 17.34,
+            "word": " buy",
+            "probability": 0.99944
+          },
+          {
+            "start": 17.34,
+            "end": 17.56,
+            "word": " from",
+            "probability": 0.98725
+          },
+          {
+            "start": 17.56,
+            "end": 17.78,
+            "word": " them",
+            "probability": 0.99836
+          },
+          {
+            "start": 17.78,
+            "end": 18.2,
+            "word": " whenever",
+            "probability": 0.98069
+          },
+          {
+            "start": 18.2,
+            "end": 18.92,
+            "word": " possible.",
+            "probability": 0.99935
+          }
+        ]
+      },
+      {
+        "start": 19.56,
+        "end": 22.5,
+        "text": "Also, online deliveries often group items together,",
+        "words": [
+          {
+            "start": 19.56,
+            "end": 19.96,
+            "word": " Also,",
+            "probability": 0.98342
+          },
+          {
+            "start": 20.2,
+            "end": 20.44,
+            "word": " online",
+            "probability": 0.98298
+          },
+          {
+            "start": 20.44,
+            "end": 20.94,
+            "word": " deliveries",
+            "probability": 0.99147
+          },
+          {
+            "start": 20.94,
+            "end": 21.34,
+            "word": " often",
+            "probability": 0.99877
+          },
+          {
+            "start": 21.34,
+            "end": 21.62,
+            "word": " group",
+            "probability": 0.99258
+          },
+          {
+            "start": 21.62,
+            "end": 21.94,
+            "word": " items",
+            "probability": 0.99775
+          },
+          {
+            "start": 21.94,
+            "end": 22.5,
+            "word": " together,",
+            "probability": 0.99264
+          }
+        ]
+      },
+      {
+        "start": 22.76,
+        "end": 24.64,
+        "text": "which reduces the number of trips made.",
+        "words": [
+          {
+            "start": 22.76,
+            "end": 23.02,
+            "word": " which",
+            "probability": 0.99862
+          },
+          {
+            "start": 23.02,
+            "end": 23.46,
+            "word": " reduces",
+            "probability": 0.99758
+          },
+          {
+            "start": 23.46,
+            "end": 23.7,
+            "word": " the",
+            "probability": 0.99771
+          },
+          {
+            "start": 23.7,
+            "end": 23.94,
+            "word": " number",
+            "probability": 0.99822
+          },
+          {
+            "start": 23.94,
+            "end": 24.1,
+            "word": " of",
+            "probability": 0.99878
+          },
+          {
+            "start": 24.1,
+            "end": 24.28,
+            "word": " trips",
+            "probability": 0.99017
+          },
+          {
+            "start": 24.28,
+            "end": 24.64,
+            "word": " made.",
+            "probability": 0.99313
+          }
+        ]
+      },
+      {
+        "start": 25.24,
+        "end": 28.18,
+        "text": "It's convenient for me, and I feel like I'm doing something good",
+        "words": [
+          {
+            "start": 25.24,
+            "end": 25.44,
+            "word": " It's",
+            "probability": 0.99333
+          },
+          {
+            "start": 25.44,
+            "end": 25.76,
+            "word": " convenient",
+            "probability": 0.98362
+          },
+          {
+            "start": 25.76,
+            "end": 26.08,
+            "word": " for",
+            "probability": 0.99474
+          },
+          {
+            "start": 26.08,
+            "end": 26.3,
+            "word": " me,",
+            "probability": 0.9995
+          },
+          {
+            "start": 26.76,
+            "end": 26.86,
+            "word": " and",
+            "probability": 0.99852
+          },
+          {
+            "start": 26.86,
+            "end": 26.96,
+            "word": " I",
+            "probability": 0.99858
+          },
+          {
+            "start": 26.96,
+            "end": 27.1,
+            "word": " feel",
+            "probability": 0.99805
+          },
+          {
+            "start": 27.1,
+            "end": 27.26,
+            "word": " like",
+            "probability": 0.98923
+          },
+          {
+            "start": 27.26,
+            "end": 27.42,
+            "word": " I'm",
+            "probability": 0.99591
+          },
+          {
+            "start": 27.42,
+            "end": 27.56,
+            "word": " doing",
+            "probability": 0.99914
+          },
+          {
+            "start": 27.56,
+            "end": 27.9,
+            "word": " something",
+            "probability": 0.99572
+          },
+          {
+            "start": 27.9,
+            "end": 28.18,
+            "word": " good",
+            "probability": 0.99869
+          }
+        ]
+      },
+      {
+        "start": 28.18,
+        "end": 30.2,
+        "text": "for the environment at the same time.",
+        "words": [
+          {
+            "start": 28.18,
+            "end": 28.4,
+            "word": " for",
+            "probability": 0.93769
+          },
+          {
+            "start": 28.4,
+            "end": 28.54,
+            "word": " the",
+            "probability": 0.99152
+          },
+          {
+            "start": 28.54,
+            "end": 29.12,
+            "word": " environment",
+            "probability": 0.9935
+          },
+          {
+            "start": 29.12,
+            "end": 29.52,
+            "word": " at",
+            "probability": 0.92516
+          },
+          {
+            "start": 29.52,
+            "end": 29.68,
+            "word": " the",
+            "probability": 0.99206
+          },
+          {
+            "start": 29.68,
+            "end": 29.9,
+            "word": " same",
+            "probability": 0.99805
+          },
+          {
+            "start": 29.9,
+            "end": 30.2,
+            "word": " time.",
+            "probability": 0.99733
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-c",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 83,
+            "speechStart": 0.94,
+            "speechEnd": 30.2,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i've decided to shop online as a way to protect the environment by ordering things online i don't need to drive to the store which means i'm using less fuel and producing less pollution many companies now offer eco friendly packaging and i try to buy from them whenever possible also online deliveries often group items together which reduces the number of trips made it's convenient for me and i feel like i'm doing something good for the environment at the same time",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p1-q03",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-1/q03.mp3",
+  "audioSha256": "fed8718af9f0238c581c6e7fc6f10a85457b5557db72efaf263b625f2fed6769",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.66,
+        "end": 2.62,
+        "text": "I really like to walk in the mornings.",
+        "words": [
+          {
+            "start": 0.66,
+            "end": 1.12,
+            "word": " I",
+            "probability": 0.88386
+          },
+          {
+            "start": 1.12,
+            "end": 1.42,
+            "word": " really",
+            "probability": 0.97202
+          },
+          {
+            "start": 1.42,
+            "end": 1.68,
+            "word": " like",
+            "probability": 0.98049
+          },
+          {
+            "start": 1.68,
+            "end": 1.86,
+            "word": " to",
+            "probability": 0.99907
+          },
+          {
+            "start": 1.86,
+            "end": 2.04,
+            "word": " walk",
+            "probability": 0.99778
+          },
+          {
+            "start": 2.04,
+            "end": 2.22,
+            "word": " in",
+            "probability": 0.99869
+          },
+          {
+            "start": 2.22,
+            "end": 2.3,
+            "word": " the",
+            "probability": 0.99826
+          },
+          {
+            "start": 2.3,
+            "end": 2.62,
+            "word": " mornings.",
+            "probability": 0.99085
+          }
+        ]
+      },
+      {
+        "start": 3.34,
+        "end": 6.36,
+        "text": "Every day I take a nice walk before my classes start.",
+        "words": [
+          {
+            "start": 3.34,
+            "end": 3.6,
+            "word": " Every",
+            "probability": 0.92281
+          },
+          {
+            "start": 3.6,
+            "end": 3.86,
+            "word": " day",
+            "probability": 0.99922
+          },
+          {
+            "start": 3.86,
+            "end": 4.16,
+            "word": " I",
+            "probability": 0.70222
+          },
+          {
+            "start": 4.16,
+            "end": 4.38,
+            "word": " take",
+            "probability": 0.99639
+          },
+          {
+            "start": 4.38,
+            "end": 4.5,
+            "word": " a",
+            "probability": 0.99831
+          },
+          {
+            "start": 4.5,
+            "end": 4.66,
+            "word": " nice",
+            "probability": 0.99913
+          },
+          {
+            "start": 4.66,
+            "end": 5.0,
+            "word": " walk",
+            "probability": 0.99922
+          },
+          {
+            "start": 5.0,
+            "end": 5.34,
+            "word": " before",
+            "probability": 0.99676
+          },
+          {
+            "start": 5.34,
+            "end": 5.56,
+            "word": " my",
+            "probability": 0.99572
+          },
+          {
+            "start": 5.56,
+            "end": 5.92,
+            "word": " classes",
+            "probability": 0.98481
+          },
+          {
+            "start": 5.92,
+            "end": 6.36,
+            "word": " start.",
+            "probability": 0.99779
+          }
+        ]
+      },
+      {
+        "start": 7.06,
+        "end": 10.3,
+        "text": "I could walk around my neighborhood, but I prefer going to college.",
+        "words": [
+          {
+            "start": 7.06,
+            "end": 7.3,
+            "word": " I",
+            "probability": 0.99914
+          },
+          {
+            "start": 7.3,
+            "end": 7.44,
+            "word": " could",
+            "probability": 0.98041
+          },
+          {
+            "start": 7.44,
+            "end": 7.6,
+            "word": " walk",
+            "probability": 0.99838
+          },
+          {
+            "start": 7.6,
+            "end": 7.92,
+            "word": " around",
+            "probability": 0.9987
+          },
+          {
+            "start": 7.92,
+            "end": 8.08,
+            "word": " my",
+            "probability": 0.99715
+          },
+          {
+            "start": 8.08,
+            "end": 8.52,
+            "word": " neighborhood,",
+            "probability": 0.48618
+          },
+          {
+            "start": 8.9,
+            "end": 9.04,
+            "word": " but",
+            "probability": 0.99797
+          },
+          {
+            "start": 9.04,
+            "end": 9.18,
+            "word": " I",
+            "probability": 0.9972
+          },
+          {
+            "start": 9.18,
+            "end": 9.46,
+            "word": " prefer",
+            "probability": 0.99721
+          },
+          {
+            "start": 9.46,
+            "end": 9.78,
+            "word": " going",
+            "probability": 0.99789
+          },
+          {
+            "start": 9.78,
+            "end": 9.94,
+            "word": " to",
+            "probability": 0.99857
+          },
+          {
+            "start": 9.94,
+            "end": 10.3,
+            "word": " college.",
+            "probability": 0.95978
+          }
+        ]
+      },
+      {
+        "start": 11.06,
+        "end": 16.06,
+        "text": "It's a great way for me to get a bit of exercise and clear my mind before the day begins.",
+        "words": [
+          {
+            "start": 11.06,
+            "end": 11.32,
+            "word": " It's",
+            "probability": 0.99375
+          },
+          {
+            "start": 11.32,
+            "end": 11.4,
+            "word": " a",
+            "probability": 0.99922
+          },
+          {
+            "start": 11.4,
+            "end": 11.72,
+            "word": " great",
+            "probability": 0.99482
+          },
+          {
+            "start": 11.72,
+            "end": 12.02,
+            "word": " way",
+            "probability": 0.99796
+          },
+          {
+            "start": 12.02,
+            "end": 12.2,
+            "word": " for",
+            "probability": 0.98627
+          },
+          {
+            "start": 12.2,
+            "end": 12.34,
+            "word": " me",
+            "probability": 0.99977
+          },
+          {
+            "start": 12.34,
+            "end": 12.52,
+            "word": " to",
+            "probability": 0.99734
+          },
+          {
+            "start": 12.52,
+            "end": 12.66,
+            "word": " get",
+            "probability": 0.99868
+          },
+          {
+            "start": 12.66,
+            "end": 12.8,
+            "word": " a",
+            "probability": 0.99545
+          },
+          {
+            "start": 12.8,
+            "end": 12.98,
+            "word": " bit",
+            "probability": 0.99818
+          },
+          {
+            "start": 12.98,
+            "end": 13.16,
+            "word": " of",
+            "probability": 0.99828
+          },
+          {
+            "start": 13.16,
+            "end": 13.68,
+            "word": " exercise",
+            "probability": 0.99866
+          },
+          {
+            "start": 13.68,
+            "end": 14.14,
+            "word": " and",
+            "probability": 0.72757
+          },
+          {
+            "start": 14.14,
+            "end": 14.38,
+            "word": " clear",
+            "probability": 0.99514
+          },
+          {
+            "start": 14.38,
+            "end": 14.56,
+            "word": " my",
+            "probability": 0.99847
+          },
+          {
+            "start": 14.56,
+            "end": 14.86,
+            "word": " mind",
+            "probability": 0.99927
+          },
+          {
+            "start": 14.86,
+            "end": 15.2,
+            "word": " before",
+            "probability": 0.99615
+          },
+          {
+            "start": 15.2,
+            "end": 15.38,
+            "word": " the",
+            "probability": 0.99641
+          },
+          {
+            "start": 15.38,
+            "end": 15.62,
+            "word": " day",
+            "probability": 0.99914
+          },
+          {
+            "start": 15.62,
+            "end": 16.06,
+            "word": " begins.",
+            "probability": 0.9961
+          }
+        ]
+      },
+      {
+        "start": 16.96,
+        "end": 19.12,
+        "text": "The campus is so peaceful in the mornings.",
+        "words": [
+          {
+            "start": 16.96,
+            "end": 17.16,
+            "word": " The",
+            "probability": 0.99647
+          },
+          {
+            "start": 17.16,
+            "end": 17.5,
+            "word": " campus",
+            "probability": 0.98876
+          },
+          {
+            "start": 17.5,
+            "end": 17.74,
+            "word": " is",
+            "probability": 0.9992
+          },
+          {
+            "start": 17.74,
+            "end": 17.96,
+            "word": " so",
+            "probability": 0.99881
+          },
+          {
+            "start": 17.96,
+            "end": 18.42,
+            "word": " peaceful",
+            "probability": 0.99781
+          },
+          {
+            "start": 18.42,
+            "end": 18.68,
+            "word": " in",
+            "probability": 0.9984
+          },
+          {
+            "start": 18.68,
+            "end": 18.76,
+            "word": " the",
+            "probability": 0.99898
+          },
+          {
+            "start": 18.76,
+            "end": 19.12,
+            "word": " mornings.",
+            "probability": 0.99597
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q03",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 59,
+            "speechStart": 0.66,
+            "speechEnd": 19.12,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i really like to walk in the mornings every day i take a nice walk before my classes start i could walk around my neighborhood but i prefer going to college it's a great way for me to get a bit of exercise and clear my mind before the day begins the campus is so peaceful in the mornings",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

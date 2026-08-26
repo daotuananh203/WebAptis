@@ -1,0 +1,1329 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p1-q02",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-1/q02.mp3",
+  "audioSha256": "479ba3f597908c72569dd1de5cb6161503124762d8ca7049d32aa029ec61e4a5",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 4.32,
+        "text": "Every morning, I start my day by going for a run.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.38,
+            "word": " Every",
+            "probability": 0.52339
+          },
+          {
+            "start": 1.38,
+            "end": 1.78,
+            "word": " morning,",
+            "probability": 0.99459
+          },
+          {
+            "start": 2.24,
+            "end": 2.34,
+            "word": " I",
+            "probability": 0.99508
+          },
+          {
+            "start": 2.34,
+            "end": 2.6,
+            "word": " start",
+            "probability": 0.99785
+          },
+          {
+            "start": 2.6,
+            "end": 2.86,
+            "word": " my",
+            "probability": 0.99848
+          },
+          {
+            "start": 2.86,
+            "end": 3.12,
+            "word": " day",
+            "probability": 0.99965
+          },
+          {
+            "start": 3.12,
+            "end": 3.36,
+            "word": " by",
+            "probability": 0.99712
+          },
+          {
+            "start": 3.36,
+            "end": 3.6,
+            "word": " going",
+            "probability": 0.99219
+          },
+          {
+            "start": 3.6,
+            "end": 3.9,
+            "word": " for",
+            "probability": 0.99156
+          },
+          {
+            "start": 3.9,
+            "end": 4.04,
+            "word": " a",
+            "probability": 0.99361
+          },
+          {
+            "start": 4.04,
+            "end": 4.32,
+            "word": " run.",
+            "probability": 0.99724
+          }
+        ]
+      },
+      {
+        "start": 4.96,
+        "end": 7.66,
+        "text": "It helps me clear my mind and gives me energy.",
+        "words": [
+          {
+            "start": 4.96,
+            "end": 5.06,
+            "word": " It",
+            "probability": 0.99406
+          },
+          {
+            "start": 5.06,
+            "end": 5.26,
+            "word": " helps",
+            "probability": 0.99763
+          },
+          {
+            "start": 5.26,
+            "end": 5.52,
+            "word": " me",
+            "probability": 0.958
+          },
+          {
+            "start": 5.52,
+            "end": 5.8,
+            "word": " clear",
+            "probability": 0.9963
+          },
+          {
+            "start": 5.8,
+            "end": 6.02,
+            "word": " my",
+            "probability": 0.99906
+          },
+          {
+            "start": 6.02,
+            "end": 6.46,
+            "word": " mind",
+            "probability": 0.99929
+          },
+          {
+            "start": 6.46,
+            "end": 6.78,
+            "word": " and",
+            "probability": 0.93771
+          },
+          {
+            "start": 6.78,
+            "end": 6.96,
+            "word": " gives",
+            "probability": 0.97058
+          },
+          {
+            "start": 6.96,
+            "end": 7.2,
+            "word": " me",
+            "probability": 0.99812
+          },
+          {
+            "start": 7.2,
+            "end": 7.66,
+            "word": " energy.",
+            "probability": 0.99799
+          }
+        ]
+      },
+      {
+        "start": 8.42,
+        "end": 13.44,
+        "text": "After lunch at around 2 o'clock, I sit down at my working table, ready to write.",
+        "words": [
+          {
+            "start": 8.42,
+            "end": 8.8,
+            "word": " After",
+            "probability": 0.99264
+          },
+          {
+            "start": 8.8,
+            "end": 9.14,
+            "word": " lunch",
+            "probability": 0.99186
+          },
+          {
+            "start": 9.14,
+            "end": 9.52,
+            "word": " at",
+            "probability": 0.47667
+          },
+          {
+            "start": 9.52,
+            "end": 9.74,
+            "word": " around",
+            "probability": 0.98356
+          },
+          {
+            "start": 9.74,
+            "end": 10.02,
+            "word": " 2",
+            "probability": 0.61178
+          },
+          {
+            "start": 10.02,
+            "end": 10.14,
+            "word": " o",
+            "probability": 0.82771
+          },
+          {
+            "start": 10.14,
+            "end": 10.38,
+            "word": "'clock,",
+            "probability": 0.98567
+          },
+          {
+            "start": 10.72,
+            "end": 10.82,
+            "word": " I",
+            "probability": 0.99763
+          },
+          {
+            "start": 10.82,
+            "end": 11.0,
+            "word": " sit",
+            "probability": 0.99824
+          },
+          {
+            "start": 11.0,
+            "end": 11.26,
+            "word": " down",
+            "probability": 0.99655
+          },
+          {
+            "start": 11.26,
+            "end": 11.42,
+            "word": " at",
+            "probability": 0.99027
+          },
+          {
+            "start": 11.42,
+            "end": 11.56,
+            "word": " my",
+            "probability": 0.99587
+          },
+          {
+            "start": 11.56,
+            "end": 11.9,
+            "word": " working",
+            "probability": 0.98952
+          },
+          {
+            "start": 11.9,
+            "end": 12.4,
+            "word": " table,",
+            "probability": 0.99464
+          },
+          {
+            "start": 12.78,
+            "end": 12.96,
+            "word": " ready",
+            "probability": 0.99515
+          },
+          {
+            "start": 12.96,
+            "end": 13.2,
+            "word": " to",
+            "probability": 0.9984
+          },
+          {
+            "start": 13.2,
+            "end": 13.44,
+            "word": " write.",
+            "probability": 0.98181
+          }
+        ]
+      },
+      {
+        "start": 14.2,
+        "end": 19.5,
+        "text": "My husband is my best critic, so I try to produce something before he gets home in the afternoon.",
+        "words": [
+          {
+            "start": 14.2,
+            "end": 14.44,
+            "word": " My",
+            "probability": 0.99278
+          },
+          {
+            "start": 14.44,
+            "end": 14.88,
+            "word": " husband",
+            "probability": 0.99933
+          },
+          {
+            "start": 14.88,
+            "end": 15.12,
+            "word": " is",
+            "probability": 0.99583
+          },
+          {
+            "start": 15.12,
+            "end": 15.26,
+            "word": " my",
+            "probability": 0.99524
+          },
+          {
+            "start": 15.26,
+            "end": 15.52,
+            "word": " best",
+            "probability": 0.99839
+          },
+          {
+            "start": 15.52,
+            "end": 15.88,
+            "word": " critic,",
+            "probability": 0.99463
+          },
+          {
+            "start": 16.26,
+            "end": 16.44,
+            "word": " so",
+            "probability": 0.99713
+          },
+          {
+            "start": 16.44,
+            "end": 16.54,
+            "word": " I",
+            "probability": 0.99649
+          },
+          {
+            "start": 16.54,
+            "end": 16.78,
+            "word": " try",
+            "probability": 0.9925
+          },
+          {
+            "start": 16.78,
+            "end": 16.96,
+            "word": " to",
+            "probability": 0.99724
+          },
+          {
+            "start": 16.96,
+            "end": 17.28,
+            "word": " produce",
+            "probability": 0.9966
+          },
+          {
+            "start": 17.28,
+            "end": 17.74,
+            "word": " something",
+            "probability": 0.99876
+          },
+          {
+            "start": 17.74,
+            "end": 18.06,
+            "word": " before",
+            "probability": 0.99551
+          },
+          {
+            "start": 18.06,
+            "end": 18.2,
+            "word": " he",
+            "probability": 0.99691
+          },
+          {
+            "start": 18.2,
+            "end": 18.36,
+            "word": " gets",
+            "probability": 0.99283
+          },
+          {
+            "start": 18.36,
+            "end": 18.66,
+            "word": " home",
+            "probability": 0.99951
+          },
+          {
+            "start": 18.66,
+            "end": 18.82,
+            "word": " in",
+            "probability": 0.99826
+          },
+          {
+            "start": 18.82,
+            "end": 18.96,
+            "word": " the",
+            "probability": 0.99925
+          },
+          {
+            "start": 18.96,
+            "end": 19.5,
+            "word": " afternoon.",
+            "probability": 0.99538
+          }
+        ]
+      },
+      {
+        "start": 20.02,
+        "end": 22.04,
+        "text": "I want to show him what I've been working on.",
+        "words": [
+          {
+            "start": 20.02,
+            "end": 20.28,
+            "word": " I",
+            "probability": 0.99356
+          },
+          {
+            "start": 20.28,
+            "end": 20.42,
+            "word": " want",
+            "probability": 0.86012
+          },
+          {
+            "start": 20.42,
+            "end": 20.54,
+            "word": " to",
+            "probability": 0.99602
+          },
+          {
+            "start": 20.54,
+            "end": 20.76,
+            "word": " show",
+            "probability": 0.99858
+          },
+          {
+            "start": 20.76,
+            "end": 20.96,
+            "word": " him",
+            "probability": 0.99688
+          },
+          {
+            "start": 20.96,
+            "end": 21.14,
+            "word": " what",
+            "probability": 0.99889
+          },
+          {
+            "start": 21.14,
+            "end": 21.32,
+            "word": " I've",
+            "probability": 0.96509
+          },
+          {
+            "start": 21.32,
+            "end": 21.42,
+            "word": " been",
+            "probability": 0.99859
+          },
+          {
+            "start": 21.42,
+            "end": 21.74,
+            "word": " working",
+            "probability": 0.99862
+          },
+          {
+            "start": 21.74,
+            "end": 22.04,
+            "word": " on.",
+            "probability": 0.99877
+          }
+        ]
+      },
+      {
+        "start": 22.62,
+        "end": 26.42,
+        "text": "At night, I seek motivation by watching movies or reading books.",
+        "words": [
+          {
+            "start": 22.62,
+            "end": 22.78,
+            "word": " At",
+            "probability": 0.99329
+          },
+          {
+            "start": 22.78,
+            "end": 23.04,
+            "word": " night,",
+            "probability": 0.99708
+          },
+          {
+            "start": 23.24,
+            "end": 23.3,
+            "word": " I",
+            "probability": 0.99952
+          },
+          {
+            "start": 23.3,
+            "end": 23.6,
+            "word": " seek",
+            "probability": 0.98525
+          },
+          {
+            "start": 23.6,
+            "end": 24.08,
+            "word": " motivation",
+            "probability": 0.99759
+          },
+          {
+            "start": 24.08,
+            "end": 24.5,
+            "word": " by",
+            "probability": 0.99276
+          },
+          {
+            "start": 24.5,
+            "end": 24.84,
+            "word": " watching",
+            "probability": 0.99887
+          },
+          {
+            "start": 24.84,
+            "end": 25.32,
+            "word": " movies",
+            "probability": 0.99698
+          },
+          {
+            "start": 25.32,
+            "end": 25.7,
+            "word": " or",
+            "probability": 0.9501
+          },
+          {
+            "start": 25.7,
+            "end": 25.96,
+            "word": " reading",
+            "probability": 0.997
+          },
+          {
+            "start": 25.96,
+            "end": 26.42,
+            "word": " books.",
+            "probability": 0.998
+          }
+        ]
+      },
+      {
+        "start": 26.42,
+        "end": 29.74,
+        "text": "This helps me find new ideas for my stories.",
+        "words": [
+          {
+            "start": 26.42,
+            "end": 27.22,
+            "word": " This",
+            "probability": 0.22338
+          },
+          {
+            "start": 27.22,
+            "end": 27.46,
+            "word": " helps",
+            "probability": 0.9615
+          },
+          {
+            "start": 27.46,
+            "end": 27.7,
+            "word": " me",
+            "probability": 0.99595
+          },
+          {
+            "start": 27.7,
+            "end": 28.02,
+            "word": " find",
+            "probability": 0.97782
+          },
+          {
+            "start": 28.02,
+            "end": 28.28,
+            "word": " new",
+            "probability": 0.98532
+          },
+          {
+            "start": 28.28,
+            "end": 28.7,
+            "word": " ideas",
+            "probability": 0.99916
+          },
+          {
+            "start": 28.7,
+            "end": 28.98,
+            "word": " for",
+            "probability": 0.98433
+          },
+          {
+            "start": 28.98,
+            "end": 29.14,
+            "word": " my",
+            "probability": 0.99668
+          },
+          {
+            "start": 29.14,
+            "end": 29.74,
+            "word": " stories.",
+            "probability": 0.98368
+          }
+        ]
+      },
+      {
+        "start": 30.6,
+        "end": 33.76,
+        "text": "Writing is a journey, and each day brings something new.",
+        "words": [
+          {
+            "start": 30.6,
+            "end": 30.94,
+            "word": " Writing",
+            "probability": 0.90194
+          },
+          {
+            "start": 30.94,
+            "end": 31.2,
+            "word": " is",
+            "probability": 0.94061
+          },
+          {
+            "start": 31.2,
+            "end": 31.3,
+            "word": " a",
+            "probability": 0.99758
+          },
+          {
+            "start": 31.3,
+            "end": 31.64,
+            "word": " journey,",
+            "probability": 0.99613
+          },
+          {
+            "start": 32.06,
+            "end": 32.16,
+            "word": " and",
+            "probability": 0.98839
+          },
+          {
+            "start": 32.16,
+            "end": 32.52,
+            "word": " each",
+            "probability": 0.98511
+          },
+          {
+            "start": 32.52,
+            "end": 32.7,
+            "word": " day",
+            "probability": 0.99923
+          },
+          {
+            "start": 32.7,
+            "end": 32.96,
+            "word": " brings",
+            "probability": 0.97136
+          },
+          {
+            "start": 32.96,
+            "end": 33.44,
+            "word": " something",
+            "probability": 0.99559
+          },
+          {
+            "start": 33.44,
+            "end": 33.76,
+            "word": " new.",
+            "probability": 0.99919
+          }
+        ]
+      },
+      {
+        "start": 35.73,
+        "end": 39.01,
+        "text": "Every morning, I start my day by going for a run.",
+        "words": [
+          {
+            "start": 35.73,
+            "end": 36.07,
+            "word": " Every",
+            "probability": 0.97775
+          },
+          {
+            "start": 36.07,
+            "end": 36.47,
+            "word": " morning,",
+            "probability": 0.9961
+          },
+          {
+            "start": 36.95,
+            "end": 37.05,
+            "word": " I",
+            "probability": 0.99296
+          },
+          {
+            "start": 37.05,
+            "end": 37.31,
+            "word": " start",
+            "probability": 0.99819
+          },
+          {
+            "start": 37.31,
+            "end": 37.57,
+            "word": " my",
+            "probability": 0.99827
+          },
+          {
+            "start": 37.57,
+            "end": 37.83,
+            "word": " day",
+            "probability": 0.99953
+          },
+          {
+            "start": 37.83,
+            "end": 38.05,
+            "word": " by",
+            "probability": 0.99702
+          },
+          {
+            "start": 38.05,
+            "end": 38.31,
+            "word": " going",
+            "probability": 0.99011
+          },
+          {
+            "start": 38.31,
+            "end": 38.61,
+            "word": " for",
+            "probability": 0.99443
+          },
+          {
+            "start": 38.61,
+            "end": 38.73,
+            "word": " a",
+            "probability": 0.9973
+          },
+          {
+            "start": 38.73,
+            "end": 39.01,
+            "word": " run.",
+            "probability": 0.99758
+          }
+        ]
+      },
+      {
+        "start": 39.65,
+        "end": 42.35,
+        "text": "It helps me clear my mind and gives me energy.",
+        "words": [
+          {
+            "start": 39.65,
+            "end": 39.77,
+            "word": " It",
+            "probability": 0.99465
+          },
+          {
+            "start": 39.77,
+            "end": 39.97,
+            "word": " helps",
+            "probability": 0.99769
+          },
+          {
+            "start": 39.97,
+            "end": 40.23,
+            "word": " me",
+            "probability": 0.9833
+          },
+          {
+            "start": 40.23,
+            "end": 40.51,
+            "word": " clear",
+            "probability": 0.99489
+          },
+          {
+            "start": 40.51,
+            "end": 40.73,
+            "word": " my",
+            "probability": 0.99901
+          },
+          {
+            "start": 40.73,
+            "end": 41.17,
+            "word": " mind",
+            "probability": 0.99912
+          },
+          {
+            "start": 41.17,
+            "end": 41.49,
+            "word": " and",
+            "probability": 0.80043
+          },
+          {
+            "start": 41.49,
+            "end": 41.67,
+            "word": " gives",
+            "probability": 0.9821
+          },
+          {
+            "start": 41.67,
+            "end": 41.91,
+            "word": " me",
+            "probability": 0.99742
+          },
+          {
+            "start": 41.91,
+            "end": 42.35,
+            "word": " energy.",
+            "probability": 0.99813
+          }
+        ]
+      },
+      {
+        "start": 43.15,
+        "end": 48.13,
+        "text": "After lunch, at around 2 o'clock, I sit down at my working table, ready to write.",
+        "words": [
+          {
+            "start": 43.15,
+            "end": 43.51,
+            "word": " After",
+            "probability": 0.99083
+          },
+          {
+            "start": 43.51,
+            "end": 43.93,
+            "word": " lunch,",
+            "probability": 0.99394
+          },
+          {
+            "start": 44.17,
+            "end": 44.23,
+            "word": " at",
+            "probability": 0.97859
+          },
+          {
+            "start": 44.23,
+            "end": 44.45,
+            "word": " around",
+            "probability": 0.99274
+          },
+          {
+            "start": 44.45,
+            "end": 44.73,
+            "word": " 2",
+            "probability": 0.58951
+          },
+          {
+            "start": 44.73,
+            "end": 44.83,
+            "word": " o",
+            "probability": 0.83704
+          },
+          {
+            "start": 44.83,
+            "end": 45.07,
+            "word": "'clock,",
+            "probability": 0.97889
+          },
+          {
+            "start": 45.45,
+            "end": 45.53,
+            "word": " I",
+            "probability": 0.99757
+          },
+          {
+            "start": 45.53,
+            "end": 45.71,
+            "word": " sit",
+            "probability": 0.99755
+          },
+          {
+            "start": 45.71,
+            "end": 45.99,
+            "word": " down",
+            "probability": 0.99802
+          },
+          {
+            "start": 45.99,
+            "end": 46.13,
+            "word": " at",
+            "probability": 0.99617
+          },
+          {
+            "start": 46.13,
+            "end": 46.27,
+            "word": " my",
+            "probability": 0.99661
+          },
+          {
+            "start": 46.27,
+            "end": 46.59,
+            "word": " working",
+            "probability": 0.99134
+          },
+          {
+            "start": 46.59,
+            "end": 47.11,
+            "word": " table,",
+            "probability": 0.99424
+          },
+          {
+            "start": 47.53,
+            "end": 47.65,
+            "word": " ready",
+            "probability": 0.99684
+          },
+          {
+            "start": 47.65,
+            "end": 47.91,
+            "word": " to",
+            "probability": 0.99843
+          },
+          {
+            "start": 47.91,
+            "end": 48.13,
+            "word": " write.",
+            "probability": 0.99174
+          }
+        ]
+      },
+      {
+        "start": 48.87,
+        "end": 54.05,
+        "text": "My husband is my best critic, so I try to produce something before he gets home in the afternoon.",
+        "words": [
+          {
+            "start": 48.87,
+            "end": 49.15,
+            "word": " My",
+            "probability": 0.99374
+          },
+          {
+            "start": 49.15,
+            "end": 49.57,
+            "word": " husband",
+            "probability": 0.99938
+          },
+          {
+            "start": 49.57,
+            "end": 49.81,
+            "word": " is",
+            "probability": 0.99617
+          },
+          {
+            "start": 49.81,
+            "end": 49.97,
+            "word": " my",
+            "probability": 0.99638
+          },
+          {
+            "start": 49.97,
+            "end": 50.25,
+            "word": " best",
+            "probability": 0.99824
+          },
+          {
+            "start": 50.25,
+            "end": 50.59,
+            "word": " critic,",
+            "probability": 0.99576
+          },
+          {
+            "start": 50.97,
+            "end": 51.15,
+            "word": " so",
+            "probability": 0.99788
+          },
+          {
+            "start": 51.15,
+            "end": 51.25,
+            "word": " I",
+            "probability": 0.99753
+          },
+          {
+            "start": 51.25,
+            "end": 51.49,
+            "word": " try",
+            "probability": 0.99229
+          },
+          {
+            "start": 51.49,
+            "end": 51.67,
+            "word": " to",
+            "probability": 0.99769
+          },
+          {
+            "start": 51.67,
+            "end": 51.99,
+            "word": " produce",
+            "probability": 0.99749
+          },
+          {
+            "start": 51.99,
+            "end": 52.43,
+            "word": " something",
+            "probability": 0.99888
+          },
+          {
+            "start": 52.43,
+            "end": 52.77,
+            "word": " before",
+            "probability": 0.99587
+          },
+          {
+            "start": 52.77,
+            "end": 52.91,
+            "word": " he",
+            "probability": 0.99739
+          },
+          {
+            "start": 52.91,
+            "end": 53.07,
+            "word": " gets",
+            "probability": 0.98424
+          },
+          {
+            "start": 53.07,
+            "end": 53.37,
+            "word": " home",
+            "probability": 0.99956
+          },
+          {
+            "start": 53.37,
+            "end": 53.53,
+            "word": " in",
+            "probability": 0.99726
+          },
+          {
+            "start": 53.53,
+            "end": 53.67,
+            "word": " the",
+            "probability": 0.99845
+          },
+          {
+            "start": 53.67,
+            "end": 54.05,
+            "word": " afternoon.",
+            "probability": 0.99055
+          }
+        ]
+      },
+      {
+        "start": 54.67,
+        "end": 56.73,
+        "text": "I want to show him what I've been working on.",
+        "words": [
+          {
+            "start": 54.67,
+            "end": 54.99,
+            "word": " I",
+            "probability": 0.99248
+          },
+          {
+            "start": 54.99,
+            "end": 55.13,
+            "word": " want",
+            "probability": 0.84745
+          },
+          {
+            "start": 55.13,
+            "end": 55.25,
+            "word": " to",
+            "probability": 0.99241
+          },
+          {
+            "start": 55.25,
+            "end": 55.45,
+            "word": " show",
+            "probability": 0.99782
+          },
+          {
+            "start": 55.45,
+            "end": 55.67,
+            "word": " him",
+            "probability": 0.99578
+          },
+          {
+            "start": 55.67,
+            "end": 55.85,
+            "word": " what",
+            "probability": 0.99865
+          },
+          {
+            "start": 55.85,
+            "end": 56.03,
+            "word": " I've",
+            "probability": 0.93417
+          },
+          {
+            "start": 56.03,
+            "end": 56.13,
+            "word": " been",
+            "probability": 0.99823
+          },
+          {
+            "start": 56.13,
+            "end": 56.43,
+            "word": " working",
+            "probability": 0.99882
+          },
+          {
+            "start": 56.43,
+            "end": 56.73,
+            "word": " on.",
+            "probability": 0.99829
+          }
+        ]
+      },
+      {
+        "start": 56.73,
+        "end": 61.17,
+        "text": "At night, I seek motivation by watching movies or reading books.",
+        "words": [
+          {
+            "start": 56.73,
+            "end": 57.47,
+            "word": " At",
+            "probability": 0.51095
+          },
+          {
+            "start": 57.47,
+            "end": 57.73,
+            "word": " night,",
+            "probability": 0.97364
+          },
+          {
+            "start": 57.95,
+            "end": 58.01,
+            "word": " I",
+            "probability": 0.99268
+          },
+          {
+            "start": 58.01,
+            "end": 58.29,
+            "word": " seek",
+            "probability": 0.99324
+          },
+          {
+            "start": 58.29,
+            "end": 58.79,
+            "word": " motivation",
+            "probability": 0.99621
+          },
+          {
+            "start": 58.79,
+            "end": 59.21,
+            "word": " by",
+            "probability": 0.99482
+          },
+          {
+            "start": 59.21,
+            "end": 59.55,
+            "word": " watching",
+            "probability": 0.99851
+          },
+          {
+            "start": 59.55,
+            "end": 60.03,
+            "word": " movies",
+            "probability": 0.99526
+          },
+          {
+            "start": 60.03,
+            "end": 60.39,
+            "word": " or",
+            "probability": 0.9732
+          },
+          {
+            "start": 60.39,
+            "end": 60.67,
+            "word": " reading",
+            "probability": 0.99754
+          },
+          {
+            "start": 60.67,
+            "end": 61.17,
+            "word": " books.",
+            "probability": 0.9977
+          }
+        ]
+      },
+      {
+        "start": 61.73,
+        "end": 64.37,
+        "text": "This helps me find new ideas for my stories.",
+        "words": [
+          {
+            "start": 61.73,
+            "end": 61.95,
+            "word": " This",
+            "probability": 0.99266
+          },
+          {
+            "start": 61.95,
+            "end": 62.19,
+            "word": " helps",
+            "probability": 0.99534
+          },
+          {
+            "start": 62.19,
+            "end": 62.39,
+            "word": " me",
+            "probability": 0.99792
+          },
+          {
+            "start": 62.39,
+            "end": 62.71,
+            "word": " find",
+            "probability": 0.99165
+          },
+          {
+            "start": 62.71,
+            "end": 62.99,
+            "word": " new",
+            "probability": 0.98943
+          },
+          {
+            "start": 62.99,
+            "end": 63.41,
+            "word": " ideas",
+            "probability": 0.99953
+          },
+          {
+            "start": 63.41,
+            "end": 63.67,
+            "word": " for",
+            "probability": 0.98054
+          },
+          {
+            "start": 63.67,
+            "end": 63.83,
+            "word": " my",
+            "probability": 0.99623
+          },
+          {
+            "start": 63.83,
+            "end": 64.37,
+            "word": " stories.",
+            "probability": 0.9929
+          }
+        ]
+      },
+      {
+        "start": 65.31,
+        "end": 68.45,
+        "text": "Writing is a journey, and each day brings something new.",
+        "words": [
+          {
+            "start": 65.31,
+            "end": 65.67,
+            "word": " Writing",
+            "probability": 0.93626
+          },
+          {
+            "start": 65.67,
+            "end": 65.91,
+            "word": " is",
+            "probability": 0.93609
+          },
+          {
+            "start": 65.91,
+            "end": 65.99,
+            "word": " a",
+            "probability": 0.99829
+          },
+          {
+            "start": 65.99,
+            "end": 66.35,
+            "word": " journey,",
+            "probability": 0.99825
+          },
+          {
+            "start": 66.77,
+            "end": 66.85,
+            "word": " and",
+            "probability": 0.99399
+          },
+          {
+            "start": 66.85,
+            "end": 67.23,
+            "word": " each",
+            "probability": 0.98711
+          },
+          {
+            "start": 67.23,
+            "end": 67.39,
+            "word": " day",
+            "probability": 0.99919
+          },
+          {
+            "start": 67.39,
+            "end": 67.67,
+            "word": " brings",
+            "probability": 0.96546
+          },
+          {
+            "start": 67.67,
+            "end": 68.15,
+            "word": " something",
+            "probability": 0.99781
+          },
+          {
+            "start": 68.15,
+            "end": 68.45,
+            "word": " new.",
+            "probability": 0.99934
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q02",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 97,
+            "speechStart": 0.78,
+            "speechEnd": 33.76,
+            "sourceTokenCoverage": 0.9896,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9845,
+            "transcript": "every morning i start my day by going for a run it helps me clear my mind and gives me energy after lunch at around 2 o clock i sit down at my working table ready to write my husband is my best critic so i try to produce something before he gets home in the afternoon i want to show him what i've been working on at night i seek motivation by watching movies or reading books this helps me find new ideas for my stories writing is a journey and each day brings something new",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 97,
+            "wordEndIndexExclusive": 194,
+            "speechStart": 35.73,
+            "speechEnd": 68.45,
+            "sourceTokenCoverage": 0.9896,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9845,
+            "transcript": "every morning i start my day by going for a run it helps me clear my mind and gives me energy after lunch at around 2 o clock i sit down at my working table ready to write my husband is my best critic so i try to produce something before he gets home in the afternoon i want to show him what i've been working on at night i seek motivation by watching movies or reading books this helps me find new ideas for my stories writing is a journey and each day brings something new",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

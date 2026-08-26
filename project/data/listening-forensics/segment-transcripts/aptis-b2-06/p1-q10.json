@@ -1,0 +1,560 @@
+{
+  "testId": "aptis-b2-06",
+  "blockId": "p1-q10",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-06/part-1/q10.mp3",
+  "audioSha256": "36c01628a4a8643d5827e28510c4713573aacbeea834a052ed56ace929c30a79",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.01,
+        "end": 10.15,
+        "text": "Hello and welcome. Let me tell you about this lovely property. It has two spacious bedrooms, both with big windows that lead in lots of natural light.",
+        "words": [
+          {
+            "start": 1.01,
+            "end": 1.55,
+            "word": " Hello",
+            "probability": 0.94208
+          },
+          {
+            "start": 1.55,
+            "end": 1.77,
+            "word": " and",
+            "probability": 0.81732
+          },
+          {
+            "start": 1.77,
+            "end": 2.09,
+            "word": " welcome.",
+            "probability": 0.98085
+          },
+          {
+            "start": 2.79,
+            "end": 2.85,
+            "word": " Let",
+            "probability": 0.99122
+          },
+          {
+            "start": 2.85,
+            "end": 2.97,
+            "word": " me",
+            "probability": 0.99874
+          },
+          {
+            "start": 2.97,
+            "end": 3.17,
+            "word": " tell",
+            "probability": 0.99726
+          },
+          {
+            "start": 3.17,
+            "end": 3.33,
+            "word": " you",
+            "probability": 0.99796
+          },
+          {
+            "start": 3.33,
+            "end": 3.53,
+            "word": " about",
+            "probability": 0.99922
+          },
+          {
+            "start": 3.53,
+            "end": 3.73,
+            "word": " this",
+            "probability": 0.99605
+          },
+          {
+            "start": 3.73,
+            "end": 3.95,
+            "word": " lovely",
+            "probability": 0.99479
+          },
+          {
+            "start": 3.95,
+            "end": 4.53,
+            "word": " property.",
+            "probability": 0.99778
+          },
+          {
+            "start": 4.99,
+            "end": 5.09,
+            "word": " It",
+            "probability": 0.99226
+          },
+          {
+            "start": 5.09,
+            "end": 5.21,
+            "word": " has",
+            "probability": 0.99862
+          },
+          {
+            "start": 5.21,
+            "end": 5.51,
+            "word": " two",
+            "probability": 0.98276
+          },
+          {
+            "start": 5.51,
+            "end": 6.01,
+            "word": " spacious",
+            "probability": 0.98948
+          },
+          {
+            "start": 6.01,
+            "end": 6.47,
+            "word": " bedrooms,",
+            "probability": 0.98943
+          },
+          {
+            "start": 6.95,
+            "end": 7.21,
+            "word": " both",
+            "probability": 0.99592
+          },
+          {
+            "start": 7.21,
+            "end": 7.51,
+            "word": " with",
+            "probability": 0.99703
+          },
+          {
+            "start": 7.51,
+            "end": 7.75,
+            "word": " big",
+            "probability": 0.99562
+          },
+          {
+            "start": 7.75,
+            "end": 8.19,
+            "word": " windows",
+            "probability": 0.99731
+          },
+          {
+            "start": 8.19,
+            "end": 8.51,
+            "word": " that",
+            "probability": 0.9876
+          },
+          {
+            "start": 8.51,
+            "end": 8.71,
+            "word": " lead",
+            "probability": 0.56643
+          },
+          {
+            "start": 8.71,
+            "end": 8.89,
+            "word": " in",
+            "probability": 0.98778
+          },
+          {
+            "start": 8.89,
+            "end": 9.19,
+            "word": " lots",
+            "probability": 0.99171
+          },
+          {
+            "start": 9.19,
+            "end": 9.45,
+            "word": " of",
+            "probability": 0.99722
+          },
+          {
+            "start": 9.45,
+            "end": 9.83,
+            "word": " natural",
+            "probability": 0.9989
+          },
+          {
+            "start": 9.83,
+            "end": 10.15,
+            "word": " light.",
+            "probability": 0.99597
+          }
+        ]
+      },
+      {
+        "start": 10.57,
+        "end": 14.77,
+        "text": "The bathroom is modern with a large shower and plenty of storage space.",
+        "words": [
+          {
+            "start": 10.57,
+            "end": 10.75,
+            "word": " The",
+            "probability": 0.99326
+          },
+          {
+            "start": 10.75,
+            "end": 11.13,
+            "word": " bathroom",
+            "probability": 0.99649
+          },
+          {
+            "start": 11.13,
+            "end": 11.33,
+            "word": " is",
+            "probability": 0.99637
+          },
+          {
+            "start": 11.33,
+            "end": 11.71,
+            "word": " modern",
+            "probability": 0.99393
+          },
+          {
+            "start": 11.71,
+            "end": 12.35,
+            "word": " with",
+            "probability": 0.71485
+          },
+          {
+            "start": 12.35,
+            "end": 12.47,
+            "word": " a",
+            "probability": 0.99288
+          },
+          {
+            "start": 12.47,
+            "end": 12.77,
+            "word": " large",
+            "probability": 0.99719
+          },
+          {
+            "start": 12.77,
+            "end": 13.25,
+            "word": " shower",
+            "probability": 0.99701
+          },
+          {
+            "start": 13.25,
+            "end": 13.61,
+            "word": " and",
+            "probability": 0.96628
+          },
+          {
+            "start": 13.61,
+            "end": 13.91,
+            "word": " plenty",
+            "probability": 0.98849
+          },
+          {
+            "start": 13.91,
+            "end": 14.07,
+            "word": " of",
+            "probability": 0.99787
+          },
+          {
+            "start": 14.07,
+            "end": 14.35,
+            "word": " storage",
+            "probability": 0.99907
+          },
+          {
+            "start": 14.35,
+            "end": 14.77,
+            "word": " space.",
+            "probability": 0.99921
+          }
+        ]
+      },
+      {
+        "start": 15.59,
+        "end": 19.13,
+        "text": "The living room is cozy, perfect for relaxing after a long day.",
+        "words": [
+          {
+            "start": 15.59,
+            "end": 15.77,
+            "word": " The",
+            "probability": 0.99615
+          },
+          {
+            "start": 15.77,
+            "end": 15.99,
+            "word": " living",
+            "probability": 0.99816
+          },
+          {
+            "start": 15.99,
+            "end": 16.21,
+            "word": " room",
+            "probability": 0.99903
+          },
+          {
+            "start": 16.21,
+            "end": 16.39,
+            "word": " is",
+            "probability": 0.9993
+          },
+          {
+            "start": 16.39,
+            "end": 16.77,
+            "word": " cozy,",
+            "probability": 0.88251
+          },
+          {
+            "start": 17.19,
+            "end": 17.41,
+            "word": " perfect",
+            "probability": 0.9989
+          },
+          {
+            "start": 17.41,
+            "end": 17.69,
+            "word": " for",
+            "probability": 0.99711
+          },
+          {
+            "start": 17.69,
+            "end": 18.09,
+            "word": " relaxing",
+            "probability": 0.99389
+          },
+          {
+            "start": 18.09,
+            "end": 18.53,
+            "word": " after",
+            "probability": 0.97877
+          },
+          {
+            "start": 18.53,
+            "end": 18.67,
+            "word": " a",
+            "probability": 0.99588
+          },
+          {
+            "start": 18.67,
+            "end": 18.89,
+            "word": " long",
+            "probability": 0.99929
+          },
+          {
+            "start": 18.89,
+            "end": 19.13,
+            "word": " day.",
+            "probability": 0.99905
+          }
+        ]
+      },
+      {
+        "start": 19.65,
+        "end": 28.69,
+        "text": "But the kitchen is the star of the house. It's the largest room with lots of counter space for cooking and it's great for hosting dinners. You'll love it here.",
+        "words": [
+          {
+            "start": 19.65,
+            "end": 19.85,
+            "word": " But",
+            "probability": 0.99057
+          },
+          {
+            "start": 19.85,
+            "end": 19.97,
+            "word": " the",
+            "probability": 0.97792
+          },
+          {
+            "start": 19.97,
+            "end": 20.27,
+            "word": " kitchen",
+            "probability": 0.9972
+          },
+          {
+            "start": 20.27,
+            "end": 20.47,
+            "word": " is",
+            "probability": 0.99713
+          },
+          {
+            "start": 20.47,
+            "end": 20.63,
+            "word": " the",
+            "probability": 0.99602
+          },
+          {
+            "start": 20.63,
+            "end": 20.91,
+            "word": " star",
+            "probability": 0.95592
+          },
+          {
+            "start": 20.91,
+            "end": 21.11,
+            "word": " of",
+            "probability": 0.99894
+          },
+          {
+            "start": 21.11,
+            "end": 21.23,
+            "word": " the",
+            "probability": 0.99733
+          },
+          {
+            "start": 21.23,
+            "end": 21.45,
+            "word": " house.",
+            "probability": 0.99077
+          },
+          {
+            "start": 21.89,
+            "end": 22.05,
+            "word": " It's",
+            "probability": 0.98556
+          },
+          {
+            "start": 22.05,
+            "end": 22.15,
+            "word": " the",
+            "probability": 0.99799
+          },
+          {
+            "start": 22.15,
+            "end": 22.49,
+            "word": " largest",
+            "probability": 0.9957
+          },
+          {
+            "start": 22.49,
+            "end": 22.87,
+            "word": " room",
+            "probability": 0.99902
+          },
+          {
+            "start": 22.87,
+            "end": 23.41,
+            "word": " with",
+            "probability": 0.84688
+          },
+          {
+            "start": 23.41,
+            "end": 23.63,
+            "word": " lots",
+            "probability": 0.9977
+          },
+          {
+            "start": 23.63,
+            "end": 23.83,
+            "word": " of",
+            "probability": 0.99905
+          },
+          {
+            "start": 23.83,
+            "end": 24.09,
+            "word": " counter",
+            "probability": 0.9588
+          },
+          {
+            "start": 24.09,
+            "end": 24.33,
+            "word": " space",
+            "probability": 0.80447
+          },
+          {
+            "start": 24.33,
+            "end": 24.57,
+            "word": " for",
+            "probability": 0.99909
+          },
+          {
+            "start": 24.57,
+            "end": 24.87,
+            "word": " cooking",
+            "probability": 0.99886
+          },
+          {
+            "start": 24.87,
+            "end": 25.61,
+            "word": " and",
+            "probability": 0.60308
+          },
+          {
+            "start": 25.61,
+            "end": 25.83,
+            "word": " it's",
+            "probability": 0.97956
+          },
+          {
+            "start": 25.83,
+            "end": 26.07,
+            "word": " great",
+            "probability": 0.99832
+          },
+          {
+            "start": 26.07,
+            "end": 26.39,
+            "word": " for",
+            "probability": 0.99875
+          },
+          {
+            "start": 26.39,
+            "end": 26.73,
+            "word": " hosting",
+            "probability": 0.9943
+          },
+          {
+            "start": 26.73,
+            "end": 27.11,
+            "word": " dinners.",
+            "probability": 0.9967
+          },
+          {
+            "start": 27.83,
+            "end": 28.11,
+            "word": " You'll",
+            "probability": 0.99164
+          },
+          {
+            "start": 28.11,
+            "end": 28.31,
+            "word": " love",
+            "probability": 0.99503
+          },
+          {
+            "start": 28.31,
+            "end": 28.43,
+            "word": " it",
+            "probability": 0.99947
+          },
+          {
+            "start": 28.43,
+            "end": 28.69,
+            "word": " here.",
+            "probability": 0.99861
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q10",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 82,
+            "speechStart": 1.01,
+            "speechEnd": 28.69,
+            "sourceTokenCoverage": 0.9878,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9878,
+            "transcript": "hello and welcome let me tell you about this lovely property it has 2 spacious bedrooms both with big windows that lead in lots of natural light the bathroom is modern with a large shower and plenty of storage space the living room is cozy perfect for relaxing after a long day but the kitchen is the star of the house it's the largest room with lots of counter space for cooking and it's great for hosting dinners you'll love it here",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

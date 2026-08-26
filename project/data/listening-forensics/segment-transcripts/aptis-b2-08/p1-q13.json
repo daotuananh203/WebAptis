@@ -1,0 +1,834 @@
+{
+  "testId": "aptis-b2-08",
+  "blockId": "p1-q13",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-08/part-1/q13.mp3",
+  "audioSha256": "86744cd51ced4effdc122b0f27ce69c0d4dbe98c374ab6e81a3d37b2399d0b18",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.66,
+        "end": 5.14,
+        "text": "Hi, Professor Smith. This is John calling about our meeting for the assignment.",
+        "words": [
+          {
+            "start": 0.66,
+            "end": 1.12,
+            "word": " Hi,",
+            "probability": 0.32736
+          },
+          {
+            "start": 1.32,
+            "end": 1.56,
+            "word": " Professor",
+            "probability": 0.78632
+          },
+          {
+            "start": 1.56,
+            "end": 1.82,
+            "word": " Smith.",
+            "probability": 0.99196
+          },
+          {
+            "start": 2.52,
+            "end": 2.62,
+            "word": " This",
+            "probability": 0.98769
+          },
+          {
+            "start": 2.62,
+            "end": 2.78,
+            "word": " is",
+            "probability": 0.99634
+          },
+          {
+            "start": 2.78,
+            "end": 3.02,
+            "word": " John",
+            "probability": 0.84273
+          },
+          {
+            "start": 3.02,
+            "end": 3.48,
+            "word": " calling",
+            "probability": 0.49084
+          },
+          {
+            "start": 3.48,
+            "end": 3.88,
+            "word": " about",
+            "probability": 0.97721
+          },
+          {
+            "start": 3.88,
+            "end": 4.08,
+            "word": " our",
+            "probability": 0.99219
+          },
+          {
+            "start": 4.08,
+            "end": 4.32,
+            "word": " meeting",
+            "probability": 0.97635
+          },
+          {
+            "start": 4.32,
+            "end": 4.58,
+            "word": " for",
+            "probability": 0.9913
+          },
+          {
+            "start": 4.58,
+            "end": 4.7,
+            "word": " the",
+            "probability": 0.98928
+          },
+          {
+            "start": 4.7,
+            "end": 5.14,
+            "word": " assignment.",
+            "probability": 0.99041
+          }
+        ]
+      },
+      {
+        "start": 6.14,
+        "end": 10.62,
+        "text": "I wanted to confirm our appointment time. I know we discussed a few options earlier.",
+        "words": [
+          {
+            "start": 6.14,
+            "end": 6.22,
+            "word": " I",
+            "probability": 0.98512
+          },
+          {
+            "start": 6.22,
+            "end": 6.44,
+            "word": " wanted",
+            "probability": 0.98356
+          },
+          {
+            "start": 6.44,
+            "end": 6.6,
+            "word": " to",
+            "probability": 0.99904
+          },
+          {
+            "start": 6.6,
+            "end": 7.0,
+            "word": " confirm",
+            "probability": 0.99502
+          },
+          {
+            "start": 7.0,
+            "end": 7.3,
+            "word": " our",
+            "probability": 0.99387
+          },
+          {
+            "start": 7.3,
+            "end": 7.66,
+            "word": " appointment",
+            "probability": 0.99769
+          },
+          {
+            "start": 7.66,
+            "end": 8.06,
+            "word": " time.",
+            "probability": 0.99117
+          },
+          {
+            "start": 8.62,
+            "end": 8.7,
+            "word": " I",
+            "probability": 0.98816
+          },
+          {
+            "start": 8.7,
+            "end": 8.84,
+            "word": " know",
+            "probability": 0.98175
+          },
+          {
+            "start": 8.84,
+            "end": 8.96,
+            "word": " we",
+            "probability": 0.99065
+          },
+          {
+            "start": 8.96,
+            "end": 9.28,
+            "word": " discussed",
+            "probability": 0.98447
+          },
+          {
+            "start": 9.28,
+            "end": 9.54,
+            "word": " a",
+            "probability": 0.9949
+          },
+          {
+            "start": 9.54,
+            "end": 9.7,
+            "word": " few",
+            "probability": 0.99927
+          },
+          {
+            "start": 9.7,
+            "end": 10.14,
+            "word": " options",
+            "probability": 0.99175
+          },
+          {
+            "start": 10.14,
+            "end": 10.62,
+            "word": " earlier.",
+            "probability": 0.99114
+          }
+        ]
+      },
+      {
+        "start": 11.32,
+        "end": 16.54,
+        "text": "At first, I thought we agreed on Tuesday morning, but then I remembered that doesn't work with your schedule.",
+        "words": [
+          {
+            "start": 11.32,
+            "end": 11.46,
+            "word": " At",
+            "probability": 0.99118
+          },
+          {
+            "start": 11.46,
+            "end": 11.72,
+            "word": " first,",
+            "probability": 0.99807
+          },
+          {
+            "start": 12.12,
+            "end": 12.22,
+            "word": " I",
+            "probability": 0.99374
+          },
+          {
+            "start": 12.22,
+            "end": 12.36,
+            "word": " thought",
+            "probability": 0.99517
+          },
+          {
+            "start": 12.36,
+            "end": 12.5,
+            "word": " we",
+            "probability": 0.99392
+          },
+          {
+            "start": 12.5,
+            "end": 12.76,
+            "word": " agreed",
+            "probability": 0.98046
+          },
+          {
+            "start": 12.76,
+            "end": 12.96,
+            "word": " on",
+            "probability": 0.99637
+          },
+          {
+            "start": 12.96,
+            "end": 13.24,
+            "word": " Tuesday",
+            "probability": 0.99517
+          },
+          {
+            "start": 13.24,
+            "end": 13.74,
+            "word": " morning,",
+            "probability": 0.98578
+          },
+          {
+            "start": 14.22,
+            "end": 14.44,
+            "word": " but",
+            "probability": 0.9922
+          },
+          {
+            "start": 14.44,
+            "end": 14.6,
+            "word": " then",
+            "probability": 0.99523
+          },
+          {
+            "start": 14.6,
+            "end": 14.74,
+            "word": " I",
+            "probability": 0.98925
+          },
+          {
+            "start": 14.74,
+            "end": 15.12,
+            "word": " remembered",
+            "probability": 0.98884
+          },
+          {
+            "start": 15.12,
+            "end": 15.32,
+            "word": " that",
+            "probability": 0.99289
+          },
+          {
+            "start": 15.32,
+            "end": 15.62,
+            "word": " doesn't",
+            "probability": 0.93484
+          },
+          {
+            "start": 15.62,
+            "end": 15.8,
+            "word": " work",
+            "probability": 0.99806
+          },
+          {
+            "start": 15.8,
+            "end": 16.02,
+            "word": " with",
+            "probability": 0.99664
+          },
+          {
+            "start": 16.02,
+            "end": 16.12,
+            "word": " your",
+            "probability": 0.99266
+          },
+          {
+            "start": 16.12,
+            "end": 16.54,
+            "word": " schedule.",
+            "probability": 0.99913
+          }
+        ]
+      },
+      {
+        "start": 17.48,
+        "end": 21.24,
+        "text": "Then I considered Thursday afternoon, but I have another class then.",
+        "words": [
+          {
+            "start": 17.48,
+            "end": 17.72,
+            "word": " Then",
+            "probability": 0.98994
+          },
+          {
+            "start": 17.72,
+            "end": 17.84,
+            "word": " I",
+            "probability": 0.91133
+          },
+          {
+            "start": 17.84,
+            "end": 18.24,
+            "word": " considered",
+            "probability": 0.99191
+          },
+          {
+            "start": 18.24,
+            "end": 18.52,
+            "word": " Thursday",
+            "probability": 0.99605
+          },
+          {
+            "start": 18.52,
+            "end": 19.22,
+            "word": " afternoon,",
+            "probability": 0.95134
+          },
+          {
+            "start": 19.9,
+            "end": 20.06,
+            "word": " but",
+            "probability": 0.99741
+          },
+          {
+            "start": 20.06,
+            "end": 20.16,
+            "word": " I",
+            "probability": 0.99725
+          },
+          {
+            "start": 20.16,
+            "end": 20.32,
+            "word": " have",
+            "probability": 0.99208
+          },
+          {
+            "start": 20.32,
+            "end": 20.54,
+            "word": " another",
+            "probability": 0.99739
+          },
+          {
+            "start": 20.54,
+            "end": 20.92,
+            "word": " class",
+            "probability": 0.9927
+          },
+          {
+            "start": 20.92,
+            "end": 21.24,
+            "word": " then.",
+            "probability": 0.88883
+          }
+        ]
+      },
+      {
+        "start": 22.08,
+        "end": 26.64,
+        "text": "So, I'm pretty sure we settled on Thursday morning at 10 a.m. in your office.",
+        "words": [
+          {
+            "start": 22.08,
+            "end": 22.44,
+            "word": " So,",
+            "probability": 0.96544
+          },
+          {
+            "start": 22.78,
+            "end": 23.1,
+            "word": " I'm",
+            "probability": 0.98568
+          },
+          {
+            "start": 23.1,
+            "end": 23.28,
+            "word": " pretty",
+            "probability": 0.99857
+          },
+          {
+            "start": 23.28,
+            "end": 23.52,
+            "word": " sure",
+            "probability": 0.99889
+          },
+          {
+            "start": 23.52,
+            "end": 23.7,
+            "word": " we",
+            "probability": 0.9957
+          },
+          {
+            "start": 23.7,
+            "end": 23.98,
+            "word": " settled",
+            "probability": 0.99223
+          },
+          {
+            "start": 23.98,
+            "end": 24.22,
+            "word": " on",
+            "probability": 0.99902
+          },
+          {
+            "start": 24.22,
+            "end": 24.44,
+            "word": " Thursday",
+            "probability": 0.99727
+          },
+          {
+            "start": 24.44,
+            "end": 24.98,
+            "word": " morning",
+            "probability": 0.99375
+          },
+          {
+            "start": 24.98,
+            "end": 25.3,
+            "word": " at",
+            "probability": 0.94167
+          },
+          {
+            "start": 25.3,
+            "end": 25.6,
+            "word": " 10",
+            "probability": 0.96574
+          },
+          {
+            "start": 25.6,
+            "end": 25.76,
+            "word": " a",
+            "probability": 0.36228
+          },
+          {
+            "start": 25.76,
+            "end": 25.96,
+            "word": ".m.",
+            "probability": 0.99844
+          },
+          {
+            "start": 26.04,
+            "end": 26.16,
+            "word": " in",
+            "probability": 0.98996
+          },
+          {
+            "start": 26.16,
+            "end": 26.3,
+            "word": " your",
+            "probability": 0.99697
+          },
+          {
+            "start": 26.3,
+            "end": 26.64,
+            "word": " office.",
+            "probability": 0.99905
+          }
+        ]
+      },
+      {
+        "start": 26.64,
+        "end": 31.46,
+        "text": "this. That's what I have written down. I'll bring my draft and notes for the project.",
+        "words": [
+          {
+            "start": 26.64,
+            "end": 26.84,
+            "word": " this.",
+            "probability": 0.06662
+          },
+          {
+            "start": 27.14,
+            "end": 27.46,
+            "word": " That's",
+            "probability": 0.96397
+          },
+          {
+            "start": 27.46,
+            "end": 27.54,
+            "word": " what",
+            "probability": 0.98786
+          },
+          {
+            "start": 27.54,
+            "end": 27.66,
+            "word": " I",
+            "probability": 0.98418
+          },
+          {
+            "start": 27.66,
+            "end": 27.78,
+            "word": " have",
+            "probability": 0.96216
+          },
+          {
+            "start": 27.78,
+            "end": 27.98,
+            "word": " written",
+            "probability": 0.99641
+          },
+          {
+            "start": 27.98,
+            "end": 28.26,
+            "word": " down.",
+            "probability": 0.98938
+          },
+          {
+            "start": 29.16,
+            "end": 29.26,
+            "word": " I'll",
+            "probability": 0.96228
+          },
+          {
+            "start": 29.26,
+            "end": 29.42,
+            "word": " bring",
+            "probability": 0.98805
+          },
+          {
+            "start": 29.42,
+            "end": 29.64,
+            "word": " my",
+            "probability": 0.98883
+          },
+          {
+            "start": 29.64,
+            "end": 29.9,
+            "word": " draft",
+            "probability": 0.98278
+          },
+          {
+            "start": 29.9,
+            "end": 30.32,
+            "word": " and",
+            "probability": 0.96559
+          },
+          {
+            "start": 30.32,
+            "end": 30.64,
+            "word": " notes",
+            "probability": 0.99074
+          },
+          {
+            "start": 30.64,
+            "end": 30.92,
+            "word": " for",
+            "probability": 0.97939
+          },
+          {
+            "start": 30.92,
+            "end": 31.02,
+            "word": " the",
+            "probability": 0.98945
+          },
+          {
+            "start": 31.02,
+            "end": 31.46,
+            "word": " project.",
+            "probability": 0.99411
+          }
+        ]
+      },
+      {
+        "start": 32.0,
+        "end": 36.78,
+        "text": "If I've got the day or time wrong or if you need me to bring anything else, please",
+        "words": [
+          {
+            "start": 32.0,
+            "end": 32.36,
+            "word": " If",
+            "probability": 0.98415
+          },
+          {
+            "start": 32.36,
+            "end": 32.52,
+            "word": " I've",
+            "probability": 0.96412
+          },
+          {
+            "start": 32.52,
+            "end": 32.62,
+            "word": " got",
+            "probability": 0.98403
+          },
+          {
+            "start": 32.62,
+            "end": 32.78,
+            "word": " the",
+            "probability": 0.98091
+          },
+          {
+            "start": 32.78,
+            "end": 32.98,
+            "word": " day",
+            "probability": 0.97908
+          },
+          {
+            "start": 32.98,
+            "end": 33.08,
+            "word": " or",
+            "probability": 0.97068
+          },
+          {
+            "start": 33.08,
+            "end": 33.32,
+            "word": " time",
+            "probability": 0.9959
+          },
+          {
+            "start": 33.32,
+            "end": 33.72,
+            "word": " wrong",
+            "probability": 0.99654
+          },
+          {
+            "start": 33.72,
+            "end": 34.22,
+            "word": " or",
+            "probability": 0.5676
+          },
+          {
+            "start": 34.22,
+            "end": 34.4,
+            "word": " if",
+            "probability": 0.95654
+          },
+          {
+            "start": 34.4,
+            "end": 34.5,
+            "word": " you",
+            "probability": 0.98956
+          },
+          {
+            "start": 34.5,
+            "end": 34.72,
+            "word": " need",
+            "probability": 0.99488
+          },
+          {
+            "start": 34.72,
+            "end": 34.94,
+            "word": " me",
+            "probability": 0.98995
+          },
+          {
+            "start": 34.94,
+            "end": 35.08,
+            "word": " to",
+            "probability": 0.99594
+          },
+          {
+            "start": 35.08,
+            "end": 35.28,
+            "word": " bring",
+            "probability": 0.99305
+          },
+          {
+            "start": 35.28,
+            "end": 35.74,
+            "word": " anything",
+            "probability": 0.99204
+          },
+          {
+            "start": 35.74,
+            "end": 36.14,
+            "word": " else,",
+            "probability": 0.99337
+          },
+          {
+            "start": 36.56,
+            "end": 36.78,
+            "word": " please",
+            "probability": 0.98787
+          }
+        ]
+      },
+      {
+        "start": 36.78,
+        "end": 41.8,
+        "text": "let me know. Looking forward to discussing the assignment with you. Have a great day.",
+        "words": [
+          {
+            "start": 36.78,
+            "end": 37.02,
+            "word": " let",
+            "probability": 0.99502
+          },
+          {
+            "start": 37.02,
+            "end": 37.18,
+            "word": " me",
+            "probability": 0.99601
+          },
+          {
+            "start": 37.18,
+            "end": 37.42,
+            "word": " know.",
+            "probability": 0.99901
+          },
+          {
+            "start": 38.08,
+            "end": 38.26,
+            "word": " Looking",
+            "probability": 0.96109
+          },
+          {
+            "start": 38.26,
+            "end": 38.58,
+            "word": " forward",
+            "probability": 0.99886
+          },
+          {
+            "start": 38.58,
+            "end": 38.76,
+            "word": " to",
+            "probability": 0.99788
+          },
+          {
+            "start": 38.76,
+            "end": 39.2,
+            "word": " discussing",
+            "probability": 0.98929
+          },
+          {
+            "start": 39.2,
+            "end": 39.48,
+            "word": " the",
+            "probability": 0.99141
+          },
+          {
+            "start": 39.48,
+            "end": 39.92,
+            "word": " assignment",
+            "probability": 0.99551
+          },
+          {
+            "start": 39.92,
+            "end": 40.18,
+            "word": " with",
+            "probability": 0.98602
+          },
+          {
+            "start": 40.18,
+            "end": 40.38,
+            "word": " you.",
+            "probability": 0.9968
+          },
+          {
+            "start": 41.06,
+            "end": 41.28,
+            "word": " Have",
+            "probability": 0.99524
+          },
+          {
+            "start": 41.28,
+            "end": 41.4,
+            "word": " a",
+            "probability": 0.99823
+          },
+          {
+            "start": 41.4,
+            "end": 41.56,
+            "word": " great",
+            "probability": 0.99405
+          },
+          {
+            "start": 41.56,
+            "end": 41.8,
+            "word": " day.",
+            "probability": 0.99801
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q13",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 123,
+            "speechStart": 0.66,
+            "speechEnd": 41.8,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9959,
+            "transcript": "hi professor smith this is john calling about our meeting for the assignment i wanted to confirm our appointment time i know we discussed a few options earlier at first i thought we agreed on tuesday morning but then i remembered that doesn't work with your schedule then i considered thursday afternoon but i have another class then so i'm pretty sure we settled on thursday morning at 10 a m in your office this that's what i have written down i'll bring my draft and notes for the project if i've got the day or time wrong or if you need me to bring anything else please let me know looking forward to discussing the assignment with you have a great day",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

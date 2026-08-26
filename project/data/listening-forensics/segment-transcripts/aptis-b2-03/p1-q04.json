@@ -1,0 +1,368 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p1-q04",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-1/q04.mp3",
+  "audioSha256": "f30f7c090c4672343cbad4d924b114c4f75b1237cbc6edc9327a5a4fd7c8956c",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.66,
+        "end": 7.02,
+        "text": "Hi, honey. It's me. Just a reminder that the train leaves at five, so you should arrive around six o'clock.",
+        "words": [
+          {
+            "start": 0.66,
+            "end": 1.16,
+            "word": " Hi,",
+            "probability": 0.88486
+          },
+          {
+            "start": 1.3,
+            "end": 1.4,
+            "word": " honey.",
+            "probability": 0.88157
+          },
+          {
+            "start": 1.7,
+            "end": 2.02,
+            "word": " It's",
+            "probability": 0.99224
+          },
+          {
+            "start": 2.02,
+            "end": 2.18,
+            "word": " me.",
+            "probability": 0.99507
+          },
+          {
+            "start": 2.84,
+            "end": 3.0,
+            "word": " Just",
+            "probability": 0.99528
+          },
+          {
+            "start": 3.0,
+            "end": 3.18,
+            "word": " a",
+            "probability": 0.97735
+          },
+          {
+            "start": 3.18,
+            "end": 3.46,
+            "word": " reminder",
+            "probability": 0.99882
+          },
+          {
+            "start": 3.46,
+            "end": 3.8,
+            "word": " that",
+            "probability": 0.97609
+          },
+          {
+            "start": 3.8,
+            "end": 3.92,
+            "word": " the",
+            "probability": 0.98001
+          },
+          {
+            "start": 3.92,
+            "end": 4.18,
+            "word": " train",
+            "probability": 0.9967
+          },
+          {
+            "start": 4.18,
+            "end": 4.5,
+            "word": " leaves",
+            "probability": 0.99569
+          },
+          {
+            "start": 4.5,
+            "end": 4.7,
+            "word": " at",
+            "probability": 0.99836
+          },
+          {
+            "start": 4.7,
+            "end": 5.08,
+            "word": " five,",
+            "probability": 0.44533
+          },
+          {
+            "start": 5.1,
+            "end": 5.46,
+            "word": " so",
+            "probability": 0.98246
+          },
+          {
+            "start": 5.46,
+            "end": 5.56,
+            "word": " you",
+            "probability": 0.99776
+          },
+          {
+            "start": 5.56,
+            "end": 5.74,
+            "word": " should",
+            "probability": 0.99821
+          },
+          {
+            "start": 5.74,
+            "end": 6.04,
+            "word": " arrive",
+            "probability": 0.99791
+          },
+          {
+            "start": 6.04,
+            "end": 6.36,
+            "word": " around",
+            "probability": 0.98203
+          },
+          {
+            "start": 6.36,
+            "end": 6.64,
+            "word": " six",
+            "probability": 0.82369
+          },
+          {
+            "start": 6.64,
+            "end": 6.78,
+            "word": " o",
+            "probability": 0.9893
+          },
+          {
+            "start": 6.78,
+            "end": 7.02,
+            "word": "'clock.",
+            "probability": 0.98929
+          }
+        ]
+      },
+      {
+        "start": 7.42,
+        "end": 9.5,
+        "text": "I'll be there to pick you up at the train station.",
+        "words": [
+          {
+            "start": 7.42,
+            "end": 7.78,
+            "word": " I'll",
+            "probability": 0.99659
+          },
+          {
+            "start": 7.78,
+            "end": 7.9,
+            "word": " be",
+            "probability": 0.99924
+          },
+          {
+            "start": 7.9,
+            "end": 8.04,
+            "word": " there",
+            "probability": 0.99942
+          },
+          {
+            "start": 8.04,
+            "end": 8.16,
+            "word": " to",
+            "probability": 0.99791
+          },
+          {
+            "start": 8.16,
+            "end": 8.32,
+            "word": " pick",
+            "probability": 0.99752
+          },
+          {
+            "start": 8.32,
+            "end": 8.48,
+            "word": " you",
+            "probability": 0.99905
+          },
+          {
+            "start": 8.48,
+            "end": 8.6,
+            "word": " up",
+            "probability": 0.99901
+          },
+          {
+            "start": 8.6,
+            "end": 8.68,
+            "word": " at",
+            "probability": 0.99646
+          },
+          {
+            "start": 8.68,
+            "end": 8.78,
+            "word": " the",
+            "probability": 0.99739
+          },
+          {
+            "start": 8.78,
+            "end": 9.02,
+            "word": " train",
+            "probability": 0.98643
+          },
+          {
+            "start": 9.02,
+            "end": 9.5,
+            "word": " station.",
+            "probability": 0.99866
+          }
+        ]
+      },
+      {
+        "start": 10.44,
+        "end": 14.8,
+        "text": "Let's meet outside the shop opposite the station. I can't wait to have dinner together.",
+        "words": [
+          {
+            "start": 10.44,
+            "end": 10.82,
+            "word": " Let's",
+            "probability": 0.99568
+          },
+          {
+            "start": 10.82,
+            "end": 10.96,
+            "word": " meet",
+            "probability": 0.99165
+          },
+          {
+            "start": 10.96,
+            "end": 11.4,
+            "word": " outside",
+            "probability": 0.99772
+          },
+          {
+            "start": 11.4,
+            "end": 11.6,
+            "word": " the",
+            "probability": 0.99657
+          },
+          {
+            "start": 11.6,
+            "end": 11.8,
+            "word": " shop",
+            "probability": 0.99348
+          },
+          {
+            "start": 11.8,
+            "end": 12.24,
+            "word": " opposite",
+            "probability": 0.95873
+          },
+          {
+            "start": 12.24,
+            "end": 12.46,
+            "word": " the",
+            "probability": 0.99018
+          },
+          {
+            "start": 12.46,
+            "end": 12.82,
+            "word": " station.",
+            "probability": 0.99719
+          },
+          {
+            "start": 13.3,
+            "end": 13.48,
+            "word": " I",
+            "probability": 0.9969
+          },
+          {
+            "start": 13.48,
+            "end": 13.76,
+            "word": " can't",
+            "probability": 0.99888
+          },
+          {
+            "start": 13.76,
+            "end": 13.9,
+            "word": " wait",
+            "probability": 0.99971
+          },
+          {
+            "start": 13.9,
+            "end": 14.06,
+            "word": " to",
+            "probability": 0.99812
+          },
+          {
+            "start": 14.06,
+            "end": 14.2,
+            "word": " have",
+            "probability": 0.99938
+          },
+          {
+            "start": 14.2,
+            "end": 14.38,
+            "word": " dinner",
+            "probability": 0.99825
+          },
+          {
+            "start": 14.38,
+            "end": 14.8,
+            "word": " together.",
+            "probability": 0.99933
+          }
+        ]
+      },
+      {
+        "start": 15.6,
+        "end": 16.28,
+        "text": "See you soon!",
+        "words": [
+          {
+            "start": 15.6,
+            "end": 15.96,
+            "word": " See",
+            "probability": 0.99289
+          },
+          {
+            "start": 15.96,
+            "end": 16.12,
+            "word": " you",
+            "probability": 0.99638
+          },
+          {
+            "start": 16.12,
+            "end": 16.28,
+            "word": " soon!",
+            "probability": 0.9912
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q04",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 50,
+            "speechStart": 0.66,
+            "speechEnd": 16.28,
+            "sourceTokenCoverage": 0.9796,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9697,
+            "transcript": "hi honey it's me just a reminder that the train leaves at 5 so you should arrive around 6 o clock i'll be there to pick you up at the train station let's meet outside the shop opposite the station i can't wait to have dinner together see you soon",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

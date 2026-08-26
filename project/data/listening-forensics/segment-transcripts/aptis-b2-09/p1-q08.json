@@ -1,0 +1,958 @@
+{
+  "testId": "aptis-b2-09",
+  "blockId": "p1-q08",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-09/part-1/q08.mp3",
+  "audioSha256": "3151d4c436cfaf3887ccd69c0336394f5c17d61fabdb0206a6ce47de41b40b02",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 5.12,
+        "text": "I have been thinking a lot about my job and I really want to become a writer.",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.32,
+            "word": " I",
+            "probability": 0.50236
+          },
+          {
+            "start": 1.32,
+            "end": 1.44,
+            "word": " have",
+            "probability": 0.66314
+          },
+          {
+            "start": 1.44,
+            "end": 1.58,
+            "word": " been",
+            "probability": 0.99348
+          },
+          {
+            "start": 1.58,
+            "end": 1.9,
+            "word": " thinking",
+            "probability": 0.99333
+          },
+          {
+            "start": 1.9,
+            "end": 2.1,
+            "word": " a",
+            "probability": 0.98621
+          },
+          {
+            "start": 2.1,
+            "end": 2.22,
+            "word": " lot",
+            "probability": 0.99869
+          },
+          {
+            "start": 2.22,
+            "end": 2.52,
+            "word": " about",
+            "probability": 0.99831
+          },
+          {
+            "start": 2.52,
+            "end": 2.72,
+            "word": " my",
+            "probability": 0.99761
+          },
+          {
+            "start": 2.72,
+            "end": 3.0,
+            "word": " job",
+            "probability": 0.99831
+          },
+          {
+            "start": 3.0,
+            "end": 3.54,
+            "word": " and",
+            "probability": 0.43161
+          },
+          {
+            "start": 3.54,
+            "end": 3.66,
+            "word": " I",
+            "probability": 0.99101
+          },
+          {
+            "start": 3.66,
+            "end": 3.98,
+            "word": " really",
+            "probability": 0.99159
+          },
+          {
+            "start": 3.98,
+            "end": 4.22,
+            "word": " want",
+            "probability": 0.99471
+          },
+          {
+            "start": 4.22,
+            "end": 4.38,
+            "word": " to",
+            "probability": 0.99851
+          },
+          {
+            "start": 4.38,
+            "end": 4.62,
+            "word": " become",
+            "probability": 0.99539
+          },
+          {
+            "start": 4.62,
+            "end": 4.78,
+            "word": " a",
+            "probability": 0.99824
+          },
+          {
+            "start": 4.78,
+            "end": 5.12,
+            "word": " writer.",
+            "probability": 0.99258
+          }
+        ]
+      },
+      {
+        "start": 5.94,
+        "end": 9.88,
+        "text": "It's not just about earning a lot of money or becoming famous for me.",
+        "words": [
+          {
+            "start": 5.94,
+            "end": 6.38,
+            "word": " It's",
+            "probability": 0.9711
+          },
+          {
+            "start": 6.38,
+            "end": 6.52,
+            "word": " not",
+            "probability": 0.99399
+          },
+          {
+            "start": 6.52,
+            "end": 6.8,
+            "word": " just",
+            "probability": 0.99404
+          },
+          {
+            "start": 6.8,
+            "end": 7.12,
+            "word": " about",
+            "probability": 0.99916
+          },
+          {
+            "start": 7.12,
+            "end": 7.44,
+            "word": " earning",
+            "probability": 0.99466
+          },
+          {
+            "start": 7.44,
+            "end": 7.66,
+            "word": " a",
+            "probability": 0.98379
+          },
+          {
+            "start": 7.66,
+            "end": 7.82,
+            "word": " lot",
+            "probability": 0.99928
+          },
+          {
+            "start": 7.82,
+            "end": 8.04,
+            "word": " of",
+            "probability": 0.99409
+          },
+          {
+            "start": 8.04,
+            "end": 8.36,
+            "word": " money",
+            "probability": 0.9991
+          },
+          {
+            "start": 8.36,
+            "end": 8.62,
+            "word": " or",
+            "probability": 0.96333
+          },
+          {
+            "start": 8.62,
+            "end": 8.92,
+            "word": " becoming",
+            "probability": 0.99414
+          },
+          {
+            "start": 8.92,
+            "end": 9.44,
+            "word": " famous",
+            "probability": 0.99564
+          },
+          {
+            "start": 9.44,
+            "end": 9.72,
+            "word": " for",
+            "probability": 0.98326
+          },
+          {
+            "start": 9.72,
+            "end": 9.88,
+            "word": " me.",
+            "probability": 0.99748
+          }
+        ]
+      },
+      {
+        "start": 10.83,
+        "end": 13.59,
+        "text": "My main reason is to help people improve themselves.",
+        "words": [
+          {
+            "start": 10.83,
+            "end": 11.01,
+            "word": " My",
+            "probability": 0.9859
+          },
+          {
+            "start": 11.01,
+            "end": 11.29,
+            "word": " main",
+            "probability": 0.99908
+          },
+          {
+            "start": 11.29,
+            "end": 11.69,
+            "word": " reason",
+            "probability": 0.99843
+          },
+          {
+            "start": 11.69,
+            "end": 11.97,
+            "word": " is",
+            "probability": 0.99689
+          },
+          {
+            "start": 11.97,
+            "end": 12.13,
+            "word": " to",
+            "probability": 0.9972
+          },
+          {
+            "start": 12.13,
+            "end": 12.31,
+            "word": " help",
+            "probability": 0.99741
+          },
+          {
+            "start": 12.31,
+            "end": 12.71,
+            "word": " people",
+            "probability": 0.99868
+          },
+          {
+            "start": 12.71,
+            "end": 13.15,
+            "word": " improve",
+            "probability": 0.9971
+          },
+          {
+            "start": 13.15,
+            "end": 13.59,
+            "word": " themselves.",
+            "probability": 0.99423
+          }
+        ]
+      },
+      {
+        "start": 14.47,
+        "end": 18.59,
+        "text": "I believe stories can inspire and support others during hard times.",
+        "words": [
+          {
+            "start": 14.47,
+            "end": 14.99,
+            "word": " I",
+            "probability": 0.99117
+          },
+          {
+            "start": 14.99,
+            "end": 15.25,
+            "word": " believe",
+            "probability": 0.97949
+          },
+          {
+            "start": 15.25,
+            "end": 15.75,
+            "word": " stories",
+            "probability": 0.99641
+          },
+          {
+            "start": 15.75,
+            "end": 15.99,
+            "word": " can",
+            "probability": 0.99941
+          },
+          {
+            "start": 15.99,
+            "end": 16.41,
+            "word": " inspire",
+            "probability": 0.99882
+          },
+          {
+            "start": 16.41,
+            "end": 16.75,
+            "word": " and",
+            "probability": 0.99508
+          },
+          {
+            "start": 16.75,
+            "end": 17.07,
+            "word": " support",
+            "probability": 0.9991
+          },
+          {
+            "start": 17.07,
+            "end": 17.47,
+            "word": " others",
+            "probability": 0.99891
+          },
+          {
+            "start": 17.47,
+            "end": 17.83,
+            "word": " during",
+            "probability": 0.99753
+          },
+          {
+            "start": 17.83,
+            "end": 18.13,
+            "word": " hard",
+            "probability": 0.99842
+          },
+          {
+            "start": 18.13,
+            "end": 18.59,
+            "word": " times.",
+            "probability": 0.99821
+          }
+        ]
+      },
+      {
+        "start": 19.51,
+        "end": 24.27,
+        "text": "I hope my writing can make a difference in their lives and that's why I'm choosing this path.",
+        "words": [
+          {
+            "start": 19.51,
+            "end": 19.85,
+            "word": " I",
+            "probability": 0.99236
+          },
+          {
+            "start": 19.85,
+            "end": 20.09,
+            "word": " hope",
+            "probability": 0.99323
+          },
+          {
+            "start": 20.09,
+            "end": 20.31,
+            "word": " my",
+            "probability": 0.99658
+          },
+          {
+            "start": 20.31,
+            "end": 20.67,
+            "word": " writing",
+            "probability": 0.99798
+          },
+          {
+            "start": 20.67,
+            "end": 20.91,
+            "word": " can",
+            "probability": 0.99796
+          },
+          {
+            "start": 20.91,
+            "end": 21.09,
+            "word": " make",
+            "probability": 0.99848
+          },
+          {
+            "start": 21.09,
+            "end": 21.23,
+            "word": " a",
+            "probability": 0.99878
+          },
+          {
+            "start": 21.23,
+            "end": 21.53,
+            "word": " difference",
+            "probability": 0.99753
+          },
+          {
+            "start": 21.53,
+            "end": 21.79,
+            "word": " in",
+            "probability": 0.9995
+          },
+          {
+            "start": 21.79,
+            "end": 21.95,
+            "word": " their",
+            "probability": 0.99928
+          },
+          {
+            "start": 21.95,
+            "end": 22.31,
+            "word": " lives",
+            "probability": 0.9911
+          },
+          {
+            "start": 22.31,
+            "end": 22.77,
+            "word": " and",
+            "probability": 0.76559
+          },
+          {
+            "start": 22.77,
+            "end": 23.09,
+            "word": " that's",
+            "probability": 0.99283
+          },
+          {
+            "start": 23.09,
+            "end": 23.23,
+            "word": " why",
+            "probability": 0.99888
+          },
+          {
+            "start": 23.23,
+            "end": 23.43,
+            "word": " I'm",
+            "probability": 0.95659
+          },
+          {
+            "start": 23.43,
+            "end": 23.67,
+            "word": " choosing",
+            "probability": 0.99663
+          },
+          {
+            "start": 23.67,
+            "end": 24.01,
+            "word": " this",
+            "probability": 0.99831
+          },
+          {
+            "start": 24.01,
+            "end": 24.27,
+            "word": " path.",
+            "probability": 0.99807
+          }
+        ]
+      },
+      {
+        "start": 31.06,
+        "end": 35.12,
+        "text": "I have been thinking a lot about my job and I really want to become a writer.",
+        "words": [
+          {
+            "start": 31.06,
+            "end": 31.3,
+            "word": " I",
+            "probability": 0.99626
+          },
+          {
+            "start": 31.3,
+            "end": 31.44,
+            "word": " have",
+            "probability": 0.98471
+          },
+          {
+            "start": 31.44,
+            "end": 31.58,
+            "word": " been",
+            "probability": 0.99881
+          },
+          {
+            "start": 31.58,
+            "end": 31.92,
+            "word": " thinking",
+            "probability": 0.99644
+          },
+          {
+            "start": 31.92,
+            "end": 32.1,
+            "word": " a",
+            "probability": 0.99474
+          },
+          {
+            "start": 32.1,
+            "end": 32.24,
+            "word": " lot",
+            "probability": 0.99936
+          },
+          {
+            "start": 32.24,
+            "end": 32.52,
+            "word": " about",
+            "probability": 0.99912
+          },
+          {
+            "start": 32.52,
+            "end": 32.72,
+            "word": " my",
+            "probability": 0.99927
+          },
+          {
+            "start": 32.72,
+            "end": 33.02,
+            "word": " job",
+            "probability": 0.99775
+          },
+          {
+            "start": 33.02,
+            "end": 33.54,
+            "word": " and",
+            "probability": 0.93326
+          },
+          {
+            "start": 33.54,
+            "end": 33.66,
+            "word": " I",
+            "probability": 0.99852
+          },
+          {
+            "start": 33.66,
+            "end": 33.96,
+            "word": " really",
+            "probability": 0.99515
+          },
+          {
+            "start": 33.96,
+            "end": 34.22,
+            "word": " want",
+            "probability": 0.99779
+          },
+          {
+            "start": 34.22,
+            "end": 34.38,
+            "word": " to",
+            "probability": 0.99916
+          },
+          {
+            "start": 34.38,
+            "end": 34.62,
+            "word": " become",
+            "probability": 0.99704
+          },
+          {
+            "start": 34.62,
+            "end": 34.78,
+            "word": " a",
+            "probability": 0.99852
+          },
+          {
+            "start": 34.78,
+            "end": 35.12,
+            "word": " writer.",
+            "probability": 0.99889
+          }
+        ]
+      },
+      {
+        "start": 35.12,
+        "end": 39.91,
+        "text": "It's not just about earning a lot of money or becoming famous for me.",
+        "words": [
+          {
+            "start": 35.12,
+            "end": 36.24,
+            "word": " It's",
+            "probability": 0.76499
+          },
+          {
+            "start": 36.37,
+            "end": 36.51,
+            "word": " not",
+            "probability": 0.99341
+          },
+          {
+            "start": 36.51,
+            "end": 36.85,
+            "word": " just",
+            "probability": 0.99599
+          },
+          {
+            "start": 36.85,
+            "end": 37.13,
+            "word": " about",
+            "probability": 0.99945
+          },
+          {
+            "start": 37.13,
+            "end": 37.45,
+            "word": " earning",
+            "probability": 0.99691
+          },
+          {
+            "start": 37.45,
+            "end": 37.65,
+            "word": " a",
+            "probability": 0.99466
+          },
+          {
+            "start": 37.65,
+            "end": 37.81,
+            "word": " lot",
+            "probability": 0.99846
+          },
+          {
+            "start": 37.81,
+            "end": 38.05,
+            "word": " of",
+            "probability": 0.99712
+          },
+          {
+            "start": 38.05,
+            "end": 38.35,
+            "word": " money",
+            "probability": 0.99938
+          },
+          {
+            "start": 38.35,
+            "end": 38.61,
+            "word": " or",
+            "probability": 0.97948
+          },
+          {
+            "start": 38.61,
+            "end": 38.95,
+            "word": " becoming",
+            "probability": 0.99587
+          },
+          {
+            "start": 38.95,
+            "end": 39.43,
+            "word": " famous",
+            "probability": 0.99616
+          },
+          {
+            "start": 39.43,
+            "end": 39.71,
+            "word": " for",
+            "probability": 0.99529
+          },
+          {
+            "start": 39.71,
+            "end": 39.91,
+            "word": " me.",
+            "probability": 0.99843
+          }
+        ]
+      },
+      {
+        "start": 40.69,
+        "end": 43.67,
+        "text": "My main reason is to help people improve themselves.",
+        "words": [
+          {
+            "start": 40.69,
+            "end": 41.01,
+            "word": " My",
+            "probability": 0.99099
+          },
+          {
+            "start": 41.01,
+            "end": 41.29,
+            "word": " main",
+            "probability": 0.99909
+          },
+          {
+            "start": 41.29,
+            "end": 41.67,
+            "word": " reason",
+            "probability": 0.99838
+          },
+          {
+            "start": 41.67,
+            "end": 41.97,
+            "word": " is",
+            "probability": 0.99771
+          },
+          {
+            "start": 41.97,
+            "end": 42.13,
+            "word": " to",
+            "probability": 0.99755
+          },
+          {
+            "start": 42.13,
+            "end": 42.31,
+            "word": " help",
+            "probability": 0.99788
+          },
+          {
+            "start": 42.31,
+            "end": 42.71,
+            "word": " people",
+            "probability": 0.9989
+          },
+          {
+            "start": 42.71,
+            "end": 43.13,
+            "word": " improve",
+            "probability": 0.9964
+          },
+          {
+            "start": 43.13,
+            "end": 43.67,
+            "word": " themselves.",
+            "probability": 0.99485
+          }
+        ]
+      },
+      {
+        "start": 44.64,
+        "end": 48.54,
+        "text": "I believe stories can inspire and support others during hard times.",
+        "words": [
+          {
+            "start": 44.64,
+            "end": 45.0,
+            "word": " I",
+            "probability": 0.9935
+          },
+          {
+            "start": 45.0,
+            "end": 45.24,
+            "word": " believe",
+            "probability": 0.97413
+          },
+          {
+            "start": 45.24,
+            "end": 45.72,
+            "word": " stories",
+            "probability": 0.99334
+          },
+          {
+            "start": 45.72,
+            "end": 46.0,
+            "word": " can",
+            "probability": 0.99897
+          },
+          {
+            "start": 46.0,
+            "end": 46.44,
+            "word": " inspire",
+            "probability": 0.99856
+          },
+          {
+            "start": 46.44,
+            "end": 46.74,
+            "word": " and",
+            "probability": 0.99667
+          },
+          {
+            "start": 46.74,
+            "end": 47.08,
+            "word": " support",
+            "probability": 0.99934
+          },
+          {
+            "start": 47.08,
+            "end": 47.46,
+            "word": " others",
+            "probability": 0.99939
+          },
+          {
+            "start": 47.46,
+            "end": 47.84,
+            "word": " during",
+            "probability": 0.99815
+          },
+          {
+            "start": 47.84,
+            "end": 48.14,
+            "word": " hard",
+            "probability": 0.99886
+          },
+          {
+            "start": 48.14,
+            "end": 48.54,
+            "word": " times.",
+            "probability": 0.99713
+          }
+        ]
+      },
+      {
+        "start": 49.61,
+        "end": 54.03,
+        "text": "I hope my writing can make a difference in their lives, and that's why I'm choosing this",
+        "words": [
+          {
+            "start": 49.61,
+            "end": 49.85,
+            "word": " I",
+            "probability": 0.99832
+          },
+          {
+            "start": 49.85,
+            "end": 50.13,
+            "word": " hope",
+            "probability": 0.99454
+          },
+          {
+            "start": 50.13,
+            "end": 50.31,
+            "word": " my",
+            "probability": 0.99784
+          },
+          {
+            "start": 50.31,
+            "end": 50.67,
+            "word": " writing",
+            "probability": 0.99719
+          },
+          {
+            "start": 50.67,
+            "end": 50.91,
+            "word": " can",
+            "probability": 0.99718
+          },
+          {
+            "start": 50.91,
+            "end": 51.09,
+            "word": " make",
+            "probability": 0.99882
+          },
+          {
+            "start": 51.09,
+            "end": 51.23,
+            "word": " a",
+            "probability": 0.99833
+          },
+          {
+            "start": 51.23,
+            "end": 51.55,
+            "word": " difference",
+            "probability": 0.99752
+          },
+          {
+            "start": 51.55,
+            "end": 51.79,
+            "word": " in",
+            "probability": 0.99984
+          },
+          {
+            "start": 51.79,
+            "end": 51.95,
+            "word": " their",
+            "probability": 0.99944
+          },
+          {
+            "start": 51.95,
+            "end": 52.35,
+            "word": " lives,",
+            "probability": 0.99354
+          },
+          {
+            "start": 52.67,
+            "end": 52.79,
+            "word": " and",
+            "probability": 0.99669
+          },
+          {
+            "start": 52.79,
+            "end": 53.09,
+            "word": " that's",
+            "probability": 0.99226
+          },
+          {
+            "start": 53.09,
+            "end": 53.23,
+            "word": " why",
+            "probability": 0.99914
+          },
+          {
+            "start": 53.23,
+            "end": 53.43,
+            "word": " I'm",
+            "probability": 0.98081
+          },
+          {
+            "start": 53.43,
+            "end": 53.71,
+            "word": " choosing",
+            "probability": 0.99554
+          },
+          {
+            "start": 53.71,
+            "end": 54.03,
+            "word": " this",
+            "probability": 0.99803
+          }
+        ]
+      },
+      {
+        "start": 54.03,
+        "end": 54.29,
+        "text": "path.",
+        "words": [
+          {
+            "start": 54.03,
+            "end": 54.29,
+            "word": " path.",
+            "probability": 0.2153
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q08",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 69,
+            "speechStart": 0.88,
+            "speechEnd": 24.27,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i have been thinking a lot about my job and i really want to become a writer it's not just about earning a lot of money or becoming famous for me my main reason is to help people improve themselves i believe stories can inspire and support others during hard times i hope my writing can make a difference in their lives and that's why i'm choosing this path",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 69,
+            "wordEndIndexExclusive": 138,
+            "speechStart": 31.06,
+            "speechEnd": 54.29,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i have been thinking a lot about my job and i really want to become a writer it's not just about earning a lot of money or becoming famous for me my main reason is to help people improve themselves i believe stories can inspire and support others during hard times i hope my writing can make a difference in their lives and that's why i'm choosing this path",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,1017 @@
+{
+  "testId": "aptis-b2-10",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-10/part-1/q01.mp3",
+  "audioSha256": "cc4e67937332511c1cc08edd0c7a3fdd5f43c30a5560119c51177d8495c73fa2",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 8.82,
+        "text": "Every morning, I take the same route to work, I live outside the city, so I need to take a boss first.",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.48,
+            "word": " Every",
+            "probability": 0.3726
+          },
+          {
+            "start": 1.48,
+            "end": 1.94,
+            "word": " morning,",
+            "probability": 0.98791
+          },
+          {
+            "start": 2.4,
+            "end": 2.52,
+            "word": " I",
+            "probability": 0.9931
+          },
+          {
+            "start": 2.52,
+            "end": 2.76,
+            "word": " take",
+            "probability": 0.99516
+          },
+          {
+            "start": 2.76,
+            "end": 3.02,
+            "word": " the",
+            "probability": 0.99561
+          },
+          {
+            "start": 3.02,
+            "end": 3.36,
+            "word": " same",
+            "probability": 0.99384
+          },
+          {
+            "start": 3.36,
+            "end": 3.7,
+            "word": " route",
+            "probability": 0.98218
+          },
+          {
+            "start": 3.7,
+            "end": 3.92,
+            "word": " to",
+            "probability": 0.99742
+          },
+          {
+            "start": 3.92,
+            "end": 4.24,
+            "word": " work,",
+            "probability": 0.99782
+          },
+          {
+            "start": 4.78,
+            "end": 4.92,
+            "word": " I",
+            "probability": 0.98959
+          },
+          {
+            "start": 4.92,
+            "end": 5.16,
+            "word": " live",
+            "probability": 0.99528
+          },
+          {
+            "start": 5.16,
+            "end": 5.58,
+            "word": " outside",
+            "probability": 0.99854
+          },
+          {
+            "start": 5.58,
+            "end": 5.84,
+            "word": " the",
+            "probability": 0.99336
+          },
+          {
+            "start": 5.84,
+            "end": 6.26,
+            "word": " city,",
+            "probability": 0.98715
+          },
+          {
+            "start": 6.58,
+            "end": 6.82,
+            "word": " so",
+            "probability": 0.99087
+          },
+          {
+            "start": 6.82,
+            "end": 7.0,
+            "word": " I",
+            "probability": 0.99378
+          },
+          {
+            "start": 7.0,
+            "end": 7.18,
+            "word": " need",
+            "probability": 0.99617
+          },
+          {
+            "start": 7.18,
+            "end": 7.4,
+            "word": " to",
+            "probability": 0.99588
+          },
+          {
+            "start": 7.4,
+            "end": 7.62,
+            "word": " take",
+            "probability": 0.99786
+          },
+          {
+            "start": 7.62,
+            "end": 7.8,
+            "word": " a",
+            "probability": 0.99754
+          },
+          {
+            "start": 7.8,
+            "end": 8.04,
+            "word": " boss",
+            "probability": 0.6079
+          },
+          {
+            "start": 8.04,
+            "end": 8.82,
+            "word": " first.",
+            "probability": 0.98803
+          }
+        ]
+      },
+      {
+        "start": 9.12,
+        "end": 13.58,
+        "text": "After that, I get on the train, which is usually pretty crowded.",
+        "words": [
+          {
+            "start": 9.12,
+            "end": 9.48,
+            "word": " After",
+            "probability": 0.98614
+          },
+          {
+            "start": 9.48,
+            "end": 9.76,
+            "word": " that,",
+            "probability": 0.99888
+          },
+          {
+            "start": 10.26,
+            "end": 10.36,
+            "word": " I",
+            "probability": 0.99788
+          },
+          {
+            "start": 10.36,
+            "end": 10.52,
+            "word": " get",
+            "probability": 0.9955
+          },
+          {
+            "start": 10.52,
+            "end": 10.72,
+            "word": " on",
+            "probability": 0.99932
+          },
+          {
+            "start": 10.72,
+            "end": 10.86,
+            "word": " the",
+            "probability": 0.99618
+          },
+          {
+            "start": 10.86,
+            "end": 11.26,
+            "word": " train,",
+            "probability": 0.99709
+          },
+          {
+            "start": 11.76,
+            "end": 11.98,
+            "word": " which",
+            "probability": 0.99718
+          },
+          {
+            "start": 11.98,
+            "end": 12.14,
+            "word": " is",
+            "probability": 0.99749
+          },
+          {
+            "start": 12.14,
+            "end": 12.64,
+            "word": " usually",
+            "probability": 0.99797
+          },
+          {
+            "start": 12.64,
+            "end": 13.1,
+            "word": " pretty",
+            "probability": 0.99798
+          },
+          {
+            "start": 13.1,
+            "end": 13.58,
+            "word": " crowded.",
+            "probability": 0.99873
+          }
+        ]
+      },
+      {
+        "start": 14.12,
+        "end": 18.44,
+        "text": "It's a long ride, but I enjoy listening to music while traveling.",
+        "words": [
+          {
+            "start": 14.12,
+            "end": 14.4,
+            "word": " It's",
+            "probability": 0.98834
+          },
+          {
+            "start": 14.4,
+            "end": 14.48,
+            "word": " a",
+            "probability": 0.98901
+          },
+          {
+            "start": 14.48,
+            "end": 14.7,
+            "word": " long",
+            "probability": 0.99673
+          },
+          {
+            "start": 14.7,
+            "end": 15.12,
+            "word": " ride,",
+            "probability": 0.99612
+          },
+          {
+            "start": 15.62,
+            "end": 15.74,
+            "word": " but",
+            "probability": 0.99722
+          },
+          {
+            "start": 15.74,
+            "end": 15.92,
+            "word": " I",
+            "probability": 0.996
+          },
+          {
+            "start": 15.92,
+            "end": 16.24,
+            "word": " enjoy",
+            "probability": 0.99875
+          },
+          {
+            "start": 16.24,
+            "end": 16.82,
+            "word": " listening",
+            "probability": 0.99858
+          },
+          {
+            "start": 16.82,
+            "end": 17.1,
+            "word": " to",
+            "probability": 0.99871
+          },
+          {
+            "start": 17.1,
+            "end": 17.54,
+            "word": " music",
+            "probability": 0.99807
+          },
+          {
+            "start": 17.54,
+            "end": 17.9,
+            "word": " while",
+            "probability": 0.99751
+          },
+          {
+            "start": 17.9,
+            "end": 18.44,
+            "word": " traveling.",
+            "probability": 0.5571
+          }
+        ]
+      },
+      {
+        "start": 19.02,
+        "end": 23.22,
+        "text": "When I finally reach the station, I walk for about ten minutes.",
+        "words": [
+          {
+            "start": 19.02,
+            "end": 19.18,
+            "word": " When",
+            "probability": 0.99491
+          },
+          {
+            "start": 19.18,
+            "end": 19.32,
+            "word": " I",
+            "probability": 0.99854
+          },
+          {
+            "start": 19.32,
+            "end": 19.88,
+            "word": " finally",
+            "probability": 0.99674
+          },
+          {
+            "start": 19.88,
+            "end": 20.2,
+            "word": " reach",
+            "probability": 0.97434
+          },
+          {
+            "start": 20.2,
+            "end": 20.46,
+            "word": " the",
+            "probability": 0.99771
+          },
+          {
+            "start": 20.46,
+            "end": 21.0,
+            "word": " station,",
+            "probability": 0.99754
+          },
+          {
+            "start": 21.44,
+            "end": 21.54,
+            "word": " I",
+            "probability": 0.99894
+          },
+          {
+            "start": 21.54,
+            "end": 21.8,
+            "word": " walk",
+            "probability": 0.98065
+          },
+          {
+            "start": 21.8,
+            "end": 22.1,
+            "word": " for",
+            "probability": 0.99785
+          },
+          {
+            "start": 22.1,
+            "end": 22.44,
+            "word": " about",
+            "probability": 0.99644
+          },
+          {
+            "start": 22.44,
+            "end": 22.82,
+            "word": " ten",
+            "probability": 0.44571
+          },
+          {
+            "start": 22.82,
+            "end": 23.22,
+            "word": " minutes.",
+            "probability": 0.99844
+          }
+        ]
+      },
+      {
+        "start": 23.86,
+        "end": 29.34,
+        "text": "It might sound tiring, but I like this routine because it gives me time to think.",
+        "words": [
+          {
+            "start": 23.86,
+            "end": 24.02,
+            "word": " It",
+            "probability": 0.99232
+          },
+          {
+            "start": 24.02,
+            "end": 24.26,
+            "word": " might",
+            "probability": 0.9961
+          },
+          {
+            "start": 24.26,
+            "end": 24.68,
+            "word": " sound",
+            "probability": 0.99797
+          },
+          {
+            "start": 24.68,
+            "end": 25.26,
+            "word": " tiring,",
+            "probability": 0.99171
+          },
+          {
+            "start": 25.8,
+            "end": 26.02,
+            "word": " but",
+            "probability": 0.99544
+          },
+          {
+            "start": 26.02,
+            "end": 26.2,
+            "word": " I",
+            "probability": 0.99755
+          },
+          {
+            "start": 26.2,
+            "end": 26.4,
+            "word": " like",
+            "probability": 0.98863
+          },
+          {
+            "start": 26.4,
+            "end": 26.76,
+            "word": " this",
+            "probability": 0.99711
+          },
+          {
+            "start": 26.76,
+            "end": 27.18,
+            "word": " routine",
+            "probability": 0.99444
+          },
+          {
+            "start": 27.18,
+            "end": 27.74,
+            "word": " because",
+            "probability": 0.83991
+          },
+          {
+            "start": 27.74,
+            "end": 27.96,
+            "word": " it",
+            "probability": 0.9971
+          },
+          {
+            "start": 27.96,
+            "end": 28.16,
+            "word": " gives",
+            "probability": 0.997
+          },
+          {
+            "start": 28.16,
+            "end": 28.42,
+            "word": " me",
+            "probability": 0.99958
+          },
+          {
+            "start": 28.42,
+            "end": 28.78,
+            "word": " time",
+            "probability": 0.99813
+          },
+          {
+            "start": 28.78,
+            "end": 29.02,
+            "word": " to",
+            "probability": 0.99947
+          },
+          {
+            "start": 29.02,
+            "end": 29.34,
+            "word": " think.",
+            "probability": 0.99674
+          }
+        ]
+      },
+      {
+        "start": 29.34,
+        "end": 39.16,
+        "text": "Every morning, I take the same route to work. I live outside the city, so I need to take a",
+        "words": [
+          {
+            "start": 29.34,
+            "end": 30.5,
+            "word": " Every",
+            "probability": 0.18855
+          },
+          {
+            "start": 32.8,
+            "end": 33.28,
+            "word": " morning,",
+            "probability": 0.99261
+          },
+          {
+            "start": 33.74,
+            "end": 33.86,
+            "word": " I",
+            "probability": 0.98542
+          },
+          {
+            "start": 33.86,
+            "end": 34.1,
+            "word": " take",
+            "probability": 0.99435
+          },
+          {
+            "start": 34.1,
+            "end": 34.34,
+            "word": " the",
+            "probability": 0.99519
+          },
+          {
+            "start": 34.34,
+            "end": 34.72,
+            "word": " same",
+            "probability": 0.99696
+          },
+          {
+            "start": 34.72,
+            "end": 35.02,
+            "word": " route",
+            "probability": 0.98888
+          },
+          {
+            "start": 35.02,
+            "end": 35.26,
+            "word": " to",
+            "probability": 0.99795
+          },
+          {
+            "start": 35.26,
+            "end": 35.58,
+            "word": " work.",
+            "probability": 0.99803
+          },
+          {
+            "start": 36.14,
+            "end": 36.26,
+            "word": " I",
+            "probability": 0.9956
+          },
+          {
+            "start": 36.26,
+            "end": 36.48,
+            "word": " live",
+            "probability": 0.99825
+          },
+          {
+            "start": 36.48,
+            "end": 36.92,
+            "word": " outside",
+            "probability": 0.99853
+          },
+          {
+            "start": 36.92,
+            "end": 37.18,
+            "word": " the",
+            "probability": 0.99801
+          },
+          {
+            "start": 37.18,
+            "end": 37.56,
+            "word": " city,",
+            "probability": 0.9851
+          },
+          {
+            "start": 37.92,
+            "end": 38.16,
+            "word": " so",
+            "probability": 0.9977
+          },
+          {
+            "start": 38.16,
+            "end": 38.34,
+            "word": " I",
+            "probability": 0.99538
+          },
+          {
+            "start": 38.34,
+            "end": 38.52,
+            "word": " need",
+            "probability": 0.99783
+          },
+          {
+            "start": 38.52,
+            "end": 38.72,
+            "word": " to",
+            "probability": 0.99825
+          },
+          {
+            "start": 38.72,
+            "end": 38.96,
+            "word": " take",
+            "probability": 0.99847
+          },
+          {
+            "start": 38.96,
+            "end": 39.16,
+            "word": " a",
+            "probability": 0.99802
+          }
+        ]
+      },
+      {
+        "start": 39.16,
+        "end": 46.04,
+        "text": "boss first. After that, I get on the train, which is usually pretty crowded. It's a long",
+        "words": [
+          {
+            "start": 39.16,
+            "end": 39.38,
+            "word": " boss",
+            "probability": 0.6364
+          },
+          {
+            "start": 39.38,
+            "end": 40.12,
+            "word": " first.",
+            "probability": 0.99158
+          },
+          {
+            "start": 40.46,
+            "end": 40.8,
+            "word": " After",
+            "probability": 0.99272
+          },
+          {
+            "start": 40.8,
+            "end": 41.12,
+            "word": " that,",
+            "probability": 0.99905
+          },
+          {
+            "start": 41.58,
+            "end": 41.68,
+            "word": " I",
+            "probability": 0.99826
+          },
+          {
+            "start": 41.68,
+            "end": 41.86,
+            "word": " get",
+            "probability": 0.998
+          },
+          {
+            "start": 41.86,
+            "end": 42.06,
+            "word": " on",
+            "probability": 0.99968
+          },
+          {
+            "start": 42.06,
+            "end": 42.2,
+            "word": " the",
+            "probability": 0.99821
+          },
+          {
+            "start": 42.2,
+            "end": 42.54,
+            "word": " train,",
+            "probability": 0.99743
+          },
+          {
+            "start": 43.08,
+            "end": 43.32,
+            "word": " which",
+            "probability": 0.99821
+          },
+          {
+            "start": 43.32,
+            "end": 43.48,
+            "word": " is",
+            "probability": 0.99827
+          },
+          {
+            "start": 43.48,
+            "end": 43.98,
+            "word": " usually",
+            "probability": 0.99826
+          },
+          {
+            "start": 43.98,
+            "end": 44.42,
+            "word": " pretty",
+            "probability": 0.99862
+          },
+          {
+            "start": 44.42,
+            "end": 44.9,
+            "word": " crowded.",
+            "probability": 0.99858
+          },
+          {
+            "start": 45.44,
+            "end": 45.72,
+            "word": " It's",
+            "probability": 0.99032
+          },
+          {
+            "start": 45.72,
+            "end": 45.82,
+            "word": " a",
+            "probability": 0.99128
+          },
+          {
+            "start": 45.82,
+            "end": 46.04,
+            "word": " long",
+            "probability": 0.99785
+          }
+        ]
+      },
+      {
+        "start": 46.04,
+        "end": 52.34,
+        "text": "ride, but I enjoy listening to music while traveling. When I finally reach the station,",
+        "words": [
+          {
+            "start": 46.04,
+            "end": 46.42,
+            "word": " ride,",
+            "probability": 0.9973
+          },
+          {
+            "start": 46.96,
+            "end": 47.06,
+            "word": " but",
+            "probability": 0.99695
+          },
+          {
+            "start": 47.06,
+            "end": 47.26,
+            "word": " I",
+            "probability": 0.99692
+          },
+          {
+            "start": 47.26,
+            "end": 47.56,
+            "word": " enjoy",
+            "probability": 0.99888
+          },
+          {
+            "start": 47.56,
+            "end": 48.16,
+            "word": " listening",
+            "probability": 0.99854
+          },
+          {
+            "start": 48.16,
+            "end": 48.44,
+            "word": " to",
+            "probability": 0.99936
+          },
+          {
+            "start": 48.44,
+            "end": 48.86,
+            "word": " music",
+            "probability": 0.99794
+          },
+          {
+            "start": 48.86,
+            "end": 49.22,
+            "word": " while",
+            "probability": 0.99779
+          },
+          {
+            "start": 49.22,
+            "end": 49.78,
+            "word": " traveling.",
+            "probability": 0.52468
+          },
+          {
+            "start": 50.32,
+            "end": 50.52,
+            "word": " When",
+            "probability": 0.99741
+          },
+          {
+            "start": 50.52,
+            "end": 50.66,
+            "word": " I",
+            "probability": 0.99856
+          },
+          {
+            "start": 50.66,
+            "end": 51.2,
+            "word": " finally",
+            "probability": 0.99787
+          },
+          {
+            "start": 51.2,
+            "end": 51.54,
+            "word": " reach",
+            "probability": 0.98017
+          },
+          {
+            "start": 51.54,
+            "end": 51.8,
+            "word": " the",
+            "probability": 0.99764
+          },
+          {
+            "start": 51.8,
+            "end": 52.34,
+            "word": " station,",
+            "probability": 0.99813
+          }
+        ]
+      },
+      {
+        "start": 52.76,
+        "end": 59.5,
+        "text": "I walk for about 10 minutes. It might sound tiring, but I like this routine because it gives",
+        "words": [
+          {
+            "start": 52.76,
+            "end": 52.88,
+            "word": " I",
+            "probability": 0.99876
+          },
+          {
+            "start": 52.88,
+            "end": 53.14,
+            "word": " walk",
+            "probability": 0.98215
+          },
+          {
+            "start": 53.14,
+            "end": 53.44,
+            "word": " for",
+            "probability": 0.999
+          },
+          {
+            "start": 53.44,
+            "end": 53.76,
+            "word": " about",
+            "probability": 0.99706
+          },
+          {
+            "start": 53.76,
+            "end": 54.18,
+            "word": " 10",
+            "probability": 0.59799
+          },
+          {
+            "start": 54.18,
+            "end": 54.56,
+            "word": " minutes.",
+            "probability": 0.98482
+          },
+          {
+            "start": 55.2,
+            "end": 55.36,
+            "word": " It",
+            "probability": 0.99397
+          },
+          {
+            "start": 55.36,
+            "end": 55.6,
+            "word": " might",
+            "probability": 0.99713
+          },
+          {
+            "start": 55.6,
+            "end": 56.0,
+            "word": " sound",
+            "probability": 0.99717
+          },
+          {
+            "start": 56.0,
+            "end": 56.6,
+            "word": " tiring,",
+            "probability": 0.9888
+          },
+          {
+            "start": 57.12,
+            "end": 57.36,
+            "word": " but",
+            "probability": 0.98942
+          },
+          {
+            "start": 57.36,
+            "end": 57.54,
+            "word": " I",
+            "probability": 0.99881
+          },
+          {
+            "start": 57.54,
+            "end": 57.76,
+            "word": " like",
+            "probability": 0.98989
+          },
+          {
+            "start": 57.76,
+            "end": 58.08,
+            "word": " this",
+            "probability": 0.99839
+          },
+          {
+            "start": 58.08,
+            "end": 58.5,
+            "word": " routine",
+            "probability": 0.9953
+          },
+          {
+            "start": 58.5,
+            "end": 59.08,
+            "word": " because",
+            "probability": 0.84859
+          },
+          {
+            "start": 59.08,
+            "end": 59.3,
+            "word": " it",
+            "probability": 0.99809
+          },
+          {
+            "start": 59.3,
+            "end": 59.5,
+            "word": " gives",
+            "probability": 0.99765
+          }
+        ]
+      },
+      {
+        "start": 59.5,
+        "end": 60.64,
+        "text": "Give me time to think.",
+        "words": [
+          {
+            "start": 59.5,
+            "end": 59.5,
+            "word": " Give",
+            "probability": 0.04174
+          },
+          {
+            "start": 59.5,
+            "end": 59.74,
+            "word": " me",
+            "probability": 0.81548
+          },
+          {
+            "start": 59.74,
+            "end": 60.12,
+            "word": " time",
+            "probability": 0.95258
+          },
+          {
+            "start": 60.12,
+            "end": 60.34,
+            "word": " to",
+            "probability": 0.99249
+          },
+          {
+            "start": 60.34,
+            "end": 60.64,
+            "word": " think.",
+            "probability": 0.98785
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 74,
+            "speechStart": 0.88,
+            "speechEnd": 29.34,
+            "sourceTokenCoverage": 0.9867,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9933,
+            "transcript": "every morning i take the same route to work i live outside the city so i need to take a boss first after that i get on the train which is usually pretty crowded it's a long ride but i enjoy listening to music while traveling when i finally reach the station i walk for about 10 minutes it might sound tiring but i like this routine because it gives me time to think",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 74,
+            "wordEndIndexExclusive": 149,
+            "speechStart": 29.34,
+            "speechEnd": 60.64,
+            "sourceTokenCoverage": 0.9867,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9867,
+            "transcript": "every morning i take the same route to work i live outside the city so i need to take a boss first after that i get on the train which is usually pretty crowded it's a long ride but i enjoy listening to music while traveling when i finally reach the station i walk for about 10 minutes it might sound tiring but i like this routine because it gives give me time to think",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

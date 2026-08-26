@@ -1,0 +1,570 @@
+{
+  "testId": "aptis-b2-07",
+  "blockId": "p4-mono2",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-07/part-4/mono2.mp3",
+  "audioSha256": "525338999805250050a4edee1cd6473e9920a2d909c14ec259ad16f476b5a40d",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.18,
+        "text": "advertising plays a crucial role in maintaining the game's popularity.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.14,
+            "word": " advertising",
+            "probability": 0.00325
+          },
+          {
+            "start": 0.14,
+            "end": 0.4,
+            "word": " plays",
+            "probability": 0.89629
+          },
+          {
+            "start": 0.4,
+            "end": 0.58,
+            "word": " a",
+            "probability": 0.99681
+          },
+          {
+            "start": 0.58,
+            "end": 0.88,
+            "word": " crucial",
+            "probability": 0.9983
+          },
+          {
+            "start": 0.88,
+            "end": 1.26,
+            "word": " role",
+            "probability": 0.99967
+          },
+          {
+            "start": 1.26,
+            "end": 1.5,
+            "word": " in",
+            "probability": 0.99953
+          },
+          {
+            "start": 1.5,
+            "end": 1.98,
+            "word": " maintaining",
+            "probability": 0.99886
+          },
+          {
+            "start": 1.98,
+            "end": 2.2,
+            "word": " the",
+            "probability": 0.99296
+          },
+          {
+            "start": 2.2,
+            "end": 2.56,
+            "word": " game's",
+            "probability": 0.97964
+          },
+          {
+            "start": 2.56,
+            "end": 3.18,
+            "word": " popularity.",
+            "probability": 0.99551
+          }
+        ]
+      },
+      {
+        "start": 3.92,
+        "end": 9.08,
+        "text": "Innovative advertising strategies help brands expand their customer base to other countries,",
+        "words": [
+          {
+            "start": 3.92,
+            "end": 4.48,
+            "word": " Innovative",
+            "probability": 0.93185
+          },
+          {
+            "start": 4.48,
+            "end": 5.02,
+            "word": " advertising",
+            "probability": 0.98976
+          },
+          {
+            "start": 5.02,
+            "end": 5.78,
+            "word": " strategies",
+            "probability": 0.98996
+          },
+          {
+            "start": 5.78,
+            "end": 6.3,
+            "word": " help",
+            "probability": 0.98966
+          },
+          {
+            "start": 6.3,
+            "end": 6.66,
+            "word": " brands",
+            "probability": 0.99386
+          },
+          {
+            "start": 6.66,
+            "end": 7.16,
+            "word": " expand",
+            "probability": 0.99642
+          },
+          {
+            "start": 7.16,
+            "end": 7.48,
+            "word": " their",
+            "probability": 0.99848
+          },
+          {
+            "start": 7.48,
+            "end": 7.88,
+            "word": " customer",
+            "probability": 0.98507
+          },
+          {
+            "start": 7.88,
+            "end": 8.18,
+            "word": " base",
+            "probability": 0.92994
+          },
+          {
+            "start": 8.18,
+            "end": 8.4,
+            "word": " to",
+            "probability": 0.99691
+          },
+          {
+            "start": 8.4,
+            "end": 8.6,
+            "word": " other",
+            "probability": 0.99882
+          },
+          {
+            "start": 8.6,
+            "end": 9.08,
+            "word": " countries,",
+            "probability": 0.99702
+          }
+        ]
+      },
+      {
+        "start": 9.4,
+        "end": 10.7,
+        "text": "increasing their global reach.",
+        "words": [
+          {
+            "start": 9.4,
+            "end": 9.78,
+            "word": " increasing",
+            "probability": 0.98221
+          },
+          {
+            "start": 9.78,
+            "end": 10.02,
+            "word": " their",
+            "probability": 0.99897
+          },
+          {
+            "start": 10.02,
+            "end": 10.38,
+            "word": " global",
+            "probability": 0.99272
+          },
+          {
+            "start": 10.38,
+            "end": 10.7,
+            "word": " reach.",
+            "probability": 0.99632
+          }
+        ]
+      },
+      {
+        "start": 11.48,
+        "end": 16.04,
+        "text": "However, not all commercial advertising activities are beneficial for sports fans.",
+        "words": [
+          {
+            "start": 11.48,
+            "end": 11.76,
+            "word": " However,",
+            "probability": 0.99516
+          },
+          {
+            "start": 12.02,
+            "end": 12.14,
+            "word": " not",
+            "probability": 0.99455
+          },
+          {
+            "start": 12.14,
+            "end": 12.42,
+            "word": " all",
+            "probability": 0.99855
+          },
+          {
+            "start": 12.42,
+            "end": 12.78,
+            "word": " commercial",
+            "probability": 0.99321
+          },
+          {
+            "start": 12.78,
+            "end": 13.4,
+            "word": " advertising",
+            "probability": 0.99479
+          },
+          {
+            "start": 13.4,
+            "end": 14.22,
+            "word": " activities",
+            "probability": 0.99452
+          },
+          {
+            "start": 14.22,
+            "end": 14.5,
+            "word": " are",
+            "probability": 0.99869
+          },
+          {
+            "start": 14.5,
+            "end": 14.96,
+            "word": " beneficial",
+            "probability": 0.99844
+          },
+          {
+            "start": 14.96,
+            "end": 15.22,
+            "word": " for",
+            "probability": 0.99863
+          },
+          {
+            "start": 15.22,
+            "end": 15.6,
+            "word": " sports",
+            "probability": 0.98924
+          },
+          {
+            "start": 15.6,
+            "end": 16.04,
+            "word": " fans.",
+            "probability": 0.99605
+          }
+        ]
+      },
+      {
+        "start": 16.64,
+        "end": 22.3,
+        "text": "While advertisements may boost the game's visibility and attract new audiences, they can sometimes",
+        "words": [
+          {
+            "start": 16.64,
+            "end": 16.96,
+            "word": " While",
+            "probability": 0.96316
+          },
+          {
+            "start": 16.96,
+            "end": 17.52,
+            "word": " advertisements",
+            "probability": 0.99521
+          },
+          {
+            "start": 17.52,
+            "end": 17.96,
+            "word": " may",
+            "probability": 0.99792
+          },
+          {
+            "start": 17.96,
+            "end": 18.28,
+            "word": " boost",
+            "probability": 0.99772
+          },
+          {
+            "start": 18.28,
+            "end": 18.46,
+            "word": " the",
+            "probability": 0.99591
+          },
+          {
+            "start": 18.46,
+            "end": 18.82,
+            "word": " game's",
+            "probability": 0.99161
+          },
+          {
+            "start": 18.82,
+            "end": 19.32,
+            "word": " visibility",
+            "probability": 0.99322
+          },
+          {
+            "start": 19.32,
+            "end": 19.84,
+            "word": " and",
+            "probability": 0.9627
+          },
+          {
+            "start": 19.84,
+            "end": 20.08,
+            "word": " attract",
+            "probability": 0.99864
+          },
+          {
+            "start": 20.08,
+            "end": 20.42,
+            "word": " new",
+            "probability": 0.99803
+          },
+          {
+            "start": 20.42,
+            "end": 21.02,
+            "word": " audiences,",
+            "probability": 0.99832
+          },
+          {
+            "start": 21.54,
+            "end": 21.68,
+            "word": " they",
+            "probability": 0.99691
+          },
+          {
+            "start": 21.68,
+            "end": 21.8,
+            "word": " can",
+            "probability": 0.99908
+          },
+          {
+            "start": 21.8,
+            "end": 22.3,
+            "word": " sometimes",
+            "probability": 0.99887
+          }
+        ]
+      },
+      {
+        "start": 22.3,
+        "end": 26.96,
+        "text": "detract from the viewing experience with interruptions or overly commercialized content.",
+        "words": [
+          {
+            "start": 22.3,
+            "end": 22.72,
+            "word": " detract",
+            "probability": 0.98767
+          },
+          {
+            "start": 22.72,
+            "end": 22.98,
+            "word": " from",
+            "probability": 0.99861
+          },
+          {
+            "start": 22.98,
+            "end": 23.12,
+            "word": " the",
+            "probability": 0.98449
+          },
+          {
+            "start": 23.12,
+            "end": 23.36,
+            "word": " viewing",
+            "probability": 0.99817
+          },
+          {
+            "start": 23.36,
+            "end": 23.98,
+            "word": " experience",
+            "probability": 0.99853
+          },
+          {
+            "start": 23.98,
+            "end": 24.46,
+            "word": " with",
+            "probability": 0.66442
+          },
+          {
+            "start": 24.46,
+            "end": 25.24,
+            "word": " interruptions",
+            "probability": 0.98989
+          },
+          {
+            "start": 25.24,
+            "end": 25.46,
+            "word": " or",
+            "probability": 0.98134
+          },
+          {
+            "start": 25.46,
+            "end": 25.84,
+            "word": " overly",
+            "probability": 0.99775
+          },
+          {
+            "start": 25.84,
+            "end": 26.6,
+            "word": " commercialized",
+            "probability": 0.74503
+          },
+          {
+            "start": 26.6,
+            "end": 26.96,
+            "word": " content.",
+            "probability": 0.99917
+          }
+        ]
+      },
+      {
+        "start": 26.96,
+        "end": 32.16,
+        "text": "It's important to strike a balance between promoting the sport and maintaining its integrity",
+        "words": [
+          {
+            "start": 26.96,
+            "end": 27.96,
+            "word": " It's",
+            "probability": 0.74202
+          },
+          {
+            "start": 27.96,
+            "end": 28.34,
+            "word": " important",
+            "probability": 0.99675
+          },
+          {
+            "start": 28.34,
+            "end": 28.5,
+            "word": " to",
+            "probability": 0.99763
+          },
+          {
+            "start": 28.5,
+            "end": 28.76,
+            "word": " strike",
+            "probability": 0.9909
+          },
+          {
+            "start": 28.76,
+            "end": 28.9,
+            "word": " a",
+            "probability": 0.99889
+          },
+          {
+            "start": 28.9,
+            "end": 29.2,
+            "word": " balance",
+            "probability": 0.99731
+          },
+          {
+            "start": 29.2,
+            "end": 29.74,
+            "word": " between",
+            "probability": 0.95192
+          },
+          {
+            "start": 29.74,
+            "end": 30.22,
+            "word": " promoting",
+            "probability": 0.99623
+          },
+          {
+            "start": 30.22,
+            "end": 30.44,
+            "word": " the",
+            "probability": 0.99395
+          },
+          {
+            "start": 30.44,
+            "end": 30.72,
+            "word": " sport",
+            "probability": 0.98933
+          },
+          {
+            "start": 30.72,
+            "end": 31.02,
+            "word": " and",
+            "probability": 0.99238
+          },
+          {
+            "start": 31.02,
+            "end": 31.48,
+            "word": " maintaining",
+            "probability": 0.99865
+          },
+          {
+            "start": 31.48,
+            "end": 31.72,
+            "word": " its",
+            "probability": 0.93565
+          },
+          {
+            "start": 31.72,
+            "end": 32.16,
+            "word": " integrity",
+            "probability": 0.99414
+          }
+        ]
+      },
+      {
+        "start": 32.16,
+        "end": 33.12,
+        "text": "for true fans.",
+        "words": [
+          {
+            "start": 32.16,
+            "end": 32.46,
+            "word": " for",
+            "probability": 0.99684
+          },
+          {
+            "start": 32.46,
+            "end": 32.68,
+            "word": " true",
+            "probability": 0.97653
+          },
+          {
+            "start": 32.68,
+            "end": 33.12,
+            "word": " fans.",
+            "probability": 0.99849
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono2",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 1,
+            "wordEndIndexExclusive": 79,
+            "speechStart": 0.14,
+            "speechEnd": 33.12,
+            "sourceTokenCoverage": 0.9873,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9936,
+            "transcript": "plays a crucial role in maintaining the game's popularity innovative advertising strategies help brands expand their customer base to other countries increasing their global reach however not all commercial advertising activities are beneficial for sports fans while advertisements may boost the game's visibility and attract new audiences they can sometimes detract from the viewing experience with interruptions or overly commercialized content it's important to strike a balance between promoting the sport and maintaining its integrity for true fans",
+            "openingMatch": 0.7556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

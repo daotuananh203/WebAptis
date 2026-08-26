@@ -1,0 +1,764 @@
+{
+  "testId": "aptis-b2-13",
+  "blockId": "p1-q04",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-13/part-1/q04.mp3",
+  "audioSha256": "aeaa1d428f3f05f84524db368fabf3136bde1752f08b0e17317af8fa23d78f32",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 3.83,
+        "text": "I just got back from an amazing vacation with Lisa.",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.19,
+            "word": " I",
+            "probability": 0.56493
+          },
+          {
+            "start": 1.19,
+            "end": 1.37,
+            "word": " just",
+            "probability": 0.92129
+          },
+          {
+            "start": 1.37,
+            "end": 1.59,
+            "word": " got",
+            "probability": 0.98885
+          },
+          {
+            "start": 1.59,
+            "end": 1.81,
+            "word": " back",
+            "probability": 0.99584
+          },
+          {
+            "start": 1.81,
+            "end": 2.11,
+            "word": " from",
+            "probability": 0.99424
+          },
+          {
+            "start": 2.11,
+            "end": 2.23,
+            "word": " an",
+            "probability": 0.98868
+          },
+          {
+            "start": 2.23,
+            "end": 2.73,
+            "word": " amazing",
+            "probability": 0.97845
+          },
+          {
+            "start": 2.73,
+            "end": 3.15,
+            "word": " vacation",
+            "probability": 0.99498
+          },
+          {
+            "start": 3.15,
+            "end": 3.57,
+            "word": " with",
+            "probability": 0.99707
+          },
+          {
+            "start": 3.57,
+            "end": 3.83,
+            "word": " Lisa.",
+            "probability": 0.96506
+          }
+        ]
+      },
+      {
+        "start": 4.31,
+        "end": 8.13,
+        "text": "We've been friends for years, and this trip really brought us closer.",
+        "words": [
+          {
+            "start": 4.31,
+            "end": 4.75,
+            "word": " We've",
+            "probability": 0.9685
+          },
+          {
+            "start": 4.75,
+            "end": 4.87,
+            "word": " been",
+            "probability": 0.99419
+          },
+          {
+            "start": 4.87,
+            "end": 5.15,
+            "word": " friends",
+            "probability": 0.99751
+          },
+          {
+            "start": 5.15,
+            "end": 5.43,
+            "word": " for",
+            "probability": 0.99772
+          },
+          {
+            "start": 5.43,
+            "end": 5.77,
+            "word": " years,",
+            "probability": 0.99301
+          },
+          {
+            "start": 6.31,
+            "end": 6.47,
+            "word": " and",
+            "probability": 0.99474
+          },
+          {
+            "start": 6.47,
+            "end": 6.65,
+            "word": " this",
+            "probability": 0.99778
+          },
+          {
+            "start": 6.65,
+            "end": 6.85,
+            "word": " trip",
+            "probability": 0.99721
+          },
+          {
+            "start": 6.85,
+            "end": 7.31,
+            "word": " really",
+            "probability": 0.98449
+          },
+          {
+            "start": 7.31,
+            "end": 7.57,
+            "word": " brought",
+            "probability": 0.9972
+          },
+          {
+            "start": 7.57,
+            "end": 7.75,
+            "word": " us",
+            "probability": 0.99955
+          },
+          {
+            "start": 7.75,
+            "end": 8.13,
+            "word": " closer.",
+            "probability": 0.99829
+          }
+        ]
+      },
+      {
+        "start": 8.49,
+        "end": 10.41,
+        "text": "I can't imagine going with anyone else.",
+        "words": [
+          {
+            "start": 8.49,
+            "end": 8.57,
+            "word": " I",
+            "probability": 0.99305
+          },
+          {
+            "start": 8.57,
+            "end": 8.89,
+            "word": " can't",
+            "probability": 0.99622
+          },
+          {
+            "start": 8.89,
+            "end": 9.19,
+            "word": " imagine",
+            "probability": 0.99286
+          },
+          {
+            "start": 9.19,
+            "end": 9.41,
+            "word": " going",
+            "probability": 0.99619
+          },
+          {
+            "start": 9.41,
+            "end": 9.69,
+            "word": " with",
+            "probability": 0.99198
+          },
+          {
+            "start": 9.69,
+            "end": 10.01,
+            "word": " anyone",
+            "probability": 0.98562
+          },
+          {
+            "start": 10.01,
+            "end": 10.41,
+            "word": " else.",
+            "probability": 0.99878
+          }
+        ]
+      },
+      {
+        "start": 11.8,
+        "end": 16.5,
+        "text": "Some people think we look like mother and daughter because we care for each other so much,",
+        "words": [
+          {
+            "start": 11.8,
+            "end": 12.18,
+            "word": " Some",
+            "probability": 0.98623
+          },
+          {
+            "start": 12.18,
+            "end": 12.48,
+            "word": " people",
+            "probability": 0.99675
+          },
+          {
+            "start": 12.48,
+            "end": 12.72,
+            "word": " think",
+            "probability": 0.99489
+          },
+          {
+            "start": 12.72,
+            "end": 12.92,
+            "word": " we",
+            "probability": 0.99531
+          },
+          {
+            "start": 12.92,
+            "end": 13.12,
+            "word": " look",
+            "probability": 0.99604
+          },
+          {
+            "start": 13.12,
+            "end": 13.32,
+            "word": " like",
+            "probability": 0.99687
+          },
+          {
+            "start": 13.32,
+            "end": 13.68,
+            "word": " mother",
+            "probability": 0.84394
+          },
+          {
+            "start": 13.68,
+            "end": 13.9,
+            "word": " and",
+            "probability": 0.95867
+          },
+          {
+            "start": 13.9,
+            "end": 14.28,
+            "word": " daughter",
+            "probability": 0.99815
+          },
+          {
+            "start": 14.28,
+            "end": 14.7,
+            "word": " because",
+            "probability": 0.87215
+          },
+          {
+            "start": 14.7,
+            "end": 14.9,
+            "word": " we",
+            "probability": 0.99883
+          },
+          {
+            "start": 14.9,
+            "end": 15.16,
+            "word": " care",
+            "probability": 0.99762
+          },
+          {
+            "start": 15.16,
+            "end": 15.36,
+            "word": " for",
+            "probability": 0.99813
+          },
+          {
+            "start": 15.36,
+            "end": 15.58,
+            "word": " each",
+            "probability": 0.99884
+          },
+          {
+            "start": 15.58,
+            "end": 15.76,
+            "word": " other",
+            "probability": 0.97964
+          },
+          {
+            "start": 15.76,
+            "end": 16.06,
+            "word": " so",
+            "probability": 0.99596
+          },
+          {
+            "start": 16.06,
+            "end": 16.5,
+            "word": " much,",
+            "probability": 0.9987
+          }
+        ]
+      },
+      {
+        "start": 16.74,
+        "end": 19.28,
+        "text": "but it's really just best friends hanging out.",
+        "words": [
+          {
+            "start": 16.74,
+            "end": 16.88,
+            "word": " but",
+            "probability": 0.99433
+          },
+          {
+            "start": 16.88,
+            "end": 17.1,
+            "word": " it's",
+            "probability": 0.98749
+          },
+          {
+            "start": 17.1,
+            "end": 17.42,
+            "word": " really",
+            "probability": 0.98977
+          },
+          {
+            "start": 17.42,
+            "end": 17.76,
+            "word": " just",
+            "probability": 0.99412
+          },
+          {
+            "start": 17.76,
+            "end": 18.2,
+            "word": " best",
+            "probability": 0.88368
+          },
+          {
+            "start": 18.2,
+            "end": 18.64,
+            "word": " friends",
+            "probability": 0.9931
+          },
+          {
+            "start": 18.64,
+            "end": 18.98,
+            "word": " hanging",
+            "probability": 0.99525
+          },
+          {
+            "start": 18.98,
+            "end": 19.28,
+            "word": " out.",
+            "probability": 0.99909
+          }
+        ]
+      },
+      {
+        "start": 21.57,
+        "end": 24.49,
+        "text": "I just got back from an amazing vacation with Lisa.",
+        "words": [
+          {
+            "start": 21.57,
+            "end": 21.85,
+            "word": " I",
+            "probability": 0.99017
+          },
+          {
+            "start": 21.85,
+            "end": 22.03,
+            "word": " just",
+            "probability": 0.99748
+          },
+          {
+            "start": 22.03,
+            "end": 22.25,
+            "word": " got",
+            "probability": 0.99357
+          },
+          {
+            "start": 22.25,
+            "end": 22.49,
+            "word": " back",
+            "probability": 0.99788
+          },
+          {
+            "start": 22.49,
+            "end": 22.77,
+            "word": " from",
+            "probability": 0.99521
+          },
+          {
+            "start": 22.77,
+            "end": 22.89,
+            "word": " an",
+            "probability": 0.9934
+          },
+          {
+            "start": 22.89,
+            "end": 23.39,
+            "word": " amazing",
+            "probability": 0.9972
+          },
+          {
+            "start": 23.39,
+            "end": 23.89,
+            "word": " vacation",
+            "probability": 0.99866
+          },
+          {
+            "start": 23.89,
+            "end": 24.19,
+            "word": " with",
+            "probability": 0.99752
+          },
+          {
+            "start": 24.19,
+            "end": 24.49,
+            "word": " Lisa.",
+            "probability": 0.99829
+          }
+        ]
+      },
+      {
+        "start": 25.09,
+        "end": 28.83,
+        "text": "We've been friends for years, and this trip really brought us closer.",
+        "words": [
+          {
+            "start": 25.09,
+            "end": 25.41,
+            "word": " We've",
+            "probability": 0.99431
+          },
+          {
+            "start": 25.41,
+            "end": 25.53,
+            "word": " been",
+            "probability": 0.99652
+          },
+          {
+            "start": 25.53,
+            "end": 25.83,
+            "word": " friends",
+            "probability": 0.99917
+          },
+          {
+            "start": 25.83,
+            "end": 26.09,
+            "word": " for",
+            "probability": 0.99887
+          },
+          {
+            "start": 26.09,
+            "end": 26.45,
+            "word": " years,",
+            "probability": 0.99851
+          },
+          {
+            "start": 26.91,
+            "end": 27.11,
+            "word": " and",
+            "probability": 0.99634
+          },
+          {
+            "start": 27.11,
+            "end": 27.27,
+            "word": " this",
+            "probability": 0.99883
+          },
+          {
+            "start": 27.27,
+            "end": 27.53,
+            "word": " trip",
+            "probability": 0.99858
+          },
+          {
+            "start": 27.53,
+            "end": 27.91,
+            "word": " really",
+            "probability": 0.99854
+          },
+          {
+            "start": 27.91,
+            "end": 28.23,
+            "word": " brought",
+            "probability": 0.99894
+          },
+          {
+            "start": 28.23,
+            "end": 28.41,
+            "word": " us",
+            "probability": 0.99957
+          },
+          {
+            "start": 28.41,
+            "end": 28.83,
+            "word": " closer.",
+            "probability": 0.99828
+          }
+        ]
+      },
+      {
+        "start": 29.15,
+        "end": 31.09,
+        "text": "I can't imagine going with anyone else.",
+        "words": [
+          {
+            "start": 29.15,
+            "end": 29.23,
+            "word": " I",
+            "probability": 0.9966
+          },
+          {
+            "start": 29.23,
+            "end": 29.55,
+            "word": " can't",
+            "probability": 0.99786
+          },
+          {
+            "start": 29.55,
+            "end": 29.85,
+            "word": " imagine",
+            "probability": 0.99394
+          },
+          {
+            "start": 29.85,
+            "end": 30.07,
+            "word": " going",
+            "probability": 0.99746
+          },
+          {
+            "start": 30.07,
+            "end": 30.33,
+            "word": " with",
+            "probability": 0.9979
+          },
+          {
+            "start": 30.33,
+            "end": 30.65,
+            "word": " anyone",
+            "probability": 0.99059
+          },
+          {
+            "start": 30.65,
+            "end": 31.09,
+            "word": " else.",
+            "probability": 0.99938
+          }
+        ]
+      },
+      {
+        "start": 31.73,
+        "end": 39.97,
+        "text": "some people think we look like mother and daughter because we care for each other so much but it's really just best friends hanging out",
+        "words": [
+          {
+            "start": 31.73,
+            "end": 32.81,
+            "word": " some",
+            "probability": 0.14517
+          },
+          {
+            "start": 32.81,
+            "end": 33.13,
+            "word": " people",
+            "probability": 0.9891
+          },
+          {
+            "start": 33.13,
+            "end": 33.39,
+            "word": " think",
+            "probability": 0.99309
+          },
+          {
+            "start": 33.39,
+            "end": 33.59,
+            "word": " we",
+            "probability": 0.98815
+          },
+          {
+            "start": 33.59,
+            "end": 33.79,
+            "word": " look",
+            "probability": 0.99258
+          },
+          {
+            "start": 33.79,
+            "end": 34.01,
+            "word": " like",
+            "probability": 0.99103
+          },
+          {
+            "start": 34.01,
+            "end": 34.31,
+            "word": " mother",
+            "probability": 0.93931
+          },
+          {
+            "start": 34.31,
+            "end": 34.59,
+            "word": " and",
+            "probability": 0.9579
+          },
+          {
+            "start": 34.59,
+            "end": 34.93,
+            "word": " daughter",
+            "probability": 0.99635
+          },
+          {
+            "start": 34.93,
+            "end": 35.35,
+            "word": " because",
+            "probability": 0.94088
+          },
+          {
+            "start": 35.35,
+            "end": 35.57,
+            "word": " we",
+            "probability": 0.99695
+          },
+          {
+            "start": 35.57,
+            "end": 35.81,
+            "word": " care",
+            "probability": 0.99722
+          },
+          {
+            "start": 35.81,
+            "end": 36.01,
+            "word": " for",
+            "probability": 0.9964
+          },
+          {
+            "start": 36.01,
+            "end": 36.25,
+            "word": " each",
+            "probability": 0.99899
+          },
+          {
+            "start": 36.25,
+            "end": 36.41,
+            "word": " other",
+            "probability": 0.97702
+          },
+          {
+            "start": 36.41,
+            "end": 36.73,
+            "word": " so",
+            "probability": 0.99599
+          },
+          {
+            "start": 36.73,
+            "end": 37.17,
+            "word": " much",
+            "probability": 0.99895
+          },
+          {
+            "start": 37.17,
+            "end": 37.53,
+            "word": " but",
+            "probability": 0.68026
+          },
+          {
+            "start": 37.53,
+            "end": 37.77,
+            "word": " it's",
+            "probability": 0.97862
+          },
+          {
+            "start": 37.77,
+            "end": 38.09,
+            "word": " really",
+            "probability": 0.99588
+          },
+          {
+            "start": 38.09,
+            "end": 38.41,
+            "word": " just",
+            "probability": 0.99581
+          },
+          {
+            "start": 38.41,
+            "end": 38.87,
+            "word": " best",
+            "probability": 0.98787
+          },
+          {
+            "start": 38.87,
+            "end": 39.31,
+            "word": " friends",
+            "probability": 0.99191
+          },
+          {
+            "start": 39.31,
+            "end": 39.65,
+            "word": " hanging",
+            "probability": 0.99371
+          },
+          {
+            "start": 39.65,
+            "end": 39.97,
+            "word": " out",
+            "probability": 0.99828
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q04",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 54,
+            "speechStart": 0.75,
+            "speechEnd": 19.28,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i just got back from an amazing vacation with lisa we've been friends for years and this trip really brought us closer i can't imagine going with anyone else some people think we look like mother and daughter because we care for each other so much but it's really just best friends hanging out",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 54,
+            "wordEndIndexExclusive": 108,
+            "speechStart": 21.57,
+            "speechEnd": 39.97,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i just got back from an amazing vacation with lisa we've been friends for years and this trip really brought us closer i can't imagine going with anyone else some people think we look like mother and daughter because we care for each other so much but it's really just best friends hanging out",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

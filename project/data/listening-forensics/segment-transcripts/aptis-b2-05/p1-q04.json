@@ -1,0 +1,585 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p1-q04",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-1/q04.mp3",
+  "audioSha256": "5112d9e8d7eb2ecca1c7e5ebdd822a79ed77a310fc6e3e41b84b79885250c0e8",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.91,
+        "end": 6.87,
+        "text": "My weekends are not always the same. This week has been busy, but I always look forward to my free time.",
+        "words": [
+          {
+            "start": 0.91,
+            "end": 1.41,
+            "word": " My",
+            "probability": 0.92683
+          },
+          {
+            "start": 1.41,
+            "end": 1.75,
+            "word": " weekends",
+            "probability": 0.98945
+          },
+          {
+            "start": 1.75,
+            "end": 2.07,
+            "word": " are",
+            "probability": 0.99492
+          },
+          {
+            "start": 2.07,
+            "end": 2.27,
+            "word": " not",
+            "probability": 0.99776
+          },
+          {
+            "start": 2.27,
+            "end": 2.55,
+            "word": " always",
+            "probability": 0.9977
+          },
+          {
+            "start": 2.55,
+            "end": 2.73,
+            "word": " the",
+            "probability": 0.99966
+          },
+          {
+            "start": 2.73,
+            "end": 3.05,
+            "word": " same.",
+            "probability": 0.99983
+          },
+          {
+            "start": 3.51,
+            "end": 3.69,
+            "word": " This",
+            "probability": 0.99623
+          },
+          {
+            "start": 3.69,
+            "end": 3.87,
+            "word": " week",
+            "probability": 0.99667
+          },
+          {
+            "start": 3.87,
+            "end": 4.07,
+            "word": " has",
+            "probability": 0.9961
+          },
+          {
+            "start": 4.07,
+            "end": 4.21,
+            "word": " been",
+            "probability": 0.99933
+          },
+          {
+            "start": 4.21,
+            "end": 4.53,
+            "word": " busy,",
+            "probability": 0.99791
+          },
+          {
+            "start": 4.87,
+            "end": 5.09,
+            "word": " but",
+            "probability": 0.99484
+          },
+          {
+            "start": 5.09,
+            "end": 5.21,
+            "word": " I",
+            "probability": 0.99638
+          },
+          {
+            "start": 5.21,
+            "end": 5.49,
+            "word": " always",
+            "probability": 0.99631
+          },
+          {
+            "start": 5.49,
+            "end": 5.69,
+            "word": " look",
+            "probability": 0.99374
+          },
+          {
+            "start": 5.69,
+            "end": 5.99,
+            "word": " forward",
+            "probability": 0.9987
+          },
+          {
+            "start": 5.99,
+            "end": 6.17,
+            "word": " to",
+            "probability": 0.99567
+          },
+          {
+            "start": 6.17,
+            "end": 6.29,
+            "word": " my",
+            "probability": 0.99925
+          },
+          {
+            "start": 6.29,
+            "end": 6.53,
+            "word": " free",
+            "probability": 0.99708
+          },
+          {
+            "start": 6.53,
+            "end": 6.87,
+            "word": " time.",
+            "probability": 0.99708
+          }
+        ]
+      },
+      {
+        "start": 7.41,
+        "end": 11.39,
+        "text": "Last weekend I stayed at home and enjoyed some quiet moments with a good book.",
+        "words": [
+          {
+            "start": 7.41,
+            "end": 7.51,
+            "word": " Last",
+            "probability": 0.99335
+          },
+          {
+            "start": 7.51,
+            "end": 7.95,
+            "word": " weekend",
+            "probability": 0.98633
+          },
+          {
+            "start": 7.95,
+            "end": 8.23,
+            "word": " I",
+            "probability": 0.50858
+          },
+          {
+            "start": 8.23,
+            "end": 8.45,
+            "word": " stayed",
+            "probability": 0.99864
+          },
+          {
+            "start": 8.45,
+            "end": 8.65,
+            "word": " at",
+            "probability": 0.99769
+          },
+          {
+            "start": 8.65,
+            "end": 8.95,
+            "word": " home",
+            "probability": 0.99954
+          },
+          {
+            "start": 8.95,
+            "end": 9.29,
+            "word": " and",
+            "probability": 0.95614
+          },
+          {
+            "start": 9.29,
+            "end": 9.57,
+            "word": " enjoyed",
+            "probability": 0.99629
+          },
+          {
+            "start": 9.57,
+            "end": 9.81,
+            "word": " some",
+            "probability": 0.99772
+          },
+          {
+            "start": 9.81,
+            "end": 10.11,
+            "word": " quiet",
+            "probability": 0.99727
+          },
+          {
+            "start": 10.11,
+            "end": 10.45,
+            "word": " moments",
+            "probability": 0.99547
+          },
+          {
+            "start": 10.45,
+            "end": 10.83,
+            "word": " with",
+            "probability": 0.99209
+          },
+          {
+            "start": 10.83,
+            "end": 10.95,
+            "word": " a",
+            "probability": 0.98947
+          },
+          {
+            "start": 10.95,
+            "end": 11.11,
+            "word": " good",
+            "probability": 0.99744
+          },
+          {
+            "start": 11.11,
+            "end": 11.39,
+            "word": " book.",
+            "probability": 0.99658
+          }
+        ]
+      },
+      {
+        "start": 12.11,
+        "end": 15.61,
+        "text": "I also watched a few movies and cooked a nice dinner for myself.",
+        "words": [
+          {
+            "start": 12.11,
+            "end": 12.33,
+            "word": " I",
+            "probability": 0.9979
+          },
+          {
+            "start": 12.33,
+            "end": 12.59,
+            "word": " also",
+            "probability": 0.99757
+          },
+          {
+            "start": 12.59,
+            "end": 12.93,
+            "word": " watched",
+            "probability": 0.98675
+          },
+          {
+            "start": 12.93,
+            "end": 13.07,
+            "word": " a",
+            "probability": 0.99939
+          },
+          {
+            "start": 13.07,
+            "end": 13.19,
+            "word": " few",
+            "probability": 0.99975
+          },
+          {
+            "start": 13.19,
+            "end": 13.55,
+            "word": " movies",
+            "probability": 0.99814
+          },
+          {
+            "start": 13.55,
+            "end": 14.13,
+            "word": " and",
+            "probability": 0.92213
+          },
+          {
+            "start": 14.13,
+            "end": 14.31,
+            "word": " cooked",
+            "probability": 0.93958
+          },
+          {
+            "start": 14.31,
+            "end": 14.51,
+            "word": " a",
+            "probability": 0.99879
+          },
+          {
+            "start": 14.51,
+            "end": 14.69,
+            "word": " nice",
+            "probability": 0.99915
+          },
+          {
+            "start": 14.69,
+            "end": 15.01,
+            "word": " dinner",
+            "probability": 0.99357
+          },
+          {
+            "start": 15.01,
+            "end": 15.23,
+            "word": " for",
+            "probability": 0.99884
+          },
+          {
+            "start": 15.23,
+            "end": 15.61,
+            "word": " myself.",
+            "probability": 0.99908
+          }
+        ]
+      },
+      {
+        "start": 16.45,
+        "end": 22.13,
+        "text": "This weekend I plan to go out with friends. We might visit a new cafe or go for a walk in the park.",
+        "words": [
+          {
+            "start": 16.45,
+            "end": 16.65,
+            "word": " This",
+            "probability": 0.99354
+          },
+          {
+            "start": 16.65,
+            "end": 17.07,
+            "word": " weekend",
+            "probability": 0.99285
+          },
+          {
+            "start": 17.07,
+            "end": 17.35,
+            "word": " I",
+            "probability": 0.82655
+          },
+          {
+            "start": 17.35,
+            "end": 17.55,
+            "word": " plan",
+            "probability": 0.61835
+          },
+          {
+            "start": 17.55,
+            "end": 17.69,
+            "word": " to",
+            "probability": 0.99377
+          },
+          {
+            "start": 17.69,
+            "end": 17.81,
+            "word": " go",
+            "probability": 0.9989
+          },
+          {
+            "start": 17.81,
+            "end": 17.93,
+            "word": " out",
+            "probability": 0.99895
+          },
+          {
+            "start": 17.93,
+            "end": 18.07,
+            "word": " with",
+            "probability": 0.99833
+          },
+          {
+            "start": 18.07,
+            "end": 18.37,
+            "word": " friends.",
+            "probability": 0.98371
+          },
+          {
+            "start": 18.97,
+            "end": 19.13,
+            "word": " We",
+            "probability": 0.99728
+          },
+          {
+            "start": 19.13,
+            "end": 19.27,
+            "word": " might",
+            "probability": 0.99832
+          },
+          {
+            "start": 19.27,
+            "end": 19.53,
+            "word": " visit",
+            "probability": 0.99911
+          },
+          {
+            "start": 19.53,
+            "end": 19.69,
+            "word": " a",
+            "probability": 0.99829
+          },
+          {
+            "start": 19.69,
+            "end": 19.83,
+            "word": " new",
+            "probability": 0.9975
+          },
+          {
+            "start": 19.83,
+            "end": 20.23,
+            "word": " cafe",
+            "probability": 0.83312
+          },
+          {
+            "start": 20.23,
+            "end": 20.91,
+            "word": " or",
+            "probability": 0.82629
+          },
+          {
+            "start": 20.91,
+            "end": 21.09,
+            "word": " go",
+            "probability": 0.9986
+          },
+          {
+            "start": 21.09,
+            "end": 21.29,
+            "word": " for",
+            "probability": 0.99644
+          },
+          {
+            "start": 21.29,
+            "end": 21.41,
+            "word": " a",
+            "probability": 0.99868
+          },
+          {
+            "start": 21.41,
+            "end": 21.61,
+            "word": " walk",
+            "probability": 0.99907
+          },
+          {
+            "start": 21.61,
+            "end": 21.77,
+            "word": " in",
+            "probability": 0.99788
+          },
+          {
+            "start": 21.77,
+            "end": 21.87,
+            "word": " the",
+            "probability": 0.99847
+          },
+          {
+            "start": 21.87,
+            "end": 22.13,
+            "word": " park.",
+            "probability": 0.99247
+          }
+        ]
+      },
+      {
+        "start": 22.73,
+        "end": 26.51,
+        "text": "I love spending time with my friends and relaxing after a busy week.",
+        "words": [
+          {
+            "start": 22.73,
+            "end": 22.91,
+            "word": " I",
+            "probability": 0.9988
+          },
+          {
+            "start": 22.91,
+            "end": 23.09,
+            "word": " love",
+            "probability": 0.99028
+          },
+          {
+            "start": 23.09,
+            "end": 23.41,
+            "word": " spending",
+            "probability": 0.99973
+          },
+          {
+            "start": 23.41,
+            "end": 23.75,
+            "word": " time",
+            "probability": 0.99878
+          },
+          {
+            "start": 23.75,
+            "end": 23.95,
+            "word": " with",
+            "probability": 0.9996
+          },
+          {
+            "start": 23.95,
+            "end": 24.09,
+            "word": " my",
+            "probability": 0.99755
+          },
+          {
+            "start": 24.09,
+            "end": 24.51,
+            "word": " friends",
+            "probability": 0.99866
+          },
+          {
+            "start": 24.51,
+            "end": 24.89,
+            "word": " and",
+            "probability": 0.96799
+          },
+          {
+            "start": 24.89,
+            "end": 25.31,
+            "word": " relaxing",
+            "probability": 0.98446
+          },
+          {
+            "start": 25.31,
+            "end": 25.79,
+            "word": " after",
+            "probability": 0.99857
+          },
+          {
+            "start": 25.79,
+            "end": 25.89,
+            "word": " a",
+            "probability": 0.99907
+          },
+          {
+            "start": 25.89,
+            "end": 26.09,
+            "word": " busy",
+            "probability": 0.99813
+          },
+          {
+            "start": 26.09,
+            "end": 26.51,
+            "word": " week.",
+            "probability": 0.99893
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q04",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 85,
+            "speechStart": 0.91,
+            "speechEnd": 26.51,
+            "sourceTokenCoverage": 0.9882,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9882,
+            "transcript": "my weekends are not always the same this week has been busy but i always look forward to my free time last weekend i stayed at home and enjoyed some quiet moments with a good book i also watched a few movies and cooked a nice dinner for myself this weekend i plan to go out with friends we might visit a new cafe or go for a walk in the park i love spending time with my friends and relaxing after a busy week",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

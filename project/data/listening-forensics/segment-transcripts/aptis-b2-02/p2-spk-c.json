@@ -1,0 +1,647 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p2-spk-c",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-2/spk-c.mp3",
+  "audioSha256": "14b8a339e20f561b6ec29a6ab79c11d86c9ab971c4be8470d88a33f261dcb850",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.4,
+        "end": 3.84,
+        "text": "Exercising is a blast when you're with the right people.",
+        "words": [
+          {
+            "start": 0.4,
+            "end": 1.5,
+            "word": " Exercising",
+            "probability": 0.58907
+          },
+          {
+            "start": 1.5,
+            "end": 1.76,
+            "word": " is",
+            "probability": 0.99497
+          },
+          {
+            "start": 1.76,
+            "end": 1.88,
+            "word": " a",
+            "probability": 0.98973
+          },
+          {
+            "start": 1.88,
+            "end": 2.26,
+            "word": " blast",
+            "probability": 0.98167
+          },
+          {
+            "start": 2.26,
+            "end": 2.64,
+            "word": " when",
+            "probability": 0.9834
+          },
+          {
+            "start": 2.64,
+            "end": 2.84,
+            "word": " you're",
+            "probability": 0.98442
+          },
+          {
+            "start": 2.84,
+            "end": 3.02,
+            "word": " with",
+            "probability": 0.99714
+          },
+          {
+            "start": 3.02,
+            "end": 3.2,
+            "word": " the",
+            "probability": 0.99644
+          },
+          {
+            "start": 3.2,
+            "end": 3.38,
+            "word": " right",
+            "probability": 0.97703
+          },
+          {
+            "start": 3.38,
+            "end": 3.84,
+            "word": " people.",
+            "probability": 0.99913
+          }
+        ]
+      },
+      {
+        "start": 4.4,
+        "end": 8.7,
+        "text": "I've joined a few group classes and they're like a party every time.",
+        "words": [
+          {
+            "start": 4.4,
+            "end": 4.86,
+            "word": " I've",
+            "probability": 0.9819
+          },
+          {
+            "start": 4.86,
+            "end": 5.14,
+            "word": " joined",
+            "probability": 0.99695
+          },
+          {
+            "start": 5.14,
+            "end": 5.36,
+            "word": " a",
+            "probability": 0.99879
+          },
+          {
+            "start": 5.36,
+            "end": 5.54,
+            "word": " few",
+            "probability": 0.99859
+          },
+          {
+            "start": 5.54,
+            "end": 5.86,
+            "word": " group",
+            "probability": 0.97713
+          },
+          {
+            "start": 5.86,
+            "end": 6.36,
+            "word": " classes",
+            "probability": 0.99335
+          },
+          {
+            "start": 6.36,
+            "end": 7.02,
+            "word": " and",
+            "probability": 0.67522
+          },
+          {
+            "start": 7.02,
+            "end": 7.2,
+            "word": " they're",
+            "probability": 0.9919
+          },
+          {
+            "start": 7.2,
+            "end": 7.38,
+            "word": " like",
+            "probability": 0.99308
+          },
+          {
+            "start": 7.38,
+            "end": 7.54,
+            "word": " a",
+            "probability": 0.9957
+          },
+          {
+            "start": 7.54,
+            "end": 7.96,
+            "word": " party",
+            "probability": 0.99492
+          },
+          {
+            "start": 7.96,
+            "end": 8.28,
+            "word": " every",
+            "probability": 0.98096
+          },
+          {
+            "start": 8.28,
+            "end": 8.7,
+            "word": " time.",
+            "probability": 0.99918
+          }
+        ]
+      },
+      {
+        "start": 9.44,
+        "end": 15.02,
+        "text": "The music is pumping, everyone's in sync, and it feels like we're all in this together.",
+        "words": [
+          {
+            "start": 9.44,
+            "end": 9.56,
+            "word": " The",
+            "probability": 0.98988
+          },
+          {
+            "start": 9.56,
+            "end": 9.9,
+            "word": " music",
+            "probability": 0.99641
+          },
+          {
+            "start": 9.9,
+            "end": 10.16,
+            "word": " is",
+            "probability": 0.99903
+          },
+          {
+            "start": 10.16,
+            "end": 10.54,
+            "word": " pumping,",
+            "probability": 0.98942
+          },
+          {
+            "start": 10.96,
+            "end": 11.72,
+            "word": " everyone's",
+            "probability": 0.95635
+          },
+          {
+            "start": 11.72,
+            "end": 11.82,
+            "word": " in",
+            "probability": 0.99628
+          },
+          {
+            "start": 11.82,
+            "end": 12.14,
+            "word": " sync,",
+            "probability": 0.99085
+          },
+          {
+            "start": 12.68,
+            "end": 12.86,
+            "word": " and",
+            "probability": 0.99463
+          },
+          {
+            "start": 12.86,
+            "end": 12.98,
+            "word": " it",
+            "probability": 0.99721
+          },
+          {
+            "start": 12.98,
+            "end": 13.22,
+            "word": " feels",
+            "probability": 0.99913
+          },
+          {
+            "start": 13.22,
+            "end": 13.56,
+            "word": " like",
+            "probability": 0.99954
+          },
+          {
+            "start": 13.56,
+            "end": 13.84,
+            "word": " we're",
+            "probability": 0.99662
+          },
+          {
+            "start": 13.84,
+            "end": 14.04,
+            "word": " all",
+            "probability": 0.99775
+          },
+          {
+            "start": 14.04,
+            "end": 14.26,
+            "word": " in",
+            "probability": 0.99749
+          },
+          {
+            "start": 14.26,
+            "end": 14.46,
+            "word": " this",
+            "probability": 0.99889
+          },
+          {
+            "start": 14.46,
+            "end": 15.02,
+            "word": " together.",
+            "probability": 0.99854
+          }
+        ]
+      },
+      {
+        "start": 15.74,
+        "end": 18.76,
+        "text": "Working out alone can get boring but with friends.",
+        "words": [
+          {
+            "start": 15.74,
+            "end": 16.08,
+            "word": " Working",
+            "probability": 0.99343
+          },
+          {
+            "start": 16.08,
+            "end": 16.36,
+            "word": " out",
+            "probability": 0.99808
+          },
+          {
+            "start": 16.36,
+            "end": 16.68,
+            "word": " alone",
+            "probability": 0.99892
+          },
+          {
+            "start": 16.68,
+            "end": 16.98,
+            "word": " can",
+            "probability": 0.99904
+          },
+          {
+            "start": 16.98,
+            "end": 17.22,
+            "word": " get",
+            "probability": 0.99857
+          },
+          {
+            "start": 17.22,
+            "end": 17.62,
+            "word": " boring",
+            "probability": 0.99872
+          },
+          {
+            "start": 17.62,
+            "end": 18.0,
+            "word": " but",
+            "probability": 0.46803
+          },
+          {
+            "start": 18.0,
+            "end": 18.32,
+            "word": " with",
+            "probability": 0.97459
+          },
+          {
+            "start": 18.32,
+            "end": 18.76,
+            "word": " friends.",
+            "probability": 0.99889
+          }
+        ]
+      },
+      {
+        "start": 19.6,
+        "end": 24.66,
+        "text": "You laugh, you encourage each other, and suddenly an hour has flown by.",
+        "words": [
+          {
+            "start": 19.6,
+            "end": 19.8,
+            "word": " You",
+            "probability": 0.9913
+          },
+          {
+            "start": 19.8,
+            "end": 20.08,
+            "word": " laugh,",
+            "probability": 0.99766
+          },
+          {
+            "start": 20.54,
+            "end": 20.66,
+            "word": " you",
+            "probability": 0.99376
+          },
+          {
+            "start": 20.66,
+            "end": 21.04,
+            "word": " encourage",
+            "probability": 0.9982
+          },
+          {
+            "start": 21.04,
+            "end": 21.34,
+            "word": " each",
+            "probability": 0.99958
+          },
+          {
+            "start": 21.34,
+            "end": 21.62,
+            "word": " other,",
+            "probability": 0.99496
+          },
+          {
+            "start": 22.02,
+            "end": 22.32,
+            "word": " and",
+            "probability": 0.99851
+          },
+          {
+            "start": 22.32,
+            "end": 22.8,
+            "word": " suddenly",
+            "probability": 0.99587
+          },
+          {
+            "start": 22.8,
+            "end": 23.38,
+            "word": " an",
+            "probability": 0.83971
+          },
+          {
+            "start": 23.38,
+            "end": 23.76,
+            "word": " hour",
+            "probability": 0.9994
+          },
+          {
+            "start": 23.76,
+            "end": 24.06,
+            "word": " has",
+            "probability": 0.99554
+          },
+          {
+            "start": 24.06,
+            "end": 24.32,
+            "word": " flown",
+            "probability": 0.99801
+          },
+          {
+            "start": 24.32,
+            "end": 24.66,
+            "word": " by.",
+            "probability": 0.99972
+          }
+        ]
+      },
+      {
+        "start": 24.66,
+        "end": 31.98,
+        "text": "We push each other, you know? It's kind of amazing. Half the time I forget I'm even working out.",
+        "words": [
+          {
+            "start": 24.66,
+            "end": 25.08,
+            "word": " We",
+            "probability": 0.25664
+          },
+          {
+            "start": 25.08,
+            "end": 25.9,
+            "word": " push",
+            "probability": 0.97922
+          },
+          {
+            "start": 25.9,
+            "end": 26.24,
+            "word": " each",
+            "probability": 0.99904
+          },
+          {
+            "start": 26.24,
+            "end": 26.52,
+            "word": " other,",
+            "probability": 0.98741
+          },
+          {
+            "start": 26.8,
+            "end": 26.94,
+            "word": " you",
+            "probability": 0.96106
+          },
+          {
+            "start": 26.94,
+            "end": 27.1,
+            "word": " know?",
+            "probability": 0.99902
+          },
+          {
+            "start": 27.88,
+            "end": 28.16,
+            "word": " It's",
+            "probability": 0.98546
+          },
+          {
+            "start": 28.16,
+            "end": 28.34,
+            "word": " kind",
+            "probability": 0.98255
+          },
+          {
+            "start": 28.34,
+            "end": 28.5,
+            "word": " of",
+            "probability": 0.99777
+          },
+          {
+            "start": 28.5,
+            "end": 29.0,
+            "word": " amazing.",
+            "probability": 0.99563
+          },
+          {
+            "start": 29.66,
+            "end": 29.84,
+            "word": " Half",
+            "probability": 0.95539
+          },
+          {
+            "start": 29.84,
+            "end": 30.02,
+            "word": " the",
+            "probability": 0.99464
+          },
+          {
+            "start": 30.02,
+            "end": 30.34,
+            "word": " time",
+            "probability": 0.99935
+          },
+          {
+            "start": 30.34,
+            "end": 30.54,
+            "word": " I",
+            "probability": 0.83493
+          },
+          {
+            "start": 30.54,
+            "end": 30.84,
+            "word": " forget",
+            "probability": 0.99563
+          },
+          {
+            "start": 30.84,
+            "end": 31.12,
+            "word": " I'm",
+            "probability": 0.97262
+          },
+          {
+            "start": 31.12,
+            "end": 31.32,
+            "word": " even",
+            "probability": 0.9936
+          },
+          {
+            "start": 31.32,
+            "end": 31.64,
+            "word": " working",
+            "probability": 0.99736
+          },
+          {
+            "start": 31.64,
+            "end": 31.98,
+            "word": " out.",
+            "probability": 0.99877
+          }
+        ]
+      },
+      {
+        "start": 32.55,
+        "end": 37.94,
+        "text": "I actually look forward to it. The camaraderie makes it worth every minute.",
+        "words": [
+          {
+            "start": 32.55,
+            "end": 33.01,
+            "word": " I",
+            "probability": 0.99425
+          },
+          {
+            "start": 33.01,
+            "end": 33.41,
+            "word": " actually",
+            "probability": 0.99777
+          },
+          {
+            "start": 33.41,
+            "end": 33.71,
+            "word": " look",
+            "probability": 0.96645
+          },
+          {
+            "start": 33.71,
+            "end": 34.09,
+            "word": " forward",
+            "probability": 0.99784
+          },
+          {
+            "start": 34.09,
+            "end": 34.49,
+            "word": " to",
+            "probability": 0.99865
+          },
+          {
+            "start": 34.49,
+            "end": 34.71,
+            "word": " it.",
+            "probability": 0.99871
+          },
+          {
+            "start": 35.44,
+            "end": 35.6,
+            "word": " The",
+            "probability": 0.98334
+          },
+          {
+            "start": 35.6,
+            "end": 36.36,
+            "word": " camaraderie",
+            "probability": 0.9729
+          },
+          {
+            "start": 36.36,
+            "end": 36.52,
+            "word": " makes",
+            "probability": 0.9966
+          },
+          {
+            "start": 36.52,
+            "end": 36.78,
+            "word": " it",
+            "probability": 0.99947
+          },
+          {
+            "start": 36.78,
+            "end": 37.04,
+            "word": " worth",
+            "probability": 0.99867
+          },
+          {
+            "start": 37.04,
+            "end": 37.58,
+            "word": " every",
+            "probability": 0.99637
+          },
+          {
+            "start": 37.58,
+            "end": 37.94,
+            "word": " minute.",
+            "probability": 0.99834
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-c",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 93,
+            "speechStart": 0.4,
+            "speechEnd": 37.94,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "exercising is a blast when you're with the right people i've joined a few group classes and they're like a party every time the music is pumping everyone's in sync and it feels like we're all in this together working out alone can get boring but with friends you laugh you encourage each other and suddenly an hour has flown by we push each other you know it's kind of amazing half the time i forget i'm even working out i actually look forward to it the camaraderie makes it worth every minute",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

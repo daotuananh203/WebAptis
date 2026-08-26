@@ -1,0 +1,379 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p1-q08",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-1/q08.mp3",
+  "audioSha256": "960a206649de7e0b4e2df6f8b58b9f690814475f842ed7fef4be798f6b0d02ec",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.72,
+        "end": 5.42,
+        "text": "Hey, it's Alice. I think I might have left something at your house. I had my book with me",
+        "words": [
+          {
+            "start": 0.72,
+            "end": 1.2,
+            "word": " Hey,",
+            "probability": 0.81255
+          },
+          {
+            "start": 1.3,
+            "end": 1.52,
+            "word": " it's",
+            "probability": 0.98595
+          },
+          {
+            "start": 1.52,
+            "end": 1.72,
+            "word": " Alice.",
+            "probability": 0.93359
+          },
+          {
+            "start": 2.14,
+            "end": 2.22,
+            "word": " I",
+            "probability": 0.99569
+          },
+          {
+            "start": 2.22,
+            "end": 2.36,
+            "word": " think",
+            "probability": 0.99902
+          },
+          {
+            "start": 2.36,
+            "end": 2.5,
+            "word": " I",
+            "probability": 0.99831
+          },
+          {
+            "start": 2.5,
+            "end": 2.66,
+            "word": " might",
+            "probability": 0.99859
+          },
+          {
+            "start": 2.66,
+            "end": 2.78,
+            "word": " have",
+            "probability": 0.89025
+          },
+          {
+            "start": 2.78,
+            "end": 2.9,
+            "word": " left",
+            "probability": 0.99896
+          },
+          {
+            "start": 2.9,
+            "end": 3.26,
+            "word": " something",
+            "probability": 0.99745
+          },
+          {
+            "start": 3.26,
+            "end": 3.42,
+            "word": " at",
+            "probability": 0.9978
+          },
+          {
+            "start": 3.42,
+            "end": 3.54,
+            "word": " your",
+            "probability": 0.99844
+          },
+          {
+            "start": 3.54,
+            "end": 3.86,
+            "word": " house.",
+            "probability": 0.99833
+          },
+          {
+            "start": 4.24,
+            "end": 4.56,
+            "word": " I",
+            "probability": 0.99433
+          },
+          {
+            "start": 4.56,
+            "end": 4.66,
+            "word": " had",
+            "probability": 0.98951
+          },
+          {
+            "start": 4.66,
+            "end": 4.8,
+            "word": " my",
+            "probability": 0.99849
+          },
+          {
+            "start": 4.8,
+            "end": 5.0,
+            "word": " book",
+            "probability": 0.99825
+          },
+          {
+            "start": 5.0,
+            "end": 5.26,
+            "word": " with",
+            "probability": 0.99869
+          },
+          {
+            "start": 5.26,
+            "end": 5.42,
+            "word": " me",
+            "probability": 0.99816
+          }
+        ]
+      },
+      {
+        "start": 5.42,
+        "end": 8.58,
+        "text": "It's in my backpack. My laptops here too",
+        "words": [
+          {
+            "start": 5.42,
+            "end": 5.98,
+            "word": " It's",
+            "probability": 0.50527
+          },
+          {
+            "start": 5.98,
+            "end": 6.04,
+            "word": " in",
+            "probability": 0.99844
+          },
+          {
+            "start": 6.04,
+            "end": 6.18,
+            "word": " my",
+            "probability": 0.9985
+          },
+          {
+            "start": 6.18,
+            "end": 6.64,
+            "word": " backpack.",
+            "probability": 0.98343
+          },
+          {
+            "start": 7.1,
+            "end": 7.46,
+            "word": " My",
+            "probability": 0.97941
+          },
+          {
+            "start": 7.46,
+            "end": 7.88,
+            "word": " laptops",
+            "probability": 0.77822
+          },
+          {
+            "start": 7.88,
+            "end": 8.24,
+            "word": " here",
+            "probability": 0.97986
+          },
+          {
+            "start": 8.24,
+            "end": 8.58,
+            "word": " too",
+            "probability": 0.66738
+          }
+        ]
+      },
+      {
+        "start": 9.1,
+        "end": 16.2,
+        "text": "But I can't find my phone anywhere. Did you happen to see it after I left? I think I might have left it on the table",
+        "words": [
+          {
+            "start": 9.1,
+            "end": 9.46,
+            "word": " But",
+            "probability": 0.27571
+          },
+          {
+            "start": 9.46,
+            "end": 9.58,
+            "word": " I",
+            "probability": 0.98212
+          },
+          {
+            "start": 9.58,
+            "end": 9.86,
+            "word": " can't",
+            "probability": 0.99872
+          },
+          {
+            "start": 9.86,
+            "end": 10.02,
+            "word": " find",
+            "probability": 0.99821
+          },
+          {
+            "start": 10.02,
+            "end": 10.2,
+            "word": " my",
+            "probability": 0.9992
+          },
+          {
+            "start": 10.2,
+            "end": 10.52,
+            "word": " phone",
+            "probability": 0.99858
+          },
+          {
+            "start": 10.52,
+            "end": 11.22,
+            "word": " anywhere.",
+            "probability": 0.98872
+          },
+          {
+            "start": 12.36,
+            "end": 12.72,
+            "word": " Did",
+            "probability": 0.96876
+          },
+          {
+            "start": 12.72,
+            "end": 12.82,
+            "word": " you",
+            "probability": 0.99872
+          },
+          {
+            "start": 12.82,
+            "end": 13.06,
+            "word": " happen",
+            "probability": 0.99641
+          },
+          {
+            "start": 13.06,
+            "end": 13.2,
+            "word": " to",
+            "probability": 0.99924
+          },
+          {
+            "start": 13.2,
+            "end": 13.38,
+            "word": " see",
+            "probability": 0.99943
+          },
+          {
+            "start": 13.38,
+            "end": 13.48,
+            "word": " it",
+            "probability": 0.99775
+          },
+          {
+            "start": 13.48,
+            "end": 13.68,
+            "word": " after",
+            "probability": 0.99003
+          },
+          {
+            "start": 13.68,
+            "end": 13.8,
+            "word": " I",
+            "probability": 0.99323
+          },
+          {
+            "start": 13.8,
+            "end": 14.1,
+            "word": " left?",
+            "probability": 0.99853
+          },
+          {
+            "start": 14.68,
+            "end": 14.82,
+            "word": " I",
+            "probability": 0.99653
+          },
+          {
+            "start": 14.82,
+            "end": 14.94,
+            "word": " think",
+            "probability": 0.99756
+          },
+          {
+            "start": 14.94,
+            "end": 15.08,
+            "word": " I",
+            "probability": 0.99642
+          },
+          {
+            "start": 15.08,
+            "end": 15.22,
+            "word": " might",
+            "probability": 0.99766
+          },
+          {
+            "start": 15.22,
+            "end": 15.36,
+            "word": " have",
+            "probability": 0.95937
+          },
+          {
+            "start": 15.36,
+            "end": 15.54,
+            "word": " left",
+            "probability": 0.99739
+          },
+          {
+            "start": 15.54,
+            "end": 15.64,
+            "word": " it",
+            "probability": 0.99757
+          },
+          {
+            "start": 15.64,
+            "end": 15.74,
+            "word": " on",
+            "probability": 0.99894
+          },
+          {
+            "start": 15.74,
+            "end": 15.86,
+            "word": " the",
+            "probability": 0.99931
+          },
+          {
+            "start": 15.86,
+            "end": 16.2,
+            "word": " table",
+            "probability": 0.99843
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q08",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 53,
+            "speechStart": 0.72,
+            "speechEnd": 16.2,
+            "sourceTokenCoverage": 0.9811,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9811,
+            "transcript": "hey it's alice i think i might have left something at your house i had my book with me it's in my backpack my laptops here too but i can't find my phone anywhere did you happen to see it after i left i think i might have left it on the table",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

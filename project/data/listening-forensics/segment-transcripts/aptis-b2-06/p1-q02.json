@@ -1,0 +1,958 @@
+{
+  "testId": "aptis-b2-06",
+  "blockId": "p1-q02",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-06/part-1/q02.mp3",
+  "audioSha256": "55adc159bc2b43fd05e47efda7878e71595a3fba618ea513ef023a0ebfcf31ff",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.72,
+        "end": 7.04,
+        "text": "Hi Emma, it's Lucy. I hope you're doing well. I need a small favor from you today. Could",
+        "words": [
+          {
+            "start": 0.72,
+            "end": 1.24,
+            "word": " Hi",
+            "probability": 0.36
+          },
+          {
+            "start": 1.24,
+            "end": 1.5,
+            "word": " Emma,",
+            "probability": 0.48421
+          },
+          {
+            "start": 1.84,
+            "end": 2.24,
+            "word": " it's",
+            "probability": 0.95611
+          },
+          {
+            "start": 2.24,
+            "end": 2.38,
+            "word": " Lucy.",
+            "probability": 0.96436
+          },
+          {
+            "start": 3.04,
+            "end": 3.26,
+            "word": " I",
+            "probability": 0.97389
+          },
+          {
+            "start": 3.26,
+            "end": 3.42,
+            "word": " hope",
+            "probability": 0.9978
+          },
+          {
+            "start": 3.42,
+            "end": 3.64,
+            "word": " you're",
+            "probability": 0.95826
+          },
+          {
+            "start": 3.64,
+            "end": 3.82,
+            "word": " doing",
+            "probability": 0.99016
+          },
+          {
+            "start": 3.82,
+            "end": 4.1,
+            "word": " well.",
+            "probability": 0.99801
+          },
+          {
+            "start": 4.64,
+            "end": 4.76,
+            "word": " I",
+            "probability": 0.97864
+          },
+          {
+            "start": 4.76,
+            "end": 4.94,
+            "word": " need",
+            "probability": 0.99774
+          },
+          {
+            "start": 4.94,
+            "end": 5.04,
+            "word": " a",
+            "probability": 0.99759
+          },
+          {
+            "start": 5.04,
+            "end": 5.3,
+            "word": " small",
+            "probability": 0.99515
+          },
+          {
+            "start": 5.3,
+            "end": 5.64,
+            "word": " favor",
+            "probability": 0.94805
+          },
+          {
+            "start": 5.64,
+            "end": 5.88,
+            "word": " from",
+            "probability": 0.74491
+          },
+          {
+            "start": 5.88,
+            "end": 5.98,
+            "word": " you",
+            "probability": 0.98307
+          },
+          {
+            "start": 5.98,
+            "end": 6.28,
+            "word": " today.",
+            "probability": 0.99367
+          },
+          {
+            "start": 6.86,
+            "end": 7.04,
+            "word": " Could",
+            "probability": 0.94733
+          }
+        ]
+      },
+      {
+        "start": 7.04,
+        "end": 11.72,
+        "text": "you pick up my sister after school? She'll be standing at the school gate at 3 p.m.",
+        "words": [
+          {
+            "start": 7.04,
+            "end": 7.18,
+            "word": " you",
+            "probability": 0.99861
+          },
+          {
+            "start": 7.18,
+            "end": 7.36,
+            "word": " pick",
+            "probability": 0.99692
+          },
+          {
+            "start": 7.36,
+            "end": 7.48,
+            "word": " up",
+            "probability": 0.9898
+          },
+          {
+            "start": 7.48,
+            "end": 7.64,
+            "word": " my",
+            "probability": 0.99876
+          },
+          {
+            "start": 7.64,
+            "end": 7.96,
+            "word": " sister",
+            "probability": 0.99241
+          },
+          {
+            "start": 7.96,
+            "end": 8.32,
+            "word": " after",
+            "probability": 0.99512
+          },
+          {
+            "start": 8.32,
+            "end": 8.64,
+            "word": " school?",
+            "probability": 0.99335
+          },
+          {
+            "start": 9.26,
+            "end": 9.42,
+            "word": " She'll",
+            "probability": 0.98458
+          },
+          {
+            "start": 9.42,
+            "end": 9.52,
+            "word": " be",
+            "probability": 0.99781
+          },
+          {
+            "start": 9.52,
+            "end": 9.82,
+            "word": " standing",
+            "probability": 0.99578
+          },
+          {
+            "start": 9.82,
+            "end": 9.96,
+            "word": " at",
+            "probability": 0.99594
+          },
+          {
+            "start": 9.96,
+            "end": 10.08,
+            "word": " the",
+            "probability": 0.99018
+          },
+          {
+            "start": 10.08,
+            "end": 10.32,
+            "word": " school",
+            "probability": 0.98509
+          },
+          {
+            "start": 10.32,
+            "end": 10.58,
+            "word": " gate",
+            "probability": 0.98401
+          },
+          {
+            "start": 10.58,
+            "end": 10.96,
+            "word": " at",
+            "probability": 0.98115
+          },
+          {
+            "start": 10.96,
+            "end": 11.28,
+            "word": " 3",
+            "probability": 0.9147
+          },
+          {
+            "start": 11.28,
+            "end": 11.5,
+            "word": " p",
+            "probability": 0.38073
+          },
+          {
+            "start": 11.5,
+            "end": 11.72,
+            "word": ".m.",
+            "probability": 0.99827
+          }
+        ]
+      },
+      {
+        "start": 12.1,
+        "end": 17.22,
+        "text": "She looks just like me so you'll recognize her easily. I have a meeting and I won't make",
+        "words": [
+          {
+            "start": 12.1,
+            "end": 12.26,
+            "word": " She",
+            "probability": 0.98375
+          },
+          {
+            "start": 12.26,
+            "end": 12.44,
+            "word": " looks",
+            "probability": 0.99515
+          },
+          {
+            "start": 12.44,
+            "end": 12.78,
+            "word": " just",
+            "probability": 0.99032
+          },
+          {
+            "start": 12.78,
+            "end": 13.06,
+            "word": " like",
+            "probability": 0.99945
+          },
+          {
+            "start": 13.06,
+            "end": 13.32,
+            "word": " me",
+            "probability": 0.99855
+          },
+          {
+            "start": 13.32,
+            "end": 13.74,
+            "word": " so",
+            "probability": 0.39388
+          },
+          {
+            "start": 13.74,
+            "end": 13.9,
+            "word": " you'll",
+            "probability": 0.99575
+          },
+          {
+            "start": 13.9,
+            "end": 14.34,
+            "word": " recognize",
+            "probability": 0.99169
+          },
+          {
+            "start": 14.34,
+            "end": 14.58,
+            "word": " her",
+            "probability": 0.99722
+          },
+          {
+            "start": 14.58,
+            "end": 14.98,
+            "word": " easily.",
+            "probability": 0.99719
+          },
+          {
+            "start": 15.62,
+            "end": 15.76,
+            "word": " I",
+            "probability": 0.96814
+          },
+          {
+            "start": 15.76,
+            "end": 15.96,
+            "word": " have",
+            "probability": 0.99844
+          },
+          {
+            "start": 15.96,
+            "end": 16.08,
+            "word": " a",
+            "probability": 0.99738
+          },
+          {
+            "start": 16.08,
+            "end": 16.34,
+            "word": " meeting",
+            "probability": 0.99764
+          },
+          {
+            "start": 16.34,
+            "end": 16.72,
+            "word": " and",
+            "probability": 0.89453
+          },
+          {
+            "start": 16.72,
+            "end": 16.84,
+            "word": " I",
+            "probability": 0.98221
+          },
+          {
+            "start": 16.84,
+            "end": 17.04,
+            "word": " won't",
+            "probability": 0.99782
+          },
+          {
+            "start": 17.04,
+            "end": 17.22,
+            "word": " make",
+            "probability": 0.99847
+          }
+        ]
+      },
+      {
+        "start": 17.22,
+        "end": 21.0,
+        "text": "it in time. Thank you so much. Let me know if that's okay with you.",
+        "words": [
+          {
+            "start": 17.22,
+            "end": 17.36,
+            "word": " it",
+            "probability": 0.999
+          },
+          {
+            "start": 17.36,
+            "end": 17.48,
+            "word": " in",
+            "probability": 0.99908
+          },
+          {
+            "start": 17.48,
+            "end": 17.76,
+            "word": " time.",
+            "probability": 0.99926
+          },
+          {
+            "start": 18.34,
+            "end": 18.48,
+            "word": " Thank",
+            "probability": 0.99508
+          },
+          {
+            "start": 18.48,
+            "end": 18.6,
+            "word": " you",
+            "probability": 0.99845
+          },
+          {
+            "start": 18.6,
+            "end": 18.78,
+            "word": " so",
+            "probability": 0.99656
+          },
+          {
+            "start": 18.78,
+            "end": 19.22,
+            "word": " much.",
+            "probability": 0.99952
+          },
+          {
+            "start": 19.6,
+            "end": 19.78,
+            "word": " Let",
+            "probability": 0.99447
+          },
+          {
+            "start": 19.78,
+            "end": 19.88,
+            "word": " me",
+            "probability": 0.99821
+          },
+          {
+            "start": 19.88,
+            "end": 20.04,
+            "word": " know",
+            "probability": 0.99964
+          },
+          {
+            "start": 20.04,
+            "end": 20.18,
+            "word": " if",
+            "probability": 0.99839
+          },
+          {
+            "start": 20.18,
+            "end": 20.38,
+            "word": " that's",
+            "probability": 0.99486
+          },
+          {
+            "start": 20.38,
+            "end": 20.58,
+            "word": " okay",
+            "probability": 0.85938
+          },
+          {
+            "start": 20.58,
+            "end": 20.8,
+            "word": " with",
+            "probability": 0.99752
+          },
+          {
+            "start": 20.8,
+            "end": 21.0,
+            "word": " you.",
+            "probability": 0.99938
+          }
+        ]
+      },
+      {
+        "start": 28.8,
+        "end": 34.78,
+        "text": "Hi Emma, it's Lucy. I hope you're doing well. I need a small favor from you today. Could",
+        "words": [
+          {
+            "start": 28.8,
+            "end": 28.96,
+            "word": " Hi",
+            "probability": 0.89794
+          },
+          {
+            "start": 28.96,
+            "end": 29.22,
+            "word": " Emma,",
+            "probability": 0.99523
+          },
+          {
+            "start": 29.76,
+            "end": 29.98,
+            "word": " it's",
+            "probability": 0.99548
+          },
+          {
+            "start": 29.98,
+            "end": 30.2,
+            "word": " Lucy.",
+            "probability": 0.99395
+          },
+          {
+            "start": 30.9,
+            "end": 31.0,
+            "word": " I",
+            "probability": 0.99361
+          },
+          {
+            "start": 31.0,
+            "end": 31.16,
+            "word": " hope",
+            "probability": 0.9987
+          },
+          {
+            "start": 31.16,
+            "end": 31.36,
+            "word": " you're",
+            "probability": 0.99525
+          },
+          {
+            "start": 31.36,
+            "end": 31.56,
+            "word": " doing",
+            "probability": 0.99618
+          },
+          {
+            "start": 31.56,
+            "end": 31.86,
+            "word": " well.",
+            "probability": 0.99919
+          },
+          {
+            "start": 32.4,
+            "end": 32.5,
+            "word": " I",
+            "probability": 0.99806
+          },
+          {
+            "start": 32.5,
+            "end": 32.66,
+            "word": " need",
+            "probability": 0.99903
+          },
+          {
+            "start": 32.66,
+            "end": 32.78,
+            "word": " a",
+            "probability": 0.99812
+          },
+          {
+            "start": 32.78,
+            "end": 32.98,
+            "word": " small",
+            "probability": 0.99712
+          },
+          {
+            "start": 32.98,
+            "end": 33.36,
+            "word": " favor",
+            "probability": 0.99673
+          },
+          {
+            "start": 33.36,
+            "end": 33.58,
+            "word": " from",
+            "probability": 0.98081
+          },
+          {
+            "start": 33.58,
+            "end": 33.72,
+            "word": " you",
+            "probability": 0.96776
+          },
+          {
+            "start": 33.72,
+            "end": 34.02,
+            "word": " today.",
+            "probability": 0.99753
+          },
+          {
+            "start": 34.68,
+            "end": 34.78,
+            "word": " Could",
+            "probability": 0.99141
+          }
+        ]
+      },
+      {
+        "start": 34.78,
+        "end": 36.38,
+        "text": "Did you pick up my sister after school?",
+        "words": [
+          {
+            "start": 34.78,
+            "end": 34.84,
+            "word": " Did",
+            "probability": 0.62022
+          },
+          {
+            "start": 34.84,
+            "end": 34.92,
+            "word": " you",
+            "probability": 0.9964
+          },
+          {
+            "start": 34.92,
+            "end": 35.08,
+            "word": " pick",
+            "probability": 0.99378
+          },
+          {
+            "start": 35.08,
+            "end": 35.22,
+            "word": " up",
+            "probability": 0.97891
+          },
+          {
+            "start": 35.22,
+            "end": 35.38,
+            "word": " my",
+            "probability": 0.9975
+          },
+          {
+            "start": 35.38,
+            "end": 35.7,
+            "word": " sister",
+            "probability": 0.99354
+          },
+          {
+            "start": 35.7,
+            "end": 36.06,
+            "word": " after",
+            "probability": 0.99044
+          },
+          {
+            "start": 36.06,
+            "end": 36.38,
+            "word": " school?",
+            "probability": 0.98923
+          }
+        ]
+      },
+      {
+        "start": 36.98,
+        "end": 39.4,
+        "text": "She'll be standing at the school gate at 3 pm.",
+        "words": [
+          {
+            "start": 36.98,
+            "end": 37.16,
+            "word": " She'll",
+            "probability": 0.97675
+          },
+          {
+            "start": 37.16,
+            "end": 37.24,
+            "word": " be",
+            "probability": 0.99695
+          },
+          {
+            "start": 37.24,
+            "end": 37.54,
+            "word": " standing",
+            "probability": 0.99371
+          },
+          {
+            "start": 37.54,
+            "end": 37.7,
+            "word": " at",
+            "probability": 0.99538
+          },
+          {
+            "start": 37.7,
+            "end": 37.82,
+            "word": " the",
+            "probability": 0.97397
+          },
+          {
+            "start": 37.82,
+            "end": 38.06,
+            "word": " school",
+            "probability": 0.97962
+          },
+          {
+            "start": 38.06,
+            "end": 38.32,
+            "word": " gate",
+            "probability": 0.98736
+          },
+          {
+            "start": 38.32,
+            "end": 38.68,
+            "word": " at",
+            "probability": 0.95075
+          },
+          {
+            "start": 38.68,
+            "end": 39.0,
+            "word": " 3",
+            "probability": 0.93986
+          },
+          {
+            "start": 39.0,
+            "end": 39.4,
+            "word": " pm.",
+            "probability": 0.23272
+          }
+        ]
+      },
+      {
+        "start": 39.86,
+        "end": 42.7,
+        "text": "She looks just like me so you'll recognize her easily.",
+        "words": [
+          {
+            "start": 39.86,
+            "end": 40.0,
+            "word": " She",
+            "probability": 0.99209
+          },
+          {
+            "start": 40.0,
+            "end": 40.2,
+            "word": " looks",
+            "probability": 0.98922
+          },
+          {
+            "start": 40.2,
+            "end": 40.52,
+            "word": " just",
+            "probability": 0.97539
+          },
+          {
+            "start": 40.52,
+            "end": 40.8,
+            "word": " like",
+            "probability": 0.99908
+          },
+          {
+            "start": 40.8,
+            "end": 41.06,
+            "word": " me",
+            "probability": 0.99598
+          },
+          {
+            "start": 41.06,
+            "end": 41.46,
+            "word": " so",
+            "probability": 0.53457
+          },
+          {
+            "start": 41.46,
+            "end": 41.64,
+            "word": " you'll",
+            "probability": 0.99048
+          },
+          {
+            "start": 41.64,
+            "end": 42.06,
+            "word": " recognize",
+            "probability": 0.98266
+          },
+          {
+            "start": 42.06,
+            "end": 42.3,
+            "word": " her",
+            "probability": 0.99841
+          },
+          {
+            "start": 42.3,
+            "end": 42.7,
+            "word": " easily.",
+            "probability": 0.99348
+          }
+        ]
+      },
+      {
+        "start": 43.3,
+        "end": 45.48,
+        "text": "I have a meeting and I won't make it in time.",
+        "words": [
+          {
+            "start": 43.3,
+            "end": 43.5,
+            "word": " I",
+            "probability": 0.98251
+          },
+          {
+            "start": 43.5,
+            "end": 43.68,
+            "word": " have",
+            "probability": 0.99856
+          },
+          {
+            "start": 43.68,
+            "end": 43.82,
+            "word": " a",
+            "probability": 0.99583
+          },
+          {
+            "start": 43.82,
+            "end": 44.06,
+            "word": " meeting",
+            "probability": 0.98342
+          },
+          {
+            "start": 44.06,
+            "end": 44.44,
+            "word": " and",
+            "probability": 0.87845
+          },
+          {
+            "start": 44.44,
+            "end": 44.58,
+            "word": " I",
+            "probability": 0.87729
+          },
+          {
+            "start": 44.58,
+            "end": 44.76,
+            "word": " won't",
+            "probability": 0.9948
+          },
+          {
+            "start": 44.76,
+            "end": 44.94,
+            "word": " make",
+            "probability": 0.99835
+          },
+          {
+            "start": 44.94,
+            "end": 45.1,
+            "word": " it",
+            "probability": 0.99835
+          },
+          {
+            "start": 45.1,
+            "end": 45.2,
+            "word": " in",
+            "probability": 0.99811
+          },
+          {
+            "start": 45.2,
+            "end": 45.48,
+            "word": " time.",
+            "probability": 0.9992
+          }
+        ]
+      },
+      {
+        "start": 46.08,
+        "end": 46.94,
+        "text": "Thank you so much.",
+        "words": [
+          {
+            "start": 46.08,
+            "end": 46.22,
+            "word": " Thank",
+            "probability": 0.99285
+          },
+          {
+            "start": 46.22,
+            "end": 46.34,
+            "word": " you",
+            "probability": 0.99749
+          },
+          {
+            "start": 46.34,
+            "end": 46.52,
+            "word": " so",
+            "probability": 0.99463
+          },
+          {
+            "start": 46.52,
+            "end": 46.94,
+            "word": " much.",
+            "probability": 0.99887
+          }
+        ]
+      },
+      {
+        "start": 47.36,
+        "end": 48.72,
+        "text": "Let me know if that's okay with you.",
+        "words": [
+          {
+            "start": 47.36,
+            "end": 47.52,
+            "word": " Let",
+            "probability": 0.99241
+          },
+          {
+            "start": 47.52,
+            "end": 47.62,
+            "word": " me",
+            "probability": 0.9946
+          },
+          {
+            "start": 47.62,
+            "end": 47.78,
+            "word": " know",
+            "probability": 0.99966
+          },
+          {
+            "start": 47.78,
+            "end": 47.92,
+            "word": " if",
+            "probability": 0.99831
+          },
+          {
+            "start": 47.92,
+            "end": 48.12,
+            "word": " that's",
+            "probability": 0.99055
+          },
+          {
+            "start": 48.12,
+            "end": 48.3,
+            "word": " okay",
+            "probability": 0.7895
+          },
+          {
+            "start": 48.3,
+            "end": 48.52,
+            "word": " with",
+            "probability": 0.99753
+          },
+          {
+            "start": 48.52,
+            "end": 48.72,
+            "word": " you.",
+            "probability": 0.9994
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q02",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 69,
+            "speechStart": 0.72,
+            "speechEnd": 21.0,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi emma it's lucy i hope you're doing well i need a small favor from you today could you pick up my sister after school she'll be standing at the school gate at 3 p m she looks just like me so you'll recognize her easily i have a meeting and i won't make it in time thank you so much let me know if that's okay with you",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 69,
+            "wordEndIndexExclusive": 138,
+            "speechStart": 28.8,
+            "speechEnd": 48.72,
+            "sourceTokenCoverage": 0.971,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.971,
+            "transcript": "hi emma it's lucy i hope you're doing well i need a small favor from you today could did you pick up my sister after school she'll be standing at the school gate at 3 pm she looks just like me so you'll recognize her easily i have a meeting and i won't make it in time thank you so much let me know if that's okay with you",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

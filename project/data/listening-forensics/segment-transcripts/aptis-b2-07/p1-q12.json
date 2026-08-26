@@ -1,0 +1,695 @@
+{
+  "testId": "aptis-b2-07",
+  "blockId": "p1-q12",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-07/part-1/q12.mp3",
+  "audioSha256": "1188d91685ac0f83761372b68e756eaaff7873e756d4838ccf4898b2c7c042bf",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 10.53,
+        "text": "Hi everyone, I'm Greg and I want to tell you about a typical working day in my life.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.96,
+            "word": " Hi",
+            "probability": 0.38275
+          },
+          {
+            "start": 5.89,
+            "end": 6.29,
+            "word": " everyone,",
+            "probability": 0.6727
+          },
+          {
+            "start": 6.71,
+            "end": 7.05,
+            "word": " I'm",
+            "probability": 0.95619
+          },
+          {
+            "start": 7.05,
+            "end": 7.19,
+            "word": " Greg",
+            "probability": 0.96078
+          },
+          {
+            "start": 7.19,
+            "end": 7.75,
+            "word": " and",
+            "probability": 0.80138
+          },
+          {
+            "start": 7.75,
+            "end": 7.83,
+            "word": " I",
+            "probability": 0.98856
+          },
+          {
+            "start": 7.83,
+            "end": 7.95,
+            "word": " want",
+            "probability": 0.81321
+          },
+          {
+            "start": 7.95,
+            "end": 8.05,
+            "word": " to",
+            "probability": 0.99301
+          },
+          {
+            "start": 8.05,
+            "end": 8.23,
+            "word": " tell",
+            "probability": 0.98843
+          },
+          {
+            "start": 8.23,
+            "end": 8.39,
+            "word": " you",
+            "probability": 0.99468
+          },
+          {
+            "start": 8.39,
+            "end": 8.61,
+            "word": " about",
+            "probability": 0.99021
+          },
+          {
+            "start": 8.61,
+            "end": 8.75,
+            "word": " a",
+            "probability": 0.9928
+          },
+          {
+            "start": 8.75,
+            "end": 9.09,
+            "word": " typical",
+            "probability": 0.99323
+          },
+          {
+            "start": 9.09,
+            "end": 9.51,
+            "word": " working",
+            "probability": 0.95897
+          },
+          {
+            "start": 9.51,
+            "end": 9.81,
+            "word": " day",
+            "probability": 0.99274
+          },
+          {
+            "start": 9.81,
+            "end": 9.95,
+            "word": " in",
+            "probability": 0.98945
+          },
+          {
+            "start": 9.95,
+            "end": 10.09,
+            "word": " my",
+            "probability": 0.99691
+          },
+          {
+            "start": 10.09,
+            "end": 10.53,
+            "word": " life.",
+            "probability": 0.99869
+          }
+        ]
+      },
+      {
+        "start": 10.91,
+        "end": 16.37,
+        "text": "I usually wake up early around 7 a.m. after a quick breakfast, I get ready for work.",
+        "words": [
+          {
+            "start": 10.91,
+            "end": 11.09,
+            "word": " I",
+            "probability": 0.98721
+          },
+          {
+            "start": 11.09,
+            "end": 11.37,
+            "word": " usually",
+            "probability": 0.99766
+          },
+          {
+            "start": 11.37,
+            "end": 11.65,
+            "word": " wake",
+            "probability": 0.9961
+          },
+          {
+            "start": 11.65,
+            "end": 11.85,
+            "word": " up",
+            "probability": 0.99928
+          },
+          {
+            "start": 11.85,
+            "end": 12.21,
+            "word": " early",
+            "probability": 0.99823
+          },
+          {
+            "start": 12.21,
+            "end": 12.83,
+            "word": " around",
+            "probability": 0.84775
+          },
+          {
+            "start": 12.83,
+            "end": 13.23,
+            "word": " 7",
+            "probability": 0.9036
+          },
+          {
+            "start": 13.23,
+            "end": 13.39,
+            "word": " a",
+            "probability": 0.45088
+          },
+          {
+            "start": 13.39,
+            "end": 13.59,
+            "word": ".m.",
+            "probability": 0.99448
+          },
+          {
+            "start": 13.91,
+            "end": 14.15,
+            "word": " after",
+            "probability": 0.82179
+          },
+          {
+            "start": 14.15,
+            "end": 14.27,
+            "word": " a",
+            "probability": 0.99823
+          },
+          {
+            "start": 14.27,
+            "end": 14.47,
+            "word": " quick",
+            "probability": 0.99448
+          },
+          {
+            "start": 14.47,
+            "end": 14.91,
+            "word": " breakfast,",
+            "probability": 0.99428
+          },
+          {
+            "start": 15.41,
+            "end": 15.47,
+            "word": " I",
+            "probability": 0.98997
+          },
+          {
+            "start": 15.47,
+            "end": 15.59,
+            "word": " get",
+            "probability": 0.99848
+          },
+          {
+            "start": 15.59,
+            "end": 15.81,
+            "word": " ready",
+            "probability": 0.99831
+          },
+          {
+            "start": 15.81,
+            "end": 16.01,
+            "word": " for",
+            "probability": 0.99493
+          },
+          {
+            "start": 16.01,
+            "end": 16.37,
+            "word": " work.",
+            "probability": 0.99902
+          }
+        ]
+      },
+      {
+        "start": 16.73,
+        "end": 19.51,
+        "text": "I like to wear smart clothes because I work in an office.",
+        "words": [
+          {
+            "start": 16.73,
+            "end": 16.93,
+            "word": " I",
+            "probability": 0.9954
+          },
+          {
+            "start": 16.93,
+            "end": 17.07,
+            "word": " like",
+            "probability": 0.99369
+          },
+          {
+            "start": 17.07,
+            "end": 17.21,
+            "word": " to",
+            "probability": 0.99869
+          },
+          {
+            "start": 17.21,
+            "end": 17.33,
+            "word": " wear",
+            "probability": 0.99824
+          },
+          {
+            "start": 17.33,
+            "end": 17.61,
+            "word": " smart",
+            "probability": 0.9586
+          },
+          {
+            "start": 17.61,
+            "end": 18.01,
+            "word": " clothes",
+            "probability": 0.99105
+          },
+          {
+            "start": 18.01,
+            "end": 18.51,
+            "word": " because",
+            "probability": 0.95776
+          },
+          {
+            "start": 18.51,
+            "end": 18.67,
+            "word": " I",
+            "probability": 0.99347
+          },
+          {
+            "start": 18.67,
+            "end": 18.87,
+            "word": " work",
+            "probability": 0.99808
+          },
+          {
+            "start": 18.87,
+            "end": 19.05,
+            "word": " in",
+            "probability": 0.99304
+          },
+          {
+            "start": 19.05,
+            "end": 19.15,
+            "word": " an",
+            "probability": 0.99032
+          },
+          {
+            "start": 19.15,
+            "end": 19.51,
+            "word": " office.",
+            "probability": 0.99946
+          }
+        ]
+      },
+      {
+        "start": 20.09,
+        "end": 22.67,
+        "text": "I go by bus every day which takes about 30 minutes.",
+        "words": [
+          {
+            "start": 20.09,
+            "end": 20.21,
+            "word": " I",
+            "probability": 0.99589
+          },
+          {
+            "start": 20.21,
+            "end": 20.35,
+            "word": " go",
+            "probability": 0.9977
+          },
+          {
+            "start": 20.35,
+            "end": 20.51,
+            "word": " by",
+            "probability": 0.88468
+          },
+          {
+            "start": 20.51,
+            "end": 20.75,
+            "word": " bus",
+            "probability": 0.99598
+          },
+          {
+            "start": 20.75,
+            "end": 21.13,
+            "word": " every",
+            "probability": 0.86708
+          },
+          {
+            "start": 21.13,
+            "end": 21.35,
+            "word": " day",
+            "probability": 0.99893
+          },
+          {
+            "start": 21.35,
+            "end": 21.61,
+            "word": " which",
+            "probability": 0.74009
+          },
+          {
+            "start": 21.61,
+            "end": 21.81,
+            "word": " takes",
+            "probability": 0.99799
+          },
+          {
+            "start": 21.81,
+            "end": 22.07,
+            "word": " about",
+            "probability": 0.99246
+          },
+          {
+            "start": 22.07,
+            "end": 22.35,
+            "word": " 30",
+            "probability": 0.92092
+          },
+          {
+            "start": 22.35,
+            "end": 22.67,
+            "word": " minutes.",
+            "probability": 0.98936
+          }
+        ]
+      },
+      {
+        "start": 23.35,
+        "end": 26.45,
+        "text": "I enjoy looking out the window and listening to music on my way.",
+        "words": [
+          {
+            "start": 23.35,
+            "end": 23.47,
+            "word": " I",
+            "probability": 0.99584
+          },
+          {
+            "start": 23.47,
+            "end": 23.71,
+            "word": " enjoy",
+            "probability": 0.99851
+          },
+          {
+            "start": 23.71,
+            "end": 24.03,
+            "word": " looking",
+            "probability": 0.99611
+          },
+          {
+            "start": 24.03,
+            "end": 24.19,
+            "word": " out",
+            "probability": 0.93259
+          },
+          {
+            "start": 24.19,
+            "end": 24.33,
+            "word": " the",
+            "probability": 0.99636
+          },
+          {
+            "start": 24.33,
+            "end": 24.65,
+            "word": " window",
+            "probability": 0.99911
+          },
+          {
+            "start": 24.65,
+            "end": 24.93,
+            "word": " and",
+            "probability": 0.96441
+          },
+          {
+            "start": 24.93,
+            "end": 25.23,
+            "word": " listening",
+            "probability": 0.9984
+          },
+          {
+            "start": 25.23,
+            "end": 25.45,
+            "word": " to",
+            "probability": 0.99437
+          },
+          {
+            "start": 25.45,
+            "end": 25.77,
+            "word": " music",
+            "probability": 0.99847
+          },
+          {
+            "start": 25.77,
+            "end": 25.99,
+            "word": " on",
+            "probability": 0.98849
+          },
+          {
+            "start": 25.99,
+            "end": 26.15,
+            "word": " my",
+            "probability": 0.99861
+          },
+          {
+            "start": 26.15,
+            "end": 26.45,
+            "word": " way.",
+            "probability": 0.99826
+          }
+        ]
+      },
+      {
+        "start": 26.91,
+        "end": 31.69,
+        "text": "When I arrive at the office, I start my day by checking emails and planning my tasks.",
+        "words": [
+          {
+            "start": 26.91,
+            "end": 27.39,
+            "word": " When",
+            "probability": 0.98762
+          },
+          {
+            "start": 27.39,
+            "end": 27.51,
+            "word": " I",
+            "probability": 0.99734
+          },
+          {
+            "start": 27.51,
+            "end": 27.81,
+            "word": " arrive",
+            "probability": 0.98728
+          },
+          {
+            "start": 27.81,
+            "end": 27.95,
+            "word": " at",
+            "probability": 0.99679
+          },
+          {
+            "start": 27.95,
+            "end": 28.07,
+            "word": " the",
+            "probability": 0.99676
+          },
+          {
+            "start": 28.07,
+            "end": 28.37,
+            "word": " office,",
+            "probability": 0.99785
+          },
+          {
+            "start": 28.67,
+            "end": 28.73,
+            "word": " I",
+            "probability": 0.9982
+          },
+          {
+            "start": 28.73,
+            "end": 28.93,
+            "word": " start",
+            "probability": 0.99871
+          },
+          {
+            "start": 28.93,
+            "end": 29.13,
+            "word": " my",
+            "probability": 0.99813
+          },
+          {
+            "start": 29.13,
+            "end": 29.27,
+            "word": " day",
+            "probability": 0.99964
+          },
+          {
+            "start": 29.27,
+            "end": 29.45,
+            "word": " by",
+            "probability": 0.9664
+          },
+          {
+            "start": 29.45,
+            "end": 29.75,
+            "word": " checking",
+            "probability": 0.99567
+          },
+          {
+            "start": 29.75,
+            "end": 30.23,
+            "word": " emails",
+            "probability": 0.93844
+          },
+          {
+            "start": 30.23,
+            "end": 30.77,
+            "word": " and",
+            "probability": 0.98411
+          },
+          {
+            "start": 30.77,
+            "end": 31.09,
+            "word": " planning",
+            "probability": 0.90865
+          },
+          {
+            "start": 31.09,
+            "end": 31.31,
+            "word": " my",
+            "probability": 0.99351
+          },
+          {
+            "start": 31.31,
+            "end": 31.69,
+            "word": " tasks.",
+            "probability": 0.99434
+          }
+        ]
+      },
+      {
+        "start": 31.69,
+        "end": 35.53,
+        "text": "I have meetings with my team and we work together on projects.",
+        "words": [
+          {
+            "start": 31.69,
+            "end": 32.57,
+            "word": " I",
+            "probability": 0.72927
+          },
+          {
+            "start": 32.57,
+            "end": 32.69,
+            "word": " have",
+            "probability": 0.99034
+          },
+          {
+            "start": 32.69,
+            "end": 32.95,
+            "word": " meetings",
+            "probability": 0.99839
+          },
+          {
+            "start": 32.95,
+            "end": 33.15,
+            "word": " with",
+            "probability": 0.9976
+          },
+          {
+            "start": 33.15,
+            "end": 33.33,
+            "word": " my",
+            "probability": 0.9946
+          },
+          {
+            "start": 33.33,
+            "end": 33.65,
+            "word": " team",
+            "probability": 0.99658
+          },
+          {
+            "start": 33.65,
+            "end": 34.17,
+            "word": " and",
+            "probability": 0.73795
+          },
+          {
+            "start": 34.17,
+            "end": 34.27,
+            "word": " we",
+            "probability": 0.98626
+          },
+          {
+            "start": 34.27,
+            "end": 34.45,
+            "word": " work",
+            "probability": 0.96826
+          },
+          {
+            "start": 34.45,
+            "end": 34.83,
+            "word": " together",
+            "probability": 0.99634
+          },
+          {
+            "start": 34.83,
+            "end": 35.09,
+            "word": " on",
+            "probability": 0.99807
+          },
+          {
+            "start": 35.09,
+            "end": 35.53,
+            "word": " projects.",
+            "probability": 0.96464
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q12",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 101,
+            "speechStart": 0.0,
+            "speechEnd": 35.53,
+            "sourceTokenCoverage": 0.9899,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.98,
+            "transcript": "hi everyone i'm greg and i want to tell you about a typical working day in my life i usually wake up early around 7 a m after a quick breakfast i get ready for work i like to wear smart clothes because i work in an office i go by bus every day which takes about 30 minutes i enjoy looking out the window and listening to music on my way when i arrive at the office i start my day by checking emails and planning my tasks i have meetings with my team and we work together on projects",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p1-q11",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-1/q11.mp3",
+  "audioSha256": "17dad7bdcdafbe11d19d85535575d1ebc62850b315382629d2af0c294587fbc1",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.85,
+        "end": 4.79,
+        "text": "I love shopping, and there are so many places to choose from in our city.",
+        "words": [
+          {
+            "start": 0.85,
+            "end": 1.33,
+            "word": " I",
+            "probability": 0.96718
+          },
+          {
+            "start": 1.33,
+            "end": 1.55,
+            "word": " love",
+            "probability": 0.99523
+          },
+          {
+            "start": 1.55,
+            "end": 1.99,
+            "word": " shopping,",
+            "probability": 0.99308
+          },
+          {
+            "start": 2.33,
+            "end": 2.41,
+            "word": " and",
+            "probability": 0.99256
+          },
+          {
+            "start": 2.41,
+            "end": 2.53,
+            "word": " there",
+            "probability": 0.99852
+          },
+          {
+            "start": 2.53,
+            "end": 2.61,
+            "word": " are",
+            "probability": 0.99451
+          },
+          {
+            "start": 2.61,
+            "end": 2.87,
+            "word": " so",
+            "probability": 0.9829
+          },
+          {
+            "start": 2.87,
+            "end": 3.07,
+            "word": " many",
+            "probability": 0.99906
+          },
+          {
+            "start": 3.07,
+            "end": 3.45,
+            "word": " places",
+            "probability": 0.99695
+          },
+          {
+            "start": 3.45,
+            "end": 3.69,
+            "word": " to",
+            "probability": 0.99692
+          },
+          {
+            "start": 3.69,
+            "end": 3.91,
+            "word": " choose",
+            "probability": 0.99382
+          },
+          {
+            "start": 3.91,
+            "end": 4.19,
+            "word": " from",
+            "probability": 0.9976
+          },
+          {
+            "start": 4.19,
+            "end": 4.35,
+            "word": " in",
+            "probability": 0.98692
+          },
+          {
+            "start": 4.35,
+            "end": 4.47,
+            "word": " our",
+            "probability": 0.99737
+          },
+          {
+            "start": 4.47,
+            "end": 4.79,
+            "word": " city.",
+            "probability": 0.99183
+          }
+        ]
+      },
+      {
+        "start": 5.64,
+        "end": 10.26,
+        "text": "The downtown market is great for fresh fruit and vegetables, and there are lots of small",
+        "words": [
+          {
+            "start": 5.64,
+            "end": 5.84,
+            "word": " The",
+            "probability": 0.99552
+          },
+          {
+            "start": 5.84,
+            "end": 6.18,
+            "word": " downtown",
+            "probability": 0.90054
+          },
+          {
+            "start": 6.18,
+            "end": 6.72,
+            "word": " market",
+            "probability": 0.99382
+          },
+          {
+            "start": 6.72,
+            "end": 6.98,
+            "word": " is",
+            "probability": 0.99439
+          },
+          {
+            "start": 6.98,
+            "end": 7.22,
+            "word": " great",
+            "probability": 0.99815
+          },
+          {
+            "start": 7.22,
+            "end": 7.44,
+            "word": " for",
+            "probability": 0.99897
+          },
+          {
+            "start": 7.44,
+            "end": 7.68,
+            "word": " fresh",
+            "probability": 0.99692
+          },
+          {
+            "start": 7.68,
+            "end": 7.96,
+            "word": " fruit",
+            "probability": 0.98668
+          },
+          {
+            "start": 7.96,
+            "end": 8.16,
+            "word": " and",
+            "probability": 0.99374
+          },
+          {
+            "start": 8.16,
+            "end": 8.64,
+            "word": " vegetables,",
+            "probability": 0.99571
+          },
+          {
+            "start": 9.1,
+            "end": 9.32,
+            "word": " and",
+            "probability": 0.99699
+          },
+          {
+            "start": 9.32,
+            "end": 9.46,
+            "word": " there",
+            "probability": 0.99861
+          },
+          {
+            "start": 9.46,
+            "end": 9.6,
+            "word": " are",
+            "probability": 0.99691
+          },
+          {
+            "start": 9.6,
+            "end": 9.88,
+            "word": " lots",
+            "probability": 0.96194
+          },
+          {
+            "start": 9.88,
+            "end": 10.06,
+            "word": " of",
+            "probability": 0.99872
+          },
+          {
+            "start": 10.06,
+            "end": 10.26,
+            "word": " small",
+            "probability": 0.99672
+          }
+        ]
+      },
+      {
+        "start": 10.26,
+        "end": 11.14,
+        "text": "shops there too.",
+        "words": [
+          {
+            "start": 10.26,
+            "end": 10.68,
+            "word": " shops",
+            "probability": 0.99635
+          },
+          {
+            "start": 10.68,
+            "end": 10.86,
+            "word": " there",
+            "probability": 0.99828
+          },
+          {
+            "start": 10.86,
+            "end": 11.14,
+            "word": " too.",
+            "probability": 0.839
+          }
+        ]
+      },
+      {
+        "start": 12.0,
+        "end": 16.68,
+        "text": "If I need clothes, I usually go to the mall, but it can get very crowded on weekends.",
+        "words": [
+          {
+            "start": 12.0,
+            "end": 12.24,
+            "word": " If",
+            "probability": 0.99305
+          },
+          {
+            "start": 12.24,
+            "end": 12.32,
+            "word": " I",
+            "probability": 0.98771
+          },
+          {
+            "start": 12.32,
+            "end": 12.48,
+            "word": " need",
+            "probability": 0.9988
+          },
+          {
+            "start": 12.48,
+            "end": 12.76,
+            "word": " clothes,",
+            "probability": 0.9928
+          },
+          {
+            "start": 13.14,
+            "end": 13.2,
+            "word": " I",
+            "probability": 0.99854
+          },
+          {
+            "start": 13.2,
+            "end": 13.52,
+            "word": " usually",
+            "probability": 0.9986
+          },
+          {
+            "start": 13.52,
+            "end": 13.76,
+            "word": " go",
+            "probability": 0.99779
+          },
+          {
+            "start": 13.76,
+            "end": 13.9,
+            "word": " to",
+            "probability": 0.99434
+          },
+          {
+            "start": 13.9,
+            "end": 14.04,
+            "word": " the",
+            "probability": 0.95511
+          },
+          {
+            "start": 14.04,
+            "end": 14.26,
+            "word": " mall,",
+            "probability": 0.99193
+          },
+          {
+            "start": 14.74,
+            "end": 15.0,
+            "word": " but",
+            "probability": 0.99658
+          },
+          {
+            "start": 15.0,
+            "end": 15.12,
+            "word": " it",
+            "probability": 0.9885
+          },
+          {
+            "start": 15.12,
+            "end": 15.24,
+            "word": " can",
+            "probability": 0.99885
+          },
+          {
+            "start": 15.24,
+            "end": 15.4,
+            "word": " get",
+            "probability": 0.98772
+          },
+          {
+            "start": 15.4,
+            "end": 15.72,
+            "word": " very",
+            "probability": 0.99443
+          },
+          {
+            "start": 15.72,
+            "end": 16.1,
+            "word": " crowded",
+            "probability": 0.99649
+          },
+          {
+            "start": 16.1,
+            "end": 16.38,
+            "word": " on",
+            "probability": 0.99491
+          },
+          {
+            "start": 16.38,
+            "end": 16.68,
+            "word": " weekends.",
+            "probability": 0.99309
+          }
+        ]
+      },
+      {
+        "start": 17.97,
+        "end": 22.43,
+        "text": "There's also a little boutique near my house with some unique items, but it's a bit expensive.",
+        "words": [
+          {
+            "start": 17.97,
+            "end": 18.35,
+            "word": " There's",
+            "probability": 0.95556
+          },
+          {
+            "start": 18.35,
+            "end": 18.61,
+            "word": " also",
+            "probability": 0.99716
+          },
+          {
+            "start": 18.61,
+            "end": 18.79,
+            "word": " a",
+            "probability": 0.993
+          },
+          {
+            "start": 18.79,
+            "end": 18.97,
+            "word": " little",
+            "probability": 0.99595
+          },
+          {
+            "start": 18.97,
+            "end": 19.37,
+            "word": " boutique",
+            "probability": 0.9971
+          },
+          {
+            "start": 19.37,
+            "end": 19.65,
+            "word": " near",
+            "probability": 0.99575
+          },
+          {
+            "start": 19.65,
+            "end": 19.81,
+            "word": " my",
+            "probability": 0.99821
+          },
+          {
+            "start": 19.81,
+            "end": 20.09,
+            "word": " house",
+            "probability": 0.99873
+          },
+          {
+            "start": 20.09,
+            "end": 20.31,
+            "word": " with",
+            "probability": 0.98088
+          },
+          {
+            "start": 20.31,
+            "end": 20.51,
+            "word": " some",
+            "probability": 0.99741
+          },
+          {
+            "start": 20.51,
+            "end": 20.79,
+            "word": " unique",
+            "probability": 0.99922
+          },
+          {
+            "start": 20.79,
+            "end": 21.19,
+            "word": " items,",
+            "probability": 0.99596
+          },
+          {
+            "start": 21.19,
+            "end": 21.61,
+            "word": " but",
+            "probability": 0.99867
+          },
+          {
+            "start": 21.61,
+            "end": 21.79,
+            "word": " it's",
+            "probability": 0.98851
+          },
+          {
+            "start": 21.79,
+            "end": 21.85,
+            "word": " a",
+            "probability": 0.99765
+          },
+          {
+            "start": 21.85,
+            "end": 21.95,
+            "word": " bit",
+            "probability": 0.99855
+          },
+          {
+            "start": 21.95,
+            "end": 22.43,
+            "word": " expensive.",
+            "probability": 0.99915
+          }
+        ]
+      },
+      {
+        "start": 23.62,
+        "end": 27.58,
+        "text": "This time, I'm excited to check out the new shopping center that just opened.",
+        "words": [
+          {
+            "start": 23.62,
+            "end": 23.88,
+            "word": " This",
+            "probability": 0.99224
+          },
+          {
+            "start": 23.88,
+            "end": 24.18,
+            "word": " time,",
+            "probability": 0.99956
+          },
+          {
+            "start": 24.62,
+            "end": 24.94,
+            "word": " I'm",
+            "probability": 0.95613
+          },
+          {
+            "start": 24.94,
+            "end": 25.3,
+            "word": " excited",
+            "probability": 0.99834
+          },
+          {
+            "start": 25.3,
+            "end": 25.5,
+            "word": " to",
+            "probability": 0.99881
+          },
+          {
+            "start": 25.5,
+            "end": 25.66,
+            "word": " check",
+            "probability": 0.99452
+          },
+          {
+            "start": 25.66,
+            "end": 25.84,
+            "word": " out",
+            "probability": 0.99794
+          },
+          {
+            "start": 25.84,
+            "end": 25.98,
+            "word": " the",
+            "probability": 0.99151
+          },
+          {
+            "start": 25.98,
+            "end": 26.18,
+            "word": " new",
+            "probability": 0.99089
+          },
+          {
+            "start": 26.18,
+            "end": 26.52,
+            "word": " shopping",
+            "probability": 0.95289
+          },
+          {
+            "start": 26.52,
+            "end": 26.9,
+            "word": " center",
+            "probability": 0.78871
+          },
+          {
+            "start": 26.9,
+            "end": 27.06,
+            "word": " that",
+            "probability": 0.99401
+          },
+          {
+            "start": 27.06,
+            "end": 27.24,
+            "word": " just",
+            "probability": 0.94021
+          },
+          {
+            "start": 27.24,
+            "end": 27.58,
+            "word": " opened.",
+            "probability": 0.99954
+          }
+        ]
+      },
+      {
+        "start": 28.06,
+        "end": 30.32,
+        "text": "I've heard it has everything I need in one place.",
+        "words": [
+          {
+            "start": 28.06,
+            "end": 28.42,
+            "word": " I've",
+            "probability": 0.74819
+          },
+          {
+            "start": 28.42,
+            "end": 28.6,
+            "word": " heard",
+            "probability": 0.99447
+          },
+          {
+            "start": 28.6,
+            "end": 28.76,
+            "word": " it",
+            "probability": 0.96087
+          },
+          {
+            "start": 28.76,
+            "end": 28.9,
+            "word": " has",
+            "probability": 0.99669
+          },
+          {
+            "start": 28.9,
+            "end": 29.34,
+            "word": " everything",
+            "probability": 0.99334
+          },
+          {
+            "start": 29.34,
+            "end": 29.52,
+            "word": " I",
+            "probability": 0.9765
+          },
+          {
+            "start": 29.52,
+            "end": 29.68,
+            "word": " need",
+            "probability": 0.99595
+          },
+          {
+            "start": 29.68,
+            "end": 29.82,
+            "word": " in",
+            "probability": 0.99679
+          },
+          {
+            "start": 29.82,
+            "end": 29.94,
+            "word": " one",
+            "probability": 0.97206
+          },
+          {
+            "start": 29.94,
+            "end": 30.32,
+            "word": " place.",
+            "probability": 0.99826
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q11",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 93,
+            "speechStart": 0.85,
+            "speechEnd": 30.32,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i love shopping and there are so many places to choose from in our city the downtown market is great for fresh fruit and vegetables and there are lots of small shops there too if i need clothes i usually go to the mall but it can get very crowded on weekends there's also a little boutique near my house with some unique items but it's a bit expensive this time i'm excited to check out the new shopping center that just opened i've heard it has everything i need in 1 place",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

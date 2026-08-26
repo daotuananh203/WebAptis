@@ -1,0 +1,552 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p1-q07",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-1/q07.mp3",
+  "audioSha256": "8d311e8238111fe0742d285fcd9e1b9edccc2e3742863154572187fc9da08005",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.85,
+        "end": 2.71,
+        "text": "Hey sweetheart, I'm so proud of you.",
+        "words": [
+          {
+            "start": 0.85,
+            "end": 1.33,
+            "word": " Hey",
+            "probability": 0.80636
+          },
+          {
+            "start": 1.33,
+            "end": 1.69,
+            "word": " sweetheart,",
+            "probability": 0.72398
+          },
+          {
+            "start": 1.89,
+            "end": 1.99,
+            "word": " I'm",
+            "probability": 0.97969
+          },
+          {
+            "start": 1.99,
+            "end": 2.13,
+            "word": " so",
+            "probability": 0.99633
+          },
+          {
+            "start": 2.13,
+            "end": 2.37,
+            "word": " proud",
+            "probability": 0.99942
+          },
+          {
+            "start": 2.37,
+            "end": 2.51,
+            "word": " of",
+            "probability": 0.99902
+          },
+          {
+            "start": 2.51,
+            "end": 2.71,
+            "word": " you.",
+            "probability": 0.99777
+          }
+        ]
+      },
+      {
+        "start": 3.5,
+        "end": 6.56,
+        "text": "Your art project looks amazing, you're really talented.",
+        "words": [
+          {
+            "start": 3.5,
+            "end": 3.74,
+            "word": " Your",
+            "probability": 0.9862
+          },
+          {
+            "start": 3.74,
+            "end": 3.94,
+            "word": " art",
+            "probability": 0.98066
+          },
+          {
+            "start": 3.94,
+            "end": 4.36,
+            "word": " project",
+            "probability": 0.99139
+          },
+          {
+            "start": 4.36,
+            "end": 4.62,
+            "word": " looks",
+            "probability": 0.99488
+          },
+          {
+            "start": 4.62,
+            "end": 5.18,
+            "word": " amazing,",
+            "probability": 0.99621
+          },
+          {
+            "start": 5.5,
+            "end": 5.66,
+            "word": " you're",
+            "probability": 0.97233
+          },
+          {
+            "start": 5.66,
+            "end": 6.06,
+            "word": " really",
+            "probability": 0.98764
+          },
+          {
+            "start": 6.06,
+            "end": 6.56,
+            "word": " talented.",
+            "probability": 0.99775
+          }
+        ]
+      },
+      {
+        "start": 6.92,
+        "end": 9.02,
+        "text": "I love how you used all those bright colors.",
+        "words": [
+          {
+            "start": 6.92,
+            "end": 7.1,
+            "word": " I",
+            "probability": 0.99713
+          },
+          {
+            "start": 7.1,
+            "end": 7.3,
+            "word": " love",
+            "probability": 0.99746
+          },
+          {
+            "start": 7.3,
+            "end": 7.5,
+            "word": " how",
+            "probability": 0.99873
+          },
+          {
+            "start": 7.5,
+            "end": 7.62,
+            "word": " you",
+            "probability": 0.99458
+          },
+          {
+            "start": 7.62,
+            "end": 7.9,
+            "word": " used",
+            "probability": 0.93574
+          },
+          {
+            "start": 7.9,
+            "end": 8.12,
+            "word": " all",
+            "probability": 0.99526
+          },
+          {
+            "start": 8.12,
+            "end": 8.34,
+            "word": " those",
+            "probability": 0.96653
+          },
+          {
+            "start": 8.34,
+            "end": 8.62,
+            "word": " bright",
+            "probability": 0.99527
+          },
+          {
+            "start": 8.62,
+            "end": 9.02,
+            "word": " colors.",
+            "probability": 0.96716
+          }
+        ]
+      },
+      {
+        "start": 9.7,
+        "end": 12.14,
+        "text": "You always do such a great job with your drawings.",
+        "words": [
+          {
+            "start": 9.7,
+            "end": 9.98,
+            "word": " You",
+            "probability": 0.99463
+          },
+          {
+            "start": 9.98,
+            "end": 10.32,
+            "word": " always",
+            "probability": 0.99729
+          },
+          {
+            "start": 10.32,
+            "end": 10.52,
+            "word": " do",
+            "probability": 0.99557
+          },
+          {
+            "start": 10.52,
+            "end": 10.78,
+            "word": " such",
+            "probability": 0.99521
+          },
+          {
+            "start": 10.78,
+            "end": 10.88,
+            "word": " a",
+            "probability": 0.99888
+          },
+          {
+            "start": 10.88,
+            "end": 11.1,
+            "word": " great",
+            "probability": 0.99558
+          },
+          {
+            "start": 11.1,
+            "end": 11.42,
+            "word": " job",
+            "probability": 0.99898
+          },
+          {
+            "start": 11.42,
+            "end": 11.64,
+            "word": " with",
+            "probability": 0.99543
+          },
+          {
+            "start": 11.64,
+            "end": 11.78,
+            "word": " your",
+            "probability": 0.99878
+          },
+          {
+            "start": 11.78,
+            "end": 12.14,
+            "word": " drawings.",
+            "probability": 0.99867
+          }
+        ]
+      },
+      {
+        "start": 12.92,
+        "end": 18.32,
+        "text": "But remember, you also need to spend some time on your other subjects too, like math and",
+        "words": [
+          {
+            "start": 12.92,
+            "end": 13.0,
+            "word": " But",
+            "probability": 0.98257
+          },
+          {
+            "start": 13.0,
+            "end": 13.44,
+            "word": " remember,",
+            "probability": 0.98236
+          },
+          {
+            "start": 13.86,
+            "end": 14.0,
+            "word": " you",
+            "probability": 0.99712
+          },
+          {
+            "start": 14.0,
+            "end": 14.32,
+            "word": " also",
+            "probability": 0.9942
+          },
+          {
+            "start": 14.32,
+            "end": 14.5,
+            "word": " need",
+            "probability": 0.99731
+          },
+          {
+            "start": 14.5,
+            "end": 14.62,
+            "word": " to",
+            "probability": 0.99646
+          },
+          {
+            "start": 14.62,
+            "end": 14.84,
+            "word": " spend",
+            "probability": 0.99854
+          },
+          {
+            "start": 14.84,
+            "end": 15.1,
+            "word": " some",
+            "probability": 0.99368
+          },
+          {
+            "start": 15.1,
+            "end": 15.44,
+            "word": " time",
+            "probability": 0.99953
+          },
+          {
+            "start": 15.44,
+            "end": 15.68,
+            "word": " on",
+            "probability": 0.99843
+          },
+          {
+            "start": 15.68,
+            "end": 15.82,
+            "word": " your",
+            "probability": 0.99171
+          },
+          {
+            "start": 15.82,
+            "end": 16.08,
+            "word": " other",
+            "probability": 0.99417
+          },
+          {
+            "start": 16.08,
+            "end": 16.54,
+            "word": " subjects",
+            "probability": 0.99412
+          },
+          {
+            "start": 16.54,
+            "end": 16.92,
+            "word": " too,",
+            "probability": 0.84183
+          },
+          {
+            "start": 17.24,
+            "end": 17.42,
+            "word": " like",
+            "probability": 0.99441
+          },
+          {
+            "start": 17.42,
+            "end": 17.74,
+            "word": " math",
+            "probability": 0.94599
+          },
+          {
+            "start": 17.74,
+            "end": 18.32,
+            "word": " and",
+            "probability": 0.97312
+          }
+        ]
+      },
+      {
+        "start": 18.32,
+        "end": 18.7,
+        "text": "science.",
+        "words": [
+          {
+            "start": 18.32,
+            "end": 18.7,
+            "word": " science.",
+            "probability": 0.9982
+          }
+        ]
+      },
+      {
+        "start": 19.2,
+        "end": 22.82,
+        "text": "I know you can do well in those if you try hard, just like you do with art.",
+        "words": [
+          {
+            "start": 19.2,
+            "end": 19.34,
+            "word": " I",
+            "probability": 0.99736
+          },
+          {
+            "start": 19.34,
+            "end": 19.5,
+            "word": " know",
+            "probability": 0.9994
+          },
+          {
+            "start": 19.5,
+            "end": 19.66,
+            "word": " you",
+            "probability": 0.99698
+          },
+          {
+            "start": 19.66,
+            "end": 19.78,
+            "word": " can",
+            "probability": 0.99484
+          },
+          {
+            "start": 19.78,
+            "end": 19.92,
+            "word": " do",
+            "probability": 0.99621
+          },
+          {
+            "start": 19.92,
+            "end": 20.14,
+            "word": " well",
+            "probability": 0.99895
+          },
+          {
+            "start": 20.14,
+            "end": 20.32,
+            "word": " in",
+            "probability": 0.99538
+          },
+          {
+            "start": 20.32,
+            "end": 20.5,
+            "word": " those",
+            "probability": 0.99555
+          },
+          {
+            "start": 20.5,
+            "end": 20.76,
+            "word": " if",
+            "probability": 0.91971
+          },
+          {
+            "start": 20.76,
+            "end": 20.88,
+            "word": " you",
+            "probability": 0.99863
+          },
+          {
+            "start": 20.88,
+            "end": 21.06,
+            "word": " try",
+            "probability": 0.99908
+          },
+          {
+            "start": 21.06,
+            "end": 21.42,
+            "word": " hard,",
+            "probability": 0.99963
+          },
+          {
+            "start": 21.76,
+            "end": 21.9,
+            "word": " just",
+            "probability": 0.997
+          },
+          {
+            "start": 21.9,
+            "end": 22.14,
+            "word": " like",
+            "probability": 0.99937
+          },
+          {
+            "start": 22.14,
+            "end": 22.32,
+            "word": " you",
+            "probability": 0.99782
+          },
+          {
+            "start": 22.32,
+            "end": 22.46,
+            "word": " do",
+            "probability": 0.99806
+          },
+          {
+            "start": 22.46,
+            "end": 22.66,
+            "word": " with",
+            "probability": 0.99901
+          },
+          {
+            "start": 22.66,
+            "end": 22.82,
+            "word": " art.",
+            "probability": 0.98733
+          }
+        ]
+      },
+      {
+        "start": 23.52,
+        "end": 25.3,
+        "text": "Let's work on it together, okay?",
+        "words": [
+          {
+            "start": 23.52,
+            "end": 23.82,
+            "word": " Let's",
+            "probability": 0.99282
+          },
+          {
+            "start": 23.82,
+            "end": 23.96,
+            "word": " work",
+            "probability": 0.99843
+          },
+          {
+            "start": 23.96,
+            "end": 24.14,
+            "word": " on",
+            "probability": 0.99204
+          },
+          {
+            "start": 24.14,
+            "end": 24.26,
+            "word": " it",
+            "probability": 0.9986
+          },
+          {
+            "start": 24.26,
+            "end": 24.64,
+            "word": " together,",
+            "probability": 0.99494
+          },
+          {
+            "start": 25.06,
+            "end": 25.3,
+            "word": " okay?",
+            "probability": 0.84411
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q07",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 76,
+            "speechStart": 0.85,
+            "speechEnd": 25.3,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey sweetheart i'm so proud of you your art project looks amazing you're really talented i love how you used all those bright colors you always do such a great job with your drawings but remember you also need to spend some time on your other subjects too like math and science i know you can do well in those if you try hard just like you do with art let's work on it together okay",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

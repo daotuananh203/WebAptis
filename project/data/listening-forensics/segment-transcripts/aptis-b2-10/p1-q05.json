@@ -1,0 +1,883 @@
+{
+  "testId": "aptis-b2-10",
+  "blockId": "p1-q05",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-10/part-1/q05.mp3",
+  "audioSha256": "c6574b130cc535f961efc3e32448de913328ab1b65b4162cc64ec89d350c3e79",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.82,
+        "end": 3.78,
+        "text": "I'm just about to take a photo of the girl's team now.",
+        "words": [
+          {
+            "start": 0.82,
+            "end": 1.3,
+            "word": " I'm",
+            "probability": 0.69336
+          },
+          {
+            "start": 1.3,
+            "end": 1.44,
+            "word": " just",
+            "probability": 0.9874
+          },
+          {
+            "start": 1.44,
+            "end": 1.76,
+            "word": " about",
+            "probability": 0.99801
+          },
+          {
+            "start": 1.76,
+            "end": 1.98,
+            "word": " to",
+            "probability": 0.94757
+          },
+          {
+            "start": 1.98,
+            "end": 2.14,
+            "word": " take",
+            "probability": 0.9925
+          },
+          {
+            "start": 2.14,
+            "end": 2.3,
+            "word": " a",
+            "probability": 0.99474
+          },
+          {
+            "start": 2.3,
+            "end": 2.6,
+            "word": " photo",
+            "probability": 0.99079
+          },
+          {
+            "start": 2.6,
+            "end": 2.8,
+            "word": " of",
+            "probability": 0.99507
+          },
+          {
+            "start": 2.8,
+            "end": 2.9,
+            "word": " the",
+            "probability": 0.98277
+          },
+          {
+            "start": 2.9,
+            "end": 3.3,
+            "word": " girl's",
+            "probability": 0.73282
+          },
+          {
+            "start": 3.3,
+            "end": 3.46,
+            "word": " team",
+            "probability": 0.9899
+          },
+          {
+            "start": 3.46,
+            "end": 3.78,
+            "word": " now.",
+            "probability": 0.9767
+          }
+        ]
+      },
+      {
+        "start": 4.36,
+        "end": 7.76,
+        "text": "They're all lined up and ready, smiling for the camera.",
+        "words": [
+          {
+            "start": 4.36,
+            "end": 4.6,
+            "word": " They're",
+            "probability": 0.97684
+          },
+          {
+            "start": 4.6,
+            "end": 4.76,
+            "word": " all",
+            "probability": 0.99536
+          },
+          {
+            "start": 4.76,
+            "end": 5.12,
+            "word": " lined",
+            "probability": 0.99534
+          },
+          {
+            "start": 5.12,
+            "end": 5.34,
+            "word": " up",
+            "probability": 0.99334
+          },
+          {
+            "start": 5.34,
+            "end": 5.5,
+            "word": " and",
+            "probability": 0.97403
+          },
+          {
+            "start": 5.5,
+            "end": 5.84,
+            "word": " ready,",
+            "probability": 0.99464
+          },
+          {
+            "start": 6.42,
+            "end": 6.88,
+            "word": " smiling",
+            "probability": 0.98841
+          },
+          {
+            "start": 6.88,
+            "end": 7.22,
+            "word": " for",
+            "probability": 0.99905
+          },
+          {
+            "start": 7.22,
+            "end": 7.38,
+            "word": " the",
+            "probability": 0.99858
+          },
+          {
+            "start": 7.38,
+            "end": 7.76,
+            "word": " camera.",
+            "probability": 0.99844
+          }
+        ]
+      },
+      {
+        "start": 8.32,
+        "end": 11.18,
+        "text": "I've already taken pictures of the boys earlier,",
+        "words": [
+          {
+            "start": 8.32,
+            "end": 8.76,
+            "word": " I've",
+            "probability": 0.9944
+          },
+          {
+            "start": 8.76,
+            "end": 8.98,
+            "word": " already",
+            "probability": 0.99904
+          },
+          {
+            "start": 8.98,
+            "end": 9.42,
+            "word": " taken",
+            "probability": 0.99846
+          },
+          {
+            "start": 9.42,
+            "end": 9.82,
+            "word": " pictures",
+            "probability": 0.99825
+          },
+          {
+            "start": 9.82,
+            "end": 10.08,
+            "word": " of",
+            "probability": 0.99788
+          },
+          {
+            "start": 10.08,
+            "end": 10.22,
+            "word": " the",
+            "probability": 0.99353
+          },
+          {
+            "start": 10.22,
+            "end": 10.52,
+            "word": " boys",
+            "probability": 0.97137
+          },
+          {
+            "start": 10.52,
+            "end": 11.18,
+            "word": " earlier,",
+            "probability": 0.992
+          }
+        ]
+      },
+      {
+        "start": 11.76,
+        "end": 12.86,
+        "text": "so it's their turn.",
+        "words": [
+          {
+            "start": 11.76,
+            "end": 12.02,
+            "word": " so",
+            "probability": 0.99648
+          },
+          {
+            "start": 12.02,
+            "end": 12.24,
+            "word": " it's",
+            "probability": 0.99554
+          },
+          {
+            "start": 12.24,
+            "end": 12.42,
+            "word": " their",
+            "probability": 0.99257
+          },
+          {
+            "start": 12.42,
+            "end": 12.86,
+            "word": " turn.",
+            "probability": 0.99935
+          }
+        ]
+      },
+      {
+        "start": 13.56,
+        "end": 16.2,
+        "text": "The coaches will have their photo taken after this.",
+        "words": [
+          {
+            "start": 13.56,
+            "end": 13.66,
+            "word": " The",
+            "probability": 0.99036
+          },
+          {
+            "start": 13.66,
+            "end": 14.0,
+            "word": " coaches",
+            "probability": 0.99802
+          },
+          {
+            "start": 14.0,
+            "end": 14.24,
+            "word": " will",
+            "probability": 0.99874
+          },
+          {
+            "start": 14.24,
+            "end": 14.42,
+            "word": " have",
+            "probability": 0.99879
+          },
+          {
+            "start": 14.42,
+            "end": 14.64,
+            "word": " their",
+            "probability": 0.99852
+          },
+          {
+            "start": 14.64,
+            "end": 15.02,
+            "word": " photo",
+            "probability": 0.99074
+          },
+          {
+            "start": 15.02,
+            "end": 15.42,
+            "word": " taken",
+            "probability": 0.99969
+          },
+          {
+            "start": 15.42,
+            "end": 15.88,
+            "word": " after",
+            "probability": 0.99731
+          },
+          {
+            "start": 15.88,
+            "end": 16.2,
+            "word": " this.",
+            "probability": 0.99807
+          }
+        ]
+      },
+      {
+        "start": 16.66,
+        "end": 19.24,
+        "text": "The girls are excited because this picture",
+        "words": [
+          {
+            "start": 16.66,
+            "end": 16.76,
+            "word": " The",
+            "probability": 0.99374
+          },
+          {
+            "start": 16.76,
+            "end": 17.04,
+            "word": " girls",
+            "probability": 0.99499
+          },
+          {
+            "start": 17.04,
+            "end": 17.26,
+            "word": " are",
+            "probability": 0.99944
+          },
+          {
+            "start": 17.26,
+            "end": 17.8,
+            "word": " excited",
+            "probability": 0.99892
+          },
+          {
+            "start": 17.8,
+            "end": 18.24,
+            "word": " because",
+            "probability": 0.89077
+          },
+          {
+            "start": 18.24,
+            "end": 18.64,
+            "word": " this",
+            "probability": 0.99723
+          },
+          {
+            "start": 18.64,
+            "end": 19.24,
+            "word": " picture",
+            "probability": 0.99786
+          }
+        ]
+      },
+      {
+        "start": 19.24,
+        "end": 20.68,
+        "text": "will be in the school magazine.",
+        "words": [
+          {
+            "start": 19.24,
+            "end": 19.46,
+            "word": " will",
+            "probability": 0.99831
+          },
+          {
+            "start": 19.46,
+            "end": 19.64,
+            "word": " be",
+            "probability": 0.99858
+          },
+          {
+            "start": 19.64,
+            "end": 19.76,
+            "word": " in",
+            "probability": 0.99826
+          },
+          {
+            "start": 19.76,
+            "end": 19.86,
+            "word": " the",
+            "probability": 0.99176
+          },
+          {
+            "start": 19.86,
+            "end": 20.14,
+            "word": " school",
+            "probability": 0.74524
+          },
+          {
+            "start": 20.14,
+            "end": 20.68,
+            "word": " magazine.",
+            "probability": 0.99172
+          }
+        ]
+      },
+      {
+        "start": 21.58,
+        "end": 24.02,
+        "text": "All right, everyone, say cheese.",
+        "words": [
+          {
+            "start": 21.58,
+            "end": 21.74,
+            "word": " All",
+            "probability": 0.66964
+          },
+          {
+            "start": 21.74,
+            "end": 21.94,
+            "word": " right,",
+            "probability": 0.99823
+          },
+          {
+            "start": 22.02,
+            "end": 22.44,
+            "word": " everyone,",
+            "probability": 0.99593
+          },
+          {
+            "start": 23.14,
+            "end": 23.48,
+            "word": " say",
+            "probability": 0.98856
+          },
+          {
+            "start": 23.48,
+            "end": 24.02,
+            "word": " cheese.",
+            "probability": 0.8596
+          }
+        ]
+      },
+      {
+        "start": 28.31,
+        "end": 31.29,
+        "text": "I'm just about to take a photo of the girl's team now.",
+        "words": [
+          {
+            "start": 28.31,
+            "end": 28.77,
+            "word": " I'm",
+            "probability": 0.99588
+          },
+          {
+            "start": 28.77,
+            "end": 28.91,
+            "word": " just",
+            "probability": 0.99929
+          },
+          {
+            "start": 28.91,
+            "end": 29.23,
+            "word": " about",
+            "probability": 0.99984
+          },
+          {
+            "start": 29.23,
+            "end": 29.49,
+            "word": " to",
+            "probability": 0.99288
+          },
+          {
+            "start": 29.49,
+            "end": 29.63,
+            "word": " take",
+            "probability": 0.99859
+          },
+          {
+            "start": 29.63,
+            "end": 29.77,
+            "word": " a",
+            "probability": 0.99866
+          },
+          {
+            "start": 29.77,
+            "end": 30.09,
+            "word": " photo",
+            "probability": 0.99653
+          },
+          {
+            "start": 30.09,
+            "end": 30.29,
+            "word": " of",
+            "probability": 0.99738
+          },
+          {
+            "start": 30.29,
+            "end": 30.39,
+            "word": " the",
+            "probability": 0.99828
+          },
+          {
+            "start": 30.39,
+            "end": 30.77,
+            "word": " girl's",
+            "probability": 0.92909
+          },
+          {
+            "start": 30.77,
+            "end": 30.99,
+            "word": " team",
+            "probability": 0.99897
+          },
+          {
+            "start": 30.99,
+            "end": 31.29,
+            "word": " now.",
+            "probability": 0.9847
+          }
+        ]
+      },
+      {
+        "start": 31.29,
+        "end": 35.31,
+        "text": "They're all lined up and ready, smiling for the camera.",
+        "words": [
+          {
+            "start": 31.29,
+            "end": 32.13,
+            "word": " They're",
+            "probability": 0.72489
+          },
+          {
+            "start": 32.13,
+            "end": 32.27,
+            "word": " all",
+            "probability": 0.99551
+          },
+          {
+            "start": 32.27,
+            "end": 32.59,
+            "word": " lined",
+            "probability": 0.99705
+          },
+          {
+            "start": 32.59,
+            "end": 32.87,
+            "word": " up",
+            "probability": 0.99682
+          },
+          {
+            "start": 32.87,
+            "end": 33.03,
+            "word": " and",
+            "probability": 0.97551
+          },
+          {
+            "start": 33.03,
+            "end": 33.41,
+            "word": " ready,",
+            "probability": 0.99413
+          },
+          {
+            "start": 33.95,
+            "end": 34.39,
+            "word": " smiling",
+            "probability": 0.98595
+          },
+          {
+            "start": 34.39,
+            "end": 34.75,
+            "word": " for",
+            "probability": 0.99815
+          },
+          {
+            "start": 34.75,
+            "end": 34.89,
+            "word": " the",
+            "probability": 0.99811
+          },
+          {
+            "start": 34.89,
+            "end": 35.31,
+            "word": " camera.",
+            "probability": 0.99857
+          }
+        ]
+      },
+      {
+        "start": 36.01,
+        "end": 40.39,
+        "text": "I've already taken pictures of the boys earlier, so it's their turn.",
+        "words": [
+          {
+            "start": 36.01,
+            "end": 36.29,
+            "word": " I've",
+            "probability": 0.9949
+          },
+          {
+            "start": 36.29,
+            "end": 36.51,
+            "word": " already",
+            "probability": 0.99909
+          },
+          {
+            "start": 36.51,
+            "end": 36.95,
+            "word": " taken",
+            "probability": 0.99892
+          },
+          {
+            "start": 36.95,
+            "end": 37.35,
+            "word": " pictures",
+            "probability": 0.99831
+          },
+          {
+            "start": 37.35,
+            "end": 37.61,
+            "word": " of",
+            "probability": 0.99761
+          },
+          {
+            "start": 37.61,
+            "end": 37.75,
+            "word": " the",
+            "probability": 0.99091
+          },
+          {
+            "start": 37.75,
+            "end": 38.07,
+            "word": " boys",
+            "probability": 0.98128
+          },
+          {
+            "start": 38.07,
+            "end": 38.71,
+            "word": " earlier,",
+            "probability": 0.99226
+          },
+          {
+            "start": 39.19,
+            "end": 39.55,
+            "word": " so",
+            "probability": 0.99525
+          },
+          {
+            "start": 39.55,
+            "end": 39.79,
+            "word": " it's",
+            "probability": 0.99394
+          },
+          {
+            "start": 39.79,
+            "end": 39.95,
+            "word": " their",
+            "probability": 0.99543
+          },
+          {
+            "start": 39.95,
+            "end": 40.39,
+            "word": " turn.",
+            "probability": 0.99936
+          }
+        ]
+      },
+      {
+        "start": 41.11,
+        "end": 43.73,
+        "text": "The coaches will have their photo taken after this.",
+        "words": [
+          {
+            "start": 41.11,
+            "end": 41.19,
+            "word": " The",
+            "probability": 0.99041
+          },
+          {
+            "start": 41.19,
+            "end": 41.53,
+            "word": " coaches",
+            "probability": 0.99769
+          },
+          {
+            "start": 41.53,
+            "end": 41.77,
+            "word": " will",
+            "probability": 0.99878
+          },
+          {
+            "start": 41.77,
+            "end": 41.95,
+            "word": " have",
+            "probability": 0.99916
+          },
+          {
+            "start": 41.95,
+            "end": 42.17,
+            "word": " their",
+            "probability": 0.99732
+          },
+          {
+            "start": 42.17,
+            "end": 42.53,
+            "word": " photo",
+            "probability": 0.98737
+          },
+          {
+            "start": 42.53,
+            "end": 42.95,
+            "word": " taken",
+            "probability": 0.9997
+          },
+          {
+            "start": 42.95,
+            "end": 43.43,
+            "word": " after",
+            "probability": 0.99495
+          },
+          {
+            "start": 43.43,
+            "end": 43.73,
+            "word": " this.",
+            "probability": 0.99771
+          }
+        ]
+      },
+      {
+        "start": 44.19,
+        "end": 48.23,
+        "text": "The girls are excited because this picture will be in the school magazine.",
+        "words": [
+          {
+            "start": 44.19,
+            "end": 44.29,
+            "word": " The",
+            "probability": 0.9941
+          },
+          {
+            "start": 44.29,
+            "end": 44.57,
+            "word": " girls",
+            "probability": 0.99511
+          },
+          {
+            "start": 44.57,
+            "end": 44.79,
+            "word": " are",
+            "probability": 0.99919
+          },
+          {
+            "start": 44.79,
+            "end": 45.35,
+            "word": " excited",
+            "probability": 0.99849
+          },
+          {
+            "start": 45.35,
+            "end": 45.77,
+            "word": " because",
+            "probability": 0.95911
+          },
+          {
+            "start": 45.77,
+            "end": 46.17,
+            "word": " this",
+            "probability": 0.99676
+          },
+          {
+            "start": 46.17,
+            "end": 46.77,
+            "word": " picture",
+            "probability": 0.99741
+          },
+          {
+            "start": 46.77,
+            "end": 46.99,
+            "word": " will",
+            "probability": 0.99649
+          },
+          {
+            "start": 46.99,
+            "end": 47.19,
+            "word": " be",
+            "probability": 0.99837
+          },
+          {
+            "start": 47.19,
+            "end": 47.31,
+            "word": " in",
+            "probability": 0.99857
+          },
+          {
+            "start": 47.31,
+            "end": 47.39,
+            "word": " the",
+            "probability": 0.98896
+          },
+          {
+            "start": 47.39,
+            "end": 47.67,
+            "word": " school",
+            "probability": 0.79386
+          },
+          {
+            "start": 47.67,
+            "end": 48.23,
+            "word": " magazine.",
+            "probability": 0.99114
+          }
+        ]
+      },
+      {
+        "start": 49.01,
+        "end": 51.55,
+        "text": "All right everyone, say cheese.",
+        "words": [
+          {
+            "start": 49.01,
+            "end": 49.29,
+            "word": " All",
+            "probability": 0.67649
+          },
+          {
+            "start": 49.29,
+            "end": 49.47,
+            "word": " right",
+            "probability": 0.99687
+          },
+          {
+            "start": 49.47,
+            "end": 49.97,
+            "word": " everyone,",
+            "probability": 0.38662
+          },
+          {
+            "start": 50.77,
+            "end": 51.03,
+            "word": " say",
+            "probability": 0.98273
+          },
+          {
+            "start": 51.03,
+            "end": 51.55,
+            "word": " cheese.",
+            "probability": 0.84936
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q05",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 61,
+            "speechStart": 0.82,
+            "speechEnd": 24.02,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i'm just about to take a photo of the girl's team now they're all lined up and ready smiling for the camera i've already taken pictures of the boys earlier so it's their turn the coaches will have their photo taken after this the girls are excited because this picture will be in the school magazine all right everyone say cheese",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 61,
+            "wordEndIndexExclusive": 122,
+            "speechStart": 28.31,
+            "speechEnd": 51.55,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i'm just about to take a photo of the girl's team now they're all lined up and ready smiling for the camera i've already taken pictures of the boys earlier so it's their turn the coaches will have their photo taken after this the girls are excited because this picture will be in the school magazine all right everyone say cheese",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

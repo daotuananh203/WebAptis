@@ -15,7 +15,9 @@
     "isComplete": true,
     "audioStatus": "available",
     "description": "Comprehensive multi-skill Aptis ESOL General B2 practice test (aptis-b2-15) covering all 5 components: Grammar & Vocabulary, Reading, Listening, Writing, and Speaking.",
-    "totalTimeMinutes": 162
+    "totalTimeMinutes": 162,
+    "listeningContractVersion": 1,
+    "listeningAudioCacheVersion": "20260826-contract-v1"
   },
   "grammarVocabulary": {
     "officialDurationMinutes": 25,
@@ -904,7 +906,7 @@
         "audio": {
           "type": "audio/mp3",
           "url": "/audio/listening/aptis-b2-15.mp3",
-          "status": "available"
+          "status": "VERIFIED"
         },
         "playbackRules": {
           "maxPlays": 2
@@ -925,22 +927,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q01.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 48.91,
-              "end": 61.95,
-              "duration": 13.04,
+              "duration": 24.19,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 9.02,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "a9e13d525136fe8ff67c516a531e60aa5f0b688dc3ad9c00cc29a645a9de4359",
+                "audioSha256": "dece9644237911556c50346dec0765a06f086e429d1b1267952f836cf1d92d98",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q01.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (48.9s - 62.0s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "dece9644237911556c50346dec0765a06f086e429d1b1267952f836cf1d92d98",
+              "sourceClips": [
+                {
+                  "start": 41.29,
+                  "end": 65.45
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -962,22 +971,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q02.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 61.95,
-              "end": 135.36,
-              "duration": 73.4,
+              "duration": 22.2,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 69.38,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "f0df0ce57c713570dafa321d2879ce7a548008c038d2042d3cc7e8d908fdd349",
+                "audioSha256": "fcef7aea8cf29d6828f023c484bb11221df1156543c30ef220dc9680097f8c67",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q02.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (62.0s - 135.4s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "fcef7aea8cf29d6828f023c484bb11221df1156543c30ef220dc9680097f8c67",
+              "sourceClips": [
+                {
+                  "start": 77.15,
+                  "end": 99.31
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -999,22 +1015,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q03.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 135.36,
-              "end": 167.49,
-              "duration": 32.13,
+              "duration": 48.67,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 28.11,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "b494806265f7232cbfcc9f51db0e369f2f657188c23840b5ca916b7e51f26537",
+                "audioSha256": "3747a9f2f7264f2f8a2b79aff7f25eb3802942788cf960332f8582ffc437dbb1",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q03.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (135.4s - 167.5s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "3747a9f2f7264f2f8a2b79aff7f25eb3802942788cf960332f8582ffc437dbb1",
+              "sourceClips": [
+                {
+                  "start": 107.96,
+                  "end": 156.59
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1036,22 +1059,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q04.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 167.49,
-              "end": 217.19,
-              "duration": 49.71,
+              "duration": 49.35,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 45.69,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "0602fd27028915ec370871f0508d3c901656550e320f8ed1f37b92d0ed807fb7",
+                "audioSha256": "39906a0031c211a9e77e056528ca19ddcc1fbab734177c5111982054a86765c6",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q04.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (167.5s - 217.2s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "39906a0031c211a9e77e056528ca19ddcc1fbab734177c5111982054a86765c6",
+              "sourceClips": [
+                {
+                  "start": 161.88,
+                  "end": 211.19
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1073,22 +1103,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q05.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 217.19,
-              "end": 317.51,
-              "duration": 100.31,
+              "duration": 53.21,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 96.29,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "8298018ddc0b2b87e64c1a3f5ea564b1639b3afb8a79af648c486922b10bfad2",
+                "audioSha256": "50de31b865d2c8cf882605076b5ab3e61f71644df82e3265bd645730b460923e",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q05.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (217.2s - 317.5s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "50de31b865d2c8cf882605076b5ab3e61f71644df82e3265bd645730b460923e",
+              "sourceClips": [
+                {
+                  "start": 216.5,
+                  "end": 269.68
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1110,22 +1147,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q06.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 317.51,
-              "end": 345.89,
-              "duration": 28.4,
+              "duration": 50.02,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 24.38,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "660075f4d90b73cfc9fc0cee262d865c05ee01e0aa8e54f7648163f871853ef3",
+                "audioSha256": "2657fb54b6a827d9056236cf4704a7753319f164d89a9324035ce45a6993a71b",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q06.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (317.5s - 345.9s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "2657fb54b6a827d9056236cf4704a7753319f164d89a9324035ce45a6993a71b",
+              "sourceClips": [
+                {
+                  "start": 275.76,
+                  "end": 325.75
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1147,22 +1191,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q07.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 345.89,
-              "end": 409.62,
-              "duration": 63.71,
+              "duration": 47.2,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 59.69,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "1b9e632a2537e5fb261fe127837465091e61c78983030db1f1ed47e909dc5419",
+                "audioSha256": "ec9255a636ddbf3318189bbbd3b27761349f5164b6d854052ab93f99212c7095",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q07.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (345.9s - 409.6s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "ec9255a636ddbf3318189bbbd3b27761349f5164b6d854052ab93f99212c7095",
+              "sourceClips": [
+                {
+                  "start": 331.0,
+                  "end": 378.16
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1184,22 +1235,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q08.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 409.62,
-              "end": 446.96,
-              "duration": 37.36,
+              "duration": 45.56,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 33.34,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "e8fe7134480bc4e45f9ef6f0bd8b01a1b4b63c064278ffb6b1e6b28b9e5b61fc",
+                "audioSha256": "5f6eccd689fe66e28828320d8cbc37ae58b163ee1d28db0754d88c3a1632c443",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q08.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (409.6s - 447.0s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "5f6eccd689fe66e28828320d8cbc37ae58b163ee1d28db0754d88c3a1632c443",
+              "sourceClips": [
+                {
+                  "start": 383.54,
+                  "end": 429.06
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1221,22 +1279,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q09.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 446.96,
-              "end": 475.0,
-              "duration": 28.03,
+              "duration": 44.25,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 24.01,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "16c500425305062c3765d57f595cd8524bd7a4be46d1a43dfb02f83a14081c85",
+                "audioSha256": "711e8d183079ff8b0cdc84b17dbc7e646a117d1b0261603333fcdf603ab88bb4",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q09.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (447.0s - 475.0s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "711e8d183079ff8b0cdc84b17dbc7e646a117d1b0261603333fcdf603ab88bb4",
+              "sourceClips": [
+                {
+                  "start": 433.79,
+                  "end": 478.01
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1258,22 +1323,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q10.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 475.0,
-              "end": 555.16,
-              "duration": 80.17,
+              "duration": 56.84,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 76.15,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "839c20607708d181831a8da502a7dd7cd9e390fa4814bad1aaedd30f50334ffa",
+                "audioSha256": "2b364cdcb1140c07677cc0bc0c865470d545ea9c8555d581311b01e639758f3a",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q10.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (475.0s - 555.2s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "2b364cdcb1140c07677cc0bc0c865470d545ea9c8555d581311b01e639758f3a",
+              "sourceClips": [
+                {
+                  "start": 489.0,
+                  "end": 545.81
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1295,22 +1367,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q11.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 555.16,
-              "end": 622.66,
-              "duration": 67.5,
+              "duration": 57.55,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 63.48,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "a89813232dcb416006cce1226aa0cb6b074fa75a88c8353a3da9eba00d531a74",
+                "audioSha256": "032427f3926d53fb1ce726a4f9110006a12d58ac3736561877258f3b4f314b78",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q11.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (555.2s - 622.7s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "032427f3926d53fb1ce726a4f9110006a12d58ac3736561877258f3b4f314b78",
+              "sourceClips": [
+                {
+                  "start": 554.43,
+                  "end": 611.94
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1332,22 +1411,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q12.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 622.66,
-              "end": 647.19,
-              "duration": 24.53,
+              "duration": 21.19,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 20.51,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "1dced7a7191f193473c101b7ecc4e9afcc2721c3cfeba5dea59b69a2ca4a4c97",
+                "audioSha256": "654ce4532729ba86ffc3e9571df3030d0d8c1a7a6813c30c02859ea2d5e502a4",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q12.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (622.7s - 647.2s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "654ce4532729ba86ffc3e9571df3030d0d8c1a7a6813c30c02859ea2d5e502a4",
+              "sourceClips": [
+                {
+                  "start": 613.23,
+                  "end": 634.37
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1369,22 +1455,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-1/q13.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "start": 647.19,
-              "end": 1388.2,
-              "duration": 741.02,
+              "duration": 22.33,
               "verification": {
-                "preRollSeconds": 2.01,
-                "postRollSeconds": 2.01,
-                "speechDuration": 737.0,
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "a3bedea158ffffc51c95886f80732703e26beef4418cbb6cf21ed0e19ea47156",
+                "audioSha256": "59653d52a22a9f30c373b6d4999b5a571e11afc760efa34598d5fe0aaa74380d",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p1-q13.json",
+                "fullTaskContentPresent": true,
                 "openingMatched": true,
-                "middleContextMatched": true,
-                "answerEvidenceMatched": true,
                 "endingMatched": true,
-                "contextSufficient": true,
-                "noCrossContamination": true,
-                "evidence": "Word-level alignment verified (647.2s - 1388.2s)",
-                "recordingBoundaryVerified": true
-              }
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "sha256": "59653d52a22a9f30c373b6d4999b5a571e11afc760efa34598d5fe0aaa74380d",
+              "sourceClips": [
+                {
+                  "start": 637.74,
+                  "end": 660.04
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "playbackRules": {
               "maxPlays": 2
@@ -1404,8 +1497,41 @@
           "mappingType": "SHARED_TASK",
           "url": "/audio/listening/segments/aptis-b2-15/part-2/task-all.mp3",
           "status": "VERIFIED",
-          "start": 1388.7,
-          "end": 1740.7
+          "audioSegmentStatus": "VERIFIED",
+          "duration": 144.33,
+          "sha256": "9df068a72fbe337a5e79d9fb1804815767effecc24146a807358fdecdc4e943f",
+          "sourceClips": [
+            {
+              "start": 665.82,
+              "end": 693.89
+            },
+            {
+              "start": 693.89,
+              "end": 722.03
+            },
+            {
+              "start": 722.22,
+              "end": 785.71
+            },
+            {
+              "start": 788.03,
+              "end": 812.61
+            }
+          ],
+          "cacheVersion": "20260826-contract-v1",
+          "verification": {
+            "contractVersion": 1,
+            "sourceTranscriptSha256": null,
+            "audioSha256": "9df068a72fbe337a5e79d9fb1804815767effecc24146a807358fdecdc4e943f",
+            "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p2-task-all.json",
+            "fullTaskContentPresent": true,
+            "openingMatched": true,
+            "endingMatched": true,
+            "noPreviousTaskContamination": true,
+            "noNextTaskContamination": true,
+            "recordingBoundaryVerified": true,
+            "discardedIncompleteSourceRenditions": 0
+          }
         },
         "playbackRules": {
           "maxPlays": 2
@@ -1420,10 +1546,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-2/spk-a.mp3",
               "status": "VERIFIED",
               "verification": {
-                "evidence": "Speaker A segment verified",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true
-              }
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "a3d73ab3f19bbf814fc049b0e6b18bff72bb4869508003e251e346d4e43af3d6",
+                "audioSha256": "64390dccaa9de832a5640bc4ee6b38d96badbc8230a25feb36a90a43f7e56f2a",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p2-spk-a.json",
+                "fullTaskContentPresent": true,
+                "openingMatched": true,
+                "endingMatched": true,
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 28.11,
+              "sha256": "64390dccaa9de832a5640bc4ee6b38d96badbc8230a25feb36a90a43f7e56f2a",
+              "sourceClips": [
+                {
+                  "start": 665.82,
+                  "end": 693.89
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             }
           },
           {
@@ -1435,10 +1580,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-2/spk-b.mp3",
               "status": "VERIFIED",
               "verification": {
-                "evidence": "Speaker B segment verified",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true
-              }
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "c38930c172a606792e2654508ad402963db6cb976785377a209685803111f87c",
+                "audioSha256": "a5cb00df122f5fc8ecf35677619430749a035efae69e42eaf1608567ffc619dc",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p2-spk-b.json",
+                "fullTaskContentPresent": true,
+                "openingMatched": true,
+                "endingMatched": true,
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 28.19,
+              "sha256": "a5cb00df122f5fc8ecf35677619430749a035efae69e42eaf1608567ffc619dc",
+              "sourceClips": [
+                {
+                  "start": 693.89,
+                  "end": 722.03
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             }
           },
           {
@@ -1450,10 +1614,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-2/spk-c.mp3",
               "status": "VERIFIED",
               "verification": {
-                "evidence": "Speaker C segment verified",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true
-              }
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "8d3236f55871863a559520d22201fa5b7aa85d27933dfef45ab47aeac31b80b7",
+                "audioSha256": "52a8d6bfb71d6e8acf3d67ce15ff4f569feb3bd95e548faefe053925e0e77cf8",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p2-spk-c.json",
+                "fullTaskContentPresent": true,
+                "openingMatched": true,
+                "endingMatched": true,
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 63.53,
+              "sha256": "52a8d6bfb71d6e8acf3d67ce15ff4f569feb3bd95e548faefe053925e0e77cf8",
+              "sourceClips": [
+                {
+                  "start": 722.22,
+                  "end": 785.71
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             }
           },
           {
@@ -1465,10 +1648,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-2/spk-d.mp3",
               "status": "VERIFIED",
               "verification": {
-                "evidence": "Speaker D segment verified",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true
-              }
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "98194a5bd48e5c9fab2d756d53da965bbc8cd213659c7757b67a4b011ec80a17",
+                "audioSha256": "17785f541704aedc9edc131fae5a1cd368dda0cffc572f4f89dacc6237f2dfd3",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p2-spk-d.json",
+                "fullTaskContentPresent": true,
+                "openingMatched": true,
+                "endingMatched": true,
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 24.61,
+              "sha256": "17785f541704aedc9edc131fae5a1cd368dda0cffc572f4f89dacc6237f2dfd3",
+              "sourceClips": [
+                {
+                  "start": 788.03,
+                  "end": 812.61
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             }
           }
         ],
@@ -1502,8 +1704,30 @@
           "mappingType": "SHARED_TASK",
           "url": "/audio/listening/segments/aptis-b2-15/part-3/task-all.mp3",
           "status": "VERIFIED",
-          "start": 1740.7,
-          "end": 2042.3
+          "audioSegmentStatus": "VERIFIED",
+          "duration": 142.71,
+          "sha256": "51c1cb129a7ae9d347ffe698a2156e6de5c24f4b43c84cbc9964e1830aac0f0c",
+          "sourceClips": [
+            {
+              "start": 820.68,
+              "end": 963.34
+            }
+          ],
+          "cacheVersion": "20260826-contract-v1",
+          "verification": {
+            "contractVersion": 1,
+            "sourceTranscriptSha256": "0c01109468189554c236a30ba259f82ebbe6bfd9528a38b40045d5563de4b959",
+            "audioSha256": "51c1cb129a7ae9d347ffe698a2156e6de5c24f4b43c84cbc9964e1830aac0f0c",
+            "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p3-task-all.json",
+            "fullTaskContentPresent": true,
+            "openingMatched": true,
+            "endingMatched": true,
+            "noPreviousTaskContamination": true,
+            "noNextTaskContamination": true,
+            "recordingBoundaryVerified": true,
+            "discardedIncompleteSourceRenditions": 0,
+            "sourceMasterTestId": "aptis-b2-15"
+          }
         },
         "playbackRules": {
           "maxPlays": 2
@@ -1522,10 +1746,29 @@
               "mappingType": "SHARED_TASK",
               "url": "/audio/listening/segments/aptis-b2-15/part-3/task-all.mp3",
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 142.71,
+              "sha256": "51c1cb129a7ae9d347ffe698a2156e6de5c24f4b43c84cbc9964e1830aac0f0c",
+              "sourceClips": [
+                {
+                  "start": 820.68,
+                  "end": 963.34
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1",
               "verification": {
-                "evidence": "Discussion segment verified",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "0c01109468189554c236a30ba259f82ebbe6bfd9528a38b40045d5563de4b959",
+                "audioSha256": "51c1cb129a7ae9d347ffe698a2156e6de5c24f4b43c84cbc9964e1830aac0f0c",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p3-task-all.json",
+                "fullTaskContentPresent": true,
+                "openingMatched": true,
+                "endingMatched": true,
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
               }
             }
           },
@@ -1542,10 +1785,29 @@
               "mappingType": "SHARED_TASK",
               "url": "/audio/listening/segments/aptis-b2-15/part-3/task-all.mp3",
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 142.71,
+              "sha256": "51c1cb129a7ae9d347ffe698a2156e6de5c24f4b43c84cbc9964e1830aac0f0c",
+              "sourceClips": [
+                {
+                  "start": 820.68,
+                  "end": 963.34
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1",
               "verification": {
-                "evidence": "Discussion segment verified",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "0c01109468189554c236a30ba259f82ebbe6bfd9528a38b40045d5563de4b959",
+                "audioSha256": "51c1cb129a7ae9d347ffe698a2156e6de5c24f4b43c84cbc9964e1830aac0f0c",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p3-task-all.json",
+                "fullTaskContentPresent": true,
+                "openingMatched": true,
+                "endingMatched": true,
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
               }
             }
           },
@@ -1562,10 +1824,29 @@
               "mappingType": "SHARED_TASK",
               "url": "/audio/listening/segments/aptis-b2-15/part-3/task-all.mp3",
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 142.71,
+              "sha256": "51c1cb129a7ae9d347ffe698a2156e6de5c24f4b43c84cbc9964e1830aac0f0c",
+              "sourceClips": [
+                {
+                  "start": 820.68,
+                  "end": 963.34
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1",
               "verification": {
-                "evidence": "Discussion segment verified",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "0c01109468189554c236a30ba259f82ebbe6bfd9528a38b40045d5563de4b959",
+                "audioSha256": "51c1cb129a7ae9d347ffe698a2156e6de5c24f4b43c84cbc9964e1830aac0f0c",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p3-task-all.json",
+                "fullTaskContentPresent": true,
+                "openingMatched": true,
+                "endingMatched": true,
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
               }
             }
           },
@@ -1582,10 +1863,29 @@
               "mappingType": "SHARED_TASK",
               "url": "/audio/listening/segments/aptis-b2-15/part-3/task-all.mp3",
               "status": "VERIFIED",
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 142.71,
+              "sha256": "51c1cb129a7ae9d347ffe698a2156e6de5c24f4b43c84cbc9964e1830aac0f0c",
+              "sourceClips": [
+                {
+                  "start": 820.68,
+                  "end": 963.34
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1",
               "verification": {
-                "evidence": "Discussion segment verified",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "0c01109468189554c236a30ba259f82ebbe6bfd9528a38b40045d5563de4b959",
+                "audioSha256": "51c1cb129a7ae9d347ffe698a2156e6de5c24f4b43c84cbc9964e1830aac0f0c",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p3-task-all.json",
+                "fullTaskContentPresent": true,
+                "openingMatched": true,
+                "endingMatched": true,
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
               }
             }
           }
@@ -1601,8 +1901,33 @@
           "mappingType": "SHARED_TASK",
           "url": "/audio/listening/segments/aptis-b2-15/part-4/task-all.mp3",
           "status": "VERIFIED",
-          "start": 2042.3,
-          "end": 2394.3
+          "audioSegmentStatus": "VERIFIED",
+          "duration": 116.24,
+          "sha256": "a6bcebb7cfac05417d87807de0257380630a2be6365c0d643a54104c13fbcb3a",
+          "sourceClips": [
+            {
+              "start": 963.34,
+              "end": 1024.95
+            },
+            {
+              "start": 1028.31,
+              "end": 1082.91
+            }
+          ],
+          "cacheVersion": "20260826-contract-v1",
+          "verification": {
+            "contractVersion": 1,
+            "sourceTranscriptSha256": null,
+            "audioSha256": "a6bcebb7cfac05417d87807de0257380630a2be6365c0d643a54104c13fbcb3a",
+            "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p4-task-all.json",
+            "fullTaskContentPresent": true,
+            "openingMatched": true,
+            "endingMatched": true,
+            "noPreviousTaskContamination": true,
+            "noNextTaskContamination": true,
+            "recordingBoundaryVerified": true,
+            "discardedIncompleteSourceRenditions": 0
+          }
         },
         "playbackRules": {
           "maxPlays": 2
@@ -1617,10 +1942,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-4/mono1.mp3",
               "status": "VERIFIED",
               "verification": {
-                "evidence": "Monologue 1 segment verified",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true
-              }
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "ddd80ee6c5ffc937faacc48a032f84ae2b6a0772553a4a64a5964a911dff9592",
+                "audioSha256": "39ceacad1da945cfdf7b884bf197fa1d43ebebb7d52cfaa986c5b3d487d98e66",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p4-mono1.json",
+                "fullTaskContentPresent": true,
+                "openingMatched": true,
+                "endingMatched": true,
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 61.65,
+              "sha256": "39ceacad1da945cfdf7b884bf197fa1d43ebebb7d52cfaa986c5b3d487d98e66",
+              "sourceClips": [
+                {
+                  "start": 963.34,
+                  "end": 1024.95
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "questions": [
               {
@@ -1654,10 +1998,29 @@
               "url": "/audio/listening/segments/aptis-b2-15/part-4/mono2.mp3",
               "status": "VERIFIED",
               "verification": {
-                "evidence": "Monologue 2 segment verified",
-                "contextSufficient": true,
-                "recordingBoundaryVerified": true
-              }
+                "contractVersion": 1,
+                "sourceTranscriptSha256": "f7f4267fd41f77430fd75ca54190185d89c1f8151ea735772e8504c19f2207a8",
+                "audioSha256": "5169cb1a3abb1b22a2660d23d8e88e95e532819085b79af9cf040ff7764990f7",
+                "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-15/p4-mono2.json",
+                "fullTaskContentPresent": true,
+                "openingMatched": true,
+                "endingMatched": true,
+                "noPreviousTaskContamination": true,
+                "noNextTaskContamination": true,
+                "recordingBoundaryVerified": true,
+                "discardedIncompleteSourceRenditions": 0,
+                "sourceMasterTestId": "aptis-b2-15"
+              },
+              "audioSegmentStatus": "VERIFIED",
+              "duration": 54.65,
+              "sha256": "5169cb1a3abb1b22a2660d23d8e88e95e532819085b79af9cf040ff7764990f7",
+              "sourceClips": [
+                {
+                  "start": 1028.31,
+                  "end": 1082.91
+                }
+              ],
+              "cacheVersion": "20260826-contract-v1"
             },
             "questions": [
               {

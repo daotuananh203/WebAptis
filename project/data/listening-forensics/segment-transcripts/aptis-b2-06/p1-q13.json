@@ -1,0 +1,534 @@
+{
+  "testId": "aptis-b2-06",
+  "blockId": "p1-q13",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-06/part-1/q13.mp3",
+  "audioSha256": "3d6b87897742fa0453920e845f4ddec9613e12f9cc629a69a3d72ae9503b5da9",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 4.27,
+        "text": "Hi, I'm Alex and I want to tell you about my cat, Whiskers.",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.25,
+            "word": " Hi,",
+            "probability": 0.85776
+          },
+          {
+            "start": 1.39,
+            "end": 1.61,
+            "word": " I'm",
+            "probability": 0.98133
+          },
+          {
+            "start": 1.61,
+            "end": 1.81,
+            "word": " Alex",
+            "probability": 0.97057
+          },
+          {
+            "start": 1.81,
+            "end": 2.29,
+            "word": " and",
+            "probability": 0.57247
+          },
+          {
+            "start": 2.29,
+            "end": 2.37,
+            "word": " I",
+            "probability": 0.9871
+          },
+          {
+            "start": 2.37,
+            "end": 2.51,
+            "word": " want",
+            "probability": 0.80967
+          },
+          {
+            "start": 2.51,
+            "end": 2.59,
+            "word": " to",
+            "probability": 0.99536
+          },
+          {
+            "start": 2.59,
+            "end": 2.75,
+            "word": " tell",
+            "probability": 0.98099
+          },
+          {
+            "start": 2.75,
+            "end": 2.89,
+            "word": " you",
+            "probability": 0.99259
+          },
+          {
+            "start": 2.89,
+            "end": 3.05,
+            "word": " about",
+            "probability": 0.99609
+          },
+          {
+            "start": 3.05,
+            "end": 3.25,
+            "word": " my",
+            "probability": 0.99298
+          },
+          {
+            "start": 3.25,
+            "end": 3.53,
+            "word": " cat,",
+            "probability": 0.98096
+          },
+          {
+            "start": 3.93,
+            "end": 4.27,
+            "word": " Whiskers.",
+            "probability": 0.78152
+          }
+        ]
+      },
+      {
+        "start": 4.93,
+        "end": 6.73,
+        "text": "He's really friendly and loves to play.",
+        "words": [
+          {
+            "start": 4.93,
+            "end": 5.27,
+            "word": " He's",
+            "probability": 0.98245
+          },
+          {
+            "start": 5.27,
+            "end": 5.49,
+            "word": " really",
+            "probability": 0.99603
+          },
+          {
+            "start": 5.49,
+            "end": 5.85,
+            "word": " friendly",
+            "probability": 0.9976
+          },
+          {
+            "start": 5.85,
+            "end": 6.07,
+            "word": " and",
+            "probability": 0.98877
+          },
+          {
+            "start": 6.07,
+            "end": 6.25,
+            "word": " loves",
+            "probability": 0.99339
+          },
+          {
+            "start": 6.25,
+            "end": 6.47,
+            "word": " to",
+            "probability": 0.99792
+          },
+          {
+            "start": 6.47,
+            "end": 6.73,
+            "word": " play.",
+            "probability": 0.99925
+          }
+        ]
+      },
+      {
+        "start": 7.43,
+        "end": 9.19,
+        "text": "Whiskers is a bit picky about food though.",
+        "words": [
+          {
+            "start": 7.43,
+            "end": 7.77,
+            "word": " Whiskers",
+            "probability": 0.9894
+          },
+          {
+            "start": 7.77,
+            "end": 7.89,
+            "word": " is",
+            "probability": 0.99613
+          },
+          {
+            "start": 7.89,
+            "end": 8.01,
+            "word": " a",
+            "probability": 0.99366
+          },
+          {
+            "start": 8.01,
+            "end": 8.13,
+            "word": " bit",
+            "probability": 0.99412
+          },
+          {
+            "start": 8.13,
+            "end": 8.41,
+            "word": " picky",
+            "probability": 0.99495
+          },
+          {
+            "start": 8.41,
+            "end": 8.65,
+            "word": " about",
+            "probability": 0.9982
+          },
+          {
+            "start": 8.65,
+            "end": 8.95,
+            "word": " food",
+            "probability": 0.99539
+          },
+          {
+            "start": 8.95,
+            "end": 9.19,
+            "word": " though.",
+            "probability": 0.63037
+          }
+        ]
+      },
+      {
+        "start": 9.69,
+        "end": 12.63,
+        "text": "He doesn't like eating mice or insects, which is funny for a cat.",
+        "words": [
+          {
+            "start": 9.69,
+            "end": 9.81,
+            "word": " He",
+            "probability": 0.9972
+          },
+          {
+            "start": 9.81,
+            "end": 10.07,
+            "word": " doesn't",
+            "probability": 0.91448
+          },
+          {
+            "start": 10.07,
+            "end": 10.19,
+            "word": " like",
+            "probability": 0.99888
+          },
+          {
+            "start": 10.19,
+            "end": 10.47,
+            "word": " eating",
+            "probability": 0.99899
+          },
+          {
+            "start": 10.47,
+            "end": 10.71,
+            "word": " mice",
+            "probability": 0.95621
+          },
+          {
+            "start": 10.71,
+            "end": 10.99,
+            "word": " or",
+            "probability": 0.97024
+          },
+          {
+            "start": 10.99,
+            "end": 11.35,
+            "word": " insects,",
+            "probability": 0.99848
+          },
+          {
+            "start": 11.67,
+            "end": 11.77,
+            "word": " which",
+            "probability": 0.99759
+          },
+          {
+            "start": 11.77,
+            "end": 11.89,
+            "word": " is",
+            "probability": 0.99688
+          },
+          {
+            "start": 11.89,
+            "end": 12.11,
+            "word": " funny",
+            "probability": 0.98605
+          },
+          {
+            "start": 12.11,
+            "end": 12.31,
+            "word": " for",
+            "probability": 0.99609
+          },
+          {
+            "start": 12.31,
+            "end": 12.43,
+            "word": " a",
+            "probability": 0.98652
+          },
+          {
+            "start": 12.43,
+            "end": 12.63,
+            "word": " cat.",
+            "probability": 0.99464
+          }
+        ]
+      },
+      {
+        "start": 13.27,
+        "end": 14.85,
+        "text": "But he absolutely loves fish.",
+        "words": [
+          {
+            "start": 13.27,
+            "end": 13.49,
+            "word": " But",
+            "probability": 0.99076
+          },
+          {
+            "start": 13.49,
+            "end": 13.61,
+            "word": " he",
+            "probability": 0.97508
+          },
+          {
+            "start": 13.61,
+            "end": 14.07,
+            "word": " absolutely",
+            "probability": 0.99247
+          },
+          {
+            "start": 14.07,
+            "end": 14.45,
+            "word": " loves",
+            "probability": 0.99635
+          },
+          {
+            "start": 14.45,
+            "end": 14.85,
+            "word": " fish.",
+            "probability": 0.99725
+          }
+        ]
+      },
+      {
+        "start": 15.39,
+        "end": 17.75,
+        "text": "Every time I give him some, he gets so excited.",
+        "words": [
+          {
+            "start": 15.39,
+            "end": 15.61,
+            "word": " Every",
+            "probability": 0.99339
+          },
+          {
+            "start": 15.61,
+            "end": 15.79,
+            "word": " time",
+            "probability": 0.98967
+          },
+          {
+            "start": 15.79,
+            "end": 15.93,
+            "word": " I",
+            "probability": 0.99747
+          },
+          {
+            "start": 15.93,
+            "end": 16.07,
+            "word": " give",
+            "probability": 0.99738
+          },
+          {
+            "start": 16.07,
+            "end": 16.21,
+            "word": " him",
+            "probability": 0.98575
+          },
+          {
+            "start": 16.21,
+            "end": 16.43,
+            "word": " some,",
+            "probability": 0.99137
+          },
+          {
+            "start": 16.77,
+            "end": 16.85,
+            "word": " he",
+            "probability": 0.99736
+          },
+          {
+            "start": 16.85,
+            "end": 16.99,
+            "word": " gets",
+            "probability": 0.99352
+          },
+          {
+            "start": 16.99,
+            "end": 17.27,
+            "word": " so",
+            "probability": 0.99672
+          },
+          {
+            "start": 17.27,
+            "end": 17.75,
+            "word": " excited.",
+            "probability": 0.99836
+          }
+        ]
+      },
+      {
+        "start": 18.37,
+        "end": 21.79,
+        "text": "He also enjoys sleeping by the window and watching the birds outside.",
+        "words": [
+          {
+            "start": 18.37,
+            "end": 18.59,
+            "word": " He",
+            "probability": 0.99686
+          },
+          {
+            "start": 18.59,
+            "end": 18.87,
+            "word": " also",
+            "probability": 0.99249
+          },
+          {
+            "start": 18.87,
+            "end": 19.15,
+            "word": " enjoys",
+            "probability": 0.99523
+          },
+          {
+            "start": 19.15,
+            "end": 19.53,
+            "word": " sleeping",
+            "probability": 0.99361
+          },
+          {
+            "start": 19.53,
+            "end": 19.77,
+            "word": " by",
+            "probability": 0.99177
+          },
+          {
+            "start": 19.77,
+            "end": 19.89,
+            "word": " the",
+            "probability": 0.9986
+          },
+          {
+            "start": 19.89,
+            "end": 20.21,
+            "word": " window",
+            "probability": 0.99959
+          },
+          {
+            "start": 20.21,
+            "end": 20.51,
+            "word": " and",
+            "probability": 0.94458
+          },
+          {
+            "start": 20.51,
+            "end": 20.85,
+            "word": " watching",
+            "probability": 0.99878
+          },
+          {
+            "start": 20.85,
+            "end": 21.01,
+            "word": " the",
+            "probability": 0.99182
+          },
+          {
+            "start": 21.01,
+            "end": 21.21,
+            "word": " birds",
+            "probability": 0.995
+          },
+          {
+            "start": 21.21,
+            "end": 21.79,
+            "word": " outside.",
+            "probability": 0.99578
+          }
+        ]
+      },
+      {
+        "start": 22.53,
+        "end": 23.67,
+        "text": "He's the best pet ever.",
+        "words": [
+          {
+            "start": 22.53,
+            "end": 22.75,
+            "word": " He's",
+            "probability": 0.93467
+          },
+          {
+            "start": 22.75,
+            "end": 22.85,
+            "word": " the",
+            "probability": 0.99793
+          },
+          {
+            "start": 22.85,
+            "end": 23.13,
+            "word": " best",
+            "probability": 0.99472
+          },
+          {
+            "start": 23.13,
+            "end": 23.35,
+            "word": " pet",
+            "probability": 0.99105
+          },
+          {
+            "start": 23.35,
+            "end": 23.67,
+            "word": " ever.",
+            "probability": 0.98897
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q13",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 73,
+            "speechStart": 0.75,
+            "speechEnd": 23.67,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi i'm alex and i want to tell you about my cat whiskers he's really friendly and loves to play whiskers is a bit picky about food though he doesn't like eating mice or insects which is funny for a cat but he absolutely loves fish every time i give him some he gets so excited he also enjoys sleeping by the window and watching the birds outside he's the best pet ever",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

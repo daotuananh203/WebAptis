@@ -1,0 +1,3077 @@
+{
+  "testId": "aptis-b2-01",
+  "blockId": "p4-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-01/part-4/task-all.mp3",
+  "audioSha256": "fe172dbe3e9cf77bf2d460c0380d39e2ef9db5a0202b799f6c348bf8e545f423",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.85,
+        "end": 7.03,
+        "text": "Good evening, everyone. Today, we're excited to talk about the latest novel by popular author James Parker.",
+        "words": [
+          {
+            "start": 0.85,
+            "end": 1.33,
+            "word": " Good",
+            "probability": 0.74897
+          },
+          {
+            "start": 1.33,
+            "end": 1.61,
+            "word": " evening,",
+            "probability": 0.9791
+          },
+          {
+            "start": 1.79,
+            "end": 2.09,
+            "word": " everyone.",
+            "probability": 0.98705
+          },
+          {
+            "start": 2.71,
+            "end": 2.91,
+            "word": " Today,",
+            "probability": 0.99096
+          },
+          {
+            "start": 3.21,
+            "end": 3.37,
+            "word": " we're",
+            "probability": 0.90878
+          },
+          {
+            "start": 3.37,
+            "end": 3.71,
+            "word": " excited",
+            "probability": 0.99624
+          },
+          {
+            "start": 3.71,
+            "end": 3.95,
+            "word": " to",
+            "probability": 0.99752
+          },
+          {
+            "start": 3.95,
+            "end": 4.17,
+            "word": " talk",
+            "probability": 0.99893
+          },
+          {
+            "start": 4.17,
+            "end": 4.39,
+            "word": " about",
+            "probability": 0.99911
+          },
+          {
+            "start": 4.39,
+            "end": 4.55,
+            "word": " the",
+            "probability": 0.93867
+          },
+          {
+            "start": 4.55,
+            "end": 4.79,
+            "word": " latest",
+            "probability": 0.99797
+          },
+          {
+            "start": 4.79,
+            "end": 5.17,
+            "word": " novel",
+            "probability": 0.99917
+          },
+          {
+            "start": 5.17,
+            "end": 5.39,
+            "word": " by",
+            "probability": 0.99002
+          },
+          {
+            "start": 5.39,
+            "end": 5.85,
+            "word": " popular",
+            "probability": 0.89945
+          },
+          {
+            "start": 5.85,
+            "end": 6.29,
+            "word": " author",
+            "probability": 0.99849
+          },
+          {
+            "start": 6.29,
+            "end": 6.69,
+            "word": " James",
+            "probability": 0.86948
+          },
+          {
+            "start": 6.69,
+            "end": 7.03,
+            "word": " Parker.",
+            "probability": 0.98374
+          }
+        ]
+      },
+      {
+        "start": 7.65,
+        "end": 13.83,
+        "text": "He is known for his softer, romantic stories like Whispers of the Heart, which have touched the hearts of many readers.",
+        "words": [
+          {
+            "start": 7.65,
+            "end": 7.91,
+            "word": " He",
+            "probability": 0.98864
+          },
+          {
+            "start": 7.91,
+            "end": 8.03,
+            "word": " is",
+            "probability": 0.99215
+          },
+          {
+            "start": 8.03,
+            "end": 8.21,
+            "word": " known",
+            "probability": 0.99822
+          },
+          {
+            "start": 8.21,
+            "end": 8.45,
+            "word": " for",
+            "probability": 0.99878
+          },
+          {
+            "start": 8.45,
+            "end": 8.59,
+            "word": " his",
+            "probability": 0.99685
+          },
+          {
+            "start": 8.59,
+            "end": 9.05,
+            "word": " softer,",
+            "probability": 0.97857
+          },
+          {
+            "start": 9.43,
+            "end": 9.73,
+            "word": " romantic",
+            "probability": 0.97817
+          },
+          {
+            "start": 9.73,
+            "end": 10.21,
+            "word": " stories",
+            "probability": 0.99677
+          },
+          {
+            "start": 10.21,
+            "end": 10.61,
+            "word": " like",
+            "probability": 0.92189
+          },
+          {
+            "start": 10.61,
+            "end": 10.91,
+            "word": " Whispers",
+            "probability": 0.51686
+          },
+          {
+            "start": 10.91,
+            "end": 11.19,
+            "word": " of",
+            "probability": 0.94017
+          },
+          {
+            "start": 11.19,
+            "end": 11.33,
+            "word": " the",
+            "probability": 0.94311
+          },
+          {
+            "start": 11.33,
+            "end": 11.53,
+            "word": " Heart,",
+            "probability": 0.92549
+          },
+          {
+            "start": 12.07,
+            "end": 12.29,
+            "word": " which",
+            "probability": 0.99811
+          },
+          {
+            "start": 12.29,
+            "end": 12.41,
+            "word": " have",
+            "probability": 0.99465
+          },
+          {
+            "start": 12.41,
+            "end": 12.63,
+            "word": " touched",
+            "probability": 0.99017
+          },
+          {
+            "start": 12.63,
+            "end": 12.85,
+            "word": " the",
+            "probability": 0.99707
+          },
+          {
+            "start": 12.85,
+            "end": 13.07,
+            "word": " hearts",
+            "probability": 0.95691
+          },
+          {
+            "start": 13.07,
+            "end": 13.29,
+            "word": " of",
+            "probability": 0.99831
+          },
+          {
+            "start": 13.29,
+            "end": 13.53,
+            "word": " many",
+            "probability": 0.99895
+          },
+          {
+            "start": 13.53,
+            "end": 13.83,
+            "word": " readers.",
+            "probability": 0.99612
+          }
+        ]
+      },
+      {
+        "start": 14.51,
+        "end": 18.05,
+        "text": "However, his new novel, Shadow in the Night, is quite different.",
+        "words": [
+          {
+            "start": 14.51,
+            "end": 14.81,
+            "word": " However,",
+            "probability": 0.99708
+          },
+          {
+            "start": 15.05,
+            "end": 15.17,
+            "word": " his",
+            "probability": 0.99366
+          },
+          {
+            "start": 15.17,
+            "end": 15.37,
+            "word": " new",
+            "probability": 0.99733
+          },
+          {
+            "start": 15.37,
+            "end": 15.73,
+            "word": " novel,",
+            "probability": 0.99979
+          },
+          {
+            "start": 16.15,
+            "end": 16.37,
+            "word": " Shadow",
+            "probability": 0.68437
+          },
+          {
+            "start": 16.37,
+            "end": 16.55,
+            "word": " in",
+            "probability": 0.82567
+          },
+          {
+            "start": 16.55,
+            "end": 16.67,
+            "word": " the",
+            "probability": 0.97362
+          },
+          {
+            "start": 16.67,
+            "end": 16.85,
+            "word": " Night,",
+            "probability": 0.94814
+          },
+          {
+            "start": 17.19,
+            "end": 17.37,
+            "word": " is",
+            "probability": 0.98591
+          },
+          {
+            "start": 17.37,
+            "end": 17.63,
+            "word": " quite",
+            "probability": 0.99791
+          },
+          {
+            "start": 17.63,
+            "end": 18.05,
+            "word": " different.",
+            "probability": 0.99926
+          }
+        ]
+      },
+      {
+        "start": 18.69,
+        "end": 23.15,
+        "text": "In Shadow in the Night, Parker explores a thrilling world of suspense and mystery.",
+        "words": [
+          {
+            "start": 18.69,
+            "end": 18.93,
+            "word": " In",
+            "probability": 0.93385
+          },
+          {
+            "start": 18.93,
+            "end": 19.21,
+            "word": " Shadow",
+            "probability": 0.97598
+          },
+          {
+            "start": 19.21,
+            "end": 19.43,
+            "word": " in",
+            "probability": 0.93912
+          },
+          {
+            "start": 19.43,
+            "end": 19.55,
+            "word": " the",
+            "probability": 0.99478
+          },
+          {
+            "start": 19.55,
+            "end": 19.75,
+            "word": " Night,",
+            "probability": 0.99443
+          },
+          {
+            "start": 20.25,
+            "end": 20.39,
+            "word": " Parker",
+            "probability": 0.9987
+          },
+          {
+            "start": 20.39,
+            "end": 20.87,
+            "word": " explores",
+            "probability": 0.99249
+          },
+          {
+            "start": 20.87,
+            "end": 21.13,
+            "word": " a",
+            "probability": 0.99792
+          },
+          {
+            "start": 21.13,
+            "end": 21.45,
+            "word": " thrilling",
+            "probability": 0.99829
+          },
+          {
+            "start": 21.45,
+            "end": 21.79,
+            "word": " world",
+            "probability": 0.99768
+          },
+          {
+            "start": 21.79,
+            "end": 21.99,
+            "word": " of",
+            "probability": 0.99961
+          },
+          {
+            "start": 21.99,
+            "end": 22.35,
+            "word": " suspense",
+            "probability": 0.99152
+          },
+          {
+            "start": 22.35,
+            "end": 22.75,
+            "word": " and",
+            "probability": 0.99668
+          },
+          {
+            "start": 22.75,
+            "end": 23.15,
+            "word": " mystery.",
+            "probability": 0.99809
+          }
+        ]
+      },
+      {
+        "start": 23.87,
+        "end": 29.39,
+        "text": "He moves away from his gentle love stories to deliver an exciting plot filled with unexpected twists.",
+        "words": [
+          {
+            "start": 23.87,
+            "end": 24.25,
+            "word": " He",
+            "probability": 0.99576
+          },
+          {
+            "start": 24.25,
+            "end": 24.51,
+            "word": " moves",
+            "probability": 0.99137
+          },
+          {
+            "start": 24.51,
+            "end": 24.81,
+            "word": " away",
+            "probability": 0.99865
+          },
+          {
+            "start": 24.81,
+            "end": 25.03,
+            "word": " from",
+            "probability": 0.99776
+          },
+          {
+            "start": 25.03,
+            "end": 25.21,
+            "word": " his",
+            "probability": 0.99823
+          },
+          {
+            "start": 25.21,
+            "end": 25.61,
+            "word": " gentle",
+            "probability": 0.99478
+          },
+          {
+            "start": 25.61,
+            "end": 25.87,
+            "word": " love",
+            "probability": 0.97609
+          },
+          {
+            "start": 25.87,
+            "end": 26.23,
+            "word": " stories",
+            "probability": 0.97808
+          },
+          {
+            "start": 26.23,
+            "end": 26.47,
+            "word": " to",
+            "probability": 0.9931
+          },
+          {
+            "start": 26.47,
+            "end": 26.77,
+            "word": " deliver",
+            "probability": 0.99909
+          },
+          {
+            "start": 26.77,
+            "end": 26.97,
+            "word": " an",
+            "probability": 0.993
+          },
+          {
+            "start": 26.97,
+            "end": 27.37,
+            "word": " exciting",
+            "probability": 0.998
+          },
+          {
+            "start": 27.37,
+            "end": 27.69,
+            "word": " plot",
+            "probability": 0.9991
+          },
+          {
+            "start": 27.69,
+            "end": 28.01,
+            "word": " filled",
+            "probability": 0.99675
+          },
+          {
+            "start": 28.01,
+            "end": 28.23,
+            "word": " with",
+            "probability": 0.99947
+          },
+          {
+            "start": 28.23,
+            "end": 28.67,
+            "word": " unexpected",
+            "probability": 0.99342
+          },
+          {
+            "start": 28.67,
+            "end": 29.39,
+            "word": " twists.",
+            "probability": 0.99859
+          }
+        ]
+      },
+      {
+        "start": 29.39,
+        "end": 35.39,
+        "text": "The tension in this book is much higher, showing that he can write in different styles.",
+        "words": [
+          {
+            "start": 29.39,
+            "end": 30.03,
+            "word": " The",
+            "probability": 0.12468
+          },
+          {
+            "start": 30.03,
+            "end": 30.35,
+            "word": " tension",
+            "probability": 0.8962
+          },
+          {
+            "start": 30.35,
+            "end": 30.63,
+            "word": " in",
+            "probability": 0.98811
+          },
+          {
+            "start": 30.63,
+            "end": 30.85,
+            "word": " this",
+            "probability": 0.99448
+          },
+          {
+            "start": 30.85,
+            "end": 31.07,
+            "word": " book",
+            "probability": 0.99548
+          },
+          {
+            "start": 31.07,
+            "end": 31.37,
+            "word": " is",
+            "probability": 0.99702
+          },
+          {
+            "start": 31.37,
+            "end": 31.69,
+            "word": " much",
+            "probability": 0.99736
+          },
+          {
+            "start": 31.69,
+            "end": 32.15,
+            "word": " higher,",
+            "probability": 0.9957
+          },
+          {
+            "start": 32.57,
+            "end": 32.95,
+            "word": " showing",
+            "probability": 0.9945
+          },
+          {
+            "start": 32.95,
+            "end": 33.29,
+            "word": " that",
+            "probability": 0.91659
+          },
+          {
+            "start": 33.29,
+            "end": 33.51,
+            "word": " he",
+            "probability": 0.99089
+          },
+          {
+            "start": 33.51,
+            "end": 33.87,
+            "word": " can",
+            "probability": 0.98902
+          },
+          {
+            "start": 33.87,
+            "end": 34.17,
+            "word": " write",
+            "probability": 0.9948
+          },
+          {
+            "start": 34.17,
+            "end": 34.43,
+            "word": " in",
+            "probability": 0.9957
+          },
+          {
+            "start": 34.43,
+            "end": 34.75,
+            "word": " different",
+            "probability": 0.99929
+          },
+          {
+            "start": 34.75,
+            "end": 35.39,
+            "word": " styles.",
+            "probability": 0.99719
+          }
+        ]
+      },
+      {
+        "start": 36.17,
+        "end": 40.45,
+        "text": "While many readers are excited about this new direction, I believe it's important for",
+        "words": [
+          {
+            "start": 36.17,
+            "end": 36.45,
+            "word": " While",
+            "probability": 0.97951
+          },
+          {
+            "start": 36.45,
+            "end": 36.75,
+            "word": " many",
+            "probability": 0.99821
+          },
+          {
+            "start": 36.75,
+            "end": 37.05,
+            "word": " readers",
+            "probability": 0.99219
+          },
+          {
+            "start": 37.05,
+            "end": 37.27,
+            "word": " are",
+            "probability": 0.9988
+          },
+          {
+            "start": 37.27,
+            "end": 37.67,
+            "word": " excited",
+            "probability": 0.9983
+          },
+          {
+            "start": 37.67,
+            "end": 37.93,
+            "word": " about",
+            "probability": 0.99873
+          },
+          {
+            "start": 37.93,
+            "end": 38.17,
+            "word": " this",
+            "probability": 0.99488
+          },
+          {
+            "start": 38.17,
+            "end": 38.33,
+            "word": " new",
+            "probability": 0.98655
+          },
+          {
+            "start": 38.33,
+            "end": 38.75,
+            "word": " direction,",
+            "probability": 0.99799
+          },
+          {
+            "start": 39.25,
+            "end": 39.33,
+            "word": " I",
+            "probability": 0.99788
+          },
+          {
+            "start": 39.33,
+            "end": 39.59,
+            "word": " believe",
+            "probability": 0.99761
+          },
+          {
+            "start": 39.59,
+            "end": 39.87,
+            "word": " it's",
+            "probability": 0.97458
+          },
+          {
+            "start": 39.87,
+            "end": 40.25,
+            "word": " important",
+            "probability": 0.99823
+          },
+          {
+            "start": 40.25,
+            "end": 40.45,
+            "word": " for",
+            "probability": 0.99702
+          }
+        ]
+      },
+      {
+        "start": 40.45,
+        "end": 45.07,
+        "text": "Parker to pay attention to the critics' advice as he works on his next book.",
+        "words": [
+          {
+            "start": 40.45,
+            "end": 40.79,
+            "word": " Parker",
+            "probability": 0.99634
+          },
+          {
+            "start": 40.79,
+            "end": 41.01,
+            "word": " to",
+            "probability": 0.99778
+          },
+          {
+            "start": 41.01,
+            "end": 41.21,
+            "word": " pay",
+            "probability": 0.99785
+          },
+          {
+            "start": 41.21,
+            "end": 41.57,
+            "word": " attention",
+            "probability": 0.99859
+          },
+          {
+            "start": 41.57,
+            "end": 41.89,
+            "word": " to",
+            "probability": 0.99811
+          },
+          {
+            "start": 41.89,
+            "end": 42.03,
+            "word": " the",
+            "probability": 0.98903
+          },
+          {
+            "start": 42.03,
+            "end": 42.43,
+            "word": " critics'",
+            "probability": 0.88066
+          },
+          {
+            "start": 42.65,
+            "end": 42.95,
+            "word": " advice",
+            "probability": 0.99673
+          },
+          {
+            "start": 42.95,
+            "end": 43.67,
+            "word": " as",
+            "probability": 0.73302
+          },
+          {
+            "start": 43.67,
+            "end": 43.85,
+            "word": " he",
+            "probability": 0.99861
+          },
+          {
+            "start": 43.85,
+            "end": 44.07,
+            "word": " works",
+            "probability": 0.99745
+          },
+          {
+            "start": 44.07,
+            "end": 44.31,
+            "word": " on",
+            "probability": 0.99464
+          },
+          {
+            "start": 44.31,
+            "end": 44.47,
+            "word": " his",
+            "probability": 0.9938
+          },
+          {
+            "start": 44.47,
+            "end": 44.69,
+            "word": " next",
+            "probability": 0.99569
+          },
+          {
+            "start": 44.69,
+            "end": 45.07,
+            "word": " book.",
+            "probability": 0.99609
+          }
+        ]
+      },
+      {
+        "start": 45.86,
+        "end": 50.9,
+        "text": "Their feedback can help him improve his writing and find the right balance between romance and",
+        "words": [
+          {
+            "start": 45.86,
+            "end": 46.22,
+            "word": " Their",
+            "probability": 0.96811
+          },
+          {
+            "start": 46.22,
+            "end": 46.66,
+            "word": " feedback",
+            "probability": 0.9883
+          },
+          {
+            "start": 46.66,
+            "end": 47.1,
+            "word": " can",
+            "probability": 0.99808
+          },
+          {
+            "start": 47.1,
+            "end": 47.3,
+            "word": " help",
+            "probability": 0.99907
+          },
+          {
+            "start": 47.3,
+            "end": 47.52,
+            "word": " him",
+            "probability": 0.99617
+          },
+          {
+            "start": 47.52,
+            "end": 47.92,
+            "word": " improve",
+            "probability": 0.99534
+          },
+          {
+            "start": 47.92,
+            "end": 48.18,
+            "word": " his",
+            "probability": 0.99773
+          },
+          {
+            "start": 48.18,
+            "end": 48.46,
+            "word": " writing",
+            "probability": 0.99803
+          },
+          {
+            "start": 48.46,
+            "end": 48.8,
+            "word": " and",
+            "probability": 0.96922
+          },
+          {
+            "start": 48.8,
+            "end": 49.06,
+            "word": " find",
+            "probability": 0.99645
+          },
+          {
+            "start": 49.06,
+            "end": 49.26,
+            "word": " the",
+            "probability": 0.99892
+          },
+          {
+            "start": 49.26,
+            "end": 49.42,
+            "word": " right",
+            "probability": 0.99458
+          },
+          {
+            "start": 49.42,
+            "end": 49.8,
+            "word": " balance",
+            "probability": 0.99966
+          },
+          {
+            "start": 49.8,
+            "end": 50.16,
+            "word": " between",
+            "probability": 0.99921
+          },
+          {
+            "start": 50.16,
+            "end": 50.56,
+            "word": " romance",
+            "probability": 0.95195
+          },
+          {
+            "start": 50.56,
+            "end": 50.9,
+            "word": " and",
+            "probability": 0.99783
+          }
+        ]
+      },
+      {
+        "start": 50.9,
+        "end": 52.62,
+        "text": "thrill that fans appreciate.",
+        "words": [
+          {
+            "start": 50.9,
+            "end": 51.2,
+            "word": " thrill",
+            "probability": 0.99563
+          },
+          {
+            "start": 51.2,
+            "end": 51.7,
+            "word": " that",
+            "probability": 0.99382
+          },
+          {
+            "start": 51.7,
+            "end": 52.0,
+            "word": " fans",
+            "probability": 0.99735
+          },
+          {
+            "start": 52.0,
+            "end": 52.62,
+            "word": " appreciate.",
+            "probability": 0.99752
+          }
+        ]
+      },
+      {
+        "start": 53.26,
+        "end": 55.94,
+        "text": "Stay tuned for more updates on this talented author.",
+        "words": [
+          {
+            "start": 53.26,
+            "end": 53.6,
+            "word": " Stay",
+            "probability": 0.98949
+          },
+          {
+            "start": 53.6,
+            "end": 53.9,
+            "word": " tuned",
+            "probability": 0.99853
+          },
+          {
+            "start": 53.9,
+            "end": 54.06,
+            "word": " for",
+            "probability": 0.99834
+          },
+          {
+            "start": 54.06,
+            "end": 54.26,
+            "word": " more",
+            "probability": 0.99894
+          },
+          {
+            "start": 54.26,
+            "end": 54.64,
+            "word": " updates",
+            "probability": 0.99332
+          },
+          {
+            "start": 54.64,
+            "end": 55.04,
+            "word": " on",
+            "probability": 0.99771
+          },
+          {
+            "start": 55.04,
+            "end": 55.22,
+            "word": " this",
+            "probability": 0.99198
+          },
+          {
+            "start": 55.22,
+            "end": 55.56,
+            "word": " talented",
+            "probability": 0.98571
+          },
+          {
+            "start": 55.56,
+            "end": 55.94,
+            "word": " author.",
+            "probability": 0.99814
+          }
+        ]
+      },
+      {
+        "start": 59.26,
+        "end": 60.26,
+        "text": "Good evening, everyone.",
+        "words": [
+          {
+            "start": 59.26,
+            "end": 59.54,
+            "word": " Good",
+            "probability": 0.98936
+          },
+          {
+            "start": 59.54,
+            "end": 59.8,
+            "word": " evening,",
+            "probability": 0.98488
+          },
+          {
+            "start": 60.0,
+            "end": 60.26,
+            "word": " everyone.",
+            "probability": 0.99419
+          }
+        ]
+      },
+      {
+        "start": 60.26,
+        "end": 65.26,
+        "text": "One. Today, we're excited to talk about the latest novel by popular author James Parker.",
+        "words": [
+          {
+            "start": 60.26,
+            "end": 60.38,
+            "word": " One.",
+            "probability": 0.06012
+          },
+          {
+            "start": 60.88,
+            "end": 61.14,
+            "word": " Today,",
+            "probability": 0.97069
+          },
+          {
+            "start": 61.4,
+            "end": 61.58,
+            "word": " we're",
+            "probability": 0.87264
+          },
+          {
+            "start": 61.58,
+            "end": 61.94,
+            "word": " excited",
+            "probability": 0.99356
+          },
+          {
+            "start": 61.94,
+            "end": 62.18,
+            "word": " to",
+            "probability": 0.99703
+          },
+          {
+            "start": 62.18,
+            "end": 62.38,
+            "word": " talk",
+            "probability": 0.99834
+          },
+          {
+            "start": 62.38,
+            "end": 62.62,
+            "word": " about",
+            "probability": 0.99874
+          },
+          {
+            "start": 62.62,
+            "end": 62.78,
+            "word": " the",
+            "probability": 0.95343
+          },
+          {
+            "start": 62.78,
+            "end": 63.02,
+            "word": " latest",
+            "probability": 0.99651
+          },
+          {
+            "start": 63.02,
+            "end": 63.4,
+            "word": " novel",
+            "probability": 0.99926
+          },
+          {
+            "start": 63.4,
+            "end": 63.62,
+            "word": " by",
+            "probability": 0.98938
+          },
+          {
+            "start": 63.62,
+            "end": 64.06,
+            "word": " popular",
+            "probability": 0.94399
+          },
+          {
+            "start": 64.06,
+            "end": 64.5,
+            "word": " author",
+            "probability": 0.99852
+          },
+          {
+            "start": 64.5,
+            "end": 64.92,
+            "word": " James",
+            "probability": 0.89272
+          },
+          {
+            "start": 64.92,
+            "end": 65.26,
+            "word": " Parker.",
+            "probability": 0.98468
+          }
+        ]
+      },
+      {
+        "start": 65.8,
+        "end": 70.84,
+        "text": "He is known for his softer, romantic stories like Whispers of the Heart, which have touched",
+        "words": [
+          {
+            "start": 65.8,
+            "end": 66.12,
+            "word": " He",
+            "probability": 0.99162
+          },
+          {
+            "start": 66.12,
+            "end": 66.24,
+            "word": " is",
+            "probability": 0.99373
+          },
+          {
+            "start": 66.24,
+            "end": 66.42,
+            "word": " known",
+            "probability": 0.99781
+          },
+          {
+            "start": 66.42,
+            "end": 66.66,
+            "word": " for",
+            "probability": 0.99825
+          },
+          {
+            "start": 66.66,
+            "end": 66.8,
+            "word": " his",
+            "probability": 0.99562
+          },
+          {
+            "start": 66.8,
+            "end": 67.26,
+            "word": " softer,",
+            "probability": 0.9795
+          },
+          {
+            "start": 67.66,
+            "end": 67.96,
+            "word": " romantic",
+            "probability": 0.96927
+          },
+          {
+            "start": 67.96,
+            "end": 68.46,
+            "word": " stories",
+            "probability": 0.99596
+          },
+          {
+            "start": 68.46,
+            "end": 68.84,
+            "word": " like",
+            "probability": 0.90549
+          },
+          {
+            "start": 68.84,
+            "end": 69.14,
+            "word": " Whispers",
+            "probability": 0.47196
+          },
+          {
+            "start": 69.14,
+            "end": 69.4,
+            "word": " of",
+            "probability": 0.95051
+          },
+          {
+            "start": 69.4,
+            "end": 69.54,
+            "word": " the",
+            "probability": 0.92239
+          },
+          {
+            "start": 69.54,
+            "end": 69.74,
+            "word": " Heart,",
+            "probability": 0.93399
+          },
+          {
+            "start": 70.28,
+            "end": 70.52,
+            "word": " which",
+            "probability": 0.99584
+          },
+          {
+            "start": 70.52,
+            "end": 70.62,
+            "word": " have",
+            "probability": 0.99443
+          },
+          {
+            "start": 70.62,
+            "end": 70.84,
+            "word": " touched",
+            "probability": 0.9872
+          }
+        ]
+      },
+      {
+        "start": 70.84,
+        "end": 76.24,
+        "text": "the hearts of many readers. However, his new novel, Shadow in the Night, is quite different.",
+        "words": [
+          {
+            "start": 70.84,
+            "end": 71.08,
+            "word": " the",
+            "probability": 0.99623
+          },
+          {
+            "start": 71.08,
+            "end": 71.28,
+            "word": " hearts",
+            "probability": 0.95077
+          },
+          {
+            "start": 71.28,
+            "end": 71.52,
+            "word": " of",
+            "probability": 0.99731
+          },
+          {
+            "start": 71.52,
+            "end": 71.76,
+            "word": " many",
+            "probability": 0.99883
+          },
+          {
+            "start": 71.76,
+            "end": 72.04,
+            "word": " readers.",
+            "probability": 0.99662
+          },
+          {
+            "start": 72.74,
+            "end": 73.04,
+            "word": " However,",
+            "probability": 0.99604
+          },
+          {
+            "start": 73.28,
+            "end": 73.38,
+            "word": " his",
+            "probability": 0.99447
+          },
+          {
+            "start": 73.38,
+            "end": 73.58,
+            "word": " new",
+            "probability": 0.9974
+          },
+          {
+            "start": 73.58,
+            "end": 73.96,
+            "word": " novel,",
+            "probability": 0.99976
+          },
+          {
+            "start": 74.38,
+            "end": 74.56,
+            "word": " Shadow",
+            "probability": 0.69251
+          },
+          {
+            "start": 74.56,
+            "end": 74.76,
+            "word": " in",
+            "probability": 0.82709
+          },
+          {
+            "start": 74.76,
+            "end": 74.88,
+            "word": " the",
+            "probability": 0.97187
+          },
+          {
+            "start": 74.88,
+            "end": 75.08,
+            "word": " Night,",
+            "probability": 0.94823
+          },
+          {
+            "start": 75.48,
+            "end": 75.6,
+            "word": " is",
+            "probability": 0.98831
+          },
+          {
+            "start": 75.6,
+            "end": 75.84,
+            "word": " quite",
+            "probability": 0.99706
+          },
+          {
+            "start": 75.84,
+            "end": 76.24,
+            "word": " different.",
+            "probability": 0.99866
+          }
+        ]
+      },
+      {
+        "start": 76.9,
+        "end": 82.74,
+        "text": "In Shadow in the Night, Parker explores a thrilling world of suspense and mystery. He moves",
+        "words": [
+          {
+            "start": 76.9,
+            "end": 77.14,
+            "word": " In",
+            "probability": 0.96078
+          },
+          {
+            "start": 77.14,
+            "end": 77.44,
+            "word": " Shadow",
+            "probability": 0.96802
+          },
+          {
+            "start": 77.44,
+            "end": 77.64,
+            "word": " in",
+            "probability": 0.93191
+          },
+          {
+            "start": 77.64,
+            "end": 77.76,
+            "word": " the",
+            "probability": 0.97484
+          },
+          {
+            "start": 77.76,
+            "end": 77.96,
+            "word": " Night,",
+            "probability": 0.99487
+          },
+          {
+            "start": 78.46,
+            "end": 78.62,
+            "word": " Parker",
+            "probability": 0.99919
+          },
+          {
+            "start": 78.62,
+            "end": 79.1,
+            "word": " explores",
+            "probability": 0.99229
+          },
+          {
+            "start": 79.1,
+            "end": 79.34,
+            "word": " a",
+            "probability": 0.99765
+          },
+          {
+            "start": 79.34,
+            "end": 79.66,
+            "word": " thrilling",
+            "probability": 0.99807
+          },
+          {
+            "start": 79.66,
+            "end": 80.02,
+            "word": " world",
+            "probability": 0.99738
+          },
+          {
+            "start": 80.02,
+            "end": 80.2,
+            "word": " of",
+            "probability": 0.99944
+          },
+          {
+            "start": 80.2,
+            "end": 80.56,
+            "word": " suspense",
+            "probability": 0.99213
+          },
+          {
+            "start": 80.56,
+            "end": 80.98,
+            "word": " and",
+            "probability": 0.99602
+          },
+          {
+            "start": 80.98,
+            "end": 81.36,
+            "word": " mystery.",
+            "probability": 0.9984
+          },
+          {
+            "start": 81.98,
+            "end": 82.46,
+            "word": " He",
+            "probability": 0.99451
+          },
+          {
+            "start": 82.46,
+            "end": 82.74,
+            "word": " moves",
+            "probability": 0.99134
+          }
+        ]
+      },
+      {
+        "start": 82.74,
+        "end": 87.6,
+        "text": "away from his gentle love stories to deliver an exciting plot filled with unexpected twists.",
+        "words": [
+          {
+            "start": 82.74,
+            "end": 83.02,
+            "word": " away",
+            "probability": 0.99803
+          },
+          {
+            "start": 83.02,
+            "end": 83.24,
+            "word": " from",
+            "probability": 0.99821
+          },
+          {
+            "start": 83.24,
+            "end": 83.42,
+            "word": " his",
+            "probability": 0.99767
+          },
+          {
+            "start": 83.42,
+            "end": 83.82,
+            "word": " gentle",
+            "probability": 0.9945
+          },
+          {
+            "start": 83.82,
+            "end": 84.08,
+            "word": " love",
+            "probability": 0.9822
+          },
+          {
+            "start": 84.08,
+            "end": 84.46,
+            "word": " stories",
+            "probability": 0.9858
+          },
+          {
+            "start": 84.46,
+            "end": 84.7,
+            "word": " to",
+            "probability": 0.98818
+          },
+          {
+            "start": 84.7,
+            "end": 85.0,
+            "word": " deliver",
+            "probability": 0.99912
+          },
+          {
+            "start": 85.0,
+            "end": 85.18,
+            "word": " an",
+            "probability": 0.99654
+          },
+          {
+            "start": 85.18,
+            "end": 85.58,
+            "word": " exciting",
+            "probability": 0.9979
+          },
+          {
+            "start": 85.58,
+            "end": 85.92,
+            "word": " plot",
+            "probability": 0.99879
+          },
+          {
+            "start": 85.92,
+            "end": 86.24,
+            "word": " filled",
+            "probability": 0.99658
+          },
+          {
+            "start": 86.24,
+            "end": 86.46,
+            "word": " with",
+            "probability": 0.99956
+          },
+          {
+            "start": 86.46,
+            "end": 86.82,
+            "word": " unexpected",
+            "probability": 0.99447
+          },
+          {
+            "start": 86.82,
+            "end": 87.6,
+            "word": " twists.",
+            "probability": 0.99879
+          }
+        ]
+      },
+      {
+        "start": 87.6,
+        "end": 93.6,
+        "text": "The tension in this book is much higher, showing that he can write in different styles.",
+        "words": [
+          {
+            "start": 87.6,
+            "end": 88.26,
+            "word": " The",
+            "probability": 0.11734
+          },
+          {
+            "start": 88.26,
+            "end": 88.56,
+            "word": " tension",
+            "probability": 0.85063
+          },
+          {
+            "start": 88.56,
+            "end": 88.84,
+            "word": " in",
+            "probability": 0.98724
+          },
+          {
+            "start": 88.84,
+            "end": 89.06,
+            "word": " this",
+            "probability": 0.98851
+          },
+          {
+            "start": 89.06,
+            "end": 89.28,
+            "word": " book",
+            "probability": 0.99432
+          },
+          {
+            "start": 89.28,
+            "end": 89.6,
+            "word": " is",
+            "probability": 0.99362
+          },
+          {
+            "start": 89.6,
+            "end": 89.9,
+            "word": " much",
+            "probability": 0.99668
+          },
+          {
+            "start": 89.9,
+            "end": 90.36,
+            "word": " higher,",
+            "probability": 0.99573
+          },
+          {
+            "start": 90.8,
+            "end": 91.16,
+            "word": " showing",
+            "probability": 0.99394
+          },
+          {
+            "start": 91.16,
+            "end": 91.5,
+            "word": " that",
+            "probability": 0.94204
+          },
+          {
+            "start": 91.5,
+            "end": 91.74,
+            "word": " he",
+            "probability": 0.98896
+          },
+          {
+            "start": 91.74,
+            "end": 92.1,
+            "word": " can",
+            "probability": 0.98697
+          },
+          {
+            "start": 92.1,
+            "end": 92.38,
+            "word": " write",
+            "probability": 0.99228
+          },
+          {
+            "start": 92.38,
+            "end": 92.64,
+            "word": " in",
+            "probability": 0.99506
+          },
+          {
+            "start": 92.64,
+            "end": 92.96,
+            "word": " different",
+            "probability": 0.99915
+          },
+          {
+            "start": 92.96,
+            "end": 93.6,
+            "word": " styles.",
+            "probability": 0.99734
+          }
+        ]
+      },
+      {
+        "start": 94.32,
+        "end": 98.68,
+        "text": "While many readers are excited about this new direction, I believe it's important for",
+        "words": [
+          {
+            "start": 94.32,
+            "end": 94.66,
+            "word": " While",
+            "probability": 0.98133
+          },
+          {
+            "start": 94.66,
+            "end": 94.98,
+            "word": " many",
+            "probability": 0.99815
+          },
+          {
+            "start": 94.98,
+            "end": 95.26,
+            "word": " readers",
+            "probability": 0.99264
+          },
+          {
+            "start": 95.26,
+            "end": 95.48,
+            "word": " are",
+            "probability": 0.99884
+          },
+          {
+            "start": 95.48,
+            "end": 95.88,
+            "word": " excited",
+            "probability": 0.99797
+          },
+          {
+            "start": 95.88,
+            "end": 96.14,
+            "word": " about",
+            "probability": 0.99907
+          },
+          {
+            "start": 96.14,
+            "end": 96.38,
+            "word": " this",
+            "probability": 0.99407
+          },
+          {
+            "start": 96.38,
+            "end": 96.54,
+            "word": " new",
+            "probability": 0.98328
+          },
+          {
+            "start": 96.54,
+            "end": 96.96,
+            "word": " direction,",
+            "probability": 0.99788
+          },
+          {
+            "start": 97.46,
+            "end": 97.54,
+            "word": " I",
+            "probability": 0.9975
+          },
+          {
+            "start": 97.54,
+            "end": 97.82,
+            "word": " believe",
+            "probability": 0.99749
+          },
+          {
+            "start": 97.82,
+            "end": 98.08,
+            "word": " it's",
+            "probability": 0.95146
+          },
+          {
+            "start": 98.08,
+            "end": 98.46,
+            "word": " important",
+            "probability": 0.99837
+          },
+          {
+            "start": 98.46,
+            "end": 98.68,
+            "word": " for",
+            "probability": 0.99684
+          }
+        ]
+      },
+      {
+        "start": 98.68,
+        "end": 103.28,
+        "text": "Parker to pay attention to the critics' advice as he works on his next book.",
+        "words": [
+          {
+            "start": 98.68,
+            "end": 99.0,
+            "word": " Parker",
+            "probability": 0.99575
+          },
+          {
+            "start": 99.0,
+            "end": 99.24,
+            "word": " to",
+            "probability": 0.9985
+          },
+          {
+            "start": 99.24,
+            "end": 99.42,
+            "word": " pay",
+            "probability": 0.99804
+          },
+          {
+            "start": 99.42,
+            "end": 99.78,
+            "word": " attention",
+            "probability": 0.99879
+          },
+          {
+            "start": 99.78,
+            "end": 100.12,
+            "word": " to",
+            "probability": 0.99858
+          },
+          {
+            "start": 100.12,
+            "end": 100.26,
+            "word": " the",
+            "probability": 0.97389
+          },
+          {
+            "start": 100.26,
+            "end": 100.64,
+            "word": " critics'",
+            "probability": 0.89631
+          },
+          {
+            "start": 100.88,
+            "end": 101.16,
+            "word": " advice",
+            "probability": 0.99691
+          },
+          {
+            "start": 101.16,
+            "end": 101.9,
+            "word": " as",
+            "probability": 0.7387
+          },
+          {
+            "start": 101.9,
+            "end": 102.08,
+            "word": " he",
+            "probability": 0.99863
+          },
+          {
+            "start": 102.08,
+            "end": 102.28,
+            "word": " works",
+            "probability": 0.99707
+          },
+          {
+            "start": 102.28,
+            "end": 102.52,
+            "word": " on",
+            "probability": 0.9958
+          },
+          {
+            "start": 102.52,
+            "end": 102.7,
+            "word": " his",
+            "probability": 0.99474
+          },
+          {
+            "start": 102.7,
+            "end": 102.92,
+            "word": " next",
+            "probability": 0.99466
+          },
+          {
+            "start": 102.92,
+            "end": 103.28,
+            "word": " book.",
+            "probability": 0.99599
+          }
+        ]
+      },
+      {
+        "start": 104.02,
+        "end": 108.78,
+        "text": "Their feedback can help him improve his writing and find the right balance between romance",
+        "words": [
+          {
+            "start": 104.02,
+            "end": 104.44,
+            "word": " Their",
+            "probability": 0.97042
+          },
+          {
+            "start": 104.44,
+            "end": 104.88,
+            "word": " feedback",
+            "probability": 0.98749
+          },
+          {
+            "start": 104.88,
+            "end": 105.32,
+            "word": " can",
+            "probability": 0.99783
+          },
+          {
+            "start": 105.32,
+            "end": 105.52,
+            "word": " help",
+            "probability": 0.99894
+          },
+          {
+            "start": 105.52,
+            "end": 105.74,
+            "word": " him",
+            "probability": 0.99522
+          },
+          {
+            "start": 105.74,
+            "end": 106.14,
+            "word": " improve",
+            "probability": 0.99542
+          },
+          {
+            "start": 106.14,
+            "end": 106.38,
+            "word": " his",
+            "probability": 0.99803
+          },
+          {
+            "start": 106.38,
+            "end": 106.68,
+            "word": " writing",
+            "probability": 0.99821
+          },
+          {
+            "start": 106.68,
+            "end": 107.02,
+            "word": " and",
+            "probability": 0.96711
+          },
+          {
+            "start": 107.02,
+            "end": 107.28,
+            "word": " find",
+            "probability": 0.99535
+          },
+          {
+            "start": 107.28,
+            "end": 107.48,
+            "word": " the",
+            "probability": 0.99934
+          },
+          {
+            "start": 107.48,
+            "end": 107.64,
+            "word": " right",
+            "probability": 0.99443
+          },
+          {
+            "start": 107.64,
+            "end": 108.0,
+            "word": " balance",
+            "probability": 0.99965
+          },
+          {
+            "start": 108.0,
+            "end": 108.38,
+            "word": " between",
+            "probability": 0.99876
+          },
+          {
+            "start": 108.38,
+            "end": 108.78,
+            "word": " romance",
+            "probability": 0.95723
+          }
+        ]
+      },
+      {
+        "start": 108.78,
+        "end": 110.84,
+        "text": "and thrill that fans appreciate.",
+        "words": [
+          {
+            "start": 108.78,
+            "end": 109.12,
+            "word": " and",
+            "probability": 0.9969
+          },
+          {
+            "start": 109.12,
+            "end": 109.4,
+            "word": " thrill",
+            "probability": 0.99461
+          },
+          {
+            "start": 109.4,
+            "end": 109.92,
+            "word": " that",
+            "probability": 0.99282
+          },
+          {
+            "start": 109.92,
+            "end": 110.22,
+            "word": " fans",
+            "probability": 0.9965
+          },
+          {
+            "start": 110.22,
+            "end": 110.84,
+            "word": " appreciate.",
+            "probability": 0.99678
+          }
+        ]
+      },
+      {
+        "start": 111.48,
+        "end": 114.16,
+        "text": "Stay tuned for more updates on this talented author.",
+        "words": [
+          {
+            "start": 111.48,
+            "end": 111.82,
+            "word": " Stay",
+            "probability": 0.98922
+          },
+          {
+            "start": 111.82,
+            "end": 112.12,
+            "word": " tuned",
+            "probability": 0.99862
+          },
+          {
+            "start": 112.12,
+            "end": 112.28,
+            "word": " for",
+            "probability": 0.99847
+          },
+          {
+            "start": 112.28,
+            "end": 112.48,
+            "word": " more",
+            "probability": 0.9986
+          },
+          {
+            "start": 112.48,
+            "end": 112.86,
+            "word": " updates",
+            "probability": 0.99246
+          },
+          {
+            "start": 112.86,
+            "end": 113.26,
+            "word": " on",
+            "probability": 0.99715
+          },
+          {
+            "start": 113.26,
+            "end": 113.44,
+            "word": " this",
+            "probability": 0.99154
+          },
+          {
+            "start": 113.44,
+            "end": 113.78,
+            "word": " talented",
+            "probability": 0.98197
+          },
+          {
+            "start": 113.78,
+            "end": 114.16,
+            "word": " author.",
+            "probability": 0.9983
+          }
+        ]
+      },
+      {
+        "start": 116.29,
+        "end": 117.41,
+        "text": "Good morning, everyone.",
+        "words": [
+          {
+            "start": 116.29,
+            "end": 116.63,
+            "word": " Good",
+            "probability": 0.98395
+          },
+          {
+            "start": 116.63,
+            "end": 116.91,
+            "word": " morning,",
+            "probability": 0.92321
+          },
+          {
+            "start": 117.13,
+            "end": 117.41,
+            "word": " everyone.",
+            "probability": 0.99347
+          }
+        ]
+      },
+      {
+        "start": 117.41,
+        "end": 121.85,
+        "text": "Today, I want to talk about professionalism and how it has changed over the years.",
+        "words": [
+          {
+            "start": 117.41,
+            "end": 118.25,
+            "word": " Today,",
+            "probability": 0.13102
+          },
+          {
+            "start": 118.47,
+            "end": 118.47,
+            "word": " I",
+            "probability": 0.99515
+          },
+          {
+            "start": 118.47,
+            "end": 118.61,
+            "word": " want",
+            "probability": 0.91015
+          },
+          {
+            "start": 118.61,
+            "end": 118.67,
+            "word": " to",
+            "probability": 0.99462
+          },
+          {
+            "start": 118.67,
+            "end": 118.89,
+            "word": " talk",
+            "probability": 0.99662
+          },
+          {
+            "start": 118.89,
+            "end": 119.11,
+            "word": " about",
+            "probability": 0.99693
+          },
+          {
+            "start": 119.11,
+            "end": 119.97,
+            "word": " professionalism",
+            "probability": 0.98983
+          },
+          {
+            "start": 119.97,
+            "end": 120.29,
+            "word": " and",
+            "probability": 0.82293
+          },
+          {
+            "start": 120.29,
+            "end": 120.47,
+            "word": " how",
+            "probability": 0.99801
+          },
+          {
+            "start": 120.47,
+            "end": 120.63,
+            "word": " it",
+            "probability": 0.9975
+          },
+          {
+            "start": 120.63,
+            "end": 120.77,
+            "word": " has",
+            "probability": 0.99325
+          },
+          {
+            "start": 120.77,
+            "end": 121.03,
+            "word": " changed",
+            "probability": 0.98991
+          },
+          {
+            "start": 121.03,
+            "end": 121.31,
+            "word": " over",
+            "probability": 0.9969
+          },
+          {
+            "start": 121.31,
+            "end": 121.45,
+            "word": " the",
+            "probability": 0.99674
+          },
+          {
+            "start": 121.45,
+            "end": 121.85,
+            "word": " years.",
+            "probability": 0.99771
+          }
+        ]
+      },
+      {
+        "start": 122.45,
+        "end": 127.55,
+        "text": "To be seen as a professional, it's essential to be friendly, open-minded, and willing",
+        "words": [
+          {
+            "start": 122.45,
+            "end": 122.69,
+            "word": " To",
+            "probability": 0.99558
+          },
+          {
+            "start": 122.69,
+            "end": 122.79,
+            "word": " be",
+            "probability": 0.99932
+          },
+          {
+            "start": 122.79,
+            "end": 123.09,
+            "word": " seen",
+            "probability": 0.99294
+          },
+          {
+            "start": 123.09,
+            "end": 123.23,
+            "word": " as",
+            "probability": 0.99711
+          },
+          {
+            "start": 123.23,
+            "end": 123.29,
+            "word": " a",
+            "probability": 0.96726
+          },
+          {
+            "start": 123.29,
+            "end": 123.81,
+            "word": " professional,",
+            "probability": 0.98449
+          },
+          {
+            "start": 124.21,
+            "end": 124.53,
+            "word": " it's",
+            "probability": 0.86231
+          },
+          {
+            "start": 124.53,
+            "end": 125.01,
+            "word": " essential",
+            "probability": 0.99397
+          },
+          {
+            "start": 125.01,
+            "end": 125.21,
+            "word": " to",
+            "probability": 0.99492
+          },
+          {
+            "start": 125.21,
+            "end": 125.33,
+            "word": " be",
+            "probability": 0.99683
+          },
+          {
+            "start": 125.33,
+            "end": 125.75,
+            "word": " friendly,",
+            "probability": 0.97742
+          },
+          {
+            "start": 126.29,
+            "end": 126.61,
+            "word": " open",
+            "probability": 0.99707
+          },
+          {
+            "start": 126.61,
+            "end": 127.03,
+            "word": "-minded,",
+            "probability": 0.96245
+          },
+          {
+            "start": 127.29,
+            "end": 127.37,
+            "word": " and",
+            "probability": 0.98693
+          },
+          {
+            "start": 127.37,
+            "end": 127.55,
+            "word": " willing",
+            "probability": 0.99977
+          }
+        ]
+      },
+      {
+        "start": 127.55,
+        "end": 128.33,
+        "text": "to help others.",
+        "words": [
+          {
+            "start": 127.55,
+            "end": 127.77,
+            "word": " to",
+            "probability": 0.99785
+          },
+          {
+            "start": 127.77,
+            "end": 127.93,
+            "word": " help",
+            "probability": 0.99886
+          },
+          {
+            "start": 127.93,
+            "end": 128.33,
+            "word": " others.",
+            "probability": 0.99782
+          }
+        ]
+      },
+      {
+        "start": 129.05,
+        "end": 133.87,
+        "text": "An optimistic attitude not only makes a good impression, but also creates a better work",
+        "words": [
+          {
+            "start": 129.05,
+            "end": 129.29,
+            "word": " An",
+            "probability": 0.9751
+          },
+          {
+            "start": 129.29,
+            "end": 129.79,
+            "word": " optimistic",
+            "probability": 0.98608
+          },
+          {
+            "start": 129.79,
+            "end": 130.39,
+            "word": " attitude",
+            "probability": 0.99915
+          },
+          {
+            "start": 130.39,
+            "end": 130.75,
+            "word": " not",
+            "probability": 0.89977
+          },
+          {
+            "start": 130.75,
+            "end": 131.01,
+            "word": " only",
+            "probability": 0.99897
+          },
+          {
+            "start": 131.01,
+            "end": 131.17,
+            "word": " makes",
+            "probability": 0.99739
+          },
+          {
+            "start": 131.17,
+            "end": 131.37,
+            "word": " a",
+            "probability": 0.98403
+          },
+          {
+            "start": 131.37,
+            "end": 131.49,
+            "word": " good",
+            "probability": 0.99898
+          },
+          {
+            "start": 131.49,
+            "end": 131.93,
+            "word": " impression,",
+            "probability": 0.99822
+          },
+          {
+            "start": 132.41,
+            "end": 132.51,
+            "word": " but",
+            "probability": 0.99763
+          },
+          {
+            "start": 132.51,
+            "end": 132.83,
+            "word": " also",
+            "probability": 0.99384
+          },
+          {
+            "start": 132.83,
+            "end": 133.21,
+            "word": " creates",
+            "probability": 0.99676
+          },
+          {
+            "start": 133.21,
+            "end": 133.41,
+            "word": " a",
+            "probability": 0.99772
+          },
+          {
+            "start": 133.41,
+            "end": 133.61,
+            "word": " better",
+            "probability": 0.99911
+          },
+          {
+            "start": 133.61,
+            "end": 133.87,
+            "word": " work",
+            "probability": 0.98655
+          }
+        ]
+      },
+      {
+        "start": 133.87,
+        "end": 134.41,
+        "text": "environment.",
+        "words": [
+          {
+            "start": 133.87,
+            "end": 134.41,
+            "word": " environment.",
+            "probability": 0.99617
+          }
+        ]
+      },
+      {
+        "start": 135.27,
+        "end": 140.73,
+        "text": "Additionally, with the rapid changes in technology and globalization, our definition of professionalism",
+        "words": [
+          {
+            "start": 135.27,
+            "end": 135.79,
+            "word": " Additionally,",
+            "probability": 0.98877
+          },
+          {
+            "start": 136.19,
+            "end": 136.27,
+            "word": " with",
+            "probability": 0.9951
+          },
+          {
+            "start": 136.27,
+            "end": 136.39,
+            "word": " the",
+            "probability": 0.99576
+          },
+          {
+            "start": 136.39,
+            "end": 136.63,
+            "word": " rapid",
+            "probability": 0.99655
+          },
+          {
+            "start": 136.63,
+            "end": 137.03,
+            "word": " changes",
+            "probability": 0.99602
+          },
+          {
+            "start": 137.03,
+            "end": 137.19,
+            "word": " in",
+            "probability": 0.99758
+          },
+          {
+            "start": 137.19,
+            "end": 137.77,
+            "word": " technology",
+            "probability": 0.99492
+          },
+          {
+            "start": 137.77,
+            "end": 138.01,
+            "word": " and",
+            "probability": 0.99545
+          },
+          {
+            "start": 138.01,
+            "end": 138.53,
+            "word": " globalization,",
+            "probability": 0.98478
+          },
+          {
+            "start": 139.17,
+            "end": 139.27,
+            "word": " our",
+            "probability": 0.99689
+          },
+          {
+            "start": 139.27,
+            "end": 139.65,
+            "word": " definition",
+            "probability": 0.99906
+          },
+          {
+            "start": 139.65,
+            "end": 139.89,
+            "word": " of",
+            "probability": 0.99868
+          },
+          {
+            "start": 139.89,
+            "end": 140.73,
+            "word": " professionalism",
+            "probability": 0.98468
+          }
+        ]
+      },
+      {
+        "start": 140.73,
+        "end": 143.31,
+        "text": "is no longer the same as it was 40 years ago.",
+        "words": [
+          {
+            "start": 140.73,
+            "end": 140.93,
+            "word": " is",
+            "probability": 0.99531
+          },
+          {
+            "start": 140.93,
+            "end": 141.19,
+            "word": " no",
+            "probability": 0.99689
+          },
+          {
+            "start": 141.19,
+            "end": 141.51,
+            "word": " longer",
+            "probability": 0.99929
+          },
+          {
+            "start": 141.51,
+            "end": 141.69,
+            "word": " the",
+            "probability": 0.99789
+          },
+          {
+            "start": 141.69,
+            "end": 141.95,
+            "word": " same",
+            "probability": 0.99959
+          },
+          {
+            "start": 141.95,
+            "end": 142.11,
+            "word": " as",
+            "probability": 0.99732
+          },
+          {
+            "start": 142.11,
+            "end": 142.23,
+            "word": " it",
+            "probability": 0.9964
+          },
+          {
+            "start": 142.23,
+            "end": 142.37,
+            "word": " was",
+            "probability": 0.99732
+          },
+          {
+            "start": 142.37,
+            "end": 142.79,
+            "word": " 40",
+            "probability": 0.83342
+          },
+          {
+            "start": 142.79,
+            "end": 142.99,
+            "word": " years",
+            "probability": 0.99801
+          },
+          {
+            "start": 142.99,
+            "end": 143.31,
+            "word": " ago.",
+            "probability": 0.99883
+          }
+        ]
+      },
+      {
+        "start": 143.31,
+        "end": 149.31,
+        "text": "In the past, being professional often meant simply dressing well and following strict rules.",
+        "words": [
+          {
+            "start": 143.31,
+            "end": 144.23,
+            "word": " In",
+            "probability": 0.55258
+          },
+          {
+            "start": 144.23,
+            "end": 144.33,
+            "word": " the",
+            "probability": 0.99715
+          },
+          {
+            "start": 144.33,
+            "end": 144.61,
+            "word": " past,",
+            "probability": 0.99972
+          },
+          {
+            "start": 145.13,
+            "end": 145.27,
+            "word": " being",
+            "probability": 0.98744
+          },
+          {
+            "start": 145.27,
+            "end": 145.95,
+            "word": " professional",
+            "probability": 0.98578
+          },
+          {
+            "start": 145.95,
+            "end": 146.57,
+            "word": " often",
+            "probability": 0.6938
+          },
+          {
+            "start": 146.57,
+            "end": 146.81,
+            "word": " meant",
+            "probability": 0.98364
+          },
+          {
+            "start": 146.81,
+            "end": 147.23,
+            "word": " simply",
+            "probability": 0.99366
+          },
+          {
+            "start": 147.23,
+            "end": 147.53,
+            "word": " dressing",
+            "probability": 0.94744
+          },
+          {
+            "start": 147.53,
+            "end": 147.89,
+            "word": " well",
+            "probability": 0.99922
+          },
+          {
+            "start": 147.89,
+            "end": 148.17,
+            "word": " and",
+            "probability": 0.97117
+          },
+          {
+            "start": 148.17,
+            "end": 148.53,
+            "word": " following",
+            "probability": 0.9977
+          },
+          {
+            "start": 148.53,
+            "end": 148.85,
+            "word": " strict",
+            "probability": 0.99684
+          },
+          {
+            "start": 148.85,
+            "end": 149.31,
+            "word": " rules.",
+            "probability": 0.99872
+          }
+        ]
+      },
+      {
+        "start": 149.95,
+        "end": 155.19,
+        "text": "Now it includes being adaptable, understanding different cultures, and using technology",
+        "words": [
+          {
+            "start": 149.95,
+            "end": 150.29,
+            "word": " Now",
+            "probability": 0.99504
+          },
+          {
+            "start": 150.29,
+            "end": 150.45,
+            "word": " it",
+            "probability": 0.86402
+          },
+          {
+            "start": 150.45,
+            "end": 150.75,
+            "word": " includes",
+            "probability": 0.99756
+          },
+          {
+            "start": 150.75,
+            "end": 151.03,
+            "word": " being",
+            "probability": 0.99772
+          },
+          {
+            "start": 151.03,
+            "end": 151.65,
+            "word": " adaptable,",
+            "probability": 0.99612
+          },
+          {
+            "start": 152.17,
+            "end": 152.75,
+            "word": " understanding",
+            "probability": 0.99456
+          },
+          {
+            "start": 152.75,
+            "end": 153.13,
+            "word": " different",
+            "probability": 0.9993
+          },
+          {
+            "start": 153.13,
+            "end": 153.61,
+            "word": " cultures,",
+            "probability": 0.99917
+          },
+          {
+            "start": 154.17,
+            "end": 154.41,
+            "word": " and",
+            "probability": 0.99574
+          },
+          {
+            "start": 154.41,
+            "end": 154.67,
+            "word": " using",
+            "probability": 0.99665
+          },
+          {
+            "start": 154.67,
+            "end": 155.19,
+            "word": " technology",
+            "probability": 0.99728
+          }
+        ]
+      },
+      {
+        "start": 155.19,
+        "end": 155.97,
+        "text": "effectively.",
+        "words": [
+          {
+            "start": 155.19,
+            "end": 155.97,
+            "word": " effectively.",
+            "probability": 0.99392
+          }
+        ]
+      },
+      {
+        "start": 156.71,
+        "end": 161.71,
+        "text": "As we continue to evolve in our careers, we must embrace these changes and redefine what",
+        "words": [
+          {
+            "start": 156.71,
+            "end": 156.97,
+            "word": " As",
+            "probability": 0.99512
+          },
+          {
+            "start": 156.97,
+            "end": 157.11,
+            "word": " we",
+            "probability": 0.99934
+          },
+          {
+            "start": 157.11,
+            "end": 157.55,
+            "word": " continue",
+            "probability": 0.99795
+          },
+          {
+            "start": 157.55,
+            "end": 157.77,
+            "word": " to",
+            "probability": 0.99855
+          },
+          {
+            "start": 157.77,
+            "end": 158.05,
+            "word": " evolve",
+            "probability": 0.99583
+          },
+          {
+            "start": 158.05,
+            "end": 158.27,
+            "word": " in",
+            "probability": 0.99762
+          },
+          {
+            "start": 158.27,
+            "end": 158.37,
+            "word": " our",
+            "probability": 0.99858
+          },
+          {
+            "start": 158.37,
+            "end": 158.69,
+            "word": " careers,",
+            "probability": 0.99873
+          },
+          {
+            "start": 159.07,
+            "end": 159.15,
+            "word": " we",
+            "probability": 0.99732
+          },
+          {
+            "start": 159.15,
+            "end": 159.39,
+            "word": " must",
+            "probability": 0.99933
+          },
+          {
+            "start": 159.39,
+            "end": 159.71,
+            "word": " embrace",
+            "probability": 0.99834
+          },
+          {
+            "start": 159.71,
+            "end": 160.03,
+            "word": " these",
+            "probability": 0.99675
+          },
+          {
+            "start": 160.03,
+            "end": 160.49,
+            "word": " changes",
+            "probability": 0.99832
+          },
+          {
+            "start": 160.49,
+            "end": 160.91,
+            "word": " and",
+            "probability": 0.94647
+          },
+          {
+            "start": 160.91,
+            "end": 161.47,
+            "word": " redefine",
+            "probability": 0.99533
+          },
+          {
+            "start": 161.47,
+            "end": 161.71,
+            "word": " what",
+            "probability": 0.99852
+          }
+        ]
+      },
+      {
+        "start": 161.71,
+        "end": 162.93,
+        "text": "it means to be a professional.",
+        "words": [
+          {
+            "start": 161.71,
+            "end": 161.81,
+            "word": " it",
+            "probability": 0.99238
+          },
+          {
+            "start": 161.81,
+            "end": 162.01,
+            "word": " means",
+            "probability": 0.9994
+          },
+          {
+            "start": 162.01,
+            "end": 162.27,
+            "word": " to",
+            "probability": 0.99822
+          },
+          {
+            "start": 162.27,
+            "end": 162.37,
+            "word": " be",
+            "probability": 0.99891
+          },
+          {
+            "start": 162.37,
+            "end": 162.43,
+            "word": " a",
+            "probability": 0.97162
+          },
+          {
+            "start": 162.43,
+            "end": 162.93,
+            "word": " professional.",
+            "probability": 0.99625
+          }
+        ]
+      },
+      {
+        "start": 163.41,
+        "end": 168.53,
+        "text": "By doing so, we can better meet the needs of our diverse workplaces and succeed in today's",
+        "words": [
+          {
+            "start": 163.41,
+            "end": 163.53,
+            "word": " By",
+            "probability": 0.99695
+          },
+          {
+            "start": 163.53,
+            "end": 163.77,
+            "word": " doing",
+            "probability": 0.99938
+          },
+          {
+            "start": 163.77,
+            "end": 164.09,
+            "word": " so,",
+            "probability": 0.9997
+          },
+          {
+            "start": 164.35,
+            "end": 164.53,
+            "word": " we",
+            "probability": 0.99814
+          },
+          {
+            "start": 164.53,
+            "end": 164.65,
+            "word": " can",
+            "probability": 0.99856
+          },
+          {
+            "start": 164.65,
+            "end": 164.89,
+            "word": " better",
+            "probability": 0.99824
+          },
+          {
+            "start": 164.89,
+            "end": 165.11,
+            "word": " meet",
+            "probability": 0.9943
+          },
+          {
+            "start": 165.11,
+            "end": 165.29,
+            "word": " the",
+            "probability": 0.9989
+          },
+          {
+            "start": 165.29,
+            "end": 165.55,
+            "word": " needs",
+            "probability": 0.99765
+          },
+          {
+            "start": 165.55,
+            "end": 165.73,
+            "word": " of",
+            "probability": 0.99934
+          },
+          {
+            "start": 165.73,
+            "end": 165.87,
+            "word": " our",
+            "probability": 0.99784
+          },
+          {
+            "start": 165.87,
+            "end": 166.27,
+            "word": " diverse",
+            "probability": 0.99824
+          },
+          {
+            "start": 166.27,
+            "end": 166.95,
+            "word": " workplaces",
+            "probability": 0.98338
+          },
+          {
+            "start": 166.95,
+            "end": 167.27,
+            "word": " and",
+            "probability": 0.9873
+          },
+          {
+            "start": 167.27,
+            "end": 167.67,
+            "word": " succeed",
+            "probability": 0.99659
+          },
+          {
+            "start": 167.67,
+            "end": 168.05,
+            "word": " in",
+            "probability": 0.99577
+          },
+          {
+            "start": 168.05,
+            "end": 168.53,
+            "word": " today's",
+            "probability": 0.99331
+          }
+        ]
+      },
+      {
+        "start": 168.53,
+        "end": 169.49,
+        "text": "fast-paced world.",
+        "words": [
+          {
+            "start": 168.53,
+            "end": 168.85,
+            "word": " fast",
+            "probability": 0.94593
+          },
+          {
+            "start": 168.85,
+            "end": 169.03,
+            "word": "-paced",
+            "probability": 0.81884
+          },
+          {
+            "start": 169.03,
+            "end": 169.49,
+            "word": " world.",
+            "probability": 0.99715
+          }
+        ]
+      },
+      {
+        "start": 170.22,
+        "end": 170.82,
+        "text": "Thank you.",
+        "words": [
+          {
+            "start": 170.22,
+            "end": 170.64,
+            "word": " Thank",
+            "probability": 0.99475
+          },
+          {
+            "start": 170.64,
+            "end": 170.82,
+            "word": " you.",
+            "probability": 0.97738
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono1",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 154,
+            "speechStart": 0.85,
+            "speechEnd": 55.94,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "good evening everyone today we're excited to talk about the latest novel by popular author james parker he is known for his softer romantic stories like whispers of the heart which have touched the hearts of many readers however his new novel shadow in the night is quite different in shadow in the night parker explores a thrilling world of suspense and mystery he moves away from his gentle love stories to deliver an exciting plot filled with unexpected twists the tension in this book is much higher showing that he can write in different styles while many readers are excited about this new direction i believe it's important for parker to pay attention to the critics advice as he works on his next book their feedback can help him improve his writing and find the right balance between romance and thrill that fans appreciate stay tuned for more updates on this talented author",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 154,
+            "wordEndIndexExclusive": 309,
+            "speechStart": 59.26,
+            "speechEnd": 114.16,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9968,
+            "transcript": "good evening everyone 1 today we're excited to talk about the latest novel by popular author james parker he is known for his softer romantic stories like whispers of the heart which have touched the hearts of many readers however his new novel shadow in the night is quite different in shadow in the night parker explores a thrilling world of suspense and mystery he moves away from his gentle love stories to deliver an exciting plot filled with unexpected twists the tension in this book is much higher showing that he can write in different styles while many readers are excited about this new direction i believe it's important for parker to pay attention to the critics advice as he works on his next book their feedback can help him improve his writing and find the right balance between romance and thrill that fans appreciate stay tuned for more updates on this talented author",
+            "openingMatch": 0.9267,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p4-mono2",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 309,
+            "wordEndIndexExclusive": 455,
+            "speechStart": 116.29,
+            "speechEnd": 170.82,
+            "sourceTokenCoverage": 0.9931,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9897,
+            "transcript": "good morning everyone today i want to talk about professionalism and how it has changed over the years to be seen as a professional it's essential to be friendly open minded and willing to help others an optimistic attitude not only makes a good impression but also creates a better work environment additionally with the rapid changes in technology and globalization our definition of professionalism is no longer the same as it was 40 years ago in the past being professional often meant simply dressing well and following strict rules now it includes being adaptable understanding different cultures and using technology effectively as we continue to evolve in our careers we must embrace these changes and redefine what it means to be a professional by doing so we can better meet the needs of our diverse workplaces and succeed in today's fast paced world thank you",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

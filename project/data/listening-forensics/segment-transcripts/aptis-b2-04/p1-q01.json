@@ -1,0 +1,512 @@
+{
+  "testId": "aptis-b2-04",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-04/part-1/q01.mp3",
+  "audioSha256": "71145152162b94435ef8289be1bf8937ac7bae569b4569bec3be8af6396eeb90",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 5.78,
+        "text": "Hey Maria, it's me! I wanted to give you a quick call to let you know that I'll be visiting",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.24,
+            "word": " Hey",
+            "probability": 0.84714
+          },
+          {
+            "start": 1.24,
+            "end": 1.5,
+            "word": " Maria,",
+            "probability": 0.67391
+          },
+          {
+            "start": 1.76,
+            "end": 1.98,
+            "word": " it's",
+            "probability": 0.97038
+          },
+          {
+            "start": 1.98,
+            "end": 2.14,
+            "word": " me!",
+            "probability": 0.99262
+          },
+          {
+            "start": 2.8,
+            "end": 2.88,
+            "word": " I",
+            "probability": 0.99365
+          },
+          {
+            "start": 2.88,
+            "end": 3.1,
+            "word": " wanted",
+            "probability": 0.96993
+          },
+          {
+            "start": 3.1,
+            "end": 3.28,
+            "word": " to",
+            "probability": 0.99857
+          },
+          {
+            "start": 3.28,
+            "end": 3.4,
+            "word": " give",
+            "probability": 0.99764
+          },
+          {
+            "start": 3.4,
+            "end": 3.54,
+            "word": " you",
+            "probability": 0.99735
+          },
+          {
+            "start": 3.54,
+            "end": 3.64,
+            "word": " a",
+            "probability": 0.99778
+          },
+          {
+            "start": 3.64,
+            "end": 3.86,
+            "word": " quick",
+            "probability": 0.99678
+          },
+          {
+            "start": 3.86,
+            "end": 4.18,
+            "word": " call",
+            "probability": 0.99695
+          },
+          {
+            "start": 4.18,
+            "end": 4.36,
+            "word": " to",
+            "probability": 0.98426
+          },
+          {
+            "start": 4.36,
+            "end": 4.5,
+            "word": " let",
+            "probability": 0.99732
+          },
+          {
+            "start": 4.5,
+            "end": 4.66,
+            "word": " you",
+            "probability": 0.99749
+          },
+          {
+            "start": 4.66,
+            "end": 4.8,
+            "word": " know",
+            "probability": 0.99627
+          },
+          {
+            "start": 4.8,
+            "end": 5.0,
+            "word": " that",
+            "probability": 0.95705
+          },
+          {
+            "start": 5.0,
+            "end": 5.32,
+            "word": " I'll",
+            "probability": 0.98049
+          },
+          {
+            "start": 5.32,
+            "end": 5.42,
+            "word": " be",
+            "probability": 0.99872
+          },
+          {
+            "start": 5.42,
+            "end": 5.78,
+            "word": " visiting",
+            "probability": 0.99791
+          }
+        ]
+      },
+      {
+        "start": 5.78,
+        "end": 10.78,
+        "text": "your town this weekend. I've got a few things planned, going to check out the local market",
+        "words": [
+          {
+            "start": 5.78,
+            "end": 6.04,
+            "word": " your",
+            "probability": 0.98685
+          },
+          {
+            "start": 6.04,
+            "end": 6.34,
+            "word": " town",
+            "probability": 0.99766
+          },
+          {
+            "start": 6.34,
+            "end": 6.58,
+            "word": " this",
+            "probability": 0.99819
+          },
+          {
+            "start": 6.58,
+            "end": 6.94,
+            "word": " weekend.",
+            "probability": 0.9967
+          },
+          {
+            "start": 7.56,
+            "end": 7.76,
+            "word": " I've",
+            "probability": 0.99319
+          },
+          {
+            "start": 7.76,
+            "end": 7.84,
+            "word": " got",
+            "probability": 0.9967
+          },
+          {
+            "start": 7.84,
+            "end": 7.96,
+            "word": " a",
+            "probability": 0.9976
+          },
+          {
+            "start": 7.96,
+            "end": 8.12,
+            "word": " few",
+            "probability": 0.99846
+          },
+          {
+            "start": 8.12,
+            "end": 8.42,
+            "word": " things",
+            "probability": 0.99645
+          },
+          {
+            "start": 8.42,
+            "end": 8.9,
+            "word": " planned,",
+            "probability": 0.99947
+          },
+          {
+            "start": 9.2,
+            "end": 9.44,
+            "word": " going",
+            "probability": 0.99414
+          },
+          {
+            "start": 9.44,
+            "end": 9.62,
+            "word": " to",
+            "probability": 0.99916
+          },
+          {
+            "start": 9.62,
+            "end": 9.76,
+            "word": " check",
+            "probability": 0.98466
+          },
+          {
+            "start": 9.76,
+            "end": 9.98,
+            "word": " out",
+            "probability": 0.99734
+          },
+          {
+            "start": 9.98,
+            "end": 10.12,
+            "word": " the",
+            "probability": 0.99583
+          },
+          {
+            "start": 10.12,
+            "end": 10.38,
+            "word": " local",
+            "probability": 0.99581
+          },
+          {
+            "start": 10.38,
+            "end": 10.78,
+            "word": " market",
+            "probability": 0.99527
+          }
+        ]
+      },
+      {
+        "start": 10.78,
+        "end": 16.42,
+        "text": "and maybe explore some of the nearby parks. But the best part, I'll finally get to see you.",
+        "words": [
+          {
+            "start": 10.78,
+            "end": 11.08,
+            "word": " and",
+            "probability": 0.90311
+          },
+          {
+            "start": 11.08,
+            "end": 11.42,
+            "word": " maybe",
+            "probability": 0.96953
+          },
+          {
+            "start": 11.42,
+            "end": 11.86,
+            "word": " explore",
+            "probability": 0.99794
+          },
+          {
+            "start": 11.86,
+            "end": 12.14,
+            "word": " some",
+            "probability": 0.99672
+          },
+          {
+            "start": 12.14,
+            "end": 12.24,
+            "word": " of",
+            "probability": 0.99737
+          },
+          {
+            "start": 12.24,
+            "end": 12.34,
+            "word": " the",
+            "probability": 0.99813
+          },
+          {
+            "start": 12.34,
+            "end": 12.56,
+            "word": " nearby",
+            "probability": 0.9995
+          },
+          {
+            "start": 12.56,
+            "end": 13.34,
+            "word": " parks.",
+            "probability": 0.98408
+          },
+          {
+            "start": 13.88,
+            "end": 14.06,
+            "word": " But",
+            "probability": 0.99
+          },
+          {
+            "start": 14.06,
+            "end": 14.2,
+            "word": " the",
+            "probability": 0.97156
+          },
+          {
+            "start": 14.2,
+            "end": 14.46,
+            "word": " best",
+            "probability": 0.98092
+          },
+          {
+            "start": 14.46,
+            "end": 14.88,
+            "word": " part,",
+            "probability": 0.99934
+          },
+          {
+            "start": 15.2,
+            "end": 15.38,
+            "word": " I'll",
+            "probability": 0.99415
+          },
+          {
+            "start": 15.38,
+            "end": 15.66,
+            "word": " finally",
+            "probability": 0.99489
+          },
+          {
+            "start": 15.66,
+            "end": 15.82,
+            "word": " get",
+            "probability": 0.99558
+          },
+          {
+            "start": 15.82,
+            "end": 15.98,
+            "word": " to",
+            "probability": 0.99891
+          },
+          {
+            "start": 15.98,
+            "end": 16.18,
+            "word": " see",
+            "probability": 0.99798
+          },
+          {
+            "start": 16.18,
+            "end": 16.42,
+            "word": " you.",
+            "probability": 0.99851
+          }
+        ]
+      },
+      {
+        "start": 16.72,
+        "end": 21.18,
+        "text": "I'll be at your place at 9am on Sunday so we can catch up. Can't wait to hang out.",
+        "words": [
+          {
+            "start": 16.72,
+            "end": 16.86,
+            "word": " I'll",
+            "probability": 0.99619
+          },
+          {
+            "start": 16.86,
+            "end": 16.92,
+            "word": " be",
+            "probability": 0.99927
+          },
+          {
+            "start": 16.92,
+            "end": 17.02,
+            "word": " at",
+            "probability": 0.9945
+          },
+          {
+            "start": 17.02,
+            "end": 17.12,
+            "word": " your",
+            "probability": 0.99628
+          },
+          {
+            "start": 17.12,
+            "end": 17.36,
+            "word": " place",
+            "probability": 0.99887
+          },
+          {
+            "start": 17.36,
+            "end": 17.54,
+            "word": " at",
+            "probability": 0.99721
+          },
+          {
+            "start": 17.54,
+            "end": 18.06,
+            "word": " 9am",
+            "probability": 0.64626
+          },
+          {
+            "start": 18.06,
+            "end": 18.24,
+            "word": " on",
+            "probability": 0.98824
+          },
+          {
+            "start": 18.24,
+            "end": 18.64,
+            "word": " Sunday",
+            "probability": 0.98664
+          },
+          {
+            "start": 18.64,
+            "end": 18.92,
+            "word": " so",
+            "probability": 0.88291
+          },
+          {
+            "start": 18.92,
+            "end": 19.04,
+            "word": " we",
+            "probability": 0.98494
+          },
+          {
+            "start": 19.04,
+            "end": 19.16,
+            "word": " can",
+            "probability": 0.99852
+          },
+          {
+            "start": 19.16,
+            "end": 19.4,
+            "word": " catch",
+            "probability": 0.99836
+          },
+          {
+            "start": 19.4,
+            "end": 19.7,
+            "word": " up.",
+            "probability": 0.99885
+          },
+          {
+            "start": 20.04,
+            "end": 20.28,
+            "word": " Can't",
+            "probability": 0.95412
+          },
+          {
+            "start": 20.28,
+            "end": 20.48,
+            "word": " wait",
+            "probability": 0.99965
+          },
+          {
+            "start": 20.48,
+            "end": 20.7,
+            "word": " to",
+            "probability": 0.9974
+          },
+          {
+            "start": 20.7,
+            "end": 20.86,
+            "word": " hang",
+            "probability": 0.99249
+          },
+          {
+            "start": 20.86,
+            "end": 21.18,
+            "word": " out.",
+            "probability": 0.99479
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 74,
+            "speechStart": 0.78,
+            "speechEnd": 21.18,
+            "sourceTokenCoverage": 0.9605,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9733,
+            "transcript": "hey maria it's me i wanted to give you a quick call to let you know that i'll be visiting your town this weekend i've got a few things planned going to check out the local market and maybe explore some of the nearby parks but the best part i'll finally get to see you i'll be at your place at 9am on sunday so we can catch up can't wait to hang out",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

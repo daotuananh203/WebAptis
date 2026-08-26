@@ -1,0 +1,660 @@
+{
+  "testId": "aptis-b2-06",
+  "blockId": "p1-q05",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-06/part-1/q05.mp3",
+  "audioSha256": "5df13efdcba5bc86f4ecd3e30897db9a234a0478bde2868c17a69145487ebac4",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.94,
+        "end": 4.16,
+        "text": "Hi, I'm Lily, and I want to tell you about my daily routine.",
+        "words": [
+          {
+            "start": 0.94,
+            "end": 1.46,
+            "word": " Hi,",
+            "probability": 0.8742
+          },
+          {
+            "start": 1.72,
+            "end": 2.02,
+            "word": " I'm",
+            "probability": 0.98811
+          },
+          {
+            "start": 2.02,
+            "end": 2.14,
+            "word": " Lily,",
+            "probability": 0.62581
+          },
+          {
+            "start": 2.54,
+            "end": 2.66,
+            "word": " and",
+            "probability": 0.99259
+          },
+          {
+            "start": 2.66,
+            "end": 2.74,
+            "word": " I",
+            "probability": 0.99568
+          },
+          {
+            "start": 2.74,
+            "end": 2.84,
+            "word": " want",
+            "probability": 0.78581
+          },
+          {
+            "start": 2.84,
+            "end": 2.94,
+            "word": " to",
+            "probability": 0.99617
+          },
+          {
+            "start": 2.94,
+            "end": 3.08,
+            "word": " tell",
+            "probability": 0.98742
+          },
+          {
+            "start": 3.08,
+            "end": 3.22,
+            "word": " you",
+            "probability": 0.99179
+          },
+          {
+            "start": 3.22,
+            "end": 3.38,
+            "word": " about",
+            "probability": 0.99588
+          },
+          {
+            "start": 3.38,
+            "end": 3.54,
+            "word": " my",
+            "probability": 0.99815
+          },
+          {
+            "start": 3.54,
+            "end": 3.78,
+            "word": " daily",
+            "probability": 0.9946
+          },
+          {
+            "start": 3.78,
+            "end": 4.16,
+            "word": " routine.",
+            "probability": 0.99937
+          }
+        ]
+      },
+      {
+        "start": 5.46,
+        "end": 9.38,
+        "text": "I wake up early around 6.30 a.m. and have breakfast before going to work.",
+        "words": [
+          {
+            "start": 5.46,
+            "end": 5.7,
+            "word": " I",
+            "probability": 0.99553
+          },
+          {
+            "start": 5.7,
+            "end": 5.86,
+            "word": " wake",
+            "probability": 0.99733
+          },
+          {
+            "start": 5.86,
+            "end": 6.04,
+            "word": " up",
+            "probability": 0.99876
+          },
+          {
+            "start": 6.04,
+            "end": 6.34,
+            "word": " early",
+            "probability": 0.98599
+          },
+          {
+            "start": 6.34,
+            "end": 6.6,
+            "word": " around",
+            "probability": 0.9816
+          },
+          {
+            "start": 6.6,
+            "end": 6.88,
+            "word": " 6",
+            "probability": 0.98155
+          },
+          {
+            "start": 6.88,
+            "end": 7.18,
+            "word": ".30",
+            "probability": 0.84757
+          },
+          {
+            "start": 7.18,
+            "end": 7.32,
+            "word": " a",
+            "probability": 0.40064
+          },
+          {
+            "start": 7.32,
+            "end": 7.56,
+            "word": ".m.",
+            "probability": 0.99709
+          },
+          {
+            "start": 7.76,
+            "end": 7.8,
+            "word": " and",
+            "probability": 0.98362
+          },
+          {
+            "start": 7.8,
+            "end": 7.96,
+            "word": " have",
+            "probability": 0.99298
+          },
+          {
+            "start": 7.96,
+            "end": 8.26,
+            "word": " breakfast",
+            "probability": 0.99763
+          },
+          {
+            "start": 8.26,
+            "end": 8.68,
+            "word": " before",
+            "probability": 0.99461
+          },
+          {
+            "start": 8.68,
+            "end": 9.0,
+            "word": " going",
+            "probability": 0.99688
+          },
+          {
+            "start": 9.0,
+            "end": 9.14,
+            "word": " to",
+            "probability": 0.99885
+          },
+          {
+            "start": 9.14,
+            "end": 9.38,
+            "word": " work.",
+            "probability": 0.99907
+          }
+        ]
+      },
+      {
+        "start": 9.92,
+        "end": 14.06,
+        "text": "I work in a small office, and my job keeps me busy until about 5 p.m.",
+        "words": [
+          {
+            "start": 9.92,
+            "end": 10.16,
+            "word": " I",
+            "probability": 0.9974
+          },
+          {
+            "start": 10.16,
+            "end": 10.32,
+            "word": " work",
+            "probability": 0.99729
+          },
+          {
+            "start": 10.32,
+            "end": 10.48,
+            "word": " in",
+            "probability": 0.995
+          },
+          {
+            "start": 10.48,
+            "end": 10.56,
+            "word": " a",
+            "probability": 0.99711
+          },
+          {
+            "start": 10.56,
+            "end": 10.82,
+            "word": " small",
+            "probability": 0.99747
+          },
+          {
+            "start": 10.82,
+            "end": 11.28,
+            "word": " office,",
+            "probability": 0.99924
+          },
+          {
+            "start": 11.62,
+            "end": 11.74,
+            "word": " and",
+            "probability": 0.99834
+          },
+          {
+            "start": 11.74,
+            "end": 11.88,
+            "word": " my",
+            "probability": 0.99873
+          },
+          {
+            "start": 11.88,
+            "end": 12.1,
+            "word": " job",
+            "probability": 0.99858
+          },
+          {
+            "start": 12.1,
+            "end": 12.38,
+            "word": " keeps",
+            "probability": 0.99473
+          },
+          {
+            "start": 12.38,
+            "end": 12.56,
+            "word": " me",
+            "probability": 0.99867
+          },
+          {
+            "start": 12.56,
+            "end": 12.8,
+            "word": " busy",
+            "probability": 0.99917
+          },
+          {
+            "start": 12.8,
+            "end": 13.06,
+            "word": " until",
+            "probability": 0.99081
+          },
+          {
+            "start": 13.06,
+            "end": 13.28,
+            "word": " about",
+            "probability": 0.98935
+          },
+          {
+            "start": 13.28,
+            "end": 13.66,
+            "word": " 5",
+            "probability": 0.94896
+          },
+          {
+            "start": 13.66,
+            "end": 13.9,
+            "word": " p",
+            "probability": 0.65714
+          },
+          {
+            "start": 13.9,
+            "end": 14.06,
+            "word": ".m.",
+            "probability": 0.99866
+          }
+        ]
+      },
+      {
+        "start": 14.7,
+        "end": 19.08,
+        "text": "After dinner, I usually go for a walk to relax, but today I'm going to try something different.",
+        "words": [
+          {
+            "start": 14.7,
+            "end": 14.94,
+            "word": " After",
+            "probability": 0.98248
+          },
+          {
+            "start": 14.94,
+            "end": 15.2,
+            "word": " dinner,",
+            "probability": 0.99594
+          },
+          {
+            "start": 15.4,
+            "end": 15.46,
+            "word": " I",
+            "probability": 0.99774
+          },
+          {
+            "start": 15.46,
+            "end": 15.8,
+            "word": " usually",
+            "probability": 0.99885
+          },
+          {
+            "start": 15.8,
+            "end": 16.04,
+            "word": " go",
+            "probability": 0.9981
+          },
+          {
+            "start": 16.04,
+            "end": 16.2,
+            "word": " for",
+            "probability": 0.99112
+          },
+          {
+            "start": 16.2,
+            "end": 16.3,
+            "word": " a",
+            "probability": 0.99806
+          },
+          {
+            "start": 16.3,
+            "end": 16.48,
+            "word": " walk",
+            "probability": 0.99889
+          },
+          {
+            "start": 16.48,
+            "end": 16.68,
+            "word": " to",
+            "probability": 0.98522
+          },
+          {
+            "start": 16.68,
+            "end": 16.94,
+            "word": " relax,",
+            "probability": 0.99708
+          },
+          {
+            "start": 17.34,
+            "end": 17.46,
+            "word": " but",
+            "probability": 0.99233
+          },
+          {
+            "start": 17.46,
+            "end": 17.74,
+            "word": " today",
+            "probability": 0.99401
+          },
+          {
+            "start": 17.74,
+            "end": 18.0,
+            "word": " I'm",
+            "probability": 0.95196
+          },
+          {
+            "start": 18.0,
+            "end": 18.1,
+            "word": " going",
+            "probability": 0.98782
+          },
+          {
+            "start": 18.1,
+            "end": 18.26,
+            "word": " to",
+            "probability": 0.99612
+          },
+          {
+            "start": 18.26,
+            "end": 18.42,
+            "word": " try",
+            "probability": 0.99757
+          },
+          {
+            "start": 18.42,
+            "end": 18.72,
+            "word": " something",
+            "probability": 0.99867
+          },
+          {
+            "start": 18.72,
+            "end": 19.08,
+            "word": " different.",
+            "probability": 0.99943
+          }
+        ]
+      },
+      {
+        "start": 19.5,
+        "end": 20.64,
+        "text": "I'll do some yoga at home.",
+        "words": [
+          {
+            "start": 19.5,
+            "end": 19.7,
+            "word": " I'll",
+            "probability": 0.99489
+          },
+          {
+            "start": 19.7,
+            "end": 19.82,
+            "word": " do",
+            "probability": 0.99933
+          },
+          {
+            "start": 19.82,
+            "end": 20.0,
+            "word": " some",
+            "probability": 0.99657
+          },
+          {
+            "start": 20.0,
+            "end": 20.2,
+            "word": " yoga",
+            "probability": 0.97928
+          },
+          {
+            "start": 20.2,
+            "end": 20.46,
+            "word": " at",
+            "probability": 0.99608
+          },
+          {
+            "start": 20.46,
+            "end": 20.64,
+            "word": " home.",
+            "probability": 0.99904
+          }
+        ]
+      },
+      {
+        "start": 21.26,
+        "end": 22.74,
+        "text": "It sounds fun and peaceful.",
+        "words": [
+          {
+            "start": 21.26,
+            "end": 21.42,
+            "word": " It",
+            "probability": 0.99355
+          },
+          {
+            "start": 21.42,
+            "end": 21.66,
+            "word": " sounds",
+            "probability": 0.99685
+          },
+          {
+            "start": 21.66,
+            "end": 22.08,
+            "word": " fun",
+            "probability": 0.99369
+          },
+          {
+            "start": 22.08,
+            "end": 22.36,
+            "word": " and",
+            "probability": 0.98613
+          },
+          {
+            "start": 22.36,
+            "end": 22.74,
+            "word": " peaceful.",
+            "probability": 0.99804
+          }
+        ]
+      },
+      {
+        "start": 23.24,
+        "end": 25.7,
+        "text": "After that, I'll probably watch a movie before going to bed.",
+        "words": [
+          {
+            "start": 23.24,
+            "end": 23.46,
+            "word": " After",
+            "probability": 0.99598
+          },
+          {
+            "start": 23.46,
+            "end": 23.66,
+            "word": " that,",
+            "probability": 0.99835
+          },
+          {
+            "start": 23.78,
+            "end": 23.84,
+            "word": " I'll",
+            "probability": 0.99604
+          },
+          {
+            "start": 23.84,
+            "end": 24.2,
+            "word": " probably",
+            "probability": 0.99839
+          },
+          {
+            "start": 24.2,
+            "end": 24.46,
+            "word": " watch",
+            "probability": 0.99846
+          },
+          {
+            "start": 24.46,
+            "end": 24.58,
+            "word": " a",
+            "probability": 0.99834
+          },
+          {
+            "start": 24.58,
+            "end": 24.84,
+            "word": " movie",
+            "probability": 0.99872
+          },
+          {
+            "start": 24.84,
+            "end": 25.14,
+            "word": " before",
+            "probability": 0.99414
+          },
+          {
+            "start": 25.14,
+            "end": 25.4,
+            "word": " going",
+            "probability": 0.99573
+          },
+          {
+            "start": 25.4,
+            "end": 25.52,
+            "word": " to",
+            "probability": 0.99676
+          },
+          {
+            "start": 25.52,
+            "end": 25.7,
+            "word": " bed.",
+            "probability": 0.99901
+          }
+        ]
+      },
+      {
+        "start": 26.04,
+        "end": 27.58,
+        "text": "It's a simple day, but I like it.",
+        "words": [
+          {
+            "start": 26.04,
+            "end": 26.2,
+            "word": " It's",
+            "probability": 0.99633
+          },
+          {
+            "start": 26.2,
+            "end": 26.26,
+            "word": " a",
+            "probability": 0.99728
+          },
+          {
+            "start": 26.26,
+            "end": 26.52,
+            "word": " simple",
+            "probability": 0.99677
+          },
+          {
+            "start": 26.52,
+            "end": 26.78,
+            "word": " day,",
+            "probability": 0.99942
+          },
+          {
+            "start": 27.0,
+            "end": 27.12,
+            "word": " but",
+            "probability": 0.99786
+          },
+          {
+            "start": 27.12,
+            "end": 27.24,
+            "word": " I",
+            "probability": 0.99803
+          },
+          {
+            "start": 27.24,
+            "end": 27.4,
+            "word": " like",
+            "probability": 0.99661
+          },
+          {
+            "start": 27.4,
+            "end": 27.58,
+            "word": " it.",
+            "probability": 0.99952
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q05",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 94,
+            "speechStart": 0.94,
+            "speechEnd": 27.58,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi i'm lily and i want to tell you about my daily routine i wake up early around 6 30 a m and have breakfast before going to work i work in a small office and my job keeps me busy until about 5 p m after dinner i usually go for a walk to relax but today i'm going to try something different i'll do some yoga at home it sounds fun and peaceful after that i'll probably watch a movie before going to bed it's a simple day but i like it",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p2-spk-b",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-2/spk-b.mp3",
+  "audioSha256": "4dc119233a9cbd50e3b0b19a0ec497438c3886f175975eac9dcd3079c486f630",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.66,
+        "end": 3.68,
+        "text": "To protect the environment, I don't drive to work anymore.",
+        "words": [
+          {
+            "start": 0.66,
+            "end": 1.08,
+            "word": " To",
+            "probability": 0.71612
+          },
+          {
+            "start": 1.08,
+            "end": 1.3,
+            "word": " protect",
+            "probability": 0.99667
+          },
+          {
+            "start": 1.3,
+            "end": 1.52,
+            "word": " the",
+            "probability": 0.99598
+          },
+          {
+            "start": 1.52,
+            "end": 1.96,
+            "word": " environment,",
+            "probability": 0.99899
+          },
+          {
+            "start": 2.32,
+            "end": 2.4,
+            "word": " I",
+            "probability": 0.99377
+          },
+          {
+            "start": 2.4,
+            "end": 2.62,
+            "word": " don't",
+            "probability": 0.9956
+          },
+          {
+            "start": 2.62,
+            "end": 2.88,
+            "word": " drive",
+            "probability": 0.9708
+          },
+          {
+            "start": 2.88,
+            "end": 3.1,
+            "word": " to",
+            "probability": 0.99671
+          },
+          {
+            "start": 3.1,
+            "end": 3.26,
+            "word": " work",
+            "probability": 0.99907
+          },
+          {
+            "start": 3.26,
+            "end": 3.68,
+            "word": " anymore.",
+            "probability": 0.88885
+          }
+        ]
+      },
+      {
+        "start": 4.24,
+        "end": 8.62,
+        "text": "Instead, I walk when the weather is nice, or I take the bus.",
+        "words": [
+          {
+            "start": 4.24,
+            "end": 4.72,
+            "word": " Instead,",
+            "probability": 0.99508
+          },
+          {
+            "start": 5.14,
+            "end": 5.54,
+            "word": " I",
+            "probability": 0.99682
+          },
+          {
+            "start": 5.54,
+            "end": 5.76,
+            "word": " walk",
+            "probability": 0.99626
+          },
+          {
+            "start": 5.76,
+            "end": 6.02,
+            "word": " when",
+            "probability": 0.99518
+          },
+          {
+            "start": 6.02,
+            "end": 6.12,
+            "word": " the",
+            "probability": 0.98979
+          },
+          {
+            "start": 6.12,
+            "end": 6.32,
+            "word": " weather",
+            "probability": 0.99937
+          },
+          {
+            "start": 6.32,
+            "end": 6.58,
+            "word": " is",
+            "probability": 0.99377
+          },
+          {
+            "start": 6.58,
+            "end": 6.78,
+            "word": " nice,",
+            "probability": 0.99618
+          },
+          {
+            "start": 7.58,
+            "end": 7.86,
+            "word": " or",
+            "probability": 0.97572
+          },
+          {
+            "start": 7.86,
+            "end": 8.04,
+            "word": " I",
+            "probability": 0.93825
+          },
+          {
+            "start": 8.04,
+            "end": 8.22,
+            "word": " take",
+            "probability": 0.99827
+          },
+          {
+            "start": 8.22,
+            "end": 8.42,
+            "word": " the",
+            "probability": 0.99538
+          },
+          {
+            "start": 8.42,
+            "end": 8.62,
+            "word": " bus.",
+            "probability": 0.99805
+          }
+        ]
+      },
+      {
+        "start": 9.26,
+        "end": 12.68,
+        "text": "It's not only better for the planet, but it also keeps me more active,",
+        "words": [
+          {
+            "start": 9.26,
+            "end": 9.56,
+            "word": " It's",
+            "probability": 0.98797
+          },
+          {
+            "start": 9.56,
+            "end": 9.68,
+            "word": " not",
+            "probability": 0.99734
+          },
+          {
+            "start": 9.68,
+            "end": 9.9,
+            "word": " only",
+            "probability": 0.99861
+          },
+          {
+            "start": 9.9,
+            "end": 10.14,
+            "word": " better",
+            "probability": 0.99889
+          },
+          {
+            "start": 10.14,
+            "end": 10.34,
+            "word": " for",
+            "probability": 0.99876
+          },
+          {
+            "start": 10.34,
+            "end": 10.44,
+            "word": " the",
+            "probability": 0.99836
+          },
+          {
+            "start": 10.44,
+            "end": 10.78,
+            "word": " planet,",
+            "probability": 0.99723
+          },
+          {
+            "start": 11.18,
+            "end": 11.28,
+            "word": " but",
+            "probability": 0.99075
+          },
+          {
+            "start": 11.28,
+            "end": 11.38,
+            "word": " it",
+            "probability": 0.99434
+          },
+          {
+            "start": 11.38,
+            "end": 11.64,
+            "word": " also",
+            "probability": 0.99611
+          },
+          {
+            "start": 11.64,
+            "end": 11.88,
+            "word": " keeps",
+            "probability": 0.99501
+          },
+          {
+            "start": 11.88,
+            "end": 12.1,
+            "word": " me",
+            "probability": 0.99894
+          },
+          {
+            "start": 12.1,
+            "end": 12.3,
+            "word": " more",
+            "probability": 0.98593
+          },
+          {
+            "start": 12.3,
+            "end": 12.68,
+            "word": " active,",
+            "probability": 0.99913
+          }
+        ]
+      },
+      {
+        "start": 13.3,
+        "end": 14.6,
+        "text": "and I enjoy the fresh air.",
+        "words": [
+          {
+            "start": 13.3,
+            "end": 13.42,
+            "word": " and",
+            "probability": 0.99331
+          },
+          {
+            "start": 13.42,
+            "end": 13.54,
+            "word": " I",
+            "probability": 0.99858
+          },
+          {
+            "start": 13.54,
+            "end": 13.86,
+            "word": " enjoy",
+            "probability": 0.99876
+          },
+          {
+            "start": 13.86,
+            "end": 14.02,
+            "word": " the",
+            "probability": 0.99537
+          },
+          {
+            "start": 14.02,
+            "end": 14.28,
+            "word": " fresh",
+            "probability": 0.9982
+          },
+          {
+            "start": 14.28,
+            "end": 14.6,
+            "word": " air.",
+            "probability": 0.99955
+          }
+        ]
+      },
+      {
+        "start": 15.36,
+        "end": 19.26,
+        "text": "By not driving, I use less fuel and help reduce air pollution in the city.",
+        "words": [
+          {
+            "start": 15.36,
+            "end": 15.56,
+            "word": " By",
+            "probability": 0.99512
+          },
+          {
+            "start": 15.56,
+            "end": 15.74,
+            "word": " not",
+            "probability": 0.99789
+          },
+          {
+            "start": 15.74,
+            "end": 16.18,
+            "word": " driving,",
+            "probability": 0.99766
+          },
+          {
+            "start": 16.38,
+            "end": 16.38,
+            "word": " I",
+            "probability": 0.99829
+          },
+          {
+            "start": 16.38,
+            "end": 16.58,
+            "word": " use",
+            "probability": 0.99712
+          },
+          {
+            "start": 16.58,
+            "end": 16.78,
+            "word": " less",
+            "probability": 0.999
+          },
+          {
+            "start": 16.78,
+            "end": 17.14,
+            "word": " fuel",
+            "probability": 0.99944
+          },
+          {
+            "start": 17.14,
+            "end": 17.42,
+            "word": " and",
+            "probability": 0.91247
+          },
+          {
+            "start": 17.42,
+            "end": 17.58,
+            "word": " help",
+            "probability": 0.9932
+          },
+          {
+            "start": 17.58,
+            "end": 17.94,
+            "word": " reduce",
+            "probability": 0.94271
+          },
+          {
+            "start": 17.94,
+            "end": 18.3,
+            "word": " air",
+            "probability": 0.9952
+          },
+          {
+            "start": 18.3,
+            "end": 18.7,
+            "word": " pollution",
+            "probability": 0.99905
+          },
+          {
+            "start": 18.7,
+            "end": 18.9,
+            "word": " in",
+            "probability": 0.98939
+          },
+          {
+            "start": 18.9,
+            "end": 19.0,
+            "word": " the",
+            "probability": 0.99484
+          },
+          {
+            "start": 19.0,
+            "end": 19.26,
+            "word": " city.",
+            "probability": 0.99418
+          }
+        ]
+      },
+      {
+        "start": 19.94,
+        "end": 22.74,
+        "text": "I think if more people chose to walk or use public transport,",
+        "words": [
+          {
+            "start": 19.94,
+            "end": 20.14,
+            "word": " I",
+            "probability": 0.99757
+          },
+          {
+            "start": 20.14,
+            "end": 20.28,
+            "word": " think",
+            "probability": 0.99936
+          },
+          {
+            "start": 20.28,
+            "end": 20.4,
+            "word": " if",
+            "probability": 0.97278
+          },
+          {
+            "start": 20.4,
+            "end": 20.56,
+            "word": " more",
+            "probability": 0.99809
+          },
+          {
+            "start": 20.56,
+            "end": 20.8,
+            "word": " people",
+            "probability": 0.99851
+          },
+          {
+            "start": 20.8,
+            "end": 21.1,
+            "word": " chose",
+            "probability": 0.98247
+          },
+          {
+            "start": 21.1,
+            "end": 21.3,
+            "word": " to",
+            "probability": 0.99854
+          },
+          {
+            "start": 21.3,
+            "end": 21.54,
+            "word": " walk",
+            "probability": 0.99702
+          },
+          {
+            "start": 21.54,
+            "end": 21.72,
+            "word": " or",
+            "probability": 0.9225
+          },
+          {
+            "start": 21.72,
+            "end": 21.86,
+            "word": " use",
+            "probability": 0.9964
+          },
+          {
+            "start": 21.86,
+            "end": 22.14,
+            "word": " public",
+            "probability": 0.99794
+          },
+          {
+            "start": 22.14,
+            "end": 22.74,
+            "word": " transport,",
+            "probability": 0.99878
+          }
+        ]
+      },
+      {
+        "start": 23.02,
+        "end": 27.76,
+        "text": "we could reduce traffic and make our towns and cities cleaner and healthier for everyone.",
+        "words": [
+          {
+            "start": 23.02,
+            "end": 23.18,
+            "word": " we",
+            "probability": 0.99548
+          },
+          {
+            "start": 23.18,
+            "end": 23.32,
+            "word": " could",
+            "probability": 0.99162
+          },
+          {
+            "start": 23.32,
+            "end": 23.62,
+            "word": " reduce",
+            "probability": 0.96847
+          },
+          {
+            "start": 23.62,
+            "end": 24.06,
+            "word": " traffic",
+            "probability": 0.99946
+          },
+          {
+            "start": 24.06,
+            "end": 24.24,
+            "word": " and",
+            "probability": 0.98593
+          },
+          {
+            "start": 24.24,
+            "end": 24.38,
+            "word": " make",
+            "probability": 0.99784
+          },
+          {
+            "start": 24.38,
+            "end": 24.54,
+            "word": " our",
+            "probability": 0.99377
+          },
+          {
+            "start": 24.54,
+            "end": 24.84,
+            "word": " towns",
+            "probability": 0.98552
+          },
+          {
+            "start": 24.84,
+            "end": 25.12,
+            "word": " and",
+            "probability": 0.98186
+          },
+          {
+            "start": 25.12,
+            "end": 25.46,
+            "word": " cities",
+            "probability": 0.99667
+          },
+          {
+            "start": 25.46,
+            "end": 25.96,
+            "word": " cleaner",
+            "probability": 0.97596
+          },
+          {
+            "start": 25.96,
+            "end": 26.62,
+            "word": " and",
+            "probability": 0.9069
+          },
+          {
+            "start": 26.62,
+            "end": 27.0,
+            "word": " healthier",
+            "probability": 0.99337
+          },
+          {
+            "start": 27.0,
+            "end": 27.34,
+            "word": " for",
+            "probability": 0.98908
+          },
+          {
+            "start": 27.34,
+            "end": 27.76,
+            "word": " everyone.",
+            "probability": 0.99577
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-b",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 85,
+            "speechStart": 0.66,
+            "speechEnd": 27.76,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "to protect the environment i don't drive to work anymore instead i walk when the weather is nice or i take the bus it's not only better for the planet but it also keeps me more active and i enjoy the fresh air by not driving i use less fuel and help reduce air pollution in the city i think if more people chose to walk or use public transport we could reduce traffic and make our towns and cities cleaner and healthier for everyone",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

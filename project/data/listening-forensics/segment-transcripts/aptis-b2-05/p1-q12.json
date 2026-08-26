@@ -1,0 +1,637 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p1-q12",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-1/q12.mp3",
+  "audioSha256": "40f1ef4c43ddcd4ddc6770df22d8e1f6e5676a86b6e9002cc0e450862b5017a6",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.01,
+        "end": 3.55,
+        "text": "Hello everyone, I hope you're all having a good day.",
+        "words": [
+          {
+            "start": 1.01,
+            "end": 1.53,
+            "word": " Hello",
+            "probability": 0.90946
+          },
+          {
+            "start": 1.53,
+            "end": 1.99,
+            "word": " everyone,",
+            "probability": 0.50346
+          },
+          {
+            "start": 2.27,
+            "end": 2.35,
+            "word": " I",
+            "probability": 0.9821
+          },
+          {
+            "start": 2.35,
+            "end": 2.49,
+            "word": " hope",
+            "probability": 0.99907
+          },
+          {
+            "start": 2.49,
+            "end": 2.65,
+            "word": " you're",
+            "probability": 0.92722
+          },
+          {
+            "start": 2.65,
+            "end": 2.77,
+            "word": " all",
+            "probability": 0.98869
+          },
+          {
+            "start": 2.77,
+            "end": 3.01,
+            "word": " having",
+            "probability": 0.99351
+          },
+          {
+            "start": 3.01,
+            "end": 3.15,
+            "word": " a",
+            "probability": 0.99204
+          },
+          {
+            "start": 3.15,
+            "end": 3.29,
+            "word": " good",
+            "probability": 0.99544
+          },
+          {
+            "start": 3.29,
+            "end": 3.55,
+            "word": " day.",
+            "probability": 0.99908
+          }
+        ]
+      },
+      {
+        "start": 4.13,
+        "end": 8.57,
+        "text": "I'm your tour guide, and I was really looking forward to showing you around the city today.",
+        "words": [
+          {
+            "start": 4.13,
+            "end": 4.45,
+            "word": " I'm",
+            "probability": 0.98664
+          },
+          {
+            "start": 4.45,
+            "end": 4.57,
+            "word": " your",
+            "probability": 0.99379
+          },
+          {
+            "start": 4.57,
+            "end": 4.75,
+            "word": " tour",
+            "probability": 0.96884
+          },
+          {
+            "start": 4.75,
+            "end": 5.13,
+            "word": " guide,",
+            "probability": 0.99552
+          },
+          {
+            "start": 5.51,
+            "end": 5.63,
+            "word": " and",
+            "probability": 0.98904
+          },
+          {
+            "start": 5.63,
+            "end": 5.71,
+            "word": " I",
+            "probability": 0.99703
+          },
+          {
+            "start": 5.71,
+            "end": 5.85,
+            "word": " was",
+            "probability": 0.98864
+          },
+          {
+            "start": 5.85,
+            "end": 6.15,
+            "word": " really",
+            "probability": 0.98028
+          },
+          {
+            "start": 6.15,
+            "end": 6.47,
+            "word": " looking",
+            "probability": 0.99793
+          },
+          {
+            "start": 6.47,
+            "end": 6.87,
+            "word": " forward",
+            "probability": 0.99759
+          },
+          {
+            "start": 6.87,
+            "end": 7.07,
+            "word": " to",
+            "probability": 0.99657
+          },
+          {
+            "start": 7.07,
+            "end": 7.37,
+            "word": " showing",
+            "probability": 0.99421
+          },
+          {
+            "start": 7.37,
+            "end": 7.57,
+            "word": " you",
+            "probability": 0.99619
+          },
+          {
+            "start": 7.57,
+            "end": 7.81,
+            "word": " around",
+            "probability": 0.99658
+          },
+          {
+            "start": 7.81,
+            "end": 7.99,
+            "word": " the",
+            "probability": 0.98563
+          },
+          {
+            "start": 7.99,
+            "end": 8.23,
+            "word": " city",
+            "probability": 0.97455
+          },
+          {
+            "start": 8.23,
+            "end": 8.57,
+            "word": " today.",
+            "probability": 0.99318
+          }
+        ]
+      },
+      {
+        "start": 9.19,
+        "end": 11.47,
+        "text": "However, there is a small issue.",
+        "words": [
+          {
+            "start": 9.19,
+            "end": 9.67,
+            "word": " However,",
+            "probability": 0.99633
+          },
+          {
+            "start": 10.15,
+            "end": 10.49,
+            "word": " there",
+            "probability": 0.99393
+          },
+          {
+            "start": 10.49,
+            "end": 10.65,
+            "word": " is",
+            "probability": 0.98294
+          },
+          {
+            "start": 10.65,
+            "end": 10.77,
+            "word": " a",
+            "probability": 0.99418
+          },
+          {
+            "start": 10.77,
+            "end": 11.03,
+            "word": " small",
+            "probability": 0.9968
+          },
+          {
+            "start": 11.03,
+            "end": 11.47,
+            "word": " issue.",
+            "probability": 0.99606
+          }
+        ]
+      },
+      {
+        "start": 12.23,
+        "end": 15.43,
+        "text": "The weather is perfect, and transportation is not a problem.",
+        "words": [
+          {
+            "start": 12.23,
+            "end": 12.43,
+            "word": " The",
+            "probability": 0.99341
+          },
+          {
+            "start": 12.43,
+            "end": 12.65,
+            "word": " weather",
+            "probability": 0.99968
+          },
+          {
+            "start": 12.65,
+            "end": 12.85,
+            "word": " is",
+            "probability": 0.99775
+          },
+          {
+            "start": 12.85,
+            "end": 13.23,
+            "word": " perfect,",
+            "probability": 0.99821
+          },
+          {
+            "start": 13.59,
+            "end": 13.77,
+            "word": " and",
+            "probability": 0.99756
+          },
+          {
+            "start": 13.77,
+            "end": 14.31,
+            "word": " transportation",
+            "probability": 0.99339
+          },
+          {
+            "start": 14.31,
+            "end": 14.77,
+            "word": " is",
+            "probability": 0.99359
+          },
+          {
+            "start": 14.77,
+            "end": 14.93,
+            "word": " not",
+            "probability": 0.99729
+          },
+          {
+            "start": 14.93,
+            "end": 15.03,
+            "word": " a",
+            "probability": 0.99927
+          },
+          {
+            "start": 15.03,
+            "end": 15.43,
+            "word": " problem.",
+            "probability": 0.99941
+          }
+        ]
+      },
+      {
+        "start": 15.81,
+        "end": 17.17,
+        "text": "Everything is ready for our trip.",
+        "words": [
+          {
+            "start": 15.81,
+            "end": 16.11,
+            "word": " Everything",
+            "probability": 0.99611
+          },
+          {
+            "start": 16.11,
+            "end": 16.35,
+            "word": " is",
+            "probability": 0.99282
+          },
+          {
+            "start": 16.35,
+            "end": 16.53,
+            "word": " ready",
+            "probability": 0.99822
+          },
+          {
+            "start": 16.53,
+            "end": 16.77,
+            "word": " for",
+            "probability": 0.9987
+          },
+          {
+            "start": 16.77,
+            "end": 16.93,
+            "word": " our",
+            "probability": 0.98561
+          },
+          {
+            "start": 16.93,
+            "end": 17.17,
+            "word": " trip.",
+            "probability": 0.99915
+          }
+        ]
+      },
+      {
+        "start": 17.69,
+        "end": 19.45,
+        "text": "Certainly, these are not the problems.",
+        "words": [
+          {
+            "start": 17.69,
+            "end": 18.09,
+            "word": " Certainly,",
+            "probability": 0.98287
+          },
+          {
+            "start": 18.49,
+            "end": 18.65,
+            "word": " these",
+            "probability": 0.99444
+          },
+          {
+            "start": 18.65,
+            "end": 18.75,
+            "word": " are",
+            "probability": 0.9861
+          },
+          {
+            "start": 18.75,
+            "end": 18.91,
+            "word": " not",
+            "probability": 0.99687
+          },
+          {
+            "start": 18.91,
+            "end": 19.05,
+            "word": " the",
+            "probability": 0.99557
+          },
+          {
+            "start": 19.05,
+            "end": 19.45,
+            "word": " problems.",
+            "probability": 0.99607
+          }
+        ]
+      },
+      {
+        "start": 20.13,
+        "end": 23.15,
+        "text": "Unfortunately, we don't have enough people for the tour today.",
+        "words": [
+          {
+            "start": 20.13,
+            "end": 20.61,
+            "word": " Unfortunately,",
+            "probability": 0.9953
+          },
+          {
+            "start": 21.17,
+            "end": 21.27,
+            "word": " we",
+            "probability": 0.99725
+          },
+          {
+            "start": 21.27,
+            "end": 21.45,
+            "word": " don't",
+            "probability": 0.99766
+          },
+          {
+            "start": 21.45,
+            "end": 21.61,
+            "word": " have",
+            "probability": 0.99741
+          },
+          {
+            "start": 21.61,
+            "end": 21.81,
+            "word": " enough",
+            "probability": 0.99947
+          },
+          {
+            "start": 21.81,
+            "end": 22.21,
+            "word": " people",
+            "probability": 0.99714
+          },
+          {
+            "start": 22.21,
+            "end": 22.45,
+            "word": " for",
+            "probability": 0.99515
+          },
+          {
+            "start": 22.45,
+            "end": 22.57,
+            "word": " the",
+            "probability": 0.99678
+          },
+          {
+            "start": 22.57,
+            "end": 22.77,
+            "word": " tour",
+            "probability": 0.97485
+          },
+          {
+            "start": 22.77,
+            "end": 23.15,
+            "word": " today.",
+            "probability": 0.9969
+          }
+        ]
+      },
+      {
+        "start": 23.79,
+        "end": 26.17,
+        "text": "Because of this, we have to cancel the tour.",
+        "words": [
+          {
+            "start": 23.79,
+            "end": 24.07,
+            "word": " Because",
+            "probability": 0.99302
+          },
+          {
+            "start": 24.07,
+            "end": 24.27,
+            "word": " of",
+            "probability": 0.99926
+          },
+          {
+            "start": 24.27,
+            "end": 24.47,
+            "word": " this,",
+            "probability": 0.99752
+          },
+          {
+            "start": 24.89,
+            "end": 25.07,
+            "word": " we",
+            "probability": 0.99829
+          },
+          {
+            "start": 25.07,
+            "end": 25.23,
+            "word": " have",
+            "probability": 0.99761
+          },
+          {
+            "start": 25.23,
+            "end": 25.41,
+            "word": " to",
+            "probability": 0.99946
+          },
+          {
+            "start": 25.41,
+            "end": 25.69,
+            "word": " cancel",
+            "probability": 0.99819
+          },
+          {
+            "start": 25.69,
+            "end": 25.89,
+            "word": " the",
+            "probability": 0.99916
+          },
+          {
+            "start": 25.89,
+            "end": 26.17,
+            "word": " tour.",
+            "probability": 0.99879
+          }
+        ]
+      },
+      {
+        "start": 26.55,
+        "end": 30.39,
+        "text": "I'm really sorry for the inconvenience, and I hope we can see you next time.",
+        "words": [
+          {
+            "start": 26.55,
+            "end": 26.75,
+            "word": " I'm",
+            "probability": 0.99042
+          },
+          {
+            "start": 26.75,
+            "end": 27.03,
+            "word": " really",
+            "probability": 0.99224
+          },
+          {
+            "start": 27.03,
+            "end": 27.33,
+            "word": " sorry",
+            "probability": 0.99801
+          },
+          {
+            "start": 27.33,
+            "end": 27.61,
+            "word": " for",
+            "probability": 0.99738
+          },
+          {
+            "start": 27.61,
+            "end": 27.73,
+            "word": " the",
+            "probability": 0.99573
+          },
+          {
+            "start": 27.73,
+            "end": 28.47,
+            "word": " inconvenience,",
+            "probability": 0.99899
+          },
+          {
+            "start": 28.71,
+            "end": 28.83,
+            "word": " and",
+            "probability": 0.99294
+          },
+          {
+            "start": 28.83,
+            "end": 28.93,
+            "word": " I",
+            "probability": 0.99302
+          },
+          {
+            "start": 28.93,
+            "end": 29.09,
+            "word": " hope",
+            "probability": 0.99898
+          },
+          {
+            "start": 29.09,
+            "end": 29.23,
+            "word": " we",
+            "probability": 0.99438
+          },
+          {
+            "start": 29.23,
+            "end": 29.37,
+            "word": " can",
+            "probability": 0.99648
+          },
+          {
+            "start": 29.37,
+            "end": 29.63,
+            "word": " see",
+            "probability": 0.99781
+          },
+          {
+            "start": 29.63,
+            "end": 29.81,
+            "word": " you",
+            "probability": 0.99943
+          },
+          {
+            "start": 29.81,
+            "end": 30.03,
+            "word": " next",
+            "probability": 0.99735
+          },
+          {
+            "start": 30.03,
+            "end": 30.39,
+            "word": " time.",
+            "probability": 0.99956
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q12",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 89,
+            "speechStart": 1.01,
+            "speechEnd": 30.39,
+            "sourceTokenCoverage": 0.9888,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9888,
+            "transcript": "hello everyone i hope you're all having a good day i'm your tour guide and i was really looking forward to showing you around the city today however there is a small issue the weather is perfect and transportation is not a problem everything is ready for our trip certainly these are not the problems unfortunately we don't have enough people for the tour today because of this we have to cancel the tour i'm really sorry for the inconvenience and i hope we can see you next time",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

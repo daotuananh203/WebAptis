@@ -1,0 +1,819 @@
+{
+  "testId": "aptis-b2-11",
+  "blockId": "p1-q09",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-11/part-1/q09.mp3",
+  "audioSha256": "d1013917e00c5b633054fd479a1eea5e2b6256206cfe63830da9208ade31a059",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.62,
+        "end": 4.14,
+        "text": "To get to the football club, you just need to head down Main Street.",
+        "words": [
+          {
+            "start": 0.62,
+            "end": 1.06,
+            "word": " To",
+            "probability": 0.31962
+          },
+          {
+            "start": 1.06,
+            "end": 1.18,
+            "word": " get",
+            "probability": 0.97656
+          },
+          {
+            "start": 1.18,
+            "end": 1.32,
+            "word": " to",
+            "probability": 0.98662
+          },
+          {
+            "start": 1.32,
+            "end": 1.46,
+            "word": " the",
+            "probability": 0.97807
+          },
+          {
+            "start": 1.46,
+            "end": 1.66,
+            "word": " football",
+            "probability": 0.64989
+          },
+          {
+            "start": 1.66,
+            "end": 2.12,
+            "word": " club,",
+            "probability": 0.99355
+          },
+          {
+            "start": 2.46,
+            "end": 2.54,
+            "word": " you",
+            "probability": 0.98863
+          },
+          {
+            "start": 2.54,
+            "end": 2.72,
+            "word": " just",
+            "probability": 0.99588
+          },
+          {
+            "start": 2.72,
+            "end": 2.92,
+            "word": " need",
+            "probability": 0.99541
+          },
+          {
+            "start": 2.92,
+            "end": 3.1,
+            "word": " to",
+            "probability": 0.99222
+          },
+          {
+            "start": 3.1,
+            "end": 3.26,
+            "word": " head",
+            "probability": 0.99584
+          },
+          {
+            "start": 3.26,
+            "end": 3.52,
+            "word": " down",
+            "probability": 0.957
+          },
+          {
+            "start": 3.52,
+            "end": 3.76,
+            "word": " Main",
+            "probability": 0.89828
+          },
+          {
+            "start": 3.76,
+            "end": 4.14,
+            "word": " Street.",
+            "probability": 0.95559
+          }
+        ]
+      },
+      {
+        "start": 4.88,
+        "end": 9.42,
+        "text": "Go past the grocery store on your left and then take a right at the traffic light.",
+        "words": [
+          {
+            "start": 4.88,
+            "end": 5.36,
+            "word": " Go",
+            "probability": 0.97012
+          },
+          {
+            "start": 5.36,
+            "end": 5.68,
+            "word": " past",
+            "probability": 0.9236
+          },
+          {
+            "start": 5.68,
+            "end": 5.9,
+            "word": " the",
+            "probability": 0.99329
+          },
+          {
+            "start": 5.9,
+            "end": 6.1,
+            "word": " grocery",
+            "probability": 0.96639
+          },
+          {
+            "start": 6.1,
+            "end": 6.56,
+            "word": " store",
+            "probability": 0.99626
+          },
+          {
+            "start": 6.56,
+            "end": 6.8,
+            "word": " on",
+            "probability": 0.99624
+          },
+          {
+            "start": 6.8,
+            "end": 6.94,
+            "word": " your",
+            "probability": 0.99309
+          },
+          {
+            "start": 6.94,
+            "end": 7.2,
+            "word": " left",
+            "probability": 0.98598
+          },
+          {
+            "start": 7.2,
+            "end": 7.74,
+            "word": " and",
+            "probability": 0.60792
+          },
+          {
+            "start": 7.74,
+            "end": 7.9,
+            "word": " then",
+            "probability": 0.97857
+          },
+          {
+            "start": 7.9,
+            "end": 8.14,
+            "word": " take",
+            "probability": 0.97506
+          },
+          {
+            "start": 8.14,
+            "end": 8.26,
+            "word": " a",
+            "probability": 0.96939
+          },
+          {
+            "start": 8.26,
+            "end": 8.44,
+            "word": " right",
+            "probability": 0.81694
+          },
+          {
+            "start": 8.44,
+            "end": 8.66,
+            "word": " at",
+            "probability": 0.9859
+          },
+          {
+            "start": 8.66,
+            "end": 8.76,
+            "word": " the",
+            "probability": 0.98732
+          },
+          {
+            "start": 8.76,
+            "end": 9.04,
+            "word": " traffic",
+            "probability": 0.96939
+          },
+          {
+            "start": 9.04,
+            "end": 9.42,
+            "word": " light.",
+            "probability": 0.98863
+          }
+        ]
+      },
+      {
+        "start": 10.17,
+        "end": 13.43,
+        "text": "You'll see the library on your right, just keep going straight.",
+        "words": [
+          {
+            "start": 10.17,
+            "end": 10.65,
+            "word": " You'll",
+            "probability": 0.92396
+          },
+          {
+            "start": 10.65,
+            "end": 10.81,
+            "word": " see",
+            "probability": 0.99679
+          },
+          {
+            "start": 10.81,
+            "end": 10.97,
+            "word": " the",
+            "probability": 0.99347
+          },
+          {
+            "start": 10.97,
+            "end": 11.31,
+            "word": " library",
+            "probability": 0.91257
+          },
+          {
+            "start": 11.31,
+            "end": 11.59,
+            "word": " on",
+            "probability": 0.99227
+          },
+          {
+            "start": 11.59,
+            "end": 11.75,
+            "word": " your",
+            "probability": 0.99687
+          },
+          {
+            "start": 11.75,
+            "end": 12.01,
+            "word": " right,",
+            "probability": 0.99289
+          },
+          {
+            "start": 12.37,
+            "end": 12.49,
+            "word": " just",
+            "probability": 0.98665
+          },
+          {
+            "start": 12.49,
+            "end": 12.73,
+            "word": " keep",
+            "probability": 0.99734
+          },
+          {
+            "start": 12.73,
+            "end": 13.03,
+            "word": " going",
+            "probability": 0.99505
+          },
+          {
+            "start": 13.03,
+            "end": 13.43,
+            "word": " straight.",
+            "probability": 0.99853
+          }
+        ]
+      },
+      {
+        "start": 14.28,
+        "end": 17.36,
+        "text": "The football club is right after that, next to the park.",
+        "words": [
+          {
+            "start": 14.28,
+            "end": 14.66,
+            "word": " The",
+            "probability": 0.9837
+          },
+          {
+            "start": 14.66,
+            "end": 14.94,
+            "word": " football",
+            "probability": 0.95905
+          },
+          {
+            "start": 14.94,
+            "end": 15.36,
+            "word": " club",
+            "probability": 0.99766
+          },
+          {
+            "start": 15.36,
+            "end": 15.52,
+            "word": " is",
+            "probability": 0.99638
+          },
+          {
+            "start": 15.52,
+            "end": 15.72,
+            "word": " right",
+            "probability": 0.99312
+          },
+          {
+            "start": 15.72,
+            "end": 16.08,
+            "word": " after",
+            "probability": 0.99599
+          },
+          {
+            "start": 16.08,
+            "end": 16.34,
+            "word": " that,",
+            "probability": 0.99458
+          },
+          {
+            "start": 16.68,
+            "end": 16.8,
+            "word": " next",
+            "probability": 0.99695
+          },
+          {
+            "start": 16.8,
+            "end": 17.0,
+            "word": " to",
+            "probability": 0.99589
+          },
+          {
+            "start": 17.0,
+            "end": 17.1,
+            "word": " the",
+            "probability": 0.99637
+          },
+          {
+            "start": 17.1,
+            "end": 17.36,
+            "word": " park.",
+            "probability": 0.9766
+          }
+        ]
+      },
+      {
+        "start": 18.29,
+        "end": 19.65,
+        "text": "It's pretty easy to find.",
+        "words": [
+          {
+            "start": 18.29,
+            "end": 18.63,
+            "word": " It's",
+            "probability": 0.98852
+          },
+          {
+            "start": 18.63,
+            "end": 18.85,
+            "word": " pretty",
+            "probability": 0.99189
+          },
+          {
+            "start": 18.85,
+            "end": 19.21,
+            "word": " easy",
+            "probability": 0.99899
+          },
+          {
+            "start": 19.21,
+            "end": 19.37,
+            "word": " to",
+            "probability": 0.99676
+          },
+          {
+            "start": 19.37,
+            "end": 19.65,
+            "word": " find.",
+            "probability": 0.9985
+          }
+        ]
+      },
+      {
+        "start": 23.85,
+        "end": 27.09,
+        "text": "To get to the football club, you just need to head down Main Street.",
+        "words": [
+          {
+            "start": 23.85,
+            "end": 23.97,
+            "word": " To",
+            "probability": 0.96335
+          },
+          {
+            "start": 23.97,
+            "end": 24.11,
+            "word": " get",
+            "probability": 0.99765
+          },
+          {
+            "start": 24.11,
+            "end": 24.25,
+            "word": " to",
+            "probability": 0.99527
+          },
+          {
+            "start": 24.25,
+            "end": 24.35,
+            "word": " the",
+            "probability": 0.99524
+          },
+          {
+            "start": 24.35,
+            "end": 24.53,
+            "word": " football",
+            "probability": 0.98465
+          },
+          {
+            "start": 24.53,
+            "end": 25.05,
+            "word": " club,",
+            "probability": 0.99606
+          },
+          {
+            "start": 25.37,
+            "end": 25.45,
+            "word": " you",
+            "probability": 0.99441
+          },
+          {
+            "start": 25.45,
+            "end": 25.65,
+            "word": " just",
+            "probability": 0.99759
+          },
+          {
+            "start": 25.65,
+            "end": 25.85,
+            "word": " need",
+            "probability": 0.99669
+          },
+          {
+            "start": 25.85,
+            "end": 26.01,
+            "word": " to",
+            "probability": 0.99617
+          },
+          {
+            "start": 26.01,
+            "end": 26.19,
+            "word": " head",
+            "probability": 0.99842
+          },
+          {
+            "start": 26.19,
+            "end": 26.45,
+            "word": " down",
+            "probability": 0.97116
+          },
+          {
+            "start": 26.45,
+            "end": 26.67,
+            "word": " Main",
+            "probability": 0.9959
+          },
+          {
+            "start": 26.67,
+            "end": 27.09,
+            "word": " Street.",
+            "probability": 0.99036
+          }
+        ]
+      },
+      {
+        "start": 27.94,
+        "end": 32.34,
+        "text": "Go past the grocery store on your left and then take a right at the traffic light.",
+        "words": [
+          {
+            "start": 27.94,
+            "end": 28.28,
+            "word": " Go",
+            "probability": 0.97896
+          },
+          {
+            "start": 28.28,
+            "end": 28.6,
+            "word": " past",
+            "probability": 0.98128
+          },
+          {
+            "start": 28.6,
+            "end": 28.8,
+            "word": " the",
+            "probability": 0.99475
+          },
+          {
+            "start": 28.8,
+            "end": 29.08,
+            "word": " grocery",
+            "probability": 0.99693
+          },
+          {
+            "start": 29.08,
+            "end": 29.48,
+            "word": " store",
+            "probability": 0.99732
+          },
+          {
+            "start": 29.48,
+            "end": 29.72,
+            "word": " on",
+            "probability": 0.99738
+          },
+          {
+            "start": 29.72,
+            "end": 29.86,
+            "word": " your",
+            "probability": 0.99721
+          },
+          {
+            "start": 29.86,
+            "end": 30.16,
+            "word": " left",
+            "probability": 0.99451
+          },
+          {
+            "start": 30.16,
+            "end": 30.66,
+            "word": " and",
+            "probability": 0.8374
+          },
+          {
+            "start": 30.66,
+            "end": 30.8,
+            "word": " then",
+            "probability": 0.99128
+          },
+          {
+            "start": 30.8,
+            "end": 31.04,
+            "word": " take",
+            "probability": 0.98963
+          },
+          {
+            "start": 31.04,
+            "end": 31.2,
+            "word": " a",
+            "probability": 0.98365
+          },
+          {
+            "start": 31.2,
+            "end": 31.38,
+            "word": " right",
+            "probability": 0.9924
+          },
+          {
+            "start": 31.38,
+            "end": 31.58,
+            "word": " at",
+            "probability": 0.99705
+          },
+          {
+            "start": 31.58,
+            "end": 31.68,
+            "word": " the",
+            "probability": 0.99565
+          },
+          {
+            "start": 31.68,
+            "end": 31.96,
+            "word": " traffic",
+            "probability": 0.99589
+          },
+          {
+            "start": 31.96,
+            "end": 32.34,
+            "word": " light.",
+            "probability": 0.99481
+          }
+        ]
+      },
+      {
+        "start": 33.02,
+        "end": 36.4,
+        "text": "You'll see the library on your right, just keep going straight.",
+        "words": [
+          {
+            "start": 33.02,
+            "end": 33.58,
+            "word": " You'll",
+            "probability": 0.6659
+          },
+          {
+            "start": 33.58,
+            "end": 33.74,
+            "word": " see",
+            "probability": 0.99846
+          },
+          {
+            "start": 33.74,
+            "end": 33.88,
+            "word": " the",
+            "probability": 0.99431
+          },
+          {
+            "start": 33.88,
+            "end": 34.22,
+            "word": " library",
+            "probability": 0.94054
+          },
+          {
+            "start": 34.22,
+            "end": 34.52,
+            "word": " on",
+            "probability": 0.99233
+          },
+          {
+            "start": 34.52,
+            "end": 34.68,
+            "word": " your",
+            "probability": 0.99182
+          },
+          {
+            "start": 34.68,
+            "end": 34.92,
+            "word": " right,",
+            "probability": 0.97455
+          },
+          {
+            "start": 35.3,
+            "end": 35.42,
+            "word": " just",
+            "probability": 0.96874
+          },
+          {
+            "start": 35.42,
+            "end": 35.66,
+            "word": " keep",
+            "probability": 0.9969
+          },
+          {
+            "start": 35.66,
+            "end": 35.96,
+            "word": " going",
+            "probability": 0.99362
+          },
+          {
+            "start": 35.96,
+            "end": 36.4,
+            "word": " straight.",
+            "probability": 0.99773
+          }
+        ]
+      },
+      {
+        "start": 37.3,
+        "end": 40.3,
+        "text": "The football club is right after that, next to the park.",
+        "words": [
+          {
+            "start": 37.3,
+            "end": 37.58,
+            "word": " The",
+            "probability": 0.97337
+          },
+          {
+            "start": 37.58,
+            "end": 37.86,
+            "word": " football",
+            "probability": 0.82188
+          },
+          {
+            "start": 37.86,
+            "end": 38.26,
+            "word": " club",
+            "probability": 0.99514
+          },
+          {
+            "start": 38.26,
+            "end": 38.44,
+            "word": " is",
+            "probability": 0.99598
+          },
+          {
+            "start": 38.44,
+            "end": 38.62,
+            "word": " right",
+            "probability": 0.9923
+          },
+          {
+            "start": 38.62,
+            "end": 39.0,
+            "word": " after",
+            "probability": 0.99422
+          },
+          {
+            "start": 39.0,
+            "end": 39.24,
+            "word": " that,",
+            "probability": 0.99222
+          },
+          {
+            "start": 39.56,
+            "end": 39.76,
+            "word": " next",
+            "probability": 0.99608
+          },
+          {
+            "start": 39.76,
+            "end": 39.92,
+            "word": " to",
+            "probability": 0.99518
+          },
+          {
+            "start": 39.92,
+            "end": 40.02,
+            "word": " the",
+            "probability": 0.99441
+          },
+          {
+            "start": 40.02,
+            "end": 40.3,
+            "word": " park.",
+            "probability": 0.97419
+          }
+        ]
+      },
+      {
+        "start": 41.29,
+        "end": 42.61,
+        "text": "It's pretty easy to find.",
+        "words": [
+          {
+            "start": 41.29,
+            "end": 41.55,
+            "word": " It's",
+            "probability": 0.97708
+          },
+          {
+            "start": 41.55,
+            "end": 41.75,
+            "word": " pretty",
+            "probability": 0.99054
+          },
+          {
+            "start": 41.75,
+            "end": 42.13,
+            "word": " easy",
+            "probability": 0.9989
+          },
+          {
+            "start": 42.13,
+            "end": 42.29,
+            "word": " to",
+            "probability": 0.99727
+          },
+          {
+            "start": 42.29,
+            "end": 42.61,
+            "word": " find.",
+            "probability": 0.99819
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q09",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 58,
+            "speechStart": 0.62,
+            "speechEnd": 19.65,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "to get to the football club you just need to head down main street go past the grocery store on your left and then take a right at the traffic light you'll see the library on your right just keep going straight the football club is right after that next to the park it's pretty easy to find",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 58,
+            "wordEndIndexExclusive": 116,
+            "speechStart": 23.85,
+            "speechEnd": 42.61,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "to get to the football club you just need to head down main street go past the grocery store on your left and then take a right at the traffic light you'll see the library on your right just keep going straight the football club is right after that next to the park it's pretty easy to find",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

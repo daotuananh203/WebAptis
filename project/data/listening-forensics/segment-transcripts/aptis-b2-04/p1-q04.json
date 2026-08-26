@@ -1,0 +1,636 @@
+{
+  "testId": "aptis-b2-04",
+  "blockId": "p1-q04",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-04/part-1/q04.mp3",
+  "audioSha256": "06e3f5d41f77c0669fbf032fde976d76c2faa7826f78fc921841ff014e794fb0",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 6.55,
+        "text": "Many people feel unhappy at work, and often they think a higher salary or less work will fix it.",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.27,
+            "word": " Many",
+            "probability": 0.86118
+          },
+          {
+            "start": 1.27,
+            "end": 1.55,
+            "word": " people",
+            "probability": 0.99107
+          },
+          {
+            "start": 1.55,
+            "end": 1.77,
+            "word": " feel",
+            "probability": 0.99734
+          },
+          {
+            "start": 1.77,
+            "end": 2.11,
+            "word": " unhappy",
+            "probability": 0.99529
+          },
+          {
+            "start": 2.11,
+            "end": 2.41,
+            "word": " at",
+            "probability": 0.99822
+          },
+          {
+            "start": 2.41,
+            "end": 2.63,
+            "word": " work,",
+            "probability": 0.9995
+          },
+          {
+            "start": 2.89,
+            "end": 3.09,
+            "word": " and",
+            "probability": 0.98917
+          },
+          {
+            "start": 3.09,
+            "end": 3.41,
+            "word": " often",
+            "probability": 0.99393
+          },
+          {
+            "start": 3.41,
+            "end": 3.79,
+            "word": " they",
+            "probability": 0.60523
+          },
+          {
+            "start": 3.79,
+            "end": 3.99,
+            "word": " think",
+            "probability": 0.99786
+          },
+          {
+            "start": 3.99,
+            "end": 4.09,
+            "word": " a",
+            "probability": 0.99538
+          },
+          {
+            "start": 4.09,
+            "end": 4.33,
+            "word": " higher",
+            "probability": 0.99301
+          },
+          {
+            "start": 4.33,
+            "end": 4.79,
+            "word": " salary",
+            "probability": 0.98925
+          },
+          {
+            "start": 4.79,
+            "end": 5.11,
+            "word": " or",
+            "probability": 0.94128
+          },
+          {
+            "start": 5.11,
+            "end": 5.35,
+            "word": " less",
+            "probability": 0.99825
+          },
+          {
+            "start": 5.35,
+            "end": 5.77,
+            "word": " work",
+            "probability": 0.99528
+          },
+          {
+            "start": 5.77,
+            "end": 5.95,
+            "word": " will",
+            "probability": 0.98711
+          },
+          {
+            "start": 5.95,
+            "end": 6.23,
+            "word": " fix",
+            "probability": 0.99826
+          },
+          {
+            "start": 6.23,
+            "end": 6.55,
+            "word": " it.",
+            "probability": 0.99471
+          }
+        ]
+      },
+      {
+        "start": 7.21,
+        "end": 8.87,
+        "text": "But that's not always the solution.",
+        "words": [
+          {
+            "start": 7.21,
+            "end": 7.39,
+            "word": " But",
+            "probability": 0.93358
+          },
+          {
+            "start": 7.39,
+            "end": 7.67,
+            "word": " that's",
+            "probability": 0.98489
+          },
+          {
+            "start": 7.67,
+            "end": 7.79,
+            "word": " not",
+            "probability": 0.99348
+          },
+          {
+            "start": 7.79,
+            "end": 8.13,
+            "word": " always",
+            "probability": 0.99625
+          },
+          {
+            "start": 8.13,
+            "end": 8.35,
+            "word": " the",
+            "probability": 0.99257
+          },
+          {
+            "start": 8.35,
+            "end": 8.87,
+            "word": " solution.",
+            "probability": 0.99815
+          }
+        ]
+      },
+      {
+        "start": 9.59,
+        "end": 12.01,
+        "text": "Sometimes the problem is the work environment.",
+        "words": [
+          {
+            "start": 9.59,
+            "end": 10.13,
+            "word": " Sometimes",
+            "probability": 0.99055
+          },
+          {
+            "start": 10.13,
+            "end": 10.49,
+            "word": " the",
+            "probability": 0.53569
+          },
+          {
+            "start": 10.49,
+            "end": 10.91,
+            "word": " problem",
+            "probability": 0.99883
+          },
+          {
+            "start": 10.91,
+            "end": 11.11,
+            "word": " is",
+            "probability": 0.99691
+          },
+          {
+            "start": 11.11,
+            "end": 11.23,
+            "word": " the",
+            "probability": 0.98436
+          },
+          {
+            "start": 11.23,
+            "end": 11.41,
+            "word": " work",
+            "probability": 0.9949
+          },
+          {
+            "start": 11.41,
+            "end": 12.01,
+            "word": " environment.",
+            "probability": 0.9985
+          }
+        ]
+      },
+      {
+        "start": 12.67,
+        "end": 15.55,
+        "text": "A change of place can help improve how we feel at work.",
+        "words": [
+          {
+            "start": 12.67,
+            "end": 12.79,
+            "word": " A",
+            "probability": 0.99119
+          },
+          {
+            "start": 12.79,
+            "end": 13.03,
+            "word": " change",
+            "probability": 0.99462
+          },
+          {
+            "start": 13.03,
+            "end": 13.21,
+            "word": " of",
+            "probability": 0.99118
+          },
+          {
+            "start": 13.21,
+            "end": 13.49,
+            "word": " place",
+            "probability": 0.99013
+          },
+          {
+            "start": 13.49,
+            "end": 13.77,
+            "word": " can",
+            "probability": 0.99851
+          },
+          {
+            "start": 13.77,
+            "end": 13.95,
+            "word": " help",
+            "probability": 0.99799
+          },
+          {
+            "start": 13.95,
+            "end": 14.37,
+            "word": " improve",
+            "probability": 0.99377
+          },
+          {
+            "start": 14.37,
+            "end": 14.69,
+            "word": " how",
+            "probability": 0.99497
+          },
+          {
+            "start": 14.69,
+            "end": 14.85,
+            "word": " we",
+            "probability": 0.99442
+          },
+          {
+            "start": 14.85,
+            "end": 15.09,
+            "word": " feel",
+            "probability": 0.99784
+          },
+          {
+            "start": 15.09,
+            "end": 15.19,
+            "word": " at",
+            "probability": 0.99738
+          },
+          {
+            "start": 15.19,
+            "end": 15.55,
+            "word": " work.",
+            "probability": 0.99974
+          }
+        ]
+      },
+      {
+        "start": 15.95,
+        "end": 19.73,
+        "text": "However, looking for a new job can be stressful and take time.",
+        "words": [
+          {
+            "start": 15.95,
+            "end": 16.23,
+            "word": " However,",
+            "probability": 0.99577
+          },
+          {
+            "start": 16.57,
+            "end": 16.75,
+            "word": " looking",
+            "probability": 0.99587
+          },
+          {
+            "start": 16.75,
+            "end": 16.97,
+            "word": " for",
+            "probability": 0.99878
+          },
+          {
+            "start": 16.97,
+            "end": 17.07,
+            "word": " a",
+            "probability": 0.99908
+          },
+          {
+            "start": 17.07,
+            "end": 17.25,
+            "word": " new",
+            "probability": 0.9983
+          },
+          {
+            "start": 17.25,
+            "end": 17.59,
+            "word": " job",
+            "probability": 0.99941
+          },
+          {
+            "start": 17.59,
+            "end": 18.05,
+            "word": " can",
+            "probability": 0.97539
+          },
+          {
+            "start": 18.05,
+            "end": 18.19,
+            "word": " be",
+            "probability": 0.98693
+          },
+          {
+            "start": 18.19,
+            "end": 18.63,
+            "word": " stressful",
+            "probability": 0.9977
+          },
+          {
+            "start": 18.63,
+            "end": 19.11,
+            "word": " and",
+            "probability": 0.93994
+          },
+          {
+            "start": 19.11,
+            "end": 19.33,
+            "word": " take",
+            "probability": 0.99482
+          },
+          {
+            "start": 19.33,
+            "end": 19.73,
+            "word": " time.",
+            "probability": 0.9983
+          }
+        ]
+      },
+      {
+        "start": 20.35,
+        "end": 24.23,
+        "text": "One option is to ask for a transfer to another branch within the same company.",
+        "words": [
+          {
+            "start": 20.35,
+            "end": 20.55,
+            "word": " One",
+            "probability": 0.99126
+          },
+          {
+            "start": 20.55,
+            "end": 20.91,
+            "word": " option",
+            "probability": 0.9948
+          },
+          {
+            "start": 20.91,
+            "end": 21.11,
+            "word": " is",
+            "probability": 0.99594
+          },
+          {
+            "start": 21.11,
+            "end": 21.23,
+            "word": " to",
+            "probability": 0.99494
+          },
+          {
+            "start": 21.23,
+            "end": 21.47,
+            "word": " ask",
+            "probability": 0.99428
+          },
+          {
+            "start": 21.47,
+            "end": 21.63,
+            "word": " for",
+            "probability": 0.99705
+          },
+          {
+            "start": 21.63,
+            "end": 21.73,
+            "word": " a",
+            "probability": 0.99672
+          },
+          {
+            "start": 21.73,
+            "end": 22.11,
+            "word": " transfer",
+            "probability": 0.99774
+          },
+          {
+            "start": 22.11,
+            "end": 22.31,
+            "word": " to",
+            "probability": 0.99813
+          },
+          {
+            "start": 22.31,
+            "end": 22.57,
+            "word": " another",
+            "probability": 0.996
+          },
+          {
+            "start": 22.57,
+            "end": 22.91,
+            "word": " branch",
+            "probability": 0.9952
+          },
+          {
+            "start": 22.91,
+            "end": 23.31,
+            "word": " within",
+            "probability": 0.989
+          },
+          {
+            "start": 23.31,
+            "end": 23.55,
+            "word": " the",
+            "probability": 0.99781
+          },
+          {
+            "start": 23.55,
+            "end": 23.75,
+            "word": " same",
+            "probability": 0.99659
+          },
+          {
+            "start": 23.75,
+            "end": 24.23,
+            "word": " company.",
+            "probability": 0.99941
+          }
+        ]
+      },
+      {
+        "start": 24.85,
+        "end": 27.69,
+        "text": "This can offer the same benefits as getting a new job",
+        "words": [
+          {
+            "start": 24.85,
+            "end": 25.17,
+            "word": " This",
+            "probability": 0.99471
+          },
+          {
+            "start": 25.17,
+            "end": 25.35,
+            "word": " can",
+            "probability": 0.99723
+          },
+          {
+            "start": 25.35,
+            "end": 25.57,
+            "word": " offer",
+            "probability": 0.99407
+          },
+          {
+            "start": 25.57,
+            "end": 25.77,
+            "word": " the",
+            "probability": 0.99809
+          },
+          {
+            "start": 25.77,
+            "end": 26.03,
+            "word": " same",
+            "probability": 0.99911
+          },
+          {
+            "start": 26.03,
+            "end": 26.47,
+            "word": " benefits",
+            "probability": 0.96966
+          },
+          {
+            "start": 26.47,
+            "end": 26.75,
+            "word": " as",
+            "probability": 0.99794
+          },
+          {
+            "start": 26.75,
+            "end": 26.99,
+            "word": " getting",
+            "probability": 0.9975
+          },
+          {
+            "start": 26.99,
+            "end": 27.13,
+            "word": " a",
+            "probability": 0.99832
+          },
+          {
+            "start": 27.13,
+            "end": 27.29,
+            "word": " new",
+            "probability": 0.99798
+          },
+          {
+            "start": 27.29,
+            "end": 27.69,
+            "word": " job",
+            "probability": 0.99946
+          }
+        ]
+      },
+      {
+        "start": 27.69,
+        "end": 30.77,
+        "text": "without the challenges of starting over somewhere new.",
+        "words": [
+          {
+            "start": 27.69,
+            "end": 28.21,
+            "word": " without",
+            "probability": 0.62225
+          },
+          {
+            "start": 28.21,
+            "end": 28.45,
+            "word": " the",
+            "probability": 0.98963
+          },
+          {
+            "start": 28.45,
+            "end": 28.97,
+            "word": " challenges",
+            "probability": 0.99683
+          },
+          {
+            "start": 28.97,
+            "end": 29.33,
+            "word": " of",
+            "probability": 0.99582
+          },
+          {
+            "start": 29.33,
+            "end": 29.71,
+            "word": " starting",
+            "probability": 0.99105
+          },
+          {
+            "start": 29.71,
+            "end": 30.05,
+            "word": " over",
+            "probability": 0.96251
+          },
+          {
+            "start": 30.05,
+            "end": 30.43,
+            "word": " somewhere",
+            "probability": 0.9758
+          },
+          {
+            "start": 30.43,
+            "end": 30.77,
+            "word": " new.",
+            "probability": 0.99832
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q04",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 90,
+            "speechStart": 0.75,
+            "speechEnd": 30.77,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "many people feel unhappy at work and often they think a higher salary or less work will fix it but that's not always the solution sometimes the problem is the work environment a change of place can help improve how we feel at work however looking for a new job can be stressful and take time 1 option is to ask for a transfer to another branch within the same company this can offer the same benefits as getting a new job without the challenges of starting over somewhere new",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

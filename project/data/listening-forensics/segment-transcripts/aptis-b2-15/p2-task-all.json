@@ -1,0 +1,2611 @@
+{
+  "testId": "aptis-b2-15",
+  "blockId": "p2-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-15/part-2/task-all.mp3",
+  "audioSha256": "9df068a72fbe337a5e79d9fb1804815767effecc24146a807358fdecdc4e943f",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.82,
+        "end": 4.9,
+        "text": "I've always found music to be the best way to unwind after a long day.",
+        "words": [
+          {
+            "start": 0.82,
+            "end": 1.34,
+            "word": " I've",
+            "probability": 0.87275
+          },
+          {
+            "start": 1.34,
+            "end": 1.52,
+            "word": " always",
+            "probability": 0.99606
+          },
+          {
+            "start": 1.52,
+            "end": 1.78,
+            "word": " found",
+            "probability": 0.99736
+          },
+          {
+            "start": 1.78,
+            "end": 2.22,
+            "word": " music",
+            "probability": 0.99167
+          },
+          {
+            "start": 2.22,
+            "end": 2.48,
+            "word": " to",
+            "probability": 0.97819
+          },
+          {
+            "start": 2.48,
+            "end": 2.6,
+            "word": " be",
+            "probability": 0.99615
+          },
+          {
+            "start": 2.6,
+            "end": 2.74,
+            "word": " the",
+            "probability": 0.99087
+          },
+          {
+            "start": 2.74,
+            "end": 3.06,
+            "word": " best",
+            "probability": 0.9974
+          },
+          {
+            "start": 3.06,
+            "end": 3.28,
+            "word": " way",
+            "probability": 0.99655
+          },
+          {
+            "start": 3.28,
+            "end": 3.48,
+            "word": " to",
+            "probability": 0.99734
+          },
+          {
+            "start": 3.48,
+            "end": 3.9,
+            "word": " unwind",
+            "probability": 0.819
+          },
+          {
+            "start": 3.9,
+            "end": 4.26,
+            "word": " after",
+            "probability": 0.94072
+          },
+          {
+            "start": 4.26,
+            "end": 4.38,
+            "word": " a",
+            "probability": 0.99664
+          },
+          {
+            "start": 4.38,
+            "end": 4.58,
+            "word": " long",
+            "probability": 0.99942
+          },
+          {
+            "start": 4.58,
+            "end": 4.9,
+            "word": " day.",
+            "probability": 0.9958
+          }
+        ]
+      },
+      {
+        "start": 5.54,
+        "end": 7.76,
+        "text": "I like to listen to music when I want to relax.",
+        "words": [
+          {
+            "start": 5.54,
+            "end": 5.82,
+            "word": " I",
+            "probability": 0.99292
+          },
+          {
+            "start": 5.82,
+            "end": 5.96,
+            "word": " like",
+            "probability": 0.98804
+          },
+          {
+            "start": 5.96,
+            "end": 6.12,
+            "word": " to",
+            "probability": 0.99692
+          },
+          {
+            "start": 6.12,
+            "end": 6.34,
+            "word": " listen",
+            "probability": 0.99878
+          },
+          {
+            "start": 6.34,
+            "end": 6.5,
+            "word": " to",
+            "probability": 0.99931
+          },
+          {
+            "start": 6.5,
+            "end": 6.76,
+            "word": " music",
+            "probability": 0.99922
+          },
+          {
+            "start": 6.76,
+            "end": 6.98,
+            "word": " when",
+            "probability": 0.9932
+          },
+          {
+            "start": 6.98,
+            "end": 7.1,
+            "word": " I",
+            "probability": 0.99408
+          },
+          {
+            "start": 7.1,
+            "end": 7.26,
+            "word": " want",
+            "probability": 0.99453
+          },
+          {
+            "start": 7.26,
+            "end": 7.42,
+            "word": " to",
+            "probability": 0.99879
+          },
+          {
+            "start": 7.42,
+            "end": 7.76,
+            "word": " relax.",
+            "probability": 0.99797
+          }
+        ]
+      },
+      {
+        "start": 8.68,
+        "end": 13.0,
+        "text": "It helps me switch off from everything, whether I'm lying on the couch or taking a walk",
+        "words": [
+          {
+            "start": 8.68,
+            "end": 8.88,
+            "word": " It",
+            "probability": 0.99489
+          },
+          {
+            "start": 8.88,
+            "end": 9.04,
+            "word": " helps",
+            "probability": 0.99791
+          },
+          {
+            "start": 9.04,
+            "end": 9.26,
+            "word": " me",
+            "probability": 0.98978
+          },
+          {
+            "start": 9.26,
+            "end": 9.62,
+            "word": " switch",
+            "probability": 0.99721
+          },
+          {
+            "start": 9.62,
+            "end": 9.82,
+            "word": " off",
+            "probability": 0.99396
+          },
+          {
+            "start": 9.82,
+            "end": 10.02,
+            "word": " from",
+            "probability": 0.99292
+          },
+          {
+            "start": 10.02,
+            "end": 10.52,
+            "word": " everything,",
+            "probability": 0.99329
+          },
+          {
+            "start": 10.82,
+            "end": 11.06,
+            "word": " whether",
+            "probability": 0.99169
+          },
+          {
+            "start": 11.06,
+            "end": 11.3,
+            "word": " I'm",
+            "probability": 0.99124
+          },
+          {
+            "start": 11.3,
+            "end": 11.5,
+            "word": " lying",
+            "probability": 0.99437
+          },
+          {
+            "start": 11.5,
+            "end": 11.68,
+            "word": " on",
+            "probability": 0.99664
+          },
+          {
+            "start": 11.68,
+            "end": 11.8,
+            "word": " the",
+            "probability": 0.99777
+          },
+          {
+            "start": 11.8,
+            "end": 12.04,
+            "word": " couch",
+            "probability": 0.99974
+          },
+          {
+            "start": 12.04,
+            "end": 12.34,
+            "word": " or",
+            "probability": 0.9802
+          },
+          {
+            "start": 12.34,
+            "end": 12.62,
+            "word": " taking",
+            "probability": 0.99298
+          },
+          {
+            "start": 12.62,
+            "end": 12.82,
+            "word": " a",
+            "probability": 0.99874
+          },
+          {
+            "start": 12.82,
+            "end": 13.0,
+            "word": " walk",
+            "probability": 0.99829
+          }
+        ]
+      },
+      {
+        "start": 13.0,
+        "end": 13.56,
+        "text": "in the park.",
+        "words": [
+          {
+            "start": 13.0,
+            "end": 13.2,
+            "word": " in",
+            "probability": 0.99259
+          },
+          {
+            "start": 13.2,
+            "end": 13.3,
+            "word": " the",
+            "probability": 0.99653
+          },
+          {
+            "start": 13.3,
+            "end": 13.56,
+            "word": " park.",
+            "probability": 0.99539
+          }
+        ]
+      },
+      {
+        "start": 14.08,
+        "end": 18.66,
+        "text": "I usually go for something soft and calming like acoustic or classical music.",
+        "words": [
+          {
+            "start": 14.08,
+            "end": 14.42,
+            "word": " I",
+            "probability": 0.99727
+          },
+          {
+            "start": 14.42,
+            "end": 14.68,
+            "word": " usually",
+            "probability": 0.99929
+          },
+          {
+            "start": 14.68,
+            "end": 14.94,
+            "word": " go",
+            "probability": 0.99914
+          },
+          {
+            "start": 14.94,
+            "end": 15.1,
+            "word": " for",
+            "probability": 0.99762
+          },
+          {
+            "start": 15.1,
+            "end": 15.42,
+            "word": " something",
+            "probability": 0.99804
+          },
+          {
+            "start": 15.42,
+            "end": 15.78,
+            "word": " soft",
+            "probability": 0.99699
+          },
+          {
+            "start": 15.78,
+            "end": 16.16,
+            "word": " and",
+            "probability": 0.99482
+          },
+          {
+            "start": 16.16,
+            "end": 16.52,
+            "word": " calming",
+            "probability": 0.94896
+          },
+          {
+            "start": 16.52,
+            "end": 17.06,
+            "word": " like",
+            "probability": 0.37198
+          },
+          {
+            "start": 17.06,
+            "end": 17.54,
+            "word": " acoustic",
+            "probability": 0.93332
+          },
+          {
+            "start": 17.54,
+            "end": 17.8,
+            "word": " or",
+            "probability": 0.99162
+          },
+          {
+            "start": 17.8,
+            "end": 18.14,
+            "word": " classical",
+            "probability": 0.99314
+          },
+          {
+            "start": 18.14,
+            "end": 18.66,
+            "word": " music.",
+            "probability": 0.99915
+          }
+        ]
+      },
+      {
+        "start": 19.2,
+        "end": 23.24,
+        "text": "It's my way of de-stressing and escaping from all the noise of everyday life.",
+        "words": [
+          {
+            "start": 19.2,
+            "end": 19.54,
+            "word": " It's",
+            "probability": 0.99557
+          },
+          {
+            "start": 19.54,
+            "end": 19.66,
+            "word": " my",
+            "probability": 0.9984
+          },
+          {
+            "start": 19.66,
+            "end": 19.88,
+            "word": " way",
+            "probability": 0.99906
+          },
+          {
+            "start": 19.88,
+            "end": 20.04,
+            "word": " of",
+            "probability": 0.99892
+          },
+          {
+            "start": 20.04,
+            "end": 20.18,
+            "word": " de",
+            "probability": 0.76874
+          },
+          {
+            "start": 20.18,
+            "end": 20.6,
+            "word": "-stressing",
+            "probability": 0.94476
+          },
+          {
+            "start": 20.6,
+            "end": 21.04,
+            "word": " and",
+            "probability": 0.98726
+          },
+          {
+            "start": 21.04,
+            "end": 21.38,
+            "word": " escaping",
+            "probability": 0.97918
+          },
+          {
+            "start": 21.38,
+            "end": 21.7,
+            "word": " from",
+            "probability": 0.99494
+          },
+          {
+            "start": 21.7,
+            "end": 21.92,
+            "word": " all",
+            "probability": 0.99081
+          },
+          {
+            "start": 21.92,
+            "end": 22.04,
+            "word": " the",
+            "probability": 0.99505
+          },
+          {
+            "start": 22.04,
+            "end": 22.28,
+            "word": " noise",
+            "probability": 0.99185
+          },
+          {
+            "start": 22.28,
+            "end": 22.48,
+            "word": " of",
+            "probability": 0.99658
+          },
+          {
+            "start": 22.48,
+            "end": 22.74,
+            "word": " everyday",
+            "probability": 0.78064
+          },
+          {
+            "start": 22.74,
+            "end": 23.24,
+            "word": " life.",
+            "probability": 0.99975
+          }
+        ]
+      },
+      {
+        "start": 23.98,
+        "end": 27.06,
+        "text": "I just close my eyes and the music takes me away.",
+        "words": [
+          {
+            "start": 23.98,
+            "end": 24.4,
+            "word": " I",
+            "probability": 0.99479
+          },
+          {
+            "start": 24.4,
+            "end": 24.54,
+            "word": " just",
+            "probability": 0.99617
+          },
+          {
+            "start": 24.54,
+            "end": 24.82,
+            "word": " close",
+            "probability": 0.98753
+          },
+          {
+            "start": 24.82,
+            "end": 25.14,
+            "word": " my",
+            "probability": 0.99957
+          },
+          {
+            "start": 25.14,
+            "end": 25.44,
+            "word": " eyes",
+            "probability": 0.99707
+          },
+          {
+            "start": 25.44,
+            "end": 25.9,
+            "word": " and",
+            "probability": 0.74412
+          },
+          {
+            "start": 25.9,
+            "end": 26.0,
+            "word": " the",
+            "probability": 0.98956
+          },
+          {
+            "start": 26.0,
+            "end": 26.26,
+            "word": " music",
+            "probability": 0.99884
+          },
+          {
+            "start": 26.26,
+            "end": 26.62,
+            "word": " takes",
+            "probability": 0.9977
+          },
+          {
+            "start": 26.62,
+            "end": 26.8,
+            "word": " me",
+            "probability": 0.99952
+          },
+          {
+            "start": 26.8,
+            "end": 27.06,
+            "word": " away.",
+            "probability": 0.9994
+          }
+        ]
+      },
+      {
+        "start": 27.06,
+        "end": 35.42,
+        "text": "For me, music is a must when I'm studying. I know some people find it distracting, but",
+        "words": [
+          {
+            "start": 27.06,
+            "end": 28.08,
+            "word": " For",
+            "probability": 0.07604
+          },
+          {
+            "start": 29.33,
+            "end": 29.53,
+            "word": " me,",
+            "probability": 0.9965
+          },
+          {
+            "start": 30.07,
+            "end": 30.37,
+            "word": " music",
+            "probability": 0.97478
+          },
+          {
+            "start": 30.37,
+            "end": 30.61,
+            "word": " is",
+            "probability": 0.9974
+          },
+          {
+            "start": 30.61,
+            "end": 30.69,
+            "word": " a",
+            "probability": 0.99347
+          },
+          {
+            "start": 30.69,
+            "end": 30.95,
+            "word": " must",
+            "probability": 0.9875
+          },
+          {
+            "start": 30.95,
+            "end": 31.49,
+            "word": " when",
+            "probability": 0.93371
+          },
+          {
+            "start": 31.49,
+            "end": 31.65,
+            "word": " I'm",
+            "probability": 0.96576
+          },
+          {
+            "start": 31.65,
+            "end": 32.05,
+            "word": " studying.",
+            "probability": 0.99245
+          },
+          {
+            "start": 32.82,
+            "end": 33.14,
+            "word": " I",
+            "probability": 0.99615
+          },
+          {
+            "start": 33.14,
+            "end": 33.28,
+            "word": " know",
+            "probability": 0.99765
+          },
+          {
+            "start": 33.28,
+            "end": 33.48,
+            "word": " some",
+            "probability": 0.99484
+          },
+          {
+            "start": 33.48,
+            "end": 33.82,
+            "word": " people",
+            "probability": 0.9987
+          },
+          {
+            "start": 33.82,
+            "end": 34.12,
+            "word": " find",
+            "probability": 0.99824
+          },
+          {
+            "start": 34.12,
+            "end": 34.26,
+            "word": " it",
+            "probability": 0.99949
+          },
+          {
+            "start": 34.26,
+            "end": 34.78,
+            "word": " distracting,",
+            "probability": 0.99103
+          },
+          {
+            "start": 35.18,
+            "end": 35.42,
+            "word": " but",
+            "probability": 0.99321
+          }
+        ]
+      },
+      {
+        "start": 35.42,
+        "end": 40.21,
+        "text": "I actually concentrate better when there's music playing in the background. I usually",
+        "words": [
+          {
+            "start": 35.42,
+            "end": 35.54,
+            "word": " I",
+            "probability": 0.99752
+          },
+          {
+            "start": 35.54,
+            "end": 35.88,
+            "word": " actually",
+            "probability": 0.99346
+          },
+          {
+            "start": 35.88,
+            "end": 36.4,
+            "word": " concentrate",
+            "probability": 0.99059
+          },
+          {
+            "start": 36.4,
+            "end": 36.86,
+            "word": " better",
+            "probability": 0.99817
+          },
+          {
+            "start": 36.86,
+            "end": 37.14,
+            "word": " when",
+            "probability": 0.99526
+          },
+          {
+            "start": 37.14,
+            "end": 37.34,
+            "word": " there's",
+            "probability": 0.98892
+          },
+          {
+            "start": 37.34,
+            "end": 37.58,
+            "word": " music",
+            "probability": 0.99844
+          },
+          {
+            "start": 37.58,
+            "end": 37.94,
+            "word": " playing",
+            "probability": 0.99543
+          },
+          {
+            "start": 37.94,
+            "end": 38.08,
+            "word": " in",
+            "probability": 0.99714
+          },
+          {
+            "start": 38.08,
+            "end": 38.16,
+            "word": " the",
+            "probability": 0.99856
+          },
+          {
+            "start": 38.16,
+            "end": 38.56,
+            "word": " background.",
+            "probability": 0.99931
+          },
+          {
+            "start": 39.59,
+            "end": 39.91,
+            "word": " I",
+            "probability": 0.98401
+          },
+          {
+            "start": 39.91,
+            "end": 40.21,
+            "word": " usually",
+            "probability": 0.99671
+          }
+        ]
+      },
+      {
+        "start": 40.21,
+        "end": 45.49,
+        "text": "pick something without lyrics, like instrumental or electronic music, so it doesn't interrupt",
+        "words": [
+          {
+            "start": 40.21,
+            "end": 40.53,
+            "word": " pick",
+            "probability": 0.99371
+          },
+          {
+            "start": 40.53,
+            "end": 40.93,
+            "word": " something",
+            "probability": 0.99763
+          },
+          {
+            "start": 40.93,
+            "end": 41.29,
+            "word": " without",
+            "probability": 0.99477
+          },
+          {
+            "start": 41.29,
+            "end": 41.61,
+            "word": " lyrics,",
+            "probability": 0.99491
+          },
+          {
+            "start": 42.13,
+            "end": 42.33,
+            "word": " like",
+            "probability": 0.99765
+          },
+          {
+            "start": 42.33,
+            "end": 42.89,
+            "word": " instrumental",
+            "probability": 0.87763
+          },
+          {
+            "start": 42.89,
+            "end": 43.35,
+            "word": " or",
+            "probability": 0.88422
+          },
+          {
+            "start": 43.35,
+            "end": 43.71,
+            "word": " electronic",
+            "probability": 0.99767
+          },
+          {
+            "start": 43.71,
+            "end": 44.23,
+            "word": " music,",
+            "probability": 0.99851
+          },
+          {
+            "start": 44.57,
+            "end": 44.81,
+            "word": " so",
+            "probability": 0.99785
+          },
+          {
+            "start": 44.81,
+            "end": 44.91,
+            "word": " it",
+            "probability": 0.9969
+          },
+          {
+            "start": 44.91,
+            "end": 45.17,
+            "word": " doesn't",
+            "probability": 0.99877
+          },
+          {
+            "start": 45.17,
+            "end": 45.49,
+            "word": " interrupt",
+            "probability": 0.99833
+          }
+        ]
+      },
+      {
+        "start": 45.49,
+        "end": 50.89,
+        "text": "my thinking. It keeps me focused and helps me stay motivated when I'm working on long assignments",
+        "words": [
+          {
+            "start": 45.49,
+            "end": 45.73,
+            "word": " my",
+            "probability": 0.99927
+          },
+          {
+            "start": 45.73,
+            "end": 46.09,
+            "word": " thinking.",
+            "probability": 0.99872
+          },
+          {
+            "start": 46.85,
+            "end": 47.05,
+            "word": " It",
+            "probability": 0.99646
+          },
+          {
+            "start": 47.05,
+            "end": 47.27,
+            "word": " keeps",
+            "probability": 0.99816
+          },
+          {
+            "start": 47.27,
+            "end": 47.45,
+            "word": " me",
+            "probability": 0.99911
+          },
+          {
+            "start": 47.45,
+            "end": 47.79,
+            "word": " focused",
+            "probability": 0.97938
+          },
+          {
+            "start": 47.79,
+            "end": 48.27,
+            "word": " and",
+            "probability": 0.93915
+          },
+          {
+            "start": 48.27,
+            "end": 48.51,
+            "word": " helps",
+            "probability": 0.99787
+          },
+          {
+            "start": 48.51,
+            "end": 48.63,
+            "word": " me",
+            "probability": 0.99594
+          },
+          {
+            "start": 48.63,
+            "end": 48.83,
+            "word": " stay",
+            "probability": 0.9881
+          },
+          {
+            "start": 48.83,
+            "end": 49.39,
+            "word": " motivated",
+            "probability": 0.99894
+          },
+          {
+            "start": 49.39,
+            "end": 49.63,
+            "word": " when",
+            "probability": 0.99798
+          },
+          {
+            "start": 49.63,
+            "end": 49.79,
+            "word": " I'm",
+            "probability": 0.99605
+          },
+          {
+            "start": 49.79,
+            "end": 50.03,
+            "word": " working",
+            "probability": 0.99922
+          },
+          {
+            "start": 50.03,
+            "end": 50.19,
+            "word": " on",
+            "probability": 0.99823
+          },
+          {
+            "start": 50.19,
+            "end": 50.39,
+            "word": " long",
+            "probability": 0.98261
+          },
+          {
+            "start": 50.39,
+            "end": 50.89,
+            "word": " assignments",
+            "probability": 0.99545
+          }
+        ]
+      },
+      {
+        "start": 50.89,
+        "end": 55.19,
+        "text": "or preparing for exams. It's become part of my study routine now.",
+        "words": [
+          {
+            "start": 50.89,
+            "end": 51.29,
+            "word": " or",
+            "probability": 0.9357
+          },
+          {
+            "start": 51.29,
+            "end": 51.71,
+            "word": " preparing",
+            "probability": 0.99724
+          },
+          {
+            "start": 51.71,
+            "end": 51.95,
+            "word": " for",
+            "probability": 0.99898
+          },
+          {
+            "start": 51.95,
+            "end": 52.41,
+            "word": " exams.",
+            "probability": 0.99626
+          },
+          {
+            "start": 53.11,
+            "end": 53.35,
+            "word": " It's",
+            "probability": 0.99353
+          },
+          {
+            "start": 53.35,
+            "end": 53.57,
+            "word": " become",
+            "probability": 0.998
+          },
+          {
+            "start": 53.57,
+            "end": 53.87,
+            "word": " part",
+            "probability": 0.99732
+          },
+          {
+            "start": 53.87,
+            "end": 54.01,
+            "word": " of",
+            "probability": 0.99469
+          },
+          {
+            "start": 54.01,
+            "end": 54.15,
+            "word": " my",
+            "probability": 0.99826
+          },
+          {
+            "start": 54.15,
+            "end": 54.49,
+            "word": " study",
+            "probability": 0.97157
+          },
+          {
+            "start": 54.49,
+            "end": 54.87,
+            "word": " routine",
+            "probability": 0.99787
+          },
+          {
+            "start": 54.87,
+            "end": 55.19,
+            "word": " now.",
+            "probability": 0.98197
+          }
+        ]
+      },
+      {
+        "start": 57.25,
+        "end": 62.15,
+        "text": "I've always loved singing, so I listen to music whenever I feel like practicing my vocals.",
+        "words": [
+          {
+            "start": 57.25,
+            "end": 57.77,
+            "word": " I've",
+            "probability": 0.35768
+          },
+          {
+            "start": 57.77,
+            "end": 58.01,
+            "word": " always",
+            "probability": 0.97228
+          },
+          {
+            "start": 58.01,
+            "end": 58.29,
+            "word": " loved",
+            "probability": 0.99307
+          },
+          {
+            "start": 58.29,
+            "end": 58.69,
+            "word": " singing,",
+            "probability": 0.99351
+          },
+          {
+            "start": 58.97,
+            "end": 59.03,
+            "word": " so",
+            "probability": 0.9909
+          },
+          {
+            "start": 59.03,
+            "end": 59.13,
+            "word": " I",
+            "probability": 0.99488
+          },
+          {
+            "start": 59.13,
+            "end": 59.35,
+            "word": " listen",
+            "probability": 0.95209
+          },
+          {
+            "start": 59.35,
+            "end": 59.55,
+            "word": " to",
+            "probability": 0.99951
+          },
+          {
+            "start": 59.55,
+            "end": 59.85,
+            "word": " music",
+            "probability": 0.99893
+          },
+          {
+            "start": 59.85,
+            "end": 60.21,
+            "word": " whenever",
+            "probability": 0.99268
+          },
+          {
+            "start": 60.21,
+            "end": 60.55,
+            "word": " I",
+            "probability": 0.99447
+          },
+          {
+            "start": 60.55,
+            "end": 60.77,
+            "word": " feel",
+            "probability": 0.99851
+          },
+          {
+            "start": 60.77,
+            "end": 60.97,
+            "word": " like",
+            "probability": 0.99882
+          },
+          {
+            "start": 60.97,
+            "end": 61.47,
+            "word": " practicing",
+            "probability": 0.9592
+          },
+          {
+            "start": 61.47,
+            "end": 61.77,
+            "word": " my",
+            "probability": 0.99726
+          },
+          {
+            "start": 61.77,
+            "end": 62.15,
+            "word": " vocals.",
+            "probability": 0.99532
+          }
+        ]
+      },
+      {
+        "start": 62.97,
+        "end": 64.97,
+        "text": "It's not just about listening for fun.",
+        "words": [
+          {
+            "start": 62.97,
+            "end": 63.49,
+            "word": " It's",
+            "probability": 0.98139
+          },
+          {
+            "start": 63.49,
+            "end": 63.63,
+            "word": " not",
+            "probability": 0.995
+          },
+          {
+            "start": 63.63,
+            "end": 63.87,
+            "word": " just",
+            "probability": 0.99358
+          },
+          {
+            "start": 63.87,
+            "end": 64.07,
+            "word": " about",
+            "probability": 0.99914
+          },
+          {
+            "start": 64.07,
+            "end": 64.43,
+            "word": " listening",
+            "probability": 0.99694
+          },
+          {
+            "start": 64.43,
+            "end": 64.69,
+            "word": " for",
+            "probability": 0.99474
+          },
+          {
+            "start": 64.69,
+            "end": 64.97,
+            "word": " fun.",
+            "probability": 0.99923
+          }
+        ]
+      },
+      {
+        "start": 65.43,
+        "end": 68.11,
+        "text": "I like to sing along and try to improve my voice.",
+        "words": [
+          {
+            "start": 65.43,
+            "end": 65.55,
+            "word": " I",
+            "probability": 0.99762
+          },
+          {
+            "start": 65.55,
+            "end": 65.71,
+            "word": " like",
+            "probability": 0.99105
+          },
+          {
+            "start": 65.71,
+            "end": 65.93,
+            "word": " to",
+            "probability": 0.99778
+          },
+          {
+            "start": 65.93,
+            "end": 66.19,
+            "word": " sing",
+            "probability": 0.9977
+          },
+          {
+            "start": 66.19,
+            "end": 66.45,
+            "word": " along",
+            "probability": 0.99205
+          },
+          {
+            "start": 66.45,
+            "end": 66.65,
+            "word": " and",
+            "probability": 0.97119
+          },
+          {
+            "start": 66.65,
+            "end": 66.85,
+            "word": " try",
+            "probability": 0.99841
+          },
+          {
+            "start": 66.85,
+            "end": 67.01,
+            "word": " to",
+            "probability": 0.99863
+          },
+          {
+            "start": 67.01,
+            "end": 67.39,
+            "word": " improve",
+            "probability": 0.99596
+          },
+          {
+            "start": 67.39,
+            "end": 67.61,
+            "word": " my",
+            "probability": 0.99912
+          },
+          {
+            "start": 67.61,
+            "end": 68.11,
+            "word": " voice.",
+            "probability": 0.99933
+          }
+        ]
+      },
+      {
+        "start": 68.51,
+        "end": 73.47,
+        "text": "Whether it's pop songs or karaoke tracks, I find it really enjoyable and a great way to",
+        "words": [
+          {
+            "start": 68.51,
+            "end": 68.75,
+            "word": " Whether",
+            "probability": 0.99172
+          },
+          {
+            "start": 68.75,
+            "end": 69.07,
+            "word": " it's",
+            "probability": 0.99251
+          },
+          {
+            "start": 69.07,
+            "end": 69.29,
+            "word": " pop",
+            "probability": 0.9729
+          },
+          {
+            "start": 69.29,
+            "end": 69.85,
+            "word": " songs",
+            "probability": 0.97876
+          },
+          {
+            "start": 69.85,
+            "end": 70.07,
+            "word": " or",
+            "probability": 0.93258
+          },
+          {
+            "start": 70.07,
+            "end": 70.51,
+            "word": " karaoke",
+            "probability": 0.99313
+          },
+          {
+            "start": 70.51,
+            "end": 71.03,
+            "word": " tracks,",
+            "probability": 0.99039
+          },
+          {
+            "start": 71.29,
+            "end": 71.37,
+            "word": " I",
+            "probability": 0.99847
+          },
+          {
+            "start": 71.37,
+            "end": 71.61,
+            "word": " find",
+            "probability": 0.99723
+          },
+          {
+            "start": 71.61,
+            "end": 71.75,
+            "word": " it",
+            "probability": 0.99904
+          },
+          {
+            "start": 71.75,
+            "end": 72.09,
+            "word": " really",
+            "probability": 0.99237
+          },
+          {
+            "start": 72.09,
+            "end": 72.65,
+            "word": " enjoyable",
+            "probability": 0.99931
+          },
+          {
+            "start": 72.65,
+            "end": 72.87,
+            "word": " and",
+            "probability": 0.84592
+          },
+          {
+            "start": 72.87,
+            "end": 72.97,
+            "word": " a",
+            "probability": 0.99664
+          },
+          {
+            "start": 72.97,
+            "end": 73.13,
+            "word": " great",
+            "probability": 0.99801
+          },
+          {
+            "start": 73.13,
+            "end": 73.33,
+            "word": " way",
+            "probability": 0.99924
+          },
+          {
+            "start": 73.33,
+            "end": 73.47,
+            "word": " to",
+            "probability": 0.99878
+          }
+        ]
+      },
+      {
+        "start": 73.47,
+        "end": 74.25,
+        "text": "express myself.",
+        "words": [
+          {
+            "start": 73.47,
+            "end": 73.79,
+            "word": " express",
+            "probability": 0.9986
+          },
+          {
+            "start": 73.79,
+            "end": 74.25,
+            "word": " myself.",
+            "probability": 0.99778
+          }
+        ]
+      },
+      {
+        "start": 75.14,
+        "end": 77.84,
+        "text": "Sometimes I even record myself to see how I'm doing.",
+        "words": [
+          {
+            "start": 75.14,
+            "end": 75.58,
+            "word": " Sometimes",
+            "probability": 0.99307
+          },
+          {
+            "start": 75.58,
+            "end": 75.8,
+            "word": " I",
+            "probability": 0.95073
+          },
+          {
+            "start": 75.8,
+            "end": 76.08,
+            "word": " even",
+            "probability": 0.99939
+          },
+          {
+            "start": 76.08,
+            "end": 76.42,
+            "word": " record",
+            "probability": 0.99881
+          },
+          {
+            "start": 76.42,
+            "end": 76.8,
+            "word": " myself",
+            "probability": 0.99866
+          },
+          {
+            "start": 76.8,
+            "end": 77.06,
+            "word": " to",
+            "probability": 0.99616
+          },
+          {
+            "start": 77.06,
+            "end": 77.26,
+            "word": " see",
+            "probability": 0.99898
+          },
+          {
+            "start": 77.26,
+            "end": 77.42,
+            "word": " how",
+            "probability": 0.99842
+          },
+          {
+            "start": 77.42,
+            "end": 77.62,
+            "word": " I'm",
+            "probability": 0.99409
+          },
+          {
+            "start": 77.62,
+            "end": 77.84,
+            "word": " doing.",
+            "probability": 0.999
+          }
+        ]
+      },
+      {
+        "start": 78.46,
+        "end": 82.06,
+        "text": "It's a fun hobby, and I love exploring new songs and melodies.",
+        "words": [
+          {
+            "start": 78.46,
+            "end": 78.82,
+            "word": " It's",
+            "probability": 0.99715
+          },
+          {
+            "start": 78.82,
+            "end": 78.86,
+            "word": " a",
+            "probability": 0.99672
+          },
+          {
+            "start": 78.86,
+            "end": 79.1,
+            "word": " fun",
+            "probability": 0.99784
+          },
+          {
+            "start": 79.1,
+            "end": 79.42,
+            "word": " hobby,",
+            "probability": 0.99361
+          },
+          {
+            "start": 79.78,
+            "end": 79.98,
+            "word": " and",
+            "probability": 0.9985
+          },
+          {
+            "start": 79.98,
+            "end": 80.12,
+            "word": " I",
+            "probability": 0.99895
+          },
+          {
+            "start": 80.12,
+            "end": 80.4,
+            "word": " love",
+            "probability": 0.9964
+          },
+          {
+            "start": 80.4,
+            "end": 80.94,
+            "word": " exploring",
+            "probability": 0.99833
+          },
+          {
+            "start": 80.94,
+            "end": 81.16,
+            "word": " new",
+            "probability": 0.99822
+          },
+          {
+            "start": 81.16,
+            "end": 81.46,
+            "word": " songs",
+            "probability": 0.99706
+          },
+          {
+            "start": 81.46,
+            "end": 81.72,
+            "word": " and",
+            "probability": 0.99772
+          },
+          {
+            "start": 81.72,
+            "end": 82.06,
+            "word": " melodies.",
+            "probability": 0.99469
+          }
+        ]
+      },
+      {
+        "start": 93.89,
+        "end": 98.77,
+        "text": "I've always loved singing, so I listen to music whenever I feel like practicing my vocals.",
+        "words": [
+          {
+            "start": 93.89,
+            "end": 94.41,
+            "word": " I've",
+            "probability": 0.55125
+          },
+          {
+            "start": 94.41,
+            "end": 94.67,
+            "word": " always",
+            "probability": 0.98214
+          },
+          {
+            "start": 94.67,
+            "end": 94.99,
+            "word": " loved",
+            "probability": 0.99287
+          },
+          {
+            "start": 94.99,
+            "end": 95.37,
+            "word": " singing,",
+            "probability": 0.99453
+          },
+          {
+            "start": 95.61,
+            "end": 95.69,
+            "word": " so",
+            "probability": 0.99456
+          },
+          {
+            "start": 95.69,
+            "end": 95.79,
+            "word": " I",
+            "probability": 0.99493
+          },
+          {
+            "start": 95.79,
+            "end": 96.01,
+            "word": " listen",
+            "probability": 0.96365
+          },
+          {
+            "start": 96.01,
+            "end": 96.21,
+            "word": " to",
+            "probability": 0.99905
+          },
+          {
+            "start": 96.21,
+            "end": 96.49,
+            "word": " music",
+            "probability": 0.99863
+          },
+          {
+            "start": 96.49,
+            "end": 96.89,
+            "word": " whenever",
+            "probability": 0.9945
+          },
+          {
+            "start": 96.89,
+            "end": 97.19,
+            "word": " I",
+            "probability": 0.99739
+          },
+          {
+            "start": 97.19,
+            "end": 97.43,
+            "word": " feel",
+            "probability": 0.99845
+          },
+          {
+            "start": 97.43,
+            "end": 97.61,
+            "word": " like",
+            "probability": 0.99803
+          },
+          {
+            "start": 97.61,
+            "end": 98.15,
+            "word": " practicing",
+            "probability": 0.95977
+          },
+          {
+            "start": 98.15,
+            "end": 98.41,
+            "word": " my",
+            "probability": 0.9965
+          },
+          {
+            "start": 98.41,
+            "end": 98.77,
+            "word": " vocals.",
+            "probability": 0.99371
+          }
+        ]
+      },
+      {
+        "start": 99.63,
+        "end": 104.75,
+        "text": "It's not just about listening for fun. I like to sing along and try to improve my voice.",
+        "words": [
+          {
+            "start": 99.63,
+            "end": 100.15,
+            "word": " It's",
+            "probability": 0.99272
+          },
+          {
+            "start": 100.15,
+            "end": 100.29,
+            "word": " not",
+            "probability": 0.9969
+          },
+          {
+            "start": 100.29,
+            "end": 100.51,
+            "word": " just",
+            "probability": 0.99342
+          },
+          {
+            "start": 100.51,
+            "end": 100.73,
+            "word": " about",
+            "probability": 0.99849
+          },
+          {
+            "start": 100.73,
+            "end": 101.09,
+            "word": " listening",
+            "probability": 0.99648
+          },
+          {
+            "start": 101.09,
+            "end": 101.35,
+            "word": " for",
+            "probability": 0.99636
+          },
+          {
+            "start": 101.35,
+            "end": 101.61,
+            "word": " fun.",
+            "probability": 0.99907
+          },
+          {
+            "start": 102.09,
+            "end": 102.21,
+            "word": " I",
+            "probability": 0.99802
+          },
+          {
+            "start": 102.21,
+            "end": 102.37,
+            "word": " like",
+            "probability": 0.99254
+          },
+          {
+            "start": 102.37,
+            "end": 102.57,
+            "word": " to",
+            "probability": 0.99697
+          },
+          {
+            "start": 102.57,
+            "end": 102.83,
+            "word": " sing",
+            "probability": 0.99802
+          },
+          {
+            "start": 102.83,
+            "end": 103.09,
+            "word": " along",
+            "probability": 0.99049
+          },
+          {
+            "start": 103.09,
+            "end": 103.31,
+            "word": " and",
+            "probability": 0.97324
+          },
+          {
+            "start": 103.31,
+            "end": 103.51,
+            "word": " try",
+            "probability": 0.99755
+          },
+          {
+            "start": 103.51,
+            "end": 103.67,
+            "word": " to",
+            "probability": 0.9972
+          },
+          {
+            "start": 103.67,
+            "end": 104.03,
+            "word": " improve",
+            "probability": 0.99612
+          },
+          {
+            "start": 104.03,
+            "end": 104.25,
+            "word": " my",
+            "probability": 0.99865
+          },
+          {
+            "start": 104.25,
+            "end": 104.75,
+            "word": " voice.",
+            "probability": 0.99907
+          }
+        ]
+      },
+      {
+        "start": 105.15,
+        "end": 110.89,
+        "text": "Whether it's pop songs or karaoke tracks, I find it really enjoyable and a great way to express myself.",
+        "words": [
+          {
+            "start": 105.15,
+            "end": 105.41,
+            "word": " Whether",
+            "probability": 0.99333
+          },
+          {
+            "start": 105.41,
+            "end": 105.71,
+            "word": " it's",
+            "probability": 0.99217
+          },
+          {
+            "start": 105.71,
+            "end": 105.95,
+            "word": " pop",
+            "probability": 0.9682
+          },
+          {
+            "start": 105.95,
+            "end": 106.51,
+            "word": " songs",
+            "probability": 0.9852
+          },
+          {
+            "start": 106.51,
+            "end": 106.71,
+            "word": " or",
+            "probability": 0.89282
+          },
+          {
+            "start": 106.71,
+            "end": 107.15,
+            "word": " karaoke",
+            "probability": 0.99388
+          },
+          {
+            "start": 107.15,
+            "end": 107.69,
+            "word": " tracks,",
+            "probability": 0.98979
+          },
+          {
+            "start": 107.95,
+            "end": 108.03,
+            "word": " I",
+            "probability": 0.99904
+          },
+          {
+            "start": 108.03,
+            "end": 108.25,
+            "word": " find",
+            "probability": 0.99738
+          },
+          {
+            "start": 108.25,
+            "end": 108.39,
+            "word": " it",
+            "probability": 0.9987
+          },
+          {
+            "start": 108.39,
+            "end": 108.73,
+            "word": " really",
+            "probability": 0.98845
+          },
+          {
+            "start": 108.73,
+            "end": 109.31,
+            "word": " enjoyable",
+            "probability": 0.99914
+          },
+          {
+            "start": 109.31,
+            "end": 109.53,
+            "word": " and",
+            "probability": 0.82945
+          },
+          {
+            "start": 109.53,
+            "end": 109.61,
+            "word": " a",
+            "probability": 0.99719
+          },
+          {
+            "start": 109.61,
+            "end": 109.77,
+            "word": " great",
+            "probability": 0.99795
+          },
+          {
+            "start": 109.77,
+            "end": 109.97,
+            "word": " way",
+            "probability": 0.99939
+          },
+          {
+            "start": 109.97,
+            "end": 110.13,
+            "word": " to",
+            "probability": 0.99946
+          },
+          {
+            "start": 110.13,
+            "end": 110.43,
+            "word": " express",
+            "probability": 0.99868
+          },
+          {
+            "start": 110.43,
+            "end": 110.89,
+            "word": " myself.",
+            "probability": 0.99812
+          }
+        ]
+      },
+      {
+        "start": 111.79,
+        "end": 118.71,
+        "text": "Sometimes I even record myself to see how I'm doing. It's a fun hobby, and I love exploring new songs and melodies.",
+        "words": [
+          {
+            "start": 111.79,
+            "end": 112.25,
+            "word": " Sometimes",
+            "probability": 0.99459
+          },
+          {
+            "start": 112.25,
+            "end": 112.45,
+            "word": " I",
+            "probability": 0.88547
+          },
+          {
+            "start": 112.45,
+            "end": 112.73,
+            "word": " even",
+            "probability": 0.99909
+          },
+          {
+            "start": 112.73,
+            "end": 113.07,
+            "word": " record",
+            "probability": 0.999
+          },
+          {
+            "start": 113.07,
+            "end": 113.45,
+            "word": " myself",
+            "probability": 0.99624
+          },
+          {
+            "start": 113.45,
+            "end": 113.71,
+            "word": " to",
+            "probability": 0.99673
+          },
+          {
+            "start": 113.71,
+            "end": 113.91,
+            "word": " see",
+            "probability": 0.99875
+          },
+          {
+            "start": 113.91,
+            "end": 114.07,
+            "word": " how",
+            "probability": 0.99795
+          },
+          {
+            "start": 114.07,
+            "end": 114.27,
+            "word": " I'm",
+            "probability": 0.99412
+          },
+          {
+            "start": 114.27,
+            "end": 114.51,
+            "word": " doing.",
+            "probability": 0.99921
+          },
+          {
+            "start": 115.17,
+            "end": 115.47,
+            "word": " It's",
+            "probability": 0.99781
+          },
+          {
+            "start": 115.47,
+            "end": 115.53,
+            "word": " a",
+            "probability": 0.99869
+          },
+          {
+            "start": 115.53,
+            "end": 115.75,
+            "word": " fun",
+            "probability": 0.99808
+          },
+          {
+            "start": 115.75,
+            "end": 116.09,
+            "word": " hobby,",
+            "probability": 0.9945
+          },
+          {
+            "start": 116.49,
+            "end": 116.63,
+            "word": " and",
+            "probability": 0.99833
+          },
+          {
+            "start": 116.63,
+            "end": 116.77,
+            "word": " I",
+            "probability": 0.99932
+          },
+          {
+            "start": 116.77,
+            "end": 117.05,
+            "word": " love",
+            "probability": 0.99708
+          },
+          {
+            "start": 117.05,
+            "end": 117.59,
+            "word": " exploring",
+            "probability": 0.99844
+          },
+          {
+            "start": 117.59,
+            "end": 117.81,
+            "word": " new",
+            "probability": 0.99766
+          },
+          {
+            "start": 117.81,
+            "end": 118.13,
+            "word": " songs",
+            "probability": 0.99696
+          },
+          {
+            "start": 118.13,
+            "end": 118.37,
+            "word": " and",
+            "probability": 0.99725
+          },
+          {
+            "start": 118.37,
+            "end": 118.71,
+            "word": " melodies.",
+            "probability": 0.99413
+          }
+        ]
+      },
+      {
+        "start": 120.59,
+        "end": 123.71,
+        "text": "I like to start my day with music as soon as I wake up.",
+        "words": [
+          {
+            "start": 120.59,
+            "end": 121.01,
+            "word": " I",
+            "probability": 0.76887
+          },
+          {
+            "start": 121.01,
+            "end": 121.15,
+            "word": " like",
+            "probability": 0.97433
+          },
+          {
+            "start": 121.15,
+            "end": 121.31,
+            "word": " to",
+            "probability": 0.99539
+          },
+          {
+            "start": 121.31,
+            "end": 121.53,
+            "word": " start",
+            "probability": 0.99718
+          },
+          {
+            "start": 121.53,
+            "end": 121.73,
+            "word": " my",
+            "probability": 0.99864
+          },
+          {
+            "start": 121.73,
+            "end": 121.91,
+            "word": " day",
+            "probability": 0.99795
+          },
+          {
+            "start": 121.91,
+            "end": 122.11,
+            "word": " with",
+            "probability": 0.99636
+          },
+          {
+            "start": 122.11,
+            "end": 122.43,
+            "word": " music",
+            "probability": 0.99603
+          },
+          {
+            "start": 122.43,
+            "end": 122.79,
+            "word": " as",
+            "probability": 0.93931
+          },
+          {
+            "start": 122.79,
+            "end": 122.97,
+            "word": " soon",
+            "probability": 0.9947
+          },
+          {
+            "start": 122.97,
+            "end": 123.13,
+            "word": " as",
+            "probability": 0.99715
+          },
+          {
+            "start": 123.13,
+            "end": 123.21,
+            "word": " I",
+            "probability": 0.99505
+          },
+          {
+            "start": 123.21,
+            "end": 123.37,
+            "word": " wake",
+            "probability": 0.99788
+          },
+          {
+            "start": 123.37,
+            "end": 123.71,
+            "word": " up.",
+            "probability": 0.99557
+          }
+        ]
+      },
+      {
+        "start": 123.95,
+        "end": 127.31,
+        "text": "It helps me feel energized and ready for whatever lies ahead.",
+        "words": [
+          {
+            "start": 123.95,
+            "end": 124.37,
+            "word": " It",
+            "probability": 0.98717
+          },
+          {
+            "start": 124.37,
+            "end": 124.53,
+            "word": " helps",
+            "probability": 0.99841
+          },
+          {
+            "start": 124.53,
+            "end": 124.73,
+            "word": " me",
+            "probability": 0.99826
+          },
+          {
+            "start": 124.73,
+            "end": 124.93,
+            "word": " feel",
+            "probability": 0.99798
+          },
+          {
+            "start": 124.93,
+            "end": 125.39,
+            "word": " energized",
+            "probability": 0.98749
+          },
+          {
+            "start": 125.39,
+            "end": 125.91,
+            "word": " and",
+            "probability": 0.97547
+          },
+          {
+            "start": 125.91,
+            "end": 126.19,
+            "word": " ready",
+            "probability": 0.99929
+          },
+          {
+            "start": 126.19,
+            "end": 126.41,
+            "word": " for",
+            "probability": 0.99448
+          },
+          {
+            "start": 126.41,
+            "end": 126.65,
+            "word": " whatever",
+            "probability": 0.99553
+          },
+          {
+            "start": 126.65,
+            "end": 126.95,
+            "word": " lies",
+            "probability": 0.9811
+          },
+          {
+            "start": 126.95,
+            "end": 127.31,
+            "word": " ahead.",
+            "probability": 0.99985
+          }
+        ]
+      },
+      {
+        "start": 128.11,
+        "end": 131.05,
+        "text": "As soon as I get out of bed, I turn on my favorite playlist,",
+        "words": [
+          {
+            "start": 128.11,
+            "end": 128.31,
+            "word": " As",
+            "probability": 0.99332
+          },
+          {
+            "start": 128.31,
+            "end": 128.51,
+            "word": " soon",
+            "probability": 0.99911
+          },
+          {
+            "start": 128.51,
+            "end": 128.65,
+            "word": " as",
+            "probability": 0.99574
+          },
+          {
+            "start": 128.65,
+            "end": 128.73,
+            "word": " I",
+            "probability": 0.99771
+          },
+          {
+            "start": 128.73,
+            "end": 128.83,
+            "word": " get",
+            "probability": 0.99907
+          },
+          {
+            "start": 128.83,
+            "end": 128.95,
+            "word": " out",
+            "probability": 0.99969
+          },
+          {
+            "start": 128.95,
+            "end": 129.05,
+            "word": " of",
+            "probability": 0.99945
+          },
+          {
+            "start": 129.05,
+            "end": 129.25,
+            "word": " bed,",
+            "probability": 0.99962
+          },
+          {
+            "start": 129.77,
+            "end": 129.83,
+            "word": " I",
+            "probability": 0.99659
+          },
+          {
+            "start": 129.83,
+            "end": 129.99,
+            "word": " turn",
+            "probability": 0.99771
+          },
+          {
+            "start": 129.99,
+            "end": 130.11,
+            "word": " on",
+            "probability": 0.99733
+          },
+          {
+            "start": 130.11,
+            "end": 130.27,
+            "word": " my",
+            "probability": 0.99613
+          },
+          {
+            "start": 130.27,
+            "end": 130.63,
+            "word": " favorite",
+            "probability": 0.97322
+          },
+          {
+            "start": 130.63,
+            "end": 131.05,
+            "word": " playlist,",
+            "probability": 0.98009
+          }
+        ]
+      },
+      {
+        "start": 131.71,
+        "end": 134.07,
+        "text": "which is usually full of upbeat, happy songs.",
+        "words": [
+          {
+            "start": 131.71,
+            "end": 131.95,
+            "word": " which",
+            "probability": 0.99695
+          },
+          {
+            "start": 131.95,
+            "end": 132.07,
+            "word": " is",
+            "probability": 0.99921
+          },
+          {
+            "start": 132.07,
+            "end": 132.37,
+            "word": " usually",
+            "probability": 0.99562
+          },
+          {
+            "start": 132.37,
+            "end": 132.57,
+            "word": " full",
+            "probability": 0.99597
+          },
+          {
+            "start": 132.57,
+            "end": 132.71,
+            "word": " of",
+            "probability": 0.99512
+          },
+          {
+            "start": 132.71,
+            "end": 133.09,
+            "word": " upbeat,",
+            "probability": 0.98509
+          },
+          {
+            "start": 133.23,
+            "end": 133.55,
+            "word": " happy",
+            "probability": 0.99178
+          },
+          {
+            "start": 133.55,
+            "end": 134.07,
+            "word": " songs.",
+            "probability": 0.99803
+          }
+        ]
+      },
+      {
+        "start": 134.65,
+        "end": 139.11,
+        "text": "It's like my morning ritual, setting the mood for the day and getting me in a good headspace.",
+        "words": [
+          {
+            "start": 134.65,
+            "end": 135.07,
+            "word": " It's",
+            "probability": 0.99607
+          },
+          {
+            "start": 135.07,
+            "end": 135.17,
+            "word": " like",
+            "probability": 0.99175
+          },
+          {
+            "start": 135.17,
+            "end": 135.33,
+            "word": " my",
+            "probability": 0.99107
+          },
+          {
+            "start": 135.33,
+            "end": 135.63,
+            "word": " morning",
+            "probability": 0.97051
+          },
+          {
+            "start": 135.63,
+            "end": 136.09,
+            "word": " ritual,",
+            "probability": 0.99713
+          },
+          {
+            "start": 136.57,
+            "end": 136.83,
+            "word": " setting",
+            "probability": 0.99604
+          },
+          {
+            "start": 136.83,
+            "end": 137.01,
+            "word": " the",
+            "probability": 0.9965
+          },
+          {
+            "start": 137.01,
+            "end": 137.21,
+            "word": " mood",
+            "probability": 0.9992
+          },
+          {
+            "start": 137.21,
+            "end": 137.39,
+            "word": " for",
+            "probability": 0.99905
+          },
+          {
+            "start": 137.39,
+            "end": 137.51,
+            "word": " the",
+            "probability": 0.99913
+          },
+          {
+            "start": 137.51,
+            "end": 137.73,
+            "word": " day",
+            "probability": 0.99957
+          },
+          {
+            "start": 137.73,
+            "end": 137.91,
+            "word": " and",
+            "probability": 0.847
+          },
+          {
+            "start": 137.91,
+            "end": 138.11,
+            "word": " getting",
+            "probability": 0.99739
+          },
+          {
+            "start": 138.11,
+            "end": 138.31,
+            "word": " me",
+            "probability": 0.99847
+          },
+          {
+            "start": 138.31,
+            "end": 138.39,
+            "word": " in",
+            "probability": 0.99483
+          },
+          {
+            "start": 138.39,
+            "end": 138.45,
+            "word": " a",
+            "probability": 0.97454
+          },
+          {
+            "start": 138.45,
+            "end": 138.61,
+            "word": " good",
+            "probability": 0.99806
+          },
+          {
+            "start": 138.61,
+            "end": 139.11,
+            "word": " headspace.",
+            "probability": 0.73388
+          }
+        ]
+      },
+      {
+        "start": 140.07,
+        "end": 143.29,
+        "text": "Music really helps kickstart my mornings on a positive note.",
+        "words": [
+          {
+            "start": 140.07,
+            "end": 140.41,
+            "word": " Music",
+            "probability": 0.98491
+          },
+          {
+            "start": 140.41,
+            "end": 140.77,
+            "word": " really",
+            "probability": 0.9971
+          },
+          {
+            "start": 140.77,
+            "end": 141.09,
+            "word": " helps",
+            "probability": 0.99814
+          },
+          {
+            "start": 141.09,
+            "end": 141.59,
+            "word": " kickstart",
+            "probability": 0.86165
+          },
+          {
+            "start": 141.59,
+            "end": 141.81,
+            "word": " my",
+            "probability": 0.99875
+          },
+          {
+            "start": 141.81,
+            "end": 142.15,
+            "word": " mornings",
+            "probability": 0.93594
+          },
+          {
+            "start": 142.15,
+            "end": 142.39,
+            "word": " on",
+            "probability": 0.9984
+          },
+          {
+            "start": 142.39,
+            "end": 142.51,
+            "word": " a",
+            "probability": 0.9977
+          },
+          {
+            "start": 142.51,
+            "end": 142.93,
+            "word": " positive",
+            "probability": 0.99806
+          },
+          {
+            "start": 142.93,
+            "end": 143.29,
+            "word": " note.",
+            "probability": 0.99963
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-a",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 85,
+            "speechStart": 0.82,
+            "speechEnd": 27.06,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i've always found music to be the best way to unwind after a long day i like to listen to music when i want to relax it helps me switch off from everything whether i'm lying on the couch or taking a walk in the park i usually go for something soft and calming like acoustic or classical music it's my way of de stressing and escaping from all the noise of everyday life i just close my eyes and the music takes me away",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-b",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 85,
+            "wordEndIndexExclusive": 157,
+            "speechStart": 27.06,
+            "speechEnd": 55.19,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "for me music is a must when i'm studying i know some people find it distracting but i actually concentrate better when there's music playing in the background i usually pick something without lyrics like instrumental or electronic music so it doesn't interrupt my thinking it keeps me focused and helps me stay motivated when i'm working on long assignments or preparing for exams it's become part of my study routine now",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-c",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 157,
+            "wordEndIndexExclusive": 232,
+            "speechStart": 57.25,
+            "speechEnd": 82.06,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i've always loved singing so i listen to music whenever i feel like practicing my vocals it's not just about listening for fun i like to sing along and try to improve my voice whether it's pop songs or karaoke tracks i find it really enjoyable and a great way to express myself sometimes i even record myself to see how i'm doing it's a fun hobby and i love exploring new songs and melodies",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 232,
+            "wordEndIndexExclusive": 307,
+            "speechStart": 93.89,
+            "speechEnd": 118.71,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i've always loved singing so i listen to music whenever i feel like practicing my vocals it's not just about listening for fun i like to sing along and try to improve my voice whether it's pop songs or karaoke tracks i find it really enjoyable and a great way to express myself sometimes i even record myself to see how i'm doing it's a fun hobby and i love exploring new songs and melodies",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-d",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 307,
+            "wordEndIndexExclusive": 382,
+            "speechStart": 120.59,
+            "speechEnd": 143.29,
+            "sourceTokenCoverage": 0.9737,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9801,
+            "transcript": "i like to start my day with music as soon as i wake up it helps me feel energized and ready for whatever lies ahead as soon as i get out of bed i turn on my favorite playlist which is usually full of upbeat happy songs it's like my morning ritual setting the mood for the day and getting me in a good headspace music really helps kickstart my mornings on a positive note",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

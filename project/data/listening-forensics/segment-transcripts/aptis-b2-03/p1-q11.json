@@ -1,0 +1,489 @@
+{
+  "testId": "aptis-b2-03",
+  "blockId": "p1-q11",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-03/part-1/q11.mp3",
+  "audioSha256": "f90959cc06dbce819d738996b0371435ff8f4d65fe5f046e5cb033ee446f28ad",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.82,
+        "end": 4.38,
+        "text": "I'm usually exhausted because my job can be really tough.",
+        "words": [
+          {
+            "start": 0.82,
+            "end": 1.36,
+            "word": " I'm",
+            "probability": 0.96012
+          },
+          {
+            "start": 1.36,
+            "end": 1.72,
+            "word": " usually",
+            "probability": 0.99846
+          },
+          {
+            "start": 1.72,
+            "end": 2.3,
+            "word": " exhausted",
+            "probability": 0.99466
+          },
+          {
+            "start": 2.3,
+            "end": 2.72,
+            "word": " because",
+            "probability": 0.96387
+          },
+          {
+            "start": 2.72,
+            "end": 2.98,
+            "word": " my",
+            "probability": 0.99774
+          },
+          {
+            "start": 2.98,
+            "end": 3.24,
+            "word": " job",
+            "probability": 0.99668
+          },
+          {
+            "start": 3.24,
+            "end": 3.52,
+            "word": " can",
+            "probability": 0.99596
+          },
+          {
+            "start": 3.52,
+            "end": 3.66,
+            "word": " be",
+            "probability": 0.98422
+          },
+          {
+            "start": 3.66,
+            "end": 4.02,
+            "word": " really",
+            "probability": 0.96538
+          },
+          {
+            "start": 4.02,
+            "end": 4.38,
+            "word": " tough.",
+            "probability": 0.9973
+          }
+        ]
+      },
+      {
+        "start": 5.08,
+        "end": 9.48,
+        "text": "I always look forward to 5 o'clock so I can finally check out and head home.",
+        "words": [
+          {
+            "start": 5.08,
+            "end": 5.24,
+            "word": " I",
+            "probability": 0.99429
+          },
+          {
+            "start": 5.24,
+            "end": 5.5,
+            "word": " always",
+            "probability": 0.99127
+          },
+          {
+            "start": 5.5,
+            "end": 5.72,
+            "word": " look",
+            "probability": 0.99693
+          },
+          {
+            "start": 5.72,
+            "end": 6.04,
+            "word": " forward",
+            "probability": 0.99396
+          },
+          {
+            "start": 6.04,
+            "end": 6.24,
+            "word": " to",
+            "probability": 0.99196
+          },
+          {
+            "start": 6.24,
+            "end": 6.5,
+            "word": " 5",
+            "probability": 0.66012
+          },
+          {
+            "start": 6.5,
+            "end": 6.62,
+            "word": " o",
+            "probability": 0.92056
+          },
+          {
+            "start": 6.62,
+            "end": 6.92,
+            "word": "'clock",
+            "probability": 0.97752
+          },
+          {
+            "start": 6.92,
+            "end": 7.26,
+            "word": " so",
+            "probability": 0.75104
+          },
+          {
+            "start": 7.26,
+            "end": 7.36,
+            "word": " I",
+            "probability": 0.99112
+          },
+          {
+            "start": 7.36,
+            "end": 7.46,
+            "word": " can",
+            "probability": 0.99647
+          },
+          {
+            "start": 7.46,
+            "end": 7.88,
+            "word": " finally",
+            "probability": 0.99288
+          },
+          {
+            "start": 7.88,
+            "end": 8.14,
+            "word": " check",
+            "probability": 0.98588
+          },
+          {
+            "start": 8.14,
+            "end": 8.46,
+            "word": " out",
+            "probability": 0.99038
+          },
+          {
+            "start": 8.46,
+            "end": 8.88,
+            "word": " and",
+            "probability": 0.87517
+          },
+          {
+            "start": 8.88,
+            "end": 9.08,
+            "word": " head",
+            "probability": 0.99506
+          },
+          {
+            "start": 9.08,
+            "end": 9.48,
+            "word": " home.",
+            "probability": 0.99836
+          }
+        ]
+      },
+      {
+        "start": 9.98,
+        "end": 14.12,
+        "text": "Luckily, I live close by, which makes my evening routine a bit easier.",
+        "words": [
+          {
+            "start": 9.98,
+            "end": 10.32,
+            "word": " Luckily,",
+            "probability": 0.98775
+          },
+          {
+            "start": 10.78,
+            "end": 10.9,
+            "word": " I",
+            "probability": 0.99756
+          },
+          {
+            "start": 10.9,
+            "end": 11.06,
+            "word": " live",
+            "probability": 0.99289
+          },
+          {
+            "start": 11.06,
+            "end": 11.3,
+            "word": " close",
+            "probability": 0.99258
+          },
+          {
+            "start": 11.3,
+            "end": 11.68,
+            "word": " by,",
+            "probability": 0.92106
+          },
+          {
+            "start": 11.94,
+            "end": 12.12,
+            "word": " which",
+            "probability": 0.99782
+          },
+          {
+            "start": 12.12,
+            "end": 12.28,
+            "word": " makes",
+            "probability": 0.99599
+          },
+          {
+            "start": 12.28,
+            "end": 12.52,
+            "word": " my",
+            "probability": 0.99699
+          },
+          {
+            "start": 12.52,
+            "end": 12.84,
+            "word": " evening",
+            "probability": 0.99447
+          },
+          {
+            "start": 12.84,
+            "end": 13.28,
+            "word": " routine",
+            "probability": 0.99873
+          },
+          {
+            "start": 13.28,
+            "end": 13.58,
+            "word": " a",
+            "probability": 0.99141
+          },
+          {
+            "start": 13.58,
+            "end": 13.7,
+            "word": " bit",
+            "probability": 0.98597
+          },
+          {
+            "start": 13.7,
+            "end": 14.12,
+            "word": " easier.",
+            "probability": 0.99699
+          }
+        ]
+      },
+      {
+        "start": 14.7,
+        "end": 18.96,
+        "text": "I like to go for a run after work to clear my mind and shake off the stress.",
+        "words": [
+          {
+            "start": 14.7,
+            "end": 14.88,
+            "word": " I",
+            "probability": 0.99747
+          },
+          {
+            "start": 14.88,
+            "end": 15.02,
+            "word": " like",
+            "probability": 0.97857
+          },
+          {
+            "start": 15.02,
+            "end": 15.2,
+            "word": " to",
+            "probability": 0.99274
+          },
+          {
+            "start": 15.2,
+            "end": 15.36,
+            "word": " go",
+            "probability": 0.99782
+          },
+          {
+            "start": 15.36,
+            "end": 15.56,
+            "word": " for",
+            "probability": 0.99299
+          },
+          {
+            "start": 15.56,
+            "end": 15.7,
+            "word": " a",
+            "probability": 0.9961
+          },
+          {
+            "start": 15.7,
+            "end": 15.9,
+            "word": " run",
+            "probability": 0.99868
+          },
+          {
+            "start": 15.9,
+            "end": 16.3,
+            "word": " after",
+            "probability": 0.87452
+          },
+          {
+            "start": 16.3,
+            "end": 16.58,
+            "word": " work",
+            "probability": 0.99521
+          },
+          {
+            "start": 16.58,
+            "end": 16.86,
+            "word": " to",
+            "probability": 0.95934
+          },
+          {
+            "start": 16.86,
+            "end": 17.12,
+            "word": " clear",
+            "probability": 0.99849
+          },
+          {
+            "start": 17.12,
+            "end": 17.3,
+            "word": " my",
+            "probability": 0.99919
+          },
+          {
+            "start": 17.3,
+            "end": 17.68,
+            "word": " mind",
+            "probability": 0.9991
+          },
+          {
+            "start": 17.68,
+            "end": 17.94,
+            "word": " and",
+            "probability": 0.99165
+          },
+          {
+            "start": 17.94,
+            "end": 18.22,
+            "word": " shake",
+            "probability": 0.98562
+          },
+          {
+            "start": 18.22,
+            "end": 18.46,
+            "word": " off",
+            "probability": 0.99619
+          },
+          {
+            "start": 18.46,
+            "end": 18.62,
+            "word": " the",
+            "probability": 0.98871
+          },
+          {
+            "start": 18.62,
+            "end": 18.96,
+            "word": " stress.",
+            "probability": 0.99908
+          }
+        ]
+      },
+      {
+        "start": 19.66,
+        "end": 22.72,
+        "text": "It helps me feel refreshed and ready for the next day.",
+        "words": [
+          {
+            "start": 19.66,
+            "end": 19.8,
+            "word": " It",
+            "probability": 0.99303
+          },
+          {
+            "start": 19.8,
+            "end": 20.0,
+            "word": " helps",
+            "probability": 0.99726
+          },
+          {
+            "start": 20.0,
+            "end": 20.2,
+            "word": " me",
+            "probability": 0.99521
+          },
+          {
+            "start": 20.2,
+            "end": 20.5,
+            "word": " feel",
+            "probability": 0.99757
+          },
+          {
+            "start": 20.5,
+            "end": 21.06,
+            "word": " refreshed",
+            "probability": 0.99514
+          },
+          {
+            "start": 21.06,
+            "end": 21.46,
+            "word": " and",
+            "probability": 0.98751
+          },
+          {
+            "start": 21.46,
+            "end": 21.76,
+            "word": " ready",
+            "probability": 0.99841
+          },
+          {
+            "start": 21.76,
+            "end": 22.02,
+            "word": " for",
+            "probability": 0.99665
+          },
+          {
+            "start": 22.02,
+            "end": 22.14,
+            "word": " the",
+            "probability": 0.99607
+          },
+          {
+            "start": 22.14,
+            "end": 22.4,
+            "word": " next",
+            "probability": 0.99949
+          },
+          {
+            "start": 22.4,
+            "end": 22.72,
+            "word": " day.",
+            "probability": 0.99618
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q11",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 69,
+            "speechStart": 0.82,
+            "speechEnd": 22.72,
+            "sourceTokenCoverage": 0.9571,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.964,
+            "transcript": "i'm usually exhausted because my job can be really tough i always look forward to 5 o clock so i can finally check out and head home luckily i live close by which makes my evening routine a bit easier i like to go for a run after work to clear my mind and shake off the stress it helps me feel refreshed and ready for the next day",
+            "openingMatch": 0.7111,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,714 @@
+{
+  "testId": "aptis-b2-07",
+  "blockId": "p1-q09",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-07/part-1/q09.mp3",
+  "audioSha256": "feeb7538ea1208b5b88e0efd921eae0b865d42875f107d9fad3af16d6963d137",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 3.9,
+        "text": "Hey, Sarah, are you excited about our trip next week?",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.24,
+            "word": " Hey,",
+            "probability": 0.41074
+          },
+          {
+            "start": 1.38,
+            "end": 1.6,
+            "word": " Sarah,",
+            "probability": 0.80118
+          },
+          {
+            "start": 1.98,
+            "end": 2.14,
+            "word": " are",
+            "probability": 0.98999
+          },
+          {
+            "start": 2.14,
+            "end": 2.26,
+            "word": " you",
+            "probability": 0.99793
+          },
+          {
+            "start": 2.26,
+            "end": 2.6,
+            "word": " excited",
+            "probability": 0.99752
+          },
+          {
+            "start": 2.6,
+            "end": 2.86,
+            "word": " about",
+            "probability": 0.99725
+          },
+          {
+            "start": 2.86,
+            "end": 3.08,
+            "word": " our",
+            "probability": 0.99526
+          },
+          {
+            "start": 3.08,
+            "end": 3.28,
+            "word": " trip",
+            "probability": 0.99842
+          },
+          {
+            "start": 3.28,
+            "end": 3.6,
+            "word": " next",
+            "probability": 0.9966
+          },
+          {
+            "start": 3.6,
+            "end": 3.9,
+            "word": " week?",
+            "probability": 0.99907
+          }
+        ]
+      },
+      {
+        "start": 4.7,
+        "end": 8.8,
+        "text": "Hi, Mike. Yes, I can't wait. I've been looking forward to it for a long time.",
+        "words": [
+          {
+            "start": 4.7,
+            "end": 4.86,
+            "word": " Hi,",
+            "probability": 0.89109
+          },
+          {
+            "start": 4.98,
+            "end": 5.06,
+            "word": " Mike.",
+            "probability": 0.91295
+          },
+          {
+            "start": 5.58,
+            "end": 5.72,
+            "word": " Yes,",
+            "probability": 0.98755
+          },
+          {
+            "start": 6.16,
+            "end": 6.3,
+            "word": " I",
+            "probability": 0.9956
+          },
+          {
+            "start": 6.3,
+            "end": 6.54,
+            "word": " can't",
+            "probability": 0.99591
+          },
+          {
+            "start": 6.54,
+            "end": 6.7,
+            "word": " wait.",
+            "probability": 0.99906
+          },
+          {
+            "start": 7.06,
+            "end": 7.14,
+            "word": " I've",
+            "probability": 0.99233
+          },
+          {
+            "start": 7.14,
+            "end": 7.26,
+            "word": " been",
+            "probability": 0.99941
+          },
+          {
+            "start": 7.26,
+            "end": 7.42,
+            "word": " looking",
+            "probability": 0.99727
+          },
+          {
+            "start": 7.42,
+            "end": 7.66,
+            "word": " forward",
+            "probability": 0.99126
+          },
+          {
+            "start": 7.66,
+            "end": 7.86,
+            "word": " to",
+            "probability": 0.99013
+          },
+          {
+            "start": 7.86,
+            "end": 7.94,
+            "word": " it",
+            "probability": 0.99651
+          },
+          {
+            "start": 7.94,
+            "end": 8.08,
+            "word": " for",
+            "probability": 0.99725
+          },
+          {
+            "start": 8.08,
+            "end": 8.16,
+            "word": " a",
+            "probability": 0.99801
+          },
+          {
+            "start": 8.16,
+            "end": 8.36,
+            "word": " long",
+            "probability": 0.99888
+          },
+          {
+            "start": 8.36,
+            "end": 8.8,
+            "word": " time.",
+            "probability": 0.99905
+          }
+        ]
+      },
+      {
+        "start": 9.3,
+        "end": 14.22,
+        "text": "Me too. But I heard the weather is going to be cold and wet. We should prepare for that.",
+        "words": [
+          {
+            "start": 9.3,
+            "end": 9.42,
+            "word": " Me",
+            "probability": 0.95311
+          },
+          {
+            "start": 9.42,
+            "end": 9.66,
+            "word": " too.",
+            "probability": 0.66736
+          },
+          {
+            "start": 10.3,
+            "end": 10.62,
+            "word": " But",
+            "probability": 0.96081
+          },
+          {
+            "start": 10.62,
+            "end": 10.7,
+            "word": " I",
+            "probability": 0.98302
+          },
+          {
+            "start": 10.7,
+            "end": 10.82,
+            "word": " heard",
+            "probability": 0.98437
+          },
+          {
+            "start": 10.82,
+            "end": 10.98,
+            "word": " the",
+            "probability": 0.99156
+          },
+          {
+            "start": 10.98,
+            "end": 11.18,
+            "word": " weather",
+            "probability": 0.99961
+          },
+          {
+            "start": 11.18,
+            "end": 11.34,
+            "word": " is",
+            "probability": 0.85234
+          },
+          {
+            "start": 11.34,
+            "end": 11.46,
+            "word": " going",
+            "probability": 0.63891
+          },
+          {
+            "start": 11.46,
+            "end": 11.5,
+            "word": " to",
+            "probability": 0.99626
+          },
+          {
+            "start": 11.5,
+            "end": 11.6,
+            "word": " be",
+            "probability": 0.99793
+          },
+          {
+            "start": 11.6,
+            "end": 11.96,
+            "word": " cold",
+            "probability": 0.99775
+          },
+          {
+            "start": 11.96,
+            "end": 12.2,
+            "word": " and",
+            "probability": 0.99659
+          },
+          {
+            "start": 12.2,
+            "end": 12.42,
+            "word": " wet.",
+            "probability": 0.99878
+          },
+          {
+            "start": 13.08,
+            "end": 13.3,
+            "word": " We",
+            "probability": 0.99654
+          },
+          {
+            "start": 13.3,
+            "end": 13.44,
+            "word": " should",
+            "probability": 0.99901
+          },
+          {
+            "start": 13.44,
+            "end": 13.72,
+            "word": " prepare",
+            "probability": 0.99796
+          },
+          {
+            "start": 13.72,
+            "end": 14.0,
+            "word": " for",
+            "probability": 0.99972
+          },
+          {
+            "start": 14.0,
+            "end": 14.22,
+            "word": " that.",
+            "probability": 0.99881
+          }
+        ]
+      },
+      {
+        "start": 14.91,
+        "end": 19.99,
+        "text": "Oh no. I hope it doesn't rain too much. We need to pack our rain jackets and warm clothes.",
+        "words": [
+          {
+            "start": 14.91,
+            "end": 15.21,
+            "word": " Oh",
+            "probability": 0.99365
+          },
+          {
+            "start": 15.21,
+            "end": 15.37,
+            "word": " no.",
+            "probability": 0.90994
+          },
+          {
+            "start": 15.87,
+            "end": 16.07,
+            "word": " I",
+            "probability": 0.99773
+          },
+          {
+            "start": 16.07,
+            "end": 16.19,
+            "word": " hope",
+            "probability": 0.99868
+          },
+          {
+            "start": 16.19,
+            "end": 16.33,
+            "word": " it",
+            "probability": 0.99133
+          },
+          {
+            "start": 16.33,
+            "end": 16.53,
+            "word": " doesn't",
+            "probability": 0.97566
+          },
+          {
+            "start": 16.53,
+            "end": 16.69,
+            "word": " rain",
+            "probability": 0.99658
+          },
+          {
+            "start": 16.69,
+            "end": 16.89,
+            "word": " too",
+            "probability": 0.99772
+          },
+          {
+            "start": 16.89,
+            "end": 17.17,
+            "word": " much.",
+            "probability": 0.99987
+          },
+          {
+            "start": 17.59,
+            "end": 17.69,
+            "word": " We",
+            "probability": 0.99718
+          },
+          {
+            "start": 17.69,
+            "end": 17.81,
+            "word": " need",
+            "probability": 0.99859
+          },
+          {
+            "start": 17.81,
+            "end": 17.95,
+            "word": " to",
+            "probability": 0.99939
+          },
+          {
+            "start": 17.95,
+            "end": 18.13,
+            "word": " pack",
+            "probability": 0.99805
+          },
+          {
+            "start": 18.13,
+            "end": 18.31,
+            "word": " our",
+            "probability": 0.99509
+          },
+          {
+            "start": 18.31,
+            "end": 18.55,
+            "word": " rain",
+            "probability": 0.98479
+          },
+          {
+            "start": 18.55,
+            "end": 18.87,
+            "word": " jackets",
+            "probability": 0.98392
+          },
+          {
+            "start": 18.87,
+            "end": 19.43,
+            "word": " and",
+            "probability": 0.9282
+          },
+          {
+            "start": 19.43,
+            "end": 19.63,
+            "word": " warm",
+            "probability": 0.99844
+          },
+          {
+            "start": 19.63,
+            "end": 19.99,
+            "word": " clothes.",
+            "probability": 0.99842
+          }
+        ]
+      },
+      {
+        "start": 20.79,
+        "end": 23.47,
+        "text": "Definitely. I'll also bring an umbrella just in case.",
+        "words": [
+          {
+            "start": 20.79,
+            "end": 21.23,
+            "word": " Definitely.",
+            "probability": 0.99253
+          },
+          {
+            "start": 21.71,
+            "end": 21.97,
+            "word": " I'll",
+            "probability": 0.99304
+          },
+          {
+            "start": 21.97,
+            "end": 22.21,
+            "word": " also",
+            "probability": 0.995
+          },
+          {
+            "start": 22.21,
+            "end": 22.37,
+            "word": " bring",
+            "probability": 0.99629
+          },
+          {
+            "start": 22.37,
+            "end": 22.53,
+            "word": " an",
+            "probability": 0.91714
+          },
+          {
+            "start": 22.53,
+            "end": 22.75,
+            "word": " umbrella",
+            "probability": 0.94156
+          },
+          {
+            "start": 22.75,
+            "end": 23.07,
+            "word": " just",
+            "probability": 0.97029
+          },
+          {
+            "start": 23.07,
+            "end": 23.25,
+            "word": " in",
+            "probability": 0.99899
+          },
+          {
+            "start": 23.25,
+            "end": 23.47,
+            "word": " case.",
+            "probability": 0.9993
+          }
+        ]
+      },
+      {
+        "start": 24.17,
+        "end": 27.77,
+        "text": "Good idea. Let's plan some fun indoor activities if the weather is bad.",
+        "words": [
+          {
+            "start": 24.17,
+            "end": 24.43,
+            "word": " Good",
+            "probability": 0.99184
+          },
+          {
+            "start": 24.43,
+            "end": 24.75,
+            "word": " idea.",
+            "probability": 0.99902
+          },
+          {
+            "start": 25.09,
+            "end": 25.27,
+            "word": " Let's",
+            "probability": 0.99683
+          },
+          {
+            "start": 25.27,
+            "end": 25.47,
+            "word": " plan",
+            "probability": 0.98766
+          },
+          {
+            "start": 25.47,
+            "end": 25.69,
+            "word": " some",
+            "probability": 0.99764
+          },
+          {
+            "start": 25.69,
+            "end": 25.93,
+            "word": " fun",
+            "probability": 0.99813
+          },
+          {
+            "start": 25.93,
+            "end": 26.21,
+            "word": " indoor",
+            "probability": 0.99078
+          },
+          {
+            "start": 26.21,
+            "end": 26.83,
+            "word": " activities",
+            "probability": 0.99842
+          },
+          {
+            "start": 26.83,
+            "end": 27.05,
+            "word": " if",
+            "probability": 0.95683
+          },
+          {
+            "start": 27.05,
+            "end": 27.15,
+            "word": " the",
+            "probability": 0.99933
+          },
+          {
+            "start": 27.15,
+            "end": 27.33,
+            "word": " weather",
+            "probability": 0.99965
+          },
+          {
+            "start": 27.33,
+            "end": 27.55,
+            "word": " is",
+            "probability": 0.99247
+          },
+          {
+            "start": 27.55,
+            "end": 27.77,
+            "word": " bad.",
+            "probability": 0.99934
+          }
+        ]
+      },
+      {
+        "start": 28.8,
+        "end": 32.06,
+        "text": "Yes, we can visit museums or try some local food.",
+        "words": [
+          {
+            "start": 28.8,
+            "end": 29.24,
+            "word": " Yes,",
+            "probability": 0.86511
+          },
+          {
+            "start": 29.76,
+            "end": 29.88,
+            "word": " we",
+            "probability": 0.96948
+          },
+          {
+            "start": 29.88,
+            "end": 30.0,
+            "word": " can",
+            "probability": 0.99258
+          },
+          {
+            "start": 30.0,
+            "end": 30.2,
+            "word": " visit",
+            "probability": 0.9976
+          },
+          {
+            "start": 30.2,
+            "end": 30.68,
+            "word": " museums",
+            "probability": 0.9907
+          },
+          {
+            "start": 30.68,
+            "end": 30.94,
+            "word": " or",
+            "probability": 0.9929
+          },
+          {
+            "start": 30.94,
+            "end": 31.18,
+            "word": " try",
+            "probability": 0.99258
+          },
+          {
+            "start": 31.18,
+            "end": 31.38,
+            "word": " some",
+            "probability": 0.98947
+          },
+          {
+            "start": 31.38,
+            "end": 31.6,
+            "word": " local",
+            "probability": 0.9981
+          },
+          {
+            "start": 31.6,
+            "end": 32.06,
+            "word": " food.",
+            "probability": 0.99698
+          }
+        ]
+      },
+      {
+        "start": 32.34,
+        "end": 33.58,
+        "text": "It will still be a great trip.",
+        "words": [
+          {
+            "start": 32.34,
+            "end": 32.42,
+            "word": " It",
+            "probability": 0.98592
+          },
+          {
+            "start": 32.42,
+            "end": 32.52,
+            "word": " will",
+            "probability": 0.99204
+          },
+          {
+            "start": 32.52,
+            "end": 32.74,
+            "word": " still",
+            "probability": 0.98902
+          },
+          {
+            "start": 32.74,
+            "end": 32.92,
+            "word": " be",
+            "probability": 0.99741
+          },
+          {
+            "start": 32.92,
+            "end": 33.02,
+            "word": " a",
+            "probability": 0.99799
+          },
+          {
+            "start": 33.02,
+            "end": 33.2,
+            "word": " great",
+            "probability": 0.99828
+          },
+          {
+            "start": 33.2,
+            "end": 33.58,
+            "word": " trip.",
+            "probability": 0.99857
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q09",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 103,
+            "speechStart": 0.78,
+            "speechEnd": 33.58,
+            "sourceTokenCoverage": 0.945,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9717,
+            "transcript": "hey sarah are you excited about our trip next week hi mike yes i can't wait i've been looking forward to it for a long time me too but i heard the weather is going to be cold and wet we should prepare for that oh no i hope it doesn't rain too much we need to pack our rain jackets and warm clothes definitely i'll also bring an umbrella just in case good idea let's plan some fun indoor activities if the weather is bad yes we can visit museums or try some local food it will still be a great trip",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

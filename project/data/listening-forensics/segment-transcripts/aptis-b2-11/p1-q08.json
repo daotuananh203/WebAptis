@@ -1,0 +1,932 @@
+{
+  "testId": "aptis-b2-11",
+  "blockId": "p1-q08",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-11/part-1/q08.mp3",
+  "audioSha256": "48ce2255b990417315257ef26613b5686a555313806be1acfe33b5387756403d",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.69,
+        "end": 6.64,
+        "text": "Hey! It's Nate! I just finished a week in Thailand, and now I've arrived in India.",
+        "words": [
+          {
+            "start": 0.69,
+            "end": 1.21,
+            "word": " Hey!",
+            "probability": 0.80306
+          },
+          {
+            "start": 2.15,
+            "end": 2.55,
+            "word": " It's",
+            "probability": 0.97387
+          },
+          {
+            "start": 2.55,
+            "end": 2.71,
+            "word": " Nate!",
+            "probability": 0.90977
+          },
+          {
+            "start": 3.68,
+            "end": 3.9,
+            "word": " I",
+            "probability": 0.98985
+          },
+          {
+            "start": 3.9,
+            "end": 4.06,
+            "word": " just",
+            "probability": 0.98931
+          },
+          {
+            "start": 4.06,
+            "end": 4.4,
+            "word": " finished",
+            "probability": 0.99564
+          },
+          {
+            "start": 4.4,
+            "end": 4.54,
+            "word": " a",
+            "probability": 0.97099
+          },
+          {
+            "start": 4.54,
+            "end": 4.68,
+            "word": " week",
+            "probability": 0.85341
+          },
+          {
+            "start": 4.68,
+            "end": 4.86,
+            "word": " in",
+            "probability": 0.99775
+          },
+          {
+            "start": 4.86,
+            "end": 5.16,
+            "word": " Thailand,",
+            "probability": 0.99647
+          },
+          {
+            "start": 5.56,
+            "end": 5.64,
+            "word": " and",
+            "probability": 0.98647
+          },
+          {
+            "start": 5.64,
+            "end": 5.8,
+            "word": " now",
+            "probability": 0.99804
+          },
+          {
+            "start": 5.8,
+            "end": 5.98,
+            "word": " I've",
+            "probability": 0.98628
+          },
+          {
+            "start": 5.98,
+            "end": 6.16,
+            "word": " arrived",
+            "probability": 0.99384
+          },
+          {
+            "start": 6.16,
+            "end": 6.36,
+            "word": " in",
+            "probability": 0.99881
+          },
+          {
+            "start": 6.36,
+            "end": 6.64,
+            "word": " India.",
+            "probability": 0.99846
+          }
+        ]
+      },
+      {
+        "start": 7.5,
+        "end": 14.02,
+        "text": "I'll be here for two weeks in total. I plan to spend three days visiting the Taj Mahal because everyone says it's a must-see.",
+        "words": [
+          {
+            "start": 7.5,
+            "end": 7.8,
+            "word": " I'll",
+            "probability": 0.99591
+          },
+          {
+            "start": 7.8,
+            "end": 7.92,
+            "word": " be",
+            "probability": 0.99862
+          },
+          {
+            "start": 7.92,
+            "end": 8.08,
+            "word": " here",
+            "probability": 0.99955
+          },
+          {
+            "start": 8.08,
+            "end": 8.28,
+            "word": " for",
+            "probability": 0.99628
+          },
+          {
+            "start": 8.28,
+            "end": 8.5,
+            "word": " two",
+            "probability": 0.87954
+          },
+          {
+            "start": 8.5,
+            "end": 8.7,
+            "word": " weeks",
+            "probability": 0.99639
+          },
+          {
+            "start": 8.7,
+            "end": 8.94,
+            "word": " in",
+            "probability": 0.98728
+          },
+          {
+            "start": 8.94,
+            "end": 9.24,
+            "word": " total.",
+            "probability": 0.99828
+          },
+          {
+            "start": 9.98,
+            "end": 10.38,
+            "word": " I",
+            "probability": 0.99736
+          },
+          {
+            "start": 10.38,
+            "end": 10.56,
+            "word": " plan",
+            "probability": 0.83136
+          },
+          {
+            "start": 10.56,
+            "end": 10.7,
+            "word": " to",
+            "probability": 0.99826
+          },
+          {
+            "start": 10.7,
+            "end": 10.84,
+            "word": " spend",
+            "probability": 0.99897
+          },
+          {
+            "start": 10.84,
+            "end": 11.12,
+            "word": " three",
+            "probability": 0.9445
+          },
+          {
+            "start": 11.12,
+            "end": 11.28,
+            "word": " days",
+            "probability": 0.99863
+          },
+          {
+            "start": 11.28,
+            "end": 11.66,
+            "word": " visiting",
+            "probability": 0.99588
+          },
+          {
+            "start": 11.66,
+            "end": 11.86,
+            "word": " the",
+            "probability": 0.94162
+          },
+          {
+            "start": 11.86,
+            "end": 12.08,
+            "word": " Taj",
+            "probability": 0.85314
+          },
+          {
+            "start": 12.08,
+            "end": 12.4,
+            "word": " Mahal",
+            "probability": 0.97705
+          },
+          {
+            "start": 12.4,
+            "end": 12.64,
+            "word": " because",
+            "probability": 0.82638
+          },
+          {
+            "start": 12.64,
+            "end": 13.04,
+            "word": " everyone",
+            "probability": 0.99102
+          },
+          {
+            "start": 13.04,
+            "end": 13.3,
+            "word": " says",
+            "probability": 0.99645
+          },
+          {
+            "start": 13.3,
+            "end": 13.58,
+            "word": " it's",
+            "probability": 0.99276
+          },
+          {
+            "start": 13.58,
+            "end": 13.6,
+            "word": " a",
+            "probability": 0.99141
+          },
+          {
+            "start": 13.6,
+            "end": 13.76,
+            "word": " must",
+            "probability": 0.99492
+          },
+          {
+            "start": 13.76,
+            "end": 14.02,
+            "word": "-see.",
+            "probability": 0.89623
+          }
+        ]
+      },
+      {
+        "start": 14.78,
+        "end": 21.89,
+        "text": "By the way, I know it's not too far from where you are. Maybe we could meet up while I'm here? Let me know if you're around.",
+        "words": [
+          {
+            "start": 14.78,
+            "end": 15.18,
+            "word": " By",
+            "probability": 0.98203
+          },
+          {
+            "start": 15.18,
+            "end": 15.28,
+            "word": " the",
+            "probability": 0.99956
+          },
+          {
+            "start": 15.28,
+            "end": 15.44,
+            "word": " way,",
+            "probability": 0.99929
+          },
+          {
+            "start": 15.72,
+            "end": 15.84,
+            "word": " I",
+            "probability": 0.99717
+          },
+          {
+            "start": 15.84,
+            "end": 15.94,
+            "word": " know",
+            "probability": 0.99899
+          },
+          {
+            "start": 15.94,
+            "end": 16.1,
+            "word": " it's",
+            "probability": 0.99477
+          },
+          {
+            "start": 16.1,
+            "end": 16.22,
+            "word": " not",
+            "probability": 0.99886
+          },
+          {
+            "start": 16.22,
+            "end": 16.4,
+            "word": " too",
+            "probability": 0.98053
+          },
+          {
+            "start": 16.4,
+            "end": 16.62,
+            "word": " far",
+            "probability": 0.99963
+          },
+          {
+            "start": 16.62,
+            "end": 16.8,
+            "word": " from",
+            "probability": 0.99798
+          },
+          {
+            "start": 16.8,
+            "end": 16.98,
+            "word": " where",
+            "probability": 0.99936
+          },
+          {
+            "start": 16.98,
+            "end": 17.16,
+            "word": " you",
+            "probability": 0.99778
+          },
+          {
+            "start": 17.16,
+            "end": 17.34,
+            "word": " are.",
+            "probability": 0.9983
+          },
+          {
+            "start": 18.23,
+            "end": 18.55,
+            "word": " Maybe",
+            "probability": 0.99241
+          },
+          {
+            "start": 18.55,
+            "end": 18.73,
+            "word": " we",
+            "probability": 0.99481
+          },
+          {
+            "start": 18.73,
+            "end": 18.89,
+            "word": " could",
+            "probability": 0.95961
+          },
+          {
+            "start": 18.89,
+            "end": 19.05,
+            "word": " meet",
+            "probability": 0.9993
+          },
+          {
+            "start": 19.05,
+            "end": 19.21,
+            "word": " up",
+            "probability": 0.99481
+          },
+          {
+            "start": 19.21,
+            "end": 19.41,
+            "word": " while",
+            "probability": 0.99103
+          },
+          {
+            "start": 19.41,
+            "end": 19.61,
+            "word": " I'm",
+            "probability": 0.98429
+          },
+          {
+            "start": 19.61,
+            "end": 19.77,
+            "word": " here?",
+            "probability": 0.99716
+          },
+          {
+            "start": 20.71,
+            "end": 20.95,
+            "word": " Let",
+            "probability": 0.99284
+          },
+          {
+            "start": 20.95,
+            "end": 21.11,
+            "word": " me",
+            "probability": 0.99865
+          },
+          {
+            "start": 21.11,
+            "end": 21.29,
+            "word": " know",
+            "probability": 0.9998
+          },
+          {
+            "start": 21.29,
+            "end": 21.47,
+            "word": " if",
+            "probability": 0.9979
+          },
+          {
+            "start": 21.47,
+            "end": 21.63,
+            "word": " you're",
+            "probability": 0.99554
+          },
+          {
+            "start": 21.63,
+            "end": 21.89,
+            "word": " around.",
+            "probability": 0.99744
+          }
+        ]
+      },
+      {
+        "start": 25.29,
+        "end": 31.12,
+        "text": "Hey! It's Nate! I just finished a week in Thailand, and now I've arrived in India.",
+        "words": [
+          {
+            "start": 25.29,
+            "end": 25.69,
+            "word": " Hey!",
+            "probability": 0.98568
+          },
+          {
+            "start": 26.62,
+            "end": 27.0,
+            "word": " It's",
+            "probability": 0.99183
+          },
+          {
+            "start": 27.0,
+            "end": 27.18,
+            "word": " Nate!",
+            "probability": 0.99798
+          },
+          {
+            "start": 28.02,
+            "end": 28.36,
+            "word": " I",
+            "probability": 0.99672
+          },
+          {
+            "start": 28.36,
+            "end": 28.5,
+            "word": " just",
+            "probability": 0.99845
+          },
+          {
+            "start": 28.5,
+            "end": 28.8,
+            "word": " finished",
+            "probability": 0.99208
+          },
+          {
+            "start": 28.8,
+            "end": 28.98,
+            "word": " a",
+            "probability": 0.99842
+          },
+          {
+            "start": 28.98,
+            "end": 29.18,
+            "word": " week",
+            "probability": 0.99032
+          },
+          {
+            "start": 29.18,
+            "end": 29.32,
+            "word": " in",
+            "probability": 0.99859
+          },
+          {
+            "start": 29.32,
+            "end": 29.68,
+            "word": " Thailand,",
+            "probability": 0.99955
+          },
+          {
+            "start": 30.0,
+            "end": 30.1,
+            "word": " and",
+            "probability": 0.99477
+          },
+          {
+            "start": 30.1,
+            "end": 30.26,
+            "word": " now",
+            "probability": 0.99868
+          },
+          {
+            "start": 30.26,
+            "end": 30.44,
+            "word": " I've",
+            "probability": 0.99362
+          },
+          {
+            "start": 30.44,
+            "end": 30.64,
+            "word": " arrived",
+            "probability": 0.99852
+          },
+          {
+            "start": 30.64,
+            "end": 30.82,
+            "word": " in",
+            "probability": 0.99885
+          },
+          {
+            "start": 30.82,
+            "end": 31.12,
+            "word": " India.",
+            "probability": 0.99951
+          }
+        ]
+      },
+      {
+        "start": 31.85,
+        "end": 33.71,
+        "text": "I'll be here for two weeks in total.",
+        "words": [
+          {
+            "start": 31.85,
+            "end": 32.25,
+            "word": " I'll",
+            "probability": 0.8627
+          },
+          {
+            "start": 32.25,
+            "end": 32.37,
+            "word": " be",
+            "probability": 0.99759
+          },
+          {
+            "start": 32.37,
+            "end": 32.55,
+            "word": " here",
+            "probability": 0.99845
+          },
+          {
+            "start": 32.55,
+            "end": 32.73,
+            "word": " for",
+            "probability": 0.99424
+          },
+          {
+            "start": 32.73,
+            "end": 32.97,
+            "word": " two",
+            "probability": 0.87486
+          },
+          {
+            "start": 32.97,
+            "end": 33.15,
+            "word": " weeks",
+            "probability": 0.99628
+          },
+          {
+            "start": 33.15,
+            "end": 33.39,
+            "word": " in",
+            "probability": 0.98827
+          },
+          {
+            "start": 33.39,
+            "end": 33.71,
+            "word": " total.",
+            "probability": 0.99871
+          }
+        ]
+      },
+      {
+        "start": 34.49,
+        "end": 38.49,
+        "text": "I plan to spend three days visiting the Taj Mahal because everyone says it's a must-see.",
+        "words": [
+          {
+            "start": 34.49,
+            "end": 34.85,
+            "word": " I",
+            "probability": 0.99382
+          },
+          {
+            "start": 34.85,
+            "end": 34.99,
+            "word": " plan",
+            "probability": 0.94287
+          },
+          {
+            "start": 34.99,
+            "end": 35.15,
+            "word": " to",
+            "probability": 0.99828
+          },
+          {
+            "start": 35.15,
+            "end": 35.31,
+            "word": " spend",
+            "probability": 0.99787
+          },
+          {
+            "start": 35.31,
+            "end": 35.59,
+            "word": " three",
+            "probability": 0.93155
+          },
+          {
+            "start": 35.59,
+            "end": 35.75,
+            "word": " days",
+            "probability": 0.99704
+          },
+          {
+            "start": 35.75,
+            "end": 36.13,
+            "word": " visiting",
+            "probability": 0.99434
+          },
+          {
+            "start": 36.13,
+            "end": 36.33,
+            "word": " the",
+            "probability": 0.96012
+          },
+          {
+            "start": 36.33,
+            "end": 36.53,
+            "word": " Taj",
+            "probability": 0.82267
+          },
+          {
+            "start": 36.53,
+            "end": 36.87,
+            "word": " Mahal",
+            "probability": 0.97349
+          },
+          {
+            "start": 36.87,
+            "end": 37.09,
+            "word": " because",
+            "probability": 0.96743
+          },
+          {
+            "start": 37.09,
+            "end": 37.51,
+            "word": " everyone",
+            "probability": 0.99365
+          },
+          {
+            "start": 37.51,
+            "end": 37.77,
+            "word": " says",
+            "probability": 0.99437
+          },
+          {
+            "start": 37.77,
+            "end": 38.03,
+            "word": " it's",
+            "probability": 0.98401
+          },
+          {
+            "start": 38.03,
+            "end": 38.07,
+            "word": " a",
+            "probability": 0.98423
+          },
+          {
+            "start": 38.07,
+            "end": 38.21,
+            "word": " must",
+            "probability": 0.99371
+          },
+          {
+            "start": 38.21,
+            "end": 38.49,
+            "word": "-see.",
+            "probability": 0.79753
+          }
+        ]
+      },
+      {
+        "start": 39.24,
+        "end": 41.8,
+        "text": "By the way, I know it's not too far from where you are.",
+        "words": [
+          {
+            "start": 39.24,
+            "end": 39.64,
+            "word": " By",
+            "probability": 0.9802
+          },
+          {
+            "start": 39.64,
+            "end": 39.74,
+            "word": " the",
+            "probability": 0.9992
+          },
+          {
+            "start": 39.74,
+            "end": 39.9,
+            "word": " way,",
+            "probability": 0.9994
+          },
+          {
+            "start": 40.2,
+            "end": 40.3,
+            "word": " I",
+            "probability": 0.99276
+          },
+          {
+            "start": 40.3,
+            "end": 40.4,
+            "word": " know",
+            "probability": 0.99835
+          },
+          {
+            "start": 40.4,
+            "end": 40.56,
+            "word": " it's",
+            "probability": 0.99338
+          },
+          {
+            "start": 40.56,
+            "end": 40.66,
+            "word": " not",
+            "probability": 0.99736
+          },
+          {
+            "start": 40.66,
+            "end": 40.86,
+            "word": " too",
+            "probability": 0.9688
+          },
+          {
+            "start": 40.86,
+            "end": 41.08,
+            "word": " far",
+            "probability": 0.99922
+          },
+          {
+            "start": 41.08,
+            "end": 41.26,
+            "word": " from",
+            "probability": 0.99652
+          },
+          {
+            "start": 41.26,
+            "end": 41.42,
+            "word": " where",
+            "probability": 0.99914
+          },
+          {
+            "start": 41.42,
+            "end": 41.6,
+            "word": " you",
+            "probability": 0.9984
+          },
+          {
+            "start": 41.6,
+            "end": 41.8,
+            "word": " are.",
+            "probability": 0.99766
+          }
+        ]
+      },
+      {
+        "start": 42.74,
+        "end": 44.24,
+        "text": "Maybe we could meet up while I'm here?",
+        "words": [
+          {
+            "start": 42.74,
+            "end": 43.0,
+            "word": " Maybe",
+            "probability": 0.99
+          },
+          {
+            "start": 43.0,
+            "end": 43.2,
+            "word": " we",
+            "probability": 0.99693
+          },
+          {
+            "start": 43.2,
+            "end": 43.36,
+            "word": " could",
+            "probability": 0.97781
+          },
+          {
+            "start": 43.36,
+            "end": 43.52,
+            "word": " meet",
+            "probability": 0.99893
+          },
+          {
+            "start": 43.52,
+            "end": 43.68,
+            "word": " up",
+            "probability": 0.99624
+          },
+          {
+            "start": 43.68,
+            "end": 43.88,
+            "word": " while",
+            "probability": 0.99244
+          },
+          {
+            "start": 43.88,
+            "end": 44.08,
+            "word": " I'm",
+            "probability": 0.9835
+          },
+          {
+            "start": 44.08,
+            "end": 44.24,
+            "word": " here?",
+            "probability": 0.99515
+          }
+        ]
+      },
+      {
+        "start": 45.16,
+        "end": 46.4,
+        "text": "Let me know if you're around.",
+        "words": [
+          {
+            "start": 45.16,
+            "end": 45.42,
+            "word": " Let",
+            "probability": 0.99307
+          },
+          {
+            "start": 45.42,
+            "end": 45.56,
+            "word": " me",
+            "probability": 0.99818
+          },
+          {
+            "start": 45.56,
+            "end": 45.76,
+            "word": " know",
+            "probability": 0.99982
+          },
+          {
+            "start": 45.76,
+            "end": 45.94,
+            "word": " if",
+            "probability": 0.99636
+          },
+          {
+            "start": 45.94,
+            "end": 46.1,
+            "word": " you're",
+            "probability": 0.99517
+          },
+          {
+            "start": 46.1,
+            "end": 46.4,
+            "word": " around.",
+            "probability": 0.99553
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q08",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 68,
+            "speechStart": 0.69,
+            "speechEnd": 21.89,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey it's nate i just finished a week in thailand and now i've arrived in india i'll be here for 2 weeks in total i plan to spend 3 days visiting the taj mahal because everyone says it's a must see by the way i know it's not too far from where you are maybe we could meet up while i'm here let me know if you're around",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 68,
+            "wordEndIndexExclusive": 136,
+            "speechStart": 25.29,
+            "speechEnd": 46.4,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hey it's nate i just finished a week in thailand and now i've arrived in india i'll be here for 2 weeks in total i plan to spend 3 days visiting the taj mahal because everyone says it's a must see by the way i know it's not too far from where you are maybe we could meet up while i'm here let me know if you're around",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

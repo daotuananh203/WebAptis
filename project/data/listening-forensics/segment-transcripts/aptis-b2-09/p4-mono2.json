@@ -1,0 +1,2229 @@
+{
+  "testId": "aptis-b2-09",
+  "blockId": "p4-mono2",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-09/part-4/mono2.mp3",
+  "audioSha256": "877e411e32dce98a76d22f88628d06a9440ce5e97671db1d43abc9324206f45c",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.72,
+        "end": 5.8,
+        "text": "A company recently launched a new fitness supplement, PowerBoost, but its promotion",
+        "words": [
+          {
+            "start": 0.72,
+            "end": 1.0,
+            "word": " A",
+            "probability": 0.89853
+          },
+          {
+            "start": 1.0,
+            "end": 1.3,
+            "word": " company",
+            "probability": 0.99738
+          },
+          {
+            "start": 1.3,
+            "end": 1.84,
+            "word": " recently",
+            "probability": 0.99912
+          },
+          {
+            "start": 1.84,
+            "end": 2.28,
+            "word": " launched",
+            "probability": 0.99815
+          },
+          {
+            "start": 2.28,
+            "end": 2.44,
+            "word": " a",
+            "probability": 0.99826
+          },
+          {
+            "start": 2.44,
+            "end": 2.6,
+            "word": " new",
+            "probability": 0.98836
+          },
+          {
+            "start": 2.6,
+            "end": 2.88,
+            "word": " fitness",
+            "probability": 0.95466
+          },
+          {
+            "start": 2.88,
+            "end": 3.4,
+            "word": " supplement,",
+            "probability": 0.99323
+          },
+          {
+            "start": 3.94,
+            "end": 4.64,
+            "word": " PowerBoost,",
+            "probability": 0.79583
+          },
+          {
+            "start": 4.98,
+            "end": 5.18,
+            "word": " but",
+            "probability": 0.98911
+          },
+          {
+            "start": 5.18,
+            "end": 5.34,
+            "word": " its",
+            "probability": 0.96743
+          },
+          {
+            "start": 5.34,
+            "end": 5.8,
+            "word": " promotion",
+            "probability": 0.97689
+          }
+        ]
+      },
+      {
+        "start": 5.8,
+        "end": 11.04,
+        "text": "campaign is facing some difficulties. One major issue is that the advertisements make",
+        "words": [
+          {
+            "start": 5.8,
+            "end": 6.22,
+            "word": " campaign",
+            "probability": 0.99776
+          },
+          {
+            "start": 6.22,
+            "end": 6.52,
+            "word": " is",
+            "probability": 0.99772
+          },
+          {
+            "start": 6.52,
+            "end": 6.9,
+            "word": " facing",
+            "probability": 0.99624
+          },
+          {
+            "start": 6.9,
+            "end": 7.18,
+            "word": " some",
+            "probability": 0.99816
+          },
+          {
+            "start": 7.18,
+            "end": 7.8,
+            "word": " difficulties.",
+            "probability": 0.99619
+          },
+          {
+            "start": 8.5,
+            "end": 8.84,
+            "word": " One",
+            "probability": 0.99476
+          },
+          {
+            "start": 8.84,
+            "end": 9.16,
+            "word": " major",
+            "probability": 0.99873
+          },
+          {
+            "start": 9.16,
+            "end": 9.5,
+            "word": " issue",
+            "probability": 0.9978
+          },
+          {
+            "start": 9.5,
+            "end": 9.76,
+            "word": " is",
+            "probability": 0.99318
+          },
+          {
+            "start": 9.76,
+            "end": 9.96,
+            "word": " that",
+            "probability": 0.98947
+          },
+          {
+            "start": 9.96,
+            "end": 10.1,
+            "word": " the",
+            "probability": 0.98605
+          },
+          {
+            "start": 10.1,
+            "end": 10.66,
+            "word": " advertisements",
+            "probability": 0.9673
+          },
+          {
+            "start": 10.66,
+            "end": 11.04,
+            "word": " make",
+            "probability": 0.99467
+          }
+        ]
+      },
+      {
+        "start": 11.04,
+        "end": 16.54,
+        "text": "exaggerated claims. The campaign promises that PowerBoost will dramatically increase strength",
+        "words": [
+          {
+            "start": 11.04,
+            "end": 11.64,
+            "word": " exaggerated",
+            "probability": 0.99424
+          },
+          {
+            "start": 11.64,
+            "end": 12.14,
+            "word": " claims.",
+            "probability": 0.99861
+          },
+          {
+            "start": 12.88,
+            "end": 13.08,
+            "word": " The",
+            "probability": 0.9944
+          },
+          {
+            "start": 13.08,
+            "end": 13.44,
+            "word": " campaign",
+            "probability": 0.99895
+          },
+          {
+            "start": 13.44,
+            "end": 13.98,
+            "word": " promises",
+            "probability": 0.99641
+          },
+          {
+            "start": 13.98,
+            "end": 14.32,
+            "word": " that",
+            "probability": 0.99337
+          },
+          {
+            "start": 14.32,
+            "end": 15.08,
+            "word": " PowerBoost",
+            "probability": 0.94874
+          },
+          {
+            "start": 15.08,
+            "end": 15.24,
+            "word": " will",
+            "probability": 0.99855
+          },
+          {
+            "start": 15.24,
+            "end": 15.62,
+            "word": " dramatically",
+            "probability": 0.99825
+          },
+          {
+            "start": 15.62,
+            "end": 16.2,
+            "word": " increase",
+            "probability": 0.99456
+          },
+          {
+            "start": 16.2,
+            "end": 16.54,
+            "word": " strength",
+            "probability": 0.99424
+          }
+        ]
+      },
+      {
+        "start": 16.54,
+        "end": 22.62,
+        "text": "and endurance in just a few days. However, many customers feel the results are not as powerful",
+        "words": [
+          {
+            "start": 16.54,
+            "end": 16.78,
+            "word": " and",
+            "probability": 0.99618
+          },
+          {
+            "start": 16.78,
+            "end": 17.12,
+            "word": " endurance",
+            "probability": 0.99957
+          },
+          {
+            "start": 17.12,
+            "end": 17.44,
+            "word": " in",
+            "probability": 0.99645
+          },
+          {
+            "start": 17.44,
+            "end": 17.58,
+            "word": " just",
+            "probability": 0.99671
+          },
+          {
+            "start": 17.58,
+            "end": 17.78,
+            "word": " a",
+            "probability": 0.99565
+          },
+          {
+            "start": 17.78,
+            "end": 17.94,
+            "word": " few",
+            "probability": 0.99948
+          },
+          {
+            "start": 17.94,
+            "end": 18.16,
+            "word": " days.",
+            "probability": 0.99907
+          },
+          {
+            "start": 19.12,
+            "end": 19.52,
+            "word": " However,",
+            "probability": 0.99642
+          },
+          {
+            "start": 20.0,
+            "end": 20.18,
+            "word": " many",
+            "probability": 0.99668
+          },
+          {
+            "start": 20.18,
+            "end": 20.58,
+            "word": " customers",
+            "probability": 0.99726
+          },
+          {
+            "start": 20.58,
+            "end": 20.94,
+            "word": " feel",
+            "probability": 0.99449
+          },
+          {
+            "start": 20.94,
+            "end": 21.12,
+            "word": " the",
+            "probability": 0.99163
+          },
+          {
+            "start": 21.12,
+            "end": 21.38,
+            "word": " results",
+            "probability": 0.99909
+          },
+          {
+            "start": 21.38,
+            "end": 21.72,
+            "word": " are",
+            "probability": 0.99146
+          },
+          {
+            "start": 21.72,
+            "end": 21.92,
+            "word": " not",
+            "probability": 0.99705
+          },
+          {
+            "start": 21.92,
+            "end": 22.14,
+            "word": " as",
+            "probability": 0.99627
+          },
+          {
+            "start": 22.14,
+            "end": 22.62,
+            "word": " powerful",
+            "probability": 0.99677
+          }
+        ]
+      },
+      {
+        "start": 22.62,
+        "end": 28.76,
+        "text": "as advertised. While bold claims can attract attention, they also risk damaging trust,",
+        "words": [
+          {
+            "start": 22.62,
+            "end": 22.96,
+            "word": " as",
+            "probability": 0.99097
+          },
+          {
+            "start": 22.96,
+            "end": 23.56,
+            "word": " advertised.",
+            "probability": 0.9859
+          },
+          {
+            "start": 24.54,
+            "end": 24.86,
+            "word": " While",
+            "probability": 0.99343
+          },
+          {
+            "start": 24.86,
+            "end": 25.04,
+            "word": " bold",
+            "probability": 0.94281
+          },
+          {
+            "start": 25.04,
+            "end": 25.54,
+            "word": " claims",
+            "probability": 0.99692
+          },
+          {
+            "start": 25.54,
+            "end": 25.76,
+            "word": " can",
+            "probability": 0.99808
+          },
+          {
+            "start": 25.76,
+            "end": 26.02,
+            "word": " attract",
+            "probability": 0.99664
+          },
+          {
+            "start": 26.02,
+            "end": 26.6,
+            "word": " attention,",
+            "probability": 0.99906
+          },
+          {
+            "start": 27.1,
+            "end": 27.18,
+            "word": " they",
+            "probability": 0.99604
+          },
+          {
+            "start": 27.18,
+            "end": 27.52,
+            "word": " also",
+            "probability": 0.99432
+          },
+          {
+            "start": 27.52,
+            "end": 27.78,
+            "word": " risk",
+            "probability": 0.99961
+          },
+          {
+            "start": 27.78,
+            "end": 28.14,
+            "word": " damaging",
+            "probability": 0.98245
+          },
+          {
+            "start": 28.14,
+            "end": 28.76,
+            "word": " trust,",
+            "probability": 0.99812
+          }
+        ]
+      },
+      {
+        "start": 28.76,
+        "end": 34.48,
+        "text": "If the product does not deliver as expected, another challenge is that power boost is struggling",
+        "words": [
+          {
+            "start": 28.76,
+            "end": 29.28,
+            "word": " If",
+            "probability": 0.16378
+          },
+          {
+            "start": 29.28,
+            "end": 29.42,
+            "word": " the",
+            "probability": 0.96025
+          },
+          {
+            "start": 29.42,
+            "end": 29.74,
+            "word": " product",
+            "probability": 0.98931
+          },
+          {
+            "start": 29.74,
+            "end": 30.02,
+            "word": " does",
+            "probability": 0.96589
+          },
+          {
+            "start": 30.02,
+            "end": 30.2,
+            "word": " not",
+            "probability": 0.99724
+          },
+          {
+            "start": 30.2,
+            "end": 30.64,
+            "word": " deliver",
+            "probability": 0.995
+          },
+          {
+            "start": 30.64,
+            "end": 30.92,
+            "word": " as",
+            "probability": 0.89111
+          },
+          {
+            "start": 30.92,
+            "end": 31.44,
+            "word": " expected,",
+            "probability": 0.998
+          },
+          {
+            "start": 31.52,
+            "end": 32.38,
+            "word": " another",
+            "probability": 0.88651
+          },
+          {
+            "start": 32.38,
+            "end": 32.94,
+            "word": " challenge",
+            "probability": 0.9735
+          },
+          {
+            "start": 32.94,
+            "end": 33.2,
+            "word": " is",
+            "probability": 0.98824
+          },
+          {
+            "start": 33.2,
+            "end": 33.34,
+            "word": " that",
+            "probability": 0.97964
+          },
+          {
+            "start": 33.34,
+            "end": 33.64,
+            "word": " power",
+            "probability": 0.73362
+          },
+          {
+            "start": 33.64,
+            "end": 33.88,
+            "word": " boost",
+            "probability": 0.94105
+          },
+          {
+            "start": 33.88,
+            "end": 34.1,
+            "word": " is",
+            "probability": 0.99146
+          },
+          {
+            "start": 34.1,
+            "end": 34.48,
+            "word": " struggling",
+            "probability": 0.99705
+          }
+        ]
+      },
+      {
+        "start": 34.48,
+        "end": 35.68,
+        "text": "to stand out in the market.",
+        "words": [
+          {
+            "start": 34.48,
+            "end": 34.72,
+            "word": " to",
+            "probability": 0.99665
+          },
+          {
+            "start": 34.72,
+            "end": 34.94,
+            "word": " stand",
+            "probability": 0.99581
+          },
+          {
+            "start": 34.94,
+            "end": 35.16,
+            "word": " out",
+            "probability": 0.9775
+          },
+          {
+            "start": 35.16,
+            "end": 35.28,
+            "word": " in",
+            "probability": 0.97587
+          },
+          {
+            "start": 35.28,
+            "end": 35.36,
+            "word": " the",
+            "probability": 0.99674
+          },
+          {
+            "start": 35.36,
+            "end": 35.68,
+            "word": " market.",
+            "probability": 0.99671
+          }
+        ]
+      },
+      {
+        "start": 36.46,
+        "end": 40.7,
+        "text": "Some may think the issue is pricing, but it is actually similar to its competitors.",
+        "words": [
+          {
+            "start": 36.46,
+            "end": 36.8,
+            "word": " Some",
+            "probability": 0.97918
+          },
+          {
+            "start": 36.8,
+            "end": 37.02,
+            "word": " may",
+            "probability": 0.97714
+          },
+          {
+            "start": 37.02,
+            "end": 37.24,
+            "word": " think",
+            "probability": 0.99844
+          },
+          {
+            "start": 37.24,
+            "end": 37.38,
+            "word": " the",
+            "probability": 0.96812
+          },
+          {
+            "start": 37.38,
+            "end": 37.62,
+            "word": " issue",
+            "probability": 0.99618
+          },
+          {
+            "start": 37.62,
+            "end": 37.8,
+            "word": " is",
+            "probability": 0.99595
+          },
+          {
+            "start": 37.8,
+            "end": 38.16,
+            "word": " pricing,",
+            "probability": 0.98227
+          },
+          {
+            "start": 38.74,
+            "end": 38.84,
+            "word": " but",
+            "probability": 0.99468
+          },
+          {
+            "start": 38.84,
+            "end": 38.96,
+            "word": " it",
+            "probability": 0.98863
+          },
+          {
+            "start": 38.96,
+            "end": 39.1,
+            "word": " is",
+            "probability": 0.99628
+          },
+          {
+            "start": 39.1,
+            "end": 39.44,
+            "word": " actually",
+            "probability": 0.99196
+          },
+          {
+            "start": 39.44,
+            "end": 39.82,
+            "word": " similar",
+            "probability": 0.99603
+          },
+          {
+            "start": 39.82,
+            "end": 40.06,
+            "word": " to",
+            "probability": 0.99795
+          },
+          {
+            "start": 40.06,
+            "end": 40.22,
+            "word": " its",
+            "probability": 0.95034
+          },
+          {
+            "start": 40.22,
+            "end": 40.7,
+            "word": " competitors.",
+            "probability": 0.9972
+          }
+        ]
+      },
+      {
+        "start": 41.54,
+        "end": 45.68,
+        "text": "Others might assume it is hard to find, but it is already available in many stores.",
+        "words": [
+          {
+            "start": 41.54,
+            "end": 41.86,
+            "word": " Others",
+            "probability": 0.98439
+          },
+          {
+            "start": 41.86,
+            "end": 42.12,
+            "word": " might",
+            "probability": 0.96876
+          },
+          {
+            "start": 42.12,
+            "end": 42.42,
+            "word": " assume",
+            "probability": 0.99496
+          },
+          {
+            "start": 42.42,
+            "end": 42.58,
+            "word": " it",
+            "probability": 0.9868
+          },
+          {
+            "start": 42.58,
+            "end": 42.7,
+            "word": " is",
+            "probability": 0.99314
+          },
+          {
+            "start": 42.7,
+            "end": 42.86,
+            "word": " hard",
+            "probability": 0.99886
+          },
+          {
+            "start": 42.86,
+            "end": 43.0,
+            "word": " to",
+            "probability": 0.97962
+          },
+          {
+            "start": 43.0,
+            "end": 43.36,
+            "word": " find,",
+            "probability": 0.99863
+          },
+          {
+            "start": 43.7,
+            "end": 43.86,
+            "word": " but",
+            "probability": 0.99456
+          },
+          {
+            "start": 43.86,
+            "end": 44.0,
+            "word": " it",
+            "probability": 0.98135
+          },
+          {
+            "start": 44.0,
+            "end": 44.12,
+            "word": " is",
+            "probability": 0.99246
+          },
+          {
+            "start": 44.12,
+            "end": 44.38,
+            "word": " already",
+            "probability": 0.96124
+          },
+          {
+            "start": 44.38,
+            "end": 44.88,
+            "word": " available",
+            "probability": 0.99897
+          },
+          {
+            "start": 44.88,
+            "end": 45.12,
+            "word": " in",
+            "probability": 0.99458
+          },
+          {
+            "start": 45.12,
+            "end": 45.32,
+            "word": " many",
+            "probability": 0.99496
+          },
+          {
+            "start": 45.32,
+            "end": 45.68,
+            "word": " stores.",
+            "probability": 0.99547
+          }
+        ]
+      },
+      {
+        "start": 46.28,
+        "end": 51.32,
+        "text": "The real issue is that power boost is too similar to many existing products, making it difficult",
+        "words": [
+          {
+            "start": 46.28,
+            "end": 46.38,
+            "word": " The",
+            "probability": 0.99378
+          },
+          {
+            "start": 46.38,
+            "end": 46.6,
+            "word": " real",
+            "probability": 0.99602
+          },
+          {
+            "start": 46.6,
+            "end": 46.94,
+            "word": " issue",
+            "probability": 0.99367
+          },
+          {
+            "start": 46.94,
+            "end": 47.14,
+            "word": " is",
+            "probability": 0.99588
+          },
+          {
+            "start": 47.14,
+            "end": 47.28,
+            "word": " that",
+            "probability": 0.99064
+          },
+          {
+            "start": 47.28,
+            "end": 47.56,
+            "word": " power",
+            "probability": 0.97293
+          },
+          {
+            "start": 47.56,
+            "end": 47.86,
+            "word": " boost",
+            "probability": 0.98315
+          },
+          {
+            "start": 47.86,
+            "end": 48.04,
+            "word": " is",
+            "probability": 0.9977
+          },
+          {
+            "start": 48.04,
+            "end": 48.24,
+            "word": " too",
+            "probability": 0.9737
+          },
+          {
+            "start": 48.24,
+            "end": 48.64,
+            "word": " similar",
+            "probability": 0.99722
+          },
+          {
+            "start": 48.64,
+            "end": 48.84,
+            "word": " to",
+            "probability": 0.99778
+          },
+          {
+            "start": 48.84,
+            "end": 49.06,
+            "word": " many",
+            "probability": 0.9951
+          },
+          {
+            "start": 49.06,
+            "end": 49.5,
+            "word": " existing",
+            "probability": 0.99796
+          },
+          {
+            "start": 49.5,
+            "end": 50.04,
+            "word": " products,",
+            "probability": 0.99722
+          },
+          {
+            "start": 50.52,
+            "end": 50.76,
+            "word": " making",
+            "probability": 0.99632
+          },
+          {
+            "start": 50.76,
+            "end": 50.96,
+            "word": " it",
+            "probability": 0.99984
+          },
+          {
+            "start": 50.96,
+            "end": 51.32,
+            "word": " difficult",
+            "probability": 0.99931
+          }
+        ]
+      },
+      {
+        "start": 51.32,
+        "end": 53.26,
+        "text": "for customers to see what makes it unique.",
+        "words": [
+          {
+            "start": 51.32,
+            "end": 51.56,
+            "word": " for",
+            "probability": 0.99733
+          },
+          {
+            "start": 51.56,
+            "end": 51.94,
+            "word": " customers",
+            "probability": 0.99655
+          },
+          {
+            "start": 51.94,
+            "end": 52.24,
+            "word": " to",
+            "probability": 0.99829
+          },
+          {
+            "start": 52.24,
+            "end": 52.42,
+            "word": " see",
+            "probability": 0.99682
+          },
+          {
+            "start": 52.42,
+            "end": 52.58,
+            "word": " what",
+            "probability": 0.99824
+          },
+          {
+            "start": 52.58,
+            "end": 52.78,
+            "word": " makes",
+            "probability": 0.99543
+          },
+          {
+            "start": 52.78,
+            "end": 52.94,
+            "word": " it",
+            "probability": 0.99929
+          },
+          {
+            "start": 52.94,
+            "end": 53.26,
+            "word": " unique.",
+            "probability": 0.99856
+          }
+        ]
+      },
+      {
+        "start": 53.26,
+        "end": 58.74,
+        "text": "To succeed, the company needs to adjust its messaging and find a way to differentiate",
+        "words": [
+          {
+            "start": 53.26,
+            "end": 54.04,
+            "word": " To",
+            "probability": 0.21574
+          },
+          {
+            "start": 54.04,
+            "end": 54.42,
+            "word": " succeed,",
+            "probability": 0.98072
+          },
+          {
+            "start": 54.8,
+            "end": 55.06,
+            "word": " the",
+            "probability": 0.99515
+          },
+          {
+            "start": 55.06,
+            "end": 55.34,
+            "word": " company",
+            "probability": 0.99699
+          },
+          {
+            "start": 55.34,
+            "end": 55.68,
+            "word": " needs",
+            "probability": 0.997
+          },
+          {
+            "start": 55.68,
+            "end": 55.88,
+            "word": " to",
+            "probability": 0.99745
+          },
+          {
+            "start": 55.88,
+            "end": 56.16,
+            "word": " adjust",
+            "probability": 0.99493
+          },
+          {
+            "start": 56.16,
+            "end": 56.44,
+            "word": " its",
+            "probability": 0.9756
+          },
+          {
+            "start": 56.44,
+            "end": 56.94,
+            "word": " messaging",
+            "probability": 0.99443
+          },
+          {
+            "start": 56.94,
+            "end": 57.46,
+            "word": " and",
+            "probability": 0.8659
+          },
+          {
+            "start": 57.46,
+            "end": 57.7,
+            "word": " find",
+            "probability": 0.99497
+          },
+          {
+            "start": 57.7,
+            "end": 57.84,
+            "word": " a",
+            "probability": 0.99684
+          },
+          {
+            "start": 57.84,
+            "end": 57.98,
+            "word": " way",
+            "probability": 0.99832
+          },
+          {
+            "start": 57.98,
+            "end": 58.12,
+            "word": " to",
+            "probability": 0.99859
+          },
+          {
+            "start": 58.12,
+            "end": 58.74,
+            "word": " differentiate",
+            "probability": 0.99609
+          }
+        ]
+      },
+      {
+        "start": 58.74,
+        "end": 60.66,
+        "text": "power boost from other fitness supplements.",
+        "words": [
+          {
+            "start": 58.74,
+            "end": 59.08,
+            "word": " power",
+            "probability": 0.77772
+          },
+          {
+            "start": 59.08,
+            "end": 59.42,
+            "word": " boost",
+            "probability": 0.91561
+          },
+          {
+            "start": 59.42,
+            "end": 59.6,
+            "word": " from",
+            "probability": 0.99373
+          },
+          {
+            "start": 59.6,
+            "end": 59.86,
+            "word": " other",
+            "probability": 0.99548
+          },
+          {
+            "start": 59.86,
+            "end": 60.16,
+            "word": " fitness",
+            "probability": 0.9814
+          },
+          {
+            "start": 60.16,
+            "end": 60.66,
+            "word": " supplements.",
+            "probability": 0.99172
+          }
+        ]
+      },
+      {
+        "start": 65.06,
+        "end": 70.44,
+        "text": "A company recently launched a new fitness supplement, PowerBoost, but its promotion campaign",
+        "words": [
+          {
+            "start": 65.06,
+            "end": 65.26,
+            "word": " A",
+            "probability": 0.98281
+          },
+          {
+            "start": 65.26,
+            "end": 65.54,
+            "word": " company",
+            "probability": 0.99784
+          },
+          {
+            "start": 65.54,
+            "end": 66.12,
+            "word": " recently",
+            "probability": 0.99909
+          },
+          {
+            "start": 66.12,
+            "end": 66.54,
+            "word": " launched",
+            "probability": 0.99788
+          },
+          {
+            "start": 66.54,
+            "end": 66.7,
+            "word": " a",
+            "probability": 0.99788
+          },
+          {
+            "start": 66.7,
+            "end": 66.82,
+            "word": " new",
+            "probability": 0.98843
+          },
+          {
+            "start": 66.82,
+            "end": 67.12,
+            "word": " fitness",
+            "probability": 0.9521
+          },
+          {
+            "start": 67.12,
+            "end": 67.64,
+            "word": " supplement,",
+            "probability": 0.99591
+          },
+          {
+            "start": 68.08,
+            "end": 68.88,
+            "word": " PowerBoost,",
+            "probability": 0.72623
+          },
+          {
+            "start": 69.26,
+            "end": 69.42,
+            "word": " but",
+            "probability": 0.97915
+          },
+          {
+            "start": 69.42,
+            "end": 69.58,
+            "word": " its",
+            "probability": 0.8931
+          },
+          {
+            "start": 69.58,
+            "end": 70.0,
+            "word": " promotion",
+            "probability": 0.94215
+          },
+          {
+            "start": 70.0,
+            "end": 70.44,
+            "word": " campaign",
+            "probability": 0.99742
+          }
+        ]
+      },
+      {
+        "start": 70.44,
+        "end": 72.0,
+        "text": "is facing some difficulties.",
+        "words": [
+          {
+            "start": 70.44,
+            "end": 70.72,
+            "word": " is",
+            "probability": 0.99702
+          },
+          {
+            "start": 70.72,
+            "end": 71.14,
+            "word": " facing",
+            "probability": 0.99669
+          },
+          {
+            "start": 71.14,
+            "end": 71.38,
+            "word": " some",
+            "probability": 0.99861
+          },
+          {
+            "start": 71.38,
+            "end": 72.0,
+            "word": " difficulties.",
+            "probability": 0.99659
+          }
+        ]
+      },
+      {
+        "start": 72.66,
+        "end": 76.34,
+        "text": "One major issue is that the advertisements make exaggerated claims.",
+        "words": [
+          {
+            "start": 72.66,
+            "end": 73.0,
+            "word": " One",
+            "probability": 0.99556
+          },
+          {
+            "start": 73.0,
+            "end": 73.34,
+            "word": " major",
+            "probability": 0.99862
+          },
+          {
+            "start": 73.34,
+            "end": 73.7,
+            "word": " issue",
+            "probability": 0.99774
+          },
+          {
+            "start": 73.7,
+            "end": 73.94,
+            "word": " is",
+            "probability": 0.99311
+          },
+          {
+            "start": 73.94,
+            "end": 74.12,
+            "word": " that",
+            "probability": 0.99586
+          },
+          {
+            "start": 74.12,
+            "end": 74.28,
+            "word": " the",
+            "probability": 0.98115
+          },
+          {
+            "start": 74.28,
+            "end": 74.84,
+            "word": " advertisements",
+            "probability": 0.96276
+          },
+          {
+            "start": 74.84,
+            "end": 75.2,
+            "word": " make",
+            "probability": 0.9946
+          },
+          {
+            "start": 75.2,
+            "end": 75.82,
+            "word": " exaggerated",
+            "probability": 0.99129
+          },
+          {
+            "start": 75.82,
+            "end": 76.34,
+            "word": " claims.",
+            "probability": 0.99903
+          }
+        ]
+      },
+      {
+        "start": 77.04,
+        "end": 81.3,
+        "text": "The campaign promises that PowerBoost will dramatically increase strength and endurance",
+        "words": [
+          {
+            "start": 77.04,
+            "end": 77.24,
+            "word": " The",
+            "probability": 0.99453
+          },
+          {
+            "start": 77.24,
+            "end": 77.58,
+            "word": " campaign",
+            "probability": 0.99891
+          },
+          {
+            "start": 77.58,
+            "end": 78.14,
+            "word": " promises",
+            "probability": 0.99749
+          },
+          {
+            "start": 78.14,
+            "end": 78.48,
+            "word": " that",
+            "probability": 0.98751
+          },
+          {
+            "start": 78.48,
+            "end": 79.26,
+            "word": " PowerBoost",
+            "probability": 0.90408
+          },
+          {
+            "start": 79.26,
+            "end": 79.42,
+            "word": " will",
+            "probability": 0.99896
+          },
+          {
+            "start": 79.42,
+            "end": 79.8,
+            "word": " dramatically",
+            "probability": 0.99834
+          },
+          {
+            "start": 79.8,
+            "end": 80.4,
+            "word": " increase",
+            "probability": 0.99465
+          },
+          {
+            "start": 80.4,
+            "end": 80.7,
+            "word": " strength",
+            "probability": 0.99441
+          },
+          {
+            "start": 80.7,
+            "end": 80.98,
+            "word": " and",
+            "probability": 0.99811
+          },
+          {
+            "start": 80.98,
+            "end": 81.3,
+            "word": " endurance",
+            "probability": 0.99959
+          }
+        ]
+      },
+      {
+        "start": 81.3,
+        "end": 82.36,
+        "text": "in just a few days.",
+        "words": [
+          {
+            "start": 81.3,
+            "end": 81.64,
+            "word": " in",
+            "probability": 0.99661
+          },
+          {
+            "start": 81.64,
+            "end": 81.78,
+            "word": " just",
+            "probability": 0.99781
+          },
+          {
+            "start": 81.78,
+            "end": 81.98,
+            "word": " a",
+            "probability": 0.99603
+          },
+          {
+            "start": 81.98,
+            "end": 82.12,
+            "word": " few",
+            "probability": 0.99931
+          },
+          {
+            "start": 82.12,
+            "end": 82.36,
+            "word": " days.",
+            "probability": 0.9993
+          }
+        ]
+      },
+      {
+        "start": 83.14,
+        "end": 87.82,
+        "text": "However, many customers feel the results are not as powerful as advertised.",
+        "words": [
+          {
+            "start": 83.14,
+            "end": 83.7,
+            "word": " However,",
+            "probability": 0.63383
+          },
+          {
+            "start": 84.2,
+            "end": 84.4,
+            "word": " many",
+            "probability": 0.98704
+          },
+          {
+            "start": 84.4,
+            "end": 84.76,
+            "word": " customers",
+            "probability": 0.9961
+          },
+          {
+            "start": 84.76,
+            "end": 85.14,
+            "word": " feel",
+            "probability": 0.99373
+          },
+          {
+            "start": 85.14,
+            "end": 85.3,
+            "word": " the",
+            "probability": 0.98876
+          },
+          {
+            "start": 85.3,
+            "end": 85.56,
+            "word": " results",
+            "probability": 0.99748
+          },
+          {
+            "start": 85.56,
+            "end": 85.86,
+            "word": " are",
+            "probability": 0.98944
+          },
+          {
+            "start": 85.86,
+            "end": 86.08,
+            "word": " not",
+            "probability": 0.99548
+          },
+          {
+            "start": 86.08,
+            "end": 86.3,
+            "word": " as",
+            "probability": 0.99575
+          },
+          {
+            "start": 86.3,
+            "end": 86.74,
+            "word": " powerful",
+            "probability": 0.99251
+          },
+          {
+            "start": 86.74,
+            "end": 87.12,
+            "word": " as",
+            "probability": 0.9891
+          },
+          {
+            "start": 87.12,
+            "end": 87.82,
+            "word": " advertised.",
+            "probability": 0.99442
+          }
+        ]
+      },
+      {
+        "start": 88.54,
+        "end": 93.88,
+        "text": "While bold claims can attract attention, they also risk damaging trust, if the product",
+        "words": [
+          {
+            "start": 88.54,
+            "end": 88.96,
+            "word": " While",
+            "probability": 0.97512
+          },
+          {
+            "start": 88.96,
+            "end": 89.16,
+            "word": " bold",
+            "probability": 0.95381
+          },
+          {
+            "start": 89.16,
+            "end": 89.64,
+            "word": " claims",
+            "probability": 0.99204
+          },
+          {
+            "start": 89.64,
+            "end": 89.88,
+            "word": " can",
+            "probability": 0.99686
+          },
+          {
+            "start": 89.88,
+            "end": 90.16,
+            "word": " attract",
+            "probability": 0.99325
+          },
+          {
+            "start": 90.16,
+            "end": 90.72,
+            "word": " attention,",
+            "probability": 0.99805
+          },
+          {
+            "start": 91.22,
+            "end": 91.32,
+            "word": " they",
+            "probability": 0.99528
+          },
+          {
+            "start": 91.32,
+            "end": 91.64,
+            "word": " also",
+            "probability": 0.98667
+          },
+          {
+            "start": 91.64,
+            "end": 91.94,
+            "word": " risk",
+            "probability": 0.99955
+          },
+          {
+            "start": 91.94,
+            "end": 92.24,
+            "word": " damaging",
+            "probability": 0.98041
+          },
+          {
+            "start": 92.24,
+            "end": 92.74,
+            "word": " trust,",
+            "probability": 0.99595
+          },
+          {
+            "start": 93.22,
+            "end": 93.44,
+            "word": " if",
+            "probability": 0.99322
+          },
+          {
+            "start": 93.44,
+            "end": 93.56,
+            "word": " the",
+            "probability": 0.99613
+          },
+          {
+            "start": 93.56,
+            "end": 93.88,
+            "word": " product",
+            "probability": 0.99782
+          }
+        ]
+      },
+      {
+        "start": 93.88,
+        "end": 95.56,
+        "text": "does not deliver as expected.",
+        "words": [
+          {
+            "start": 93.88,
+            "end": 94.16,
+            "word": " does",
+            "probability": 0.97977
+          },
+          {
+            "start": 94.16,
+            "end": 94.32,
+            "word": " not",
+            "probability": 0.99887
+          },
+          {
+            "start": 94.32,
+            "end": 94.76,
+            "word": " deliver",
+            "probability": 0.99546
+          },
+          {
+            "start": 94.76,
+            "end": 95.04,
+            "word": " as",
+            "probability": 0.99025
+          },
+          {
+            "start": 95.04,
+            "end": 95.56,
+            "word": " expected.",
+            "probability": 0.99862
+          }
+        ]
+      },
+      {
+        "start": 96.24,
+        "end": 99.78,
+        "text": "Another challenge is that power boost is struggling to stand out in the market.",
+        "words": [
+          {
+            "start": 96.24,
+            "end": 96.56,
+            "word": " Another",
+            "probability": 0.99563
+          },
+          {
+            "start": 96.56,
+            "end": 97.1,
+            "word": " challenge",
+            "probability": 0.99623
+          },
+          {
+            "start": 97.1,
+            "end": 97.32,
+            "word": " is",
+            "probability": 0.99411
+          },
+          {
+            "start": 97.32,
+            "end": 97.48,
+            "word": " that",
+            "probability": 0.9931
+          },
+          {
+            "start": 97.48,
+            "end": 97.74,
+            "word": " power",
+            "probability": 0.80429
+          },
+          {
+            "start": 97.74,
+            "end": 98.0,
+            "word": " boost",
+            "probability": 0.94047
+          },
+          {
+            "start": 98.0,
+            "end": 98.22,
+            "word": " is",
+            "probability": 0.99032
+          },
+          {
+            "start": 98.22,
+            "end": 98.6,
+            "word": " struggling",
+            "probability": 0.99589
+          },
+          {
+            "start": 98.6,
+            "end": 98.84,
+            "word": " to",
+            "probability": 0.99845
+          },
+          {
+            "start": 98.84,
+            "end": 99.06,
+            "word": " stand",
+            "probability": 0.99726
+          },
+          {
+            "start": 99.06,
+            "end": 99.28,
+            "word": " out",
+            "probability": 0.99039
+          },
+          {
+            "start": 99.28,
+            "end": 99.4,
+            "word": " in",
+            "probability": 0.99275
+          },
+          {
+            "start": 99.4,
+            "end": 99.48,
+            "word": " the",
+            "probability": 0.99401
+          },
+          {
+            "start": 99.48,
+            "end": 99.78,
+            "word": " market.",
+            "probability": 0.99873
+          }
+        ]
+      },
+      {
+        "start": 100.59,
+        "end": 104.83,
+        "text": "Some may think the issue is pricing, but it is actually similar to its competitors.",
+        "words": [
+          {
+            "start": 100.59,
+            "end": 100.93,
+            "word": " Some",
+            "probability": 0.99446
+          },
+          {
+            "start": 100.93,
+            "end": 101.15,
+            "word": " may",
+            "probability": 0.98979
+          },
+          {
+            "start": 101.15,
+            "end": 101.37,
+            "word": " think",
+            "probability": 0.99874
+          },
+          {
+            "start": 101.37,
+            "end": 101.53,
+            "word": " the",
+            "probability": 0.96851
+          },
+          {
+            "start": 101.53,
+            "end": 101.77,
+            "word": " issue",
+            "probability": 0.99778
+          },
+          {
+            "start": 101.77,
+            "end": 101.95,
+            "word": " is",
+            "probability": 0.99579
+          },
+          {
+            "start": 101.95,
+            "end": 102.29,
+            "word": " pricing,",
+            "probability": 0.96527
+          },
+          {
+            "start": 102.85,
+            "end": 102.99,
+            "word": " but",
+            "probability": 0.99797
+          },
+          {
+            "start": 102.99,
+            "end": 103.11,
+            "word": " it",
+            "probability": 0.98267
+          },
+          {
+            "start": 103.11,
+            "end": 103.25,
+            "word": " is",
+            "probability": 0.99346
+          },
+          {
+            "start": 103.25,
+            "end": 103.59,
+            "word": " actually",
+            "probability": 0.99586
+          },
+          {
+            "start": 103.59,
+            "end": 103.97,
+            "word": " similar",
+            "probability": 0.99484
+          },
+          {
+            "start": 103.97,
+            "end": 104.21,
+            "word": " to",
+            "probability": 0.99911
+          },
+          {
+            "start": 104.21,
+            "end": 104.37,
+            "word": " its",
+            "probability": 0.93104
+          },
+          {
+            "start": 104.37,
+            "end": 104.83,
+            "word": " competitors.",
+            "probability": 0.99681
+          }
+        ]
+      },
+      {
+        "start": 105.61,
+        "end": 109.87,
+        "text": "Others might assume it is hard to find, but it is already available in many stores.",
+        "words": [
+          {
+            "start": 105.61,
+            "end": 106.01,
+            "word": " Others",
+            "probability": 0.98663
+          },
+          {
+            "start": 106.01,
+            "end": 106.27,
+            "word": " might",
+            "probability": 0.97142
+          },
+          {
+            "start": 106.27,
+            "end": 106.57,
+            "word": " assume",
+            "probability": 0.99687
+          },
+          {
+            "start": 106.57,
+            "end": 106.75,
+            "word": " it",
+            "probability": 0.99326
+          },
+          {
+            "start": 106.75,
+            "end": 106.87,
+            "word": " is",
+            "probability": 0.99666
+          },
+          {
+            "start": 106.87,
+            "end": 107.03,
+            "word": " hard",
+            "probability": 0.99865
+          },
+          {
+            "start": 107.03,
+            "end": 107.17,
+            "word": " to",
+            "probability": 0.9773
+          },
+          {
+            "start": 107.17,
+            "end": 107.53,
+            "word": " find,",
+            "probability": 0.99875
+          },
+          {
+            "start": 107.87,
+            "end": 108.03,
+            "word": " but",
+            "probability": 0.998
+          },
+          {
+            "start": 108.03,
+            "end": 108.17,
+            "word": " it",
+            "probability": 0.98535
+          },
+          {
+            "start": 108.17,
+            "end": 108.29,
+            "word": " is",
+            "probability": 0.99634
+          },
+          {
+            "start": 108.29,
+            "end": 108.57,
+            "word": " already",
+            "probability": 0.96919
+          },
+          {
+            "start": 108.57,
+            "end": 109.03,
+            "word": " available",
+            "probability": 0.99935
+          },
+          {
+            "start": 109.03,
+            "end": 109.31,
+            "word": " in",
+            "probability": 0.99654
+          },
+          {
+            "start": 109.31,
+            "end": 109.51,
+            "word": " many",
+            "probability": 0.99668
+          },
+          {
+            "start": 109.51,
+            "end": 109.87,
+            "word": " stores.",
+            "probability": 0.99524
+          }
+        ]
+      },
+      {
+        "start": 109.87,
+        "end": 115.53,
+        "text": "The real issue is that power boost is too similar to many existing products, making it difficult",
+        "words": [
+          {
+            "start": 109.87,
+            "end": 110.61,
+            "word": " The",
+            "probability": 0.6442
+          },
+          {
+            "start": 110.61,
+            "end": 110.83,
+            "word": " real",
+            "probability": 0.98925
+          },
+          {
+            "start": 110.83,
+            "end": 111.15,
+            "word": " issue",
+            "probability": 0.99397
+          },
+          {
+            "start": 111.15,
+            "end": 111.35,
+            "word": " is",
+            "probability": 0.99481
+          },
+          {
+            "start": 111.35,
+            "end": 111.53,
+            "word": " that",
+            "probability": 0.99453
+          },
+          {
+            "start": 111.53,
+            "end": 111.81,
+            "word": " power",
+            "probability": 0.67297
+          },
+          {
+            "start": 111.81,
+            "end": 112.07,
+            "word": " boost",
+            "probability": 0.958
+          },
+          {
+            "start": 112.07,
+            "end": 112.27,
+            "word": " is",
+            "probability": 0.99745
+          },
+          {
+            "start": 112.27,
+            "end": 112.49,
+            "word": " too",
+            "probability": 0.96767
+          },
+          {
+            "start": 112.49,
+            "end": 112.85,
+            "word": " similar",
+            "probability": 0.99805
+          },
+          {
+            "start": 112.85,
+            "end": 113.09,
+            "word": " to",
+            "probability": 0.99756
+          },
+          {
+            "start": 113.09,
+            "end": 113.29,
+            "word": " many",
+            "probability": 0.99187
+          },
+          {
+            "start": 113.29,
+            "end": 113.71,
+            "word": " existing",
+            "probability": 0.99783
+          },
+          {
+            "start": 113.71,
+            "end": 114.35,
+            "word": " products,",
+            "probability": 0.99703
+          },
+          {
+            "start": 114.77,
+            "end": 114.97,
+            "word": " making",
+            "probability": 0.9967
+          },
+          {
+            "start": 114.97,
+            "end": 115.19,
+            "word": " it",
+            "probability": 0.99981
+          },
+          {
+            "start": 115.19,
+            "end": 115.53,
+            "word": " difficult",
+            "probability": 0.99911
+          }
+        ]
+      },
+      {
+        "start": 115.53,
+        "end": 117.51,
+        "text": "for customers to see what makes it unique.",
+        "words": [
+          {
+            "start": 115.53,
+            "end": 115.79,
+            "word": " for",
+            "probability": 0.99653
+          },
+          {
+            "start": 115.79,
+            "end": 116.17,
+            "word": " customers",
+            "probability": 0.99707
+          },
+          {
+            "start": 116.17,
+            "end": 116.45,
+            "word": " to",
+            "probability": 0.99785
+          },
+          {
+            "start": 116.45,
+            "end": 116.63,
+            "word": " see",
+            "probability": 0.99687
+          },
+          {
+            "start": 116.63,
+            "end": 116.81,
+            "word": " what",
+            "probability": 0.99763
+          },
+          {
+            "start": 116.81,
+            "end": 116.99,
+            "word": " makes",
+            "probability": 0.9966
+          },
+          {
+            "start": 116.99,
+            "end": 117.17,
+            "word": " it",
+            "probability": 0.99849
+          },
+          {
+            "start": 117.17,
+            "end": 117.51,
+            "word": " unique.",
+            "probability": 0.99888
+          }
+        ]
+      },
+      {
+        "start": 118.13,
+        "end": 122.93,
+        "text": "To succeed, the company needs to adjust its messaging and find a way to differentiate",
+        "words": [
+          {
+            "start": 118.13,
+            "end": 118.27,
+            "word": " To",
+            "probability": 0.99593
+          },
+          {
+            "start": 118.27,
+            "end": 118.65,
+            "word": " succeed,",
+            "probability": 0.99852
+          },
+          {
+            "start": 119.07,
+            "end": 119.27,
+            "word": " the",
+            "probability": 0.99815
+          },
+          {
+            "start": 119.27,
+            "end": 119.57,
+            "word": " company",
+            "probability": 0.99818
+          },
+          {
+            "start": 119.57,
+            "end": 119.89,
+            "word": " needs",
+            "probability": 0.99721
+          },
+          {
+            "start": 119.89,
+            "end": 120.11,
+            "word": " to",
+            "probability": 0.99817
+          },
+          {
+            "start": 120.11,
+            "end": 120.37,
+            "word": " adjust",
+            "probability": 0.9957
+          },
+          {
+            "start": 120.37,
+            "end": 120.65,
+            "word": " its",
+            "probability": 0.98561
+          },
+          {
+            "start": 120.65,
+            "end": 121.15,
+            "word": " messaging",
+            "probability": 0.99789
+          },
+          {
+            "start": 121.15,
+            "end": 121.69,
+            "word": " and",
+            "probability": 0.88304
+          },
+          {
+            "start": 121.69,
+            "end": 121.97,
+            "word": " find",
+            "probability": 0.99676
+          },
+          {
+            "start": 121.97,
+            "end": 122.17,
+            "word": " a",
+            "probability": 0.9977
+          },
+          {
+            "start": 122.17,
+            "end": 122.33,
+            "word": " way",
+            "probability": 0.99939
+          },
+          {
+            "start": 122.33,
+            "end": 122.49,
+            "word": " to",
+            "probability": 0.99935
+          },
+          {
+            "start": 122.49,
+            "end": 122.93,
+            "word": " differentiate",
+            "probability": 0.99566
+          }
+        ]
+      },
+      {
+        "start": 122.93,
+        "end": 124.99,
+        "text": "power boost from other fitness supplements.",
+        "words": [
+          {
+            "start": 122.93,
+            "end": 123.43,
+            "word": " power",
+            "probability": 0.99102
+          },
+          {
+            "start": 123.43,
+            "end": 123.77,
+            "word": " boost",
+            "probability": 0.99027
+          },
+          {
+            "start": 123.77,
+            "end": 123.95,
+            "word": " from",
+            "probability": 0.99535
+          },
+          {
+            "start": 123.95,
+            "end": 124.21,
+            "word": " other",
+            "probability": 0.99531
+          },
+          {
+            "start": 124.21,
+            "end": 124.53,
+            "word": " fitness",
+            "probability": 0.98264
+          },
+          {
+            "start": 124.53,
+            "end": 124.99,
+            "word": " supplements.",
+            "probability": 0.99314
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono2",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 1,
+            "wordEndIndexExclusive": 166,
+            "speechStart": 1.0,
+            "speechEnd": 65.26,
+            "sourceTokenCoverage": 0.9701,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9759,
+            "transcript": "company recently launched a new fitness supplement powerboost but its promotion campaign is facing some difficulties 1 major issue is that the advertisements make exaggerated claims the campaign promises that powerboost will dramatically increase strength and endurance in just a few days however many customers feel the results are not as powerful as advertised while bold claims can attract attention they also risk damaging trust if the product does not deliver as expected another challenge is that power boost is struggling to stand out in the market some may think the issue is pricing but it is actually similar to its competitors others might assume it is hard to find but it is already available in many stores the real issue is that power boost is too similar to many existing products making it difficult for customers to see what makes it unique to succeed the company needs to adjust its messaging and find a way to differentiate power boost from other fitness supplements a",
+            "openingMatch": 0.8667,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 166,
+            "wordEndIndexExclusive": 330,
+            "speechStart": 65.26,
+            "speechEnd": 124.99,
+            "sourceTokenCoverage": 0.9701,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9789,
+            "transcript": "company recently launched a new fitness supplement powerboost but its promotion campaign is facing some difficulties 1 major issue is that the advertisements make exaggerated claims the campaign promises that powerboost will dramatically increase strength and endurance in just a few days however many customers feel the results are not as powerful as advertised while bold claims can attract attention they also risk damaging trust if the product does not deliver as expected another challenge is that power boost is struggling to stand out in the market some may think the issue is pricing but it is actually similar to its competitors others might assume it is hard to find but it is already available in many stores the real issue is that power boost is too similar to many existing products making it difficult for customers to see what makes it unique to succeed the company needs to adjust its messaging and find a way to differentiate power boost from other fitness supplements",
+            "openingMatch": 0.8667,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

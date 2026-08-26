@@ -1,0 +1,411 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p1-q13",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-1/q13.mp3",
+  "audioSha256": "2c28a768097a268d96b0591871f5733082c2d729ff50bc8adde532b2d921b86a",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 6.51,
+        "text": "I've been late several times recently, sometimes I oversleep, but that wasn't the case today.",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.31,
+            "word": " I've",
+            "probability": 0.94205
+          },
+          {
+            "start": 1.31,
+            "end": 1.41,
+            "word": " been",
+            "probability": 0.99928
+          },
+          {
+            "start": 1.41,
+            "end": 1.57,
+            "word": " late",
+            "probability": 0.99639
+          },
+          {
+            "start": 1.57,
+            "end": 1.87,
+            "word": " several",
+            "probability": 0.99645
+          },
+          {
+            "start": 1.87,
+            "end": 2.25,
+            "word": " times",
+            "probability": 0.99755
+          },
+          {
+            "start": 2.25,
+            "end": 2.83,
+            "word": " recently,",
+            "probability": 0.98668
+          },
+          {
+            "start": 3.45,
+            "end": 3.87,
+            "word": " sometimes",
+            "probability": 0.98691
+          },
+          {
+            "start": 3.87,
+            "end": 4.17,
+            "word": " I",
+            "probability": 0.98968
+          },
+          {
+            "start": 4.17,
+            "end": 4.69,
+            "word": " oversleep,",
+            "probability": 0.72896
+          },
+          {
+            "start": 5.11,
+            "end": 5.41,
+            "word": " but",
+            "probability": 0.99252
+          },
+          {
+            "start": 5.41,
+            "end": 5.57,
+            "word": " that",
+            "probability": 0.99159
+          },
+          {
+            "start": 5.57,
+            "end": 5.87,
+            "word": " wasn't",
+            "probability": 0.99286
+          },
+          {
+            "start": 5.87,
+            "end": 5.97,
+            "word": " the",
+            "probability": 0.99834
+          },
+          {
+            "start": 5.97,
+            "end": 6.15,
+            "word": " case",
+            "probability": 0.99973
+          },
+          {
+            "start": 6.15,
+            "end": 6.51,
+            "word": " today.",
+            "probability": 0.99395
+          }
+        ]
+      },
+      {
+        "start": 7.19,
+        "end": 10.21,
+        "text": "I actually left on time, but I missed the train at the last minute.",
+        "words": [
+          {
+            "start": 7.19,
+            "end": 7.39,
+            "word": " I",
+            "probability": 0.99773
+          },
+          {
+            "start": 7.39,
+            "end": 7.75,
+            "word": " actually",
+            "probability": 0.99539
+          },
+          {
+            "start": 7.75,
+            "end": 7.97,
+            "word": " left",
+            "probability": 0.99585
+          },
+          {
+            "start": 7.97,
+            "end": 8.19,
+            "word": " on",
+            "probability": 0.99788
+          },
+          {
+            "start": 8.19,
+            "end": 8.45,
+            "word": " time,",
+            "probability": 0.99687
+          },
+          {
+            "start": 8.45,
+            "end": 8.65,
+            "word": " but",
+            "probability": 0.99796
+          },
+          {
+            "start": 8.65,
+            "end": 8.77,
+            "word": " I",
+            "probability": 0.99836
+          },
+          {
+            "start": 8.77,
+            "end": 8.95,
+            "word": " missed",
+            "probability": 0.9767
+          },
+          {
+            "start": 8.95,
+            "end": 9.13,
+            "word": " the",
+            "probability": 0.99639
+          },
+          {
+            "start": 9.13,
+            "end": 9.41,
+            "word": " train",
+            "probability": 0.99872
+          },
+          {
+            "start": 9.41,
+            "end": 9.57,
+            "word": " at",
+            "probability": 0.98924
+          },
+          {
+            "start": 9.57,
+            "end": 9.65,
+            "word": " the",
+            "probability": 0.9924
+          },
+          {
+            "start": 9.65,
+            "end": 9.87,
+            "word": " last",
+            "probability": 0.99927
+          },
+          {
+            "start": 9.87,
+            "end": 10.21,
+            "word": " minute.",
+            "probability": 0.99674
+          }
+        ]
+      },
+      {
+        "start": 11.3,
+        "end": 13.46,
+        "text": "It's always the main reason I end up late.",
+        "words": [
+          {
+            "start": 11.3,
+            "end": 11.62,
+            "word": " It's",
+            "probability": 0.99546
+          },
+          {
+            "start": 11.62,
+            "end": 11.76,
+            "word": " always",
+            "probability": 0.99445
+          },
+          {
+            "start": 11.76,
+            "end": 12.0,
+            "word": " the",
+            "probability": 0.9975
+          },
+          {
+            "start": 12.0,
+            "end": 12.22,
+            "word": " main",
+            "probability": 0.99063
+          },
+          {
+            "start": 12.22,
+            "end": 12.62,
+            "word": " reason",
+            "probability": 0.99918
+          },
+          {
+            "start": 12.62,
+            "end": 12.84,
+            "word": " I",
+            "probability": 0.99121
+          },
+          {
+            "start": 12.84,
+            "end": 13.1,
+            "word": " end",
+            "probability": 0.98439
+          },
+          {
+            "start": 13.1,
+            "end": 13.24,
+            "word": " up",
+            "probability": 0.99571
+          },
+          {
+            "start": 13.24,
+            "end": 13.46,
+            "word": " late.",
+            "probability": 0.99974
+          }
+        ]
+      },
+      {
+        "start": 14.2,
+        "end": 19.06,
+        "text": "I try to double check everything I need, so forgetting something isn't usually an issue for",
+        "words": [
+          {
+            "start": 14.2,
+            "end": 14.46,
+            "word": " I",
+            "probability": 0.999
+          },
+          {
+            "start": 14.46,
+            "end": 14.64,
+            "word": " try",
+            "probability": 0.89117
+          },
+          {
+            "start": 14.64,
+            "end": 14.82,
+            "word": " to",
+            "probability": 0.99573
+          },
+          {
+            "start": 14.82,
+            "end": 15.06,
+            "word": " double",
+            "probability": 0.99556
+          },
+          {
+            "start": 15.06,
+            "end": 15.32,
+            "word": " check",
+            "probability": 0.6947
+          },
+          {
+            "start": 15.32,
+            "end": 15.78,
+            "word": " everything",
+            "probability": 0.98774
+          },
+          {
+            "start": 15.78,
+            "end": 16.08,
+            "word": " I",
+            "probability": 0.99519
+          },
+          {
+            "start": 16.08,
+            "end": 16.4,
+            "word": " need,",
+            "probability": 0.99871
+          },
+          {
+            "start": 16.7,
+            "end": 16.92,
+            "word": " so",
+            "probability": 0.99883
+          },
+          {
+            "start": 16.92,
+            "end": 17.28,
+            "word": " forgetting",
+            "probability": 0.95136
+          },
+          {
+            "start": 17.28,
+            "end": 17.8,
+            "word": " something",
+            "probability": 0.9979
+          },
+          {
+            "start": 17.8,
+            "end": 18.14,
+            "word": " isn't",
+            "probability": 0.99615
+          },
+          {
+            "start": 18.14,
+            "end": 18.42,
+            "word": " usually",
+            "probability": 0.98541
+          },
+          {
+            "start": 18.42,
+            "end": 18.58,
+            "word": " an",
+            "probability": 0.99849
+          },
+          {
+            "start": 18.58,
+            "end": 18.84,
+            "word": " issue",
+            "probability": 0.99832
+          },
+          {
+            "start": 18.84,
+            "end": 19.06,
+            "word": " for",
+            "probability": 0.99448
+          }
+        ]
+      },
+      {
+        "start": 19.06,
+        "end": 19.56,
+        "text": "me either.",
+        "words": [
+          {
+            "start": 19.06,
+            "end": 19.22,
+            "word": " me",
+            "probability": 0.99788
+          },
+          {
+            "start": 19.22,
+            "end": 19.56,
+            "word": " either.",
+            "probability": 0.86734
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q13",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 56,
+            "speechStart": 0.75,
+            "speechEnd": 19.56,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i've been late several times recently sometimes i oversleep but that wasn't the case today i actually left on time but i missed the train at the last minute it's always the main reason i end up late i try to double check everything i need so forgetting something isn't usually an issue for me either",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

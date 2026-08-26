@@ -1,0 +1,789 @@
+{
+  "testId": "aptis-b2-11",
+  "blockId": "p2-spk-d",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-11/part-2/spk-d.mp3",
+  "audioSha256": "4ad9a497e50ae94e5a56f5a8c275475d68ee4230ed265cd2fc6ccc254a9be4ab",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 4.63,
+        "text": "Surprisingly, I find that late night hours work best for my studying.",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.53,
+            "word": " Surprisingly,",
+            "probability": 0.49952
+          },
+          {
+            "start": 1.95,
+            "end": 2.03,
+            "word": " I",
+            "probability": 0.99602
+          },
+          {
+            "start": 2.03,
+            "end": 2.29,
+            "word": " find",
+            "probability": 0.99748
+          },
+          {
+            "start": 2.29,
+            "end": 2.43,
+            "word": " that",
+            "probability": 0.9917
+          },
+          {
+            "start": 2.43,
+            "end": 2.59,
+            "word": " late",
+            "probability": 0.98392
+          },
+          {
+            "start": 2.59,
+            "end": 2.79,
+            "word": " night",
+            "probability": 0.61131
+          },
+          {
+            "start": 2.79,
+            "end": 3.15,
+            "word": " hours",
+            "probability": 0.99711
+          },
+          {
+            "start": 3.15,
+            "end": 3.41,
+            "word": " work",
+            "probability": 0.99449
+          },
+          {
+            "start": 3.41,
+            "end": 3.83,
+            "word": " best",
+            "probability": 0.99537
+          },
+          {
+            "start": 3.83,
+            "end": 3.99,
+            "word": " for",
+            "probability": 0.99853
+          },
+          {
+            "start": 3.99,
+            "end": 4.13,
+            "word": " my",
+            "probability": 0.99485
+          },
+          {
+            "start": 4.13,
+            "end": 4.63,
+            "word": " studying.",
+            "probability": 0.96636
+          }
+        ]
+      },
+      {
+        "start": 5.66,
+        "end": 7.94,
+        "text": "The quietness of the night really helps me concentrate.",
+        "words": [
+          {
+            "start": 5.66,
+            "end": 5.7,
+            "word": " The",
+            "probability": 0.90775
+          },
+          {
+            "start": 5.7,
+            "end": 6.2,
+            "word": " quietness",
+            "probability": 0.98211
+          },
+          {
+            "start": 6.2,
+            "end": 6.32,
+            "word": " of",
+            "probability": 0.99869
+          },
+          {
+            "start": 6.32,
+            "end": 6.42,
+            "word": " the",
+            "probability": 0.99373
+          },
+          {
+            "start": 6.42,
+            "end": 6.58,
+            "word": " night",
+            "probability": 0.99758
+          },
+          {
+            "start": 6.58,
+            "end": 6.9,
+            "word": " really",
+            "probability": 0.99631
+          },
+          {
+            "start": 6.9,
+            "end": 7.2,
+            "word": " helps",
+            "probability": 0.99666
+          },
+          {
+            "start": 7.2,
+            "end": 7.38,
+            "word": " me",
+            "probability": 0.99671
+          },
+          {
+            "start": 7.38,
+            "end": 7.94,
+            "word": " concentrate.",
+            "probability": 0.9977
+          }
+        ]
+      },
+      {
+        "start": 9.0,
+        "end": 12.04,
+        "text": "While others are winding down, I feel more alert and inspired.",
+        "words": [
+          {
+            "start": 9.0,
+            "end": 9.22,
+            "word": " While",
+            "probability": 0.96347
+          },
+          {
+            "start": 9.22,
+            "end": 9.5,
+            "word": " others",
+            "probability": 0.99536
+          },
+          {
+            "start": 9.5,
+            "end": 9.68,
+            "word": " are",
+            "probability": 0.99899
+          },
+          {
+            "start": 9.68,
+            "end": 9.98,
+            "word": " winding",
+            "probability": 0.99105
+          },
+          {
+            "start": 9.98,
+            "end": 10.32,
+            "word": " down,",
+            "probability": 0.99917
+          },
+          {
+            "start": 10.58,
+            "end": 10.66,
+            "word": " I",
+            "probability": 0.99936
+          },
+          {
+            "start": 10.66,
+            "end": 10.88,
+            "word": " feel",
+            "probability": 0.99834
+          },
+          {
+            "start": 10.88,
+            "end": 11.12,
+            "word": " more",
+            "probability": 0.99813
+          },
+          {
+            "start": 11.12,
+            "end": 11.42,
+            "word": " alert",
+            "probability": 0.99915
+          },
+          {
+            "start": 11.42,
+            "end": 11.6,
+            "word": " and",
+            "probability": 0.99378
+          },
+          {
+            "start": 11.6,
+            "end": 12.04,
+            "word": " inspired.",
+            "probability": 0.97541
+          }
+        ]
+      },
+      {
+        "start": 13.03,
+        "end": 17.27,
+        "text": "Those late hours give me a chance to dive deep into my work without interruptions, turning",
+        "words": [
+          {
+            "start": 13.03,
+            "end": 13.27,
+            "word": " Those",
+            "probability": 0.97923
+          },
+          {
+            "start": 13.27,
+            "end": 13.49,
+            "word": " late",
+            "probability": 0.9898
+          },
+          {
+            "start": 13.49,
+            "end": 13.81,
+            "word": " hours",
+            "probability": 0.99931
+          },
+          {
+            "start": 13.81,
+            "end": 13.99,
+            "word": " give",
+            "probability": 0.9928
+          },
+          {
+            "start": 13.99,
+            "end": 14.15,
+            "word": " me",
+            "probability": 0.99836
+          },
+          {
+            "start": 14.15,
+            "end": 14.23,
+            "word": " a",
+            "probability": 0.99595
+          },
+          {
+            "start": 14.23,
+            "end": 14.45,
+            "word": " chance",
+            "probability": 0.99961
+          },
+          {
+            "start": 14.45,
+            "end": 14.65,
+            "word": " to",
+            "probability": 0.99889
+          },
+          {
+            "start": 14.65,
+            "end": 14.83,
+            "word": " dive",
+            "probability": 0.99747
+          },
+          {
+            "start": 14.83,
+            "end": 15.07,
+            "word": " deep",
+            "probability": 0.99576
+          },
+          {
+            "start": 15.07,
+            "end": 15.33,
+            "word": " into",
+            "probability": 0.99875
+          },
+          {
+            "start": 15.33,
+            "end": 15.45,
+            "word": " my",
+            "probability": 0.99897
+          },
+          {
+            "start": 15.45,
+            "end": 15.73,
+            "word": " work",
+            "probability": 0.99618
+          },
+          {
+            "start": 15.73,
+            "end": 16.01,
+            "word": " without",
+            "probability": 0.99067
+          },
+          {
+            "start": 16.01,
+            "end": 16.79,
+            "word": " interruptions,",
+            "probability": 0.99183
+          },
+          {
+            "start": 17.07,
+            "end": 17.27,
+            "word": " turning",
+            "probability": 0.99721
+          }
+        ]
+      },
+      {
+        "start": 17.27,
+        "end": 19.33,
+        "text": "them into my most productive study sessions.",
+        "words": [
+          {
+            "start": 17.27,
+            "end": 17.45,
+            "word": " them",
+            "probability": 0.99803
+          },
+          {
+            "start": 17.45,
+            "end": 17.63,
+            "word": " into",
+            "probability": 0.99614
+          },
+          {
+            "start": 17.63,
+            "end": 17.79,
+            "word": " my",
+            "probability": 0.99837
+          },
+          {
+            "start": 17.79,
+            "end": 18.09,
+            "word": " most",
+            "probability": 0.99021
+          },
+          {
+            "start": 18.09,
+            "end": 18.41,
+            "word": " productive",
+            "probability": 0.99615
+          },
+          {
+            "start": 18.41,
+            "end": 18.83,
+            "word": " study",
+            "probability": 0.98768
+          },
+          {
+            "start": 18.83,
+            "end": 19.33,
+            "word": " sessions.",
+            "probability": 0.98928
+          }
+        ]
+      },
+      {
+        "start": 25.38,
+        "end": 28.96,
+        "text": "Surprisingly, I find that late night hours work best for my studying.",
+        "words": [
+          {
+            "start": 25.38,
+            "end": 25.88,
+            "word": " Surprisingly,",
+            "probability": 0.98036
+          },
+          {
+            "start": 26.26,
+            "end": 26.34,
+            "word": " I",
+            "probability": 0.99946
+          },
+          {
+            "start": 26.34,
+            "end": 26.58,
+            "word": " find",
+            "probability": 0.99842
+          },
+          {
+            "start": 26.58,
+            "end": 26.74,
+            "word": " that",
+            "probability": 0.99662
+          },
+          {
+            "start": 26.74,
+            "end": 26.9,
+            "word": " late",
+            "probability": 0.9988
+          },
+          {
+            "start": 26.9,
+            "end": 27.1,
+            "word": " night",
+            "probability": 0.96651
+          },
+          {
+            "start": 27.1,
+            "end": 27.48,
+            "word": " hours",
+            "probability": 0.99954
+          },
+          {
+            "start": 27.48,
+            "end": 27.74,
+            "word": " work",
+            "probability": 0.99738
+          },
+          {
+            "start": 27.74,
+            "end": 28.14,
+            "word": " best",
+            "probability": 0.99872
+          },
+          {
+            "start": 28.14,
+            "end": 28.3,
+            "word": " for",
+            "probability": 0.99817
+          },
+          {
+            "start": 28.3,
+            "end": 28.46,
+            "word": " my",
+            "probability": 0.99661
+          },
+          {
+            "start": 28.46,
+            "end": 28.96,
+            "word": " studying.",
+            "probability": 0.98548
+          }
+        ]
+      },
+      {
+        "start": 29.93,
+        "end": 32.27,
+        "text": "The quietness of the night really helps me concentrate.",
+        "words": [
+          {
+            "start": 29.93,
+            "end": 30.03,
+            "word": " The",
+            "probability": 0.99519
+          },
+          {
+            "start": 30.03,
+            "end": 30.51,
+            "word": " quietness",
+            "probability": 0.99762
+          },
+          {
+            "start": 30.51,
+            "end": 30.63,
+            "word": " of",
+            "probability": 0.99934
+          },
+          {
+            "start": 30.63,
+            "end": 30.73,
+            "word": " the",
+            "probability": 0.99605
+          },
+          {
+            "start": 30.73,
+            "end": 30.89,
+            "word": " night",
+            "probability": 0.99912
+          },
+          {
+            "start": 30.89,
+            "end": 31.19,
+            "word": " really",
+            "probability": 0.99862
+          },
+          {
+            "start": 31.19,
+            "end": 31.49,
+            "word": " helps",
+            "probability": 0.99595
+          },
+          {
+            "start": 31.49,
+            "end": 31.69,
+            "word": " me",
+            "probability": 0.99623
+          },
+          {
+            "start": 31.69,
+            "end": 32.27,
+            "word": " concentrate.",
+            "probability": 0.99931
+          }
+        ]
+      },
+      {
+        "start": 32.27,
+        "end": 38.1,
+        "text": "weight. While others are winding down, I feel more alert and inspired. Those late hours",
+        "words": [
+          {
+            "start": 32.27,
+            "end": 32.41,
+            "word": " weight.",
+            "probability": 0.04684
+          },
+          {
+            "start": 33.29,
+            "end": 33.55,
+            "word": " While",
+            "probability": 0.96217
+          },
+          {
+            "start": 33.55,
+            "end": 33.83,
+            "word": " others",
+            "probability": 0.99475
+          },
+          {
+            "start": 33.83,
+            "end": 34.01,
+            "word": " are",
+            "probability": 0.99824
+          },
+          {
+            "start": 34.01,
+            "end": 34.29,
+            "word": " winding",
+            "probability": 0.98819
+          },
+          {
+            "start": 34.29,
+            "end": 34.63,
+            "word": " down,",
+            "probability": 0.9985
+          },
+          {
+            "start": 34.91,
+            "end": 34.97,
+            "word": " I",
+            "probability": 0.99479
+          },
+          {
+            "start": 34.97,
+            "end": 35.21,
+            "word": " feel",
+            "probability": 0.99869
+          },
+          {
+            "start": 35.21,
+            "end": 35.45,
+            "word": " more",
+            "probability": 0.9961
+          },
+          {
+            "start": 35.45,
+            "end": 35.73,
+            "word": " alert",
+            "probability": 0.99927
+          },
+          {
+            "start": 35.73,
+            "end": 35.93,
+            "word": " and",
+            "probability": 0.99624
+          },
+          {
+            "start": 35.93,
+            "end": 36.41,
+            "word": " inspired.",
+            "probability": 0.98498
+          },
+          {
+            "start": 37.46,
+            "end": 37.6,
+            "word": " Those",
+            "probability": 0.94994
+          },
+          {
+            "start": 37.6,
+            "end": 37.84,
+            "word": " late",
+            "probability": 0.8751
+          },
+          {
+            "start": 37.84,
+            "end": 38.1,
+            "word": " hours",
+            "probability": 0.99536
+          }
+        ]
+      },
+      {
+        "start": 38.1,
+        "end": 42.12,
+        "text": "give me a chance to dive deep into my work without interruptions, turning them into my",
+        "words": [
+          {
+            "start": 38.1,
+            "end": 38.32,
+            "word": " give",
+            "probability": 0.98666
+          },
+          {
+            "start": 38.32,
+            "end": 38.46,
+            "word": " me",
+            "probability": 0.99759
+          },
+          {
+            "start": 38.46,
+            "end": 38.56,
+            "word": " a",
+            "probability": 0.99483
+          },
+          {
+            "start": 38.56,
+            "end": 38.76,
+            "word": " chance",
+            "probability": 0.99925
+          },
+          {
+            "start": 38.76,
+            "end": 38.98,
+            "word": " to",
+            "probability": 0.99918
+          },
+          {
+            "start": 38.98,
+            "end": 39.14,
+            "word": " dive",
+            "probability": 0.9961
+          },
+          {
+            "start": 39.14,
+            "end": 39.4,
+            "word": " deep",
+            "probability": 0.99579
+          },
+          {
+            "start": 39.4,
+            "end": 39.64,
+            "word": " into",
+            "probability": 0.99796
+          },
+          {
+            "start": 39.64,
+            "end": 39.78,
+            "word": " my",
+            "probability": 0.99819
+          },
+          {
+            "start": 39.78,
+            "end": 40.04,
+            "word": " work",
+            "probability": 0.99041
+          },
+          {
+            "start": 40.04,
+            "end": 40.32,
+            "word": " without",
+            "probability": 0.99119
+          },
+          {
+            "start": 40.32,
+            "end": 41.1,
+            "word": " interruptions,",
+            "probability": 0.98593
+          },
+          {
+            "start": 41.38,
+            "end": 41.58,
+            "word": " turning",
+            "probability": 0.99676
+          },
+          {
+            "start": 41.58,
+            "end": 41.76,
+            "word": " them",
+            "probability": 0.99485
+          },
+          {
+            "start": 41.76,
+            "end": 41.94,
+            "word": " into",
+            "probability": 0.99342
+          },
+          {
+            "start": 41.94,
+            "end": 42.12,
+            "word": " my",
+            "probability": 0.99566
+          }
+        ]
+      },
+      {
+        "start": 42.12,
+        "end": 43.66,
+        "text": "most productive study sessions.",
+        "words": [
+          {
+            "start": 42.12,
+            "end": 42.38,
+            "word": " most",
+            "probability": 0.64387
+          },
+          {
+            "start": 42.38,
+            "end": 42.82,
+            "word": " productive",
+            "probability": 0.99584
+          },
+          {
+            "start": 42.82,
+            "end": 43.16,
+            "word": " study",
+            "probability": 0.98856
+          },
+          {
+            "start": 43.16,
+            "end": 43.66,
+            "word": " sessions.",
+            "probability": 0.99536
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-d",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 55,
+            "speechStart": 0.75,
+            "speechEnd": 19.33,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "surprisingly i find that late night hours work best for my studying the quietness of the night really helps me concentrate while others are winding down i feel more alert and inspired those late hours give me a chance to dive deep into my work without interruptions turning them into my most productive study sessions",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 55,
+            "wordEndIndexExclusive": 111,
+            "speechStart": 25.38,
+            "speechEnd": 43.66,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.991,
+            "transcript": "surprisingly i find that late night hours work best for my studying the quietness of the night really helps me concentrate weight while others are winding down i feel more alert and inspired those late hours give me a chance to dive deep into my work without interruptions turning them into my most productive study sessions",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

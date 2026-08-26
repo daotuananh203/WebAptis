@@ -1,0 +1,508 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-1/q01.mp3",
+  "audioSha256": "3f101a0a46332c66be33d13e6be90264c2815b58d32333906a1f125c76113bd2",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 6.96,
+        "text": "Attention! All passengers! The 1030 train to Greenfield is now arriving at Platform 2.",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.5,
+            "word": " Attention!",
+            "probability": 0.9286
+          },
+          {
+            "start": 2.06,
+            "end": 2.2,
+            "word": " All",
+            "probability": 0.99015
+          },
+          {
+            "start": 2.2,
+            "end": 2.76,
+            "word": " passengers!",
+            "probability": 0.93758
+          },
+          {
+            "start": 3.38,
+            "end": 3.46,
+            "word": " The",
+            "probability": 0.98048
+          },
+          {
+            "start": 3.46,
+            "end": 3.98,
+            "word": " 1030",
+            "probability": 0.78743
+          },
+          {
+            "start": 3.98,
+            "end": 4.32,
+            "word": " train",
+            "probability": 0.63771
+          },
+          {
+            "start": 4.32,
+            "end": 4.48,
+            "word": " to",
+            "probability": 0.99292
+          },
+          {
+            "start": 4.48,
+            "end": 5.0,
+            "word": " Greenfield",
+            "probability": 0.98546
+          },
+          {
+            "start": 5.0,
+            "end": 5.28,
+            "word": " is",
+            "probability": 0.98873
+          },
+          {
+            "start": 5.28,
+            "end": 5.5,
+            "word": " now",
+            "probability": 0.99848
+          },
+          {
+            "start": 5.5,
+            "end": 5.98,
+            "word": " arriving",
+            "probability": 0.99654
+          },
+          {
+            "start": 5.98,
+            "end": 6.16,
+            "word": " at",
+            "probability": 0.99879
+          },
+          {
+            "start": 6.16,
+            "end": 6.54,
+            "word": " Platform",
+            "probability": 0.67376
+          },
+          {
+            "start": 6.54,
+            "end": 6.96,
+            "word": " 2.",
+            "probability": 0.85446
+          }
+        ]
+      },
+      {
+        "start": 7.52,
+        "end": 10.28,
+        "text": "Please make sure you have your ticket ready before boarding.",
+        "words": [
+          {
+            "start": 7.52,
+            "end": 7.8,
+            "word": " Please",
+            "probability": 0.99031
+          },
+          {
+            "start": 7.8,
+            "end": 7.98,
+            "word": " make",
+            "probability": 0.96968
+          },
+          {
+            "start": 7.98,
+            "end": 8.28,
+            "word": " sure",
+            "probability": 0.99936
+          },
+          {
+            "start": 8.28,
+            "end": 8.54,
+            "word": " you",
+            "probability": 0.98929
+          },
+          {
+            "start": 8.54,
+            "end": 8.7,
+            "word": " have",
+            "probability": 0.9975
+          },
+          {
+            "start": 8.7,
+            "end": 8.9,
+            "word": " your",
+            "probability": 0.9963
+          },
+          {
+            "start": 8.9,
+            "end": 9.14,
+            "word": " ticket",
+            "probability": 0.99297
+          },
+          {
+            "start": 9.14,
+            "end": 9.42,
+            "word": " ready",
+            "probability": 0.99104
+          },
+          {
+            "start": 9.42,
+            "end": 9.86,
+            "word": " before",
+            "probability": 0.98251
+          },
+          {
+            "start": 9.86,
+            "end": 10.28,
+            "word": " boarding.",
+            "probability": 0.99745
+          }
+        ]
+      },
+      {
+        "start": 10.9,
+        "end": 15.66,
+        "text": "This train will stop at River Station and Oakwood before reaching its final destination.",
+        "words": [
+          {
+            "start": 10.9,
+            "end": 11.14,
+            "word": " This",
+            "probability": 0.99676
+          },
+          {
+            "start": 11.14,
+            "end": 11.4,
+            "word": " train",
+            "probability": 0.99849
+          },
+          {
+            "start": 11.4,
+            "end": 11.56,
+            "word": " will",
+            "probability": 0.99794
+          },
+          {
+            "start": 11.56,
+            "end": 11.82,
+            "word": " stop",
+            "probability": 0.99898
+          },
+          {
+            "start": 11.82,
+            "end": 12.02,
+            "word": " at",
+            "probability": 0.99881
+          },
+          {
+            "start": 12.02,
+            "end": 12.24,
+            "word": " River",
+            "probability": 0.90271
+          },
+          {
+            "start": 12.24,
+            "end": 12.56,
+            "word": " Station",
+            "probability": 0.6843
+          },
+          {
+            "start": 12.56,
+            "end": 13.02,
+            "word": " and",
+            "probability": 0.9626
+          },
+          {
+            "start": 13.02,
+            "end": 13.54,
+            "word": " Oakwood",
+            "probability": 0.969
+          },
+          {
+            "start": 13.54,
+            "end": 14.0,
+            "word": " before",
+            "probability": 0.85779
+          },
+          {
+            "start": 14.0,
+            "end": 14.36,
+            "word": " reaching",
+            "probability": 0.99934
+          },
+          {
+            "start": 14.36,
+            "end": 14.6,
+            "word": " its",
+            "probability": 0.98006
+          },
+          {
+            "start": 14.6,
+            "end": 14.98,
+            "word": " final",
+            "probability": 0.9952
+          },
+          {
+            "start": 14.98,
+            "end": 15.66,
+            "word": " destination.",
+            "probability": 0.99964
+          }
+        ]
+      },
+      {
+        "start": 16.06,
+        "end": 19.06,
+        "text": "Be careful when stepping onto the train and mind the gap.",
+        "words": [
+          {
+            "start": 16.06,
+            "end": 16.24,
+            "word": " Be",
+            "probability": 0.99587
+          },
+          {
+            "start": 16.24,
+            "end": 16.62,
+            "word": " careful",
+            "probability": 0.99604
+          },
+          {
+            "start": 16.62,
+            "end": 16.86,
+            "word": " when",
+            "probability": 0.9929
+          },
+          {
+            "start": 16.86,
+            "end": 17.12,
+            "word": " stepping",
+            "probability": 0.99018
+          },
+          {
+            "start": 17.12,
+            "end": 17.44,
+            "word": " onto",
+            "probability": 0.56294
+          },
+          {
+            "start": 17.44,
+            "end": 17.62,
+            "word": " the",
+            "probability": 0.99458
+          },
+          {
+            "start": 17.62,
+            "end": 17.9,
+            "word": " train",
+            "probability": 0.99687
+          },
+          {
+            "start": 17.9,
+            "end": 18.42,
+            "word": " and",
+            "probability": 0.9366
+          },
+          {
+            "start": 18.42,
+            "end": 18.66,
+            "word": " mind",
+            "probability": 0.74653
+          },
+          {
+            "start": 18.66,
+            "end": 18.86,
+            "word": " the",
+            "probability": 0.99921
+          },
+          {
+            "start": 18.86,
+            "end": 19.06,
+            "word": " gap.",
+            "probability": 0.89988
+          }
+        ]
+      },
+      {
+        "start": 19.68,
+        "end": 24.8,
+        "text": "For your safety, please keep your belongings close and follow all instructions from the staff.",
+        "words": [
+          {
+            "start": 19.68,
+            "end": 19.84,
+            "word": " For",
+            "probability": 0.9967
+          },
+          {
+            "start": 19.84,
+            "end": 19.96,
+            "word": " your",
+            "probability": 0.99121
+          },
+          {
+            "start": 19.96,
+            "end": 20.36,
+            "word": " safety,",
+            "probability": 0.99842
+          },
+          {
+            "start": 20.8,
+            "end": 20.98,
+            "word": " please",
+            "probability": 0.98472
+          },
+          {
+            "start": 20.98,
+            "end": 21.18,
+            "word": " keep",
+            "probability": 0.99773
+          },
+          {
+            "start": 21.18,
+            "end": 21.36,
+            "word": " your",
+            "probability": 0.99375
+          },
+          {
+            "start": 21.36,
+            "end": 21.62,
+            "word": " belongings",
+            "probability": 0.99895
+          },
+          {
+            "start": 21.62,
+            "end": 22.16,
+            "word": " close",
+            "probability": 0.98592
+          },
+          {
+            "start": 22.16,
+            "end": 22.78,
+            "word": " and",
+            "probability": 0.88475
+          },
+          {
+            "start": 22.78,
+            "end": 23.14,
+            "word": " follow",
+            "probability": 0.99806
+          },
+          {
+            "start": 23.14,
+            "end": 23.44,
+            "word": " all",
+            "probability": 0.98859
+          },
+          {
+            "start": 23.44,
+            "end": 24.0,
+            "word": " instructions",
+            "probability": 0.98838
+          },
+          {
+            "start": 24.0,
+            "end": 24.34,
+            "word": " from",
+            "probability": 0.9975
+          },
+          {
+            "start": 24.34,
+            "end": 24.52,
+            "word": " the",
+            "probability": 0.98944
+          },
+          {
+            "start": 24.52,
+            "end": 24.8,
+            "word": " staff.",
+            "probability": 0.99303
+          }
+        ]
+      },
+      {
+        "start": 25.75,
+        "end": 27.43,
+        "text": "Thank you for traveling with us today.",
+        "words": [
+          {
+            "start": 25.75,
+            "end": 26.03,
+            "word": " Thank",
+            "probability": 0.99114
+          },
+          {
+            "start": 26.03,
+            "end": 26.21,
+            "word": " you",
+            "probability": 0.98824
+          },
+          {
+            "start": 26.21,
+            "end": 26.35,
+            "word": " for",
+            "probability": 0.99905
+          },
+          {
+            "start": 26.35,
+            "end": 26.71,
+            "word": " traveling",
+            "probability": 0.7776
+          },
+          {
+            "start": 26.71,
+            "end": 26.93,
+            "word": " with",
+            "probability": 0.9992
+          },
+          {
+            "start": 26.93,
+            "end": 27.09,
+            "word": " us",
+            "probability": 0.99904
+          },
+          {
+            "start": 27.09,
+            "end": 27.43,
+            "word": " today.",
+            "probability": 0.99517
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 71,
+            "speechStart": 0.88,
+            "speechEnd": 27.43,
+            "sourceTokenCoverage": 0.9722,
+            "openingCoverage": 0.8571,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.979,
+            "transcript": "attention all passengers the 1030 train to greenfield is now arriving at platform 2 please make sure you have your ticket ready before boarding this train will stop at river station and oakwood before reaching its final destination be careful when stepping onto the train and mind the gap for your safety please keep your belongings close and follow all instructions from the staff thank you for traveling with us today",
+            "openingMatch": 0.9111,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,918 @@
+{
+  "testId": "aptis-b2-15",
+  "blockId": "p1-q08",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-15/part-1/q08.mp3",
+  "audioSha256": "5f6eccd689fe66e28828320d8cbc37ae58b163ee1d28db0754d88c3a1632c443",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 6.54,
+        "text": "I've always wanted to be a doctor. It's fulfilling to know that I can make a difference in someone's life.",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.48,
+            "word": " I've",
+            "probability": 0.65003
+          },
+          {
+            "start": 1.48,
+            "end": 1.6,
+            "word": " always",
+            "probability": 0.98604
+          },
+          {
+            "start": 1.6,
+            "end": 2.02,
+            "word": " wanted",
+            "probability": 0.99546
+          },
+          {
+            "start": 2.02,
+            "end": 2.16,
+            "word": " to",
+            "probability": 0.9981
+          },
+          {
+            "start": 2.16,
+            "end": 2.28,
+            "word": " be",
+            "probability": 0.9987
+          },
+          {
+            "start": 2.28,
+            "end": 2.36,
+            "word": " a",
+            "probability": 0.99849
+          },
+          {
+            "start": 2.36,
+            "end": 2.74,
+            "word": " doctor.",
+            "probability": 0.95695
+          },
+          {
+            "start": 3.36,
+            "end": 3.56,
+            "word": " It's",
+            "probability": 0.97732
+          },
+          {
+            "start": 3.56,
+            "end": 3.88,
+            "word": " fulfilling",
+            "probability": 0.99458
+          },
+          {
+            "start": 3.88,
+            "end": 4.2,
+            "word": " to",
+            "probability": 0.99759
+          },
+          {
+            "start": 4.2,
+            "end": 4.36,
+            "word": " know",
+            "probability": 0.99763
+          },
+          {
+            "start": 4.36,
+            "end": 4.52,
+            "word": " that",
+            "probability": 0.96517
+          },
+          {
+            "start": 4.52,
+            "end": 4.66,
+            "word": " I",
+            "probability": 0.99731
+          },
+          {
+            "start": 4.66,
+            "end": 4.8,
+            "word": " can",
+            "probability": 0.99594
+          },
+          {
+            "start": 4.8,
+            "end": 4.94,
+            "word": " make",
+            "probability": 0.99739
+          },
+          {
+            "start": 4.94,
+            "end": 5.08,
+            "word": " a",
+            "probability": 0.99935
+          },
+          {
+            "start": 5.08,
+            "end": 5.42,
+            "word": " difference",
+            "probability": 0.99844
+          },
+          {
+            "start": 5.42,
+            "end": 5.74,
+            "word": " in",
+            "probability": 0.99924
+          },
+          {
+            "start": 5.74,
+            "end": 6.26,
+            "word": " someone's",
+            "probability": 0.99784
+          },
+          {
+            "start": 6.26,
+            "end": 6.54,
+            "word": " life.",
+            "probability": 0.99817
+          }
+        ]
+      },
+      {
+        "start": 7.2,
+        "end": 12.08,
+        "text": "My family is also proud of this career choice, and they have encouraged me along the way.",
+        "words": [
+          {
+            "start": 7.2,
+            "end": 7.42,
+            "word": " My",
+            "probability": 0.98597
+          },
+          {
+            "start": 7.42,
+            "end": 7.82,
+            "word": " family",
+            "probability": 0.9977
+          },
+          {
+            "start": 7.82,
+            "end": 8.08,
+            "word": " is",
+            "probability": 0.99648
+          },
+          {
+            "start": 8.08,
+            "end": 8.38,
+            "word": " also",
+            "probability": 0.99789
+          },
+          {
+            "start": 8.38,
+            "end": 8.74,
+            "word": " proud",
+            "probability": 0.99906
+          },
+          {
+            "start": 8.74,
+            "end": 8.96,
+            "word": " of",
+            "probability": 0.99926
+          },
+          {
+            "start": 8.96,
+            "end": 9.2,
+            "word": " this",
+            "probability": 0.99707
+          },
+          {
+            "start": 9.2,
+            "end": 9.5,
+            "word": " career",
+            "probability": 0.99554
+          },
+          {
+            "start": 9.5,
+            "end": 9.88,
+            "word": " choice,",
+            "probability": 0.99472
+          },
+          {
+            "start": 10.34,
+            "end": 10.48,
+            "word": " and",
+            "probability": 0.99734
+          },
+          {
+            "start": 10.48,
+            "end": 10.6,
+            "word": " they",
+            "probability": 0.99828
+          },
+          {
+            "start": 10.6,
+            "end": 10.74,
+            "word": " have",
+            "probability": 0.99404
+          },
+          {
+            "start": 10.74,
+            "end": 11.28,
+            "word": " encouraged",
+            "probability": 0.99914
+          },
+          {
+            "start": 11.28,
+            "end": 11.48,
+            "word": " me",
+            "probability": 0.99918
+          },
+          {
+            "start": 11.48,
+            "end": 11.66,
+            "word": " along",
+            "probability": 0.99862
+          },
+          {
+            "start": 11.66,
+            "end": 11.84,
+            "word": " the",
+            "probability": 0.99927
+          },
+          {
+            "start": 11.84,
+            "end": 12.08,
+            "word": " way.",
+            "probability": 0.9996
+          }
+        ]
+      },
+      {
+        "start": 12.78,
+        "end": 21.36,
+        "text": "Some friends say doctors earn a lot of money, which is a nice bonus, but my main goal remains to save lives and provide care to those who need it most.",
+        "words": [
+          {
+            "start": 12.78,
+            "end": 13.04,
+            "word": " Some",
+            "probability": 0.99071
+          },
+          {
+            "start": 13.04,
+            "end": 13.32,
+            "word": " friends",
+            "probability": 0.98943
+          },
+          {
+            "start": 13.32,
+            "end": 13.68,
+            "word": " say",
+            "probability": 0.99345
+          },
+          {
+            "start": 13.68,
+            "end": 14.12,
+            "word": " doctors",
+            "probability": 0.49556
+          },
+          {
+            "start": 14.12,
+            "end": 14.36,
+            "word": " earn",
+            "probability": 0.99764
+          },
+          {
+            "start": 14.36,
+            "end": 14.46,
+            "word": " a",
+            "probability": 0.99849
+          },
+          {
+            "start": 14.46,
+            "end": 14.62,
+            "word": " lot",
+            "probability": 0.99977
+          },
+          {
+            "start": 14.62,
+            "end": 14.8,
+            "word": " of",
+            "probability": 0.99953
+          },
+          {
+            "start": 14.8,
+            "end": 15.1,
+            "word": " money,",
+            "probability": 0.99966
+          },
+          {
+            "start": 15.3,
+            "end": 15.56,
+            "word": " which",
+            "probability": 0.99784
+          },
+          {
+            "start": 15.56,
+            "end": 15.72,
+            "word": " is",
+            "probability": 0.99869
+          },
+          {
+            "start": 15.72,
+            "end": 15.8,
+            "word": " a",
+            "probability": 0.99854
+          },
+          {
+            "start": 15.8,
+            "end": 16.0,
+            "word": " nice",
+            "probability": 0.99349
+          },
+          {
+            "start": 16.0,
+            "end": 16.42,
+            "word": " bonus,",
+            "probability": 0.99674
+          },
+          {
+            "start": 16.84,
+            "end": 17.08,
+            "word": " but",
+            "probability": 0.99289
+          },
+          {
+            "start": 17.08,
+            "end": 17.26,
+            "word": " my",
+            "probability": 0.99693
+          },
+          {
+            "start": 17.26,
+            "end": 17.52,
+            "word": " main",
+            "probability": 0.99951
+          },
+          {
+            "start": 17.52,
+            "end": 17.74,
+            "word": " goal",
+            "probability": 0.99878
+          },
+          {
+            "start": 17.74,
+            "end": 18.08,
+            "word": " remains",
+            "probability": 0.99616
+          },
+          {
+            "start": 18.08,
+            "end": 18.4,
+            "word": " to",
+            "probability": 0.99938
+          },
+          {
+            "start": 18.4,
+            "end": 18.72,
+            "word": " save",
+            "probability": 0.98652
+          },
+          {
+            "start": 18.72,
+            "end": 19.1,
+            "word": " lives",
+            "probability": 0.9972
+          },
+          {
+            "start": 19.1,
+            "end": 19.44,
+            "word": " and",
+            "probability": 0.93256
+          },
+          {
+            "start": 19.44,
+            "end": 19.72,
+            "word": " provide",
+            "probability": 0.99902
+          },
+          {
+            "start": 19.72,
+            "end": 20.12,
+            "word": " care",
+            "probability": 0.99858
+          },
+          {
+            "start": 20.12,
+            "end": 20.3,
+            "word": " to",
+            "probability": 0.99846
+          },
+          {
+            "start": 20.3,
+            "end": 20.56,
+            "word": " those",
+            "probability": 0.99877
+          },
+          {
+            "start": 20.56,
+            "end": 20.76,
+            "word": " who",
+            "probability": 0.99812
+          },
+          {
+            "start": 20.76,
+            "end": 20.94,
+            "word": " need",
+            "probability": 0.9991
+          },
+          {
+            "start": 20.94,
+            "end": 21.08,
+            "word": " it",
+            "probability": 0.99892
+          },
+          {
+            "start": 21.08,
+            "end": 21.36,
+            "word": " most.",
+            "probability": 0.99361
+          }
+        ]
+      },
+      {
+        "start": 24.25,
+        "end": 29.63,
+        "text": "I've always wanted to be a doctor. It's fulfilling to know that I can make a difference in someone's life.",
+        "words": [
+          {
+            "start": 24.25,
+            "end": 24.55,
+            "word": " I've",
+            "probability": 0.98311
+          },
+          {
+            "start": 24.55,
+            "end": 24.71,
+            "word": " always",
+            "probability": 0.99914
+          },
+          {
+            "start": 24.71,
+            "end": 25.11,
+            "word": " wanted",
+            "probability": 0.99617
+          },
+          {
+            "start": 25.11,
+            "end": 25.23,
+            "word": " to",
+            "probability": 0.99844
+          },
+          {
+            "start": 25.23,
+            "end": 25.35,
+            "word": " be",
+            "probability": 0.99938
+          },
+          {
+            "start": 25.35,
+            "end": 25.43,
+            "word": " a",
+            "probability": 0.99919
+          },
+          {
+            "start": 25.43,
+            "end": 25.85,
+            "word": " doctor.",
+            "probability": 0.99004
+          },
+          {
+            "start": 26.41,
+            "end": 26.63,
+            "word": " It's",
+            "probability": 0.9981
+          },
+          {
+            "start": 26.63,
+            "end": 26.99,
+            "word": " fulfilling",
+            "probability": 0.99871
+          },
+          {
+            "start": 26.99,
+            "end": 27.27,
+            "word": " to",
+            "probability": 0.99919
+          },
+          {
+            "start": 27.27,
+            "end": 27.45,
+            "word": " know",
+            "probability": 0.99931
+          },
+          {
+            "start": 27.45,
+            "end": 27.59,
+            "word": " that",
+            "probability": 0.99818
+          },
+          {
+            "start": 27.59,
+            "end": 27.75,
+            "word": " I",
+            "probability": 0.999
+          },
+          {
+            "start": 27.75,
+            "end": 27.89,
+            "word": " can",
+            "probability": 0.99773
+          },
+          {
+            "start": 27.89,
+            "end": 28.03,
+            "word": " make",
+            "probability": 0.99811
+          },
+          {
+            "start": 28.03,
+            "end": 28.17,
+            "word": " a",
+            "probability": 0.99928
+          },
+          {
+            "start": 28.17,
+            "end": 28.51,
+            "word": " difference",
+            "probability": 0.99813
+          },
+          {
+            "start": 28.51,
+            "end": 28.81,
+            "word": " in",
+            "probability": 0.99946
+          },
+          {
+            "start": 28.81,
+            "end": 29.35,
+            "word": " someone's",
+            "probability": 0.99604
+          },
+          {
+            "start": 29.35,
+            "end": 29.63,
+            "word": " life.",
+            "probability": 0.99897
+          }
+        ]
+      },
+      {
+        "start": 29.63,
+        "end": 35.17,
+        "text": "My family is also proud of this career choice and they have encouraged me along the way.",
+        "words": [
+          {
+            "start": 29.63,
+            "end": 30.47,
+            "word": " My",
+            "probability": 0.38783
+          },
+          {
+            "start": 30.47,
+            "end": 30.87,
+            "word": " family",
+            "probability": 0.99563
+          },
+          {
+            "start": 30.87,
+            "end": 31.15,
+            "word": " is",
+            "probability": 0.99386
+          },
+          {
+            "start": 31.15,
+            "end": 31.45,
+            "word": " also",
+            "probability": 0.98752
+          },
+          {
+            "start": 31.45,
+            "end": 31.81,
+            "word": " proud",
+            "probability": 0.99924
+          },
+          {
+            "start": 31.81,
+            "end": 32.05,
+            "word": " of",
+            "probability": 0.99703
+          },
+          {
+            "start": 32.05,
+            "end": 32.27,
+            "word": " this",
+            "probability": 0.98977
+          },
+          {
+            "start": 32.27,
+            "end": 32.59,
+            "word": " career",
+            "probability": 0.99362
+          },
+          {
+            "start": 32.59,
+            "end": 32.99,
+            "word": " choice",
+            "probability": 0.99198
+          },
+          {
+            "start": 32.99,
+            "end": 33.55,
+            "word": " and",
+            "probability": 0.5916
+          },
+          {
+            "start": 33.55,
+            "end": 33.69,
+            "word": " they",
+            "probability": 0.99032
+          },
+          {
+            "start": 33.69,
+            "end": 33.83,
+            "word": " have",
+            "probability": 0.99409
+          },
+          {
+            "start": 33.83,
+            "end": 34.33,
+            "word": " encouraged",
+            "probability": 0.99881
+          },
+          {
+            "start": 34.33,
+            "end": 34.55,
+            "word": " me",
+            "probability": 0.99774
+          },
+          {
+            "start": 34.55,
+            "end": 34.73,
+            "word": " along",
+            "probability": 0.99805
+          },
+          {
+            "start": 34.73,
+            "end": 34.93,
+            "word": " the",
+            "probability": 0.99706
+          },
+          {
+            "start": 34.93,
+            "end": 35.17,
+            "word": " way.",
+            "probability": 0.99918
+          }
+        ]
+      },
+      {
+        "start": 35.87,
+        "end": 40.83,
+        "text": "Some friends say doctors earn a lot of money, which is a nice bonus, but my main goal",
+        "words": [
+          {
+            "start": 35.87,
+            "end": 36.15,
+            "word": " Some",
+            "probability": 0.99332
+          },
+          {
+            "start": 36.15,
+            "end": 36.41,
+            "word": " friends",
+            "probability": 0.98745
+          },
+          {
+            "start": 36.41,
+            "end": 36.77,
+            "word": " say",
+            "probability": 0.99703
+          },
+          {
+            "start": 36.77,
+            "end": 37.21,
+            "word": " doctors",
+            "probability": 0.66791
+          },
+          {
+            "start": 37.21,
+            "end": 37.43,
+            "word": " earn",
+            "probability": 0.99701
+          },
+          {
+            "start": 37.43,
+            "end": 37.53,
+            "word": " a",
+            "probability": 0.9974
+          },
+          {
+            "start": 37.53,
+            "end": 37.71,
+            "word": " lot",
+            "probability": 0.99963
+          },
+          {
+            "start": 37.71,
+            "end": 37.89,
+            "word": " of",
+            "probability": 0.99865
+          },
+          {
+            "start": 37.89,
+            "end": 38.15,
+            "word": " money,",
+            "probability": 0.99913
+          },
+          {
+            "start": 38.39,
+            "end": 38.63,
+            "word": " which",
+            "probability": 0.99617
+          },
+          {
+            "start": 38.63,
+            "end": 38.79,
+            "word": " is",
+            "probability": 0.99749
+          },
+          {
+            "start": 38.79,
+            "end": 38.87,
+            "word": " a",
+            "probability": 0.99887
+          },
+          {
+            "start": 38.87,
+            "end": 39.09,
+            "word": " nice",
+            "probability": 0.99274
+          },
+          {
+            "start": 39.09,
+            "end": 39.49,
+            "word": " bonus,",
+            "probability": 0.99486
+          },
+          {
+            "start": 40.03,
+            "end": 40.17,
+            "word": " but",
+            "probability": 0.98896
+          },
+          {
+            "start": 40.17,
+            "end": 40.35,
+            "word": " my",
+            "probability": 0.99415
+          },
+          {
+            "start": 40.35,
+            "end": 40.57,
+            "word": " main",
+            "probability": 0.99941
+          },
+          {
+            "start": 40.57,
+            "end": 40.83,
+            "word": " goal",
+            "probability": 0.99836
+          }
+        ]
+      },
+      {
+        "start": 40.83,
+        "end": 44.47,
+        "text": "remains to save lives and provide care to those who need it most.",
+        "words": [
+          {
+            "start": 40.83,
+            "end": 41.17,
+            "word": " remains",
+            "probability": 0.99427
+          },
+          {
+            "start": 41.17,
+            "end": 41.47,
+            "word": " to",
+            "probability": 0.99893
+          },
+          {
+            "start": 41.47,
+            "end": 41.83,
+            "word": " save",
+            "probability": 0.98476
+          },
+          {
+            "start": 41.83,
+            "end": 42.21,
+            "word": " lives",
+            "probability": 0.99728
+          },
+          {
+            "start": 42.21,
+            "end": 42.53,
+            "word": " and",
+            "probability": 0.97909
+          },
+          {
+            "start": 42.53,
+            "end": 42.79,
+            "word": " provide",
+            "probability": 0.99896
+          },
+          {
+            "start": 42.79,
+            "end": 43.19,
+            "word": " care",
+            "probability": 0.99813
+          },
+          {
+            "start": 43.19,
+            "end": 43.39,
+            "word": " to",
+            "probability": 0.997
+          },
+          {
+            "start": 43.39,
+            "end": 43.67,
+            "word": " those",
+            "probability": 0.99679
+          },
+          {
+            "start": 43.67,
+            "end": 43.83,
+            "word": " who",
+            "probability": 0.99728
+          },
+          {
+            "start": 43.83,
+            "end": 44.01,
+            "word": " need",
+            "probability": 0.99898
+          },
+          {
+            "start": 44.01,
+            "end": 44.15,
+            "word": " it",
+            "probability": 0.99789
+          },
+          {
+            "start": 44.15,
+            "end": 44.47,
+            "word": " most.",
+            "probability": 0.99098
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q08",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 68,
+            "speechStart": 0.88,
+            "speechEnd": 21.36,
+            "sourceTokenCoverage": 0.9855,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9927,
+            "transcript": "i've always wanted to be a doctor it's fulfilling to know that i can make a difference in someone's life my family is also proud of this career choice and they have encouraged me along the way some friends say doctors earn a lot of money which is a nice bonus but my main goal remains to save lives and provide care to those who need it most",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 68,
+            "wordEndIndexExclusive": 136,
+            "speechStart": 24.25,
+            "speechEnd": 44.47,
+            "sourceTokenCoverage": 0.9855,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9927,
+            "transcript": "i've always wanted to be a doctor it's fulfilling to know that i can make a difference in someone's life my family is also proud of this career choice and they have encouraged me along the way some friends say doctors earn a lot of money which is a nice bonus but my main goal remains to save lives and provide care to those who need it most",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

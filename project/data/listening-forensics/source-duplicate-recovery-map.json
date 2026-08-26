@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "recoveries": [
+    {
+      "testId": "aptis-b2-04",
+      "blockId": "p4-mono1",
+      "sourceTestId": "aptis-b2-07",
+      "sourceBlockId": "p4-mono1",
+      "sourceTranscriptSha256": "6dc0ceecafb533c198a77c7fcdbfc05c59bb90bdd2f9feb1a4a1824fd688a5d8",
+      "reason": "Test 04 master is corrupted inside the Mystery City monologue; the original Test 07 corpus master contains the exact same complete source-defined monologue. Recovery is allowed only after exact source transcript hash equality and full source alignment are revalidated."
+    }
+  ]
+}

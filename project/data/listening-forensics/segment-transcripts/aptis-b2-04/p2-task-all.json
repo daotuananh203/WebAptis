@@ -1,0 +1,1365 @@
+{
+  "testId": "aptis-b2-04",
+  "blockId": "p2-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-04/part-2/task-all.mp3",
+  "audioSha256": "7b8ebc1587761b5cbde3e32e22175495d76d8f4758017f2ad7f2aa63bc28b067",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.72,
+        "end": 8.36,
+        "text": "I love when people come together to create something, it's not just about the art itself but about connecting with each other.",
+        "words": [
+          {
+            "start": 0.72,
+            "end": 1.24,
+            "word": " I",
+            "probability": 0.8994
+          },
+          {
+            "start": 1.24,
+            "end": 1.52,
+            "word": " love",
+            "probability": 0.98355
+          },
+          {
+            "start": 1.52,
+            "end": 1.8,
+            "word": " when",
+            "probability": 0.99299
+          },
+          {
+            "start": 1.8,
+            "end": 2.08,
+            "word": " people",
+            "probability": 0.99922
+          },
+          {
+            "start": 2.08,
+            "end": 2.34,
+            "word": " come",
+            "probability": 0.99819
+          },
+          {
+            "start": 2.34,
+            "end": 2.72,
+            "word": " together",
+            "probability": 0.9985
+          },
+          {
+            "start": 2.72,
+            "end": 2.92,
+            "word": " to",
+            "probability": 0.99435
+          },
+          {
+            "start": 2.92,
+            "end": 3.26,
+            "word": " create",
+            "probability": 0.99825
+          },
+          {
+            "start": 3.26,
+            "end": 3.82,
+            "word": " something,",
+            "probability": 0.99936
+          },
+          {
+            "start": 4.34,
+            "end": 4.66,
+            "word": " it's",
+            "probability": 0.9749
+          },
+          {
+            "start": 4.66,
+            "end": 4.8,
+            "word": " not",
+            "probability": 0.99088
+          },
+          {
+            "start": 4.8,
+            "end": 5.02,
+            "word": " just",
+            "probability": 0.9965
+          },
+          {
+            "start": 5.02,
+            "end": 5.3,
+            "word": " about",
+            "probability": 0.99562
+          },
+          {
+            "start": 5.3,
+            "end": 5.48,
+            "word": " the",
+            "probability": 0.99107
+          },
+          {
+            "start": 5.48,
+            "end": 5.74,
+            "word": " art",
+            "probability": 0.99166
+          },
+          {
+            "start": 5.74,
+            "end": 6.18,
+            "word": " itself",
+            "probability": 0.98263
+          },
+          {
+            "start": 6.18,
+            "end": 6.6,
+            "word": " but",
+            "probability": 0.3733
+          },
+          {
+            "start": 6.6,
+            "end": 6.92,
+            "word": " about",
+            "probability": 0.9943
+          },
+          {
+            "start": 6.92,
+            "end": 7.34,
+            "word": " connecting",
+            "probability": 0.99579
+          },
+          {
+            "start": 7.34,
+            "end": 7.8,
+            "word": " with",
+            "probability": 0.99766
+          },
+          {
+            "start": 7.8,
+            "end": 8.08,
+            "word": " each",
+            "probability": 0.99931
+          },
+          {
+            "start": 8.08,
+            "end": 8.36,
+            "word": " other.",
+            "probability": 0.99541
+          }
+        ]
+      },
+      {
+        "start": 9.04,
+        "end": 13.0,
+        "text": "Ideas bounce around and suddenly new ones come to life.",
+        "words": [
+          {
+            "start": 9.04,
+            "end": 9.54,
+            "word": " Ideas",
+            "probability": 0.98477
+          },
+          {
+            "start": 9.54,
+            "end": 9.86,
+            "word": " bounce",
+            "probability": 0.98591
+          },
+          {
+            "start": 9.86,
+            "end": 10.28,
+            "word": " around",
+            "probability": 0.9976
+          },
+          {
+            "start": 10.28,
+            "end": 10.92,
+            "word": " and",
+            "probability": 0.6125
+          },
+          {
+            "start": 10.92,
+            "end": 11.32,
+            "word": " suddenly",
+            "probability": 0.99605
+          },
+          {
+            "start": 11.32,
+            "end": 11.78,
+            "word": " new",
+            "probability": 0.9462
+          },
+          {
+            "start": 11.78,
+            "end": 12.06,
+            "word": " ones",
+            "probability": 0.98983
+          },
+          {
+            "start": 12.06,
+            "end": 12.36,
+            "word": " come",
+            "probability": 0.99747
+          },
+          {
+            "start": 12.36,
+            "end": 12.64,
+            "word": " to",
+            "probability": 0.99622
+          },
+          {
+            "start": 12.64,
+            "end": 13.0,
+            "word": " life.",
+            "probability": 0.9989
+          }
+        ]
+      },
+      {
+        "start": 13.68,
+        "end": 19.58,
+        "text": "Everyone's personality blends into the work, making it feel bigger than anything we could make alone.",
+        "words": [
+          {
+            "start": 13.68,
+            "end": 14.34,
+            "word": " Everyone's",
+            "probability": 0.98486
+          },
+          {
+            "start": 14.34,
+            "end": 15.1,
+            "word": " personality",
+            "probability": 0.99743
+          },
+          {
+            "start": 15.1,
+            "end": 15.56,
+            "word": " blends",
+            "probability": 0.96971
+          },
+          {
+            "start": 15.56,
+            "end": 15.96,
+            "word": " into",
+            "probability": 0.99617
+          },
+          {
+            "start": 15.96,
+            "end": 16.14,
+            "word": " the",
+            "probability": 0.99612
+          },
+          {
+            "start": 16.14,
+            "end": 16.48,
+            "word": " work,",
+            "probability": 0.99846
+          },
+          {
+            "start": 16.86,
+            "end": 17.12,
+            "word": " making",
+            "probability": 0.99765
+          },
+          {
+            "start": 17.12,
+            "end": 17.28,
+            "word": " it",
+            "probability": 0.9991
+          },
+          {
+            "start": 17.28,
+            "end": 17.48,
+            "word": " feel",
+            "probability": 0.9972
+          },
+          {
+            "start": 17.48,
+            "end": 17.88,
+            "word": " bigger",
+            "probability": 0.9983
+          },
+          {
+            "start": 17.88,
+            "end": 18.1,
+            "word": " than",
+            "probability": 0.99382
+          },
+          {
+            "start": 18.1,
+            "end": 18.62,
+            "word": " anything",
+            "probability": 0.99552
+          },
+          {
+            "start": 18.62,
+            "end": 18.88,
+            "word": " we",
+            "probability": 0.99296
+          },
+          {
+            "start": 18.88,
+            "end": 19.06,
+            "word": " could",
+            "probability": 0.98375
+          },
+          {
+            "start": 19.06,
+            "end": 19.22,
+            "word": " make",
+            "probability": 0.99838
+          },
+          {
+            "start": 19.22,
+            "end": 19.58,
+            "word": " alone.",
+            "probability": 0.98947
+          }
+        ]
+      },
+      {
+        "start": 20.46,
+        "end": 24.04,
+        "text": "Art becomes a shared experience, bringing us all together.",
+        "words": [
+          {
+            "start": 20.46,
+            "end": 20.64,
+            "word": " Art",
+            "probability": 0.9611
+          },
+          {
+            "start": 20.64,
+            "end": 20.96,
+            "word": " becomes",
+            "probability": 0.99586
+          },
+          {
+            "start": 20.96,
+            "end": 21.32,
+            "word": " a",
+            "probability": 0.99879
+          },
+          {
+            "start": 21.32,
+            "end": 21.66,
+            "word": " shared",
+            "probability": 0.99775
+          },
+          {
+            "start": 21.66,
+            "end": 22.4,
+            "word": " experience,",
+            "probability": 0.9991
+          },
+          {
+            "start": 22.78,
+            "end": 23.0,
+            "word": " bringing",
+            "probability": 0.99787
+          },
+          {
+            "start": 23.0,
+            "end": 23.26,
+            "word": " us",
+            "probability": 0.9755
+          },
+          {
+            "start": 23.26,
+            "end": 23.54,
+            "word": " all",
+            "probability": 0.97927
+          },
+          {
+            "start": 23.54,
+            "end": 24.04,
+            "word": " together.",
+            "probability": 0.99938
+          }
+        ]
+      },
+      {
+        "start": 26.13,
+        "end": 28.17,
+        "text": "Kids are so fearless with art.",
+        "words": [
+          {
+            "start": 26.13,
+            "end": 26.59,
+            "word": " Kids",
+            "probability": 0.88469
+          },
+          {
+            "start": 26.59,
+            "end": 26.85,
+            "word": " are",
+            "probability": 0.99839
+          },
+          {
+            "start": 26.85,
+            "end": 27.11,
+            "word": " so",
+            "probability": 0.99911
+          },
+          {
+            "start": 27.11,
+            "end": 27.59,
+            "word": " fearless",
+            "probability": 0.97439
+          },
+          {
+            "start": 27.59,
+            "end": 27.97,
+            "word": " with",
+            "probability": 0.99524
+          },
+          {
+            "start": 27.97,
+            "end": 28.17,
+            "word": " art.",
+            "probability": 0.96657
+          }
+        ]
+      },
+      {
+        "start": 28.17,
+        "end": 34.09,
+        "text": "They jump in, without worrying about mistakes, making everything feel magical.",
+        "words": [
+          {
+            "start": 28.17,
+            "end": 29.13,
+            "word": " They",
+            "probability": 0.15568
+          },
+          {
+            "start": 29.13,
+            "end": 29.35,
+            "word": " jump",
+            "probability": 0.98178
+          },
+          {
+            "start": 29.35,
+            "end": 29.73,
+            "word": " in,",
+            "probability": 0.98802
+          },
+          {
+            "start": 30.09,
+            "end": 30.37,
+            "word": " without",
+            "probability": 0.9965
+          },
+          {
+            "start": 30.37,
+            "end": 30.81,
+            "word": " worrying",
+            "probability": 0.99577
+          },
+          {
+            "start": 30.81,
+            "end": 31.13,
+            "word": " about",
+            "probability": 0.9983
+          },
+          {
+            "start": 31.13,
+            "end": 31.63,
+            "word": " mistakes,",
+            "probability": 0.99885
+          },
+          {
+            "start": 32.25,
+            "end": 32.55,
+            "word": " making",
+            "probability": 0.99683
+          },
+          {
+            "start": 32.55,
+            "end": 33.21,
+            "word": " everything",
+            "probability": 0.99139
+          },
+          {
+            "start": 33.21,
+            "end": 33.59,
+            "word": " feel",
+            "probability": 0.99776
+          },
+          {
+            "start": 33.59,
+            "end": 34.09,
+            "word": " magical.",
+            "probability": 0.98315
+          }
+        ]
+      },
+      {
+        "start": 35.03,
+        "end": 39.07,
+        "text": "Teaching them is a reminder that creativity should be free and fun.",
+        "words": [
+          {
+            "start": 35.03,
+            "end": 35.35,
+            "word": " Teaching",
+            "probability": 0.98576
+          },
+          {
+            "start": 35.35,
+            "end": 35.67,
+            "word": " them",
+            "probability": 0.99762
+          },
+          {
+            "start": 35.67,
+            "end": 35.99,
+            "word": " is",
+            "probability": 0.99218
+          },
+          {
+            "start": 35.99,
+            "end": 36.11,
+            "word": " a",
+            "probability": 0.99908
+          },
+          {
+            "start": 36.11,
+            "end": 36.55,
+            "word": " reminder",
+            "probability": 0.99705
+          },
+          {
+            "start": 36.55,
+            "end": 37.01,
+            "word": " that",
+            "probability": 0.98738
+          },
+          {
+            "start": 37.01,
+            "end": 37.69,
+            "word": " creativity",
+            "probability": 0.99839
+          },
+          {
+            "start": 37.69,
+            "end": 38.01,
+            "word": " should",
+            "probability": 0.99776
+          },
+          {
+            "start": 38.01,
+            "end": 38.19,
+            "word": " be",
+            "probability": 0.99805
+          },
+          {
+            "start": 38.19,
+            "end": 38.47,
+            "word": " free",
+            "probability": 0.98399
+          },
+          {
+            "start": 38.47,
+            "end": 38.77,
+            "word": " and",
+            "probability": 0.99204
+          },
+          {
+            "start": 38.77,
+            "end": 39.07,
+            "word": " fun.",
+            "probability": 0.99908
+          }
+        ]
+      },
+      {
+        "start": 39.68,
+        "end": 45.9,
+        "text": "They show you that art is as much about play and expression as it is about any rules.",
+        "words": [
+          {
+            "start": 39.68,
+            "end": 40.24,
+            "word": " They",
+            "probability": 0.98967
+          },
+          {
+            "start": 40.24,
+            "end": 40.48,
+            "word": " show",
+            "probability": 0.99835
+          },
+          {
+            "start": 40.48,
+            "end": 40.7,
+            "word": " you",
+            "probability": 0.98586
+          },
+          {
+            "start": 40.7,
+            "end": 40.92,
+            "word": " that",
+            "probability": 0.99802
+          },
+          {
+            "start": 40.92,
+            "end": 41.14,
+            "word": " art",
+            "probability": 0.98167
+          },
+          {
+            "start": 41.14,
+            "end": 41.58,
+            "word": " is",
+            "probability": 0.99412
+          },
+          {
+            "start": 41.58,
+            "end": 41.72,
+            "word": " as",
+            "probability": 0.99857
+          },
+          {
+            "start": 41.72,
+            "end": 41.92,
+            "word": " much",
+            "probability": 0.99923
+          },
+          {
+            "start": 41.92,
+            "end": 42.24,
+            "word": " about",
+            "probability": 0.99766
+          },
+          {
+            "start": 42.24,
+            "end": 42.58,
+            "word": " play",
+            "probability": 0.99377
+          },
+          {
+            "start": 42.58,
+            "end": 42.86,
+            "word": " and",
+            "probability": 0.99624
+          },
+          {
+            "start": 42.86,
+            "end": 43.38,
+            "word": " expression",
+            "probability": 0.99763
+          },
+          {
+            "start": 43.38,
+            "end": 43.96,
+            "word": " as",
+            "probability": 0.99398
+          },
+          {
+            "start": 43.96,
+            "end": 44.14,
+            "word": " it",
+            "probability": 0.9975
+          },
+          {
+            "start": 44.14,
+            "end": 44.44,
+            "word": " is",
+            "probability": 0.99799
+          },
+          {
+            "start": 44.44,
+            "end": 44.78,
+            "word": " about",
+            "probability": 0.99841
+          },
+          {
+            "start": 44.78,
+            "end": 45.26,
+            "word": " any",
+            "probability": 0.98687
+          },
+          {
+            "start": 45.26,
+            "end": 45.9,
+            "word": " rules.",
+            "probability": 0.98119
+          }
+        ]
+      },
+      {
+        "start": 47.76,
+        "end": 53.94,
+        "text": "Art is part of my work, so it comes with structure, deadlines, clients and goals.",
+        "words": [
+          {
+            "start": 47.76,
+            "end": 48.34,
+            "word": " Art",
+            "probability": 0.77267
+          },
+          {
+            "start": 48.34,
+            "end": 48.66,
+            "word": " is",
+            "probability": 0.99536
+          },
+          {
+            "start": 48.66,
+            "end": 48.88,
+            "word": " part",
+            "probability": 0.99138
+          },
+          {
+            "start": 48.88,
+            "end": 49.08,
+            "word": " of",
+            "probability": 0.99719
+          },
+          {
+            "start": 49.08,
+            "end": 49.22,
+            "word": " my",
+            "probability": 0.99914
+          },
+          {
+            "start": 49.22,
+            "end": 49.64,
+            "word": " work,",
+            "probability": 0.99928
+          },
+          {
+            "start": 49.9,
+            "end": 50.08,
+            "word": " so",
+            "probability": 0.99797
+          },
+          {
+            "start": 50.08,
+            "end": 50.22,
+            "word": " it",
+            "probability": 0.99781
+          },
+          {
+            "start": 50.22,
+            "end": 50.46,
+            "word": " comes",
+            "probability": 0.99659
+          },
+          {
+            "start": 50.46,
+            "end": 50.78,
+            "word": " with",
+            "probability": 0.99821
+          },
+          {
+            "start": 50.78,
+            "end": 51.3,
+            "word": " structure,",
+            "probability": 0.98626
+          },
+          {
+            "start": 51.84,
+            "end": 52.18,
+            "word": " deadlines,",
+            "probability": 0.99273
+          },
+          {
+            "start": 52.8,
+            "end": 53.08,
+            "word": " clients",
+            "probability": 0.99353
+          },
+          {
+            "start": 53.08,
+            "end": 53.58,
+            "word": " and",
+            "probability": 0.38621
+          },
+          {
+            "start": 53.58,
+            "end": 53.94,
+            "word": " goals.",
+            "probability": 0.99896
+          }
+        ]
+      },
+      {
+        "start": 53.94,
+        "end": 59.96,
+        "text": "It's different from personal art because I'm balancing my ideas with what's needed for the project.",
+        "words": [
+          {
+            "start": 53.94,
+            "end": 54.76,
+            "word": " It's",
+            "probability": 0.72593
+          },
+          {
+            "start": 54.76,
+            "end": 55.1,
+            "word": " different",
+            "probability": 0.99512
+          },
+          {
+            "start": 55.1,
+            "end": 55.34,
+            "word": " from",
+            "probability": 0.98713
+          },
+          {
+            "start": 55.34,
+            "end": 55.86,
+            "word": " personal",
+            "probability": 0.98305
+          },
+          {
+            "start": 55.86,
+            "end": 56.22,
+            "word": " art",
+            "probability": 0.99723
+          },
+          {
+            "start": 56.22,
+            "end": 56.72,
+            "word": " because",
+            "probability": 0.7232
+          },
+          {
+            "start": 56.72,
+            "end": 56.98,
+            "word": " I'm",
+            "probability": 0.98483
+          },
+          {
+            "start": 56.98,
+            "end": 57.44,
+            "word": " balancing",
+            "probability": 0.99564
+          },
+          {
+            "start": 57.44,
+            "end": 57.74,
+            "word": " my",
+            "probability": 0.99476
+          },
+          {
+            "start": 57.74,
+            "end": 58.22,
+            "word": " ideas",
+            "probability": 0.99756
+          },
+          {
+            "start": 58.22,
+            "end": 58.5,
+            "word": " with",
+            "probability": 0.98998
+          },
+          {
+            "start": 58.5,
+            "end": 58.88,
+            "word": " what's",
+            "probability": 0.99284
+          },
+          {
+            "start": 58.88,
+            "end": 59.12,
+            "word": " needed",
+            "probability": 0.99869
+          },
+          {
+            "start": 59.12,
+            "end": 59.36,
+            "word": " for",
+            "probability": 0.9973
+          },
+          {
+            "start": 59.36,
+            "end": 59.48,
+            "word": " the",
+            "probability": 0.99634
+          },
+          {
+            "start": 59.48,
+            "end": 59.96,
+            "word": " project.",
+            "probability": 0.99588
+          }
+        ]
+      },
+      {
+        "start": 60.36,
+        "end": 65.5,
+        "text": "But there's a thrill in that challenge and seeing the finished work is deeply satisfying.",
+        "words": [
+          {
+            "start": 60.36,
+            "end": 60.68,
+            "word": " But",
+            "probability": 0.98219
+          },
+          {
+            "start": 60.68,
+            "end": 61.0,
+            "word": " there's",
+            "probability": 0.98043
+          },
+          {
+            "start": 61.0,
+            "end": 61.1,
+            "word": " a",
+            "probability": 0.99669
+          },
+          {
+            "start": 61.1,
+            "end": 61.4,
+            "word": " thrill",
+            "probability": 0.99845
+          },
+          {
+            "start": 61.4,
+            "end": 61.62,
+            "word": " in",
+            "probability": 0.98816
+          },
+          {
+            "start": 61.62,
+            "end": 61.78,
+            "word": " that",
+            "probability": 0.99566
+          },
+          {
+            "start": 61.78,
+            "end": 62.32,
+            "word": " challenge",
+            "probability": 0.99638
+          },
+          {
+            "start": 62.32,
+            "end": 62.76,
+            "word": " and",
+            "probability": 0.65609
+          },
+          {
+            "start": 62.76,
+            "end": 63.04,
+            "word": " seeing",
+            "probability": 0.99669
+          },
+          {
+            "start": 63.04,
+            "end": 63.28,
+            "word": " the",
+            "probability": 0.9962
+          },
+          {
+            "start": 63.28,
+            "end": 63.64,
+            "word": " finished",
+            "probability": 0.99719
+          },
+          {
+            "start": 63.64,
+            "end": 64.0,
+            "word": " work",
+            "probability": 0.99829
+          },
+          {
+            "start": 64.0,
+            "end": 64.3,
+            "word": " is",
+            "probability": 0.99455
+          },
+          {
+            "start": 64.3,
+            "end": 64.62,
+            "word": " deeply",
+            "probability": 0.97605
+          },
+          {
+            "start": 64.62,
+            "end": 65.5,
+            "word": " satisfying.",
+            "probability": 0.99745
+          }
+        ]
+      },
+      {
+        "start": 67.56,
+        "end": 74.0,
+        "text": "Art for me is a quiet, personal thing. It's my time to focus inward, away from distractions.",
+        "words": [
+          {
+            "start": 67.56,
+            "end": 68.02,
+            "word": " Art",
+            "probability": 0.80146
+          },
+          {
+            "start": 68.02,
+            "end": 68.28,
+            "word": " for",
+            "probability": 0.93196
+          },
+          {
+            "start": 68.28,
+            "end": 68.5,
+            "word": " me",
+            "probability": 0.99266
+          },
+          {
+            "start": 68.5,
+            "end": 68.88,
+            "word": " is",
+            "probability": 0.98182
+          },
+          {
+            "start": 68.88,
+            "end": 68.98,
+            "word": " a",
+            "probability": 0.99312
+          },
+          {
+            "start": 68.98,
+            "end": 69.36,
+            "word": " quiet,",
+            "probability": 0.99531
+          },
+          {
+            "start": 69.68,
+            "end": 70.04,
+            "word": " personal",
+            "probability": 0.99758
+          },
+          {
+            "start": 70.04,
+            "end": 70.34,
+            "word": " thing.",
+            "probability": 0.99871
+          },
+          {
+            "start": 71.08,
+            "end": 71.26,
+            "word": " It's",
+            "probability": 0.99494
+          },
+          {
+            "start": 71.26,
+            "end": 71.48,
+            "word": " my",
+            "probability": 0.99395
+          },
+          {
+            "start": 71.48,
+            "end": 71.82,
+            "word": " time",
+            "probability": 0.99888
+          },
+          {
+            "start": 71.82,
+            "end": 72.0,
+            "word": " to",
+            "probability": 0.99881
+          },
+          {
+            "start": 72.0,
+            "end": 72.28,
+            "word": " focus",
+            "probability": 0.99864
+          },
+          {
+            "start": 72.28,
+            "end": 72.72,
+            "word": " inward,",
+            "probability": 0.9735
+          },
+          {
+            "start": 73.08,
+            "end": 73.26,
+            "word": " away",
+            "probability": 0.99801
+          },
+          {
+            "start": 73.26,
+            "end": 73.46,
+            "word": " from",
+            "probability": 0.99862
+          },
+          {
+            "start": 73.46,
+            "end": 74.0,
+            "word": " distractions.",
+            "probability": 0.99701
+          }
+        ]
+      },
+      {
+        "start": 74.74,
+        "end": 77.84,
+        "text": "I don't need anyone else there. It's just me and my thoughts.",
+        "words": [
+          {
+            "start": 74.74,
+            "end": 74.94,
+            "word": " I",
+            "probability": 0.99662
+          },
+          {
+            "start": 74.94,
+            "end": 75.16,
+            "word": " don't",
+            "probability": 0.99944
+          },
+          {
+            "start": 75.16,
+            "end": 75.28,
+            "word": " need",
+            "probability": 0.99877
+          },
+          {
+            "start": 75.28,
+            "end": 75.56,
+            "word": " anyone",
+            "probability": 0.99402
+          },
+          {
+            "start": 75.56,
+            "end": 75.8,
+            "word": " else",
+            "probability": 0.99935
+          },
+          {
+            "start": 75.8,
+            "end": 76.02,
+            "word": " there.",
+            "probability": 0.98964
+          },
+          {
+            "start": 76.54,
+            "end": 76.78,
+            "word": " It's",
+            "probability": 0.99799
+          },
+          {
+            "start": 76.78,
+            "end": 76.94,
+            "word": " just",
+            "probability": 0.99884
+          },
+          {
+            "start": 76.94,
+            "end": 77.26,
+            "word": " me",
+            "probability": 0.99791
+          },
+          {
+            "start": 77.26,
+            "end": 77.36,
+            "word": " and",
+            "probability": 0.89341
+          },
+          {
+            "start": 77.36,
+            "end": 77.5,
+            "word": " my",
+            "probability": 0.99887
+          },
+          {
+            "start": 77.5,
+            "end": 77.84,
+            "word": " thoughts.",
+            "probability": 0.99912
+          }
+        ]
+      },
+      {
+        "start": 78.8,
+        "end": 83.8,
+        "text": "Creating alone brings a piece where I can explore and express freely, just for myself.",
+        "words": [
+          {
+            "start": 78.8,
+            "end": 79.04,
+            "word": " Creating",
+            "probability": 0.99464
+          },
+          {
+            "start": 79.04,
+            "end": 79.54,
+            "word": " alone",
+            "probability": 0.68825
+          },
+          {
+            "start": 79.54,
+            "end": 79.82,
+            "word": " brings",
+            "probability": 0.995
+          },
+          {
+            "start": 79.82,
+            "end": 80.0,
+            "word": " a",
+            "probability": 0.98374
+          },
+          {
+            "start": 80.0,
+            "end": 80.3,
+            "word": " piece",
+            "probability": 0.50794
+          },
+          {
+            "start": 80.3,
+            "end": 80.54,
+            "word": " where",
+            "probability": 0.98958
+          },
+          {
+            "start": 80.54,
+            "end": 80.66,
+            "word": " I",
+            "probability": 0.99737
+          },
+          {
+            "start": 80.66,
+            "end": 80.8,
+            "word": " can",
+            "probability": 0.99927
+          },
+          {
+            "start": 80.8,
+            "end": 81.2,
+            "word": " explore",
+            "probability": 0.99865
+          },
+          {
+            "start": 81.2,
+            "end": 81.52,
+            "word": " and",
+            "probability": 0.98622
+          },
+          {
+            "start": 81.52,
+            "end": 81.86,
+            "word": " express",
+            "probability": 0.99898
+          },
+          {
+            "start": 81.86,
+            "end": 82.36,
+            "word": " freely,",
+            "probability": 0.99895
+          },
+          {
+            "start": 82.84,
+            "end": 83.22,
+            "word": " just",
+            "probability": 0.99865
+          },
+          {
+            "start": 83.22,
+            "end": 83.42,
+            "word": " for",
+            "probability": 0.99826
+          },
+          {
+            "start": 83.42,
+            "end": 83.8,
+            "word": " myself.",
+            "probability": 0.99914
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-a",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 57,
+            "speechStart": 0.72,
+            "speechEnd": 24.04,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i love when people come together to create something it's not just about the art itself but about connecting with each other ideas bounce around and suddenly new ones come to life everyone's personality blends into the work making it feel bigger than anything we could make alone art becomes a shared experience bringing us all together",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-b",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 57,
+            "wordEndIndexExclusive": 104,
+            "speechStart": 26.13,
+            "speechEnd": 45.9,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "kids are so fearless with art they jump in without worrying about mistakes making everything feel magical teaching them is a reminder that creativity should be free and fun they show you that art is as much about play and expression as it is about any rules",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-c",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 104,
+            "wordEndIndexExclusive": 150,
+            "speechStart": 47.76,
+            "speechEnd": 65.5,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "art is part of my work so it comes with structure deadlines clients and goals it's different from personal art because i'm balancing my ideas with what's needed for the project but there's a thrill in that challenge and seeing the finished work is deeply satisfying",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-d",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 150,
+            "wordEndIndexExclusive": 194,
+            "speechStart": 67.56,
+            "speechEnd": 83.8,
+            "sourceTokenCoverage": 0.9773,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9773,
+            "transcript": "art for me is a quiet personal thing it's my time to focus inward away from distractions i don't need anyone else there it's just me and my thoughts creating alone brings a piece where i can explore and express freely just for myself",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

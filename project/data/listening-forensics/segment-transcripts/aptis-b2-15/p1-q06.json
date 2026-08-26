@@ -1,0 +1,790 @@
+{
+  "testId": "aptis-b2-15",
+  "blockId": "p1-q06",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-15/part-1/q06.mp3",
+  "audioSha256": "2657fb54b6a827d9056236cf4704a7753319f164d89a9324035ce45a6993a71b",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.94,
+        "end": 2.28,
+        "text": "Welcome, everyone!",
+        "words": [
+          {
+            "start": 0.94,
+            "end": 1.58,
+            "word": " Welcome,",
+            "probability": 0.45534
+          },
+          {
+            "start": 1.88,
+            "end": 2.28,
+            "word": " everyone!",
+            "probability": 0.93352
+          }
+        ]
+      },
+      {
+        "start": 2.99,
+        "end": 6.03,
+        "text": "Today, I'd like to introduce you to this iconic building.",
+        "words": [
+          {
+            "start": 2.99,
+            "end": 3.55,
+            "word": " Today,",
+            "probability": 0.97539
+          },
+          {
+            "start": 3.91,
+            "end": 4.11,
+            "word": " I'd",
+            "probability": 0.99342
+          },
+          {
+            "start": 4.11,
+            "end": 4.19,
+            "word": " like",
+            "probability": 0.99902
+          },
+          {
+            "start": 4.19,
+            "end": 4.33,
+            "word": " to",
+            "probability": 0.99806
+          },
+          {
+            "start": 4.33,
+            "end": 4.71,
+            "word": " introduce",
+            "probability": 0.99738
+          },
+          {
+            "start": 4.71,
+            "end": 4.97,
+            "word": " you",
+            "probability": 0.98757
+          },
+          {
+            "start": 4.97,
+            "end": 5.13,
+            "word": " to",
+            "probability": 0.99644
+          },
+          {
+            "start": 5.13,
+            "end": 5.29,
+            "word": " this",
+            "probability": 0.5082
+          },
+          {
+            "start": 5.29,
+            "end": 5.63,
+            "word": " iconic",
+            "probability": 0.9918
+          },
+          {
+            "start": 5.63,
+            "end": 6.03,
+            "word": " building.",
+            "probability": 0.99664
+          }
+        ]
+      },
+      {
+        "start": 6.89,
+        "end": 11.23,
+        "text": "Originally built in the 1920s, it served as a museum until 1940.",
+        "words": [
+          {
+            "start": 6.89,
+            "end": 7.39,
+            "word": " Originally",
+            "probability": 0.99242
+          },
+          {
+            "start": 7.39,
+            "end": 7.71,
+            "word": " built",
+            "probability": 0.996
+          },
+          {
+            "start": 7.71,
+            "end": 7.95,
+            "word": " in",
+            "probability": 0.99675
+          },
+          {
+            "start": 7.95,
+            "end": 8.03,
+            "word": " the",
+            "probability": 0.99958
+          },
+          {
+            "start": 8.03,
+            "end": 8.93,
+            "word": " 1920s,",
+            "probability": 0.94056
+          },
+          {
+            "start": 9.15,
+            "end": 9.23,
+            "word": " it",
+            "probability": 0.9728
+          },
+          {
+            "start": 9.23,
+            "end": 9.49,
+            "word": " served",
+            "probability": 0.97
+          },
+          {
+            "start": 9.49,
+            "end": 9.69,
+            "word": " as",
+            "probability": 0.99905
+          },
+          {
+            "start": 9.69,
+            "end": 9.79,
+            "word": " a",
+            "probability": 0.9926
+          },
+          {
+            "start": 9.79,
+            "end": 10.21,
+            "word": " museum",
+            "probability": 0.98256
+          },
+          {
+            "start": 10.21,
+            "end": 10.51,
+            "word": " until",
+            "probability": 0.9948
+          },
+          {
+            "start": 10.51,
+            "end": 11.23,
+            "word": " 1940.",
+            "probability": 0.99346
+          }
+        ]
+      },
+      {
+        "start": 12.39,
+        "end": 16.83,
+        "text": "After World War II, it was transformed into a cinema showcasing films for the public.",
+        "words": [
+          {
+            "start": 12.39,
+            "end": 12.65,
+            "word": " After",
+            "probability": 0.98237
+          },
+          {
+            "start": 12.65,
+            "end": 12.91,
+            "word": " World",
+            "probability": 0.97289
+          },
+          {
+            "start": 12.91,
+            "end": 13.11,
+            "word": " War",
+            "probability": 0.99779
+          },
+          {
+            "start": 13.11,
+            "end": 13.37,
+            "word": " II,",
+            "probability": 0.75404
+          },
+          {
+            "start": 13.69,
+            "end": 13.77,
+            "word": " it",
+            "probability": 0.9957
+          },
+          {
+            "start": 13.77,
+            "end": 13.89,
+            "word": " was",
+            "probability": 0.99921
+          },
+          {
+            "start": 13.89,
+            "end": 14.35,
+            "word": " transformed",
+            "probability": 0.99686
+          },
+          {
+            "start": 14.35,
+            "end": 14.71,
+            "word": " into",
+            "probability": 0.99766
+          },
+          {
+            "start": 14.71,
+            "end": 14.83,
+            "word": " a",
+            "probability": 0.9966
+          },
+          {
+            "start": 14.83,
+            "end": 15.13,
+            "word": " cinema",
+            "probability": 0.98906
+          },
+          {
+            "start": 15.13,
+            "end": 15.89,
+            "word": " showcasing",
+            "probability": 0.92219
+          },
+          {
+            "start": 15.89,
+            "end": 16.19,
+            "word": " films",
+            "probability": 0.99473
+          },
+          {
+            "start": 16.19,
+            "end": 16.41,
+            "word": " for",
+            "probability": 0.99477
+          },
+          {
+            "start": 16.41,
+            "end": 16.51,
+            "word": " the",
+            "probability": 0.98988
+          },
+          {
+            "start": 16.51,
+            "end": 16.83,
+            "word": " public.",
+            "probability": 0.99764
+          }
+        ]
+      },
+      {
+        "start": 17.78,
+        "end": 22.68,
+        "text": "Today, this beautiful structure is now a bustling department store, offering a wide range of products.",
+        "words": [
+          {
+            "start": 17.78,
+            "end": 18.1,
+            "word": " Today,",
+            "probability": 0.99615
+          },
+          {
+            "start": 18.36,
+            "end": 18.5,
+            "word": " this",
+            "probability": 0.9979
+          },
+          {
+            "start": 18.5,
+            "end": 18.88,
+            "word": " beautiful",
+            "probability": 0.99718
+          },
+          {
+            "start": 18.88,
+            "end": 19.36,
+            "word": " structure",
+            "probability": 0.99539
+          },
+          {
+            "start": 19.36,
+            "end": 19.58,
+            "word": " is",
+            "probability": 0.9984
+          },
+          {
+            "start": 19.58,
+            "end": 19.74,
+            "word": " now",
+            "probability": 0.99739
+          },
+          {
+            "start": 19.74,
+            "end": 19.86,
+            "word": " a",
+            "probability": 0.99852
+          },
+          {
+            "start": 19.86,
+            "end": 20.24,
+            "word": " bustling",
+            "probability": 0.95876
+          },
+          {
+            "start": 20.24,
+            "end": 20.66,
+            "word": " department",
+            "probability": 0.97768
+          },
+          {
+            "start": 20.66,
+            "end": 20.98,
+            "word": " store,",
+            "probability": 0.99712
+          },
+          {
+            "start": 21.26,
+            "end": 21.54,
+            "word": " offering",
+            "probability": 0.99798
+          },
+          {
+            "start": 21.54,
+            "end": 21.7,
+            "word": " a",
+            "probability": 0.99807
+          },
+          {
+            "start": 21.7,
+            "end": 21.88,
+            "word": " wide",
+            "probability": 0.9789
+          },
+          {
+            "start": 21.88,
+            "end": 22.2,
+            "word": " range",
+            "probability": 0.99842
+          },
+          {
+            "start": 22.2,
+            "end": 22.32,
+            "word": " of",
+            "probability": 0.99614
+          },
+          {
+            "start": 22.32,
+            "end": 22.68,
+            "word": " products.",
+            "probability": 0.99658
+          }
+        ]
+      },
+      {
+        "start": 27.72,
+        "end": 28.66,
+        "text": "Welcome, everyone!",
+        "words": [
+          {
+            "start": 27.72,
+            "end": 27.98,
+            "word": " Welcome,",
+            "probability": 0.94699
+          },
+          {
+            "start": 28.26,
+            "end": 28.66,
+            "word": " everyone!",
+            "probability": 0.99029
+          }
+        ]
+      },
+      {
+        "start": 29.67,
+        "end": 32.43,
+        "text": "Today, I'd like to introduce you to this iconic building.",
+        "words": [
+          {
+            "start": 29.67,
+            "end": 29.93,
+            "word": " Today,",
+            "probability": 0.99149
+          },
+          {
+            "start": 30.27,
+            "end": 30.49,
+            "word": " I'd",
+            "probability": 0.99746
+          },
+          {
+            "start": 30.49,
+            "end": 30.59,
+            "word": " like",
+            "probability": 0.99768
+          },
+          {
+            "start": 30.59,
+            "end": 30.71,
+            "word": " to",
+            "probability": 0.99894
+          },
+          {
+            "start": 30.71,
+            "end": 31.07,
+            "word": " introduce",
+            "probability": 0.99551
+          },
+          {
+            "start": 31.07,
+            "end": 31.37,
+            "word": " you",
+            "probability": 0.98877
+          },
+          {
+            "start": 31.37,
+            "end": 31.49,
+            "word": " to",
+            "probability": 0.99868
+          },
+          {
+            "start": 31.49,
+            "end": 31.63,
+            "word": " this",
+            "probability": 0.89416
+          },
+          {
+            "start": 31.63,
+            "end": 32.01,
+            "word": " iconic",
+            "probability": 0.99766
+          },
+          {
+            "start": 32.01,
+            "end": 32.43,
+            "word": " building.",
+            "probability": 0.99913
+          }
+        ]
+      },
+      {
+        "start": 33.12,
+        "end": 37.7,
+        "text": "Originally built in the 1920s, it served as a museum until 1940.",
+        "words": [
+          {
+            "start": 33.12,
+            "end": 33.68,
+            "word": " Originally",
+            "probability": 0.53325
+          },
+          {
+            "start": 33.68,
+            "end": 34.1,
+            "word": " built",
+            "probability": 0.99855
+          },
+          {
+            "start": 34.1,
+            "end": 34.32,
+            "word": " in",
+            "probability": 0.99941
+          },
+          {
+            "start": 34.32,
+            "end": 34.42,
+            "word": " the",
+            "probability": 0.99962
+          },
+          {
+            "start": 34.42,
+            "end": 35.3,
+            "word": " 1920s,",
+            "probability": 0.94792
+          },
+          {
+            "start": 35.54,
+            "end": 35.62,
+            "word": " it",
+            "probability": 0.99267
+          },
+          {
+            "start": 35.62,
+            "end": 35.86,
+            "word": " served",
+            "probability": 0.99322
+          },
+          {
+            "start": 35.86,
+            "end": 36.08,
+            "word": " as",
+            "probability": 0.99878
+          },
+          {
+            "start": 36.08,
+            "end": 36.18,
+            "word": " a",
+            "probability": 0.99575
+          },
+          {
+            "start": 36.18,
+            "end": 36.6,
+            "word": " museum",
+            "probability": 0.98061
+          },
+          {
+            "start": 36.6,
+            "end": 36.9,
+            "word": " until",
+            "probability": 0.99787
+          },
+          {
+            "start": 36.9,
+            "end": 37.7,
+            "word": " 1940.",
+            "probability": 0.99536
+          }
+        ]
+      },
+      {
+        "start": 38.68,
+        "end": 43.18,
+        "text": "After World War II, it was transformed into a cinema showcasing films for the public.",
+        "words": [
+          {
+            "start": 38.68,
+            "end": 39.02,
+            "word": " After",
+            "probability": 0.99028
+          },
+          {
+            "start": 39.02,
+            "end": 39.28,
+            "word": " World",
+            "probability": 0.96133
+          },
+          {
+            "start": 39.28,
+            "end": 39.5,
+            "word": " War",
+            "probability": 0.99859
+          },
+          {
+            "start": 39.5,
+            "end": 39.76,
+            "word": " II,",
+            "probability": 0.84618
+          },
+          {
+            "start": 40.06,
+            "end": 40.14,
+            "word": " it",
+            "probability": 0.99595
+          },
+          {
+            "start": 40.14,
+            "end": 40.26,
+            "word": " was",
+            "probability": 0.9998
+          },
+          {
+            "start": 40.26,
+            "end": 40.74,
+            "word": " transformed",
+            "probability": 0.99732
+          },
+          {
+            "start": 40.74,
+            "end": 41.06,
+            "word": " into",
+            "probability": 0.99916
+          },
+          {
+            "start": 41.06,
+            "end": 41.2,
+            "word": " a",
+            "probability": 0.99396
+          },
+          {
+            "start": 41.2,
+            "end": 41.48,
+            "word": " cinema",
+            "probability": 0.98627
+          },
+          {
+            "start": 41.48,
+            "end": 42.24,
+            "word": " showcasing",
+            "probability": 0.76522
+          },
+          {
+            "start": 42.24,
+            "end": 42.52,
+            "word": " films",
+            "probability": 0.9927
+          },
+          {
+            "start": 42.52,
+            "end": 42.74,
+            "word": " for",
+            "probability": 0.99815
+          },
+          {
+            "start": 42.74,
+            "end": 42.84,
+            "word": " the",
+            "probability": 0.98747
+          },
+          {
+            "start": 42.84,
+            "end": 43.18,
+            "word": " public.",
+            "probability": 0.99809
+          }
+        ]
+      },
+      {
+        "start": 44.05,
+        "end": 48.43,
+        "text": "Today, this beautiful structure is now a bustling department store, offering a wide range",
+        "words": [
+          {
+            "start": 44.05,
+            "end": 44.43,
+            "word": " Today,",
+            "probability": 0.99656
+          },
+          {
+            "start": 44.65,
+            "end": 44.79,
+            "word": " this",
+            "probability": 0.99795
+          },
+          {
+            "start": 44.79,
+            "end": 45.17,
+            "word": " beautiful",
+            "probability": 0.99552
+          },
+          {
+            "start": 45.17,
+            "end": 45.67,
+            "word": " structure",
+            "probability": 0.99754
+          },
+          {
+            "start": 45.67,
+            "end": 45.85,
+            "word": " is",
+            "probability": 0.99882
+          },
+          {
+            "start": 45.85,
+            "end": 46.01,
+            "word": " now",
+            "probability": 0.99744
+          },
+          {
+            "start": 46.01,
+            "end": 46.15,
+            "word": " a",
+            "probability": 0.99844
+          },
+          {
+            "start": 46.15,
+            "end": 46.53,
+            "word": " bustling",
+            "probability": 0.95258
+          },
+          {
+            "start": 46.53,
+            "end": 46.93,
+            "word": " department",
+            "probability": 0.98121
+          },
+          {
+            "start": 46.93,
+            "end": 47.25,
+            "word": " store,",
+            "probability": 0.99841
+          },
+          {
+            "start": 47.53,
+            "end": 47.79,
+            "word": " offering",
+            "probability": 0.99824
+          },
+          {
+            "start": 47.79,
+            "end": 47.95,
+            "word": " a",
+            "probability": 0.99839
+          },
+          {
+            "start": 47.95,
+            "end": 48.13,
+            "word": " wide",
+            "probability": 0.99438
+          },
+          {
+            "start": 48.13,
+            "end": 48.43,
+            "word": " range",
+            "probability": 0.99878
+          }
+        ]
+      },
+      {
+        "start": 48.43,
+        "end": 48.95,
+        "text": "of products.",
+        "words": [
+          {
+            "start": 48.43,
+            "end": 48.59,
+            "word": " of",
+            "probability": 0.77056
+          },
+          {
+            "start": 48.59,
+            "end": 48.95,
+            "word": " products.",
+            "probability": 0.98742
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q06",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 55,
+            "speechStart": 0.94,
+            "speechEnd": 22.68,
+            "sourceTokenCoverage": 0.9821,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.991,
+            "transcript": "welcome everyone today i'd like to introduce you to this iconic building originally built in the 1920s it served as a museum until 1940 after world war ii it was transformed into a cinema showcasing films for the public today this beautiful structure is now a bustling department store offering a wide range of products",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 55,
+            "wordEndIndexExclusive": 110,
+            "speechStart": 27.72,
+            "speechEnd": 48.95,
+            "sourceTokenCoverage": 0.9821,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.991,
+            "transcript": "welcome everyone today i'd like to introduce you to this iconic building originally built in the 1920s it served as a museum until 1940 after world war ii it was transformed into a cinema showcasing films for the public today this beautiful structure is now a bustling department store offering a wide range of products",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

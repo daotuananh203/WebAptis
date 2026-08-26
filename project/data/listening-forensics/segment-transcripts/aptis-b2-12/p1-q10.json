@@ -1,0 +1,1181 @@
+{
+  "testId": "aptis-b2-12",
+  "blockId": "p1-q10",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-12/part-1/q10.mp3",
+  "audioSha256": "0d5bcec448394aa764e858fd7867d41656ed875fe8d17bc972fb8da41d8acfb5",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.72,
+        "end": 3.22,
+        "text": "Hello, I would like to buy a top, please.",
+        "words": [
+          {
+            "start": 0.72,
+            "end": 1.26,
+            "word": " Hello,",
+            "probability": 0.41369
+          },
+          {
+            "start": 1.6,
+            "end": 1.8,
+            "word": " I",
+            "probability": 0.98581
+          },
+          {
+            "start": 1.8,
+            "end": 1.9,
+            "word": " would",
+            "probability": 0.95009
+          },
+          {
+            "start": 1.9,
+            "end": 2.04,
+            "word": " like",
+            "probability": 0.99805
+          },
+          {
+            "start": 2.04,
+            "end": 2.18,
+            "word": " to",
+            "probability": 0.99296
+          },
+          {
+            "start": 2.18,
+            "end": 2.34,
+            "word": " buy",
+            "probability": 0.99667
+          },
+          {
+            "start": 2.34,
+            "end": 2.48,
+            "word": " a",
+            "probability": 0.99673
+          },
+          {
+            "start": 2.48,
+            "end": 2.68,
+            "word": " top,",
+            "probability": 0.95871
+          },
+          {
+            "start": 2.9,
+            "end": 3.22,
+            "word": " please.",
+            "probability": 0.99674
+          }
+        ]
+      },
+      {
+        "start": 4.12,
+        "end": 6.3,
+        "text": "Sure, do you have anything particular in mind?",
+        "words": [
+          {
+            "start": 4.12,
+            "end": 4.32,
+            "word": " Sure,",
+            "probability": 0.81845
+          },
+          {
+            "start": 4.54,
+            "end": 4.58,
+            "word": " do",
+            "probability": 0.98636
+          },
+          {
+            "start": 4.58,
+            "end": 4.66,
+            "word": " you",
+            "probability": 0.99627
+          },
+          {
+            "start": 4.66,
+            "end": 4.8,
+            "word": " have",
+            "probability": 0.99874
+          },
+          {
+            "start": 4.8,
+            "end": 5.12,
+            "word": " anything",
+            "probability": 0.96953
+          },
+          {
+            "start": 5.12,
+            "end": 5.78,
+            "word": " particular",
+            "probability": 0.78533
+          },
+          {
+            "start": 5.78,
+            "end": 5.98,
+            "word": " in",
+            "probability": 0.99899
+          },
+          {
+            "start": 5.98,
+            "end": 6.3,
+            "word": " mind?",
+            "probability": 0.99749
+          }
+        ]
+      },
+      {
+        "start": 7.31,
+        "end": 9.45,
+        "text": "I like the design of that green one over there.",
+        "words": [
+          {
+            "start": 7.31,
+            "end": 7.49,
+            "word": " I",
+            "probability": 0.9545
+          },
+          {
+            "start": 7.49,
+            "end": 7.63,
+            "word": " like",
+            "probability": 0.93861
+          },
+          {
+            "start": 7.63,
+            "end": 7.81,
+            "word": " the",
+            "probability": 0.99585
+          },
+          {
+            "start": 7.81,
+            "end": 8.13,
+            "word": " design",
+            "probability": 0.99901
+          },
+          {
+            "start": 8.13,
+            "end": 8.29,
+            "word": " of",
+            "probability": 0.99792
+          },
+          {
+            "start": 8.29,
+            "end": 8.45,
+            "word": " that",
+            "probability": 0.97995
+          },
+          {
+            "start": 8.45,
+            "end": 8.73,
+            "word": " green",
+            "probability": 0.97491
+          },
+          {
+            "start": 8.73,
+            "end": 8.95,
+            "word": " one",
+            "probability": 0.99319
+          },
+          {
+            "start": 8.95,
+            "end": 9.21,
+            "word": " over",
+            "probability": 0.99445
+          },
+          {
+            "start": 9.21,
+            "end": 9.45,
+            "word": " there.",
+            "probability": 0.99827
+          }
+        ]
+      },
+      {
+        "start": 10.07,
+        "end": 10.91,
+        "text": "Do you have it in blue?",
+        "words": [
+          {
+            "start": 10.07,
+            "end": 10.17,
+            "word": " Do",
+            "probability": 0.99407
+          },
+          {
+            "start": 10.17,
+            "end": 10.27,
+            "word": " you",
+            "probability": 0.99608
+          },
+          {
+            "start": 10.27,
+            "end": 10.39,
+            "word": " have",
+            "probability": 0.99895
+          },
+          {
+            "start": 10.39,
+            "end": 10.53,
+            "word": " it",
+            "probability": 0.99818
+          },
+          {
+            "start": 10.53,
+            "end": 10.65,
+            "word": " in",
+            "probability": 0.99367
+          },
+          {
+            "start": 10.65,
+            "end": 10.91,
+            "word": " blue?",
+            "probability": 0.99543
+          }
+        ]
+      },
+      {
+        "start": 11.69,
+        "end": 12.01,
+        "text": "Maybe.",
+        "words": [
+          {
+            "start": 11.69,
+            "end": 12.01,
+            "word": " Maybe.",
+            "probability": 0.98283
+          }
+        ]
+      },
+      {
+        "start": 12.39,
+        "end": 13.19,
+        "text": "What size are you?",
+        "words": [
+          {
+            "start": 12.39,
+            "end": 12.49,
+            "word": " What",
+            "probability": 0.99729
+          },
+          {
+            "start": 12.49,
+            "end": 12.73,
+            "word": " size",
+            "probability": 0.98578
+          },
+          {
+            "start": 12.73,
+            "end": 12.97,
+            "word": " are",
+            "probability": 0.99886
+          },
+          {
+            "start": 12.97,
+            "end": 13.19,
+            "word": " you?",
+            "probability": 0.99694
+          }
+        ]
+      },
+      {
+        "start": 13.67,
+        "end": 14.69,
+        "text": "I am wearing large.",
+        "words": [
+          {
+            "start": 13.67,
+            "end": 13.91,
+            "word": " I",
+            "probability": 0.99453
+          },
+          {
+            "start": 13.91,
+            "end": 14.05,
+            "word": " am",
+            "probability": 0.96662
+          },
+          {
+            "start": 14.05,
+            "end": 14.31,
+            "word": " wearing",
+            "probability": 0.99939
+          },
+          {
+            "start": 14.31,
+            "end": 14.69,
+            "word": " large.",
+            "probability": 0.97339
+          }
+        ]
+      },
+      {
+        "start": 15.39,
+        "end": 15.87,
+        "text": "Let me see.",
+        "words": [
+          {
+            "start": 15.39,
+            "end": 15.49,
+            "word": " Let",
+            "probability": 0.90959
+          },
+          {
+            "start": 15.49,
+            "end": 15.59,
+            "word": " me",
+            "probability": 0.99622
+          },
+          {
+            "start": 15.59,
+            "end": 15.87,
+            "word": " see.",
+            "probability": 0.99928
+          }
+        ]
+      },
+      {
+        "start": 16.75,
+        "end": 18.65,
+        "text": "Oh, we have that one in blue but small.",
+        "words": [
+          {
+            "start": 16.75,
+            "end": 16.89,
+            "word": " Oh,",
+            "probability": 0.95851
+          },
+          {
+            "start": 17.07,
+            "end": 17.23,
+            "word": " we",
+            "probability": 0.99448
+          },
+          {
+            "start": 17.23,
+            "end": 17.37,
+            "word": " have",
+            "probability": 0.99893
+          },
+          {
+            "start": 17.37,
+            "end": 17.57,
+            "word": " that",
+            "probability": 0.99713
+          },
+          {
+            "start": 17.57,
+            "end": 17.73,
+            "word": " one",
+            "probability": 0.99646
+          },
+          {
+            "start": 17.73,
+            "end": 17.85,
+            "word": " in",
+            "probability": 0.99699
+          },
+          {
+            "start": 17.85,
+            "end": 18.09,
+            "word": " blue",
+            "probability": 0.9985
+          },
+          {
+            "start": 18.09,
+            "end": 18.27,
+            "word": " but",
+            "probability": 0.41983
+          },
+          {
+            "start": 18.27,
+            "end": 18.65,
+            "word": " small.",
+            "probability": 0.99512
+          }
+        ]
+      },
+      {
+        "start": 19.19,
+        "end": 21.71,
+        "text": "The red and black ones however are available in large.",
+        "words": [
+          {
+            "start": 19.19,
+            "end": 19.27,
+            "word": " The",
+            "probability": 0.99316
+          },
+          {
+            "start": 19.27,
+            "end": 19.45,
+            "word": " red",
+            "probability": 0.99583
+          },
+          {
+            "start": 19.45,
+            "end": 19.61,
+            "word": " and",
+            "probability": 0.9925
+          },
+          {
+            "start": 19.61,
+            "end": 19.83,
+            "word": " black",
+            "probability": 0.98124
+          },
+          {
+            "start": 19.83,
+            "end": 20.15,
+            "word": " ones",
+            "probability": 0.9969
+          },
+          {
+            "start": 20.15,
+            "end": 20.45,
+            "word": " however",
+            "probability": 0.43927
+          },
+          {
+            "start": 20.45,
+            "end": 20.73,
+            "word": " are",
+            "probability": 0.96616
+          },
+          {
+            "start": 20.73,
+            "end": 21.13,
+            "word": " available",
+            "probability": 0.99841
+          },
+          {
+            "start": 21.13,
+            "end": 21.41,
+            "word": " in",
+            "probability": 0.99479
+          },
+          {
+            "start": 21.41,
+            "end": 21.71,
+            "word": " large.",
+            "probability": 0.99549
+          }
+        ]
+      },
+      {
+        "start": 22.47,
+        "end": 23.85,
+        "text": "Red is not my cup of tea.",
+        "words": [
+          {
+            "start": 22.47,
+            "end": 22.67,
+            "word": " Red",
+            "probability": 0.91479
+          },
+          {
+            "start": 22.67,
+            "end": 22.87,
+            "word": " is",
+            "probability": 0.99611
+          },
+          {
+            "start": 22.87,
+            "end": 23.05,
+            "word": " not",
+            "probability": 0.99628
+          },
+          {
+            "start": 23.05,
+            "end": 23.27,
+            "word": " my",
+            "probability": 0.99739
+          },
+          {
+            "start": 23.27,
+            "end": 23.45,
+            "word": " cup",
+            "probability": 0.99702
+          },
+          {
+            "start": 23.45,
+            "end": 23.63,
+            "word": " of",
+            "probability": 0.99788
+          },
+          {
+            "start": 23.63,
+            "end": 23.85,
+            "word": " tea.",
+            "probability": 0.99791
+          }
+        ]
+      },
+      {
+        "start": 24.27,
+        "end": 26.37,
+        "text": "Well, I will go with the other option then.",
+        "words": [
+          {
+            "start": 24.27,
+            "end": 24.43,
+            "word": " Well,",
+            "probability": 0.99491
+          },
+          {
+            "start": 24.79,
+            "end": 24.99,
+            "word": " I",
+            "probability": 0.99865
+          },
+          {
+            "start": 24.99,
+            "end": 25.11,
+            "word": " will",
+            "probability": 0.99098
+          },
+          {
+            "start": 25.11,
+            "end": 25.25,
+            "word": " go",
+            "probability": 0.99763
+          },
+          {
+            "start": 25.25,
+            "end": 25.39,
+            "word": " with",
+            "probability": 0.99805
+          },
+          {
+            "start": 25.39,
+            "end": 25.53,
+            "word": " the",
+            "probability": 0.99517
+          },
+          {
+            "start": 25.53,
+            "end": 25.67,
+            "word": " other",
+            "probability": 0.99777
+          },
+          {
+            "start": 25.67,
+            "end": 26.11,
+            "word": " option",
+            "probability": 0.99761
+          },
+          {
+            "start": 26.11,
+            "end": 26.37,
+            "word": " then.",
+            "probability": 0.85442
+          }
+        ]
+      },
+      {
+        "start": 28.05,
+        "end": 30.13,
+        "text": "Hello, I would like to buy a top, please.",
+        "words": [
+          {
+            "start": 28.05,
+            "end": 28.29,
+            "word": " Hello,",
+            "probability": 0.98981
+          },
+          {
+            "start": 28.69,
+            "end": 28.79,
+            "word": " I",
+            "probability": 0.99899
+          },
+          {
+            "start": 28.79,
+            "end": 28.91,
+            "word": " would",
+            "probability": 0.99241
+          },
+          {
+            "start": 28.91,
+            "end": 29.03,
+            "word": " like",
+            "probability": 0.99747
+          },
+          {
+            "start": 29.03,
+            "end": 29.19,
+            "word": " to",
+            "probability": 0.99875
+          },
+          {
+            "start": 29.19,
+            "end": 29.33,
+            "word": " buy",
+            "probability": 0.99792
+          },
+          {
+            "start": 29.33,
+            "end": 29.47,
+            "word": " a",
+            "probability": 0.99879
+          },
+          {
+            "start": 29.47,
+            "end": 29.71,
+            "word": " top,",
+            "probability": 0.99639
+          },
+          {
+            "start": 29.95,
+            "end": 30.13,
+            "word": " please.",
+            "probability": 0.99825
+          }
+        ]
+      },
+      {
+        "start": 30.91,
+        "end": 33.29,
+        "text": "Sure, do you have anything particular in mind?",
+        "words": [
+          {
+            "start": 30.91,
+            "end": 31.31,
+            "word": " Sure,",
+            "probability": 0.5441
+          },
+          {
+            "start": 31.55,
+            "end": 31.59,
+            "word": " do",
+            "probability": 0.98565
+          },
+          {
+            "start": 31.59,
+            "end": 31.67,
+            "word": " you",
+            "probability": 0.99728
+          },
+          {
+            "start": 31.67,
+            "end": 31.79,
+            "word": " have",
+            "probability": 0.99861
+          },
+          {
+            "start": 31.79,
+            "end": 32.11,
+            "word": " anything",
+            "probability": 0.97171
+          },
+          {
+            "start": 32.11,
+            "end": 32.77,
+            "word": " particular",
+            "probability": 0.82092
+          },
+          {
+            "start": 32.77,
+            "end": 32.97,
+            "word": " in",
+            "probability": 0.99925
+          },
+          {
+            "start": 32.97,
+            "end": 33.29,
+            "word": " mind?",
+            "probability": 0.99715
+          }
+        ]
+      },
+      {
+        "start": 34.29,
+        "end": 36.45,
+        "text": "I like the design of that green one over there.",
+        "words": [
+          {
+            "start": 34.29,
+            "end": 34.49,
+            "word": " I",
+            "probability": 0.9868
+          },
+          {
+            "start": 34.49,
+            "end": 34.63,
+            "word": " like",
+            "probability": 0.96632
+          },
+          {
+            "start": 34.63,
+            "end": 34.81,
+            "word": " the",
+            "probability": 0.99421
+          },
+          {
+            "start": 34.81,
+            "end": 35.13,
+            "word": " design",
+            "probability": 0.9983
+          },
+          {
+            "start": 35.13,
+            "end": 35.31,
+            "word": " of",
+            "probability": 0.99695
+          },
+          {
+            "start": 35.31,
+            "end": 35.45,
+            "word": " that",
+            "probability": 0.97043
+          },
+          {
+            "start": 35.45,
+            "end": 35.71,
+            "word": " green",
+            "probability": 0.9742
+          },
+          {
+            "start": 35.71,
+            "end": 35.95,
+            "word": " one",
+            "probability": 0.99159
+          },
+          {
+            "start": 35.95,
+            "end": 36.21,
+            "word": " over",
+            "probability": 0.99554
+          },
+          {
+            "start": 36.21,
+            "end": 36.45,
+            "word": " there.",
+            "probability": 0.99776
+          }
+        ]
+      },
+      {
+        "start": 37.09,
+        "end": 37.91,
+        "text": "Do you have it in blue?",
+        "words": [
+          {
+            "start": 37.09,
+            "end": 37.17,
+            "word": " Do",
+            "probability": 0.99328
+          },
+          {
+            "start": 37.17,
+            "end": 37.27,
+            "word": " you",
+            "probability": 0.99668
+          },
+          {
+            "start": 37.27,
+            "end": 37.39,
+            "word": " have",
+            "probability": 0.99889
+          },
+          {
+            "start": 37.39,
+            "end": 37.53,
+            "word": " it",
+            "probability": 0.99776
+          },
+          {
+            "start": 37.53,
+            "end": 37.65,
+            "word": " in",
+            "probability": 0.99034
+          },
+          {
+            "start": 37.65,
+            "end": 37.91,
+            "word": " blue?",
+            "probability": 0.99541
+          }
+        ]
+      },
+      {
+        "start": 38.63,
+        "end": 39.01,
+        "text": "Maybe.",
+        "words": [
+          {
+            "start": 38.63,
+            "end": 39.01,
+            "word": " Maybe.",
+            "probability": 0.98498
+          }
+        ]
+      },
+      {
+        "start": 39.39,
+        "end": 40.17,
+        "text": "What size are you?",
+        "words": [
+          {
+            "start": 39.39,
+            "end": 39.49,
+            "word": " What",
+            "probability": 0.99627
+          },
+          {
+            "start": 39.49,
+            "end": 39.75,
+            "word": " size",
+            "probability": 0.98188
+          },
+          {
+            "start": 39.75,
+            "end": 39.97,
+            "word": " are",
+            "probability": 0.99822
+          },
+          {
+            "start": 39.97,
+            "end": 40.17,
+            "word": " you?",
+            "probability": 0.99622
+          }
+        ]
+      },
+      {
+        "start": 40.63,
+        "end": 41.65,
+        "text": "I am wearing large.",
+        "words": [
+          {
+            "start": 40.63,
+            "end": 40.91,
+            "word": " I",
+            "probability": 0.99554
+          },
+          {
+            "start": 40.91,
+            "end": 41.05,
+            "word": " am",
+            "probability": 0.9677
+          },
+          {
+            "start": 41.05,
+            "end": 41.29,
+            "word": " wearing",
+            "probability": 0.9993
+          },
+          {
+            "start": 41.29,
+            "end": 41.65,
+            "word": " large.",
+            "probability": 0.95788
+          }
+        ]
+      },
+      {
+        "start": 42.41,
+        "end": 42.85,
+        "text": "Let me see.",
+        "words": [
+          {
+            "start": 42.41,
+            "end": 42.49,
+            "word": " Let",
+            "probability": 0.80579
+          },
+          {
+            "start": 42.49,
+            "end": 42.59,
+            "word": " me",
+            "probability": 0.99457
+          },
+          {
+            "start": 42.59,
+            "end": 42.85,
+            "word": " see.",
+            "probability": 0.9991
+          }
+        ]
+      },
+      {
+        "start": 43.73,
+        "end": 45.67,
+        "text": "Oh, we have that one in blue but small.",
+        "words": [
+          {
+            "start": 43.73,
+            "end": 43.89,
+            "word": " Oh,",
+            "probability": 0.96228
+          },
+          {
+            "start": 44.05,
+            "end": 44.23,
+            "word": " we",
+            "probability": 0.99456
+          },
+          {
+            "start": 44.23,
+            "end": 44.37,
+            "word": " have",
+            "probability": 0.99839
+          },
+          {
+            "start": 44.37,
+            "end": 44.57,
+            "word": " that",
+            "probability": 0.99609
+          },
+          {
+            "start": 44.57,
+            "end": 44.73,
+            "word": " one",
+            "probability": 0.99637
+          },
+          {
+            "start": 44.73,
+            "end": 44.85,
+            "word": " in",
+            "probability": 0.99396
+          },
+          {
+            "start": 44.85,
+            "end": 45.09,
+            "word": " blue",
+            "probability": 0.99855
+          },
+          {
+            "start": 45.09,
+            "end": 45.27,
+            "word": " but",
+            "probability": 0.66396
+          },
+          {
+            "start": 45.27,
+            "end": 45.67,
+            "word": " small.",
+            "probability": 0.99406
+          }
+        ]
+      },
+      {
+        "start": 46.19,
+        "end": 48.71,
+        "text": "The red and black ones however are available in large.",
+        "words": [
+          {
+            "start": 46.19,
+            "end": 46.27,
+            "word": " The",
+            "probability": 0.98978
+          },
+          {
+            "start": 46.27,
+            "end": 46.45,
+            "word": " red",
+            "probability": 0.99441
+          },
+          {
+            "start": 46.45,
+            "end": 46.61,
+            "word": " and",
+            "probability": 0.98829
+          },
+          {
+            "start": 46.61,
+            "end": 46.81,
+            "word": " black",
+            "probability": 0.97586
+          },
+          {
+            "start": 46.81,
+            "end": 47.13,
+            "word": " ones",
+            "probability": 0.99626
+          },
+          {
+            "start": 47.13,
+            "end": 47.43,
+            "word": " however",
+            "probability": 0.49393
+          },
+          {
+            "start": 47.43,
+            "end": 47.73,
+            "word": " are",
+            "probability": 0.97932
+          },
+          {
+            "start": 47.73,
+            "end": 48.11,
+            "word": " available",
+            "probability": 0.99888
+          },
+          {
+            "start": 48.11,
+            "end": 48.39,
+            "word": " in",
+            "probability": 0.99515
+          },
+          {
+            "start": 48.39,
+            "end": 48.71,
+            "word": " large.",
+            "probability": 0.99583
+          }
+        ]
+      },
+      {
+        "start": 49.37,
+        "end": 50.83,
+        "text": "Red is not my cup of tea.",
+        "words": [
+          {
+            "start": 49.37,
+            "end": 49.69,
+            "word": " Red",
+            "probability": 0.95423
+          },
+          {
+            "start": 49.69,
+            "end": 49.87,
+            "word": " is",
+            "probability": 0.99364
+          },
+          {
+            "start": 49.87,
+            "end": 50.05,
+            "word": " not",
+            "probability": 0.99723
+          },
+          {
+            "start": 50.05,
+            "end": 50.27,
+            "word": " my",
+            "probability": 0.99774
+          },
+          {
+            "start": 50.27,
+            "end": 50.43,
+            "word": " cup",
+            "probability": 0.99462
+          },
+          {
+            "start": 50.43,
+            "end": 50.63,
+            "word": " of",
+            "probability": 0.99591
+          },
+          {
+            "start": 50.63,
+            "end": 50.83,
+            "word": " tea.",
+            "probability": 0.99665
+          }
+        ]
+      },
+      {
+        "start": 51.27,
+        "end": 53.37,
+        "text": "Well, I will go with the other option then.",
+        "words": [
+          {
+            "start": 51.27,
+            "end": 51.45,
+            "word": " Well,",
+            "probability": 0.99358
+          },
+          {
+            "start": 51.81,
+            "end": 51.99,
+            "word": " I",
+            "probability": 0.99673
+          },
+          {
+            "start": 51.99,
+            "end": 52.11,
+            "word": " will",
+            "probability": 0.98229
+          },
+          {
+            "start": 52.11,
+            "end": 52.25,
+            "word": " go",
+            "probability": 0.99772
+          },
+          {
+            "start": 52.25,
+            "end": 52.39,
+            "word": " with",
+            "probability": 0.99836
+          },
+          {
+            "start": 52.39,
+            "end": 52.53,
+            "word": " the",
+            "probability": 0.99744
+          },
+          {
+            "start": 52.53,
+            "end": 52.67,
+            "word": " other",
+            "probability": 0.99678
+          },
+          {
+            "start": 52.67,
+            "end": 53.11,
+            "word": " option",
+            "probability": 0.99784
+          },
+          {
+            "start": 53.11,
+            "end": 53.37,
+            "word": " then.",
+            "probability": 0.96885
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q10",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 80,
+            "speechStart": 0.72,
+            "speechEnd": 26.37,
+            "sourceTokenCoverage": 0.9302,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9639,
+            "transcript": "hello i would like to buy a top please sure do you have anything particular in mind i like the design of that green 1 over there do you have it in blue maybe what size are you i am wearing large let me see oh we have that 1 in blue but small the red and black ones however are available in large red is not my cup of tea well i will go with the other option then",
+            "openingMatch": 0.9556,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 80,
+            "wordEndIndexExclusive": 160,
+            "speechStart": 28.05,
+            "speechEnd": 53.37,
+            "sourceTokenCoverage": 0.9302,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9639,
+            "transcript": "hello i would like to buy a top please sure do you have anything particular in mind i like the design of that green 1 over there do you have it in blue maybe what size are you i am wearing large let me see oh we have that 1 in blue but small the red and black ones however are available in large red is not my cup of tea well i will go with the other option then",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

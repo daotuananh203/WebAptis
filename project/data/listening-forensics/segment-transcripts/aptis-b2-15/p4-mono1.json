@@ -1,0 +1,942 @@
+{
+  "testId": "aptis-b2-15",
+  "blockId": "p4-mono1",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-15/part-4/mono1.mp3",
+  "audioSha256": "39ceacad1da945cfdf7b884bf197fa1d43ebebb7d52cfaa986c5b3d487d98e66",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.11,
+        "end": 4.67,
+        "text": "This guidebook is designed to inspire exploration and curiosity.",
+        "words": [
+          {
+            "start": 0.11,
+            "end": 0.67,
+            "word": " This",
+            "probability": 0.9378
+          },
+          {
+            "start": 0.67,
+            "end": 1.15,
+            "word": " guidebook",
+            "probability": 0.88839
+          },
+          {
+            "start": 1.15,
+            "end": 1.45,
+            "word": " is",
+            "probability": 0.99607
+          },
+          {
+            "start": 1.45,
+            "end": 1.75,
+            "word": " designed",
+            "probability": 0.9981
+          },
+          {
+            "start": 1.75,
+            "end": 2.01,
+            "word": " to",
+            "probability": 0.9991
+          },
+          {
+            "start": 2.01,
+            "end": 2.49,
+            "word": " inspire",
+            "probability": 0.99658
+          },
+          {
+            "start": 2.49,
+            "end": 3.49,
+            "word": " exploration",
+            "probability": 0.98415
+          },
+          {
+            "start": 3.49,
+            "end": 3.93,
+            "word": " and",
+            "probability": 0.9952
+          },
+          {
+            "start": 3.93,
+            "end": 4.67,
+            "word": " curiosity.",
+            "probability": 0.98393
+          }
+        ]
+      },
+      {
+        "start": 5.31,
+        "end": 7.87,
+        "text": "Instead of simply listing famous landmarks,",
+        "words": [
+          {
+            "start": 5.31,
+            "end": 5.73,
+            "word": " Instead",
+            "probability": 0.99527
+          },
+          {
+            "start": 5.73,
+            "end": 5.89,
+            "word": " of",
+            "probability": 0.99625
+          },
+          {
+            "start": 5.89,
+            "end": 6.19,
+            "word": " simply",
+            "probability": 0.9892
+          },
+          {
+            "start": 6.19,
+            "end": 6.57,
+            "word": " listing",
+            "probability": 0.97143
+          },
+          {
+            "start": 6.57,
+            "end": 7.15,
+            "word": " famous",
+            "probability": 0.99474
+          },
+          {
+            "start": 7.15,
+            "end": 7.87,
+            "word": " landmarks,",
+            "probability": 0.99241
+          }
+        ]
+      },
+      {
+        "start": 8.21,
+        "end": 12.53,
+        "text": "it encourages readers to step off the beaten path and discover hidden gems.",
+        "words": [
+          {
+            "start": 8.21,
+            "end": 8.29,
+            "word": " it",
+            "probability": 0.99025
+          },
+          {
+            "start": 8.29,
+            "end": 8.77,
+            "word": " encourages",
+            "probability": 0.9973
+          },
+          {
+            "start": 8.77,
+            "end": 9.13,
+            "word": " readers",
+            "probability": 0.99548
+          },
+          {
+            "start": 9.13,
+            "end": 9.45,
+            "word": " to",
+            "probability": 0.99699
+          },
+          {
+            "start": 9.45,
+            "end": 9.67,
+            "word": " step",
+            "probability": 0.99685
+          },
+          {
+            "start": 9.67,
+            "end": 9.87,
+            "word": " off",
+            "probability": 0.98156
+          },
+          {
+            "start": 9.87,
+            "end": 10.07,
+            "word": " the",
+            "probability": 0.98586
+          },
+          {
+            "start": 10.07,
+            "end": 10.35,
+            "word": " beaten",
+            "probability": 0.98978
+          },
+          {
+            "start": 10.35,
+            "end": 10.71,
+            "word": " path",
+            "probability": 0.98906
+          },
+          {
+            "start": 10.71,
+            "end": 11.21,
+            "word": " and",
+            "probability": 0.9767
+          },
+          {
+            "start": 11.21,
+            "end": 11.59,
+            "word": " discover",
+            "probability": 0.99836
+          },
+          {
+            "start": 11.59,
+            "end": 12.13,
+            "word": " hidden",
+            "probability": 0.99787
+          },
+          {
+            "start": 12.13,
+            "end": 12.53,
+            "word": " gems.",
+            "probability": 0.991
+          }
+        ]
+      },
+      {
+        "start": 13.33,
+        "end": 17.27,
+        "text": "For example, it includes local stories, unique activities,",
+        "words": [
+          {
+            "start": 13.33,
+            "end": 13.53,
+            "word": " For",
+            "probability": 0.99503
+          },
+          {
+            "start": 13.53,
+            "end": 13.97,
+            "word": " example,",
+            "probability": 0.9976
+          },
+          {
+            "start": 14.41,
+            "end": 14.49,
+            "word": " it",
+            "probability": 0.98464
+          },
+          {
+            "start": 14.49,
+            "end": 14.87,
+            "word": " includes",
+            "probability": 0.99756
+          },
+          {
+            "start": 14.87,
+            "end": 15.19,
+            "word": " local",
+            "probability": 0.98627
+          },
+          {
+            "start": 15.19,
+            "end": 15.87,
+            "word": " stories,",
+            "probability": 0.98154
+          },
+          {
+            "start": 16.29,
+            "end": 16.49,
+            "word": " unique",
+            "probability": 0.99931
+          },
+          {
+            "start": 16.49,
+            "end": 17.27,
+            "word": " activities,",
+            "probability": 0.99215
+          }
+        ]
+      },
+      {
+        "start": 17.81,
+        "end": 22.09,
+        "text": "and tips for immersing oneself in the culture of the places they visit.",
+        "words": [
+          {
+            "start": 17.81,
+            "end": 18.05,
+            "word": " and",
+            "probability": 0.99776
+          },
+          {
+            "start": 18.05,
+            "end": 18.33,
+            "word": " tips",
+            "probability": 0.99528
+          },
+          {
+            "start": 18.33,
+            "end": 18.65,
+            "word": " for",
+            "probability": 0.99759
+          },
+          {
+            "start": 18.65,
+            "end": 19.27,
+            "word": " immersing",
+            "probability": 0.97812
+          },
+          {
+            "start": 19.27,
+            "end": 19.71,
+            "word": " oneself",
+            "probability": 0.98281
+          },
+          {
+            "start": 19.71,
+            "end": 20.01,
+            "word": " in",
+            "probability": 0.99648
+          },
+          {
+            "start": 20.01,
+            "end": 20.15,
+            "word": " the",
+            "probability": 0.99647
+          },
+          {
+            "start": 20.15,
+            "end": 20.61,
+            "word": " culture",
+            "probability": 0.99903
+          },
+          {
+            "start": 20.61,
+            "end": 20.95,
+            "word": " of",
+            "probability": 0.99728
+          },
+          {
+            "start": 20.95,
+            "end": 21.07,
+            "word": " the",
+            "probability": 0.97474
+          },
+          {
+            "start": 21.07,
+            "end": 21.41,
+            "word": " places",
+            "probability": 0.99506
+          },
+          {
+            "start": 21.41,
+            "end": 21.69,
+            "word": " they",
+            "probability": 0.99499
+          },
+          {
+            "start": 21.69,
+            "end": 22.09,
+            "word": " visit.",
+            "probability": 0.99848
+          }
+        ]
+      },
+      {
+        "start": 22.79,
+        "end": 25.51,
+        "text": "Some might think it is a little bit difficult to navigate,",
+        "words": [
+          {
+            "start": 22.79,
+            "end": 23.11,
+            "word": " Some",
+            "probability": 0.99492
+          },
+          {
+            "start": 23.11,
+            "end": 23.33,
+            "word": " might",
+            "probability": 0.99449
+          },
+          {
+            "start": 23.33,
+            "end": 23.63,
+            "word": " think",
+            "probability": 0.99634
+          },
+          {
+            "start": 23.63,
+            "end": 23.81,
+            "word": " it",
+            "probability": 0.98481
+          },
+          {
+            "start": 23.81,
+            "end": 23.95,
+            "word": " is",
+            "probability": 0.96165
+          },
+          {
+            "start": 23.95,
+            "end": 24.05,
+            "word": " a",
+            "probability": 0.99137
+          },
+          {
+            "start": 24.05,
+            "end": 24.31,
+            "word": " little",
+            "probability": 0.97627
+          },
+          {
+            "start": 24.31,
+            "end": 24.47,
+            "word": " bit",
+            "probability": 0.87236
+          },
+          {
+            "start": 24.47,
+            "end": 24.87,
+            "word": " difficult",
+            "probability": 0.99924
+          },
+          {
+            "start": 24.87,
+            "end": 25.15,
+            "word": " to",
+            "probability": 0.99953
+          },
+          {
+            "start": 25.15,
+            "end": 25.51,
+            "word": " navigate,",
+            "probability": 0.99762
+          }
+        ]
+      },
+      {
+        "start": 25.51,
+        "end": 31.71,
+        "text": "But in reality, it makes each journey feel like an adventure, allowing travelers to create",
+        "words": [
+          {
+            "start": 25.51,
+            "end": 26.27,
+            "word": " But",
+            "probability": 0.22837
+          },
+          {
+            "start": 26.27,
+            "end": 26.43,
+            "word": " in",
+            "probability": 0.93165
+          },
+          {
+            "start": 26.43,
+            "end": 26.89,
+            "word": " reality,",
+            "probability": 0.99778
+          },
+          {
+            "start": 27.19,
+            "end": 27.25,
+            "word": " it",
+            "probability": 0.99477
+          },
+          {
+            "start": 27.25,
+            "end": 27.43,
+            "word": " makes",
+            "probability": 0.997
+          },
+          {
+            "start": 27.43,
+            "end": 27.97,
+            "word": " each",
+            "probability": 0.98804
+          },
+          {
+            "start": 27.97,
+            "end": 28.35,
+            "word": " journey",
+            "probability": 0.9989
+          },
+          {
+            "start": 28.35,
+            "end": 28.73,
+            "word": " feel",
+            "probability": 0.99832
+          },
+          {
+            "start": 28.73,
+            "end": 28.95,
+            "word": " like",
+            "probability": 0.99799
+          },
+          {
+            "start": 28.95,
+            "end": 29.11,
+            "word": " an",
+            "probability": 0.9958
+          },
+          {
+            "start": 29.11,
+            "end": 29.73,
+            "word": " adventure,",
+            "probability": 0.99622
+          },
+          {
+            "start": 30.25,
+            "end": 30.57,
+            "word": " allowing",
+            "probability": 0.995
+          },
+          {
+            "start": 30.57,
+            "end": 31.11,
+            "word": " travelers",
+            "probability": 0.64097
+          },
+          {
+            "start": 31.11,
+            "end": 31.35,
+            "word": " to",
+            "probability": 0.99762
+          },
+          {
+            "start": 31.35,
+            "end": 31.71,
+            "word": " create",
+            "probability": 0.99755
+          }
+        ]
+      },
+      {
+        "start": 31.71,
+        "end": 37.11,
+        "text": "unforgettable memories and experiences that go beyond the typical sightseeing.",
+        "words": [
+          {
+            "start": 31.71,
+            "end": 32.49,
+            "word": " unforgettable",
+            "probability": 0.98153
+          },
+          {
+            "start": 32.49,
+            "end": 33.23,
+            "word": " memories",
+            "probability": 0.99851
+          },
+          {
+            "start": 33.23,
+            "end": 33.61,
+            "word": " and",
+            "probability": 0.94238
+          },
+          {
+            "start": 33.61,
+            "end": 34.35,
+            "word": " experiences",
+            "probability": 0.99575
+          },
+          {
+            "start": 34.35,
+            "end": 34.93,
+            "word": " that",
+            "probability": 0.98017
+          },
+          {
+            "start": 34.93,
+            "end": 35.11,
+            "word": " go",
+            "probability": 0.99805
+          },
+          {
+            "start": 35.11,
+            "end": 35.55,
+            "word": " beyond",
+            "probability": 0.99899
+          },
+          {
+            "start": 35.55,
+            "end": 35.89,
+            "word": " the",
+            "probability": 0.99024
+          },
+          {
+            "start": 35.89,
+            "end": 36.31,
+            "word": " typical",
+            "probability": 0.99795
+          },
+          {
+            "start": 36.31,
+            "end": 37.11,
+            "word": " sightseeing.",
+            "probability": 0.96881
+          }
+        ]
+      },
+      {
+        "start": 37.49,
+        "end": 40.97,
+        "text": "This guidebook resonates well with younger travelers today.",
+        "words": [
+          {
+            "start": 37.49,
+            "end": 38.03,
+            "word": " This",
+            "probability": 0.99145
+          },
+          {
+            "start": 38.03,
+            "end": 38.49,
+            "word": " guidebook",
+            "probability": 0.95495
+          },
+          {
+            "start": 38.49,
+            "end": 39.01,
+            "word": " resonates",
+            "probability": 0.9748
+          },
+          {
+            "start": 39.01,
+            "end": 39.45,
+            "word": " well",
+            "probability": 0.99328
+          },
+          {
+            "start": 39.45,
+            "end": 39.79,
+            "word": " with",
+            "probability": 0.9955
+          },
+          {
+            "start": 39.79,
+            "end": 40.07,
+            "word": " younger",
+            "probability": 0.97951
+          },
+          {
+            "start": 40.07,
+            "end": 40.55,
+            "word": " travelers",
+            "probability": 0.85284
+          },
+          {
+            "start": 40.55,
+            "end": 40.97,
+            "word": " today.",
+            "probability": 0.99553
+          }
+        ]
+      },
+      {
+        "start": 41.51,
+        "end": 47.55,
+        "text": "Some say it's only for seasoned explorers because it focuses on local cultures, which beginners",
+        "words": [
+          {
+            "start": 41.51,
+            "end": 41.73,
+            "word": " Some",
+            "probability": 0.991
+          },
+          {
+            "start": 41.73,
+            "end": 42.07,
+            "word": " say",
+            "probability": 0.99936
+          },
+          {
+            "start": 42.07,
+            "end": 42.43,
+            "word": " it's",
+            "probability": 0.9671
+          },
+          {
+            "start": 42.43,
+            "end": 42.61,
+            "word": " only",
+            "probability": 0.99813
+          },
+          {
+            "start": 42.61,
+            "end": 42.81,
+            "word": " for",
+            "probability": 0.99542
+          },
+          {
+            "start": 42.81,
+            "end": 43.17,
+            "word": " seasoned",
+            "probability": 0.97507
+          },
+          {
+            "start": 43.17,
+            "end": 44.03,
+            "word": " explorers",
+            "probability": 0.99717
+          },
+          {
+            "start": 44.03,
+            "end": 44.29,
+            "word": " because",
+            "probability": 0.90355
+          },
+          {
+            "start": 44.29,
+            "end": 44.47,
+            "word": " it",
+            "probability": 0.99847
+          },
+          {
+            "start": 44.47,
+            "end": 44.89,
+            "word": " focuses",
+            "probability": 0.99465
+          },
+          {
+            "start": 44.89,
+            "end": 45.29,
+            "word": " on",
+            "probability": 0.99811
+          },
+          {
+            "start": 45.29,
+            "end": 45.67,
+            "word": " local",
+            "probability": 0.99367
+          },
+          {
+            "start": 45.67,
+            "end": 46.31,
+            "word": " cultures,",
+            "probability": 0.99561
+          },
+          {
+            "start": 46.71,
+            "end": 47.07,
+            "word": " which",
+            "probability": 0.99819
+          },
+          {
+            "start": 47.07,
+            "end": 47.55,
+            "word": " beginners",
+            "probability": 0.97317
+          }
+        ]
+      },
+      {
+        "start": 47.55,
+        "end": 48.85,
+        "text": "might find confusing.",
+        "words": [
+          {
+            "start": 47.55,
+            "end": 47.83,
+            "word": " might",
+            "probability": 0.99633
+          },
+          {
+            "start": 47.83,
+            "end": 48.15,
+            "word": " find",
+            "probability": 0.98609
+          },
+          {
+            "start": 48.15,
+            "end": 48.85,
+            "word": " confusing.",
+            "probability": 0.99321
+          }
+        ]
+      },
+      {
+        "start": 49.51,
+        "end": 53.11,
+        "text": "Others think it's outdated for those who prefer modern apps.",
+        "words": [
+          {
+            "start": 49.51,
+            "end": 49.83,
+            "word": " Others",
+            "probability": 0.99084
+          },
+          {
+            "start": 49.83,
+            "end": 50.13,
+            "word": " think",
+            "probability": 0.99715
+          },
+          {
+            "start": 50.13,
+            "end": 50.51,
+            "word": " it's",
+            "probability": 0.99179
+          },
+          {
+            "start": 50.51,
+            "end": 50.95,
+            "word": " outdated",
+            "probability": 0.99425
+          },
+          {
+            "start": 50.95,
+            "end": 51.43,
+            "word": " for",
+            "probability": 0.98086
+          },
+          {
+            "start": 51.43,
+            "end": 51.67,
+            "word": " those",
+            "probability": 0.99783
+          },
+          {
+            "start": 51.67,
+            "end": 51.83,
+            "word": " who",
+            "probability": 0.99731
+          },
+          {
+            "start": 51.83,
+            "end": 52.15,
+            "word": " prefer",
+            "probability": 0.99311
+          },
+          {
+            "start": 52.15,
+            "end": 52.61,
+            "word": " modern",
+            "probability": 0.99249
+          },
+          {
+            "start": 52.61,
+            "end": 53.11,
+            "word": " apps.",
+            "probability": 0.9913
+          }
+        ]
+      },
+      {
+        "start": 53.11,
+        "end": 59.75,
+        "text": "However, it encourages real connections and unique experiences helping travellers engage",
+        "words": [
+          {
+            "start": 53.11,
+            "end": 54.19,
+            "word": " However,",
+            "probability": 0.83825
+          },
+          {
+            "start": 54.41,
+            "end": 54.61,
+            "word": " it",
+            "probability": 0.98976
+          },
+          {
+            "start": 54.61,
+            "end": 55.17,
+            "word": " encourages",
+            "probability": 0.9971
+          },
+          {
+            "start": 55.17,
+            "end": 55.57,
+            "word": " real",
+            "probability": 0.99487
+          },
+          {
+            "start": 55.57,
+            "end": 56.17,
+            "word": " connections",
+            "probability": 0.99058
+          },
+          {
+            "start": 56.17,
+            "end": 56.67,
+            "word": " and",
+            "probability": 0.96504
+          },
+          {
+            "start": 56.67,
+            "end": 57.11,
+            "word": " unique",
+            "probability": 0.99803
+          },
+          {
+            "start": 57.11,
+            "end": 58.05,
+            "word": " experiences",
+            "probability": 0.99621
+          },
+          {
+            "start": 58.05,
+            "end": 58.77,
+            "word": " helping",
+            "probability": 0.61356
+          },
+          {
+            "start": 58.77,
+            "end": 59.35,
+            "word": " travellers",
+            "probability": 0.73168
+          },
+          {
+            "start": 59.35,
+            "end": 59.75,
+            "word": " engage",
+            "probability": 0.98549
+          }
+        ]
+      },
+      {
+        "start": 59.75,
+        "end": 60.61,
+        "text": "with locals.",
+        "words": [
+          {
+            "start": 59.75,
+            "end": 60.17,
+            "word": " with",
+            "probability": 0.99371
+          },
+          {
+            "start": 60.17,
+            "end": 60.61,
+            "word": " locals.",
+            "probability": 0.96386
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono1",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 134,
+            "speechStart": 0.11,
+            "speechEnd": 60.61,
+            "sourceTokenCoverage": 0.9925,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9925,
+            "transcript": "this guidebook is designed to inspire exploration and curiosity instead of simply listing famous landmarks it encourages readers to step off the beaten path and discover hidden gems for example it includes local stories unique activities and tips for immersing oneself in the culture of the places they visit some might think it is a little bit difficult to navigate but in reality it makes each journey feel like an adventure allowing travelers to create unforgettable memories and experiences that go beyond the typical sightseeing this guidebook resonates well with younger travelers today some say it's only for seasoned explorers because it focuses on local cultures which beginners might find confusing others think it's outdated for those who prefer modern apps however it encourages real connections and unique experiences helping travellers engage with locals",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

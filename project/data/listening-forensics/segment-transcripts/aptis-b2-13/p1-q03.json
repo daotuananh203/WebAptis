@@ -1,0 +1,664 @@
+{
+  "testId": "aptis-b2-13",
+  "blockId": "p1-q03",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-13/part-1/q03.mp3",
+  "audioSha256": "798cc5f17a6522de74759923f4fbd3b2d852ac6066a45f0f7aefe5e8aef2a054",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.69,
+        "end": 7.49,
+        "text": "Hi, Rose. It's Ahmed. What time should we meet for dinner tonight? How about we meet at quarter past seven?",
+        "words": [
+          {
+            "start": 0.69,
+            "end": 1.21,
+            "word": " Hi,",
+            "probability": 0.15426
+          },
+          {
+            "start": 1.27,
+            "end": 1.53,
+            "word": " Rose.",
+            "probability": 0.90475
+          },
+          {
+            "start": 2.75,
+            "end": 3.15,
+            "word": " It's",
+            "probability": 0.82948
+          },
+          {
+            "start": 3.15,
+            "end": 3.37,
+            "word": " Ahmed.",
+            "probability": 0.70289
+          },
+          {
+            "start": 3.67,
+            "end": 3.69,
+            "word": " What",
+            "probability": 0.82047
+          },
+          {
+            "start": 3.69,
+            "end": 3.91,
+            "word": " time",
+            "probability": 0.99537
+          },
+          {
+            "start": 3.91,
+            "end": 4.11,
+            "word": " should",
+            "probability": 0.9936
+          },
+          {
+            "start": 4.11,
+            "end": 4.23,
+            "word": " we",
+            "probability": 0.99525
+          },
+          {
+            "start": 4.23,
+            "end": 4.39,
+            "word": " meet",
+            "probability": 0.99521
+          },
+          {
+            "start": 4.39,
+            "end": 4.57,
+            "word": " for",
+            "probability": 0.99694
+          },
+          {
+            "start": 4.57,
+            "end": 4.75,
+            "word": " dinner",
+            "probability": 0.99624
+          },
+          {
+            "start": 4.75,
+            "end": 5.11,
+            "word": " tonight?",
+            "probability": 0.99018
+          },
+          {
+            "start": 5.95,
+            "end": 6.05,
+            "word": " How",
+            "probability": 0.86937
+          },
+          {
+            "start": 6.05,
+            "end": 6.17,
+            "word": " about",
+            "probability": 0.95643
+          },
+          {
+            "start": 6.17,
+            "end": 6.33,
+            "word": " we",
+            "probability": 0.99317
+          },
+          {
+            "start": 6.33,
+            "end": 6.49,
+            "word": " meet",
+            "probability": 0.99472
+          },
+          {
+            "start": 6.49,
+            "end": 6.61,
+            "word": " at",
+            "probability": 0.9869
+          },
+          {
+            "start": 6.61,
+            "end": 6.81,
+            "word": " quarter",
+            "probability": 0.57448
+          },
+          {
+            "start": 6.81,
+            "end": 7.09,
+            "word": " past",
+            "probability": 0.93931
+          },
+          {
+            "start": 7.09,
+            "end": 7.49,
+            "word": " seven?",
+            "probability": 0.92121
+          }
+        ]
+      },
+      {
+        "start": 8.43,
+        "end": 12.03,
+        "text": "Oh, wait, I just remembered. I have a meeting ending at a half past seven.",
+        "words": [
+          {
+            "start": 8.43,
+            "end": 8.55,
+            "word": " Oh,",
+            "probability": 0.8787
+          },
+          {
+            "start": 8.61,
+            "end": 8.75,
+            "word": " wait,",
+            "probability": 0.99106
+          },
+          {
+            "start": 8.95,
+            "end": 9.03,
+            "word": " I",
+            "probability": 0.9957
+          },
+          {
+            "start": 9.03,
+            "end": 9.17,
+            "word": " just",
+            "probability": 0.99384
+          },
+          {
+            "start": 9.17,
+            "end": 9.61,
+            "word": " remembered.",
+            "probability": 0.99571
+          },
+          {
+            "start": 9.97,
+            "end": 10.07,
+            "word": " I",
+            "probability": 0.98627
+          },
+          {
+            "start": 10.07,
+            "end": 10.19,
+            "word": " have",
+            "probability": 0.9979
+          },
+          {
+            "start": 10.19,
+            "end": 10.29,
+            "word": " a",
+            "probability": 0.99895
+          },
+          {
+            "start": 10.29,
+            "end": 10.47,
+            "word": " meeting",
+            "probability": 0.9983
+          },
+          {
+            "start": 10.47,
+            "end": 10.89,
+            "word": " ending",
+            "probability": 0.96354
+          },
+          {
+            "start": 10.89,
+            "end": 11.09,
+            "word": " at",
+            "probability": 0.9961
+          },
+          {
+            "start": 11.09,
+            "end": 11.13,
+            "word": " a",
+            "probability": 0.94782
+          },
+          {
+            "start": 11.13,
+            "end": 11.35,
+            "word": " half",
+            "probability": 0.99438
+          },
+          {
+            "start": 11.35,
+            "end": 11.57,
+            "word": " past",
+            "probability": 0.93322
+          },
+          {
+            "start": 11.57,
+            "end": 12.03,
+            "word": " seven.",
+            "probability": 0.98984
+          }
+        ]
+      },
+      {
+        "start": 13.03,
+        "end": 16.49,
+        "text": "Let's make it quarter to eight instead so we could have 15 minutes to travel.",
+        "words": [
+          {
+            "start": 13.03,
+            "end": 13.27,
+            "word": " Let's",
+            "probability": 0.9966
+          },
+          {
+            "start": 13.27,
+            "end": 13.37,
+            "word": " make",
+            "probability": 0.99793
+          },
+          {
+            "start": 13.37,
+            "end": 13.51,
+            "word": " it",
+            "probability": 0.99236
+          },
+          {
+            "start": 13.51,
+            "end": 13.71,
+            "word": " quarter",
+            "probability": 0.96049
+          },
+          {
+            "start": 13.71,
+            "end": 13.91,
+            "word": " to",
+            "probability": 0.98892
+          },
+          {
+            "start": 13.91,
+            "end": 14.05,
+            "word": " eight",
+            "probability": 0.99118
+          },
+          {
+            "start": 14.05,
+            "end": 14.47,
+            "word": " instead",
+            "probability": 0.97539
+          },
+          {
+            "start": 14.47,
+            "end": 14.85,
+            "word": " so",
+            "probability": 0.80087
+          },
+          {
+            "start": 14.85,
+            "end": 14.97,
+            "word": " we",
+            "probability": 0.99513
+          },
+          {
+            "start": 14.97,
+            "end": 15.09,
+            "word": " could",
+            "probability": 0.84577
+          },
+          {
+            "start": 15.09,
+            "end": 15.21,
+            "word": " have",
+            "probability": 0.99915
+          },
+          {
+            "start": 15.21,
+            "end": 15.61,
+            "word": " 15",
+            "probability": 0.78293
+          },
+          {
+            "start": 15.61,
+            "end": 15.89,
+            "word": " minutes",
+            "probability": 0.99889
+          },
+          {
+            "start": 15.89,
+            "end": 16.13,
+            "word": " to",
+            "probability": 0.99952
+          },
+          {
+            "start": 16.13,
+            "end": 16.49,
+            "word": " travel.",
+            "probability": 0.99879
+          }
+        ]
+      },
+      {
+        "start": 17.36,
+        "end": 30.46,
+        "text": "Does that work for you? Hi, Rose. It's Ahmed. What time should we meet for dinner tonight?",
+        "words": [
+          {
+            "start": 17.36,
+            "end": 17.68,
+            "word": " Does",
+            "probability": 0.98369
+          },
+          {
+            "start": 17.68,
+            "end": 17.8,
+            "word": " that",
+            "probability": 0.99921
+          },
+          {
+            "start": 17.8,
+            "end": 17.96,
+            "word": " work",
+            "probability": 0.99877
+          },
+          {
+            "start": 17.96,
+            "end": 18.16,
+            "word": " for",
+            "probability": 0.9994
+          },
+          {
+            "start": 18.16,
+            "end": 18.3,
+            "word": " you?",
+            "probability": 0.99942
+          },
+          {
+            "start": 26.35,
+            "end": 26.53,
+            "word": " Hi,",
+            "probability": 0.94556
+          },
+          {
+            "start": 26.61,
+            "end": 26.85,
+            "word": " Rose.",
+            "probability": 0.99505
+          },
+          {
+            "start": 28.28,
+            "end": 28.46,
+            "word": " It's",
+            "probability": 0.98785
+          },
+          {
+            "start": 28.46,
+            "end": 28.72,
+            "word": " Ahmed.",
+            "probability": 0.99644
+          },
+          {
+            "start": 28.96,
+            "end": 29.0,
+            "word": " What",
+            "probability": 0.985
+          },
+          {
+            "start": 29.0,
+            "end": 29.24,
+            "word": " time",
+            "probability": 0.99948
+          },
+          {
+            "start": 29.24,
+            "end": 29.42,
+            "word": " should",
+            "probability": 0.99899
+          },
+          {
+            "start": 29.42,
+            "end": 29.54,
+            "word": " we",
+            "probability": 0.99847
+          },
+          {
+            "start": 29.54,
+            "end": 29.72,
+            "word": " meet",
+            "probability": 0.99848
+          },
+          {
+            "start": 29.72,
+            "end": 29.88,
+            "word": " for",
+            "probability": 0.9996
+          },
+          {
+            "start": 29.88,
+            "end": 30.1,
+            "word": " dinner",
+            "probability": 0.99984
+          },
+          {
+            "start": 30.1,
+            "end": 30.46,
+            "word": " tonight?",
+            "probability": 0.99888
+          }
+        ]
+      },
+      {
+        "start": 31.22,
+        "end": 37.36,
+        "text": "How about we meet at quarter past seven? Oh wait, I just remembered. I have a meeting ending at a half past seven.",
+        "words": [
+          {
+            "start": 31.22,
+            "end": 31.36,
+            "word": " How",
+            "probability": 0.97185
+          },
+          {
+            "start": 31.36,
+            "end": 31.5,
+            "word": " about",
+            "probability": 0.99097
+          },
+          {
+            "start": 31.5,
+            "end": 31.64,
+            "word": " we",
+            "probability": 0.99365
+          },
+          {
+            "start": 31.64,
+            "end": 31.84,
+            "word": " meet",
+            "probability": 0.99704
+          },
+          {
+            "start": 31.84,
+            "end": 31.94,
+            "word": " at",
+            "probability": 0.99635
+          },
+          {
+            "start": 31.94,
+            "end": 32.14,
+            "word": " quarter",
+            "probability": 0.98357
+          },
+          {
+            "start": 32.14,
+            "end": 32.44,
+            "word": " past",
+            "probability": 0.99695
+          },
+          {
+            "start": 32.44,
+            "end": 32.82,
+            "word": " seven?",
+            "probability": 0.99577
+          },
+          {
+            "start": 33.62,
+            "end": 33.86,
+            "word": " Oh",
+            "probability": 0.98801
+          },
+          {
+            "start": 33.86,
+            "end": 34.08,
+            "word": " wait,",
+            "probability": 0.20434
+          },
+          {
+            "start": 34.28,
+            "end": 34.36,
+            "word": " I",
+            "probability": 0.99979
+          },
+          {
+            "start": 34.36,
+            "end": 34.48,
+            "word": " just",
+            "probability": 0.99857
+          },
+          {
+            "start": 34.48,
+            "end": 34.94,
+            "word": " remembered.",
+            "probability": 0.99663
+          },
+          {
+            "start": 35.34,
+            "end": 35.4,
+            "word": " I",
+            "probability": 0.9988
+          },
+          {
+            "start": 35.4,
+            "end": 35.52,
+            "word": " have",
+            "probability": 0.99899
+          },
+          {
+            "start": 35.52,
+            "end": 35.62,
+            "word": " a",
+            "probability": 0.99918
+          },
+          {
+            "start": 35.62,
+            "end": 35.8,
+            "word": " meeting",
+            "probability": 0.99951
+          },
+          {
+            "start": 35.8,
+            "end": 36.24,
+            "word": " ending",
+            "probability": 0.99398
+          },
+          {
+            "start": 36.24,
+            "end": 36.4,
+            "word": " at",
+            "probability": 0.99715
+          },
+          {
+            "start": 36.4,
+            "end": 36.48,
+            "word": " a",
+            "probability": 0.99376
+          },
+          {
+            "start": 36.48,
+            "end": 36.68,
+            "word": " half",
+            "probability": 0.99824
+          },
+          {
+            "start": 36.68,
+            "end": 36.92,
+            "word": " past",
+            "probability": 0.99305
+          },
+          {
+            "start": 36.92,
+            "end": 37.36,
+            "word": " seven.",
+            "probability": 0.99309
+          }
+        ]
+      },
+      {
+        "start": 38.23,
+        "end": 39.71,
+        "text": "Let's make it quarter to eight instead.",
+        "words": [
+          {
+            "start": 38.23,
+            "end": 38.59,
+            "word": " Let's",
+            "probability": 0.69431
+          },
+          {
+            "start": 38.59,
+            "end": 38.69,
+            "word": " make",
+            "probability": 0.99082
+          },
+          {
+            "start": 38.69,
+            "end": 38.83,
+            "word": " it",
+            "probability": 0.97098
+          },
+          {
+            "start": 38.83,
+            "end": 39.03,
+            "word": " quarter",
+            "probability": 0.61065
+          },
+          {
+            "start": 39.03,
+            "end": 39.23,
+            "word": " to",
+            "probability": 0.98506
+          },
+          {
+            "start": 39.23,
+            "end": 39.39,
+            "word": " eight",
+            "probability": 0.71983
+          },
+          {
+            "start": 39.39,
+            "end": 39.71,
+            "word": " instead.",
+            "probability": 0.84025
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q03",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 55,
+            "speechStart": 0.69,
+            "speechEnd": 18.3,
+            "sourceTokenCoverage": 0.9818,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9818,
+            "transcript": "hi rose it's ahmed what time should we meet for dinner tonight how about we meet at quarter past 7 oh wait i just remembered i have a meeting ending at a half past 7 let's make it quarter to 8 instead so we could have 15 minutes to travel does that work for you",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

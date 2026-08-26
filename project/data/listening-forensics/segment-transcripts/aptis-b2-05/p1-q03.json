@@ -1,0 +1,731 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p1-q03",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-1/q03.mp3",
+  "audioSha256": "bf804e3301bfd87f53fd4af4e2da3e2a0d56897eba6aa9c3e7e52cd8abaec3df",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 5.82,
+        "text": "Hello, Mr. Johnson. Thank you for coming in today. I wanted to talk about your son, Jake.",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.4,
+            "word": " Hello,",
+            "probability": 0.32409
+          },
+          {
+            "start": 1.62,
+            "end": 1.68,
+            "word": " Mr.",
+            "probability": 0.9499
+          },
+          {
+            "start": 1.84,
+            "end": 2.06,
+            "word": " Johnson.",
+            "probability": 0.99529
+          },
+          {
+            "start": 2.6,
+            "end": 2.76,
+            "word": " Thank",
+            "probability": 0.98126
+          },
+          {
+            "start": 2.76,
+            "end": 2.88,
+            "word": " you",
+            "probability": 0.99459
+          },
+          {
+            "start": 2.88,
+            "end": 3.02,
+            "word": " for",
+            "probability": 0.99523
+          },
+          {
+            "start": 3.02,
+            "end": 3.2,
+            "word": " coming",
+            "probability": 0.99805
+          },
+          {
+            "start": 3.2,
+            "end": 3.38,
+            "word": " in",
+            "probability": 0.97584
+          },
+          {
+            "start": 3.38,
+            "end": 3.64,
+            "word": " today.",
+            "probability": 0.99875
+          },
+          {
+            "start": 3.88,
+            "end": 3.94,
+            "word": " I",
+            "probability": 0.99127
+          },
+          {
+            "start": 3.94,
+            "end": 4.16,
+            "word": " wanted",
+            "probability": 0.97754
+          },
+          {
+            "start": 4.16,
+            "end": 4.3,
+            "word": " to",
+            "probability": 0.99866
+          },
+          {
+            "start": 4.3,
+            "end": 4.52,
+            "word": " talk",
+            "probability": 0.99791
+          },
+          {
+            "start": 4.52,
+            "end": 4.74,
+            "word": " about",
+            "probability": 0.99557
+          },
+          {
+            "start": 4.74,
+            "end": 4.9,
+            "word": " your",
+            "probability": 0.98752
+          },
+          {
+            "start": 4.9,
+            "end": 5.24,
+            "word": " son,",
+            "probability": 0.98648
+          },
+          {
+            "start": 5.7,
+            "end": 5.82,
+            "word": " Jake.",
+            "probability": 0.98747
+          }
+        ]
+      },
+      {
+        "start": 6.36,
+        "end": 9.68,
+        "text": "Hi, Mrs. Lee. Yes, I've noticed he's been struggling a bit lately.",
+        "words": [
+          {
+            "start": 6.36,
+            "end": 6.5,
+            "word": " Hi,",
+            "probability": 0.75857
+          },
+          {
+            "start": 6.58,
+            "end": 6.72,
+            "word": " Mrs.",
+            "probability": 0.97844
+          },
+          {
+            "start": 6.94,
+            "end": 6.98,
+            "word": " Lee.",
+            "probability": 0.90045
+          },
+          {
+            "start": 7.48,
+            "end": 7.64,
+            "word": " Yes,",
+            "probability": 0.99239
+          },
+          {
+            "start": 7.78,
+            "end": 7.94,
+            "word": " I've",
+            "probability": 0.97662
+          },
+          {
+            "start": 7.94,
+            "end": 8.12,
+            "word": " noticed",
+            "probability": 0.99473
+          },
+          {
+            "start": 8.12,
+            "end": 8.4,
+            "word": " he's",
+            "probability": 0.97772
+          },
+          {
+            "start": 8.4,
+            "end": 8.52,
+            "word": " been",
+            "probability": 0.99025
+          },
+          {
+            "start": 8.52,
+            "end": 8.94,
+            "word": " struggling",
+            "probability": 0.999
+          },
+          {
+            "start": 8.94,
+            "end": 9.14,
+            "word": " a",
+            "probability": 0.99852
+          },
+          {
+            "start": 9.14,
+            "end": 9.3,
+            "word": " bit",
+            "probability": 0.9963
+          },
+          {
+            "start": 9.3,
+            "end": 9.68,
+            "word": " lately.",
+            "probability": 0.99952
+          }
+        ]
+      },
+      {
+        "start": 10.1,
+        "end": 16.64,
+        "text": "Yes, his performance is not so good in math and reading. He seems to have some difficulties understanding the lessons.",
+        "words": [
+          {
+            "start": 10.1,
+            "end": 10.28,
+            "word": " Yes,",
+            "probability": 0.99506
+          },
+          {
+            "start": 10.8,
+            "end": 10.92,
+            "word": " his",
+            "probability": 0.98538
+          },
+          {
+            "start": 10.92,
+            "end": 11.38,
+            "word": " performance",
+            "probability": 0.9963
+          },
+          {
+            "start": 11.38,
+            "end": 11.64,
+            "word": " is",
+            "probability": 0.99527
+          },
+          {
+            "start": 11.64,
+            "end": 11.9,
+            "word": " not",
+            "probability": 0.99873
+          },
+          {
+            "start": 11.9,
+            "end": 12.2,
+            "word": " so",
+            "probability": 0.99097
+          },
+          {
+            "start": 12.2,
+            "end": 12.54,
+            "word": " good",
+            "probability": 0.99863
+          },
+          {
+            "start": 12.54,
+            "end": 12.76,
+            "word": " in",
+            "probability": 0.9941
+          },
+          {
+            "start": 12.76,
+            "end": 13.0,
+            "word": " math",
+            "probability": 0.99658
+          },
+          {
+            "start": 13.0,
+            "end": 13.26,
+            "word": " and",
+            "probability": 0.99694
+          },
+          {
+            "start": 13.26,
+            "end": 13.58,
+            "word": " reading.",
+            "probability": 0.99882
+          },
+          {
+            "start": 14.04,
+            "end": 14.14,
+            "word": " He",
+            "probability": 0.9928
+          },
+          {
+            "start": 14.14,
+            "end": 14.36,
+            "word": " seems",
+            "probability": 0.99674
+          },
+          {
+            "start": 14.36,
+            "end": 14.54,
+            "word": " to",
+            "probability": 0.9993
+          },
+          {
+            "start": 14.54,
+            "end": 14.66,
+            "word": " have",
+            "probability": 0.99865
+          },
+          {
+            "start": 14.66,
+            "end": 14.82,
+            "word": " some",
+            "probability": 0.99825
+          },
+          {
+            "start": 14.82,
+            "end": 15.44,
+            "word": " difficulties",
+            "probability": 0.99559
+          },
+          {
+            "start": 15.44,
+            "end": 16.08,
+            "word": " understanding",
+            "probability": 0.9849
+          },
+          {
+            "start": 16.08,
+            "end": 16.34,
+            "word": " the",
+            "probability": 0.99905
+          },
+          {
+            "start": 16.34,
+            "end": 16.64,
+            "word": " lessons.",
+            "probability": 0.99559
+          }
+        ]
+      },
+      {
+        "start": 17.08,
+        "end": 19.48,
+        "text": "I'm worried about that. What can we do to help him?",
+        "words": [
+          {
+            "start": 17.08,
+            "end": 17.26,
+            "word": " I'm",
+            "probability": 0.992
+          },
+          {
+            "start": 17.26,
+            "end": 17.46,
+            "word": " worried",
+            "probability": 0.99684
+          },
+          {
+            "start": 17.46,
+            "end": 17.66,
+            "word": " about",
+            "probability": 0.9994
+          },
+          {
+            "start": 17.66,
+            "end": 17.92,
+            "word": " that.",
+            "probability": 0.99893
+          },
+          {
+            "start": 18.42,
+            "end": 18.58,
+            "word": " What",
+            "probability": 0.9952
+          },
+          {
+            "start": 18.58,
+            "end": 18.72,
+            "word": " can",
+            "probability": 0.99866
+          },
+          {
+            "start": 18.72,
+            "end": 18.84,
+            "word": " we",
+            "probability": 0.9969
+          },
+          {
+            "start": 18.84,
+            "end": 18.98,
+            "word": " do",
+            "probability": 0.99909
+          },
+          {
+            "start": 18.98,
+            "end": 19.08,
+            "word": " to",
+            "probability": 0.99901
+          },
+          {
+            "start": 19.08,
+            "end": 19.22,
+            "word": " help",
+            "probability": 0.99965
+          },
+          {
+            "start": 19.22,
+            "end": 19.48,
+            "word": " him?",
+            "probability": 0.99857
+          }
+        ]
+      },
+      {
+        "start": 20.1,
+        "end": 25.38,
+        "text": "I know a private tutor who works well with children. She can provide extra help and support.",
+        "words": [
+          {
+            "start": 20.1,
+            "end": 20.24,
+            "word": " I",
+            "probability": 0.9955
+          },
+          {
+            "start": 20.24,
+            "end": 20.38,
+            "word": " know",
+            "probability": 0.99922
+          },
+          {
+            "start": 20.38,
+            "end": 20.5,
+            "word": " a",
+            "probability": 0.99579
+          },
+          {
+            "start": 20.5,
+            "end": 20.86,
+            "word": " private",
+            "probability": 0.99288
+          },
+          {
+            "start": 20.86,
+            "end": 21.18,
+            "word": " tutor",
+            "probability": 0.99104
+          },
+          {
+            "start": 21.18,
+            "end": 21.6,
+            "word": " who",
+            "probability": 0.95623
+          },
+          {
+            "start": 21.6,
+            "end": 21.82,
+            "word": " works",
+            "probability": 0.99915
+          },
+          {
+            "start": 21.82,
+            "end": 22.1,
+            "word": " well",
+            "probability": 0.99933
+          },
+          {
+            "start": 22.1,
+            "end": 22.32,
+            "word": " with",
+            "probability": 0.99924
+          },
+          {
+            "start": 22.32,
+            "end": 22.68,
+            "word": " children.",
+            "probability": 0.99526
+          },
+          {
+            "start": 23.18,
+            "end": 23.4,
+            "word": " She",
+            "probability": 0.99557
+          },
+          {
+            "start": 23.4,
+            "end": 23.52,
+            "word": " can",
+            "probability": 0.99789
+          },
+          {
+            "start": 23.52,
+            "end": 23.8,
+            "word": " provide",
+            "probability": 0.9994
+          },
+          {
+            "start": 23.8,
+            "end": 24.24,
+            "word": " extra",
+            "probability": 0.99925
+          },
+          {
+            "start": 24.24,
+            "end": 24.56,
+            "word": " help",
+            "probability": 0.99755
+          },
+          {
+            "start": 24.56,
+            "end": 24.94,
+            "word": " and",
+            "probability": 0.98956
+          },
+          {
+            "start": 24.94,
+            "end": 25.38,
+            "word": " support.",
+            "probability": 0.9997
+          }
+        ]
+      },
+      {
+        "start": 25.78,
+        "end": 28.58,
+        "text": "That sounds like a good idea. Can you give me her contact information?",
+        "words": [
+          {
+            "start": 25.78,
+            "end": 26.0,
+            "word": " That",
+            "probability": 0.99287
+          },
+          {
+            "start": 26.0,
+            "end": 26.24,
+            "word": " sounds",
+            "probability": 0.99577
+          },
+          {
+            "start": 26.24,
+            "end": 26.4,
+            "word": " like",
+            "probability": 0.99591
+          },
+          {
+            "start": 26.4,
+            "end": 26.5,
+            "word": " a",
+            "probability": 0.99712
+          },
+          {
+            "start": 26.5,
+            "end": 26.64,
+            "word": " good",
+            "probability": 0.99843
+          },
+          {
+            "start": 26.64,
+            "end": 26.94,
+            "word": " idea.",
+            "probability": 0.99982
+          },
+          {
+            "start": 27.1,
+            "end": 27.2,
+            "word": " Can",
+            "probability": 0.99569
+          },
+          {
+            "start": 27.2,
+            "end": 27.3,
+            "word": " you",
+            "probability": 0.98995
+          },
+          {
+            "start": 27.3,
+            "end": 27.42,
+            "word": " give",
+            "probability": 0.99817
+          },
+          {
+            "start": 27.42,
+            "end": 27.56,
+            "word": " me",
+            "probability": 0.99887
+          },
+          {
+            "start": 27.56,
+            "end": 27.7,
+            "word": " her",
+            "probability": 0.9857
+          },
+          {
+            "start": 27.7,
+            "end": 28.04,
+            "word": " contact",
+            "probability": 0.99441
+          },
+          {
+            "start": 28.04,
+            "end": 28.58,
+            "word": " information?",
+            "probability": 0.99928
+          }
+        ]
+      },
+      {
+        "start": 28.58,
+        "end": 33.9,
+        "text": "Of course, I will write it down for you. I think Jake will really benefit from it.",
+        "words": [
+          {
+            "start": 28.58,
+            "end": 29.38,
+            "word": " Of",
+            "probability": 0.78415
+          },
+          {
+            "start": 29.38,
+            "end": 29.68,
+            "word": " course,",
+            "probability": 0.98686
+          },
+          {
+            "start": 30.02,
+            "end": 30.7,
+            "word": " I",
+            "probability": 0.98908
+          },
+          {
+            "start": 30.7,
+            "end": 30.82,
+            "word": " will",
+            "probability": 0.98417
+          },
+          {
+            "start": 30.82,
+            "end": 30.98,
+            "word": " write",
+            "probability": 0.99745
+          },
+          {
+            "start": 30.98,
+            "end": 31.1,
+            "word": " it",
+            "probability": 0.99739
+          },
+          {
+            "start": 31.1,
+            "end": 31.28,
+            "word": " down",
+            "probability": 0.99709
+          },
+          {
+            "start": 31.28,
+            "end": 31.52,
+            "word": " for",
+            "probability": 0.99079
+          },
+          {
+            "start": 31.52,
+            "end": 31.7,
+            "word": " you.",
+            "probability": 0.99659
+          },
+          {
+            "start": 31.9,
+            "end": 32.0,
+            "word": " I",
+            "probability": 0.96567
+          },
+          {
+            "start": 32.0,
+            "end": 32.18,
+            "word": " think",
+            "probability": 0.99855
+          },
+          {
+            "start": 32.18,
+            "end": 32.4,
+            "word": " Jake",
+            "probability": 0.98545
+          },
+          {
+            "start": 32.4,
+            "end": 32.64,
+            "word": " will",
+            "probability": 0.99503
+          },
+          {
+            "start": 32.64,
+            "end": 33.06,
+            "word": " really",
+            "probability": 0.98468
+          },
+          {
+            "start": 33.06,
+            "end": 33.44,
+            "word": " benefit",
+            "probability": 0.99725
+          },
+          {
+            "start": 33.44,
+            "end": 33.74,
+            "word": " from",
+            "probability": 0.99321
+          },
+          {
+            "start": 33.74,
+            "end": 33.9,
+            "word": " it.",
+            "probability": 0.99757
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q03",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 107,
+            "speechStart": 0.88,
+            "speechEnd": 33.9,
+            "sourceTokenCoverage": 0.9469,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9727,
+            "transcript": "hello mr johnson thank you for coming in today i wanted to talk about your son jake hi mrs lee yes i've noticed he's been struggling a bit lately yes his performance is not so good in math and reading he seems to have some difficulties understanding the lessons i'm worried about that what can we do to help him i know a private tutor who works well with children she can provide extra help and support that sounds like a good idea can you give me her contact information of course i will write it down for you i think jake will really benefit from it",
+            "openingMatch": 0.9556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

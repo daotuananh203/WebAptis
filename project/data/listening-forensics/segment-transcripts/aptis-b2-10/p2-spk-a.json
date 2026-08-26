@@ -1,0 +1,1778 @@
+{
+  "testId": "aptis-b2-10",
+  "blockId": "p2-spk-a",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-10/part-2/spk-a.mp3",
+  "audioSha256": "25b67f8b8603746986016ff52f5d71437daf2e9ca077b17a8ebf2edbefa683b1",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.72,
+        "end": 4.46,
+        "text": "The city gives me new things to see every time I run.",
+        "words": [
+          {
+            "start": 0.72,
+            "end": 1.2,
+            "word": " The",
+            "probability": 0.9244
+          },
+          {
+            "start": 1.2,
+            "end": 1.48,
+            "word": " city",
+            "probability": 0.9198
+          },
+          {
+            "start": 1.48,
+            "end": 1.78,
+            "word": " gives",
+            "probability": 0.99664
+          },
+          {
+            "start": 1.78,
+            "end": 2.02,
+            "word": " me",
+            "probability": 0.99918
+          },
+          {
+            "start": 2.02,
+            "end": 2.26,
+            "word": " new",
+            "probability": 0.99761
+          },
+          {
+            "start": 2.26,
+            "end": 2.58,
+            "word": " things",
+            "probability": 0.99905
+          },
+          {
+            "start": 2.58,
+            "end": 2.86,
+            "word": " to",
+            "probability": 0.99866
+          },
+          {
+            "start": 2.86,
+            "end": 3.14,
+            "word": " see",
+            "probability": 0.99648
+          },
+          {
+            "start": 3.14,
+            "end": 3.64,
+            "word": " every",
+            "probability": 0.93346
+          },
+          {
+            "start": 3.64,
+            "end": 3.94,
+            "word": " time",
+            "probability": 0.99731
+          },
+          {
+            "start": 3.94,
+            "end": 4.2,
+            "word": " I",
+            "probability": 0.99173
+          },
+          {
+            "start": 4.2,
+            "end": 4.46,
+            "word": " run.",
+            "probability": 0.99775
+          }
+        ]
+      },
+      {
+        "start": 5.16,
+        "end": 8.52,
+        "text": "I like the busy streets and different buildings around me.",
+        "words": [
+          {
+            "start": 5.16,
+            "end": 5.34,
+            "word": " I",
+            "probability": 0.99773
+          },
+          {
+            "start": 5.34,
+            "end": 5.54,
+            "word": " like",
+            "probability": 0.99036
+          },
+          {
+            "start": 5.54,
+            "end": 5.76,
+            "word": " the",
+            "probability": 0.99342
+          },
+          {
+            "start": 5.76,
+            "end": 6.02,
+            "word": " busy",
+            "probability": 0.99105
+          },
+          {
+            "start": 6.02,
+            "end": 6.54,
+            "word": " streets",
+            "probability": 0.99679
+          },
+          {
+            "start": 6.54,
+            "end": 6.82,
+            "word": " and",
+            "probability": 0.95286
+          },
+          {
+            "start": 6.82,
+            "end": 7.16,
+            "word": " different",
+            "probability": 0.99885
+          },
+          {
+            "start": 7.16,
+            "end": 7.7,
+            "word": " buildings",
+            "probability": 0.99578
+          },
+          {
+            "start": 7.7,
+            "end": 8.14,
+            "word": " around",
+            "probability": 0.99793
+          },
+          {
+            "start": 8.14,
+            "end": 8.52,
+            "word": " me.",
+            "probability": 0.99774
+          }
+        ]
+      },
+      {
+        "start": 9.47,
+        "end": 13.69,
+        "text": "Stopping at traffic lights and watching out for people helps me stay alert.",
+        "words": [
+          {
+            "start": 9.47,
+            "end": 9.97,
+            "word": " Stopping",
+            "probability": 0.97763
+          },
+          {
+            "start": 9.97,
+            "end": 10.13,
+            "word": " at",
+            "probability": 0.97247
+          },
+          {
+            "start": 10.13,
+            "end": 10.55,
+            "word": " traffic",
+            "probability": 0.99788
+          },
+          {
+            "start": 10.55,
+            "end": 10.87,
+            "word": " lights",
+            "probability": 0.99074
+          },
+          {
+            "start": 10.87,
+            "end": 11.13,
+            "word": " and",
+            "probability": 0.99369
+          },
+          {
+            "start": 11.13,
+            "end": 11.51,
+            "word": " watching",
+            "probability": 0.99459
+          },
+          {
+            "start": 11.51,
+            "end": 11.79,
+            "word": " out",
+            "probability": 0.99667
+          },
+          {
+            "start": 11.79,
+            "end": 12.03,
+            "word": " for",
+            "probability": 0.99668
+          },
+          {
+            "start": 12.03,
+            "end": 12.41,
+            "word": " people",
+            "probability": 0.99912
+          },
+          {
+            "start": 12.41,
+            "end": 12.73,
+            "word": " helps",
+            "probability": 0.99503
+          },
+          {
+            "start": 12.73,
+            "end": 13.05,
+            "word": " me",
+            "probability": 0.99726
+          },
+          {
+            "start": 13.05,
+            "end": 13.35,
+            "word": " stay",
+            "probability": 0.99819
+          },
+          {
+            "start": 13.35,
+            "end": 13.69,
+            "word": " alert.",
+            "probability": 0.99957
+          }
+        ]
+      },
+      {
+        "start": 14.69,
+        "end": 16.97,
+        "text": "Running in the street is what I love most.",
+        "words": [
+          {
+            "start": 14.69,
+            "end": 14.93,
+            "word": " Running",
+            "probability": 0.97237
+          },
+          {
+            "start": 14.93,
+            "end": 15.11,
+            "word": " in",
+            "probability": 0.9966
+          },
+          {
+            "start": 15.11,
+            "end": 15.25,
+            "word": " the",
+            "probability": 0.98779
+          },
+          {
+            "start": 15.25,
+            "end": 15.59,
+            "word": " street",
+            "probability": 0.99147
+          },
+          {
+            "start": 15.59,
+            "end": 15.95,
+            "word": " is",
+            "probability": 0.99468
+          },
+          {
+            "start": 15.95,
+            "end": 16.17,
+            "word": " what",
+            "probability": 0.99866
+          },
+          {
+            "start": 16.17,
+            "end": 16.31,
+            "word": " I",
+            "probability": 0.99829
+          },
+          {
+            "start": 16.31,
+            "end": 16.57,
+            "word": " love",
+            "probability": 0.99368
+          },
+          {
+            "start": 16.57,
+            "end": 16.97,
+            "word": " most.",
+            "probability": 0.98664
+          }
+        ]
+      },
+      {
+        "start": 18.36,
+        "end": 21.7,
+        "text": "I also get to find new places in my city this way.",
+        "words": [
+          {
+            "start": 18.36,
+            "end": 18.6,
+            "word": " I",
+            "probability": 0.99871
+          },
+          {
+            "start": 18.6,
+            "end": 18.9,
+            "word": " also",
+            "probability": 0.99812
+          },
+          {
+            "start": 18.9,
+            "end": 19.1,
+            "word": " get",
+            "probability": 0.9983
+          },
+          {
+            "start": 19.1,
+            "end": 19.28,
+            "word": " to",
+            "probability": 0.99983
+          },
+          {
+            "start": 19.28,
+            "end": 19.52,
+            "word": " find",
+            "probability": 0.99454
+          },
+          {
+            "start": 19.52,
+            "end": 19.8,
+            "word": " new",
+            "probability": 0.99878
+          },
+          {
+            "start": 19.8,
+            "end": 20.26,
+            "word": " places",
+            "probability": 0.99914
+          },
+          {
+            "start": 20.26,
+            "end": 20.6,
+            "word": " in",
+            "probability": 0.9975
+          },
+          {
+            "start": 20.6,
+            "end": 20.78,
+            "word": " my",
+            "probability": 0.99916
+          },
+          {
+            "start": 20.78,
+            "end": 21.14,
+            "word": " city",
+            "probability": 0.99462
+          },
+          {
+            "start": 21.14,
+            "end": 21.48,
+            "word": " this",
+            "probability": 0.99559
+          },
+          {
+            "start": 21.48,
+            "end": 21.7,
+            "word": " way.",
+            "probability": 0.99677
+          }
+        ]
+      },
+      {
+        "start": 22.64,
+        "end": 25.14,
+        "text": "The hard ground makes my legs stronger.",
+        "words": [
+          {
+            "start": 22.64,
+            "end": 22.92,
+            "word": " The",
+            "probability": 0.99652
+          },
+          {
+            "start": 22.92,
+            "end": 23.22,
+            "word": " hard",
+            "probability": 0.95458
+          },
+          {
+            "start": 23.22,
+            "end": 23.64,
+            "word": " ground",
+            "probability": 0.97958
+          },
+          {
+            "start": 23.64,
+            "end": 23.9,
+            "word": " makes",
+            "probability": 0.99665
+          },
+          {
+            "start": 23.9,
+            "end": 24.22,
+            "word": " my",
+            "probability": 0.99915
+          },
+          {
+            "start": 24.22,
+            "end": 24.52,
+            "word": " legs",
+            "probability": 0.99067
+          },
+          {
+            "start": 24.52,
+            "end": 25.14,
+            "word": " stronger.",
+            "probability": 0.99494
+          }
+        ]
+      },
+      {
+        "start": 26.03,
+        "end": 30.81,
+        "text": "It can be a bit dangerous with cars, but that's what makes it exciting for me.",
+        "words": [
+          {
+            "start": 26.03,
+            "end": 26.25,
+            "word": " It",
+            "probability": 0.99677
+          },
+          {
+            "start": 26.25,
+            "end": 26.43,
+            "word": " can",
+            "probability": 0.99775
+          },
+          {
+            "start": 26.43,
+            "end": 26.61,
+            "word": " be",
+            "probability": 0.99846
+          },
+          {
+            "start": 26.61,
+            "end": 26.73,
+            "word": " a",
+            "probability": 0.99704
+          },
+          {
+            "start": 26.73,
+            "end": 26.91,
+            "word": " bit",
+            "probability": 0.99976
+          },
+          {
+            "start": 26.91,
+            "end": 27.39,
+            "word": " dangerous",
+            "probability": 0.99844
+          },
+          {
+            "start": 27.39,
+            "end": 27.75,
+            "word": " with",
+            "probability": 0.9888
+          },
+          {
+            "start": 27.75,
+            "end": 28.11,
+            "word": " cars,",
+            "probability": 0.9974
+          },
+          {
+            "start": 28.67,
+            "end": 28.85,
+            "word": " but",
+            "probability": 0.9971
+          },
+          {
+            "start": 28.85,
+            "end": 29.27,
+            "word": " that's",
+            "probability": 0.98975
+          },
+          {
+            "start": 29.27,
+            "end": 29.39,
+            "word": " what",
+            "probability": 0.99821
+          },
+          {
+            "start": 29.39,
+            "end": 29.59,
+            "word": " makes",
+            "probability": 0.99793
+          },
+          {
+            "start": 29.59,
+            "end": 29.85,
+            "word": " it",
+            "probability": 0.99901
+          },
+          {
+            "start": 29.85,
+            "end": 30.27,
+            "word": " exciting",
+            "probability": 0.99897
+          },
+          {
+            "start": 30.27,
+            "end": 30.59,
+            "word": " for",
+            "probability": 0.99591
+          },
+          {
+            "start": 30.59,
+            "end": 30.81,
+            "word": " me.",
+            "probability": 0.99978
+          }
+        ]
+      },
+      {
+        "start": 30.81,
+        "end": 38.71,
+        "text": "The city gives me new things to see every time I run.",
+        "words": [
+          {
+            "start": 30.81,
+            "end": 31.75,
+            "word": " The",
+            "probability": 0.56604
+          },
+          {
+            "start": 35.43,
+            "end": 35.71,
+            "word": " city",
+            "probability": 0.90896
+          },
+          {
+            "start": 35.71,
+            "end": 36.01,
+            "word": " gives",
+            "probability": 0.99207
+          },
+          {
+            "start": 36.01,
+            "end": 36.27,
+            "word": " me",
+            "probability": 0.99864
+          },
+          {
+            "start": 36.27,
+            "end": 36.51,
+            "word": " new",
+            "probability": 0.99698
+          },
+          {
+            "start": 36.51,
+            "end": 36.85,
+            "word": " things",
+            "probability": 0.99802
+          },
+          {
+            "start": 36.85,
+            "end": 37.11,
+            "word": " to",
+            "probability": 0.99596
+          },
+          {
+            "start": 37.11,
+            "end": 37.37,
+            "word": " see",
+            "probability": 0.99455
+          },
+          {
+            "start": 37.37,
+            "end": 37.89,
+            "word": " every",
+            "probability": 0.90712
+          },
+          {
+            "start": 37.89,
+            "end": 38.19,
+            "word": " time",
+            "probability": 0.99566
+          },
+          {
+            "start": 38.19,
+            "end": 38.43,
+            "word": " I",
+            "probability": 0.99202
+          },
+          {
+            "start": 38.43,
+            "end": 38.71,
+            "word": " run.",
+            "probability": 0.99751
+          }
+        ]
+      },
+      {
+        "start": 39.47,
+        "end": 42.75,
+        "text": "I like the busy streets and different buildings around me.",
+        "words": [
+          {
+            "start": 39.47,
+            "end": 39.59,
+            "word": " I",
+            "probability": 0.99519
+          },
+          {
+            "start": 39.59,
+            "end": 39.79,
+            "word": " like",
+            "probability": 0.99413
+          },
+          {
+            "start": 39.79,
+            "end": 39.99,
+            "word": " the",
+            "probability": 0.991
+          },
+          {
+            "start": 39.99,
+            "end": 40.25,
+            "word": " busy",
+            "probability": 0.99109
+          },
+          {
+            "start": 40.25,
+            "end": 40.85,
+            "word": " streets",
+            "probability": 0.99505
+          },
+          {
+            "start": 40.85,
+            "end": 41.05,
+            "word": " and",
+            "probability": 0.95864
+          },
+          {
+            "start": 41.05,
+            "end": 41.39,
+            "word": " different",
+            "probability": 0.99741
+          },
+          {
+            "start": 41.39,
+            "end": 41.95,
+            "word": " buildings",
+            "probability": 0.99444
+          },
+          {
+            "start": 41.95,
+            "end": 42.39,
+            "word": " around",
+            "probability": 0.99719
+          },
+          {
+            "start": 42.39,
+            "end": 42.75,
+            "word": " me.",
+            "probability": 0.99789
+          }
+        ]
+      },
+      {
+        "start": 43.73,
+        "end": 47.95,
+        "text": "Stopping at traffic lights and watching out for people helps me stay alert.",
+        "words": [
+          {
+            "start": 43.73,
+            "end": 44.21,
+            "word": " Stopping",
+            "probability": 0.97391
+          },
+          {
+            "start": 44.21,
+            "end": 44.37,
+            "word": " at",
+            "probability": 0.9696
+          },
+          {
+            "start": 44.37,
+            "end": 44.79,
+            "word": " traffic",
+            "probability": 0.99774
+          },
+          {
+            "start": 44.79,
+            "end": 45.13,
+            "word": " lights",
+            "probability": 0.9919
+          },
+          {
+            "start": 45.13,
+            "end": 45.37,
+            "word": " and",
+            "probability": 0.99011
+          },
+          {
+            "start": 45.37,
+            "end": 45.75,
+            "word": " watching",
+            "probability": 0.99339
+          },
+          {
+            "start": 45.75,
+            "end": 46.03,
+            "word": " out",
+            "probability": 0.99756
+          },
+          {
+            "start": 46.03,
+            "end": 46.27,
+            "word": " for",
+            "probability": 0.99581
+          },
+          {
+            "start": 46.27,
+            "end": 46.65,
+            "word": " people",
+            "probability": 0.99886
+          },
+          {
+            "start": 46.65,
+            "end": 46.99,
+            "word": " helps",
+            "probability": 0.99455
+          },
+          {
+            "start": 46.99,
+            "end": 47.29,
+            "word": " me",
+            "probability": 0.99783
+          },
+          {
+            "start": 47.29,
+            "end": 47.59,
+            "word": " stay",
+            "probability": 0.998
+          },
+          {
+            "start": 47.59,
+            "end": 47.95,
+            "word": " alert.",
+            "probability": 0.9994
+          }
+        ]
+      },
+      {
+        "start": 48.93,
+        "end": 51.21,
+        "text": "Running in the street is what I love most.",
+        "words": [
+          {
+            "start": 48.93,
+            "end": 49.17,
+            "word": " Running",
+            "probability": 0.97176
+          },
+          {
+            "start": 49.17,
+            "end": 49.35,
+            "word": " in",
+            "probability": 0.99658
+          },
+          {
+            "start": 49.35,
+            "end": 49.49,
+            "word": " the",
+            "probability": 0.98282
+          },
+          {
+            "start": 49.49,
+            "end": 49.83,
+            "word": " street",
+            "probability": 0.99056
+          },
+          {
+            "start": 49.83,
+            "end": 50.19,
+            "word": " is",
+            "probability": 0.99487
+          },
+          {
+            "start": 50.19,
+            "end": 50.41,
+            "word": " what",
+            "probability": 0.9984
+          },
+          {
+            "start": 50.41,
+            "end": 50.55,
+            "word": " I",
+            "probability": 0.99814
+          },
+          {
+            "start": 50.55,
+            "end": 50.81,
+            "word": " love",
+            "probability": 0.99458
+          },
+          {
+            "start": 50.81,
+            "end": 51.21,
+            "word": " most.",
+            "probability": 0.99071
+          }
+        ]
+      },
+      {
+        "start": 52.64,
+        "end": 55.94,
+        "text": "I also get to find new places in my city this way.",
+        "words": [
+          {
+            "start": 52.64,
+            "end": 52.84,
+            "word": " I",
+            "probability": 0.99873
+          },
+          {
+            "start": 52.84,
+            "end": 53.14,
+            "word": " also",
+            "probability": 0.99788
+          },
+          {
+            "start": 53.14,
+            "end": 53.34,
+            "word": " get",
+            "probability": 0.99683
+          },
+          {
+            "start": 53.34,
+            "end": 53.52,
+            "word": " to",
+            "probability": 0.99973
+          },
+          {
+            "start": 53.52,
+            "end": 53.76,
+            "word": " find",
+            "probability": 0.9926
+          },
+          {
+            "start": 53.76,
+            "end": 54.04,
+            "word": " new",
+            "probability": 0.99829
+          },
+          {
+            "start": 54.04,
+            "end": 54.5,
+            "word": " places",
+            "probability": 0.99914
+          },
+          {
+            "start": 54.5,
+            "end": 54.84,
+            "word": " in",
+            "probability": 0.99798
+          },
+          {
+            "start": 54.84,
+            "end": 55.02,
+            "word": " my",
+            "probability": 0.99831
+          },
+          {
+            "start": 55.02,
+            "end": 55.38,
+            "word": " city",
+            "probability": 0.99241
+          },
+          {
+            "start": 55.38,
+            "end": 55.72,
+            "word": " this",
+            "probability": 0.99501
+          },
+          {
+            "start": 55.72,
+            "end": 55.94,
+            "word": " way.",
+            "probability": 0.99753
+          }
+        ]
+      },
+      {
+        "start": 56.96,
+        "end": 59.38,
+        "text": "The hard ground makes my legs stronger.",
+        "words": [
+          {
+            "start": 56.96,
+            "end": 57.16,
+            "word": " The",
+            "probability": 0.99472
+          },
+          {
+            "start": 57.16,
+            "end": 57.46,
+            "word": " hard",
+            "probability": 0.95773
+          },
+          {
+            "start": 57.46,
+            "end": 57.88,
+            "word": " ground",
+            "probability": 0.97608
+          },
+          {
+            "start": 57.88,
+            "end": 58.14,
+            "word": " makes",
+            "probability": 0.99662
+          },
+          {
+            "start": 58.14,
+            "end": 58.46,
+            "word": " my",
+            "probability": 0.9991
+          },
+          {
+            "start": 58.46,
+            "end": 58.76,
+            "word": " legs",
+            "probability": 0.99094
+          },
+          {
+            "start": 58.76,
+            "end": 59.38,
+            "word": " stronger.",
+            "probability": 0.99437
+          }
+        ]
+      },
+      {
+        "start": 60.27,
+        "end": 65.05,
+        "text": "It can be a bit dangerous with cars, but that's what makes it exciting for me.",
+        "words": [
+          {
+            "start": 60.27,
+            "end": 60.49,
+            "word": " It",
+            "probability": 0.99659
+          },
+          {
+            "start": 60.49,
+            "end": 60.67,
+            "word": " can",
+            "probability": 0.99696
+          },
+          {
+            "start": 60.67,
+            "end": 60.85,
+            "word": " be",
+            "probability": 0.99856
+          },
+          {
+            "start": 60.85,
+            "end": 60.99,
+            "word": " a",
+            "probability": 0.99803
+          },
+          {
+            "start": 60.99,
+            "end": 61.15,
+            "word": " bit",
+            "probability": 0.99975
+          },
+          {
+            "start": 61.15,
+            "end": 61.63,
+            "word": " dangerous",
+            "probability": 0.99782
+          },
+          {
+            "start": 61.63,
+            "end": 61.99,
+            "word": " with",
+            "probability": 0.99318
+          },
+          {
+            "start": 61.99,
+            "end": 62.35,
+            "word": " cars,",
+            "probability": 0.99699
+          },
+          {
+            "start": 62.87,
+            "end": 63.09,
+            "word": " but",
+            "probability": 0.99705
+          },
+          {
+            "start": 63.09,
+            "end": 63.51,
+            "word": " that's",
+            "probability": 0.99003
+          },
+          {
+            "start": 63.51,
+            "end": 63.63,
+            "word": " what",
+            "probability": 0.99848
+          },
+          {
+            "start": 63.63,
+            "end": 63.83,
+            "word": " makes",
+            "probability": 0.99706
+          },
+          {
+            "start": 63.83,
+            "end": 64.09,
+            "word": " it",
+            "probability": 0.99865
+          },
+          {
+            "start": 64.09,
+            "end": 64.51,
+            "word": " exciting",
+            "probability": 0.99878
+          },
+          {
+            "start": 64.51,
+            "end": 64.83,
+            "word": " for",
+            "probability": 0.99688
+          },
+          {
+            "start": 64.83,
+            "end": 65.05,
+            "word": " me.",
+            "probability": 0.99968
+          }
+        ]
+      },
+      {
+        "start": 65.05,
+        "end": 65.53,
+        "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry",
+        "words": [
+          {
+            "start": 65.05,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.13823
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.0977
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.36005
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.67355
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.83339
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.97263
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.89789
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98319
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.92316
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98863
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.91815
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98886
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.93091
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99037
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.93685
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99067
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.94144
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98999
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.9548
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99075
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.94663
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99077
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.95376
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99117
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.95755
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99089
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.9595
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99014
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.96741
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.9905
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.96626
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99217
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97105
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.9904
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.96564
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99168
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.96511
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99035
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.9668
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98985
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97033
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99068
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97078
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99087
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97466
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99155
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97367
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99035
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97208
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99066
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97667
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99046
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97455
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98887
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97417
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99046
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97519
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98994
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97431
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99162
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.979
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99017
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97918
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98904
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.98483
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99008
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97954
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98771
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97985
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.99033
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97887
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98777
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97968
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98914
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.98243
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98878
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97587
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98824
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97715
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98653
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97577
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98656
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.9773
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98721
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97623
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98883
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97866
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98639
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97751
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98742
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97875
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98545
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97718
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98793
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.96697
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.9831
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97117
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98796
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97021
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98327
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.96754
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.98363
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.9685
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.9776
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97036
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.97786
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97321
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.97422
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.97043
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry,",
+            "probability": 0.9503
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " I'm",
+            "probability": 0.95553
+          },
+          {
+            "start": 65.53,
+            "end": 65.53,
+            "word": " sorry",
+            "probability": 0.94387
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-a",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 79,
+            "speechStart": 0.72,
+            "speechEnd": 30.81,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "the city gives me new things to see every time i run i like the busy streets and different buildings around me stopping at traffic lights and watching out for people helps me stay alert running in the street is what i love most i also get to find new places in my city this way the hard ground makes my legs stronger it can be a bit dangerous with cars but that's what makes it exciting for me",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 79,
+            "wordEndIndexExclusive": 209,
+            "speechStart": 30.81,
+            "speechEnd": 65.53,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.756,
+            "transcript": "the city gives me new things to see every time i run i like the busy streets and different buildings around me stopping at traffic lights and watching out for people helps me stay alert running in the street is what i love most i also get to find new places in my city this way the hard ground makes my legs stronger it can be a bit dangerous with cars but that's what makes it exciting for me i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm sorry i'm",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

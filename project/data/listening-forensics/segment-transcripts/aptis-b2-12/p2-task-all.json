@@ -1,0 +1,4427 @@
+{
+  "testId": "aptis-b2-12",
+  "blockId": "p2-task-all",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-12/part-2/task-all.mp3",
+  "audioSha256": "d7699017f1cd50fb6f79d8b84064bf362cc65d3db160a99b3d86478ef4d0f342",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.04,
+        "end": 5.22,
+        "text": "I spend quite a bit of my free time online, mostly because I love watching movies.",
+        "words": [
+          {
+            "start": 1.04,
+            "end": 1.48,
+            "word": " I",
+            "probability": 0.66983
+          },
+          {
+            "start": 1.48,
+            "end": 1.64,
+            "word": " spend",
+            "probability": 0.86921
+          },
+          {
+            "start": 1.64,
+            "end": 1.92,
+            "word": " quite",
+            "probability": 0.9862
+          },
+          {
+            "start": 1.92,
+            "end": 2.04,
+            "word": " a",
+            "probability": 0.99513
+          },
+          {
+            "start": 2.04,
+            "end": 2.18,
+            "word": " bit",
+            "probability": 0.99666
+          },
+          {
+            "start": 2.18,
+            "end": 2.28,
+            "word": " of",
+            "probability": 0.96703
+          },
+          {
+            "start": 2.28,
+            "end": 2.4,
+            "word": " my",
+            "probability": 0.99778
+          },
+          {
+            "start": 2.4,
+            "end": 2.62,
+            "word": " free",
+            "probability": 0.97234
+          },
+          {
+            "start": 2.62,
+            "end": 2.84,
+            "word": " time",
+            "probability": 0.91782
+          },
+          {
+            "start": 2.84,
+            "end": 3.22,
+            "word": " online,",
+            "probability": 0.96743
+          },
+          {
+            "start": 3.52,
+            "end": 3.82,
+            "word": " mostly",
+            "probability": 0.99756
+          },
+          {
+            "start": 3.82,
+            "end": 4.06,
+            "word": " because",
+            "probability": 0.99668
+          },
+          {
+            "start": 4.06,
+            "end": 4.22,
+            "word": " I",
+            "probability": 0.99717
+          },
+          {
+            "start": 4.22,
+            "end": 4.46,
+            "word": " love",
+            "probability": 0.98611
+          },
+          {
+            "start": 4.46,
+            "end": 4.82,
+            "word": " watching",
+            "probability": 0.99848
+          },
+          {
+            "start": 4.82,
+            "end": 5.22,
+            "word": " movies.",
+            "probability": 0.99547
+          }
+        ]
+      },
+      {
+        "start": 5.72,
+        "end": 10.9,
+        "text": "The internet makes it so easy to find a wide variety of films, from the latest releases",
+        "words": [
+          {
+            "start": 5.72,
+            "end": 6.08,
+            "word": " The",
+            "probability": 0.99438
+          },
+          {
+            "start": 6.08,
+            "end": 6.48,
+            "word": " internet",
+            "probability": 0.80914
+          },
+          {
+            "start": 6.48,
+            "end": 6.72,
+            "word": " makes",
+            "probability": 0.99398
+          },
+          {
+            "start": 6.72,
+            "end": 6.9,
+            "word": " it",
+            "probability": 0.99476
+          },
+          {
+            "start": 6.9,
+            "end": 7.18,
+            "word": " so",
+            "probability": 0.97943
+          },
+          {
+            "start": 7.18,
+            "end": 7.64,
+            "word": " easy",
+            "probability": 0.9959
+          },
+          {
+            "start": 7.64,
+            "end": 7.84,
+            "word": " to",
+            "probability": 0.9957
+          },
+          {
+            "start": 7.84,
+            "end": 8.06,
+            "word": " find",
+            "probability": 0.9974
+          },
+          {
+            "start": 8.06,
+            "end": 8.24,
+            "word": " a",
+            "probability": 0.99784
+          },
+          {
+            "start": 8.24,
+            "end": 8.52,
+            "word": " wide",
+            "probability": 0.99894
+          },
+          {
+            "start": 8.52,
+            "end": 8.98,
+            "word": " variety",
+            "probability": 0.99866
+          },
+          {
+            "start": 8.98,
+            "end": 9.16,
+            "word": " of",
+            "probability": 0.99761
+          },
+          {
+            "start": 9.16,
+            "end": 9.5,
+            "word": " films,",
+            "probability": 0.9864
+          },
+          {
+            "start": 9.88,
+            "end": 9.98,
+            "word": " from",
+            "probability": 0.99063
+          },
+          {
+            "start": 9.98,
+            "end": 10.12,
+            "word": " the",
+            "probability": 0.99663
+          },
+          {
+            "start": 10.12,
+            "end": 10.42,
+            "word": " latest",
+            "probability": 0.99835
+          },
+          {
+            "start": 10.42,
+            "end": 10.9,
+            "word": " releases",
+            "probability": 0.99554
+          }
+        ]
+      },
+      {
+        "start": 10.9,
+        "end": 12.0,
+        "text": "to old classics.",
+        "words": [
+          {
+            "start": 10.9,
+            "end": 11.3,
+            "word": " to",
+            "probability": 0.92956
+          },
+          {
+            "start": 11.3,
+            "end": 11.5,
+            "word": " old",
+            "probability": 0.98807
+          },
+          {
+            "start": 11.5,
+            "end": 12.0,
+            "word": " classics.",
+            "probability": 0.9903
+          }
+        ]
+      },
+      {
+        "start": 12.74,
+        "end": 17.48,
+        "text": "I can stream them directly on my laptop or TV, without needing to go out and buy DVDs",
+        "words": [
+          {
+            "start": 12.74,
+            "end": 13.0,
+            "word": " I",
+            "probability": 0.99555
+          },
+          {
+            "start": 13.0,
+            "end": 13.14,
+            "word": " can",
+            "probability": 0.99401
+          },
+          {
+            "start": 13.14,
+            "end": 13.42,
+            "word": " stream",
+            "probability": 0.99685
+          },
+          {
+            "start": 13.42,
+            "end": 13.6,
+            "word": " them",
+            "probability": 0.99523
+          },
+          {
+            "start": 13.6,
+            "end": 13.92,
+            "word": " directly",
+            "probability": 0.99858
+          },
+          {
+            "start": 13.92,
+            "end": 14.12,
+            "word": " on",
+            "probability": 0.99358
+          },
+          {
+            "start": 14.12,
+            "end": 14.22,
+            "word": " my",
+            "probability": 0.9978
+          },
+          {
+            "start": 14.22,
+            "end": 14.52,
+            "word": " laptop",
+            "probability": 0.99407
+          },
+          {
+            "start": 14.52,
+            "end": 14.84,
+            "word": " or",
+            "probability": 0.96921
+          },
+          {
+            "start": 14.84,
+            "end": 15.2,
+            "word": " TV,",
+            "probability": 0.94835
+          },
+          {
+            "start": 15.58,
+            "end": 15.72,
+            "word": " without",
+            "probability": 0.99663
+          },
+          {
+            "start": 15.72,
+            "end": 15.98,
+            "word": " needing",
+            "probability": 0.99885
+          },
+          {
+            "start": 15.98,
+            "end": 16.18,
+            "word": " to",
+            "probability": 0.99746
+          },
+          {
+            "start": 16.18,
+            "end": 16.34,
+            "word": " go",
+            "probability": 0.99626
+          },
+          {
+            "start": 16.34,
+            "end": 16.52,
+            "word": " out",
+            "probability": 0.9982
+          },
+          {
+            "start": 16.52,
+            "end": 16.64,
+            "word": " and",
+            "probability": 0.97591
+          },
+          {
+            "start": 16.64,
+            "end": 16.78,
+            "word": " buy",
+            "probability": 0.98493
+          },
+          {
+            "start": 16.78,
+            "end": 17.48,
+            "word": " DVDs",
+            "probability": 0.93787
+          }
+        ]
+      },
+      {
+        "start": 17.48,
+        "end": 18.16,
+        "text": "or rent movies.",
+        "words": [
+          {
+            "start": 17.48,
+            "end": 17.66,
+            "word": " or",
+            "probability": 0.94336
+          },
+          {
+            "start": 17.66,
+            "end": 17.82,
+            "word": " rent",
+            "probability": 0.97575
+          },
+          {
+            "start": 17.82,
+            "end": 18.16,
+            "word": " movies.",
+            "probability": 0.99663
+          }
+        ]
+      },
+      {
+        "start": 18.6,
+        "end": 20.54,
+        "text": "I just pick a film and relax.",
+        "words": [
+          {
+            "start": 18.6,
+            "end": 19.1,
+            "word": " I",
+            "probability": 0.99468
+          },
+          {
+            "start": 19.1,
+            "end": 19.26,
+            "word": " just",
+            "probability": 0.99248
+          },
+          {
+            "start": 19.26,
+            "end": 19.44,
+            "word": " pick",
+            "probability": 0.98855
+          },
+          {
+            "start": 19.44,
+            "end": 19.6,
+            "word": " a",
+            "probability": 0.98376
+          },
+          {
+            "start": 19.6,
+            "end": 19.92,
+            "word": " film",
+            "probability": 0.99483
+          },
+          {
+            "start": 19.92,
+            "end": 20.24,
+            "word": " and",
+            "probability": 0.85968
+          },
+          {
+            "start": 20.24,
+            "end": 20.54,
+            "word": " relax.",
+            "probability": 0.99657
+          }
+        ]
+      },
+      {
+        "start": 21.26,
+        "end": 26.02,
+        "text": "It's the best way to unwind after a long day, and I can watch whatever I want, whenever",
+        "words": [
+          {
+            "start": 21.26,
+            "end": 21.52,
+            "word": " It's",
+            "probability": 0.98698
+          },
+          {
+            "start": 21.52,
+            "end": 21.62,
+            "word": " the",
+            "probability": 0.99754
+          },
+          {
+            "start": 21.62,
+            "end": 21.84,
+            "word": " best",
+            "probability": 0.99927
+          },
+          {
+            "start": 21.84,
+            "end": 22.04,
+            "word": " way",
+            "probability": 0.99845
+          },
+          {
+            "start": 22.04,
+            "end": 22.18,
+            "word": " to",
+            "probability": 0.99875
+          },
+          {
+            "start": 22.18,
+            "end": 22.64,
+            "word": " unwind",
+            "probability": 0.95194
+          },
+          {
+            "start": 22.64,
+            "end": 23.08,
+            "word": " after",
+            "probability": 0.82611
+          },
+          {
+            "start": 23.08,
+            "end": 23.22,
+            "word": " a",
+            "probability": 0.98911
+          },
+          {
+            "start": 23.22,
+            "end": 23.38,
+            "word": " long",
+            "probability": 0.99899
+          },
+          {
+            "start": 23.38,
+            "end": 23.7,
+            "word": " day,",
+            "probability": 0.99688
+          },
+          {
+            "start": 24.1,
+            "end": 24.28,
+            "word": " and",
+            "probability": 0.99352
+          },
+          {
+            "start": 24.28,
+            "end": 24.38,
+            "word": " I",
+            "probability": 0.99396
+          },
+          {
+            "start": 24.38,
+            "end": 24.52,
+            "word": " can",
+            "probability": 0.99582
+          },
+          {
+            "start": 24.52,
+            "end": 24.8,
+            "word": " watch",
+            "probability": 0.99772
+          },
+          {
+            "start": 24.8,
+            "end": 25.06,
+            "word": " whatever",
+            "probability": 0.98504
+          },
+          {
+            "start": 25.06,
+            "end": 25.34,
+            "word": " I",
+            "probability": 0.99723
+          },
+          {
+            "start": 25.34,
+            "end": 25.6,
+            "word": " want,",
+            "probability": 0.99883
+          },
+          {
+            "start": 25.86,
+            "end": 26.02,
+            "word": " whenever",
+            "probability": 0.98669
+          }
+        ]
+      },
+      {
+        "start": 26.02,
+        "end": 26.58,
+        "text": "I want.",
+        "words": [
+          {
+            "start": 26.02,
+            "end": 26.34,
+            "word": " I",
+            "probability": 0.99747
+          },
+          {
+            "start": 26.34,
+            "end": 26.58,
+            "word": " want.",
+            "probability": 0.99841
+          }
+        ]
+      },
+      {
+        "start": 26.58,
+        "end": 32.7,
+        "text": "I spend quite a bit of my free time online, mostly because I love watching movies.",
+        "words": [
+          {
+            "start": 26.58,
+            "end": 27.44,
+            "word": " I",
+            "probability": 0.2561
+          },
+          {
+            "start": 28.94,
+            "end": 29.12,
+            "word": " spend",
+            "probability": 0.55919
+          },
+          {
+            "start": 29.12,
+            "end": 29.42,
+            "word": " quite",
+            "probability": 0.94679
+          },
+          {
+            "start": 29.42,
+            "end": 29.52,
+            "word": " a",
+            "probability": 0.99529
+          },
+          {
+            "start": 29.52,
+            "end": 29.66,
+            "word": " bit",
+            "probability": 0.99382
+          },
+          {
+            "start": 29.66,
+            "end": 29.78,
+            "word": " of",
+            "probability": 0.98043
+          },
+          {
+            "start": 29.78,
+            "end": 29.88,
+            "word": " my",
+            "probability": 0.99729
+          },
+          {
+            "start": 29.88,
+            "end": 30.1,
+            "word": " free",
+            "probability": 0.99215
+          },
+          {
+            "start": 30.1,
+            "end": 30.3,
+            "word": " time",
+            "probability": 0.95526
+          },
+          {
+            "start": 30.3,
+            "end": 30.7,
+            "word": " online,",
+            "probability": 0.96814
+          },
+          {
+            "start": 31.0,
+            "end": 31.3,
+            "word": " mostly",
+            "probability": 0.99739
+          },
+          {
+            "start": 31.3,
+            "end": 31.56,
+            "word": " because",
+            "probability": 0.99489
+          },
+          {
+            "start": 31.56,
+            "end": 31.72,
+            "word": " I",
+            "probability": 0.99456
+          },
+          {
+            "start": 31.72,
+            "end": 31.94,
+            "word": " love",
+            "probability": 0.98363
+          },
+          {
+            "start": 31.94,
+            "end": 32.32,
+            "word": " watching",
+            "probability": 0.99816
+          },
+          {
+            "start": 32.32,
+            "end": 32.7,
+            "word": " movies.",
+            "probability": 0.99079
+          }
+        ]
+      },
+      {
+        "start": 33.34,
+        "end": 38.4,
+        "text": "The internet makes it so easy to find a wide variety of films from the latest releases",
+        "words": [
+          {
+            "start": 33.34,
+            "end": 33.56,
+            "word": " The",
+            "probability": 0.99148
+          },
+          {
+            "start": 33.56,
+            "end": 33.96,
+            "word": " internet",
+            "probability": 0.72756
+          },
+          {
+            "start": 33.96,
+            "end": 34.2,
+            "word": " makes",
+            "probability": 0.99112
+          },
+          {
+            "start": 34.2,
+            "end": 34.38,
+            "word": " it",
+            "probability": 0.99107
+          },
+          {
+            "start": 34.38,
+            "end": 34.66,
+            "word": " so",
+            "probability": 0.95289
+          },
+          {
+            "start": 34.66,
+            "end": 35.12,
+            "word": " easy",
+            "probability": 0.99508
+          },
+          {
+            "start": 35.12,
+            "end": 35.32,
+            "word": " to",
+            "probability": 0.99405
+          },
+          {
+            "start": 35.32,
+            "end": 35.56,
+            "word": " find",
+            "probability": 0.99572
+          },
+          {
+            "start": 35.56,
+            "end": 35.72,
+            "word": " a",
+            "probability": 0.99632
+          },
+          {
+            "start": 35.72,
+            "end": 36.0,
+            "word": " wide",
+            "probability": 0.99864
+          },
+          {
+            "start": 36.0,
+            "end": 36.5,
+            "word": " variety",
+            "probability": 0.9982
+          },
+          {
+            "start": 36.5,
+            "end": 36.64,
+            "word": " of",
+            "probability": 0.99842
+          },
+          {
+            "start": 36.64,
+            "end": 36.98,
+            "word": " films",
+            "probability": 0.98637
+          },
+          {
+            "start": 36.98,
+            "end": 37.46,
+            "word": " from",
+            "probability": 0.18616
+          },
+          {
+            "start": 37.46,
+            "end": 37.62,
+            "word": " the",
+            "probability": 0.99415
+          },
+          {
+            "start": 37.62,
+            "end": 37.88,
+            "word": " latest",
+            "probability": 0.99771
+          },
+          {
+            "start": 37.88,
+            "end": 38.4,
+            "word": " releases",
+            "probability": 0.99372
+          }
+        ]
+      },
+      {
+        "start": 38.4,
+        "end": 39.5,
+        "text": "to old classics.",
+        "words": [
+          {
+            "start": 38.4,
+            "end": 38.78,
+            "word": " to",
+            "probability": 0.9851
+          },
+          {
+            "start": 38.78,
+            "end": 39.0,
+            "word": " old",
+            "probability": 0.98622
+          },
+          {
+            "start": 39.0,
+            "end": 39.5,
+            "word": " classics.",
+            "probability": 0.99199
+          }
+        ]
+      },
+      {
+        "start": 40.2,
+        "end": 45.14,
+        "text": "I can stream them directly on my laptop or TV without needing to go out and buy DVDs or",
+        "words": [
+          {
+            "start": 40.2,
+            "end": 40.48,
+            "word": " I",
+            "probability": 0.99435
+          },
+          {
+            "start": 40.48,
+            "end": 40.62,
+            "word": " can",
+            "probability": 0.99421
+          },
+          {
+            "start": 40.62,
+            "end": 40.9,
+            "word": " stream",
+            "probability": 0.99709
+          },
+          {
+            "start": 40.9,
+            "end": 41.06,
+            "word": " them",
+            "probability": 0.99488
+          },
+          {
+            "start": 41.06,
+            "end": 41.36,
+            "word": " directly",
+            "probability": 0.99799
+          },
+          {
+            "start": 41.36,
+            "end": 41.6,
+            "word": " on",
+            "probability": 0.99415
+          },
+          {
+            "start": 41.6,
+            "end": 41.7,
+            "word": " my",
+            "probability": 0.99839
+          },
+          {
+            "start": 41.7,
+            "end": 42.0,
+            "word": " laptop",
+            "probability": 0.99452
+          },
+          {
+            "start": 42.0,
+            "end": 42.32,
+            "word": " or",
+            "probability": 0.97602
+          },
+          {
+            "start": 42.32,
+            "end": 42.68,
+            "word": " TV",
+            "probability": 0.94811
+          },
+          {
+            "start": 42.68,
+            "end": 43.18,
+            "word": " without",
+            "probability": 0.88895
+          },
+          {
+            "start": 43.18,
+            "end": 43.46,
+            "word": " needing",
+            "probability": 0.99861
+          },
+          {
+            "start": 43.46,
+            "end": 43.66,
+            "word": " to",
+            "probability": 0.99732
+          },
+          {
+            "start": 43.66,
+            "end": 43.82,
+            "word": " go",
+            "probability": 0.99614
+          },
+          {
+            "start": 43.82,
+            "end": 44.0,
+            "word": " out",
+            "probability": 0.99793
+          },
+          {
+            "start": 44.0,
+            "end": 44.12,
+            "word": " and",
+            "probability": 0.9638
+          },
+          {
+            "start": 44.12,
+            "end": 44.26,
+            "word": " buy",
+            "probability": 0.97893
+          },
+          {
+            "start": 44.26,
+            "end": 44.96,
+            "word": " DVDs",
+            "probability": 0.95105
+          },
+          {
+            "start": 44.96,
+            "end": 45.14,
+            "word": " or",
+            "probability": 0.97578
+          }
+        ]
+      },
+      {
+        "start": 45.14,
+        "end": 45.68,
+        "text": "rent movies.",
+        "words": [
+          {
+            "start": 45.14,
+            "end": 45.3,
+            "word": " rent",
+            "probability": 0.97877
+          },
+          {
+            "start": 45.3,
+            "end": 45.68,
+            "word": " movies.",
+            "probability": 0.99666
+          }
+        ]
+      },
+      {
+        "start": 46.14,
+        "end": 48.04,
+        "text": "I just pick a film and relax.",
+        "words": [
+          {
+            "start": 46.14,
+            "end": 46.58,
+            "word": " I",
+            "probability": 0.99277
+          },
+          {
+            "start": 46.58,
+            "end": 46.72,
+            "word": " just",
+            "probability": 0.99184
+          },
+          {
+            "start": 46.72,
+            "end": 46.92,
+            "word": " pick",
+            "probability": 0.98958
+          },
+          {
+            "start": 46.92,
+            "end": 47.06,
+            "word": " a",
+            "probability": 0.97278
+          },
+          {
+            "start": 47.06,
+            "end": 47.38,
+            "word": " film",
+            "probability": 0.99335
+          },
+          {
+            "start": 47.38,
+            "end": 47.72,
+            "word": " and",
+            "probability": 0.96702
+          },
+          {
+            "start": 47.72,
+            "end": 48.04,
+            "word": " relax.",
+            "probability": 0.99665
+          }
+        ]
+      },
+      {
+        "start": 48.74,
+        "end": 53.48,
+        "text": "It's the best way to unwind after a long day, and I can watch whatever I want whenever",
+        "words": [
+          {
+            "start": 48.74,
+            "end": 49.0,
+            "word": " It's",
+            "probability": 0.98067
+          },
+          {
+            "start": 49.0,
+            "end": 49.1,
+            "word": " the",
+            "probability": 0.99791
+          },
+          {
+            "start": 49.1,
+            "end": 49.3,
+            "word": " best",
+            "probability": 0.99841
+          },
+          {
+            "start": 49.3,
+            "end": 49.52,
+            "word": " way",
+            "probability": 0.99829
+          },
+          {
+            "start": 49.52,
+            "end": 49.64,
+            "word": " to",
+            "probability": 0.99818
+          },
+          {
+            "start": 49.64,
+            "end": 50.12,
+            "word": " unwind",
+            "probability": 0.97021
+          },
+          {
+            "start": 50.12,
+            "end": 50.56,
+            "word": " after",
+            "probability": 0.92742
+          },
+          {
+            "start": 50.56,
+            "end": 50.68,
+            "word": " a",
+            "probability": 0.9968
+          },
+          {
+            "start": 50.68,
+            "end": 50.86,
+            "word": " long",
+            "probability": 0.9984
+          },
+          {
+            "start": 50.86,
+            "end": 51.18,
+            "word": " day,",
+            "probability": 0.99836
+          },
+          {
+            "start": 51.58,
+            "end": 51.74,
+            "word": " and",
+            "probability": 0.99368
+          },
+          {
+            "start": 51.74,
+            "end": 51.86,
+            "word": " I",
+            "probability": 0.99372
+          },
+          {
+            "start": 51.86,
+            "end": 52.0,
+            "word": " can",
+            "probability": 0.9927
+          },
+          {
+            "start": 52.0,
+            "end": 52.28,
+            "word": " watch",
+            "probability": 0.99808
+          },
+          {
+            "start": 52.28,
+            "end": 52.54,
+            "word": " whatever",
+            "probability": 0.98166
+          },
+          {
+            "start": 52.54,
+            "end": 52.82,
+            "word": " I",
+            "probability": 0.99608
+          },
+          {
+            "start": 52.82,
+            "end": 53.06,
+            "word": " want",
+            "probability": 0.99836
+          },
+          {
+            "start": 53.06,
+            "end": 53.48,
+            "word": " whenever",
+            "probability": 0.26058
+          }
+        ]
+      },
+      {
+        "start": 53.48,
+        "end": 54.06,
+        "text": "I want.",
+        "words": [
+          {
+            "start": 53.48,
+            "end": 53.82,
+            "word": " I",
+            "probability": 0.9979
+          },
+          {
+            "start": 53.82,
+            "end": 54.06,
+            "word": " want.",
+            "probability": 0.99795
+          }
+        ]
+      },
+      {
+        "start": 54.06,
+        "end": 61.27,
+        "text": "But the main reason I use the internet is to stay in touch with my friends. It's great",
+        "words": [
+          {
+            "start": 54.06,
+            "end": 54.22,
+            "word": " But",
+            "probability": 0.07929
+          },
+          {
+            "start": 56.11,
+            "end": 56.95,
+            "word": " the",
+            "probability": 0.52603
+          },
+          {
+            "start": 56.95,
+            "end": 57.13,
+            "word": " main",
+            "probability": 0.9771
+          },
+          {
+            "start": 57.13,
+            "end": 57.51,
+            "word": " reason",
+            "probability": 0.99268
+          },
+          {
+            "start": 57.51,
+            "end": 57.85,
+            "word": " I",
+            "probability": 0.9297
+          },
+          {
+            "start": 57.85,
+            "end": 58.07,
+            "word": " use",
+            "probability": 0.97317
+          },
+          {
+            "start": 58.07,
+            "end": 58.21,
+            "word": " the",
+            "probability": 0.98082
+          },
+          {
+            "start": 58.21,
+            "end": 58.55,
+            "word": " internet",
+            "probability": 0.69607
+          },
+          {
+            "start": 58.55,
+            "end": 58.93,
+            "word": " is",
+            "probability": 0.96477
+          },
+          {
+            "start": 58.93,
+            "end": 59.05,
+            "word": " to",
+            "probability": 0.98666
+          },
+          {
+            "start": 59.05,
+            "end": 59.25,
+            "word": " stay",
+            "probability": 0.99557
+          },
+          {
+            "start": 59.25,
+            "end": 59.37,
+            "word": " in",
+            "probability": 0.99784
+          },
+          {
+            "start": 59.37,
+            "end": 59.53,
+            "word": " touch",
+            "probability": 0.99939
+          },
+          {
+            "start": 59.53,
+            "end": 59.79,
+            "word": " with",
+            "probability": 0.99796
+          },
+          {
+            "start": 59.79,
+            "end": 59.91,
+            "word": " my",
+            "probability": 0.97918
+          },
+          {
+            "start": 59.91,
+            "end": 60.31,
+            "word": " friends.",
+            "probability": 0.99259
+          },
+          {
+            "start": 60.69,
+            "end": 61.07,
+            "word": " It's",
+            "probability": 0.96714
+          },
+          {
+            "start": 61.07,
+            "end": 61.27,
+            "word": " great",
+            "probability": 0.99597
+          }
+        ]
+      },
+      {
+        "start": 61.27,
+        "end": 66.25,
+        "text": "because I can talk to people who live far away without any issues. Whether it's through",
+        "words": [
+          {
+            "start": 61.27,
+            "end": 61.75,
+            "word": " because",
+            "probability": 0.90092
+          },
+          {
+            "start": 61.75,
+            "end": 61.89,
+            "word": " I",
+            "probability": 0.99423
+          },
+          {
+            "start": 61.89,
+            "end": 62.05,
+            "word": " can",
+            "probability": 0.9968
+          },
+          {
+            "start": 62.05,
+            "end": 62.25,
+            "word": " talk",
+            "probability": 0.9966
+          },
+          {
+            "start": 62.25,
+            "end": 62.41,
+            "word": " to",
+            "probability": 0.98679
+          },
+          {
+            "start": 62.41,
+            "end": 62.69,
+            "word": " people",
+            "probability": 0.99885
+          },
+          {
+            "start": 62.69,
+            "end": 62.91,
+            "word": " who",
+            "probability": 0.99023
+          },
+          {
+            "start": 62.91,
+            "end": 63.07,
+            "word": " live",
+            "probability": 0.99603
+          },
+          {
+            "start": 63.07,
+            "end": 63.35,
+            "word": " far",
+            "probability": 0.99721
+          },
+          {
+            "start": 63.35,
+            "end": 63.63,
+            "word": " away",
+            "probability": 0.99679
+          },
+          {
+            "start": 63.63,
+            "end": 64.25,
+            "word": " without",
+            "probability": 0.87248
+          },
+          {
+            "start": 64.25,
+            "end": 64.59,
+            "word": " any",
+            "probability": 0.97752
+          },
+          {
+            "start": 64.59,
+            "end": 65.05,
+            "word": " issues.",
+            "probability": 0.99423
+          },
+          {
+            "start": 65.65,
+            "end": 65.87,
+            "word": " Whether",
+            "probability": 0.99141
+          },
+          {
+            "start": 65.87,
+            "end": 66.11,
+            "word": " it's",
+            "probability": 0.96286
+          },
+          {
+            "start": 66.11,
+            "end": 66.25,
+            "word": " through",
+            "probability": 0.99468
+          }
+        ]
+      },
+      {
+        "start": 66.25,
+        "end": 71.71,
+        "text": "social media, video calls, or messaging apps, the internet allows me to communicate easily",
+        "words": [
+          {
+            "start": 66.25,
+            "end": 66.61,
+            "word": " social",
+            "probability": 0.99384
+          },
+          {
+            "start": 66.61,
+            "end": 66.97,
+            "word": " media,",
+            "probability": 0.99714
+          },
+          {
+            "start": 67.37,
+            "end": 67.57,
+            "word": " video",
+            "probability": 0.98365
+          },
+          {
+            "start": 67.57,
+            "end": 67.89,
+            "word": " calls,",
+            "probability": 0.99378
+          },
+          {
+            "start": 68.17,
+            "end": 68.23,
+            "word": " or",
+            "probability": 0.99
+          },
+          {
+            "start": 68.23,
+            "end": 68.53,
+            "word": " messaging",
+            "probability": 0.99184
+          },
+          {
+            "start": 68.53,
+            "end": 68.97,
+            "word": " apps,",
+            "probability": 0.99548
+          },
+          {
+            "start": 69.51,
+            "end": 69.57,
+            "word": " the",
+            "probability": 0.99377
+          },
+          {
+            "start": 69.57,
+            "end": 69.91,
+            "word": " internet",
+            "probability": 0.93332
+          },
+          {
+            "start": 69.91,
+            "end": 70.27,
+            "word": " allows",
+            "probability": 0.99716
+          },
+          {
+            "start": 70.27,
+            "end": 70.51,
+            "word": " me",
+            "probability": 0.99362
+          },
+          {
+            "start": 70.51,
+            "end": 70.63,
+            "word": " to",
+            "probability": 0.99838
+          },
+          {
+            "start": 70.63,
+            "end": 71.11,
+            "word": " communicate",
+            "probability": 0.99789
+          },
+          {
+            "start": 71.11,
+            "end": 71.71,
+            "word": " easily",
+            "probability": 0.98803
+          }
+        ]
+      },
+      {
+        "start": 71.71,
+        "end": 72.69,
+        "text": "and quickly.",
+        "words": [
+          {
+            "start": 71.71,
+            "end": 72.27,
+            "word": " and",
+            "probability": 0.93181
+          },
+          {
+            "start": 72.27,
+            "end": 72.69,
+            "word": " quickly.",
+            "probability": 0.99689
+          }
+        ]
+      },
+      {
+        "start": 73.82,
+        "end": 78.76,
+        "text": "My best friend loves using the internet for studying online courses, but that's not really",
+        "words": [
+          {
+            "start": 73.82,
+            "end": 74.16,
+            "word": " My",
+            "probability": 0.97949
+          },
+          {
+            "start": 74.16,
+            "end": 74.38,
+            "word": " best",
+            "probability": 0.99914
+          },
+          {
+            "start": 74.38,
+            "end": 74.72,
+            "word": " friend",
+            "probability": 0.99488
+          },
+          {
+            "start": 74.72,
+            "end": 75.08,
+            "word": " loves",
+            "probability": 0.98989
+          },
+          {
+            "start": 75.08,
+            "end": 75.36,
+            "word": " using",
+            "probability": 0.99216
+          },
+          {
+            "start": 75.36,
+            "end": 75.52,
+            "word": " the",
+            "probability": 0.98845
+          },
+          {
+            "start": 75.52,
+            "end": 75.84,
+            "word": " internet",
+            "probability": 0.97115
+          },
+          {
+            "start": 75.84,
+            "end": 76.16,
+            "word": " for",
+            "probability": 0.99111
+          },
+          {
+            "start": 76.16,
+            "end": 76.6,
+            "word": " studying",
+            "probability": 0.99498
+          },
+          {
+            "start": 76.6,
+            "end": 76.94,
+            "word": " online",
+            "probability": 0.99597
+          },
+          {
+            "start": 76.94,
+            "end": 77.44,
+            "word": " courses,",
+            "probability": 0.99885
+          },
+          {
+            "start": 77.96,
+            "end": 78.16,
+            "word": " but",
+            "probability": 0.99507
+          },
+          {
+            "start": 78.16,
+            "end": 78.42,
+            "word": " that's",
+            "probability": 0.99433
+          },
+          {
+            "start": 78.42,
+            "end": 78.52,
+            "word": " not",
+            "probability": 0.99709
+          },
+          {
+            "start": 78.52,
+            "end": 78.76,
+            "word": " really",
+            "probability": 0.97497
+          }
+        ]
+      },
+      {
+        "start": 78.76,
+        "end": 89.74,
+        "text": "for me. I prefer just chatting and staying connected through messages and calls. The main",
+        "words": [
+          {
+            "start": 78.76,
+            "end": 78.94,
+            "word": " for",
+            "probability": 0.9882
+          },
+          {
+            "start": 78.94,
+            "end": 79.14,
+            "word": " me.",
+            "probability": 0.99837
+          },
+          {
+            "start": 79.84,
+            "end": 80.04,
+            "word": " I",
+            "probability": 0.99488
+          },
+          {
+            "start": 80.04,
+            "end": 80.32,
+            "word": " prefer",
+            "probability": 0.99372
+          },
+          {
+            "start": 80.32,
+            "end": 80.76,
+            "word": " just",
+            "probability": 0.96529
+          },
+          {
+            "start": 80.76,
+            "end": 81.14,
+            "word": " chatting",
+            "probability": 0.98899
+          },
+          {
+            "start": 81.14,
+            "end": 81.44,
+            "word": " and",
+            "probability": 0.98795
+          },
+          {
+            "start": 81.44,
+            "end": 81.68,
+            "word": " staying",
+            "probability": 0.97422
+          },
+          {
+            "start": 81.68,
+            "end": 82.22,
+            "word": " connected",
+            "probability": 0.99904
+          },
+          {
+            "start": 82.22,
+            "end": 82.7,
+            "word": " through",
+            "probability": 0.9841
+          },
+          {
+            "start": 82.7,
+            "end": 83.06,
+            "word": " messages",
+            "probability": 0.9928
+          },
+          {
+            "start": 83.06,
+            "end": 83.34,
+            "word": " and",
+            "probability": 0.99421
+          },
+          {
+            "start": 83.34,
+            "end": 83.62,
+            "word": " calls.",
+            "probability": 0.9952
+          },
+          {
+            "start": 88.96,
+            "end": 89.52,
+            "word": " The",
+            "probability": 0.9697
+          },
+          {
+            "start": 89.52,
+            "end": 89.74,
+            "word": " main",
+            "probability": 0.99875
+          }
+        ]
+      },
+      {
+        "start": 89.74,
+        "end": 94.62,
+        "text": "reason I use the internet is to stay in touch with my friends. It's great because I can",
+        "words": [
+          {
+            "start": 89.74,
+            "end": 90.06,
+            "word": " reason",
+            "probability": 0.04117
+          },
+          {
+            "start": 90.06,
+            "end": 90.44,
+            "word": " I",
+            "probability": 0.93052
+          },
+          {
+            "start": 90.44,
+            "end": 90.64,
+            "word": " use",
+            "probability": 0.97294
+          },
+          {
+            "start": 90.64,
+            "end": 90.78,
+            "word": " the",
+            "probability": 0.98156
+          },
+          {
+            "start": 90.78,
+            "end": 91.14,
+            "word": " internet",
+            "probability": 0.73523
+          },
+          {
+            "start": 91.14,
+            "end": 91.5,
+            "word": " is",
+            "probability": 0.92886
+          },
+          {
+            "start": 91.5,
+            "end": 91.62,
+            "word": " to",
+            "probability": 0.99282
+          },
+          {
+            "start": 91.62,
+            "end": 91.84,
+            "word": " stay",
+            "probability": 0.99689
+          },
+          {
+            "start": 91.84,
+            "end": 91.96,
+            "word": " in",
+            "probability": 0.99892
+          },
+          {
+            "start": 91.96,
+            "end": 92.12,
+            "word": " touch",
+            "probability": 0.99958
+          },
+          {
+            "start": 92.12,
+            "end": 92.36,
+            "word": " with",
+            "probability": 0.99828
+          },
+          {
+            "start": 92.36,
+            "end": 92.5,
+            "word": " my",
+            "probability": 0.984
+          },
+          {
+            "start": 92.5,
+            "end": 92.88,
+            "word": " friends.",
+            "probability": 0.99418
+          },
+          {
+            "start": 93.4,
+            "end": 93.66,
+            "word": " It's",
+            "probability": 0.95605
+          },
+          {
+            "start": 93.66,
+            "end": 93.84,
+            "word": " great",
+            "probability": 0.99708
+          },
+          {
+            "start": 93.84,
+            "end": 94.32,
+            "word": " because",
+            "probability": 0.86081
+          },
+          {
+            "start": 94.32,
+            "end": 94.48,
+            "word": " I",
+            "probability": 0.99183
+          },
+          {
+            "start": 94.48,
+            "end": 94.62,
+            "word": " can",
+            "probability": 0.99755
+          }
+        ]
+      },
+      {
+        "start": 94.62,
+        "end": 99.54,
+        "text": "talk to people who live far away without any issues. Whether it's through social media,",
+        "words": [
+          {
+            "start": 94.62,
+            "end": 94.84,
+            "word": " talk",
+            "probability": 0.99678
+          },
+          {
+            "start": 94.84,
+            "end": 95.0,
+            "word": " to",
+            "probability": 0.99047
+          },
+          {
+            "start": 95.0,
+            "end": 95.26,
+            "word": " people",
+            "probability": 0.99844
+          },
+          {
+            "start": 95.26,
+            "end": 95.5,
+            "word": " who",
+            "probability": 0.99243
+          },
+          {
+            "start": 95.5,
+            "end": 95.66,
+            "word": " live",
+            "probability": 0.99697
+          },
+          {
+            "start": 95.66,
+            "end": 95.94,
+            "word": " far",
+            "probability": 0.99686
+          },
+          {
+            "start": 95.94,
+            "end": 96.22,
+            "word": " away",
+            "probability": 0.99562
+          },
+          {
+            "start": 96.22,
+            "end": 96.82,
+            "word": " without",
+            "probability": 0.77066
+          },
+          {
+            "start": 96.82,
+            "end": 97.18,
+            "word": " any",
+            "probability": 0.97369
+          },
+          {
+            "start": 97.18,
+            "end": 97.62,
+            "word": " issues.",
+            "probability": 0.99031
+          },
+          {
+            "start": 98.26,
+            "end": 98.46,
+            "word": " Whether",
+            "probability": 0.99425
+          },
+          {
+            "start": 98.46,
+            "end": 98.68,
+            "word": " it's",
+            "probability": 0.95331
+          },
+          {
+            "start": 98.68,
+            "end": 98.82,
+            "word": " through",
+            "probability": 0.99407
+          },
+          {
+            "start": 98.82,
+            "end": 99.18,
+            "word": " social",
+            "probability": 0.99549
+          },
+          {
+            "start": 99.18,
+            "end": 99.54,
+            "word": " media,",
+            "probability": 0.9972
+          }
+        ]
+      },
+      {
+        "start": 99.96,
+        "end": 105.28,
+        "text": "video calls or messaging apps, the internet allows me to communicate easily and quickly.",
+        "words": [
+          {
+            "start": 99.96,
+            "end": 100.14,
+            "word": " video",
+            "probability": 0.98106
+          },
+          {
+            "start": 100.14,
+            "end": 100.46,
+            "word": " calls",
+            "probability": 0.99136
+          },
+          {
+            "start": 100.46,
+            "end": 100.8,
+            "word": " or",
+            "probability": 0.56194
+          },
+          {
+            "start": 100.8,
+            "end": 101.12,
+            "word": " messaging",
+            "probability": 0.98846
+          },
+          {
+            "start": 101.12,
+            "end": 101.56,
+            "word": " apps,",
+            "probability": 0.9947
+          },
+          {
+            "start": 102.08,
+            "end": 102.16,
+            "word": " the",
+            "probability": 0.99416
+          },
+          {
+            "start": 102.16,
+            "end": 102.5,
+            "word": " internet",
+            "probability": 0.93219
+          },
+          {
+            "start": 102.5,
+            "end": 102.84,
+            "word": " allows",
+            "probability": 0.99715
+          },
+          {
+            "start": 102.84,
+            "end": 103.1,
+            "word": " me",
+            "probability": 0.98497
+          },
+          {
+            "start": 103.1,
+            "end": 103.2,
+            "word": " to",
+            "probability": 0.998
+          },
+          {
+            "start": 103.2,
+            "end": 103.68,
+            "word": " communicate",
+            "probability": 0.99772
+          },
+          {
+            "start": 103.68,
+            "end": 104.28,
+            "word": " easily",
+            "probability": 0.98799
+          },
+          {
+            "start": 104.28,
+            "end": 104.84,
+            "word": " and",
+            "probability": 0.93957
+          },
+          {
+            "start": 104.84,
+            "end": 105.28,
+            "word": " quickly.",
+            "probability": 0.99725
+          }
+        ]
+      },
+      {
+        "start": 106.53,
+        "end": 111.69,
+        "text": "My best friend loves using the internet for studying online courses, but that's not really for me.",
+        "words": [
+          {
+            "start": 106.53,
+            "end": 106.73,
+            "word": " My",
+            "probability": 0.9362
+          },
+          {
+            "start": 106.73,
+            "end": 106.93,
+            "word": " best",
+            "probability": 0.99776
+          },
+          {
+            "start": 106.93,
+            "end": 107.31,
+            "word": " friend",
+            "probability": 0.99262
+          },
+          {
+            "start": 107.31,
+            "end": 107.63,
+            "word": " loves",
+            "probability": 0.98556
+          },
+          {
+            "start": 107.63,
+            "end": 107.95,
+            "word": " using",
+            "probability": 0.99401
+          },
+          {
+            "start": 107.95,
+            "end": 108.09,
+            "word": " the",
+            "probability": 0.99685
+          },
+          {
+            "start": 108.09,
+            "end": 108.41,
+            "word": " internet",
+            "probability": 0.96627
+          },
+          {
+            "start": 108.41,
+            "end": 108.73,
+            "word": " for",
+            "probability": 0.99241
+          },
+          {
+            "start": 108.73,
+            "end": 109.17,
+            "word": " studying",
+            "probability": 0.99459
+          },
+          {
+            "start": 109.17,
+            "end": 109.53,
+            "word": " online",
+            "probability": 0.99707
+          },
+          {
+            "start": 109.53,
+            "end": 110.03,
+            "word": " courses,",
+            "probability": 0.99887
+          },
+          {
+            "start": 110.53,
+            "end": 110.75,
+            "word": " but",
+            "probability": 0.99659
+          },
+          {
+            "start": 110.75,
+            "end": 110.99,
+            "word": " that's",
+            "probability": 0.99589
+          },
+          {
+            "start": 110.99,
+            "end": 111.11,
+            "word": " not",
+            "probability": 0.99655
+          },
+          {
+            "start": 111.11,
+            "end": 111.33,
+            "word": " really",
+            "probability": 0.97808
+          },
+          {
+            "start": 111.33,
+            "end": 111.53,
+            "word": " for",
+            "probability": 0.98334
+          },
+          {
+            "start": 111.53,
+            "end": 111.69,
+            "word": " me.",
+            "probability": 0.9964
+          }
+        ]
+      },
+      {
+        "start": 112.41,
+        "end": 116.19,
+        "text": "I prefer just chatting and staying connected through messages and calls.",
+        "words": [
+          {
+            "start": 112.41,
+            "end": 112.61,
+            "word": " I",
+            "probability": 0.99651
+          },
+          {
+            "start": 112.61,
+            "end": 112.89,
+            "word": " prefer",
+            "probability": 0.99072
+          },
+          {
+            "start": 112.89,
+            "end": 113.33,
+            "word": " just",
+            "probability": 0.9293
+          },
+          {
+            "start": 113.33,
+            "end": 113.73,
+            "word": " chatting",
+            "probability": 0.98703
+          },
+          {
+            "start": 113.73,
+            "end": 114.01,
+            "word": " and",
+            "probability": 0.9958
+          },
+          {
+            "start": 114.01,
+            "end": 114.27,
+            "word": " staying",
+            "probability": 0.98595
+          },
+          {
+            "start": 114.27,
+            "end": 114.79,
+            "word": " connected",
+            "probability": 0.99911
+          },
+          {
+            "start": 114.79,
+            "end": 115.27,
+            "word": " through",
+            "probability": 0.96684
+          },
+          {
+            "start": 115.27,
+            "end": 115.65,
+            "word": " messages",
+            "probability": 0.99287
+          },
+          {
+            "start": 115.65,
+            "end": 115.91,
+            "word": " and",
+            "probability": 0.99335
+          },
+          {
+            "start": 115.91,
+            "end": 116.19,
+            "word": " calls.",
+            "probability": 0.99384
+          }
+        ]
+      },
+      {
+        "start": 116.19,
+        "end": 122.58,
+        "text": "tools. For me, the Internet is an essential tool for completing my school assignments.",
+        "words": [
+          {
+            "start": 116.19,
+            "end": 116.37,
+            "word": " tools.",
+            "probability": 0.05399
+          },
+          {
+            "start": 118.26,
+            "end": 118.48,
+            "word": " For",
+            "probability": 0.98551
+          },
+          {
+            "start": 118.48,
+            "end": 118.72,
+            "word": " me,",
+            "probability": 0.99534
+          },
+          {
+            "start": 119.14,
+            "end": 119.24,
+            "word": " the",
+            "probability": 0.98662
+          },
+          {
+            "start": 119.24,
+            "end": 119.68,
+            "word": " Internet",
+            "probability": 0.51005
+          },
+          {
+            "start": 119.68,
+            "end": 119.9,
+            "word": " is",
+            "probability": 0.99438
+          },
+          {
+            "start": 119.9,
+            "end": 120.02,
+            "word": " an",
+            "probability": 0.99298
+          },
+          {
+            "start": 120.02,
+            "end": 120.42,
+            "word": " essential",
+            "probability": 0.99363
+          },
+          {
+            "start": 120.42,
+            "end": 120.96,
+            "word": " tool",
+            "probability": 0.9962
+          },
+          {
+            "start": 120.96,
+            "end": 121.16,
+            "word": " for",
+            "probability": 0.997
+          },
+          {
+            "start": 121.16,
+            "end": 121.58,
+            "word": " completing",
+            "probability": 0.99354
+          },
+          {
+            "start": 121.58,
+            "end": 121.82,
+            "word": " my",
+            "probability": 0.98623
+          },
+          {
+            "start": 121.82,
+            "end": 122.08,
+            "word": " school",
+            "probability": 0.96772
+          },
+          {
+            "start": 122.08,
+            "end": 122.58,
+            "word": " assignments.",
+            "probability": 0.99417
+          }
+        ]
+      },
+      {
+        "start": 123.38,
+        "end": 129.12,
+        "text": "I use it to research information, find article, and access educational websites that help",
+        "words": [
+          {
+            "start": 123.38,
+            "end": 123.6,
+            "word": " I",
+            "probability": 0.99477
+          },
+          {
+            "start": 123.6,
+            "end": 123.74,
+            "word": " use",
+            "probability": 0.99619
+          },
+          {
+            "start": 123.74,
+            "end": 123.9,
+            "word": " it",
+            "probability": 0.9947
+          },
+          {
+            "start": 123.9,
+            "end": 124.04,
+            "word": " to",
+            "probability": 0.9964
+          },
+          {
+            "start": 124.04,
+            "end": 124.4,
+            "word": " research",
+            "probability": 0.96383
+          },
+          {
+            "start": 124.4,
+            "end": 125.18,
+            "word": " information,",
+            "probability": 0.99608
+          },
+          {
+            "start": 125.7,
+            "end": 126.1,
+            "word": " find",
+            "probability": 0.9908
+          },
+          {
+            "start": 126.1,
+            "end": 126.56,
+            "word": " article,",
+            "probability": 0.75796
+          },
+          {
+            "start": 126.96,
+            "end": 127.04,
+            "word": " and",
+            "probability": 0.99462
+          },
+          {
+            "start": 127.04,
+            "end": 127.4,
+            "word": " access",
+            "probability": 0.99686
+          },
+          {
+            "start": 127.4,
+            "end": 128.12,
+            "word": " educational",
+            "probability": 0.96397
+          },
+          {
+            "start": 128.12,
+            "end": 128.66,
+            "word": " websites",
+            "probability": 0.97152
+          },
+          {
+            "start": 128.66,
+            "end": 128.94,
+            "word": " that",
+            "probability": 0.99489
+          },
+          {
+            "start": 128.94,
+            "end": 129.12,
+            "word": " help",
+            "probability": 0.87718
+          }
+        ]
+      },
+      {
+        "start": 129.12,
+        "end": 134.48,
+        "text": "me understand my subjects better. It's so convenient because I can find everything I need",
+        "words": [
+          {
+            "start": 129.12,
+            "end": 129.3,
+            "word": " me",
+            "probability": 0.99671
+          },
+          {
+            "start": 129.3,
+            "end": 129.74,
+            "word": " understand",
+            "probability": 0.9919
+          },
+          {
+            "start": 129.74,
+            "end": 129.94,
+            "word": " my",
+            "probability": 0.99843
+          },
+          {
+            "start": 129.94,
+            "end": 130.26,
+            "word": " subjects",
+            "probability": 0.9787
+          },
+          {
+            "start": 130.26,
+            "end": 130.7,
+            "word": " better.",
+            "probability": 0.99751
+          },
+          {
+            "start": 131.7,
+            "end": 131.96,
+            "word": " It's",
+            "probability": 0.93675
+          },
+          {
+            "start": 131.96,
+            "end": 132.16,
+            "word": " so",
+            "probability": 0.99329
+          },
+          {
+            "start": 132.16,
+            "end": 132.68,
+            "word": " convenient",
+            "probability": 0.99918
+          },
+          {
+            "start": 132.68,
+            "end": 133.04,
+            "word": " because",
+            "probability": 0.89762
+          },
+          {
+            "start": 133.04,
+            "end": 133.16,
+            "word": " I",
+            "probability": 0.9959
+          },
+          {
+            "start": 133.16,
+            "end": 133.28,
+            "word": " can",
+            "probability": 0.99633
+          },
+          {
+            "start": 133.28,
+            "end": 133.52,
+            "word": " find",
+            "probability": 0.99238
+          },
+          {
+            "start": 133.52,
+            "end": 134.06,
+            "word": " everything",
+            "probability": 0.98956
+          },
+          {
+            "start": 134.06,
+            "end": 134.24,
+            "word": " I",
+            "probability": 0.98643
+          },
+          {
+            "start": 134.24,
+            "end": 134.48,
+            "word": " need",
+            "probability": 0.99714
+          }
+        ]
+      },
+      {
+        "start": 134.48,
+        "end": 140.14,
+        "text": "online without having to spend hours in the library. I also use it to download notes and",
+        "words": [
+          {
+            "start": 134.48,
+            "end": 134.86,
+            "word": " online",
+            "probability": 0.98858
+          },
+          {
+            "start": 134.86,
+            "end": 135.22,
+            "word": " without",
+            "probability": 0.99342
+          },
+          {
+            "start": 135.22,
+            "end": 135.58,
+            "word": " having",
+            "probability": 0.99559
+          },
+          {
+            "start": 135.58,
+            "end": 135.72,
+            "word": " to",
+            "probability": 0.99787
+          },
+          {
+            "start": 135.72,
+            "end": 135.94,
+            "word": " spend",
+            "probability": 0.99913
+          },
+          {
+            "start": 135.94,
+            "end": 136.42,
+            "word": " hours",
+            "probability": 0.99368
+          },
+          {
+            "start": 136.42,
+            "end": 136.66,
+            "word": " in",
+            "probability": 0.99745
+          },
+          {
+            "start": 136.66,
+            "end": 136.78,
+            "word": " the",
+            "probability": 0.99558
+          },
+          {
+            "start": 136.78,
+            "end": 137.24,
+            "word": " library.",
+            "probability": 0.9668
+          },
+          {
+            "start": 137.82,
+            "end": 138.3,
+            "word": " I",
+            "probability": 0.99443
+          },
+          {
+            "start": 138.3,
+            "end": 138.52,
+            "word": " also",
+            "probability": 0.98696
+          },
+          {
+            "start": 138.52,
+            "end": 138.74,
+            "word": " use",
+            "probability": 0.99637
+          },
+          {
+            "start": 138.74,
+            "end": 138.92,
+            "word": " it",
+            "probability": 0.99287
+          },
+          {
+            "start": 138.92,
+            "end": 139.06,
+            "word": " to",
+            "probability": 0.99607
+          },
+          {
+            "start": 139.06,
+            "end": 139.42,
+            "word": " download",
+            "probability": 0.99725
+          },
+          {
+            "start": 139.42,
+            "end": 139.96,
+            "word": " notes",
+            "probability": 0.98613
+          },
+          {
+            "start": 139.96,
+            "end": 140.14,
+            "word": " and",
+            "probability": 0.99045
+          }
+        ]
+      },
+      {
+        "start": 140.14,
+        "end": 145.3,
+        "text": "submit my homework. It has really made studying more efficient, and I can work from anywhere,",
+        "words": [
+          {
+            "start": 140.14,
+            "end": 140.44,
+            "word": " submit",
+            "probability": 0.99809
+          },
+          {
+            "start": 140.44,
+            "end": 140.66,
+            "word": " my",
+            "probability": 0.99759
+          },
+          {
+            "start": 140.66,
+            "end": 141.04,
+            "word": " homework.",
+            "probability": 0.97765
+          },
+          {
+            "start": 141.56,
+            "end": 141.92,
+            "word": " It",
+            "probability": 0.99707
+          },
+          {
+            "start": 141.92,
+            "end": 142.04,
+            "word": " has",
+            "probability": 0.99252
+          },
+          {
+            "start": 142.04,
+            "end": 142.34,
+            "word": " really",
+            "probability": 0.97686
+          },
+          {
+            "start": 142.34,
+            "end": 142.54,
+            "word": " made",
+            "probability": 0.99688
+          },
+          {
+            "start": 142.54,
+            "end": 142.96,
+            "word": " studying",
+            "probability": 0.98415
+          },
+          {
+            "start": 142.96,
+            "end": 143.24,
+            "word": " more",
+            "probability": 0.99499
+          },
+          {
+            "start": 143.24,
+            "end": 143.68,
+            "word": " efficient,",
+            "probability": 0.99407
+          },
+          {
+            "start": 144.12,
+            "end": 144.24,
+            "word": " and",
+            "probability": 0.99726
+          },
+          {
+            "start": 144.24,
+            "end": 144.34,
+            "word": " I",
+            "probability": 0.99622
+          },
+          {
+            "start": 144.34,
+            "end": 144.46,
+            "word": " can",
+            "probability": 0.99683
+          },
+          {
+            "start": 144.46,
+            "end": 144.64,
+            "word": " work",
+            "probability": 0.99737
+          },
+          {
+            "start": 144.64,
+            "end": 144.86,
+            "word": " from",
+            "probability": 0.98762
+          },
+          {
+            "start": 144.86,
+            "end": 145.3,
+            "word": " anywhere,",
+            "probability": 0.99372
+          }
+        ]
+      },
+      {
+        "start": 145.3,
+        "end": 147.3,
+        "text": "whether it's at home or on the go.",
+        "words": [
+          {
+            "start": 145.3,
+            "end": 145.82,
+            "word": " whether",
+            "probability": 0.57122
+          },
+          {
+            "start": 145.82,
+            "end": 146.04,
+            "word": " it's",
+            "probability": 0.97094
+          },
+          {
+            "start": 146.04,
+            "end": 146.14,
+            "word": " at",
+            "probability": 0.99573
+          },
+          {
+            "start": 146.14,
+            "end": 146.38,
+            "word": " home",
+            "probability": 0.99272
+          },
+          {
+            "start": 146.38,
+            "end": 146.82,
+            "word": " or",
+            "probability": 0.94339
+          },
+          {
+            "start": 146.82,
+            "end": 147.0,
+            "word": " on",
+            "probability": 0.99617
+          },
+          {
+            "start": 147.0,
+            "end": 147.1,
+            "word": " the",
+            "probability": 0.95121
+          },
+          {
+            "start": 147.1,
+            "end": 147.3,
+            "word": " go.",
+            "probability": 0.98881
+          }
+        ]
+      },
+      {
+        "start": 150.57,
+        "end": 153.29,
+        "text": "For me, the internet is an essential tool",
+        "words": [
+          {
+            "start": 150.57,
+            "end": 150.83,
+            "word": " For",
+            "probability": 0.99188
+          },
+          {
+            "start": 150.83,
+            "end": 151.09,
+            "word": " me,",
+            "probability": 0.99831
+          },
+          {
+            "start": 151.49,
+            "end": 151.59,
+            "word": " the",
+            "probability": 0.9927
+          },
+          {
+            "start": 151.59,
+            "end": 152.03,
+            "word": " internet",
+            "probability": 0.5429
+          },
+          {
+            "start": 152.03,
+            "end": 152.25,
+            "word": " is",
+            "probability": 0.99722
+          },
+          {
+            "start": 152.25,
+            "end": 152.37,
+            "word": " an",
+            "probability": 0.99462
+          },
+          {
+            "start": 152.37,
+            "end": 152.83,
+            "word": " essential",
+            "probability": 0.99714
+          },
+          {
+            "start": 152.83,
+            "end": 153.29,
+            "word": " tool",
+            "probability": 0.99845
+          }
+        ]
+      },
+      {
+        "start": 153.29,
+        "end": 154.93,
+        "text": "for completing my school assignments.",
+        "words": [
+          {
+            "start": 153.29,
+            "end": 153.51,
+            "word": " for",
+            "probability": 0.99886
+          },
+          {
+            "start": 153.51,
+            "end": 153.93,
+            "word": " completing",
+            "probability": 0.99538
+          },
+          {
+            "start": 153.93,
+            "end": 154.17,
+            "word": " my",
+            "probability": 0.99614
+          },
+          {
+            "start": 154.17,
+            "end": 154.45,
+            "word": " school",
+            "probability": 0.98908
+          },
+          {
+            "start": 154.45,
+            "end": 154.93,
+            "word": " assignments.",
+            "probability": 0.99547
+          }
+        ]
+      },
+      {
+        "start": 155.73,
+        "end": 158.95,
+        "text": "I use it to research information, find articles,",
+        "words": [
+          {
+            "start": 155.73,
+            "end": 155.95,
+            "word": " I",
+            "probability": 0.99669
+          },
+          {
+            "start": 155.95,
+            "end": 156.09,
+            "word": " use",
+            "probability": 0.99799
+          },
+          {
+            "start": 156.09,
+            "end": 156.23,
+            "word": " it",
+            "probability": 0.99793
+          },
+          {
+            "start": 156.23,
+            "end": 156.39,
+            "word": " to",
+            "probability": 0.99829
+          },
+          {
+            "start": 156.39,
+            "end": 156.75,
+            "word": " research",
+            "probability": 0.97726
+          },
+          {
+            "start": 156.75,
+            "end": 157.55,
+            "word": " information,",
+            "probability": 0.99792
+          },
+          {
+            "start": 158.09,
+            "end": 158.45,
+            "word": " find",
+            "probability": 0.99387
+          },
+          {
+            "start": 158.45,
+            "end": 158.95,
+            "word": " articles,",
+            "probability": 0.99828
+          }
+        ]
+      },
+      {
+        "start": 159.45,
+        "end": 161.15,
+        "text": "and access educational websites",
+        "words": [
+          {
+            "start": 159.45,
+            "end": 159.55,
+            "word": " and",
+            "probability": 0.99566
+          },
+          {
+            "start": 159.55,
+            "end": 159.91,
+            "word": " access",
+            "probability": 0.99781
+          },
+          {
+            "start": 159.91,
+            "end": 160.67,
+            "word": " educational",
+            "probability": 0.98572
+          },
+          {
+            "start": 160.67,
+            "end": 161.15,
+            "word": " websites",
+            "probability": 0.98486
+          }
+        ]
+      },
+      {
+        "start": 161.15,
+        "end": 163.21,
+        "text": "that help me understand my subjects better.",
+        "words": [
+          {
+            "start": 161.15,
+            "end": 161.45,
+            "word": " that",
+            "probability": 0.99549
+          },
+          {
+            "start": 161.45,
+            "end": 161.63,
+            "word": " help",
+            "probability": 0.94076
+          },
+          {
+            "start": 161.63,
+            "end": 161.81,
+            "word": " me",
+            "probability": 0.99851
+          },
+          {
+            "start": 161.81,
+            "end": 162.25,
+            "word": " understand",
+            "probability": 0.99323
+          },
+          {
+            "start": 162.25,
+            "end": 162.45,
+            "word": " my",
+            "probability": 0.99857
+          },
+          {
+            "start": 162.45,
+            "end": 162.77,
+            "word": " subjects",
+            "probability": 0.97589
+          },
+          {
+            "start": 162.77,
+            "end": 163.21,
+            "word": " better.",
+            "probability": 0.99896
+          }
+        ]
+      },
+      {
+        "start": 164.14,
+        "end": 167.36,
+        "text": "It's so convenient because I can find everything I need online",
+        "words": [
+          {
+            "start": 164.14,
+            "end": 164.46,
+            "word": " It's",
+            "probability": 0.9827
+          },
+          {
+            "start": 164.46,
+            "end": 164.64,
+            "word": " so",
+            "probability": 0.9968
+          },
+          {
+            "start": 164.64,
+            "end": 165.16,
+            "word": " convenient",
+            "probability": 0.99943
+          },
+          {
+            "start": 165.16,
+            "end": 165.5,
+            "word": " because",
+            "probability": 0.92948
+          },
+          {
+            "start": 165.5,
+            "end": 165.64,
+            "word": " I",
+            "probability": 0.99732
+          },
+          {
+            "start": 165.64,
+            "end": 165.76,
+            "word": " can",
+            "probability": 0.99863
+          },
+          {
+            "start": 165.76,
+            "end": 166.0,
+            "word": " find",
+            "probability": 0.99577
+          },
+          {
+            "start": 166.0,
+            "end": 166.54,
+            "word": " everything",
+            "probability": 0.99333
+          },
+          {
+            "start": 166.54,
+            "end": 166.72,
+            "word": " I",
+            "probability": 0.99194
+          },
+          {
+            "start": 166.72,
+            "end": 166.94,
+            "word": " need",
+            "probability": 0.99817
+          },
+          {
+            "start": 166.94,
+            "end": 167.36,
+            "word": " online",
+            "probability": 0.9893
+          }
+        ]
+      },
+      {
+        "start": 167.36,
+        "end": 169.68,
+        "text": "without having to spend hours in the library.",
+        "words": [
+          {
+            "start": 167.36,
+            "end": 167.7,
+            "word": " without",
+            "probability": 0.96685
+          },
+          {
+            "start": 167.7,
+            "end": 168.06,
+            "word": " having",
+            "probability": 0.99727
+          },
+          {
+            "start": 168.06,
+            "end": 168.2,
+            "word": " to",
+            "probability": 0.99973
+          },
+          {
+            "start": 168.2,
+            "end": 168.4,
+            "word": " spend",
+            "probability": 0.99924
+          },
+          {
+            "start": 168.4,
+            "end": 168.9,
+            "word": " hours",
+            "probability": 0.99686
+          },
+          {
+            "start": 168.9,
+            "end": 169.14,
+            "word": " in",
+            "probability": 0.9988
+          },
+          {
+            "start": 169.14,
+            "end": 169.24,
+            "word": " the",
+            "probability": 0.99753
+          },
+          {
+            "start": 169.24,
+            "end": 169.68,
+            "word": " library.",
+            "probability": 0.9908
+          }
+        ]
+      },
+      {
+        "start": 170.34,
+        "end": 173.54,
+        "text": "I also use it to download notes and submit my homework.",
+        "words": [
+          {
+            "start": 170.34,
+            "end": 170.78,
+            "word": " I",
+            "probability": 0.99895
+          },
+          {
+            "start": 170.78,
+            "end": 171.0,
+            "word": " also",
+            "probability": 0.99325
+          },
+          {
+            "start": 171.0,
+            "end": 171.22,
+            "word": " use",
+            "probability": 0.99611
+          },
+          {
+            "start": 171.22,
+            "end": 171.4,
+            "word": " it",
+            "probability": 0.99598
+          },
+          {
+            "start": 171.4,
+            "end": 171.54,
+            "word": " to",
+            "probability": 0.99887
+          },
+          {
+            "start": 171.54,
+            "end": 171.9,
+            "word": " download",
+            "probability": 0.99749
+          },
+          {
+            "start": 171.9,
+            "end": 172.42,
+            "word": " notes",
+            "probability": 0.991
+          },
+          {
+            "start": 172.42,
+            "end": 172.62,
+            "word": " and",
+            "probability": 0.98772
+          },
+          {
+            "start": 172.62,
+            "end": 172.92,
+            "word": " submit",
+            "probability": 0.99835
+          },
+          {
+            "start": 172.92,
+            "end": 173.12,
+            "word": " my",
+            "probability": 0.99879
+          },
+          {
+            "start": 173.12,
+            "end": 173.54,
+            "word": " homework.",
+            "probability": 0.98855
+          }
+        ]
+      },
+      {
+        "start": 174.2,
+        "end": 176.16,
+        "text": "It has really made studying more efficient,",
+        "words": [
+          {
+            "start": 174.2,
+            "end": 174.4,
+            "word": " It",
+            "probability": 0.99611
+          },
+          {
+            "start": 174.4,
+            "end": 174.52,
+            "word": " has",
+            "probability": 0.99536
+          },
+          {
+            "start": 174.52,
+            "end": 174.78,
+            "word": " really",
+            "probability": 0.99013
+          },
+          {
+            "start": 174.78,
+            "end": 175.02,
+            "word": " made",
+            "probability": 0.99684
+          },
+          {
+            "start": 175.02,
+            "end": 175.42,
+            "word": " studying",
+            "probability": 0.99124
+          },
+          {
+            "start": 175.42,
+            "end": 175.72,
+            "word": " more",
+            "probability": 0.99632
+          },
+          {
+            "start": 175.72,
+            "end": 176.16,
+            "word": " efficient,",
+            "probability": 0.99548
+          }
+        ]
+      },
+      {
+        "start": 176.16,
+        "end": 179.78,
+        "text": "and I can work from anywhere, whether it's at home or on the go.",
+        "words": [
+          {
+            "start": 176.16,
+            "end": 176.7,
+            "word": " and",
+            "probability": 0.46713
+          },
+          {
+            "start": 176.7,
+            "end": 176.8,
+            "word": " I",
+            "probability": 0.96087
+          },
+          {
+            "start": 176.8,
+            "end": 176.94,
+            "word": " can",
+            "probability": 0.99043
+          },
+          {
+            "start": 176.94,
+            "end": 177.12,
+            "word": " work",
+            "probability": 0.99337
+          },
+          {
+            "start": 177.12,
+            "end": 177.34,
+            "word": " from",
+            "probability": 0.98502
+          },
+          {
+            "start": 177.34,
+            "end": 177.78,
+            "word": " anywhere,",
+            "probability": 0.98951
+          },
+          {
+            "start": 178.06,
+            "end": 178.3,
+            "word": " whether",
+            "probability": 0.99018
+          },
+          {
+            "start": 178.3,
+            "end": 178.5,
+            "word": " it's",
+            "probability": 0.97328
+          },
+          {
+            "start": 178.5,
+            "end": 178.6,
+            "word": " at",
+            "probability": 0.99718
+          },
+          {
+            "start": 178.6,
+            "end": 178.88,
+            "word": " home",
+            "probability": 0.99923
+          },
+          {
+            "start": 178.88,
+            "end": 179.3,
+            "word": " or",
+            "probability": 0.94456
+          },
+          {
+            "start": 179.3,
+            "end": 179.48,
+            "word": " on",
+            "probability": 0.99552
+          },
+          {
+            "start": 179.48,
+            "end": 179.58,
+            "word": " the",
+            "probability": 0.96926
+          },
+          {
+            "start": 179.58,
+            "end": 179.78,
+            "word": " go.",
+            "probability": 0.99084
+          }
+        ]
+      },
+      {
+        "start": 181.82,
+        "end": 184.08,
+        "text": "Whenever I need to plan a trip or get somewhere,",
+        "words": [
+          {
+            "start": 181.82,
+            "end": 182.02,
+            "word": " Whenever",
+            "probability": 0.92582
+          },
+          {
+            "start": 182.02,
+            "end": 182.34,
+            "word": " I",
+            "probability": 0.99558
+          },
+          {
+            "start": 182.34,
+            "end": 182.5,
+            "word": " need",
+            "probability": 0.99714
+          },
+          {
+            "start": 182.5,
+            "end": 182.64,
+            "word": " to",
+            "probability": 0.99694
+          },
+          {
+            "start": 182.64,
+            "end": 182.86,
+            "word": " plan",
+            "probability": 0.96994
+          },
+          {
+            "start": 182.86,
+            "end": 182.98,
+            "word": " a",
+            "probability": 0.99809
+          },
+          {
+            "start": 182.98,
+            "end": 183.18,
+            "word": " trip",
+            "probability": 0.99954
+          },
+          {
+            "start": 183.18,
+            "end": 183.44,
+            "word": " or",
+            "probability": 0.96576
+          },
+          {
+            "start": 183.44,
+            "end": 183.64,
+            "word": " get",
+            "probability": 0.99477
+          },
+          {
+            "start": 183.64,
+            "end": 184.08,
+            "word": " somewhere,",
+            "probability": 0.97686
+          }
+        ]
+      },
+      {
+        "start": 184.68,
+        "end": 187.42,
+        "text": "I always use the Internet to find transportation details.",
+        "words": [
+          {
+            "start": 184.68,
+            "end": 184.74,
+            "word": " I",
+            "probability": 0.99818
+          },
+          {
+            "start": 184.74,
+            "end": 185.02,
+            "word": " always",
+            "probability": 0.99017
+          },
+          {
+            "start": 185.02,
+            "end": 185.26,
+            "word": " use",
+            "probability": 0.99588
+          },
+          {
+            "start": 185.26,
+            "end": 185.44,
+            "word": " the",
+            "probability": 0.99584
+          },
+          {
+            "start": 185.44,
+            "end": 185.82,
+            "word": " Internet",
+            "probability": 0.33452
+          },
+          {
+            "start": 185.82,
+            "end": 186.06,
+            "word": " to",
+            "probability": 0.99803
+          },
+          {
+            "start": 186.06,
+            "end": 186.24,
+            "word": " find",
+            "probability": 0.99776
+          },
+          {
+            "start": 186.24,
+            "end": 186.98,
+            "word": " transportation",
+            "probability": 0.99505
+          },
+          {
+            "start": 186.98,
+            "end": 187.42,
+            "word": " details.",
+            "probability": 0.99803
+          }
+        ]
+      },
+      {
+        "start": 188.06,
+        "end": 191.94,
+        "text": "I can check train schedules, bus routes, and even look up flights.",
+        "words": [
+          {
+            "start": 188.06,
+            "end": 188.54,
+            "word": " I",
+            "probability": 0.9982
+          },
+          {
+            "start": 188.54,
+            "end": 188.68,
+            "word": " can",
+            "probability": 0.99697
+          },
+          {
+            "start": 188.68,
+            "end": 188.86,
+            "word": " check",
+            "probability": 0.99704
+          },
+          {
+            "start": 188.86,
+            "end": 189.2,
+            "word": " train",
+            "probability": 0.92069
+          },
+          {
+            "start": 189.2,
+            "end": 189.68,
+            "word": " schedules,",
+            "probability": 0.99266
+          },
+          {
+            "start": 190.12,
+            "end": 190.22,
+            "word": " bus",
+            "probability": 0.99587
+          },
+          {
+            "start": 190.22,
+            "end": 190.54,
+            "word": " routes,",
+            "probability": 0.99473
+          },
+          {
+            "start": 190.98,
+            "end": 191.08,
+            "word": " and",
+            "probability": 0.99326
+          },
+          {
+            "start": 191.08,
+            "end": 191.32,
+            "word": " even",
+            "probability": 0.99431
+          },
+          {
+            "start": 191.32,
+            "end": 191.5,
+            "word": " look",
+            "probability": 0.99326
+          },
+          {
+            "start": 191.5,
+            "end": 191.62,
+            "word": " up",
+            "probability": 0.56988
+          },
+          {
+            "start": 191.62,
+            "end": 191.94,
+            "word": " flights.",
+            "probability": 0.99151
+          }
+        ]
+      },
+      {
+        "start": 192.78,
+        "end": 197.14,
+        "text": "It helps me figure out the best way to travel, and I can even buy tickets online.",
+        "words": [
+          {
+            "start": 192.78,
+            "end": 192.98,
+            "word": " It",
+            "probability": 0.99636
+          },
+          {
+            "start": 192.98,
+            "end": 193.18,
+            "word": " helps",
+            "probability": 0.99797
+          },
+          {
+            "start": 193.18,
+            "end": 193.4,
+            "word": " me",
+            "probability": 0.99815
+          },
+          {
+            "start": 193.4,
+            "end": 193.7,
+            "word": " figure",
+            "probability": 0.99543
+          },
+          {
+            "start": 193.7,
+            "end": 193.88,
+            "word": " out",
+            "probability": 0.99826
+          },
+          {
+            "start": 193.88,
+            "end": 194.04,
+            "word": " the",
+            "probability": 0.99721
+          },
+          {
+            "start": 194.04,
+            "end": 194.28,
+            "word": " best",
+            "probability": 0.99848
+          },
+          {
+            "start": 194.28,
+            "end": 194.46,
+            "word": " way",
+            "probability": 0.99679
+          },
+          {
+            "start": 194.46,
+            "end": 194.56,
+            "word": " to",
+            "probability": 0.99882
+          },
+          {
+            "start": 194.56,
+            "end": 194.94,
+            "word": " travel,",
+            "probability": 0.99948
+          },
+          {
+            "start": 195.4,
+            "end": 195.52,
+            "word": " and",
+            "probability": 0.99713
+          },
+          {
+            "start": 195.52,
+            "end": 195.6,
+            "word": " I",
+            "probability": 0.99065
+          },
+          {
+            "start": 195.6,
+            "end": 195.74,
+            "word": " can",
+            "probability": 0.99838
+          },
+          {
+            "start": 195.74,
+            "end": 196.02,
+            "word": " even",
+            "probability": 0.98972
+          },
+          {
+            "start": 196.02,
+            "end": 196.24,
+            "word": " buy",
+            "probability": 0.99652
+          },
+          {
+            "start": 196.24,
+            "end": 196.62,
+            "word": " tickets",
+            "probability": 0.99395
+          },
+          {
+            "start": 196.62,
+            "end": 197.14,
+            "word": " online.",
+            "probability": 0.99134
+          }
+        ]
+      },
+      {
+        "start": 198.18,
+        "end": 201.9,
+        "text": "I like how I can get real-time updates about delays or changes.",
+        "words": [
+          {
+            "start": 198.18,
+            "end": 198.66,
+            "word": " I",
+            "probability": 0.99903
+          },
+          {
+            "start": 198.66,
+            "end": 198.84,
+            "word": " like",
+            "probability": 0.99731
+          },
+          {
+            "start": 198.84,
+            "end": 199.08,
+            "word": " how",
+            "probability": 0.99878
+          },
+          {
+            "start": 199.08,
+            "end": 199.22,
+            "word": " I",
+            "probability": 0.99854
+          },
+          {
+            "start": 199.22,
+            "end": 199.36,
+            "word": " can",
+            "probability": 0.99371
+          },
+          {
+            "start": 199.36,
+            "end": 199.5,
+            "word": " get",
+            "probability": 0.99613
+          },
+          {
+            "start": 199.5,
+            "end": 199.74,
+            "word": " real",
+            "probability": 0.99502
+          },
+          {
+            "start": 199.74,
+            "end": 200.02,
+            "word": "-time",
+            "probability": 0.77522
+          },
+          {
+            "start": 200.02,
+            "end": 200.48,
+            "word": " updates",
+            "probability": 0.99924
+          },
+          {
+            "start": 200.48,
+            "end": 200.8,
+            "word": " about",
+            "probability": 0.99859
+          },
+          {
+            "start": 200.8,
+            "end": 201.14,
+            "word": " delays",
+            "probability": 0.99906
+          },
+          {
+            "start": 201.14,
+            "end": 201.48,
+            "word": " or",
+            "probability": 0.99247
+          },
+          {
+            "start": 201.48,
+            "end": 201.9,
+            "word": " changes.",
+            "probability": 0.99795
+          }
+        ]
+      },
+      {
+        "start": 202.52,
+        "end": 207.64,
+        "text": "It makes traveling much easier and saves me the hassle of standing in line at stations or airports.",
+        "words": [
+          {
+            "start": 202.52,
+            "end": 202.78,
+            "word": " It",
+            "probability": 0.99717
+          },
+          {
+            "start": 202.78,
+            "end": 202.94,
+            "word": " makes",
+            "probability": 0.99709
+          },
+          {
+            "start": 202.94,
+            "end": 203.38,
+            "word": " traveling",
+            "probability": 0.92693
+          },
+          {
+            "start": 203.38,
+            "end": 203.68,
+            "word": " much",
+            "probability": 0.99842
+          },
+          {
+            "start": 203.68,
+            "end": 204.2,
+            "word": " easier",
+            "probability": 0.99547
+          },
+          {
+            "start": 204.2,
+            "end": 204.56,
+            "word": " and",
+            "probability": 0.77022
+          },
+          {
+            "start": 204.56,
+            "end": 204.86,
+            "word": " saves",
+            "probability": 0.99888
+          },
+          {
+            "start": 204.86,
+            "end": 205.08,
+            "word": " me",
+            "probability": 0.9932
+          },
+          {
+            "start": 205.08,
+            "end": 205.24,
+            "word": " the",
+            "probability": 0.99873
+          },
+          {
+            "start": 205.24,
+            "end": 205.54,
+            "word": " hassle",
+            "probability": 0.99506
+          },
+          {
+            "start": 205.54,
+            "end": 205.72,
+            "word": " of",
+            "probability": 0.99746
+          },
+          {
+            "start": 205.72,
+            "end": 206.04,
+            "word": " standing",
+            "probability": 0.98855
+          },
+          {
+            "start": 206.04,
+            "end": 206.24,
+            "word": " in",
+            "probability": 0.97991
+          },
+          {
+            "start": 206.24,
+            "end": 206.42,
+            "word": " line",
+            "probability": 0.99805
+          },
+          {
+            "start": 206.42,
+            "end": 206.6,
+            "word": " at",
+            "probability": 0.99652
+          },
+          {
+            "start": 206.6,
+            "end": 206.98,
+            "word": " stations",
+            "probability": 0.984
+          },
+          {
+            "start": 206.98,
+            "end": 207.28,
+            "word": " or",
+            "probability": 0.98619
+          },
+          {
+            "start": 207.28,
+            "end": 207.64,
+            "word": " airports.",
+            "probability": 0.98741
+          }
+        ]
+      },
+      {
+        "start": 207.64,
+        "end": 216.4,
+        "text": "reports. Whenever I need to plan a trip or get somewhere, I always use the internet",
+        "words": [
+          {
+            "start": 207.64,
+            "end": 207.88,
+            "word": " reports.",
+            "probability": 0.01248
+          },
+          {
+            "start": 212.3,
+            "end": 212.62,
+            "word": " Whenever",
+            "probability": 0.98783
+          },
+          {
+            "start": 212.62,
+            "end": 212.92,
+            "word": " I",
+            "probability": 0.9831
+          },
+          {
+            "start": 212.92,
+            "end": 213.08,
+            "word": " need",
+            "probability": 0.99125
+          },
+          {
+            "start": 213.08,
+            "end": 213.22,
+            "word": " to",
+            "probability": 0.99762
+          },
+          {
+            "start": 213.22,
+            "end": 213.42,
+            "word": " plan",
+            "probability": 0.95802
+          },
+          {
+            "start": 213.42,
+            "end": 213.56,
+            "word": " a",
+            "probability": 0.99737
+          },
+          {
+            "start": 213.56,
+            "end": 213.76,
+            "word": " trip",
+            "probability": 0.99919
+          },
+          {
+            "start": 213.76,
+            "end": 214.02,
+            "word": " or",
+            "probability": 0.94312
+          },
+          {
+            "start": 214.02,
+            "end": 214.22,
+            "word": " get",
+            "probability": 0.99129
+          },
+          {
+            "start": 214.22,
+            "end": 214.66,
+            "word": " somewhere,",
+            "probability": 0.9671
+          },
+          {
+            "start": 215.26,
+            "end": 215.32,
+            "word": " I",
+            "probability": 0.99774
+          },
+          {
+            "start": 215.32,
+            "end": 215.6,
+            "word": " always",
+            "probability": 0.98338
+          },
+          {
+            "start": 215.6,
+            "end": 215.86,
+            "word": " use",
+            "probability": 0.99227
+          },
+          {
+            "start": 215.86,
+            "end": 216.04,
+            "word": " the",
+            "probability": 0.99437
+          },
+          {
+            "start": 216.04,
+            "end": 216.4,
+            "word": " internet",
+            "probability": 0.68855
+          }
+        ]
+      },
+      {
+        "start": 216.4,
+        "end": 222.08,
+        "text": "to find transportation details. I can check train schedules, bus routes, and even look",
+        "words": [
+          {
+            "start": 216.4,
+            "end": 216.64,
+            "word": " to",
+            "probability": 0.99792
+          },
+          {
+            "start": 216.64,
+            "end": 216.82,
+            "word": " find",
+            "probability": 0.99458
+          },
+          {
+            "start": 216.82,
+            "end": 217.56,
+            "word": " transportation",
+            "probability": 0.99601
+          },
+          {
+            "start": 217.56,
+            "end": 218.02,
+            "word": " details.",
+            "probability": 0.99652
+          },
+          {
+            "start": 218.86,
+            "end": 219.12,
+            "word": " I",
+            "probability": 0.99742
+          },
+          {
+            "start": 219.12,
+            "end": 219.26,
+            "word": " can",
+            "probability": 0.9913
+          },
+          {
+            "start": 219.26,
+            "end": 219.46,
+            "word": " check",
+            "probability": 0.99618
+          },
+          {
+            "start": 219.46,
+            "end": 219.78,
+            "word": " train",
+            "probability": 0.91687
+          },
+          {
+            "start": 219.78,
+            "end": 220.26,
+            "word": " schedules,",
+            "probability": 0.99045
+          },
+          {
+            "start": 220.7,
+            "end": 220.8,
+            "word": " bus",
+            "probability": 0.99545
+          },
+          {
+            "start": 220.8,
+            "end": 221.12,
+            "word": " routes,",
+            "probability": 0.99316
+          },
+          {
+            "start": 221.58,
+            "end": 221.66,
+            "word": " and",
+            "probability": 0.97517
+          },
+          {
+            "start": 221.66,
+            "end": 221.9,
+            "word": " even",
+            "probability": 0.99293
+          },
+          {
+            "start": 221.9,
+            "end": 222.08,
+            "word": " look",
+            "probability": 0.99284
+          }
+        ]
+      },
+      {
+        "start": 222.08,
+        "end": 227.68,
+        "text": "up flights. It helps me figure out the best way to travel, and I can even buy tickets online.",
+        "words": [
+          {
+            "start": 222.08,
+            "end": 222.2,
+            "word": " up",
+            "probability": 0.75603
+          },
+          {
+            "start": 222.2,
+            "end": 222.52,
+            "word": " flights.",
+            "probability": 0.98868
+          },
+          {
+            "start": 223.38,
+            "end": 223.56,
+            "word": " It",
+            "probability": 0.99484
+          },
+          {
+            "start": 223.56,
+            "end": 223.76,
+            "word": " helps",
+            "probability": 0.997
+          },
+          {
+            "start": 223.76,
+            "end": 223.98,
+            "word": " me",
+            "probability": 0.99664
+          },
+          {
+            "start": 223.98,
+            "end": 224.28,
+            "word": " figure",
+            "probability": 0.99238
+          },
+          {
+            "start": 224.28,
+            "end": 224.46,
+            "word": " out",
+            "probability": 0.99627
+          },
+          {
+            "start": 224.46,
+            "end": 224.62,
+            "word": " the",
+            "probability": 0.99606
+          },
+          {
+            "start": 224.62,
+            "end": 224.84,
+            "word": " best",
+            "probability": 0.99816
+          },
+          {
+            "start": 224.84,
+            "end": 225.04,
+            "word": " way",
+            "probability": 0.99634
+          },
+          {
+            "start": 225.04,
+            "end": 225.14,
+            "word": " to",
+            "probability": 0.99803
+          },
+          {
+            "start": 225.14,
+            "end": 225.52,
+            "word": " travel,",
+            "probability": 0.99943
+          },
+          {
+            "start": 225.98,
+            "end": 226.1,
+            "word": " and",
+            "probability": 0.99637
+          },
+          {
+            "start": 226.1,
+            "end": 226.18,
+            "word": " I",
+            "probability": 0.99191
+          },
+          {
+            "start": 226.18,
+            "end": 226.3,
+            "word": " can",
+            "probability": 0.99671
+          },
+          {
+            "start": 226.3,
+            "end": 226.6,
+            "word": " even",
+            "probability": 0.99425
+          },
+          {
+            "start": 226.6,
+            "end": 226.82,
+            "word": " buy",
+            "probability": 0.99385
+          },
+          {
+            "start": 226.82,
+            "end": 227.2,
+            "word": " tickets",
+            "probability": 0.98808
+          },
+          {
+            "start": 227.2,
+            "end": 227.68,
+            "word": " online.",
+            "probability": 0.99397
+          }
+        ]
+      },
+      {
+        "start": 228.89,
+        "end": 234.77,
+        "text": "I like how I can get real-time updates about delays or changes. It makes traveling much easier",
+        "words": [
+          {
+            "start": 228.89,
+            "end": 229.25,
+            "word": " I",
+            "probability": 0.99747
+          },
+          {
+            "start": 229.25,
+            "end": 229.41,
+            "word": " like",
+            "probability": 0.99531
+          },
+          {
+            "start": 229.41,
+            "end": 229.65,
+            "word": " how",
+            "probability": 0.99908
+          },
+          {
+            "start": 229.65,
+            "end": 229.79,
+            "word": " I",
+            "probability": 0.99811
+          },
+          {
+            "start": 229.79,
+            "end": 229.93,
+            "word": " can",
+            "probability": 0.98861
+          },
+          {
+            "start": 229.93,
+            "end": 230.07,
+            "word": " get",
+            "probability": 0.99609
+          },
+          {
+            "start": 230.07,
+            "end": 230.31,
+            "word": " real",
+            "probability": 0.99225
+          },
+          {
+            "start": 230.31,
+            "end": 230.59,
+            "word": "-time",
+            "probability": 0.77102
+          },
+          {
+            "start": 230.59,
+            "end": 231.01,
+            "word": " updates",
+            "probability": 0.99913
+          },
+          {
+            "start": 231.01,
+            "end": 231.37,
+            "word": " about",
+            "probability": 0.99676
+          },
+          {
+            "start": 231.37,
+            "end": 231.75,
+            "word": " delays",
+            "probability": 0.99893
+          },
+          {
+            "start": 231.75,
+            "end": 232.05,
+            "word": " or",
+            "probability": 0.98259
+          },
+          {
+            "start": 232.05,
+            "end": 232.47,
+            "word": " changes.",
+            "probability": 0.99755
+          },
+          {
+            "start": 233.13,
+            "end": 233.37,
+            "word": " It",
+            "probability": 0.99696
+          },
+          {
+            "start": 233.37,
+            "end": 233.53,
+            "word": " makes",
+            "probability": 0.99651
+          },
+          {
+            "start": 233.53,
+            "end": 233.95,
+            "word": " traveling",
+            "probability": 0.91001
+          },
+          {
+            "start": 233.95,
+            "end": 234.27,
+            "word": " much",
+            "probability": 0.99581
+          },
+          {
+            "start": 234.27,
+            "end": 234.77,
+            "word": " easier",
+            "probability": 0.99583
+          }
+        ]
+      },
+      {
+        "start": 234.77,
+        "end": 238.23,
+        "text": "and saves me the hassle of standing in line at stations or airports.",
+        "words": [
+          {
+            "start": 234.77,
+            "end": 235.13,
+            "word": " and",
+            "probability": 0.78276
+          },
+          {
+            "start": 235.13,
+            "end": 235.45,
+            "word": " saves",
+            "probability": 0.99152
+          },
+          {
+            "start": 235.45,
+            "end": 235.67,
+            "word": " me",
+            "probability": 0.99286
+          },
+          {
+            "start": 235.67,
+            "end": 235.79,
+            "word": " the",
+            "probability": 0.99759
+          },
+          {
+            "start": 235.79,
+            "end": 236.11,
+            "word": " hassle",
+            "probability": 0.98564
+          },
+          {
+            "start": 236.11,
+            "end": 236.31,
+            "word": " of",
+            "probability": 0.99728
+          },
+          {
+            "start": 236.31,
+            "end": 236.63,
+            "word": " standing",
+            "probability": 0.99315
+          },
+          {
+            "start": 236.63,
+            "end": 236.83,
+            "word": " in",
+            "probability": 0.98029
+          },
+          {
+            "start": 236.83,
+            "end": 237.03,
+            "word": " line",
+            "probability": 0.99752
+          },
+          {
+            "start": 237.03,
+            "end": 237.19,
+            "word": " at",
+            "probability": 0.99421
+          },
+          {
+            "start": 237.19,
+            "end": 237.55,
+            "word": " stations",
+            "probability": 0.95504
+          },
+          {
+            "start": 237.55,
+            "end": 237.85,
+            "word": " or",
+            "probability": 0.98512
+          },
+          {
+            "start": 237.85,
+            "end": 238.23,
+            "word": " airports.",
+            "probability": 0.99595
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-a",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 84,
+            "speechStart": 1.04,
+            "speechEnd": 26.58,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "i spend quite a bit of my free time online mostly because i love watching movies the internet makes it so easy to find a wide variety of films from the latest releases to old classics i can stream them directly on my laptop or tv without needing to go out and buy dvds or rent movies i just pick a film and relax it's the best way to unwind after a long day and i can watch whatever i want whenever i want",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 84,
+            "wordEndIndexExclusive": 169,
+            "speechStart": 26.58,
+            "speechEnd": 54.22,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9941,
+            "transcript": "i spend quite a bit of my free time online mostly because i love watching movies the internet makes it so easy to find a wide variety of films from the latest releases to old classics i can stream them directly on my laptop or tv without needing to go out and buy dvds or rent movies i just pick a film and relax it's the best way to unwind after a long day and i can watch whatever i want whenever i want but",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-b",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 169,
+            "wordEndIndexExclusive": 246,
+            "speechStart": 56.11,
+            "speechEnd": 83.62,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "the main reason i use the internet is to stay in touch with my friends it's great because i can talk to people who live far away without any issues whether it's through social media video calls or messaging apps the internet allows me to communicate easily and quickly my best friend loves using the internet for studying online courses but that's not really for me i prefer just chatting and staying connected through messages and calls",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 246,
+            "wordEndIndexExclusive": 324,
+            "speechStart": 88.96,
+            "speechEnd": 116.37,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9935,
+            "transcript": "the main reason i use the internet is to stay in touch with my friends it's great because i can talk to people who live far away without any issues whether it's through social media video calls or messaging apps the internet allows me to communicate easily and quickly my best friend loves using the internet for studying online courses but that's not really for me i prefer just chatting and staying connected through messages and calls tools",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-c",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 324,
+            "wordEndIndexExclusive": 407,
+            "speechStart": 118.26,
+            "speechEnd": 147.3,
+            "sourceTokenCoverage": 0.988,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.988,
+            "transcript": "for me the internet is an essential tool for completing my school assignments i use it to research information find article and access educational websites that help me understand my subjects better it's so convenient because i can find everything i need online without having to spend hours in the library i also use it to download notes and submit my homework it has really made studying more efficient and i can work from anywhere whether it's at home or on the go",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 407,
+            "wordEndIndexExclusive": 490,
+            "speechStart": 150.57,
+            "speechEnd": 179.78,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "for me the internet is an essential tool for completing my school assignments i use it to research information find articles and access educational websites that help me understand my subjects better it's so convenient because i can find everything i need online without having to spend hours in the library i also use it to download notes and submit my homework it has really made studying more efficient and i can work from anywhere whether it's at home or on the go",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      },
+      {
+        "blockId": "p2-spk-d",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 490,
+            "wordEndIndexExclusive": 570,
+            "speechStart": 181.82,
+            "speechEnd": 207.88,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9937,
+            "transcript": "whenever i need to plan a trip or get somewhere i always use the internet to find transportation details i can check train schedules bus routes and even look up flights it helps me figure out the best way to travel and i can even buy tickets online i like how i can get real time updates about delays or changes it makes traveling much easier and saves me the hassle of standing in line at stations or airports reports",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 570,
+            "wordEndIndexExclusive": 649,
+            "speechStart": 212.3,
+            "speechEnd": 238.23,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "whenever i need to plan a trip or get somewhere i always use the internet to find transportation details i can check train schedules bus routes and even look up flights it helps me figure out the best way to travel and i can even buy tickets online i like how i can get real time updates about delays or changes it makes traveling much easier and saves me the hassle of standing in line at stations or airports",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

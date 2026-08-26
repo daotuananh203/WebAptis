@@ -1,0 +1,357 @@
+{
+  "testId": "aptis-b2-04",
+  "blockId": "p2-spk-b",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-04/part-2/spk-b.mp3",
+  "audioSha256": "0990537c3db6a253d426628170d4cd3e9f65ad95551fa8fa12f8165bfdd83ca3",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.01,
+        "end": 3.13,
+        "text": "Kids are so fearless with art.",
+        "words": [
+          {
+            "start": 1.01,
+            "end": 1.59,
+            "word": " Kids",
+            "probability": 0.86928
+          },
+          {
+            "start": 1.59,
+            "end": 1.79,
+            "word": " are",
+            "probability": 0.99867
+          },
+          {
+            "start": 1.79,
+            "end": 2.05,
+            "word": " so",
+            "probability": 0.99885
+          },
+          {
+            "start": 2.05,
+            "end": 2.55,
+            "word": " fearless",
+            "probability": 0.91883
+          },
+          {
+            "start": 2.55,
+            "end": 2.91,
+            "word": " with",
+            "probability": 0.99644
+          },
+          {
+            "start": 2.91,
+            "end": 3.13,
+            "word": " art.",
+            "probability": 0.9822
+          }
+        ]
+      },
+      {
+        "start": 3.91,
+        "end": 6.57,
+        "text": "They jump in without worrying about mistakes,",
+        "words": [
+          {
+            "start": 3.91,
+            "end": 4.09,
+            "word": " They",
+            "probability": 0.99606
+          },
+          {
+            "start": 4.09,
+            "end": 4.29,
+            "word": " jump",
+            "probability": 0.99709
+          },
+          {
+            "start": 4.29,
+            "end": 4.69,
+            "word": " in",
+            "probability": 0.99108
+          },
+          {
+            "start": 4.69,
+            "end": 5.31,
+            "word": " without",
+            "probability": 0.68009
+          },
+          {
+            "start": 5.31,
+            "end": 5.79,
+            "word": " worrying",
+            "probability": 0.9981
+          },
+          {
+            "start": 5.79,
+            "end": 6.07,
+            "word": " about",
+            "probability": 0.99959
+          },
+          {
+            "start": 6.07,
+            "end": 6.57,
+            "word": " mistakes,",
+            "probability": 0.99918
+          }
+        ]
+      },
+      {
+        "start": 7.15,
+        "end": 9.03,
+        "text": "making everything feel magical.",
+        "words": [
+          {
+            "start": 7.15,
+            "end": 7.51,
+            "word": " making",
+            "probability": 0.99795
+          },
+          {
+            "start": 7.51,
+            "end": 8.13,
+            "word": " everything",
+            "probability": 0.99551
+          },
+          {
+            "start": 8.13,
+            "end": 8.53,
+            "word": " feel",
+            "probability": 0.99844
+          },
+          {
+            "start": 8.53,
+            "end": 9.03,
+            "word": " magical.",
+            "probability": 0.99018
+          }
+        ]
+      },
+      {
+        "start": 10.02,
+        "end": 14.02,
+        "text": "Teaching them is a reminder that creativity should be free and fun.",
+        "words": [
+          {
+            "start": 10.02,
+            "end": 10.3,
+            "word": " Teaching",
+            "probability": 0.9846
+          },
+          {
+            "start": 10.3,
+            "end": 10.6,
+            "word": " them",
+            "probability": 0.99932
+          },
+          {
+            "start": 10.6,
+            "end": 10.92,
+            "word": " is",
+            "probability": 0.99748
+          },
+          {
+            "start": 10.92,
+            "end": 11.04,
+            "word": " a",
+            "probability": 0.99917
+          },
+          {
+            "start": 11.04,
+            "end": 11.44,
+            "word": " reminder",
+            "probability": 0.9981
+          },
+          {
+            "start": 11.44,
+            "end": 11.96,
+            "word": " that",
+            "probability": 0.99569
+          },
+          {
+            "start": 11.96,
+            "end": 12.6,
+            "word": " creativity",
+            "probability": 0.99917
+          },
+          {
+            "start": 12.6,
+            "end": 12.96,
+            "word": " should",
+            "probability": 0.99887
+          },
+          {
+            "start": 12.96,
+            "end": 13.12,
+            "word": " be",
+            "probability": 0.99744
+          },
+          {
+            "start": 13.12,
+            "end": 13.42,
+            "word": " free",
+            "probability": 0.99138
+          },
+          {
+            "start": 13.42,
+            "end": 13.72,
+            "word": " and",
+            "probability": 0.99538
+          },
+          {
+            "start": 13.72,
+            "end": 14.02,
+            "word": " fun.",
+            "probability": 0.99896
+          }
+        ]
+      },
+      {
+        "start": 14.65,
+        "end": 20.83,
+        "text": "They show you that art is as much about play and expression as it is about any rules.",
+        "words": [
+          {
+            "start": 14.65,
+            "end": 15.19,
+            "word": " They",
+            "probability": 0.9949
+          },
+          {
+            "start": 15.19,
+            "end": 15.43,
+            "word": " show",
+            "probability": 0.99853
+          },
+          {
+            "start": 15.43,
+            "end": 15.63,
+            "word": " you",
+            "probability": 0.98333
+          },
+          {
+            "start": 15.63,
+            "end": 15.83,
+            "word": " that",
+            "probability": 0.99858
+          },
+          {
+            "start": 15.83,
+            "end": 16.11,
+            "word": " art",
+            "probability": 0.9953
+          },
+          {
+            "start": 16.11,
+            "end": 16.51,
+            "word": " is",
+            "probability": 0.9967
+          },
+          {
+            "start": 16.51,
+            "end": 16.65,
+            "word": " as",
+            "probability": 0.99849
+          },
+          {
+            "start": 16.65,
+            "end": 16.89,
+            "word": " much",
+            "probability": 0.99949
+          },
+          {
+            "start": 16.89,
+            "end": 17.19,
+            "word": " about",
+            "probability": 0.9981
+          },
+          {
+            "start": 17.19,
+            "end": 17.53,
+            "word": " play",
+            "probability": 0.99325
+          },
+          {
+            "start": 17.53,
+            "end": 17.81,
+            "word": " and",
+            "probability": 0.99543
+          },
+          {
+            "start": 17.81,
+            "end": 18.31,
+            "word": " expression",
+            "probability": 0.99748
+          },
+          {
+            "start": 18.31,
+            "end": 18.91,
+            "word": " as",
+            "probability": 0.99441
+          },
+          {
+            "start": 18.91,
+            "end": 19.09,
+            "word": " it",
+            "probability": 0.99875
+          },
+          {
+            "start": 19.09,
+            "end": 19.37,
+            "word": " is",
+            "probability": 0.99791
+          },
+          {
+            "start": 19.37,
+            "end": 19.73,
+            "word": " about",
+            "probability": 0.99753
+          },
+          {
+            "start": 19.73,
+            "end": 20.19,
+            "word": " any",
+            "probability": 0.98923
+          },
+          {
+            "start": 20.19,
+            "end": 20.83,
+            "word": " rules.",
+            "probability": 0.96506
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-b",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 47,
+            "speechStart": 1.01,
+            "speechEnd": 20.83,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "kids are so fearless with art they jump in without worrying about mistakes making everything feel magical teaching them is a reminder that creativity should be free and fun they show you that art is as much about play and expression as it is about any rules",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

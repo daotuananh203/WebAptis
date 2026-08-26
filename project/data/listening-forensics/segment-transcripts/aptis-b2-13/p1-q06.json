@@ -1,0 +1,695 @@
+{
+  "testId": "aptis-b2-13",
+  "blockId": "p1-q06",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-13/part-1/q06.mp3",
+  "audioSha256": "0111b8997c8886570d7e713abc45d33b4c4089d141cb20fbf507c1671a8b33ec",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 6.22,
+        "text": "Hi there, I'm really thirsty. Can I have a drink, please? I was thinking about getting",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.36,
+            "word": " Hi",
+            "probability": 0.38656
+          },
+          {
+            "start": 1.36,
+            "end": 1.6,
+            "word": " there,",
+            "probability": 0.97465
+          },
+          {
+            "start": 1.92,
+            "end": 2.14,
+            "word": " I'm",
+            "probability": 0.96743
+          },
+          {
+            "start": 2.14,
+            "end": 2.38,
+            "word": " really",
+            "probability": 0.99607
+          },
+          {
+            "start": 2.38,
+            "end": 2.82,
+            "word": " thirsty.",
+            "probability": 0.99805
+          },
+          {
+            "start": 3.48,
+            "end": 3.58,
+            "word": " Can",
+            "probability": 0.69879
+          },
+          {
+            "start": 3.58,
+            "end": 3.66,
+            "word": " I",
+            "probability": 0.99022
+          },
+          {
+            "start": 3.66,
+            "end": 3.78,
+            "word": " have",
+            "probability": 0.99912
+          },
+          {
+            "start": 3.78,
+            "end": 3.86,
+            "word": " a",
+            "probability": 0.99786
+          },
+          {
+            "start": 3.86,
+            "end": 4.04,
+            "word": " drink,",
+            "probability": 0.99143
+          },
+          {
+            "start": 4.32,
+            "end": 4.46,
+            "word": " please?",
+            "probability": 0.9966
+          },
+          {
+            "start": 5.32,
+            "end": 5.4,
+            "word": " I",
+            "probability": 0.87126
+          },
+          {
+            "start": 5.4,
+            "end": 5.52,
+            "word": " was",
+            "probability": 0.99409
+          },
+          {
+            "start": 5.52,
+            "end": 5.72,
+            "word": " thinking",
+            "probability": 0.99744
+          },
+          {
+            "start": 5.72,
+            "end": 6.0,
+            "word": " about",
+            "probability": 0.99692
+          },
+          {
+            "start": 6.0,
+            "end": 6.22,
+            "word": " getting",
+            "probability": 0.99538
+          }
+        ]
+      },
+      {
+        "start": 6.22,
+        "end": 10.92,
+        "text": "a beer, but it's a bit too early for that. Water sounds good, but I'm in the mood for",
+        "words": [
+          {
+            "start": 6.22,
+            "end": 6.4,
+            "word": " a",
+            "probability": 0.9953
+          },
+          {
+            "start": 6.4,
+            "end": 6.64,
+            "word": " beer,",
+            "probability": 0.99512
+          },
+          {
+            "start": 6.94,
+            "end": 7.06,
+            "word": " but",
+            "probability": 0.99658
+          },
+          {
+            "start": 7.06,
+            "end": 7.22,
+            "word": " it's",
+            "probability": 0.98922
+          },
+          {
+            "start": 7.22,
+            "end": 7.28,
+            "word": " a",
+            "probability": 0.99574
+          },
+          {
+            "start": 7.28,
+            "end": 7.36,
+            "word": " bit",
+            "probability": 0.99814
+          },
+          {
+            "start": 7.36,
+            "end": 7.6,
+            "word": " too",
+            "probability": 0.99825
+          },
+          {
+            "start": 7.6,
+            "end": 7.88,
+            "word": " early",
+            "probability": 0.99929
+          },
+          {
+            "start": 7.88,
+            "end": 8.08,
+            "word": " for",
+            "probability": 0.9982
+          },
+          {
+            "start": 8.08,
+            "end": 8.32,
+            "word": " that.",
+            "probability": 0.99869
+          },
+          {
+            "start": 8.92,
+            "end": 9.3,
+            "word": " Water",
+            "probability": 0.47894
+          },
+          {
+            "start": 9.3,
+            "end": 9.6,
+            "word": " sounds",
+            "probability": 0.99793
+          },
+          {
+            "start": 9.6,
+            "end": 9.88,
+            "word": " good,",
+            "probability": 0.99874
+          },
+          {
+            "start": 10.16,
+            "end": 10.32,
+            "word": " but",
+            "probability": 0.99746
+          },
+          {
+            "start": 10.32,
+            "end": 10.48,
+            "word": " I'm",
+            "probability": 0.99641
+          },
+          {
+            "start": 10.48,
+            "end": 10.48,
+            "word": " in",
+            "probability": 0.99967
+          },
+          {
+            "start": 10.48,
+            "end": 10.58,
+            "word": " the",
+            "probability": 0.98887
+          },
+          {
+            "start": 10.58,
+            "end": 10.74,
+            "word": " mood",
+            "probability": 0.99919
+          },
+          {
+            "start": 10.74,
+            "end": 10.92,
+            "word": " for",
+            "probability": 0.99905
+          }
+        ]
+      },
+      {
+        "start": 10.92,
+        "end": 16.16,
+        "text": "something cooler. I'll go with an iced tea, please. That sounds perfect for this weather.",
+        "words": [
+          {
+            "start": 10.92,
+            "end": 11.2,
+            "word": " something",
+            "probability": 0.99808
+          },
+          {
+            "start": 11.2,
+            "end": 11.52,
+            "word": " cooler.",
+            "probability": 0.99534
+          },
+          {
+            "start": 12.38,
+            "end": 12.54,
+            "word": " I'll",
+            "probability": 0.94059
+          },
+          {
+            "start": 12.54,
+            "end": 12.64,
+            "word": " go",
+            "probability": 0.99856
+          },
+          {
+            "start": 12.64,
+            "end": 12.8,
+            "word": " with",
+            "probability": 0.99912
+          },
+          {
+            "start": 12.8,
+            "end": 12.88,
+            "word": " an",
+            "probability": 0.98998
+          },
+          {
+            "start": 12.88,
+            "end": 13.06,
+            "word": " iced",
+            "probability": 0.98325
+          },
+          {
+            "start": 13.06,
+            "end": 13.34,
+            "word": " tea,",
+            "probability": 0.99524
+          },
+          {
+            "start": 13.5,
+            "end": 13.64,
+            "word": " please.",
+            "probability": 0.99896
+          },
+          {
+            "start": 14.52,
+            "end": 14.66,
+            "word": " That",
+            "probability": 0.97438
+          },
+          {
+            "start": 14.66,
+            "end": 14.98,
+            "word": " sounds",
+            "probability": 0.99605
+          },
+          {
+            "start": 14.98,
+            "end": 15.48,
+            "word": " perfect",
+            "probability": 0.99174
+          },
+          {
+            "start": 15.48,
+            "end": 15.74,
+            "word": " for",
+            "probability": 0.99603
+          },
+          {
+            "start": 15.74,
+            "end": 15.92,
+            "word": " this",
+            "probability": 0.99817
+          },
+          {
+            "start": 15.92,
+            "end": 16.16,
+            "word": " weather.",
+            "probability": 0.99842
+          }
+        ]
+      },
+      {
+        "start": 21.84,
+        "end": 26.88,
+        "text": "Hi there, I'm really thirsty. Can I have a drink, please? I was thinking about getting",
+        "words": [
+          {
+            "start": 21.84,
+            "end": 22.04,
+            "word": " Hi",
+            "probability": 0.76245
+          },
+          {
+            "start": 22.04,
+            "end": 22.28,
+            "word": " there,",
+            "probability": 0.99695
+          },
+          {
+            "start": 22.62,
+            "end": 22.82,
+            "word": " I'm",
+            "probability": 0.99781
+          },
+          {
+            "start": 22.82,
+            "end": 23.04,
+            "word": " really",
+            "probability": 0.99835
+          },
+          {
+            "start": 23.04,
+            "end": 23.52,
+            "word": " thirsty.",
+            "probability": 0.99922
+          },
+          {
+            "start": 24.16,
+            "end": 24.24,
+            "word": " Can",
+            "probability": 0.97629
+          },
+          {
+            "start": 24.24,
+            "end": 24.34,
+            "word": " I",
+            "probability": 0.99871
+          },
+          {
+            "start": 24.34,
+            "end": 24.44,
+            "word": " have",
+            "probability": 0.99955
+          },
+          {
+            "start": 24.44,
+            "end": 24.52,
+            "word": " a",
+            "probability": 0.99897
+          },
+          {
+            "start": 24.52,
+            "end": 24.72,
+            "word": " drink,",
+            "probability": 0.99316
+          },
+          {
+            "start": 24.98,
+            "end": 25.14,
+            "word": " please?",
+            "probability": 0.99847
+          },
+          {
+            "start": 25.96,
+            "end": 26.08,
+            "word": " I",
+            "probability": 0.99551
+          },
+          {
+            "start": 26.08,
+            "end": 26.2,
+            "word": " was",
+            "probability": 0.99869
+          },
+          {
+            "start": 26.2,
+            "end": 26.4,
+            "word": " thinking",
+            "probability": 0.99856
+          },
+          {
+            "start": 26.4,
+            "end": 26.68,
+            "word": " about",
+            "probability": 0.99884
+          },
+          {
+            "start": 26.68,
+            "end": 26.88,
+            "word": " getting",
+            "probability": 0.99798
+          }
+        ]
+      },
+      {
+        "start": 26.88,
+        "end": 31.88,
+        "text": "a beer, but it's a bit too early for that. Water sounds good, but I'm in the mood for something",
+        "words": [
+          {
+            "start": 26.88,
+            "end": 27.06,
+            "word": " a",
+            "probability": 0.99841
+          },
+          {
+            "start": 27.06,
+            "end": 27.38,
+            "word": " beer,",
+            "probability": 0.99889
+          },
+          {
+            "start": 27.62,
+            "end": 27.72,
+            "word": " but",
+            "probability": 0.99849
+          },
+          {
+            "start": 27.72,
+            "end": 27.9,
+            "word": " it's",
+            "probability": 0.99838
+          },
+          {
+            "start": 27.9,
+            "end": 27.96,
+            "word": " a",
+            "probability": 0.99585
+          },
+          {
+            "start": 27.96,
+            "end": 28.04,
+            "word": " bit",
+            "probability": 0.99801
+          },
+          {
+            "start": 28.04,
+            "end": 28.28,
+            "word": " too",
+            "probability": 0.99912
+          },
+          {
+            "start": 28.28,
+            "end": 28.56,
+            "word": " early",
+            "probability": 0.99964
+          },
+          {
+            "start": 28.56,
+            "end": 28.74,
+            "word": " for",
+            "probability": 0.99349
+          },
+          {
+            "start": 28.74,
+            "end": 28.92,
+            "word": " that.",
+            "probability": 0.99957
+          },
+          {
+            "start": 29.8,
+            "end": 29.96,
+            "word": " Water",
+            "probability": 0.9712
+          },
+          {
+            "start": 29.96,
+            "end": 30.32,
+            "word": " sounds",
+            "probability": 0.99885
+          },
+          {
+            "start": 30.32,
+            "end": 30.58,
+            "word": " good,",
+            "probability": 0.99957
+          },
+          {
+            "start": 30.84,
+            "end": 30.98,
+            "word": " but",
+            "probability": 0.99827
+          },
+          {
+            "start": 30.98,
+            "end": 31.14,
+            "word": " I'm",
+            "probability": 0.99835
+          },
+          {
+            "start": 31.14,
+            "end": 31.16,
+            "word": " in",
+            "probability": 0.99933
+          },
+          {
+            "start": 31.16,
+            "end": 31.24,
+            "word": " the",
+            "probability": 0.99703
+          },
+          {
+            "start": 31.24,
+            "end": 31.42,
+            "word": " mood",
+            "probability": 0.99972
+          },
+          {
+            "start": 31.42,
+            "end": 31.6,
+            "word": " for",
+            "probability": 0.99934
+          },
+          {
+            "start": 31.6,
+            "end": 31.88,
+            "word": " something",
+            "probability": 0.99886
+          }
+        ]
+      },
+      {
+        "start": 31.88,
+        "end": 36.86,
+        "text": "cooler. I'll go with an iced tea please. That sounds perfect for this weather.",
+        "words": [
+          {
+            "start": 31.88,
+            "end": 32.26,
+            "word": " cooler.",
+            "probability": 0.89709
+          },
+          {
+            "start": 32.98,
+            "end": 33.2,
+            "word": " I'll",
+            "probability": 0.97341
+          },
+          {
+            "start": 33.2,
+            "end": 33.32,
+            "word": " go",
+            "probability": 0.99643
+          },
+          {
+            "start": 33.32,
+            "end": 33.48,
+            "word": " with",
+            "probability": 0.99749
+          },
+          {
+            "start": 33.48,
+            "end": 33.58,
+            "word": " an",
+            "probability": 0.97435
+          },
+          {
+            "start": 33.58,
+            "end": 33.74,
+            "word": " iced",
+            "probability": 0.91968
+          },
+          {
+            "start": 33.74,
+            "end": 34.04,
+            "word": " tea",
+            "probability": 0.95754
+          },
+          {
+            "start": 34.04,
+            "end": 34.3,
+            "word": " please.",
+            "probability": 0.82868
+          },
+          {
+            "start": 35.16,
+            "end": 35.34,
+            "word": " That",
+            "probability": 0.96833
+          },
+          {
+            "start": 35.34,
+            "end": 35.66,
+            "word": " sounds",
+            "probability": 0.99437
+          },
+          {
+            "start": 35.66,
+            "end": 36.16,
+            "word": " perfect",
+            "probability": 0.98082
+          },
+          {
+            "start": 36.16,
+            "end": 36.42,
+            "word": " for",
+            "probability": 0.98511
+          },
+          {
+            "start": 36.42,
+            "end": 36.6,
+            "word": " this",
+            "probability": 0.98609
+          },
+          {
+            "start": 36.6,
+            "end": 36.86,
+            "word": " weather.",
+            "probability": 0.99457
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q06",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 50,
+            "speechStart": 0.88,
+            "speechEnd": 16.16,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi there i'm really thirsty can i have a drink please i was thinking about getting a beer but it's a bit too early for that water sounds good but i'm in the mood for something cooler i'll go with an iced tea please that sounds perfect for this weather",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 50,
+            "wordEndIndexExclusive": 100,
+            "speechStart": 21.84,
+            "speechEnd": 36.86,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi there i'm really thirsty can i have a drink please i was thinking about getting a beer but it's a bit too early for that water sounds good but i'm in the mood for something cooler i'll go with an iced tea please that sounds perfect for this weather",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

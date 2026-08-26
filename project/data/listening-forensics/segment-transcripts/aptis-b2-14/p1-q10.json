@@ -1,0 +1,891 @@
+{
+  "testId": "aptis-b2-14",
+  "blockId": "p1-q10",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-14/part-1/q10.mp3",
+  "audioSha256": "205185f08167120f159789dae1caf406adf917daaa03f558b96ea8e43654ceaf",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.69,
+        "end": 5.31,
+        "text": "Whenever my husband and I want to go out, we always leave our child with the babysitter.",
+        "words": [
+          {
+            "start": 0.69,
+            "end": 1.19,
+            "word": " Whenever",
+            "probability": 0.27199
+          },
+          {
+            "start": 1.19,
+            "end": 1.57,
+            "word": " my",
+            "probability": 0.98505
+          },
+          {
+            "start": 1.57,
+            "end": 1.83,
+            "word": " husband",
+            "probability": 0.99941
+          },
+          {
+            "start": 1.83,
+            "end": 2.07,
+            "word": " and",
+            "probability": 0.99379
+          },
+          {
+            "start": 2.07,
+            "end": 2.19,
+            "word": " I",
+            "probability": 0.99547
+          },
+          {
+            "start": 2.19,
+            "end": 2.41,
+            "word": " want",
+            "probability": 0.99596
+          },
+          {
+            "start": 2.41,
+            "end": 2.57,
+            "word": " to",
+            "probability": 0.99822
+          },
+          {
+            "start": 2.57,
+            "end": 2.73,
+            "word": " go",
+            "probability": 0.99786
+          },
+          {
+            "start": 2.73,
+            "end": 3.01,
+            "word": " out,",
+            "probability": 0.99905
+          },
+          {
+            "start": 3.27,
+            "end": 3.45,
+            "word": " we",
+            "probability": 0.99459
+          },
+          {
+            "start": 3.45,
+            "end": 3.71,
+            "word": " always",
+            "probability": 0.99546
+          },
+          {
+            "start": 3.71,
+            "end": 4.01,
+            "word": " leave",
+            "probability": 0.99594
+          },
+          {
+            "start": 4.01,
+            "end": 4.17,
+            "word": " our",
+            "probability": 0.99705
+          },
+          {
+            "start": 4.17,
+            "end": 4.53,
+            "word": " child",
+            "probability": 0.99223
+          },
+          {
+            "start": 4.53,
+            "end": 4.71,
+            "word": " with",
+            "probability": 0.99514
+          },
+          {
+            "start": 4.71,
+            "end": 4.83,
+            "word": " the",
+            "probability": 0.98545
+          },
+          {
+            "start": 4.83,
+            "end": 5.31,
+            "word": " babysitter.",
+            "probability": 0.91196
+          }
+        ]
+      },
+      {
+        "start": 5.77,
+        "end": 9.01,
+        "text": "She is 21 years old and a responsible college student.",
+        "words": [
+          {
+            "start": 5.77,
+            "end": 6.03,
+            "word": " She",
+            "probability": 0.98785
+          },
+          {
+            "start": 6.03,
+            "end": 6.15,
+            "word": " is",
+            "probability": 0.9837
+          },
+          {
+            "start": 6.15,
+            "end": 6.51,
+            "word": " 21",
+            "probability": 0.94344
+          },
+          {
+            "start": 6.51,
+            "end": 6.95,
+            "word": " years",
+            "probability": 0.94037
+          },
+          {
+            "start": 6.95,
+            "end": 7.31,
+            "word": " old",
+            "probability": 0.98507
+          },
+          {
+            "start": 7.31,
+            "end": 7.57,
+            "word": " and",
+            "probability": 0.97953
+          },
+          {
+            "start": 7.57,
+            "end": 7.65,
+            "word": " a",
+            "probability": 0.99825
+          },
+          {
+            "start": 7.65,
+            "end": 8.11,
+            "word": " responsible",
+            "probability": 0.98323
+          },
+          {
+            "start": 8.11,
+            "end": 8.53,
+            "word": " college",
+            "probability": 0.99078
+          },
+          {
+            "start": 8.53,
+            "end": 9.01,
+            "word": " student.",
+            "probability": 0.99888
+          }
+        ]
+      },
+      {
+        "start": 9.59,
+        "end": 12.99,
+        "text": "I feel very comfortable knowing she takes great care of our child.",
+        "words": [
+          {
+            "start": 9.59,
+            "end": 9.75,
+            "word": " I",
+            "probability": 0.99095
+          },
+          {
+            "start": 9.75,
+            "end": 9.95,
+            "word": " feel",
+            "probability": 0.99939
+          },
+          {
+            "start": 9.95,
+            "end": 10.23,
+            "word": " very",
+            "probability": 0.99773
+          },
+          {
+            "start": 10.23,
+            "end": 10.77,
+            "word": " comfortable",
+            "probability": 0.99877
+          },
+          {
+            "start": 10.77,
+            "end": 11.13,
+            "word": " knowing",
+            "probability": 0.99784
+          },
+          {
+            "start": 11.13,
+            "end": 11.39,
+            "word": " she",
+            "probability": 0.99642
+          },
+          {
+            "start": 11.39,
+            "end": 11.65,
+            "word": " takes",
+            "probability": 0.99665
+          },
+          {
+            "start": 11.65,
+            "end": 11.91,
+            "word": " great",
+            "probability": 0.99706
+          },
+          {
+            "start": 11.91,
+            "end": 12.23,
+            "word": " care",
+            "probability": 0.99975
+          },
+          {
+            "start": 12.23,
+            "end": 12.45,
+            "word": " of",
+            "probability": 0.99947
+          },
+          {
+            "start": 12.45,
+            "end": 12.55,
+            "word": " our",
+            "probability": 0.99781
+          },
+          {
+            "start": 12.55,
+            "end": 12.99,
+            "word": " child.",
+            "probability": 0.99562
+          }
+        ]
+      },
+      {
+        "start": 13.43,
+        "end": 17.01,
+        "text": "She plays with them, helps with homework, and makes sure they are safe.",
+        "words": [
+          {
+            "start": 13.43,
+            "end": 13.65,
+            "word": " She",
+            "probability": 0.99599
+          },
+          {
+            "start": 13.65,
+            "end": 13.91,
+            "word": " plays",
+            "probability": 0.99744
+          },
+          {
+            "start": 13.91,
+            "end": 14.13,
+            "word": " with",
+            "probability": 0.9993
+          },
+          {
+            "start": 14.13,
+            "end": 14.35,
+            "word": " them,",
+            "probability": 0.99836
+          },
+          {
+            "start": 14.67,
+            "end": 14.89,
+            "word": " helps",
+            "probability": 0.9978
+          },
+          {
+            "start": 14.89,
+            "end": 15.11,
+            "word": " with",
+            "probability": 0.99778
+          },
+          {
+            "start": 15.11,
+            "end": 15.45,
+            "word": " homework,",
+            "probability": 0.97152
+          },
+          {
+            "start": 15.77,
+            "end": 15.95,
+            "word": " and",
+            "probability": 0.99654
+          },
+          {
+            "start": 15.95,
+            "end": 16.11,
+            "word": " makes",
+            "probability": 0.99043
+          },
+          {
+            "start": 16.11,
+            "end": 16.41,
+            "word": " sure",
+            "probability": 0.99916
+          },
+          {
+            "start": 16.41,
+            "end": 16.61,
+            "word": " they",
+            "probability": 0.996
+          },
+          {
+            "start": 16.61,
+            "end": 16.71,
+            "word": " are",
+            "probability": 0.99346
+          },
+          {
+            "start": 16.71,
+            "end": 17.01,
+            "word": " safe.",
+            "probability": 0.99957
+          }
+        ]
+      },
+      {
+        "start": 17.57,
+        "end": 20.55,
+        "text": "It really gives us peace of mind to enjoy our time together.",
+        "words": [
+          {
+            "start": 17.57,
+            "end": 17.71,
+            "word": " It",
+            "probability": 0.99518
+          },
+          {
+            "start": 17.71,
+            "end": 18.01,
+            "word": " really",
+            "probability": 0.99002
+          },
+          {
+            "start": 18.01,
+            "end": 18.23,
+            "word": " gives",
+            "probability": 0.99692
+          },
+          {
+            "start": 18.23,
+            "end": 18.39,
+            "word": " us",
+            "probability": 0.98932
+          },
+          {
+            "start": 18.39,
+            "end": 18.59,
+            "word": " peace",
+            "probability": 0.98997
+          },
+          {
+            "start": 18.59,
+            "end": 18.79,
+            "word": " of",
+            "probability": 0.99786
+          },
+          {
+            "start": 18.79,
+            "end": 19.09,
+            "word": " mind",
+            "probability": 0.99966
+          },
+          {
+            "start": 19.09,
+            "end": 19.37,
+            "word": " to",
+            "probability": 0.9935
+          },
+          {
+            "start": 19.37,
+            "end": 19.69,
+            "word": " enjoy",
+            "probability": 0.99779
+          },
+          {
+            "start": 19.69,
+            "end": 19.87,
+            "word": " our",
+            "probability": 0.99718
+          },
+          {
+            "start": 19.87,
+            "end": 20.11,
+            "word": " time",
+            "probability": 0.99914
+          },
+          {
+            "start": 20.11,
+            "end": 20.55,
+            "word": " together.",
+            "probability": 0.9995
+          }
+        ]
+      },
+      {
+        "start": 25.76,
+        "end": 30.12,
+        "text": "Whenever my husband and I want to go out, we always leave our child with the babysitter.",
+        "words": [
+          {
+            "start": 25.76,
+            "end": 26.02,
+            "word": " Whenever",
+            "probability": 0.92286
+          },
+          {
+            "start": 26.02,
+            "end": 26.36,
+            "word": " my",
+            "probability": 0.9988
+          },
+          {
+            "start": 26.36,
+            "end": 26.66,
+            "word": " husband",
+            "probability": 0.99982
+          },
+          {
+            "start": 26.66,
+            "end": 26.86,
+            "word": " and",
+            "probability": 0.99766
+          },
+          {
+            "start": 26.86,
+            "end": 27.04,
+            "word": " I",
+            "probability": 0.99712
+          },
+          {
+            "start": 27.04,
+            "end": 27.22,
+            "word": " want",
+            "probability": 0.99899
+          },
+          {
+            "start": 27.22,
+            "end": 27.38,
+            "word": " to",
+            "probability": 0.99575
+          },
+          {
+            "start": 27.38,
+            "end": 27.52,
+            "word": " go",
+            "probability": 0.99891
+          },
+          {
+            "start": 27.52,
+            "end": 27.84,
+            "word": " out,",
+            "probability": 0.99911
+          },
+          {
+            "start": 28.16,
+            "end": 28.26,
+            "word": " we",
+            "probability": 0.99717
+          },
+          {
+            "start": 28.26,
+            "end": 28.54,
+            "word": " always",
+            "probability": 0.99788
+          },
+          {
+            "start": 28.54,
+            "end": 28.78,
+            "word": " leave",
+            "probability": 0.9992
+          },
+          {
+            "start": 28.78,
+            "end": 28.98,
+            "word": " our",
+            "probability": 0.99756
+          },
+          {
+            "start": 28.98,
+            "end": 29.34,
+            "word": " child",
+            "probability": 0.99572
+          },
+          {
+            "start": 29.34,
+            "end": 29.52,
+            "word": " with",
+            "probability": 0.99829
+          },
+          {
+            "start": 29.52,
+            "end": 29.64,
+            "word": " the",
+            "probability": 0.99782
+          },
+          {
+            "start": 29.64,
+            "end": 30.12,
+            "word": " babysitter.",
+            "probability": 0.98748
+          }
+        ]
+      },
+      {
+        "start": 30.64,
+        "end": 33.9,
+        "text": "She is 21 years old and a responsible college student.",
+        "words": [
+          {
+            "start": 30.64,
+            "end": 30.84,
+            "word": " She",
+            "probability": 0.99332
+          },
+          {
+            "start": 30.84,
+            "end": 30.96,
+            "word": " is",
+            "probability": 0.996
+          },
+          {
+            "start": 30.96,
+            "end": 31.32,
+            "word": " 21",
+            "probability": 0.9925
+          },
+          {
+            "start": 31.32,
+            "end": 31.78,
+            "word": " years",
+            "probability": 0.99279
+          },
+          {
+            "start": 31.78,
+            "end": 32.12,
+            "word": " old",
+            "probability": 0.99805
+          },
+          {
+            "start": 32.12,
+            "end": 32.38,
+            "word": " and",
+            "probability": 0.98954
+          },
+          {
+            "start": 32.38,
+            "end": 32.48,
+            "word": " a",
+            "probability": 0.99899
+          },
+          {
+            "start": 32.48,
+            "end": 32.94,
+            "word": " responsible",
+            "probability": 0.99815
+          },
+          {
+            "start": 32.94,
+            "end": 33.36,
+            "word": " college",
+            "probability": 0.99684
+          },
+          {
+            "start": 33.36,
+            "end": 33.9,
+            "word": " student.",
+            "probability": 0.99922
+          }
+        ]
+      },
+      {
+        "start": 33.9,
+        "end": 37.84,
+        "text": "I feel very comfortable knowing she takes great care of our child.",
+        "words": [
+          {
+            "start": 33.9,
+            "end": 34.54,
+            "word": " I",
+            "probability": 0.68201
+          },
+          {
+            "start": 34.54,
+            "end": 34.78,
+            "word": " feel",
+            "probability": 0.9962
+          },
+          {
+            "start": 34.78,
+            "end": 35.08,
+            "word": " very",
+            "probability": 0.99737
+          },
+          {
+            "start": 35.08,
+            "end": 35.54,
+            "word": " comfortable",
+            "probability": 0.99809
+          },
+          {
+            "start": 35.54,
+            "end": 35.92,
+            "word": " knowing",
+            "probability": 0.99777
+          },
+          {
+            "start": 35.92,
+            "end": 36.2,
+            "word": " she",
+            "probability": 0.99574
+          },
+          {
+            "start": 36.2,
+            "end": 36.46,
+            "word": " takes",
+            "probability": 0.995
+          },
+          {
+            "start": 36.46,
+            "end": 36.72,
+            "word": " great",
+            "probability": 0.99615
+          },
+          {
+            "start": 36.72,
+            "end": 37.06,
+            "word": " care",
+            "probability": 0.99989
+          },
+          {
+            "start": 37.06,
+            "end": 37.26,
+            "word": " of",
+            "probability": 0.99953
+          },
+          {
+            "start": 37.26,
+            "end": 37.36,
+            "word": " our",
+            "probability": 0.99542
+          },
+          {
+            "start": 37.36,
+            "end": 37.84,
+            "word": " child.",
+            "probability": 0.99273
+          }
+        ]
+      },
+      {
+        "start": 38.18,
+        "end": 41.86,
+        "text": "She plays with them, helps with homework, and makes sure they are safe.",
+        "words": [
+          {
+            "start": 38.18,
+            "end": 38.46,
+            "word": " She",
+            "probability": 0.99264
+          },
+          {
+            "start": 38.46,
+            "end": 38.72,
+            "word": " plays",
+            "probability": 0.99627
+          },
+          {
+            "start": 38.72,
+            "end": 38.94,
+            "word": " with",
+            "probability": 0.99889
+          },
+          {
+            "start": 38.94,
+            "end": 39.18,
+            "word": " them,",
+            "probability": 0.99708
+          },
+          {
+            "start": 39.5,
+            "end": 39.7,
+            "word": " helps",
+            "probability": 0.99762
+          },
+          {
+            "start": 39.7,
+            "end": 39.92,
+            "word": " with",
+            "probability": 0.9975
+          },
+          {
+            "start": 39.92,
+            "end": 40.28,
+            "word": " homework,",
+            "probability": 0.963
+          },
+          {
+            "start": 40.62,
+            "end": 40.76,
+            "word": " and",
+            "probability": 0.99741
+          },
+          {
+            "start": 40.76,
+            "end": 40.92,
+            "word": " makes",
+            "probability": 0.98971
+          },
+          {
+            "start": 40.92,
+            "end": 41.22,
+            "word": " sure",
+            "probability": 0.99765
+          },
+          {
+            "start": 41.22,
+            "end": 41.44,
+            "word": " they",
+            "probability": 0.99614
+          },
+          {
+            "start": 41.44,
+            "end": 41.54,
+            "word": " are",
+            "probability": 0.99068
+          },
+          {
+            "start": 41.54,
+            "end": 41.86,
+            "word": " safe.",
+            "probability": 0.99941
+          }
+        ]
+      },
+      {
+        "start": 42.42,
+        "end": 45.38,
+        "text": "It really gives us peace of mind to enjoy our time together.",
+        "words": [
+          {
+            "start": 42.42,
+            "end": 42.52,
+            "word": " It",
+            "probability": 0.98942
+          },
+          {
+            "start": 42.52,
+            "end": 42.82,
+            "word": " really",
+            "probability": 0.99673
+          },
+          {
+            "start": 42.82,
+            "end": 43.04,
+            "word": " gives",
+            "probability": 0.99728
+          },
+          {
+            "start": 43.04,
+            "end": 43.2,
+            "word": " us",
+            "probability": 0.95753
+          },
+          {
+            "start": 43.2,
+            "end": 43.42,
+            "word": " peace",
+            "probability": 0.98348
+          },
+          {
+            "start": 43.42,
+            "end": 43.6,
+            "word": " of",
+            "probability": 0.99792
+          },
+          {
+            "start": 43.6,
+            "end": 43.9,
+            "word": " mind",
+            "probability": 0.99896
+          },
+          {
+            "start": 43.9,
+            "end": 44.2,
+            "word": " to",
+            "probability": 0.99584
+          },
+          {
+            "start": 44.2,
+            "end": 44.5,
+            "word": " enjoy",
+            "probability": 0.99775
+          },
+          {
+            "start": 44.5,
+            "end": 44.7,
+            "word": " our",
+            "probability": 0.99854
+          },
+          {
+            "start": 44.7,
+            "end": 44.94,
+            "word": " time",
+            "probability": 0.99787
+          },
+          {
+            "start": 44.94,
+            "end": 45.38,
+            "word": " together.",
+            "probability": 0.99945
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q10",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 64,
+            "speechStart": 0.69,
+            "speechEnd": 20.55,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "whenever my husband and i want to go out we always leave our child with the babysitter she is 21 years old and a responsible college student i feel very comfortable knowing she takes great care of our child she plays with them helps with homework and makes sure they are safe it really gives us peace of mind to enjoy our time together",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 64,
+            "wordEndIndexExclusive": 128,
+            "speechStart": 25.76,
+            "speechEnd": 45.38,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "whenever my husband and i want to go out we always leave our child with the babysitter she is 21 years old and a responsible college student i feel very comfortable knowing she takes great care of our child she plays with them helps with homework and makes sure they are safe it really gives us peace of mind to enjoy our time together",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

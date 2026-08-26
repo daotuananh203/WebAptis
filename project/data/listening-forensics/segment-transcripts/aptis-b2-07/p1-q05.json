@@ -1,0 +1,446 @@
+{
+  "testId": "aptis-b2-07",
+  "blockId": "p1-q05",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-07/part-1/q05.mp3",
+  "audioSha256": "2aa4554ac26dee17140aa5b1d93aab03c8cea9f197a8c5957938a8ea34b75d8e",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.01,
+        "end": 5.85,
+        "text": "Hi, Jake. It's Lucy. I just wanted to check in on you. How are you doing?",
+        "words": [
+          {
+            "start": 1.01,
+            "end": 1.49,
+            "word": " Hi,",
+            "probability": 0.79767
+          },
+          {
+            "start": 1.63,
+            "end": 1.75,
+            "word": " Jake.",
+            "probability": 0.98381
+          },
+          {
+            "start": 2.31,
+            "end": 2.51,
+            "word": " It's",
+            "probability": 0.98653
+          },
+          {
+            "start": 2.51,
+            "end": 2.63,
+            "word": " Lucy.",
+            "probability": 0.94082
+          },
+          {
+            "start": 3.15,
+            "end": 3.29,
+            "word": " I",
+            "probability": 0.99648
+          },
+          {
+            "start": 3.29,
+            "end": 3.39,
+            "word": " just",
+            "probability": 0.99801
+          },
+          {
+            "start": 3.39,
+            "end": 3.65,
+            "word": " wanted",
+            "probability": 0.99188
+          },
+          {
+            "start": 3.65,
+            "end": 3.81,
+            "word": " to",
+            "probability": 0.9992
+          },
+          {
+            "start": 3.81,
+            "end": 3.99,
+            "word": " check",
+            "probability": 0.99823
+          },
+          {
+            "start": 3.99,
+            "end": 4.19,
+            "word": " in",
+            "probability": 0.99013
+          },
+          {
+            "start": 4.19,
+            "end": 4.33,
+            "word": " on",
+            "probability": 0.99892
+          },
+          {
+            "start": 4.33,
+            "end": 4.57,
+            "word": " you.",
+            "probability": 0.99918
+          },
+          {
+            "start": 5.07,
+            "end": 5.33,
+            "word": " How",
+            "probability": 0.98608
+          },
+          {
+            "start": 5.33,
+            "end": 5.45,
+            "word": " are",
+            "probability": 0.98854
+          },
+          {
+            "start": 5.45,
+            "end": 5.55,
+            "word": " you",
+            "probability": 0.99535
+          },
+          {
+            "start": 5.55,
+            "end": 5.85,
+            "word": " doing?",
+            "probability": 0.99677
+          }
+        ]
+      },
+      {
+        "start": 6.39,
+        "end": 11.55,
+        "text": "I know you've been busy with work and school lately. I'm worried that you're not drinking enough water.",
+        "words": [
+          {
+            "start": 6.39,
+            "end": 6.57,
+            "word": " I",
+            "probability": 0.99627
+          },
+          {
+            "start": 6.57,
+            "end": 6.71,
+            "word": " know",
+            "probability": 0.99895
+          },
+          {
+            "start": 6.71,
+            "end": 6.91,
+            "word": " you've",
+            "probability": 0.98957
+          },
+          {
+            "start": 6.91,
+            "end": 7.03,
+            "word": " been",
+            "probability": 0.99714
+          },
+          {
+            "start": 7.03,
+            "end": 7.31,
+            "word": " busy",
+            "probability": 0.99963
+          },
+          {
+            "start": 7.31,
+            "end": 7.51,
+            "word": " with",
+            "probability": 0.99207
+          },
+          {
+            "start": 7.51,
+            "end": 7.79,
+            "word": " work",
+            "probability": 0.99941
+          },
+          {
+            "start": 7.79,
+            "end": 8.09,
+            "word": " and",
+            "probability": 0.97523
+          },
+          {
+            "start": 8.09,
+            "end": 8.47,
+            "word": " school",
+            "probability": 0.99476
+          },
+          {
+            "start": 8.47,
+            "end": 8.83,
+            "word": " lately.",
+            "probability": 0.99667
+          },
+          {
+            "start": 9.45,
+            "end": 9.71,
+            "word": " I'm",
+            "probability": 0.99539
+          },
+          {
+            "start": 9.71,
+            "end": 10.01,
+            "word": " worried",
+            "probability": 0.99691
+          },
+          {
+            "start": 10.01,
+            "end": 10.27,
+            "word": " that",
+            "probability": 0.9899
+          },
+          {
+            "start": 10.27,
+            "end": 10.41,
+            "word": " you're",
+            "probability": 0.9931
+          },
+          {
+            "start": 10.41,
+            "end": 10.55,
+            "word": " not",
+            "probability": 0.99907
+          },
+          {
+            "start": 10.55,
+            "end": 10.87,
+            "word": " drinking",
+            "probability": 0.99848
+          },
+          {
+            "start": 10.87,
+            "end": 11.13,
+            "word": " enough",
+            "probability": 0.99964
+          },
+          {
+            "start": 11.13,
+            "end": 11.55,
+            "word": " water.",
+            "probability": 0.9967
+          }
+        ]
+      },
+      {
+        "start": 12.13,
+        "end": 16.25,
+        "text": "Staying hydrated is really important, especially when you're working hard.",
+        "words": [
+          {
+            "start": 12.13,
+            "end": 12.51,
+            "word": " Staying",
+            "probability": 0.93553
+          },
+          {
+            "start": 12.51,
+            "end": 12.87,
+            "word": " hydrated",
+            "probability": 0.99826
+          },
+          {
+            "start": 12.87,
+            "end": 13.25,
+            "word": " is",
+            "probability": 0.99471
+          },
+          {
+            "start": 13.25,
+            "end": 13.55,
+            "word": " really",
+            "probability": 0.99127
+          },
+          {
+            "start": 13.55,
+            "end": 14.09,
+            "word": " important,",
+            "probability": 0.99901
+          },
+          {
+            "start": 14.41,
+            "end": 15.03,
+            "word": " especially",
+            "probability": 0.99759
+          },
+          {
+            "start": 15.03,
+            "end": 15.43,
+            "word": " when",
+            "probability": 0.99586
+          },
+          {
+            "start": 15.43,
+            "end": 15.59,
+            "word": " you're",
+            "probability": 0.9945
+          },
+          {
+            "start": 15.59,
+            "end": 15.87,
+            "word": " working",
+            "probability": 0.99821
+          },
+          {
+            "start": 15.87,
+            "end": 16.25,
+            "word": " hard.",
+            "probability": 0.99967
+          }
+        ]
+      },
+      {
+        "start": 16.91,
+        "end": 22.39,
+        "text": "Remember to keep a bottle with you. Anyway, I hope you're taking care of yourself. Let's catch up soon.",
+        "words": [
+          {
+            "start": 16.91,
+            "end": 17.17,
+            "word": " Remember",
+            "probability": 0.99473
+          },
+          {
+            "start": 17.17,
+            "end": 17.37,
+            "word": " to",
+            "probability": 0.99928
+          },
+          {
+            "start": 17.37,
+            "end": 17.53,
+            "word": " keep",
+            "probability": 0.99148
+          },
+          {
+            "start": 17.53,
+            "end": 17.67,
+            "word": " a",
+            "probability": 0.9978
+          },
+          {
+            "start": 17.67,
+            "end": 17.93,
+            "word": " bottle",
+            "probability": 0.99693
+          },
+          {
+            "start": 17.93,
+            "end": 18.17,
+            "word": " with",
+            "probability": 0.99907
+          },
+          {
+            "start": 18.17,
+            "end": 18.37,
+            "word": " you.",
+            "probability": 0.99918
+          },
+          {
+            "start": 18.99,
+            "end": 19.33,
+            "word": " Anyway,",
+            "probability": 0.9795
+          },
+          {
+            "start": 19.61,
+            "end": 19.71,
+            "word": " I",
+            "probability": 0.99808
+          },
+          {
+            "start": 19.71,
+            "end": 19.85,
+            "word": " hope",
+            "probability": 0.99945
+          },
+          {
+            "start": 19.85,
+            "end": 20.05,
+            "word": " you're",
+            "probability": 0.99312
+          },
+          {
+            "start": 20.05,
+            "end": 20.25,
+            "word": " taking",
+            "probability": 0.99484
+          },
+          {
+            "start": 20.25,
+            "end": 20.57,
+            "word": " care",
+            "probability": 0.99959
+          },
+          {
+            "start": 20.57,
+            "end": 20.73,
+            "word": " of",
+            "probability": 0.99952
+          },
+          {
+            "start": 20.73,
+            "end": 21.03,
+            "word": " yourself.",
+            "probability": 0.99815
+          },
+          {
+            "start": 21.53,
+            "end": 21.81,
+            "word": " Let's",
+            "probability": 0.99552
+          },
+          {
+            "start": 21.81,
+            "end": 21.91,
+            "word": " catch",
+            "probability": 0.99785
+          },
+          {
+            "start": 21.91,
+            "end": 22.09,
+            "word": " up",
+            "probability": 0.99824
+          },
+          {
+            "start": 22.09,
+            "end": 22.39,
+            "word": " soon.",
+            "probability": 0.99503
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q05",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 63,
+            "speechStart": 1.01,
+            "speechEnd": 22.39,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi jake it's lucy i just wanted to check in on you how are you doing i know you've been busy with work and school lately i'm worried that you're not drinking enough water staying hydrated is really important especially when you're working hard remember to keep a bottle with you anyway i hope you're taking care of yourself let's catch up soon",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

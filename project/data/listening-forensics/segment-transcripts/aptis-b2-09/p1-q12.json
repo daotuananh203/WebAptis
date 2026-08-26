@@ -1,0 +1,953 @@
+{
+  "testId": "aptis-b2-09",
+  "blockId": "p1-q12",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-09/part-1/q12.mp3",
+  "audioSha256": "d6efc971f31a0b144893e03da592e6d13988de04f8100bff7b964898d598753f",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.66,
+        "end": 3.74,
+        "text": "My mom is such an important person in my life.",
+        "words": [
+          {
+            "start": 0.66,
+            "end": 1.16,
+            "word": " My",
+            "probability": 0.34149
+          },
+          {
+            "start": 1.16,
+            "end": 1.38,
+            "word": " mom",
+            "probability": 0.85761
+          },
+          {
+            "start": 1.38,
+            "end": 1.56,
+            "word": " is",
+            "probability": 0.99634
+          },
+          {
+            "start": 1.56,
+            "end": 1.82,
+            "word": " such",
+            "probability": 0.9949
+          },
+          {
+            "start": 1.82,
+            "end": 1.96,
+            "word": " an",
+            "probability": 0.99775
+          },
+          {
+            "start": 1.96,
+            "end": 2.46,
+            "word": " important",
+            "probability": 0.9946
+          },
+          {
+            "start": 2.46,
+            "end": 2.88,
+            "word": " person",
+            "probability": 0.99323
+          },
+          {
+            "start": 2.88,
+            "end": 3.12,
+            "word": " in",
+            "probability": 0.99812
+          },
+          {
+            "start": 3.12,
+            "end": 3.28,
+            "word": " my",
+            "probability": 0.99882
+          },
+          {
+            "start": 3.28,
+            "end": 3.74,
+            "word": " life.",
+            "probability": 0.99932
+          }
+        ]
+      },
+      {
+        "start": 4.53,
+        "end": 8.79,
+        "text": "We both enjoy many of the same activities, like reading and gardening.",
+        "words": [
+          {
+            "start": 4.53,
+            "end": 4.83,
+            "word": " We",
+            "probability": 0.98811
+          },
+          {
+            "start": 4.83,
+            "end": 5.09,
+            "word": " both",
+            "probability": 0.99919
+          },
+          {
+            "start": 5.09,
+            "end": 5.43,
+            "word": " enjoy",
+            "probability": 0.99798
+          },
+          {
+            "start": 5.43,
+            "end": 5.77,
+            "word": " many",
+            "probability": 0.99245
+          },
+          {
+            "start": 5.77,
+            "end": 5.91,
+            "word": " of",
+            "probability": 0.99657
+          },
+          {
+            "start": 5.91,
+            "end": 6.05,
+            "word": " the",
+            "probability": 0.99805
+          },
+          {
+            "start": 6.05,
+            "end": 6.31,
+            "word": " same",
+            "probability": 0.99896
+          },
+          {
+            "start": 6.31,
+            "end": 6.87,
+            "word": " activities,",
+            "probability": 0.99296
+          },
+          {
+            "start": 7.35,
+            "end": 7.51,
+            "word": " like",
+            "probability": 0.9924
+          },
+          {
+            "start": 7.51,
+            "end": 7.87,
+            "word": " reading",
+            "probability": 0.99041
+          },
+          {
+            "start": 7.87,
+            "end": 8.39,
+            "word": " and",
+            "probability": 0.92224
+          },
+          {
+            "start": 8.39,
+            "end": 8.79,
+            "word": " gardening.",
+            "probability": 0.99666
+          }
+        ]
+      },
+      {
+        "start": 9.84,
+        "end": 14.76,
+        "text": "It's always nice to talk about our favourite books and spend time planting flowers together.",
+        "words": [
+          {
+            "start": 9.84,
+            "end": 10.14,
+            "word": " It's",
+            "probability": 0.97728
+          },
+          {
+            "start": 10.14,
+            "end": 10.32,
+            "word": " always",
+            "probability": 0.99117
+          },
+          {
+            "start": 10.32,
+            "end": 10.72,
+            "word": " nice",
+            "probability": 0.99832
+          },
+          {
+            "start": 10.72,
+            "end": 11.0,
+            "word": " to",
+            "probability": 0.99715
+          },
+          {
+            "start": 11.0,
+            "end": 11.22,
+            "word": " talk",
+            "probability": 0.99891
+          },
+          {
+            "start": 11.22,
+            "end": 11.48,
+            "word": " about",
+            "probability": 0.99934
+          },
+          {
+            "start": 11.48,
+            "end": 11.7,
+            "word": " our",
+            "probability": 0.99767
+          },
+          {
+            "start": 11.7,
+            "end": 12.1,
+            "word": " favourite",
+            "probability": 0.60513
+          },
+          {
+            "start": 12.1,
+            "end": 12.42,
+            "word": " books",
+            "probability": 0.99605
+          },
+          {
+            "start": 12.42,
+            "end": 12.78,
+            "word": " and",
+            "probability": 0.89672
+          },
+          {
+            "start": 12.78,
+            "end": 13.02,
+            "word": " spend",
+            "probability": 0.98803
+          },
+          {
+            "start": 13.02,
+            "end": 13.4,
+            "word": " time",
+            "probability": 0.99668
+          },
+          {
+            "start": 13.4,
+            "end": 13.88,
+            "word": " planting",
+            "probability": 0.99222
+          },
+          {
+            "start": 13.88,
+            "end": 14.3,
+            "word": " flowers",
+            "probability": 0.99219
+          },
+          {
+            "start": 14.3,
+            "end": 14.76,
+            "word": " together.",
+            "probability": 0.99771
+          }
+        ]
+      },
+      {
+        "start": 15.75,
+        "end": 20.41,
+        "text": "While we might have some different tastes in fashion and music, our shared hobbies really",
+        "words": [
+          {
+            "start": 15.75,
+            "end": 16.03,
+            "word": " While",
+            "probability": 0.98711
+          },
+          {
+            "start": 16.03,
+            "end": 16.19,
+            "word": " we",
+            "probability": 0.99797
+          },
+          {
+            "start": 16.19,
+            "end": 16.37,
+            "word": " might",
+            "probability": 0.9984
+          },
+          {
+            "start": 16.37,
+            "end": 16.55,
+            "word": " have",
+            "probability": 0.99685
+          },
+          {
+            "start": 16.55,
+            "end": 16.77,
+            "word": " some",
+            "probability": 0.99675
+          },
+          {
+            "start": 16.77,
+            "end": 17.13,
+            "word": " different",
+            "probability": 0.99368
+          },
+          {
+            "start": 17.13,
+            "end": 17.47,
+            "word": " tastes",
+            "probability": 0.95261
+          },
+          {
+            "start": 17.47,
+            "end": 17.81,
+            "word": " in",
+            "probability": 0.9959
+          },
+          {
+            "start": 17.81,
+            "end": 18.15,
+            "word": " fashion",
+            "probability": 0.989
+          },
+          {
+            "start": 18.15,
+            "end": 18.37,
+            "word": " and",
+            "probability": 0.99442
+          },
+          {
+            "start": 18.37,
+            "end": 18.75,
+            "word": " music,",
+            "probability": 0.99899
+          },
+          {
+            "start": 19.21,
+            "end": 19.33,
+            "word": " our",
+            "probability": 0.9848
+          },
+          {
+            "start": 19.33,
+            "end": 19.65,
+            "word": " shared",
+            "probability": 0.98161
+          },
+          {
+            "start": 19.65,
+            "end": 19.95,
+            "word": " hobbies",
+            "probability": 0.88999
+          },
+          {
+            "start": 19.95,
+            "end": 20.41,
+            "word": " really",
+            "probability": 0.99097
+          }
+        ]
+      },
+      {
+        "start": 20.41,
+        "end": 21.27,
+        "text": "bring us closer.",
+        "words": [
+          {
+            "start": 20.41,
+            "end": 20.65,
+            "word": " bring",
+            "probability": 0.99726
+          },
+          {
+            "start": 20.65,
+            "end": 20.81,
+            "word": " us",
+            "probability": 0.99915
+          },
+          {
+            "start": 20.81,
+            "end": 21.27,
+            "word": " closer.",
+            "probability": 0.99868
+          }
+        ]
+      },
+      {
+        "start": 22.19,
+        "end": 25.97,
+        "text": "I love how we can bond over these interests and have fun together.",
+        "words": [
+          {
+            "start": 22.19,
+            "end": 22.49,
+            "word": " I",
+            "probability": 0.99161
+          },
+          {
+            "start": 22.49,
+            "end": 22.69,
+            "word": " love",
+            "probability": 0.99494
+          },
+          {
+            "start": 22.69,
+            "end": 22.97,
+            "word": " how",
+            "probability": 0.99885
+          },
+          {
+            "start": 22.97,
+            "end": 23.17,
+            "word": " we",
+            "probability": 0.99709
+          },
+          {
+            "start": 23.17,
+            "end": 23.33,
+            "word": " can",
+            "probability": 0.98178
+          },
+          {
+            "start": 23.33,
+            "end": 23.59,
+            "word": " bond",
+            "probability": 0.99699
+          },
+          {
+            "start": 23.59,
+            "end": 23.91,
+            "word": " over",
+            "probability": 0.99605
+          },
+          {
+            "start": 23.91,
+            "end": 24.15,
+            "word": " these",
+            "probability": 0.9943
+          },
+          {
+            "start": 24.15,
+            "end": 24.57,
+            "word": " interests",
+            "probability": 0.99517
+          },
+          {
+            "start": 24.57,
+            "end": 25.01,
+            "word": " and",
+            "probability": 0.96853
+          },
+          {
+            "start": 25.01,
+            "end": 25.21,
+            "word": " have",
+            "probability": 0.99897
+          },
+          {
+            "start": 25.21,
+            "end": 25.47,
+            "word": " fun",
+            "probability": 0.99936
+          },
+          {
+            "start": 25.47,
+            "end": 25.97,
+            "word": " together.",
+            "probability": 0.99876
+          }
+        ]
+      },
+      {
+        "start": 30.79,
+        "end": 33.55,
+        "text": "My mom is such an important person in my life.",
+        "words": [
+          {
+            "start": 30.79,
+            "end": 31.03,
+            "word": " My",
+            "probability": 0.98002
+          },
+          {
+            "start": 31.03,
+            "end": 31.29,
+            "word": " mom",
+            "probability": 0.98023
+          },
+          {
+            "start": 31.29,
+            "end": 31.43,
+            "word": " is",
+            "probability": 0.99901
+          },
+          {
+            "start": 31.43,
+            "end": 31.73,
+            "word": " such",
+            "probability": 0.99877
+          },
+          {
+            "start": 31.73,
+            "end": 31.85,
+            "word": " an",
+            "probability": 0.99636
+          },
+          {
+            "start": 31.85,
+            "end": 32.33,
+            "word": " important",
+            "probability": 0.99803
+          },
+          {
+            "start": 32.33,
+            "end": 32.75,
+            "word": " person",
+            "probability": 0.99373
+          },
+          {
+            "start": 32.75,
+            "end": 32.99,
+            "word": " in",
+            "probability": 0.99876
+          },
+          {
+            "start": 32.99,
+            "end": 33.15,
+            "word": " my",
+            "probability": 0.99855
+          },
+          {
+            "start": 33.15,
+            "end": 33.55,
+            "word": " life.",
+            "probability": 0.99926
+          }
+        ]
+      },
+      {
+        "start": 33.55,
+        "end": 38.68,
+        "text": "We both enjoy many of the same activities, like reading and gardening.",
+        "words": [
+          {
+            "start": 33.55,
+            "end": 34.57,
+            "word": " We",
+            "probability": 0.74206
+          },
+          {
+            "start": 34.7,
+            "end": 34.96,
+            "word": " both",
+            "probability": 0.99777
+          },
+          {
+            "start": 34.96,
+            "end": 35.28,
+            "word": " enjoy",
+            "probability": 0.9983
+          },
+          {
+            "start": 35.28,
+            "end": 35.64,
+            "word": " many",
+            "probability": 0.99484
+          },
+          {
+            "start": 35.64,
+            "end": 35.78,
+            "word": " of",
+            "probability": 0.99867
+          },
+          {
+            "start": 35.78,
+            "end": 35.92,
+            "word": " the",
+            "probability": 0.99831
+          },
+          {
+            "start": 35.92,
+            "end": 36.2,
+            "word": " same",
+            "probability": 0.99913
+          },
+          {
+            "start": 36.2,
+            "end": 36.74,
+            "word": " activities,",
+            "probability": 0.99478
+          },
+          {
+            "start": 37.24,
+            "end": 37.4,
+            "word": " like",
+            "probability": 0.99569
+          },
+          {
+            "start": 37.4,
+            "end": 37.8,
+            "word": " reading",
+            "probability": 0.987
+          },
+          {
+            "start": 37.8,
+            "end": 38.26,
+            "word": " and",
+            "probability": 0.9251
+          },
+          {
+            "start": 38.26,
+            "end": 38.68,
+            "word": " gardening.",
+            "probability": 0.99706
+          }
+        ]
+      },
+      {
+        "start": 39.7,
+        "end": 44.6,
+        "text": "It's always nice to talk about our favourite books and spend time planting flowers together.",
+        "words": [
+          {
+            "start": 39.7,
+            "end": 40.02,
+            "word": " It's",
+            "probability": 0.99033
+          },
+          {
+            "start": 40.02,
+            "end": 40.26,
+            "word": " always",
+            "probability": 0.99347
+          },
+          {
+            "start": 40.26,
+            "end": 40.62,
+            "word": " nice",
+            "probability": 0.99799
+          },
+          {
+            "start": 40.62,
+            "end": 40.88,
+            "word": " to",
+            "probability": 0.99905
+          },
+          {
+            "start": 40.88,
+            "end": 41.12,
+            "word": " talk",
+            "probability": 0.9989
+          },
+          {
+            "start": 41.12,
+            "end": 41.38,
+            "word": " about",
+            "probability": 0.9995
+          },
+          {
+            "start": 41.38,
+            "end": 41.58,
+            "word": " our",
+            "probability": 0.99784
+          },
+          {
+            "start": 41.58,
+            "end": 41.98,
+            "word": " favourite",
+            "probability": 0.61223
+          },
+          {
+            "start": 41.98,
+            "end": 42.26,
+            "word": " books",
+            "probability": 0.9948
+          },
+          {
+            "start": 42.26,
+            "end": 42.66,
+            "word": " and",
+            "probability": 0.94292
+          },
+          {
+            "start": 42.66,
+            "end": 42.9,
+            "word": " spend",
+            "probability": 0.99146
+          },
+          {
+            "start": 42.9,
+            "end": 43.28,
+            "word": " time",
+            "probability": 0.99579
+          },
+          {
+            "start": 43.28,
+            "end": 43.76,
+            "word": " planting",
+            "probability": 0.98966
+          },
+          {
+            "start": 43.76,
+            "end": 44.18,
+            "word": " flowers",
+            "probability": 0.99286
+          },
+          {
+            "start": 44.18,
+            "end": 44.6,
+            "word": " together.",
+            "probability": 0.99875
+          }
+        ]
+      },
+      {
+        "start": 45.65,
+        "end": 50.25,
+        "text": "While we might have some different tastes in fashion and music, our shared hobbies really",
+        "words": [
+          {
+            "start": 45.65,
+            "end": 45.91,
+            "word": " While",
+            "probability": 0.99204
+          },
+          {
+            "start": 45.91,
+            "end": 46.07,
+            "word": " we",
+            "probability": 0.99835
+          },
+          {
+            "start": 46.07,
+            "end": 46.25,
+            "word": " might",
+            "probability": 0.99832
+          },
+          {
+            "start": 46.25,
+            "end": 46.43,
+            "word": " have",
+            "probability": 0.99437
+          },
+          {
+            "start": 46.43,
+            "end": 46.65,
+            "word": " some",
+            "probability": 0.99712
+          },
+          {
+            "start": 46.65,
+            "end": 47.01,
+            "word": " different",
+            "probability": 0.99434
+          },
+          {
+            "start": 47.01,
+            "end": 47.33,
+            "word": " tastes",
+            "probability": 0.95585
+          },
+          {
+            "start": 47.33,
+            "end": 47.69,
+            "word": " in",
+            "probability": 0.99748
+          },
+          {
+            "start": 47.69,
+            "end": 48.03,
+            "word": " fashion",
+            "probability": 0.98344
+          },
+          {
+            "start": 48.03,
+            "end": 48.23,
+            "word": " and",
+            "probability": 0.99607
+          },
+          {
+            "start": 48.23,
+            "end": 48.63,
+            "word": " music,",
+            "probability": 0.99904
+          },
+          {
+            "start": 49.05,
+            "end": 49.19,
+            "word": " our",
+            "probability": 0.99057
+          },
+          {
+            "start": 49.19,
+            "end": 49.53,
+            "word": " shared",
+            "probability": 0.98002
+          },
+          {
+            "start": 49.53,
+            "end": 49.83,
+            "word": " hobbies",
+            "probability": 0.81436
+          },
+          {
+            "start": 49.83,
+            "end": 50.25,
+            "word": " really",
+            "probability": 0.99043
+          }
+        ]
+      },
+      {
+        "start": 50.25,
+        "end": 51.15,
+        "text": "bring us closer.",
+        "words": [
+          {
+            "start": 50.25,
+            "end": 50.53,
+            "word": " bring",
+            "probability": 0.99797
+          },
+          {
+            "start": 50.53,
+            "end": 50.69,
+            "word": " us",
+            "probability": 0.99898
+          },
+          {
+            "start": 50.69,
+            "end": 51.15,
+            "word": " closer.",
+            "probability": 0.99882
+          }
+        ]
+      },
+      {
+        "start": 52.13,
+        "end": 55.83,
+        "text": "I love how we can bond over these interests and have fun together.",
+        "words": [
+          {
+            "start": 52.13,
+            "end": 52.37,
+            "word": " I",
+            "probability": 0.99266
+          },
+          {
+            "start": 52.37,
+            "end": 52.57,
+            "word": " love",
+            "probability": 0.9944
+          },
+          {
+            "start": 52.57,
+            "end": 52.85,
+            "word": " how",
+            "probability": 0.99931
+          },
+          {
+            "start": 52.85,
+            "end": 53.03,
+            "word": " we",
+            "probability": 0.99709
+          },
+          {
+            "start": 53.03,
+            "end": 53.19,
+            "word": " can",
+            "probability": 0.99022
+          },
+          {
+            "start": 53.19,
+            "end": 53.43,
+            "word": " bond",
+            "probability": 0.99605
+          },
+          {
+            "start": 53.43,
+            "end": 53.77,
+            "word": " over",
+            "probability": 0.99285
+          },
+          {
+            "start": 53.77,
+            "end": 54.01,
+            "word": " these",
+            "probability": 0.99489
+          },
+          {
+            "start": 54.01,
+            "end": 54.47,
+            "word": " interests",
+            "probability": 0.99293
+          },
+          {
+            "start": 54.47,
+            "end": 54.89,
+            "word": " and",
+            "probability": 0.9726
+          },
+          {
+            "start": 54.89,
+            "end": 55.09,
+            "word": " have",
+            "probability": 0.999
+          },
+          {
+            "start": 55.09,
+            "end": 55.33,
+            "word": " fun",
+            "probability": 0.99933
+          },
+          {
+            "start": 55.33,
+            "end": 55.83,
+            "word": " together.",
+            "probability": 0.99845
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q12",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 68,
+            "speechStart": 0.66,
+            "speechEnd": 25.97,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "my mom is such an important person in my life we both enjoy many of the same activities like reading and gardening it's always nice to talk about our favourite books and spend time planting flowers together while we might have some different tastes in fashion and music our shared hobbies really bring us closer i love how we can bond over these interests and have fun together",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 68,
+            "wordEndIndexExclusive": 136,
+            "speechStart": 30.79,
+            "speechEnd": 55.83,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "my mom is such an important person in my life we both enjoy many of the same activities like reading and gardening it's always nice to talk about our favourite books and spend time planting flowers together while we might have some different tastes in fashion and music our shared hobbies really bring us closer i love how we can bond over these interests and have fun together",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

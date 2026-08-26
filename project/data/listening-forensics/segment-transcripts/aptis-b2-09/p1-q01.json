@@ -1,0 +1,818 @@
+{
+  "testId": "aptis-b2-09",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-09/part-1/q01.mp3",
+  "audioSha256": "9bcf184e466986acb813f752da0c46cc3203c68d4842b9c9ce373c0eb3a06380",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.98,
+        "end": 5.06,
+        "text": "If I walk into the store, I notice that the cleaning products are on sale.",
+        "words": [
+          {
+            "start": 0.98,
+            "end": 1.46,
+            "word": " If",
+            "probability": 0.06938
+          },
+          {
+            "start": 1.46,
+            "end": 1.48,
+            "word": " I",
+            "probability": 0.71574
+          },
+          {
+            "start": 1.48,
+            "end": 1.68,
+            "word": " walk",
+            "probability": 0.62045
+          },
+          {
+            "start": 1.68,
+            "end": 2.02,
+            "word": " into",
+            "probability": 0.91906
+          },
+          {
+            "start": 2.02,
+            "end": 2.22,
+            "word": " the",
+            "probability": 0.97804
+          },
+          {
+            "start": 2.22,
+            "end": 2.58,
+            "word": " store,",
+            "probability": 0.98886
+          },
+          {
+            "start": 2.94,
+            "end": 3.0,
+            "word": " I",
+            "probability": 0.99197
+          },
+          {
+            "start": 3.0,
+            "end": 3.26,
+            "word": " notice",
+            "probability": 0.90768
+          },
+          {
+            "start": 3.26,
+            "end": 3.5,
+            "word": " that",
+            "probability": 0.90978
+          },
+          {
+            "start": 3.5,
+            "end": 3.66,
+            "word": " the",
+            "probability": 0.97844
+          },
+          {
+            "start": 3.66,
+            "end": 3.92,
+            "word": " cleaning",
+            "probability": 0.99841
+          },
+          {
+            "start": 3.92,
+            "end": 4.32,
+            "word": " products",
+            "probability": 0.99701
+          },
+          {
+            "start": 4.32,
+            "end": 4.58,
+            "word": " are",
+            "probability": 0.99489
+          },
+          {
+            "start": 4.58,
+            "end": 4.74,
+            "word": " on",
+            "probability": 0.99421
+          },
+          {
+            "start": 4.74,
+            "end": 5.06,
+            "word": " sale.",
+            "probability": 0.9977
+          }
+        ]
+      },
+      {
+        "start": 5.56,
+        "end": 10.3,
+        "text": "They're usually a bit more expensive, but today they're only 1 pound 50.",
+        "words": [
+          {
+            "start": 5.56,
+            "end": 6.08,
+            "word": " They're",
+            "probability": 0.88937
+          },
+          {
+            "start": 6.08,
+            "end": 6.46,
+            "word": " usually",
+            "probability": 0.99381
+          },
+          {
+            "start": 6.46,
+            "end": 6.68,
+            "word": " a",
+            "probability": 0.98958
+          },
+          {
+            "start": 6.68,
+            "end": 6.78,
+            "word": " bit",
+            "probability": 0.99537
+          },
+          {
+            "start": 6.78,
+            "end": 6.98,
+            "word": " more",
+            "probability": 0.99734
+          },
+          {
+            "start": 6.98,
+            "end": 7.5,
+            "word": " expensive,",
+            "probability": 0.99798
+          },
+          {
+            "start": 8.06,
+            "end": 8.22,
+            "word": " but",
+            "probability": 0.98976
+          },
+          {
+            "start": 8.22,
+            "end": 8.62,
+            "word": " today",
+            "probability": 0.98887
+          },
+          {
+            "start": 8.62,
+            "end": 8.92,
+            "word": " they're",
+            "probability": 0.83034
+          },
+          {
+            "start": 8.92,
+            "end": 9.14,
+            "word": " only",
+            "probability": 0.98992
+          },
+          {
+            "start": 9.14,
+            "end": 9.48,
+            "word": " 1",
+            "probability": 0.42852
+          },
+          {
+            "start": 9.48,
+            "end": 9.74,
+            "word": " pound",
+            "probability": 0.55902
+          },
+          {
+            "start": 9.74,
+            "end": 10.3,
+            "word": " 50.",
+            "probability": 0.88192
+          }
+        ]
+      },
+      {
+        "start": 11.69,
+        "end": 16.11,
+        "text": "I was expecting to pay 3 pounds 50, so it's a nice surprise.",
+        "words": [
+          {
+            "start": 11.69,
+            "end": 12.03,
+            "word": " I",
+            "probability": 0.98627
+          },
+          {
+            "start": 12.03,
+            "end": 12.19,
+            "word": " was",
+            "probability": 0.9954
+          },
+          {
+            "start": 12.19,
+            "end": 12.67,
+            "word": " expecting",
+            "probability": 0.99819
+          },
+          {
+            "start": 12.67,
+            "end": 12.95,
+            "word": " to",
+            "probability": 0.99671
+          },
+          {
+            "start": 12.95,
+            "end": 13.15,
+            "word": " pay",
+            "probability": 0.99831
+          },
+          {
+            "start": 13.15,
+            "end": 13.51,
+            "word": " 3",
+            "probability": 0.87876
+          },
+          {
+            "start": 13.51,
+            "end": 13.85,
+            "word": " pounds",
+            "probability": 0.9364
+          },
+          {
+            "start": 13.85,
+            "end": 14.41,
+            "word": " 50,",
+            "probability": 0.98459
+          },
+          {
+            "start": 14.85,
+            "end": 15.05,
+            "word": " so",
+            "probability": 0.99669
+          },
+          {
+            "start": 15.05,
+            "end": 15.27,
+            "word": " it's",
+            "probability": 0.99198
+          },
+          {
+            "start": 15.27,
+            "end": 15.33,
+            "word": " a",
+            "probability": 0.99626
+          },
+          {
+            "start": 15.33,
+            "end": 15.51,
+            "word": " nice",
+            "probability": 0.99848
+          },
+          {
+            "start": 15.51,
+            "end": 16.11,
+            "word": " surprise.",
+            "probability": 0.9984
+          }
+        ]
+      },
+      {
+        "start": 16.93,
+        "end": 19.97,
+        "text": "I grab a few items since I know I'll need them later.",
+        "words": [
+          {
+            "start": 16.93,
+            "end": 17.23,
+            "word": " I",
+            "probability": 0.99253
+          },
+          {
+            "start": 17.23,
+            "end": 17.43,
+            "word": " grab",
+            "probability": 0.97417
+          },
+          {
+            "start": 17.43,
+            "end": 17.63,
+            "word": " a",
+            "probability": 0.99939
+          },
+          {
+            "start": 17.63,
+            "end": 17.79,
+            "word": " few",
+            "probability": 0.99929
+          },
+          {
+            "start": 17.79,
+            "end": 18.19,
+            "word": " items",
+            "probability": 0.99804
+          },
+          {
+            "start": 18.19,
+            "end": 18.71,
+            "word": " since",
+            "probability": 0.83526
+          },
+          {
+            "start": 18.71,
+            "end": 18.93,
+            "word": " I",
+            "probability": 0.99755
+          },
+          {
+            "start": 18.93,
+            "end": 19.09,
+            "word": " know",
+            "probability": 0.99101
+          },
+          {
+            "start": 19.09,
+            "end": 19.27,
+            "word": " I'll",
+            "probability": 0.97495
+          },
+          {
+            "start": 19.27,
+            "end": 19.41,
+            "word": " need",
+            "probability": 0.99428
+          },
+          {
+            "start": 19.41,
+            "end": 19.59,
+            "word": " them",
+            "probability": 0.99703
+          },
+          {
+            "start": 19.59,
+            "end": 19.97,
+            "word": " later.",
+            "probability": 0.99717
+          }
+        ]
+      },
+      {
+        "start": 20.82,
+        "end": 24.0,
+        "text": "It's a small store, but the deals are always good here.",
+        "words": [
+          {
+            "start": 20.82,
+            "end": 21.16,
+            "word": " It's",
+            "probability": 0.99338
+          },
+          {
+            "start": 21.16,
+            "end": 21.24,
+            "word": " a",
+            "probability": 0.99795
+          },
+          {
+            "start": 21.24,
+            "end": 21.56,
+            "word": " small",
+            "probability": 0.99903
+          },
+          {
+            "start": 21.56,
+            "end": 22.04,
+            "word": " store,",
+            "probability": 0.99617
+          },
+          {
+            "start": 22.42,
+            "end": 22.56,
+            "word": " but",
+            "probability": 0.99672
+          },
+          {
+            "start": 22.56,
+            "end": 22.7,
+            "word": " the",
+            "probability": 0.99301
+          },
+          {
+            "start": 22.7,
+            "end": 22.94,
+            "word": " deals",
+            "probability": 0.97791
+          },
+          {
+            "start": 22.94,
+            "end": 23.14,
+            "word": " are",
+            "probability": 0.99733
+          },
+          {
+            "start": 23.14,
+            "end": 23.42,
+            "word": " always",
+            "probability": 0.98711
+          },
+          {
+            "start": 23.42,
+            "end": 23.68,
+            "word": " good",
+            "probability": 0.99866
+          },
+          {
+            "start": 23.68,
+            "end": 24.0,
+            "word": " here.",
+            "probability": 0.99163
+          }
+        ]
+      },
+      {
+        "start": 24.94,
+        "end": 25.92,
+        "text": "Time to check out.",
+        "words": [
+          {
+            "start": 24.94,
+            "end": 25.24,
+            "word": " Time",
+            "probability": 0.98037
+          },
+          {
+            "start": 25.24,
+            "end": 25.42,
+            "word": " to",
+            "probability": 0.99788
+          },
+          {
+            "start": 25.42,
+            "end": 25.6,
+            "word": " check",
+            "probability": 0.9937
+          },
+          {
+            "start": 25.6,
+            "end": 25.92,
+            "word": " out.",
+            "probability": 0.98608
+          }
+        ]
+      },
+      {
+        "start": 28.57,
+        "end": 32.55,
+        "text": "As I walk into the store, I notice that the cleaning products are on sale.",
+        "words": [
+          {
+            "start": 28.57,
+            "end": 28.81,
+            "word": " As",
+            "probability": 0.91528
+          },
+          {
+            "start": 28.81,
+            "end": 28.95,
+            "word": " I",
+            "probability": 0.99772
+          },
+          {
+            "start": 28.95,
+            "end": 29.17,
+            "word": " walk",
+            "probability": 0.99546
+          },
+          {
+            "start": 29.17,
+            "end": 29.51,
+            "word": " into",
+            "probability": 0.98668
+          },
+          {
+            "start": 29.51,
+            "end": 29.69,
+            "word": " the",
+            "probability": 0.99602
+          },
+          {
+            "start": 29.69,
+            "end": 30.05,
+            "word": " store,",
+            "probability": 0.99642
+          },
+          {
+            "start": 30.39,
+            "end": 30.47,
+            "word": " I",
+            "probability": 0.999
+          },
+          {
+            "start": 30.47,
+            "end": 30.73,
+            "word": " notice",
+            "probability": 0.92966
+          },
+          {
+            "start": 30.73,
+            "end": 30.97,
+            "word": " that",
+            "probability": 0.98465
+          },
+          {
+            "start": 30.97,
+            "end": 31.11,
+            "word": " the",
+            "probability": 0.99447
+          },
+          {
+            "start": 31.11,
+            "end": 31.41,
+            "word": " cleaning",
+            "probability": 0.99953
+          },
+          {
+            "start": 31.41,
+            "end": 31.81,
+            "word": " products",
+            "probability": 0.99793
+          },
+          {
+            "start": 31.81,
+            "end": 32.05,
+            "word": " are",
+            "probability": 0.99797
+          },
+          {
+            "start": 32.05,
+            "end": 32.21,
+            "word": " on",
+            "probability": 0.99853
+          },
+          {
+            "start": 32.21,
+            "end": 32.55,
+            "word": " sale.",
+            "probability": 0.99883
+          }
+        ]
+      },
+      {
+        "start": 32.55,
+        "end": 37.87,
+        "text": "They're usually a bit more expensive, but today they're only £1.50.",
+        "words": [
+          {
+            "start": 32.55,
+            "end": 33.55,
+            "word": " They're",
+            "probability": 0.73361
+          },
+          {
+            "start": 33.55,
+            "end": 33.91,
+            "word": " usually",
+            "probability": 0.99532
+          },
+          {
+            "start": 33.91,
+            "end": 34.15,
+            "word": " a",
+            "probability": 0.99283
+          },
+          {
+            "start": 34.15,
+            "end": 34.25,
+            "word": " bit",
+            "probability": 0.99535
+          },
+          {
+            "start": 34.25,
+            "end": 34.45,
+            "word": " more",
+            "probability": 0.99605
+          },
+          {
+            "start": 34.45,
+            "end": 34.99,
+            "word": " expensive,",
+            "probability": 0.99784
+          },
+          {
+            "start": 35.51,
+            "end": 35.71,
+            "word": " but",
+            "probability": 0.99461
+          },
+          {
+            "start": 35.71,
+            "end": 36.09,
+            "word": " today",
+            "probability": 0.99556
+          },
+          {
+            "start": 36.09,
+            "end": 36.39,
+            "word": " they're",
+            "probability": 0.87751
+          },
+          {
+            "start": 36.39,
+            "end": 36.63,
+            "word": " only",
+            "probability": 0.99378
+          },
+          {
+            "start": 36.63,
+            "end": 37.03,
+            "word": " £1",
+            "probability": 0.5852
+          },
+          {
+            "start": 37.03,
+            "end": 37.87,
+            "word": ".50.",
+            "probability": 0.98993
+          }
+        ]
+      },
+      {
+        "start": 38.95,
+        "end": 43.53,
+        "text": "I was expecting to pay £3.50, so it's a nice surprise.",
+        "words": [
+          {
+            "start": 38.95,
+            "end": 39.51,
+            "word": " I",
+            "probability": 0.98708
+          },
+          {
+            "start": 39.51,
+            "end": 39.67,
+            "word": " was",
+            "probability": 0.99684
+          },
+          {
+            "start": 39.67,
+            "end": 40.17,
+            "word": " expecting",
+            "probability": 0.99862
+          },
+          {
+            "start": 40.17,
+            "end": 40.43,
+            "word": " to",
+            "probability": 0.99816
+          },
+          {
+            "start": 40.43,
+            "end": 40.63,
+            "word": " pay",
+            "probability": 0.99859
+          },
+          {
+            "start": 40.63,
+            "end": 41.09,
+            "word": " £3",
+            "probability": 0.90503
+          },
+          {
+            "start": 41.09,
+            "end": 41.89,
+            "word": ".50,",
+            "probability": 0.99844
+          },
+          {
+            "start": 42.27,
+            "end": 42.53,
+            "word": " so",
+            "probability": 0.9937
+          },
+          {
+            "start": 42.53,
+            "end": 42.77,
+            "word": " it's",
+            "probability": 0.99138
+          },
+          {
+            "start": 42.77,
+            "end": 42.79,
+            "word": " a",
+            "probability": 0.99619
+          },
+          {
+            "start": 42.79,
+            "end": 42.97,
+            "word": " nice",
+            "probability": 0.99733
+          },
+          {
+            "start": 42.97,
+            "end": 43.53,
+            "word": " surprise.",
+            "probability": 0.99712
+          }
+        ]
+      },
+      {
+        "start": 44.33,
+        "end": 47.17,
+        "text": "I grab a few items since I know I'll need them...",
+        "words": [
+          {
+            "start": 44.33,
+            "end": 44.71,
+            "word": " I",
+            "probability": 0.99268
+          },
+          {
+            "start": 44.71,
+            "end": 44.91,
+            "word": " grab",
+            "probability": 0.96029
+          },
+          {
+            "start": 44.91,
+            "end": 45.11,
+            "word": " a",
+            "probability": 0.99799
+          },
+          {
+            "start": 45.11,
+            "end": 45.29,
+            "word": " few",
+            "probability": 0.99944
+          },
+          {
+            "start": 45.29,
+            "end": 45.65,
+            "word": " items",
+            "probability": 0.99734
+          },
+          {
+            "start": 45.65,
+            "end": 46.19,
+            "word": " since",
+            "probability": 0.68657
+          },
+          {
+            "start": 46.19,
+            "end": 46.41,
+            "word": " I",
+            "probability": 0.98725
+          },
+          {
+            "start": 46.41,
+            "end": 46.55,
+            "word": " know",
+            "probability": 0.98574
+          },
+          {
+            "start": 46.55,
+            "end": 46.75,
+            "word": " I'll",
+            "probability": 0.98049
+          },
+          {
+            "start": 46.75,
+            "end": 46.89,
+            "word": " need",
+            "probability": 0.99512
+          },
+          {
+            "start": 46.89,
+            "end": 47.17,
+            "word": " them...",
+            "probability": 0.57596
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 113,
+            "speechStart": 0.98,
+            "speechEnd": 46.19,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.7514,
+            "transcript": "if i walk into the store i notice that the cleaning products are on sale they're usually a bit more expensive but today they're only 1 pound 50 i was expecting to pay 3 pounds 50 so it's a nice surprise i grab a few items since i know i'll need them later it's a small store but the deals are always good here time to check out as i walk into the store i notice that the cleaning products are on sale they're usually a bit more expensive but today they're only 1 50 i was expecting to pay 3 50 so it's a nice surprise i grab a few items since",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

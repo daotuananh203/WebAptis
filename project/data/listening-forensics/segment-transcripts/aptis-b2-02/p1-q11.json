@@ -1,0 +1,435 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p1-q11",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-1/q11.mp3",
+  "audioSha256": "39c2f9466316062941b3a51f83f0e5ad956d08d4a97020bb9f48a2f3011d9488",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 3.54,
+        "text": "I'm looking at flights and comparing prices.",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.44,
+            "word": " I'm",
+            "probability": 0.95718
+          },
+          {
+            "start": 1.44,
+            "end": 1.64,
+            "word": " looking",
+            "probability": 0.99809
+          },
+          {
+            "start": 1.64,
+            "end": 1.82,
+            "word": " at",
+            "probability": 0.99519
+          },
+          {
+            "start": 1.82,
+            "end": 2.14,
+            "word": " flights",
+            "probability": 0.99323
+          },
+          {
+            "start": 2.14,
+            "end": 2.52,
+            "word": " and",
+            "probability": 0.9865
+          },
+          {
+            "start": 2.52,
+            "end": 3.0,
+            "word": " comparing",
+            "probability": 0.99618
+          },
+          {
+            "start": 3.0,
+            "end": 3.54,
+            "word": " prices.",
+            "probability": 0.99124
+          }
+        ]
+      },
+      {
+        "start": 4.16,
+        "end": 10.44,
+        "text": "The morning flight I want is £350, which is a bit more than the £300 one later in",
+        "words": [
+          {
+            "start": 4.16,
+            "end": 4.36,
+            "word": " The",
+            "probability": 0.99271
+          },
+          {
+            "start": 4.36,
+            "end": 4.58,
+            "word": " morning",
+            "probability": 0.92815
+          },
+          {
+            "start": 4.58,
+            "end": 4.86,
+            "word": " flight",
+            "probability": 0.99806
+          },
+          {
+            "start": 4.86,
+            "end": 5.12,
+            "word": " I",
+            "probability": 0.94589
+          },
+          {
+            "start": 5.12,
+            "end": 5.36,
+            "word": " want",
+            "probability": 0.97047
+          },
+          {
+            "start": 5.36,
+            "end": 5.68,
+            "word": " is",
+            "probability": 0.99866
+          },
+          {
+            "start": 5.68,
+            "end": 6.58,
+            "word": " £350,",
+            "probability": 0.94523
+          },
+          {
+            "start": 7.14,
+            "end": 7.86,
+            "word": " which",
+            "probability": 0.98858
+          },
+          {
+            "start": 7.86,
+            "end": 8.04,
+            "word": " is",
+            "probability": 0.99636
+          },
+          {
+            "start": 8.04,
+            "end": 8.12,
+            "word": " a",
+            "probability": 0.99479
+          },
+          {
+            "start": 8.12,
+            "end": 8.24,
+            "word": " bit",
+            "probability": 0.99879
+          },
+          {
+            "start": 8.24,
+            "end": 8.5,
+            "word": " more",
+            "probability": 0.99949
+          },
+          {
+            "start": 8.5,
+            "end": 8.68,
+            "word": " than",
+            "probability": 0.99558
+          },
+          {
+            "start": 8.68,
+            "end": 8.82,
+            "word": " the",
+            "probability": 0.99561
+          },
+          {
+            "start": 8.82,
+            "end": 9.36,
+            "word": " £300",
+            "probability": 0.98273
+          },
+          {
+            "start": 9.36,
+            "end": 9.88,
+            "word": " one",
+            "probability": 0.67282
+          },
+          {
+            "start": 9.88,
+            "end": 10.26,
+            "word": " later",
+            "probability": 0.97419
+          },
+          {
+            "start": 10.26,
+            "end": 10.44,
+            "word": " in",
+            "probability": 0.99487
+          }
+        ]
+      },
+      {
+        "start": 10.44,
+        "end": 10.82,
+        "text": "the day.",
+        "words": [
+          {
+            "start": 10.44,
+            "end": 10.54,
+            "word": " the",
+            "probability": 0.99674
+          },
+          {
+            "start": 10.54,
+            "end": 10.82,
+            "word": " day.",
+            "probability": 0.99913
+          }
+        ]
+      },
+      {
+        "start": 11.5,
+        "end": 17.44,
+        "text": "There's also another option that costs £400, but it includes extra services I don't need,",
+        "words": [
+          {
+            "start": 11.5,
+            "end": 11.8,
+            "word": " There's",
+            "probability": 0.96858
+          },
+          {
+            "start": 11.8,
+            "end": 12.06,
+            "word": " also",
+            "probability": 0.99568
+          },
+          {
+            "start": 12.06,
+            "end": 12.36,
+            "word": " another",
+            "probability": 0.99399
+          },
+          {
+            "start": 12.36,
+            "end": 12.82,
+            "word": " option",
+            "probability": 0.99783
+          },
+          {
+            "start": 12.82,
+            "end": 13.0,
+            "word": " that",
+            "probability": 0.9933
+          },
+          {
+            "start": 13.0,
+            "end": 13.22,
+            "word": " costs",
+            "probability": 0.96598
+          },
+          {
+            "start": 13.22,
+            "end": 13.9,
+            "word": " £400,",
+            "probability": 0.98986
+          },
+          {
+            "start": 14.58,
+            "end": 14.88,
+            "word": " but",
+            "probability": 0.99859
+          },
+          {
+            "start": 14.88,
+            "end": 14.98,
+            "word": " it",
+            "probability": 0.99621
+          },
+          {
+            "start": 14.98,
+            "end": 15.38,
+            "word": " includes",
+            "probability": 0.99417
+          },
+          {
+            "start": 15.38,
+            "end": 15.9,
+            "word": " extra",
+            "probability": 0.9979
+          },
+          {
+            "start": 15.9,
+            "end": 16.42,
+            "word": " services",
+            "probability": 0.98887
+          },
+          {
+            "start": 16.42,
+            "end": 16.74,
+            "word": " I",
+            "probability": 0.91986
+          },
+          {
+            "start": 16.74,
+            "end": 17.12,
+            "word": " don't",
+            "probability": 0.99813
+          },
+          {
+            "start": 17.12,
+            "end": 17.44,
+            "word": " need,",
+            "probability": 0.99866
+          }
+        ]
+      },
+      {
+        "start": 17.8,
+        "end": 23.52,
+        "text": "so I think I'll stick with the £350 one since it leaves at the right time for me.",
+        "words": [
+          {
+            "start": 17.8,
+            "end": 18.22,
+            "word": " so",
+            "probability": 0.99511
+          },
+          {
+            "start": 18.22,
+            "end": 18.52,
+            "word": " I",
+            "probability": 0.992
+          },
+          {
+            "start": 18.52,
+            "end": 18.74,
+            "word": " think",
+            "probability": 0.99589
+          },
+          {
+            "start": 18.74,
+            "end": 18.96,
+            "word": " I'll",
+            "probability": 0.99698
+          },
+          {
+            "start": 18.96,
+            "end": 19.14,
+            "word": " stick",
+            "probability": 0.99932
+          },
+          {
+            "start": 19.14,
+            "end": 19.34,
+            "word": " with",
+            "probability": 0.99459
+          },
+          {
+            "start": 19.34,
+            "end": 19.48,
+            "word": " the",
+            "probability": 0.98591
+          },
+          {
+            "start": 19.48,
+            "end": 20.36,
+            "word": " £350",
+            "probability": 0.98777
+          },
+          {
+            "start": 20.36,
+            "end": 21.18,
+            "word": " one",
+            "probability": 0.36883
+          },
+          {
+            "start": 21.18,
+            "end": 21.58,
+            "word": " since",
+            "probability": 0.96463
+          },
+          {
+            "start": 21.58,
+            "end": 21.8,
+            "word": " it",
+            "probability": 0.99744
+          },
+          {
+            "start": 21.8,
+            "end": 22.02,
+            "word": " leaves",
+            "probability": 0.993
+          },
+          {
+            "start": 22.02,
+            "end": 22.34,
+            "word": " at",
+            "probability": 0.96447
+          },
+          {
+            "start": 22.34,
+            "end": 22.48,
+            "word": " the",
+            "probability": 0.99622
+          },
+          {
+            "start": 22.48,
+            "end": 22.72,
+            "word": " right",
+            "probability": 0.99482
+          },
+          {
+            "start": 22.72,
+            "end": 23.14,
+            "word": " time",
+            "probability": 0.99752
+          },
+          {
+            "start": 23.14,
+            "end": 23.3,
+            "word": " for",
+            "probability": 0.95954
+          },
+          {
+            "start": 23.3,
+            "end": 23.52,
+            "word": " me.",
+            "probability": 0.99953
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q11",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 60,
+            "speechStart": 0.88,
+            "speechEnd": 23.52,
+            "sourceTokenCoverage": 0.9524,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9756,
+            "transcript": "i'm looking at flights and comparing prices the morning flight i want is 350 which is a bit more than the 300 1 later in the day there's also another option that costs 400 but it includes extra services i don't need so i think i'll stick with the 350 1 since it leaves at the right time for me",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

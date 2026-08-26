@@ -1,0 +1,412 @@
+{
+  "testId": "aptis-b2-15",
+  "blockId": "p1-q12",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-15/part-1/q12.mp3",
+  "audioSha256": "654ce4532729ba86ffc3e9571df3030d0d8c1a7a6813c30c02859ea2d5e502a4",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.69,
+        "end": 2.99,
+        "text": "I'm not impressed with this new restaurant.",
+        "words": [
+          {
+            "start": 0.69,
+            "end": 1.27,
+            "word": " I'm",
+            "probability": 0.91393
+          },
+          {
+            "start": 1.27,
+            "end": 1.39,
+            "word": " not",
+            "probability": 0.999
+          },
+          {
+            "start": 1.39,
+            "end": 1.73,
+            "word": " impressed",
+            "probability": 0.99746
+          },
+          {
+            "start": 1.73,
+            "end": 2.01,
+            "word": " with",
+            "probability": 0.99874
+          },
+          {
+            "start": 2.01,
+            "end": 2.29,
+            "word": " this",
+            "probability": 0.99824
+          },
+          {
+            "start": 2.29,
+            "end": 2.45,
+            "word": " new",
+            "probability": 0.99131
+          },
+          {
+            "start": 2.45,
+            "end": 2.99,
+            "word": " restaurant.",
+            "probability": 0.99862
+          }
+        ]
+      },
+      {
+        "start": 3.93,
+        "end": 6.37,
+        "text": "Honestly, we shouldn't have chosen to eat here.",
+        "words": [
+          {
+            "start": 3.93,
+            "end": 4.45,
+            "word": " Honestly,",
+            "probability": 0.98333
+          },
+          {
+            "start": 4.73,
+            "end": 4.93,
+            "word": " we",
+            "probability": 0.9963
+          },
+          {
+            "start": 4.93,
+            "end": 5.25,
+            "word": " shouldn't",
+            "probability": 0.99637
+          },
+          {
+            "start": 5.25,
+            "end": 5.41,
+            "word": " have",
+            "probability": 0.99883
+          },
+          {
+            "start": 5.41,
+            "end": 5.75,
+            "word": " chosen",
+            "probability": 0.99013
+          },
+          {
+            "start": 5.75,
+            "end": 5.93,
+            "word": " to",
+            "probability": 0.98383
+          },
+          {
+            "start": 5.93,
+            "end": 6.09,
+            "word": " eat",
+            "probability": 0.95404
+          },
+          {
+            "start": 6.09,
+            "end": 6.37,
+            "word": " here.",
+            "probability": 0.99874
+          }
+        ]
+      },
+      {
+        "start": 7.28,
+        "end": 10.6,
+        "text": "The prices are high and I'm not even sure if the food is good or not.",
+        "words": [
+          {
+            "start": 7.28,
+            "end": 7.46,
+            "word": " The",
+            "probability": 0.9954
+          },
+          {
+            "start": 7.46,
+            "end": 7.78,
+            "word": " prices",
+            "probability": 0.99725
+          },
+          {
+            "start": 7.78,
+            "end": 8.0,
+            "word": " are",
+            "probability": 0.99958
+          },
+          {
+            "start": 8.0,
+            "end": 8.24,
+            "word": " high",
+            "probability": 0.99904
+          },
+          {
+            "start": 8.24,
+            "end": 8.64,
+            "word": " and",
+            "probability": 0.37627
+          },
+          {
+            "start": 8.64,
+            "end": 8.8,
+            "word": " I'm",
+            "probability": 0.99028
+          },
+          {
+            "start": 8.8,
+            "end": 8.88,
+            "word": " not",
+            "probability": 0.99936
+          },
+          {
+            "start": 8.88,
+            "end": 9.08,
+            "word": " even",
+            "probability": 0.99268
+          },
+          {
+            "start": 9.08,
+            "end": 9.32,
+            "word": " sure",
+            "probability": 0.99878
+          },
+          {
+            "start": 9.32,
+            "end": 9.5,
+            "word": " if",
+            "probability": 0.9984
+          },
+          {
+            "start": 9.5,
+            "end": 9.62,
+            "word": " the",
+            "probability": 0.99296
+          },
+          {
+            "start": 9.62,
+            "end": 9.84,
+            "word": " food",
+            "probability": 0.99837
+          },
+          {
+            "start": 9.84,
+            "end": 10.0,
+            "word": " is",
+            "probability": 0.99767
+          },
+          {
+            "start": 10.0,
+            "end": 10.18,
+            "word": " good",
+            "probability": 0.99921
+          },
+          {
+            "start": 10.18,
+            "end": 10.34,
+            "word": " or",
+            "probability": 0.99877
+          },
+          {
+            "start": 10.34,
+            "end": 10.6,
+            "word": " not.",
+            "probability": 0.99925
+          }
+        ]
+      },
+      {
+        "start": 11.33,
+        "end": 13.81,
+        "text": "But what really bothers me is the slow service.",
+        "words": [
+          {
+            "start": 11.33,
+            "end": 11.75,
+            "word": " But",
+            "probability": 0.99343
+          },
+          {
+            "start": 11.75,
+            "end": 11.95,
+            "word": " what",
+            "probability": 0.99018
+          },
+          {
+            "start": 11.95,
+            "end": 12.27,
+            "word": " really",
+            "probability": 0.99884
+          },
+          {
+            "start": 12.27,
+            "end": 12.61,
+            "word": " bothers",
+            "probability": 0.99884
+          },
+          {
+            "start": 12.61,
+            "end": 12.87,
+            "word": " me",
+            "probability": 0.99951
+          },
+          {
+            "start": 12.87,
+            "end": 13.03,
+            "word": " is",
+            "probability": 0.99781
+          },
+          {
+            "start": 13.03,
+            "end": 13.19,
+            "word": " the",
+            "probability": 0.99778
+          },
+          {
+            "start": 13.19,
+            "end": 13.45,
+            "word": " slow",
+            "probability": 0.99181
+          },
+          {
+            "start": 13.45,
+            "end": 13.81,
+            "word": " service.",
+            "probability": 0.99031
+          }
+        ]
+      },
+      {
+        "start": 14.81,
+        "end": 16.79,
+        "text": "It's taking forever to get our orders.",
+        "words": [
+          {
+            "start": 14.81,
+            "end": 15.19,
+            "word": " It's",
+            "probability": 0.99631
+          },
+          {
+            "start": 15.19,
+            "end": 15.45,
+            "word": " taking",
+            "probability": 0.98615
+          },
+          {
+            "start": 15.45,
+            "end": 15.85,
+            "word": " forever",
+            "probability": 0.9984
+          },
+          {
+            "start": 15.85,
+            "end": 16.17,
+            "word": " to",
+            "probability": 0.99905
+          },
+          {
+            "start": 16.17,
+            "end": 16.33,
+            "word": " get",
+            "probability": 0.99943
+          },
+          {
+            "start": 16.33,
+            "end": 16.51,
+            "word": " our",
+            "probability": 0.99655
+          },
+          {
+            "start": 16.51,
+            "end": 16.79,
+            "word": " orders.",
+            "probability": 0.99694
+          }
+        ]
+      },
+      {
+        "start": 17.84,
+        "end": 20.14,
+        "text": "It's been 25 minutes and I'm so hungry.",
+        "words": [
+          {
+            "start": 17.84,
+            "end": 18.12,
+            "word": " It's",
+            "probability": 0.99534
+          },
+          {
+            "start": 18.12,
+            "end": 18.24,
+            "word": " been",
+            "probability": 0.99952
+          },
+          {
+            "start": 18.24,
+            "end": 18.82,
+            "word": " 25",
+            "probability": 0.95136
+          },
+          {
+            "start": 18.82,
+            "end": 19.16,
+            "word": " minutes",
+            "probability": 0.99733
+          },
+          {
+            "start": 19.16,
+            "end": 19.4,
+            "word": " and",
+            "probability": 0.93567
+          },
+          {
+            "start": 19.4,
+            "end": 19.58,
+            "word": " I'm",
+            "probability": 0.99508
+          },
+          {
+            "start": 19.58,
+            "end": 19.78,
+            "word": " so",
+            "probability": 0.99763
+          },
+          {
+            "start": 19.78,
+            "end": 20.14,
+            "word": " hungry.",
+            "probability": 0.99898
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q12",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 55,
+            "speechStart": 0.69,
+            "speechEnd": 20.14,
+            "sourceTokenCoverage": 0.9821,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.991,
+            "transcript": "i'm not impressed with this new restaurant honestly we shouldn't have chosen to eat here the prices are high and i'm not even sure if the food is good or not but what really bothers me is the slow service it's taking forever to get our orders it's been 25 minutes and i'm so hungry",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

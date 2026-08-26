@@ -1,0 +1,1366 @@
+{
+  "testId": "aptis-b2-01",
+  "blockId": "p1-q08",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-01/part-1/q08.mp3",
+  "audioSha256": "f52f40559af5eed491d859f651d329c3e44d4bb87388fe7412598f3c152b1037",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 5.9,
+        "text": "I've always loved science, but there was a moment that really encouraged me to become a scientist.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.3,
+            "word": " I've",
+            "probability": 0.72507
+          },
+          {
+            "start": 1.3,
+            "end": 1.48,
+            "word": " always",
+            "probability": 0.98071
+          },
+          {
+            "start": 1.48,
+            "end": 1.82,
+            "word": " loved",
+            "probability": 0.99594
+          },
+          {
+            "start": 1.82,
+            "end": 2.22,
+            "word": " science,",
+            "probability": 0.99207
+          },
+          {
+            "start": 2.76,
+            "end": 2.94,
+            "word": " but",
+            "probability": 0.99562
+          },
+          {
+            "start": 2.94,
+            "end": 3.08,
+            "word": " there",
+            "probability": 0.99694
+          },
+          {
+            "start": 3.08,
+            "end": 3.2,
+            "word": " was",
+            "probability": 0.99344
+          },
+          {
+            "start": 3.2,
+            "end": 3.32,
+            "word": " a",
+            "probability": 0.99552
+          },
+          {
+            "start": 3.32,
+            "end": 3.56,
+            "word": " moment",
+            "probability": 0.99484
+          },
+          {
+            "start": 3.56,
+            "end": 3.82,
+            "word": " that",
+            "probability": 0.98705
+          },
+          {
+            "start": 3.82,
+            "end": 4.16,
+            "word": " really",
+            "probability": 0.99605
+          },
+          {
+            "start": 4.16,
+            "end": 4.76,
+            "word": " encouraged",
+            "probability": 0.99731
+          },
+          {
+            "start": 4.76,
+            "end": 4.96,
+            "word": " me",
+            "probability": 0.99791
+          },
+          {
+            "start": 4.96,
+            "end": 5.08,
+            "word": " to",
+            "probability": 0.99722
+          },
+          {
+            "start": 5.08,
+            "end": 5.32,
+            "word": " become",
+            "probability": 0.99803
+          },
+          {
+            "start": 5.32,
+            "end": 5.46,
+            "word": " a",
+            "probability": 0.99918
+          },
+          {
+            "start": 5.46,
+            "end": 5.9,
+            "word": " scientist.",
+            "probability": 0.99441
+          }
+        ]
+      },
+      {
+        "start": 6.98,
+        "end": 13.78,
+        "text": "I remember when I was a child I found a large stone during a school trip. It sparked my curiosity about geology.",
+        "words": [
+          {
+            "start": 6.98,
+            "end": 7.46,
+            "word": " I",
+            "probability": 0.99224
+          },
+          {
+            "start": 7.46,
+            "end": 7.78,
+            "word": " remember",
+            "probability": 0.98775
+          },
+          {
+            "start": 7.78,
+            "end": 8.0,
+            "word": " when",
+            "probability": 0.99028
+          },
+          {
+            "start": 8.0,
+            "end": 8.14,
+            "word": " I",
+            "probability": 0.99521
+          },
+          {
+            "start": 8.14,
+            "end": 8.28,
+            "word": " was",
+            "probability": 0.99937
+          },
+          {
+            "start": 8.28,
+            "end": 8.36,
+            "word": " a",
+            "probability": 0.99792
+          },
+          {
+            "start": 8.36,
+            "end": 8.76,
+            "word": " child",
+            "probability": 0.99755
+          },
+          {
+            "start": 8.76,
+            "end": 8.96,
+            "word": " I",
+            "probability": 0.57041
+          },
+          {
+            "start": 8.96,
+            "end": 9.18,
+            "word": " found",
+            "probability": 0.99835
+          },
+          {
+            "start": 9.18,
+            "end": 9.3,
+            "word": " a",
+            "probability": 0.9961
+          },
+          {
+            "start": 9.3,
+            "end": 9.66,
+            "word": " large",
+            "probability": 0.99529
+          },
+          {
+            "start": 9.66,
+            "end": 10.1,
+            "word": " stone",
+            "probability": 0.98145
+          },
+          {
+            "start": 10.1,
+            "end": 10.64,
+            "word": " during",
+            "probability": 0.92788
+          },
+          {
+            "start": 10.64,
+            "end": 10.8,
+            "word": " a",
+            "probability": 0.99805
+          },
+          {
+            "start": 10.8,
+            "end": 11.0,
+            "word": " school",
+            "probability": 0.99776
+          },
+          {
+            "start": 11.0,
+            "end": 11.32,
+            "word": " trip.",
+            "probability": 0.99225
+          },
+          {
+            "start": 11.9,
+            "end": 12.0,
+            "word": " It",
+            "probability": 0.98908
+          },
+          {
+            "start": 12.0,
+            "end": 12.18,
+            "word": " sparked",
+            "probability": 0.99617
+          },
+          {
+            "start": 12.18,
+            "end": 12.4,
+            "word": " my",
+            "probability": 0.9989
+          },
+          {
+            "start": 12.4,
+            "end": 12.92,
+            "word": " curiosity",
+            "probability": 0.99615
+          },
+          {
+            "start": 12.92,
+            "end": 13.28,
+            "word": " about",
+            "probability": 0.99578
+          },
+          {
+            "start": 13.28,
+            "end": 13.78,
+            "word": " geology.",
+            "probability": 0.99076
+          }
+        ]
+      },
+      {
+        "start": 14.32,
+        "end": 22.3,
+        "text": "My mother also inspired me to explore my interests in science. Of course I used the computer a lot now for my research, but that stone was the beginning.",
+        "words": [
+          {
+            "start": 14.32,
+            "end": 14.52,
+            "word": " My",
+            "probability": 0.99644
+          },
+          {
+            "start": 14.52,
+            "end": 14.78,
+            "word": " mother",
+            "probability": 0.99611
+          },
+          {
+            "start": 14.78,
+            "end": 15.16,
+            "word": " also",
+            "probability": 0.99594
+          },
+          {
+            "start": 15.16,
+            "end": 15.66,
+            "word": " inspired",
+            "probability": 0.99361
+          },
+          {
+            "start": 15.66,
+            "end": 15.82,
+            "word": " me",
+            "probability": 0.99653
+          },
+          {
+            "start": 15.82,
+            "end": 15.96,
+            "word": " to",
+            "probability": 0.99909
+          },
+          {
+            "start": 15.96,
+            "end": 16.3,
+            "word": " explore",
+            "probability": 0.99664
+          },
+          {
+            "start": 16.3,
+            "end": 16.46,
+            "word": " my",
+            "probability": 0.99925
+          },
+          {
+            "start": 16.46,
+            "end": 16.74,
+            "word": " interests",
+            "probability": 0.99064
+          },
+          {
+            "start": 16.74,
+            "end": 16.94,
+            "word": " in",
+            "probability": 0.9158
+          },
+          {
+            "start": 16.94,
+            "end": 17.32,
+            "word": " science.",
+            "probability": 0.99754
+          },
+          {
+            "start": 17.8,
+            "end": 17.92,
+            "word": " Of",
+            "probability": 0.99351
+          },
+          {
+            "start": 17.92,
+            "end": 18.1,
+            "word": " course",
+            "probability": 0.99921
+          },
+          {
+            "start": 18.1,
+            "end": 18.32,
+            "word": " I",
+            "probability": 0.70669
+          },
+          {
+            "start": 18.32,
+            "end": 18.48,
+            "word": " used",
+            "probability": 0.82153
+          },
+          {
+            "start": 18.48,
+            "end": 18.62,
+            "word": " the",
+            "probability": 0.98654
+          },
+          {
+            "start": 18.62,
+            "end": 18.88,
+            "word": " computer",
+            "probability": 0.99941
+          },
+          {
+            "start": 18.88,
+            "end": 19.1,
+            "word": " a",
+            "probability": 0.99424
+          },
+          {
+            "start": 19.1,
+            "end": 19.22,
+            "word": " lot",
+            "probability": 0.99959
+          },
+          {
+            "start": 19.22,
+            "end": 19.42,
+            "word": " now",
+            "probability": 0.97153
+          },
+          {
+            "start": 19.42,
+            "end": 19.58,
+            "word": " for",
+            "probability": 0.99454
+          },
+          {
+            "start": 19.58,
+            "end": 19.72,
+            "word": " my",
+            "probability": 0.99881
+          },
+          {
+            "start": 19.72,
+            "end": 20.04,
+            "word": " research,",
+            "probability": 0.99956
+          },
+          {
+            "start": 20.52,
+            "end": 20.72,
+            "word": " but",
+            "probability": 0.99697
+          },
+          {
+            "start": 20.72,
+            "end": 20.88,
+            "word": " that",
+            "probability": 0.99497
+          },
+          {
+            "start": 20.88,
+            "end": 21.32,
+            "word": " stone",
+            "probability": 0.99097
+          },
+          {
+            "start": 21.32,
+            "end": 21.84,
+            "word": " was",
+            "probability": 0.98378
+          },
+          {
+            "start": 21.84,
+            "end": 22.0,
+            "word": " the",
+            "probability": 0.99258
+          },
+          {
+            "start": 22.0,
+            "end": 22.3,
+            "word": " beginning.",
+            "probability": 0.99835
+          }
+        ]
+      },
+      {
+        "start": 24.9,
+        "end": 29.96,
+        "text": "I've always loved science, but there was a moment that really encouraged me to become a scientist.",
+        "words": [
+          {
+            "start": 24.9,
+            "end": 25.38,
+            "word": " I've",
+            "probability": 0.99245
+          },
+          {
+            "start": 25.38,
+            "end": 25.56,
+            "word": " always",
+            "probability": 0.99845
+          },
+          {
+            "start": 25.56,
+            "end": 25.88,
+            "word": " loved",
+            "probability": 0.99766
+          },
+          {
+            "start": 25.88,
+            "end": 26.4,
+            "word": " science,",
+            "probability": 0.99845
+          },
+          {
+            "start": 26.86,
+            "end": 27.0,
+            "word": " but",
+            "probability": 0.99741
+          },
+          {
+            "start": 27.0,
+            "end": 27.14,
+            "word": " there",
+            "probability": 0.99754
+          },
+          {
+            "start": 27.14,
+            "end": 27.26,
+            "word": " was",
+            "probability": 0.99392
+          },
+          {
+            "start": 27.26,
+            "end": 27.38,
+            "word": " a",
+            "probability": 0.99793
+          },
+          {
+            "start": 27.38,
+            "end": 27.62,
+            "word": " moment",
+            "probability": 0.99745
+          },
+          {
+            "start": 27.62,
+            "end": 27.88,
+            "word": " that",
+            "probability": 0.99372
+          },
+          {
+            "start": 27.88,
+            "end": 28.18,
+            "word": " really",
+            "probability": 0.99943
+          },
+          {
+            "start": 28.18,
+            "end": 28.84,
+            "word": " encouraged",
+            "probability": 0.99859
+          },
+          {
+            "start": 28.84,
+            "end": 29.02,
+            "word": " me",
+            "probability": 0.99893
+          },
+          {
+            "start": 29.02,
+            "end": 29.14,
+            "word": " to",
+            "probability": 0.99824
+          },
+          {
+            "start": 29.14,
+            "end": 29.38,
+            "word": " become",
+            "probability": 0.99766
+          },
+          {
+            "start": 29.38,
+            "end": 29.52,
+            "word": " a",
+            "probability": 0.9993
+          },
+          {
+            "start": 29.52,
+            "end": 29.96,
+            "word": " scientist.",
+            "probability": 0.99755
+          }
+        ]
+      },
+      {
+        "start": 31.03,
+        "end": 37.81,
+        "text": "I remember when I was a child I found a large stone during a school trip. It sparked my curiosity about geology.",
+        "words": [
+          {
+            "start": 31.03,
+            "end": 31.51,
+            "word": " I",
+            "probability": 0.2987
+          },
+          {
+            "start": 31.51,
+            "end": 31.87,
+            "word": " remember",
+            "probability": 0.72104
+          },
+          {
+            "start": 31.87,
+            "end": 32.07,
+            "word": " when",
+            "probability": 0.96831
+          },
+          {
+            "start": 32.07,
+            "end": 32.19,
+            "word": " I",
+            "probability": 0.99475
+          },
+          {
+            "start": 32.19,
+            "end": 32.35,
+            "word": " was",
+            "probability": 0.99687
+          },
+          {
+            "start": 32.35,
+            "end": 32.43,
+            "word": " a",
+            "probability": 0.99865
+          },
+          {
+            "start": 32.43,
+            "end": 32.79,
+            "word": " child",
+            "probability": 0.99198
+          },
+          {
+            "start": 32.79,
+            "end": 33.03,
+            "word": " I",
+            "probability": 0.75327
+          },
+          {
+            "start": 33.03,
+            "end": 33.25,
+            "word": " found",
+            "probability": 0.99529
+          },
+          {
+            "start": 33.25,
+            "end": 33.37,
+            "word": " a",
+            "probability": 0.99628
+          },
+          {
+            "start": 33.37,
+            "end": 33.71,
+            "word": " large",
+            "probability": 0.99299
+          },
+          {
+            "start": 33.71,
+            "end": 34.15,
+            "word": " stone",
+            "probability": 0.98394
+          },
+          {
+            "start": 34.15,
+            "end": 34.69,
+            "word": " during",
+            "probability": 0.95303
+          },
+          {
+            "start": 34.69,
+            "end": 34.85,
+            "word": " a",
+            "probability": 0.99513
+          },
+          {
+            "start": 34.85,
+            "end": 35.07,
+            "word": " school",
+            "probability": 0.99675
+          },
+          {
+            "start": 35.07,
+            "end": 35.41,
+            "word": " trip.",
+            "probability": 0.99041
+          },
+          {
+            "start": 35.71,
+            "end": 36.03,
+            "word": " It",
+            "probability": 0.97369
+          },
+          {
+            "start": 36.03,
+            "end": 36.25,
+            "word": " sparked",
+            "probability": 0.99761
+          },
+          {
+            "start": 36.25,
+            "end": 36.45,
+            "word": " my",
+            "probability": 0.99815
+          },
+          {
+            "start": 36.45,
+            "end": 36.83,
+            "word": " curiosity",
+            "probability": 0.99642
+          },
+          {
+            "start": 36.83,
+            "end": 37.33,
+            "word": " about",
+            "probability": 0.99458
+          },
+          {
+            "start": 37.33,
+            "end": 37.81,
+            "word": " geology.",
+            "probability": 0.9902
+          }
+        ]
+      },
+      {
+        "start": 38.37,
+        "end": 46.37,
+        "text": "My mother also inspired me to explore my interests in science. Of course I used the computer a lot now for my research, but that stone was the beginning.",
+        "words": [
+          {
+            "start": 38.37,
+            "end": 38.57,
+            "word": " My",
+            "probability": 0.9938
+          },
+          {
+            "start": 38.57,
+            "end": 38.85,
+            "word": " mother",
+            "probability": 0.99488
+          },
+          {
+            "start": 38.85,
+            "end": 39.23,
+            "word": " also",
+            "probability": 0.99532
+          },
+          {
+            "start": 39.23,
+            "end": 39.71,
+            "word": " inspired",
+            "probability": 0.98954
+          },
+          {
+            "start": 39.71,
+            "end": 39.87,
+            "word": " me",
+            "probability": 0.99672
+          },
+          {
+            "start": 39.87,
+            "end": 40.03,
+            "word": " to",
+            "probability": 0.9983
+          },
+          {
+            "start": 40.03,
+            "end": 40.35,
+            "word": " explore",
+            "probability": 0.99613
+          },
+          {
+            "start": 40.35,
+            "end": 40.51,
+            "word": " my",
+            "probability": 0.99853
+          },
+          {
+            "start": 40.51,
+            "end": 40.77,
+            "word": " interests",
+            "probability": 0.98646
+          },
+          {
+            "start": 40.77,
+            "end": 41.01,
+            "word": " in",
+            "probability": 0.91104
+          },
+          {
+            "start": 41.01,
+            "end": 41.33,
+            "word": " science.",
+            "probability": 0.99324
+          },
+          {
+            "start": 41.85,
+            "end": 41.97,
+            "word": " Of",
+            "probability": 0.99424
+          },
+          {
+            "start": 41.97,
+            "end": 42.15,
+            "word": " course",
+            "probability": 0.99894
+          },
+          {
+            "start": 42.15,
+            "end": 42.37,
+            "word": " I",
+            "probability": 0.58446
+          },
+          {
+            "start": 42.37,
+            "end": 42.53,
+            "word": " used",
+            "probability": 0.86124
+          },
+          {
+            "start": 42.53,
+            "end": 42.67,
+            "word": " the",
+            "probability": 0.97953
+          },
+          {
+            "start": 42.67,
+            "end": 42.97,
+            "word": " computer",
+            "probability": 0.99883
+          },
+          {
+            "start": 42.97,
+            "end": 43.15,
+            "word": " a",
+            "probability": 0.99198
+          },
+          {
+            "start": 43.15,
+            "end": 43.27,
+            "word": " lot",
+            "probability": 0.99923
+          },
+          {
+            "start": 43.27,
+            "end": 43.49,
+            "word": " now",
+            "probability": 0.96129
+          },
+          {
+            "start": 43.49,
+            "end": 43.63,
+            "word": " for",
+            "probability": 0.99136
+          },
+          {
+            "start": 43.63,
+            "end": 43.77,
+            "word": " my",
+            "probability": 0.99884
+          },
+          {
+            "start": 43.77,
+            "end": 44.13,
+            "word": " research,",
+            "probability": 0.99892
+          },
+          {
+            "start": 44.59,
+            "end": 44.77,
+            "word": " but",
+            "probability": 0.99364
+          },
+          {
+            "start": 44.77,
+            "end": 44.95,
+            "word": " that",
+            "probability": 0.9948
+          },
+          {
+            "start": 44.95,
+            "end": 45.35,
+            "word": " stone",
+            "probability": 0.98371
+          },
+          {
+            "start": 45.35,
+            "end": 45.89,
+            "word": " was",
+            "probability": 0.97465
+          },
+          {
+            "start": 45.89,
+            "end": 46.07,
+            "word": " the",
+            "probability": 0.99382
+          },
+          {
+            "start": 46.07,
+            "end": 46.37,
+            "word": " beginning.",
+            "probability": 0.99736
+          }
+        ]
+      },
+      {
+        "start": 48.6,
+        "end": 53.54,
+        "text": "I've always loved science, but there was a moment that really encouraged me to become a scientist.",
+        "words": [
+          {
+            "start": 48.6,
+            "end": 48.94,
+            "word": " I've",
+            "probability": 0.96005
+          },
+          {
+            "start": 48.94,
+            "end": 49.14,
+            "word": " always",
+            "probability": 0.99836
+          },
+          {
+            "start": 49.14,
+            "end": 49.42,
+            "word": " loved",
+            "probability": 0.99825
+          },
+          {
+            "start": 49.42,
+            "end": 49.86,
+            "word": " science,",
+            "probability": 0.99788
+          },
+          {
+            "start": 50.4,
+            "end": 50.58,
+            "word": " but",
+            "probability": 0.99656
+          },
+          {
+            "start": 50.58,
+            "end": 50.72,
+            "word": " there",
+            "probability": 0.99774
+          },
+          {
+            "start": 50.72,
+            "end": 50.84,
+            "word": " was",
+            "probability": 0.99574
+          },
+          {
+            "start": 50.84,
+            "end": 50.94,
+            "word": " a",
+            "probability": 0.99779
+          },
+          {
+            "start": 50.94,
+            "end": 51.2,
+            "word": " moment",
+            "probability": 0.99787
+          },
+          {
+            "start": 51.2,
+            "end": 51.46,
+            "word": " that",
+            "probability": 0.99054
+          },
+          {
+            "start": 51.46,
+            "end": 51.8,
+            "word": " really",
+            "probability": 0.99522
+          },
+          {
+            "start": 51.8,
+            "end": 52.4,
+            "word": " encouraged",
+            "probability": 0.99892
+          },
+          {
+            "start": 52.4,
+            "end": 52.58,
+            "word": " me",
+            "probability": 0.99855
+          },
+          {
+            "start": 52.58,
+            "end": 52.72,
+            "word": " to",
+            "probability": 0.99923
+          },
+          {
+            "start": 52.72,
+            "end": 52.96,
+            "word": " become",
+            "probability": 0.99881
+          },
+          {
+            "start": 52.96,
+            "end": 53.08,
+            "word": " a",
+            "probability": 0.99924
+          },
+          {
+            "start": 53.08,
+            "end": 53.54,
+            "word": " scientist.",
+            "probability": 0.99437
+          }
+        ]
+      },
+      {
+        "start": 54.62,
+        "end": 61.44,
+        "text": "I remember when I was a child I found a large stone during a school trip. It sparked my curiosity about geology.",
+        "words": [
+          {
+            "start": 54.62,
+            "end": 55.1,
+            "word": " I",
+            "probability": 0.99524
+          },
+          {
+            "start": 55.1,
+            "end": 55.42,
+            "word": " remember",
+            "probability": 0.99353
+          },
+          {
+            "start": 55.42,
+            "end": 55.64,
+            "word": " when",
+            "probability": 0.99579
+          },
+          {
+            "start": 55.64,
+            "end": 55.76,
+            "word": " I",
+            "probability": 0.99732
+          },
+          {
+            "start": 55.76,
+            "end": 55.92,
+            "word": " was",
+            "probability": 0.99899
+          },
+          {
+            "start": 55.92,
+            "end": 56.0,
+            "word": " a",
+            "probability": 0.99909
+          },
+          {
+            "start": 56.0,
+            "end": 56.38,
+            "word": " child",
+            "probability": 0.99786
+          },
+          {
+            "start": 56.38,
+            "end": 56.6,
+            "word": " I",
+            "probability": 0.93709
+          },
+          {
+            "start": 56.6,
+            "end": 56.82,
+            "word": " found",
+            "probability": 0.99842
+          },
+          {
+            "start": 56.82,
+            "end": 56.94,
+            "word": " a",
+            "probability": 0.99805
+          },
+          {
+            "start": 56.94,
+            "end": 57.26,
+            "word": " large",
+            "probability": 0.99782
+          },
+          {
+            "start": 57.26,
+            "end": 57.78,
+            "word": " stone",
+            "probability": 0.99456
+          },
+          {
+            "start": 57.78,
+            "end": 58.28,
+            "word": " during",
+            "probability": 0.98922
+          },
+          {
+            "start": 58.28,
+            "end": 58.44,
+            "word": " a",
+            "probability": 0.9978
+          },
+          {
+            "start": 58.44,
+            "end": 58.64,
+            "word": " school",
+            "probability": 0.99894
+          },
+          {
+            "start": 58.64,
+            "end": 59.04,
+            "word": " trip.",
+            "probability": 0.99734
+          },
+          {
+            "start": 59.46,
+            "end": 59.6,
+            "word": " It",
+            "probability": 0.99455
+          },
+          {
+            "start": 59.6,
+            "end": 59.82,
+            "word": " sparked",
+            "probability": 0.99777
+          },
+          {
+            "start": 59.82,
+            "end": 60.02,
+            "word": " my",
+            "probability": 0.99933
+          },
+          {
+            "start": 60.02,
+            "end": 60.62,
+            "word": " curiosity",
+            "probability": 0.99939
+          },
+          {
+            "start": 60.62,
+            "end": 60.9,
+            "word": " about",
+            "probability": 0.99727
+          },
+          {
+            "start": 60.9,
+            "end": 61.44,
+            "word": " geology.",
+            "probability": 0.99746
+          }
+        ]
+      },
+      {
+        "start": 61.44,
+        "end": 66.12,
+        "text": "me. My mother also inspired me to explore my interests in science. Of course, I used",
+        "words": [
+          {
+            "start": 61.44,
+            "end": 61.58,
+            "word": " me.",
+            "probability": 0.04335
+          },
+          {
+            "start": 61.84,
+            "end": 62.16,
+            "word": " My",
+            "probability": 0.98315
+          },
+          {
+            "start": 62.16,
+            "end": 62.42,
+            "word": " mother",
+            "probability": 0.98833
+          },
+          {
+            "start": 62.42,
+            "end": 62.82,
+            "word": " also",
+            "probability": 0.98523
+          },
+          {
+            "start": 62.82,
+            "end": 63.28,
+            "word": " inspired",
+            "probability": 0.98218
+          },
+          {
+            "start": 63.28,
+            "end": 63.46,
+            "word": " me",
+            "probability": 0.9861
+          },
+          {
+            "start": 63.46,
+            "end": 63.6,
+            "word": " to",
+            "probability": 0.99721
+          },
+          {
+            "start": 63.6,
+            "end": 63.94,
+            "word": " explore",
+            "probability": 0.99338
+          },
+          {
+            "start": 63.94,
+            "end": 64.1,
+            "word": " my",
+            "probability": 0.997
+          },
+          {
+            "start": 64.1,
+            "end": 64.38,
+            "word": " interests",
+            "probability": 0.98443
+          },
+          {
+            "start": 64.38,
+            "end": 64.58,
+            "word": " in",
+            "probability": 0.86933
+          },
+          {
+            "start": 64.58,
+            "end": 64.92,
+            "word": " science.",
+            "probability": 0.98964
+          },
+          {
+            "start": 65.46,
+            "end": 65.54,
+            "word": " Of",
+            "probability": 0.99368
+          },
+          {
+            "start": 65.54,
+            "end": 65.76,
+            "word": " course,",
+            "probability": 0.99834
+          },
+          {
+            "start": 65.82,
+            "end": 65.94,
+            "word": " I",
+            "probability": 0.99559
+          },
+          {
+            "start": 65.94,
+            "end": 66.12,
+            "word": " used",
+            "probability": 0.60489
+          }
+        ]
+      },
+      {
+        "start": 66.12,
+        "end": 69.94,
+        "text": "the computer a lot now for my research, but that stone was the beginning.",
+        "words": [
+          {
+            "start": 66.12,
+            "end": 66.26,
+            "word": " the",
+            "probability": 0.98173
+          },
+          {
+            "start": 66.26,
+            "end": 66.54,
+            "word": " computer",
+            "probability": 0.99839
+          },
+          {
+            "start": 66.54,
+            "end": 66.74,
+            "word": " a",
+            "probability": 0.99216
+          },
+          {
+            "start": 66.74,
+            "end": 66.86,
+            "word": " lot",
+            "probability": 0.99806
+          },
+          {
+            "start": 66.86,
+            "end": 67.06,
+            "word": " now",
+            "probability": 0.93957
+          },
+          {
+            "start": 67.06,
+            "end": 67.22,
+            "word": " for",
+            "probability": 0.98129
+          },
+          {
+            "start": 67.22,
+            "end": 67.36,
+            "word": " my",
+            "probability": 0.99628
+          },
+          {
+            "start": 67.36,
+            "end": 67.7,
+            "word": " research,",
+            "probability": 0.9983
+          },
+          {
+            "start": 68.16,
+            "end": 68.36,
+            "word": " but",
+            "probability": 0.99582
+          },
+          {
+            "start": 68.36,
+            "end": 68.52,
+            "word": " that",
+            "probability": 0.98134
+          },
+          {
+            "start": 68.52,
+            "end": 68.92,
+            "word": " stone",
+            "probability": 0.94449
+          },
+          {
+            "start": 68.92,
+            "end": 69.48,
+            "word": " was",
+            "probability": 0.94826
+          },
+          {
+            "start": 69.48,
+            "end": 69.64,
+            "word": " the",
+            "probability": 0.98115
+          },
+          {
+            "start": 69.64,
+            "end": 69.94,
+            "word": " beginning.",
+            "probability": 0.99447
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q08",
+        "expectedCompleteRenditions": 3,
+        "detectedCompleteRenditions": 3,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 68,
+            "speechStart": 0.78,
+            "speechEnd": 22.3,
+            "sourceTokenCoverage": 0.9853,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9853,
+            "transcript": "i've always loved science but there was a moment that really encouraged me to become a scientist i remember when i was a child i found a large stone during a school trip it sparked my curiosity about geology my mother also inspired me to explore my interests in science of course i used the computer a lot now for my research but that stone was the beginning",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 68,
+            "wordEndIndexExclusive": 136,
+            "speechStart": 24.9,
+            "speechEnd": 46.37,
+            "sourceTokenCoverage": 0.9853,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9853,
+            "transcript": "i've always loved science but there was a moment that really encouraged me to become a scientist i remember when i was a child i found a large stone during a school trip it sparked my curiosity about geology my mother also inspired me to explore my interests in science of course i used the computer a lot now for my research but that stone was the beginning",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 136,
+            "wordEndIndexExclusive": 205,
+            "speechStart": 48.6,
+            "speechEnd": 69.94,
+            "sourceTokenCoverage": 0.9853,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9781,
+            "transcript": "i've always loved science but there was a moment that really encouraged me to become a scientist i remember when i was a child i found a large stone during a school trip it sparked my curiosity about geology me my mother also inspired me to explore my interests in science of course i used the computer a lot now for my research but that stone was the beginning",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

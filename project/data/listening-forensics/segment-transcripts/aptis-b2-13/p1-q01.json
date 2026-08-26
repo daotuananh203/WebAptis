@@ -1,0 +1,919 @@
+{
+  "testId": "aptis-b2-13",
+  "blockId": "p1-q01",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-13/part-1/q01.mp3",
+  "audioSha256": "8a154196aa56c3f20616f53b2715507c098b90653148224cae969decb1f7e2bb",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.91,
+        "end": 5.23,
+        "text": "Hi, it's me Max. I'm calling about the computer that you are selling.",
+        "words": [
+          {
+            "start": 0.91,
+            "end": 1.43,
+            "word": " Hi,",
+            "probability": 0.52319
+          },
+          {
+            "start": 1.67,
+            "end": 1.87,
+            "word": " it's",
+            "probability": 0.96978
+          },
+          {
+            "start": 1.87,
+            "end": 1.97,
+            "word": " me",
+            "probability": 0.94322
+          },
+          {
+            "start": 1.97,
+            "end": 2.25,
+            "word": " Max.",
+            "probability": 0.52619
+          },
+          {
+            "start": 2.93,
+            "end": 3.41,
+            "word": " I'm",
+            "probability": 0.93235
+          },
+          {
+            "start": 3.41,
+            "end": 3.59,
+            "word": " calling",
+            "probability": 0.99851
+          },
+          {
+            "start": 3.59,
+            "end": 3.85,
+            "word": " about",
+            "probability": 0.99633
+          },
+          {
+            "start": 3.85,
+            "end": 4.01,
+            "word": " the",
+            "probability": 0.98738
+          },
+          {
+            "start": 4.01,
+            "end": 4.41,
+            "word": " computer",
+            "probability": 0.99569
+          },
+          {
+            "start": 4.41,
+            "end": 4.65,
+            "word": " that",
+            "probability": 0.97496
+          },
+          {
+            "start": 4.65,
+            "end": 4.81,
+            "word": " you",
+            "probability": 0.99821
+          },
+          {
+            "start": 4.81,
+            "end": 4.93,
+            "word": " are",
+            "probability": 0.92207
+          },
+          {
+            "start": 4.93,
+            "end": 5.23,
+            "word": " selling.",
+            "probability": 0.9981
+          }
+        ]
+      },
+      {
+        "start": 5.79,
+        "end": 10.89,
+        "text": "You see, my computer is old and slow. I can't play any games on it anymore and would",
+        "words": [
+          {
+            "start": 5.79,
+            "end": 5.91,
+            "word": " You",
+            "probability": 0.98545
+          },
+          {
+            "start": 5.91,
+            "end": 6.11,
+            "word": " see,",
+            "probability": 0.99796
+          },
+          {
+            "start": 6.55,
+            "end": 6.71,
+            "word": " my",
+            "probability": 0.96573
+          },
+          {
+            "start": 6.71,
+            "end": 7.09,
+            "word": " computer",
+            "probability": 0.99874
+          },
+          {
+            "start": 7.09,
+            "end": 7.33,
+            "word": " is",
+            "probability": 0.99745
+          },
+          {
+            "start": 7.33,
+            "end": 7.63,
+            "word": " old",
+            "probability": 0.99237
+          },
+          {
+            "start": 7.63,
+            "end": 7.85,
+            "word": " and",
+            "probability": 0.99425
+          },
+          {
+            "start": 7.85,
+            "end": 8.21,
+            "word": " slow.",
+            "probability": 0.99507
+          },
+          {
+            "start": 8.65,
+            "end": 8.73,
+            "word": " I",
+            "probability": 0.99795
+          },
+          {
+            "start": 8.73,
+            "end": 8.97,
+            "word": " can't",
+            "probability": 0.99588
+          },
+          {
+            "start": 8.97,
+            "end": 9.13,
+            "word": " play",
+            "probability": 0.99746
+          },
+          {
+            "start": 9.13,
+            "end": 9.31,
+            "word": " any",
+            "probability": 0.99731
+          },
+          {
+            "start": 9.31,
+            "end": 9.59,
+            "word": " games",
+            "probability": 0.99797
+          },
+          {
+            "start": 9.59,
+            "end": 9.79,
+            "word": " on",
+            "probability": 0.99833
+          },
+          {
+            "start": 9.79,
+            "end": 9.91,
+            "word": " it",
+            "probability": 0.99952
+          },
+          {
+            "start": 9.91,
+            "end": 10.31,
+            "word": " anymore",
+            "probability": 0.87246
+          },
+          {
+            "start": 10.31,
+            "end": 10.79,
+            "word": " and",
+            "probability": 0.40058
+          },
+          {
+            "start": 10.79,
+            "end": 10.89,
+            "word": " would",
+            "probability": 0.95705
+          }
+        ]
+      },
+      {
+        "start": 10.89,
+        "end": 14.1,
+        "text": "like to replace it with a new one. How much do you offer?",
+        "words": [
+          {
+            "start": 10.89,
+            "end": 11.05,
+            "word": " like",
+            "probability": 0.99862
+          },
+          {
+            "start": 11.05,
+            "end": 11.21,
+            "word": " to",
+            "probability": 0.99813
+          },
+          {
+            "start": 11.21,
+            "end": 11.51,
+            "word": " replace",
+            "probability": 0.99728
+          },
+          {
+            "start": 11.51,
+            "end": 11.71,
+            "word": " it",
+            "probability": 0.99633
+          },
+          {
+            "start": 11.71,
+            "end": 11.85,
+            "word": " with",
+            "probability": 0.99873
+          },
+          {
+            "start": 11.85,
+            "end": 11.93,
+            "word": " a",
+            "probability": 0.98898
+          },
+          {
+            "start": 11.93,
+            "end": 12.11,
+            "word": " new",
+            "probability": 0.99636
+          },
+          {
+            "start": 12.11,
+            "end": 12.37,
+            "word": " one.",
+            "probability": 0.99878
+          },
+          {
+            "start": 13.16,
+            "end": 13.4,
+            "word": " How",
+            "probability": 0.96715
+          },
+          {
+            "start": 13.4,
+            "end": 13.62,
+            "word": " much",
+            "probability": 0.99935
+          },
+          {
+            "start": 13.62,
+            "end": 13.76,
+            "word": " do",
+            "probability": 0.99795
+          },
+          {
+            "start": 13.76,
+            "end": 13.86,
+            "word": " you",
+            "probability": 0.99786
+          },
+          {
+            "start": 13.86,
+            "end": 14.1,
+            "word": " offer?",
+            "probability": 0.99903
+          }
+        ]
+      },
+      {
+        "start": 15.19,
+        "end": 20.77,
+        "text": "I can pay £250 this afternoon I am busy, but we can discuss this tomorrow morning.",
+        "words": [
+          {
+            "start": 15.19,
+            "end": 15.37,
+            "word": " I",
+            "probability": 0.99289
+          },
+          {
+            "start": 15.37,
+            "end": 15.51,
+            "word": " can",
+            "probability": 0.9982
+          },
+          {
+            "start": 15.51,
+            "end": 15.69,
+            "word": " pay",
+            "probability": 0.99756
+          },
+          {
+            "start": 15.69,
+            "end": 16.55,
+            "word": " £250",
+            "probability": 0.62142
+          },
+          {
+            "start": 16.55,
+            "end": 17.53,
+            "word": " this",
+            "probability": 0.49987
+          },
+          {
+            "start": 17.53,
+            "end": 17.97,
+            "word": " afternoon",
+            "probability": 0.99659
+          },
+          {
+            "start": 17.97,
+            "end": 18.19,
+            "word": " I",
+            "probability": 0.2422
+          },
+          {
+            "start": 18.19,
+            "end": 18.31,
+            "word": " am",
+            "probability": 0.63583
+          },
+          {
+            "start": 18.31,
+            "end": 18.57,
+            "word": " busy,",
+            "probability": 0.99929
+          },
+          {
+            "start": 19.01,
+            "end": 19.23,
+            "word": " but",
+            "probability": 0.99431
+          },
+          {
+            "start": 19.23,
+            "end": 19.35,
+            "word": " we",
+            "probability": 0.99714
+          },
+          {
+            "start": 19.35,
+            "end": 19.45,
+            "word": " can",
+            "probability": 0.99847
+          },
+          {
+            "start": 19.45,
+            "end": 19.75,
+            "word": " discuss",
+            "probability": 0.99539
+          },
+          {
+            "start": 19.75,
+            "end": 20.01,
+            "word": " this",
+            "probability": 0.99536
+          },
+          {
+            "start": 20.01,
+            "end": 20.33,
+            "word": " tomorrow",
+            "probability": 0.99662
+          },
+          {
+            "start": 20.33,
+            "end": 20.77,
+            "word": " morning.",
+            "probability": 0.99658
+          }
+        ]
+      },
+      {
+        "start": 21.03,
+        "end": 30.55,
+        "text": "Is that okay? Call me back soon. Hi, it's me Max. I'm calling about the computer",
+        "words": [
+          {
+            "start": 21.03,
+            "end": 21.27,
+            "word": " Is",
+            "probability": 0.98242
+          },
+          {
+            "start": 21.27,
+            "end": 21.39,
+            "word": " that",
+            "probability": 0.99853
+          },
+          {
+            "start": 21.39,
+            "end": 21.73,
+            "word": " okay?",
+            "probability": 0.71608
+          },
+          {
+            "start": 22.21,
+            "end": 22.31,
+            "word": " Call",
+            "probability": 0.99376
+          },
+          {
+            "start": 22.31,
+            "end": 22.43,
+            "word": " me",
+            "probability": 0.99918
+          },
+          {
+            "start": 22.43,
+            "end": 22.61,
+            "word": " back",
+            "probability": 0.99907
+          },
+          {
+            "start": 22.61,
+            "end": 22.89,
+            "word": " soon.",
+            "probability": 0.99506
+          },
+          {
+            "start": 27.31,
+            "end": 27.55,
+            "word": " Hi,",
+            "probability": 0.95402
+          },
+          {
+            "start": 27.77,
+            "end": 27.97,
+            "word": " it's",
+            "probability": 0.99412
+          },
+          {
+            "start": 27.97,
+            "end": 28.07,
+            "word": " me",
+            "probability": 0.99485
+          },
+          {
+            "start": 28.07,
+            "end": 28.37,
+            "word": " Max.",
+            "probability": 0.9246
+          },
+          {
+            "start": 29.27,
+            "end": 29.49,
+            "word": " I'm",
+            "probability": 0.99071
+          },
+          {
+            "start": 29.49,
+            "end": 29.71,
+            "word": " calling",
+            "probability": 0.99844
+          },
+          {
+            "start": 29.71,
+            "end": 29.95,
+            "word": " about",
+            "probability": 0.99818
+          },
+          {
+            "start": 29.95,
+            "end": 30.13,
+            "word": " the",
+            "probability": 0.99588
+          },
+          {
+            "start": 30.13,
+            "end": 30.55,
+            "word": " computer",
+            "probability": 0.99839
+          }
+        ]
+      },
+      {
+        "start": 30.55,
+        "end": 36.01,
+        "text": "that you are selling. You see, my computer is old and slow, I can't play any games on it",
+        "words": [
+          {
+            "start": 30.55,
+            "end": 30.75,
+            "word": " that",
+            "probability": 0.68764
+          },
+          {
+            "start": 30.75,
+            "end": 30.91,
+            "word": " you",
+            "probability": 0.99576
+          },
+          {
+            "start": 30.91,
+            "end": 31.03,
+            "word": " are",
+            "probability": 0.87864
+          },
+          {
+            "start": 31.03,
+            "end": 31.33,
+            "word": " selling.",
+            "probability": 0.99696
+          },
+          {
+            "start": 31.93,
+            "end": 32.03,
+            "word": " You",
+            "probability": 0.9793
+          },
+          {
+            "start": 32.03,
+            "end": 32.21,
+            "word": " see,",
+            "probability": 0.99459
+          },
+          {
+            "start": 32.67,
+            "end": 32.81,
+            "word": " my",
+            "probability": 0.97946
+          },
+          {
+            "start": 32.81,
+            "end": 33.21,
+            "word": " computer",
+            "probability": 0.99618
+          },
+          {
+            "start": 33.21,
+            "end": 33.43,
+            "word": " is",
+            "probability": 0.99677
+          },
+          {
+            "start": 33.43,
+            "end": 33.73,
+            "word": " old",
+            "probability": 0.99261
+          },
+          {
+            "start": 33.73,
+            "end": 33.97,
+            "word": " and",
+            "probability": 0.98975
+          },
+          {
+            "start": 33.97,
+            "end": 34.31,
+            "word": " slow,",
+            "probability": 0.99321
+          },
+          {
+            "start": 34.75,
+            "end": 34.83,
+            "word": " I",
+            "probability": 0.97993
+          },
+          {
+            "start": 34.83,
+            "end": 35.05,
+            "word": " can't",
+            "probability": 0.98371
+          },
+          {
+            "start": 35.05,
+            "end": 35.23,
+            "word": " play",
+            "probability": 0.98884
+          },
+          {
+            "start": 35.23,
+            "end": 35.41,
+            "word": " any",
+            "probability": 0.98179
+          },
+          {
+            "start": 35.41,
+            "end": 35.75,
+            "word": " games",
+            "probability": 0.99617
+          },
+          {
+            "start": 35.75,
+            "end": 35.89,
+            "word": " on",
+            "probability": 0.99521
+          },
+          {
+            "start": 35.89,
+            "end": 36.01,
+            "word": " it",
+            "probability": 0.99801
+          }
+        ]
+      },
+      {
+        "start": 36.01,
+        "end": 43.1,
+        "text": "anymore and would like to replace it with a new one. How much do you offer? I can pay 250 pounds.",
+        "words": [
+          {
+            "start": 36.01,
+            "end": 36.41,
+            "word": " anymore",
+            "probability": 0.65819
+          },
+          {
+            "start": 36.41,
+            "end": 36.89,
+            "word": " and",
+            "probability": 0.33399
+          },
+          {
+            "start": 36.89,
+            "end": 36.99,
+            "word": " would",
+            "probability": 0.94601
+          },
+          {
+            "start": 36.99,
+            "end": 37.15,
+            "word": " like",
+            "probability": 0.99747
+          },
+          {
+            "start": 37.15,
+            "end": 37.31,
+            "word": " to",
+            "probability": 0.99556
+          },
+          {
+            "start": 37.31,
+            "end": 37.61,
+            "word": " replace",
+            "probability": 0.99256
+          },
+          {
+            "start": 37.61,
+            "end": 37.81,
+            "word": " it",
+            "probability": 0.98972
+          },
+          {
+            "start": 37.81,
+            "end": 37.95,
+            "word": " with",
+            "probability": 0.99754
+          },
+          {
+            "start": 37.95,
+            "end": 38.03,
+            "word": " a",
+            "probability": 0.97488
+          },
+          {
+            "start": 38.03,
+            "end": 38.21,
+            "word": " new",
+            "probability": 0.9942
+          },
+          {
+            "start": 38.21,
+            "end": 38.47,
+            "word": " one.",
+            "probability": 0.99713
+          },
+          {
+            "start": 39.27,
+            "end": 39.49,
+            "word": " How",
+            "probability": 0.97021
+          },
+          {
+            "start": 39.49,
+            "end": 39.71,
+            "word": " much",
+            "probability": 0.9988
+          },
+          {
+            "start": 39.71,
+            "end": 39.85,
+            "word": " do",
+            "probability": 0.99213
+          },
+          {
+            "start": 39.85,
+            "end": 39.95,
+            "word": " you",
+            "probability": 0.99728
+          },
+          {
+            "start": 39.95,
+            "end": 40.19,
+            "word": " offer?",
+            "probability": 0.99849
+          },
+          {
+            "start": 41.26,
+            "end": 41.48,
+            "word": " I",
+            "probability": 0.98427
+          },
+          {
+            "start": 41.48,
+            "end": 41.62,
+            "word": " can",
+            "probability": 0.99417
+          },
+          {
+            "start": 41.62,
+            "end": 41.8,
+            "word": " pay",
+            "probability": 0.99479
+          },
+          {
+            "start": 41.8,
+            "end": 42.5,
+            "word": " 250",
+            "probability": 0.3638
+          },
+          {
+            "start": 42.5,
+            "end": 43.1,
+            "word": " pounds.",
+            "probability": 0.73346
+          }
+        ]
+      },
+      {
+        "start": 43.56,
+        "end": 49.04,
+        "text": "This afternoon I am busy, but we can discuss this tomorrow morning. Is that okay? Call me back soon.",
+        "words": [
+          {
+            "start": 43.56,
+            "end": 43.68,
+            "word": " This",
+            "probability": 0.97425
+          },
+          {
+            "start": 43.68,
+            "end": 44.02,
+            "word": " afternoon",
+            "probability": 0.99755
+          },
+          {
+            "start": 44.02,
+            "end": 44.3,
+            "word": " I",
+            "probability": 0.63513
+          },
+          {
+            "start": 44.3,
+            "end": 44.4,
+            "word": " am",
+            "probability": 0.72637
+          },
+          {
+            "start": 44.4,
+            "end": 44.68,
+            "word": " busy,",
+            "probability": 0.99912
+          },
+          {
+            "start": 45.18,
+            "end": 45.34,
+            "word": " but",
+            "probability": 0.99407
+          },
+          {
+            "start": 45.34,
+            "end": 45.46,
+            "word": " we",
+            "probability": 0.99513
+          },
+          {
+            "start": 45.46,
+            "end": 45.56,
+            "word": " can",
+            "probability": 0.99708
+          },
+          {
+            "start": 45.56,
+            "end": 45.84,
+            "word": " discuss",
+            "probability": 0.99207
+          },
+          {
+            "start": 45.84,
+            "end": 46.12,
+            "word": " this",
+            "probability": 0.99158
+          },
+          {
+            "start": 46.12,
+            "end": 46.44,
+            "word": " tomorrow",
+            "probability": 0.99324
+          },
+          {
+            "start": 46.44,
+            "end": 46.86,
+            "word": " morning.",
+            "probability": 0.99637
+          },
+          {
+            "start": 47.16,
+            "end": 47.38,
+            "word": " Is",
+            "probability": 0.98516
+          },
+          {
+            "start": 47.38,
+            "end": 47.5,
+            "word": " that",
+            "probability": 0.99465
+          },
+          {
+            "start": 47.5,
+            "end": 47.84,
+            "word": " okay?",
+            "probability": 0.56028
+          },
+          {
+            "start": 48.32,
+            "end": 48.42,
+            "word": " Call",
+            "probability": 0.99287
+          },
+          {
+            "start": 48.42,
+            "end": 48.54,
+            "word": " me",
+            "probability": 0.99868
+          },
+          {
+            "start": 48.54,
+            "end": 48.7,
+            "word": " back",
+            "probability": 0.99774
+          },
+          {
+            "start": 48.7,
+            "end": 49.04,
+            "word": " soon.",
+            "probability": 0.99492
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q01",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 67,
+            "speechStart": 0.91,
+            "speechEnd": 22.89,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "hi it's me max i'm calling about the computer that you are selling you see my computer is old and slow i can't play any games on it anymore and would like to replace it with a new 1 how much do you offer i can pay 250 this afternoon i am busy but we can discuss this tomorrow morning is that okay call me back soon",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 67,
+            "wordEndIndexExclusive": 135,
+            "speechStart": 27.31,
+            "speechEnd": 49.04,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9926,
+            "transcript": "hi it's me max i'm calling about the computer that you are selling you see my computer is old and slow i can't play any games on it anymore and would like to replace it with a new 1 how much do you offer i can pay 250 pounds this afternoon i am busy but we can discuss this tomorrow morning is that okay call me back soon",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

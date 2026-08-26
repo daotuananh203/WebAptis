@@ -1,0 +1,687 @@
+{
+  "testId": "aptis-b2-01",
+  "blockId": "p1-q10",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-01/part-1/q10.mp3",
+  "audioSha256": "52d18994028ccc4e600054e83f6d8ba969ed2d2c9a7c11b01c454bcf4962b454",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.69,
+        "end": 4.53,
+        "text": "On our family trip last summer, we had such a great time.",
+        "words": [
+          {
+            "start": 0.69,
+            "end": 1.17,
+            "word": " On",
+            "probability": 0.73229
+          },
+          {
+            "start": 1.17,
+            "end": 1.29,
+            "word": " our",
+            "probability": 0.98501
+          },
+          {
+            "start": 1.29,
+            "end": 1.65,
+            "word": " family",
+            "probability": 0.89854
+          },
+          {
+            "start": 1.65,
+            "end": 1.91,
+            "word": " trip",
+            "probability": 0.98849
+          },
+          {
+            "start": 1.91,
+            "end": 2.21,
+            "word": " last",
+            "probability": 0.99305
+          },
+          {
+            "start": 2.21,
+            "end": 2.59,
+            "word": " summer,",
+            "probability": 0.98839
+          },
+          {
+            "start": 3.09,
+            "end": 3.17,
+            "word": " we",
+            "probability": 0.9903
+          },
+          {
+            "start": 3.17,
+            "end": 3.31,
+            "word": " had",
+            "probability": 0.99896
+          },
+          {
+            "start": 3.31,
+            "end": 3.79,
+            "word": " such",
+            "probability": 0.99277
+          },
+          {
+            "start": 3.79,
+            "end": 3.89,
+            "word": " a",
+            "probability": 0.99901
+          },
+          {
+            "start": 3.89,
+            "end": 4.13,
+            "word": " great",
+            "probability": 0.99811
+          },
+          {
+            "start": 4.13,
+            "end": 4.53,
+            "word": " time.",
+            "probability": 0.99668
+          }
+        ]
+      },
+      {
+        "start": 5.09,
+        "end": 6.97,
+        "text": "My wife really enjoys photography.",
+        "words": [
+          {
+            "start": 5.09,
+            "end": 5.31,
+            "word": " My",
+            "probability": 0.98155
+          },
+          {
+            "start": 5.31,
+            "end": 5.63,
+            "word": " wife",
+            "probability": 0.99839
+          },
+          {
+            "start": 5.63,
+            "end": 5.89,
+            "word": " really",
+            "probability": 0.99665
+          },
+          {
+            "start": 5.89,
+            "end": 6.27,
+            "word": " enjoys",
+            "probability": 0.99095
+          },
+          {
+            "start": 6.27,
+            "end": 6.97,
+            "word": " photography.",
+            "probability": 0.9968
+          }
+        ]
+      },
+      {
+        "start": 7.47,
+        "end": 11.97,
+        "text": "So when we went walking together in the parks, she spent a lot of time taking pictures",
+        "words": [
+          {
+            "start": 7.47,
+            "end": 7.77,
+            "word": " So",
+            "probability": 0.97909
+          },
+          {
+            "start": 7.77,
+            "end": 7.93,
+            "word": " when",
+            "probability": 0.82244
+          },
+          {
+            "start": 7.93,
+            "end": 8.05,
+            "word": " we",
+            "probability": 0.99749
+          },
+          {
+            "start": 8.05,
+            "end": 8.19,
+            "word": " went",
+            "probability": 0.9986
+          },
+          {
+            "start": 8.19,
+            "end": 8.53,
+            "word": " walking",
+            "probability": 0.98934
+          },
+          {
+            "start": 8.53,
+            "end": 8.89,
+            "word": " together",
+            "probability": 0.99847
+          },
+          {
+            "start": 8.89,
+            "end": 9.11,
+            "word": " in",
+            "probability": 0.99782
+          },
+          {
+            "start": 9.11,
+            "end": 9.19,
+            "word": " the",
+            "probability": 0.99898
+          },
+          {
+            "start": 9.19,
+            "end": 9.49,
+            "word": " parks,",
+            "probability": 0.95723
+          },
+          {
+            "start": 9.97,
+            "end": 10.11,
+            "word": " she",
+            "probability": 0.98758
+          },
+          {
+            "start": 10.11,
+            "end": 10.37,
+            "word": " spent",
+            "probability": 0.99669
+          },
+          {
+            "start": 10.37,
+            "end": 10.53,
+            "word": " a",
+            "probability": 0.99458
+          },
+          {
+            "start": 10.53,
+            "end": 10.75,
+            "word": " lot",
+            "probability": 0.9989
+          },
+          {
+            "start": 10.75,
+            "end": 10.89,
+            "word": " of",
+            "probability": 0.99787
+          },
+          {
+            "start": 10.89,
+            "end": 11.13,
+            "word": " time",
+            "probability": 0.99618
+          },
+          {
+            "start": 11.13,
+            "end": 11.47,
+            "word": " taking",
+            "probability": 0.99484
+          },
+          {
+            "start": 11.47,
+            "end": 11.97,
+            "word": " pictures",
+            "probability": 0.99824
+          }
+        ]
+      },
+      {
+        "start": 11.97,
+        "end": 13.39,
+        "text": "of the beautiful landscapes.",
+        "words": [
+          {
+            "start": 11.97,
+            "end": 12.33,
+            "word": " of",
+            "probability": 0.99729
+          },
+          {
+            "start": 12.33,
+            "end": 12.45,
+            "word": " the",
+            "probability": 0.99257
+          },
+          {
+            "start": 12.45,
+            "end": 12.85,
+            "word": " beautiful",
+            "probability": 0.99525
+          },
+          {
+            "start": 12.85,
+            "end": 13.39,
+            "word": " landscapes.",
+            "probability": 0.98721
+          }
+        ]
+      },
+      {
+        "start": 14.01,
+        "end": 16.43,
+        "text": "Well, at least she is not crazy about shopping.",
+        "words": [
+          {
+            "start": 14.01,
+            "end": 14.27,
+            "word": " Well,",
+            "probability": 0.99602
+          },
+          {
+            "start": 14.35,
+            "end": 14.53,
+            "word": " at",
+            "probability": 0.99884
+          },
+          {
+            "start": 14.53,
+            "end": 14.73,
+            "word": " least",
+            "probability": 0.99856
+          },
+          {
+            "start": 14.73,
+            "end": 14.99,
+            "word": " she",
+            "probability": 0.97361
+          },
+          {
+            "start": 14.99,
+            "end": 15.15,
+            "word": " is",
+            "probability": 0.98766
+          },
+          {
+            "start": 15.15,
+            "end": 15.33,
+            "word": " not",
+            "probability": 0.99808
+          },
+          {
+            "start": 15.33,
+            "end": 15.73,
+            "word": " crazy",
+            "probability": 0.99678
+          },
+          {
+            "start": 15.73,
+            "end": 15.99,
+            "word": " about",
+            "probability": 0.99836
+          },
+          {
+            "start": 15.99,
+            "end": 16.43,
+            "word": " shopping.",
+            "probability": 0.99711
+          }
+        ]
+      },
+      {
+        "start": 21.33,
+        "end": 24.85,
+        "text": "On our family trip last summer, we had such a great time.",
+        "words": [
+          {
+            "start": 21.33,
+            "end": 21.47,
+            "word": " On",
+            "probability": 0.98918
+          },
+          {
+            "start": 21.47,
+            "end": 21.59,
+            "word": " our",
+            "probability": 0.99236
+          },
+          {
+            "start": 21.59,
+            "end": 21.95,
+            "word": " family",
+            "probability": 0.9854
+          },
+          {
+            "start": 21.95,
+            "end": 22.21,
+            "word": " trip",
+            "probability": 0.9987
+          },
+          {
+            "start": 22.21,
+            "end": 22.51,
+            "word": " last",
+            "probability": 0.99671
+          },
+          {
+            "start": 22.51,
+            "end": 22.91,
+            "word": " summer,",
+            "probability": 0.99577
+          },
+          {
+            "start": 23.31,
+            "end": 23.47,
+            "word": " we",
+            "probability": 0.99732
+          },
+          {
+            "start": 23.47,
+            "end": 23.63,
+            "word": " had",
+            "probability": 0.99915
+          },
+          {
+            "start": 23.63,
+            "end": 24.05,
+            "word": " such",
+            "probability": 0.99721
+          },
+          {
+            "start": 24.05,
+            "end": 24.21,
+            "word": " a",
+            "probability": 0.99634
+          },
+          {
+            "start": 24.21,
+            "end": 24.45,
+            "word": " great",
+            "probability": 0.99886
+          },
+          {
+            "start": 24.45,
+            "end": 24.85,
+            "word": " time.",
+            "probability": 0.99874
+          }
+        ]
+      },
+      {
+        "start": 25.43,
+        "end": 27.31,
+        "text": "My wife really enjoys photography.",
+        "words": [
+          {
+            "start": 25.43,
+            "end": 25.61,
+            "word": " My",
+            "probability": 0.99397
+          },
+          {
+            "start": 25.61,
+            "end": 25.93,
+            "word": " wife",
+            "probability": 0.99974
+          },
+          {
+            "start": 25.93,
+            "end": 26.19,
+            "word": " really",
+            "probability": 0.99851
+          },
+          {
+            "start": 26.19,
+            "end": 26.59,
+            "word": " enjoys",
+            "probability": 0.9953
+          },
+          {
+            "start": 26.59,
+            "end": 27.31,
+            "word": " photography.",
+            "probability": 0.99929
+          }
+        ]
+      },
+      {
+        "start": 27.79,
+        "end": 32.27,
+        "text": "So when we went walking together in the parks, she spent a lot of time taking pictures",
+        "words": [
+          {
+            "start": 27.79,
+            "end": 28.07,
+            "word": " So",
+            "probability": 0.99713
+          },
+          {
+            "start": 28.07,
+            "end": 28.23,
+            "word": " when",
+            "probability": 0.99603
+          },
+          {
+            "start": 28.23,
+            "end": 28.35,
+            "word": " we",
+            "probability": 0.99755
+          },
+          {
+            "start": 28.35,
+            "end": 28.49,
+            "word": " went",
+            "probability": 0.99822
+          },
+          {
+            "start": 28.49,
+            "end": 28.85,
+            "word": " walking",
+            "probability": 0.99389
+          },
+          {
+            "start": 28.85,
+            "end": 29.23,
+            "word": " together",
+            "probability": 0.99882
+          },
+          {
+            "start": 29.23,
+            "end": 29.41,
+            "word": " in",
+            "probability": 0.9986
+          },
+          {
+            "start": 29.41,
+            "end": 29.49,
+            "word": " the",
+            "probability": 0.99893
+          },
+          {
+            "start": 29.49,
+            "end": 29.87,
+            "word": " parks,",
+            "probability": 0.99046
+          },
+          {
+            "start": 30.25,
+            "end": 30.41,
+            "word": " she",
+            "probability": 0.99618
+          },
+          {
+            "start": 30.41,
+            "end": 30.65,
+            "word": " spent",
+            "probability": 0.99781
+          },
+          {
+            "start": 30.65,
+            "end": 30.83,
+            "word": " a",
+            "probability": 0.99809
+          },
+          {
+            "start": 30.83,
+            "end": 31.05,
+            "word": " lot",
+            "probability": 0.99893
+          },
+          {
+            "start": 31.05,
+            "end": 31.19,
+            "word": " of",
+            "probability": 0.99675
+          },
+          {
+            "start": 31.19,
+            "end": 31.45,
+            "word": " time",
+            "probability": 0.99413
+          },
+          {
+            "start": 31.45,
+            "end": 31.75,
+            "word": " taking",
+            "probability": 0.99754
+          },
+          {
+            "start": 31.75,
+            "end": 32.27,
+            "word": " pictures",
+            "probability": 0.99812
+          }
+        ]
+      },
+      {
+        "start": 32.27,
+        "end": 33.71,
+        "text": "of the beautiful landscapes.",
+        "words": [
+          {
+            "start": 32.27,
+            "end": 32.61,
+            "word": " of",
+            "probability": 0.6037
+          },
+          {
+            "start": 32.61,
+            "end": 32.75,
+            "word": " the",
+            "probability": 0.97509
+          },
+          {
+            "start": 32.75,
+            "end": 33.19,
+            "word": " beautiful",
+            "probability": 0.9863
+          },
+          {
+            "start": 33.19,
+            "end": 33.71,
+            "word": " landscapes.",
+            "probability": 0.98372
+          }
+        ]
+      },
+      {
+        "start": 34.35,
+        "end": 36.71,
+        "text": "Well, at least she is not crazy about shopping.",
+        "words": [
+          {
+            "start": 34.35,
+            "end": 34.59,
+            "word": " Well,",
+            "probability": 0.99028
+          },
+          {
+            "start": 34.77,
+            "end": 34.85,
+            "word": " at",
+            "probability": 0.99638
+          },
+          {
+            "start": 34.85,
+            "end": 35.05,
+            "word": " least",
+            "probability": 0.99797
+          },
+          {
+            "start": 35.05,
+            "end": 35.31,
+            "word": " she",
+            "probability": 0.97587
+          },
+          {
+            "start": 35.31,
+            "end": 35.45,
+            "word": " is",
+            "probability": 0.97658
+          },
+          {
+            "start": 35.45,
+            "end": 35.63,
+            "word": " not",
+            "probability": 0.99381
+          },
+          {
+            "start": 35.63,
+            "end": 36.03,
+            "word": " crazy",
+            "probability": 0.99523
+          },
+          {
+            "start": 36.03,
+            "end": 36.31,
+            "word": " about",
+            "probability": 0.9984
+          },
+          {
+            "start": 36.31,
+            "end": 36.71,
+            "word": " shopping.",
+            "probability": 0.99202
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q10",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 47,
+            "speechStart": 0.69,
+            "speechEnd": 16.43,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "on our family trip last summer we had such a great time my wife really enjoys photography so when we went walking together in the parks she spent a lot of time taking pictures of the beautiful landscapes well at least she is not crazy about shopping",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 47,
+            "wordEndIndexExclusive": 94,
+            "speechStart": 21.33,
+            "speechEnd": 36.71,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "on our family trip last summer we had such a great time my wife really enjoys photography so when we went walking together in the parks she spent a lot of time taking pictures of the beautiful landscapes well at least she is not crazy about shopping",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

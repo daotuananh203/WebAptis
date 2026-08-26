@@ -1,0 +1,997 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p4-mono1",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-4/mono1.mp3",
+  "audioSha256": "697371031969f3fca592ec51c7e4b403bc224f30e757aaaed3b94e508417fb72",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.66,
+        "end": 7.34,
+        "text": "Hi everyone, I'd like to share my experience with writer's block during the process of writing my new bestseller.",
+        "words": [
+          {
+            "start": 0.66,
+            "end": 1.2,
+            "word": " Hi",
+            "probability": 0.50565
+          },
+          {
+            "start": 1.2,
+            "end": 1.6,
+            "word": " everyone,",
+            "probability": 0.77174
+          },
+          {
+            "start": 1.9,
+            "end": 2.18,
+            "word": " I'd",
+            "probability": 0.98443
+          },
+          {
+            "start": 2.18,
+            "end": 2.28,
+            "word": " like",
+            "probability": 0.99841
+          },
+          {
+            "start": 2.28,
+            "end": 2.46,
+            "word": " to",
+            "probability": 0.99884
+          },
+          {
+            "start": 2.46,
+            "end": 2.68,
+            "word": " share",
+            "probability": 0.99032
+          },
+          {
+            "start": 2.68,
+            "end": 2.84,
+            "word": " my",
+            "probability": 0.99848
+          },
+          {
+            "start": 2.84,
+            "end": 3.38,
+            "word": " experience",
+            "probability": 0.98944
+          },
+          {
+            "start": 3.38,
+            "end": 3.74,
+            "word": " with",
+            "probability": 0.99539
+          },
+          {
+            "start": 3.74,
+            "end": 4.2,
+            "word": " writer's",
+            "probability": 0.58366
+          },
+          {
+            "start": 4.2,
+            "end": 4.38,
+            "word": " block",
+            "probability": 0.76916
+          },
+          {
+            "start": 4.38,
+            "end": 4.9,
+            "word": " during",
+            "probability": 0.91428
+          },
+          {
+            "start": 4.9,
+            "end": 5.06,
+            "word": " the",
+            "probability": 0.99581
+          },
+          {
+            "start": 5.06,
+            "end": 5.46,
+            "word": " process",
+            "probability": 0.99588
+          },
+          {
+            "start": 5.46,
+            "end": 5.76,
+            "word": " of",
+            "probability": 0.99694
+          },
+          {
+            "start": 5.76,
+            "end": 6.06,
+            "word": " writing",
+            "probability": 0.99105
+          },
+          {
+            "start": 6.06,
+            "end": 6.36,
+            "word": " my",
+            "probability": 0.99344
+          },
+          {
+            "start": 6.36,
+            "end": 6.68,
+            "word": " new",
+            "probability": 0.96017
+          },
+          {
+            "start": 6.68,
+            "end": 7.34,
+            "word": " bestseller.",
+            "probability": 0.71442
+          }
+        ]
+      },
+      {
+        "start": 7.76,
+        "end": 15.56,
+        "text": "Many people think that to write well, you need to sit down every day for 15 to 20 minutes or find a quiet space.",
+        "words": [
+          {
+            "start": 7.76,
+            "end": 8.2,
+            "word": " Many",
+            "probability": 0.99478
+          },
+          {
+            "start": 8.2,
+            "end": 8.52,
+            "word": " people",
+            "probability": 0.99757
+          },
+          {
+            "start": 8.52,
+            "end": 8.88,
+            "word": " think",
+            "probability": 0.99901
+          },
+          {
+            "start": 8.88,
+            "end": 9.06,
+            "word": " that",
+            "probability": 0.97786
+          },
+          {
+            "start": 9.06,
+            "end": 9.26,
+            "word": " to",
+            "probability": 0.8619
+          },
+          {
+            "start": 9.26,
+            "end": 9.46,
+            "word": " write",
+            "probability": 0.99822
+          },
+          {
+            "start": 9.46,
+            "end": 9.88,
+            "word": " well,",
+            "probability": 0.99095
+          },
+          {
+            "start": 10.26,
+            "end": 10.32,
+            "word": " you",
+            "probability": 0.99593
+          },
+          {
+            "start": 10.32,
+            "end": 10.42,
+            "word": " need",
+            "probability": 0.9967
+          },
+          {
+            "start": 10.42,
+            "end": 10.58,
+            "word": " to",
+            "probability": 0.9972
+          },
+          {
+            "start": 10.58,
+            "end": 10.74,
+            "word": " sit",
+            "probability": 0.99766
+          },
+          {
+            "start": 10.74,
+            "end": 11.02,
+            "word": " down",
+            "probability": 0.9988
+          },
+          {
+            "start": 11.02,
+            "end": 11.46,
+            "word": " every",
+            "probability": 0.87078
+          },
+          {
+            "start": 11.46,
+            "end": 11.72,
+            "word": " day",
+            "probability": 0.99863
+          },
+          {
+            "start": 11.72,
+            "end": 11.94,
+            "word": " for",
+            "probability": 0.99507
+          },
+          {
+            "start": 11.94,
+            "end": 12.4,
+            "word": " 15",
+            "probability": 0.90441
+          },
+          {
+            "start": 12.4,
+            "end": 12.7,
+            "word": " to",
+            "probability": 0.46312
+          },
+          {
+            "start": 12.7,
+            "end": 13.16,
+            "word": " 20",
+            "probability": 0.99848
+          },
+          {
+            "start": 13.16,
+            "end": 13.44,
+            "word": " minutes",
+            "probability": 0.99392
+          },
+          {
+            "start": 13.44,
+            "end": 14.14,
+            "word": " or",
+            "probability": 0.58942
+          },
+          {
+            "start": 14.14,
+            "end": 14.44,
+            "word": " find",
+            "probability": 0.99736
+          },
+          {
+            "start": 14.44,
+            "end": 14.58,
+            "word": " a",
+            "probability": 0.99723
+          },
+          {
+            "start": 14.58,
+            "end": 15.0,
+            "word": " quiet",
+            "probability": 0.99357
+          },
+          {
+            "start": 15.0,
+            "end": 15.56,
+            "word": " space.",
+            "probability": 0.99842
+          }
+        ]
+      },
+      {
+        "start": 16.06,
+        "end": 25.22,
+        "text": "While those strategies work for some, I found that establishing specific time slots for writing that truly fit my style is what helps me the most.",
+        "words": [
+          {
+            "start": 16.06,
+            "end": 16.4,
+            "word": " While",
+            "probability": 0.98973
+          },
+          {
+            "start": 16.4,
+            "end": 16.6,
+            "word": " those",
+            "probability": 0.98514
+          },
+          {
+            "start": 16.6,
+            "end": 17.08,
+            "word": " strategies",
+            "probability": 0.99595
+          },
+          {
+            "start": 17.08,
+            "end": 17.48,
+            "word": " work",
+            "probability": 0.99201
+          },
+          {
+            "start": 17.48,
+            "end": 17.7,
+            "word": " for",
+            "probability": 0.99564
+          },
+          {
+            "start": 17.7,
+            "end": 17.92,
+            "word": " some,",
+            "probability": 0.97559
+          },
+          {
+            "start": 18.52,
+            "end": 18.54,
+            "word": " I",
+            "probability": 0.9966
+          },
+          {
+            "start": 18.54,
+            "end": 18.76,
+            "word": " found",
+            "probability": 0.73789
+          },
+          {
+            "start": 18.76,
+            "end": 18.94,
+            "word": " that",
+            "probability": 0.60831
+          },
+          {
+            "start": 18.94,
+            "end": 19.46,
+            "word": " establishing",
+            "probability": 0.99431
+          },
+          {
+            "start": 19.46,
+            "end": 20.28,
+            "word": " specific",
+            "probability": 0.99693
+          },
+          {
+            "start": 20.28,
+            "end": 20.64,
+            "word": " time",
+            "probability": 0.81419
+          },
+          {
+            "start": 20.64,
+            "end": 20.96,
+            "word": " slots",
+            "probability": 0.98191
+          },
+          {
+            "start": 20.96,
+            "end": 21.44,
+            "word": " for",
+            "probability": 0.9849
+          },
+          {
+            "start": 21.44,
+            "end": 21.76,
+            "word": " writing",
+            "probability": 0.99917
+          },
+          {
+            "start": 21.76,
+            "end": 22.02,
+            "word": " that",
+            "probability": 0.99482
+          },
+          {
+            "start": 22.02,
+            "end": 22.44,
+            "word": " truly",
+            "probability": 0.99358
+          },
+          {
+            "start": 22.44,
+            "end": 22.74,
+            "word": " fit",
+            "probability": 0.99898
+          },
+          {
+            "start": 22.74,
+            "end": 22.96,
+            "word": " my",
+            "probability": 0.99908
+          },
+          {
+            "start": 22.96,
+            "end": 23.44,
+            "word": " style",
+            "probability": 0.99912
+          },
+          {
+            "start": 23.44,
+            "end": 23.96,
+            "word": " is",
+            "probability": 0.90666
+          },
+          {
+            "start": 23.96,
+            "end": 24.14,
+            "word": " what",
+            "probability": 0.99783
+          },
+          {
+            "start": 24.14,
+            "end": 24.5,
+            "word": " helps",
+            "probability": 0.99765
+          },
+          {
+            "start": 24.5,
+            "end": 24.7,
+            "word": " me",
+            "probability": 0.99571
+          },
+          {
+            "start": 24.7,
+            "end": 24.82,
+            "word": " the",
+            "probability": 0.99845
+          },
+          {
+            "start": 24.82,
+            "end": 25.22,
+            "word": " most.",
+            "probability": 0.99941
+          }
+        ]
+      },
+      {
+        "start": 25.22,
+        "end": 31.18,
+        "text": "However, I did face significant writers' block at one point, and looking back, I regret",
+        "words": [
+          {
+            "start": 25.22,
+            "end": 26.14,
+            "word": " However,",
+            "probability": 0.19399
+          },
+          {
+            "start": 26.48,
+            "end": 26.56,
+            "word": " I",
+            "probability": 0.99385
+          },
+          {
+            "start": 26.56,
+            "end": 26.8,
+            "word": " did",
+            "probability": 0.99487
+          },
+          {
+            "start": 26.8,
+            "end": 27.06,
+            "word": " face",
+            "probability": 0.99659
+          },
+          {
+            "start": 27.06,
+            "end": 27.72,
+            "word": " significant",
+            "probability": 0.98464
+          },
+          {
+            "start": 27.72,
+            "end": 28.12,
+            "word": " writers'",
+            "probability": 0.90845
+          },
+          {
+            "start": 28.34,
+            "end": 28.4,
+            "word": " block",
+            "probability": 0.90194
+          },
+          {
+            "start": 28.4,
+            "end": 28.6,
+            "word": " at",
+            "probability": 0.98288
+          },
+          {
+            "start": 28.6,
+            "end": 28.78,
+            "word": " one",
+            "probability": 0.99327
+          },
+          {
+            "start": 28.78,
+            "end": 29.22,
+            "word": " point,",
+            "probability": 0.99949
+          },
+          {
+            "start": 29.74,
+            "end": 29.88,
+            "word": " and",
+            "probability": 0.99332
+          },
+          {
+            "start": 29.88,
+            "end": 30.18,
+            "word": " looking",
+            "probability": 0.96892
+          },
+          {
+            "start": 30.18,
+            "end": 30.56,
+            "word": " back,",
+            "probability": 0.99854
+          },
+          {
+            "start": 30.84,
+            "end": 30.94,
+            "word": " I",
+            "probability": 0.99557
+          },
+          {
+            "start": 30.94,
+            "end": 31.18,
+            "word": " regret",
+            "probability": 0.99764
+          }
+        ]
+      },
+      {
+        "start": 31.18,
+        "end": 35.98,
+        "text": "not reaching out for guidance from others. I thought I could handle everything on my own,",
+        "words": [
+          {
+            "start": 31.18,
+            "end": 31.5,
+            "word": " not",
+            "probability": 0.98723
+          },
+          {
+            "start": 31.5,
+            "end": 31.86,
+            "word": " reaching",
+            "probability": 0.9973
+          },
+          {
+            "start": 31.86,
+            "end": 32.1,
+            "word": " out",
+            "probability": 0.99514
+          },
+          {
+            "start": 32.1,
+            "end": 32.28,
+            "word": " for",
+            "probability": 0.99369
+          },
+          {
+            "start": 32.28,
+            "end": 32.62,
+            "word": " guidance",
+            "probability": 0.99526
+          },
+          {
+            "start": 32.62,
+            "end": 32.98,
+            "word": " from",
+            "probability": 0.99082
+          },
+          {
+            "start": 32.98,
+            "end": 33.3,
+            "word": " others.",
+            "probability": 0.99653
+          },
+          {
+            "start": 33.9,
+            "end": 34.14,
+            "word": " I",
+            "probability": 0.99628
+          },
+          {
+            "start": 34.14,
+            "end": 34.32,
+            "word": " thought",
+            "probability": 0.99605
+          },
+          {
+            "start": 34.32,
+            "end": 34.54,
+            "word": " I",
+            "probability": 0.99795
+          },
+          {
+            "start": 34.54,
+            "end": 34.68,
+            "word": " could",
+            "probability": 0.9919
+          },
+          {
+            "start": 34.68,
+            "end": 34.9,
+            "word": " handle",
+            "probability": 0.99744
+          },
+          {
+            "start": 34.9,
+            "end": 35.32,
+            "word": " everything",
+            "probability": 0.99669
+          },
+          {
+            "start": 35.32,
+            "end": 35.5,
+            "word": " on",
+            "probability": 0.99715
+          },
+          {
+            "start": 35.5,
+            "end": 35.68,
+            "word": " my",
+            "probability": 0.99843
+          },
+          {
+            "start": 35.68,
+            "end": 35.98,
+            "word": " own,",
+            "probability": 0.99981
+          }
+        ]
+      },
+      {
+        "start": 36.4,
+        "end": 41.8,
+        "text": "but sometimes it's vital to get an outside perspective. Talking to fellow writers and",
+        "words": [
+          {
+            "start": 36.4,
+            "end": 36.52,
+            "word": " but",
+            "probability": 0.99774
+          },
+          {
+            "start": 36.52,
+            "end": 37.02,
+            "word": " sometimes",
+            "probability": 0.99478
+          },
+          {
+            "start": 37.02,
+            "end": 37.48,
+            "word": " it's",
+            "probability": 0.97508
+          },
+          {
+            "start": 37.48,
+            "end": 37.8,
+            "word": " vital",
+            "probability": 0.99867
+          },
+          {
+            "start": 37.8,
+            "end": 38.02,
+            "word": " to",
+            "probability": 0.99893
+          },
+          {
+            "start": 38.02,
+            "end": 38.16,
+            "word": " get",
+            "probability": 0.9986
+          },
+          {
+            "start": 38.16,
+            "end": 38.32,
+            "word": " an",
+            "probability": 0.99614
+          },
+          {
+            "start": 38.32,
+            "end": 38.78,
+            "word": " outside",
+            "probability": 0.97747
+          },
+          {
+            "start": 38.78,
+            "end": 39.58,
+            "word": " perspective.",
+            "probability": 0.99876
+          },
+          {
+            "start": 40.46,
+            "end": 40.68,
+            "word": " Talking",
+            "probability": 0.95772
+          },
+          {
+            "start": 40.68,
+            "end": 40.92,
+            "word": " to",
+            "probability": 0.99862
+          },
+          {
+            "start": 40.92,
+            "end": 41.14,
+            "word": " fellow",
+            "probability": 0.99002
+          },
+          {
+            "start": 41.14,
+            "end": 41.56,
+            "word": " writers",
+            "probability": 0.99629
+          },
+          {
+            "start": 41.56,
+            "end": 41.8,
+            "word": " and",
+            "probability": 0.96828
+          }
+        ]
+      },
+      {
+        "start": 41.8,
+        "end": 47.5,
+        "text": "mentors could have helped me overcome that block much faster. Now I understand that collaboration",
+        "words": [
+          {
+            "start": 41.8,
+            "end": 42.22,
+            "word": " mentors",
+            "probability": 0.99553
+          },
+          {
+            "start": 42.22,
+            "end": 42.54,
+            "word": " could",
+            "probability": 0.99624
+          },
+          {
+            "start": 42.54,
+            "end": 42.7,
+            "word": " have",
+            "probability": 0.93719
+          },
+          {
+            "start": 42.7,
+            "end": 42.86,
+            "word": " helped",
+            "probability": 0.99066
+          },
+          {
+            "start": 42.86,
+            "end": 43.04,
+            "word": " me",
+            "probability": 0.99794
+          },
+          {
+            "start": 43.04,
+            "end": 43.46,
+            "word": " overcome",
+            "probability": 0.9984
+          },
+          {
+            "start": 43.46,
+            "end": 43.76,
+            "word": " that",
+            "probability": 0.99166
+          },
+          {
+            "start": 43.76,
+            "end": 44.02,
+            "word": " block",
+            "probability": 0.9931
+          },
+          {
+            "start": 44.02,
+            "end": 44.36,
+            "word": " much",
+            "probability": 0.99686
+          },
+          {
+            "start": 44.36,
+            "end": 44.9,
+            "word": " faster.",
+            "probability": 0.99736
+          },
+          {
+            "start": 45.6,
+            "end": 45.98,
+            "word": " Now",
+            "probability": 0.9928
+          },
+          {
+            "start": 45.98,
+            "end": 46.26,
+            "word": " I",
+            "probability": 0.54724
+          },
+          {
+            "start": 46.26,
+            "end": 46.7,
+            "word": " understand",
+            "probability": 0.9995
+          },
+          {
+            "start": 46.7,
+            "end": 47.0,
+            "word": " that",
+            "probability": 0.98882
+          },
+          {
+            "start": 47.0,
+            "end": 47.5,
+            "word": " collaboration",
+            "probability": 0.98949
+          }
+        ]
+      },
+      {
+        "start": 47.5,
+        "end": 54.28,
+        "text": "and sharing ideas can inspire creativity, so if you ever find yourself stuck, don't hesitate",
+        "words": [
+          {
+            "start": 47.5,
+            "end": 48.08,
+            "word": " and",
+            "probability": 0.99814
+          },
+          {
+            "start": 48.08,
+            "end": 48.44,
+            "word": " sharing",
+            "probability": 0.99747
+          },
+          {
+            "start": 48.44,
+            "end": 48.9,
+            "word": " ideas",
+            "probability": 0.99909
+          },
+          {
+            "start": 48.9,
+            "end": 49.2,
+            "word": " can",
+            "probability": 0.99878
+          },
+          {
+            "start": 49.2,
+            "end": 49.7,
+            "word": " inspire",
+            "probability": 0.99768
+          },
+          {
+            "start": 49.7,
+            "end": 50.68,
+            "word": " creativity,",
+            "probability": 0.99964
+          },
+          {
+            "start": 51.18,
+            "end": 51.54,
+            "word": " so",
+            "probability": 0.99375
+          },
+          {
+            "start": 51.54,
+            "end": 51.86,
+            "word": " if",
+            "probability": 0.94008
+          },
+          {
+            "start": 51.86,
+            "end": 51.98,
+            "word": " you",
+            "probability": 0.99959
+          },
+          {
+            "start": 51.98,
+            "end": 52.16,
+            "word": " ever",
+            "probability": 0.99174
+          },
+          {
+            "start": 52.16,
+            "end": 52.42,
+            "word": " find",
+            "probability": 0.99921
+          },
+          {
+            "start": 52.42,
+            "end": 52.76,
+            "word": " yourself",
+            "probability": 0.99799
+          },
+          {
+            "start": 52.76,
+            "end": 53.26,
+            "word": " stuck,",
+            "probability": 0.99305
+          },
+          {
+            "start": 53.7,
+            "end": 53.92,
+            "word": " don't",
+            "probability": 0.99763
+          },
+          {
+            "start": 53.92,
+            "end": 54.28,
+            "word": " hesitate",
+            "probability": 0.99908
+          }
+        ]
+      },
+      {
+        "start": 54.28,
+        "end": 55.52,
+        "text": "to reach out to others.",
+        "words": [
+          {
+            "start": 54.28,
+            "end": 54.56,
+            "word": " to",
+            "probability": 0.60077
+          },
+          {
+            "start": 54.56,
+            "end": 54.78,
+            "word": " reach",
+            "probability": 0.92027
+          },
+          {
+            "start": 54.78,
+            "end": 55.1,
+            "word": " out",
+            "probability": 0.99542
+          },
+          {
+            "start": 55.1,
+            "end": 55.26,
+            "word": " to",
+            "probability": 0.99763
+          },
+          {
+            "start": 55.26,
+            "end": 55.52,
+            "word": " others.",
+            "probability": 0.99673
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono1",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 149,
+            "speechStart": 0.66,
+            "speechEnd": 55.52,
+            "sourceTokenCoverage": 0.9866,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9866,
+            "transcript": "hi everyone i'd like to share my experience with writer's block during the process of writing my new bestseller many people think that to write well you need to sit down every day for 15 to 20 minutes or find a quiet space while those strategies work for some i found that establishing specific time slots for writing that truly fit my style is what helps me the most however i did face significant writers block at 1 point and looking back i regret not reaching out for guidance from others i thought i could handle everything on my own but sometimes it's vital to get an outside perspective talking to fellow writers and mentors could have helped me overcome that block much faster now i understand that collaboration and sharing ideas can inspire creativity so if you ever find yourself stuck don't hesitate to reach out to others",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

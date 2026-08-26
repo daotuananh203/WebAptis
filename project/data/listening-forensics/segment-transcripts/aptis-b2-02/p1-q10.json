@@ -1,0 +1,822 @@
+{
+  "testId": "aptis-b2-02",
+  "blockId": "p1-q10",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-02/part-1/q10.mp3",
+  "audioSha256": "2134df48eb57e999631283e27ad619499d458a54a11f38d0d6d5ceba6e0bb93d",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 7.02,
+        "text": "This morning was rough at the station. I thought the train would leave around 9 o'clock, but I heard it would be delayed.",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.3,
+            "word": " This",
+            "probability": 0.52035
+          },
+          {
+            "start": 1.3,
+            "end": 1.6,
+            "word": " morning",
+            "probability": 0.99373
+          },
+          {
+            "start": 1.6,
+            "end": 1.84,
+            "word": " was",
+            "probability": 0.99658
+          },
+          {
+            "start": 1.84,
+            "end": 2.06,
+            "word": " rough",
+            "probability": 0.99327
+          },
+          {
+            "start": 2.06,
+            "end": 2.24,
+            "word": " at",
+            "probability": 0.99637
+          },
+          {
+            "start": 2.24,
+            "end": 2.32,
+            "word": " the",
+            "probability": 0.9898
+          },
+          {
+            "start": 2.32,
+            "end": 2.7,
+            "word": " station.",
+            "probability": 0.99005
+          },
+          {
+            "start": 3.42,
+            "end": 3.48,
+            "word": " I",
+            "probability": 0.98243
+          },
+          {
+            "start": 3.48,
+            "end": 3.64,
+            "word": " thought",
+            "probability": 0.98905
+          },
+          {
+            "start": 3.64,
+            "end": 3.8,
+            "word": " the",
+            "probability": 0.97572
+          },
+          {
+            "start": 3.8,
+            "end": 4.02,
+            "word": " train",
+            "probability": 0.99574
+          },
+          {
+            "start": 4.02,
+            "end": 4.22,
+            "word": " would",
+            "probability": 0.9972
+          },
+          {
+            "start": 4.22,
+            "end": 4.38,
+            "word": " leave",
+            "probability": 0.98494
+          },
+          {
+            "start": 4.38,
+            "end": 4.66,
+            "word": " around",
+            "probability": 0.99244
+          },
+          {
+            "start": 4.66,
+            "end": 4.88,
+            "word": " 9",
+            "probability": 0.62652
+          },
+          {
+            "start": 4.88,
+            "end": 5.0,
+            "word": " o",
+            "probability": 0.91191
+          },
+          {
+            "start": 5.0,
+            "end": 5.22,
+            "word": "'clock,",
+            "probability": 0.98845
+          },
+          {
+            "start": 5.66,
+            "end": 5.98,
+            "word": " but",
+            "probability": 0.98082
+          },
+          {
+            "start": 5.98,
+            "end": 6.08,
+            "word": " I",
+            "probability": 0.99618
+          },
+          {
+            "start": 6.08,
+            "end": 6.26,
+            "word": " heard",
+            "probability": 0.98638
+          },
+          {
+            "start": 6.26,
+            "end": 6.4,
+            "word": " it",
+            "probability": 0.99547
+          },
+          {
+            "start": 6.4,
+            "end": 6.48,
+            "word": " would",
+            "probability": 0.99255
+          },
+          {
+            "start": 6.48,
+            "end": 6.66,
+            "word": " be",
+            "probability": 0.99381
+          },
+          {
+            "start": 6.66,
+            "end": 7.02,
+            "word": " delayed.",
+            "probability": 0.99936
+          }
+        ]
+      },
+      {
+        "start": 7.72,
+        "end": 12.56,
+        "text": "It finally departed at 9.30, though some people said it might be even later.",
+        "words": [
+          {
+            "start": 7.72,
+            "end": 8.06,
+            "word": " It",
+            "probability": 0.97989
+          },
+          {
+            "start": 8.06,
+            "end": 8.54,
+            "word": " finally",
+            "probability": 0.97236
+          },
+          {
+            "start": 8.54,
+            "end": 8.98,
+            "word": " departed",
+            "probability": 0.98853
+          },
+          {
+            "start": 8.98,
+            "end": 9.22,
+            "word": " at",
+            "probability": 0.99786
+          },
+          {
+            "start": 9.22,
+            "end": 9.44,
+            "word": " 9",
+            "probability": 0.98902
+          },
+          {
+            "start": 9.44,
+            "end": 9.86,
+            "word": ".30,",
+            "probability": 0.78804
+          },
+          {
+            "start": 10.3,
+            "end": 10.6,
+            "word": " though",
+            "probability": 0.99371
+          },
+          {
+            "start": 10.6,
+            "end": 10.92,
+            "word": " some",
+            "probability": 0.98434
+          },
+          {
+            "start": 10.92,
+            "end": 11.2,
+            "word": " people",
+            "probability": 0.99763
+          },
+          {
+            "start": 11.2,
+            "end": 11.48,
+            "word": " said",
+            "probability": 0.99869
+          },
+          {
+            "start": 11.48,
+            "end": 11.64,
+            "word": " it",
+            "probability": 0.99482
+          },
+          {
+            "start": 11.64,
+            "end": 11.86,
+            "word": " might",
+            "probability": 0.99289
+          },
+          {
+            "start": 11.86,
+            "end": 12.06,
+            "word": " be",
+            "probability": 0.9417
+          },
+          {
+            "start": 12.06,
+            "end": 12.28,
+            "word": " even",
+            "probability": 0.99898
+          },
+          {
+            "start": 12.28,
+            "end": 12.56,
+            "word": " later.",
+            "probability": 0.99018
+          }
+        ]
+      },
+      {
+        "start": 13.44,
+        "end": 18.52,
+        "text": "Usually, if it's delayed, it could leave as late as 10 o'clock. I'm glad it didn't take that long today.",
+        "words": [
+          {
+            "start": 13.44,
+            "end": 13.88,
+            "word": " Usually,",
+            "probability": 0.98058
+          },
+          {
+            "start": 14.1,
+            "end": 14.16,
+            "word": " if",
+            "probability": 0.98098
+          },
+          {
+            "start": 14.16,
+            "end": 14.34,
+            "word": " it's",
+            "probability": 0.96016
+          },
+          {
+            "start": 14.34,
+            "end": 14.66,
+            "word": " delayed,",
+            "probability": 0.99938
+          },
+          {
+            "start": 14.9,
+            "end": 14.98,
+            "word": " it",
+            "probability": 0.99759
+          },
+          {
+            "start": 14.98,
+            "end": 15.14,
+            "word": " could",
+            "probability": 0.99862
+          },
+          {
+            "start": 15.14,
+            "end": 15.38,
+            "word": " leave",
+            "probability": 0.9971
+          },
+          {
+            "start": 15.38,
+            "end": 15.52,
+            "word": " as",
+            "probability": 0.90138
+          },
+          {
+            "start": 15.52,
+            "end": 15.7,
+            "word": " late",
+            "probability": 0.99805
+          },
+          {
+            "start": 15.7,
+            "end": 15.86,
+            "word": " as",
+            "probability": 0.96966
+          },
+          {
+            "start": 15.86,
+            "end": 16.0,
+            "word": " 10",
+            "probability": 0.97946
+          },
+          {
+            "start": 16.0,
+            "end": 16.1,
+            "word": " o",
+            "probability": 0.9757
+          },
+          {
+            "start": 16.1,
+            "end": 16.34,
+            "word": "'clock.",
+            "probability": 0.99785
+          },
+          {
+            "start": 16.92,
+            "end": 17.22,
+            "word": " I'm",
+            "probability": 0.9969
+          },
+          {
+            "start": 17.22,
+            "end": 17.38,
+            "word": " glad",
+            "probability": 0.99917
+          },
+          {
+            "start": 17.38,
+            "end": 17.5,
+            "word": " it",
+            "probability": 0.98684
+          },
+          {
+            "start": 17.5,
+            "end": 17.7,
+            "word": " didn't",
+            "probability": 0.99882
+          },
+          {
+            "start": 17.7,
+            "end": 17.84,
+            "word": " take",
+            "probability": 0.9985
+          },
+          {
+            "start": 17.84,
+            "end": 18.02,
+            "word": " that",
+            "probability": 0.99852
+          },
+          {
+            "start": 18.02,
+            "end": 18.24,
+            "word": " long",
+            "probability": 0.9988
+          },
+          {
+            "start": 18.24,
+            "end": 18.52,
+            "word": " today.",
+            "probability": 0.9976
+          }
+        ]
+      },
+      {
+        "start": 22.21,
+        "end": 28.19,
+        "text": "This morning was rough at the station. I thought the train would leave around 9 o'clock, but I heard it would be delayed.",
+        "words": [
+          {
+            "start": 22.21,
+            "end": 22.45,
+            "word": " This",
+            "probability": 0.95515
+          },
+          {
+            "start": 22.45,
+            "end": 22.79,
+            "word": " morning",
+            "probability": 0.99816
+          },
+          {
+            "start": 22.79,
+            "end": 22.99,
+            "word": " was",
+            "probability": 0.99665
+          },
+          {
+            "start": 22.99,
+            "end": 23.27,
+            "word": " rough",
+            "probability": 0.99798
+          },
+          {
+            "start": 23.27,
+            "end": 23.41,
+            "word": " at",
+            "probability": 0.99821
+          },
+          {
+            "start": 23.41,
+            "end": 23.49,
+            "word": " the",
+            "probability": 0.9937
+          },
+          {
+            "start": 23.49,
+            "end": 23.89,
+            "word": " station.",
+            "probability": 0.99859
+          },
+          {
+            "start": 24.53,
+            "end": 24.67,
+            "word": " I",
+            "probability": 0.99801
+          },
+          {
+            "start": 24.67,
+            "end": 24.83,
+            "word": " thought",
+            "probability": 0.99363
+          },
+          {
+            "start": 24.83,
+            "end": 24.97,
+            "word": " the",
+            "probability": 0.99198
+          },
+          {
+            "start": 24.97,
+            "end": 25.21,
+            "word": " train",
+            "probability": 0.99818
+          },
+          {
+            "start": 25.21,
+            "end": 25.39,
+            "word": " would",
+            "probability": 0.99822
+          },
+          {
+            "start": 25.39,
+            "end": 25.55,
+            "word": " leave",
+            "probability": 0.99833
+          },
+          {
+            "start": 25.55,
+            "end": 25.83,
+            "word": " around",
+            "probability": 0.99846
+          },
+          {
+            "start": 25.83,
+            "end": 26.07,
+            "word": " 9",
+            "probability": 0.92777
+          },
+          {
+            "start": 26.07,
+            "end": 26.17,
+            "word": " o",
+            "probability": 0.98471
+          },
+          {
+            "start": 26.17,
+            "end": 26.55,
+            "word": "'clock,",
+            "probability": 0.99661
+          },
+          {
+            "start": 26.77,
+            "end": 27.15,
+            "word": " but",
+            "probability": 0.99619
+          },
+          {
+            "start": 27.15,
+            "end": 27.27,
+            "word": " I",
+            "probability": 0.9988
+          },
+          {
+            "start": 27.27,
+            "end": 27.45,
+            "word": " heard",
+            "probability": 0.9955
+          },
+          {
+            "start": 27.45,
+            "end": 27.57,
+            "word": " it",
+            "probability": 0.99695
+          },
+          {
+            "start": 27.57,
+            "end": 27.67,
+            "word": " would",
+            "probability": 0.99276
+          },
+          {
+            "start": 27.67,
+            "end": 27.83,
+            "word": " be",
+            "probability": 0.99706
+          },
+          {
+            "start": 27.83,
+            "end": 28.19,
+            "word": " delayed.",
+            "probability": 0.99943
+          }
+        ]
+      },
+      {
+        "start": 28.79,
+        "end": 33.77,
+        "text": "It finally departed at 9.30, though some people said it might be even later.",
+        "words": [
+          {
+            "start": 28.79,
+            "end": 29.23,
+            "word": " It",
+            "probability": 0.47225
+          },
+          {
+            "start": 29.23,
+            "end": 29.67,
+            "word": " finally",
+            "probability": 0.90621
+          },
+          {
+            "start": 29.67,
+            "end": 30.15,
+            "word": " departed",
+            "probability": 0.99015
+          },
+          {
+            "start": 30.15,
+            "end": 30.41,
+            "word": " at",
+            "probability": 0.99599
+          },
+          {
+            "start": 30.41,
+            "end": 30.61,
+            "word": " 9",
+            "probability": 0.96715
+          },
+          {
+            "start": 30.61,
+            "end": 31.03,
+            "word": ".30,",
+            "probability": 0.8609
+          },
+          {
+            "start": 31.61,
+            "end": 31.77,
+            "word": " though",
+            "probability": 0.99058
+          },
+          {
+            "start": 31.77,
+            "end": 32.13,
+            "word": " some",
+            "probability": 0.99075
+          },
+          {
+            "start": 32.13,
+            "end": 32.39,
+            "word": " people",
+            "probability": 0.99084
+          },
+          {
+            "start": 32.39,
+            "end": 32.67,
+            "word": " said",
+            "probability": 0.99255
+          },
+          {
+            "start": 32.67,
+            "end": 32.83,
+            "word": " it",
+            "probability": 0.98206
+          },
+          {
+            "start": 32.83,
+            "end": 33.05,
+            "word": " might",
+            "probability": 0.98166
+          },
+          {
+            "start": 33.05,
+            "end": 33.25,
+            "word": " be",
+            "probability": 0.85885
+          },
+          {
+            "start": 33.25,
+            "end": 33.47,
+            "word": " even",
+            "probability": 0.99646
+          },
+          {
+            "start": 33.47,
+            "end": 33.77,
+            "word": " later.",
+            "probability": 0.99112
+          }
+        ]
+      },
+      {
+        "start": 34.61,
+        "end": 37.51,
+        "text": "Usually, if it's delayed, it could leave as late as 10 o'clock.",
+        "words": [
+          {
+            "start": 34.61,
+            "end": 35.05,
+            "word": " Usually,",
+            "probability": 0.98048
+          },
+          {
+            "start": 35.29,
+            "end": 35.35,
+            "word": " if",
+            "probability": 0.98403
+          },
+          {
+            "start": 35.35,
+            "end": 35.55,
+            "word": " it's",
+            "probability": 0.93359
+          },
+          {
+            "start": 35.55,
+            "end": 35.85,
+            "word": " delayed,",
+            "probability": 0.99646
+          },
+          {
+            "start": 36.15,
+            "end": 36.17,
+            "word": " it",
+            "probability": 0.99357
+          },
+          {
+            "start": 36.17,
+            "end": 36.33,
+            "word": " could",
+            "probability": 0.99772
+          },
+          {
+            "start": 36.33,
+            "end": 36.55,
+            "word": " leave",
+            "probability": 0.98421
+          },
+          {
+            "start": 36.55,
+            "end": 36.73,
+            "word": " as",
+            "probability": 0.87331
+          },
+          {
+            "start": 36.73,
+            "end": 36.89,
+            "word": " late",
+            "probability": 0.99893
+          },
+          {
+            "start": 36.89,
+            "end": 37.03,
+            "word": " as",
+            "probability": 0.98356
+          },
+          {
+            "start": 37.03,
+            "end": 37.19,
+            "word": " 10",
+            "probability": 0.84875
+          },
+          {
+            "start": 37.19,
+            "end": 37.27,
+            "word": " o",
+            "probability": 0.89776
+          },
+          {
+            "start": 37.27,
+            "end": 37.51,
+            "word": "'clock.",
+            "probability": 0.99585
+          }
+        ]
+      },
+      {
+        "start": 38.23,
+        "end": 39.73,
+        "text": "I'm glad it didn't take that long today.",
+        "words": [
+          {
+            "start": 38.23,
+            "end": 38.41,
+            "word": " I'm",
+            "probability": 0.99333
+          },
+          {
+            "start": 38.41,
+            "end": 38.57,
+            "word": " glad",
+            "probability": 0.99894
+          },
+          {
+            "start": 38.57,
+            "end": 38.67,
+            "word": " it",
+            "probability": 0.96549
+          },
+          {
+            "start": 38.67,
+            "end": 38.89,
+            "word": " didn't",
+            "probability": 0.99883
+          },
+          {
+            "start": 38.89,
+            "end": 39.03,
+            "word": " take",
+            "probability": 0.99851
+          },
+          {
+            "start": 39.03,
+            "end": 39.19,
+            "word": " that",
+            "probability": 0.99159
+          },
+          {
+            "start": 39.19,
+            "end": 39.45,
+            "word": " long",
+            "probability": 0.99671
+          },
+          {
+            "start": 39.45,
+            "end": 39.73,
+            "word": " today.",
+            "probability": 0.97862
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q10",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 60,
+            "speechStart": 0.78,
+            "speechEnd": 18.52,
+            "sourceTokenCoverage": 0.9474,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9231,
+            "transcript": "this morning was rough at the station i thought the train would leave around 9 o clock but i heard it would be delayed it finally departed at 9 30 though some people said it might be even later usually if it's delayed it could leave as late as 10 o clock i'm glad it didn't take that long today",
+            "openingMatch": 0.9322,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 60,
+            "wordEndIndexExclusive": 120,
+            "speechStart": 22.21,
+            "speechEnd": 39.73,
+            "sourceTokenCoverage": 0.9474,
+            "openingCoverage": 1.0,
+            "endingCoverage": 0.9286,
+            "sequenceMatch": 0.9231,
+            "transcript": "this morning was rough at the station i thought the train would leave around 9 o clock but i heard it would be delayed it finally departed at 9 30 though some people said it might be even later usually if it's delayed it could leave as late as 10 o clock i'm glad it didn't take that long today",
+            "openingMatch": 0.9322,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "testId": "aptis-b2-06",
+  "blockId": "p2-spk-b",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-06/part-2/spk-b.mp3",
+  "audioSha256": "faf34c14f25f2fe59d39beb6036e907d0d5235241ddbbb033ace1ff2ed70197a",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.98,
+        "end": 10.68,
+        "text": "I've realised that my study environment has a significant impact on my productivity, changing my study space has really helped me focus better.",
+        "words": [
+          {
+            "start": 0.98,
+            "end": 1.6,
+            "word": " I've",
+            "probability": 0.94235
+          },
+          {
+            "start": 1.6,
+            "end": 1.86,
+            "word": " realised",
+            "probability": 0.76385
+          },
+          {
+            "start": 1.86,
+            "end": 2.14,
+            "word": " that",
+            "probability": 0.93819
+          },
+          {
+            "start": 2.14,
+            "end": 2.36,
+            "word": " my",
+            "probability": 0.93612
+          },
+          {
+            "start": 2.36,
+            "end": 2.74,
+            "word": " study",
+            "probability": 0.98469
+          },
+          {
+            "start": 2.74,
+            "end": 3.34,
+            "word": " environment",
+            "probability": 0.9988
+          },
+          {
+            "start": 3.34,
+            "end": 3.76,
+            "word": " has",
+            "probability": 0.99309
+          },
+          {
+            "start": 3.76,
+            "end": 3.9,
+            "word": " a",
+            "probability": 0.99177
+          },
+          {
+            "start": 3.9,
+            "end": 4.52,
+            "word": " significant",
+            "probability": 0.99634
+          },
+          {
+            "start": 4.52,
+            "end": 5.08,
+            "word": " impact",
+            "probability": 0.99875
+          },
+          {
+            "start": 5.08,
+            "end": 5.48,
+            "word": " on",
+            "probability": 0.9982
+          },
+          {
+            "start": 5.48,
+            "end": 5.74,
+            "word": " my",
+            "probability": 0.99815
+          },
+          {
+            "start": 5.74,
+            "end": 6.6,
+            "word": " productivity,",
+            "probability": 0.99662
+          },
+          {
+            "start": 6.96,
+            "end": 7.58,
+            "word": " changing",
+            "probability": 0.98602
+          },
+          {
+            "start": 7.58,
+            "end": 7.8,
+            "word": " my",
+            "probability": 0.99721
+          },
+          {
+            "start": 7.8,
+            "end": 8.16,
+            "word": " study",
+            "probability": 0.9845
+          },
+          {
+            "start": 8.16,
+            "end": 8.54,
+            "word": " space",
+            "probability": 0.99023
+          },
+          {
+            "start": 8.54,
+            "end": 8.72,
+            "word": " has",
+            "probability": 0.99622
+          },
+          {
+            "start": 8.72,
+            "end": 9.1,
+            "word": " really",
+            "probability": 0.98347
+          },
+          {
+            "start": 9.1,
+            "end": 9.52,
+            "word": " helped",
+            "probability": 0.99725
+          },
+          {
+            "start": 9.52,
+            "end": 9.7,
+            "word": " me",
+            "probability": 0.99628
+          },
+          {
+            "start": 9.7,
+            "end": 10.16,
+            "word": " focus",
+            "probability": 0.99765
+          },
+          {
+            "start": 10.16,
+            "end": 10.68,
+            "word": " better.",
+            "probability": 0.99852
+          }
+        ]
+      },
+      {
+        "start": 11.32,
+        "end": 20.82,
+        "text": "The library offers a quiet atmosphere that's perfect for serious work, but sometimes a lively cafe is just what I need for a refreshing change.",
+        "words": [
+          {
+            "start": 11.32,
+            "end": 11.42,
+            "word": " The",
+            "probability": 0.99594
+          },
+          {
+            "start": 11.42,
+            "end": 11.86,
+            "word": " library",
+            "probability": 0.95743
+          },
+          {
+            "start": 11.86,
+            "end": 12.22,
+            "word": " offers",
+            "probability": 0.99905
+          },
+          {
+            "start": 12.22,
+            "end": 12.42,
+            "word": " a",
+            "probability": 0.9714
+          },
+          {
+            "start": 12.42,
+            "end": 12.78,
+            "word": " quiet",
+            "probability": 0.99777
+          },
+          {
+            "start": 12.78,
+            "end": 13.4,
+            "word": " atmosphere",
+            "probability": 0.99788
+          },
+          {
+            "start": 13.4,
+            "end": 13.84,
+            "word": " that's",
+            "probability": 0.92882
+          },
+          {
+            "start": 13.84,
+            "end": 14.34,
+            "word": " perfect",
+            "probability": 0.99492
+          },
+          {
+            "start": 14.34,
+            "end": 14.64,
+            "word": " for",
+            "probability": 0.99838
+          },
+          {
+            "start": 14.64,
+            "end": 15.06,
+            "word": " serious",
+            "probability": 0.99114
+          },
+          {
+            "start": 15.06,
+            "end": 15.56,
+            "word": " work,",
+            "probability": 0.9991
+          },
+          {
+            "start": 15.94,
+            "end": 16.14,
+            "word": " but",
+            "probability": 0.99514
+          },
+          {
+            "start": 16.14,
+            "end": 16.78,
+            "word": " sometimes",
+            "probability": 0.99136
+          },
+          {
+            "start": 16.78,
+            "end": 17.1,
+            "word": " a",
+            "probability": 0.93671
+          },
+          {
+            "start": 17.1,
+            "end": 17.5,
+            "word": " lively",
+            "probability": 0.98369
+          },
+          {
+            "start": 17.5,
+            "end": 17.94,
+            "word": " cafe",
+            "probability": 0.61891
+          },
+          {
+            "start": 17.94,
+            "end": 18.32,
+            "word": " is",
+            "probability": 0.99257
+          },
+          {
+            "start": 18.32,
+            "end": 18.62,
+            "word": " just",
+            "probability": 0.99642
+          },
+          {
+            "start": 18.62,
+            "end": 18.86,
+            "word": " what",
+            "probability": 0.9986
+          },
+          {
+            "start": 18.86,
+            "end": 19.04,
+            "word": " I",
+            "probability": 0.99583
+          },
+          {
+            "start": 19.04,
+            "end": 19.28,
+            "word": " need",
+            "probability": 0.99762
+          },
+          {
+            "start": 19.28,
+            "end": 19.52,
+            "word": " for",
+            "probability": 0.99634
+          },
+          {
+            "start": 19.52,
+            "end": 19.64,
+            "word": " a",
+            "probability": 0.99846
+          },
+          {
+            "start": 19.64,
+            "end": 20.04,
+            "word": " refreshing",
+            "probability": 0.99556
+          },
+          {
+            "start": 20.04,
+            "end": 20.82,
+            "word": " change.",
+            "probability": 0.99833
+          }
+        ]
+      },
+      {
+        "start": 21.48,
+        "end": 29.18,
+        "text": "Being outdoors in a park with fresh air can also clear my mind. Each place keeps my study sessions interesting and engaging.",
+        "words": [
+          {
+            "start": 21.48,
+            "end": 21.7,
+            "word": " Being",
+            "probability": 0.99083
+          },
+          {
+            "start": 21.7,
+            "end": 22.1,
+            "word": " outdoors",
+            "probability": 0.99359
+          },
+          {
+            "start": 22.1,
+            "end": 22.4,
+            "word": " in",
+            "probability": 0.99476
+          },
+          {
+            "start": 22.4,
+            "end": 22.46,
+            "word": " a",
+            "probability": 0.9928
+          },
+          {
+            "start": 22.46,
+            "end": 22.74,
+            "word": " park",
+            "probability": 0.99181
+          },
+          {
+            "start": 22.74,
+            "end": 23.02,
+            "word": " with",
+            "probability": 0.99328
+          },
+          {
+            "start": 23.02,
+            "end": 23.32,
+            "word": " fresh",
+            "probability": 0.99561
+          },
+          {
+            "start": 23.32,
+            "end": 23.56,
+            "word": " air",
+            "probability": 0.99893
+          },
+          {
+            "start": 23.56,
+            "end": 23.74,
+            "word": " can",
+            "probability": 0.99753
+          },
+          {
+            "start": 23.74,
+            "end": 24.0,
+            "word": " also",
+            "probability": 0.99141
+          },
+          {
+            "start": 24.0,
+            "end": 24.32,
+            "word": " clear",
+            "probability": 0.99412
+          },
+          {
+            "start": 24.32,
+            "end": 24.52,
+            "word": " my",
+            "probability": 0.99818
+          },
+          {
+            "start": 24.52,
+            "end": 24.98,
+            "word": " mind.",
+            "probability": 0.99925
+          },
+          {
+            "start": 25.56,
+            "end": 25.84,
+            "word": " Each",
+            "probability": 0.99275
+          },
+          {
+            "start": 25.84,
+            "end": 26.08,
+            "word": " place",
+            "probability": 0.98813
+          },
+          {
+            "start": 26.08,
+            "end": 26.46,
+            "word": " keeps",
+            "probability": 0.99218
+          },
+          {
+            "start": 26.46,
+            "end": 26.74,
+            "word": " my",
+            "probability": 0.99478
+          },
+          {
+            "start": 26.74,
+            "end": 27.08,
+            "word": " study",
+            "probability": 0.98625
+          },
+          {
+            "start": 27.08,
+            "end": 27.46,
+            "word": " sessions",
+            "probability": 0.70516
+          },
+          {
+            "start": 27.46,
+            "end": 28.14,
+            "word": " interesting",
+            "probability": 0.99442
+          },
+          {
+            "start": 28.14,
+            "end": 28.6,
+            "word": " and",
+            "probability": 0.97733
+          },
+          {
+            "start": 28.6,
+            "end": 29.18,
+            "word": " engaging.",
+            "probability": 0.99902
+          }
+        ]
+      },
+      {
+        "start": 29.18,
+        "end": 30.08,
+        "text": "Thank you.",
+        "words": [
+          {
+            "start": 29.18,
+            "end": 30.08,
+            "word": " Thank",
+            "probability": 0.00782
+          },
+          {
+            "start": 30.08,
+            "end": 30.08,
+            "word": " you.",
+            "probability": 0.95562
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p2-spk-b",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 72,
+            "speechStart": 0.98,
+            "speechEnd": 30.08,
+            "sourceTokenCoverage": 0.9722,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9722,
+            "transcript": "i've realised that my study environment has a significant impact on my productivity changing my study space has really helped me focus better the library offers a quiet atmosphere that's perfect for serious work but sometimes a lively cafe is just what i need for a refreshing change being outdoors in a park with fresh air can also clear my mind each place keeps my study sessions interesting and engaging thank you",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

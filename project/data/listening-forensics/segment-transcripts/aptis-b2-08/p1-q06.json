@@ -1,0 +1,512 @@
+{
+  "testId": "aptis-b2-08",
+  "blockId": "p1-q06",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-08/part-1/q06.mp3",
+  "audioSha256": "5fa794dd21278d802151236df3802968688f72a796a177a3ec18b998018a2219",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.75,
+        "end": 7.37,
+        "text": "You know, I want to talk about my old manager George. He was a very smart man and he taught me a lot about work",
+        "words": [
+          {
+            "start": 0.75,
+            "end": 1.25,
+            "word": " You",
+            "probability": 0.85053
+          },
+          {
+            "start": 1.25,
+            "end": 1.33,
+            "word": " know,",
+            "probability": 0.99876
+          },
+          {
+            "start": 1.41,
+            "end": 1.47,
+            "word": " I",
+            "probability": 0.99528
+          },
+          {
+            "start": 1.47,
+            "end": 1.59,
+            "word": " want",
+            "probability": 0.88388
+          },
+          {
+            "start": 1.59,
+            "end": 1.67,
+            "word": " to",
+            "probability": 0.99835
+          },
+          {
+            "start": 1.67,
+            "end": 1.83,
+            "word": " talk",
+            "probability": 0.99878
+          },
+          {
+            "start": 1.83,
+            "end": 2.03,
+            "word": " about",
+            "probability": 0.99902
+          },
+          {
+            "start": 2.03,
+            "end": 2.19,
+            "word": " my",
+            "probability": 0.99855
+          },
+          {
+            "start": 2.19,
+            "end": 2.35,
+            "word": " old",
+            "probability": 0.99161
+          },
+          {
+            "start": 2.35,
+            "end": 2.77,
+            "word": " manager",
+            "probability": 0.9898
+          },
+          {
+            "start": 2.77,
+            "end": 3.55,
+            "word": " George.",
+            "probability": 0.15984
+          },
+          {
+            "start": 4.13,
+            "end": 4.19,
+            "word": " He",
+            "probability": 0.98824
+          },
+          {
+            "start": 4.19,
+            "end": 4.31,
+            "word": " was",
+            "probability": 0.99625
+          },
+          {
+            "start": 4.31,
+            "end": 4.39,
+            "word": " a",
+            "probability": 0.99103
+          },
+          {
+            "start": 4.39,
+            "end": 4.61,
+            "word": " very",
+            "probability": 0.99824
+          },
+          {
+            "start": 4.61,
+            "end": 5.03,
+            "word": " smart",
+            "probability": 0.99602
+          },
+          {
+            "start": 5.03,
+            "end": 5.35,
+            "word": " man",
+            "probability": 0.99377
+          },
+          {
+            "start": 5.35,
+            "end": 5.87,
+            "word": " and",
+            "probability": 0.51131
+          },
+          {
+            "start": 5.87,
+            "end": 5.97,
+            "word": " he",
+            "probability": 0.99549
+          },
+          {
+            "start": 5.97,
+            "end": 6.19,
+            "word": " taught",
+            "probability": 0.99233
+          },
+          {
+            "start": 6.19,
+            "end": 6.37,
+            "word": " me",
+            "probability": 0.99931
+          },
+          {
+            "start": 6.37,
+            "end": 6.49,
+            "word": " a",
+            "probability": 0.99911
+          },
+          {
+            "start": 6.49,
+            "end": 6.73,
+            "word": " lot",
+            "probability": 0.99964
+          },
+          {
+            "start": 6.73,
+            "end": 6.97,
+            "word": " about",
+            "probability": 0.99728
+          },
+          {
+            "start": 6.97,
+            "end": 7.37,
+            "word": " work",
+            "probability": 0.99829
+          }
+        ]
+      },
+      {
+        "start": 7.37,
+        "end": 12.39,
+        "text": "I remember the first time I joined the team. He showed me how to do my job well",
+        "words": [
+          {
+            "start": 7.37,
+            "end": 8.25,
+            "word": " I",
+            "probability": 0.40182
+          },
+          {
+            "start": 8.25,
+            "end": 8.51,
+            "word": " remember",
+            "probability": 0.89279
+          },
+          {
+            "start": 8.51,
+            "end": 8.73,
+            "word": " the",
+            "probability": 0.99418
+          },
+          {
+            "start": 8.73,
+            "end": 9.01,
+            "word": " first",
+            "probability": 0.99898
+          },
+          {
+            "start": 9.01,
+            "end": 9.21,
+            "word": " time",
+            "probability": 0.99842
+          },
+          {
+            "start": 9.21,
+            "end": 9.37,
+            "word": " I",
+            "probability": 0.96201
+          },
+          {
+            "start": 9.37,
+            "end": 9.59,
+            "word": " joined",
+            "probability": 0.99592
+          },
+          {
+            "start": 9.59,
+            "end": 9.79,
+            "word": " the",
+            "probability": 0.99451
+          },
+          {
+            "start": 9.79,
+            "end": 10.21,
+            "word": " team.",
+            "probability": 0.99898
+          },
+          {
+            "start": 10.35,
+            "end": 10.79,
+            "word": " He",
+            "probability": 0.99058
+          },
+          {
+            "start": 10.79,
+            "end": 11.01,
+            "word": " showed",
+            "probability": 0.99895
+          },
+          {
+            "start": 11.01,
+            "end": 11.15,
+            "word": " me",
+            "probability": 0.99741
+          },
+          {
+            "start": 11.15,
+            "end": 11.31,
+            "word": " how",
+            "probability": 0.99652
+          },
+          {
+            "start": 11.31,
+            "end": 11.39,
+            "word": " to",
+            "probability": 0.99824
+          },
+          {
+            "start": 11.39,
+            "end": 11.53,
+            "word": " do",
+            "probability": 0.99893
+          },
+          {
+            "start": 11.53,
+            "end": 11.69,
+            "word": " my",
+            "probability": 0.99808
+          },
+          {
+            "start": 11.69,
+            "end": 11.95,
+            "word": " job",
+            "probability": 0.99971
+          },
+          {
+            "start": 11.95,
+            "end": 12.39,
+            "word": " well",
+            "probability": 0.97405
+          }
+        ]
+      },
+      {
+        "start": 12.91,
+        "end": 18.65,
+        "text": "George was not very strict, but he had high expectations. I learned to be better because of him",
+        "words": [
+          {
+            "start": 12.91,
+            "end": 13.35,
+            "word": " George",
+            "probability": 0.86204
+          },
+          {
+            "start": 13.35,
+            "end": 13.57,
+            "word": " was",
+            "probability": 0.97368
+          },
+          {
+            "start": 13.57,
+            "end": 13.75,
+            "word": " not",
+            "probability": 0.99866
+          },
+          {
+            "start": 13.75,
+            "end": 13.99,
+            "word": " very",
+            "probability": 0.99893
+          },
+          {
+            "start": 13.99,
+            "end": 14.31,
+            "word": " strict,",
+            "probability": 0.99603
+          },
+          {
+            "start": 14.55,
+            "end": 14.95,
+            "word": " but",
+            "probability": 0.98741
+          },
+          {
+            "start": 14.95,
+            "end": 15.07,
+            "word": " he",
+            "probability": 0.99422
+          },
+          {
+            "start": 15.07,
+            "end": 15.17,
+            "word": " had",
+            "probability": 0.99882
+          },
+          {
+            "start": 15.17,
+            "end": 15.37,
+            "word": " high",
+            "probability": 0.99794
+          },
+          {
+            "start": 15.37,
+            "end": 16.09,
+            "word": " expectations.",
+            "probability": 0.99494
+          },
+          {
+            "start": 16.59,
+            "end": 17.03,
+            "word": " I",
+            "probability": 0.99803
+          },
+          {
+            "start": 17.03,
+            "end": 17.27,
+            "word": " learned",
+            "probability": 0.95685
+          },
+          {
+            "start": 17.27,
+            "end": 17.47,
+            "word": " to",
+            "probability": 0.99894
+          },
+          {
+            "start": 17.47,
+            "end": 17.57,
+            "word": " be",
+            "probability": 0.99588
+          },
+          {
+            "start": 17.57,
+            "end": 17.91,
+            "word": " better",
+            "probability": 0.9985
+          },
+          {
+            "start": 17.91,
+            "end": 18.23,
+            "word": " because",
+            "probability": 0.99483
+          },
+          {
+            "start": 18.23,
+            "end": 18.47,
+            "word": " of",
+            "probability": 0.99945
+          },
+          {
+            "start": 18.47,
+            "end": 18.65,
+            "word": " him",
+            "probability": 0.99811
+          }
+        ]
+      },
+      {
+        "start": 19.45,
+        "end": 23.43,
+        "text": "Overall, I am thankful for his guidance and support during my early days",
+        "words": [
+          {
+            "start": 19.45,
+            "end": 19.89,
+            "word": " Overall,",
+            "probability": 0.48967
+          },
+          {
+            "start": 20.25,
+            "end": 20.31,
+            "word": " I",
+            "probability": 0.99516
+          },
+          {
+            "start": 20.31,
+            "end": 20.43,
+            "word": " am",
+            "probability": 0.98857
+          },
+          {
+            "start": 20.43,
+            "end": 20.87,
+            "word": " thankful",
+            "probability": 0.99778
+          },
+          {
+            "start": 20.87,
+            "end": 21.21,
+            "word": " for",
+            "probability": 0.99895
+          },
+          {
+            "start": 21.21,
+            "end": 21.37,
+            "word": " his",
+            "probability": 0.99311
+          },
+          {
+            "start": 21.37,
+            "end": 21.73,
+            "word": " guidance",
+            "probability": 0.99944
+          },
+          {
+            "start": 21.73,
+            "end": 21.95,
+            "word": " and",
+            "probability": 0.98797
+          },
+          {
+            "start": 21.95,
+            "end": 22.31,
+            "word": " support",
+            "probability": 0.99937
+          },
+          {
+            "start": 22.31,
+            "end": 22.63,
+            "word": " during",
+            "probability": 0.99719
+          },
+          {
+            "start": 22.63,
+            "end": 22.79,
+            "word": " my",
+            "probability": 0.9991
+          },
+          {
+            "start": 22.79,
+            "end": 23.07,
+            "word": " early",
+            "probability": 0.999
+          },
+          {
+            "start": 23.07,
+            "end": 23.43,
+            "word": " days",
+            "probability": 0.99925
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q06",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 74,
+            "speechStart": 0.75,
+            "speechEnd": 23.43,
+            "sourceTokenCoverage": 1.0,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 1.0,
+            "transcript": "you know i want to talk about my old manager george he was a very smart man and he taught me a lot about work i remember the first time i joined the team he showed me how to do my job well george was not very strict but he had high expectations i learned to be better because of him overall i am thankful for his guidance and support during my early days",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

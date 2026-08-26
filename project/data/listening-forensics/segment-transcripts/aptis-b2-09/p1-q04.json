@@ -1,0 +1,958 @@
+{
+  "testId": "aptis-b2-09",
+  "blockId": "p1-q04",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-09/part-1/q04.mp3",
+  "audioSha256": "e2921b8cbbdeceb4affdd2c45cf421d8ec1057e8000f96ccfad2892b6e61e676",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.82,
+        "end": 4.42,
+        "text": "I am excited to share the latest sales figures for our company.",
+        "words": [
+          {
+            "start": 0.82,
+            "end": 1.28,
+            "word": " I",
+            "probability": 0.74146
+          },
+          {
+            "start": 1.28,
+            "end": 1.44,
+            "word": " am",
+            "probability": 0.96604
+          },
+          {
+            "start": 1.44,
+            "end": 1.82,
+            "word": " excited",
+            "probability": 0.9972
+          },
+          {
+            "start": 1.82,
+            "end": 2.22,
+            "word": " to",
+            "probability": 0.99942
+          },
+          {
+            "start": 2.22,
+            "end": 2.4,
+            "word": " share",
+            "probability": 0.99926
+          },
+          {
+            "start": 2.4,
+            "end": 2.58,
+            "word": " the",
+            "probability": 0.99871
+          },
+          {
+            "start": 2.58,
+            "end": 2.94,
+            "word": " latest",
+            "probability": 0.99676
+          },
+          {
+            "start": 2.94,
+            "end": 3.36,
+            "word": " sales",
+            "probability": 0.99744
+          },
+          {
+            "start": 3.36,
+            "end": 3.66,
+            "word": " figures",
+            "probability": 0.99256
+          },
+          {
+            "start": 3.66,
+            "end": 3.92,
+            "word": " for",
+            "probability": 0.99742
+          },
+          {
+            "start": 3.92,
+            "end": 4.04,
+            "word": " our",
+            "probability": 0.99906
+          },
+          {
+            "start": 4.04,
+            "end": 4.42,
+            "word": " company.",
+            "probability": 0.99613
+          }
+        ]
+      },
+      {
+        "start": 5.18,
+        "end": 9.58,
+        "text": "This month, we had a fantastic response to our magazine, Freeze Frame.",
+        "words": [
+          {
+            "start": 5.18,
+            "end": 5.6,
+            "word": " This",
+            "probability": 0.99398
+          },
+          {
+            "start": 5.6,
+            "end": 5.9,
+            "word": " month,",
+            "probability": 0.99817
+          },
+          {
+            "start": 6.26,
+            "end": 6.38,
+            "word": " we",
+            "probability": 0.99796
+          },
+          {
+            "start": 6.38,
+            "end": 6.54,
+            "word": " had",
+            "probability": 0.99616
+          },
+          {
+            "start": 6.54,
+            "end": 6.64,
+            "word": " a",
+            "probability": 0.99973
+          },
+          {
+            "start": 6.64,
+            "end": 7.24,
+            "word": " fantastic",
+            "probability": 0.99887
+          },
+          {
+            "start": 7.24,
+            "end": 7.66,
+            "word": " response",
+            "probability": 0.99282
+          },
+          {
+            "start": 7.66,
+            "end": 8.0,
+            "word": " to",
+            "probability": 0.9996
+          },
+          {
+            "start": 8.0,
+            "end": 8.1,
+            "word": " our",
+            "probability": 0.9934
+          },
+          {
+            "start": 8.1,
+            "end": 8.56,
+            "word": " magazine,",
+            "probability": 0.97441
+          },
+          {
+            "start": 9.04,
+            "end": 9.26,
+            "word": " Freeze",
+            "probability": 0.58034
+          },
+          {
+            "start": 9.26,
+            "end": 9.58,
+            "word": " Frame.",
+            "probability": 0.45117
+          }
+        ]
+      },
+      {
+        "start": 10.2,
+        "end": 14.08,
+        "text": "I am proud to announce that we sold over 300,000 copies.",
+        "words": [
+          {
+            "start": 10.2,
+            "end": 10.64,
+            "word": " I",
+            "probability": 0.98938
+          },
+          {
+            "start": 10.64,
+            "end": 10.76,
+            "word": " am",
+            "probability": 0.7349
+          },
+          {
+            "start": 10.76,
+            "end": 11.02,
+            "word": " proud",
+            "probability": 0.99933
+          },
+          {
+            "start": 11.02,
+            "end": 11.24,
+            "word": " to",
+            "probability": 0.99986
+          },
+          {
+            "start": 11.24,
+            "end": 11.5,
+            "word": " announce",
+            "probability": 0.99897
+          },
+          {
+            "start": 11.5,
+            "end": 11.8,
+            "word": " that",
+            "probability": 0.99627
+          },
+          {
+            "start": 11.8,
+            "end": 11.96,
+            "word": " we",
+            "probability": 0.99857
+          },
+          {
+            "start": 11.96,
+            "end": 12.22,
+            "word": " sold",
+            "probability": 0.98822
+          },
+          {
+            "start": 12.22,
+            "end": 12.58,
+            "word": " over",
+            "probability": 0.99912
+          },
+          {
+            "start": 12.58,
+            "end": 13.18,
+            "word": " 300",
+            "probability": 0.96523
+          },
+          {
+            "start": 13.18,
+            "end": 13.72,
+            "word": ",000",
+            "probability": 0.9056
+          },
+          {
+            "start": 13.72,
+            "end": 14.08,
+            "word": " copies.",
+            "probability": 0.95562
+          }
+        ]
+      },
+      {
+        "start": 14.86,
+        "end": 17.24,
+        "text": "This is a big increase from last month.",
+        "words": [
+          {
+            "start": 14.86,
+            "end": 15.32,
+            "word": " This",
+            "probability": 0.99545
+          },
+          {
+            "start": 15.32,
+            "end": 15.48,
+            "word": " is",
+            "probability": 0.99758
+          },
+          {
+            "start": 15.48,
+            "end": 15.62,
+            "word": " a",
+            "probability": 0.99933
+          },
+          {
+            "start": 15.62,
+            "end": 15.78,
+            "word": " big",
+            "probability": 0.99883
+          },
+          {
+            "start": 15.78,
+            "end": 16.24,
+            "word": " increase",
+            "probability": 0.99775
+          },
+          {
+            "start": 16.24,
+            "end": 16.54,
+            "word": " from",
+            "probability": 0.99815
+          },
+          {
+            "start": 16.54,
+            "end": 16.76,
+            "word": " last",
+            "probability": 0.99763
+          },
+          {
+            "start": 16.76,
+            "end": 17.24,
+            "word": " month.",
+            "probability": 0.99303
+          }
+        ]
+      },
+      {
+        "start": 17.76,
+        "end": 20.96,
+        "text": "Many people are buying our magazine, and we are very happy.",
+        "words": [
+          {
+            "start": 17.76,
+            "end": 18.04,
+            "word": " Many",
+            "probability": 0.9944
+          },
+          {
+            "start": 18.04,
+            "end": 18.44,
+            "word": " people",
+            "probability": 0.99879
+          },
+          {
+            "start": 18.44,
+            "end": 18.62,
+            "word": " are",
+            "probability": 0.99969
+          },
+          {
+            "start": 18.62,
+            "end": 18.9,
+            "word": " buying",
+            "probability": 0.99881
+          },
+          {
+            "start": 18.9,
+            "end": 19.08,
+            "word": " our",
+            "probability": 0.99828
+          },
+          {
+            "start": 19.08,
+            "end": 19.56,
+            "word": " magazine,",
+            "probability": 0.99463
+          },
+          {
+            "start": 19.96,
+            "end": 20.1,
+            "word": " and",
+            "probability": 0.9951
+          },
+          {
+            "start": 20.1,
+            "end": 20.26,
+            "word": " we",
+            "probability": 0.99896
+          },
+          {
+            "start": 20.26,
+            "end": 20.34,
+            "word": " are",
+            "probability": 0.99308
+          },
+          {
+            "start": 20.34,
+            "end": 20.6,
+            "word": " very",
+            "probability": 0.997
+          },
+          {
+            "start": 20.6,
+            "end": 20.96,
+            "word": " happy.",
+            "probability": 0.99915
+          }
+        ]
+      },
+      {
+        "start": 21.64,
+        "end": 23.06,
+        "text": "Thank you for your support.",
+        "words": [
+          {
+            "start": 21.64,
+            "end": 22.06,
+            "word": " Thank",
+            "probability": 0.99391
+          },
+          {
+            "start": 22.06,
+            "end": 22.26,
+            "word": " you",
+            "probability": 0.99128
+          },
+          {
+            "start": 22.26,
+            "end": 22.42,
+            "word": " for",
+            "probability": 0.99743
+          },
+          {
+            "start": 22.42,
+            "end": 22.58,
+            "word": " your",
+            "probability": 0.99821
+          },
+          {
+            "start": 22.58,
+            "end": 23.06,
+            "word": " support.",
+            "probability": 0.99942
+          }
+        ]
+      },
+      {
+        "start": 23.54,
+        "end": 25.72,
+        "text": "We hope to sell even more in the future.",
+        "words": [
+          {
+            "start": 23.54,
+            "end": 23.8,
+            "word": " We",
+            "probability": 0.98733
+          },
+          {
+            "start": 23.8,
+            "end": 24.08,
+            "word": " hope",
+            "probability": 0.99805
+          },
+          {
+            "start": 24.08,
+            "end": 24.28,
+            "word": " to",
+            "probability": 0.99965
+          },
+          {
+            "start": 24.28,
+            "end": 24.46,
+            "word": " sell",
+            "probability": 0.98691
+          },
+          {
+            "start": 24.46,
+            "end": 24.82,
+            "word": " even",
+            "probability": 0.997
+          },
+          {
+            "start": 24.82,
+            "end": 25.08,
+            "word": " more",
+            "probability": 0.99955
+          },
+          {
+            "start": 25.08,
+            "end": 25.24,
+            "word": " in",
+            "probability": 0.99923
+          },
+          {
+            "start": 25.24,
+            "end": 25.32,
+            "word": " the",
+            "probability": 0.99926
+          },
+          {
+            "start": 25.32,
+            "end": 25.72,
+            "word": " future.",
+            "probability": 0.99982
+          }
+        ]
+      },
+      {
+        "start": 25.72,
+        "end": 33.61,
+        "text": "I am excited to share the latest sales figures for our company. This month, we had a fantastic",
+        "words": [
+          {
+            "start": 25.72,
+            "end": 26.74,
+            "word": " I",
+            "probability": 0.29343
+          },
+          {
+            "start": 27.63,
+            "end": 27.79,
+            "word": " am",
+            "probability": 0.96487
+          },
+          {
+            "start": 27.79,
+            "end": 28.21,
+            "word": " excited",
+            "probability": 0.99759
+          },
+          {
+            "start": 28.21,
+            "end": 28.59,
+            "word": " to",
+            "probability": 0.99934
+          },
+          {
+            "start": 28.59,
+            "end": 28.77,
+            "word": " share",
+            "probability": 0.99919
+          },
+          {
+            "start": 28.77,
+            "end": 28.95,
+            "word": " the",
+            "probability": 0.99962
+          },
+          {
+            "start": 28.95,
+            "end": 29.31,
+            "word": " latest",
+            "probability": 0.99708
+          },
+          {
+            "start": 29.31,
+            "end": 29.73,
+            "word": " sales",
+            "probability": 0.9984
+          },
+          {
+            "start": 29.73,
+            "end": 30.03,
+            "word": " figures",
+            "probability": 0.99667
+          },
+          {
+            "start": 30.03,
+            "end": 30.29,
+            "word": " for",
+            "probability": 0.99314
+          },
+          {
+            "start": 30.29,
+            "end": 30.41,
+            "word": " our",
+            "probability": 0.99907
+          },
+          {
+            "start": 30.41,
+            "end": 30.83,
+            "word": " company.",
+            "probability": 0.99605
+          },
+          {
+            "start": 31.61,
+            "end": 31.97,
+            "word": " This",
+            "probability": 0.99178
+          },
+          {
+            "start": 31.97,
+            "end": 32.25,
+            "word": " month,",
+            "probability": 0.99683
+          },
+          {
+            "start": 32.63,
+            "end": 32.75,
+            "word": " we",
+            "probability": 0.99756
+          },
+          {
+            "start": 32.75,
+            "end": 32.91,
+            "word": " had",
+            "probability": 0.99704
+          },
+          {
+            "start": 32.91,
+            "end": 32.99,
+            "word": " a",
+            "probability": 0.99937
+          },
+          {
+            "start": 32.99,
+            "end": 33.61,
+            "word": " fantastic",
+            "probability": 0.99886
+          }
+        ]
+      },
+      {
+        "start": 33.61,
+        "end": 40.11,
+        "text": "response to our magazine, Freeze Frame. I am proud to announce that we sold over 300,000",
+        "words": [
+          {
+            "start": 33.61,
+            "end": 34.05,
+            "word": " response",
+            "probability": 0.99535
+          },
+          {
+            "start": 34.05,
+            "end": 34.39,
+            "word": " to",
+            "probability": 0.99947
+          },
+          {
+            "start": 34.39,
+            "end": 34.47,
+            "word": " our",
+            "probability": 0.9915
+          },
+          {
+            "start": 34.47,
+            "end": 34.95,
+            "word": " magazine,",
+            "probability": 0.97547
+          },
+          {
+            "start": 35.39,
+            "end": 35.65,
+            "word": " Freeze",
+            "probability": 0.58198
+          },
+          {
+            "start": 35.65,
+            "end": 35.95,
+            "word": " Frame.",
+            "probability": 0.4441
+          },
+          {
+            "start": 36.63,
+            "end": 37.01,
+            "word": " I",
+            "probability": 0.98798
+          },
+          {
+            "start": 37.01,
+            "end": 37.15,
+            "word": " am",
+            "probability": 0.76336
+          },
+          {
+            "start": 37.15,
+            "end": 37.41,
+            "word": " proud",
+            "probability": 0.99905
+          },
+          {
+            "start": 37.41,
+            "end": 37.61,
+            "word": " to",
+            "probability": 0.99984
+          },
+          {
+            "start": 37.61,
+            "end": 37.87,
+            "word": " announce",
+            "probability": 0.99895
+          },
+          {
+            "start": 37.87,
+            "end": 38.19,
+            "word": " that",
+            "probability": 0.99717
+          },
+          {
+            "start": 38.19,
+            "end": 38.33,
+            "word": " we",
+            "probability": 0.99808
+          },
+          {
+            "start": 38.33,
+            "end": 38.59,
+            "word": " sold",
+            "probability": 0.98496
+          },
+          {
+            "start": 38.59,
+            "end": 38.97,
+            "word": " over",
+            "probability": 0.99919
+          },
+          {
+            "start": 38.97,
+            "end": 39.57,
+            "word": " 300",
+            "probability": 0.97395
+          },
+          {
+            "start": 39.57,
+            "end": 40.11,
+            "word": ",000",
+            "probability": 0.9469
+          }
+        ]
+      },
+      {
+        "start": 40.11,
+        "end": 46.49,
+        "text": "copies. This is a big increase from last month. Many people are buying our magazine, and",
+        "words": [
+          {
+            "start": 40.11,
+            "end": 40.47,
+            "word": " copies.",
+            "probability": 0.9468
+          },
+          {
+            "start": 41.33,
+            "end": 41.69,
+            "word": " This",
+            "probability": 0.99612
+          },
+          {
+            "start": 41.69,
+            "end": 41.85,
+            "word": " is",
+            "probability": 0.9971
+          },
+          {
+            "start": 41.85,
+            "end": 41.99,
+            "word": " a",
+            "probability": 0.99928
+          },
+          {
+            "start": 41.99,
+            "end": 42.17,
+            "word": " big",
+            "probability": 0.9984
+          },
+          {
+            "start": 42.17,
+            "end": 42.61,
+            "word": " increase",
+            "probability": 0.99759
+          },
+          {
+            "start": 42.61,
+            "end": 42.93,
+            "word": " from",
+            "probability": 0.99756
+          },
+          {
+            "start": 42.93,
+            "end": 43.15,
+            "word": " last",
+            "probability": 0.99792
+          },
+          {
+            "start": 43.15,
+            "end": 43.67,
+            "word": " month.",
+            "probability": 0.99438
+          },
+          {
+            "start": 44.11,
+            "end": 44.41,
+            "word": " Many",
+            "probability": 0.99453
+          },
+          {
+            "start": 44.41,
+            "end": 44.81,
+            "word": " people",
+            "probability": 0.99899
+          },
+          {
+            "start": 44.81,
+            "end": 44.99,
+            "word": " are",
+            "probability": 0.9998
+          },
+          {
+            "start": 44.99,
+            "end": 45.27,
+            "word": " buying",
+            "probability": 0.9985
+          },
+          {
+            "start": 45.27,
+            "end": 45.47,
+            "word": " our",
+            "probability": 0.9969
+          },
+          {
+            "start": 45.47,
+            "end": 45.93,
+            "word": " magazine,",
+            "probability": 0.99583
+          },
+          {
+            "start": 46.35,
+            "end": 46.49,
+            "word": " and",
+            "probability": 0.99648
+          }
+        ]
+      },
+      {
+        "start": 46.49,
+        "end": 52.11,
+        "text": "we are very happy. Thank you for your support. We hope to sell even more in the future.",
+        "words": [
+          {
+            "start": 46.49,
+            "end": 46.63,
+            "word": " we",
+            "probability": 0.99933
+          },
+          {
+            "start": 46.63,
+            "end": 46.71,
+            "word": " are",
+            "probability": 0.99565
+          },
+          {
+            "start": 46.71,
+            "end": 46.97,
+            "word": " very",
+            "probability": 0.99654
+          },
+          {
+            "start": 46.97,
+            "end": 47.33,
+            "word": " happy.",
+            "probability": 0.99905
+          },
+          {
+            "start": 47.97,
+            "end": 48.43,
+            "word": " Thank",
+            "probability": 0.99552
+          },
+          {
+            "start": 48.43,
+            "end": 48.65,
+            "word": " you",
+            "probability": 0.9904
+          },
+          {
+            "start": 48.65,
+            "end": 48.81,
+            "word": " for",
+            "probability": 0.99757
+          },
+          {
+            "start": 48.81,
+            "end": 48.95,
+            "word": " your",
+            "probability": 0.99749
+          },
+          {
+            "start": 48.95,
+            "end": 49.51,
+            "word": " support.",
+            "probability": 0.99946
+          },
+          {
+            "start": 49.89,
+            "end": 50.17,
+            "word": " We",
+            "probability": 0.99044
+          },
+          {
+            "start": 50.17,
+            "end": 50.45,
+            "word": " hope",
+            "probability": 0.99886
+          },
+          {
+            "start": 50.45,
+            "end": 50.65,
+            "word": " to",
+            "probability": 0.99961
+          },
+          {
+            "start": 50.65,
+            "end": 50.85,
+            "word": " sell",
+            "probability": 0.96436
+          },
+          {
+            "start": 50.85,
+            "end": 51.19,
+            "word": " even",
+            "probability": 0.99756
+          },
+          {
+            "start": 51.19,
+            "end": 51.45,
+            "word": " more",
+            "probability": 0.99948
+          },
+          {
+            "start": 51.45,
+            "end": 51.61,
+            "word": " in",
+            "probability": 0.99899
+          },
+          {
+            "start": 51.61,
+            "end": 51.69,
+            "word": " the",
+            "probability": 0.99887
+          },
+          {
+            "start": 51.69,
+            "end": 52.11,
+            "word": " future.",
+            "probability": 0.99972
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q04",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 69,
+            "speechStart": 0.82,
+            "speechEnd": 25.72,
+            "sourceTokenCoverage": 0.9855,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9855,
+            "transcript": "i am excited to share the latest sales figures for our company this month we had a fantastic response to our magazine freeze frame i am proud to announce that we sold over 300 000 copies this is a big increase from last month many people are buying our magazine and we are very happy thank you for your support we hope to sell even more in the future",
+            "openingMatch": 1.0,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 69,
+            "wordEndIndexExclusive": 138,
+            "speechStart": 25.72,
+            "speechEnd": 52.11,
+            "sourceTokenCoverage": 0.9855,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9855,
+            "transcript": "i am excited to share the latest sales figures for our company this month we had a fantastic response to our magazine freeze frame i am proud to announce that we sold over 300 000 copies this is a big increase from last month many people are buying our magazine and we are very happy thank you for your support we hope to sell even more in the future",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

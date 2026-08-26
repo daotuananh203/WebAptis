@@ -1,0 +1,598 @@
+{
+  "testId": "aptis-b2-05",
+  "blockId": "p1-q10",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-05/part-1/q10.mp3",
+  "audioSha256": "dea19da89c1a6f90a5de01bd50d56981061c33dbc5599823148fa738105ed82d",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.78,
+        "end": 6.08,
+        "text": "Welcome to our University. When you enter the campus, you'll see the library on your left",
+        "words": [
+          {
+            "start": 0.78,
+            "end": 1.46,
+            "word": " Welcome",
+            "probability": 0.95192
+          },
+          {
+            "start": 1.46,
+            "end": 1.7,
+            "word": " to",
+            "probability": 0.99621
+          },
+          {
+            "start": 1.7,
+            "end": 1.9,
+            "word": " our",
+            "probability": 0.96344
+          },
+          {
+            "start": 1.9,
+            "end": 2.58,
+            "word": " University.",
+            "probability": 0.5805
+          },
+          {
+            "start": 3.36,
+            "end": 3.46,
+            "word": " When",
+            "probability": 0.99237
+          },
+          {
+            "start": 3.46,
+            "end": 3.58,
+            "word": " you",
+            "probability": 0.99904
+          },
+          {
+            "start": 3.58,
+            "end": 3.84,
+            "word": " enter",
+            "probability": 0.9978
+          },
+          {
+            "start": 3.84,
+            "end": 4.02,
+            "word": " the",
+            "probability": 0.99439
+          },
+          {
+            "start": 4.02,
+            "end": 4.34,
+            "word": " campus,",
+            "probability": 0.9775
+          },
+          {
+            "start": 4.66,
+            "end": 4.76,
+            "word": " you'll",
+            "probability": 0.95473
+          },
+          {
+            "start": 4.76,
+            "end": 4.94,
+            "word": " see",
+            "probability": 0.9987
+          },
+          {
+            "start": 4.94,
+            "end": 5.08,
+            "word": " the",
+            "probability": 0.99478
+          },
+          {
+            "start": 5.08,
+            "end": 5.48,
+            "word": " library",
+            "probability": 0.94527
+          },
+          {
+            "start": 5.48,
+            "end": 5.7,
+            "word": " on",
+            "probability": 0.99629
+          },
+          {
+            "start": 5.7,
+            "end": 5.8,
+            "word": " your",
+            "probability": 0.97741
+          },
+          {
+            "start": 5.8,
+            "end": 6.08,
+            "word": " left",
+            "probability": 0.9976
+          }
+        ]
+      },
+      {
+        "start": 6.08,
+        "end": 11.86,
+        "text": "and the cafeteria on your right. If you need help with anything, the main office is on",
+        "words": [
+          {
+            "start": 6.08,
+            "end": 6.52,
+            "word": " and",
+            "probability": 0.8344
+          },
+          {
+            "start": 6.52,
+            "end": 6.66,
+            "word": " the",
+            "probability": 0.99133
+          },
+          {
+            "start": 6.66,
+            "end": 7.2,
+            "word": " cafeteria",
+            "probability": 0.99235
+          },
+          {
+            "start": 7.2,
+            "end": 7.64,
+            "word": " on",
+            "probability": 0.99049
+          },
+          {
+            "start": 7.64,
+            "end": 7.8,
+            "word": " your",
+            "probability": 0.98677
+          },
+          {
+            "start": 7.8,
+            "end": 8.04,
+            "word": " right.",
+            "probability": 0.99721
+          },
+          {
+            "start": 8.72,
+            "end": 8.98,
+            "word": " If",
+            "probability": 0.99579
+          },
+          {
+            "start": 8.98,
+            "end": 9.08,
+            "word": " you",
+            "probability": 0.99761
+          },
+          {
+            "start": 9.08,
+            "end": 9.28,
+            "word": " need",
+            "probability": 0.99923
+          },
+          {
+            "start": 9.28,
+            "end": 9.54,
+            "word": " help",
+            "probability": 0.99904
+          },
+          {
+            "start": 9.54,
+            "end": 9.76,
+            "word": " with",
+            "probability": 0.99775
+          },
+          {
+            "start": 9.76,
+            "end": 10.22,
+            "word": " anything,",
+            "probability": 0.99774
+          },
+          {
+            "start": 10.82,
+            "end": 10.88,
+            "word": " the",
+            "probability": 0.98016
+          },
+          {
+            "start": 10.88,
+            "end": 11.08,
+            "word": " main",
+            "probability": 0.93304
+          },
+          {
+            "start": 11.08,
+            "end": 11.44,
+            "word": " office",
+            "probability": 0.99913
+          },
+          {
+            "start": 11.44,
+            "end": 11.74,
+            "word": " is",
+            "probability": 0.99404
+          },
+          {
+            "start": 11.74,
+            "end": 11.86,
+            "word": " on",
+            "probability": 0.99386
+          }
+        ]
+      },
+      {
+        "start": 11.86,
+        "end": 16.86,
+        "text": "the first floor of the center campus building. There you can ask about classes, schedules",
+        "words": [
+          {
+            "start": 11.86,
+            "end": 11.98,
+            "word": " the",
+            "probability": 0.99512
+          },
+          {
+            "start": 11.98,
+            "end": 12.22,
+            "word": " first",
+            "probability": 0.98062
+          },
+          {
+            "start": 12.22,
+            "end": 12.58,
+            "word": " floor",
+            "probability": 0.99955
+          },
+          {
+            "start": 12.58,
+            "end": 12.76,
+            "word": " of",
+            "probability": 0.99636
+          },
+          {
+            "start": 12.76,
+            "end": 12.86,
+            "word": " the",
+            "probability": 0.99244
+          },
+          {
+            "start": 12.86,
+            "end": 13.08,
+            "word": " center",
+            "probability": 0.86905
+          },
+          {
+            "start": 13.08,
+            "end": 13.4,
+            "word": " campus",
+            "probability": 0.96314
+          },
+          {
+            "start": 13.4,
+            "end": 13.86,
+            "word": " building.",
+            "probability": 0.99735
+          },
+          {
+            "start": 14.56,
+            "end": 14.8,
+            "word": " There",
+            "probability": 0.9973
+          },
+          {
+            "start": 14.8,
+            "end": 14.92,
+            "word": " you",
+            "probability": 0.87939
+          },
+          {
+            "start": 14.92,
+            "end": 15.04,
+            "word": " can",
+            "probability": 0.99662
+          },
+          {
+            "start": 15.04,
+            "end": 15.3,
+            "word": " ask",
+            "probability": 0.99447
+          },
+          {
+            "start": 15.3,
+            "end": 15.52,
+            "word": " about",
+            "probability": 0.99283
+          },
+          {
+            "start": 15.52,
+            "end": 15.98,
+            "word": " classes,",
+            "probability": 0.99422
+          },
+          {
+            "start": 16.54,
+            "end": 16.86,
+            "word": " schedules",
+            "probability": 0.98944
+          }
+        ]
+      },
+      {
+        "start": 16.86,
+        "end": 23.57,
+        "text": "or anything else. Behind the main building, you'll find the gym and sports area. For quiet",
+        "words": [
+          {
+            "start": 16.86,
+            "end": 17.42,
+            "word": " or",
+            "probability": 0.44853
+          },
+          {
+            "start": 17.42,
+            "end": 17.82,
+            "word": " anything",
+            "probability": 0.99735
+          },
+          {
+            "start": 17.82,
+            "end": 18.32,
+            "word": " else.",
+            "probability": 0.99894
+          },
+          {
+            "start": 18.94,
+            "end": 19.24,
+            "word": " Behind",
+            "probability": 0.99179
+          },
+          {
+            "start": 19.24,
+            "end": 19.44,
+            "word": " the",
+            "probability": 0.99438
+          },
+          {
+            "start": 19.44,
+            "end": 19.6,
+            "word": " main",
+            "probability": 0.9973
+          },
+          {
+            "start": 19.6,
+            "end": 19.98,
+            "word": " building,",
+            "probability": 0.99696
+          },
+          {
+            "start": 20.24,
+            "end": 20.34,
+            "word": " you'll",
+            "probability": 0.99261
+          },
+          {
+            "start": 20.34,
+            "end": 20.54,
+            "word": " find",
+            "probability": 0.99788
+          },
+          {
+            "start": 20.54,
+            "end": 20.72,
+            "word": " the",
+            "probability": 0.99466
+          },
+          {
+            "start": 20.72,
+            "end": 20.98,
+            "word": " gym",
+            "probability": 0.9141
+          },
+          {
+            "start": 20.98,
+            "end": 21.38,
+            "word": " and",
+            "probability": 0.9926
+          },
+          {
+            "start": 21.38,
+            "end": 21.66,
+            "word": " sports",
+            "probability": 0.99109
+          },
+          {
+            "start": 21.66,
+            "end": 22.16,
+            "word": " area.",
+            "probability": 0.99476
+          },
+          {
+            "start": 22.99,
+            "end": 23.25,
+            "word": " For",
+            "probability": 0.99836
+          },
+          {
+            "start": 23.25,
+            "end": 23.57,
+            "word": " quiet",
+            "probability": 0.74516
+          }
+        ]
+      },
+      {
+        "start": 23.57,
+        "end": 29.03,
+        "text": "study, there are some nice spots in the garden near the science building. Make sure to explore",
+        "words": [
+          {
+            "start": 23.57,
+            "end": 23.97,
+            "word": " study,",
+            "probability": 0.99143
+          },
+          {
+            "start": 24.35,
+            "end": 24.55,
+            "word": " there",
+            "probability": 0.99807
+          },
+          {
+            "start": 24.55,
+            "end": 24.63,
+            "word": " are",
+            "probability": 0.99168
+          },
+          {
+            "start": 24.63,
+            "end": 24.81,
+            "word": " some",
+            "probability": 0.99848
+          },
+          {
+            "start": 24.81,
+            "end": 25.03,
+            "word": " nice",
+            "probability": 0.99644
+          },
+          {
+            "start": 25.03,
+            "end": 25.37,
+            "word": " spots",
+            "probability": 0.99782
+          },
+          {
+            "start": 25.37,
+            "end": 25.69,
+            "word": " in",
+            "probability": 0.99046
+          },
+          {
+            "start": 25.69,
+            "end": 25.81,
+            "word": " the",
+            "probability": 0.99856
+          },
+          {
+            "start": 25.81,
+            "end": 26.15,
+            "word": " garden",
+            "probability": 0.98394
+          },
+          {
+            "start": 26.15,
+            "end": 26.59,
+            "word": " near",
+            "probability": 0.93367
+          },
+          {
+            "start": 26.59,
+            "end": 26.75,
+            "word": " the",
+            "probability": 0.99701
+          },
+          {
+            "start": 26.75,
+            "end": 27.03,
+            "word": " science",
+            "probability": 0.85967
+          },
+          {
+            "start": 27.03,
+            "end": 27.53,
+            "word": " building.",
+            "probability": 0.99748
+          },
+          {
+            "start": 27.97,
+            "end": 28.19,
+            "word": " Make",
+            "probability": 0.99531
+          },
+          {
+            "start": 28.19,
+            "end": 28.41,
+            "word": " sure",
+            "probability": 0.99893
+          },
+          {
+            "start": 28.41,
+            "end": 28.57,
+            "word": " to",
+            "probability": 0.99894
+          },
+          {
+            "start": 28.57,
+            "end": 29.03,
+            "word": " explore",
+            "probability": 0.99608
+          }
+        ]
+      },
+      {
+        "start": 29.03,
+        "end": 30.55,
+        "text": "or enjoy your time here.",
+        "words": [
+          {
+            "start": 29.03,
+            "end": 29.17,
+            "word": " or",
+            "probability": 0.33817
+          },
+          {
+            "start": 29.17,
+            "end": 29.67,
+            "word": " enjoy",
+            "probability": 0.73889
+          },
+          {
+            "start": 29.67,
+            "end": 29.95,
+            "word": " your",
+            "probability": 0.99002
+          },
+          {
+            "start": 29.95,
+            "end": 30.25,
+            "word": " time",
+            "probability": 0.9984
+          },
+          {
+            "start": 30.25,
+            "end": 30.55,
+            "word": " here.",
+            "probability": 0.99494
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q10",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 86,
+            "speechStart": 0.78,
+            "speechEnd": 30.55,
+            "sourceTokenCoverage": 0.9884,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9884,
+            "transcript": "welcome to our university when you enter the campus you'll see the library on your left and the cafeteria on your right if you need help with anything the main office is on the first floor of the center campus building there you can ask about classes schedules or anything else behind the main building you'll find the gym and sports area for quiet study there are some nice spots in the garden near the science building make sure to explore or enjoy your time here",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

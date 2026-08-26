@@ -1,0 +1,959 @@
+{
+  "testId": "aptis-b2-11",
+  "blockId": "p1-q03",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-11/part-1/q03.mp3",
+  "audioSha256": "797db0b0b9e8259ee1eeff6995b72f4e800cb5512b356220484011cc33840e46",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.88,
+        "end": 4.04,
+        "text": "You know, I've been spending a lot of time at school lately.",
+        "words": [
+          {
+            "start": 0.88,
+            "end": 1.38,
+            "word": " You",
+            "probability": 0.44299
+          },
+          {
+            "start": 1.38,
+            "end": 1.56,
+            "word": " know,",
+            "probability": 0.99012
+          },
+          {
+            "start": 1.88,
+            "end": 2.02,
+            "word": " I've",
+            "probability": 0.97113
+          },
+          {
+            "start": 2.02,
+            "end": 2.12,
+            "word": " been",
+            "probability": 0.99452
+          },
+          {
+            "start": 2.12,
+            "end": 2.46,
+            "word": " spending",
+            "probability": 0.99767
+          },
+          {
+            "start": 2.46,
+            "end": 2.66,
+            "word": " a",
+            "probability": 0.98742
+          },
+          {
+            "start": 2.66,
+            "end": 2.82,
+            "word": " lot",
+            "probability": 0.99803
+          },
+          {
+            "start": 2.82,
+            "end": 2.96,
+            "word": " of",
+            "probability": 0.99442
+          },
+          {
+            "start": 2.96,
+            "end": 3.22,
+            "word": " time",
+            "probability": 0.99787
+          },
+          {
+            "start": 3.22,
+            "end": 3.4,
+            "word": " at",
+            "probability": 0.9984
+          },
+          {
+            "start": 3.4,
+            "end": 3.64,
+            "word": " school",
+            "probability": 0.95762
+          },
+          {
+            "start": 3.64,
+            "end": 4.04,
+            "word": " lately.",
+            "probability": 0.99304
+          }
+        ]
+      },
+      {
+        "start": 5.09,
+        "end": 6.37,
+        "text": "I really like our campus.",
+        "words": [
+          {
+            "start": 5.09,
+            "end": 5.21,
+            "word": " I",
+            "probability": 0.96664
+          },
+          {
+            "start": 5.21,
+            "end": 5.51,
+            "word": " really",
+            "probability": 0.99138
+          },
+          {
+            "start": 5.51,
+            "end": 5.77,
+            "word": " like",
+            "probability": 0.99737
+          },
+          {
+            "start": 5.77,
+            "end": 5.97,
+            "word": " our",
+            "probability": 0.82622
+          },
+          {
+            "start": 5.97,
+            "end": 6.37,
+            "word": " campus.",
+            "probability": 0.98208
+          }
+        ]
+      },
+      {
+        "start": 7.47,
+        "end": 9.77,
+        "text": "One thing that stands out is the teachers building.",
+        "words": [
+          {
+            "start": 7.47,
+            "end": 7.77,
+            "word": " One",
+            "probability": 0.99305
+          },
+          {
+            "start": 7.77,
+            "end": 8.01,
+            "word": " thing",
+            "probability": 0.99893
+          },
+          {
+            "start": 8.01,
+            "end": 8.21,
+            "word": " that",
+            "probability": 0.9952
+          },
+          {
+            "start": 8.21,
+            "end": 8.51,
+            "word": " stands",
+            "probability": 0.98961
+          },
+          {
+            "start": 8.51,
+            "end": 8.75,
+            "word": " out",
+            "probability": 0.99832
+          },
+          {
+            "start": 8.75,
+            "end": 8.89,
+            "word": " is",
+            "probability": 0.98624
+          },
+          {
+            "start": 8.89,
+            "end": 9.03,
+            "word": " the",
+            "probability": 0.97909
+          },
+          {
+            "start": 9.03,
+            "end": 9.35,
+            "word": " teachers",
+            "probability": 0.69422
+          },
+          {
+            "start": 9.35,
+            "end": 9.77,
+            "word": " building.",
+            "probability": 0.60246
+          }
+        ]
+      },
+      {
+        "start": 10.71,
+        "end": 13.19,
+        "text": "It's really nice and has a bright, white colour.",
+        "words": [
+          {
+            "start": 10.71,
+            "end": 11.05,
+            "word": " It's",
+            "probability": 0.99425
+          },
+          {
+            "start": 11.05,
+            "end": 11.25,
+            "word": " really",
+            "probability": 0.99678
+          },
+          {
+            "start": 11.25,
+            "end": 11.57,
+            "word": " nice",
+            "probability": 0.99888
+          },
+          {
+            "start": 11.57,
+            "end": 11.77,
+            "word": " and",
+            "probability": 0.92729
+          },
+          {
+            "start": 11.77,
+            "end": 11.93,
+            "word": " has",
+            "probability": 0.99743
+          },
+          {
+            "start": 11.93,
+            "end": 12.01,
+            "word": " a",
+            "probability": 0.98045
+          },
+          {
+            "start": 12.01,
+            "end": 12.29,
+            "word": " bright,",
+            "probability": 0.99765
+          },
+          {
+            "start": 12.67,
+            "end": 12.81,
+            "word": " white",
+            "probability": 0.98906
+          },
+          {
+            "start": 12.81,
+            "end": 13.19,
+            "word": " colour.",
+            "probability": 0.78515
+          }
+        ]
+      },
+      {
+        "start": 14.07,
+        "end": 16.09,
+        "text": "I love how it looks against the blue sky.",
+        "words": [
+          {
+            "start": 14.07,
+            "end": 14.35,
+            "word": " I",
+            "probability": 0.9958
+          },
+          {
+            "start": 14.35,
+            "end": 14.53,
+            "word": " love",
+            "probability": 0.99522
+          },
+          {
+            "start": 14.53,
+            "end": 14.73,
+            "word": " how",
+            "probability": 0.9988
+          },
+          {
+            "start": 14.73,
+            "end": 14.87,
+            "word": " it",
+            "probability": 0.99504
+          },
+          {
+            "start": 14.87,
+            "end": 15.01,
+            "word": " looks",
+            "probability": 0.99637
+          },
+          {
+            "start": 15.01,
+            "end": 15.37,
+            "word": " against",
+            "probability": 0.99267
+          },
+          {
+            "start": 15.37,
+            "end": 15.53,
+            "word": " the",
+            "probability": 0.99593
+          },
+          {
+            "start": 15.53,
+            "end": 15.73,
+            "word": " blue",
+            "probability": 0.98921
+          },
+          {
+            "start": 15.73,
+            "end": 16.09,
+            "word": " sky.",
+            "probability": 0.99842
+          }
+        ]
+      },
+      {
+        "start": 17.03,
+        "end": 20.29,
+        "text": "It's kind of a central point of the school and it feels welcoming.",
+        "words": [
+          {
+            "start": 17.03,
+            "end": 17.45,
+            "word": " It's",
+            "probability": 0.99563
+          },
+          {
+            "start": 17.45,
+            "end": 17.65,
+            "word": " kind",
+            "probability": 0.98362
+          },
+          {
+            "start": 17.65,
+            "end": 17.79,
+            "word": " of",
+            "probability": 0.99654
+          },
+          {
+            "start": 17.79,
+            "end": 17.87,
+            "word": " a",
+            "probability": 0.98201
+          },
+          {
+            "start": 17.87,
+            "end": 18.21,
+            "word": " central",
+            "probability": 0.99585
+          },
+          {
+            "start": 18.21,
+            "end": 18.49,
+            "word": " point",
+            "probability": 0.99907
+          },
+          {
+            "start": 18.49,
+            "end": 18.65,
+            "word": " of",
+            "probability": 0.99006
+          },
+          {
+            "start": 18.65,
+            "end": 18.75,
+            "word": " the",
+            "probability": 0.99641
+          },
+          {
+            "start": 18.75,
+            "end": 19.01,
+            "word": " school",
+            "probability": 0.99778
+          },
+          {
+            "start": 19.01,
+            "end": 19.39,
+            "word": " and",
+            "probability": 0.64475
+          },
+          {
+            "start": 19.39,
+            "end": 19.49,
+            "word": " it",
+            "probability": 0.98038
+          },
+          {
+            "start": 19.49,
+            "end": 19.79,
+            "word": " feels",
+            "probability": 0.99806
+          },
+          {
+            "start": 19.79,
+            "end": 20.29,
+            "word": " welcoming.",
+            "probability": 0.95216
+          }
+        ]
+      },
+      {
+        "start": 21.26,
+        "end": 23.86,
+        "text": "I think it adds a lot to the overall atmosphere here.",
+        "words": [
+          {
+            "start": 21.26,
+            "end": 21.54,
+            "word": " I",
+            "probability": 0.99781
+          },
+          {
+            "start": 21.54,
+            "end": 21.72,
+            "word": " think",
+            "probability": 0.99867
+          },
+          {
+            "start": 21.72,
+            "end": 21.88,
+            "word": " it",
+            "probability": 0.99542
+          },
+          {
+            "start": 21.88,
+            "end": 22.02,
+            "word": " adds",
+            "probability": 0.99913
+          },
+          {
+            "start": 22.02,
+            "end": 22.16,
+            "word": " a",
+            "probability": 0.99836
+          },
+          {
+            "start": 22.16,
+            "end": 22.34,
+            "word": " lot",
+            "probability": 0.9994
+          },
+          {
+            "start": 22.34,
+            "end": 22.5,
+            "word": " to",
+            "probability": 0.9943
+          },
+          {
+            "start": 22.5,
+            "end": 22.6,
+            "word": " the",
+            "probability": 0.99398
+          },
+          {
+            "start": 22.6,
+            "end": 23.02,
+            "word": " overall",
+            "probability": 0.99819
+          },
+          {
+            "start": 23.02,
+            "end": 23.48,
+            "word": " atmosphere",
+            "probability": 0.99936
+          },
+          {
+            "start": 23.48,
+            "end": 23.86,
+            "word": " here.",
+            "probability": 0.99628
+          }
+        ]
+      },
+      {
+        "start": 29.41,
+        "end": 32.25,
+        "text": "You know, I've been spending a lot of time at school lately.",
+        "words": [
+          {
+            "start": 29.41,
+            "end": 29.57,
+            "word": " You",
+            "probability": 0.98629
+          },
+          {
+            "start": 29.57,
+            "end": 29.77,
+            "word": " know,",
+            "probability": 0.99852
+          },
+          {
+            "start": 30.03,
+            "end": 30.21,
+            "word": " I've",
+            "probability": 0.99777
+          },
+          {
+            "start": 30.21,
+            "end": 30.33,
+            "word": " been",
+            "probability": 0.99784
+          },
+          {
+            "start": 30.33,
+            "end": 30.67,
+            "word": " spending",
+            "probability": 0.99855
+          },
+          {
+            "start": 30.67,
+            "end": 30.85,
+            "word": " a",
+            "probability": 0.99743
+          },
+          {
+            "start": 30.85,
+            "end": 31.01,
+            "word": " lot",
+            "probability": 0.99882
+          },
+          {
+            "start": 31.01,
+            "end": 31.17,
+            "word": " of",
+            "probability": 0.99191
+          },
+          {
+            "start": 31.17,
+            "end": 31.43,
+            "word": " time",
+            "probability": 0.99622
+          },
+          {
+            "start": 31.43,
+            "end": 31.57,
+            "word": " at",
+            "probability": 0.99879
+          },
+          {
+            "start": 31.57,
+            "end": 31.85,
+            "word": " school",
+            "probability": 0.98952
+          },
+          {
+            "start": 31.85,
+            "end": 32.25,
+            "word": " lately.",
+            "probability": 0.99937
+          }
+        ]
+      },
+      {
+        "start": 33.21,
+        "end": 34.57,
+        "text": "I really like our campus.",
+        "words": [
+          {
+            "start": 33.21,
+            "end": 33.41,
+            "word": " I",
+            "probability": 0.9974
+          },
+          {
+            "start": 33.41,
+            "end": 33.71,
+            "word": " really",
+            "probability": 0.99637
+          },
+          {
+            "start": 33.71,
+            "end": 33.95,
+            "word": " like",
+            "probability": 0.99489
+          },
+          {
+            "start": 33.95,
+            "end": 34.15,
+            "word": " our",
+            "probability": 0.99555
+          },
+          {
+            "start": 34.15,
+            "end": 34.57,
+            "word": " campus.",
+            "probability": 0.99862
+          }
+        ]
+      },
+      {
+        "start": 34.57,
+        "end": 40.46,
+        "text": "us. One thing that stands out is the teacher's building. It's really nice and has a bright,",
+        "words": [
+          {
+            "start": 34.57,
+            "end": 34.77,
+            "word": " us.",
+            "probability": 0.10287
+          },
+          {
+            "start": 35.73,
+            "end": 36.01,
+            "word": " One",
+            "probability": 0.9871
+          },
+          {
+            "start": 36.01,
+            "end": 36.21,
+            "word": " thing",
+            "probability": 0.99623
+          },
+          {
+            "start": 36.21,
+            "end": 36.41,
+            "word": " that",
+            "probability": 0.99106
+          },
+          {
+            "start": 36.41,
+            "end": 36.69,
+            "word": " stands",
+            "probability": 0.98304
+          },
+          {
+            "start": 36.69,
+            "end": 36.93,
+            "word": " out",
+            "probability": 0.9978
+          },
+          {
+            "start": 36.93,
+            "end": 37.11,
+            "word": " is",
+            "probability": 0.98375
+          },
+          {
+            "start": 37.11,
+            "end": 37.23,
+            "word": " the",
+            "probability": 0.95895
+          },
+          {
+            "start": 37.23,
+            "end": 37.69,
+            "word": " teacher's",
+            "probability": 0.57849
+          },
+          {
+            "start": 37.69,
+            "end": 37.99,
+            "word": " building.",
+            "probability": 0.98857
+          },
+          {
+            "start": 38.92,
+            "end": 39.24,
+            "word": " It's",
+            "probability": 0.96694
+          },
+          {
+            "start": 39.24,
+            "end": 39.44,
+            "word": " really",
+            "probability": 0.99452
+          },
+          {
+            "start": 39.44,
+            "end": 39.76,
+            "word": " nice",
+            "probability": 0.99881
+          },
+          {
+            "start": 39.76,
+            "end": 39.94,
+            "word": " and",
+            "probability": 0.97624
+          },
+          {
+            "start": 39.94,
+            "end": 40.1,
+            "word": " has",
+            "probability": 0.99281
+          },
+          {
+            "start": 40.1,
+            "end": 40.18,
+            "word": " a",
+            "probability": 0.99312
+          },
+          {
+            "start": 40.18,
+            "end": 40.46,
+            "word": " bright,",
+            "probability": 0.99669
+          }
+        ]
+      },
+      {
+        "start": 40.82,
+        "end": 46.56,
+        "text": "white colour. I love how it looks against the blue sky. It's kind of a central point",
+        "words": [
+          {
+            "start": 40.82,
+            "end": 40.96,
+            "word": " white",
+            "probability": 0.99202
+          },
+          {
+            "start": 40.96,
+            "end": 41.34,
+            "word": " colour.",
+            "probability": 0.79645
+          },
+          {
+            "start": 42.28,
+            "end": 42.48,
+            "word": " I",
+            "probability": 0.99568
+          },
+          {
+            "start": 42.48,
+            "end": 42.68,
+            "word": " love",
+            "probability": 0.99395
+          },
+          {
+            "start": 42.68,
+            "end": 42.86,
+            "word": " how",
+            "probability": 0.9966
+          },
+          {
+            "start": 42.86,
+            "end": 42.98,
+            "word": " it",
+            "probability": 0.99413
+          },
+          {
+            "start": 42.98,
+            "end": 43.12,
+            "word": " looks",
+            "probability": 0.99625
+          },
+          {
+            "start": 43.12,
+            "end": 43.48,
+            "word": " against",
+            "probability": 0.99524
+          },
+          {
+            "start": 43.48,
+            "end": 43.66,
+            "word": " the",
+            "probability": 0.99445
+          },
+          {
+            "start": 43.66,
+            "end": 43.84,
+            "word": " blue",
+            "probability": 0.98624
+          },
+          {
+            "start": 43.84,
+            "end": 44.2,
+            "word": " sky.",
+            "probability": 0.99734
+          },
+          {
+            "start": 45.26,
+            "end": 45.54,
+            "word": " It's",
+            "probability": 0.98573
+          },
+          {
+            "start": 45.54,
+            "end": 45.72,
+            "word": " kind",
+            "probability": 0.98163
+          },
+          {
+            "start": 45.72,
+            "end": 45.86,
+            "word": " of",
+            "probability": 0.99832
+          },
+          {
+            "start": 45.86,
+            "end": 45.96,
+            "word": " a",
+            "probability": 0.96499
+          },
+          {
+            "start": 45.96,
+            "end": 46.28,
+            "word": " central",
+            "probability": 0.99587
+          },
+          {
+            "start": 46.28,
+            "end": 46.56,
+            "word": " point",
+            "probability": 0.99872
+          }
+        ]
+      },
+      {
+        "start": 46.56,
+        "end": 51.87,
+        "text": "of the school and it feels welcoming. I think it adds a lot to the overall atmosphere here.",
+        "words": [
+          {
+            "start": 46.56,
+            "end": 46.72,
+            "word": " of",
+            "probability": 0.98976
+          },
+          {
+            "start": 46.72,
+            "end": 46.82,
+            "word": " the",
+            "probability": 0.9922
+          },
+          {
+            "start": 46.82,
+            "end": 47.06,
+            "word": " school",
+            "probability": 0.99602
+          },
+          {
+            "start": 47.06,
+            "end": 47.44,
+            "word": " and",
+            "probability": 0.66727
+          },
+          {
+            "start": 47.44,
+            "end": 47.54,
+            "word": " it",
+            "probability": 0.98133
+          },
+          {
+            "start": 47.54,
+            "end": 47.84,
+            "word": " feels",
+            "probability": 0.99662
+          },
+          {
+            "start": 47.84,
+            "end": 48.32,
+            "word": " welcoming.",
+            "probability": 0.95729
+          },
+          {
+            "start": 49.15,
+            "end": 49.55,
+            "word": " I",
+            "probability": 0.99466
+          },
+          {
+            "start": 49.55,
+            "end": 49.73,
+            "word": " think",
+            "probability": 0.99905
+          },
+          {
+            "start": 49.73,
+            "end": 49.89,
+            "word": " it",
+            "probability": 0.9901
+          },
+          {
+            "start": 49.89,
+            "end": 50.05,
+            "word": " adds",
+            "probability": 0.9986
+          },
+          {
+            "start": 50.05,
+            "end": 50.17,
+            "word": " a",
+            "probability": 0.99722
+          },
+          {
+            "start": 50.17,
+            "end": 50.35,
+            "word": " lot",
+            "probability": 0.99928
+          },
+          {
+            "start": 50.35,
+            "end": 50.51,
+            "word": " to",
+            "probability": 0.99651
+          },
+          {
+            "start": 50.51,
+            "end": 50.61,
+            "word": " the",
+            "probability": 0.99368
+          },
+          {
+            "start": 50.61,
+            "end": 51.01,
+            "word": " overall",
+            "probability": 0.99768
+          },
+          {
+            "start": 51.01,
+            "end": 51.43,
+            "word": " atmosphere",
+            "probability": 0.9982
+          },
+          {
+            "start": 51.43,
+            "end": 51.87,
+            "word": " here.",
+            "probability": 0.9947
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q03",
+        "expectedCompleteRenditions": 2,
+        "detectedCompleteRenditions": 2,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 68,
+            "speechStart": 0.88,
+            "speechEnd": 23.86,
+            "sourceTokenCoverage": 0.9429,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9565,
+            "transcript": "you know i've been spending a lot of time at school lately i really like our campus 1 thing that stands out is the teachers building it's really nice and has a bright white colour i love how it looks against the blue sky it's kind of a central point of the school and it feels welcoming i think it adds a lot to the overall atmosphere here",
+            "openingMatch": 0.9111,
+            "complete": true
+          },
+          {
+            "wordStartIndex": 68,
+            "wordEndIndexExclusive": 137,
+            "speechStart": 29.41,
+            "speechEnd": 51.87,
+            "sourceTokenCoverage": 0.9714,
+            "openingCoverage": 1.0,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9784,
+            "transcript": "you know i've been spending a lot of time at school lately i really like our campus us 1 thing that stands out is the teacher's building it's really nice and has a bright white colour i love how it looks against the blue sky it's kind of a central point of the school and it feels welcoming i think it adds a lot to the overall atmosphere here",
+            "openingMatch": 0.9111,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

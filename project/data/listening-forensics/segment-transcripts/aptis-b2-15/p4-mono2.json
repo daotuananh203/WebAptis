@@ -1,0 +1,1071 @@
+{
+  "testId": "aptis-b2-15",
+  "blockId": "p4-mono2",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-15/part-4/mono2.mp3",
+  "audioSha256": "5169cb1a3abb1b22a2660d23d8e88e95e532819085b79af9cf040ff7764990f7",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 1.04,
+        "end": 7.3,
+        "text": "Today, I want to share my thoughts on a fascinating book about the life of renowned scientist Dr. Emily Carter.",
+        "words": [
+          {
+            "start": 1.04,
+            "end": 1.64,
+            "word": " Today,",
+            "probability": 0.86795
+          },
+          {
+            "start": 2.06,
+            "end": 2.22,
+            "word": " I",
+            "probability": 0.99476
+          },
+          {
+            "start": 2.22,
+            "end": 2.36,
+            "word": " want",
+            "probability": 0.99715
+          },
+          {
+            "start": 2.36,
+            "end": 2.52,
+            "word": " to",
+            "probability": 0.99907
+          },
+          {
+            "start": 2.52,
+            "end": 2.68,
+            "word": " share",
+            "probability": 0.99765
+          },
+          {
+            "start": 2.68,
+            "end": 2.86,
+            "word": " my",
+            "probability": 0.99937
+          },
+          {
+            "start": 2.86,
+            "end": 3.12,
+            "word": " thoughts",
+            "probability": 0.99974
+          },
+          {
+            "start": 3.12,
+            "end": 3.36,
+            "word": " on",
+            "probability": 0.99926
+          },
+          {
+            "start": 3.36,
+            "end": 3.46,
+            "word": " a",
+            "probability": 0.99843
+          },
+          {
+            "start": 3.46,
+            "end": 3.98,
+            "word": " fascinating",
+            "probability": 0.99336
+          },
+          {
+            "start": 3.98,
+            "end": 4.26,
+            "word": " book",
+            "probability": 0.99735
+          },
+          {
+            "start": 4.26,
+            "end": 4.6,
+            "word": " about",
+            "probability": 0.999
+          },
+          {
+            "start": 4.6,
+            "end": 4.76,
+            "word": " the",
+            "probability": 0.9789
+          },
+          {
+            "start": 4.76,
+            "end": 4.98,
+            "word": " life",
+            "probability": 0.94514
+          },
+          {
+            "start": 4.98,
+            "end": 5.18,
+            "word": " of",
+            "probability": 0.99829
+          },
+          {
+            "start": 5.18,
+            "end": 5.48,
+            "word": " renowned",
+            "probability": 0.99721
+          },
+          {
+            "start": 5.48,
+            "end": 6.08,
+            "word": " scientist",
+            "probability": 0.97673
+          },
+          {
+            "start": 6.08,
+            "end": 6.58,
+            "word": " Dr.",
+            "probability": 0.75818
+          },
+          {
+            "start": 6.74,
+            "end": 6.9,
+            "word": " Emily",
+            "probability": 0.86573
+          },
+          {
+            "start": 6.9,
+            "end": 7.3,
+            "word": " Carter.",
+            "probability": 0.91181
+          }
+        ]
+      },
+      {
+        "start": 7.84,
+        "end": 12.22,
+        "text": "One of the standout features of this book is that the way of writing is exciting for readers.",
+        "words": [
+          {
+            "start": 7.84,
+            "end": 7.98,
+            "word": " One",
+            "probability": 0.97039
+          },
+          {
+            "start": 7.98,
+            "end": 8.1,
+            "word": " of",
+            "probability": 0.9991
+          },
+          {
+            "start": 8.1,
+            "end": 8.22,
+            "word": " the",
+            "probability": 0.99927
+          },
+          {
+            "start": 8.22,
+            "end": 8.7,
+            "word": " standout",
+            "probability": 0.91383
+          },
+          {
+            "start": 8.7,
+            "end": 9.08,
+            "word": " features",
+            "probability": 0.99606
+          },
+          {
+            "start": 9.08,
+            "end": 9.28,
+            "word": " of",
+            "probability": 0.99937
+          },
+          {
+            "start": 9.28,
+            "end": 9.44,
+            "word": " this",
+            "probability": 0.99848
+          },
+          {
+            "start": 9.44,
+            "end": 9.7,
+            "word": " book",
+            "probability": 0.99862
+          },
+          {
+            "start": 9.7,
+            "end": 9.96,
+            "word": " is",
+            "probability": 0.99202
+          },
+          {
+            "start": 9.96,
+            "end": 10.1,
+            "word": " that",
+            "probability": 0.99659
+          },
+          {
+            "start": 10.1,
+            "end": 10.24,
+            "word": " the",
+            "probability": 0.96634
+          },
+          {
+            "start": 10.24,
+            "end": 10.4,
+            "word": " way",
+            "probability": 0.98746
+          },
+          {
+            "start": 10.4,
+            "end": 10.6,
+            "word": " of",
+            "probability": 0.9973
+          },
+          {
+            "start": 10.6,
+            "end": 10.84,
+            "word": " writing",
+            "probability": 0.99924
+          },
+          {
+            "start": 10.84,
+            "end": 11.24,
+            "word": " is",
+            "probability": 0.99843
+          },
+          {
+            "start": 11.24,
+            "end": 11.66,
+            "word": " exciting",
+            "probability": 0.99802
+          },
+          {
+            "start": 11.66,
+            "end": 11.94,
+            "word": " for",
+            "probability": 0.99936
+          },
+          {
+            "start": 11.94,
+            "end": 12.22,
+            "word": " readers.",
+            "probability": 0.9988
+          }
+        ]
+      },
+      {
+        "start": 12.86,
+        "end": 18.32,
+        "text": "The author has a talent for bringing complex scientific concepts to life, making it an engaging experience.",
+        "words": [
+          {
+            "start": 12.86,
+            "end": 12.98,
+            "word": " The",
+            "probability": 0.9944
+          },
+          {
+            "start": 12.98,
+            "end": 13.26,
+            "word": " author",
+            "probability": 0.99977
+          },
+          {
+            "start": 13.26,
+            "end": 13.5,
+            "word": " has",
+            "probability": 0.99881
+          },
+          {
+            "start": 13.5,
+            "end": 13.6,
+            "word": " a",
+            "probability": 0.9992
+          },
+          {
+            "start": 13.6,
+            "end": 13.88,
+            "word": " talent",
+            "probability": 0.99825
+          },
+          {
+            "start": 13.88,
+            "end": 14.12,
+            "word": " for",
+            "probability": 0.99861
+          },
+          {
+            "start": 14.12,
+            "end": 14.36,
+            "word": " bringing",
+            "probability": 0.99796
+          },
+          {
+            "start": 14.36,
+            "end": 14.82,
+            "word": " complex",
+            "probability": 0.99654
+          },
+          {
+            "start": 14.82,
+            "end": 15.28,
+            "word": " scientific",
+            "probability": 0.99487
+          },
+          {
+            "start": 15.28,
+            "end": 15.78,
+            "word": " concepts",
+            "probability": 0.99849
+          },
+          {
+            "start": 15.78,
+            "end": 16.04,
+            "word": " to",
+            "probability": 0.99962
+          },
+          {
+            "start": 16.04,
+            "end": 16.32,
+            "word": " life,",
+            "probability": 0.99923
+          },
+          {
+            "start": 16.66,
+            "end": 16.9,
+            "word": " making",
+            "probability": 0.99811
+          },
+          {
+            "start": 16.9,
+            "end": 17.08,
+            "word": " it",
+            "probability": 0.99977
+          },
+          {
+            "start": 17.08,
+            "end": 17.2,
+            "word": " an",
+            "probability": 0.99923
+          },
+          {
+            "start": 17.2,
+            "end": 17.58,
+            "word": " engaging",
+            "probability": 0.9986
+          },
+          {
+            "start": 17.58,
+            "end": 18.32,
+            "word": " experience.",
+            "probability": 0.99971
+          }
+        ]
+      },
+      {
+        "start": 18.62,
+        "end": 26.34,
+        "text": "While some may expect a heavy focus on technical details, this book skillfully balances science with storytelling, ensuring that it remains accessible.",
+        "words": [
+          {
+            "start": 18.62,
+            "end": 18.84,
+            "word": " While",
+            "probability": 0.98133
+          },
+          {
+            "start": 18.84,
+            "end": 19.06,
+            "word": " some",
+            "probability": 0.99641
+          },
+          {
+            "start": 19.06,
+            "end": 19.26,
+            "word": " may",
+            "probability": 0.99925
+          },
+          {
+            "start": 19.26,
+            "end": 19.56,
+            "word": " expect",
+            "probability": 0.99912
+          },
+          {
+            "start": 19.56,
+            "end": 19.74,
+            "word": " a",
+            "probability": 0.9977
+          },
+          {
+            "start": 19.74,
+            "end": 19.96,
+            "word": " heavy",
+            "probability": 0.99442
+          },
+          {
+            "start": 19.96,
+            "end": 20.3,
+            "word": " focus",
+            "probability": 0.99791
+          },
+          {
+            "start": 20.3,
+            "end": 20.52,
+            "word": " on",
+            "probability": 0.99776
+          },
+          {
+            "start": 20.52,
+            "end": 20.86,
+            "word": " technical",
+            "probability": 0.99706
+          },
+          {
+            "start": 20.86,
+            "end": 21.36,
+            "word": " details,",
+            "probability": 0.99763
+          },
+          {
+            "start": 21.68,
+            "end": 21.96,
+            "word": " this",
+            "probability": 0.99034
+          },
+          {
+            "start": 21.96,
+            "end": 22.16,
+            "word": " book",
+            "probability": 0.99815
+          },
+          {
+            "start": 22.16,
+            "end": 22.72,
+            "word": " skillfully",
+            "probability": 0.89398
+          },
+          {
+            "start": 22.72,
+            "end": 23.08,
+            "word": " balances",
+            "probability": 0.98772
+          },
+          {
+            "start": 23.08,
+            "end": 23.52,
+            "word": " science",
+            "probability": 0.9971
+          },
+          {
+            "start": 23.52,
+            "end": 23.8,
+            "word": " with",
+            "probability": 0.99754
+          },
+          {
+            "start": 23.8,
+            "end": 24.26,
+            "word": " storytelling,",
+            "probability": 0.97686
+          },
+          {
+            "start": 24.74,
+            "end": 25.04,
+            "word": " ensuring",
+            "probability": 0.99239
+          },
+          {
+            "start": 25.04,
+            "end": 25.38,
+            "word": " that",
+            "probability": 0.99679
+          },
+          {
+            "start": 25.38,
+            "end": 25.5,
+            "word": " it",
+            "probability": 0.99842
+          },
+          {
+            "start": 25.5,
+            "end": 25.76,
+            "word": " remains",
+            "probability": 0.99601
+          },
+          {
+            "start": 25.76,
+            "end": 26.34,
+            "word": " accessible.",
+            "probability": 0.99602
+          }
+        ]
+      },
+      {
+        "start": 26.34,
+        "end": 31.3,
+        "text": "It's definitely not more of a textbook than a biography, instead, it invites readers",
+        "words": [
+          {
+            "start": 26.34,
+            "end": 27.08,
+            "word": " It's",
+            "probability": 0.82656
+          },
+          {
+            "start": 27.08,
+            "end": 27.38,
+            "word": " definitely",
+            "probability": 0.99225
+          },
+          {
+            "start": 27.38,
+            "end": 27.72,
+            "word": " not",
+            "probability": 0.99745
+          },
+          {
+            "start": 27.72,
+            "end": 27.96,
+            "word": " more",
+            "probability": 0.9951
+          },
+          {
+            "start": 27.96,
+            "end": 28.1,
+            "word": " of",
+            "probability": 0.99777
+          },
+          {
+            "start": 28.1,
+            "end": 28.22,
+            "word": " a",
+            "probability": 0.9987
+          },
+          {
+            "start": 28.22,
+            "end": 28.48,
+            "word": " textbook",
+            "probability": 0.97961
+          },
+          {
+            "start": 28.48,
+            "end": 28.8,
+            "word": " than",
+            "probability": 0.99688
+          },
+          {
+            "start": 28.8,
+            "end": 28.86,
+            "word": " a",
+            "probability": 0.99425
+          },
+          {
+            "start": 28.86,
+            "end": 29.28,
+            "word": " biography,",
+            "probability": 0.98672
+          },
+          {
+            "start": 29.72,
+            "end": 30.22,
+            "word": " instead,",
+            "probability": 0.95629
+          },
+          {
+            "start": 30.46,
+            "end": 30.58,
+            "word": " it",
+            "probability": 0.99328
+          },
+          {
+            "start": 30.58,
+            "end": 30.98,
+            "word": " invites",
+            "probability": 0.99529
+          },
+          {
+            "start": 30.98,
+            "end": 31.3,
+            "word": " readers",
+            "probability": 0.99752
+          }
+        ]
+      },
+      {
+        "start": 31.3,
+        "end": 33.62,
+        "text": "into the scientist's world in a relatable way.",
+        "words": [
+          {
+            "start": 31.3,
+            "end": 31.52,
+            "word": " into",
+            "probability": 0.9965
+          },
+          {
+            "start": 31.52,
+            "end": 31.7,
+            "word": " the",
+            "probability": 0.99593
+          },
+          {
+            "start": 31.7,
+            "end": 32.38,
+            "word": " scientist's",
+            "probability": 0.86586
+          },
+          {
+            "start": 32.38,
+            "end": 32.58,
+            "word": " world",
+            "probability": 0.99739
+          },
+          {
+            "start": 32.58,
+            "end": 32.76,
+            "word": " in",
+            "probability": 0.99809
+          },
+          {
+            "start": 32.76,
+            "end": 32.86,
+            "word": " a",
+            "probability": 0.99977
+          },
+          {
+            "start": 32.86,
+            "end": 33.26,
+            "word": " relatable",
+            "probability": 0.97967
+          },
+          {
+            "start": 33.26,
+            "end": 33.62,
+            "word": " way.",
+            "probability": 0.99981
+          }
+        ]
+      },
+      {
+        "start": 34.02,
+        "end": 36.84,
+        "text": "Overall, I'd say it has been written for a general audience.",
+        "words": [
+          {
+            "start": 34.02,
+            "end": 34.42,
+            "word": " Overall,",
+            "probability": 0.93039
+          },
+          {
+            "start": 34.8,
+            "end": 35.0,
+            "word": " I'd",
+            "probability": 0.99723
+          },
+          {
+            "start": 35.0,
+            "end": 35.14,
+            "word": " say",
+            "probability": 0.99922
+          },
+          {
+            "start": 35.14,
+            "end": 35.3,
+            "word": " it",
+            "probability": 0.99756
+          },
+          {
+            "start": 35.3,
+            "end": 35.38,
+            "word": " has",
+            "probability": 0.99908
+          },
+          {
+            "start": 35.38,
+            "end": 35.52,
+            "word": " been",
+            "probability": 0.99909
+          },
+          {
+            "start": 35.52,
+            "end": 35.8,
+            "word": " written",
+            "probability": 0.99941
+          },
+          {
+            "start": 35.8,
+            "end": 36.06,
+            "word": " for",
+            "probability": 0.99808
+          },
+          {
+            "start": 36.06,
+            "end": 36.14,
+            "word": " a",
+            "probability": 0.9995
+          },
+          {
+            "start": 36.14,
+            "end": 36.38,
+            "word": " general",
+            "probability": 0.99412
+          },
+          {
+            "start": 36.38,
+            "end": 36.84,
+            "word": " audience.",
+            "probability": 0.99942
+          }
+        ]
+      },
+      {
+        "start": 37.48,
+        "end": 41.98,
+        "text": "The author's aim seems to be to inspire curiosity about science and encourage readers",
+        "words": [
+          {
+            "start": 37.48,
+            "end": 37.62,
+            "word": " The",
+            "probability": 0.97358
+          },
+          {
+            "start": 37.62,
+            "end": 38.04,
+            "word": " author's",
+            "probability": 0.99668
+          },
+          {
+            "start": 38.04,
+            "end": 38.2,
+            "word": " aim",
+            "probability": 0.98478
+          },
+          {
+            "start": 38.2,
+            "end": 38.54,
+            "word": " seems",
+            "probability": 0.99825
+          },
+          {
+            "start": 38.54,
+            "end": 38.78,
+            "word": " to",
+            "probability": 0.99943
+          },
+          {
+            "start": 38.78,
+            "end": 38.9,
+            "word": " be",
+            "probability": 0.99697
+          },
+          {
+            "start": 38.9,
+            "end": 39.06,
+            "word": " to",
+            "probability": 0.99753
+          },
+          {
+            "start": 39.06,
+            "end": 39.44,
+            "word": " inspire",
+            "probability": 0.99604
+          },
+          {
+            "start": 39.44,
+            "end": 40.04,
+            "word": " curiosity",
+            "probability": 0.99604
+          },
+          {
+            "start": 40.04,
+            "end": 40.4,
+            "word": " about",
+            "probability": 0.99974
+          },
+          {
+            "start": 40.4,
+            "end": 40.84,
+            "word": " science",
+            "probability": 0.99719
+          },
+          {
+            "start": 40.84,
+            "end": 41.18,
+            "word": " and",
+            "probability": 0.98635
+          },
+          {
+            "start": 41.18,
+            "end": 41.6,
+            "word": " encourage",
+            "probability": 0.99808
+          },
+          {
+            "start": 41.6,
+            "end": 41.98,
+            "word": " readers",
+            "probability": 0.99924
+          }
+        ]
+      },
+      {
+        "start": 41.98,
+        "end": 45.4,
+        "text": "from all backgrounds to appreciate the contributions of Dr. Carter.",
+        "words": [
+          {
+            "start": 41.98,
+            "end": 42.2,
+            "word": " from",
+            "probability": 0.99844
+          },
+          {
+            "start": 42.2,
+            "end": 42.4,
+            "word": " all",
+            "probability": 0.99857
+          },
+          {
+            "start": 42.4,
+            "end": 42.82,
+            "word": " backgrounds",
+            "probability": 0.9909
+          },
+          {
+            "start": 42.82,
+            "end": 43.18,
+            "word": " to",
+            "probability": 0.99954
+          },
+          {
+            "start": 43.18,
+            "end": 43.68,
+            "word": " appreciate",
+            "probability": 0.99523
+          },
+          {
+            "start": 43.68,
+            "end": 43.88,
+            "word": " the",
+            "probability": 0.99872
+          },
+          {
+            "start": 43.88,
+            "end": 44.34,
+            "word": " contributions",
+            "probability": 0.99783
+          },
+          {
+            "start": 44.34,
+            "end": 44.72,
+            "word": " of",
+            "probability": 0.99972
+          },
+          {
+            "start": 44.72,
+            "end": 45.02,
+            "word": " Dr.",
+            "probability": 0.87256
+          },
+          {
+            "start": 45.12,
+            "end": 45.4,
+            "word": " Carter.",
+            "probability": 0.97598
+          }
+        ]
+      },
+      {
+        "start": 45.92,
+        "end": 49.14,
+        "text": "Unlike other works that are only suitable for experts in the field,",
+        "words": [
+          {
+            "start": 45.92,
+            "end": 46.18,
+            "word": " Unlike",
+            "probability": 0.99469
+          },
+          {
+            "start": 46.18,
+            "end": 46.5,
+            "word": " other",
+            "probability": 0.99817
+          },
+          {
+            "start": 46.5,
+            "end": 46.9,
+            "word": " works",
+            "probability": 0.99694
+          },
+          {
+            "start": 46.9,
+            "end": 47.04,
+            "word": " that",
+            "probability": 0.99956
+          },
+          {
+            "start": 47.04,
+            "end": 47.16,
+            "word": " are",
+            "probability": 0.9992
+          },
+          {
+            "start": 47.16,
+            "end": 47.44,
+            "word": " only",
+            "probability": 0.99874
+          },
+          {
+            "start": 47.44,
+            "end": 47.8,
+            "word": " suitable",
+            "probability": 0.99487
+          },
+          {
+            "start": 47.8,
+            "end": 48.1,
+            "word": " for",
+            "probability": 0.99967
+          },
+          {
+            "start": 48.1,
+            "end": 48.46,
+            "word": " experts",
+            "probability": 0.99319
+          },
+          {
+            "start": 48.46,
+            "end": 48.68,
+            "word": " in",
+            "probability": 0.99944
+          },
+          {
+            "start": 48.68,
+            "end": 48.8,
+            "word": " the",
+            "probability": 0.9976
+          },
+          {
+            "start": 48.8,
+            "end": 49.14,
+            "word": " field,",
+            "probability": 0.99848
+          }
+        ]
+      },
+      {
+        "start": 49.52,
+        "end": 53.62,
+        "text": "this book truly welcomes everyone to explore the life of an extraordinary scientist.",
+        "words": [
+          {
+            "start": 49.52,
+            "end": 49.66,
+            "word": " this",
+            "probability": 0.99607
+          },
+          {
+            "start": 49.66,
+            "end": 49.88,
+            "word": " book",
+            "probability": 0.99735
+          },
+          {
+            "start": 49.88,
+            "end": 50.22,
+            "word": " truly",
+            "probability": 0.99717
+          },
+          {
+            "start": 50.22,
+            "end": 50.64,
+            "word": " welcomes",
+            "probability": 0.99595
+          },
+          {
+            "start": 50.64,
+            "end": 51.16,
+            "word": " everyone",
+            "probability": 0.99447
+          },
+          {
+            "start": 51.16,
+            "end": 51.36,
+            "word": " to",
+            "probability": 0.9996
+          },
+          {
+            "start": 51.36,
+            "end": 51.76,
+            "word": " explore",
+            "probability": 0.99888
+          },
+          {
+            "start": 51.76,
+            "end": 51.94,
+            "word": " the",
+            "probability": 0.99856
+          },
+          {
+            "start": 51.94,
+            "end": 52.18,
+            "word": " life",
+            "probability": 0.99791
+          },
+          {
+            "start": 52.18,
+            "end": 52.34,
+            "word": " of",
+            "probability": 0.99937
+          },
+          {
+            "start": 52.34,
+            "end": 52.44,
+            "word": " an",
+            "probability": 0.99941
+          },
+          {
+            "start": 52.44,
+            "end": 53.02,
+            "word": " extraordinary",
+            "probability": 0.99406
+          },
+          {
+            "start": 53.02,
+            "end": 53.62,
+            "word": " scientist.",
+            "probability": 0.99608
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p4-mono2",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 159,
+            "speechStart": 1.04,
+            "speechEnd": 53.62,
+            "sourceTokenCoverage": 0.9938,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9969,
+            "transcript": "today i want to share my thoughts on a fascinating book about the life of renowned scientist dr emily carter 1 of the standout features of this book is that the way of writing is exciting for readers the author has a talent for bringing complex scientific concepts to life making it an engaging experience while some may expect a heavy focus on technical details this book skillfully balances science with storytelling ensuring that it remains accessible it's definitely not more of a textbook than a biography instead it invites readers into the scientist's world in a relatable way overall i'd say it has been written for a general audience the author's aim seems to be to inspire curiosity about science and encourage readers from all backgrounds to appreciate the contributions of dr carter unlike other works that are only suitable for experts in the field this book truly welcomes everyone to explore the life of an extraordinary scientist",
+            "openingMatch": 0.7556,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "testId": "aptis-b2-15",
+  "blockId": "p1-q02",
+  "audioPath": "project/public/audio/listening/segments/aptis-b2-15/part-1/q02.mp3",
+  "audioSha256": "fcef7aea8cf29d6828f023c484bb11221df1156543c30ef220dc9680097f8c67",
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "segments": [
+      {
+        "start": 0.94,
+        "end": 6.22,
+        "text": "I just checked the movie schedule, and the film actually begins at 6.40, not at 7 o'clock",
+        "words": [
+          {
+            "start": 0.94,
+            "end": 1.36,
+            "word": " I",
+            "probability": 0.90681
+          },
+          {
+            "start": 1.36,
+            "end": 1.5,
+            "word": " just",
+            "probability": 0.98816
+          },
+          {
+            "start": 1.5,
+            "end": 1.78,
+            "word": " checked",
+            "probability": 0.8186
+          },
+          {
+            "start": 1.78,
+            "end": 1.98,
+            "word": " the",
+            "probability": 0.99425
+          },
+          {
+            "start": 1.98,
+            "end": 2.18,
+            "word": " movie",
+            "probability": 0.98605
+          },
+          {
+            "start": 2.18,
+            "end": 2.58,
+            "word": " schedule,",
+            "probability": 0.92199
+          },
+          {
+            "start": 2.9,
+            "end": 3.08,
+            "word": " and",
+            "probability": 0.99462
+          },
+          {
+            "start": 3.08,
+            "end": 3.2,
+            "word": " the",
+            "probability": 0.99586
+          },
+          {
+            "start": 3.2,
+            "end": 3.42,
+            "word": " film",
+            "probability": 0.99166
+          },
+          {
+            "start": 3.42,
+            "end": 3.8,
+            "word": " actually",
+            "probability": 0.99601
+          },
+          {
+            "start": 3.8,
+            "end": 4.18,
+            "word": " begins",
+            "probability": 0.99546
+          },
+          {
+            "start": 4.18,
+            "end": 4.42,
+            "word": " at",
+            "probability": 0.99801
+          },
+          {
+            "start": 4.42,
+            "end": 4.6,
+            "word": " 6",
+            "probability": 0.98103
+          },
+          {
+            "start": 4.6,
+            "end": 5.02,
+            "word": ".40,",
+            "probability": 0.80939
+          },
+          {
+            "start": 5.34,
+            "end": 5.5,
+            "word": " not",
+            "probability": 0.99184
+          },
+          {
+            "start": 5.5,
+            "end": 5.64,
+            "word": " at",
+            "probability": 0.99645
+          },
+          {
+            "start": 5.64,
+            "end": 5.9,
+            "word": " 7",
+            "probability": 0.96269
+          },
+          {
+            "start": 5.9,
+            "end": 6.02,
+            "word": " o",
+            "probability": 0.86971
+          },
+          {
+            "start": 6.02,
+            "end": 6.22,
+            "word": "'clock",
+            "probability": 0.97474
+          }
+        ]
+      },
+      {
+        "start": 6.22,
+        "end": 6.86,
+        "text": "like I thought.",
+        "words": [
+          {
+            "start": 6.22,
+            "end": 6.46,
+            "word": " like",
+            "probability": 0.96066
+          },
+          {
+            "start": 6.46,
+            "end": 6.62,
+            "word": " I",
+            "probability": 0.98581
+          },
+          {
+            "start": 6.62,
+            "end": 6.86,
+            "word": " thought.",
+            "probability": 0.99032
+          }
+        ]
+      },
+      {
+        "start": 7.86,
+        "end": 10.18,
+        "text": "After the movie, we'll finish around 9.20.",
+        "words": [
+          {
+            "start": 7.86,
+            "end": 8.14,
+            "word": " After",
+            "probability": 0.97865
+          },
+          {
+            "start": 8.14,
+            "end": 8.28,
+            "word": " the",
+            "probability": 0.99393
+          },
+          {
+            "start": 8.28,
+            "end": 8.56,
+            "word": " movie,",
+            "probability": 0.99775
+          },
+          {
+            "start": 8.86,
+            "end": 8.96,
+            "word": " we'll",
+            "probability": 0.94643
+          },
+          {
+            "start": 8.96,
+            "end": 9.2,
+            "word": " finish",
+            "probability": 0.99573
+          },
+          {
+            "start": 9.2,
+            "end": 9.52,
+            "word": " around",
+            "probability": 0.99006
+          },
+          {
+            "start": 9.52,
+            "end": 9.8,
+            "word": " 9",
+            "probability": 0.98552
+          },
+          {
+            "start": 9.8,
+            "end": 10.18,
+            "word": ".20.",
+            "probability": 0.99055
+          }
+        ]
+      },
+      {
+        "start": 11.13,
+        "end": 12.83,
+        "text": "Do you want to grab something to eat afterward?",
+        "words": [
+          {
+            "start": 11.13,
+            "end": 11.33,
+            "word": " Do",
+            "probability": 0.97938
+          },
+          {
+            "start": 11.33,
+            "end": 11.41,
+            "word": " you",
+            "probability": 0.99828
+          },
+          {
+            "start": 11.41,
+            "end": 11.55,
+            "word": " want",
+            "probability": 0.99692
+          },
+          {
+            "start": 11.55,
+            "end": 11.69,
+            "word": " to",
+            "probability": 0.99805
+          },
+          {
+            "start": 11.69,
+            "end": 11.87,
+            "word": " grab",
+            "probability": 0.99901
+          },
+          {
+            "start": 11.87,
+            "end": 12.19,
+            "word": " something",
+            "probability": 0.999
+          },
+          {
+            "start": 12.19,
+            "end": 12.37,
+            "word": " to",
+            "probability": 0.99912
+          },
+          {
+            "start": 12.37,
+            "end": 12.51,
+            "word": " eat",
+            "probability": 0.99899
+          },
+          {
+            "start": 12.51,
+            "end": 12.83,
+            "word": " afterward?",
+            "probability": 0.95508
+          }
+        ]
+      },
+      {
+        "start": 13.73,
+        "end": 17.07,
+        "text": "We can go to that new restaurant nearby and relax after the movie.",
+        "words": [
+          {
+            "start": 13.73,
+            "end": 14.03,
+            "word": " We",
+            "probability": 0.9846
+          },
+          {
+            "start": 14.03,
+            "end": 14.17,
+            "word": " can",
+            "probability": 0.99893
+          },
+          {
+            "start": 14.17,
+            "end": 14.33,
+            "word": " go",
+            "probability": 0.99571
+          },
+          {
+            "start": 14.33,
+            "end": 14.45,
+            "word": " to",
+            "probability": 0.99619
+          },
+          {
+            "start": 14.45,
+            "end": 14.59,
+            "word": " that",
+            "probability": 0.99415
+          },
+          {
+            "start": 14.59,
+            "end": 14.79,
+            "word": " new",
+            "probability": 0.9927
+          },
+          {
+            "start": 14.79,
+            "end": 15.13,
+            "word": " restaurant",
+            "probability": 0.99823
+          },
+          {
+            "start": 15.13,
+            "end": 15.59,
+            "word": " nearby",
+            "probability": 0.98517
+          },
+          {
+            "start": 15.59,
+            "end": 15.89,
+            "word": " and",
+            "probability": 0.98246
+          },
+          {
+            "start": 15.89,
+            "end": 16.17,
+            "word": " relax",
+            "probability": 0.99737
+          },
+          {
+            "start": 16.17,
+            "end": 16.67,
+            "word": " after",
+            "probability": 0.98926
+          },
+          {
+            "start": 16.67,
+            "end": 16.83,
+            "word": " the",
+            "probability": 0.99583
+          },
+          {
+            "start": 16.83,
+            "end": 17.07,
+            "word": " movie.",
+            "probability": 0.99773
+          }
+        ]
+      },
+      {
+        "start": 17.81,
+        "end": 21.17,
+        "text": "It'll be nice to talk about the film while enjoying a meal together.",
+        "words": [
+          {
+            "start": 17.81,
+            "end": 18.29,
+            "word": " It'll",
+            "probability": 0.97914
+          },
+          {
+            "start": 18.29,
+            "end": 18.41,
+            "word": " be",
+            "probability": 0.99827
+          },
+          {
+            "start": 18.41,
+            "end": 18.61,
+            "word": " nice",
+            "probability": 0.99933
+          },
+          {
+            "start": 18.61,
+            "end": 18.83,
+            "word": " to",
+            "probability": 0.99894
+          },
+          {
+            "start": 18.83,
+            "end": 19.01,
+            "word": " talk",
+            "probability": 0.99861
+          },
+          {
+            "start": 19.01,
+            "end": 19.27,
+            "word": " about",
+            "probability": 0.99957
+          },
+          {
+            "start": 19.27,
+            "end": 19.43,
+            "word": " the",
+            "probability": 0.99849
+          },
+          {
+            "start": 19.43,
+            "end": 19.77,
+            "word": " film",
+            "probability": 0.99645
+          },
+          {
+            "start": 19.77,
+            "end": 20.03,
+            "word": " while",
+            "probability": 0.77928
+          },
+          {
+            "start": 20.03,
+            "end": 20.39,
+            "word": " enjoying",
+            "probability": 0.99624
+          },
+          {
+            "start": 20.39,
+            "end": 20.55,
+            "word": " a",
+            "probability": 0.99591
+          },
+          {
+            "start": 20.55,
+            "end": 20.71,
+            "word": " meal",
+            "probability": 0.99922
+          },
+          {
+            "start": 20.71,
+            "end": 21.17,
+            "word": " together.",
+            "probability": 0.99733
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "status": "VERIFIED",
+    "checks": [
+      {
+        "blockId": "p1-q02",
+        "expectedCompleteRenditions": 1,
+        "detectedCompleteRenditions": 1,
+        "pass": true,
+        "occurrences": [
+          {
+            "wordStartIndex": 0,
+            "wordEndIndexExclusive": 65,
+            "speechStart": 0.94,
+            "speechEnd": 21.17,
+            "sourceTokenCoverage": 0.9692,
+            "openingCoverage": 0.9286,
+            "endingCoverage": 1.0,
+            "sequenceMatch": 0.9692,
+            "transcript": "i just checked the movie schedule and the film actually begins at 6 40 not at 7 o clock like i thought after the movie we'll finish around 9 20 do you want to grab something to eat afterward we can go to that new restaurant nearby and relax after the movie it'll be nice to talk about the film while enjoying a meal together",
+            "openingMatch": 1.0,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "unexpectedTaskContamination": []
+  }
+}
