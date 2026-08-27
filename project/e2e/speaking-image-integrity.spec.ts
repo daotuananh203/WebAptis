@@ -35,14 +35,14 @@ test.describe("Speaking reconstructed source image integrity", () => {
     for (let testNumber = 1; testNumber <= 16; testNumber += 1) {
       const testId = `aptis-b2-${testNumber.toString().padStart(2, "0")}`;
 
-      await page.goto(`/practice/speaking/part2?testId=${testId}`, { waitUntil: "networkidle" });
+      await page.goto(`/practice/speaking/part2?testId=${testId}`, { waitUntil: "domcontentloaded" });
       const part2Image = page.getByTestId("speaking-image");
       await expect(part2Image).toHaveCount(1);
       await expect(part2Image).toBeVisible();
       expect(await part2Image.evaluate((element) => (element as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
       expect(await part2Image.getAttribute("src")).toMatch(/^\/images\/speaking\/(gdrive|reconstructed)\//);
 
-      await page.goto(`/practice/speaking/part3?testId=${testId}`, { waitUntil: "networkidle" });
+      await page.goto(`/practice/speaking/part3?testId=${testId}`, { waitUntil: "domcontentloaded" });
       const part3Images = page.getByTestId("speaking-image");
       await expect(part3Images).toHaveCount(2);
       for (const image of await part3Images.all()) {
