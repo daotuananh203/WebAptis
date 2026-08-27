@@ -18,7 +18,7 @@ the original Aptis ordering.
 - 16 standard Part 2 mappings: `RECONSTRUCTED`, source relationship `VERIFIED`.
 - 16 standard Part 3 mappings: `RECONSTRUCTED`, source relationship `VERIFIED`.
 - Part 2 images keep the verified source bytes under stable
-  `/images/speaking/reconstructed/gdrive_spk_p2-*.{jpg,png}` asset names.
+  `/images/speaking/reconstructed/gdrive_spk_p2_*-a.{jpg,png}` asset names.
 - Part 3 uses seven topics with two verified source placements and nine source
   side-by-side plates split into deterministic A/B crops. Crop rectangles,
   parent SHA-256, source order, CIDs, and source text context are in
@@ -40,6 +40,25 @@ Local production build, clean Chromium:
 | Standard Part 2 | 16 | 16 | 0 | 0 |
 | Standard Part 3 | 32 | 32 | 0 | 0 |
 | Total image references | 48 | 48 | 0 | 0 |
+
+Production clean Chromium (2026-08-27):
+
+- The same integrity test passed against `https://web-aptis.vercel.app`: all
+  32 standard Part 2/3 routes rendered 48 images with non-zero browser
+  dimensions and no failed image response.
+- Direct browser inspection captured `currentSrc` for Test 01 Part 2 as
+  `https://web-aptis.vercel.app/images/speaking/reconstructed/gdrive_spk_p2_010-a.png`.
+  Test 01 Part 3 used the matching `...p3_036-a.png` then `...p3_036-b.png`.
+- Representative human-view screenshots for Test 01, 08, and 15 showed the
+  source-backed images alongside their source prompts.
+- A separate byte download of all 48 production assets produced 48/48 HTTP
+  success responses, image content types, expected byte lengths, and exact
+  SHA-256 matches to the canonical manifest.
+- The public Vercel response exposed deployment marker
+  `x-vercel-id=hkg1::iad1::rbvfq-1787843811580-5bc703d7c138`, but no Git commit
+  SHA. Therefore the Vercel Git SHA is not independently claimed here; the
+  production content itself is verified against the pushed source-backed
+  assets.
 
 The Playwright integrity spec checks every standard Test 01–16 Part 2/3 route,
 the actual rendered `<img>` elements, public network responses, content type,
@@ -71,9 +90,11 @@ path-traversal URLs.
 - `npm run typecheck` — PASS.
 - `npm run build` — PASS.
 - Local clean Chromium image integrity — PASS, 48/48 image references rendered.
-- Production verification — pending the deployment of this reconstruction
-  commit; no production PASS is claimed in this report until that check is
-  repeated against the deployed commit.
+- Production clean Chromium image integrity — PASS, 48/48 rendered.
+- Production asset bytes — PASS, 48/48 exact manifest SHA-256 matches.
+- GitHub `master` at final verification — `bdf74c289a226b2c3780ebe91dbeb1ad16ecb93f6`.
+- Vercel Git commit identity — not exposed by the public deployment response;
+  see the deployment marker and limitation above.
 
 ## Limitations
 
@@ -85,6 +106,8 @@ separate image files.
 
 ## Readiness
 
-For standard Speaking Parts 2/3, the local build is usable and source-backed.
-The final production verdict remains conditional until GitHub/Vercel commit
-identity and clean-browser production verification are recorded.
+For standard Speaking Parts 2/3, the local and Production UI are usable and
+source-backed, with 48/48 verified browser-rendered assets. Historical
+standard-test ordering remains unresolved by the source; the application
+explicitly records the deterministic reconstruction rather than presenting it
+as recovered original ordering.
