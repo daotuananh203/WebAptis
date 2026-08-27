@@ -22,8 +22,8 @@ export function runListeningContentQARegressionTests(): boolean {
     p4.monologues.forEach((mono: any, index: number) => record(assertRuntimeMatchesArtifact(testId, `p4-mono${index + 1}`, mono.audio)));
     assert.equal(resolveSectionParts(dataset, "listening").length, 4);
   }
-  assert.equal(verified, 343, "Only independently transcript-verified runtime items may be counted");
-  assert.equal(uncertain, 2, "Test 03 Q13 and Test 06 Q7 must remain explicitly uncertain");
+  assert.equal(verified, 344, "Only independently transcript-verified runtime items may be counted");
+  assert.equal(uncertain, 1, "Only Test 03 Q13 remains explicitly uncertain among Tests 01-15");
   assert.equal(assertTest16Missing(), 23);
   console.log(`✓ [TEST 24] VERIFIED=${verified}, UNCERTAIN=${uncertain}, MISSING=23; zero fake verification.`);
   return true;

@@ -31,10 +31,10 @@ export function runListeningAudioArchitectureTests(): boolean {
     }
     assert.equal(resolveSectionParts(dataset, "listening").length, 4);
   }
-  assert.equal(verifiedQuestions, 193);
-  assert.equal(uncertainQuestions, 2);
+  assert.equal(verifiedQuestions, 194);
+  assert.equal(uncertainQuestions, 1);
   assert.equal(verifiedPartAudio, 45);
   assertTest16Missing();
-  console.log("✅ [TEST 30] Architecture maps 193 verified questions, 2 uncertain questions, and 45 verified part audios.");
+  console.log("✅ [TEST 30] Architecture maps 194 verified questions, 1 uncertain question, and 45 verified part audios.");
   return true;
 }

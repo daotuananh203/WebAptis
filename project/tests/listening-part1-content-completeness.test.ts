@@ -22,8 +22,8 @@ export function runListeningPart1ContentCompletenessTests(): boolean {
       } else uncertain += 1;
     });
   }
-  assert.equal(verified, 193);
-  assert.equal(uncertain, 2);
+  assert.equal(verified, 194);
+  assert.equal(uncertain, 1);
   console.log("✅ [TEST 32] Generated Part 1 blocks have full transcript coverage and isolated source clips.");
   return true;
 }

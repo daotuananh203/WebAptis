@@ -3,9 +3,9 @@
   "totalTests": 16,
   "totalParts": 64,
   "summary": {
-    "verified": 58,
+    "verified": 59,
     "mismatch": 0,
-    "uncertain": 6
+    "uncertain": 5
   },
   "matrix": [
     {
@@ -160,11 +160,9 @@
       "parts": [
         {
           "part": 1,
-          "status": "UNCERTAIN",
-          "reason": "SOURCE_OR_AUDIO_CONTRACT_NOT_PROVEN",
-          "unverifiedBlocks": [
-            "p1-q07"
-          ]
+          "status": "VERIFIED",
+          "reason": null,
+          "unverifiedBlocks": []
         },
         {
           "part": 2,

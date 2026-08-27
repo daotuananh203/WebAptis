@@ -22,9 +22,9 @@ export function runListeningPart1ContextCompletenessTests(): boolean {
       }
     });
   }
-  assert.equal(verified, 193);
-  assert.equal(uncertain, 2);
+  assert.equal(verified, 194);
+  assert.equal(uncertain, 1);
   assertTest16Missing();
-  console.log("✅ [TEST 29] Full-context evidence exists for 193 questions; two source/master conflicts remain uncertain.");
+  console.log("✅ [TEST 29] Full-context evidence exists for 194 questions; one source/master conflict remains uncertain.");
   return true;
 }

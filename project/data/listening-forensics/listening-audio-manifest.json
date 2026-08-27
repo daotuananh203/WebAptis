@@ -5723,7 +5723,7 @@
       "alignmentTranscript": "project/data/listening-forensics/master-transcripts/aptis-b2-06.json",
       "alignmentTranscriptSha256": "1c6562bbd8f9071bcd3a4bed8a4eee366e170ca1c911a8a4fba24bdf1978d47f",
       "alignmentGranularity": "word-rendition",
-      "status": "UNCERTAIN",
+      "status": "CANDIDATE",
       "blocks": [
         {
           "blockId": "p1-q01",
@@ -5928,18 +5928,18 @@
           "completeRenditions": 1,
           "discardedIncompleteRenditions": 0,
           "masterSpeechStart": 232.16,
-          "masterSpeechEnd": 268.27,
+          "masterSpeechEnd": 256.54,
           "occurrences": [
             {
               "wordStartIndex": 544,
-              "wordEndIndexExclusive": 640,
+              "wordEndIndexExclusive": 625,
               "speechStart": 232.16,
-              "speechEnd": 268.27,
+              "speechEnd": 256.54,
               "sourceTokenCoverage": 0.9195,
               "openingCoverage": 0.9286,
               "endingCoverage": 0.9286,
-              "sequenceMatch": 0.8743,
-              "transcript": "excuse me officer i need help please of course what happened i was walking in the park and i think i lost my phone i thought it was in my bag but now i can't find it i see don't worry will help you can you remember where you last saw it thank you so much officer okay we'll check the area please stay here for a moment and we'll try to find it for you thank you so much officer hey sarah let's check out this store i need this t shirt it looks nice",
+              "sequenceMatch": 0.9524,
+              "transcript": "excuse me officer i need help please of course what happened i was walking in the park and i think i lost my phone i thought it was in my bag but now i can't find it i see don't worry will help you can you remember where you last saw it thank you so much officer okay we'll check the area please stay here for a moment and we'll try to find it for you thank you so much officer",
               "rendition": 1,
               "openingMatch": 0.9111,
               "completeSourceRendition": true
@@ -5955,27 +5955,27 @@
           "sourceTranscriptSha256": "d1a0d275b197867e874f30fa5384886bf38fda92315a6dac92cf860ed42201e4",
           "sourceExpectedMinimumRenditions": 1,
           "detectedRenditions": 1,
-          "completeRenditions": 0,
-          "discardedIncompleteRenditions": 1,
-          "masterSpeechStart": 269.34,
+          "completeRenditions": 1,
+          "discardedIncompleteRenditions": 0,
+          "masterSpeechStart": 256.54,
           "masterSpeechEnd": 290.99,
           "occurrences": [
             {
-              "wordStartIndex": 640,
+              "wordStartIndex": 625,
               "wordEndIndexExclusive": 705,
-              "speechStart": 269.34,
+              "speechStart": 256.54,
               "speechEnd": 290.99,
-              "sourceTokenCoverage": 0.6882,
-              "openingCoverage": 0.8571,
+              "sourceTokenCoverage": 0.8495,
+              "openingCoverage": 0.9286,
               "endingCoverage": 1.0,
-              "sequenceMatch": 0.8101,
-              "transcript": "hey sarah let's check out this store i need something for work oh okay what about this hat it would look great on you aha maybe but not today i really need a suit for the office look this 1 seems perfect that's a good choice it's smart and looks comfortable great i'll buy the suit let's keep looking for other things we might need",
+              "sequenceMatch": 0.7399,
+              "transcript": "hey sarah let's check out this store i need this t shirt it looks nice hey sarah let's check out this store i need something for work oh okay what about this hat it would look great on you aha maybe but not today i really need a suit for the office look this 1 seems perfect that's a good choice it's smart and looks comfortable great i'll buy the suit let's keep looking for other things we might need",
               "rendition": 1,
-              "openingMatch": 0.8222,
-              "completeSourceRendition": false
+              "openingMatch": 0.6656,
+              "completeSourceRendition": true
             }
           ],
-          "status": "UNCERTAIN"
+          "status": "CANDIDATE"
         },
         {
           "blockId": "p1-q08",
@@ -6479,21 +6479,36 @@
         "sourceMasterTestId": "aptis-b2-06",
         "path": "project/public/audio/listening/segments/aptis-b2-06/part-1/q06.mp3",
         "url": "/audio/listening/segments/aptis-b2-06/part-1/q06.mp3",
-        "sha256": "e33d98b2a858065c994ad20351b2b065f85a1f8310533a0783a57ee1b61d32f9",
-        "bytes": 393440,
-        "durationSeconds": 37.694694,
+        "sha256": "0563776b7745a8636009805c784f85845a244ca8e6ee1817e88490df21f198f2",
+        "bytes": 281935,
+        "durationSeconds": 25.417143,
         "masterClips": [
           {
             "start": 231.16,
-            "end": 268.805
+            "end": 256.54
           }
         ],
         "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-06/p1-q06.json"
       },
       {
         "blockId": "p1-q07",
-        "status": "UNCERTAIN",
-        "reason": "No fully source-aligned rendition; existing asset was not overwritten"
+        "status": "VERIFIED",
+        "sourceTranscriptSha256": "d1a0d275b197867e874f30fa5384886bf38fda92315a6dac92cf860ed42201e4",
+        "expectedCompleteRenditions": 1,
+        "discardedIncompleteRenditions": 0,
+        "sourceMasterTestId": "aptis-b2-06",
+        "path": "project/public/audio/listening/segments/aptis-b2-06/part-1/q07.mp3",
+        "url": "/audio/listening/segments/aptis-b2-06/part-1/q07.mp3",
+        "sha256": "8ba0be0bbd5413b41f3e7685e0c1591086dbe7613218f7fc6472c633c20899ab",
+        "bytes": 391636,
+        "durationSeconds": 35.500408,
+        "masterClips": [
+          {
+            "start": 256.54,
+            "end": 291.99
+          }
+        ],
+        "transcriptEvidence": "project/data/listening-forensics/segment-transcripts/aptis-b2-06/p1-q07.json"
       },
       {
         "blockId": "p1-q08",

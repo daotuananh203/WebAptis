@@ -23,8 +23,8 @@ export function runListeningQuestionEvidenceCompletenessTests(): boolean {
       }
     }
   }
-  assert.equal(verified, 328);
-  assert.equal(uncertain, 2);
+  assert.equal(verified, 329);
+  assert.equal(uncertain, 1);
   const test04 = resultFor("aptis-b2-04");
   const test04Mono1 = test04.audit.blocks.find((block: any) => block.blockId === "p4-mono1");
   const test04Mono2 = test04.audit.blocks.find((block: any) => block.blockId === "p4-mono2");
@@ -35,6 +35,6 @@ export function runListeningQuestionEvidenceCompletenessTests(): boolean {
   assert.equal(recovered.sourceDuplicateRecovery.sourceTranscriptSha256, recovered.sourceTranscriptSha256);
   const test06Q11 = resultFor("aptis-b2-06").audit.blocks.find((block: any) => block.blockId === "p1-q11");
   assert.doesNotMatch(test06Q11.sourceText, /Hi, I'm Emma/i);
-  console.log("✅ [TEST 28] All 328 generated assets have immutable byte hashes and transcript evidence; 2 were not generated.");
+  console.log("✅ [TEST 28] All 329 generated assets have immutable byte hashes and transcript evidence; 1 was not generated.");
   return true;
 }

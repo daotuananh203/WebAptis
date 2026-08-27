@@ -1098,10 +1098,33 @@ def find_all_word_openings(
         ):
             strong.append((score, index))
     neighborhood = max(6, min(40, int(len(source_tokens) * 0.45)))
-    selected: list[tuple[float, int]] = []
-    for score, index in sorted(strong, reverse=True):
-        if all(abs(index - kept_index) >= neighborhood for _, kept_index in selected):
+    # A source block can itself contain a repeated opening.  Test 06 Q7 is
+    # the concrete case: the DOCX defines the opening twice, followed by two
+    # different continuations.  The two ASR openings are only 15 words apart;
+    # treating them as duplicate rendition candidates drops the first
+    # speaker turn and makes the later, answer-bearing fragment look like the
+    # whole task.  Collapse only that source-defined internal repetition and
+    # keep the earliest aligned opening.  Full replays remain distinct because
+    # they are much farther apart in the ordered master transcript.
+    internal_opening_positions = [
+        position
+        for position in range(1, len(source_tokens) - 3)
+        if source_tokens[position : position + 4] == source_tokens[:4]
+    ]
+    if internal_opening_positions:
+        internal_neighborhood = max(
+            6, min(40, int(min(internal_opening_positions) * 1.5))
+        )
+        selected = []
+        for score, index in sorted(strong, key=lambda item: item[1]):
+            if selected and index - selected[-1][1] < internal_neighborhood:
+                continue
             selected.append((score, index))
+    else:
+        selected = []
+        for score, index in sorted(strong, reverse=True):
+            if all(abs(index - kept_index) >= neighborhood for _, kept_index in selected):
+                selected.append((score, index))
     return [(index, score) for score, index in sorted(selected, key=lambda item: item[1])]
 
 

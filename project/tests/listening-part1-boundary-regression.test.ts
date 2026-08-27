@@ -21,8 +21,8 @@ export function runListeningPart1BoundaryRegressionTests(): boolean {
     const audit = resultFor(testId).audit;
     assert.ok(audit.blocks.filter((block: any) => block.part === 1).every((block: any) => block.detectedRenditions >= block.completeRenditions));
   }
-  assert.equal(verified, 193);
-  assert.equal(uncertain, 2);
+  assert.equal(verified, 194);
+  assert.equal(uncertain, 1);
   console.log("✅ [TEST 31] Ordered source clips do not overlap; incomplete source renditions are never promoted.");
   return true;
 }

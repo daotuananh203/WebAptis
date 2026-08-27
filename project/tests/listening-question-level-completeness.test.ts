@@ -18,9 +18,9 @@ export function runListeningQuestionLevelCompletenessTests(): boolean {
     p4.monologues.forEach((item: any, index: number) => count(assertRuntimeMatchesArtifact(testId, `p4-mono${index + 1}`, item.audio)));
     assert.equal(resolveSectionParts(dataset, "listening").length, 4);
   }
-  assert.equal(verified, 343);
-  assert.equal(uncertain, 2);
+  assert.equal(verified, 344);
+  assert.equal(uncertain, 1);
   assert.equal(assertTest16Missing(), 23);
-  console.log("✅ [TEST 27] 343 runtime items verified, 2 explicitly uncertain, 23 missing with no fake audio.");
+  console.log("✅ [TEST 27] 344 runtime items verified, 1 explicitly uncertain, 23 missing with no fake audio.");
   return true;
 }

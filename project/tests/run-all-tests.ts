@@ -32,6 +32,7 @@ import { runListeningPart1Q1ContentGoldenTests } from "./listening-part1-q1-cont
 import { runListeningRuntimeArchitectureTests } from "./listening-runtime-architecture.test";
 import { runListeningAnswerKeyContractTests } from "./listening-answer-key-contract.test";
 import { runPracticeGradingPayloadTests } from "./practice-grading-payload.test";
+import { runListeningPart1T06Q7RegressionTests } from "./listening-part1-t06-q7-regression.test";
 import { runPhase3AiTeacherRetrievalTests } from "./phase3-ai-teacher-retrieval.test";
 import { runFinalAICompletionTests } from "./final-ai-completion.test";
 import { runRedTeamApiSecurityTests } from "./redteam-api-security.test";
@@ -82,6 +83,7 @@ async function main() {
   const test33Passed = runListeningRuntimeArchitectureTests();
   const test35Passed = runListeningAnswerKeyContractTests();
   const test36Passed = await runPracticeGradingPayloadTests();
+  const test37Passed = runListeningPart1T06Q7RegressionTests();
   await runPhase3AiTeacherRetrievalTests();
   await runFinalAICompletionTests();
 
@@ -111,7 +113,8 @@ async function main() {
     test34Passed &&
     test33Passed &&
     test35Passed &&
-    test36Passed
+    test36Passed &&
+    test37Passed
   ) {
     console.log("==================================================");
     console.log("🎉 ALL MASTER RED-TEAM TEST SUITES PASSED! (40/40)");
