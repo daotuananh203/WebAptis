@@ -86,14 +86,17 @@ def sha256_file(path: Path) -> str:
 
 def clean(text: str) -> str:
     text = (text or "").replace("\u00a0", " ")
-    text = re.sub(r"\s+", " ", text).strip()
-    return re.sub(r"\s+\d{1,3}$", "", text).strip()
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def pdf_page_text(reader: PdfReader, page_number: int, layout: bool = True) -> str:
     # Layout-aware extraction preserves the left/right column order used by
     # the source PDF (notably Reading Part 2 and vocabulary option tables).
     raw = (reader.pages[page_number - 1].extract_text(extraction_mode="layout") if layout else reader.pages[page_number - 1].extract_text()) or ""
+    # Remove only the page footer that belongs to this physical PDF page.
+    # Stripping any trailing number from normalized text corrupts numeric
+    # answer options (for example Listening Part 1 option C = "22").
+    raw = re.sub(rf"(?m)^\s*{page_number}\s*$", "", raw)
     return clean(raw)
 
 
@@ -684,15 +687,27 @@ def parse_listening(listening: str, prefix: str, aligned_records: list[dict[str,
     p1_records = [r for r in aligned_records if r["part"] == 1]
     p1_tasks = []
     for number, chunk in question_chunks:
-        opts = loose_letter_options(chunk, "ABC")
+        # Listening pages are three-column layouts.  The layout-aware PDF
+        # extractor can interleave columns and falsely treat prose such as
+        # "A man" as an option marker.  The reading-order extraction is the
+        # authoritative text path here; one source page also dropped the
+        # period after option C, so repair only that structural omission when
+        # it is immediately followed by a numeric option value.
+        chunk = re.sub(r"(?<![A-Za-z])C\s+(?=\d)", "C. ", chunk)
+        opts = letter_options(chunk, "ABC")
         first = re.search(r"(?<![A-Za-z])A\s*(?:[.]\s*|\s+(?=[A-Z0-9]))", chunk, re.I)
         if len(opts) < 3 or not first:
             raise ValueError(f"Listening P1 Q{number} parse failed")
+        option_values = [re.sub(r"\s+D\.?\s*$", "", value).strip() for _, value in opts[:3]]
         record = p1_records[number - 1]
         url = record["url"]
         audio = {"type": "audio/mp3", "url": url, "status": record["status"], "audioSegmentStatus": "VERIFIED" if record["status"] == "VERIFIED" else "NOT_VERIFIED", "start": record["clipStart"], "end": record["clipEnd"], "sha256": record["audioSha256"], "duration": record["duration"], "source": "source transcript block + master audio alignment", "sharedGroupId": f"{prefix}listening-p1-q{number:02d}"}
-        p1_tasks.append({"id": f"{prefix}l1_q{number:02d}", "audio": audio, "questionNumber": number, "questionText": clean(chunk[:first.start()]), "options": [v for _, v in opts[:3]], "sourceFile": "01. Aptis.docx.pdf"})
+        p1_tasks.append({"id": f"{prefix}l1_q{number:02d}", "audio": audio, "questionNumber": number, "questionText": clean(chunk[:first.start()]), "options": option_values, "sourceFile": "01. Aptis.docx.pdf"})
 
+    # One source row is extracted as ``DIn a quiet place``; the PDF visibly
+    # contains the label ``D`` followed by the option text.  Restore that
+    # missing structural whitespace before matching speaker rows.
+    p2 = re.sub(r"\bD(?=In\b)", "D ", p2)
     speaker_matches = list(re.finditer(r"(?:\d+\s+)?Speaker\s+([A-D])\s+([A-F])\s+", p2, re.I))
     if len(speaker_matches) < 4:
         raise ValueError("Listening P2 source speakers unavailable")
@@ -981,7 +996,7 @@ def main() -> None:
         # Parse the public listening dataset from the materialized records so
         # every URL/hash/duration is tied to the exact rendered clip.  The
         # alignment-only records intentionally do not contain public URLs.
-        listening = parse_listening(pdf_section(reader, n, "listening"), prefix, audio_manifest["blocks"], audio_manifest)
+        listening = parse_listening(pdf_section(reader, n, "listening", layout=False), prefix, audio_manifest["blocks"], audio_manifest)
         core_text = pdf_section(reader, n, "core", layout=False)
         grammar, _ = parse_grammar(core_text, prefix)
         vocab = parse_vocab(core_text, prefix)

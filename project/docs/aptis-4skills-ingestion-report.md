@@ -20,6 +20,8 @@ aptis-4skills-07
 
 Mỗi bộ có 25 Grammar, 25 Vocabulary, 4 Reading parts, 25 Listening questions, 4 Writing parts và 4 Speaking parts. Answer key được đọc từ các bảng trong DOCX hướng dẫn/đáp án, sau đó cross-check với public dataset bằng schema và ID.
 
+Riêng Listening, các trang Part 1 được đọc theo reading order của PDF thay vì layout ba cột. Điều này ngăn prose như `A man is talking...` bị nhận nhầm thành option; footer được loại theo đúng số trang vật lý để không làm mất đáp án dạng số (ví dụ `22`). Các marker cấu trúc bị thiếu dấu chấm hoặc marker `D.` rỗng được xử lý như lỗi extraction có bằng chứng trực tiếp từ source PDF.
+
 ## Source inventory
 
 Nguồn đã kiểm tra trực tiếp:

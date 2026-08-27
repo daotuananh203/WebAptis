@@ -98,6 +98,24 @@ export function runAptis4SkillsIngestionTests(): boolean {
     assert.deepEqual(p1.map((task: any) => task.questionNumber), Array.from({ length: 13 }, (_, i) => i + 1));
     assert.equal(p1.every((task: any) => task.audio?.url && task.audio?.start < task.audio?.end), true);
     assert.equal(
+      p1.every((task: any) => Array.isArray(task.options) && task.options.length === 3),
+      true,
+      `${testId} Listening Part 1 must preserve three source options per question`
+    );
+    assert.equal(
+      p1.some((task: any) => task.options.some((option: string) => /(?:is talking|is calling|tour guide|finance expert)/i.test(option))),
+      false,
+      `${testId} Listening Part 1 option parser leaked question prose into an option`
+    );
+    assert.equal(
+      p1.some((task: any) => task.options.some((option: string) => /\s+D\.?\s*$/.test(option))),
+      false,
+      `${testId} Listening Part 1 option parser leaked the source PDF's blank D marker`
+    );
+    if (testId === "aptis-4skills-03") assert.equal(p1[1].options[2], "1500 years");
+    if (testId === "aptis-4skills-05") assert.equal(p1[8].options[2], "22");
+    if (testId === "aptis-4skills-07") assert.equal(p1[0].options[2], "20 minutes");
+    assert.equal(
       p1.some((task: any) => String(task.questionText).includes("Câu 14")),
       false,
       `${testId} Listening Part 1 leaked a non-source question into the 13-question block`
