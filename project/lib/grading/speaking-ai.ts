@@ -22,6 +22,7 @@ import {
 import { AptisPublicTestDataset } from "../exam/types";
 import { retrieveRelevantKnowledge } from "../knowledge/retriever";
 import { recordUserError } from "../memory/store";
+import { resolveSpeakingImageUrl } from "../speaking/image-availability";
 
 export const MAX_AUDIO_BYTES = 10 * 1024 * 1024;
 
@@ -68,7 +69,11 @@ export function resolveSpeakingTaskContext(
                 ? "Compare the two photographs and answer the two follow-up questions. You have 45 seconds for each response."
                 : "In this part, you will speak for two minutes on a topic. You will have one minute to prepare your response.",
             topic: topic.topic,
-            imageUrls: topic.images,
+            imageUrls: Array.isArray(topic.images)
+              ? topic.images
+                .map((image: unknown) => resolveSpeakingImageUrl(image))
+                .filter((url: string | null): url is string => Boolean(url))
+              : undefined,
             prompt: topic.partNumber === 4 ? topic.questions.map((q: any) => typeof q === "string" ? q : q.questionText || q.prompt) : qText,
             preparationTimeSeconds: topic.partNumber === 4 ? 60 : 0,
             responseTimeSeconds: topic.partNumber === 4 ? 120 : 45,
@@ -133,7 +138,9 @@ export function resolveSpeakingTaskContext(
       taskType: "describe-recount-opinion",
       taskId: questionItem.id,
       instructions: p2.instructions,
-      imageUrls: [p2.imageUrl],
+      imageUrls: resolveSpeakingImageUrl(p2.imageUrl)
+        ? [resolveSpeakingImageUrl(p2.imageUrl)!]
+        : undefined,
       prompt: questionItem.prompt,
       preparationTimeSeconds: questionItem.preparationTimeSeconds,
       responseTimeSeconds: questionItem.responseTimeSeconds,
@@ -153,13 +160,17 @@ export function resolveSpeakingTaskContext(
       );
     }
 
+    const imageUrls = [p3.images.image1Url, p3.images.image2Url]
+      .map((image: unknown) => resolveSpeakingImageUrl(image))
+      .filter((url: string | null): url is string => Boolean(url));
+
     return {
       testId,
       partNumber: 3,
       taskType: "compare-speculate-opinion",
       taskId: questionItem.id,
       instructions: p3.instructions,
-      imageUrls: [p3.images.image1Url, p3.images.image2Url],
+      imageUrls: imageUrls.length > 0 ? imageUrls : undefined,
       prompt: questionItem.prompt,
       preparationTimeSeconds: questionItem.preparationTimeSeconds,
       responseTimeSeconds: questionItem.responseTimeSeconds,
@@ -174,7 +185,9 @@ export function resolveSpeakingTaskContext(
       taskType: "abstract-topic-extended",
       instructions: p4.instructions,
       topic: p4.topic,
-      imageUrls: p4.imageUrl ? [p4.imageUrl] : undefined,
+      imageUrls: resolveSpeakingImageUrl(p4.imageUrl)
+        ? [resolveSpeakingImageUrl(p4.imageUrl)!]
+        : undefined,
       prompt: p4.questions,
       preparationTimeSeconds: p4.preparationTimeSeconds,
       responseTimeSeconds: p4.responseTimeSeconds,

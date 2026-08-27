@@ -16,6 +16,7 @@ import { Badge } from "../ui/badge";
 import { countWords } from "@/lib/grading/word-counter";
 import { UserAnswerValue } from "@/lib/storage/types";
 import { cn } from "@/lib/utils";
+import { SpeakingImage } from "./speaking-image";
 
 export interface QuestionRendererProps {
   skill: string;
@@ -977,6 +978,7 @@ export function QuestionRenderer({
       <SpeakingPracticeContainer
         partData={partData}
         partIdentifier={partIdentifier}
+        currentIndex={currentIndex}
         answers={answers}
         onAnswerChange={onAnswerChange}
       />
@@ -992,11 +994,13 @@ export function QuestionRenderer({
 function SpeakingPracticeContainer({
   partData,
   partIdentifier,
+  currentIndex,
   answers,
   onAnswerChange,
 }: {
   partData: any;
   partIdentifier: string;
+  currentIndex: number;
   answers: Record<string, UserAnswerValue>;
   onAnswerChange: (questionId: string, value: UserAnswerValue) => void;
 }) {
@@ -1009,7 +1013,12 @@ function SpeakingPracticeContainer({
   const audioChunksRef = React.useRef<Blob[]>([]);
   const timerRef = React.useRef<NodeJS.Timeout | null>(null);
 
-  const currentAudio = (answers["speaking_audio"] as string) || "";
+  const currentQuestion = Array.isArray(partData.questions) ? partData.questions[currentIndex] : null;
+  const audioAnswerKey =
+    currentQuestion && typeof currentQuestion === "object" && currentQuestion.id
+      ? `${currentQuestion.id}__speaking_audio`
+      : "speaking_audio";
+  const currentAudio = (answers[audioAnswerKey] as string) || "";
 
   const startRecording = async () => {
     setMicError(null);
@@ -1035,7 +1044,7 @@ function SpeakingPracticeContainer({
         reader.readAsDataURL(audioBlob);
         reader.onloadend = () => {
           const base64data = reader.result as string;
-          onAnswerChange("speaking_audio", base64data);
+          onAnswerChange(audioAnswerKey, base64data);
         };
 
         // Stop all audio tracks
@@ -1074,7 +1083,7 @@ function SpeakingPracticeContainer({
     }
     setAudioBlobUrl(null);
     setRecordingSeconds(0);
-    onAnswerChange("speaking_audio", "");
+    onAnswerChange(audioAnswerKey, "");
   };
 
   React.useEffect(() => {
@@ -1146,14 +1155,10 @@ function SpeakingPracticeContainer({
                       Ảnh 1: {dualImages.alt1}
                     </span>
                     <div className="relative rounded-2xl overflow-hidden border border-[#262632] bg-[#16161d] min-h-[220px] flex items-center justify-center">
-                      <img
+                      <SpeakingImage
                         src={dualImages.img1}
                         alt={dualImages.alt1 || "Hình ảnh 1"}
-                        className="w-full h-auto max-h-[340px] object-cover rounded-xl"
-                        loading="lazy"
-                        onError={(e) => {
-                          e.currentTarget.style.display = "none";
-                        }}
+                        label="Ảnh 1"
                       />
                     </div>
                   </div>
@@ -1164,14 +1169,10 @@ function SpeakingPracticeContainer({
                       Ảnh 2: {dualImages.alt2}
                     </span>
                     <div className="relative rounded-2xl overflow-hidden border border-[#262632] bg-[#16161d] min-h-[220px] flex items-center justify-center">
-                      <img
+                      <SpeakingImage
                         src={dualImages.img2}
                         alt={dualImages.alt2 || "Hình ảnh 2"}
-                        className="w-full h-auto max-h-[340px] object-cover rounded-xl"
-                        loading="lazy"
-                        onError={(e) => {
-                          e.currentTarget.style.display = "none";
-                        }}
+                        label="Ảnh 2"
                       />
                     </div>
                   </div>
@@ -1188,14 +1189,10 @@ function SpeakingPracticeContainer({
                 Hình ảnh đề bài (Miêu tả ảnh):
               </span>
               <div className="relative rounded-2xl overflow-hidden border border-[#262632] bg-[#16161d] max-h-[380px] flex items-center justify-center p-2">
-                <img
+                <SpeakingImage
                   src={singleImage}
                   alt={partData.imageAlt || "Hình ảnh bài thi nói"}
-                  className="w-full h-auto max-h-[360px] object-contain rounded-xl"
-                  loading="lazy"
-                  onError={(e) => {
-                    e.currentTarget.style.display = "none";
-                  }}
+                  label="Ảnh Part 2"
                 />
               </div>
             </div>
@@ -1311,7 +1308,7 @@ function SpeakingPracticeContainer({
 
         {/* Transparent AI Evaluation Boundary Status */}
         <div className="pt-2 text-[11px] text-slate-400 bg-[#16161d] px-3 py-1.5 rounded-lg border border-[#262632]">
-          Trạng thái: Bản ghi âm lưu trực tiếp trên trình duyệt. AI Speaking Evaluation chưa được kết nối.
+          Trạng thái: Bản ghi âm được lưu trên trình duyệt và sẽ được gửi tới AI Speaking Examiner khi bạn nộp bài.
         </div>
       </div>
     </div>

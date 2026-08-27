@@ -44,6 +44,7 @@ import { runRedTeamUserMemoryTests } from "./redteam-user-memory.test";
 import { runRedTeamMockTestTransitionsTests } from "./redteam-mock-test-transitions.test";
 import { runRedTeamAccessibilityTests } from "./redteam-accessibility.test";
 import { runRedTeamMutationResilienceTests } from "./redteam-mutation-resilience.test";
+import { runSpeakingImageAvailabilityTests } from "./speaking-image-availability.test";
 
 async function main() {
   console.log("==================================================");
@@ -86,6 +87,7 @@ async function main() {
   const test36Passed = await runPracticeGradingPayloadTests();
   const test37Passed = runListeningPart1T06Q7RegressionTests();
   const test38Passed = (runListeningT16SourceParserTest(), true);
+  const test39Passed = runSpeakingImageAvailabilityTests();
   await runPhase3AiTeacherRetrievalTests();
   await runFinalAICompletionTests();
 
@@ -117,7 +119,8 @@ async function main() {
     test35Passed &&
     test36Passed &&
     test37Passed &&
-    test38Passed
+    test38Passed &&
+    test39Passed
   ) {
     console.log("==================================================");
     console.log("🎉 ALL MASTER RED-TEAM TEST SUITES PASSED! (41/41)");

@@ -31,36 +31,39 @@ export async function runSpeakingGradingTests() {
     const ctx1_q3 = resolveSpeakingTaskContext("aptis-b2-01", 1, "s1_q3");
     assert.equal(ctx1_q3.responseTimeSeconds, 30);
 
-    // Part 2: Exactly 1 image + 3 distinct questions (45s each)
+    // Part 2: The current standard dataset has no source-backed image bridge.
+    // Placeholder URLs must be removed from examiner context, while the task
+    // still retains its 3 distinct questions (45s each).
     const ctx2_q1 = resolveSpeakingTaskContext("aptis-b2-01", 2, "s2_q1");
     assert.equal(ctx2_q1.partNumber, 2);
     assert.equal(ctx2_q1.taskType, "describe-recount-opinion");
-    assert.equal(ctx2_q1.imageUrls?.length, 1);
+    assert.equal(ctx2_q1.imageUrls, undefined);
     assert.equal(ctx2_q1.preparationTimeSeconds, 0);
     assert.equal(ctx2_q1.responseTimeSeconds, 45);
 
     const ctx2_q2 = resolveSpeakingTaskContext("aptis-b2-01", 2, "s2_q2");
-    assert.equal(ctx2_q2.imageUrls?.length, 1);
+    assert.equal(ctx2_q2.imageUrls, undefined);
     assert.equal(ctx2_q2.responseTimeSeconds, 45);
 
     const ctx2_q3 = resolveSpeakingTaskContext("aptis-b2-01", 2, "s2_q3");
-    assert.equal(ctx2_q3.imageUrls?.length, 1);
+    assert.equal(ctx2_q3.imageUrls, undefined);
     assert.equal(ctx2_q3.responseTimeSeconds, 45);
 
-    // Part 3: Exactly 2 images + 3 distinct questions (45s each)
+    // Part 3: As above, unresolved placeholders must not be sent as visual
+    // context until an authoritative task-to-image mapping exists.
     const ctx3_q1 = resolveSpeakingTaskContext("aptis-b2-01", 3, "s3_q1");
     assert.equal(ctx3_q1.partNumber, 3);
     assert.equal(ctx3_q1.taskType, "compare-speculate-opinion");
-    assert.equal(ctx3_q1.imageUrls?.length, 2);
+    assert.equal(ctx3_q1.imageUrls, undefined);
     assert.equal(ctx3_q1.preparationTimeSeconds, 0);
     assert.equal(ctx3_q1.responseTimeSeconds, 45);
 
     const ctx3_q2 = resolveSpeakingTaskContext("aptis-b2-01", 3, "s3_q2");
-    assert.equal(ctx3_q2.imageUrls?.length, 2);
+    assert.equal(ctx3_q2.imageUrls, undefined);
     assert.equal(ctx3_q2.responseTimeSeconds, 45);
 
     const ctx3_q3 = resolveSpeakingTaskContext("aptis-b2-01", 3, "s3_q3");
-    assert.equal(ctx3_q3.imageUrls?.length, 2);
+    assert.equal(ctx3_q3.imageUrls, undefined);
     assert.equal(ctx3_q3.responseTimeSeconds, 45);
 
     // Part 4: 1 topic card with 3 questions (60s prep, 120s response)

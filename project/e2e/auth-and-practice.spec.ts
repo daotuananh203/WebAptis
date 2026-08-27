@@ -110,8 +110,10 @@ test.describe("Practice Hub & Comprehensive Skill Workflows", () => {
 
     // Part 2
     await page.goto("/practice/speaking/part2?testId=aptis-b2-01");
-    const img = page.locator('img[src*="/images/speaking/"]');
-    await expect(img.first()).toBeAttached({ timeout: 15000 });
+    // Standard image mapping is intentionally unresolved until source evidence
+    // exists. The UI must expose that state instead of requesting a 404.
+    await expect(page.getByTestId("speaking-image-unavailable").first()).toBeVisible({ timeout: 15000 });
+    await expect(page.locator('img[src*="/images/speaking/test_"]')).toHaveCount(0);
     
     const buttons = page.locator("button");
     expect(await buttons.count()).toBeGreaterThan(0);

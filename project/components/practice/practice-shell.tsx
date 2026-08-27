@@ -224,9 +224,17 @@ export function PracticeShell({
           disclaimer: "PRACTICE ESTIMATE — NOT AN OFFICIAL BRITISH COUNCIL SCORE",
         };
       } else if (skill === "speaking") {
-        const audioData =
-          (answers["speaking_audio"] as string) ||
-          "data:audio/webm;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
+        const currentQuestion = Array.isArray(partData?.questions)
+          ? partData.questions[currentIndex]
+          : null;
+        const audioAnswerKey =
+          currentQuestion && typeof currentQuestion === "object" && currentQuestion.id
+            ? `${currentQuestion.id}__speaking_audio`
+            : "speaking_audio";
+        const audioData = answers[audioAnswerKey] as string | undefined;
+        if (!audioData || !audioData.startsWith("data:audio/")) {
+          throw new Error("Vui lòng ghi âm câu trả lời trước khi nộp bài.");
+        }
 
         let mimeType: "audio/webm" | "audio/mp4" | "audio/wav" | "audio/ogg" | "audio/mpeg" | "audio/x-m4a" | "audio/aac" = "audio/webm";
         let rawBase64 = audioData;
@@ -248,15 +256,17 @@ export function PracticeShell({
 
         const partNum = parseInt(partIdentifier.replace("part", ""), 10) || 1;
 
-        // Resolve dynamic taskId from partData questions
+        // Resolve the same task whose recording was collected by the renderer.
         let dynamicTaskId: string = `${testId}_s${partNum}_q1`;
         if (partData) {
           if (partData.id) {
             dynamicTaskId = partData.id;
+          } else if (currentQuestion && typeof currentQuestion === "object" && currentQuestion.id) {
+            dynamicTaskId = currentQuestion.id;
           } else if (Array.isArray(partData.questions) && partData.questions.length > 0) {
-            const firstQ = partData.questions[0];
-            if (typeof firstQ === "object" && firstQ !== null && firstQ.id) {
-              dynamicTaskId = firstQ.id;
+            const firstQuestion = partData.questions[0];
+            if (typeof firstQuestion === "object" && firstQuestion !== null && firstQuestion.id) {
+              dynamicTaskId = firstQuestion.id;
             }
           }
         }
