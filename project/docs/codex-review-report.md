@@ -1,6 +1,6 @@
 # BÁO CÁO CODEX REVIEW
 
-Ngày kiểm tra: 2026-08-27  
+Ngày kiểm tra: 2026-08-27
 Phạm vi: độc lập audit Listening, source/XML, master audio, local runtime, Chromium production, scoring và các finding kiến trúc/security liên quan.
 
 ## Tổng quan
