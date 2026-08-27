@@ -33,6 +33,9 @@ import {
 import { migrateAnonymousStorageToUser } from "../lib/storage/migration";
 import { STORAGE_KEYS } from "../lib/storage/types";
 import { ProgressAttemptRecord } from "../lib/progress/types";
+import { getAuthenticatedSession } from "../lib/auth/api";
+import { AUTH_COOKIE_NAME } from "../lib/auth/types";
+import { NextRequest } from "next/server";
 
 export async function runAuthTests() {
   console.log("\n==================================================");
@@ -311,6 +314,38 @@ export async function runAuthTests() {
     assert.equal(memoryAdapter.getItem(STORAGE_KEYS.HISTORY, null), null);
     assert.equal(memoryAdapter.getItem(STORAGE_KEYS.ACTIVE_SESSION, null), null);
     console.log("  ✓ Anonymous data migration with zero data loss verified.");
+  }
+
+  // ----------------------------------------------------
+  // Subtest 7: API Session Guard & Tampered Cookie Rejection
+  // ----------------------------------------------------
+  {
+    console.log("  [14.7] Testing API session guard and tampered-cookie rejection...");
+    const sampleUser = {
+      id: "usr_api_guard_test",
+      email: "api-guard@aptis.edu.vn",
+      name: "API Guard Test",
+      role: "user" as const,
+    };
+    const token = createSessionToken(sampleUser);
+    const requestWithValidCookie = new NextRequest("http://localhost/api/protected", {
+      headers: { cookie: `${AUTH_COOKIE_NAME}=${token}` },
+    });
+    assert.equal(getAuthenticatedSession(requestWithValidCookie)?.userId, sampleUser.id);
+
+    const [payload, signature] = token.split(".");
+    const tamperedPayload = Buffer.from(
+      JSON.stringify({
+        ...JSON.parse(Buffer.from(payload, "base64url").toString("utf8")),
+        userId: "usr_other",
+      }),
+    ).toString("base64url");
+    const tamperedRequest = new NextRequest("http://localhost/api/protected", {
+      headers: { cookie: `${AUTH_COOKIE_NAME}=${tamperedPayload}.${signature}` },
+    });
+    assert.equal(getAuthenticatedSession(tamperedRequest), null);
+    assert.equal(getAuthenticatedSession(new NextRequest("http://localhost/api/protected")), null);
+    console.log("  ✓ API routes require a valid HMAC session and reject payload tampering.");
   }
 
   console.log("✅ [TEST 14 PASSED] User Authentication & Data Isolation tests completed successfully.\n");

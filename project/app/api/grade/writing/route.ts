@@ -5,9 +5,13 @@ import {
   resolveWritingTaskContext,
 } from "@/lib/grading/writing-ai";
 import { WritingGradingInputSchema } from "@/lib/grading/writing-schema";
+import { getAuthenticatedSession, unauthorizedResponse } from "@/lib/auth/api";
 
 export async function POST(req: NextRequest) {
   try {
+    const session = getAuthenticatedSession(req);
+    if (!session) return unauthorizedResponse();
+
     const body = await req.json();
 
     // 1. Validate request payload structure
@@ -40,7 +44,7 @@ export async function POST(req: NextRequest) {
       taskContext,
       finalSubmissionText,
       undefined,
-      parseResult.data.userId
+      session.userId
     );
 
     // 4. Return client-safe structured result
@@ -66,7 +70,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json(
       {
         success: false,
-        error: error instanceof Error ? error.message : "Internal grading error",
+        error: "Writing grading is temporarily unavailable. Please try again later.",
       },
       { status: 500 }
     );

@@ -2,9 +2,13 @@ import { NextRequest, NextResponse } from "next/server";
 import { getCoachAdvice } from "@/lib/coach/advisor";
 import { AICoachChatInputSchema } from "@/lib/coach/types";
 import { GradingError } from "@/lib/grading/errors";
+import { getAuthenticatedSession, unauthorizedResponse } from "@/lib/auth/api";
 
 export async function POST(req: NextRequest) {
   try {
+    const session = getAuthenticatedSession(req);
+    if (!session) return unauthorizedResponse();
+
     const body = await req.json();
 
     // 1. Validate request payload structure
@@ -21,7 +25,7 @@ export async function POST(req: NextRequest) {
     }
 
     // 2. Generate conversational advice using Gemini 3.7 Flash
-    const advice = await getCoachAdvice(parseResult.data);
+    const advice = await getCoachAdvice({ ...parseResult.data, userId: session.userId });
 
     // 3. Return client-safe structured response
     return NextResponse.json(
@@ -46,8 +50,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json(
       {
         success: false,
-        error:
-          error instanceof Error ? error.message : "Internal AI Coach error",
+        error: "AI Coach is temporarily unavailable. Please try again later.",
       },
       { status: 500 }
     );

@@ -6,17 +6,23 @@
 import crypto from "crypto";
 import { AuthSession, AUTH_COOKIE_NAME, SESSION_MAX_AGE_SECONDS, UserRecord } from "./types";
 
-const AUTH_SECRET =
-  process.env.AUTH_SECRET ||
-  process.env.SESSION_SECRET ||
-  "aptis_b2_production_secret_key_change_in_env_2026";
+const CONFIGURED_AUTH_SECRET = process.env.AUTH_SECRET || process.env.SESSION_SECRET;
+const DEVELOPMENT_AUTH_SECRET = "aptis_b2_development_secret_only";
+
+function getAuthSecret(): string {
+  if (CONFIGURED_AUTH_SECRET) return CONFIGURED_AUTH_SECRET;
+  if (process.env.NODE_ENV === "production") {
+    throw new Error("AUTH_SECRET or SESSION_SECRET must be configured in production");
+  }
+  return DEVELOPMENT_AUTH_SECRET;
+}
 
 /**
  * Sign a payload string with HMAC-SHA256.
  */
 function signPayload(payloadB64: string): string {
   return crypto
-    .createHmac("sha256", AUTH_SECRET)
+    .createHmac("sha256", getAuthSecret())
     .update(payloadB64)
     .digest("base64url");
 }
@@ -71,7 +77,7 @@ export function verifySessionToken(token: string): AuthSession | null {
     const session = JSON.parse(rawJson) as AuthSession;
 
     const now = Math.floor(Date.now() / 1000);
-    if (!session.expiresAt || session.expiresAt < now) {
+    if (!session.expiresAt || session.expiresAt <= now) {
       return null; // Expired
     }
 

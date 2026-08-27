@@ -5,9 +5,13 @@ import {
   resolveSpeakingTaskContext,
 } from "@/lib/grading/speaking-ai";
 import { SpeakingGradingInputSchema } from "@/lib/grading/speaking-schema";
+import { getAuthenticatedSession, unauthorizedResponse } from "@/lib/auth/api";
 
 export async function POST(req: NextRequest) {
   try {
+    const session = getAuthenticatedSession(req);
+    if (!session) return unauthorizedResponse();
+
     const body = await req.json();
 
     // 1. Validate request payload structure
@@ -42,7 +46,7 @@ export async function POST(req: NextRequest) {
       mimeType,
       durationSeconds,
       clientTranscript,
-    }, undefined, parseResult.data.userId);
+    }, undefined, session.userId);
 
     // 4. Return client-safe structured result
     return NextResponse.json(
@@ -67,8 +71,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json(
       {
         success: false,
-        error:
-          error instanceof Error ? error.message : "Internal speaking grading error",
+        error: "Speaking grading is temporarily unavailable. Please try again later.",
       },
       { status: 500 }
     );

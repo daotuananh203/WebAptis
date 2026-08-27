@@ -86,6 +86,12 @@ export async function runPostgresStoreTests() {
     console.log("  [15.3] Testing PostgresProgressStore Contract & Parameter Safety...");
     const store = new PostgresProgressStore();
 
+    const storeSource = fs.readFileSync(path.join(process.cwd(), "lib/db/progress-store.ts"), "utf8");
+    assert.ok(
+      storeSource.includes("WHERE progress_attempts.user_id = EXCLUDED.user_id"),
+      "Upsert must not let one user overwrite another user's attempt by reusing an id"
+    );
+
     // Verify empty/missing userId guards
     await assert.rejects(
       async () => {

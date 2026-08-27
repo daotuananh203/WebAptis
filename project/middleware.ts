@@ -11,21 +11,50 @@ const PROTECTED_ROUTES = [
 
 const AUTH_PAGES = ["/login", "/register"];
 
-function validateSessionCookie(token?: string): boolean {
+function base64UrlToBytes(value: string): Uint8Array | null {
+  try {
+    const base64 = value.replace(/-/g, "+").replace(/_/g, "/");
+    const padded = base64.padEnd(Math.ceil(base64.length / 4) * 4, "=");
+    const binary = atob(padded);
+    return Uint8Array.from(binary, (character) => character.charCodeAt(0));
+  } catch {
+    return null;
+  }
+}
+
+async function validateSessionCookie(token?: string): Promise<boolean> {
   if (!token || typeof token !== "string") return false;
 
   try {
     const parts = token.split(".");
     if (parts.length !== 2) return false;
 
-    const [payloadB64] = parts;
-    // Edge-safe base64url decode
-    const base64 = payloadB64.replace(/-/g, "+").replace(/_/g, "/");
-    const jsonStr = atob(base64);
+    const [payloadB64, signatureB64] = parts;
+    const payloadBytes = base64UrlToBytes(payloadB64);
+    const signatureBytes = base64UrlToBytes(signatureB64);
+    const authSecret = process.env.AUTH_SECRET || process.env.SESSION_SECRET;
+    if (!payloadBytes || !signatureBytes || !authSecret) return false;
+
+    const key = await crypto.subtle.importKey(
+      "raw",
+      new TextEncoder().encode(authSecret),
+      { name: "HMAC", hash: "SHA-256" },
+      false,
+      ["verify"],
+    );
+    const validSignature = await crypto.subtle.verify(
+      "HMAC",
+      key,
+      signatureBytes,
+      new TextEncoder().encode(payloadB64),
+    );
+    if (!validSignature) return false;
+
+    const jsonStr = new TextDecoder().decode(payloadBytes);
     const data = JSON.parse(jsonStr);
 
     const now = Math.floor(Date.now() / 1000);
-    if (!data.userId || !data.expiresAt || data.expiresAt < now) {
+    if (!data.userId || !data.expiresAt || data.expiresAt <= now) {
       return false;
     }
 
@@ -35,12 +64,12 @@ function validateSessionCookie(token?: string): boolean {
   }
 }
 
-export function middleware(req: NextRequest) {
+export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   // Check session cookie
   const token = req.cookies.get(AUTH_COOKIE_NAME)?.value;
-  const isAuthenticated = validateSessionCookie(token);
+  const isAuthenticated = await validateSessionCookie(token);
 
   // 1. If user is authenticated and visits /login or /register, redirect to /dashboard
   if (isAuthenticated && AUTH_PAGES.some((p) => pathname === p || pathname.startsWith(`${p}/`))) {

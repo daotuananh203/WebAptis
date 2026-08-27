@@ -33,7 +33,8 @@ export class PostgresProgressStore implements IProgressStore {
         percentage = EXCLUDED.percentage,
         estimated_band = EXCLUDED.estimated_band,
         duration_seconds = EXCLUDED.duration_seconds,
-        completed_at = EXCLUDED.completed_at;
+        completed_at = EXCLUDED.completed_at
+      WHERE progress_attempts.user_id = EXCLUDED.user_id;
     `;
 
     const params = [

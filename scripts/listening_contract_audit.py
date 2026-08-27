@@ -635,6 +635,32 @@ def parse_source_blocks(test_number: int) -> tuple[Path, list[SourceBlock]]:
         marker = numbered_marker(line)
         speaker = SPEAKER_RE.match(line)
 
+        # A few markerless DOCX transcripts put all four Part 2 speakers in
+        # one XML paragraph without whitespace between the closing quote of
+        # one speaker and the next ``Speaker X:`` label.  Treat those labels
+        # as source structure, not as spoken text.  This is intentionally
+        # limited to a line containing at least two ordered speaker markers;
+        # ordinary single-speaker lines continue through the normal parser.
+        inline_speakers = list(
+            re.finditer(r"(?:speaker|person)\s*([a-d])\s*:\s*", line, re.I)
+        )
+        if len(inline_speakers) >= 2 and section in {"p1", "p2"}:
+            section = "p2"
+            current_q = None
+            current_speaker = None
+            for index, inline_speaker in enumerate(inline_speakers):
+                letter = inline_speaker.group(1).lower()
+                start = inline_speaker.end()
+                end = (
+                    inline_speakers[index + 1].start()
+                    if index + 1 < len(inline_speakers)
+                    else len(line)
+                )
+                body = clean(line[start:end].strip(' \t\"\u201c\u201d'))
+                if body:
+                    p2[letter].append(body)
+            continue
+
         if speaker and section in {"p1", "p2"}:
             section = "p2"
             current_speaker = speaker.group(1).lower()
