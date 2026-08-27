@@ -155,6 +155,7 @@ export function PracticeShell({
           body: JSON.stringify({
             testId,
             skill,
+            partIdentifier,
             answers,
           }),
         });
