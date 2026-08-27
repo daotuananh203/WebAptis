@@ -5,9 +5,9 @@ import { isSpeakingImagePlaceholder, resolveSpeakingImageUrl } from "../lib/spea
 import { resolveSpeakingTaskContext } from "../lib/grading/speaking-ai";
 
 /**
- * Regression contract for unresolved standard Speaking image mappings.
- * This deliberately does not bless a candidate image: until a source-backed
- * bridge exists, the application must not request the generated placeholder.
+ * Runtime contract for the source-backed Speaking image reconstruction.
+ * The canonical manifest owns the provenance; this test ensures the public
+ * datasets and AI task context actually consume those public assets.
  */
 export function runSpeakingImageAvailabilityTests(): boolean {
   const testsDir = path.join(process.cwd(), "data/tests");
@@ -22,17 +22,17 @@ export function runSpeakingImageAvailabilityTests(): boolean {
     const part3 = speakingParts.find((part: any) => part.partNumber === 3);
 
     assert.ok(part2 && part3, `${testId} must contain Speaking Parts 2 and 3`);
-    assert.equal(isSpeakingImagePlaceholder(part2.imageUrl), true, `${testId} Part 2 must remain explicitly unresolved`);
-    assert.equal(resolveSpeakingImageUrl(part2.imageUrl), null, `${testId} Part 2 placeholder must not reach an img request`);
-    assert.equal(isSpeakingImagePlaceholder(part3.images.image1Url), true, `${testId} Part 3 image A must remain explicitly unresolved`);
-    assert.equal(isSpeakingImagePlaceholder(part3.images.image2Url), true, `${testId} Part 3 image B must remain explicitly unresolved`);
-    assert.equal(resolveSpeakingImageUrl(part3.images.image1Url), null);
-    assert.equal(resolveSpeakingImageUrl(part3.images.image2Url), null);
+    assert.equal(isSpeakingImagePlaceholder(part2.imageUrl), false, `${testId} Part 2 must use a source-backed asset`);
+    assert.equal(resolveSpeakingImageUrl(part2.imageUrl), part2.imageUrl, `${testId} Part 2 image must be a valid public path`);
+    assert.equal(isSpeakingImagePlaceholder(part3.images.image1Url), false, `${testId} Part 3 image A must use a source-backed asset`);
+    assert.equal(isSpeakingImagePlaceholder(part3.images.image2Url), false, `${testId} Part 3 image B must use a source-backed asset`);
+    assert.equal(resolveSpeakingImageUrl(part3.images.image1Url), part3.images.image1Url);
+    assert.equal(resolveSpeakingImageUrl(part3.images.image2Url), part3.images.image2Url);
 
     const part2Context = resolveSpeakingTaskContext(testId, 2);
     const part3Context = resolveSpeakingTaskContext(testId, 3);
-    assert.equal(part2Context.imageUrls, undefined, `${testId} Part 2 must not send placeholder visual context to AI`);
-    assert.equal(part3Context.imageUrls, undefined, `${testId} Part 3 must not send placeholder visual context to AI`);
+    assert.deepEqual(part2Context.imageUrls, [part2.imageUrl], `${testId} Part 2 AI context must match the UI asset`);
+    assert.deepEqual(part3Context.imageUrls, [part3.images.image1Url, part3.images.image2Url], `${testId} Part 3 AI context must match both UI assets`);
     checked += 3;
   }
 

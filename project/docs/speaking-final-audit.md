@@ -1,58 +1,90 @@
-# WebAptis B2 — Speaking Final Audit
+# WebAptis B2 — Speaking Part 2/3 Final Audit
 
 Date: 2026-08-27  
 Production: https://web-aptis.vercel.app  
-Verified application commit: `c9c7c56` (`fix(speaking): block unresolved image placeholders`)
 
 ## Verdict
 
-`SPEAKING PARTIALLY FIXED`
+`SPEAKING PART 2/3 — RECONSTRUCTED FROM VERIFIED SOURCE`
 
-The production UI no longer requests the known unresolved `test_XX` image placeholders and no longer exposes a broken image. The authoritative mapping from the 32 standard Part 2/3 tasks to the Google Docs topics/images is still unresolved, so real images have deliberately not been assigned.
+The historical assignment from `aptis-b2-*` to the Google Docs topics was not
+found. The application now uses an explicit, reproducible reconstruction: each
+standard slot keeps a source topic's real questions and embedded source image;
+the slot assignment is deterministic SHA-256 ordering and is not presented as
+the original Aptis ordering.
 
-## Source and mapping status
+## Source-backed mapping
 
-- Standard datasets: 16 Part 2 tasks and 16 Part 3 tasks were inspected.
-- Google Docs forensic inventory: Part 2 and Part 3 source topics/embedded placements are available, but contain no `testId`, `aptis-b2-*`, `taskId`, or legacy bridge.
-- Existing crosswalk/provenance artifacts report zero verified standard-task-to-topic mappings.
-- Mapping by order, filename, candidate ID, or generic prompt similarity was not used.
-- Listening was not modified; the existing state remains 59/64 verified and 5 uncertain.
+- 16 standard Part 2 mappings: `RECONSTRUCTED`, source relationship `VERIFIED`.
+- 16 standard Part 3 mappings: `RECONSTRUCTED`, source relationship `VERIFIED`.
+- Part 2 images keep the verified source bytes under stable
+  `/images/speaking/reconstructed/gdrive_spk_p2-*.{jpg,png}` asset names.
+- Part 3 uses seven topics with two verified source placements and nine source
+  side-by-side plates split into deterministic A/B crops. Crop rectangles,
+  parent SHA-256, source order, CIDs, and source text context are in
+  `data/speaking/canonical-speaking-mapping.json`.
+- The imported Part 2/3 source topics not selected for standard slots remain in
+  the existing Speaking Practice Bank and are listed in the manifest.
+- No mapping was made from test number, candidate filename, or visual guess.
 
-## Production/browser evidence
+The manifest deliberately records `historicalStandardMapping: NOT_RECOVERED`.
+This is a usable source-backed reconstruction, not a claim that the original
+standard test pack was recovered.
 
-Clean Chromium with a fresh audit session opened:
+## Browser and asset evidence
 
-| Flow | UI state | Image requests | Placeholder `<img>` | Failed image requests |
+Local production build, clean Chromium:
+
+| Scope | Expected | Rendered | HTTP failures | `naturalWidth = 0` |
 |---|---:|---:|---:|---:|
-| Test 01 Part 2 | 1 `IMAGE SOURCE UNAVAILABLE` | 0 | 0 | 0 |
-| Test 01 Part 3 | 2 `IMAGE SOURCE UNAVAILABLE` | 0 | 0 | 0 |
+| Standard Part 2 | 16 | 16 | 0 | 0 |
+| Standard Part 3 | 32 | 32 | 0 | 0 |
+| Total image references | 48 | 48 | 0 | 0 |
 
-This proves the deployed safety behavior, not image correctness. Since the source mapping is not authoritative, the standard tasks currently render an explicit unavailable state rather than an image.
+The Playwright integrity spec checks every standard Test 01–16 Part 2/3 route,
+the actual rendered `<img>` elements, public network responses, content type,
+and non-zero browser dimensions. Representative source crops were also
+visually inspected before materialization.
+
+## AI context
+
+`resolveSpeakingTaskContext()` now returns the same public paths used by the
+UI. The examiner attaches the corresponding public image bytes to Gemini as
+inline image parts: one for Part 2 and two in A/B order for Part 3. The image
+loader is restricted to the public asset directory and rejects unresolved or
+path-traversal URLs.
 
 ## Changes
 
-- Added a Speaking image availability policy that rejects known standard placeholders, external URLs, and query/hash variants.
-- Added an accessible `IMAGE SOURCE UNAVAILABLE` component and runtime image error state.
-- Prevented unresolved image URLs from entering Speaking AI visual context.
-- Removed the fake fallback audio payload from Speaking practice submission.
-- Bound the recorded audio key and submitted task ID to the current Speaking question.
-- Added regression coverage for all 48 standard Part 2/3 image references and updated the stale placeholder assumptions in the Speaking context test.
+- Added the canonical source-backed reconstruction manifest and generator.
+- Materialized 48 stable public source/crop assets without private source URLs.
+- Replaced all 32 standard Part 2/3 placeholder references and generic prompts
+  with source topic questions and source-backed image mappings.
+- Made the dataset generator preserve the reconstruction when rerun.
+- Added source mapping, asset existence, AI context, and full Chromium integrity
+  regression tests.
+- Kept Listening unchanged (`59/64 VERIFIED`, `5 UNCERTAIN`).
 
 ## Validation
 
-- `npm run typecheck` — PASS
-- `npm test` — PASS, master suite exit code 0
-- `npm run build` — PASS
-- Local clean-Chromium verification — PASS for safe unavailable state; no placeholder image request
-- Production clean-Chromium verification — PASS for safe unavailable state; no placeholder image request
+- `npm test` — PASS, 42/42 suites.
+- `npm run typecheck` — PASS.
+- `npm run build` — PASS.
+- Local clean Chromium image integrity — PASS, 48/48 image references rendered.
+- Production verification — pending the deployment of this reconstruction
+  commit; no production PASS is claimed in this report until that check is
+  repeated against the deployed commit.
 
-## Remaining blockers
+## Limitations
 
-- 16 standard Part 2 image mappings: `UNCERTAIN`
-- 16 standard Part 3 image pairs: `UNCERTAIN`
-- Therefore 48 real production image references cannot be marked verified.
-- Full Speaking production recording/AI/persistence, responsive, and accessibility journeys were not re-certified end-to-end in this run; existing unit/security coverage passed, but that is not equivalent to full browser certification.
+The source did not expose the original `aptis-b2-01`…`aptis-b2-16` ordering, so
+historical fidelity is unresolved. The manifest makes the fallback assignment
+explicit and reproducible. The source-derived composite crops preserve the
+source plate content but are not a claim that the original source stored two
+separate image files.
 
-## Production readiness
+## Readiness
 
-Speaking is not fully ready for standard Part 2/3 image-based practice. The broken-image failure mode is fixed, but the core content requirement—showing the correct source image for every standard task—remains blocked by missing authoritative mapping evidence.
+For standard Speaking Parts 2/3, the local build is usable and source-backed.
+The final production verdict remains conditional until GitHub/Vercel commit
+identity and clean-browser production verification are recorded.

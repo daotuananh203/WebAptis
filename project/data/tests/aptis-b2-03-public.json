@@ -2233,24 +2233,24 @@
         "partNumber": 2,
         "taskType": "describe-recount-opinion",
         "instructions": "Describe the photograph and answer the two follow-up questions. You have 45 seconds for each response.",
-        "imageUrl": "/images/speaking/test_03_part2.jpg",
-        "imageAlt": "Scenic activity photo for Test 03",
+        "imageUrl": "/images/speaking/reconstructed/gdrive_spk_p2_003-a.png",
+        "imageAlt": "Source topic: Mẹ dạy con cưỡi ngựa",
         "questions": [
           {
             "id": "t03_s2_q1",
-            "prompt": "Describe what you see in the picture in detail.",
+            "prompt": "Describe the picture.",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t03_s2_q2",
-            "prompt": "Tell me about a time when you participated in a similar activity or event.",
+            "prompt": "Do you like animals? Why?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t03_s2_q3",
-            "prompt": "Why do you think this activity is important for individuals and the community?",
+            "prompt": "What are some benefits of animals?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }
@@ -2261,27 +2261,27 @@
         "taskType": "compare-speculate-opinion",
         "instructions": "Compare the two photographs and answer the two follow-up questions. You have 45 seconds for each response.",
         "images": {
-          "image1Url": "/images/speaking/test_03_part3_a.jpg",
-          "image1Alt": "Setting A for Test 03",
-          "image2Url": "/images/speaking/test_03_part3_b.jpg",
-          "image2Alt": "Setting B for Test 03"
+          "image1Url": "/images/speaking/reconstructed/gdrive_spk_p3_041-a.png",
+          "image1Alt": "Source topic: Công nhân xây cầu + Cô gái ở cánh đồng — image A",
+          "image2Url": "/images/speaking/reconstructed/gdrive_spk_p3_041-b.png",
+          "image2Alt": "Source topic: Công nhân xây cầu + Cô gái ở cánh đồng — image B"
         },
         "questions": [
           {
             "id": "t03_s3_q1",
-            "prompt": "Compare these two different situations shown in the pictures.",
+            "prompt": "Compare these pictures",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t03_s3_q2",
-            "prompt": "What are the distinct advantages and challenges associated with each option?",
+            "prompt": "What do you feel when you are at those workplaces?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t03_s3_q3",
-            "prompt": "Which of these two options would you personally prefer, and why?",
+            "prompt": "The natural beauty needs to be protected from the development of the area. What is your opinion?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }

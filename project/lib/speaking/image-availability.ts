@@ -26,6 +26,12 @@ export function resolveSpeakingImageUrl(value: unknown): string | null {
   if (isSpeakingImagePlaceholder(url)) return null;
   if (url.includes("?") || url.includes("#")) return null;
   if (!url.startsWith("/images/speaking/")) return null;
+  try {
+    const decodedPath = decodeURIComponent(url);
+    if (decodedPath.split("/").some((segment) => segment === "." || segment === "..")) return null;
+  } catch {
+    return null;
+  }
 
   return url;
 }

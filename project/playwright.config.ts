@@ -8,7 +8,7 @@ export default defineConfig({
   retries: 0,
   timeout: 45000,
   use: {
-    baseURL: "http://localhost:3128",
+    baseURL: process.env.SPEAKING_AUDIT_BASE_URL ?? "http://localhost:3128",
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
     video: "retain-on-failure",

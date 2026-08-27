@@ -2243,24 +2243,24 @@
         "partNumber": 2,
         "taskType": "describe-recount-opinion",
         "instructions": "Describe the photograph and answer the two follow-up questions. You have 45 seconds for each response.",
-        "imageUrl": "/images/speaking/test_15_part2.jpg",
-        "imageAlt": "Scenic activity photo for Test 15",
+        "imageUrl": "/images/speaking/reconstructed/gdrive_spk_p2_004-a.png",
+        "imageAlt": "Source topic: Nhóm người ở triển lãm",
         "questions": [
           {
             "id": "t15_s2_q1",
-            "prompt": "Describe what you see in the picture in detail.",
+            "prompt": "Describe the picture (Bức ảnh được chụp tại bảo tàng hoặc triển lãm nghệ thuật nào đó. Có rất nhiều bức tranh màu sắc treo trên tường. Có hai nhóm người đang thưởng thức nghệ thuật: Nhóm 1 gồm hai cô gái đang rất thích thú, cười rất tươi. Nhóm 2 gồm hai người đàn ông và một phụ nữ đang thảo luận gì đó về các bức tranh)",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t15_s2_q2",
-            "prompt": "Tell me about a time when you participated in a similar activity or event.",
+            "prompt": "Talk about the last time you saw a painting?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t15_s2_q3",
-            "prompt": "Why do you think this activity is important for individuals and the community?",
+            "prompt": "Why do people like looking at paintings?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }
@@ -2271,27 +2271,27 @@
         "taskType": "compare-speculate-opinion",
         "instructions": "Compare the two photographs and answer the two follow-up questions. You have 45 seconds for each response.",
         "images": {
-          "image1Url": "/images/speaking/test_15_part3_a.jpg",
-          "image1Alt": "Setting A for Test 15",
-          "image2Url": "/images/speaking/test_15_part3_b.jpg",
-          "image2Alt": "Setting B for Test 15"
+          "image1Url": "/images/speaking/reconstructed/gdrive_spk_p3_050-a.png",
+          "image1Alt": "Source topic: Lạc đà + Xe ngựa ( traveling on the desert) — image A",
+          "image2Url": "/images/speaking/reconstructed/gdrive_spk_p3_050-b.png",
+          "image2Alt": "Source topic: Lạc đà + Xe ngựa ( traveling on the desert) — image B"
         },
         "questions": [
           {
             "id": "t15_s3_q1",
-            "prompt": "Compare these two different situations shown in the pictures.",
+            "prompt": "Compare these two pictures",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t15_s3_q2",
-            "prompt": "What are the distinct advantages and challenges associated with each option?",
+            "prompt": "What are the attractions of these ways of travelling?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t15_s3_q3",
-            "prompt": "Which of these two options would you personally prefer, and why?",
+            "prompt": "Some people believe that we should not use these animals for these purposes? Do you agree/ disagree?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }

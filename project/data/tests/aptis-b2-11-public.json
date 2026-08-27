@@ -2251,24 +2251,24 @@
         "partNumber": 2,
         "taskType": "describe-recount-opinion",
         "instructions": "Describe the photograph and answer the two follow-up questions. You have 45 seconds for each response.",
-        "imageUrl": "/images/speaking/test_11_part2.jpg",
-        "imageAlt": "Scenic activity photo for Test 11",
+        "imageUrl": "/images/speaking/reconstructed/gdrive_spk_p2_011-a.png",
+        "imageAlt": "Source topic: Version 2:",
         "questions": [
           {
             "id": "t11_s2_q1",
-            "prompt": "Describe what you see in the picture in detail.",
+            "prompt": "Describe the picture (there are five couples sitting at five different tables in a restaurant. In the middle of the picture, there is a waitress wearing a blue shirt and jeans and holding food in her hand. All 5 couples are eating and chatting at the same time. They look happy. Maybe it is now Valentine's day.)",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t11_s2_q2",
-            "prompt": "Tell me about a time when you participated in a similar activity or event.",
+            "prompt": "Talk about the latest time you ate out",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t11_s2_q3",
-            "prompt": "Why do you think this activity is important for individuals and the community?",
+            "prompt": "Is learning how to cook important to young people?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }
@@ -2279,27 +2279,27 @@
         "taskType": "compare-speculate-opinion",
         "instructions": "Compare the two photographs and answer the two follow-up questions. You have 45 seconds for each response.",
         "images": {
-          "image1Url": "/images/speaking/test_11_part3_a.jpg",
-          "image1Alt": "Setting A for Test 11",
-          "image2Url": "/images/speaking/test_11_part3_b.jpg",
-          "image2Alt": "Setting B for Test 11"
+          "image1Url": "/images/speaking/reconstructed/gdrive_spk_p3_047-a.png",
+          "image1Alt": "Source topic: Chụp ảnh — image A",
+          "image2Url": "/images/speaking/reconstructed/gdrive_spk_p3_047-b.png",
+          "image2Alt": "Source topic: Chụp ảnh — image B"
         },
         "questions": [
           {
             "id": "t11_s3_q1",
-            "prompt": "Compare these two different situations shown in the pictures.",
+            "prompt": "Compare these two pictures",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t11_s3_q2",
-            "prompt": "What are the distinct advantages and challenges associated with each option?",
+            "prompt": "Why do you think these people take pictures ?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t11_s3_q3",
-            "prompt": "Which of these two options would you personally prefer, and why?",
+            "prompt": "In which situation do you prefer taking a photo? Why ?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }

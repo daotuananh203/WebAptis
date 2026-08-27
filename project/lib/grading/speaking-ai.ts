@@ -25,6 +25,85 @@ import { recordUserError } from "../memory/store";
 import { resolveSpeakingImageUrl } from "../speaking/image-availability";
 
 export const MAX_AUDIO_BYTES = 10 * 1024 * 1024;
+const MAX_SPEAKING_IMAGE_BYTES = 5 * 1024 * 1024;
+
+type GeminiInlineImagePart = {
+  inlineData: {
+    mimeType: string;
+    data: string;
+  };
+};
+
+/**
+ * Load the exact public task images as Gemini inline parts.  Image URLs are
+ * resolved through the same allow-list used by the browser, then constrained
+ * to the public directory so a task cannot make the examiner read arbitrary
+ * server files.  This keeps the examiner's visual context aligned with the
+ * images rendered for the learner.
+ */
+export function loadSpeakingImageInlineParts(
+  imageUrls?: string[]
+): GeminiInlineImagePart[] {
+  if (!imageUrls || imageUrls.length === 0) return [];
+
+  const publicRoot = path.resolve(process.cwd(), "public");
+  return imageUrls.map((imageUrl) => {
+    const resolvedUrl = resolveSpeakingImageUrl(imageUrl);
+    if (!resolvedUrl) {
+      throw createGradingError(
+        "INVALID_SUBMISSION",
+        "Speaking task image context is unavailable"
+      );
+    }
+
+    const imagePath = path.resolve(publicRoot, resolvedUrl.slice(1));
+    const relativePath = path.relative(publicRoot, imagePath);
+    if (relativePath.startsWith("..") || path.isAbsolute(relativePath)) {
+      throw createGradingError(
+        "INVALID_SUBMISSION",
+        "Speaking task image path is outside the public asset directory"
+      );
+    }
+    if (!fs.existsSync(imagePath)) {
+      throw createGradingError(
+        "INVALID_SUBMISSION",
+        "Speaking task image asset is missing"
+      );
+    }
+
+    const stat = fs.statSync(imagePath);
+    if (!stat.isFile() || stat.size <= 0 || stat.size > MAX_SPEAKING_IMAGE_BYTES) {
+      throw createGradingError(
+        "INVALID_SUBMISSION",
+        "Speaking task image asset has an invalid size"
+      );
+    }
+
+    const bytes = fs.readFileSync(imagePath);
+    return {
+      inlineData: {
+        mimeType: detectImageMimeType(bytes, imagePath),
+        data: bytes.toString("base64"),
+      },
+    };
+  });
+}
+
+function detectImageMimeType(bytes: Buffer, imagePath: string): string {
+  if (bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))) {
+    return "image/png";
+  }
+  if (bytes.subarray(0, 3).equals(Buffer.from([255, 216, 255]))) {
+    return "image/jpeg";
+  }
+  if (bytes.subarray(0, 4).toString("ascii") === "RIFF" && bytes.subarray(8, 12).toString("ascii") === "WEBP") {
+    return "image/webp";
+  }
+  const extension = path.extname(imagePath).toLowerCase();
+  if (extension === ".jpg" || extension === ".jpeg") return "image/jpeg";
+  if (extension === ".webp") return "image/webp";
+  return "image/png";
+}
 
 export function resolveSpeakingTaskContext(
   testId: string,
@@ -396,6 +475,7 @@ export async function gradeSpeakingSubmission(
       data: audioPayload.audioBase64,
     },
   };
+  const imageInlineParts = loadSpeakingImageInlineParts(taskContext.imageUrls);
 
   const candidateModels = [GEMINI_MODELS.FLASH, GEMINI_MODELS.FLASH_3_6];
   let rawResponseText = "";
@@ -405,7 +485,7 @@ export async function gradeSpeakingSubmission(
     try {
       const response = await client.models.generateContent({
         model: modelName,
-        contents: [promptText, audioInlinePart],
+        contents: [promptText, ...imageInlineParts, audioInlinePart],
         config: {
           systemInstruction: SPEAKING_EXAMINER_SYSTEM_INSTRUCTION,
           responseMimeType: "application/json",

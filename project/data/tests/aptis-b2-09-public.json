@@ -2243,24 +2243,24 @@
         "partNumber": 2,
         "taskType": "describe-recount-opinion",
         "instructions": "Describe the photograph and answer the two follow-up questions. You have 45 seconds for each response.",
-        "imageUrl": "/images/speaking/test_09_part2.jpg",
-        "imageAlt": "Scenic activity photo for Test 09",
+        "imageUrl": "/images/speaking/reconstructed/gdrive_spk_p2_017-a.jpg",
+        "imageAlt": "Source topic: Bố và con đá bóng",
         "questions": [
           {
             "id": "t09_s2_q1",
-            "prompt": "Describe what you see in the picture in detail.",
+            "prompt": "Describe the picture / grass",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t09_s2_q2",
-            "prompt": "Tell me about a time when you participated in a similar activity or event.",
+            "prompt": "What do you usually do outdoors?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t09_s2_q3",
-            "prompt": "Why do you think this activity is important for individuals and the community?",
+            "prompt": "Why do people like to do outdoor activities?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }
@@ -2271,27 +2271,27 @@
         "taskType": "compare-speculate-opinion",
         "instructions": "Compare the two photographs and answer the two follow-up questions. You have 45 seconds for each response.",
         "images": {
-          "image1Url": "/images/speaking/test_09_part3_a.jpg",
-          "image1Alt": "Setting A for Test 09",
-          "image2Url": "/images/speaking/test_09_part3_b.jpg",
-          "image2Alt": "Setting B for Test 09"
+          "image1Url": "/images/speaking/reconstructed/gdrive_spk_p3_040-a.png",
+          "image1Alt": "Source topic: Nhà mặt đất + Chung cư — image A",
+          "image2Url": "/images/speaking/reconstructed/gdrive_spk_p3_040-b.png",
+          "image2Alt": "Source topic: Nhà mặt đất + Chung cư — image B"
         },
         "questions": [
           {
             "id": "t09_s3_q1",
-            "prompt": "Compare these two different situations shown in the pictures.",
+            "prompt": "Compare these two pictures / balcony",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t09_s3_q2",
-            "prompt": "What are the distinct advantages and challenges associated with each option?",
+            "prompt": "What are the differences between living in two places?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t09_s3_q3",
-            "prompt": "Which of these two options would you personally prefer, and why?",
+            "prompt": "What are the characteristics of a comfortable home?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }

@@ -110,10 +110,18 @@ test.describe("Practice Hub & Comprehensive Skill Workflows", () => {
 
     // Part 2
     await page.goto("/practice/speaking/part2?testId=aptis-b2-01");
-    // Standard image mapping is intentionally unresolved until source evidence
-    // exists. The UI must expose that state instead of requesting a 404.
-    await expect(page.getByTestId("speaking-image-unavailable").first()).toBeVisible({ timeout: 15000 });
-    await expect(page.locator('img[src*="/images/speaking/test_"]')).toHaveCount(0);
+    const part2Image = page.getByTestId("speaking-image").first();
+    await expect(part2Image).toBeVisible({ timeout: 15000 });
+    await expect(part2Image).toHaveAttribute("src", /\/images\/speaking\/(gdrive|reconstructed)\//);
+    expect(await part2Image.evaluate((image) => (image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+
+    // Part 3 must render both source-backed comparison images.
+    await page.goto("/practice/speaking/part3?testId=aptis-b2-01");
+    const part3Images = page.getByTestId("speaking-image");
+    await expect(part3Images).toHaveCount(2, { timeout: 15000 });
+    for (const image of await part3Images.all()) {
+      expect(await image.evaluate((element) => (element as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+    }
     
     const buttons = page.locator("button");
     expect(await buttons.count()).toBeGreaterThan(0);

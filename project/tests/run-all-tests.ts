@@ -45,6 +45,7 @@ import { runRedTeamMockTestTransitionsTests } from "./redteam-mock-test-transiti
 import { runRedTeamAccessibilityTests } from "./redteam-accessibility.test";
 import { runRedTeamMutationResilienceTests } from "./redteam-mutation-resilience.test";
 import { runSpeakingImageAvailabilityTests } from "./speaking-image-availability.test";
+import { runSpeakingImageMappingTests } from "./speaking-image-mapping.test";
 
 async function main() {
   console.log("==================================================");
@@ -74,6 +75,10 @@ async function main() {
   const test21Passed = runSpeakingRuntimeRegressionTests();
   const test22Passed = runMockTestRuntimeRegressionTests();
   const test23Passed = runListeningMappingRegressionTests();
+  const speakingImageMappingPassed = runSpeakingImageMappingTests();
+  if (!speakingImageMappingPassed) {
+    throw new Error("Speaking image mapping regression failed");
+  }
   const test24Passed = runListeningContentQARegressionTests();
   const test27Passed = runListeningQuestionLevelCompletenessTests();
   const test28Passed = runListeningQuestionEvidenceCompletenessTests();
@@ -120,10 +125,11 @@ async function main() {
     test36Passed &&
     test37Passed &&
     test38Passed &&
-    test39Passed
+    test39Passed &&
+    speakingImageMappingPassed
   ) {
     console.log("==================================================");
-    console.log("🎉 ALL MASTER RED-TEAM TEST SUITES PASSED! (41/41)");
+    console.log("🎉 ALL MASTER RED-TEAM TEST SUITES PASSED! (42/42)");
     console.log("==================================================");
     process.exit(0);
   } else {

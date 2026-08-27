@@ -2243,24 +2243,24 @@
         "partNumber": 2,
         "taskType": "describe-recount-opinion",
         "instructions": "Describe the photograph and answer the two follow-up questions. You have 45 seconds for each response.",
-        "imageUrl": "/images/speaking/test_14_part2.jpg",
-        "imageAlt": "Scenic activity photo for Test 14",
+        "imageUrl": "/images/speaking/reconstructed/gdrive_spk_p2_019-a.png",
+        "imageAlt": "Source topic: Gia đình đá bóng",
         "questions": [
           {
             "id": "t14_s2_q1",
-            "prompt": "Describe what you see in the picture in detail.",
+            "prompt": "Describe the picture? Walking ( woáking), relax ( ri lácx) - extended family",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t14_s2_q2",
-            "prompt": "Tell me about a time when you participated in a similar activity or event.",
+            "prompt": "When was the last time you played sports?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t14_s2_q3",
-            "prompt": "Why do you think this activity is important for individuals and the community?",
+            "prompt": "What are the benefits of spending time with your family?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }
@@ -2271,27 +2271,27 @@
         "taskType": "compare-speculate-opinion",
         "instructions": "Compare the two photographs and answer the two follow-up questions. You have 45 seconds for each response.",
         "images": {
-          "image1Url": "/images/speaking/test_14_part3_a.jpg",
-          "image1Alt": "Setting A for Test 14",
-          "image2Url": "/images/speaking/test_14_part3_b.jpg",
-          "image2Alt": "Setting B for Test 14"
+          "image1Url": "/images/speaking/reconstructed/gdrive_spk_p3_043-a.png",
+          "image1Alt": "Source topic: 2 đứa trẻ chơi ipad + 1 đứa trẻ một mình — image A",
+          "image2Url": "/images/speaking/reconstructed/gdrive_spk_p3_043-b.png",
+          "image2Alt": "Source topic: 2 đứa trẻ chơi ipad + 1 đứa trẻ một mình — image B"
         },
         "questions": [
           {
             "id": "t14_s3_q1",
-            "prompt": "Compare these two different situations shown in the pictures.",
+            "prompt": "Compare these two pictures",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t14_s3_q2",
-            "prompt": "What are the distinct advantages and challenges associated with each option?",
+            "prompt": "What are the benefits of these 2 ways for children to play?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t14_s3_q3",
-            "prompt": "Which of these two options would you personally prefer, and why?",
+            "prompt": "Why is it important for children to play together?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }

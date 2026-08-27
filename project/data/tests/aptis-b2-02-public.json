@@ -2251,24 +2251,24 @@
         "partNumber": 2,
         "taskType": "describe-recount-opinion",
         "instructions": "Describe the photograph and answer the two follow-up questions. You have 45 seconds for each response.",
-        "imageUrl": "/images/speaking/test_02_part2.jpg",
-        "imageAlt": "Scenic activity photo for Test 02",
+        "imageUrl": "/images/speaking/reconstructed/gdrive_spk_p2_006-a.png",
+        "imageAlt": "Source topic: Cô gái ngồi làm việc",
         "questions": [
           {
             "id": "t02_s2_q1",
-            "prompt": "Describe what you see in the picture in detail.",
+            "prompt": "Describe the picture",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t02_s2_q2",
-            "prompt": "Tell me about a time when you participated in a similar activity or event.",
+            "prompt": "What is your favourite kind of book?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t02_s2_q3",
-            "prompt": "Why do you think this activity is important for individuals and the community?",
+            "prompt": "Why do people like reading books?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }
@@ -2279,27 +2279,27 @@
         "taskType": "compare-speculate-opinion",
         "instructions": "Compare the two photographs and answer the two follow-up questions. You have 45 seconds for each response.",
         "images": {
-          "image1Url": "/images/speaking/test_02_part3_a.jpg",
-          "image1Alt": "Setting A for Test 02",
-          "image2Url": "/images/speaking/test_02_part3_b.jpg",
-          "image2Alt": "Setting B for Test 02"
+          "image1Url": "/images/speaking/reconstructed/gdrive_spk_p3_046-a.png",
+          "image1Alt": "Source topic: Nhà cũ + Nhà mới — image A",
+          "image2Url": "/images/speaking/reconstructed/gdrive_spk_p3_046-b.png",
+          "image2Alt": "Source topic: Nhà cũ + Nhà mới — image B"
         },
         "questions": [
           {
             "id": "t02_s3_q1",
-            "prompt": "Compare these two different situations shown in the pictures.",
+            "prompt": "Compare these pictures",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t02_s3_q2",
-            "prompt": "What are the distinct advantages and challenges associated with each option?",
+            "prompt": "Which houses do you prefer to stay in?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           },
           {
             "id": "t02_s3_q3",
-            "prompt": "Which of these two options would you personally prefer, and why?",
+            "prompt": "Why do some people like to decorate their houses?",
             "preparationTimeSeconds": 0,
             "responseTimeSeconds": 45
           }

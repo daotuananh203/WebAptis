@@ -4,6 +4,15 @@ import json
 OUT_NORMALIZED = r"resources\edulife\normalized"
 OUT_TESTS = r"project\data\tests"
 OUT_INDEX = r"project\data\content-index"
+RECONSTRUCTED_SPEAKING_PATH = r"project\data\speaking\canonical-speaking-mapping.json"
+
+try:
+    with open(RECONSTRUCTED_SPEAKING_PATH, "r", encoding="utf-8") as mapping_file:
+        RECONSTRUCTED_SPEAKING = json.load(mapping_file)
+except FileNotFoundError:
+    # Keep the generator usable for a clean checkout before the optional
+    # source-backed reconstruction has been generated.
+    RECONSTRUCTED_SPEAKING = None
 
 os.makedirs(OUT_NORMALIZED, exist_ok=True)
 os.makedirs(OUT_TESTS, exist_ok=True)
@@ -515,6 +524,31 @@ def build_test(test_num):
             }
         ]
     }
+
+    # The original generator used placeholders for Part 2/3.  If the
+    # source-backed reconstruction manifest exists, preserve its verified
+    # topic questions and public assets whenever this generator is rerun.
+    if RECONSTRUCTED_SPEAKING is not None:
+        reconstructed = {
+            item["part"]: item
+            for item in RECONSTRUCTED_SPEAKING.get("standardMappings", [])
+            if item.get("testId") == tid
+        }
+        if 2 in reconstructed:
+            part2 = speaking_pub["parts"][1]
+            part2["imageUrl"] = reconstructed[2]["imagePaths"][0]
+            part2["imageAlt"] = f"Source topic: {reconstructed[2]['sourceTopic']}"
+            for question, prompt in zip(part2["questions"], reconstructed[2]["prompt"]):
+                question["prompt"] = prompt
+        if 3 in reconstructed:
+            part3 = speaking_pub["parts"][2]
+            image_paths = reconstructed[3]["imagePaths"]
+            part3["images"]["image1Url"] = image_paths[0]
+            part3["images"]["image1Alt"] = f"Source topic: {reconstructed[3]['sourceTopic']} — image A"
+            part3["images"]["image2Url"] = image_paths[1]
+            part3["images"]["image2Alt"] = f"Source topic: {reconstructed[3]['sourceTopic']} — image B"
+            for question, prompt in zip(part3["questions"], reconstructed[3]["prompt"]):
+                question["prompt"] = prompt
 
     # Consolidated Public Dataset
     public_dataset = {

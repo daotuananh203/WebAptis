@@ -71,7 +71,7 @@ ${k.content.slice(0, 1000)}`
 - Speaking Part: Part ${taskContext.partNumber} (${taskContext.taskType})
 - Official Instructions: ${taskContext.instructions}
 ${taskContext.topic ? `- Topic: ${taskContext.topic}` : ""}
-${taskContext.imageUrls && taskContext.imageUrls.length > 0 ? `- Visual Context: ${taskContext.imageUrls.length} image(s) provided` : ""}
+${taskContext.imageUrls && taskContext.imageUrls.length > 0 ? `- Visual Context: ${taskContext.imageUrls.length} image(s) are attached in the listed order. Use only these task images when assessing task fulfilment.` : ""}
 - Specific Prompt(s) for this recording:
 ${promptsText}
 - Preparation Time: ${taskContext.preparationTimeSeconds} seconds
