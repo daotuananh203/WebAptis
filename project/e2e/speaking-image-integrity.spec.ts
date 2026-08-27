@@ -39,7 +39,10 @@ test.describe("Speaking reconstructed source image integrity", () => {
       const part2Image = page.getByTestId("speaking-image");
       await expect(part2Image).toHaveCount(1);
       await expect(part2Image).toBeVisible();
-      expect(await part2Image.evaluate((element) => (element as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+      await expect.poll(
+        () => part2Image.evaluate((element) => (element as HTMLImageElement).complete && (element as HTMLImageElement).naturalWidth > 0),
+        { timeout: 15_000 },
+      ).toBeTruthy();
       expect(await part2Image.getAttribute("src")).toMatch(/^\/images\/speaking\/(gdrive|reconstructed)\//);
 
       await page.goto(`/practice/speaking/part3?testId=${testId}`, { waitUntil: "domcontentloaded" });
@@ -47,7 +50,10 @@ test.describe("Speaking reconstructed source image integrity", () => {
       await expect(part3Images).toHaveCount(2);
       for (const image of await part3Images.all()) {
         await expect(image).toBeVisible();
-        expect(await image.evaluate((element) => (element as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+        await expect.poll(
+          () => image.evaluate((element) => (element as HTMLImageElement).complete && (element as HTMLImageElement).naturalWidth > 0),
+          { timeout: 15_000 },
+        ).toBeTruthy();
         expect(await image.getAttribute("src")).toMatch(/^\/images\/speaking\/(gdrive|reconstructed)\//);
       }
     }
