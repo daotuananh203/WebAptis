@@ -106,6 +106,36 @@ Query string dùng SHA clip để tránh stale immutable cache khi cùng path đ
 - Transcript T05 có numbering/paragraph layout bất thường; đã sửa grouping bằng các paragraph có nhãn `Câu n` và kiểm tra không đưa `Câu 14` vào Listening Part 1.
 - Master audio không có duration đồng nhất giữa bảy bộ và có thể chứa phần ngoài Listening; chỉ source-aligned blocks được public.
 
+## Production verification after final data fix
+
+GitHub `master` và deployment production đã được kiểm tra:
+
+```text
+GitHub commit: 92879a750f8301237a096e436362bfa4a76605f4
+Vercel deployment: JA2Vi3jiWdC6fuyubx9y3VCjf5BK
+Deployment status: success / Deployment has completed
+Production: https://web-aptis.vercel.app
+```
+
+Clean Chromium sau deployment đã đăng ký một user kiểm thử mới, mở UI thật và phát Q1 của cả bảy test. Các request media dùng trong playback đều là `206 audio/mpeg` với toàn bộ byte range; phép `fetch` forensic bổ sung nhận `200` toàn bộ body để tính hash. Bảng dưới đây ghi lại `audio.currentSrc`, thời lượng browser và SHA-256 của chính bytes browser nhận được:
+
+| Test | `audio.currentSrc` (Q1) | Browser duration | Media response | Bytes | SHA-256 | Kết quả |
+|---|---|---:|---|---:|---|---|
+| 01 | `/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q01.mp3?v=776d73e7e6eb7045` | 42.02s | 206, full range | 673478 | `776d73e7e6eb704598a9faf59a8297b199dcae0cccc6e0ef83c83650ad15495c` | MATCH |
+| 02 | `/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q01.mp3?v=2a9646260fba4ca6` | 32.24s | 206, full range | 517151 | `2a9646260fba4ca6ed3e2661b69818cb4b2e425a5c2cc8ad2f3e3e7b7d4016f6` | MATCH |
+| 03 | `/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q01.mp3?v=92c1e0748c363257` | 20.98s | 206, full range | 337011 | `92c1e0748c363257596ce595c9ef914f6bafc8dfafed6f9e0e447f3b60d66303` | MATCH |
+| 04 | `/audio/listening/aptis-4skills/aptis-4skills-04/part-1/q01.mp3?v=150c6b4b85538e4b` | 51.677s | 206, full range | 828251 | `150c6b4b85538e4b08fa585d18310e58a6b3d98b9da5ea7d36ba55587ab7813d` | MATCH |
+| 05 | `/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q01.mp3?v=6843d3a104cd208f` | 59.08s | 206, full range | 946472 | `6843d3a104cd208fb33177e2c73289f7667d9627d5bba8d5337ce7b069f117a1` | MATCH |
+| 06 | `/audio/listening/aptis-4skills/aptis-4skills-06/part-1/q01.mp3?v=0d5bce3cd60c905f` | 98.10s | 206, full range | 1570903 | `0d5bce3cd60c905f12d17175794b32577241ac728c353c3019ae5ef8904ca888` | MATCH |
+| 07 | `/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q01.mp3?v=772aad4afcf6781d` | 23.720s | 206, full range | 380896 | `772aad4afcf6781dec42605d48f2c37935866ccd4c34aec4b3f24850fbb6ff39` | MATCH |
+
+UI/content checks on the same clean-browser run:
+
+- Production API: 7/7 new test IDs returned `200`; Q1 UI displayed its source options. Regression values were checked in the UI/API for T03 Q2 = `1500 years`, T05 Q9 = `22`, and T07 Q1 = `20 minutes`.
+- Speaking images: 21/21 Part 2/3 images and 7/7 Part 4 images returned `200`, had `naturalWidth > 0`, and matched the local expected asset hash. Total checked: 28/28.
+- Mock Test catalog: 23 Start buttons were rendered, including `Bộ 4 kỹ năng 01` through `Bộ 4 kỹ năng 07`.
+- No image/audio request failure was observed in the new asset namespace. A separate pre-existing `/favicon.ico` 404 was observed and is unrelated to this ingestion batch.
+
 ## Validation commands
 
 ```text
@@ -135,5 +165,5 @@ Tất cả các lệnh trên đã PASS trong lần kiểm tra này. Kết quả 
 SEVEN-TEST INGESTION: PASS WITH ONE EXPLICIT AUDIO UNCERTAINTY
 NEW TESTS ARE ISOLATED FROM THE EXISTING 16-TEST DATASET: YES
 NO FABRICATED AUDIO OR IMAGES: YES
-PRODUCTION DEPLOYMENT: NOT YET PERFORMED IN THIS REPORT
+PRODUCTION DEPLOYMENT: VERIFIED AT 92879a750f8301237a096e436362bfa4a76605f4
 ```
