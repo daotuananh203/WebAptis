@@ -203,3 +203,131 @@ Bổ sung source master audio gốc cho Test 16 và source/master recording đ�
 ```text
 LISTENING NOT FULLY VERIFIED
 ```
+
+---
+
+# FINAL PRODUCTION USER AUDIT — ADDENDUM
+
+Ngày audit cuối: 2026-08-27. Addendum này supersede trạng thái security cũ ở trên; các kết luận về Listening chưa đủ source/master vẫn giữ nguyên.
+
+## Production / repository state
+
+- Production: https://web-aptis.vercel.app
+- GitHub `master`: `1a865668a87693f12b12a9a66db9bb3f7dd1c0a4` (`fix(security): enforce authenticated AI grading and session integrity`). GitHub đã nhận commit.
+- Sau khi GitHub nhận commit, production đã phản ánh behavior mới: unauthenticated `POST /api/coach/chat`, `/api/grade/writing`, `/api/grade/speaking` đều trả `401 Authentication required`. Vercel deployment ID/commit metadata không được expose bởi public app và Vercel CLI không có credential trong môi trường audit, nên không ghi invent một deployment ID; behavioral evidence xác nhận code mới đang live.
+- Chrome plugin/Chrome DevTools connector không callable trong môi trường này; đã dùng clean Playwright Chromium context với service workers bị block để tái hiện browser UI, request và response body. Đây là giới hạn verification cần ghi nhận, không phải bằng chứng PASS cho Chrome GUI.
+
+## Finding mới — P1 SPEAKING-IMAGE-001
+
+- **File/vị trí:** `project/data/tests/aptis-b2-01-public.json` … `aptis-b2-16-public.json`; các `imageUrl`, `image1Url`, `image2Url` dưới `/images/speaking/test_XX_*.jpg`.
+- **Vấn đề:** Browser production đã đăng nhập bằng một user audit và mở cả 32 trang Speaking Part 2/3 của 16 test. UI phát sinh 48 image requests; 46 response rõ ràng là HTTP 404, 2 response không thu được status event nhưng cũng không render; tất cả 48 `<img>` có `naturalWidth=0`, kèm console 404 errors.
+- **Impact:** Người học không nhìn thấy ảnh Speaking Part 2/3; Part 2/3 prompt không thể thực hiện theo task. Đây là lỗi user-facing correctness nghiêm trọng, độc lập với việc local speaking bank có 81 file ảnh render được.
+- **Evidence:** `project/reports/final-production-speaking-audit.json`; production URL mẫu `https://web-aptis.vercel.app/images/speaking/test_01_part2.jpg` trả 404; candidate source URL `https://web-aptis.vercel.app/images/speaking/gdrive/part_2_C%C3%B4_g%C3%A1i_tr%C3%AAn_boong_thuy%E1%BB%81n_1_058a5a03.jpg` render 800×534, nhưng không có authoritative mapping từ candidate này tới `aptis-b2-01`.
+- **Root cause:** Dataset standard `aptis-b2-*` trỏ tới tên asset `test_XX_*` không tồn tại trong `project/public/images/speaking/`; ảnh source bank nằm ở namespace `gdrive/` và thuộc candidate IDs khác. Đây là data/asset mapping + deployment asset gap, không phải CSS hay browser cache.
+- **Recommendation:** Bổ sung mapping nguồn authoritative cho từng standard test/task rồi cập nhật dataset và asset path; không tự gán bank image theo thứ tự hoặc dùng placeholder. Sau đó chạy lại image inventory bằng browser sạch.
+- **Trạng thái:** CHƯA FIX; production `MISMATCH`.
+
+## Security re-audit
+
+### Findings đã sửa trong code nhưng chưa chứng minh live production
+
+- AI Coach, Writing grading và Speaking grading hiện gọi `getAuthenticatedSession()` và lấy `userId` từ signed cookie, không tin `userId` trong body.
+- Middleware hiện verify HMAC-SHA256 bằng Web Crypto trước khi cho qua protected pages; token sửa payload với signature cũ bị từ chối.
+- Production secret mặc định đã bị loại bỏ: production thiếu `AUTH_SECRET`/`SESSION_SECRET` sẽ fail closed.
+- AI route 500 errors đã được sanitize; không trả raw provider/internal error message.
+- PostgreSQL progress upsert có owner predicate `WHERE progress_attempts.user_id = EXCLUDED.user_id`, chặn reuse attempt ID để overwrite attempt của user khác.
+
+### Evidence local
+
+- `npm test`: 41/41 pass, gồm API session guard/tampered cookie và progress owner predicate regression.
+- `npm run typecheck`: pass.
+- `npm run build`: pass; chỉ còn warning middleware convention deprecated.
+- Local `next start` với explicit audit-only `AUTH_SECRET`: unauth Coach 401, protected `/dashboard` redirect `/login`, valid session `/api/auth/me` 200.
+
+### Production status
+
+Production đã phản ánh guard/HMAC behavior của commit `1a865668`:
+
+| Security scenario | Local code | Production |
+|---|---:|---:|
+| Unauthenticated AI endpoints | PASS | PASS — 401 on all 3 AI routes |
+| Protected page route | PASS | PASS — tampered session redirected to `/login` |
+| Session HMAC verification | PASS | PASS — valid `/api/auth/me` 200, forged payload 401 |
+| Tampered cookie | PASS | PASS — signature reuse rejected |
+| User isolation / IDOR upsert | PASS by code/test | PASS by owner predicate; live DB mutation not directly inspected |
+| Secret exposure | No default production secret | PASS by code; secret value not exposed |
+
+## Final master matrix
+
+| Area | Scenario | Expected | Actual | Severity | Status |
+|---|---|---|---|---|---|
+| Security | AI routes unauthenticated | 401 | Production returns 401 on Coach/Writing/Speaking | P1 | PASS |
+| Security | HMAC/tampered cookie | Reject | Production `/api/auth/me` returns 401 and protected page redirects | P1 | PASS |
+| Security | Progress cross-user upsert | No overwrite | Owner predicate added and tested locally | P1 | LOCAL PASS / PROD UNCERTAIN |
+| Speaking Part 1 | Prompt/count/timer data | Correct | Dataset/schema tests pass; browser technical smoke pass | P2 | PASS (not full manual semantic audit) |
+| Speaking Part 2 | Image visible and task-matched | 200/rendered/correct | 16/16 pages: 16 image URLs 404, 0 rendered | P1 | FAIL |
+| Speaking Part 3 | Both images visible/order/match | 200/rendered/correct | 16/16 pages: 32 image URLs non-rendered; 30 explicit 404 + 2 status unresolved | P1 | FAIL |
+| Speaking Part 4 | Prompt/timer/recording UI | Correct | Dataset and unit/runtime tests pass | P2 | WARN |
+| AI Speaking | Task context/rubric | Correct user recording/task | Local mock/red-team pass; live AI not re-invoked after auth deploy | P1 | UNCERTAIN |
+| Writing | Parts 1–4/context | Correct | Unit, schema and source tests pass; full live quality matrix not independently verified | P2 | WARN |
+| Listening | T01 Q1/T06 Q7 regression | Full source block | Browser/source/hash/transcript evidence pass | P1 | PASS for representatives |
+| Listening | Full 64 parts | 64 verified | 59 VERIFIED, 5 UNCERTAIN; no mass rebuild | P1 | PARTIAL |
+| Reading | Parts 1–4/scoring | Correct | Dataset/deterministic/E2E tests pass | P2 | WARN |
+| Grammar/Vocabulary | UI/scoring/timer | Correct | Unit/E2E coverage pass | P2 | WARN |
+| AI Teacher | injection/error/provenance | Controlled | Local 110-query + 10-jailbreak tests pass; live post-auth check pending | P2 | WARN |
+| Dashboard/Progress | ownership/persistence | User-scoped | Local store/tests and owner predicate pass; live DB mutation not directly inspected | P1 | WARN |
+| Mock Exam | navigation/autosave/sections | Correct | State-machine and E2E tests pass; full live user journey not completed | P2 | WARN |
+| Responsive | 390/768/1440/1920 | No overflow/overlap | Automated coverage exists; no complete independent production matrix | P2 | WARN |
+| Accessibility | labels/focus/alt/keyboard | Accessible | Axe/unit suite pass; missing images still violate practical content usability | P2 | WARN |
+
+## Speaking final matrix
+
+- Speaking Part 1: `PASS` for dataset/runtime contract; not a complete manual recording-quality certification.
+- Speaking Part 2: 16 tasks, 16 image URLs requested, 16 non-rendered, 16 `FAIL`.
+- Speaking Part 3: 16 tasks, 32 image URLs requested, 32 non-rendered, 16 pairs `FAIL`.
+- Speaking Part 4: `WARN`; technical/unit coverage pass, independent live recording-to-AI verification remains incomplete.
+- Recording pipeline: `PASS` locally by mock/schema tests; live browser microphone/AI run not re-certified after security change.
+- STT: `PASS` in local mocked/edge suite only.
+- Task context: `PASS` in local tests; production post-deploy verification pending.
+- AI rubric: `PASS` in local structured-output tests; not a claim of objective examiner validity.
+- Result persistence: `WARN`; local isolation tests pass, production logout/login ownership journey not fully re-run.
+
+## Listening regression matrix
+
+| Scope | Status | Evidence |
+|---|---|---|
+| Test 01 Part 1 Q1 | VERIFIED | Full source-defined block, browser bytes/currentSrc/transcript, no Q2 |
+| Test 06 Part 1 Q7 | VERIFIED | Full repeated-opening block, exact browser bytes/transcript, no Q8, scoring 1/13 for selected answer |
+| Test 03 Part 1 | UNCERTAIN | Q13 master ends before source transcript ending |
+| Test 16 Parts 1–4 | UNCERTAIN | No authoritative master audio; production assets intentionally absent |
+| Remaining previously validated parts | VERIFIED | 59/64 part-level contract matrix |
+
+## Totals
+
+- Total master-audit scenarios recorded: 32 production Speaking Part 2/3 pages + 48 browser image requests + security endpoint checks + local full suite and Listening regression matrix. This is not a claim that every requested manual scenario was completed.
+- PASS: local tests/build/typecheck and verified Listening representatives.
+- FAIL: 48 standard Speaking Part 2/3 image loads; production AI auth remains old until deployment is confirmed.
+- WARN/UNCERTAIN: full live AI quality/persistence, 5 Listening regions, pending production deployment verification, broad responsive/manual accessibility.
+- P0: 0 evidenced.
+- P1: 1 open (`SPEAKING-IMAGE-001`). Security P1 is fixed and production-auth behavior is verified.
+- P2: maintenance/manual verification gaps listed in matrix.
+- P3: 0 newly evidenced.
+
+## Final verdict
+
+`FULL PRODUCTION USER AUDIT — ACTION REQUIRED`
+
+`LISTENING NOT FULLY VERIFIED`
+
+`Q1 VERIFIED` remains valid for the previously audited Listening Test 01 Part 1 Q1 only. It does not upgrade the five UNCERTAIN regions or the full module.
+
+Production readiness: **NOT READY**. Do not claim `FULL PRODUCTION USER AUDIT — PASS` until all 48 standard Speaking image references have authoritative task mappings and render in a clean browser, and the incomplete live AI/persistence/error-flow scenarios are re-run.
+
+## Files changed by this audit
+
+- Committed: `project/app/api/coach/chat/route.ts`, `project/app/api/grade/speaking/route.ts`, `project/app/api/grade/writing/route.ts`, `project/lib/auth/api.ts`, `project/lib/auth/index.ts`, `project/lib/auth/session.ts`, `project/lib/db/progress-store.ts`, `project/middleware.ts`, `project/tests/auth.test.ts`, `project/tests/postgres-store.test.ts`, `project/tests/listening-t16-source-parser.test.ts`, `project/tests/run-all-tests.ts`, `scripts/listening_contract_audit.py`.
+- Uncommitted audit evidence intentionally left local: `project/reports/final-production-speaking-audit.json`, its script/log, and prior forensic scratch files. Existing user-memory/QA changes were not staged.
+
+## Một bước tiếp theo duy nhất
+
+Bổ sung mapping authoritative cho 48 ảnh Speaking `aptis-b2-*` (không gán theo thứ tự bank), sau đó chạy lại clean-browser production audit.
