@@ -1,5 +1,7 @@
 # WebAptis B2 — Speaking Image Forensic Audit
 
+> Historical baseline report. The direct Google Docs source inspection is recorded in [google-doc-speaking-mapping-audit.md](google-doc-speaking-mapping-audit.md). That later audit verifies source-topic → embedded-image relationships, but does not establish standard-test → topic assignments.
+
 Ngày audit: 2026-08-27  
 Production: https://web-aptis.vercel.app
 
