@@ -1,0 +1,862 @@
+{
+  "testId": "aptis-4skills-03",
+  "sourceMaster": "APTIS\\Bộ đề 4 kĩ năng\\File Nghe + Transcript + Đáp án Aptis\\File Nghe\\Đề 3.mp3",
+  "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2",
+  "sourceMasterDuration": 933.799,
+  "blocks": [
+    {
+      "part": 1,
+      "index": 1,
+      "paragraphRange": [
+        1,
+        1
+      ],
+      "sourceTranscript": "Câu : Good morning everyone, this is an important announcement about a change in the train schedule. The train to London will now leave at 9.15, not 9.30 as planned. Please listen carefully to this information. If you are taking this train, please go to platform 3 now. Thank you for your attention and have a good day.",
+      "sourceTokenCount": 58,
+      "observedCompleteRenditions": 1,
+      "speechStart": 5.39,
+      "speechEnd": 24.77,
+      "alignment": {
+        "startWordIndex": 0,
+        "endWordIndex": 57,
+        "headScore": 0.8,
+        "tailScore": 1.0,
+        "coverage": 0.9310344827586207
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 4.59,
+      "clipEnd": 25.57,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 0.0,
+        "nextSpeechStart": 28.7,
+        "previousGap": 5.39,
+        "nextGap": 3.93,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q01",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q01.mp3",
+      "audioSha256": "92c1e0748c363257596ce595c9ef914f6bafc8dfafed6f9e0e447f3b60d66303",
+      "audioBytes": 337011,
+      "duration": 21.029,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 2,
+      "paragraphRange": [
+        3,
+        3
+      ],
+      "sourceTranscript": "Câu 2: Welcome to Rock City everyone, I'm excited to show you around this amazing place. Rock City has a very long and interesting history. People first started living here about 1500 years ago. Can you believe how old that is? It's older than many famous cities in the world. The city got its name because of all the big rocks you can see around us. Over time, people built houses and roads between these rocks. Today we can still see many old buildings from long ago.",
+      "sourceTokenCount": 88,
+      "observedCompleteRenditions": 1,
+      "speechStart": 28.7,
+      "speechEnd": 57.24,
+      "alignment": {
+        "startWordIndex": 58,
+        "endWordIndex": 142,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9659090909090909
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 27.9,
+      "clipEnd": 58.04,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 24.77,
+        "nextSpeechStart": 61.74,
+        "previousGap": 3.93,
+        "nextGap": 4.5,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q02",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q02.mp3",
+      "audioSha256": "0ba34e6579a64191fc519ceec2d7f16ae0e45350db17c8559e08a4ab935c8444",
+      "audioBytes": 483296,
+      "duration": 30.171,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 3,
+      "paragraphRange": [
+        5,
+        5
+      ],
+      "sourceTranscript": "Câu 3: Hi John, hi John, this is Sarah calling. I'm leaving you a message about our meeting today. I know we said we'd meet at 2, but something's come up. Can we change the time to 3 o'clock instead? I'll be at the usual coffee shop at 3. Please call me back if this doesn't work for you.",
+      "sourceTokenCount": 60,
+      "observedCompleteRenditions": 1,
+      "speechStart": 61.74,
+      "speechEnd": 78.88,
+      "alignment": {
+        "startWordIndex": 143,
+        "endWordIndex": 201,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.8666666666666667
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 60.94,
+      "clipEnd": 79.68,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 57.24,
+        "nextSpeechStart": 82.02,
+        "previousGap": 4.5,
+        "nextGap": 3.14,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q03",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q03.mp3",
+      "audioSha256": "f8341d76ccdcf3e190066585669b0e06a59e1dfc634af745c238797315eaa734",
+      "audioBytes": 301066,
+      "duration": 18.782,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 4,
+      "paragraphRange": [
+        7,
+        7
+      ],
+      "sourceTranscript": "Câu 4: I want to tell you about something special I just bought. It's a beautiful dress. The dress is long and red, just like a sunset. I feel so happy when I wear it. The fabric is soft and it flows nicely when I walk. I can wear it to a party or a nice dinner. I love my new dress.",
+      "sourceTokenCount": 63,
+      "observedCompleteRenditions": 1,
+      "speechStart": 82.02,
+      "speechEnd": 98.32,
+      "alignment": {
+        "startWordIndex": 202,
+        "endWordIndex": 261,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9523809523809523
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 81.22,
+      "clipEnd": 99.12,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 78.88,
+        "nextSpeechStart": 106.67,
+        "previousGap": 3.14,
+        "nextGap": 8.35,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q04",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q04.mp3",
+      "audioSha256": "e7727c7b0c09538a4f9d8b02612626696c8e49ebeb8968326869e35e081d91be",
+      "audioBytes": 287691,
+      "duration": 17.946,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 5,
+      "paragraphRange": [
+        9,
+        12
+      ],
+      "sourceTranscript": "Câu 5: A: Welcome, how may I help you? B: Yes, I would like to have some advice for my future job. I majored in mathematics. Is there anything that I could do? A: Well, there are a variety of career paths you can take. Let's say becoming a teacher, a businessman, or continue to study higher to become a researcher. B: I have a friend who also majors in mathematics, and he is now a businessman with his own company. I guess that would be my choice then. I am not suitable to become a teacher, since I think I am a bit impatient.",
+      "sourceTokenCount": 106,
+      "observedCompleteRenditions": 1,
+      "speechStart": 106.67,
+      "speechEnd": 140.73,
+      "alignment": {
+        "startWordIndex": 262,
+        "endWordIndex": 360,
+        "headScore": 0.6,
+        "tailScore": 1.0,
+        "coverage": 0.9339622641509434
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 105.87,
+      "clipEnd": 141.53,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 98.32,
+        "nextSpeechStart": 144.95,
+        "previousGap": 8.35,
+        "nextGap": 4.22,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q05",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q05.mp3",
+      "audioSha256": "b0a723c8d83f614461f663f71f8f26e8db2ab981380046884d7662631b44b71d",
+      "audioBytes": 571904,
+      "duration": 35.709,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 6,
+      "paragraphRange": [
+        14,
+        14
+      ],
+      "sourceTranscript": "Câu 6: You know, I want to talk about my old manager, George. He was a very smart man, and he taught me a lot about work. I remember the first time I joined the team, he showed me how to do my job well. George was not very strict, but he had high expectations. I learned to be better because of him. Overall, I am thankful for his guidance and support during my early days.",
+      "sourceTokenCount": 77,
+      "observedCompleteRenditions": 1,
+      "speechStart": 144.95,
+      "speechEnd": 167.57,
+      "alignment": {
+        "startWordIndex": 361,
+        "endWordIndex": 434,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.961038961038961
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 144.15,
+      "clipEnd": 168.37,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 140.73,
+        "nextSpeechStart": 172.08,
+        "previousGap": 4.22,
+        "nextGap": 4.51,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q06",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q06.mp3",
+      "audioSha256": "dbc585cda8bea6782892d2f8d862d360414c98bfb5438e2c55070e35075b420e",
+      "audioBytes": 388838,
+      "duration": 24.268,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 7,
+      "paragraphRange": [
+        16,
+        16
+      ],
+      "sourceTranscript": "Câu 7: In my free time, I love to go to the theater. There is something magical about watching a live performance. It makes me feel alive and happy. I also enjoy playing sports with my friends. We have so much fun together, whether it's soccer or basketball. These activities help me relax and make my days brighter.",
+      "sourceTokenCount": 59,
+      "observedCompleteRenditions": 1,
+      "speechStart": 172.08,
+      "speechEnd": 189.98,
+      "alignment": {
+        "startWordIndex": 435,
+        "endWordIndex": 491,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9491525423728814
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 171.28,
+      "clipEnd": 190.78,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 167.57,
+        "nextSpeechStart": 194.38,
+        "previousGap": 4.51,
+        "nextGap": 4.4,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q07",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q07.mp3",
+      "audioSha256": "949a621bca70d183553e3d61320cb71733bba4c311f2f5d9936899ae085f1bda",
+      "audioBytes": 313187,
+      "duration": 19.54,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 8,
+      "paragraphRange": [
+        18,
+        18
+      ],
+      "sourceTranscript": "Câu 8: When it comes to lunch, I have a simple pleasure. I really enjoy a warm cup of tea. It's my favorite drink to have while I eat. I find it calming, and it makes my meal feel special. Sometimes people ask me why I don't choose coffee or juice, but for me, tea is just perfect. It warms my heart and gives me a moment to relax.",
+      "sourceTokenCount": 70,
+      "observedCompleteRenditions": 1,
+      "speechStart": 194.38,
+      "speechEnd": 213.82,
+      "alignment": {
+        "startWordIndex": 492,
+        "endWordIndex": 558,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9571428571428572
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 193.58,
+      "clipEnd": 214.62,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 189.98,
+        "nextSpeechStart": 220.92,
+        "previousGap": 4.4,
+        "nextGap": 7.1,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q08",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q08.mp3",
+      "audioSha256": "576d83cb0bc7976c7005918696a4cc1a959ecb02970b892040c4f2e12f4a4fe2",
+      "audioBytes": 337847,
+      "duration": 21.081,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 9,
+      "paragraphRange": [
+        20,
+        20
+      ],
+      "sourceTranscript": "Câu 9: I'm so excited about my upcoming holiday. I've been thinking about where to go for a long time. Some of my friends suggested going to a nice beach.Others talked about exploring interesting caves. But I've made up my mind. I'm going to the mountains. The mountains are so beautiful with their green forests. I can't wait to breathe the fresh air up there. They are perfect for relaxing and enjoying nature.",
+      "sourceTokenCount": 75,
+      "observedCompleteRenditions": 1,
+      "speechStart": 220.92,
+      "speechEnd": 245.58,
+      "alignment": {
+        "startWordIndex": 559,
+        "endWordIndex": 630,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.96
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 220.12,
+      "clipEnd": 245.58,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 213.82,
+        "nextSpeechStart": 245.58,
+        "previousGap": 7.1,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q09",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q09.mp3",
+      "audioSha256": "e1307b9b077df82c126a064112a07bb54455c278c3612a4d22c14f4e0b33a064",
+      "audioBytes": 408482,
+      "duration": 25.496,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 10,
+      "paragraphRange": [
+        22,
+        22
+      ],
+      "sourceTranscript": "Câu 10: I really like living in the countryside. There are many green fields, tall trees, and small rivers. The air usually smells fresh and clean, but sometimes the air becomes dirty and hard to breathe. Many people think cars on the roads make the air bad. Others say the smoke from big factories is the problem. These things can make the air dirty, but in the countryside, there's a bigger issue. Farmers often start fires to clean their fields. They burn old plants and grass. These fires make a lot of smoke that goes into the air. It's sad because the smoke can hurt animals and make people sick. We need to find better ways to clean fields without using fire",
+      "sourceTokenCount": 123,
+      "observedCompleteRenditions": 1,
+      "speechStart": 245.58,
+      "speechEnd": 290.5,
+      "alignment": {
+        "startWordIndex": 631,
+        "endWordIndex": 750,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.975609756097561
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 245.58,
+      "clipEnd": 291.3,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 245.58,
+        "nextSpeechStart": 297.31,
+        "previousGap": 0.0,
+        "nextGap": 6.81,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q10",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q10.mp3",
+      "audioSha256": "b986c2eb2d49b99c54e7b1e69df4b94ee372265352450169791653933b356927",
+      "audioBytes": 732818,
+      "duration": 45.767,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 11,
+      "paragraphRange": [
+        24,
+        24
+      ],
+      "sourceTranscript": "Câu 11: Hey, are you free for coffee later? I found a great new place in town. It's not hard to find at all. You know the big gift shop on Main Street? Well, the coffee shop is right across from it. Just look for the gift shop, then cross the street. You'll see the coffee shop right there opposite the gift shop. They have amazing pastries too. Let's meet there at 3 p.m., okay?",
+      "sourceTokenCount": 77,
+      "observedCompleteRenditions": 1,
+      "speechStart": 297.31,
+      "speechEnd": 318.63,
+      "alignment": {
+        "startWordIndex": 751,
+        "endWordIndex": 824,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.948051948051948
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 296.51,
+      "clipEnd": 319.43,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 290.5,
+        "nextSpeechStart": 326.5,
+        "previousGap": 6.81,
+        "nextGap": 7.87,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q11",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q11.mp3",
+      "audioSha256": "428160db7f1dc0d99450b456f72ee185c9d62601850ed75d28d3d5b8d40c1ea4",
+      "audioBytes": 367940,
+      "duration": 22.962,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 12,
+      "paragraphRange": [
+        26,
+        26
+      ],
+      "sourceTranscript": "Câu 12: Hey there. I've been thinking we should get together soon (5:30) to discuss our upcoming project. I know weekends are usually good for meetings, but this time they're a bit tricky. Saturday is out because I've got a family event all day. And Sunday? Well, I usually use that day to catch up on rest and prepare for the week ahead. So I was wondering if we could meet on Tuesday instead. It works really well for me. What do you think about that?",
+      "sourceTokenCount": 86,
+      "observedCompleteRenditions": 1,
+      "speechStart": 326.5,
+      "speechEnd": 352.84,
+      "alignment": {
+        "startWordIndex": 825,
+        "endWordIndex": 908,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9651162790697675
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 325.7,
+      "clipEnd": 353.64,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 318.63,
+        "nextSpeechStart": 363.57,
+        "previousGap": 7.87,
+        "nextGap": 10.73,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q12",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q12.mp3",
+      "audioSha256": "bbf9a0f6896c3ad81d51deb0ad8a33ad4d89b2c69528e752668888c591f4bb73",
+      "audioBytes": 448188,
+      "duration": 27.977,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 1,
+      "index": 13,
+      "paragraphRange": [
+        28,
+        28
+      ],
+      "sourceTranscript": "Câu 13: Hi, Professor Smith. This is John calling about our meeting for the assignment. I wanted to confirm our appointment time. I know we discussed a few options earlier. At first, I thought we agreed on Tuesday morning, but then I remembered that doesn't work with your schedule. Then I considered Thursday afternoon, but I have another class then. So I'm pretty sure we settled on Thursday morning at 10 a.m. in your office. That's what I have written down. I'll bring my draft and notes for the project. If I've got the day or time wrong, or if you need me to bring anything else, please let me know. Looking forward to discussing the assignment with you. Have a great day.",
+      "sourceTokenCount": 125,
+      "observedCompleteRenditions": 3,
+      "speechStart": 363.57,
+      "speechEnd": 429.12,
+      "alignment": {
+        "startWordIndex": 909,
+        "endWordIndex": 1056,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.968
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 362.77,
+      "clipEnd": 429.92,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 352.84,
+        "nextSpeechStart": 433.44,
+        "previousGap": 10.73,
+        "nextGap": 4.32,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q13",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/q13.mp3",
+      "audioSha256": "32823f8528eb93ff40fd39b6a0597d7c1afdf37293ef9a5c5855d20f922aadc8",
+      "audioBytes": 1075545,
+      "duration": 67.187,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 2,
+      "index": 1,
+      "paragraphRange": [
+        31,
+        31
+      ],
+      "sourceTranscript": "Speaker A: You know what I love about online shopping? The fact that I don't even need to leave my house. I can be sitting in my pajamas, sipping coffee, and boom, whatever I want is on its way. It's like magic or, well, just modern convenience. No more carrying heavy bags or struggling with parking. The delivery driver brings it right to my doorstep, and all I have to do is click a button. Sometimes I even forget I ordered something, and it's like a little surprise when it shows up. It's almost too easy, almost.",
+      "sourceTokenCount": 95,
+      "observedCompleteRenditions": 2,
+      "speechStart": 433.44,
+      "speechEnd": 464.1,
+      "alignment": {
+        "startWordIndex": 1057,
+        "endWordIndex": 1151,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 432.64,
+      "clipEnd": 464.9,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 429.12,
+        "nextSpeechStart": 467.86,
+        "previousGap": 4.32,
+        "nextGap": 3.76,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-a",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-2/spk-a.mp3",
+      "audioSha256": "4fa83779de5a893b38e2e5a910f098f9d1560cd98be0cd2bedac3b829d0224f5",
+      "audioBytes": 517151,
+      "duration": 32.287,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 2,
+      "index": 2,
+      "paragraphRange": [
+        33,
+        33
+      ],
+      "sourceTranscript": "Speaker B: What really gets me excited is how reasonable the price can be. Like, have you ever compared the prices? Online stores are practically giving stuff away compared to what you'd pay in-store. And the sales? The discount codes? Half the time, I find a deal without even trying. Plus, I can shop around different sites to get the best price without moving an inch. Add in free shipping, and it's a no-brainer. I mean, why would I go to a store and pay more when I can get it for less, right?",
+      "sourceTokenCount": 94,
+      "observedCompleteRenditions": 2,
+      "speechStart": 467.86,
+      "speechEnd": 497.9,
+      "alignment": {
+        "startWordIndex": 1152,
+        "endWordIndex": 1229,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.8297872340425532
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 467.06,
+      "clipEnd": 498.7,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 464.1,
+        "nextSpeechStart": 500.74,
+        "previousGap": 3.76,
+        "nextGap": 2.84,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-b",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-2/spk-b.mp3",
+      "audioSha256": "63c8c2083c679bce6aba2f2e2dabd68f971eab9e43169dddda3ede6993f1b471",
+      "audioBytes": 507538,
+      "duration": 31.687,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 2,
+      "index": 3,
+      "paragraphRange": [
+        35,
+        35
+      ],
+      "sourceTranscript": "Speaker C: I swear, I don't know how people used to spend hours in malls. You can get lost in there, wandering around, dealing with lines. With online shopping, it's like time stretches out in your favor. I can find what I want in minutes, and then I'm done. Back to whatever I was doing. No driving, no waiting for the fitting rooms, none of that hassle. Time is money, right? And online shopping just gives me so much more of it to spend on the things that actually matter to me. And online shopping just gives me so much more of it to spend on the things that actually matter to me.",
+      "sourceTokenCount": 111,
+      "observedCompleteRenditions": 5,
+      "speechStart": 500.74,
+      "speechEnd": 561.28,
+      "alignment": {
+        "startWordIndex": 1230,
+        "endWordIndex": 1413,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.8108108108108109
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 499.94,
+      "clipEnd": 561.28,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 497.9,
+        "nextSpeechStart": 561.28,
+        "previousGap": 2.84,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-c",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-2/spk-c.mp3",
+      "audioSha256": "586168ea899952f9e90cda438dbb38ae2ac5d4bbb8f2fd1157e25104bbcd83e8",
+      "audioBytes": 982758,
+      "duration": 61.388,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 2,
+      "index": 4,
+      "paragraphRange": [
+        37,
+        37
+      ],
+      "sourceTranscript": "Speaker D: The selection online, it's insane. You walk into a store, and sure, they've got a couple racks of things, but online, it's like you're stepping into the biggest mall in the world. You can find anything, stuff you didn't even know existed. And if one site doesn't have your size or style, there's a hundred more that do. No need to settle for whatever happens to be on the shelves. It's all there, just waiting for you to find it. And the niche stuff? That's where online really shines.",
+      "sourceTokenCount": 89,
+      "observedCompleteRenditions": 3,
+      "speechStart": 561.28,
+      "speechEnd": 593.28,
+      "alignment": {
+        "startWordIndex": 1414,
+        "endWordIndex": 1507,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.9887640449438202
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 561.28,
+      "clipEnd": 594.08,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 561.28,
+        "nextSpeechStart": 599.54,
+        "previousGap": 0.0,
+        "nextGap": 6.26,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-d",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-2/spk-d.mp3",
+      "audioSha256": "d3f9191ef012ae4b7e2ee15e20f239fc0667190f0115e1ef0c4e399451231ddc",
+      "audioBytes": 525928,
+      "duration": 32.836,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 3,
+      "index": 1,
+      "paragraphRange": [
+        39,
+        47
+      ],
+      "sourceTranscript": "Man: You know, I've always believed that auditions are the most important part of an actor's career. I mean, that's where the magic happens. It doesn't matter how great you are in rehearsals, or even in the final performance, if you can't nail that audition, you're not getting anywhere. Woman: Yeah, but it's not just about the audition. I've seen actors who can absolutely shine when they're given the right material to work with. Strong scripts really bring out the best in them. If the writing's weak, even a talented actor might struggle to connect. I think actors respond best when they feel inspired by what's on the page Man: That's true, but whether it's a strong script or a weak one, they still have to nail that first audition to even get the chance to perform, right? Woman: Sure, the audition is key, but once they're in, the script can make or break their performance. It's kind of a balance between both. Man: I agree with that, but I also think there's a huge difference between theater acting and screen acting. The two require completely different skill sets. In theater, you've got to project and be larger than life, whereas on screen, it's all about subtlety, keeping everything smaller and more contained. Woman: Absolutely. There's such different worlds. The way you use your body, your voice, even how you interact with your fellow actors. It's all completely different, depending on whether you're on stage or in front of a camera. Man: Right, and that's why actors deserve as much praise as possible. They're constantly shifting between styles and adapting to new roles. It's tough. Woman: Couldn't agree more. I mean, whether it's theater or film, acting is such an emotional and demanding job. Encouragement and praise go a long way. They need to feel appreciated for all the work they put in. Man: Exactly. They're putting themselves out there every single time. A little praise can make all the difference in their confidence and their performance.",
+      "sourceTokenCount": 337,
+      "observedCompleteRenditions": 1,
+      "speechStart": 599.54,
+      "speechEnd": 732.47,
+      "alignment": {
+        "startWordIndex": 1508,
+        "endWordIndex": 1837,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 0.973293768545994
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 598.74,
+      "clipEnd": 732.47,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 593.28,
+        "nextSpeechStart": 732.47,
+        "previousGap": 6.26,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p3-task-all",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-3/task-all.mp3",
+      "audioSha256": "f248c273359fe8e3f1975f3e8a53b4b9cd9d254f5c46fe8c48dbeb5e5c18241f",
+      "audioBytes": 2140923,
+      "duration": 133.773,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 4,
+      "index": 1,
+      "paragraphRange": [
+        50,
+        50
+      ],
+      "sourceTranscript": "Ladies and gentlemen of the press, thank you for joining us today to discuss our regional development plan. As we move forward with this ambitious project, I'd like to address some of the concerns that have been raised. Now, I've heard whispers about our plan being too expensive or placing excessive emphasis on public transportation. Let me assure you, these are not accurate representations of our vision. Our budget has been carefully calculated and we believe it strikes the right balance between fiscal responsibility and necessary improvements. However, I will acknowledge that one of the main criticisms we've received is that our plan doesn't provide enough alternatives to driving. This is a valid concern and I want to assure you that we're taking it seriously. We're actively exploring additional options to diversify our transportation network and reduce reliance on personal vehicles. Some have suggested that we might face delays due to funding issues or difficulties in gaining government approval. While we always prepare for potential hurdles, I'm confident that our thorough planning and strong relationships with various governmental bodies will help us navigate any bureaucratic challenges smoothly. The real challenge we're anticipating and the one we're preparing for most diligently is the likelihood of resistance from local communities. Change can be difficult and we understand that. That's why we're committed to extensive community engagement, transparent communication, and working closely with neighborhood representatives to address concerns and incorporate local feedback. We believe this regional development plan is crucial for our area's future and we're dedicated to making it work for everyone. Thank you for your attention and I'm now ready to take your questions!",
+      "sourceTokenCount": 273,
+      "observedCompleteRenditions": 2,
+      "speechStart": 732.47,
+      "speechEnd": 851.8,
+      "alignment": {
+        "startWordIndex": 1838,
+        "endWordIndex": 2112,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 732.47,
+      "clipEnd": 851.8,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 732.47,
+        "nextSpeechStart": 851.8,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p4-mono1",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-4/mono1.mp3",
+      "audioSha256": "9cc07fac700d8553e6b5c42f845c18723246ccc42a0b15509ca62b1f04cbacd1",
+      "audioBytes": 1910627,
+      "duration": 119.38,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    {
+      "part": 4,
+      "index": 2,
+      "paragraphRange": [
+        53,
+        53
+      ],
+      "sourceTranscript": "You can often judge a movie based on its script. A poorly written script feels amateurish and detracts from the overall experience. While the storyline might be decent, with elements of humour and well-developed character backgrounds, (0:19) the relationships between the two main characters can feel forced due to unnatural dialogue. In the past, scriptwriting was less of an issue. Many good scripts were produced,with strong narratives and engaging content. However, modern production teams tend to focus more on visuals, innovative concepts, and world-building to impress audiences. This shift caters to a changing viewer base, which is often impatient and unwilling to stick with a series unless it becomes interesting quickly. The pressure to create short yet captivating storylines has led to many films being rejected by publishers or receiving low ratings from critics and viewers. While innovation is important, it should not come at the expense of a well-crafted script that forms the backbone of a compelling movie.",
+      "sourceTokenCount": 162,
+      "observedCompleteRenditions": 2,
+      "speechStart": 851.8,
+      "speechEnd": 923.79,
+      "alignment": {
+        "startWordIndex": 2113,
+        "endWordIndex": 2277,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.9938271604938271
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 851.8,
+      "clipEnd": 924.59,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 851.8,
+        "nextSpeechStart": 933.76,
+        "previousGap": 0.0,
+        "nextGap": 9.97,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p4-mono2",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-4/mono2.mp3",
+      "audioSha256": "b876747d61adf77f32dfe69699b8aabf00a8d0f73b5547d052a71b065f227e1d",
+      "audioBytes": 1165824,
+      "duration": 72.829,
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    }
+  ],
+  "partAudio": {
+    "1": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-1/task-all.mp3",
+      "start": 4.59,
+      "end": 429.92,
+      "duration": 425.378,
+      "sha256": "7f1562d8e5b1e0e7152e8dd46ec0dbff701dc4b04f6d99b1479e522cf3716879",
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    "2": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-2/task-all.mp3",
+      "start": 432.64,
+      "end": 594.08,
+      "duration": 161.489,
+      "sha256": "8b7762a985f5f4ec13f429899f188147f72e22e10d3034fe1d696798922b788f",
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    "3": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-3/task-all.mp3",
+      "start": 598.74,
+      "end": 732.47,
+      "duration": 133.773,
+      "sha256": "f248c273359fe8e3f1975f3e8a53b4b9cd9d254f5c46fe8c48dbeb5e5c18241f",
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    },
+    "4": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-03/part-4/task-all.mp3",
+      "start": 732.47,
+      "end": 924.59,
+      "duration": 192.157,
+      "sha256": "f3002673b6427e87d4310d5f079aada3ec2d5bcda60ae4b94ee5a40c03e22738",
+      "sourceMasterSha256": "6eb6512f6328cda0e8bab8178ab3f04a2e3dbb6101e47e83bacc8f6a359b30b2"
+    }
+  }
+}

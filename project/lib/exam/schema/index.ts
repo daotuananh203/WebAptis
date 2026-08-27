@@ -179,10 +179,13 @@ export const ListeningPlaybackRulesSchema = z.object({
 export const ListeningAudioObjectSchema = z.object({
   type: z.string(),
   url: z.string(),
-  status: z.enum(["available", "missing", "VERIFIED", "NOT_VERIFIED", "PARTIALLY_VERIFIED", "segment"]),
+  status: z.enum(["available", "missing", "VERIFIED", "NOT_VERIFIED", "PARTIALLY_VERIFIED", "UNCERTAIN", "segment"]),
   audioSegmentStatus: z.enum(["VERIFIED", "NOT_VERIFIED"]).optional(),
   start: z.number().optional(),
   end: z.number().optional(),
+  sha256: z.string().regex(/^[a-f0-9]{64}$/).optional(),
+  duration: z.number().positive().optional(),
+  cacheVersion: z.string().min(1).optional(),
   source: z.string().optional(),
   sharedGroupId: z.string().optional(),
 });

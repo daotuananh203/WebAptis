@@ -22,6 +22,7 @@ import { loadProgressHistory, saveProgressAttempt } from "@/lib/storage";
 import { ProgressAttemptRecord } from "@/lib/progress/types";
 import { generateRecommendations } from "@/lib/recommendations";
 import { StudyRecommendation } from "@/lib/recommendations/types";
+import { formatTestDisplayName } from "@/lib/exam/test-catalog";
 
 export interface PracticeShellProps {
   skill: string;
@@ -370,7 +371,7 @@ export function PracticeShell({
 
         <div className="flex items-center gap-2">
           <Badge variant="outline" className="text-[11px] font-bold px-2.5 py-1 bg-emerald-500/15 text-emerald-300 border-emerald-500/30">
-            {testId.replace("aptis-b2-", "Đề ")} • {skill} • {partIdentifier}
+            {formatTestDisplayName(testId)} • {skill} • {partIdentifier}
           </Badge>
           <PracticeTimer initialSeconds={600} />
         </div>

@@ -9,6 +9,7 @@ import { loadActiveMockTestSession, loadCompletedMockTestSession } from "@/lib/s
 import { MockTestSessionState } from "@/lib/storage/types";
 
 import { useAuth } from "@/lib/hooks/use-auth";
+import { formatTestDisplayName } from "@/lib/exam/test-catalog";
 
 export default function MockTestResultPage() {
   const params = useParams();
@@ -61,7 +62,7 @@ export default function MockTestResultPage() {
     <AppShell
       breadcrumbs={[
         { label: "Thi thử Mock Test", href: "/mock-test" },
-        { label: `Báo cáo điểm: ${session.testId.replace("aptis-b2-", "Đề ")}` },
+        { label: `Báo cáo điểm: ${formatTestDisplayName(session.testId)}` },
       ]}
       headerTitle="Báo cáo kết quả bài thi thử"
       headerDescription="Xem chi tiết điểm số 5 kỹ năng, ước lượng chuẩn CEFR và đánh giá từ Cố vấn AI."

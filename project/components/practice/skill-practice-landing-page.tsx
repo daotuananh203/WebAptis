@@ -13,6 +13,7 @@ import {
 import { PracticeModeCard, PracticeBadgeType } from "./practice-mode-card";
 import { ExamComponentSkill } from "@/lib/progress/types";
 import { Badge } from "../ui/badge";
+import { ALL_EXAM_TEST_CATALOG } from "@/lib/exam/test-catalog";
 
 export interface PracticeModeDef {
   badge: PracticeBadgeType;
@@ -44,9 +45,12 @@ export interface SkillPracticeLandingPageProps {
   modeCount: number;
   modes: PracticeModeDef[];
   parts: PartOptionDef[];
+  tests?: Array<{
+    testId: string;
+    label: string;
+    hasListeningAudio?: boolean;
+  }>;
 }
-
-const ALL_TEST_NUMBERS = Array.from({ length: 16 }, (_, i) => i + 1);
 
 export function SkillPracticeLandingPage({
   skillName,
@@ -55,6 +59,7 @@ export function SkillPracticeLandingPage({
   modeCount,
   modes,
   parts,
+  tests = ALL_EXAM_TEST_CATALOG,
 }: SkillPracticeLandingPageProps) {
   const partsSectionRef = React.useRef<HTMLDivElement>(null);
 
@@ -128,7 +133,7 @@ export function SkillPracticeLandingPage({
               <span>Luyện theo từng Part: {skillName}</span>
             </h2>
             <p className="text-xs text-slate-300">
-              16 bộ đề chuẩn Edulife có sẵn cho mỗi phần thi
+              {tests.length} bộ đề nguồn có sẵn cho mỗi phần thi
             </p>
           </div>
         </div>
@@ -170,17 +175,16 @@ export function SkillPracticeLandingPage({
               {/* 16 Tests Grid for this part */}
               <div className="space-y-2">
                 <span className="text-xs font-bold text-slate-300 block">
-                  Chọn Bộ đề ôn luyện (Đề 01 → Đề 16):
+                  Chọn bộ đề ôn luyện:
                 </span>
                 <div className="grid grid-cols-4 sm:grid-cols-8 gap-2">
-                  {ALL_TEST_NUMBERS.map((testNum) => {
-                    const testId = `aptis-b2-${testNum.toString().padStart(2, "0")}`;
-                    const isMissingAudio = skillKey === "listening" && testNum === 16;
+                  {tests.map((test) => {
+                    const isMissingAudio = skillKey === "listening" && test.hasListeningAudio === false;
 
                     return (
                       <Link
-                        key={testId}
-                        href={`${part.href}?testId=${testId}`}
+                        key={test.testId}
+                        href={`${part.href}?testId=${test.testId}`}
                         className={`group p-2.5 rounded-xl border text-center transition-all cursor-pointer flex flex-col items-center justify-center gap-1 ${
                           isMissingAudio
                             ? "border-amber-500/30 bg-amber-500/10 hover:bg-amber-500/20 text-amber-300"
@@ -188,7 +192,7 @@ export function SkillPracticeLandingPage({
                         }`}
                       >
                         <span className="text-xs font-bold group-hover:text-emerald-300 transition-colors">
-                          Đề {testNum.toString().padStart(2, "0")}
+                          {test.label}
                         </span>
                         <span className="text-[9px] text-slate-300 group-hover:text-emerald-300">
                           {isMissingAudio ? "No Audio" : "Vào làm"}

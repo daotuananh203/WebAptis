@@ -5,6 +5,7 @@ import { Send } from "lucide-react";
 import { ExamTimer } from "./exam-timer";
 import { SectionNavigation } from "./section-navigation";
 import { ExamComponentSkill } from "@/lib/progress/types";
+import { formatTestDisplayName } from "@/lib/exam/test-catalog";
 
 export interface ExamHeaderProps {
   testId: string;
@@ -57,7 +58,7 @@ export function ExamHeader({
                 </span>
               </div>
               <p className="text-[10px] sm:text-[11px] text-slate-300 font-mono leading-none mt-0.5">
-                {testId.replace("aptis-b2-", "Đề ")}
+                {formatTestDisplayName(testId)}
               </p>
             </div>
           </div>

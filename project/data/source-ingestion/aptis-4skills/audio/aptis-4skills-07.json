@@ -1,0 +1,862 @@
+{
+  "testId": "aptis-4skills-07",
+  "sourceMaster": "APTIS\\Bộ đề 4 kĩ năng\\File Nghe + Transcript + Đáp án Aptis\\File Nghe\\Đề 7.mp3",
+  "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f",
+  "sourceMasterDuration": 2394.305,
+  "blocks": [
+    {
+      "part": 1,
+      "index": 1,
+      "paragraphRange": [
+        1,
+        1
+      ],
+      "sourceTranscript": "Câu 1: Hi Mom, it's me. I'm stuck in traffic right now, so I'll be late. The train takes about 20 minutes, but I'll arrive 10 minutes late. Don't worry, though! We still have 15 minutes until our appointment with Mr. Smith. I'll hurry as much as I can. I just wanted to let you know, so you're not waiting too long!",
+      "sourceTokenCount": 63,
+      "observedCompleteRenditions": 1,
+      "speechStart": 42.29,
+      "speechEnd": 64.41,
+      "alignment": {
+        "startWordIndex": 0,
+        "endWordIndex": 59,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9523809523809523
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 41.49,
+      "clipEnd": 65.21,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 0.0,
+        "nextSpeechStart": 77.97,
+        "previousGap": 42.29,
+        "nextGap": 13.56,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q01",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q01.mp3",
+      "audioSha256": "772aad4afcf6781dec42605d48f2c37935866ccd4c34aec4b3f24850fbb6ff39",
+      "audioBytes": 380896,
+      "duration": 23.771,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 2,
+      "paragraphRange": [
+        2,
+        2
+      ],
+      "sourceTranscript": "Câu 2: I just checked the movie schedule, and the film actually begins at 6:40, not at 7:00 like I thought. After the movie, we'll finish around 9:20. Do you want to grab something to eat afterward? We can go to that new restaurant nearby and relax after the movie. It'll be nice to talk about the film while enjoying a meal together!",
+      "sourceTokenCount": 67,
+      "observedCompleteRenditions": 1,
+      "speechStart": 77.97,
+      "speechEnd": 98.23,
+      "alignment": {
+        "startWordIndex": 60,
+        "endWordIndex": 122,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.8805970149253731
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 77.17,
+      "clipEnd": 99.03,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 64.41,
+        "nextSpeechStart": 108.76,
+        "previousGap": 13.56,
+        "nextGap": 10.53,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q02",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q02.mp3",
+      "audioSha256": "68f94c099b1df64f98582db70e7c33f1f7bc07299af397536f37e6cc189beb51",
+      "audioBytes": 350803,
+      "duration": 21.891,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 3,
+      "paragraphRange": [
+        3,
+        3
+      ],
+      "sourceTranscript": "Câu 3: After finishing my classes at school, I wanted to ask if you'd like to meet up. How about we go to a cafe? It's a nice spot, but to be honest, we often end up there. I thought it might be refreshing to change things up a bit. How about we meet by the park instead? We can enjoy the fresh air and maybe take a walk. What do you think?",
+      "sourceTokenCount": 74,
+      "observedCompleteRenditions": 3,
+      "speechStart": 108.76,
+      "speechEnd": 153.66,
+      "alignment": {
+        "startWordIndex": 123,
+        "endWordIndex": 259,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9594594594594594
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 107.96,
+      "clipEnd": 153.66,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 98.23,
+        "nextSpeechStart": 153.66,
+        "previousGap": 10.53,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q03",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q03.mp3",
+      "audioSha256": "0dfc857a4f81064df3d6d09c7de842ffe39489f78d588007d4a625a194f53a0d",
+      "audioBytes": 732400,
+      "duration": 45.74,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 4,
+      "paragraphRange": [
+        4,
+        4
+      ],
+      "sourceTranscript": "Câu 4: Hey! Today is my first day at university, and I want to make sure I'm on the right route. First, I'll go straight to Main Street. After that, I need to turn left at the hospital. I've heard that the university is not far from there. Once I reach the traffic lights, I'll turn right, and I should be able to see the campus soon. Is that the correct way?",
+      "sourceTokenCount": 73,
+      "observedCompleteRenditions": 4,
+      "speechStart": 153.66,
+      "speechEnd": 208.38,
+      "alignment": {
+        "startWordIndex": 260,
+        "endWordIndex": 399,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.958904109589041
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 153.66,
+      "clipEnd": 208.704,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 153.66,
+        "nextSpeechStart": 209.1,
+        "previousGap": 0.0,
+        "nextGap": 0.72,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q04",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q04.mp3",
+      "audioSha256": "91cf53f1f6bf4f662d38af2955adac598284c4a5c51d92b351bff82fac722475",
+      "audioBytes": 882029,
+      "duration": 55.092,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 5,
+      "paragraphRange": [
+        5,
+        5
+      ],
+      "sourceTranscript": "Câu 5: So, we have several options for your computer. The one priced at £145 is great for light gaming and everyday use. If you need something more powerful for complex tasks, I recommend the £155 model, which offers better performance. However, if you're looking for something basic for simple tasks, the cheapest option at £135 would be perfect.",
+      "sourceTokenCount": 60,
+      "observedCompleteRenditions": 4,
+      "speechStart": 209.1,
+      "speechEnd": 266.4,
+      "alignment": {
+        "startWordIndex": 400,
+        "endWordIndex": 516,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.95
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 208.776,
+      "clipEnd": 266.4,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 208.38,
+        "nextSpeechStart": 266.4,
+        "previousGap": 0.72,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q05",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q05.mp3",
+      "audioSha256": "d8c6e64614ecafdfe2fa75311ccad2b1344cba2e37826f7f3bf463959be9b453",
+      "audioBytes": 922989,
+      "duration": 57.652,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 6,
+      "paragraphRange": [
+        7,
+        7
+      ],
+      "sourceTranscript": "Câu 6: Welcome, everyone! Today, I'd like to introduce you to this iconic building. Originally built in the 1920s, it served as a museum until 1940. After World War II, it was transformed into a cinema, showcasing films for the public. Today, this beautiful structure is now a bustling department store, offering a wide range of products.",
+      "sourceTokenCount": 59,
+      "observedCompleteRenditions": 4,
+      "speechStart": 266.4,
+      "speechEnd": 323.51,
+      "alignment": {
+        "startWordIndex": 517,
+        "endWordIndex": 630,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9491525423728814
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 266.4,
+      "clipEnd": 323.51,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 266.4,
+        "nextSpeechStart": 323.51,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q06",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q06.mp3",
+      "audioSha256": "f831c746b655622f28301624d513a39a3c194644cd7f86894ea5ba59d4cd089d",
+      "audioBytes": 915048,
+      "duration": 57.156,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 7,
+      "paragraphRange": [
+        8,
+        8
+      ],
+      "sourceTranscript": "Câu 7: I studied engineering in school, but after graduation, I decided to pursue a different path. I found a teaching position that was very rewarding, as I enjoyed sharing knowledge with students. However, I eventually transitioned to working as an electrician, which has allowed me to apply my technical skills in a hands-on way. This job has been a great fit for me.",
+      "sourceTokenCount": 66,
+      "observedCompleteRenditions": 4,
+      "speechStart": 323.51,
+      "speechEnd": 376.18,
+      "alignment": {
+        "startWordIndex": 631,
+        "endWordIndex": 756,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9545454545454546
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 323.51,
+      "clipEnd": 376.18,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 323.51,
+        "nextSpeechStart": 376.18,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q07",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q07.mp3",
+      "audioSha256": "758cf1a29de42afc38cf1128d1aef7ac98eccd052d36e06226b87dce2069a09e",
+      "audioBytes": 843995,
+      "duration": 52.715,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 8,
+      "paragraphRange": [
+        9,
+        9
+      ],
+      "sourceTranscript": "Câu 8: I've always wanted to be a doctor. It's fulfilling to know that I can make a difference in someone's life. My family is also proud of this career choice, and they have encouraged me along the way. Some friends say doctors earn a lot of money, which is a nice bonus, but my main goal remains to save lives and provide care to those who need it most.",
+      "sourceTokenCount": 71,
+      "observedCompleteRenditions": 4,
+      "speechStart": 376.18,
+      "speechEnd": 426.92,
+      "alignment": {
+        "startWordIndex": 757,
+        "endWordIndex": 892,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9577464788732394
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 376.18,
+      "clipEnd": 426.92,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 376.18,
+        "nextSpeechStart": 426.92,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q08",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q08.mp3",
+      "audioSha256": "70d027a580ef8d86fdfafc7f3c91d28abb63e59e60ece68a480d89eed35cba5b",
+      "audioBytes": 813066,
+      "duration": 50.782,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 9,
+      "paragraphRange": [
+        10,
+        10
+      ],
+      "sourceTranscript": "Câu 9: I need to report a loss. I went shopping for jewelry to buy a necklace for my friend's wedding. Afterward, I took the 7.30pm train home and realized I left my bag on the seat. Thankfully, I was holding my wallet, so I still have that. The bag had some important items in it, and I really hope to find it.",
+      "sourceTokenCount": 65,
+      "observedCompleteRenditions": 4,
+      "speechStart": 426.92,
+      "speechEnd": 476.92,
+      "alignment": {
+        "startWordIndex": 893,
+        "endWordIndex": 1022,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9384615384615385
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 426.92,
+      "clipEnd": 476.92,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 426.92,
+        "nextSpeechStart": 476.92,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q09",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q09.mp3",
+      "audioSha256": "813133dad37dec2c667eb18f077400a13421259e576e523da168098c15a91182",
+      "audioBytes": 801363,
+      "duration": 50.051,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 10,
+      "paragraphRange": [
+        11,
+        11
+      ],
+      "sourceTranscript": "Câu 10: This semester, I'm in Miss Taylor's class. She's a new teacher, so I'm still getting to know her style. I've heard great things, but I really miss Miss Brown. She was my favorite teacher! Miss Brown was so engaging and made learning fun. Unlike Mr. Styles, who is quite strict, Miss Brown always encouraged us to ask questions and express ourselves. I hope Miss Taylor will be just as inspiring!",
+      "sourceTokenCount": 73,
+      "observedCompleteRenditions": 1,
+      "speechStart": 476.92,
+      "speechEnd": 514.83,
+      "alignment": {
+        "startWordIndex": 1023,
+        "endWordIndex": 1092,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.958904109589041
+      },
+      "discardedIncompleteRenditions": 2,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 476.92,
+      "clipEnd": 515.63,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 476.92,
+        "nextSpeechStart": 543.54,
+        "previousGap": 0.0,
+        "nextGap": 28.71,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q10",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q10.mp3",
+      "audioSha256": "5823e6f891a3dabf8c2e775587e38e136b9f7e3f561f24e5903cf5aa540fd923",
+      "audioBytes": 620387,
+      "duration": 38.74,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 11,
+      "paragraphRange": [
+        12,
+        12
+      ],
+      "sourceTranscript": "Câu 11: I'd like to return this dress, please. The pattern is really beautiful, and I love it! The color is a bit unusual for me, but it looks nice when I wear it. The main issue is the size; it's too small. I hoped to lose weight, but I don't think I can do it in time. I just bought it yesterday, so I hope the return process is easy.",
+      "sourceTokenCount": 72,
+      "observedCompleteRenditions": 3,
+      "speechStart": 543.54,
+      "speechEnd": 599.88,
+      "alignment": {
+        "startWordIndex": 1158,
+        "endWordIndex": 1299,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9444444444444444
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 542.74,
+      "clipEnd": 599.88,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 514.83,
+        "nextSpeechStart": 599.88,
+        "previousGap": 28.71,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q11",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q11.mp3",
+      "audioSha256": "c08d159029b0b032766b48670e9721cad4537cf59ce838dbebff6a97bbaf38dc",
+      "audioBytes": 915466,
+      "duration": 57.182,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 12,
+      "paragraphRange": [
+        13,
+        13
+      ],
+      "sourceTranscript": "Câu 12: I'm not impressed with this new restaurant. Honestly, we shouldn't have chosen to eat here. The prices are high, and I'm not even sure if the food is good or not. But what really bothers me is the slow service. It's taking forever to get our orders. It's been 25 minutes and I'm so hungry!",
+      "sourceTokenCount": 58,
+      "observedCompleteRenditions": 2,
+      "speechStart": 599.88,
+      "speechEnd": 633.28,
+      "alignment": {
+        "startWordIndex": 1300,
+        "endWordIndex": 1360,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9482758620689655
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 599.88,
+      "clipEnd": 634.08,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 599.88,
+        "nextSpeechStart": 638.87,
+        "previousGap": 0.0,
+        "nextGap": 5.59,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q12",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q12.mp3",
+      "audioSha256": "d567ccd0b32dd9f0be8285364315ceb4ea0c4f83b323d66b55e141abfd77599c",
+      "audioBytes": 548498,
+      "duration": 34.247,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 1,
+      "index": 13,
+      "paragraphRange": [
+        14,
+        14
+      ],
+      "sourceTranscript": "Câu 13: I'm so glad we decided to take this field trip. It's a great way to learn about history in a more interactive way. I know some of you were hoping we could visit the museum instead, but I think this townhouse trip is a more unique experience. It is also near our school, which is more convenient for you. I hope you're all enjoying yourselves and learning a lot today!",
+      "sourceTokenCount": 73,
+      "observedCompleteRenditions": 1,
+      "speechStart": 638.87,
+      "speechEnd": 659.01,
+      "alignment": {
+        "startWordIndex": 1361,
+        "endWordIndex": 1430,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.958904109589041
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 638.07,
+      "clipEnd": 659.81,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 633.28,
+        "nextSpeechStart": 666.66,
+        "previousGap": 5.59,
+        "nextGap": 7.65,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q13",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/q13.mp3",
+      "audioSha256": "920c7996b0981f99cc7dbbdf7c0f735fa72de72503723ffa5ba40895c36b0be0",
+      "audioBytes": 349131,
+      "duration": 21.786,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 2,
+      "index": 1,
+      "paragraphRange": [
+        16,
+        16
+      ],
+      "sourceTranscript": "Person A: I've always found music to be the best way to unwind after a long day. I like to listen to music when I want to relax. It helps me switch off from everything, whether I'm lying on the couch or taking a walk in the park. I usually go for something soft and calming, like acoustic or classical music. It's my way of de- stressing and escaping from all the noise of everyday life. I just close my eyes, and the music takes me away.",
+      "sourceTokenCount": 87,
+      "observedCompleteRenditions": 1,
+      "speechStart": 666.66,
+      "speechEnd": 692.82,
+      "alignment": {
+        "startWordIndex": 1431,
+        "endWordIndex": 1515,
+        "headScore": 0.8,
+        "tailScore": 1.0,
+        "coverage": 0.9770114942528736
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 665.86,
+      "clipEnd": 692.82,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 659.01,
+        "nextSpeechStart": 692.82,
+        "previousGap": 7.65,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-a",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-2/spk-a.mp3",
+      "audioSha256": "6ff230b7e5d069fe12d4430745ed37a0875c93fedbdff7bd1ebf3a7bcc14da33",
+      "audioBytes": 432723,
+      "duration": 27.011,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 2,
+      "index": 2,
+      "paragraphRange": [
+        17,
+        17
+      ],
+      "sourceTranscript": "Person B: For me, music is a must when I'm studying. I know some people find it distracting, but I actually concentrate better when there's music playing in the background. I usually pick something without lyrics, like instrumental or electronic music, so it doesn't interrupt my thinking. It keeps me focused and helps me stay motivated when I'm working on long assignments or preparing for exams. It's become part of my study routine now.",
+      "sourceTokenCount": 74,
+      "observedCompleteRenditions": 1,
+      "speechStart": 692.82,
+      "speechEnd": 721.0,
+      "alignment": {
+        "startWordIndex": 1516,
+        "endWordIndex": 1587,
+        "headScore": 0.8,
+        "tailScore": 1.0,
+        "coverage": 0.972972972972973
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 692.82,
+      "clipEnd": 721.8,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 692.82,
+        "nextSpeechStart": 723.24,
+        "previousGap": 0.0,
+        "nextGap": 2.24,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-b",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-2/spk-b.mp3",
+      "audioSha256": "54bbf5f619338c086cba73d22df411dc8395a4ec2198f27155fa2d3ecb959990",
+      "audioBytes": 464906,
+      "duration": 29.022,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 2,
+      "index": 3,
+      "paragraphRange": [
+        18,
+        18
+      ],
+      "sourceTranscript": "Person C: I've always loved singing, so I listen to music whenever I feel like practicing my vocals. It's not just about listening for fun; I like to sing along and try to improve my voice. Whether it's pop songs or karaoke tracks, I find it really enjoyable and a great way to express myself. Sometimes I even record myself to see how I'm doing. It's a fun hobby, and I love exploring new songs and melodies.",
+      "sourceTokenCount": 77,
+      "observedCompleteRenditions": 3,
+      "speechStart": 723.24,
+      "speechEnd": 783.0,
+      "alignment": {
+        "startWordIndex": 1588,
+        "endWordIndex": 1732,
+        "headScore": 0.8,
+        "tailScore": 1.0,
+        "coverage": 0.974025974025974
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 722.44,
+      "clipEnd": 783.0,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 721.0,
+        "nextSpeechStart": 783.0,
+        "previousGap": 2.24,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-c",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-2/spk-c.mp3",
+      "audioSha256": "be98b826d278ebb99e79ecf75407fda584190956d679ac246d53bff077511e8c",
+      "audioBytes": 970219,
+      "duration": 60.604,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 2,
+      "index": 4,
+      "paragraphRange": [
+        19,
+        19
+      ],
+      "sourceTranscript": "Person D: I like to start my day with music as soon as I wake up. It helps me feel energized and ready for whatever lies ahead. As soon as I get out of bed, I turn on my favorite playlist, which is usually full of upbeat, happy songs. It's like my morning ritual, setting the mood for the day and getting me in a good headspace. Music really helps kick-start my mornings on a positive note!",
+      "sourceTokenCount": 78,
+      "observedCompleteRenditions": 2,
+      "speechStart": 783.0,
+      "speechEnd": 811.54,
+      "alignment": {
+        "startWordIndex": 1733,
+        "endWordIndex": 1812,
+        "headScore": 0.8,
+        "tailScore": 0.8,
+        "coverage": 0.9487179487179487
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 783.0,
+      "clipEnd": 812.34,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 783.0,
+        "nextSpeechStart": 821.33,
+        "previousGap": 0.0,
+        "nextGap": 9.79,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-d",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-2/spk-d.mp3",
+      "audioSha256": "6551d48addb71e4325038456bdca1c5848fb4d2ca9f2991731cfcd771a9f8b77",
+      "audioBytes": 470758,
+      "duration": 29.388,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 3,
+      "index": 1,
+      "paragraphRange": [
+        21,
+        30
+      ],
+      "sourceTranscript": "Woman: You know, I really believe that singers can be good role models for young people. Their influence can inspire kids to pursue their dreams and express themselves. Just think about how many young artists start singing because they look up to someone famous. Man: I'm not so sure about that. While some singers may have positive messages, others don't always set the best example. Sometimes their lifestyles can be quite the opposite of what we'd want kids to emulate. Woman: Fair point, but I think many young fans look up to their favorite artists and adopt their values. Artists like Taylor Swift or Ed Sheeran often promote kindness and hard work. Man: I get that. But when it comes to taste in music, it's such a highly personal thing. What resonates with one person might not resonate with another. I mean, I might love rock while my friend prefers classical! Woman: Absolutely! Everyone has their own preferences, and that's what makes music so interesting. It is like a reflection of our individual personalities. Man: Exactly! And speaking of music, I believe it's a universal language that connects people from different cultures. You can go anywhere in the world and find someone who enjoys music. Woman: I don't fully agree with that. While music can connect people, its meanings can vary greatly between cultures. A song that makes one group happy might not even be understood by another. Man: True, but one thing we can both agree on is that music can be used to manipulate people's feelings, whether in advertising or emotional moments in movies. Woman: Definitely! It's amazing how a song can evoke such strong emotions in us. Just think about those movie soundtracks that give you chills or make you cry. Music has that incredible power. Man: Right? It's fascinating how a simple melody can tap into our emotions so deeply.",
+      "sourceTokenCount": 314,
+      "observedCompleteRenditions": 1,
+      "speechStart": 821.33,
+      "speechEnd": 944.03,
+      "alignment": {
+        "startWordIndex": 1813,
+        "endWordIndex": 2116,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 0.9617834394904459
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 820.53,
+      "clipEnd": 944.83,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 811.54,
+        "nextSpeechStart": 960.29,
+        "previousGap": 9.79,
+        "nextGap": 16.26,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p3-task-all",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-3/task-all.mp3",
+      "audioSha256": "2009520c9eaa1a714c7fb23563af398361a6bb787fabd715731098c91aa2dd84",
+      "audioBytes": 1990039,
+      "duration": 124.343,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 4,
+      "index": 1,
+      "paragraphRange": [
+        33,
+        33
+      ],
+      "sourceTranscript": "This guidebook is designed to inspire exploration and curiosity. Instead of simply listing famous landmarks, it encourages readers to step off the beaten path and discover hidden gems. For example, it includes local stories, unique activities, and tips for immersing oneself in the culture of the places they visit. Some might think it is a little bit difficult to navigate, but in reality, it makes each journey feel like an adventure, allowing travelers to create unforgettable memories and experiences that go beyond the typical sightseeing. This guidebook resonates well with younger travelers today. Some say it's only for seasoned explorers because it focuses on local cultures, which beginners might find confusing. Others think it's outdated for those who prefer modern apps. However, it encourages real connections and unique experiences, helping travelers engage with locals.",
+      "sourceTokenCount": 134,
+      "observedCompleteRenditions": 3,
+      "speechStart": 960.29,
+      "speechEnd": 1023.71,
+      "alignment": {
+        "startWordIndex": 2135,
+        "endWordIndex": 2273,
+        "headScore": 1.0,
+        "tailScore": 0.9,
+        "coverage": 0.9776119402985075
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 959.49,
+      "clipEnd": 1024.51,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 944.03,
+        "nextSpeechStart": 1029.33,
+        "previousGap": 16.26,
+        "nextGap": 5.62,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p4-mono1",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-4/mono1.mp3",
+      "audioSha256": "d27a6d57a571491ee46892edbf6d4ad25c519ae3d2814d6e6f7ba59caabd1b82",
+      "audioBytes": 1041690,
+      "duration": 65.071,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    {
+      "part": 4,
+      "index": 2,
+      "paragraphRange": [
+        35,
+        35
+      ],
+      "sourceTranscript": "Today, I want to share my thoughts on a fascinating book about the life of renowned scientist Dr. Emily Carter. One of the standout features of this book is that the way of writing is exciting for readers. The author has a talent for bringing complex scientific concepts to life, making it an engaging experience. While some may expect a heavy focus on technical details, this book skillfully balances science with storytelling, ensuring that it remains accessible. It's definitely not more of a textbook than a biography; instead, it invites readers into the scientist's world in a relatable way. Overall, I'd say it has been written for a general audience. The author's aim seems to be to inspire curiosity about science and encourage readers from all backgrounds to appreciate the contributions of Dr. Carter. Unlike other works that are only suitable for experts in the field, this book truly welcomes everyone to explore the life of an extraordinary scientist.",
+      "sourceTokenCount": 159,
+      "observedCompleteRenditions": 2,
+      "speechStart": 1029.33,
+      "speechEnd": 1081.77,
+      "alignment": {
+        "startWordIndex": 2274,
+        "endWordIndex": 2432,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 1028.53,
+      "clipEnd": 1082.57,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 1023.71,
+        "nextSpeechStart": 2394.256,
+        "previousGap": 5.62,
+        "nextGap": 1312.486,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p4-mono2",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-4/mono2.mp3",
+      "audioSha256": "e19eb43c34400373895fa166223e36b80572e418e7d95eb2d0a8d5ada741777c",
+      "audioBytes": 865729,
+      "duration": 54.073,
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    }
+  ],
+  "partAudio": {
+    "1": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-1/task-all.mp3",
+      "start": 41.49,
+      "end": 659.81,
+      "duration": 618.371,
+      "sha256": "561e158eadf0d6025e165de394e460a1516182b5aba3bff361ba42b6ad301a79",
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    "2": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-2/task-all.mp3",
+      "start": 665.86,
+      "end": 812.34,
+      "duration": 146.521,
+      "sha256": "9d546dca35f7fed34137b5d64cb68dd2c954602bea0091140712ab3abea40db0",
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    "3": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-3/task-all.mp3",
+      "start": 820.53,
+      "end": 944.83,
+      "duration": 124.343,
+      "sha256": "2009520c9eaa1a714c7fb23563af398361a6bb787fabd715731098c91aa2dd84",
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    },
+    "4": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-07/part-4/task-all.mp3",
+      "start": 959.49,
+      "end": 1082.57,
+      "duration": 123.115,
+      "sha256": "f593856dd929ab6067a46778e17df1c451dab448b8319abec7136a5fc8ac1fe5",
+      "sourceMasterSha256": "4aee00b26feded7d81c88271dc72d54eb7b8d449bdfb722342fb0a8e0d06f62f"
+    }
+  }
+}

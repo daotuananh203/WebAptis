@@ -1,0 +1,862 @@
+{
+  "testId": "aptis-4skills-05",
+  "sourceMaster": "APTIS\\Bộ đề 4 kĩ năng\\File Nghe + Transcript + Đáp án Aptis\\File Nghe\\Đề 5.mp3",
+  "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f",
+  "sourceMasterDuration": 1779.513,
+  "blocks": [
+    {
+      "part": 1,
+      "index": 1,
+      "paragraphRange": [
+        2,
+        2
+      ],
+      "sourceTranscript": "Câu 1: Every morning, I take the same route to work. I live outside the city, so I need to take a bus first. After that, I get on the train, which is usually pretty crowded. It's a long ride, but I enjoy listening to music while travelling. When I finally reach the station, I walk for about 10 minutes. It might sound tiring, but I like this routine because it gives me time to think.",
+      "sourceTokenCount": 77,
+      "observedCompleteRenditions": 3,
+      "speechStart": 14.54,
+      "speechEnd": 72.82,
+      "alignment": {
+        "startWordIndex": 0,
+        "endWordIndex": 142,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.948051948051948
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 13.74,
+      "clipEnd": 72.82,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 0.0,
+        "nextSpeechStart": 72.82,
+        "previousGap": 14.54,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q01",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q01.mp3",
+      "audioSha256": "6843d3a104cd208fb33177e2c73289f7667d9627d5bba8d5337ce7b069f117a1",
+      "audioBytes": 946472,
+      "duration": 59.115,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 2,
+      "paragraphRange": [
+        4,
+        4
+      ],
+      "sourceTranscript": "Câu 2: If you're standing in the square, the library is easy to find. You'll see it on the left side, just past the bakery. It's a big building, so you can't miss it. Some people think it's in front of the square, but it's not. There's a small park in front, though. So, when you get to the square, just look to your left.",
+      "sourceTokenCount": 66,
+      "observedCompleteRenditions": 4,
+      "speechStart": 72.82,
+      "speechEnd": 120.92,
+      "alignment": {
+        "startWordIndex": 143,
+        "endWordIndex": 268,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9545454545454546
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 72.82,
+      "clipEnd": 121.109,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 72.82,
+        "nextSpeechStart": 121.34,
+        "previousGap": 0.0,
+        "nextGap": 0.42,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q02",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q02.mp3",
+      "audioSha256": "0539d92482cb5d2023a14464d53d2b32640dab1509f5e16bde1deeb8438d065d",
+      "audioBytes": 773855,
+      "duration": 48.327,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 3,
+      "paragraphRange": [
+        6,
+        6
+      ],
+      "sourceTranscript": "Câu 3: I can't wait for my next holiday. This time, I'm heading to the south, where the mountains are. I've never been there before, but I've heard it's beautiful. I'm looking forward to hiking and seeing the snow-covered peaks. It's going to be a nice change from the city. Hopefully, the weather will be perfect.",
+      "sourceTokenCount": 58,
+      "observedCompleteRenditions": 4,
+      "speechStart": 121.34,
+      "speechEnd": 168.75,
+      "alignment": {
+        "startWordIndex": 269,
+        "endWordIndex": 378,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9310344827586207
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 121.151,
+      "clipEnd": 168.75,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 120.92,
+        "nextSpeechStart": 168.75,
+        "previousGap": 0.42,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q03",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q03.mp3",
+      "audioSha256": "6c08fc88737e86d2ee7d29d8f414af6e7d2e082db693c0c36da33dccc8ebb4cd",
+      "audioBytes": 762988,
+      "duration": 47.647,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 4,
+      "paragraphRange": [
+        8,
+        8
+      ],
+      "sourceTranscript": "Câu 4: When I was younger, I didn't always dream of being a writer. My first job was actually as a teacher. I taught English to small children, and I loved helping them learn to read and write. It wasn't easy, though. I spent a lot of time grading papers and preparing lessons. But that job taught me how to use words well, and now I write stories for everyone to enjoy.",
+      "sourceTokenCount": 73,
+      "observedCompleteRenditions": 4,
+      "speechStart": 168.75,
+      "speechEnd": 230.3,
+      "alignment": {
+        "startWordIndex": 379,
+        "endWordIndex": 518,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.958904109589041
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 168.75,
+      "clipEnd": 230.3,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 168.75,
+        "nextSpeechStart": 230.3,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q04",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q04.mp3",
+      "audioSha256": "797905485f8b38d51b8a71b2f2e9f8d0a0d4ae40469e483daf612cc0baede52e",
+      "audioBytes": 986178,
+      "duration": 61.597,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 5,
+      "paragraphRange": [
+        10,
+        10
+      ],
+      "sourceTranscript": "Câu 5: I'm just about to take a photo of the girls' team now. They're all lined up and ready, smiling for the camera. I've already taken pictures of the boys earlier, so it's their turn. The coaches will have their photo taken after this. The girls are excited because this picture will be in the school magazine. All right, everyone. Say cheese.",
+      "sourceTokenCount": 64,
+      "observedCompleteRenditions": 2,
+      "speechStart": 230.3,
+      "speechEnd": 262.69,
+      "alignment": {
+        "startWordIndex": 519,
+        "endWordIndex": 584,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.953125
+      },
+      "discardedIncompleteRenditions": 2,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 230.3,
+      "clipEnd": 263.49,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 230.3,
+        "nextSpeechStart": 286.49,
+        "previousGap": 0.0,
+        "nextGap": 23.8,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q05",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q05.mp3",
+      "audioSha256": "00c19f23d38c457276ec3fbf064273809f9129973b38937c307d7622ab493069",
+      "audioBytes": 532275,
+      "duration": 33.228,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 6,
+      "paragraphRange": [
+        12,
+        12
+      ],
+      "sourceTranscript": "Câu 6: This week is pretty busy, but the most important thing is the meeting on Wednesday afternoon. We usually have it on Monday, but this time we had to change the day. Wednesday works better because everyone is free. I have a lot to prepare before then, so I'll spend Tuesday getting everything ready. It's a big meeting, and we need to finalize some plans. I'm just glad it's not on Friday or I'd be too tired.",
+      "sourceTokenCount": 79,
+      "observedCompleteRenditions": 4,
+      "speechStart": 286.49,
+      "speechEnd": 359.4,
+      "alignment": {
+        "startWordIndex": 640,
+        "endWordIndex": 791,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9620253164556962
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 285.69,
+      "clipEnd": 359.4,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 262.69,
+        "nextSpeechStart": 359.4,
+        "previousGap": 23.8,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q06",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q06.mp3",
+      "audioSha256": "8772902d8c94d1fd920f4393649b60cf76eb47c19b3bf4c47b02e839b3e204be",
+      "audioBytes": 1180529,
+      "duration": 73.744,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 7,
+      "paragraphRange": [
+        13,
+        13
+      ],
+      "sourceTranscript": "Câu 7: I've been living in Dubai for about two years now and I really enjoy my work here. It's challenging, but that's what makes it exciting. The company I work for is great and I get to meet people from all over the world. The food is also amazing, but the work itself is what keeps me happy. I can see myself staying here for a long time because I feel lucky to do what I love",
+      "sourceTokenCount": 79,
+      "observedCompleteRenditions": 4,
+      "speechStart": 359.4,
+      "speechEnd": 421.44,
+      "alignment": {
+        "startWordIndex": 792,
+        "endWordIndex": 945,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9620253164556962
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 359.4,
+      "clipEnd": 421.44,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 359.4,
+        "nextSpeechStart": 421.44,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q07",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q07.mp3",
+      "audioSha256": "de30effdcb3c5b3713cafdf8eb6cefeac752a895080d6d215741a42d9dfb89f4",
+      "audioBytes": 993702,
+      "duration": 62.067,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 8,
+      "paragraphRange": [
+        15,
+        15
+      ],
+      "sourceTranscript": "Câu 8: We'll wait for the bus by the hotel's main entrance. It's the easiest place for the driver to see us. I know some people might think it's behind the hotel, but that's not where the buses usually stop. The side entrance can be confusing too. So let's just stand in front and be ready when the bus arrives.",
+      "sourceTokenCount": 61,
+      "observedCompleteRenditions": 4,
+      "speechStart": 421.44,
+      "speechEnd": 471.35,
+      "alignment": {
+        "startWordIndex": 946,
+        "endWordIndex": 1061,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9508196721311475
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 421.44,
+      "clipEnd": 471.35,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 421.44,
+        "nextSpeechStart": 471.35,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q08",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q08.mp3",
+      "audioSha256": "05fc6478dbe7fc8a647b7f788e7f08b8a7e3fec5b02fa37026bb1d3167445f1b",
+      "audioBytes": 799768,
+      "duration": 49.946,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 9,
+      "paragraphRange": [
+        17,
+        17
+      ],
+      "sourceTranscript": "Câu 9: Hi, I am Stephanie. I am interested in applying for a job taking care of children. I have three years of experience working with children of different ages and I am confident in my ability to create a safe and engaging environment for them. I am fluent in both English and French, which allows me to communicate easily with families who speak either language. This year, I am 21 years old and I am enthusiastic about bringing my skills and energy to a new position.",
+      "sourceTokenCount": 88,
+      "observedCompleteRenditions": 4,
+      "speechStart": 471.35,
+      "speechEnd": 545.69,
+      "alignment": {
+        "startWordIndex": 1062,
+        "endWordIndex": 1235,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9659090909090909
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 471.35,
+      "clipEnd": 546.49,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 471.35,
+        "nextSpeechStart": 558.98,
+        "previousGap": 0.0,
+        "nextGap": 13.29,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q09",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q09.mp3",
+      "audioSha256": "fd06424434d6e04e76d1bc2e388fc0e4e48f92de0f0b5bb04cf7c6c1a86e21a9",
+      "audioBytes": 1203517,
+      "duration": 75.18,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 10,
+      "paragraphRange": [
+        19,
+        19
+      ],
+      "sourceTranscript": "Câu 10: You want to save some money, right? Well, there are a few things you can do. One idea is to buy in bulk, so you pay less for each item. But the best tip I have is to use public transport instead of driving. It really helps to cut down on gas and parking costs. You could also put some money into the bank to save for later, but start with public transport. It's a big help.",
+      "sourceTokenCount": 80,
+      "observedCompleteRenditions": 3,
+      "speechStart": 558.98,
+      "speechEnd": 609.17,
+      "alignment": {
+        "startWordIndex": 1236,
+        "endWordIndex": 1384,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9625
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 558.18,
+      "clipEnd": 609.17,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 545.69,
+        "nextSpeechStart": 609.17,
+        "previousGap": 13.29,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q10",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q10.mp3",
+      "audioSha256": "e4cabee5e216679fa20aa78114708d3a63230d1bd9452d9c80a4a9108a23ef20",
+      "audioBytes": 816905,
+      "duration": 51.017,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 11,
+      "paragraphRange": [
+        21,
+        21
+      ],
+      "sourceTranscript": "Câu 11: We have a big meeting coming up next week. There are a few things I still need to do to get ready. For example, I need to set up the chairs for everyone. Then, of course, I have to order the food so we can eat during the break. I'll also organise the documents that we'll need for the discussion, but food is the priority right now.",
+      "sourceTokenCount": 70,
+      "observedCompleteRenditions": 4,
+      "speechStart": 609.17,
+      "speechEnd": 656.66,
+      "alignment": {
+        "startWordIndex": 1385,
+        "endWordIndex": 1518,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9571428571428572
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 609.17,
+      "clipEnd": 656.66,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 609.17,
+        "nextSpeechStart": 656.66,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q11",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q11.mp3",
+      "audioSha256": "bdc56768273bdb3eef8981336627695db73fa9f5cfa05f4fae9d5224f1354210",
+      "audioBytes": 760898,
+      "duration": 47.517,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 12,
+      "paragraphRange": [
+        23,
+        23
+      ],
+      "sourceTranscript": "Câu 12: I don't have much free time with my acting schedule, but when I do, I like to relax. Many people think I spend my free time watching movies, but that's not my favourite hobby. Actually, I love drawing. It helps me clear my mind and get creative. I sometimes play sports too, but drawing is what I enjoy most.",
+      "sourceTokenCount": 62,
+      "observedCompleteRenditions": 4,
+      "speechStart": 656.66,
+      "speechEnd": 707.7,
+      "alignment": {
+        "startWordIndex": 1519,
+        "endWordIndex": 1637,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9516129032258065
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 656.66,
+      "clipEnd": 707.7,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 656.66,
+        "nextSpeechStart": 707.7,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q12",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q12.mp3",
+      "audioSha256": "7264ff460f06bddc27638987aeb6f91a3a74f237319db17d54c88a74abda8d1a",
+      "audioBytes": 817741,
+      "duration": 51.069,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 1,
+      "index": 13,
+      "paragraphRange": [
+        25,
+        25
+      ],
+      "sourceTranscript": "Câu 13: Our school is getting some exciting new facilities. We already have a library and a sports field, but we're adding something different now. The school will have a new performance space for plays, concerts and other events. It's going to be a great addition for the students. We're really looking forward to seeing it finished.",
+      "sourceTokenCount": 58,
+      "observedCompleteRenditions": 4,
+      "speechStart": 707.7,
+      "speechEnd": 754.68,
+      "alignment": {
+        "startWordIndex": 1638,
+        "endWordIndex": 1747,
+        "headScore": 0.7,
+        "tailScore": 1.0,
+        "coverage": 0.9482758620689655
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 707.7,
+      "clipEnd": 754.68,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 707.7,
+        "nextSpeechStart": 754.68,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q13",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/q13.mp3",
+      "audioSha256": "09eb37598bb3526e91006a6970f73160022b41dbf02b9ec51f874c5b953306fa",
+      "audioBytes": 752957,
+      "duration": 47.02,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 2,
+      "index": 1,
+      "paragraphRange": [
+        29,
+        29
+      ],
+      "sourceTranscript": "Person A: The city gives me new things to see every time I run. I like the busy streets and different buildings around me. Stopping at traffic lights and watching out for people helps me stay alert. Running in the street is what I love most. I also get to find new places in my city this way. The hard ground makes my legs stronger. It can be a bit dangerous with cars, but that's what makes it exciting for me.",
+      "sourceTokenCount": 81,
+      "observedCompleteRenditions": 4,
+      "speechStart": 754.68,
+      "speechEnd": 827.13,
+      "alignment": {
+        "startWordIndex": 1748,
+        "endWordIndex": 1911,
+        "headScore": 0.8,
+        "tailScore": 1.0,
+        "coverage": 0.9876543209876543
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 754.68,
+      "clipEnd": 827.93,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 754.68,
+        "nextSpeechStart": 831.29,
+        "previousGap": 0.0,
+        "nextGap": 4.16,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-a",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-2/spk-a.mp3",
+      "audioSha256": "da642e01368fd0400fb1c97be47046cfc986d2b46a674d385b36a6b4dbf4cda3",
+      "audioBytes": 1173424,
+      "duration": 73.3,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 2,
+      "index": 2,
+      "paragraphRange": [
+        31,
+        31
+      ],
+      "sourceTranscript": "Person B: The clean air by the sea makes me feel good and helps clear my head. I enjoy feeling the sand under my feet, which helps make my legs stronger. The sound of the waves makes a nice beat for my run. There's nothing better than running by the seaside. Seeing the sun come up or go down while I run is really pretty. The cool wind from the sea keeps me from getting too hot. And after I'm done, I can jump in the water to cool off.",
+      "sourceTokenCount": 90,
+      "observedCompleteRenditions": 3,
+      "speechStart": 831.29,
+      "speechEnd": 897.99,
+      "alignment": {
+        "startWordIndex": 1912,
+        "endWordIndex": 2082,
+        "headScore": 0.8,
+        "tailScore": 1.0,
+        "coverage": 0.9777777777777777
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 830.49,
+      "clipEnd": 897.99,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 827.13,
+        "nextSpeechStart": 897.99,
+        "previousGap": 4.16,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-b",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-2/spk-b.mp3",
+      "audioSha256": "fd572ee1e73da6a75092f5b44d1a892042ef35d7530ac6522b031169177aa037",
+      "audioBytes": 1081055,
+      "duration": 67.527,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 2,
+      "index": 3,
+      "paragraphRange": [
+        33,
+        33
+      ],
+      "sourceTranscript": "Person C: The track lets me know exactly how far I've run and helps me set goals. The smooth surface is better for my knees and ankles. There are no bumps or things in the way, so I can focus on how I run. For me, the running track is the best place to run. I can easily see how long each lap takes me. Having other runners around makes me want to try harder. I can run on the track in almost any weather, which is great.",
+      "sourceTokenCount": 88,
+      "observedCompleteRenditions": 4,
+      "speechStart": 897.99,
+      "speechEnd": 972.03,
+      "alignment": {
+        "startWordIndex": 2083,
+        "endWordIndex": 2255,
+        "headScore": 0.8,
+        "tailScore": 1.0,
+        "coverage": 0.9772727272727273
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 897.99,
+      "clipEnd": 972.03,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 897.99,
+        "nextSpeechStart": 972.03,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-c",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-2/spk-c.mp3",
+      "audioSha256": "f8f2f67e345319d29cd8c04bcd24c8a29cb1e2bd17320f2d7a228a3621d58b69",
+      "audioBytes": 1185963,
+      "duration": 74.083,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 2,
+      "index": 4,
+      "paragraphRange": [
+        35,
+        35
+      ],
+      "sourceTranscript": "Person D: Inside, I don't have to worry about it being too hot, cold, or rainy. I can use the treadmill and other machines to mix up my workout. The soft surface of the treadmill is easier on my knees than the road. I like running in the fitness center best. I can change how steep or fast the treadmill goes to make it more challenging. The machines tell me how fast my heart is beating and how well I'm doing. And when I'm done, I can take a shower and change right there.",
+      "sourceTokenCount": 94,
+      "observedCompleteRenditions": 4,
+      "speechStart": 972.03,
+      "speechEnd": 1048.9,
+      "alignment": {
+        "startWordIndex": 2256,
+        "endWordIndex": 2439,
+        "headScore": 0.8,
+        "tailScore": 1.0,
+        "coverage": 0.9787234042553191
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 972.03,
+      "clipEnd": 1048.9,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 972.03,
+        "nextSpeechStart": 1048.9,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-d",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-2/spk-d.mp3",
+      "audioSha256": "e1843c06b63e0eeaf9ea57ed6e7e1e50dcb1fbcedcaad64b3a0963e3be689756",
+      "audioBytes": 1231102,
+      "duration": 76.904,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 3,
+      "index": 1,
+      "paragraphRange": [
+        38,
+        42
+      ],
+      "sourceTranscript": "Man: It seems like every workplace is going through so many changes lately. But honestly, I think continuity is still very important. When things remain steady, it gives people a sense of security. If everything changes too fast, it's hard for employees to keep up and the organization can lose its way. Continuity is important in keeping everyone focused. Woman: I get where you're coming from, but I feel like these days, nothing is certain. Job security isn't something we can rely on anymore. There's always the risk of layoffs, especially with the economy being unpredictable. People are moving from job to job more than ever before. And you can't always count on staying in one place for long. Man: That's definitely a concern. But regardless of job security or stability, one thing we both can agree on is that job satisfaction is a huge motivator. When people love what they do, they're more likely to stay even when times get tough. It's the main reason many of us keep pushing through the challenges. Woman: Absolutely. I think when people are satisfied with their work, they're willing to go the extra mile. It's not just about the paycheck, it's about feeling fulfilled. That's what really makes the difference in the workplace. Man: You're right. And another thing that's making a difference is technology. It's been a game changer for the economy, making things faster and more efficient. The growth we've seen in so many industries is because of how we've embraced new technologies. It's definitely helping businesses thrive.",
+      "sourceTokenCount": 258,
+      "observedCompleteRenditions": 4,
+      "speechStart": 1048.9,
+      "speechEnd": 1272.0,
+      "alignment": {
+        "startWordIndex": 2440,
+        "endWordIndex": 2934,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 0.9573643410852714
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 1048.9,
+      "clipEnd": 1272.612,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 1048.9,
+        "nextSpeechStart": 1273.36,
+        "previousGap": 0.0,
+        "nextGap": 1.36,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p3-task-all",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-3/task-all.mp3",
+      "audioSha256": "fb2d332450b18a35be803a71befd8d94ce1a48d46c4cecefca0e9e3492a50f9d",
+      "audioBytes": 3580451,
+      "duration": 223.739,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 4,
+      "index": 1,
+      "paragraphRange": [
+        46,
+        46
+      ],
+      "sourceTranscript": "Good afternoon, everyone. Today, I wanna share a few simple tips on how you can manage your personal finances better. Now, I know that saving money can sometimes feel chill-challenging, but there are a few habits that can make it easier. One of the best ways to save effectively is to set aside a fixed amount every month. I recommend you make this a habit. You can even automate it by setting up a transfer from your checking account to your savings account. This way, the money is put aside before you even get a chance to spend it. If you just wait until the end of the month to save whatever is left over, there's a good chance there won't be much left, especially with all the small, unexpected expenses that pop up. So it's all about making saving a priority and keeping it consistent. Now, when it comes to managing your finances overall, one key piece of advice is to get help from people who know more than you. That could mean speaking with a financial advisor if you're able, but it could also mean getting advice from someone in your life who's really good with money, whether that's a friend, a family member, or even an online resource. You don't have to figure everything out on your own. Learning from others can save you time and help you avoid costly mistakes, especially if you're new to budgeting or long-term planning. Remember, managing money doesn't have to be complicated. By saving regularly and learning from others, you can start to feel more confident about your finances.",
+      "sourceTokenCount": 270,
+      "observedCompleteRenditions": 4,
+      "speechStart": 1273.36,
+      "speechEnd": 1517.68,
+      "alignment": {
+        "startWordIndex": 2935,
+        "endWordIndex": 3476,
+        "headScore": 0.8,
+        "tailScore": 1.0,
+        "coverage": 0.9962962962962963
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 1272.748,
+      "clipEnd": 1517.68,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 1272.0,
+        "nextSpeechStart": 1517.68,
+        "previousGap": 1.36,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p4-mono1",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-4/mono1.mp3",
+      "audioSha256": "8cd610031b9aa756537a8a73d8ea1708a7ba066de29f97547222ea62bd956b44",
+      "audioBytes": 3920252,
+      "duration": 244.976,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    {
+      "part": 4,
+      "index": 2,
+      "paragraphRange": [
+        49,
+        49
+      ],
+      "sourceTranscript": "I've noticed that some of my coworkers get a bit nervous about the security cameras in our office. They often say things like, it feels like we're being watched all the time or I don't like feeling like I'm not trusted. But honestly, I think people worry too much about it. These cameras aren't there to spy on us or catch us doing something wrong. They're actually there to keep us safe. I mean, think about it. If something were to happen like a theft or an accident, wouldn't you want there to be a record of it? Plus, knowing the cameras are there can actually prevent bad things from happening in the first place. I believe that once people understand the real purpose of these cameras, they'll feel much better about them. Instead of feeling worried, we should feel glad that our company cares about our safety. It's just one more way they're looking out for us while we're at work, you know? I remember when we first got the cameras installed. Some people were really upset about it, but after a while, most of us hardly even notice them anymore. They're just part of the background now. And there have been times when they've been really helpful, like when someone's bag went missing, the cameras helped us figure out what happened. I think it's important to remember that these cameras are in public areas, not in private spaces like bathrooms or changing rooms. They're not meant to invade our privacy just to make sure everyone follows the rules and stays safe. In the end, I think having them makes our workplace better for everyone. It's a small thing that can make a big difference in keeping us all secure.",
+      "sourceTokenCount": 291,
+      "observedCompleteRenditions": 6,
+      "speechStart": 1517.68,
+      "speechEnd": 1769.83,
+      "alignment": {
+        "startWordIndex": 3477,
+        "endWordIndex": 4068,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.9965635738831615
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 1517.68,
+      "clipEnd": 1770.63,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 1517.68,
+        "nextSpeechStart": 1779.488,
+        "previousGap": 0.0,
+        "nextGap": 9.658,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p4-mono2",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-4/mono2.mp3",
+      "audioSha256": "5f927965b7d32c746a74baebc7dffd377064adeeea310e89f3d4089339d5154e",
+      "audioBytes": 4048565,
+      "duration": 252.996,
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    }
+  ],
+  "partAudio": {
+    "1": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-1/task-all.mp3",
+      "start": 13.74,
+      "end": 754.68,
+      "duration": 740.989,
+      "sha256": "9bf6762ed730be9c3cd0bef524241475d2c11793a14a85bdb586214ec0a84f5c",
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    "2": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-2/task-all.mp3",
+      "start": 754.68,
+      "end": 1048.9,
+      "duration": 294.269,
+      "sha256": "f9d2a0b01ae386ba790b2bea96e88c66307d405c6b8a04d7fe037e0edea62db3",
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    "3": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-3/task-all.mp3",
+      "start": 1048.9,
+      "end": 1272.612,
+      "duration": 223.739,
+      "sha256": "fb2d332450b18a35be803a71befd8d94ce1a48d46c4cecefca0e9e3492a50f9d",
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    },
+    "4": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-05/part-4/task-all.mp3",
+      "start": 1272.748,
+      "end": 1770.63,
+      "duration": 497.92,
+      "sha256": "f27187f09d32bd99bdbb74ceae9a719f9d50e377e447359de6efa45e1ac18f10",
+      "sourceMasterSha256": "4f47dfb3392d452ed8124f1e156c19e50e0914469ad687f2614afea1d58c628f"
+    }
+  }
+}

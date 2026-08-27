@@ -1,0 +1,862 @@
+{
+  "testId": "aptis-4skills-01",
+  "sourceMaster": "APTIS\\Bộ đề 4 kĩ năng\\File Nghe + Transcript + Đáp án Aptis\\File Nghe\\Đề 1.mp3",
+  "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f",
+  "sourceMasterDuration": 944.666,
+  "blocks": [
+    {
+      "part": 1,
+      "index": 1,
+      "paragraphRange": [
+        1,
+        1
+      ],
+      "sourceTranscript": "Hey Mike, it's Tom! How are you? I was thinking, why don't we meet up tonight? I'm free, and it would be fun to hang out. Let's meet at the park at 7 P.M. Does that work for you? We can grab some snacks and maybe play basketball or just talk. Let me know if you're in, and if anyone else wants to join, we can invite them too! See you later!",
+      "sourceTokenCount": 73,
+      "observedCompleteRenditions": 5,
+      "speechStart": 8.62,
+      "speechEnd": 49.84,
+      "alignment": {
+        "startWordIndex": 0,
+        "endWordIndex": 139,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 7.82,
+      "clipEnd": 49.84,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 0.0,
+        "nextSpeechStart": 49.84,
+        "previousGap": 8.62,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q01",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q01.mp3",
+      "audioSha256": "776d73e7e6eb704598a9faf59a8297b199dcae0cccc6e0ef83c83650ad15495c",
+      "audioBytes": 673478,
+      "duration": 42.057,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 2,
+      "paragraphRange": [
+        2,
+        2
+      ],
+      "sourceTranscript": "Hi Emma, it's Lucy. I hope you're doing well! I need a small favor from you today. Could you pick up my sister after school? She'll be standing at the school gate at 3 P.M. She looks just like me, so you'll recognize her easily. I have a meeting, and I won't make it in time. Thank you so much! Let me know if that's okay with you.",
+      "sourceTokenCount": 69,
+      "observedCompleteRenditions": 6,
+      "speechStart": 49.84,
+      "speechEnd": 104.87,
+      "alignment": {
+        "startWordIndex": 140,
+        "endWordIndex": 281,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 49.84,
+      "clipEnd": 105.67,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 49.84,
+        "nextSpeechStart": 111.52,
+        "previousGap": 0.0,
+        "nextGap": 6.65,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q02",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q02.mp3",
+      "audioSha256": "e356379ef18c1732322c4a507fc80d75e1708e5ba32ef7a4f326c4d436087510",
+      "audioBytes": 894578,
+      "duration": 55.876,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 3,
+      "paragraphRange": [
+        3,
+        3
+      ],
+      "sourceTranscript": "Managing money is very important for everyone. I always make sure to plan my spending carefully, like saving some for emergencies and not buying things I don't need. It's easy to lose control if you don't keep track of your budget. Young people, especially, need to be careful about borrowing money. Many ask for loans from the bank, but that creates debt. It's better to avoid borrowing too much and focus on saving instead.",
+      "sourceTokenCount": 74,
+      "observedCompleteRenditions": 3,
+      "speechStart": 111.52,
+      "speechEnd": 145.09,
+      "alignment": {
+        "startWordIndex": 287,
+        "endWordIndex": 365,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 110.72,
+      "clipEnd": 145.89,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 104.87,
+        "nextSpeechStart": 159.35,
+        "previousGap": 6.65,
+        "nextGap": 14.26,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q03",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q03.mp3",
+      "audioSha256": "d8571cb5617ad9a37f75533dd517ec0bd12c19df61c98d21b33fd512091b38c0",
+      "audioBytes": 563973,
+      "duration": 35.213,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 4,
+      "paragraphRange": [
+        4,
+        4
+      ],
+      "sourceTranscript": "Every day, I wake up at 7 A.M. and have a quick breakfast before going to work. I usually take the bus, and it takes about 30 minutes to get to the office. At work, I spend most of my time on the computer, answering emails and working on projects. I have lunch at noon and get back to work until 5 P.M. After work, I like to relax by playing football with my friends. It's a great way to stay active and have fun!",
+      "sourceTokenCount": 87,
+      "observedCompleteRenditions": 1,
+      "speechStart": 159.35,
+      "speechEnd": 184.39,
+      "alignment": {
+        "startWordIndex": 366,
+        "endWordIndex": 451,
+        "headScore": 0.8,
+        "tailScore": 1.0,
+        "coverage": 0.9540229885057471
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 158.55,
+      "clipEnd": 185.19,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 145.09,
+        "nextSpeechStart": 192.57,
+        "previousGap": 14.26,
+        "nextGap": 8.18,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q04",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q04.mp3",
+      "audioSha256": "b64dcd7f352de6eb6708187cd7b4484db303dde7c94dbdc1f0d95e0a9923ff34",
+      "audioBytes": 427300,
+      "duration": 26.671,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 5,
+      "paragraphRange": [
+        5,
+        7
+      ],
+      "sourceTranscript": "Hi, I'm Lily, and I want to tell you about my daily routine. I wake up early around 6 30 a.m. and have breakfast before going to work. I work in a small office, and my job keeps me busy until about 5 p.m. After dinner, I usually go for a walk to relax, but today I'm going to try something different. I'll do some yoga at home. It sounds fun and peaceful. After that, I'll probably watch a movie before going to bed. It's a simple day, but I like it.",
+      "sourceTokenCount": 94,
+      "observedCompleteRenditions": 2,
+      "speechStart": 192.57,
+      "speechEnd": 218.93,
+      "alignment": {
+        "startWordIndex": 452,
+        "endWordIndex": 543,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.9574468085106383
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 191.77,
+      "clipEnd": 219.73,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 184.39,
+        "nextSpeechStart": 232.29,
+        "previousGap": 8.18,
+        "nextGap": 13.36,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q05",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q05.mp3",
+      "audioSha256": "3092f720a841b6ad9f0b37be67225ab8d4e36fb3ce52764a7a1bf69add54a00e",
+      "audioBytes": 448616,
+      "duration": 28.003,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 6,
+      "paragraphRange": [
+        8,
+        14
+      ],
+      "sourceTranscript": "Girl: Excuse me, officer. I need help, please. Officer: Of course. What happened? Girl: I was walking in the park, and I think I lost my phone. I thought it was in my bag, but now I can't find it. Officer: I see. Don't worry. We'll help you. Can you remember where you last saw it? Girl: Thank you so much, officer. Officer: Okay, we'll check the area. Please stay here for a moment, and we'll try to find it for you. Girl: Thank you so much, officer",
+      "sourceTokenCount": 88,
+      "observedCompleteRenditions": 1,
+      "speechStart": 232.29,
+      "speechEnd": 256.39,
+      "alignment": {
+        "startWordIndex": 544,
+        "endWordIndex": 624,
+        "headScore": 0.8,
+        "tailScore": 0.9,
+        "coverage": 0.9204545454545454
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 231.49,
+      "clipEnd": 257.19,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 218.93,
+        "nextSpeechStart": 261.68,
+        "previousGap": 13.36,
+        "nextGap": 5.29,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q06",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q06.mp3",
+      "audioSha256": "0503d0a102e9cd4a5d61ad59f47545f48baf36b44380868834122b9d1e77b5b3",
+      "audioBytes": 412253,
+      "duration": 25.731,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 7,
+      "paragraphRange": [
+        15,
+        21
+      ],
+      "sourceTranscript": "John: Hey, Sarah, let's check out this store. I need something for work. Sarah: Sure, John. How about this t-shirt? It looks nice. John: Hey, Sarah, let's check out this store. I need something for work. Sarah: Oh, okay. What about this hat? It would look great on you. John: Haha, maybe, but not today. I really need a suit for the office. Sarah: Look, this one seems perfect. That's a good choice. It's smart and looks comfortable. Joh: Great, I'll buy the suit. Let's keep looking for other things we might need.",
+      "sourceTokenCount": 94,
+      "observedCompleteRenditions": 3,
+      "speechStart": 261.68,
+      "speechEnd": 290.86,
+      "alignment": {
+        "startWordIndex": 625,
+        "endWordIndex": 711,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 0.9148936170212766
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 260.88,
+      "clipEnd": 291.66,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 256.39,
+        "nextSpeechStart": 294.96,
+        "previousGap": 5.29,
+        "nextGap": 4.1,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q07",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q07.mp3",
+      "audioSha256": "23373c0abbe8cfdc9a703133763d07b4d3107ee423808fa2a278860b94653e6c",
+      "audioBytes": 493755,
+      "duration": 30.824,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 8,
+      "paragraphRange": [
+        22,
+        22
+      ],
+      "sourceTranscript": "Hi, I'm Jack, and I want to talk about where I live. Right now, I'm staying in a town hall near my university. It's a nice place, and I've met a lot of other students here. Before this, I used to live with my parents in a small village. It was quiet, but I needed to be closer to school. Soon, I'll move to an apartment nearby with a few friends. I think it'll be fun to share a place with them. I'm excited about the change!",
+      "sourceTokenCount": 87,
+      "observedCompleteRenditions": 2,
+      "speechStart": 294.96,
+      "speechEnd": 320.6,
+      "alignment": {
+        "startWordIndex": 712,
+        "endWordIndex": 798,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 294.16,
+      "clipEnd": 321.4,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 290.86,
+        "nextSpeechStart": 326.66,
+        "previousGap": 4.1,
+        "nextGap": 6.06,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q08",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q08.mp3",
+      "audioSha256": "d023eababa1dca2d3734a43cb011b6262d35af9b83187f661170426b4f42965c",
+      "audioBytes": 436913,
+      "duration": 27.272,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 9,
+      "paragraphRange": [
+        23,
+        23
+      ],
+      "sourceTranscript": "Good evening, listeners! Today, I want to talk about a new song that's quickly becoming popular - You're my everything. The tune is really catchy, and it makes you want to dance right away. The instruments used are simple but create a great rhythm. However, the most attractive part of all is the words. The lyrics tell a beautiful story that everyone can relate to. It's no wonder so many people are loving this song! If you haven't heard it yet, make sure to give it a listen soon!",
+      "sourceTokenCount": 88,
+      "observedCompleteRenditions": 2,
+      "speechStart": 326.66,
+      "speechEnd": 355.72,
+      "alignment": {
+        "startWordIndex": 799,
+        "endWordIndex": 886,
+        "headScore": 0.9,
+        "tailScore": 0.9,
+        "coverage": 0.9886363636363636
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 325.86,
+      "clipEnd": 356.52,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 320.6,
+        "nextSpeechStart": 363.06,
+        "previousGap": 6.06,
+        "nextGap": 7.34,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q09",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q09.mp3",
+      "audioSha256": "2ba88232bce926f373f44fac2b2cf020aeb0b1140ec8f8973ecb9082b2a3bccc",
+      "audioBytes": 491666,
+      "duration": 30.694,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 10,
+      "paragraphRange": [
+        24,
+        24
+      ],
+      "sourceTranscript": "Hello, and welcome! Let me tell you about this lovely property. It has two spacious bedrooms, both with big windows that let in lots of natural light. The bathroom is modern, with a large shower and plenty of storage space. The living room is cozy, perfect for relaxing after a long day. But the kitchen is the star of the house-it's the largest room, with lots of counter space for cooking, and it's great for hosting dinners. You'll love it here!",
+      "sourceTokenCount": 82,
+      "observedCompleteRenditions": 2,
+      "speechStart": 363.06,
+      "speechEnd": 390.48,
+      "alignment": {
+        "startWordIndex": 887,
+        "endWordIndex": 968,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.9878048780487805
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 362.26,
+      "clipEnd": 391.28,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 355.72,
+        "nextSpeechStart": 397.5,
+        "previousGap": 7.34,
+        "nextGap": 7.02,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q10",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q10.mp3",
+      "audioSha256": "f8edc674e79ec1fbb86f7f2f834311886ce0744087d886b5b12430a0e18e61a3",
+      "audioBytes": 465334,
+      "duration": 29.048,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 11,
+      "paragraphRange": [
+        25,
+        25
+      ],
+      "sourceTranscript": "Hi, I'm Ben, and I want to share a bit about my studies. Last term, I took English, math, and science. They were all interesting, but math was a bit tough for me. I worked hard, though, and got good results in the end. This year, I'm really excited because I'm going to take a computer course. I've always wanted to learn more about technology, so I'm looking forward to it!",
+      "sourceTokenCount": 71,
+      "observedCompleteRenditions": 2,
+      "speechStart": 397.5,
+      "speechEnd": 419.82,
+      "alignment": {
+        "startWordIndex": 969,
+        "endWordIndex": 1039,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 396.7,
+      "clipEnd": 420.62,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 390.48,
+        "nextSpeechStart": 431.62,
+        "previousGap": 7.02,
+        "nextGap": 11.8,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q11",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q11.mp3",
+      "audioSha256": "d435af28d9fda56c8e9645b6bc66de9ed9c203cb6abc97f62784d61a5da62298",
+      "audioBytes": 383832,
+      "duration": 23.954,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 12,
+      "paragraphRange": [
+        26,
+        27
+      ],
+      "sourceTranscript": "Hi, I'm Emma, and I'm super excited about a show I'm going to this weekend. It's happening on Saturday at 7 p.m. at the City Theatre. There will be different performances, like dancing and singing. I've heard the show is really fun, and I can't wait to see it. But the best part is that it will end with a surprise performance. I'm really curious to find out what it is.",
+      "sourceTokenCount": 72,
+      "observedCompleteRenditions": 2,
+      "speechStart": 431.62,
+      "speechEnd": 453.96,
+      "alignment": {
+        "startWordIndex": 1040,
+        "endWordIndex": 1110,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.9722222222222222
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 430.82,
+      "clipEnd": 454.76,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 419.82,
+        "nextSpeechStart": 459.84,
+        "previousGap": 11.8,
+        "nextGap": 5.88,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q12",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q12.mp3",
+      "audioSha256": "914456d65adcd07077c80c7c2af483b08d989d4268edfacad297968b07030e71",
+      "audioBytes": 384250,
+      "duration": 23.98,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 1,
+      "index": 13,
+      "paragraphRange": [
+        28,
+        28
+      ],
+      "sourceTranscript": "Hi, I'm Alex, and I want to tell you about my cat, Whiskers. He's really friendly and loves to play. Whiskers is a bit picky about food, though. He doesn't like eating mice or insects, which is funny for a cat, but he absolutely loves fish. Every time I give him some, he gets so excited. He also enjoys sleeping by the window and watching the birds outside. He's the best pet ever.",
+      "sourceTokenCount": 73,
+      "observedCompleteRenditions": 2,
+      "speechStart": 459.84,
+      "speechEnd": 482.64,
+      "alignment": {
+        "startWordIndex": 1111,
+        "endWordIndex": 1183,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 459.04,
+      "clipEnd": 483.44,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 453.96,
+        "nextSpeechStart": 493.55,
+        "previousGap": 5.88,
+        "nextGap": 10.91,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q13",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/q13.mp3",
+      "audioSha256": "f4841753b2ee2cb922c9ddef44003f52f2119b7728a7b002c614f07eb658ef55",
+      "audioBytes": 391773,
+      "duration": 24.451,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 2,
+      "index": 1,
+      "paragraphRange": [
+        30,
+        30
+      ],
+      "sourceTranscript": "Speaker A: Surprisingly, I find that late night hours work best for my studying. The quietness of the night really helps me concentrate. While others are winding down, I feel more alert and inspired. Those late hours give me a chance to dive deep into my work without interruptions, turning them into my most productive study sessions.",
+      "sourceTokenCount": 55,
+      "observedCompleteRenditions": 2,
+      "speechStart": 493.55,
+      "speechEnd": 512.13,
+      "alignment": {
+        "startWordIndex": 1184,
+        "endWordIndex": 1238,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 492.75,
+      "clipEnd": 512.93,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 482.64,
+        "nextSpeechStart": 514.84,
+        "previousGap": 10.91,
+        "nextGap": 2.71,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-a",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-2/spk-a.mp3",
+      "audioSha256": "b5f45e6054447c48054a7dbf0e6ffa796f0131de8237280f8d2921b6db755e38",
+      "audioBytes": 324064,
+      "duration": 20.219,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 2,
+      "index": 2,
+      "paragraphRange": [
+        32,
+        32
+      ],
+      "sourceTranscript": "Speaker B: I've realised that my study environment has a significant impact on my productivity. Changing my study space has really helped me focus better. The library offers a quiet atmosphere that's perfect for serious work, but sometimes a lively cafe is just what I need for a refreshing (8:54) change. Being outdoors in a park with fresh air can also clear my mind. Each place keeps my study sessions interesting and engaging.",
+      "sourceTokenCount": 70,
+      "observedCompleteRenditions": 2,
+      "speechStart": 514.84,
+      "speechEnd": 542.56,
+      "alignment": {
+        "startWordIndex": 1239,
+        "endWordIndex": 1310,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 514.04,
+      "clipEnd": 543.36,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 512.13,
+        "nextSpeechStart": 547.28,
+        "previousGap": 2.71,
+        "nextGap": 4.72,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-b",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-2/spk-b.mp3",
+      "audioSha256": "de416940dfc9bf867aebdf503f97ef02951241fc127501e3d134f2cfbd0d03f4",
+      "audioBytes": 470350,
+      "duration": 29.362,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 2,
+      "index": 3,
+      "paragraphRange": [
+        34,
+        35
+      ],
+      "sourceTranscript": "Speaker C: I've discovered that the right soundtrack can enhance my study sessions significantly. When I study, having some background music makes a noticeable difference. I tend to choose soft melodies or instrumental tracks that won't distract me. The right music helps maintain my energy and makes long study sessions feel less tedious. It creates a motivating atmosphere that encourages me to keep pushing through.",
+      "sourceTokenCount": 63,
+      "observedCompleteRenditions": 2,
+      "speechStart": 547.28,
+      "speechEnd": 572.58,
+      "alignment": {
+        "startWordIndex": 1311,
+        "endWordIndex": 1373,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 546.48,
+      "clipEnd": 573.38,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 542.56,
+        "nextSpeechStart": 579.56,
+        "previousGap": 4.72,
+        "nextGap": 6.98,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-c",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-2/spk-c.mp3",
+      "audioSha256": "88a10bc8a8f817925fe29a668ebd81c3533946ed72bfb380458fecb581dea74d",
+      "audioBytes": 431479,
+      "duration": 26.932,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 2,
+      "index": 4,
+      "paragraphRange": [
+        37,
+        37
+      ],
+      "sourceTranscript": "Speaker D: Finding the right space to study is crucial for effective learning. I usually end up in a quiet room at home or a secluded corner in the library. It's incredible how much I can absorb without distractions. This kind of environment really allows me to think deeply and connect with the material I'm learning.",
+      "sourceTokenCount": 54,
+      "observedCompleteRenditions": 2,
+      "speechStart": 579.56,
+      "speechEnd": 598.82,
+      "alignment": {
+        "startWordIndex": 1374,
+        "endWordIndex": 1427,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 578.76,
+      "clipEnd": 599.62,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 572.58,
+        "nextSpeechStart": 607.36,
+        "previousGap": 6.98,
+        "nextGap": 8.54,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-d",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-2/spk-d.mp3",
+      "audioSha256": "ac9070b01f91f03ecb008276179442d866f2002ce617c1d4fc5f42d0c638b341",
+      "audioBytes": 334931,
+      "duration": 20.898,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 3,
+      "index": 1,
+      "paragraphRange": [
+        39,
+        47
+      ],
+      "sourceTranscript": "Man: Oh, I just came across this interesting report about universities and how they're evolving in the digital age. It talked about the impact of the internet, student experiences, and even competition between institutions. It got me thinking, there's so much to unpack when it comes to how education is changing, don't you think? Woman: Yeah, I've been reading about similar things lately. It's amazing how different opinions can be on what makes a good university experience. I think we can both agree that the internet has made education more accessible. It's great how people from different backgrounds can now access high quality education without being physically on campus. Man: Absolutely, I agree with that. It's a game changer for those who can't afford to relocate or attend in person. But I still believe that social interactions are a crucial part of university life. Online education can never truly replace the friendships, group work, and networking that happen in a physical setting. Woman: Hmm, I'm not so sure. While social interactions can be important, I think online learning allows students to focus more on their studies without all the distractions of campus life. Not everyone benefits from that kind of environment. Man: I see your point, but I think universities provide a unique space for students to develop their social skills alongside their academic ones. Another thing I'm really in favor of is encouraging competition between universities. When universities compete, it drives innovation and pushes them to offer better resources. Woman: I disagree there. Competition can sometimes lead to universities focusing too much on rankings and flashy features instead of the quality of education. It can become more about marketing than genuine improvement. Man: That's a fair concern, but competition also forces universities to constantly improve, which can benefit students in the long run. What about the diversity in curricula? I'm curious where you stand on that. Woman: To be honest, I'm not a fan of having too many options in the curriculum. A diverse curriculum sounds good in theory, but it can overwhelm students and take away from the depth of learning in core subjects. Man: I can see that perspective, but I think having variety gives students the flexibility to explore different fields. It can be especially beneficial for those who are unsure of their career paths",
+      "sourceTokenCount": 389,
+      "observedCompleteRenditions": 1,
+      "speechStart": 607.36,
+      "speechEnd": 752.42,
+      "alignment": {
+        "startWordIndex": 1428,
+        "endWordIndex": 1809,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 0.974293059125964
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 606.56,
+      "clipEnd": 753.22,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 598.82,
+        "nextSpeechStart": 759.07,
+        "previousGap": 8.54,
+        "nextGap": 6.65,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p3-task-all",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-3/task-all.mp3",
+      "audioSha256": "4858efb80e3aa0f5b74c207b12b137ad08e80ac5e02bd55df94eff67832e310c",
+      "audioBytes": 2347822,
+      "duration": 146.704,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 4,
+      "index": 1,
+      "paragraphRange": [
+        49,
+        49
+      ],
+      "sourceTranscript": "Today, I'd like to talk about two of the most influential writers in history, William Shakespeare and Louis Michael. Both of these figures have left a lasting mark on literature, yet interestingly, their contributions have often been overlooked by academics throughout various periods in history. Shakespeare, of course, is a household name, known for his plays and sonnets that explore the depths of human emotion and experience. However, there was a time when scholars dismissed his works as too common, underestimating their complexity. On the other hand, Louis Michael, whose works have reshaped modern storytelling, has yet to receive the recognition he truly deserves. His focus on social issues mixed with poetic symbolism is often underappreciated in academic circles. What these two writers have in common is that they both challenge readers to look beyond the surface. It is not always easy for the meanings in their works to be identified. With Shakespeare, the language can be dense, making it difficult to grasp the deeper themes. Louis Michael, in contrast, weaves intricate layers of metaphor and allegory into his writing, requiring careful thought and analysis. Yet, once these hidden meanings are uncovered, the richness of their works becomes undeniable.",
+      "sourceTokenCount": 199,
+      "observedCompleteRenditions": 2,
+      "speechStart": 759.07,
+      "speechEnd": 837.55,
+      "alignment": {
+        "startWordIndex": 1810,
+        "endWordIndex": 2011,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.9899497487437185
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 758.27,
+      "clipEnd": 838.35,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 752.42,
+        "nextSpeechStart": 844.48,
+        "previousGap": 6.65,
+        "nextGap": 6.93,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p4-mono1",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-4/mono1.mp3",
+      "audioSha256": "5ac1e4264234a548065d0e4195dc71aed61cdb92ba13327e8b84bc835c0f4a23",
+      "audioBytes": 1282444,
+      "duration": 80.118,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    {
+      "part": 4,
+      "index": 2,
+      "paragraphRange": [
+        50,
+        51
+      ],
+      "sourceTranscript": "Many people question whether sports are beneficial or harmful to children's development. This is not an easy question to answer. Sports are often understood as inherently competitive, which makes it debatable whether they are good or bad. However, when the competitive element is excluded, sports play a crucial role in children's development. They provide opportunities for socializing and learning essential life skills that are not typically taught in the classroom, such as teamwork, communication, and resilience. On the other hand, competitive sports can have negative effects. By this, I mean that constantly comparing one child to another to determine who is better or worse can be harmful. Many students thrive in neutral, active environments where cooperation is encouraged, rather than in competitive settings. It is extremely important to recognize that sports are essential for children's development, serving as a counterbalance to the academic focus of classrooms. Schools should view sports not as a means of fostering competition, but as a way to promote cooperation, physical wellness, and holistic growth.",
+      "sourceTokenCount": 169,
+      "observedCompleteRenditions": 2,
+      "speechStart": 844.48,
+      "speechEnd": 912.22,
+      "alignment": {
+        "startWordIndex": 2012,
+        "endWordIndex": 2180,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 843.68,
+      "clipEnd": 913.02,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 837.55,
+        "nextSpeechStart": 944.619,
+        "previousGap": 6.93,
+        "nextGap": 32.399,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p4-mono2",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-4/mono2.mp3",
+      "audioSha256": "7ad809f86258f7b5467bb10ee9f8001b5b2c94c407d0ae87e23afe3542a78782",
+      "audioBytes": 1110663,
+      "duration": 69.381,
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    }
+  ],
+  "partAudio": {
+    "1": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-1/task-all.mp3",
+      "start": 7.82,
+      "end": 483.44,
+      "duration": 475.664,
+      "sha256": "d6bc5ca0d55e8a9d3a604d9c560bf0e8e5d28f2fbd27908874ea30f3e42d2173",
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    "2": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-2/task-all.mp3",
+      "start": 492.75,
+      "end": 599.62,
+      "duration": 106.919,
+      "sha256": "6389fa458510f629e726dd546d8bd1ec573e839456826e1c48aa8e29e6f386c8",
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    "3": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-3/task-all.mp3",
+      "start": 606.56,
+      "end": 753.22,
+      "duration": 146.704,
+      "sha256": "4858efb80e3aa0f5b74c207b12b137ad08e80ac5e02bd55df94eff67832e310c",
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    },
+    "4": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-01/part-4/task-all.mp3",
+      "start": 758.27,
+      "end": 913.02,
+      "duration": 154.802,
+      "sha256": "02acc0cffa21fe0ed8419b6740bf7d6e3a33ecf4b42c22ba60534331492b94bf",
+      "sourceMasterSha256": "71f44337e76b6be008d73fc947a67c2aecd331c154e7dd0ef4886f8506266e0f"
+    }
+  }
+}

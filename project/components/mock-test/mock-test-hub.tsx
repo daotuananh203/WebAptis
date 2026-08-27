@@ -24,16 +24,15 @@ import {
   clearActiveMockTestSession,
 } from "@/lib/storage";
 import { Badge } from "../ui/badge";
+import { ALL_EXAM_TEST_CATALOG, formatTestDisplayName } from "@/lib/exam/test-catalog";
 
-const ALL_MOCK_TESTS = Array.from({ length: 16 }, (_, i) => {
-  const num = i + 1;
-  const id = `aptis-b2-${num.toString().padStart(2, "0")}`;
-  const hasAudio = num !== 16;
+const ALL_MOCK_TESTS = ALL_EXAM_TEST_CATALOG.map((entry) => {
   return {
-    testNum: num,
-    testId: id,
-    title: `Đề thi thử Aptis B2 — Đề ${num.toString().padStart(2, "0")}`,
-    hasAudio,
+    testNum: entry.catalogNumber,
+    sourceLabel: entry.label,
+    testId: entry.testId,
+    title: `${entry.label} — Aptis B2`,
+    hasAudio: entry.hasListeningAudio,
     totalMinutes: 162,
     sectionsCount: 5,
   };
@@ -69,7 +68,7 @@ export function MockTestHub() {
         <div className="max-w-2xl space-y-3">
           <div className="flex items-center gap-2">
             <span className="text-[10px] font-black tracking-wider uppercase px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/20">
-              MÔ PHỎNG THI THẬT 5 KỸ NĂNG (16 BỘ ĐỀ)
+              MÔ PHỎNG THI THẬT 5 KỸ NĂNG (23 BỘ ĐỀ)
             </span>
           </div>
 
@@ -77,7 +76,7 @@ export function MockTestHub() {
             Thi thử Full Mock Test Aptis ESOL B2
           </h1>
           <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-            Chọn một trong 16 bộ đề thi thử hoàn chỉnh chuẩn định dạng Aptis General B2. Mỗi đề thi bao gồm trọn vẹn 5 phần: Grammar & Vocabulary, Reading, Listening, Writing, Speaking với tổng thời gian 162 phút.
+            Chọn một trong 23 bộ đề thi thử hoàn chỉnh chuẩn định dạng Aptis General B2. Mỗi đề thi bao gồm trọn vẹn 5 phần: Grammar & Vocabulary, Reading, Listening, Writing, Speaking với tổng thời gian 162 phút.
           </p>
 
           {/* Active Session Recovery Banner */}
@@ -85,7 +84,7 @@ export function MockTestHub() {
             <div className="mt-4 p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
                 <p className="text-xs font-bold text-emerald-300">
-                  Tìm thấy bài thi thử đang làm dở: {activeSession.testId.replace("aptis-b2-", "Đề ")}
+                  Tìm thấy bài thi thử đang làm dở: {formatTestDisplayName(activeSession.testId)}
                 </p>
                 <p className="text-[11px] text-slate-300">
                   Bạn có 1 bài thi đang thực hiện (Phần {activeSession.currentSectionIndex + 1} / 5).
@@ -113,15 +112,15 @@ export function MockTestHub() {
         </div>
       </div>
 
-      {/* 16 Full Mock Tests Selection Grid */}
+      {/* Full Mock Tests Selection Grid */}
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-base sm:text-lg font-bold text-white">
-              Chọn Bộ Đề Thi Thử (Đề 01 → Đề 16)
+              Chọn Bộ Đề Thi Thử (23 bộ đề nguồn)
             </h2>
             <p className="text-xs text-slate-300">
-              16 Full Mock Tests chuẩn cấu trúc đề thi chính thức
+              23 Full Mock Tests theo các source bundle đã ingest
             </p>
           </div>
         </div>
@@ -135,7 +134,7 @@ export function MockTestHub() {
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="text-[10px] font-bold px-2 py-0.5 rounded-md border border-emerald-500/30 text-emerald-300 bg-emerald-500/10">
-                    Đề {test.testNum.toString().padStart(2, "0")}
+                    {test.sourceLabel}
                   </span>
                   {test.hasAudio ? (
                     <span className="flex items-center gap-1 text-[9px] font-bold text-emerald-300 bg-emerald-500/10 px-1.5 py-0.5 rounded border border-emerald-500/20">

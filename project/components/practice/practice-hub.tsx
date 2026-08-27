@@ -17,6 +17,7 @@ import { SkillPracticeLandingPage, PracticeModeDef, PartOptionDef } from "./skil
 import { SkillTestListView, TestListItemData } from "./skill-test-list-view";
 import { ExamComponentSkill } from "@/lib/progress/types";
 import { cn } from "@/lib/utils";
+import { SOURCE_BATCH_TEST_CATALOG, ALL_EXAM_TEST_CATALOG } from "@/lib/exam/test-catalog";
 
 import writingDataRaw from "@/data/staging/writing/ts-writing-data.json";
 import speakingDataRaw from "@/data/staging/google-drive/speaking/ts-speaking-data.json";
@@ -32,7 +33,30 @@ export interface SkillCategoryCatalog {
   parts: PartOptionDef[];
 }
 
-export const LISTENING_TESTS_DATA: TestListItemData[] = Array.from({ length: 16 }, (_, i) => {
+const SOURCE_BATCH_LIST_ITEMS = (
+  skill: "listening" | "reading" | "writing" | "speaking" | "grammarVocabulary",
+  durationMinutes: number,
+  partsCount: number,
+  gradingType: "key" | "ai",
+  title: string,
+  description: string,
+  practicePart: string,
+): TestListItemData[] => SOURCE_BATCH_TEST_CATALOG.map((entry) => ({
+  testId: entry.testId,
+  testNumber: entry.catalogNumber,
+  level: "B2",
+  isFeatured: false,
+  hasAttempt: false,
+  durationMinutes,
+  partsCount,
+  gradingType,
+  title: `${entry.label} — ${title}`,
+  description,
+  tags: [skill, "Aptis-B2", "Source-2026-08"],
+  practiceUrl: `/practice/${skill}/${practicePart}?testId=${entry.testId}`,
+}));
+
+export const LISTENING_TESTS_DATA: TestListItemData[] = [...Array.from({ length: 16 }, (_, i): TestListItemData => {
   const testNum = i + 1;
   const testId = `aptis-b2-${testNum.toString().padStart(2, "0")}`;
   const isMissing = testNum === 16;
@@ -52,9 +76,9 @@ export const LISTENING_TESTS_DATA: TestListItemData[] = Array.from({ length: 16 
     tags: ["Listening", `Test-${testNum.toString().padStart(2, "0")}`, "Full-4-Parts"],
     practiceUrl: `/practice/listening/part1?testId=${testId}`,
   };
-});
+}), ...SOURCE_BATCH_LIST_ITEMS("listening", 40, 4, "key", "Aptis Listening B2", "Bộ đề nguồn 4 kỹ năng gồm đầy đủ 4 phần Listening và audio được cắt từ master MP3 theo transcript.", "part1")];
 
-export const READING_TESTS_DATA: TestListItemData[] = Array.from({ length: 16 }, (_, i) => {
+export const READING_TESTS_DATA: TestListItemData[] = [...Array.from({ length: 16 }, (_, i): TestListItemData => {
   const testNum = i + 1;
   const testId = `aptis-b2-${testNum.toString().padStart(2, "0")}`;
   return {
@@ -71,19 +95,19 @@ export const READING_TESTS_DATA: TestListItemData[] = Array.from({ length: 16 },
     tags: ["Reading", `Test-${testNum.toString().padStart(2, "0")}`, "Full-4-Parts"],
     practiceUrl: `/practice/reading/part1?testId=${testId}`,
   };
-});
+}), ...SOURCE_BATCH_LIST_ITEMS("reading", 35, 4, "key", "Aptis Reading B2", "Bộ đề nguồn 4 kỹ năng gồm đầy đủ 4 phần Reading được trích xuất trực tiếp từ PDF.", "part1")];
 
-export const WRITING_TESTS_DATA: TestListItemData[] = (writingDataRaw as any[]).map((item) => ({
+export const WRITING_TESTS_DATA: TestListItemData[] = [...(writingDataRaw as any[]).map((item) => ({
   ...item,
   gradingType: item.gradingType as "key" | "ai",
-}));
+})), ...SOURCE_BATCH_LIST_ITEMS("writing", 50, 4, "ai", "Aptis Writing B2", "Bộ đề nguồn 4 kỹ năng với 4 phần Writing trích xuất từ đề PDF và có chấm AI.", "part1")];
 
-export const SPEAKING_TESTS_DATA: TestListItemData[] = (speakingDataRaw as any[]).map((item) => ({
+export const SPEAKING_TESTS_DATA: TestListItemData[] = [...(speakingDataRaw as any[]).map((item) => ({
   ...item,
   gradingType: item.gradingType as "key" | "ai",
-}));
+})), ...SOURCE_BATCH_LIST_ITEMS("speaking", 12, 4, "ai", "Aptis Speaking B2", "Bộ đề nguồn 4 kỹ năng với prompt và hình ảnh được trích xuất trực tiếp từ PDF.", "part1")];
 
-export const GRAMMAR_TESTS_DATA: TestListItemData[] = Array.from({ length: 16 }, (_, i) => {
+export const GRAMMAR_TESTS_DATA: TestListItemData[] = [...Array.from({ length: 16 }, (_, i): TestListItemData => {
   const testNum = i + 1;
   const testId = `aptis-b2-${testNum.toString().padStart(2, "0")}`;
   return {
@@ -100,7 +124,7 @@ export const GRAMMAR_TESTS_DATA: TestListItemData[] = Array.from({ length: 16 },
     tags: ["Grammar", "Vocabulary", `Test-${testNum.toString().padStart(2, "0")}`],
     practiceUrl: `/practice/grammarVocabulary/grammar?testId=${testId}`,
   };
-});
+}), ...SOURCE_BATCH_LIST_ITEMS("grammarVocabulary", 25, 2, "key", "Aptis Grammar & Vocabulary B2", "Bộ đề nguồn 4 kỹ năng gồm 25 câu Grammar và 25 câu Vocabulary từ PDF.", "grammar")];
 
 export const PRACTICE_SKILLS_CATALOG: SkillCategoryCatalog[] = [
   {
@@ -537,6 +561,11 @@ export function PracticeHub() {
           modeCount={currentCategory.modeCount}
           modes={currentCategory.modes}
           parts={currentCategory.parts}
+          tests={ALL_EXAM_TEST_CATALOG.map((entry) => ({
+            testId: entry.testId,
+            label: entry.label,
+            hasListeningAudio: entry.hasListeningAudio,
+          }))}
         />
       )}
     </div>

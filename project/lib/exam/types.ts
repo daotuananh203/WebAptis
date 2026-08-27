@@ -164,8 +164,15 @@ export interface ListeningPlaybackRules {
 export interface ListeningAudioObject {
   type: string;
   url: string;
-  status: "available" | "missing";
+  status: "available" | "missing" | "VERIFIED" | "NOT_VERIFIED" | "PARTIALLY_VERIFIED" | "UNCERTAIN" | "segment";
   audioSegmentStatus?: "VERIFIED" | "NOT_VERIFIED";
+  start?: number;
+  end?: number;
+  sha256?: string;
+  duration?: number;
+  cacheVersion?: string;
+  source?: string;
+  sharedGroupId?: string;
 }
 
 export interface ListeningPart1Task {

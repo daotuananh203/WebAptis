@@ -423,6 +423,7 @@ export function QuestionRenderer({
       (partIdentifier ? parseInt(partIdentifier.replace("part", ""), 10) : 1) ||
       1;
     const isPartVerified = partData.audio?.status === "VERIFIED";
+    const isPartUncertain = partData.audio?.status === "UNCERTAIN";
     const audioUrl =
       partData.audio?.url ||
       partData.audioUrl ||
@@ -485,11 +486,17 @@ export function QuestionRenderer({
                           })`
                         : hasQuestionLevelAudio
                         ? "Bản thu âm toàn bộ Part 1"
+                        : isPartUncertain
+                        ? "Audio Part này có block chưa đủ bằng chứng alignment"
                         : "Bản thu âm Listening — File audio toàn bộ bài thi"}
                     </span>
                   </div>
                   <span className="text-[10px] text-slate-400">
-                    {isPartVerified ? "Âm thanh trọn vẹn của phần này" : "Bạn có thể phát và tua đến phần cần nghe"}
+                    {isPartVerified
+                      ? "Âm thanh trọn vẹn của phần này"
+                      : isPartUncertain
+                      ? "Đang giữ nguyên trạng thái UNCERTAIN để không xác nhận quá mức"
+                      : "Bạn có thể phát và tua đến phần cần nghe"}
                   </span>
                 </div>
                 <audio

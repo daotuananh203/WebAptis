@@ -1,5 +1,6 @@
 import { AppShell } from "@/components/layout/app-shell";
 import { PracticeShell } from "@/components/practice/practice-shell";
+import { formatTestDisplayName } from "@/lib/exam/test-catalog";
 
 const SKILL_NAMES: Record<string, string> = {
   grammarVocabulary: "Ngữ pháp & Từ vựng",
@@ -20,7 +21,7 @@ export default async function PracticePartPage({
   const sParams = await searchParams;
   const testId = sParams?.testId || "aptis-b2-01";
   const skillDisplayName = SKILL_NAMES[skill] || skill;
-  const testDisplayName = testId.replace("aptis-b2-", "Đề ");
+  const testDisplayName = formatTestDisplayName(testId);
 
   return (
     <AppShell

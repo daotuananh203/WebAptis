@@ -1,0 +1,862 @@
+{
+  "testId": "aptis-4skills-02",
+  "sourceMaster": "APTIS\\Bộ đề 4 kĩ năng\\File Nghe + Transcript + Đáp án Aptis\\File Nghe\\Đề 2.mp3",
+  "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579",
+  "sourceMasterDuration": 904.359,
+  "blocks": [
+    {
+      "part": 1,
+      "index": 1,
+      "paragraphRange": [
+        1,
+        1
+      ],
+      "sourceTranscript": "Hello, everyone! I want to share what my family usually does on weekends. We love spending time together and often go for a walk in the park. It's a nice way to relax and enjoy nature. We like to see the flowers and sometimes have a picnic. However, this weekend is different! My sister is visiting us, and we have planned a small family gathering at home. We will cook a big meal together and play some games. It will be fun to catch up and spend quality time as a family. I'm really looking forward to it!",
+      "sourceTokenCount": 98,
+      "observedCompleteRenditions": 2,
+      "speechStart": 3.92,
+      "speechEnd": 34.56,
+      "alignment": {
+        "startWordIndex": 0,
+        "endWordIndex": 97,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 3.12,
+      "clipEnd": 35.36,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 0.0,
+        "nextSpeechStart": 41.88,
+        "previousGap": 3.92,
+        "nextGap": 7.32,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q01",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q01.mp3",
+      "audioSha256": "2a9646260fba4ca6ed3e2661b69818cb4b2e425a5c2cc8ad2f3e3e7b7d4016f6",
+      "audioBytes": 517151,
+      "duration": 32.287,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 2,
+      "paragraphRange": [
+        2,
+        10
+      ],
+      "sourceTranscript": "Man: Hi there! I need some help buying gifts for my friends. Shop Assistant: Of course! What kind of gifts are you looking for? Man: I'm not sure yet. What do you have? Shop Assistant: How about mugs? We have many colorful designs. Would you like to buy some? Man: They're nice, but I think my friends have enough mugs already. Is there anything else? Shop Assistant: Candles can also be a great choice! We have some lovely scented ones. Man: Hmm, I like them, but I'm looking for something else. Shop Assistant: How about clothes? We have some stylish shirts and sweaters. Man: That sounds good! I think I'll buy some clothes for my friends in the end. Thank you for your help!",
+      "sourceTokenCount": 124,
+      "observedCompleteRenditions": 1,
+      "speechStart": 41.88,
+      "speechEnd": 81.86,
+      "alignment": {
+        "startWordIndex": 98,
+        "endWordIndex": 208,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 0.8870967741935484
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 41.08,
+      "clipEnd": 82.66,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 34.56,
+        "nextSpeechStart": 87.03,
+        "previousGap": 7.32,
+        "nextGap": 5.17,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q02",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q02.mp3",
+      "audioSha256": "9d80cdb9f62bda07b3e3a1d393503ca52fd29c628384b6c3972db37bc111b145",
+      "audioBytes": 666363,
+      "duration": 41.613,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 3,
+      "paragraphRange": [
+        11,
+        11
+      ],
+      "sourceTranscript": "Hello! This is Mark. I think I might have lost my glasses when I was at your store earlier today. I remember trying on a jacket, and I may have left them there. They are brown and round. I really need them for reading and driving! I want to come back and check if they are still there. Can you please hold them for me if you find them? Thank you so much for your help! I'll be there in about 20 minutes.",
+      "sourceTokenCount": 83,
+      "observedCompleteRenditions": 2,
+      "speechStart": 87.03,
+      "speechEnd": 110.61,
+      "alignment": {
+        "startWordIndex": 209,
+        "endWordIndex": 291,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 86.23,
+      "clipEnd": 111.41,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 81.86,
+        "nextSpeechStart": 117.1,
+        "previousGap": 5.17,
+        "nextGap": 6.49,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q03",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q03.mp3",
+      "audioSha256": "5dead82ae627ac63490030891b7082a43900ab7d4fa11218833acb5a4d38ff2e",
+      "audioBytes": 403884,
+      "duration": 25.208,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 4,
+      "paragraphRange": [
+        12,
+        12
+      ],
+      "sourceTranscript": "Hi mom, it's Jack. I hope you're doing well. I'm out shopping and I need to buy some chocolates for my sister's birthday. (2:05) She loves dark chocolate, so I want to get her some nice ones. By the way, do you need anything while I'm here? I can pick up some milk or fruit if you want. Let me know. I'll talk to you soon.",
+      "sourceTokenCount": 65,
+      "observedCompleteRenditions": 2,
+      "speechStart": 117.1,
+      "speechEnd": 134.92,
+      "alignment": {
+        "startWordIndex": 292,
+        "endWordIndex": 356,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 116.3,
+      "clipEnd": 135.72,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 110.61,
+        "nextSpeechStart": 142.15,
+        "previousGap": 6.49,
+        "nextGap": 7.23,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q04",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q04.mp3",
+      "audioSha256": "434a15e3a3e4b347c03ae49398d7fe58eeb3473106402284cfb6f7e3c3d3a200",
+      "audioBytes": 311933,
+      "duration": 19.461,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 5,
+      "paragraphRange": [
+        13,
+        13
+      ],
+      "sourceTranscript": "Hi Jake, it's Lucy. I just wanted to check in on you. How are you doing? I know you've been busy with work and school lately. I'm worried that you're not drinking enough water. Staying hydrated is really important, especially when you're working hard. Remember to keep a bottle with you. Anyway, I hope you're taking care of yourself. Let's catch up soon.",
+      "sourceTokenCount": 63,
+      "observedCompleteRenditions": 2,
+      "speechStart": 142.15,
+      "speechEnd": 163.47,
+      "alignment": {
+        "startWordIndex": 357,
+        "endWordIndex": 419,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 141.35,
+      "clipEnd": 164.27,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 134.92,
+        "nextSpeechStart": 170.01,
+        "previousGap": 7.23,
+        "nextGap": 6.54,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q05",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q05.mp3",
+      "audioSha256": "c1061bbcf24e0319c06f4fb59c5c8d3dc6b4f3fa866a40d91825aa38ade39bfd",
+      "audioBytes": 367940,
+      "duration": 22.962,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 6,
+      "paragraphRange": [
+        14,
+        14
+      ],
+      "sourceTranscript": "Hi Mia, it's Anna. I hope you're having a great day. I wanted to see if we are still meeting at the marketplace later. I'm really excited because I want to try that new ice cream shop we talked about. I heard they have some amazing flavors. I'll be there around 3 pm. Let's also check out the fresh fruits and vegetables. It's always fun to shop together. See you soon.",
+      "sourceTokenCount": 71,
+      "observedCompleteRenditions": 2,
+      "speechStart": 170.01,
+      "speechEnd": 192.39,
+      "alignment": {
+        "startWordIndex": 420,
+        "endWordIndex": 490,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 169.21,
+      "clipEnd": 193.19,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 163.47,
+        "nextSpeechStart": 197.67,
+        "previousGap": 6.54,
+        "nextGap": 5.28,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q06",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q06.mp3",
+      "audioSha256": "1651fc23cf031f445d4d35d3b5a8b3a2e1d8b8010dbe3367215edbed4c9fe4f1",
+      "audioBytes": 384658,
+      "duration": 24.007,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 7,
+      "paragraphRange": [
+        15,
+        15
+      ],
+      "sourceTranscript": "Ladies and gentlemen, welcome to today's auction. I have a beautiful cabinet here that I want to show you. This cabinet is made of high quality wood and it has a lovely design that will fit in any room. What makes it special is that the drawer is kept original, which adds to its charm and value. You can store your favorite items or use it as a display for your beautiful decorations. Don't miss this chance to own a unique piece of furniture. Let's start the bidding.",
+      "sourceTokenCount": 88,
+      "observedCompleteRenditions": 2,
+      "speechStart": 197.67,
+      "speechEnd": 226.17,
+      "alignment": {
+        "startWordIndex": 491,
+        "endWordIndex": 578,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 196.87,
+      "clipEnd": 226.97,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 192.39,
+        "nextSpeechStart": 234.53,
+        "previousGap": 5.28,
+        "nextGap": 8.36,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q07",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q07.mp3",
+      "audioSha256": "67c2e835d0ac390b6fd2195f813e86ecfaa2427e2a8298574bbd311df8422282",
+      "audioBytes": 482878,
+      "duration": 30.145,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 8,
+      "paragraphRange": [
+        16,
+        16
+      ],
+      "sourceTranscript": "Hi Evan, this is mom. I just wanted to leave you a message to check on you. I heard you're not feeling well and I'm really worried about you. Make sure you're resting and drinking plenty of fluids. Do you need anything? I can bring you some soup or your favorite snacks. Please take care of yourself. I love you and hope you feel better soon. Call me back when you can.",
+      "sourceTokenCount": 72,
+      "observedCompleteRenditions": 2,
+      "speechStart": 234.53,
+      "speechEnd": 256.41,
+      "alignment": {
+        "startWordIndex": 579,
+        "endWordIndex": 650,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 233.73,
+      "clipEnd": 257.21,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 226.17,
+        "nextSpeechStart": 262.51,
+        "previousGap": 8.36,
+        "nextGap": 6.1,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q08",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q08.mp3",
+      "audioSha256": "4325ab00ae8316db74f7a4984b9c561296ebca59a092b36c1c6d57fd925f6b93",
+      "audioBytes": 376717,
+      "duration": 23.51,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 9,
+      "paragraphRange": [
+        17,
+        23
+      ],
+      "sourceTranscript": "Mike: Hey Sarah, are you excited about our trip next week? Sarah: Hi Mike. Yes, I can't wait. I've been looking forward to it for a long time. Mike: Me too, but I heard the weather is going to be cold and wet. We should prepare for that. Sarah: Oh no, I hope it doesn't rain too much. We need to pack our rain jackets and warm clothes. Mike: Definitely. I'll also bring an umbrella just in case. Sarah: Good idea. Let's plan some fun indoor activities if the weather is bad. Mike: Yes, we can visit museums or try some local food. It will still be a great trip.",
+      "sourceTokenCount": 110,
+      "observedCompleteRenditions": 1,
+      "speechStart": 262.51,
+      "speechEnd": 295.11,
+      "alignment": {
+        "startWordIndex": 651,
+        "endWordIndex": 753,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 0.9181818181818182
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 261.71,
+      "clipEnd": 295.91,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 256.41,
+        "nextSpeechStart": 301.84,
+        "previousGap": 6.1,
+        "nextGap": 6.73,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q09",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q09.mp3",
+      "audioSha256": "28e4616c191e45368d574813dfbd7e1330850ece5750b1d220eb1440b1afcd73",
+      "audioBytes": 548498,
+      "duration": 34.247,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 10,
+      "paragraphRange": [
+        24,
+        24
+      ],
+      "sourceTranscript": "Hello everyone. I want to share my plans for the holiday. This year I'm going to travel to the city for a few days. I'm very excited because I love exploring new places. I plan to visit some interesting museums and try different foods at local restaurants. The best part is that I will travel by train, which is fun and also very cheap. I will leave early in the morning to enjoy the day. I can't wait to see all the sights and take lots of pictures. It will be an amazing holiday.",
+      "sourceTokenCount": 94,
+      "observedCompleteRenditions": 2,
+      "speechStart": 301.84,
+      "speechEnd": 330.44,
+      "alignment": {
+        "startWordIndex": 754,
+        "endWordIndex": 847,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 301.04,
+      "clipEnd": 331.24,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 295.11,
+        "nextSpeechStart": 337.05,
+        "previousGap": 6.73,
+        "nextGap": 6.61,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q10",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q10.mp3",
+      "audioSha256": "e5070c67362ea1668f0f7f7b857ae18c6f7b92c93c12b77df3db09a4cbb9cd95",
+      "audioBytes": 484550,
+      "duration": 30.25,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 11,
+      "paragraphRange": [
+        25,
+        25
+      ],
+      "sourceTranscript": "Hello everyone. I'm here to talk about nutrition and how important it is for our health. Eating fruits is very beneficial, especially for children. Fruits have vitamins and minerals that help kids grow strong and stay healthy. The best time for children to eat fruit is in the morning. This gives them energy for the day ahead. You can add fruit to breakfast like in a smoothie or with yogurt. It's a and healthy way to start the day. So, let's encourage our kids to eat more fruit in the morning. Thank you.",
+      "sourceTokenCount": 93,
+      "observedCompleteRenditions": 2,
+      "speechStart": 337.05,
+      "speechEnd": 368.63,
+      "alignment": {
+        "startWordIndex": 848,
+        "endWordIndex": 941,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 336.25,
+      "clipEnd": 369.43,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 330.44,
+        "nextSpeechStart": 374.11,
+        "previousGap": 6.61,
+        "nextGap": 5.48,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q11",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q11.mp3",
+      "audioSha256": "6342fa519aa42f0def034caa5ab379519dada17091401f64ea073821d3db01e5",
+      "audioBytes": 532198,
+      "duration": 33.228,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 12,
+      "paragraphRange": [
+        26,
+        26
+      ],
+      "sourceTranscript": "Hi everyone. I'm Greg and I want to tell you about a typical working day in my life. I usually wake up early, around 7am. After a quick breakfast, I get ready for work. I like to wear smart clothes because I work in an office. I go by bus every day, which takes about 30 minutes. I enjoy looking out the window and listening to music on my way. When I arrive at the office, I start my day by checking emails and planning my tasks. I have meetings with my team and we work together on projects.",
+      "sourceTokenCount": 100,
+      "observedCompleteRenditions": 2,
+      "speechStart": 374.11,
+      "speechEnd": 404.15,
+      "alignment": {
+        "startWordIndex": 942,
+        "endWordIndex": 1043,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.99
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 373.31,
+      "clipEnd": 404.95,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 368.63,
+        "nextSpeechStart": 412.52,
+        "previousGap": 5.48,
+        "nextGap": 8.37,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q12",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q12.mp3",
+      "audioSha256": "861f7c9a82b660f7f6ee6af9a4f92483f6cb8207074e2558213fe35d3bf1482b",
+      "audioBytes": 507538,
+      "duration": 31.687,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 1,
+      "index": 13,
+      "paragraphRange": [
+        27,
+        28
+      ],
+      "sourceTranscript": "Hello everyone. Welcome to our tour. My name is Sam and I'm your tour guide today. I'm excited to show you around this beautiful city. We will visit many interesting places, including parks, museums, and local markets. As we walk, I'll share fun facts and stories about each location. If you have any questions, feel free to ask. Now, before we start, I want to let you know that our office is opposite the hotel where you are staying. If you need any help or information during your stay, you can always come to us. Let's begin our adventure and enjoy exploring together.",
+      "sourceTokenCount": 103,
+      "observedCompleteRenditions": 2,
+      "speechStart": 412.52,
+      "speechEnd": 447.44,
+      "alignment": {
+        "startWordIndex": 1044,
+        "endWordIndex": 1146,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 411.72,
+      "clipEnd": 448.24,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 404.15,
+        "nextSpeechStart": 489.64,
+        "previousGap": 8.37,
+        "nextGap": 42.2,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p1-q13",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/q13.mp3",
+      "audioSha256": "b6cd5d3ed8ccd310d71255fd37f49a6eb24eefe5f9e7e4c6808a7939ab67ecea",
+      "audioBytes": 585696,
+      "duration": 36.571,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 2,
+      "index": 1,
+      "paragraphRange": [
+        30,
+        31
+      ],
+      "sourceTranscript": "Speaker A: Mornings are actually my favorite time of day. I get to catch up with my friends, laugh about silly things, and just share a moment before the real day starts. We're out there together, moving through the city like it's our own little world. It's funny how just talking and walking can make you forget about everything else. Sometimes we even take a longer route just to keep the conversation going. By the time we get to work, I'm already in a good mood, ready for whatever comes my way.",
+      "sourceTokenCount": 90,
+      "observedCompleteRenditions": 2,
+      "speechStart": 489.64,
+      "speechEnd": 518.3,
+      "alignment": {
+        "startWordIndex": 1147,
+        "endWordIndex": 1237,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 0.9888888888888889
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 488.84,
+      "clipEnd": 519.1,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 447.44,
+        "nextSpeechStart": 526.86,
+        "previousGap": 42.2,
+        "nextGap": 8.56,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-a",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-2/spk-a.mp3",
+      "audioSha256": "c54a80673c4eb15f915d10b578a4a02cbe9b49c6c6219d2a20240d96f6f8c354",
+      "audioBytes": 485386,
+      "duration": 30.302,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 2,
+      "index": 2,
+      "paragraphRange": [
+        33,
+        33
+      ],
+      "sourceTranscript": "Speaker B: There's something oddly comforting about my mornings. It's like this in-between space where I'm not quite at home, not quite at work. I hop on the bus, find a seat if I'm lucky, and just watch the world go by. You see all kinds of faces, each with their own story, each heading somewhere. It's not glamorous, but it's my little escape. Time to listen to my favorite songs or daydream out the window. By the time I step off, I'm ready to face whatever the day throws at me.",
+      "sourceTokenCount": 91,
+      "observedCompleteRenditions": 2,
+      "speechStart": 526.86,
+      "speechEnd": 574.25,
+      "alignment": {
+        "startWordIndex": 1238,
+        "endWordIndex": 1327,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 0.989010989010989
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 526.06,
+      "clipEnd": 574.25,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 518.3,
+        "nextSpeechStart": 574.25,
+        "previousGap": 8.56,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-b",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-2/spk-b.mp3",
+      "audioSha256": "bfde8fce08ac78952e6481b7d8122fc1d24bdb27d0a5c4c16d5fdec6718a88df",
+      "audioBytes": 772106,
+      "duration": 48.222,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 2,
+      "index": 3,
+      "paragraphRange": [
+        35,
+        35
+      ],
+      "sourceTranscript": "Speaker C: Mornings are quiet, and that's how I like it. It's just me, the fresh air, and the city slowly waking up. I take my time, choosing the paths that are less crowded. I guess you could say it's my way of getting ready for the day. There's no rush, just the steady rhythm of my own footsteps. It's my chance to breathe, to think, to just be by myself. By the time I reach work, I feel like I've had a small adventure all my own.",
+      "sourceTokenCount": 86,
+      "observedCompleteRenditions": 0,
+      "speechStart": 574.25,
+      "speechEnd": 595.85,
+      "alignment": {
+        "startWordIndex": 1328,
+        "endWordIndex": 1390,
+        "headScore": 0.0,
+        "tailScore": 0.0,
+        "coverage": 0.7325581395348837
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": false,
+      "clipStart": 574.25,
+      "clipEnd": 595.85,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 574.25,
+        "nextSpeechStart": 595.85,
+        "previousGap": 0.0,
+        "nextGap": 0.0,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "UNCERTAIN",
+      "logicalId": "p2-spk-c",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-2/spk-c.mp3",
+      "audioSha256": "4453e0eb068abc08febd8e762e736a4a6ad939d835c7a0f1a5b202eb35d85e7b",
+      "audioBytes": 346624,
+      "duration": 21.629,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 2,
+      "index": 4,
+      "paragraphRange": [
+        37,
+        38
+      ],
+      "sourceTranscript": "Speaker D: Every morning, it's just me, my car, and the open road. There's a kind of freedom in it, you know? I get to decide my route, crank up my favorite tunes, and just go. Traffic can be a pain, sure, but it's worth it for those moments when it's just me and my thoughts. I like having that bit of control, especially before a busy day. Sometimes, I even take the scenic route, just to stretch out the time a bit. By the time I park, I'm in my zone, ready to take on whatever comes next.",
+      "sourceTokenCount": 97,
+      "observedCompleteRenditions": 3,
+      "speechStart": 595.85,
+      "speechEnd": 633.75,
+      "alignment": {
+        "startWordIndex": 1391,
+        "endWordIndex": 1492,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 595.85,
+      "clipEnd": 634.55,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 595.85,
+        "nextSpeechStart": 640.73,
+        "previousGap": 0.0,
+        "nextGap": 6.98,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p2-spk-d",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-2/spk-d.mp3",
+      "audioSha256": "d5d7349576f8d7f63b1426f28ac17b24f72a289f679023b7a89fed6ea0d3826d",
+      "audioBytes": 620387,
+      "duration": 38.74,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 3,
+      "index": 1,
+      "paragraphRange": [
+        39,
+        51
+      ],
+      "sourceTranscript": "Woman: Hey Carlos, have you read the article about urban farming? Man: Urban farming? What exactly is it? Woman: Well, it's about growing food in urban areas, like on rooftops or unused spaces, to help address food supply issues in cities. Man: You mean farming in cities? How could that even work? Cities are already overcrowded. There isn't enough space for housing, let alone farming. Urban farming will take up land that could be used for accommodation. Woman: I think it makes sense. More people from rural areas are moving to cities, and food has become a critical issue. It's vital that we adapt over time. Man: That's exactly my point. Where are all these people supposed to live? Woman: You don't have to take urban farming literally. It's not about large-scale farming right away. Small changes are necessary. Over time, we need to find ways to balance ecological and economic needs. Man: Sure, I support green initiatives, but they need to be practical. How can this approach actually work? Woman: Unused spaces that are too small for housing can be converted into farming areas. If done right, this could be both beneficial and visually attractive, like turning them into green spaces or local parks. Man: I still think this could have negative effects, especially on rural areas, where traditional farmers might lose their jobs if urban farming takes over. Woman: You should think of it as a supplement, not a replacement. For rural areas, producing vegetables closer to where they're consumed can actually be beneficial. It saves on transportation costs and uses resources more efficiently. Man: But this is mostly about food, right? I don't think urban farming can solve the scarcity problem. Cities just can't realistically support large-scale farming. Rural farming is still a more practical option. Woman: That's true, and I agree. But changes need to happen. Sooner or later, urban farming will become a key trend for the future.",
+      "sourceTokenCount": 325,
+      "observedCompleteRenditions": 1,
+      "speechStart": 640.73,
+      "speechEnd": 754.01,
+      "alignment": {
+        "startWordIndex": 1493,
+        "endWordIndex": 1793,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 0.92
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 639.93,
+      "clipEnd": 754.81,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 633.75,
+        "nextSpeechStart": 759.68,
+        "previousGap": 6.98,
+        "nextGap": 5.67,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p3-task-all",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-3/task-all.mp3",
+      "audioSha256": "740b82a2a59681b2e9ef8901416cffd54add5b585a8653d5b4af43d53520e6a9",
+      "audioBytes": 1839156,
+      "duration": 114.913,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 4,
+      "index": 1,
+      "paragraphRange": [
+        52,
+        52
+      ],
+      "sourceTranscript": "A famous TV series called Mystery City was recently broadcasted, and it caught the audience's attention from the start. The first episode was filled with suspense and surprising twists that left viewers eager for more. The engaging storyline and strong characters made it easy for people to connect with the show, which quickly became a topic of conversation. Social media buzzed with reactions and theories, making it a true phenomenon. Beyond just entertaining, Mystery City has also helped its network reach new customers. The show attracted a diverse audience, including younger viewers who might not have watched traditional TV before. This is important for marketing because it shows how a single series can expand a network's reach and boost subscriptions. With clever promotions and partnerships, the series brought in new fans who may now explore other shows on the platform. Overall, Mystery City is not just a popular series. It's a powerful tool for building a community around a brand. The combination of captivating storytelling and strategic marketing has made it a success that other networks will likely try to replicate. As the series continues, it will be interesting to see how it evolves and what new customers it brings in.",
+      "sourceTokenCount": 201,
+      "observedCompleteRenditions": 2,
+      "speechStart": 759.68,
+      "speechEnd": 836.66,
+      "alignment": {
+        "startWordIndex": 1794,
+        "endWordIndex": 1994,
+        "headScore": 1.0,
+        "tailScore": 1.0,
+        "coverage": 1.0
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 758.88,
+      "clipEnd": 837.46,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 754.01,
+        "nextSpeechStart": 861.84,
+        "previousGap": 5.67,
+        "nextGap": 25.18,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p4-mono1",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-4/mono1.mp3",
+      "audioSha256": "5a45dfc1ce95762913464fdc5a0346e292af83af605c719ed8c7babc0965c455",
+      "audioBytes": 1258611,
+      "duration": 78.629,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    {
+      "part": 4,
+      "index": 2,
+      "paragraphRange": [
+        53,
+        53
+      ],
+      "sourceTranscript": "Advertisement plays a crucial role in maintaining the game's popularity. Innovative advertising strategies help brands expand their customer base to other countries, increasing their global reach. However, not all commercial advertising activities are beneficial for sports fans. While advertisements may boost the game's visibility and attract new audiences, they can sometimes detract from the viewing experience with interruptions or overly commercialized content. It's important to strike a balance between promoting the sport and maintaining its integrity for true fans.",
+      "sourceTokenCount": 79,
+      "observedCompleteRenditions": 2,
+      "speechStart": 861.84,
+      "speechEnd": 897.22,
+      "alignment": {
+        "startWordIndex": 2049,
+        "endWordIndex": 2131,
+        "headScore": 0.9,
+        "tailScore": 1.0,
+        "coverage": 0.9746835443037974
+      },
+      "discardedIncompleteRenditions": 0,
+      "sourceBlockAlignmentComplete": true,
+      "clipStart": 861.04,
+      "clipEnd": 898.02,
+      "boundaryEvidence": {
+        "previousSpeechEnd": 836.66,
+        "nextSpeechStart": 904.334,
+        "previousGap": 25.18,
+        "nextGap": 7.114,
+        "method": "source transcript block + ordered ASR word alignment + inter-block silence midpoint"
+      },
+      "noOverlap": true,
+      "nextBlockSpeechOutsideClip": true,
+      "fullSourceCoverage": true,
+      "status": "VERIFIED",
+      "logicalId": "p4-mono2",
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-4/mono2.mp3",
+      "audioSha256": "86f6c112da6104d4044977526fe3bc710b84ef3dc3254ef4134b2ac29b984fe5",
+      "audioBytes": 592802,
+      "duration": 37.016,
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    }
+  ],
+  "partAudio": {
+    "1": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-1/task-all.mp3",
+      "start": 3.12,
+      "end": 448.24,
+      "duration": 445.153,
+      "sha256": "e238632d803310be14e5a34dd2b5a547ef0ebcb2f1335744b51df43380853a53",
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    "2": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-2/task-all.mp3",
+      "start": 488.84,
+      "end": 634.55,
+      "duration": 145.737,
+      "sha256": "30c938efe74f86bbe6ebf01e54dd3e8a9917afdfe99e73ef0c91d7f28ddac846",
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    "3": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-3/task-all.mp3",
+      "start": 639.93,
+      "end": 754.81,
+      "duration": 114.913,
+      "sha256": "740b82a2a59681b2e9ef8901416cffd54add5b585a8653d5b4af43d53520e6a9",
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    },
+    "4": {
+      "url": "/audio/listening/aptis-4skills/aptis-4skills-02/part-4/task-all.mp3",
+      "start": 758.88,
+      "end": 898.02,
+      "duration": 139.18,
+      "sha256": "e2ee4275170da34d3ebbbda12c543fc2a1faa51897e1b19b70c4c9979db09917",
+      "sourceMasterSha256": "188855303b8f97bc56bdc28347397cd0f5843c2caf7852063a9fa5376d3c6579"
+    }
+  }
+}
