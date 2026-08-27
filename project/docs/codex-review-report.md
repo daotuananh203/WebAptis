@@ -1,208 +1,205 @@
 # BÁO CÁO CODEX REVIEW
 
-**Phạm vi:** `project/` — WebAptis B2  
-**Ngày review:** 2026-08-22  
-**Phương pháp:** đọc tài liệu và source độc lập, static review, unit/integration tests, production build, HTTP smoke/API abuse cases. Không commit/push/deploy.
+Ngày kiểm tra: 2026-08-27  
+Phạm vi: độc lập audit Listening, source/XML, master audio, local runtime, Chromium production, scoring và các finding kiến trúc/security liên quan.
 
 ## Tổng quan
 
-Ứng dụng build được và bộ test nội bộ 13/13 nhóm pass, nhưng các test hiện tại chủ yếu kiểm tra domain/pure functions và mô phỏng flow. Review runtime cho thấy các flow quan trọng chưa đạt hợp đồng mà tài liệu mô tả, đặc biệt Speaking, Listening practice và full Mock Test. Vì vậy kết quả “pass” không đủ để kết luận production-ready.
+Listening hiện có 15 master audio nội bộ (Tests 01–15). Test 16 không có master audio trong `APTIS/Listening/.../03. Audio`; không có thể xác minh hoặc tự tạo audio thiếu. Sau khi áp dụng Audio Segmentation Contract:
 
-Kiến trúc hiện tại là Next.js App Router với client-heavy UI, Route Handlers cho dataset/AI grading, deterministic grading cho objective sections và `localStorage` cho progress/session. Phân tách `GEMINI_API_KEY` khỏi client được thiết kế đúng, nhưng API AI hiện public, không có authentication/rate limit/chi phí quota.
+- 59/64 Listening parts đạt `VERIFIED` ở cấp part.
+- 5/64 `UNCERTAIN`: Test 03 Part 1 và toàn bộ Test 16.
+- 194/195 câu Part 1 có master/source evidence hợp lệ; Test 03 Q13 còn thiếu phần kết trong master.
+- 329 generated assets có transcript evidence; 1 block source/master conflict còn fail-closed.
+- Không tuyên bố toàn bộ Listening production-ready.
 
 ## Findings theo severity
 
-### CRITICAL
+### HIGH — LISTENING-001 — Source/master coverage chưa đủ cho 5 parts
 
-Không phát hiện Critical đã chứng minh được trong phạm vi test hiện tại.
+- **File/vị trí:** `project/data/listening-forensics/listening-audit-matrix.json`; `APTIS/Listening/.../Đề 3.mp3`; thiếu `APTIS/Listening/.../03. Audio/Đề 16.mp3`.
+- **Vấn đề:** Test 03 Q13 source DOCX kết thúc bằng `Boring? Come on! Books can be exciting too! ... films are more entertaining for me!`, nhưng master alignment hiện chỉ chứng minh tới `Oh, that's because you are boring`. Test 16 không có master audio/artifact source tương ứng.
+- **Impact:** Không thể chứng minh full task content, ending coverage hoặc production playback cho các part này.
+- **Evidence:** Audit matrix `59 VERIFIED / 0 MISMATCH / 5 UNCERTAIN`; `listening-contract-audit.json` ghi ending coverage T03 Q13 `0.2143`; Test 16 không có file audio trong source tree và không có Git history/LFS asset.
+- **Recommendation:** Bổ sung master audio gốc và xác minh lại bằng source transcript + ordered alignment; không dùng TTS/audio bên thứ ba để lấp gap.
+- **Trạng thái:** CHƯA FIX; runtime fail-closed.
 
-### HIGH
+### HIGH — SECURITY-001 — AI grading/coach routes chưa tự xác thực session
 
-#### H1 — Speaking practice không thể ghi âm/chấm theo flow thực tế
+- **File/vị trí:** `project/app/api/grade/writing/route.ts:8-43`, `project/app/api/grade/speaking/route.ts:8-45`, `project/app/api/coach/chat/route.ts:6-49`.
+- **Vấn đề:** Route parse payload nhưng không gọi verifier session trước khi chạy AI. Writing/Speaking truyền `userId` từ request vào flow memory/grading.
+- **Impact:** Có thể lạm dụng quota/cost; nếu downstream ghi memory theo ID client, có nguy cơ cross-user pollution.
+- **Evidence:** Code route gọi `gradeWritingSubmission(..., parseResult.data.userId)`, `gradeSpeakingSubmission(..., parseResult.data.userId)` và `getCoachAdvice(parseResult.data)` mà không có auth guard.
+- **Recommendation:** Lấy user ID từ signed session cookie ở server; từ chối anonymous AI requests; thêm rate limit theo user/IP.
+- **Trạng thái:** CHƯA FIX trong scope audio.
 
-- **File/vị trí:** `project/components/practice/question-renderer.tsx:547-610`, `project/components/practice/practice-shell.tsx:195-225`.
-- **Vấn đề:** UI chỉ có nút “Simulate Recording Audio” và lưu một chuỗi dummy WAV; không có `MediaRecorder`, microphone permission, countdown theo câu hỏi hay audio playback. Khi submit, client gửi `audioData.base64Data`, trong khi `/api/grade/speaking` yêu cầu `audioBase64`, `mimeType`, `taskId` và `durationSeconds`.
-- **Evidence:** request thực tế với schema hợp lệ cho API khác cấu trúc client gửi; route trả 400 nếu `audioBase64` thiếu. Sau khi đổi payload, client còn đọc `gradingResultData.score.scaledScore`, nhưng server trả `overallScore`/`maxOverallScore` ở top level.
-- **Impact:** Speaking practice luôn lỗi hoặc không thể đánh giá recording thật; kết quả progress không đáng tin.
-- **Recommendation:** triển khai và test một recorder thật theo từng task; thống nhất một DTO dùng chung giữa UI/route/result; thêm browser test có mock `MediaRecorder`.
-- **Status:** **Chưa fix** — vượt phạm vi hardening nhỏ.
+### MEDIUM — SECURITY-002 — Middleware chấp nhận session payload chưa verify HMAC
 
-#### H2 — Full Mock Test chỉ grade/render phần đầu của các kỹ năng
+- **File/vị trí:** `project/middleware.ts:14-34`.
+- **Vấn đề:** Middleware decode hai phần token và kiểm tra `userId/expiresAt`, nhưng không verify chữ ký.
+- **Impact:** Page protected có thể bị bypass ở lớp middleware dù API có thể từ chối token giả; authorization boundary không nhất quán.
+- **Recommendation:** Dùng verifier HMAC edge-safe thống nhất hoặc bỏ page decision dựa trên payload chưa ký.
+- **Trạng thái:** CHƯA FIX.
 
-- **File/vị trí:** `project/components/mock-test/exam-shell.tsx:88-113`, `:135-181`; `project/components/practice/question-renderer.tsx:170-208`, `:386-480`.
-- **Vấn đề:** Mock chọn `reading.parts[0]`, `listening.parts[0]`, `writing.parts[0]`, `speaking.parts[0]` và gán `partIdentifier` cố định `part1`; submit cũng gọi API với `partNumber: 1`. `currentIndex` chỉ thay đổi palette nhưng không đổi `activePartData`/part identifier. Renderer Reading Part 2 còn lấy `stories[0]`; Listening chỉ có UI cho Part 1 và Part 3.
-- **Impact:** một “full mock” bỏ qua hoặc không cho trả lời/chấm Reading 2–4, Listening 2/4, Writing 2–4, Speaking 2–4. Có thể lưu progress với điểm thiếu hoặc zero nhưng hiển thị như đã hoàn thành.
-- **Recommendation:** model hóa section/task navigation rõ ràng, map mọi part/task vào session, grade toàn bộ section bằng orchestrator; thêm E2E assertion cho từng part.
-- **Status:** **Chưa fix**.
+### MEDIUM — LISTENING-002 — Legacy segmentation có thể đồng nhất opening/answer fragment với task
 
-#### H3 — AI endpoints không có auth, rate limiting hoặc cost protection
+- **File/vị trí:** `scripts/listening_contract_audit.py:1098-1130`; dữ liệu T06 Q7 cũ.
+- **Vấn đề:** Fixed word-neighborhood khử hai opening gần nhau mà không xét source block có repeated opening nội bộ. T06 Q7 bị chọn opening thứ hai ở khoảng `269.34s`; Q6 nuốt phần opening/t-shirt ở `256.54–268.27s`.
+- **Impact:** Audio thiếu opening và lượt thoại nhưng vẫn có answer-bearing speech; đây chính là bug content đã được người dùng nghe thấy.
+- **Evidence:** Source XML T06 Q7 chứa hai opening; master có đoạn đầu và đoạn sau; transcript candidate mới phủ `256.54–290.99s`.
+- **Recommendation:** Đã sửa thuật toán nhận biết source-internal repeated opening, giữ earliest aligned opening, và thêm regression test.
+- **Trạng thái:** ĐÃ FIX, production đã deploy.
 
-- **File/vị trí:** `project/app/api/grade/writing/route.ts:7-64`, `project/app/api/grade/speaking/route.ts:7-69`, `project/app/api/coach/chat/route.ts:7-59`.
-- **Vấn đề:** các POST route public; không có authentication, per-IP/user throttling, concurrency cap, request timeout, quota hoặc retry policy. Chỉ cần gọi route hợp lệ là có thể kích hoạt Gemini cost và audio processing.
-- **Impact:** abuse/DoS/chi phí ngoài dự kiến; nếu deploy public, đây là rủi ro production rõ ràng.
-- **Recommendation:** auth/session hoặc server-issued abuse token, rate limit phân tán, body-size limit ở edge/server, timeout/circuit breaker, quota/observability.
-- **Status:** **Chưa fix**.
+### LOW — MAINT-001 — Next.js middleware convention deprecated
 
-#### H4 — Structured output mới được validate sau model call, chưa dùng `responseSchema`
+- **File/vị trí:** `project/middleware.ts`.
+- **Evidence:** `npm run build` cảnh báo chuyển sang `proxy` convention.
+- **Impact:** Không làm sai audio hiện tại nhưng tạo maintenance debt.
+- **Recommendation:** Migration riêng, không gộp vào forensic audio fix.
+- **Trạng thái:** CHƯA FIX.
 
-- **File/vị trí:** `project/lib/grading/writing-ai.ts:254-261`, `project/lib/grading/speaking-ai.ts:256-263`, `project/lib/coach/advisor.ts:88-95`.
-- **Vấn đề:** code đặt `responseMimeType: "application/json"` và Zod-validate response sau đó, nhưng không truyền schema JSON vào Gemini dù docs dự án tuyên bố structured output bị ràng buộc bằng response schema. `maxOverallScore` và số criteria cũng không được đối chiếu với rubric/task context; model có thể trả một scale khác nhưng vẫn qua Zod.
-- **Impact:** malformed score bị chặn phần nào, nhưng rubric drift/điểm sai scale vẫn có thể lọt; AI có thể trả recommendation/model answer không grounded.
-- **Recommendation:** dùng `responseSchema` tương thích SDK, validate invariant deterministically (allowed criterion names, max score, score sum, task ID), fallback an toàn khi model lỗi.
-- **Status:** **Chưa fix**.
+### INFO — APTIS-001 — Official facts và project design phải tách biệt
 
-### MEDIUM
+- **Official fact:** British Council mô tả Aptis Listening General theo các part/task và cho biết recording có thể được nghe tối đa hai lần: [British Council Prepare for Aptis ESOL General](https://www.britishcouncil.org/exam/english/aptis/prepare-general), [Aptis ESOL General Guide for Teachers](https://www.britishcouncil.org/sites/default/files/aptis_esol_general_guide_for_teachers_2023.pdf).
+- **Project design:** Corpus Edulife nội bộ dùng 13 Part 1 task, segment MP3 riêng và contract evidence riêng. Đây không phải official CEFR conversion hay official British Council score mapping.
 
-#### M1 — Error response có thể leak chi tiết SDK/server
+## Root Cause
 
-- **File/vị trí:** các API route, ví dụ `project/app/api/grade/writing/route.ts:54-61` và `project/app/api/tests/[testId]/route.ts:25-28`.
-- **Vấn đề:** trả trực tiếp `error.message` cho client. SDK/Gemini/path/runtime errors có thể chứa endpoint, model, file path hoặc chi tiết vận hành.
-- **Impact:** information disclosure và khó kiểm soát contract lỗi.
-- **Recommendation:** log server-side với correlation ID; client chỉ nhận mã lỗi/message allowlist; không trả stack/SDK message ở production.
-- **Status:** **Chưa fix**.
+Root cause đã chứng minh cho T06 Q7 là **boundary detection/occurrence grouping**, không phải deployment, API hay UI mapping. Pipeline cũ khử repeated opening theo khoảng cách ASR cố định; nó không hiểu repeated opening là một phần của source-defined conversation block. Vì vậy đoạn chứa đáp án vẫn “đúng” về từ khóa nhưng không đầy đủ về recording.
 
-#### M2 — Prompt injection defense chỉ là instruction, không phải enforcement
+T03 Q13 là **source/master coverage conflict** chưa thể sửa an toàn. Test 16 là **missing source/master artifact**. Không có bằng chứng cho UI mismatch ở các asset đã verify.
 
-- **File/vị trí:** `project/lib/grading/prompts/writing.ts`, `project/lib/grading/prompts/speaking.ts`, `project/lib/coach/prompts.ts`.
-- **Vấn đề:** input được đặt trong delimiter và system instruction nói không nghe lệnh candidate, nhưng vẫn gửi toàn văn candidate/transcript vào cùng model context. Không có post-check để loại system-prompt leak, fabricated statistics hoặc recommendation ngoài trusted context.
-- **Impact:** model có thể bị yêu cầu bỏ rubric, bịa nguồn/số liệu, hoặc lộ nội dung instruction; Zod không phát hiện semantic abuse.
-- **Recommendation:** tách trusted task data khỏi untrusted text/audio, không cho coach tự tạo statistics (chỉ render số từ context), output policy check và grounding checks.
-- **Status:** **Chưa fix**.
+## Q1 Evidence — Test 01 Part 1 Q1
 
-#### M3 — Audio validation chưa kiểm tra base64/magic bytes và duration
+- Source transcript: `project/data/listening-forensics/segment-transcripts/aptis-b2-01/p1-q01.json` và DOCX transcript tương ứng.
+- Master source: `APTIS/Listening/.../03. Audio/Đề 1.mp3`.
+- Local `q01.mp3`: contract-generated, 2 ordered renditions, duration khoảng 45.53s; transcript có đầy đủ `3,250 pounds`, replay thứ hai và không có Q2.
+- Production browser `currentSrc`: `https://web-aptis.vercel.app/audio/listening/segments/aptis-b2-01/part-1/q01.mp3?v=dc362d453b57827b`.
+- Production response trước bản T06: 206 Range `0-495151/495152`, SHA `dc362d453b57827b5a6bc626a9f074552c5a979fa15e20096a0cca0763221e0c`, duration decoded khoảng 45.531s.
+- Kết luận riêng Q1: `Q1 VERIFIED`.
 
-- **File/vị trí:** `project/lib/grading/speaking-ai.ts:152-170`; `project/lib/grading/speaking-schema.ts:38-50`.
-- **Vấn đề:** chỉ allowlist MIME và ước lượng kích thước từ chuỗi; không verify base64 hợp lệ, container signature, decoded duration hoặc consistency giữa duration và payload.
-- **Impact:** dữ liệu hỏng/không phải audio vẫn đi tới Gemini; tiêu tốn tài nguyên và lỗi khó chẩn đoán.
-- **Recommendation:** decode/validate bounded bytes, sniff container, enforce duration per part và reject mismatch trước model call.
-- **Status:** **Chưa fix**.
+## T06 Q7 Evidence — regression đã sửa
 
-#### M4 — `localStorage` được tin cậy khi load và có thể làm sai progress
+Source Q7 trong DOCX:
 
-- **File/vị trí:** `project/lib/storage/storage.ts:80-93`, `project/app/dashboard/page.tsx:17-37`.
-- **Vấn đề:** JSON được parse và chỉ kiểm tra một số container ở vài hàm; không validate schema/range cho `ProgressAttemptRecord`, score, timestamps, skill hoặc session state. Người dùng/extension có thể sửa dữ liệu local.
-- **Impact:** dashboard/recommendation/streak có thể hiển thị sai; dữ liệu client không nên được coi là audit-grade.
-- **Recommendation:** schema-validate khi load, clamp/reject invalid records, version migration, coi toàn bộ progress là untrusted client state.
-- **Status:** **Chưa fix**.
+```text
+Hey, Sarah, let's check out this store. I need something for work.
+Sarah: Sure, John. How about this t-shirt? It looks nice.
+John: Hey, Sarah, let's check out this store. I need something for work.
+Sarah: Oh, okay. What about this hat? It would look great on you.
+John: Haha, maybe, but not today. I really need a suit for the office.
+Sarah: Look, this one seems perfect. That's a good choice. It's smart and looks comfortable.
+Joh: Great, I'll buy the suit. Let's keep looking for other things we might need.
+```
 
-#### M5 — Practice timer không gắn submit khi hết giờ và thời gian không theo Aptis part
+Local corrected block: `256.54–291.99s` (master speech `256.54–290.99s`), duration `35.500408s`, SHA `8ba0be0bbd5413b41f3e7685e0c1591086dbe7613218f7fc6472c633c20899ab`.
 
-- **File/vị trí:** `project/components/practice/practice-shell.tsx:246-247`, `project/components/practice/practice-timer.tsx:17-48`.
-- **Vấn đề:** `PracticeTimer` nhận callback optional nhưng caller không truyền `onTimeExpired`/`onTick`; mọi practice dùng `initialSeconds={600}` dù catalog/tài liệu mô tả timing khác nhau. Timer hết không auto-submit/lock.
-- **Impact:** practice timing không phản ánh project spec; người dùng vẫn có thể submit sau timeout.
-- **Recommendation:** centralize timing config, persist remaining time, auto-submit/lock deterministically và test expiry.
-- **Status:** **Chưa fix**.
+Transcript coverage: opening, t-shirt exchange, repeated opening, hat, suit, final `Let's keep looking...`. No Q8 opening. Q6 ends at `256.54`; Q8 starts at `294.14` clip boundary / `295.14` speech. Regression: `project/tests/listening-part1-t06-q7-regression.test.ts`.
 
-### LOW
+An external Studocu page and a public Drive file were used only as corroboration that the t-shirt opening is semantically expected; they were not copied into the project or treated as source-of-truth. The project DOCX + project master remain authoritative.
 
-#### L1 — Dead/placeholder UI và type safety yếu ở đường critical
+## Production Verification
 
-- **File/vị trí:** `practice-shell.tsx`, `exam-shell.tsx`, `question-renderer.tsx` dùng nhiều `any`; Speaking hiển thị đường dẫn ảnh dạng text thay vì ảnh thật; audio assets là mock paths.
-- **Impact:** maintainability thấp, lỗi contract khó bắt ở compile time, UX có thể gây hiểu nhầm.
-- **Recommendation:** tạo discriminated union cho part/task DTO, bỏ `any` theo từng flow, kiểm tra asset tồn tại.
-- **Status:** **Chưa fix**.
-
-#### L2 — Duplicate orchestration giữa practice/mock và domain graders
-
-- **File/vị trí:** `practice-shell.tsx`, `exam-shell.tsx`, `lib/grading/*`, `lib/storage/session.ts`.
-- **Vấn đề:** mapping result, score scaling, persistence và error handling lặp ở UI; dễ tạo mismatch như Speaking hiện tại.
-- **Impact:** regression risk và khó bảo trì.
-- **Recommendation:** chỉ sau khi sửa flow, đưa orchestration vào typed application service dùng chung; đây là refactor có kiểm soát, không phải ưu tiên trước các H findings.
-- **Status:** **Chưa fix**.
-
-### INFO
-
-#### I1 — Hardening đã thực hiện trong review
-
-- `project/app/api/tests/[testId]/route.ts`: reject `testId` chứa path separator/ký tự ngoài allowlist.
-- `project/app/api/grade/deterministic/route.ts`: validate `testId`, reject array answers.
-- `project/lib/grading/writing-schema.ts`: giới hạn test ID, submission text 20,000 ký tự và tối đa 20 response fields.
-- `project/lib/grading/speaking-schema.ts`: giới hạn test ID, base64 14,000,000 ký tự và transcript 20,000 ký tự.
-- Các thay đổi này không giải quyết auth/rate-limit hay flow defects.
-
-## Bugs đã sửa
-
-Đã sửa hardening nhỏ, an toàn nêu ở I1. Không sửa các flow Speaking/Mock/Listening vì cần thay đổi state model và UI architecture, không phù hợp chính sách “không refactor lớn”. Không thêm feature mới.
-
-## Tests đã chạy
-
-- `npm run typecheck` — **PASS**.
-- `npm test` — **PASS, 13/13 nhóm**; lưu ý đây là test domain/mock UI-flow, chưa phải browser E2E.
-- `npm run build` — **PASS**; Next.js 16.3.2/Turbopack compile, typecheck, static generation thành công.
-- `npm run start` — **đã chạy thành công trước khi hardening trên `http://localhost:3000`**.
-- HTTP smoke trước hardening trên port 3000: `/`, `/dashboard`, `/practice`, `/practice/reading/part1`, `/mock-test`, `/mock-test/session/aptis-b2-01`, `/mock-test/results/fake`, `/coach` đều HTTP 200; `/api/tests/aptis-b2-01` HTTP 200; unknown dataset 404.
-- API abuse cases: missing deterministic payload 400; path-like test ID bị reject/không đọc được file; empty audio 400; 20,000-char coach message 400.
-- Live Gemini writing/speaking chưa chạy vì không có API key/network contract được cấu hình cho test; đây là giới hạn verify, không phải pass.
-
-## E2E/browser verification
-
-Không có browser automation tool trong môi trường hiện tại, nên chưa verify click/navigation/timer/autosave/microphone bằng browser thật. HTTP smoke chỉ chứng minh route render/response, không chứng minh hydration, button interaction, MediaRecorder, audio playback, hoặc localStorage resume. Khi restart sau build, port 3000 bị giữ (`EADDRINUSE`) và port thay thế cũng bận; không claim clean post-fix server E2E.
-
-Các flow chưa được chứng minh end-to-end: Speaking recording/submission, full Mock grading/result, Listening Part 2/4 interaction, progress update sau browser submission, recommendation sau AI result, AI Coach live response.
-
-## Security
-
-Điểm tốt: API key chỉ được đọc trong `lib/gemini/config.ts`/server client; không thấy `GEMINI_API_KEY` trong client components; public dataset tách khỏi answer key và anti-leak test pass; Zod có giới hạn cơ bản cho coach/audio.
-
-Điểm không đạt: public AI endpoints không auth/rate-limit/quota; error leakage; input/audio chưa validate sâu; prompt injection chỉ dựa vào instruction; localStorage không phải trusted storage. Không phát hiện path traversal đọc file trong thử nghiệm; đã thêm allowlist hardening.
-
-## Aptis correctness
-
-### OFFICIAL FACT
-
-Theo British Council, Aptis ESOL General gồm core Grammar & Vocabulary, Listening, Reading, Speaking và Writing; timing chính thức là Core 25 phút, Reading 35, Listening khoảng 40, Writing 50 và Speaking khoảng 12 phút. British Council mô tả Listening 17 tasks/20 recordings và nghe mỗi recording tối đa hai lần; Writing Part 4 là informal 40–50 từ và formal 120–150 từ; Speaking có 30 giây Part 1, 45 giây cho từng response Parts 2–3, và 60 giây chuẩn bị/120 giây nói Part 4. Nguồn: [British Council — Prepare for Aptis ESOL General](https://www.britishcouncil.org/exam/english/aptis/prepare-general), [Aptis General format overview PDF](https://www.britishcouncil.org/sites/default/files/aptis_general_test_format_overview_2023_0.pdf), [British Council Vietnam — Aptis ESOL General](https://www.britishcouncil.vn/thi/aptis/cac-phien-ban/thong-dung).
-
-### PROJECT DESIGN
-
-Các raw score, rubric 0–5, practice disclaimer và estimated band trong code là thiết kế practice, không phải official score conversion. Code có disclaimer “NOT AN OFFICIAL BRITISH COUNCIL SCORE”, đây là đúng hướng.
-
-### Kết quả audit
-
-Dataset schema ghi đúng nhiều format/timing cốt lõi. Tuy nhiên implementation không đạt dataset contract: Reading Part 2 chỉ render story đầu; Listening Part 2/4 không render; Speaking UI không record; Mock không ghép/chấm đủ parts. Ngoài ra project docs có claim “100% compliant/verified” nhưng evidence runtime không đủ để hỗ trợ claim đó.
-
-Không tự tạo hoặc xác nhận bất kỳ bảng chuyển đổi CEFR chính thức nào.
-
-## AI review
-
-- `@google/genai` được dùng server-side qua singleton; model identifiers tập trung trong `lib/gemini/models.ts`.
-- Writing/Speaking/Coach có Zod post-validation và prompt delimiter; đây là kiểm soát hữu ích nhưng chưa đủ chống semantic prompt injection/rubric drift.
-- Không có retry/backoff/rate-limit/timeout/circuit breaker rõ ràng; mọi exception bị quy về grading error và có thể leak message.
-- Writing không enforce max overall score hoặc criterion set theo task sau khi parse; Speaking cho phép `maxOverallScore` dương tùy model trong khi schema overall score max 25. UI lại kỳ vọng scale 50. Đây là điểm correctness nghiêm trọng.
-- AI Coach nhận context trusted từ client (`coachContext`) nhưng route không xác minh history/statistics server-side; client có thể gửi số liệu giả để nhận recommendation/answer dựa trên dữ liệu giả.
-
-## Architecture verdict
-
-**Needs major corrective work before production.** Next App Router/server boundary cơ bản đúng, nhưng UI orchestration và data-flow không nhất quán với domain model; static build không bắt được các mismatch runtime.
-
-## Security verdict
-
-**Not production-safe for public exposure.** API key không bị thấy trong client bundle theo source review, nhưng public AI routes thiếu abuse controls và còn error/input/prompt risks.
-
-## Aptis correctness verdict
-
-**Partial.** Format/timing dataset và tài liệu phần lớn khớp OFFICIAL FACT, nhưng implementation practice/mock không cover đầy đủ các part và không nên được mô tả là full Aptis simulation.
-
-## AI verdict
-
-**Unsafe as a high-trust grader.** Có structured parsing và disclaimer, nhưng chưa có invariant scoring/grounding/rate protection; Speaking contract hiện hỏng ở client-server boundary.
+- GitHub commit: `733acee63b93bc59ef1b365daab35c6394975a34`.
+- Vercel deployment: `6121221244`, Production, success, matching commit above.
+- Browser context: clean Chromium context with newly registered test user and service workers blocked.
+- T06 Q7 `audio.currentSrc`: `https://web-aptis.vercel.app/audio/listening/segments/aptis-b2-06/part-1/q07.mp3?v=8ba0be0bbd5413b4`.
+- Click Play network: one `GET` request, `Range: bytes=0-`, response `206`, `Content-Range: bytes 0-391635/391636`, `Content-Length: 391636`, `Content-Type: audio/mpeg`.
+- Browser response bytes SHA-256: `8ba0be0bbd5413b41f3e7685e0c1591086dbe7613218f7fc6472c633c20899ab`.
+- Browser duration: `35.45s` (MP3 decoded duration `35.500408s`).
+- Browser transcript: full T06 Q7 block; no Q8.
+- Scoring request: `partIdentifier=part1`, `t06_l1_q07 = suit for the office`; UI result `1 / 13` for the single selected answer.
+- Cache policy observed: `public, max-age=0, must-revalidate`; URL also carries content hash version.
 
 ## Test verdict
 
-**Build/test pass, independent runtime review fails acceptance.** 13/13 test groups, typecheck và build pass; HTTP route smoke pass; browser E2E và live Gemini chưa verify. Các defect H1–H4 vẫn tồn tại.
+PASS:
+
+- `npm test` — all master suites pass, including new T06 Q7 regression.
+- `npm run typecheck` — pass.
+- `npm run build` — pass; only existing middleware deprecation warning.
+- `npx playwright test e2e/listening-content-integrity.spec.ts --project=chromium --reporter=line` — `17 passed`.
+- Source/master contract audit — `59 VERIFIED` parts, `0 MISMATCH`, `5 UNCERTAIN`.
+- T06 Q7 local and production exact-byte/transcript/browser/scoring verification — pass.
+
+PASS không đồng nghĩa toàn bộ Listening pass: các test kỹ thuật không thể tự chứng minh content của source/master bị thiếu.
+
+## E2E/browser verification matrix
+
+| Test | Part 1 | Part 2 | Part 3 | Part 4 |
+|---|---|---|---|---|
+| 01 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 02 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 03 | UNCERTAIN (Q13) | VERIFIED | VERIFIED | VERIFIED |
+| 04 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 05 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 06 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 07 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 08 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 09 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 10 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 11 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 12 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 13 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 14 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 15 | VERIFIED | VERIFIED | VERIFIED | VERIFIED |
+| 16 | UNCERTAIN (missing audio) | UNCERTAIN | UNCERTAIN | UNCERTAIN |
+
+## Bugs đã sửa
+
+- Sửa source-internal repeated-opening grouping trong `scripts/listening_contract_audit.py`.
+- Recut T06 Q6 để không nuốt opening của Q7.
+- Tạo T06 Q7 asset đầy đủ và transcript evidence.
+- Cập nhật T06 runtime metadata/hash/cache version.
+- Thêm strict T06 Q7 regression vào master test runner.
+- Giữ fail-closed cho T03 Q13/Test 16.
+
+## Architecture verdict
+
+Audio segmentation architecture hiện đúng hướng: source transcript/structure là authority, master audio là evidence, Whisper chỉ alignment, asset chỉ được runtime dùng khi transcript contract pass. Tuy nhiên source coverage chưa đủ cho 64/64 và một số security boundary còn tồn tại.
+
+**Verdict: PARTIALLY ACCEPTED — chưa đủ để gọi full production-ready.**
+
+## Security verdict
+
+Static public dataset không leak answer key/API key theo tests; audio API/cache headers hiện phù hợp hơn với việc cập nhật asset. Nhưng HIGH auth findings ở AI grading/Coach và MEDIUM middleware signature vẫn chưa được xử lý.
+
+**Verdict: NOT CLEARED.**
+
+## Aptis correctness verdict
+
+Đã phân biệt official facts với project design; không tự suy ra official CEFR conversion. Mapping/answer/scoring của T06 Q7 và Q1 T01 khớp source project. Toàn bộ 64 parts chưa thể xác minh do thiếu source/master.
+
+**Verdict: PARTIAL; không phải official Aptis certification score validation.**
+
+## AI verdict
+
+Whisper không quyết định boundary một mình; structured transcript evidence và fail-closed runtime được dùng cho audio. Writing/Speaking/Coach tests và injection suites pass, nhưng AI route auth/rate-limit chưa được cleared.
+
+**Verdict: FUNCTIONALLY TESTED, SECURITY NOT CLEARED.**
 
 ## Production-readiness verdict
 
-**Not production-ready.** Còn nhiều HIGH findings và các E2E quan trọng chưa verify.
+`LISTENING NOT FULLY VERIFIED`.
 
-## Files thay đổi
+Không được tuyên bố `LISTENING FULLY VERIFIED` hoặc `production-ready`: còn 5/64 parts `UNCERTAIN`, trong đó Test 16 thiếu toàn bộ master audio và T03 Q13 thiếu ending evidence; security HIGH findings cũng còn mở.
 
-- `project/docs/codex-review-report.md` — báo cáo này.
-- `project/app/api/tests/[testId]/route.ts` — `testId` allowlist.
-- `project/app/api/grade/deterministic/route.ts` — payload/test ID hardening.
-- `project/lib/grading/writing-schema.ts` — giới hạn input.
-- `project/lib/grading/speaking-schema.ts` — giới hạn audio/transcript input.
+## Files thay đổi trong commit 733acee
+
+- `scripts/listening_contract_audit.py`
+- `project/data/listening-forensics/listening-audio-manifest.json`
+- `project/data/listening-forensics/listening-audit-matrix.json`
+- T06 Q6/Q7 transcript evidence, runtime dataset và MP3 assets
+- Listening regression tests và `project/tests/run-all-tests.ts`
+
+Các file user-memory/QA dirty khác được giữ nguyên, không đưa vào commit audio.
 
 ## Một bước tiếp theo duy nhất
 
-Sửa và browser-test **một vertical slice Speaking hoàn chỉnh** (MediaRecorder → taskId/DTO → API → validated result → progress), rồi dùng cùng contract đó làm mẫu để sửa Mock Test orchestration.
+Bổ sung source master audio gốc cho Test 16 và source/master recording đầy đủ cho Test 03 Q13; sau đó chạy lại đúng contract từ source XML → master alignment → transcript validation → clean-browser production verification.
 
+## Verdict
+
+```text
+LISTENING NOT FULLY VERIFIED
+```
