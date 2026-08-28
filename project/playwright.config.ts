@@ -32,5 +32,14 @@ export default defineConfig({
     port: 3128,
     reuseExistingServer: true,
     timeout: 30000,
+    // E2E starts a production-mode Next server locally.  It must use the
+    // explicit test-only store and signing secret; production continues to
+    // require its configured database and secret.
+    env: {
+      ...process.env,
+      ALLOW_MEMORY_STORE: "true",
+      AUTH_SECRET: "playwright-local-e2e-secret-not-for-production",
+      E2E_MEMORY_ONLY: "true",
+    },
   },
 });

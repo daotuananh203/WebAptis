@@ -7,6 +7,7 @@ const testsDir = path.resolve(process.cwd(), "data/tests");
 const manifest: any[] = JSON.parse(
   fs.readFileSync(path.resolve(process.cwd(), "data/listening-forensics/listening-audio-manifest.json"), "utf8"),
 );
+const auditBaseUrl = process.env.SPEAKING_AUDIT_BASE_URL ?? "http://localhost:3128";
 
 function fileSha256(filePath: string): string {
   return crypto.createHash("sha256").update(fs.readFileSync(filePath)).digest("hex");
@@ -94,7 +95,7 @@ test.describe("Listening source/audio integrity contract", () => {
     });
     expect(response.ok()).toBeTruthy();
     const cookie = response.headers()["set-cookie"]?.match(/aptis_session=([^;]+)/)?.[1];
-    if (cookie) await context.addCookies([{ name: "aptis_session", value: cookie, url: "http://localhost:3128" }]);
+    if (cookie) await context.addCookies([{ name: "aptis_session", value: cookie, url: auditBaseUrl }]);
 
     for (let number = 1; number <= 16; number += 1) {
       const testId = `aptis-b2-${String(number).padStart(2, "0")}`;
@@ -133,6 +134,40 @@ test.describe("Listening source/audio integrity contract", () => {
             ),
             `${testId} part${part}: currentSrc missing ${url} with validated hash version`,
           ).toBe(true);
+        }
+      }
+    }
+  });
+
+  test("clean Chrome context exposes the source-backed audio for every part of all seven four-skills tests", async ({ page, context }) => {
+    test.setTimeout(300_000);
+    const email = `listening_source_batch_${Date.now()}@aptis.edu.vn`;
+    const response = await page.request.post("/api/auth/register", {
+      data: { email, password: "Password123!", name: "Listening Source Batch Audit" },
+    });
+    expect(response.status()).toBe(201);
+    const cookie = response.headers()["set-cookie"]?.match(/aptis_session=([^;]+)/)?.[1];
+    if (cookie) await context.addCookies([{ name: "aptis_session", value: cookie, url: auditBaseUrl }]);
+
+    for (let number = 1; number <= 7; number += 1) {
+      const testId = `aptis-4skills-${String(number).padStart(2, "0")}`;
+      const pub = JSON.parse(fs.readFileSync(path.join(testsDir, `${testId}-public.json`), "utf8"));
+      for (let part = 1; part <= 4; part += 1) {
+        const listeningPart = pub.listening.parts[part - 1];
+        const expectedUrls = part === 1
+          ? listeningPart.tasks.map((task: any) => task.audio.url)
+          : [listeningPart.audio.url];
+        await page.goto(`/practice/listening/part${part}?testId=${testId}`, { waitUntil: "domcontentloaded" });
+        const audios = page.locator("audio");
+        await expect(audios).toHaveCount(expectedUrls.length);
+        await audios.evaluateAll((nodes) => nodes.forEach((node) => (node as HTMLAudioElement).load()));
+        await expect.poll(
+          () => audios.evaluateAll((nodes) => nodes.every((node) => (node as HTMLAudioElement).currentSrc.length > 0)),
+          { timeout: 15_000, message: `${testId} part${part} must resolve source audio in the browser` },
+        ).toBeTruthy();
+        const sources = await audios.evaluateAll((nodes) => nodes.map((node) => (node as HTMLAudioElement).currentSrc));
+        for (const expectedUrl of expectedUrls) {
+          expect(sources.some((source) => new URL(source).pathname === expectedUrl), `${testId} part${part} missing ${expectedUrl}`).toBeTruthy();
         }
       }
     }

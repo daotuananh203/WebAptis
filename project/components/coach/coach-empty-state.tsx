@@ -27,7 +27,7 @@ export function CoachEmptyState({ context }: CoachEmptyStateProps) {
             Chào bạn! Mình là Cố vấn AI Lexi
           </h2>
           <p className="text-xs sm:text-sm text-slate-300 max-w-md mx-auto mt-1 leading-relaxed">
-            Mình sẽ giúp bạn phân tích điểm mạnh, điểm yếu và giải đáp thắc mắc về 16 bộ đề thi Aptis B2.
+            Mình sẽ giúp bạn phân tích điểm mạnh, điểm yếu và giải đáp thắc mắc về 23 bộ đề thi Aptis B2.
           </p>
         </div>
       </div>

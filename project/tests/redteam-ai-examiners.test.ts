@@ -82,8 +82,14 @@ export async function runRedTeamAiExaminersTests(): Promise<boolean> {
     "Empty audio must be rejected with INVALID_SUBMISSION"
   );
 
+  assert.throws(
+    () => validateAudioPayload(Buffer.from("too short").toString("base64")),
+    /Audio recording is too short to evaluate/,
+    "A syntactically valid but too-short recording must not receive an invented transcript or score"
+  );
+
   // Case 2: Valid mock audio stream evaluation
-  const validMockAudioB64 = Buffer.from("RIFF_WAVE_MOCK_DATA").toString("base64");
+  const validMockAudioB64 = Buffer.alloc(512, 1).toString("base64");
   const mockSpkClient: any = {
     models: {
       generateContent: async () => ({

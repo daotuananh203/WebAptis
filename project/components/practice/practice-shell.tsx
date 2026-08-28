@@ -20,6 +20,10 @@ import { usePracticeSession } from "@/lib/hooks/use-practice-session";
 import { useAuth } from "@/lib/hooks/use-auth";
 import { loadProgressHistory, saveProgressAttempt } from "@/lib/storage";
 import { ProgressAttemptRecord } from "@/lib/progress/types";
+import {
+  createAttemptFromSpeakingResult,
+  createAttemptFromWritingResult,
+} from "@/lib/progress/history";
 import { generateRecommendations } from "@/lib/recommendations";
 import { StudyRecommendation } from "@/lib/recommendations/types";
 import { formatTestDisplayName } from "@/lib/exam/test-catalog";
@@ -189,9 +193,11 @@ export function PracticeShell({
         }
 
         const partNum = parseInt(partIdentifier.replace("part", ""), 10) || 1;
+        if (Object.keys(userResponses).length === 0) {
+          throw new Error("Vui lòng nhập bài viết trước khi nộp để AI chấm.");
+        }
         const firstKey = Object.keys(userResponses)[0] || (partData?.id as string | undefined);
-        const submissionText =
-          Object.values(userResponses).join("\n\n") || "No response provided";
+        const submissionText = Object.values(userResponses).join("\n\n");
 
         const res = await fetch("/api/grade/writing", {
           method: "POST",
@@ -211,19 +217,14 @@ export function PracticeShell({
         gradingResultData = json.data;
         const evalResult = json.data;
 
-        record = {
-          id: `att_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
-          testId,
+        // The AI API returns the established overallScore/maxOverallScore
+        // contract.  Use the shared mapper so the score displayed, persisted,
+        // and synced to the dashboard cannot diverge from the examiner result.
+        record = createAttemptFromWritingResult({
+          result: evalResult,
           mode: "practice",
-          skill: "writing",
-          partIdentifier,
-          completedAt: new Date().toISOString(),
           durationSeconds: 600 - (session?.remainingTimeSeconds || 600),
-          rawScore: evalResult.finalScore,
-          maxRawScore: 50,
-          percentage: (evalResult.finalScore / 50) * 100,
-          disclaimer: "PRACTICE ESTIMATE — NOT AN OFFICIAL BRITISH COUNCIL SCORE",
-        };
+        });
       } else if (skill === "speaking") {
         const currentQuestion = Array.isArray(partData?.questions)
           ? partData.questions[currentIndex]
@@ -290,19 +291,14 @@ export function PracticeShell({
         gradingResultData = json.data;
         const evalResult = json.data;
 
-        record = {
-          id: `att_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
-          testId,
+        // Keep Speaking result persistence on the same API contract as the
+        // displayed AI feedback.  In particular, the service never returns a
+        // legacy `finalScore` field.
+        record = createAttemptFromSpeakingResult({
+          result: evalResult,
           mode: "practice",
-          skill: "speaking",
-          partIdentifier,
-          completedAt: new Date().toISOString(),
           durationSeconds: 600 - (session?.remainingTimeSeconds || 600),
-          rawScore: evalResult.finalScore,
-          maxRawScore: 50,
-          percentage: (evalResult.finalScore / 50) * 100,
-          disclaimer: "PRACTICE ESTIMATE — NOT AN OFFICIAL BRITISH COUNCIL SCORE",
-        };
+        });
       } else {
         throw new Error(`Unsupported skill: ${skill}`);
       }

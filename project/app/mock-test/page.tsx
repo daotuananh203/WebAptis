@@ -8,7 +8,7 @@ export default function MockTestPage() {
     <AppShell
       breadcrumbs={[{ label: "Thi thử Mock Test", href: "/mock-test" }]}
       headerTitle="Thi thử Mock Test"
-      headerDescription="Làm bài thi thử 5 kỹ năng theo định dạng Aptis ESOL General B2 chuẩn 16 bộ đề."
+      headerDescription="Làm bài thi thử 5 kỹ năng theo định dạng Aptis ESOL General B2 với 23 bộ đề."
     >
       <MockTestHub />
     </AppShell>

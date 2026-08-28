@@ -1026,6 +1026,19 @@ function SpeakingPracticeContainer({
       ? `${currentQuestion.id}__speaking_audio`
       : "speaking_audio";
   const currentAudio = (answers[audioAnswerKey] as string) || "";
+  const displayedAudioKeyRef = React.useRef(audioAnswerKey);
+
+  // Moving to another Speaking prompt must not retain the previous prompt's
+  // object URL in the recorder controls.  The saved recording remains under
+  // its own answer key; only the browser preview is reset for the new prompt.
+  React.useEffect(() => {
+    if (displayedAudioKeyRef.current === audioAnswerKey) return;
+    if (audioBlobUrl) URL.revokeObjectURL(audioBlobUrl);
+    displayedAudioKeyRef.current = audioAnswerKey;
+    setAudioBlobUrl(null);
+    setRecordingSeconds(0);
+    setMicError(null);
+  }, [audioAnswerKey, audioBlobUrl]);
 
   const startRecording = async () => {
     setMicError(null);
@@ -1221,8 +1234,15 @@ function SpeakingPracticeContainer({
             <div className="space-y-2.5">
               {questionList.map((q: any, idx: number) => {
                 const qText = typeof q === "string" ? q : q.prompt || q.questionText || q.question || "";
+                const isCurrentPrompt = currentQuestion ? idx === currentIndex : true;
                 return (
-                  <p key={idx} className="text-xs sm:text-sm font-semibold text-white leading-relaxed">
+                  <p
+                    key={idx}
+                    className={cn(
+                      "text-xs sm:text-sm font-semibold leading-relaxed rounded-lg px-2 py-1.5",
+                      isCurrentPrompt ? "bg-rose-500/10 text-white ring-1 ring-rose-500/25" : "text-slate-300"
+                    )}
+                  >
                     {idx + 1}. {qText}
                   </p>
                 );

@@ -22,6 +22,7 @@ import {
   UserAnswerValue,
 } from "@/lib/storage/types";
 import { ExamComponentSkill, ProgressAttemptRecord } from "@/lib/progress/types";
+import { gradeMockSubjectiveSection } from "@/lib/grading/mock-subjective";
 import { useAuth } from "@/lib/hooks/use-auth";
 import { cn } from "@/lib/utils";
 
@@ -116,7 +117,13 @@ export function resolveSectionParts(
       tabLabel: defaults.tab,
       fullTitle: p.title || defaults.title,
       data: p,
-      totalItems: 1,
+      // Speaking Parts 1–3 contain independent recorded responses.  They
+      // need a navigable recorder for each prompt; Part 4 is one extended
+      // response that covers its prompt set in a single recording.
+      totalItems:
+        skill === "speaking" && pNum !== 4 && Array.isArray(p.questions)
+          ? p.questions.length
+          : 1,
     };
   });
 }
@@ -225,8 +232,7 @@ export function ExamShell({ testId }: ExamShellProps) {
       setIsProcessingGrading(true);
       setErrorMsg(null);
 
-      // Deterministic grading only for GV, Reading, and Listening
-      let scoreResult: any = { rawScore: 0, maxRawScore: 50, percentage: 0 };
+      let scoreResult: any;
 
       if (currentSkill === "grammarVocabulary" || currentSkill === "reading" || currentSkill === "listening") {
         const res = await fetch("/api/grade/deterministic", {
@@ -239,23 +245,25 @@ export function ExamShell({ testId }: ExamShellProps) {
           }),
         });
         const json = await res.json();
-        if (json.success && json.data) {
-          scoreResult = {
-            rawScore: json.data.rawScore,
-            maxRawScore: json.data.maxRawScore,
-            percentage: json.data.percentage,
-            scaledScore: Math.round((json.data.rawScore / (json.data.maxRawScore || 1)) * 50),
-          };
+        if (!json.success || !json.data) {
+          throw new Error(json.error || "Deterministic grading failed");
         }
-      } else {
-        // Writing & Speaking: preserve submission record and mark section completed safely
         scoreResult = {
-          rawScore: 0,
-          maxRawScore: 50,
-          percentage: 0,
-          scaledScore: 0,
-          status: "completed",
+          rawScore: json.data.rawScore,
+          maxRawScore: json.data.maxRawScore,
+          percentage: json.data.percentage,
+          scaledScore: Math.round((json.data.rawScore / (json.data.maxRawScore || 1)) * 50),
         };
+      } else {
+        // Each submitted response is evaluated against its server-resolved
+        // task context. Missing responses and AI failures remain explicit in
+        // the result instead of being presented as a fabricated zero score.
+        scoreResult = await gradeMockSubjectiveSection({
+          testId,
+          skill: currentSkill,
+          sectionData: fullTestData[currentSkill],
+          answers,
+        });
       }
 
       // Complete section in session
@@ -267,23 +275,36 @@ export function ExamShell({ testId }: ExamShellProps) {
 
         // Save progress attempt records for each section
         if (finalized) {
-          Object.values(finalized.sections).forEach((sec) => {
-            if (sec.scoreResult) {
+          for (const sec of Object.values(finalized.sections)) {
+            const hasCompleteScore =
+              sec.scoreResult &&
+              typeof sec.scoreResult.rawScore === "number" &&
+              typeof sec.scoreResult.maxRawScore === "number" &&
+              sec.scoreResult.maxRawScore > 0 &&
+              sec.scoreResult.status !== "AI_PARTIAL";
+            if (hasCompleteScore) {
               const rec: ProgressAttemptRecord = {
                 id: `mock_${finalized.sessionId}_${sec.skill}`,
                 testId,
                 mode: "mock-test",
                 skill: sec.skill,
-                rawScore: sec.scoreResult.rawScore || sec.scoreResult.scaledScore || 0,
-                maxRawScore: sec.scoreResult.maxRawScore || 50,
-                percentage: sec.scoreResult.percentage || 0,
+                rawScore: sec.scoreResult.rawScore,
+                maxRawScore: sec.scoreResult.maxRawScore,
+                percentage: sec.scoreResult.percentage ?? Math.round((sec.scoreResult.rawScore / sec.scoreResult.maxRawScore) * 100),
                 estimatedBand: sec.scoreResult.estimatedBand,
                 completedAt: finalized.completedAt || new Date().toISOString(),
                 disclaimer: "PRACTICE ESTIMATE — NOT AN OFFICIAL BRITISH COUNCIL SCORE",
               };
               saveProgressAttempt(rec, user?.id);
+              if (user?.id) {
+                await fetch("/api/user/progress", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify(rec),
+                });
+              }
             }
-          });
+          }
         }
 
         router.push(`/mock-test/results/${session.sessionId}`);

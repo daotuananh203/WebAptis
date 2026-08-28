@@ -18,11 +18,13 @@ import {
 export function runMockTestRuntimeRegressionTests() {
   console.log("▶ [TEST 22] Running Mock Test Multi-Part and Grading Boundary Regression Tests...");
 
-  // 1. Dynamic Part Resolver across all 16 Public Mock Tests
-  console.log("  [22.1] Validating resolveSectionParts across all 16 tests for all 5 skills...");
-  for (let i = 1; i <= 16; i++) {
-    const pad = String(i).padStart(2, "0");
-    const testId = `aptis-b2-${pad}`;
+  // 1. Dynamic Part Resolver across every 23-test public mock catalog
+  console.log("  [22.1] Validating resolveSectionParts across all 23 tests for all 5 skills...");
+  const testIds = [
+    ...Array.from({ length: 16 }, (_, index) => `aptis-b2-${String(index + 1).padStart(2, "0")}`),
+    ...Array.from({ length: 7 }, (_, index) => `aptis-4skills-${String(index + 1).padStart(2, "0")}`),
+  ];
+  for (const testId of testIds) {
     const filePath = path.join(process.cwd(), `data/tests/${testId}-public.json`);
     const dataset = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
@@ -71,8 +73,13 @@ export function runMockTestRuntimeRegressionTests() {
     speakingParts.forEach((sp, idx) => {
       assert.ok(Array.isArray(sp.data.questions), `${testId} Speaking Part ${idx + 1} must have questions`);
     });
+    assert.deepEqual(
+      speakingParts.map((part) => part.totalItems),
+      [3, 3, 3, 1],
+      `${testId} Speaking Parts 1–3 must expose every independent recording prompt`
+    );
   }
-  console.log("  ✓ 16/16 Mock test datasets verified with exact multi-part resolution (4 parts Reading, 4 parts Listening, 4 parts Writing, 4 parts Speaking, 2 parts GV).");
+  console.log("  ✓ 23/23 Mock test datasets verified with exact multi-part resolution (4 parts Reading, 4 parts Listening, 4 parts Writing, 4 parts Speaking, 2 parts GV).");
 
   // 2. Whole-Section Deterministic Grading Aggregation (GV, Reading, Listening)
   console.log("  [22.2] Validating whole-section deterministic grading aggregation...");

@@ -140,7 +140,7 @@ export const PRACTICE_SKILLS_CATALOG: SkillCategoryCatalog[] = [
         tag: "4 PART",
         icon: Headphones,
         title: "Luyện theo từng Part",
-        description: "Luyện riêng từng phần từ Part 1 đến Part 4 với 16 bộ đề chuẩn có audio thật.",
+        description: "Luyện riêng từng phần từ Part 1 đến Part 4 với 23 bộ đề; audio chỉ phát khi asset nguồn đã được xác minh.",
         buttonLabel: "Đi tới bài test →",
       },
       {
@@ -201,7 +201,7 @@ export const PRACTICE_SKILLS_CATALOG: SkillCategoryCatalog[] = [
     skill: "reading",
     title: "Đọc (Reading)",
     viewTitle: "Đề Reading",
-    viewDescription: "Đọc hiểu văn bản học thuật Aptis B2 với 16 bộ đề chuẩn (Điền từ, Sắp xếp câu, Ghép ý kiến, Ghép tiêu đề đoạn văn).",
+    viewDescription: "Đọc hiểu văn bản Aptis B2 với 23 bộ đề (Điền từ, Sắp xếp câu, Ghép ý kiến, Ghép tiêu đề đoạn văn).",
     icon: BookOpen,
     modeCount: 3,
     modes: [
@@ -210,7 +210,7 @@ export const PRACTICE_SKILLS_CATALOG: SkillCategoryCatalog[] = [
         tag: "4 PART",
         icon: BookOpen,
         title: "Luyện theo từng Part",
-        description: "Luyện riêng từng phần từ Part 1 đến Part 4 với 16 bài đọc chuẩn Edulife.",
+        description: "Luyện riêng từng phần từ Part 1 đến Part 4 với 23 bộ đề nguồn.",
         buttonLabel: "Đi tới bài test →",
       },
       {
@@ -420,7 +420,7 @@ export const PRACTICE_SKILLS_CATALOG: SkillCategoryCatalog[] = [
         tag: "50 CÂU",
         icon: BookA,
         title: "Luyện theo phần (Grammar / Vocab)",
-        description: "Luyện 25 câu ngữ pháp hoặc 25 câu từ vựng với 16 bộ đề chuẩn Edulife.",
+        description: "Luyện 25 câu ngữ pháp hoặc 25 câu từ vựng với 23 bộ đề nguồn.",
         buttonLabel: "Đi tới bài test →",
       },
       {

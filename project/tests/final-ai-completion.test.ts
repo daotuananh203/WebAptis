@@ -193,7 +193,7 @@ export async function runFinalAICompletionTests() {
   const speakingResult = await gradeSpeakingSubmission(
     spk2Context,
     {
-      audioBase64: Buffer.from("fake-speaking-audio-sample").toString("base64"),
+      audioBase64: Buffer.alloc(512, 1).toString("base64"),
       mimeType: "audio/webm",
       durationSeconds: 42,
     },

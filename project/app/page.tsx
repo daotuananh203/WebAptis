@@ -51,7 +51,7 @@ export default function LandingPage() {
       <main className="flex-1 max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20 flex flex-col items-center text-center">
         <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3.5 py-1 text-xs font-bold text-emerald-300 shadow-2xs mb-6">
           <Sparkles className="h-3.5 w-3.5" />
-          <span>Luyện thi thông minh chuẩn CEFR B2 — 16 Bộ đề Edulife</span>
+          <span>Luyện thi thông minh chuẩn CEFR B2 — 23 bộ đề</span>
         </div>
 
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-white tracking-tight max-w-4xl leading-[1.15]">
@@ -62,7 +62,7 @@ export default function LandingPage() {
         </h1>
 
         <p className="mt-5 max-w-2xl text-xs sm:text-sm text-slate-300 leading-relaxed">
-          Nền tảng luyện thi toàn diện 5 kỹ năng với 16 bộ đề chuẩn Edulife, 272 bài luyện chi tiết theo từng Part, hệ thống chấm điểm tự động và Cố vấn AI Lexi.
+          Nền tảng luyện thi toàn diện 5 kỹ năng với 23 bộ đề: 16 bộ chuẩn Edulife và 7 bộ 4 kỹ năng nguồn, hệ thống chấm điểm tự động và Cố vấn AI Lexi.
         </p>
 
         {/* Primary CTAs */}
@@ -119,7 +119,7 @@ export default function LandingPage() {
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-teal-500/15 border border-teal-500/30 text-teal-400 font-bold">
               <ShieldCheck className="h-5 w-5" />
             </div>
-            <h3 className="font-bold text-sm text-white">16 Full Mock Tests</h3>
+            <h3 className="font-bold text-sm text-white">23 Full Mock Tests</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
               Mô phỏng thi thật 162 phút với audio Listening thật và đồng hồ từng phần độc lập.
             </p>

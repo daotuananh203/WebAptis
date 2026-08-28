@@ -290,6 +290,16 @@ export function validateAudioPayload(audioBase64: string): void {
   const padding = (audioBase64.match(/=+$/) || [""])[0].length;
   const byteSize = (audioBase64.length * 3) / 4 - padding;
 
+  // A few bytes can be a syntactically valid base64 string but cannot contain
+  // a usable recording. Reject it before asking the examiner to invent a
+  // transcript or rubric score for an empty/accidental click.
+  if (byteSize < 512) {
+    throw createGradingError(
+      "INVALID_SUBMISSION",
+      "Audio recording is too short to evaluate. Please record a complete spoken response."
+    );
+  }
+
   if (byteSize > MAX_AUDIO_BYTES) {
     throw createGradingError(
       "INVALID_SUBMISSION",

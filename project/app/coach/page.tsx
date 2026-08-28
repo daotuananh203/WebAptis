@@ -8,7 +8,7 @@ export default function CoachPage() {
     <AppShell
       breadcrumbs={[{ label: "Cố vấn AI Lexi", href: "/coach" }]}
       headerTitle="Cố vấn AI Lexi"
-      headerDescription="Hỏi đáp chiến thuật phòng thi, giải thích ngữ pháp và nhận gợi ý bài luyện cá nhân hóa theo 16 bộ đề."
+      headerDescription="Hỏi đáp chiến thuật phòng thi, giải thích ngữ pháp và nhận gợi ý bài luyện cá nhân hóa theo 23 bộ đề."
     >
       <CoachShell />
     </AppShell>

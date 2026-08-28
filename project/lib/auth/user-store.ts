@@ -23,12 +23,17 @@ export class FileUserStore implements IUserStore {
   private filePath: string;
   private memoryCache: Map<string, UserRecord> = new Map();
   private isLoaded = false;
+  private readonly memoryOnly: boolean;
 
   constructor(filePath?: string) {
+    // Playwright's production-mode local server must not add throwaway audit
+    // accounts to the developer's JSON fixture. This switch is test-only and
+    // does not weaken the production DATABASE_URL requirement.
+    this.memoryOnly = process.env.E2E_MEMORY_ONLY === "true";
     this.filePath =
       filePath ||
       path.join(process.cwd(), "data", "users.json");
-    this.ensureDataDirectory();
+    if (!this.memoryOnly) this.ensureDataDirectory();
   }
 
   private ensureDataDirectory(): void {
@@ -48,6 +53,11 @@ export class FileUserStore implements IUserStore {
   private loadUsers(): void {
     if (this.isLoaded) return;
 
+    if (this.memoryOnly) {
+      this.isLoaded = true;
+      return;
+    }
+
     try {
       if (fs.existsSync(this.filePath)) {
         const raw = fs.readFileSync(this.filePath, "utf8");
@@ -64,6 +74,7 @@ export class FileUserStore implements IUserStore {
   }
 
   private persistUsers(): void {
+    if (this.memoryOnly) return;
     try {
       const dir = path.dirname(this.filePath);
       if (!fs.existsSync(dir)) {

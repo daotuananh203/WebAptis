@@ -14,6 +14,9 @@ import { SpeakingGradingInputSchema } from "../lib/grading/speaking-schema";
 
 export async function runSpeakingGradingTests() {
   console.log("▶ [TEST 5] Running AI Speaking Grading Engine Unit Tests...");
+  // A fixture for a syntactically valid, non-empty recording. The engine also
+  // exercises the explicit rejection path for accidental/tiny submissions.
+  const validMockAudioBase64 = Buffer.alloc(512, 1).toString("base64");
 
   // ----------------------------------------------------
   // 1. Task Context Resolution Tests (All Parts & Timings)
@@ -96,7 +99,7 @@ export async function runSpeakingGradingTests() {
       testId: "aptis-b2-01",
       partNumber: 2,
       taskId: "s2_q1",
-      audioBase64: "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=",
+      audioBase64: validMockAudioBase64,
       mimeType: "audio/webm",
       durationSeconds: 43.5,
     };
@@ -113,7 +116,12 @@ export async function runSpeakingGradingTests() {
     assert.ok(!SpeakingGradingInputSchema.safeParse(missingAudio).success);
 
     // Validate size limit utility
-    validateAudioPayload("UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=");
+    validateAudioPayload(validMockAudioBase64);
+
+    assert.throws(
+      () => validateAudioPayload("UklGRiQAAABXQVZFZm10IA=="),
+      (err: any) => err.code === "INVALID_SUBMISSION"
+    );
 
     // Empty audio validation
     assert.throws(
@@ -257,7 +265,7 @@ export async function runSpeakingGradingTests() {
     const result = await gradeSpeakingSubmission(
       taskCtx,
       {
-        audioBase64: "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=",
+        audioBase64: validMockAudioBase64,
         mimeType: "audio/webm",
         durationSeconds: 118,
       },
@@ -290,7 +298,7 @@ export async function runSpeakingGradingTests() {
       testId: "aptis-b2-01",
       partNumber: 1,
       taskId: "t01_s1_q1",
-      audioBase64: "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=",
+      audioBase64: validMockAudioBase64,
       mimeType: "audio/webm",
     };
     const p1Parse = SpeakingGradingInputSchema.safeParse(canonicalP1);
@@ -305,7 +313,7 @@ export async function runSpeakingGradingTests() {
       testId: "aptis-b2-01",
       partNumber: 2,
       taskId: "t01_s2_q2",
-      audioBase64: "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=",
+      audioBase64: validMockAudioBase64,
       mimeType: "audio/webm",
     };
     const p2Parse = SpeakingGradingInputSchema.safeParse(canonicalP2_Q2);
@@ -318,7 +326,7 @@ export async function runSpeakingGradingTests() {
       testId: "aptis-b2-01",
       partNumber: 3,
       taskId: "t01_s3_q3",
-      audioBase64: "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=",
+      audioBase64: validMockAudioBase64,
       mimeType: "audio/webm",
     };
     const p3Parse = SpeakingGradingInputSchema.safeParse(canonicalP3_Q3);
@@ -338,7 +346,7 @@ export async function runSpeakingGradingTests() {
       testId: "aptis-b2-01",
       partNumber: 1,
       taskId: "t01_s1_q1",
-      audioBase64: "UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=",
+      audioBase64: validMockAudioBase64,
       mimeType: "application/pdf",
     };
     assert.ok(!SpeakingGradingInputSchema.safeParse(invalidMimePayload).success);

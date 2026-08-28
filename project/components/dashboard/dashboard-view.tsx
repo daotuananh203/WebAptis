@@ -143,10 +143,10 @@ export function DashboardView({
           <div className="flex items-center justify-between">
             <h3 className="text-sm sm:text-base font-bold text-white flex items-center gap-2">
               <BookOpen className="h-4 w-4 text-emerald-300" />
-              <span>Thư viện 5 kỹ năng Aptis B2 (272 bài luyện)</span>
+              <span>Thư viện 5 kỹ năng Aptis B2 (23 bộ đề)</span>
             </h3>
             <Link href="/practice" className="text-xs font-bold text-emerald-300 hover:underline">
-              Tất cả 16 đề →
+              Tất cả 23 đề →
             </Link>
           </div>
 
@@ -157,7 +157,7 @@ export function DashboardView({
               { name: "Viết (Writing)", skill: "writing", icon: PenTool, count: "64 bài", color: "text-amber-400 bg-amber-500/10 border-amber-500/20" },
               { name: "Nói (Speaking)", skill: "speaking", icon: Mic, count: "64 bài", color: "text-rose-400 bg-rose-500/10 border-rose-500/20" },
               { name: "Ngữ pháp & Từ vựng", skill: "grammarVocabulary", icon: BookA, count: "32 bài", color: "text-purple-400 bg-purple-500/10 border-purple-500/20" },
-              { name: "Thi thử Mock Test", skill: "mockTest", icon: GraduationCap, count: "16 đề full", color: "text-teal-400 bg-teal-500/10 border-teal-500/20", href: "/mock-test" },
+              { name: "Thi thử Mock Test", skill: "mockTest", icon: GraduationCap, count: "23 đề full", color: "text-teal-400 bg-teal-500/10 border-teal-500/20", href: "/mock-test" },
             ].map((item) => {
               const Icon = item.icon;
               const linkHref = item.href || `/practice?skill=${item.skill}`;
@@ -229,7 +229,7 @@ export function DashboardView({
         <div className="flex items-center gap-2">
           <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
           <span>
-            <strong className="text-white">Cập nhật gần đây:</strong> Toàn bộ 16 bộ đề thi thử Aptis B2 & 272 bài luyện đã được xuất bản hoàn chỉnh.
+            <strong className="text-white">Cập nhật gần đây:</strong> 23 bộ đề thi thử Aptis B2 đã được xuất bản trong thư viện.
           </span>
         </div>
         <Link href="/mock-test" className="text-xs font-bold text-emerald-300 hover:underline shrink-0 ml-2">

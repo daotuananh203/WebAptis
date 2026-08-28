@@ -12,6 +12,55 @@ import { ALL_EXAM_TEST_CATALOG } from "../lib/exam/test-catalog";
 const PROJECT_ROOT = path.resolve(import.meta.dirname, "..");
 const TEST_IDS = Array.from({ length: 7 }, (_, index) => `aptis-4skills-${String(index + 1).padStart(2, "0")}`);
 
+// These records were transcribed from the source PDF's Listening pages, not
+// inferred from the generated JSON. They cover the page/column boundaries
+// that previously produced blank prompts and split Part 4 choices.
+const SOURCE_RECOVERED_LISTENING: Record<string, {
+  part1Prompt: [string, string];
+  part4Options: Record<string, string[]>;
+}> = {
+  "aptis-4skills-01": {
+    part1Prompt: ["t4s01_l1_q03", "A finance expert is giving advice to young people. What shouldn't they do?"],
+    part4Options: { t4s01_l4_m2_q2: ["Should consider sports as a mandatory subject.", "Provides them with a balance in their lives.", "Keep students focused on academic subjects."] },
+  },
+  "aptis-4skills-02": {
+    part1Prompt: ["t4s02_l1_q07", "Listen to an auction man talking about a cabinet. Which part of the cabinet is original?"],
+    part4Options: {
+      t4s02_l4_m1_q2: ["New seasons will be produced due to great demand.", "It inspires young filmmakers to follow a new movie-making style.", "Series are damaged by overexposure."],
+      t4s02_l4_m2_q1: ["It helps to reach new customers.", "Advertisements might sometimes be repetitive which is annoying.", "Advertising costs the same amount of money to produce a movie."],
+    },
+  },
+  "aptis-4skills-03": {
+    part1Prompt: ["t4s03_l1_q13", "A man is calling his teacher to meet for the assignment. When is the meeting?"],
+    part4Options: {},
+  },
+  "aptis-4skills-04": {
+    part1Prompt: ["t4s04_l1_q13", "Listen to a tour guide introducing the tour. Where will tea be served?"],
+    part4Options: { t4s04_l4_m1_q2: ["More opportunities for networking", "More competitive", "Many jobs offer great benefits"] },
+  },
+  "aptis-4skills-05": {
+    part1Prompt: ["t4s05_l1_q13", "Listen to a principal talking about new school facilities. What new facility will the school have?"],
+    part4Options: {
+      t4s05_l4_m1_q1: ["Saving a large amount only on a daily basis.", "Organizing their resources more effectively", "Use credit cards to manage expenses"],
+      t4s05_l4_m1_q2: ["Get advice from people that have experience", "Keep all your savings in a single account", "Avoid making any long-term financial plans"],
+    },
+  },
+  "aptis-4skills-06": {
+    part1Prompt: ["t4s06_l1_q09", "A man is giving directions to a friend about how to get to the football club. The football club is near."],
+    part4Options: {
+      t4s06_l4_m2_q1: ["It is focused on technical details", "It is exciting to read", "It is more of a textbook than a biography"],
+      t4s06_l4_m2_q2: ["It has been written for a general audience", "It is only suitable for experts in the field", "It lacks engaging storytelling"],
+    },
+  },
+  "aptis-4skills-07": {
+    part1Prompt: ["t4s07_l1_q12", "Louis is having dinner in a new restaurant. What is his opinion about that restaurant?"],
+    part4Options: {
+      t4s07_l4_m2_q1: ["It is focused on technical details", "It is exciting to read", "It is more of a textbook than a biography"],
+      t4s07_l4_m2_q2: ["It has been written for a general audience", "It is only suitable for experts in the field", "It lacks engaging storytelling"],
+    },
+  },
+};
+
 /**
  * Regression coverage for the independent four-skills source batch.  This
  * test validates the actual generated contract, not just that JSON files are
@@ -120,6 +169,28 @@ export function runAptis4SkillsIngestionTests(): boolean {
       false,
       `${testId} Listening Part 1 leaked a non-source question into the 13-question block`
     );
+    assert.equal(
+      p1.every((task: any) => typeof task.questionText === "string" && task.questionText.trim().length >= 20),
+      true,
+      `${testId} Listening Part 1 must not contain blank or truncated source prompts`
+    );
+
+    const recovered = SOURCE_RECOVERED_LISTENING[testId];
+    const recoveredPrompt = p1.find((task: any) => task.id === recovered.part1Prompt[0]);
+    assert.equal(recoveredPrompt?.questionText, recovered.part1Prompt[1], `${testId} source-recovered Listening Part 1 prompt`);
+
+    const p4Questions = publicData.listening.parts[3].monologues.flatMap((monologue: any) => monologue.questions);
+    assert.equal(p4Questions.length, 4, `${testId} Listening Part 4 question count`);
+    for (const question of p4Questions) {
+      assert.equal(question.options.length, 3, `${testId} Listening Part 4 option count for ${question.id}`);
+      assert.equal(question.options.every((option: string) => option.trim().length >= 12), true, `${testId} Listening Part 4 has a split option for ${question.id}`);
+      assert.ok(answerData.listening.part4[question.id], `${testId} missing Part 4 answer for ${question.id}`);
+      assert.ok(question.options.includes(answerData.listening.part4[question.id]), `${testId} Part 4 answer is not one of its rendered options for ${question.id}`);
+    }
+    for (const [questionId, expectedOptions] of Object.entries(recovered.part4Options)) {
+      const question = p4Questions.find((item: any) => item.id === questionId);
+      assert.deepEqual(question?.options, expectedOptions, `${testId} source-recovered Listening Part 4 options for ${questionId}`);
+    }
   }
 
   // The source alignment deliberately keeps the one known ASR coverage gap

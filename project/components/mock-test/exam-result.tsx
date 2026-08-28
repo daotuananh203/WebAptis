@@ -40,6 +40,12 @@ const SKILL_TITLES: Record<ExamComponentSkill, string> = {
 export function ExamResult({ session }: ExamResultProps) {
   const sections = Object.values(session.sections);
 
+  const hasCompleteNumericScore = (score: any) =>
+    typeof score?.rawScore === "number" &&
+    typeof score?.maxRawScore === "number" &&
+    score.maxRawScore > 0 &&
+    score.status !== "AI_PARTIAL";
+
   // Calculate consolidated metrics
   let totalScore = 0;
   let maxScore = 0;
@@ -47,11 +53,11 @@ export function ExamResult({ session }: ExamResultProps) {
   let completedCount = 0;
 
   sections.forEach((sec) => {
-    if (sec.scoreResult) {
+    if (hasCompleteNumericScore(sec.scoreResult)) {
       const s = sec.scoreResult;
-      totalScore += s.rawScore || s.scaledScore || 0;
-      maxScore += s.maxRawScore || 50;
-      totalPctSum += s.percentage || Math.round(((s.scaledScore || 0) / 50) * 100);
+      totalScore += s.rawScore;
+      maxScore += s.maxRawScore;
+      totalPctSum += s.percentage ?? Math.round((s.rawScore / s.maxRawScore) * 100);
       completedCount++;
     }
   });
@@ -66,6 +72,15 @@ export function ExamResult({ session }: ExamResultProps) {
       : overallPercentage >= 50
       ? "B1"
       : "A2";
+  const isOverallComplete = completedCount === sections.length;
+
+  const subjectiveStatus = (skill: "writing" | "speaking") => {
+    const score = session.sections[skill].scoreResult;
+    if (score?.status === "AI_ESTIMATE") return `Đã chấm ${score.evaluatedResponses}/${score.expectedResponses} phản hồi`;
+    if (score?.status === "AI_PARTIAL") return `Chấm một phần ${score.evaluatedResponses}/${score.expectedResponses}; chưa dùng trong điểm tổng`;
+    if (score?.evaluationErrors?.length) return "AI chưa chấm được; hãy thử lại phần này";
+    return "Chưa có bài nộp để AI chấm";
+  };
 
   return (
     <div className="max-w-4xl mx-auto space-y-8 py-8 px-4">
@@ -78,7 +93,7 @@ export function ExamResult({ session }: ExamResultProps) {
                 KẾT QUẢ THI THỬ
               </span>
               <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-bold px-2.5 py-0.5 rounded-full">
-                Ước tính CEFR: {overallBand}
+                {isOverallComplete ? `Ước tính CEFR: ${overallBand}` : `${completedCount}/5 kỹ năng đã có điểm hợp lệ`}
               </span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-black tracking-tight text-white">
@@ -91,10 +106,10 @@ export function ExamResult({ session }: ExamResultProps) {
 
           <div className="text-center sm:text-right border-t sm:border-t-0 sm:border-l border-[#242430] pt-4 sm:pt-0 sm:pl-8 shrink-0">
             <span className="text-5xl font-black block leading-none text-emerald-300">
-              {overallPercentage}%
+              {isOverallComplete ? `${overallPercentage}%` : "—"}
             </span>
             <span className="text-xs font-bold text-slate-400 mt-1.5 block">
-              Trình độ tương đương: Band {overallBand}
+              {isOverallComplete ? `Trình độ tương đương: Band ${overallBand}` : "Cần hoàn tất AI chấm Writing & Speaking"}
             </span>
           </div>
         </div>
@@ -113,10 +128,11 @@ export function ExamResult({ session }: ExamResultProps) {
           {sections.map((sec) => {
             const Icon = SKILL_ICONS[sec.skill];
             const scoreData = sec.scoreResult || {};
-            const pct =
-              scoreData.percentage ??
-              Math.round(((scoreData.scaledScore || scoreData.rawScore || 0) / (scoreData.maxRawScore || 50)) * 100);
-            const isSkillPassed = pct >= 70;
+            const isScored = hasCompleteNumericScore(scoreData);
+            const pct = isScored
+              ? scoreData.percentage ?? Math.round((scoreData.rawScore / scoreData.maxRawScore) * 100)
+              : null;
+            const isSkillPassed = (pct ?? 0) >= 70;
 
             return (
               <div
@@ -129,12 +145,14 @@ export function ExamResult({ session }: ExamResultProps) {
                   </div>
                   <span
                     className={`text-[9px] font-black px-2 py-0.5 rounded-full border ${
-                      isSkillPassed
+                      !isScored
+                        ? "bg-slate-500/10 text-slate-300 border-slate-500/30"
+                        : isSkillPassed
                         ? "bg-emerald-500/15 text-emerald-300 border-emerald-500/30"
                         : "bg-amber-500/10 text-amber-400 border-amber-500/30"
                     }`}
                   >
-                    {pct}%
+                    {isScored ? `${pct}%` : scoreData.status === "AI_PARTIAL" ? "Chấm một phần" : "Chưa chấm"}
                   </span>
                 </div>
 
@@ -143,17 +161,23 @@ export function ExamResult({ session }: ExamResultProps) {
                     {SKILL_TITLES[sec.skill]}
                   </h3>
                   <span className="text-[10px] text-slate-300">
-                    {scoreData.rawScore || scoreData.scaledScore || 0}/{scoreData.maxRawScore || 50} điểm
+                    {isScored
+                      ? `${scoreData.rawScore}/${scoreData.maxRawScore} điểm`
+                      : scoreData.status === "AI_PARTIAL"
+                      ? `${scoreData.evaluatedResponses || 0}/${scoreData.expectedResponses || 0} phản hồi đã chấm`
+                      : "Không gán 0 điểm cho bài chưa chấm"}
                   </span>
                 </div>
 
                 <div className="w-full bg-[#1e1e28] rounded-full h-1.5 overflow-hidden">
-                  <div
-                    className={`h-full rounded-full ${
-                      isSkillPassed ? "bg-emerald-500" : "bg-amber-500"
-                    }`}
-                    style={{ width: `${Math.min(100, Math.max(0, pct))}%` }}
-                  />
+                  {isScored && (
+                    <div
+                      className={`h-full rounded-full ${
+                        isSkillPassed ? "bg-emerald-500" : "bg-amber-500"
+                      }`}
+                      style={{ width: `${Math.min(100, Math.max(0, pct || 0))}%` }}
+                    />
+                  )}
                 </div>
               </div>
             );
@@ -170,12 +194,12 @@ export function ExamResult({ session }: ExamResultProps) {
           </div>
           <div className="space-y-3 text-xs text-slate-300">
             <div className="p-3 bg-[#16161d] rounded-xl border border-[#262632] space-y-1">
-              <strong className="text-white block">Văn phong và ngữ pháp bài viết:</strong>
-              <p>Phân biệt tốt văn phong thân mật (chat/email bạn bè) và trang trọng (thư kiến nghị).</p>
+              <strong className="text-white block">Writing:</strong>
+              <p>{subjectiveStatus("writing")}</p>
             </div>
             <div className="p-3 bg-[#16161d] rounded-xl border border-[#262632] space-y-1">
-              <strong className="text-white block">Độ trôi chảy và cấu trúc bài nói:</strong>
-              <p>Cấu trúc câu trả lời mạch lạc, sử dụng tốt các từ nối và triển khai ý rõ ràng qua 4 phần.</p>
+              <strong className="text-white block">Speaking:</strong>
+              <p>{subjectiveStatus("speaking")}</p>
             </div>
           </div>
         </div>
@@ -187,7 +211,9 @@ export function ExamResult({ session }: ExamResultProps) {
               <h3 className="text-sm font-bold text-white">Kế hoạch củng cố B2 tiếp theo</h3>
             </div>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Hãy tập trung luyện các bài tập ngắn cho những phần có điểm số chưa cao để đạt chuẩn vững B2 (trên 70%).
+              {isOverallComplete
+                ? "Hãy tập trung luyện các bài tập ngắn cho những phần có điểm số chưa cao để đạt chuẩn vững B2 (trên 70%)."
+                : "Điểm tổng chỉ hiển thị sau khi mọi phản hồi Writing và Speaking có kết quả AI hợp lệ."}
             </p>
           </div>
 

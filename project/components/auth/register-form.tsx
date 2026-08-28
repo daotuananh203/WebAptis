@@ -61,7 +61,7 @@ export function RegisterForm() {
           Tạo tài khoản WebAptis
         </h1>
         <p className="text-xs text-slate-300">
-          Lưu trữ tiến độ học tập và đồng bộ kết quả 16 bộ đề
+          Lưu trữ tiến độ học tập và đồng bộ kết quả 23 bộ đề
         </p>
       </div>
 
