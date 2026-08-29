@@ -347,7 +347,10 @@ export function parseAndValidateGeminiSpeakingOutput(
   if (parsed && typeof parsed === "object") {
     // 1. Audio quality
     const reportedTranscript = typeof parsed.transcript === "string" ? parsed.transcript.trim() : "";
-    const audioQuality = parsed.audioQuality || parsed.audio_quality || (reportedTranscript ? "sufficient" : "insufficient");
+    const declaredAudioQuality = parsed.audioQuality || parsed.audio_quality;
+    const audioQuality = !reportedTranscript
+      ? "insufficient"
+      : declaredAudioQuality || "sufficient";
     // A missing quality flag may be inferred only from a provider-supplied
     // non-empty transcript; otherwise fail closed as insufficient.  Never
     // default an incomplete response to sufficient audio.
@@ -464,8 +467,15 @@ export function parseAndValidateGeminiSpeakingOutput(
     // (quality/reason only, without score fields).  This is safe to complete
     // deterministically as zero; it is not a language score or invented
     // transcript.  Other incomplete responses still fail schema validation.
+    const criteriaComplete = Array.isArray(parsed.criteria) && parsed.criteria.length > 0 && parsed.criteria.every((criterion: any) =>
+      typeof criterion?.name === "string" &&
+      typeof criterion?.score === "number" &&
+      criterion?.maxScore === 5 &&
+      typeof criterion?.feedback === "string"
+    );
+    const bandIsValid = ["A1", "A2", "B1", "B2", "C1", "C2"].includes(parsed.estimatedBand);
     if (parsed.audioQuality === "insufficient" &&
-      (!Number.isFinite(parsed.overallScore) || !Number.isFinite(parsed.maxOverallScore) || !Array.isArray(parsed.criteria))) {
+      (!Number.isFinite(parsed.overallScore) || !Number.isFinite(parsed.maxOverallScore) || !criteriaComplete || !bandIsValid)) {
       const reason = parsed.audioQualityReason || "Không nhận diện được lời nói trong bản ghi âm.";
       parsed.overallScore = 0;
       parsed.maxOverallScore = 25;
