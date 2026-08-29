@@ -3,11 +3,11 @@ import {
   clearActiveSession,
   clearProgressHistory,
   createPracticeSession,
+  completePracticeSessionWithResult,
   getStorageAdapter,
   loadActiveSession,
   loadProgressHistory,
   loadUserPreferences,
-  markSessionCompleted,
   MemoryStorageAdapter,
   saveProgressAttempt,
   saveUserPreferences,
@@ -114,8 +114,27 @@ export function runStorageTests() {
   // 3. Session Completion & Clearance
   // ----------------------------------------------------
   {
-    const completed = markSessionCompleted(memoryAdapter);
+    const completionResult: ProgressAttemptRecord = {
+      id: "att_refresh_safe",
+      testId: "aptis-b2-01",
+      mode: "practice",
+      skill: "grammarVocabulary",
+      partIdentifier: "grammar",
+      rawScore: 25,
+      maxRawScore: 25,
+      percentage: 100,
+      completedAt: "2026-08-29T10:00:00Z",
+      disclaimer: "PRACTICE ESTIMATE — NOT AN OFFICIAL BRITISH COUNCIL SCORE",
+    };
+    const completed = completePracticeSessionWithResult(
+      completionResult,
+      { criteria: [{ name: "Task Fulfilment", score: 5 }] },
+      memoryAdapter,
+    );
     assert.equal(completed?.isSubmitted, true);
+    assert.deepEqual(completed?.resultRecord, completionResult);
+    assert.deepEqual(completed?.aiFeedback, { criteria: [{ name: "Task Fulfilment", score: 5 }] });
+    assert.deepEqual(loadActiveSession(memoryAdapter)?.resultRecord, completionResult);
 
     // Submitting answer on completed session should be blocked
     const blockedAnswer = updateSessionAnswer("gv_q2", "option_b", memoryAdapter);

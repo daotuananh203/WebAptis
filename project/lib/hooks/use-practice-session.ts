@@ -10,6 +10,7 @@ import { ProgressAttemptRecord } from "../progress/types";
 import {
   clearActiveSession,
   completePracticeSession,
+  completePracticeSessionWithResult,
   createPracticeSession,
   loadActiveSession,
   updateSessionAnswer,
@@ -21,12 +22,17 @@ import { PracticeSessionState, UserAnswerValue } from "../storage/types";
 
 export function usePracticeSession(userId?: string) {
   const [isHydrated, setIsHydrated] = useState(false);
+  // Identifies which user scope the current session was loaded for.  This
+  // prevents a user-scoped submitted result being overwritten by an
+  // anonymous draft during the auth hydration race after a refresh.
+  const [hydratedUserId, setHydratedUserId] = useState<string | undefined>(undefined);
   const [session, setSession] = useState<PracticeSessionState | null>(null);
 
   // Hydrate session from localStorage on client mount
   useEffect(() => {
     const loaded = loadActiveSession(userId);
     setSession(loaded);
+    setHydratedUserId(userId);
     setIsHydrated(true);
   }, [userId]);
 
@@ -79,13 +85,14 @@ export function usePracticeSession(userId?: string) {
   );
 
   const submitSession = useCallback(
-    (record?: ProgressAttemptRecord) => {
+    (record?: ProgressAttemptRecord, aiFeedback?: unknown) => {
       if (record) {
         saveProgressAttempt(record, userId);
       }
-      completePracticeSession(userId);
-      clearActiveSession(userId);
-      setSession(null);
+      const completed = record
+        ? completePracticeSessionWithResult(record, aiFeedback, userId)
+        : completePracticeSession(userId);
+      setSession(completed);
     },
     [userId]
   );
@@ -97,6 +104,7 @@ export function usePracticeSession(userId?: string) {
 
   return {
     isHydrated,
+    hydratedUserId,
     session,
     initSession,
     setAnswer,

@@ -4,7 +4,7 @@
  * Supports complete user data isolation and polymorphic adapter arguments for tests.
  */
 
-import { ExamComponentSkill, LearningMode } from "../progress/types";
+import { ExamComponentSkill, LearningMode, ProgressAttemptRecord } from "../progress/types";
 import { getStorageAdapter } from "./storage";
 import {
   IStorageAdapter,
@@ -159,6 +159,34 @@ export function completePracticeSession(
   const updated: PracticeSessionState = {
     ...current,
     isSubmitted: true,
+    lastSavedAt: new Date().toISOString(),
+  };
+
+  const key = userId ? STORAGE_KEYS.userActiveSession(userId) : STORAGE_KEYS.ACTIVE_SESSION;
+  adapter.setItem(key, updated);
+  return updated;
+}
+
+/**
+ * Complete a practice session while retaining the exact rendered result.
+ * Keeping this in the user-scoped session prevents refreshes from reopening
+ * a submitted draft and generating a second progress attempt.
+ */
+export function completePracticeSessionWithResult(
+  resultRecord: ProgressAttemptRecord,
+  aiFeedback: unknown,
+  userIdOrAdapter?: string | IStorageAdapter,
+  adapterParam?: IStorageAdapter
+): PracticeSessionState | null {
+  const { userId, adapter } = resolveUserAndAdapter(userIdOrAdapter, adapterParam);
+  const current = loadActiveSession(userId, adapter);
+  if (!current || current.isSubmitted) return null;
+
+  const updated: PracticeSessionState = {
+    ...current,
+    isSubmitted: true,
+    resultRecord,
+    aiFeedback,
     lastSavedAt: new Date().toISOString(),
   };
 

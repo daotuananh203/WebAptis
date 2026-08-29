@@ -18,7 +18,7 @@ import { QuestionRenderer } from "./question-renderer";
 import { PracticeResult } from "./practice-result";
 import { usePracticeSession } from "@/lib/hooks/use-practice-session";
 import { useAuth } from "@/lib/hooks/use-auth";
-import { loadProgressHistory, saveProgressAttempt } from "@/lib/storage";
+import { loadProgressHistory } from "@/lib/storage";
 import { ProgressAttemptRecord } from "@/lib/progress/types";
 import {
   createAttemptFromSpeakingResult,
@@ -34,13 +34,21 @@ export interface PracticeShellProps {
   testId?: string;
 }
 
+function resolvePracticePartNumber(skill: string, partIdentifier: string): number {
+  if (skill === "grammarVocabulary") {
+    return partIdentifier === "vocabulary" ? 2 : 1;
+  }
+  return parseInt(partIdentifier.replace("part", ""), 10) || 1;
+}
+
 export function PracticeShell({
   skill,
   partIdentifier,
   testId = "aptis-b2-01",
 }: PracticeShellProps) {
-  const { user } = useAuth();
-  const { isHydrated, session, initSession, setAnswer } = usePracticeSession(user?.id);
+  const { user, isLoading: isAuthLoading } = useAuth();
+  const { isHydrated, hydratedUserId, session, initSession, setAnswer, submitSession } = usePracticeSession(user?.id);
+  const requestedPartNumber = resolvePracticePartNumber(skill, partIdentifier);
 
   const [isLoading, setIsLoading] = React.useState(true);
   const [partData, setPartData] = React.useState<any>(null);
@@ -52,6 +60,14 @@ export function PracticeShell({
   const [resultRecord, setResultRecord] = React.useState<ProgressAttemptRecord | null>(null);
   const [aiFeedback, setAiFeedback] = React.useState<any>(null);
   const [nextRecommendation, setNextRecommendation] = React.useState<StudyRecommendation | null>(null);
+
+  // A route change starts a new result context.  The completed result itself
+  // is restored below only when the persisted session matches this route.
+  React.useEffect(() => {
+    setResultRecord(null);
+    setAiFeedback(null);
+    setNextRecommendation(null);
+  }, [testId, skill, partIdentifier]);
 
   // 0. Auto-pause all audio instances on navigation
   React.useEffect(() => {
@@ -111,18 +127,41 @@ export function PracticeShell({
 
   // 2. Initialize or resume session
   React.useEffect(() => {
-    if (isHydrated) {
-      if (!session || session.testId !== testId || session.skill !== skill) {
+    if (isHydrated && !isAuthLoading && hydratedUserId === user?.id) {
+      const sessionMatchesRoute = Boolean(
+        session &&
+        session.testId === testId &&
+        session.skill === skill &&
+        session.currentPartNumber === requestedPartNumber,
+      );
+      if (!sessionMatchesRoute) {
         initSession({
           testId,
           mode: "practice",
           skill: skill as any,
-          currentPartNumber: 1,
+          currentPartNumber: requestedPartNumber,
           remainingTimeSeconds: 600,
         });
       }
     }
-  }, [isHydrated, session, initSession, testId, skill]);
+  }, [isHydrated, isAuthLoading, hydratedUserId, user?.id, session, initSession, testId, skill, requestedPartNumber]);
+
+  // Restore the exact result/AI feedback after a browser refresh.  Only a
+  // submitted session for the current test/skill/part is eligible.
+  React.useEffect(() => {
+    const sessionMatchesRoute = Boolean(
+      session &&
+      session.testId === testId &&
+      session.skill === skill &&
+      session.currentPartNumber === requestedPartNumber,
+    );
+    if (!isHydrated || !sessionMatchesRoute || !session?.isSubmitted || !session.resultRecord) return;
+
+    setResultRecord(session.resultRecord);
+    setAiFeedback(session.aiFeedback ?? null);
+    const allHistory = loadProgressHistory(user?.id);
+    setNextRecommendation(generateRecommendations(allHistory).primaryRecommendation);
+  }, [isHydrated, session, testId, skill, requestedPartNumber, user?.id]);
 
   const answers = session?.answers || {};
 
@@ -147,6 +186,12 @@ export function PracticeShell({
   // 3. Handle Submit & Grading
   const handleSubmit = async () => {
     try {
+      if (isAuthLoading || !isHydrated) {
+        throw new Error("Đang xác thực tài khoản, vui lòng chờ một chút rồi nộp bài.");
+      }
+      if (!user?.id) {
+        throw new Error("Phiên đăng nhập không còn hợp lệ. Vui lòng đăng nhập lại trước khi nộp bài.");
+      }
       setIsSubmitting(true);
       setErrorMsg(null);
 
@@ -303,8 +348,9 @@ export function PracticeShell({
         throw new Error(`Unsupported skill: ${skill}`);
       }
 
-      // Save attempt & sync
-      saveProgressAttempt(record, user?.id);
+      // Persist the exact result in the completed session before syncing to
+      // the server.  This keeps refresh/reopen behavior idempotent.
+      submitSession(record, gradingResultData);
 
       if (user?.id) {
         fetch("/api/user/progress", {
@@ -338,6 +384,13 @@ export function PracticeShell({
           setResultRecord(null);
           setAiFeedback(null);
           setCurrentIndex(0);
+          initSession({
+            testId,
+            mode: "practice",
+            skill: skill as any,
+            currentPartNumber: requestedPartNumber,
+            remainingTimeSeconds: 600,
+          });
         }}
       />
     );
@@ -374,7 +427,7 @@ export function PracticeShell({
 
         <button
           onClick={handleSubmit}
-          disabled={isSubmitting}
+          disabled={isSubmitting || isAuthLoading || !isHydrated}
           className="flex items-center gap-1.5 font-bold shadow-md bg-emerald-700 hover:bg-emerald-700 text-white text-xs h-9 px-4 rounded-xl cursor-pointer transition-all disabled:opacity-50"
         >
           {isSubmitting ? (

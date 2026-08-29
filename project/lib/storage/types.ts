@@ -33,6 +33,10 @@ export interface PracticeSessionState {
   startedAt: string; // ISO 8601
   lastSavedAt: string; // ISO 8601
   isSubmitted: boolean;
+  /** Persist the completed result so a browser refresh cannot lose the result view. */
+  resultRecord?: ProgressAttemptRecord;
+  /** AI examiner details paired with resultRecord (Writing/Speaking only). */
+  aiFeedback?: unknown;
 }
 
 export const MOCK_TEST_SECTIONS: ExamComponentSkill[] = [

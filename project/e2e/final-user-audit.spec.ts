@@ -115,6 +115,57 @@ test.describe("Final browser learner audit", () => {
     await expect(page.getByRole("button", { name: "Nộp bài" })).toBeVisible();
   });
 
+  test("submitted practice result survives refresh without duplicate grading", async ({ page, context }) => {
+    test.setTimeout(90_000);
+    await registerAndAuthenticate(page, context, "refresh-submit");
+
+    await page.goto("/practice/reading/part1?testId=aptis-b2-01", { waitUntil: "domcontentloaded" });
+    await expect(page.getByText("Luyện Đọc — PART1")).toBeVisible({ timeout: 30_000 });
+    await page.getByRole("button", { name: "station" }).click();
+    const gradingResponse = page.waitForResponse(
+      (response) => response.url().includes("/api/grade/deterministic"),
+      { timeout: 30_000 },
+    );
+    await page.getByRole("button", { name: "Nộp bài" }).click();
+    await expect((await gradingResponse).status()).toBe(200);
+    await expect(page.getByText(/Kết quả:/)).toBeVisible({ timeout: 30_000 });
+
+    const health = await page.request.get("/api/health");
+    const healthData = await health.json();
+    const databaseIsPersistent = healthData.checks?.database === "connected";
+    if (databaseIsPersistent) {
+      await expect.poll(
+        async () => {
+          const response = await page.request.get("/api/user/progress");
+          const data = await response.json();
+          return data.data.filter(
+            (record: { testId: string; skill: string; partIdentifier: string }) =>
+              record.testId === "aptis-b2-01" && record.skill === "reading" && record.partIdentifier === "part1",
+          ).length;
+        },
+        { timeout: 15_000, message: "submitted practice result must sync before refresh" },
+      ).toBe(1);
+    }
+
+    await page.reload({ waitUntil: "domcontentloaded" });
+    await expect(page.getByText(/Kết quả:/)).toBeVisible({ timeout: 30_000 });
+    await expect(page.getByRole("button", { name: "Nộp bài" })).toHaveCount(0);
+
+    if (databaseIsPersistent) {
+      await expect.poll(
+        async () => {
+          const response = await page.request.get("/api/user/progress");
+          const data = await response.json();
+          return data.data.filter(
+            (record: { testId: string; skill: string; partIdentifier: string }) =>
+              record.testId === "aptis-b2-01" && record.skill === "reading" && record.partIdentifier === "part1",
+          ).length;
+        },
+        { timeout: 15_000, message: "refresh must not create a duplicate practice result" },
+      ).toBe(1);
+    }
+  });
+
   test("AI routes, session integrity, and progress records stay isolated by user", async ({ browser }) => {
     test.setTimeout(90_000);
     const anonymous = await browser.newContext({ baseURL: baseUrl });
