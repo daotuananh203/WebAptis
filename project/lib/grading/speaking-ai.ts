@@ -534,15 +534,29 @@ export async function gradeSpeakingSubmission(
   }
 
   const validatedOutput = parseAndValidateGeminiSpeakingOutput(rawResponseText);
+  // A provider can return optimistic fallback criteria while simultaneously
+  // flagging that the recording contains no recognizable speech. Treat that
+  // state as an explicit zero-quality submission, never as a passing score.
+  const isInsufficientAudio = validatedOutput.audioQuality === "insufficient";
+  const overallScore = isInsufficientAudio ? 0 : validatedOutput.overallScore;
+  const estimatedBand = isInsufficientAudio ? "A1" : validatedOutput.estimatedBand;
+  const criteria = isInsufficientAudio
+    ? validatedOutput.criteria.map((criterion) => ({
+        ...criterion,
+        score: 0,
+        feedback: criterion.feedback || "Không thể đánh giá vì bản ghi không có lời nói rõ ràng.",
+      }))
+    : validatedOutput.criteria;
+  const spokenGrammarErrors = isInsufficientAudio ? [] : validatedOutput.spokenGrammarErrors;
   const percentage =
     validatedOutput.maxOverallScore > 0
-      ? (validatedOutput.overallScore / validatedOutput.maxOverallScore) * 100
+      ? (overallScore / validatedOutput.maxOverallScore) * 100
       : 0;
 
   // 2. Record spoken grammar errors into User Learning Memory
-  if (userId && validatedOutput.spokenGrammarErrors.length > 0) {
+  if (userId && spokenGrammarErrors.length > 0) {
     try {
-      for (const err of validatedOutput.spokenGrammarErrors) {
+      for (const err of spokenGrammarErrors) {
         const topicCategory = err.errorCategory || "Spoken Grammar";
         recordUserError(
           userId,
@@ -558,7 +572,7 @@ export async function gradeSpeakingSubmission(
   }
 
   const transcriptStatus: "available" | "unavailable" | "failed" =
-    validatedOutput.audioQuality === "insufficient"
+    isInsufficientAudio
       ? "failed"
       : validatedOutput.transcript && validatedOutput.transcript.trim().length > 0
       ? "available"
@@ -574,16 +588,16 @@ export async function gradeSpeakingSubmission(
     taskType: taskContext.taskType,
     audioQuality: validatedOutput.audioQuality,
     audioQualityReason: validatedOutput.audioQualityReason,
-    overallScore: validatedOutput.overallScore,
+    overallScore,
     maxOverallScore: validatedOutput.maxOverallScore,
     percentage,
-    estimatedBand: validatedOutput.estimatedBand,
+    estimatedBand,
     scoreType: "AI_ESTIMATE",
-    criteria: validatedOutput.criteria,
+    criteria,
     pronunciationFeedback: validatedOutput.pronunciationFeedback,
-    pronunciationStatus: "pedagogical_estimate",
-    fluencyStatus: "available",
-    spokenGrammarErrors: validatedOutput.spokenGrammarErrors,
+    pronunciationStatus: isInsufficientAudio ? "not_available" : "pedagogical_estimate",
+    fluencyStatus: isInsufficientAudio ? "not_available" : "available",
+    spokenGrammarErrors,
     vocabularyUpgrades: validatedOutput.vocabularyUpgrades,
     strengths: validatedOutput.strengths,
     areasForImprovement: validatedOutput.areasForImprovement,

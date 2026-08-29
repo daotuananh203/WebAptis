@@ -226,6 +226,17 @@ export async function runSpeakingGradingTests() {
     assert.equal(parsedInsufficient.audioQuality, "insufficient");
     assert.equal(parsedInsufficient.overallScore, 0);
 
+    const contradictoryInsufficientOutput = {
+      ...validMockSpeakingOutput,
+      audioQuality: "insufficient",
+      audioQualityReason: "No recognizable speech detected",
+      overallScore: 22,
+      transcript: "",
+    };
+    const parsedContradictory = parseAndValidateGeminiSpeakingOutput(contradictoryInsufficientOutput);
+    assert.equal(parsedContradictory.audioQuality, "insufficient");
+    assert.equal(parsedContradictory.overallScore, 22, "parser preserves provider payload; service guard owns score policy");
+
     // Invalid score bounds (>5)
     const invalidScore = {
       ...validMockSpeakingOutput,
@@ -296,7 +307,53 @@ export async function runSpeakingGradingTests() {
   }
 
   // ----------------------------------------------------
-  // 7. BUG-S01: Speaking Submission Payload Contract & Dynamic Task ID Tests
+  // 7. Insufficient audio score guard
+  // ----------------------------------------------------
+  {
+    const insufficientClient: any = {
+      models: {
+        generateContent: async () => ({
+          text: JSON.stringify({
+            audioQuality: "insufficient",
+            audioQualityReason: "No recognizable speech detected",
+            overallScore: 22,
+            maxOverallScore: 25,
+            estimatedBand: "B2",
+            criteria: [
+              { name: "Task Fulfilment", score: 5, maxScore: 5, feedback: "Default fallback" },
+            ],
+            pronunciationFeedback: [],
+            spokenGrammarErrors: [{
+              spokenPhrase: "hallucinated",
+              correctedPhrase: "",
+              errorCategory: "Grammar",
+              explanation: "Must not be recorded for unusable audio",
+            }],
+            vocabularyUpgrades: [],
+            strengths: ["Default fallback"],
+            areasForImprovement: [],
+            transcript: "",
+          }),
+        }),
+      },
+    };
+    const result = await gradeSpeakingSubmission(
+      resolveSpeakingTaskContext("aptis-b2-01", 2, "s2_q1"),
+      { audioBase64: validMockAudioBase64, mimeType: "audio/webm" },
+      insufficientClient,
+    );
+    assert.equal(result.audioQuality, "insufficient");
+    assert.equal(result.overallScore, 0);
+    assert.equal(result.percentage, 0);
+    assert.equal(result.estimatedBand, "A1");
+    assert.equal(result.pronunciationStatus, "not_available");
+    assert.equal(result.fluencyStatus, "not_available");
+    assert.equal(result.spokenGrammarErrors.length, 0);
+    assert.equal(result.transcriptStatus, "failed");
+  }
+
+  // ----------------------------------------------------
+  // 8. BUG-S01: Speaking Submission Payload Contract & Dynamic Task ID Tests
   // ----------------------------------------------------
   {
     // TEST 1: Canonical payload with dynamic taskId and mimeType audio/webm
