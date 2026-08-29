@@ -24,6 +24,7 @@ import { retrieveRelevantKnowledge } from "../knowledge/retriever";
 import { recordUserError } from "../memory/store";
 import { AiGradingTimeoutError, withAiGradingTimeout } from "./ai-timeout";
 import { resolveSpeakingImageUrl } from "../speaking/image-availability";
+import { getSpeakingPracticeItem, SpeakingPracticeQuestion, SpeakingPracticeTopic } from "../speaking/practice-bank";
 
 export const MAX_AUDIO_BYTES = 10 * 1024 * 1024;
 const MAX_SPEAKING_IMAGE_BYTES = 5 * 1024 * 1024;
@@ -109,8 +110,71 @@ function detectImageMimeType(bytes: Buffer, imagePath: string): string {
 export function resolveSpeakingTaskContext(
   testId: string,
   partNumber: number,
-  taskId?: string
+  taskId?: string,
+  practiceItemId?: string
 ): SpeakingTaskContext {
+  // Canonical Speaking Practice is deliberately resolved independently from
+  // mock-test datasets. The explicit item id prevents a recording from being
+  // graded against another test's prompt or image.
+  if (practiceItemId) {
+    const item = getSpeakingPracticeItem(partNumber, practiceItemId);
+    if (!item) {
+      throw createGradingError("UNKNOWN_QUESTION", `Speaking Practice item not found: ${practiceItemId}`);
+    }
+    if ("questionId" in item) {
+      const question = item as SpeakingPracticeQuestion;
+      if (taskId && taskId !== question.questionId) {
+        throw createGradingError("UNKNOWN_QUESTION", `Speaking Practice question does not belong to item: ${taskId}`);
+      }
+      return {
+        testId,
+        practiceItemId,
+        partNumber: 1,
+        taskType: "personal-information",
+        taskId: question.questionId,
+        instructions: "Answer the personal information question clearly and naturally.",
+        prompt: question.question,
+        preparationTimeSeconds: 0,
+        responseTimeSeconds: 30,
+      };
+    }
+    const topic = item as SpeakingPracticeTopic;
+    let questionIndex = 0;
+    if (taskId) {
+      const prefix = `${topic.topicId}-q`;
+      const suffix = taskId.startsWith(prefix) ? taskId.slice(prefix.length) : "";
+      if (!/^[1-9]\d*$/.test(suffix)) {
+        throw createGradingError("UNKNOWN_QUESTION", `Speaking Practice task does not belong to item: ${taskId}`);
+      }
+      questionIndex = Number(suffix) - 1;
+      if (!Number.isSafeInteger(questionIndex) || questionIndex < 0 || questionIndex >= topic.prompts.length) {
+        throw createGradingError("UNKNOWN_QUESTION", `Speaking Practice task is outside the topic prompt range: ${taskId}`);
+      }
+    }
+    const prompt = topic.prompts[questionIndex] || topic.prompts[0];
+    if (!prompt) throw createGradingError("UNKNOWN_QUESTION", `Speaking Practice topic has no prompt: ${practiceItemId}`);
+    const imageUrls = partNumber === 3
+      ? [topic.imageA, topic.imageB].map((image) => resolveSpeakingImageUrl(image)).filter((image): image is string => Boolean(image))
+      : [topic.image].map((image) => resolveSpeakingImageUrl(image)).filter((image): image is string => Boolean(image));
+    return {
+      testId,
+      practiceItemId,
+      partNumber: partNumber as 2 | 3 | 4,
+      taskType: partNumber === 2 ? "describe-recount-opinion" : partNumber === 3 ? "compare-speculate-opinion" : "abstract-topic-extended",
+      taskId: `${topic.topicId}-q${questionIndex + 1}`,
+      instructions: partNumber === 2
+        ? "Describe the picture and answer the two follow-up questions. You have 45 seconds for each response."
+        : partNumber === 3
+        ? "Compare the two pictures and answer the two follow-up questions. You have 45 seconds for each response."
+        : "Speak for two minutes on the topic. You have one minute to prepare.",
+      topic: topic.title,
+      imageUrls: imageUrls.length > 0 ? imageUrls : undefined,
+      prompt: partNumber === 4 ? topic.prompts : prompt,
+      preparationTimeSeconds: partNumber === 4 ? 60 : 0,
+      responseTimeSeconds: partNumber === 4 ? 120 : 45,
+    };
+  }
+
   const publicDataPath = path.join(
     process.cwd(),
     `data/tests/${testId}-public.json`
@@ -627,6 +691,8 @@ export async function gradeSpeakingSubmission(
 
   return {
     testId: taskContext.testId,
+    practiceItemId: taskContext.practiceItemId,
+    taskId: taskContext.taskId,
     partNumber: taskContext.partNumber,
     taskType: taskContext.taskType,
     audioQuality,

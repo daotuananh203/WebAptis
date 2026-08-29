@@ -1506,24 +1506,86 @@
         "partNumber": 1,
         "taskType": "personal-information",
         "instructions": "In this part, you will answer three questions about yourself. You have 30 seconds for each response.",
+        "provenance": {
+          "bankId": "aptis-speaking-part1-edulife-questions-v1",
+          "bankVersion": "1.0.0",
+          "sourceStatus": "SOURCE_BACKED",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          },
+          "assignmentPolicy": {
+            "kind": "deterministic-source-limited",
+            "oldTestCount": 16,
+            "questionsPerTest": 3,
+            "requiredSlots": 48,
+            "uniqueSourceQuestions": 31,
+            "intentionalReuseSlots": 17,
+            "allocation": "Tests 01-15 receive two previously unused source questions plus one deterministic reuse; Test 16 receives the final unused source question plus two deterministic reuses.",
+            "randomization": "PROHIBITED",
+            "historicalTestMapping": "NOT_RECOVERED"
+          },
+          "historicalTestMapping": "NOT_RECOVERED"
+        },
         "questions": [
           {
             "id": "t05_s1_q1",
-            "prompt": "Please tell me about your daily routine and work or study schedule (Test 05).",
+            "prompt": "Tell me about your favorite film/movie",
             "preparationTimeSeconds": 0,
-            "responseTimeSeconds": 30
+            "responseTimeSeconds": 30,
+            "sourceQuestionId": "aptis-spk-p1-009",
+            "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sourceEvidence": {
+              "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+              "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+              "page": 1,
+              "section": "SPEAKING PART 1",
+              "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form.",
+              "sourceQuestionId": "aptis-spk-p1-009",
+              "sourceItemNumber": 9
+            },
+            "intentionalReuse": false
           },
           {
             "id": "t05_s1_q2",
-            "prompt": "What kind of sports, leisure activities, or hobbies do you enjoy in your spare time?",
+            "prompt": "Who is your favorite actor/actress?",
             "preparationTimeSeconds": 0,
-            "responseTimeSeconds": 30
+            "responseTimeSeconds": 30,
+            "sourceQuestionId": "aptis-spk-p1-010",
+            "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sourceEvidence": {
+              "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+              "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+              "page": 1,
+              "section": "SPEAKING PART 1",
+              "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form.",
+              "sourceQuestionId": "aptis-spk-p1-010",
+              "sourceItemNumber": 10
+            },
+            "intentionalReuse": false
           },
           {
             "id": "t05_s1_q3",
-            "prompt": "Tell me about your favorite travel destination or a memorable trip you experienced.",
+            "prompt": "Who is your favorite singer?",
             "preparationTimeSeconds": 0,
-            "responseTimeSeconds": 30
+            "responseTimeSeconds": 30,
+            "sourceQuestionId": "aptis-spk-p1-008",
+            "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sourceEvidence": {
+              "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+              "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+              "page": 1,
+              "section": "SPEAKING PART 1",
+              "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form.",
+              "sourceQuestionId": "aptis-spk-p1-008",
+              "sourceItemNumber": 8
+            },
+            "intentionalReuse": true,
+            "reuseReason": "Source-limited allocation: 31 recovered source questions for 48 old-test slots; no synthetic question was invented."
           }
         ]
       },

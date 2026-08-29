@@ -21,6 +21,7 @@ import { SOURCE_BATCH_TEST_CATALOG, ALL_EXAM_TEST_CATALOG } from "@/lib/exam/tes
 
 import writingDataRaw from "@/data/staging/writing/ts-writing-data.json";
 import speakingDataRaw from "@/data/staging/google-drive/speaking/ts-speaking-data.json";
+import canonicalSpeakingBank from "@/data/speaking/canonical-speaking-practice-bank.json";
 
 export interface SkillCategoryCatalog {
   skill: ExamComponentSkill;
@@ -106,6 +107,35 @@ export const SPEAKING_TESTS_DATA: TestListItemData[] = [...(speakingDataRaw as a
   ...item,
   gradingType: item.gradingType as "key" | "ai",
 })), ...SOURCE_BATCH_LIST_ITEMS("speaking", 12, 4, "ai", "Aptis Speaking B2", "Bộ đề nguồn 4 kỹ năng với prompt và hình ảnh được trích xuất trực tiếp từ PDF.", "part1")];
+
+/** Source-bank cards for Practice; Mock Test retains its own test catalog. */
+export const SPEAKING_PRACTICE_BANK_DATA: TestListItemData[] = (() => {
+  const parts = (canonicalSpeakingBank as any).parts;
+  const rows: TestListItemData[] = [];
+  for (const partNumber of [1, 2, 3, 4]) {
+    const part = parts[`part${partNumber}`];
+    const items = part.questions || part.topics || [];
+    items.forEach((item: any, index: number) => {
+      const id = item.questionId || item.topicId;
+      const title = item.question || item.title || `Topic ${index + 1}`;
+      rows.push({
+        testId: id,
+        testNumber: index + 1,
+        level: "B2",
+        isFeatured: index < 3,
+        hasAttempt: false,
+        durationMinutes: partNumber === 4 ? 3 : 1,
+        partsCount: 1,
+        gradingType: "ai",
+        title: `Part ${partNumber} · ${title}`,
+        description: `${item.source} · ${item.availability === "source-limited" ? "Source-limited asset" : "Source verified"}`,
+        tags: ["Speaking", `Part-${partNumber}`, "Canonical-Source-Bank"],
+        practiceUrl: `/practice/speaking/part${partNumber}?bank=canonical&itemId=${encodeURIComponent(id)}`,
+      });
+    });
+  }
+  return rows;
+})();
 
 export const GRAMMAR_TESTS_DATA: TestListItemData[] = [...Array.from({ length: 16 }, (_, i): TestListItemData => {
   const testNum = i + 1;
@@ -350,7 +380,7 @@ export const PRACTICE_SKILLS_CATALOG: SkillCategoryCatalog[] = [
         tag: "4 PART",
         icon: Mic,
         title: "Luyện đề Speaking",
-        description: "Kho 110 chủ đề và bài luyện Speaking B2 đủ 4 Part kèm hình ảnh và prompt chuẩn.",
+        description: "Practice Bank độc lập gồm 31 câu Part 1, 33 topic Part 2, 39 topic Part 3 và 29 topic Part 4 từ source đã kiểm chứng.",
         buttonLabel: "Đi tới danh sách đề →",
       },
       {
@@ -377,33 +407,33 @@ export const PRACTICE_SKILLS_CATALOG: SkillCategoryCatalog[] = [
         partIdentifier: "part1",
         name: "Part 1: Hỏi đáp cá nhân",
         officialTiming: "30s / câu",
-        itemCount: "3 câu hỏi",
-        description: "Trả lời 3 câu hỏi đời sống thường nhật.",
-        href: "/practice/speaking/part1",
+        itemCount: "31 câu nguồn",
+        description: "31 câu hỏi Part 1 canonical; không hiển thị 48 mock slots.",
+        href: "/practice/speaking/part1?bank=canonical",
       },
       {
         partIdentifier: "part2",
         name: "Part 2: Miêu tả 1 bức ảnh",
         officialTiming: "45s / câu",
-        itemCount: "3 câu hỏi",
-        description: "Miêu tả ảnh, kể trải nghiệm liên quan và nêu ý kiến.",
-        href: "/practice/speaking/part2",
+        itemCount: "33 topic nguồn",
+        description: "Chọn topic độc lập, xem ảnh nguồn, miêu tả và trả lời follow-up.",
+        href: "/practice/speaking/part2?bank=canonical",
       },
       {
         partIdentifier: "part3",
         name: "Part 3: So sánh 2 bức ảnh",
         officialTiming: "45s / câu",
-        itemCount: "3 câu hỏi",
-        description: "So sánh 2 ảnh, suy đoán và bày tỏ sự lựa chọn của bản thân.",
-        href: "/practice/speaking/part3",
+        itemCount: "39 topic nguồn",
+        description: "Chọn topic độc lập; chỉ topic có đủ asset mới được đánh dấu available.",
+        href: "/practice/speaking/part3?bank=canonical",
       },
       {
         partIdentifier: "part4",
         name: "Part 4: Thuyết trình theo chủ đề",
         officialTiming: "Chuẩn bị 1p • Nói 2p",
-        itemCount: "1 bài nói dài",
-        description: "Nói liên tục trong 2 phút trả lời 3 câu hỏi về chủ đề trừu tượng.",
-        href: "/practice/speaking/part4",
+        itemCount: "29 topic nguồn",
+        description: "Nói liên tục trong 2 phút trả lời 3 câu hỏi về topic source.",
+        href: "/practice/speaking/part4?bank=canonical",
       },
     ],
   },
@@ -481,7 +511,7 @@ export function PracticeHub() {
       case "listening": return LISTENING_TESTS_DATA;
       case "reading": return READING_TESTS_DATA;
       case "writing": return WRITING_TESTS_DATA;
-      case "speaking": return SPEAKING_TESTS_DATA;
+      case "speaking": return SPEAKING_PRACTICE_BANK_DATA;
       case "grammarVocabulary": return GRAMMAR_TESTS_DATA;
     }
   };

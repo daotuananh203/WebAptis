@@ -37,6 +37,7 @@ function resolveUserAndAdapter(
 export function createPracticeSession(
   params: {
     testId: string;
+    practiceItemId?: string;
     mode: LearningMode;
     skill: ExamComponentSkill;
     currentPartNumber?: number;
@@ -51,6 +52,7 @@ export function createPracticeSession(
     sessionId: `sess_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
     userId: params.userId,
     testId: params.testId,
+    practiceItemId: params.practiceItemId,
     mode: params.mode,
     skill: params.skill,
     currentPartNumber: params.currentPartNumber ?? 1,

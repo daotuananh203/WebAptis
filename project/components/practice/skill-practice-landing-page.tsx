@@ -14,6 +14,7 @@ import { PracticeModeCard, PracticeBadgeType } from "./practice-mode-card";
 import { ExamComponentSkill } from "@/lib/progress/types";
 import { Badge } from "../ui/badge";
 import { ALL_EXAM_TEST_CATALOG } from "@/lib/exam/test-catalog";
+import canonicalSpeakingBank from "@/data/speaking/canonical-speaking-practice-bank.json";
 
 export interface PracticeModeDef {
   badge: PracticeBadgeType;
@@ -133,7 +134,7 @@ export function SkillPracticeLandingPage({
               <span>Luyện theo từng Part: {skillName}</span>
             </h2>
             <p className="text-xs text-slate-300">
-              {tests.length} bộ đề nguồn có sẵn cho mỗi phần thi
+              {skillKey === "speaking" ? "Practice Bank độc lập — không phụ thuộc mock-test assignment" : `${tests.length} bộ đề nguồn có sẵn cho mỗi phần thi`}
             </p>
           </div>
         </div>
@@ -175,32 +176,43 @@ export function SkillPracticeLandingPage({
               {/* 16 Tests Grid for this part */}
               <div className="space-y-2">
                 <span className="text-xs font-bold text-slate-300 block">
-                  Chọn bộ đề ôn luyện:
+                  {skillKey === "speaking" ? "Chọn câu hỏi / topic nguồn:" : "Chọn bộ đề ôn luyện:"}
                 </span>
-                <div className="grid grid-cols-4 sm:grid-cols-8 gap-2">
-                  {tests.map((test) => {
-                    const isMissingAudio = skillKey === "listening" && test.hasListeningAudio === false;
-
-                    return (
-                      <Link
-                        key={test.testId}
-                        href={`${part.href}?testId=${test.testId}`}
-                        className={`group p-2.5 rounded-xl border text-center transition-all cursor-pointer flex flex-col items-center justify-center gap-1 ${
-                          isMissingAudio
-                            ? "border-amber-500/30 bg-amber-500/10 hover:bg-amber-500/20 text-amber-300"
-                            : "border-[#22222a] bg-[#16161d] hover:border-emerald-500/50 hover:bg-[#1a1a24] text-white"
-                        }`}
-                      >
-                        <span className="text-xs font-bold group-hover:text-emerald-300 transition-colors">
-                          {test.label}
-                        </span>
-                        <span className="text-[9px] text-slate-300 group-hover:text-emerald-300">
-                          {isMissingAudio ? "No Audio" : "Vào làm"}
-                        </span>
-                      </Link>
-                    );
-                  })}
-                </div>
+                {skillKey === "speaking" ? (() => {
+                  const bankPart = (canonicalSpeakingBank as any).parts[`part${part.partIdentifier.replace("part", "")}`];
+                  const bankItems = bankPart?.questions || bankPart?.topics || [];
+                  return (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                      {bankItems.map((item: any, index: number) => {
+                        const itemId = item.questionId || item.topicId;
+                        const label = item.question || item.title || `Topic ${index + 1}`;
+                        const available = item.availability !== "source-limited";
+                        return (
+                          <Link
+                            key={itemId}
+                            href={`${part.href}&itemId=${encodeURIComponent(itemId)}`}
+                            className={`group p-2.5 rounded-xl border text-left transition-all cursor-pointer flex flex-col gap-1 ${available ? "border-[#22222a] bg-[#16161d] hover:border-emerald-500/50 hover:bg-[#1a1a24]" : "border-amber-500/30 bg-amber-500/10 hover:bg-amber-500/20"}`}
+                          >
+                            <span className="text-xs font-bold text-white group-hover:text-emerald-300 transition-colors line-clamp-2">{index + 1}. {label}</span>
+                            <span className={`text-[9px] ${available ? "text-slate-300" : "text-amber-300"}`}>{available ? "Source verified · Vào luyện" : "Source-limited · xem prompt"}</span>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  );
+                })() : (
+                  <div className="grid grid-cols-4 sm:grid-cols-8 gap-2">
+                    {tests.map((test) => {
+                      const isMissingAudio = skillKey === "listening" && test.hasListeningAudio === false;
+                      return (
+                        <Link key={test.testId} href={`${part.href}?testId=${test.testId}`} className={`group p-2.5 rounded-xl border text-center transition-all cursor-pointer flex flex-col items-center justify-center gap-1 ${isMissingAudio ? "border-amber-500/30 bg-amber-500/10 hover:bg-amber-500/20 text-amber-300" : "border-[#22222a] bg-[#16161d] hover:border-emerald-500/50 hover:bg-[#1a1a24] text-white"}`}>
+                          <span className="text-xs font-bold group-hover:text-emerald-300 transition-colors">{test.label}</span>
+                          <span className="text-[9px] text-slate-300 group-hover:text-emerald-300">{isMissingAudio ? "No Audio" : "Vào làm"}</span>
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             </div>
           ))}
@@ -212,7 +224,7 @@ export function SkillPracticeLandingPage({
         <Lightbulb className="h-4 w-4 text-amber-400 shrink-0 mt-0.5" />
         <div>
           <strong className="text-white block mb-0.5">Lưu ý về câu hỏi</strong>
-          <span>Làm theo part sẽ không bị trùng câu; làm theo test có thể bị trùng câu.</span>
+          <span>{skillKey === "speaking" ? "Speaking Practice dùng canonical source bank độc lập; asset thiếu được đánh dấu source-limited, không dùng placeholder." : "Làm theo part sẽ không bị trùng câu; làm theo test có thể bị trùng câu."}</span>
         </div>
       </div>
     </div>

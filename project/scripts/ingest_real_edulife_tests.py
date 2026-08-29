@@ -6,6 +6,8 @@ import re
 import shutil
 import docx
 
+from speaking_part1_bank import allocate_old_test_questions, load_part1_bank
+
 # Portable Source of Truth resolution
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
@@ -1013,15 +1015,35 @@ def parse_writing(w_paras, test_num):
 # ----------------------------------------------------
 def parse_speaking(s_paras, test_num):
     prefix = f"t{test_num:02d}_"
-    
+    part1_bank = load_part1_bank()
+    part1_source_questions = allocate_old_test_questions(test_num)
+
     s1_pub = {
         "partNumber": 1,
         "taskType": "personal-information",
         "instructions": "In this part, you will answer three questions about yourself. You have 30 seconds for each response.",
+        "provenance": {
+            "bankId": part1_bank["bankId"],
+            "bankVersion": part1_bank["bankVersion"],
+            "sourceStatus": part1_bank["sourceStatus"],
+            "source": part1_bank["source"],
+            "sourceEvidence": part1_bank["sourceEvidence"],
+            "assignmentPolicy": part1_bank["assignmentPolicy"],
+            "historicalTestMapping": "NOT_RECOVERED",
+        },
         "questions": [
-            {"id": f"{prefix}s1_q1", "prompt": f"Please tell me about your daily routine and work or study schedule (Test {test_num:02d}).", "preparationTimeSeconds": 0, "responseTimeSeconds": 30},
-            {"id": f"{prefix}s1_q2", "prompt": "What kind of sports, leisure activities, or hobbies do you enjoy in your spare time?", "preparationTimeSeconds": 0, "responseTimeSeconds": 30},
-            {"id": f"{prefix}s1_q3", "prompt": "Tell me about your favorite travel destination or a memorable trip you experienced.", "preparationTimeSeconds": 0, "responseTimeSeconds": 30}
+            {
+                "id": f"{prefix}s1_q{slot}",
+                "prompt": item["prompt"],
+                "preparationTimeSeconds": 0,
+                "responseTimeSeconds": 30,
+                "sourceQuestionId": item["sourceQuestionId"],
+                "source": item["source"],
+                "sourceEvidence": item["sourceEvidence"],
+                "intentionalReuse": item["intentionalReuse"],
+                **({"reuseReason": item["reuseReason"]} if item["intentionalReuse"] else {}),
+            }
+            for slot, item in enumerate(part1_source_questions, 1)
         ]
     }
 

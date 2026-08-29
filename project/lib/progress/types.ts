@@ -15,6 +15,8 @@ export type LearningMode = "practice" | "mock-test";
 export interface ProgressAttemptRecord {
   id: string; // Unique attempt ID
   testId: string;
+  /** Canonical Speaking Practice item id, when the attempt is bank-based. */
+  practiceItemId?: string;
   mode: LearningMode;
   skill: ExamComponentSkill;
   partIdentifier?: string; // e.g. "part1", "part2", "grammar", "vocabulary"

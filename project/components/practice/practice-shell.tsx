@@ -32,6 +32,9 @@ export interface PracticeShellProps {
   skill: string;
   partIdentifier: string;
   testId?: string;
+  /** When true, Speaking is loaded from the independent canonical bank. */
+  practiceBank?: boolean;
+  practiceItemId?: string;
 }
 
 function resolvePracticePartNumber(skill: string, partIdentifier: string): number {
@@ -45,13 +48,18 @@ export function PracticeShell({
   skill,
   partIdentifier,
   testId = "aptis-b2-01",
+  practiceBank = false,
+  practiceItemId,
 }: PracticeShellProps) {
   const { user, isLoading: isAuthLoading } = useAuth();
   const { isHydrated, hydratedUserId, session, initSession, setAnswer, submitSession } = usePracticeSession(user?.id);
   const requestedPartNumber = resolvePracticePartNumber(skill, partIdentifier);
+  const isSpeakingBank = skill === "speaking" && practiceBank;
+  const sessionTestId = isSpeakingBank ? "speaking-practice-bank" : testId;
 
   const [isLoading, setIsLoading] = React.useState(true);
   const [partData, setPartData] = React.useState<any>(null);
+  const [activePracticeItemId, setActivePracticeItemId] = React.useState<string | undefined>(practiceItemId);
   const [currentIndex, setCurrentIndex] = React.useState(0);
   const [isSubmitting, setIsSubmitting] = React.useState(false);
   const [errorMsg, setErrorMsg] = React.useState<string | null>(null);
@@ -67,7 +75,10 @@ export function PracticeShell({
     setResultRecord(null);
     setAiFeedback(null);
     setNextRecommendation(null);
-  }, [testId, skill, partIdentifier]);
+    setPartData(null);
+    setCurrentIndex(0);
+    setActivePracticeItemId(practiceItemId);
+  }, [testId, skill, partIdentifier, practiceItemId, isSpeakingBank]);
 
   // 0. Auto-pause all audio instances on navigation
   React.useEffect(() => {
@@ -86,6 +97,45 @@ export function PracticeShell({
     async function loadData() {
       try {
         setIsLoading(true);
+        if (isSpeakingBank) {
+          const query = new URLSearchParams({ part: String(requestedPartNumber) });
+          if (practiceItemId) query.set("itemId", practiceItemId);
+          const res = await fetch(`/api/speaking/practice-bank?${query.toString()}`);
+          const json = await res.json();
+          if (!json.success || !json.data?.item) throw new Error(json.error || "Failed to load Speaking Practice bank item");
+          const item = json.data.item;
+          const itemId = item.questionId || item.topicId;
+          setActivePracticeItemId(itemId);
+          const questions = "questionId" in item
+            ? [{ id: item.questionId, prompt: item.question }]
+            : item.prompts.map((prompt: string, index: number) => ({ id: `${item.topicId}-q${index + 1}`, prompt }));
+          const bankPartData: any = {
+            id: itemId,
+            topic: item.title,
+            instructions: requestedPartNumber === 2
+              ? "Describe the picture and answer the two follow-up questions. You have 45 seconds for each response."
+              : requestedPartNumber === 3
+              ? "Compare the two pictures and answer the two follow-up questions. You have 45 seconds for each response."
+              : requestedPartNumber === 4
+              ? "Speak for two minutes on the topic. You have one minute to prepare."
+              : "Answer the personal information question clearly and naturally.",
+            questions,
+            source: item.source,
+            sourceEvidence: item.sourceEvidence,
+            availability: item.availability,
+          };
+          if (requestedPartNumber === 2) bankPartData.imageUrl = item.image;
+          if (requestedPartNumber === 3) {
+            bankPartData.images = {
+              image1Url: item.imageA,
+              image1Alt: "Image A",
+              image2Url: item.imageB,
+              image2Alt: "Image B",
+            };
+          }
+          setPartData(bankPartData);
+          return;
+        }
         const res = await fetch(`/api/tests/${testId}`);
         const json = await res.json();
         if (!json.success || !json.data) {
@@ -123,20 +173,22 @@ export function PracticeShell({
     }
 
     loadData();
-  }, [testId, skill, partIdentifier]);
+  }, [testId, skill, partIdentifier, isSpeakingBank, requestedPartNumber, practiceItemId]);
 
   // 2. Initialize or resume session
   React.useEffect(() => {
     if (isHydrated && !isAuthLoading && hydratedUserId === user?.id) {
       const sessionMatchesRoute = Boolean(
         session &&
-        session.testId === testId &&
+        session.testId === sessionTestId &&
+        (!isSpeakingBank || session.practiceItemId === activePracticeItemId) &&
         session.skill === skill &&
         session.currentPartNumber === requestedPartNumber,
       );
       if (!sessionMatchesRoute) {
         initSession({
-          testId,
+          testId: sessionTestId,
+          practiceItemId: isSpeakingBank ? activePracticeItemId : undefined,
           mode: "practice",
           skill: skill as any,
           currentPartNumber: requestedPartNumber,
@@ -144,14 +196,15 @@ export function PracticeShell({
         });
       }
     }
-  }, [isHydrated, isAuthLoading, hydratedUserId, user?.id, session, initSession, testId, skill, requestedPartNumber]);
+  }, [isHydrated, isAuthLoading, hydratedUserId, user?.id, session, initSession, sessionTestId, skill, requestedPartNumber, isSpeakingBank, activePracticeItemId]);
 
   // Restore the exact result/AI feedback after a browser refresh.  Only a
   // submitted session for the current test/skill/part is eligible.
   React.useEffect(() => {
     const sessionMatchesRoute = Boolean(
       session &&
-      session.testId === testId &&
+      session.testId === sessionTestId &&
+      (!isSpeakingBank || session.practiceItemId === activePracticeItemId) &&
       session.skill === skill &&
       session.currentPartNumber === requestedPartNumber,
     );
@@ -161,7 +214,7 @@ export function PracticeShell({
     setAiFeedback(session.aiFeedback ?? null);
     const allHistory = loadProgressHistory(user?.id);
     setNextRecommendation(generateRecommendations(allHistory).primaryRecommendation);
-  }, [isHydrated, session, testId, skill, requestedPartNumber, user?.id]);
+  }, [isHydrated, session, sessionTestId, skill, requestedPartNumber, user?.id, isSpeakingBank, activePracticeItemId]);
 
   const answers = session?.answers || {};
 
@@ -174,10 +227,18 @@ export function PracticeShell({
       totalItems = partData?.sets?.length || 5;
     }
   }
+  if (isSpeakingBank) {
+    totalItems = partData?.questions?.length || 1;
+  }
 
   // Answered indices
   const answeredIndices: number[] = [];
   if (skill === "grammarVocabulary" && partIdentifier === "grammar" && partData?.questions) {
+    partData.questions.forEach((q: any, idx: number) => {
+      if (answers[q.id]) answeredIndices.push(idx);
+    });
+  }
+  if (isSpeakingBank && partData?.questions) {
     partData.questions.forEach((q: any, idx: number) => {
       if (answers[q.id]) answeredIndices.push(idx);
     });
@@ -306,7 +367,9 @@ export function PracticeShell({
         // Resolve the same task whose recording was collected by the renderer.
         let dynamicTaskId: string = `${testId}_s${partNum}_q1`;
         if (partData) {
-          if (partData.id) {
+          if (isSpeakingBank && currentQuestion && typeof currentQuestion === "object" && currentQuestion.id) {
+            dynamicTaskId = currentQuestion.id;
+          } else if (partData.id) {
             dynamicTaskId = partData.id;
           } else if (currentQuestion && typeof currentQuestion === "object" && currentQuestion.id) {
             dynamicTaskId = currentQuestion.id;
@@ -322,7 +385,8 @@ export function PracticeShell({
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            testId,
+            testId: sessionTestId,
+            practiceItemId: isSpeakingBank ? activePracticeItemId : undefined,
             partNumber: partNum,
             taskId: dynamicTaskId,
             audioBase64: rawBase64,
@@ -385,7 +449,8 @@ export function PracticeShell({
           setAiFeedback(null);
           setCurrentIndex(0);
           initSession({
-            testId,
+            testId: sessionTestId,
+            practiceItemId: isSpeakingBank ? activePracticeItemId : undefined,
             mode: "practice",
             skill: skill as any,
             currentPartNumber: requestedPartNumber,
@@ -420,7 +485,7 @@ export function PracticeShell({
 
         <div className="flex items-center gap-2">
           <Badge variant="outline" className="text-[11px] font-bold px-2.5 py-1 bg-emerald-500/15 text-emerald-300 border-emerald-500/30">
-            {formatTestDisplayName(testId)} • {skill} • {partIdentifier}
+            {isSpeakingBank ? `Speaking Practice Bank${activePracticeItemId ? ` • ${activePracticeItemId}` : ""}` : `${formatTestDisplayName(testId)} • ${skill}`} • {partIdentifier}
           </Badge>
           <PracticeTimer initialSeconds={600} />
         </div>
@@ -448,6 +513,12 @@ export function PracticeShell({
         <div className="p-3.5 bg-rose-500/10 border border-rose-500/30 rounded-xl text-xs text-rose-300 flex items-center gap-2">
           <AlertCircle className="h-4 w-4 shrink-0 text-rose-400" />
           <span>{errorMsg}</span>
+        </div>
+      )}
+
+      {isSpeakingBank && partData?.availability === "source-limited" && (
+        <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-200">
+          Topic này có prompt nguồn nhưng asset hình chưa đủ/không materialize được. Không dùng placeholder; hãy chọn topic khác nếu cần luyện với hình.
         </div>
       )}
 

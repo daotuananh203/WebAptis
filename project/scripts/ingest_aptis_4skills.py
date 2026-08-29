@@ -801,7 +801,35 @@ def parse_speaking(speaking: str, reader: PdfReader, test_number: int, prefix: s
         raise ValueError(f"Speaking bullet parse T{test_number:02d}: {len(p1_b)},{len(p2_b)},{len(p3_b)},{len(p4_b)}")
     p2_img, p3_imgs, p4_img = extract_speaking_images(reader, test_number, prefix)
     make_q = lambda part, i, text, response=45: {"id": f"{prefix}s{part}_q{i}", "prompt": text, "preparationTimeSeconds": 0, "responseTimeSeconds": response}
-    p1 = {"partNumber": 1, "taskType": "personal-information", "instructions": "Answer three short questions about yourself and your interests. You have 30 seconds for each question.", "questions": [make_q(1, i, x, 30) for i, x in enumerate(p1_b, 1)]}
+    source_pdf_evidence = {
+        "sourceFile": str(PDF_PATH.relative_to(WORKSPACE_ROOT)).replace("\\", "/"),
+        "sourceSha256": sha256_file(PDF_PATH),
+        "sourcePages": list(PAGE_RANGES[test_number]["speaking"]),
+        "sourceSection": f"Test {test_number:02d} — Speaking Part 1",
+        "sourceTestLabel": f"Đề {test_number}",
+    }
+    p1_questions = []
+    for i, text in enumerate(p1_b, 1):
+        question = make_q(1, i, text, 30)
+        question.update({
+            "sourceQuestionId": f"aptis-4skills-{test_number:02d}-spk-p1-q{i}",
+            "source": "APTIS four-skills source bundle PDF",
+            "sourceEvidence": {**source_pdf_evidence, "sourceQuestionIndex": i, "sourceQuestion": text},
+            "intentionalReuse": False,
+        })
+        p1_questions.append(question)
+    p1 = {
+        "partNumber": 1,
+        "taskType": "personal-information",
+        "instructions": "Answer three short questions about yourself and your interests. You have 30 seconds for each question.",
+        "provenance": {
+            "sourceStatus": "SOURCE_BACKED",
+            "source": "APTIS four-skills source bundle PDF",
+            "sourceEvidence": source_pdf_evidence,
+            "historicalTestMapping": "SOURCE_TEST_LABEL_RECOVERED",
+        },
+        "questions": p1_questions,
+    }
     p2 = {"partNumber": 2, "taskType": "describe-recount-opinion", "instructions": "Describe what is happening in the picture and answer the two questions about it. You have 45 seconds for each response.", "imageUrl": p2_img["url"], "imageAlt": f"Source PDF Test {test_number:02d} Speaking Part 2 image", "questions": [make_q(2, i, x) for i, x in enumerate(p2_b, 1)]}
     p3 = {"partNumber": 3, "taskType": "compare-speculate-opinion", "instructions": "Compare the two pictures and answer the two questions about them. You have 45 seconds for each response.", "images": {"image1Url": p3_imgs[0]["url"], "image1Alt": f"Source PDF Test {test_number:02d} Speaking Part 3 image A", "image2Url": p3_imgs[1]["url"], "image2Alt": f"Source PDF Test {test_number:02d} Speaking Part 3 image B"}, "questions": [make_q(3, i, x) for i, x in enumerate(p3_b, 1)]}
     p4 = {"partNumber": 4, "taskType": "abstract-topic-extended", "instructions": "Look at the picture and answer the three questions. You have 60 seconds to think and two minutes to answer.", "imageUrl": p4_img["url"], "imageAlt": f"Source PDF Test {test_number:02d} Speaking Part 4 image", "topic": f"Source PDF Test {test_number:02d} Speaking Part 4", "questions": p4_b, "preparationTimeSeconds": 60, "responseTimeSeconds": 120}

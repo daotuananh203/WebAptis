@@ -1,0 +1,4170 @@
+{
+  "bankId": "aptis-speaking-practice-bank-v1",
+  "bankVersion": "1.0.0",
+  "sourceStatus": "SOURCE_BACKED_WITH_SOURCE_LIMITS",
+  "historicalMapping": "NOT_RECOVERED_FOR_OLD_MOCK_PARTS_2_3",
+  "architecture": "Independent source bank; never derived from mock test assignment",
+  "sourceOfTruth": [
+    "data/speaking/canonical-part1-question-bank.json",
+    "data/prediction/speaking/speaking-bank.json",
+    "APTIS 4-skills source PDF"
+  ],
+  "parts": {
+    "part1": {
+      "partNumber": 1,
+      "itemCount": 31,
+      "questions": [
+        {
+          "questionId": "aptis-spk-p1-001",
+          "question": "Tell me about yourself.",
+          "normalizedQuestion": "tell me about yourself",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-002",
+          "question": "Tell me about your family.",
+          "normalizedQuestion": "tell me about your family",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-003",
+          "question": "Tell me about your job.",
+          "normalizedQuestion": "tell me about your job",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-004",
+          "question": "Tell me about your typical day.",
+          "normalizedQuestion": "tell me about your typical day",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-005",
+          "question": "What do you like doing in your free time?/What do you like doing with your friend?",
+          "normalizedQuestion": "what do you like doing in your free time /what do you like doing with your friend",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-006",
+          "question": "What do you do at the weekend?",
+          "normalizedQuestion": "what do you do at the weekend",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-007",
+          "question": "What is your favorite music?",
+          "normalizedQuestion": "what is your favorite music",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-008",
+          "question": "Who is your favorite singer?",
+          "normalizedQuestion": "who is your favorite singer",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-009",
+          "question": "Tell me about your favorite film/movie",
+          "normalizedQuestion": "tell me about your favorite film/movie",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-010",
+          "question": "Who is your favorite actor/actress?",
+          "normalizedQuestion": "who is your favorite actor/actress",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-011",
+          "question": "How do you relax in the evening?",
+          "normalizedQuestion": "how do you relax in the evening",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-012",
+          "question": "Describe a member in your family",
+          "normalizedQuestion": "describe a member in your family",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-013",
+          "question": "Tell me about the place you live in/ your favourite city",
+          "normalizedQuestion": "tell me about the place you live in/ your favourite city",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-014",
+          "question": "Tell me about your friend.",
+          "normalizedQuestion": "tell me about your friend",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-015",
+          "question": "Describe your home.",
+          "normalizedQuestion": "describe your home",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-016",
+          "question": "Tell me about your favorite book.",
+          "normalizedQuestion": "tell me about your favorite book",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-017",
+          "question": "What is your favorite season? Why?",
+          "normalizedQuestion": "what is your favorite season why",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-018",
+          "question": "What is the weather like today?",
+          "normalizedQuestion": "what is the weather like today",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-019",
+          "question": "What sport do you like in your country?/ What’s your favourite sport?",
+          "normalizedQuestion": "what sport do you like in your country / what's your favourite sport",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-020",
+          "question": "Where did you go last night?",
+          "normalizedQuestion": "where did you go last night",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-021",
+          "question": "What did you do last night?",
+          "normalizedQuestion": "what did you do last night",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-022",
+          "question": "Tell me why you are interested in travel.",
+          "normalizedQuestion": "tell me why you are interested in travel",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-023",
+          "question": "Tell me about a famous place in your country.",
+          "normalizedQuestion": "tell me about a famous place in your country",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-024",
+          "question": "Describe the room you are in/ your favourite room.",
+          "normalizedQuestion": "describe the room you are in/ your favourite room",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-025",
+          "question": "Describe your journey here today.",
+          "normalizedQuestion": "describe your journey here today",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-026",
+          "question": "What are you looking for in your new house?",
+          "normalizedQuestion": "what are you looking for in your new house",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-027",
+          "question": "Why are you learning English?",
+          "normalizedQuestion": "why are you learning english",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-028",
+          "question": "The best way to travel around your country.",
+          "normalizedQuestion": "the best way to travel around your country",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-029",
+          "question": "What is the food like in your country?",
+          "normalizedQuestion": "what is the food like in your country",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-030",
+          "question": "When do you feel stressed?",
+          "normalizedQuestion": "when do you feel stressed",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        },
+        {
+          "questionId": "aptis-spk-p1-031",
+          "question": "What are you wearing today?",
+          "normalizedQuestion": "what are you wearing today",
+          "source": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+          "sourceEvidence": {
+            "relativePath": "APTIS/Speaking/APTIS_SPEAKING PART 1_Questions.pdf",
+            "sha256": "cf8892bbd1c7f49e39b8f412bc1fb459982c63503c561b5c624151a994aafaa3",
+            "page": 1,
+            "section": "SPEAKING PART 1",
+            "note": "The source is an Edulife teaching/practice question list, not asserted as an official British Council test form."
+          }
+        }
+      ],
+      "sourceExtensions": [
+        {
+          "sourceQuestionId": "aptis-4skills-01-spk-p1-q1",
+          "question": "Please tell me about where you live.",
+          "normalizedQuestion": "please tell me about where you live",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-01",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-01",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-01-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-01-spk-p1-q2",
+          "question": "Please tell me about your last birthday.",
+          "normalizedQuestion": "please tell me about your last birthday",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-01",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-01",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-01-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-01-spk-p1-q3",
+          "question": "Please tell me about your favourite school subject.",
+          "normalizedQuestion": "please tell me about your favourite school subject",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-01",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-01",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-01-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-02-spk-p1-q1",
+          "question": "Please tell me about your best friend.",
+          "normalizedQuestion": "please tell me about your best friend",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-02",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-02",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-02-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-02-spk-p1-q2",
+          "question": "What do you like doing in winter?",
+          "normalizedQuestion": "what do you like doing in winter",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-02",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-02",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-02-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-02-spk-p1-q3",
+          "question": "What did you do yesterday?",
+          "normalizedQuestion": "what did you do yesterday",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-02",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-02",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-02-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-03-spk-p1-q1",
+          "question": "Please tell me about your first school.",
+          "normalizedQuestion": "please tell me about your first school",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-03",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-03",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-03-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-03-spk-p1-q2",
+          "question": "What did you do last weekend?",
+          "normalizedQuestion": "what did you do last weekend",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-03",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-03",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-03-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-03-spk-p1-q3",
+          "question": "Describe this room.",
+          "normalizedQuestion": "describe this room",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-03",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-03",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-03-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-04-spk-p1-q1",
+          "question": "Please tell me about your family.",
+          "normalizedQuestion": "please tell me about your family",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-04",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-04",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-04-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-04-spk-p1-q2",
+          "question": "What is your favorite movie star?",
+          "normalizedQuestion": "what is your favorite movie star",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-04",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-04",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-04-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-04-spk-p1-q3",
+          "question": "What's the weather like today?",
+          "normalizedQuestion": "what's the weather like today",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-04",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-04",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-04-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-05-spk-p1-q1",
+          "question": "Please tell me about your hometown.",
+          "normalizedQuestion": "please tell me about your hometown",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-05",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-05",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-05-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-05-spk-p1-q2",
+          "question": "What is the best way to travel in your country?",
+          "normalizedQuestion": "what is the best way to travel in your country",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-05",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-05",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-05-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-05-spk-p1-q3",
+          "question": "What do people in your country like to read?",
+          "normalizedQuestion": "what do people in your country like to read",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-05",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-05",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-05-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-06-spk-p1-q1",
+          "question": "Describe the clothes you are wearing?",
+          "normalizedQuestion": "describe the clothes you are wearing",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-06",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-06",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-06-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-06-spk-p1-q2",
+          "question": "Please tell me about one of your good memories .",
+          "normalizedQuestion": "please tell me about one of your good memories",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-06",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-06",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-06-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-06-spk-p1-q3",
+          "question": "What is the food like in your country?",
+          "normalizedQuestion": "what is the food like in your country",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-06",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-06",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-06-public.json",
+            "relationship": "REUSE — exact normalized match",
+            "canonicalQuestionId": "aptis-spk-p1-029"
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-07-spk-p1-q1",
+          "question": "What sports do people like in your country?",
+          "normalizedQuestion": "what sports do people like in your country",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-07",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-07",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-07-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-07-spk-p1-q2",
+          "question": "What do you like to do in your free time?",
+          "normalizedQuestion": "what do you like to do in your free time",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-07",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-07",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-07-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        },
+        {
+          "sourceQuestionId": "aptis-4skills-07-spk-p1-q3",
+          "question": "Tell me about your country.",
+          "normalizedQuestion": "tell me about your country",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-07",
+          "sourceEvidence": {
+            "sourceTestId": "aptis-4skills-07",
+            "sourcePart": 1,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-07-public.json",
+            "relationship": "SOURCE EXTENSION — not part of the 31-question canonical Edulife bank",
+            "canonicalQuestionId": null
+          }
+        }
+      ],
+      "assignmentPolicy": {
+        "kind": "deterministic-source-limited",
+        "oldTestCount": 16,
+        "questionsPerTest": 3,
+        "requiredSlots": 48,
+        "uniqueSourceQuestions": 31,
+        "intentionalReuseSlots": 17,
+        "allocation": "Tests 01-15 receive two previously unused source questions plus one deterministic reuse; Test 16 receives the final unused source question plus two deterministic reuses.",
+        "randomization": "PROHIBITED",
+        "historicalTestMapping": "NOT_RECOVERED"
+      }
+    },
+    "part2": {
+      "partNumber": 2,
+      "itemCount": 33,
+      "sourceRecordCount": 32,
+      "googleDocsRecordCount": 32,
+      "topics": [
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_002",
+          "partNumber": 2,
+          "title": "Cô gái trên boong thuyền",
+          "prompts": [
+            "Describe the picture",
+            "Tell me about the last time you went sightseeing by the beach",
+            "Why do people dislike traveling by seaway?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "tell me about the last time you went sightseeing by the beach",
+            "why do people dislike traveling by seaway"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Cô_gái_trên_boong_thuyền_1_058a5a03.jpg",
+          "imageSha256": "93e9d64bc39cb0c9bc0d1f800cd2263a7f97a534b187a7713522607164cb91dc",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 2,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 2,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_003",
+          "partNumber": 2,
+          "title": "Mẹ dạy con cưỡi ngựa",
+          "prompts": [
+            "Describe the picture.",
+            "Do you like animals? Why?",
+            "What are some benefits of animals?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "do you like animals why",
+            "what are some benefits of animals"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Mẹ_dạy_con_cưỡi_ngựa_1_a2ec392a.jpg",
+          "imageSha256": "3a4c50521594381947ce1da3fb7971ebc3db22c8efa9d1d06fdce39ed5372534",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 3,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 3,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_004",
+          "partNumber": 2,
+          "title": "Nhóm người ở triển lãm",
+          "prompts": [
+            "Describe the picture (Bức ảnh được chụp tại bảo tàng hoặc triển lãm nghệ thuật nào đó. Có rất nhiều bức tranh màu sắc treo trên tường. Có hai nhóm người đang thưởng thức nghệ thuật: Nhóm 1 gồm hai cô gái đang rất thích thú, cười rất tươi. Nhóm 2 gồm hai người đàn ông và một phụ nữ đang thảo luận gì đó về các bức tranh)",
+            "Talk about the last time you saw a painting?",
+            "Why do people like looking at paintings?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture (bức ảnh được chụp tại bảo tàng hoặc triển lãm nghệ thuật nào đó có rất nhiều bức tranh màu sắc treo trên tường có hai nhóm người đang thưởng thức nghệ thuật nhóm 1 gồm hai cô gái đang rất thích thú cười rất tươi nhóm 2 gồm hai người đàn ông và một phụ nữ đang thảo luận gì đó về các bức tranh)",
+            "talk about the last time you saw a painting",
+            "why do people like looking at paintings"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Nhóm_người_ở_triển_lãm_1_f1d5137e.jpg",
+          "imageSha256": "485416327c0ecf6ccbe5073210dc4a92c071dbec3905bac6ebf622fd7fde2a17",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 4,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 4,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_005",
+          "partNumber": 2,
+          "title": "Nhóm người đợi tàu",
+          "prompts": [
+            "Describe the picture",
+            "Talk about the last time you traveled somewhere",
+            "Why do some people find travelling stressful?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "talk about the last time you traveled somewhere",
+            "why do some people find travelling stressful"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Nhóm_người_đợi_tàu_1_b085a9b4.jpg",
+          "imageSha256": "8899e68a49b2375fb8c1a493ea74e821e06ab9e031ed323fddb052a39ebbff2b",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 5,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 5,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_006",
+          "partNumber": 2,
+          "title": "Cô gái ngồi làm việc",
+          "prompts": [
+            "Describe the picture",
+            "What is your favourite kind of book?",
+            "Why do people like reading books?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "what is your favourite kind of book",
+            "why do people like reading books"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Cô_gái_ngồi_làm_việc_1_16896a29.jpg",
+          "imageSha256": "cebb57275a5e1152a2ee88b33631f383340fa55fcf625b9987fff250b442665c",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 6,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 6,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_007",
+          "partNumber": 2,
+          "title": "Nhóm người ở phòng làm việc",
+          "prompts": [
+            "Describe this picture ( It is the view of an office, there are a lot of people sitting behind the working desks and computers. Some people are listening to the telephones)",
+            "Have you ever thought of working as an office employee?",
+            "What do you think about people who love their jobs?"
+          ],
+          "normalizedPrompts": [
+            "describe this picture ( it is the view of an office there are a lot of people sitting behind the working desks and computers some people are listening to the telephones)",
+            "have you ever thought of working as an office employee",
+            "what do you think about people who love their jobs"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Nhóm_người_ở_phòng_làm_việc_1_b27dc9e1.jpg",
+          "imageSha256": "042e77c7269bebabd81fbb237318ff8625340b5fc88a8eb96d2d8cb1783421df",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 7,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 7,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_008",
+          "partNumber": 2,
+          "title": "Version 1:",
+          "prompts": [
+            "Describe the picture",
+            "What are the benefits of public transport?",
+            "Traffic jams are becoming more and more prevalent. How to encourage people to use public transport more?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "what are the benefits of public transport",
+            "traffic jams are becoming more and more prevalent how to encourage people to use public transport more"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Version_1_1_c1d5e6e9.jpg",
+          "imageSha256": "1411458f759b2a699b84c682437745edcc6add96e7b9751a282613feed8edb7b",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 8,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 8,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs",
+          "sourceVariants": [
+            {
+              "sourceTestId": "aptis-4skills-03",
+              "sourcePart": 2,
+              "prompts": [
+                "Describe this picture",
+                "What types of public transport are popular in your country?",
+                "How has public transport changed in the past 50 years?"
+              ],
+              "normalizedPrompts": [
+                "describe this picture",
+                "what types of public transport are popular in your country",
+                "how has public transport changed in the past 50 years"
+              ],
+              "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+              "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+              "relationship": "REUSE — source topic matches existing canonical topic"
+            }
+          ]
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_010",
+          "partNumber": 2,
+          "title": "Version 1:",
+          "prompts": [
+            "Describe the picture",
+            "Please talk about the last time you ate with friends",
+            "Why do people like eating out with friends?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "please talk about the last time you ate with friends",
+            "why do people like eating out with friends"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Version_1_1_89343751.jpg",
+          "imageSha256": "057d7ad16fb64dcc50b478e77403035175be1cefbbd8a159b672aa8e3c97fa5a",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 10,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 10,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_011",
+          "partNumber": 2,
+          "title": "Version 2:",
+          "prompts": [
+            "Describe the picture (there are five couples sitting at five different tables in a restaurant. In the middle of the picture, there is a waitress wearing a blue shirt and jeans and holding food in her hand. All 5 couples are eating and chatting at the same time. They look happy. Maybe it is now Valentine's day.)",
+            "Talk about the latest time you ate out",
+            "Is learning how to cook important to young people?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture (there are five couples sitting at five different tables in a restaurant in the middle of the picture there is a waitress wearing a blue shirt and jeans and holding food in her hand all 5 couples are eating and chatting at the same time they look happy maybe it is now valentine's day )",
+            "talk about the latest time you ate out",
+            "is learning how to cook important to young people"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Version_2_1_09f39d47.jpg",
+          "imageSha256": "c38827bcd9107b807ae2c7395512379320357531366446277ae358ecd9c94e93",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 11,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 11,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_013",
+          "partNumber": 2,
+          "title": "hoặc",
+          "prompts": [
+            "Describe the picture",
+            "How do you usually find news?",
+            "Is it important to read the news everyday?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "how do you usually find news",
+            "is it important to read the news everyday"
+          ],
+          "image": "/images/speaking/gdrive/part_2_hoặc_1_e3665568.jpg",
+          "imageSha256": "381fde417043e3c003e68332319a3734c8d8f6b91880ba33706b56484d048ac1",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 13,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 13,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs",
+          "sourceVariants": [
+            {
+              "sourceTestId": "aptis-4skills-07",
+              "sourcePart": 2,
+              "prompts": [
+                "Describe the picture",
+                "How do most people in your country learn about world news?",
+                "How has the reporting of news changed in the last fifty years?"
+              ],
+              "normalizedPrompts": [
+                "describe the picture",
+                "how do most people in your country learn about world news",
+                "how has the reporting of news changed in the last fifty years"
+              ],
+              "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+              "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+              "relationship": "REUSE — source topic matches existing canonical topic"
+            }
+          ]
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_014",
+          "partNumber": 2,
+          "title": "Nhóm người leo núi",
+          "prompts": [
+            "Describe the picture",
+            "Talk about the last time you traveled in a group?",
+            "What are the benefits of travelling in a group?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "talk about the last time you traveled in a group",
+            "what are the benefits of travelling in a group"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Nhóm_người_leo_núi_1_fbab863e.jpg",
+          "imageSha256": "9ac735e7eac44cca766678961d5b12b7f3bedf2abc74e70684b77f77486fa18d",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 14,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 14,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_015",
+          "partNumber": 2,
+          "title": "Cặp đôi đi mua sắm",
+          "prompts": [
+            "Describe the picture",
+            "Tell me about the last time you went shopping",
+            "Why do people enjoy shopping with friends?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "tell me about the last time you went shopping",
+            "why do people enjoy shopping with friends"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Cặp_đôi_đi_mua_sắm_1_d67f13ff.jpg",
+          "imageSha256": "cf14aa400d37519870b9b70a6cf684a5234f6dbc95f7479fb544a2fd2167146f",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 15,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 15,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_016",
+          "partNumber": 2,
+          "title": "Mẹ và con đọc sách",
+          "prompts": [
+            "Describe the picture",
+            "What did you do to easily fall asleep?",
+            "Is it important to sleep early?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "what did you do to easily fall asleep",
+            "is it important to sleep early"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Mẹ_và_con_đọc_sách_1_02da23b2.jpg",
+          "imageSha256": "28bb9e50dd62a46659bfef6c7c1dc2e266d4947fc15a7a2d3e778763d7d45ed4",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 16,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 16,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_017",
+          "partNumber": 2,
+          "title": "Bố và con đá bóng",
+          "prompts": [
+            "Describe the picture / grass",
+            "What do you usually do outdoors?",
+            "Why do people like to do outdoor activities?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture / grass",
+            "what do you usually do outdoors",
+            "why do people like to do outdoor activities"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Bố_và_con_đá_bóng_1_6edd0f99.jpg",
+          "imageSha256": "ad421cb235b1d6968ee9d78c7246c0896d7468f2b23d6432b7912644db559c53",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 17,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 17,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_018",
+          "partNumber": 2,
+          "title": "Lớp học mầm non",
+          "prompts": [
+            "Describe the picture / things",
+            "What did you usually play when you were a kid?",
+            "Does playing games help children with their critical thinking?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture / things",
+            "what did you usually play when you were a kid",
+            "does playing games help children with their critical thinking"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Lớp_học_mầm_non_1_ec565e8b.jpg",
+          "imageSha256": "2870f27f0f4907bb31839b7aecca61bff28b6cd849b56dc614a2b72f6a26fa11",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 18,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 18,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_019",
+          "partNumber": 2,
+          "title": "Gia đình đá bóng",
+          "prompts": [
+            "Describe the picture? Walking ( woáking), relax ( ri lácx) - extended family",
+            "When was the last time you played sports?",
+            "What are the benefits of spending time with your family?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture walking ( woáking) relax ( ri lácx) - extended family",
+            "when was the last time you played sports",
+            "what are the benefits of spending time with your family"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Gia_đình_đá_bóng_1_6cabb81d.jpg",
+          "imageSha256": "e9e37722dd432a616f090867712cc9e5c27bbd6edba12253eb5eb6d4d429d2c6",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 19,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 19,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_020",
+          "partNumber": 2,
+          "title": "Gia đình sofa",
+          "prompts": [
+            "Describe the picture",
+            "What do you use a computer for?",
+            "Do you think technology makes our lives easier?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "what do you use a computer for",
+            "do you think technology makes our lives easier"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Gia_đình_sofa_1_987bde00.jpg",
+          "imageSha256": "2d57c74c86db7899bde2c385b53d938fcd4f093d54d484a661518f1524cf11f8",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 20,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 20,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_021",
+          "partNumber": 2,
+          "title": "Ba cậu bé đá bóng",
+          "prompts": [
+            "Describe the picture",
+            "Talk about the last time you were active",
+            "Why should we play sports?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "talk about the last time you were active",
+            "why should we play sports"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Ba_cậu_bé_đá_bóng_1_cfbc4293.jpg",
+          "imageSha256": "862d6a006b2bfc161c258baf6d2ba3ec2a65f506c90e021feb6e1a9b9b6ca7b8",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 21,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 21,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_022",
+          "partNumber": 2,
+          "title": "Người đàn ông biểu diễn",
+          "prompts": [
+            "Describe the picture ( ngừoi đàn ông biểu diễn và có 5 người đứng xem: một cặp đôi, một người đàn ông trên xe lăn, một chú chó)",
+            "When and where do you listen to music?",
+            "Is it fun to enjoy music performances in public?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture ( ngừoi đàn ông biểu diễn và có 5 người đứng xem một cặp đôi một người đàn ông trên xe lăn một chú chó)",
+            "when and where do you listen to music",
+            "is it fun to enjoy music performances in public"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Người_đàn_ông_biểu_diễn_1_f890c0e0.jpg",
+          "imageSha256": "a2f8fa5fd94d67abff26982f7a57e9850898e1ae32a54be6085c9312540ef73a",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 22,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 22,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_023",
+          "partNumber": 2,
+          "title": "Gia đình ăn sáng",
+          "prompts": [
+            "Describe the picture",
+            "When was the last time I had a meal with your family?",
+            "Why is eating family meals together important?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "when was the last time i had a meal with your family",
+            "why is eating family meals together important"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Gia_đình_ăn_sáng_1_db27f90f.jpg",
+          "imageSha256": "2cd19839ab95ea47e4345c54c3c3f11d5e6fd7816677feb2c3770315988d02b7",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 23,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 23,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_025",
+          "partNumber": 2,
+          "title": "Topic 25",
+          "prompts": [
+            "Describe the picture",
+            "Do you often have breakfast?",
+            "Is breakfast important to us?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "do you often have breakfast",
+            "is breakfast important to us"
+          ],
+          "image": "/images/speaking/gdrive/part_2_topic_25_1_4b92a93a.jpg",
+          "imageSha256": "872e849af4b367f396bd3aae487c6a3c516c6efd49b438596add08f3139eb976",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 25,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 25,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs",
+          "sourceVariants": [
+            {
+              "sourceTestId": "aptis-4skills-01",
+              "sourcePart": 2,
+              "prompts": [
+                "Describe this picture",
+                "Do you often have breakfast?",
+                "Is breakfast important to us?"
+              ],
+              "normalizedPrompts": [
+                "describe this picture",
+                "do you often have breakfast",
+                "is breakfast important to us"
+              ],
+              "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+              "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+              "relationship": "REUSE — source topic matches existing canonical topic"
+            }
+          ]
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_026",
+          "partNumber": 2,
+          "title": "Nhóm phụ nữ shopping",
+          "prompts": [
+            "Describe the picture",
+            "Who do you often go shopping with?",
+            "Why do people like going shopping ?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "who do you often go shopping with",
+            "why do people like going shopping"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Nhóm_phụ_nữ_shopping_1_4897803e.jpg",
+          "imageSha256": "4a444b7a7c4ad72c404d031e2e224a70612bdb853651c40653d835193f1d20eb",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 26,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 26,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_027",
+          "partNumber": 2,
+          "title": "Nam giảng viên áo đỏ",
+          "prompts": [
+            "Describe the picture (Hình ảnh một lớp học, có nhiều người mặc suit xanh navy đang ngồi và hướng mắt lên một cái bảng trắng. Trên bục giảng có một người mặc áo đỏ, tay trái cầm một quyển sách xanh, tay phải cầm một cái bút)",
+            "Tell me about the last time you studied something in class",
+            "What can a teacher do to make the class more interesting?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture (hình ảnh một lớp học có nhiều người mặc suit xanh navy đang ngồi và hướng mắt lên một cái bảng trắng trên bục giảng có một người mặc áo đỏ tay trái cầm một quyển sách xanh tay phải cầm một cái bút)",
+            "tell me about the last time you studied something in class",
+            "what can a teacher do to make the class more interesting"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Nam_giảng_viên_áo_đỏ_1_3d50e052.jpg",
+          "imageSha256": "8157ef9dd88ef9645eaf061a47e6d74d515004cce6b74ba6fc97bb36b4dda707",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 27,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 27,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_028",
+          "partNumber": 2,
+          "title": "Nhóm người xem phim",
+          "prompts": [
+            "Describe this picture",
+            "Tell me about the last time you watched a film",
+            "Why do people like watching films"
+          ],
+          "normalizedPrompts": [
+            "describe this picture",
+            "tell me about the last time you watched a film",
+            "why do people like watching films"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Nhóm_người_xem_phim_1_c1057c3d.jpg",
+          "imageSha256": "841230c19c76491a6cf579464b6d60f4a052b8c925cbb586078f8306a2a73b56",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 28,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 28,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_029",
+          "partNumber": 2,
+          "title": "Cô gái đi siêu thị",
+          "prompts": [
+            "Describe the picture?",
+            "Tell me about the last time you went to a supermarket?",
+            "Why do some people choose to go shopping at the supermarket instead of a market? Why?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "tell me about the last time you went to a supermarket",
+            "why do some people choose to go shopping at the supermarket instead of a market why"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Cô_gái_đi_siêu_thị_1_dc3df60e.jpg",
+          "imageSha256": "d53d22ddd0cf425acdea9e3e282fbdba7a08db9d5e3dff2b096399fc407d8f49",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 29,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 29,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs",
+          "sourceVariants": [
+            {
+              "sourceTestId": "aptis-4skills-05",
+              "sourcePart": 2,
+              "prompts": [
+                "Describe the picture.",
+                "Tell me about a time that you went to a supermarket.",
+                "Do you think that it is better to shop in one big store, or in several smaller stores?"
+              ],
+              "normalizedPrompts": [
+                "describe the picture",
+                "tell me about a time that you went to a supermarket",
+                "do you think that it is better to shop in one big store or in several smaller stores"
+              ],
+              "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+              "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+              "relationship": "REUSE — source topic matches existing canonical topic"
+            }
+          ]
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_030",
+          "partNumber": 2,
+          "title": "Hai người treo tranh",
+          "prompts": [
+            "Describe the picture / the wall",
+            "When was the last time you decorated your house?",
+            "Why do people like to change the look of their home?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture / the wall",
+            "when was the last time you decorated your house",
+            "why do people like to change the look of their home"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Hai_người_treo_tranh_1_9c18687e.jpg",
+          "imageSha256": "51d2fc866232c57c63eb5b03e905bf05a66f2e3e480306ef9f0e0565de975815",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 30,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 30,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_031",
+          "partNumber": 2,
+          "title": "Nhiều người trên đường",
+          "prompts": [
+            "Describe the picture",
+            "Do you often go to crowded places?",
+            "Why don't many people like going to crowded places?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "do you often go to crowded places",
+            "why don't many people like going to crowded places"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Nhiều_người_trên_đường_1_375fc6fd.jpg",
+          "imageSha256": "eb97829865132ca7ff664a1fe18657d24d9d3cd2647b68d3e7f74d3d7736d7ac",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 31,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 31,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_032",
+          "partNumber": 2,
+          "title": "Gia đình chơi game",
+          "prompts": [
+            "Describe the picture",
+            "Tell me about the last time you spent time with your family?",
+            "Computer games are bad. What do you think?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "tell me about the last time you spent time with your family",
+            "computer games are bad what do you think"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Gia_đình_chơi_game_1_d4e59e87.jpg",
+          "imageSha256": "60b37721702885baabfca271b6d4975a3d9709877d8d215308c576083e7a74b9",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 32,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 32,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_033",
+          "partNumber": 2,
+          "title": "Nhóm người trong phòng họp",
+          "prompts": [
+            "Describe the picture",
+            "What do you often organize on special occasions?",
+            "Why do people organize something on special occasions?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "what do you often organize on special occasions",
+            "why do people organize something on special occasions"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Nhóm_người_trong_phòng_họp_1_57f693d0.jpg",
+          "imageSha256": "cee8f6ca20196a59d2057b1ae0c4e6f117ca629ff25ded627a4a8ed41aa60d2b",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 33,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 33,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_034",
+          "partNumber": 2,
+          "title": "Nhóm bạn học",
+          "prompts": [
+            "Describe the picture",
+            "Talk about the last time you learned something?",
+            "Is learning important for people?"
+          ],
+          "normalizedPrompts": [
+            "describe the picture",
+            "talk about the last time you learned something",
+            "is learning important for people"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Nhóm_bạn_học_1_d58ff602.jpg",
+          "imageSha256": "358ed16ab125f419660013764d3494a892c83726e39c3379b7db803a9e252216",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 34,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 34,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p2-aptis-4skills-02",
+          "partNumber": 2,
+          "title": "aptis-4skills-02 source topic",
+          "prompts": [
+            "Describe this picture",
+            "What was the last time you were in a car?",
+            "How can people pass time on a long trip?"
+          ],
+          "normalizedPrompts": [
+            "describe this picture",
+            "what was the last time you were in a car",
+            "how can people pass time on a long trip"
+          ],
+          "image": "/images/speaking/aptis-4skills/t4s02_p2.png",
+          "imageSha256": "fe5b7709850e396b8032711df36b70f80b8f56924e4f92870d820af7fcd3e9b4",
+          "availability": "available",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-02",
+          "sourceOrder": 2,
+          "sourceEvidence": {
+            "type": "source-pdf",
+            "sourceTestId": "aptis-4skills-02",
+            "sourcePart": 2,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-02-public.json",
+            "sourceRelationshipStatus": "VERIFIED"
+          },
+          "selectionPolicy": "added because no matching canonical Google Docs topic was identified"
+        },
+        {
+          "topicId": "spk-bank-p2-aptis-4skills-04",
+          "partNumber": 2,
+          "title": "aptis-4skills-04 source topic",
+          "prompts": [
+            "Describe this picture",
+            "Tell me about a time you visited a museum",
+            "Do you think people should pay to visit museums, or should they be free?"
+          ],
+          "normalizedPrompts": [
+            "describe this picture",
+            "tell me about a time you visited a museum",
+            "do you think people should pay to visit museums or should they be free"
+          ],
+          "image": "/images/speaking/aptis-4skills/t4s04_p2.png",
+          "imageSha256": "8c49a1b658906c3bbb72936e6d67121ab33e0232ce253fcb2e3e3b769439b7e8",
+          "availability": "available",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-04",
+          "sourceOrder": 4,
+          "sourceEvidence": {
+            "type": "source-pdf",
+            "sourceTestId": "aptis-4skills-04",
+            "sourcePart": 2,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-04-public.json",
+            "sourceRelationshipStatus": "VERIFIED"
+          },
+          "selectionPolicy": "added because no matching canonical Google Docs topic was identified"
+        },
+        {
+          "topicId": "spk-bank-p2-aptis-4skills-06",
+          "partNumber": 2,
+          "title": "aptis-4skills-06 source topic",
+          "prompts": [
+            "Describe this picture.",
+            "Tell me about the last time you went to work.",
+            "Why is it important for people to enjoy working?"
+          ],
+          "normalizedPrompts": [
+            "describe this picture",
+            "tell me about the last time you went to work",
+            "why is it important for people to enjoy working"
+          ],
+          "image": "/images/speaking/aptis-4skills/t4s06_p2.jpg",
+          "imageSha256": "50ba533d78160e5091c71dd2c931cece87782d3ebece8d4e4e093fdfb9f56fcc",
+          "availability": "available",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-06",
+          "sourceOrder": 6,
+          "sourceEvidence": {
+            "type": "source-pdf",
+            "sourceTestId": "aptis-4skills-06",
+            "sourcePart": 2,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-06-public.json",
+            "sourceRelationshipStatus": "VERIFIED"
+          },
+          "selectionPolicy": "added because no matching canonical Google Docs topic was identified"
+        }
+      ]
+    },
+    "part3": {
+      "partNumber": 3,
+      "itemCount": 39,
+      "sourceRecordCount": 33,
+      "googleDocsRecordCount": 33,
+      "topics": [
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_035",
+          "partNumber": 3,
+          "title": "Leo núi + Phòng gym",
+          "prompts": [
+            "Compare these two pictures?",
+            "What are the differences between these two ways of doing exercise?",
+            "How important is doing exercise regularly?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "what are the differences between these two ways of doing exercise",
+            "how important is doing exercise regularly"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Leo_núi___Phòng_gym_1_bbb5cf32.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Leo_núi___Phòng_gym_2_bbb5cf32.jpg",
+          "imageASha256": "aac5ca2a0f5721d17e3895e91bc9ed4f3c449002561fb264f3e428d346cc276e",
+          "imageBSha256": "aac5ca2a0f5721d17e3895e91bc9ed4f3c449002561fb264f3e428d346cc276e",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 35,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 35,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_036",
+          "partNumber": 3,
+          "title": "Version 1:",
+          "prompts": [
+            "Compare these pictures",
+            "What are the attractions of these places?",
+            "What can we do to protect the beauty of nature?"
+          ],
+          "normalizedPrompts": [
+            "compare these pictures",
+            "what are the attractions of these places",
+            "what can we do to protect the beauty of nature"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Version_1_1_c493127c.jpg",
+          "imageB": null,
+          "imageASha256": "c677c64dcc88af3cd04508c377762dea84369c9e3e6dee9b7828ede123e0ca3e",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 36,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 36,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_037",
+          "partNumber": 3,
+          "title": "Version 2: people going on their holiday/ on the beach- on the mountain",
+          "prompts": [
+            "Compare these pictures"
+          ],
+          "normalizedPrompts": [
+            "compare these pictures"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Version_2__people_going_on_the_1_2c7afd08.jpg",
+          "imageB": null,
+          "imageASha256": "b4d126e185963855f12a2fb0259a0da6c7a6234d2858f3bdc6933dd24074d91d",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 37,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 37,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_038",
+          "partNumber": 3,
+          "title": "Between these 2 locations, where do you prefer? Why?",
+          "prompts": [
+            "How do you think the weather affects people's emotions?"
+          ],
+          "normalizedPrompts": [
+            "how do you think the weather affects people's emotions"
+          ],
+          "imageA": null,
+          "imageB": null,
+          "imageASha256": null,
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 38,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 38,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.8,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_039",
+          "partNumber": 3,
+          "title": "Rừng thông + Sa mạc",
+          "prompts": [
+            "Compare these pictures? - in the forest/on the desert ( đe zớt) / walk - woác",
+            "How do living conditions affect people?"
+          ],
+          "normalizedPrompts": [
+            "compare these pictures - in the forest/on the desert ( đe zớt) / walk - woác",
+            "how do living conditions affect people"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Rừng_thông___Sa_mạc_1_8ca71f34.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Rừng_thông___Sa_mạc_2_8c1a4f72.jpg",
+          "imageASha256": "55a8c71d2232043486d5b850e34f66f8c44152ac579953d4b749a9f0a4c07050",
+          "imageBSha256": "aa1f0f5d82623af70c1a23f3991f5a8f89575f2aa247a639521a166bd834bbc1",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 39,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 39,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_040",
+          "partNumber": 3,
+          "title": "Nhà mặt đất + Chung cư",
+          "prompts": [
+            "Compare these two pictures / balcony",
+            "What are the differences between living in two places?",
+            "What are the characteristics of a comfortable home?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures / balcony",
+            "what are the differences between living in two places",
+            "what are the characteristics of a comfortable home"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Nhà_mặt_đất___Chung_cư_1_2c76ddcb.jpg",
+          "imageB": null,
+          "imageASha256": "1fee798d5c851012f00ac5b617f9b52232da631020ed433f49ac703142770829",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 40,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 40,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_041",
+          "partNumber": 3,
+          "title": "Công nhân xây cầu + Cô gái ở cánh đồng",
+          "prompts": [
+            "Compare these pictures",
+            "What do you feel when you are at those workplaces?",
+            "The natural beauty needs to be protected from the development of the area. What is your opinion?"
+          ],
+          "normalizedPrompts": [
+            "compare these pictures",
+            "what do you feel when you are at those workplaces",
+            "the natural beauty needs to be protected from the development of the area what is your opinion"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Công_nhân_xây_cầu___Cô_gái_ở_c_1_5a5e0824.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Công_nhân_xây_cầu___Cô_gái_ở_c_2_2d2319a4.jpg",
+          "imageASha256": "9be99f6254b1b8ae2674308811507dc573ae5117a96928449365bc6bdd9b31a2",
+          "imageBSha256": "d98e8558bb6d409bd561018960aa0776daa84de37744e09915cd1579bcb55231",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 41,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 41,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_042",
+          "partNumber": 3,
+          "title": "Chơi game + Chơi cờ",
+          "prompts": [
+            "Compare these two pictures",
+            "Which kind of game do you prefer?",
+            "Is spending time with family important?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "which kind of game do you prefer",
+            "is spending time with family important"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Chơi_game___Chơi_cờ_1_c5ebdc64.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Chơi_game___Chơi_cờ_2_26278430.jpg",
+          "imageASha256": "a5ceaaf2276a4bdc1bfb176543a277b7e0d120a2b48fc18fbd0670423eaad1fa",
+          "imageBSha256": "1f08afe28c02fd5a9616ff251efb077d4e6e53ae3111c9ee44c9ae40bcc10d94",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 42,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 42,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_043",
+          "partNumber": 3,
+          "title": "2 đứa trẻ chơi ipad + 1 đứa trẻ một mình",
+          "prompts": [
+            "Compare these two pictures",
+            "What are the benefits of these 2 ways for children to play?",
+            "Why is it important for children to play together?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "what are the benefits of these 2 ways for children to play",
+            "why is it important for children to play together"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_2_đứa_trẻ_chơi_ipad___1_đứa_tr_1_bf2202a5.jpg",
+          "imageB": null,
+          "imageASha256": "a517bf6652cc05585b27acf48c4676fbbb88595ffff6132a5038b7e47d8d8cd0",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 43,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 43,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_044",
+          "partNumber": 3,
+          "title": "Ngồi ngắm hoàng hôn + Ngồi ngắm thành phố",
+          "prompts": [
+            "Compare these two pictures",
+            "What is the difference between living in these two places?",
+            "What is the character of a nice city?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "what is the difference between living in these two places",
+            "what is the character of a nice city"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Ngồi_ngắm_hoàng_hôn___Ngồi_ngắ_1_960fa836.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Ngồi_ngắm_hoàng_hôn___Ngồi_ngắ_2_7ffca0a2.jpg",
+          "imageASha256": "379d391b041f4c50c2c68744dfb8bdcf30d51cdcec381910a3befd2f71be3e61",
+          "imageBSha256": "81e2e410bfad66e2ee90694e301de10b3ed105846ee9bcaf432621e0425e2325",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 44,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 44,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_045",
+          "partNumber": 3,
+          "title": "Học onl + học off ( Thư viện + Cà phê)",
+          "prompts": [
+            "Compare the 2 pictures.",
+            "What are the difficulties when studying in this place?",
+            "Is there too much noise in our modern life? Do you agree/disagree?",
+            "Compare these two pictures",
+            "What is the difference between these two ways of studying?",
+            "Does technology help people study better?"
+          ],
+          "normalizedPrompts": [
+            "compare the 2 pictures",
+            "what are the difficulties when studying in this place",
+            "is there too much noise in our modern life do you agree/disagree",
+            "compare these two pictures",
+            "what is the difference between these two ways of studying",
+            "does technology help people study better"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Học_onl___học_off___Thư_viện_1_9b0b5dd4.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Học_onl___học_off___Thư_viện_2_91491d62.jpg",
+          "imageASha256": "bd24e996c39709eb24dc33ebcff2a42025715993d2351e5a652d31cdf4b1a232",
+          "imageBSha256": "645cdb90880ece62d0497a60085b765986a2af608680680db4936174f1b608ff",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 45,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 45,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_046",
+          "partNumber": 3,
+          "title": "Nhà cũ + Nhà mới",
+          "prompts": [
+            "Compare these pictures",
+            "Which houses do you prefer to stay in?",
+            "Why do some people like to decorate their houses?"
+          ],
+          "normalizedPrompts": [
+            "compare these pictures",
+            "which houses do you prefer to stay in",
+            "why do some people like to decorate their houses"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Nhà_cũ___Nhà_mới_1_dc0e65ca.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Nhà_cũ___Nhà_mới_2_adf9aaea.jpg",
+          "imageASha256": "36684f07a0dfe425a92245f09ff568246f2e46e4b63869a490e1faa3d047f472",
+          "imageBSha256": "7746bab79fa3ac1af3ca77146c95b233443511f7013dd2f46c59a0fe414fb284",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 46,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 46,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_047",
+          "partNumber": 3,
+          "title": "Chụp ảnh",
+          "prompts": [
+            "Compare these two pictures",
+            "Why do you think these people take pictures ?",
+            "In which situation do you prefer taking a photo? Why ?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "why do you think these people take pictures",
+            "in which situation do you prefer taking a photo why"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Chụp_ảnh_1_97c8bb01.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Chụp_ảnh_2_d832d17e.jpg",
+          "imageASha256": "33cd83935e3789ecbe496ec1b2c3c6090e32643f1c27c0564fa2c11373d97e4d",
+          "imageBSha256": "7e74018f0e4eaaab8d792895148e570993f51e05853b02b3a9af708ddfde0e77",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 47,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 47,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_048",
+          "partNumber": 3,
+          "title": "Ăn vỉa hè + Ăn trong nhà hàng",
+          "prompts": [
+            "Compare these two pictures",
+            "What are the difficulties of eating in these places",
+            "Why do people dislike eating alone?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "what are the difficulties of eating in these places",
+            "why do people dislike eating alone"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Ăn_vỉa_hè___Ăn_trong_nhà_hàng_1_82984f6b.jpg",
+          "imageB": null,
+          "imageASha256": "bec429c20ecac460f4933cf839e6ba861d0389cd499e8418ba78078ea7b32b5b",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 48,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 48,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_049",
+          "partNumber": 3,
+          "title": "Nhóm người ăn trên cỏ + cô gái ăn ở nhà/ ăn ở nhà + ăn pizza",
+          "prompts": [
+            "Compare these two pictures (vegetable, glass)",
+            "Which is your favourite way of eating?",
+            "Eating healthy is a trend nowadays and it makes us healthier and save money. What do you think?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures (vegetable glass)",
+            "which is your favourite way of eating",
+            "eating healthy is a trend nowadays and it makes us healthier and save money what do you think"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Nhóm_người_ăn_trên_cỏ___cô_gái_1_474ec1a9.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Nhóm_người_ăn_trên_cỏ___cô_gái_2_9d45971c.jpg",
+          "imageASha256": "7fba59da2b7726ee10b0eaa913f410423ec842bd45513cd0f6f491717abb2fba",
+          "imageBSha256": "0cb93bef9b82312f162a77d3b0adf069d7f7217ec4727266b9e3412543c9da4c",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 49,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 49,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_050",
+          "partNumber": 3,
+          "title": "Lạc đà + Xe ngựa ( traveling on the desert)",
+          "prompts": [
+            "Compare these two pictures",
+            "What are the attractions of these ways of travelling?",
+            "Some people believe that we should not use these animals for these purposes? Do you agree/ disagree?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "what are the attractions of these ways of travelling",
+            "some people believe that we should not use these animals for these purposes do you agree/ disagree"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Lạc_đà___Xe_ngựa___traveling_o_1_a9c0b49b.jpg",
+          "imageB": null,
+          "imageASha256": "5886419429d21ac40977fe1222c2a048887cc5c9d03527eb8f598884ad210296",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 50,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 50,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_051",
+          "partNumber": 3,
+          "title": "Mèo + Rắn",
+          "prompts": [
+            "Compare these pictures",
+            "How to take care of these animals?",
+            "Some people say we should not keep pets in the house, do you agree?"
+          ],
+          "normalizedPrompts": [
+            "compare these pictures",
+            "how to take care of these animals",
+            "some people say we should not keep pets in the house do you agree"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Mèo___Rắn_1_20febbe0.jpg",
+          "imageB": null,
+          "imageASha256": "0f83e15ae8641b79015b89e6fbbf5cf996aa57868c71e0c323c3417ae987dae9",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 51,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 51,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_052",
+          "partNumber": 3,
+          "title": "Khỉ + Cá heo ( boat)",
+          "prompts": [
+            "Compare these pictures",
+            "Do you prefer monkeys or dolphins?",
+            "; What should we do to protect animals?"
+          ],
+          "normalizedPrompts": [
+            "compare these pictures",
+            "do you prefer monkeys or dolphins",
+            "what should we do to protect animals"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Khỉ___Cá_heo___boat_1_96dacbfc.jpg",
+          "imageB": null,
+          "imageASha256": "4b2aca1438cccf9cc58bcbeb3820afaa3ac23996edd0ee4c444a75ad53934cc5",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 52,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 52,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_053",
+          "partNumber": 3,
+          "title": "Piano + Electric guitar",
+          "prompts": [
+            "Compare these pictures",
+            "Which kind of music would people prefer?",
+            "What do you think of recorded music and live music?"
+          ],
+          "normalizedPrompts": [
+            "compare these pictures",
+            "which kind of music would people prefer",
+            "what do you think of recorded music and live music"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Piano___Electric_guitar_1_f2674463.jpg",
+          "imageB": null,
+          "imageASha256": "00a7fa5ac96f57d2f9f8926ec2276aae206a5a631ac28265225353760490afd5",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 53,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 53,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_054",
+          "partNumber": 3,
+          "title": "Bóng đá + Nhảy xào",
+          "prompts": [
+            "Compare these two pictures ( jumping upon a pole)",
+            "Which sport is more difficult? Why?",
+            "Why do some people prefer one sport to another?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures ( jumping upon a pole)",
+            "which sport is more difficult why",
+            "why do some people prefer one sport to another"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Bóng_đá___Nhảy_xào_1_5c316ef8.jpg",
+          "imageB": null,
+          "imageASha256": "dc43ed2de9b98e30f295b4e3499816cd5339dd8d6b9d1a38df2a54716aaef514",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 54,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 54,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_055",
+          "partNumber": 3,
+          "title": "Thuyết giảng giữa hội trường + Họp nhóm công ty",
+          "prompts": [
+            "Compare these pictures",
+            "What are the differences between these two ways of presentation?",
+            "Does technology help us to communicate more easily?"
+          ],
+          "normalizedPrompts": [
+            "compare these pictures",
+            "what are the differences between these two ways of presentation",
+            "does technology help us to communicate more easily"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Thuyết_giảng_giữa_hội_trường_1_87003044.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Thuyết_giảng_giữa_hội_trường_2_e5f3a7bc.jpg",
+          "imageASha256": "c4c4785f0c71c19a17482a9da84f741e2cf17508810554d67760f052c06eeead",
+          "imageBSha256": "5c118a6887f8b7c5e8b18ebaced05b4d0139e9ed9c42e33a6854d23722fa01a2",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 55,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 55,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_056",
+          "partNumber": 3,
+          "title": "Trồng hoa + trồng quả",
+          "prompts": [
+            "Compare these two pictures  ( pick up the tomatoes/ water the flowers)",
+            "Which one do you prefer: planting flowers or vegetables?",
+            "What are the benefits of growing a garden?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures ( pick up the tomatoes/ water the flowers)",
+            "which one do you prefer planting flowers or vegetables",
+            "what are the benefits of growing a garden"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Trồng_hoa___trồng_quả_1_75b4e381.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Trồng_hoa___trồng_quả_2_28bf7865.jpg",
+          "imageASha256": "919a7024097b29f30754509a5347d7fba8d71abc7af5da677339cac6d50cb91e",
+          "imageBSha256": "175d353a96bcf0c42e40157f61f3dc0fb046727750f9d270d69568ec0cb21a23",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 56,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 56,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_057",
+          "partNumber": 3,
+          "title": "Trẻ em ở lớp + ở ngoài",
+          "prompts": [
+            "Compare these two pictures",
+            "What are the benefits of studying in different places?",
+            "Do you think children should spend less time at school?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "what are the benefits of studying in different places",
+            "do you think children should spend less time at school"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Trẻ_em_ở_lớp___ở_ngoài_1_ba86fb3b.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Trẻ_em_ở_lớp___ở_ngoài_2_e336e082.jpg",
+          "imageASha256": "d1d42d36ebc8803d39202c290fd91f75d2ca28d1db275fb76c3765ed89593605",
+          "imageBSha256": "bec17058784f8aa697c04ec4a5186e210befed9f65f03ec4665cf63e33b0e973",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 57,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 57,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_058",
+          "partNumber": 3,
+          "title": "3 người bảo tàng + cậu bé đu dây",
+          "prompts": [
+            "Compare these two pictures?",
+            "Which activity is more suitable for children?",
+            "What are the benefits of balancing between playing and learning?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "which activity is more suitable for children",
+            "what are the benefits of balancing between playing and learning"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_3_người_bảo_tàng___cậu_bé_đu_d_1_eef57981.jpg",
+          "imageB": null,
+          "imageASha256": "fe76beb1c7f05bf5e7b9741d353f23641431f6f0759ae6b3a419827bb0937a10",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 58,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 58,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_059",
+          "partNumber": 3,
+          "title": "Chụp ảnh + Viết giấy",
+          "prompts": [
+            "Compare these two pictures",
+            "Which way of recording memories do you prefer? Why?",
+            "Why do people like taking photography?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "which way of recording memories do you prefer why",
+            "why do people like taking photography"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Chụp_ảnh___Viết_giấy_1_40c9263a.jpg",
+          "imageB": null,
+          "imageASha256": "1e63f8c41bc938df5e046b6e67debc7a7f0eefb0f1eba80c97649e06a94afc50",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 59,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 59,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_060",
+          "partNumber": 3,
+          "title": "Ô tô + tàu lửa",
+          "prompts": [
+            "Compare these two pictures",
+            "What is the difference between these two ways to travel?",
+            "What is the benefit of traveling by train?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "what is the difference between these two ways to travel",
+            "what is the benefit of traveling by train"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Ô_tô___tàu_lửa_1_4a30b861.jpg",
+          "imageB": null,
+          "imageASha256": "a66c76f38cd6e8091bc107d366fa33887231d1b3f9d90654d697ea8aa0eff576",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 60,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 60,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_061",
+          "partNumber": 3,
+          "title": "Mua sắm",
+          "prompts": [
+            "Compare these two pictures",
+            "What are the differences between these shopping destinations",
+            "Why do you think people like expensive things?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "what are the differences between these shopping destinations",
+            "why do you think people like expensive things"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Mua_sắm_1_9f6b8e9e.jpg",
+          "imageB": null,
+          "imageASha256": "95f67915636a06e976024b6d7bacc8131f1da991ec5a032cbe496a0b94526be2",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 61,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 61,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs",
+          "sourceVariants": [
+            {
+              "sourceTestId": "aptis-4skills-06",
+              "sourcePart": 3,
+              "prompts": [
+                "Describe two pictures.",
+                "What are the differences between buying in the two places?",
+                "Why do you think people like expensive things?"
+              ],
+              "normalizedPrompts": [
+                "describe two pictures",
+                "what are the differences between buying in the two places",
+                "why do you think people like expensive things"
+              ],
+              "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+              "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+              "relationship": "REUSE — source topic matches existing canonical topic"
+            }
+          ]
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_062",
+          "partNumber": 3,
+          "title": "Máy bay + Tàu lửa",
+          "prompts": [
+            "Compare these two pictures",
+            "Why do people prefer to go by plane to by train",
+            "Why does flying make people feel uncomfortable?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "why do people prefer to go by plane to by train",
+            "why does flying make people feel uncomfortable"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Máy_bay___Tàu_lửa_1_4157f02e.jpg",
+          "imageB": null,
+          "imageASha256": "b0f706f6773ad8db4c94d66f69f4b03712fcc1990c3a6d6a8accd5e5c8ed6fa3",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 62,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 62,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_063",
+          "partNumber": 3,
+          "title": "Quán ăn bên đường + bãi biển",
+          "prompts": [
+            "Compare these two pictures?",
+            "What are the benefits of each type of food?",
+            "People say eating together is better than eating alone. What do you think?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "what are the benefits of each type of food",
+            "people say eating together is better than eating alone what do you think"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Quán_ăn_bên_đường___bãi_biển_1_1ee7a99a.jpg",
+          "imageB": null,
+          "imageASha256": "2c7f72168d91cca328856ee3c5b7adf372129cc51f9edfc56b7627a34fcb70d7",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 63,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 63,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_064",
+          "partNumber": 3,
+          "title": "Bóng rổ + tennis",
+          "prompts": [
+            "Compare these two pictures",
+            "Which sport is popular in your country?",
+            "What is the benefit of indoor and outdoor sports ?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "which sport is popular in your country",
+            "what is the benefit of indoor and outdoor sports"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Bóng_rổ___tennis_1_0329310e.jpg",
+          "imageB": null,
+          "imageASha256": "c6663a6dc86b4fe032ddd5864f72b9af43794191ffd7c69c4d7a4204ce67e193",
+          "imageBSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 64,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 64,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_065",
+          "partNumber": 3,
+          "title": "Tình nguyện",
+          "prompts": [
+            "Compare these two pictures",
+            "Which volunteering activities should we join?",
+            "What should we do to volunteer?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "which volunteering activities should we join",
+            "what should we do to volunteer"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Tình_nguyện_1_11d43385.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Tình_nguyện_2_649f65c6.jpg",
+          "imageASha256": "7853f8c6ac2919313b6710ec2b64467fece61140184954fc16d7a005636e0fd9",
+          "imageBSha256": "814a5d5d25054393125da3a378b75d00895636cbd4e94195cbc25e8b4d3eca7b",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 65,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 65,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_066",
+          "partNumber": 3,
+          "title": "Bowling leo núi",
+          "prompts": [
+            "Compare these two picture",
+            "Do you prefer to spend your time indoors or outdoors?",
+            "What is the importance of doing exercises in your free time?"
+          ],
+          "normalizedPrompts": [
+            "compare these two picture",
+            "do you prefer to spend your time indoors or outdoors",
+            "what is the importance of doing exercises in your free time"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Bowling_leo_núi_1_c5c7c85b.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Bowling_leo_núi_2_2aa05162.jpg",
+          "imageASha256": "de54b2931f513b9b8ff69b5a3aea4cd14e06db23d55e4c71a8e8ca787eabb85f",
+          "imageBSha256": "cd11f04a03c9a73697b283fe2e5dee16324855c3b5f6088f5e799ed4d989050f",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 66,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 66,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-gdrive_spk_p3_067",
+          "partNumber": 3,
+          "title": "Đi bộ",
+          "prompts": [
+            "Compare these two pictures",
+            "Which place do you prefer to have a walk? Different way of",
+            "What are the benefits of walking?"
+          ],
+          "normalizedPrompts": [
+            "compare these two pictures",
+            "which place do you prefer to have a walk different way of",
+            "what are the benefits of walking"
+          ],
+          "imageA": "/images/speaking/gdrive/part_3_Đi_bộ_1_d5cbb407.jpg",
+          "imageB": "/images/speaking/gdrive/part_3_Đi_bộ_2_5c574934.jpg",
+          "imageASha256": "c939a5132c1308d7980c63a5346f3ddefeab921fc5dc9404c9cc44901c0c63de",
+          "imageBSha256": "c5e65fb2e0cd0b01ed4b3e040914422a8fea1149e8c4458de15fa1c28e65725b",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 67,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 67,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p3-aptis-4skills-01",
+          "partNumber": 3,
+          "title": "aptis-4skills-01 source topic",
+          "prompts": [
+            "Tell me what you see in the two pictures.",
+            "Between the two locations, where do you prefer? Why?",
+            "How do you think the weather affects people's emotions?"
+          ],
+          "normalizedPrompts": [
+            "tell me what you see in the two pictures",
+            "between the two locations where do you prefer why",
+            "how do you think the weather affects people's emotions"
+          ],
+          "imageA": "/images/speaking/aptis-4skills/t4s01_p3-a.png",
+          "imageB": "/images/speaking/aptis-4skills/t4s01_p3-b.png",
+          "imageASha256": "b770e44e1c7059c456a2c76612d41a4a1898edda2c468a4de4f6082990f1d162",
+          "imageBSha256": "cb078a4d1a65b03065dd3e96cd7847248e370d2c98a816a73c23e85b45933547",
+          "availability": "available",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-01",
+          "sourceOrder": 1,
+          "sourceEvidence": {
+            "type": "source-pdf",
+            "sourceTestId": "aptis-4skills-01",
+            "sourcePart": 3,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-01-public.json",
+            "sourceRelationshipStatus": "VERIFIED"
+          },
+          "selectionPolicy": "added because no matching canonical Google Docs topic was identified"
+        },
+        {
+          "topicId": "spk-bank-p3-aptis-4skills-02",
+          "partNumber": 3,
+          "title": "aptis-4skills-02 source topic",
+          "prompts": [
+            "Describe the two pictures.",
+            "What are the difficulties of both sports?",
+            "Why do some people prefer team sports over individual sports?"
+          ],
+          "normalizedPrompts": [
+            "describe the two pictures",
+            "what are the difficulties of both sports",
+            "why do some people prefer team sports over individual sports"
+          ],
+          "imageA": "/images/speaking/aptis-4skills/t4s02_p3-a.png",
+          "imageB": "/images/speaking/aptis-4skills/t4s02_p3-b.png",
+          "imageASha256": "c8fecd4f9ebb088d041acff131e79d514ad4984ae991ff6aa6b9d654cdd29632",
+          "imageBSha256": "12cdeb39cacb52189fcb1b724b9749b7f2ed6612f45b0f4c2bfad5ccd2cd7a83",
+          "availability": "available",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-02",
+          "sourceOrder": 2,
+          "sourceEvidence": {
+            "type": "source-pdf",
+            "sourceTestId": "aptis-4skills-02",
+            "sourcePart": 3,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-02-public.json",
+            "sourceRelationshipStatus": "VERIFIED"
+          },
+          "selectionPolicy": "added because no matching canonical Google Docs topic was identified"
+        },
+        {
+          "topicId": "spk-bank-p3-aptis-4skills-03",
+          "partNumber": 3,
+          "title": "aptis-4skills-03 source topic",
+          "prompts": [
+            "Tell me what you see in the two pictures",
+            "Do you like going to crowded beaches?",
+            "Why do many people like quiet places?"
+          ],
+          "normalizedPrompts": [
+            "tell me what you see in the two pictures",
+            "do you like going to crowded beaches",
+            "why do many people like quiet places"
+          ],
+          "imageA": "/images/speaking/aptis-4skills/t4s03_p3-a.png",
+          "imageB": "/images/speaking/aptis-4skills/t4s03_p3-b.png",
+          "imageASha256": "2aab1c434cb29cbf23092c82f78367403cc9549ffc3a13c41fe80a43f0cc50b6",
+          "imageBSha256": "198d48ec3b11c5bcabf7998b20659a8f57365e17810d059c089bad53d72a9d40",
+          "availability": "available",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-03",
+          "sourceOrder": 3,
+          "sourceEvidence": {
+            "type": "source-pdf",
+            "sourceTestId": "aptis-4skills-03",
+            "sourcePart": 3,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-03-public.json",
+            "sourceRelationshipStatus": "VERIFIED"
+          },
+          "selectionPolicy": "added because no matching canonical Google Docs topic was identified"
+        },
+        {
+          "topicId": "spk-bank-p3-aptis-4skills-04",
+          "partNumber": 3,
+          "title": "aptis-4skills-04 source topic",
+          "prompts": [
+            "Tell me what you see in the two pictures.",
+            "Which of the 2 places do you like to go? Why?",
+            "Who is suitable for each activity? Why?"
+          ],
+          "normalizedPrompts": [
+            "tell me what you see in the two pictures",
+            "which of the 2 places do you like to go why",
+            "who is suitable for each activity why"
+          ],
+          "imageA": "/images/speaking/aptis-4skills/t4s04_p3-a.png",
+          "imageB": "/images/speaking/aptis-4skills/t4s04_p3-b.png",
+          "imageASha256": "d217f119d1af4b53dbf74a3a6ba55252c22018ec05ae954980936008548a5a72",
+          "imageBSha256": "1731a1b1431632d0461771142d0e372b7ce7981247ba5c7a7f4b7d9669208f5c",
+          "availability": "available",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-04",
+          "sourceOrder": 4,
+          "sourceEvidence": {
+            "type": "source-pdf",
+            "sourceTestId": "aptis-4skills-04",
+            "sourcePart": 3,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-04-public.json",
+            "sourceRelationshipStatus": "VERIFIED"
+          },
+          "selectionPolicy": "added because no matching canonical Google Docs topic was identified"
+        },
+        {
+          "topicId": "spk-bank-p3-aptis-4skills-05",
+          "partNumber": 3,
+          "title": "aptis-4skills-05 source topic",
+          "prompts": [
+            "Compare the two pictures",
+            "Which one do you prefer",
+            "What are the benefits of listening to music?"
+          ],
+          "normalizedPrompts": [
+            "compare the two pictures",
+            "which one do you prefer",
+            "what are the benefits of listening to music"
+          ],
+          "imageA": "/images/speaking/aptis-4skills/t4s05_p3-a.png",
+          "imageB": "/images/speaking/aptis-4skills/t4s05_p3-b.png",
+          "imageASha256": "5a3739e56046590f6f34d7c040c70bca88a65910b75b7c2533bef05a55fbcb1c",
+          "imageBSha256": "511a894e402ef89f851683f8efab0c9f382e9109088b8de12864b674dd464bba",
+          "availability": "available",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-05",
+          "sourceOrder": 5,
+          "sourceEvidence": {
+            "type": "source-pdf",
+            "sourceTestId": "aptis-4skills-05",
+            "sourcePart": 3,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-05-public.json",
+            "sourceRelationshipStatus": "VERIFIED"
+          },
+          "selectionPolicy": "added because no matching canonical Google Docs topic was identified"
+        },
+        {
+          "topicId": "spk-bank-p3-aptis-4skills-07",
+          "partNumber": 3,
+          "title": "aptis-4skills-07 source topic",
+          "prompts": [
+            "Describe two pictures",
+            "What kind of people do these activities?",
+            "Which of these activities requires more talent? Why?"
+          ],
+          "normalizedPrompts": [
+            "describe two pictures",
+            "what kind of people do these activities",
+            "which of these activities requires more talent why"
+          ],
+          "imageA": "/images/speaking/aptis-4skills/t4s07_p3-a.jpg",
+          "imageB": "/images/speaking/aptis-4skills/t4s07_p3-b.jpg",
+          "imageASha256": "8458cc0f5851e142f653cced8ce70c4bb73c7a88b8fd9d8cd4c1c91f2814131b",
+          "imageBSha256": "969a7d2a89dae2f847a118277847b352c73311a6ec01f5044a52daf2b31b7e36",
+          "availability": "available",
+          "source": "APTIS 4-skills source PDF — aptis-4skills-07",
+          "sourceOrder": 7,
+          "sourceEvidence": {
+            "type": "source-pdf",
+            "sourceTestId": "aptis-4skills-07",
+            "sourcePart": 3,
+            "sourceFile": "APTIS\\Bộ đề 4 kĩ năng\\01. Aptis.docx.pdf",
+            "sourceFileSha256": "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84",
+            "sourceArtifact": "data/tests/aptis-4skills-07-public.json",
+            "sourceRelationshipStatus": "VERIFIED"
+          },
+          "selectionPolicy": "added because no matching canonical Google Docs topic was identified"
+        }
+      ],
+      "imagePolicy": "imageA/imageB are emitted only when source assets exist; source-limited records are never filled with placeholders"
+    },
+    "part4": {
+      "partNumber": 4,
+      "itemCount": 29,
+      "sourceRecordCount": 29,
+      "topics": [
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_068",
+          "partNumber": 4,
+          "title": "Version 1:",
+          "prompts": [
+            "Tell me about a time you received important information by mail or phone.",
+            "How do you feel when using electronic devices to communicate?",
+            "A lot of people say that there is too much information available these days. What do you think?"
+          ],
+          "normalizedPrompts": [
+            "tell me about a time you received important information by mail or phone",
+            "how do you feel when using electronic devices to communicate",
+            "a lot of people say that there is too much information available these days what do you think"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 68,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 68,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_069",
+          "partNumber": 4,
+          "title": "Version 2:",
+          "prompts": [
+            "Please tell me about the time you received good news.",
+            "How did you feel when waiting for important news?",
+            "Why do you think people enjoy celebrating good news?"
+          ],
+          "normalizedPrompts": [
+            "please tell me about the time you received good news",
+            "how did you feel when waiting for important news",
+            "why do you think people enjoy celebrating good news"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 69,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 69,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_070",
+          "partNumber": 4,
+          "title": "Version 1:",
+          "prompts": [
+            "Talk about a time when you had to make a choice",
+            "How did you feel when it was hard to make the decision ?",
+            "Can you give some advice for people who have to make a choice?"
+          ],
+          "normalizedPrompts": [
+            "talk about a time when you had to make a choice",
+            "how did you feel when it was hard to make the decision",
+            "can you give some advice for people who have to make a choice"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 70,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 70,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_071",
+          "partNumber": 4,
+          "title": "Version 2:",
+          "prompts": [
+            "Talk about a time when you had difficulty in making decisions?",
+            "How did you feel?",
+            "What do people often do when facing 2 choices?"
+          ],
+          "normalizedPrompts": [
+            "talk about a time when you had difficulty in making decisions",
+            "how did you feel",
+            "what do people often do when facing 2 choices"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 71,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 71,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_072",
+          "partNumber": 4,
+          "title": "Thay đổi công việc",
+          "prompts": [
+            "Tell me about the last time you changed your job or study?",
+            "How did you feel at that time?",
+            "Is change important for our community?"
+          ],
+          "normalizedPrompts": [
+            "tell me about the last time you changed your job or study",
+            "how did you feel at that time",
+            "is change important for our community"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 72,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 72,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_073",
+          "partNumber": 4,
+          "title": "Internet",
+          "prompts": [
+            "When did you start using the internet?",
+            "How did you feel when you used the internet?",
+            "Nowadays, many people are relying on the internet and they use them for helpless purposes. How can people take advantage of the internet?"
+          ],
+          "normalizedPrompts": [
+            "when did you start using the internet",
+            "how did you feel when you used the internet",
+            "nowadays many people are relying on the internet and they use them for helpless purposes how can people take advantage of the internet"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 73,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 73,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_074",
+          "partNumber": 4,
+          "title": "Version 1:",
+          "prompts": [
+            "Tell me about a time when you succeed in doing something that you put a lot of effort into?",
+            "How did you feel?",
+            "Why is it important to make a plan before doing a big task?"
+          ],
+          "normalizedPrompts": [
+            "tell me about a time when you succeed in doing something that you put a lot of effort into",
+            "how did you feel",
+            "why is it important to make a plan before doing a big task"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 74,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 74,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_075",
+          "partNumber": 4,
+          "title": "Version 2:",
+          "prompts": [
+            "Tell me about the last time you achieved something",
+            "How did you feel?",
+            "Do you always think of success instead of failure?"
+          ],
+          "normalizedPrompts": [
+            "tell me about the last time you achieved something",
+            "how did you feel",
+            "do you always think of success instead of failure"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 75,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 75,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_076",
+          "partNumber": 4,
+          "title": "Version 3:",
+          "prompts": [
+            "Tell about a time you face a challenge",
+            "How do you feel before and after the challenge",
+            "How can people benefit from difficult challenges"
+          ],
+          "normalizedPrompts": [
+            "tell about a time you face a challenge",
+            "how do you feel before and after the challenge",
+            "how can people benefit from difficult challenges"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 76,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 76,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_077",
+          "partNumber": 4,
+          "title": "Version 4:",
+          "prompts": [
+            "Talk about a time when you solved a problem",
+            "How do you feel when you cannot find out the solution for a problem?",
+            "Technology creates more disadvantages than things that it can solve. What do you think about this statement? Why?"
+          ],
+          "normalizedPrompts": [
+            "talk about a time when you solved a problem",
+            "how do you feel when you cannot find out the solution for a problem",
+            "technology creates more disadvantages than things that it can solve what do you think about this statement why"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 77,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 77,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_078",
+          "partNumber": 4,
+          "title": "Một lần vội vã",
+          "prompts": [
+            "Tell me about a time you were in a hurry.",
+            "How did you feel then?",
+            "What do you think about modern life being so fast-paced?/ Does technology make people have less time to relax?"
+          ],
+          "normalizedPrompts": [
+            "tell me about a time you were in a hurry",
+            "how did you feel then",
+            "what do you think about modern life being so fast-paced / does technology make people have less time to relax"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 78,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 78,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_079",
+          "partNumber": 4,
+          "title": "Version 1:",
+          "prompts": [
+            "Please talk about a time when you did something that you did not want?",
+            "How did you feel when it ended?",
+            "How do people encourage themselves to do the things that they don’t want to?"
+          ],
+          "normalizedPrompts": [
+            "please talk about a time when you did something that you did not want",
+            "how did you feel when it ended",
+            "how do people encourage themselves to do the things that they don't want to"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 79,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 79,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_080",
+          "partNumber": 4,
+          "title": "Version 2:",
+          "prompts": [
+            "Tell me about a time when you couldn't afford something you wanted.",
+            "How did you feel about that time?",
+            "Material possessions alone can't make people happy. Do you agree or disagree?"
+          ],
+          "normalizedPrompts": [
+            "tell me about a time when you couldn't afford something you wanted",
+            "how did you feel about that time",
+            "material possessions alone can't make people happy do you agree or disagree"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 80,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 80,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_081",
+          "partNumber": 4,
+          "title": "Version 1:",
+          "prompts": [
+            "Tell me about a time you helped someone.",
+            "How did you feel at that moment?",
+            "Why do many people dislike asking for help?"
+          ],
+          "normalizedPrompts": [
+            "tell me about a time you helped someone",
+            "how did you feel at that moment",
+            "why do many people dislike asking for help"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 81,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 81,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_082",
+          "partNumber": 4,
+          "title": "Version 2:",
+          "prompts": [
+            "Talk about a time when you helped someone",
+            "How was your feeling at that time?",
+            "What do you do to encourage people to help others?"
+          ],
+          "normalizedPrompts": [
+            "talk about a time when you helped someone",
+            "how was your feeling at that time",
+            "what do you do to encourage people to help others"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 82,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 82,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_083",
+          "partNumber": 4,
+          "title": "Tác phẩm nghệ thuật",
+          "prompts": [
+            "Talk about the last time you enjoyed a work of art?",
+            "How did you feel?",
+            "Why does watching a work of art increase your creativity?"
+          ],
+          "normalizedPrompts": [
+            "talk about the last time you enjoyed a work of art",
+            "how did you feel",
+            "why does watching a work of art increase your creativity"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 83,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 83,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_084",
+          "partNumber": 4,
+          "title": "Version 1:",
+          "prompts": [
+            "Talk about the latest time you played an extreme game at the amusement park?",
+            "How did you feel?",
+            "Why are some people scared of playing adventure games?"
+          ],
+          "normalizedPrompts": [
+            "talk about the latest time you played an extreme game at the amusement park",
+            "how did you feel",
+            "why are some people scared of playing adventure games"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 84,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 84,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_085",
+          "partNumber": 4,
+          "title": "Version 2:",
+          "prompts": [
+            "Tell me about an extreme sport you've either played or watched.",
+            "How did you feel about it?",
+            "Is it only for adults to participate in?"
+          ],
+          "normalizedPrompts": [
+            "tell me about an extreme sport you've either played or watched",
+            "how did you feel about it",
+            "is it only for adults to participate in"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 85,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 85,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_086",
+          "partNumber": 4,
+          "title": "Version 1:",
+          "prompts": [
+            "Talk about the last time you worked in a team",
+            "How did you feel?",
+            "What is the benefit of teamwork?"
+          ],
+          "normalizedPrompts": [
+            "talk about the last time you worked in a team",
+            "how did you feel",
+            "what is the benefit of teamwork"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 86,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 86,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_087",
+          "partNumber": 4,
+          "title": "Version 2:",
+          "prompts": [
+            "When was the last time you cooperated with others to complete a task?",
+            "How did you feel when working with others?",
+            "What can be done to encourage cooperation between different countries?"
+          ],
+          "normalizedPrompts": [
+            "when was the last time you cooperated with others to complete a task",
+            "how did you feel when working with others",
+            "what can be done to encourage cooperation between different countries"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 87,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 87,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_088",
+          "partNumber": 4,
+          "title": "Version 3:",
+          "prompts": [
+            "Tell me about a time when you were with a younger or older people",
+            "How do you feel to be with that person",
+            "How do people from different generations learn from each other"
+          ],
+          "normalizedPrompts": [
+            "tell me about a time when you were with a younger or older people",
+            "how do you feel to be with that person",
+            "how do people from different generations learn from each other"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 88,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 88,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_089",
+          "partNumber": 4,
+          "title": "Thăm ai đó",
+          "prompts": [
+            "Talk about the last time you visited someone",
+            "How did you feel when you had a surprise guest?",
+            "Do you think now people visit each other less than in the past? Why?"
+          ],
+          "normalizedPrompts": [
+            "talk about the last time you visited someone",
+            "how did you feel when you had a surprise guest",
+            "do you think now people visit each other less than in the past why"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 89,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 89,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_090",
+          "partNumber": 4,
+          "title": "Tặng quà",
+          "prompts": [
+            "talk about the last time you received a gift",
+            "How do you feel when you received a gift from a person that you are not familiar with",
+            "What is your opinion on choosing a gift for someone you don’t know well"
+          ],
+          "normalizedPrompts": [
+            "talk about the last time you received a gift",
+            "how do you feel when you received a gift from a person that you are not familiar with",
+            "what is your opinion on choosing a gift for someone you don't know well"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 90,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 90,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_091",
+          "partNumber": 4,
+          "title": "Cười lớn",
+          "prompts": [
+            "Tell me about the last time you laughed out loud",
+            "What made you laugh?",
+            "What are some other ways that made you laugh?"
+          ],
+          "normalizedPrompts": [
+            "tell me about the last time you laughed out loud",
+            "what made you laugh",
+            "what are some other ways that made you laugh"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 91,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 91,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_092",
+          "partNumber": 4,
+          "title": "Đặt câu hỏi khó",
+          "prompts": [
+            "Talk about one time you asked a hard question",
+            "Is it hard to ask a question? What is your opinion?",
+            "There are too many hard subjects to understand. What do you think?"
+          ],
+          "normalizedPrompts": [
+            "talk about one time you asked a hard question",
+            "is it hard to ask a question what is your opinion",
+            "there are too many hard subjects to understand what do you think"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 92,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 92,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_093",
+          "partNumber": 4,
+          "title": "Tiết kiệm mua gì đó",
+          "prompts": [
+            "Tell me about a time you saved up to buy something",
+            "How did you feel when you bought something nice for yourself?",
+            "People today are spending too much on trivial things? Do you agree/disagree?"
+          ],
+          "normalizedPrompts": [
+            "tell me about a time you saved up to buy something",
+            "how did you feel when you bought something nice for yourself",
+            "people today are spending too much on trivial things do you agree/disagree"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 93,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 93,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_094",
+          "partNumber": 4,
+          "title": "Version 1:",
+          "prompts": [
+            "Describe a time when you had to go away?",
+            "How did you feel?",
+            "Why do people need to respect the culture of the place they visit?"
+          ],
+          "normalizedPrompts": [
+            "describe a time when you had to go away",
+            "how did you feel",
+            "why do people need to respect the culture of the place they visit"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 94,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 94,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_095",
+          "partNumber": 4,
+          "title": "Version 2:",
+          "prompts": [
+            "Talk about the last time you had time to relax",
+            "How did you feel?",
+            "Do you think that people nowadays have less time to relax?"
+          ],
+          "normalizedPrompts": [
+            "talk about the last time you had time to relax",
+            "how did you feel",
+            "do you think that people nowadays have less time to relax"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 95,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 95,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        },
+        {
+          "topicId": "spk-bank-p4-gdrive_spk_p4_096",
+          "partNumber": 4,
+          "title": "Một lần chia sẻ tài sản",
+          "prompts": [
+            "Talk about the last time you shared one of your possessions?",
+            "How did you feel?",
+            "Why should people be encouraged to share their possessions?"
+          ],
+          "normalizedPrompts": [
+            "talk about the last time you shared one of your possessions",
+            "how did you feel",
+            "why should people be encouraged to share their possessions"
+          ],
+          "image": null,
+          "imageSha256": null,
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 96,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 96,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": null
+          },
+          "availability": "source-limited",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+        }
+      ]
+    }
+  },
+  "newTestReuse": {
+    "part2": {
+      "aptis-4skills-01": "spk-bank-p2-gdrive_spk_p2_025",
+      "aptis-4skills-03": "spk-bank-p2-gdrive_spk_p2_008",
+      "aptis-4skills-05": "spk-bank-p2-gdrive_spk_p2_029",
+      "aptis-4skills-07": "spk-bank-p2-gdrive_spk_p2_013"
+    },
+    "part3": {
+      "aptis-4skills-06": "spk-bank-p3-gdrive_spk_p3_061"
+    }
+  },
+  "generatedAt": "2026-08-29"
+}

@@ -48,6 +48,7 @@ import { runSpeakingImageAvailabilityTests } from "./speaking-image-availability
 import { runSpeakingImageMappingTests } from "./speaking-image-mapping.test";
 import { runAptis4SkillsIngestionTests } from "./aptis-4skills-ingestion.test";
 import { runMockSubjectiveGradingTests } from "./mock-subjective-grading.test";
+import { runSpeakingPracticeBankIntegrityTests } from "./speaking-practice-bank-integrity.test";
 
 async function main() {
   console.log("==================================================");
@@ -97,6 +98,7 @@ async function main() {
   const test39Passed = runSpeakingImageAvailabilityTests();
   const aptis4SkillsIngestionPassed = runAptis4SkillsIngestionTests();
   const mockSubjectiveGradingPassed = await runMockSubjectiveGradingTests();
+  const speakingPracticeBankPassed = runSpeakingPracticeBankIntegrityTests();
   await runPhase3AiTeacherRetrievalTests();
   await runFinalAICompletionTests();
 
@@ -132,10 +134,11 @@ async function main() {
     test39Passed &&
     speakingImageMappingPassed &&
     aptis4SkillsIngestionPassed &&
-    mockSubjectiveGradingPassed
+    mockSubjectiveGradingPassed &&
+    speakingPracticeBankPassed
   ) {
     console.log("==================================================");
-    console.log("🎉 ALL MASTER RED-TEAM TEST SUITES PASSED! (43/43)");
+    console.log("🎉 ALL MASTER RED-TEAM TEST SUITES PASSED! (44/44)");
     console.log("==================================================");
     process.exit(0);
   } else {

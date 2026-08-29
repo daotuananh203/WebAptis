@@ -68,6 +68,8 @@ ${k.content.slice(0, 1000)}`
 
   return `TASK CONTEXT:
 - Test ID: ${taskContext.testId}
+- Practice Bank Item ID: ${taskContext.practiceItemId || "legacy-mock-test"}
+- Task ID: ${taskContext.taskId || "unspecified"}
 - Speaking Part: Part ${taskContext.partNumber} (${taskContext.taskType})
 - Official Instructions: ${taskContext.instructions}
 ${taskContext.topic ? `- Topic: ${taskContext.topic}` : ""}

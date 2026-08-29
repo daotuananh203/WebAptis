@@ -39,6 +39,7 @@ export function usePracticeSession(userId?: string) {
   const initSession = useCallback(
     (params: {
       testId: string;
+      practiceItemId?: string;
       mode: "practice" | "mock-test";
       skill: "grammarVocabulary" | "reading" | "listening" | "writing" | "speaking";
       currentPartNumber?: number;

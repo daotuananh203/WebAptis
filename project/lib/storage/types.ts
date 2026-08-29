@@ -24,6 +24,8 @@ export interface PracticeSessionState {
   sessionId: string;
   userId?: string;
   testId: string;
+  /** Canonical Speaking Practice item id (undefined for legacy mock practice). */
+  practiceItemId?: string;
   mode: LearningMode;
   skill: ExamComponentSkill;
   currentPartNumber: number;

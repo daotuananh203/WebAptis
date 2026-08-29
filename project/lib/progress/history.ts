@@ -113,6 +113,7 @@ export function createAttemptFromSpeakingResult(params: {
   return {
     id: `att_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
     testId: params.result.testId,
+    practiceItemId: params.result.practiceItemId,
     mode: params.mode,
     skill: "speaking",
     partIdentifier: `part${params.result.partNumber}`,

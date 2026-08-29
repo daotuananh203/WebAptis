@@ -15,13 +15,15 @@ export default async function PracticePartPage({
   searchParams,
 }: {
   params: Promise<{ skill: string; part: string }>;
-  searchParams?: Promise<{ testId?: string }>;
+  searchParams?: Promise<{ testId?: string; bank?: string; itemId?: string }>;
 }) {
   const { skill, part } = await params;
   const sParams = await searchParams;
   const testId = sParams?.testId || "aptis-b2-01";
+  const practiceBank = skill === "speaking" && sParams?.bank === "canonical";
+  const practiceItemId = practiceBank ? sParams?.itemId : undefined;
   const skillDisplayName = SKILL_NAMES[skill] || skill;
-  const testDisplayName = formatTestDisplayName(testId);
+  const testDisplayName = practiceBank ? "Canonical Speaking Practice Bank" : formatTestDisplayName(testId);
 
   return (
     <AppShell
@@ -31,9 +33,11 @@ export default async function PracticePartPage({
         { label: `${part.toUpperCase()} — ${testDisplayName}` },
       ]}
       headerTitle={`Luyện ${skillDisplayName} — ${part.toUpperCase()}`}
-      headerDescription={`Đang làm bài: ${testDisplayName}. Hoàn thành các câu hỏi và nộp bài để xem điểm số tức thì.`}
+      headerDescription={practiceBank
+        ? `Luyện độc lập từ Practice Bank nguồn. Chọn đúng topic, ghi âm và nộp bài để xem phản hồi AI.`
+        : `Đang làm bài: ${testDisplayName}. Hoàn thành các câu hỏi và nộp bài để xem điểm số tức thì.`}
     >
-      <PracticeShell skill={skill} partIdentifier={part} testId={testId} />
+      <PracticeShell skill={skill} partIdentifier={part} testId={testId} practiceBank={practiceBank} practiceItemId={practiceItemId} />
     </AppShell>
   );
 }

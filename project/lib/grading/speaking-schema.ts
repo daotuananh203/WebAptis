@@ -6,6 +6,8 @@ import { z } from "zod";
 
 export interface SpeakingTaskContext {
   testId: string;
+  /** Canonical Practice Bank item. Mock tests leave this undefined. */
+  practiceItemId?: string;
   partNumber: 1 | 2 | 3 | 4;
   taskType:
     | "personal-information"
@@ -37,6 +39,7 @@ export const AllowedSpeakingMimeTypes = [
 
 export const SpeakingGradingInputSchema = z.object({
   testId: z.string().min(1).max(100).regex(/^[A-Za-z0-9_-]+$/),
+  practiceItemId: z.string().min(1).max(160).regex(/^[A-Za-z0-9_-]+$/).optional(),
   partNumber: z.union([
     z.literal(1),
     z.literal(2),
@@ -112,6 +115,8 @@ export type GeminiSpeakingOutput = z.infer<typeof GeminiSpeakingOutputSchema>;
 
 export interface SpeakingGradingResult {
   testId: string;
+  practiceItemId?: string;
+  taskId?: string;
   partNumber: number;
   taskType: string;
   audioQuality: "sufficient" | "insufficient";

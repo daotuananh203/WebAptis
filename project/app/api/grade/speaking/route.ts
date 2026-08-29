@@ -29,6 +29,7 @@ export async function POST(req: NextRequest) {
 
     const {
       testId,
+      practiceItemId,
       partNumber,
       taskId,
       audioBase64,
@@ -38,7 +39,7 @@ export async function POST(req: NextRequest) {
     } = parseResult.data;
 
     // 2. Resolve task context from public dataset
-    const taskContext = resolveSpeakingTaskContext(testId, partNumber, taskId);
+    const taskContext = resolveSpeakingTaskContext(testId, partNumber, taskId, practiceItemId);
 
     // 3. Execute AI grading with Gemini 3.7 Flash multimodal audio
     const gradingResult = await gradeSpeakingSubmission(taskContext, {
