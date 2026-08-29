@@ -246,6 +246,24 @@ export async function runSpeakingGradingTests() {
       () => parseAndValidateGeminiSpeakingOutput(invalidScore),
       (err: any) => err.code === "INVALID_ANSWER_FORMAT"
     );
+
+    // Missing required examiner fields must fail closed rather than default to
+    // "sufficient" audio, B2, and optimistic criteria.
+    assert.throws(
+      () => parseAndValidateGeminiSpeakingOutput({
+        overallScore: 20,
+        maxOverallScore: 25,
+        estimatedBand: "B2",
+        pronunciationFeedback: [],
+        spokenGrammarErrors: [],
+        vocabularyUpgrades: [],
+        strengths: [],
+        areasForImprovement: [],
+        transcript: "",
+      }),
+      (err: any) => err.code === "INVALID_ANSWER_FORMAT",
+      "incomplete examiner output must not be scored with default criteria",
+    );
   }
 
   // ----------------------------------------------------

@@ -195,6 +195,23 @@ export async function runWritingGradingTests() {
       () => parseAndValidateGeminiWritingOutput("NOT_JSON"),
       (err: any) => err.code === "INVALID_ANSWER_FORMAT"
     );
+
+    // A provider response without criteria must fail closed.  The examiner
+    // must never receive a fabricated score or generic positive feedback.
+    assert.throws(
+      () => parseAndValidateGeminiWritingOutput({
+        overallScore: 18,
+        maxOverallScore: 20,
+        estimatedBand: "B2",
+        grammarErrors: [],
+        vocabularyUpgrades: [],
+        strengths: [],
+        areasForImprovement: [],
+        modelAnswer: "",
+      }),
+      (err: any) => err.code === "INVALID_ANSWER_FORMAT",
+      "incomplete examiner output must not be scored with default criteria",
+    );
   }
 
   // ----------------------------------------------------

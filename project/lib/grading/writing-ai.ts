@@ -251,10 +251,11 @@ export function parseAndValidateGeminiWritingOutput(
 
   if (parsed && typeof parsed === "object") {
     // 1. Estimated Band normalization
-    let band = parsed.estimatedBand || parsed.estimated_band || parsed.cefrLevel || parsed.cefr_level || "B2";
+    let band = parsed.estimatedBand || parsed.estimated_band || parsed.cefrLevel || parsed.cefr_level;
     if (band === "C1" || band === "C2") band = "C";
-    if (!["A0", "A1", "A2", "B1", "B2", "C"].includes(band)) band = "B2";
-    parsed.estimatedBand = band;
+    // Do not invent a band when the provider omits it.  The schema must reject
+    // an incomplete examiner response instead of silently presenting B2.
+    if (band !== undefined) parsed.estimatedBand = band;
 
     // 2. Criteria normalization
     if (!Array.isArray(parsed.criteria)) {
@@ -262,17 +263,12 @@ export function parseAndValidateGeminiWritingOutput(
       if (typeof sourceObj === "object" && Object.keys(sourceObj).length > 0) {
         parsed.criteria = Object.entries(sourceObj).map(([name, val]: [string, any]) => ({
           name,
-          score: typeof val === "number" ? val : val?.score || 4,
-          maxScore: typeof val === "object" && val?.maxScore ? val.maxScore : 5,
-          feedback: typeof val === "object" && val?.feedback ? val.feedback : `Assessment for ${name}`,
+          // Preserve only provider-supplied numeric scores.  A missing score
+          // must fail schema validation instead of becoming an optimistic 4.
+          score: typeof val === "number" ? val : val?.score,
+          maxScore: typeof val === "object" ? val?.maxScore : undefined,
+          feedback: typeof val === "object" ? val?.feedback : undefined,
         }));
-      } else {
-        parsed.criteria = [
-          { name: "Task Achievement", score: 4.5, maxScore: 5, feedback: "Good task achievement" },
-          { name: "Register & Sociolinguistic", score: 4.5, maxScore: 5, feedback: "Appropriate register" },
-          { name: "Grammar & Accuracy", score: 4.0, maxScore: 5, feedback: "Controlled grammar" },
-          { name: "Vocabulary Range", score: 4.0, maxScore: 5, feedback: "B2 level vocabulary" },
-        ];
       }
     }
 
@@ -280,10 +276,10 @@ export function parseAndValidateGeminiWritingOutput(
     if (parsed.overallScore === undefined && parsed.overall_score !== undefined) {
       parsed.overallScore = parsed.overall_score;
     }
-    if (parsed.overallScore === undefined) {
+    if (parsed.overallScore === undefined && Array.isArray(parsed.criteria) && parsed.criteria.length > 0) {
       parsed.overallScore = parsed.criteria.reduce((sum: number, c: any) => sum + (c.score || 0), 0);
     }
-    if (parsed.maxOverallScore === undefined) {
+    if (parsed.maxOverallScore === undefined && Array.isArray(parsed.criteria) && parsed.criteria.length > 0) {
       parsed.maxOverallScore = parsed.criteria.reduce((sum: number, c: any) => sum + (c.maxScore || 5), 0);
     }
 
@@ -310,12 +306,8 @@ export function parseAndValidateGeminiWritingOutput(
       : [];
 
     // 6. Strengths & Areas for Improvement normalization
-    if (!Array.isArray(parsed.strengths)) {
-      parsed.strengths = parsed.feedbackSummary ? [parsed.feedbackSummary] : ["Good overall coherence and structure"];
-    }
-    if (!Array.isArray(parsed.areasForImprovement)) {
-      parsed.areasForImprovement = parsed.feedbackSummary ? ["Continue expanding B2/C1 vocabulary range"] : [];
-    }
+    // Missing feedback is an incomplete examiner response, not permission to
+    // fabricate a positive strength or generic assessment.
 
     // 7. Model Answer & Improvement Plan
     parsed.modelAnswer = parsed.modelAnswer || parsed.model_answer || "";

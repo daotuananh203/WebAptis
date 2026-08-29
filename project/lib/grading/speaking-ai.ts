@@ -346,13 +346,18 @@ export function parseAndValidateGeminiSpeakingOutput(
 
   if (parsed && typeof parsed === "object") {
     // 1. Audio quality
-    parsed.audioQuality = parsed.audioQuality || parsed.audio_quality || "sufficient";
+    const reportedTranscript = typeof parsed.transcript === "string" ? parsed.transcript.trim() : "";
+    const audioQuality = parsed.audioQuality || parsed.audio_quality || (reportedTranscript ? "sufficient" : "insufficient");
+    // A missing quality flag may be inferred only from a provider-supplied
+    // non-empty transcript; otherwise fail closed as insufficient.  Never
+    // default an incomplete response to sufficient audio.
+    parsed.audioQuality = audioQuality;
     if (parsed.audioQualityReason === null) parsed.audioQualityReason = undefined;
 
     // 2. Estimated Band normalization
-    let band = parsed.estimatedBand || parsed.estimated_band || parsed.overallCefrLevel || parsed.cefrLevel || parsed.cefr_level || "B2";
-    if (!["A1", "A2", "B1", "B2", "C1", "C2"].includes(band)) band = "B2";
-    parsed.estimatedBand = band;
+    const band = parsed.estimatedBand || parsed.estimated_band || parsed.overallCefrLevel || parsed.cefrLevel || parsed.cefr_level;
+    // The schema rejects an omitted/invalid band; do not silently present B2.
+    if (band !== undefined) parsed.estimatedBand = band;
 
     // 3. Criteria normalization
     if (!Array.isArray(parsed.criteria)) {
@@ -363,22 +368,17 @@ export function parseAndValidateGeminiSpeakingOutput(
       if (keys.length > 0) {
         parsed.criteria = keys.map((name) => {
           const scoreVal = summaryObj[name];
-          const score = typeof scoreVal === "number" ? scoreVal : typeof scoreVal === "object" && scoreVal?.score ? scoreVal.score : 4;
-          const feedbackText = typeof feedbackObj[name] === "string" ? feedbackObj[name] : typeof scoreVal === "object" && scoreVal?.feedback ? scoreVal.feedback : `Assessment for ${name}`;
+          const score = typeof scoreVal === "number" ? scoreVal : typeof scoreVal === "object" && scoreVal !== null ? scoreVal.score : undefined;
+          const feedbackText = typeof feedbackObj[name] === "string" ? feedbackObj[name] : typeof scoreVal === "object" && scoreVal !== null ? scoreVal.feedback : undefined;
           return {
             name,
-            score: typeof score === "number" ? score : 4,
+            // Preserve only provider-supplied numeric scores.  A missing score
+            // must fail schema validation instead of becoming an optimistic 4.
+            score,
             maxScore: 5 as const,
             feedback: feedbackText,
           };
         });
-      } else {
-        parsed.criteria = [
-          { name: "Task Fulfilment", score: 4.5, maxScore: 5, feedback: "Good task fulfilment" },
-          { name: "Pronunciation", score: 4.0, maxScore: 5, feedback: "Clear pronunciation" },
-          { name: "Fluency & Continuity", score: 4.0, maxScore: 5, feedback: "Good speaking flow" },
-          { name: "Grammar & Accuracy", score: 4.5, maxScore: 5, feedback: "Accurate grammatical forms" },
-        ];
       }
     }
 
@@ -386,10 +386,10 @@ export function parseAndValidateGeminiSpeakingOutput(
     if (parsed.overallScore === undefined && parsed.overall_score !== undefined) {
       parsed.overallScore = parsed.overall_score;
     }
-    if (parsed.overallScore === undefined) {
+    if (parsed.overallScore === undefined && Array.isArray(parsed.criteria) && parsed.criteria.length > 0) {
       parsed.overallScore = parsed.criteria.reduce((sum: number, c: any) => sum + (c.score || 0), 0);
     }
-    if (parsed.maxOverallScore === undefined) {
+    if (parsed.maxOverallScore === undefined && Array.isArray(parsed.criteria) && parsed.criteria.length > 0) {
       parsed.maxOverallScore = parsed.criteria.reduce((sum: number, c: any) => sum + 5, 0);
     }
 
@@ -427,12 +427,8 @@ export function parseAndValidateGeminiSpeakingOutput(
 
     // 8. Transcript & Strengths
     parsed.transcript = parsed.transcript || "";
-    if (!Array.isArray(parsed.strengths)) {
-      parsed.strengths = parsed.feedbackSummary ? [parsed.feedbackSummary] : ["Clear presentation and ideas"];
-    }
-    if (!Array.isArray(parsed.areasForImprovement)) {
-      parsed.areasForImprovement = parsed.feedbackSummary ? ["Practice maintaining continuous fluency"] : [];
-    }
+    // Missing feedback is an incomplete examiner response, not permission to
+    // fabricate a positive strength or generic assessment.
 
     const rawPlan = parsed.improvementPlan || parsed.improvement_plan;
     parsed.improvementPlan = Array.isArray(rawPlan)
