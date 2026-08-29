@@ -226,6 +226,16 @@ export async function runSpeakingGradingTests() {
     assert.equal(parsedInsufficient.audioQuality, "insufficient");
     assert.equal(parsedInsufficient.overallScore, 0);
 
+    const sparseInsufficient = parseAndValidateGeminiSpeakingOutput({
+      audioQuality: "insufficient",
+      audioQualityReason: "No recognizable speech detected",
+      transcript: "",
+    });
+    assert.equal(sparseInsufficient.overallScore, 0);
+    assert.equal(sparseInsufficient.estimatedBand, "A1");
+    assert.equal(sparseInsufficient.criteria[0].score, 0);
+    assert.deepEqual(sparseInsufficient.strengths, []);
+
     const contradictoryInsufficientOutput = {
       ...validMockSpeakingOutput,
       audioQuality: "insufficient",
@@ -251,6 +261,7 @@ export async function runSpeakingGradingTests() {
     // "sufficient" audio, B2, and optimistic criteria.
     assert.throws(
       () => parseAndValidateGeminiSpeakingOutput({
+        audioQuality: "sufficient",
         overallScore: 20,
         maxOverallScore: 25,
         estimatedBand: "B2",
@@ -259,7 +270,7 @@ export async function runSpeakingGradingTests() {
         vocabularyUpgrades: [],
         strengths: [],
         areasForImprovement: [],
-        transcript: "",
+        transcript: "I described the picture clearly.",
       }),
       (err: any) => err.code === "INVALID_ANSWER_FORMAT",
       "incomplete examiner output must not be scored with default criteria",

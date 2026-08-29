@@ -459,6 +459,24 @@ export function parseAndValidateGeminiSpeakingOutput(
     parsed.linkedKnowledge = Array.isArray(parsed.linkedKnowledge || parsed.linked_knowledge)
       ? (parsed.linkedKnowledge || parsed.linked_knowledge)
       : [];
+
+    // Gemini sometimes returns a deliberately sparse no-speech assessment
+    // (quality/reason only, without score fields).  This is safe to complete
+    // deterministically as zero; it is not a language score or invented
+    // transcript.  Other incomplete responses still fail schema validation.
+    if (parsed.audioQuality === "insufficient" &&
+      (!Number.isFinite(parsed.overallScore) || !Number.isFinite(parsed.maxOverallScore) || !Array.isArray(parsed.criteria))) {
+      const reason = parsed.audioQualityReason || "Không nhận diện được lời nói trong bản ghi âm.";
+      parsed.overallScore = 0;
+      parsed.maxOverallScore = 25;
+      parsed.estimatedBand = "A1";
+      parsed.criteria = [
+        { name: "Task Fulfilment", score: 0, maxScore: 5, feedback: "Không thể đánh giá vì bản ghi không có lời nói rõ ràng." },
+      ];
+      parsed.strengths = [];
+      parsed.areasForImprovement = [reason];
+      parsed.transcript = typeof parsed.transcript === "string" ? parsed.transcript : "";
+    }
   }
 
   const result = GeminiSpeakingOutputSchema.safeParse(parsed);
