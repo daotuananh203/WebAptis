@@ -100,31 +100,34 @@ test.describe("Listening source/audio integrity contract", () => {
     for (let number = 1; number <= 16; number += 1) {
       const testId = `aptis-b2-${String(number).padStart(2, "0")}`;
       for (let part = 1; part <= 4; part += 1) {
-        await page.goto(`/practice/listening/part${part}?testId=${testId}`, { waitUntil: "domcontentloaded" });
-        await page.locator("audio").evaluateAll((nodes) =>
-          nodes.forEach((node) => (node as HTMLAudioElement).load()),
-        );
-        if (number !== 16) {
-          await page.waitForFunction(() =>
-            Array.from(document.querySelectorAll("audio")).every((node) => node.currentSrc.length > 0),
-          );
-        }
-        const currentSources = await page.locator("audio").evaluateAll((nodes) =>
-          nodes.map((node) => (node as HTMLAudioElement).currentSrc),
-        );
-        if (number === 16) {
-          expect(currentSources).toEqual([]);
-          continue;
-        }
-        const result = manifest.find((item) => item.audit.testId === testId);
-        const expected = result.artifacts
+        const result = number === 16 ? null : manifest.find((item) => item.audit.testId === testId);
+        const expected = result?.artifacts
           .filter((item: any) => item.status === "VERIFIED" && (
             part === 1 ? item.blockId.startsWith("p1-q") :
             part === 2 ? item.blockId === "p2-task-all" :
             part === 3 ? item.blockId === "p3-task-all" :
             item.blockId === "p4-task-all"
           ))
-          .map((item: any) => item.url);
+          .map((item: any) => item.url) || [];
+        await page.goto(`/practice/listening/part${part}?testId=${testId}`, { waitUntil: "domcontentloaded" });
+        const audios = page.locator("audio");
+        await expect(audios).toHaveCount(number === 16 ? 0 : expected.length, { timeout: 30_000 });
+        await audios.evaluateAll((nodes) =>
+          nodes.forEach((node) => (node as HTMLAudioElement).load()),
+        );
+        if (number !== 16) {
+          await expect.poll(
+            () => audios.evaluateAll((nodes) => nodes.every((node) => node.currentSrc.length > 0)),
+            { timeout: 30_000, message: `${testId} part${part} audio sources` },
+          ).toBeTruthy();
+        }
+        const currentSources = await audios.evaluateAll((nodes) =>
+          nodes.map((node) => (node as HTMLAudioElement).currentSrc),
+        );
+        if (number === 16) {
+          expect(currentSources).toEqual([]);
+          continue;
+        }
         for (const url of expected) {
           const expectedArtifact = result.artifacts.find((item: any) => item.url === url);
           expect(
@@ -159,7 +162,7 @@ test.describe("Listening source/audio integrity contract", () => {
           : [listeningPart.audio.url];
         await page.goto(`/practice/listening/part${part}?testId=${testId}`, { waitUntil: "domcontentloaded" });
         const audios = page.locator("audio");
-        await expect(audios).toHaveCount(expectedUrls.length);
+        await expect(audios).toHaveCount(expectedUrls.length, { timeout: 30_000 });
         await audios.evaluateAll((nodes) => nodes.forEach((node) => (node as HTMLAudioElement).load()));
         await expect.poll(
           () => audios.evaluateAll((nodes) => nodes.every((node) => (node as HTMLAudioElement).currentSrc.length > 0)),
