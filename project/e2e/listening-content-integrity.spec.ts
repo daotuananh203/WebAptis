@@ -110,6 +110,7 @@ test.describe("Listening source/audio integrity contract", () => {
           ))
           .map((item: any) => item.url) || [];
         await page.goto(`/practice/listening/part${part}?testId=${testId}`, { waitUntil: "domcontentloaded" });
+        await expect(page.getByRole("heading", { name: `Luyện Nghe — PART${part}` })).toBeVisible({ timeout: 30_000 });
         const audios = page.locator("audio");
         await expect(audios).toHaveCount(number === 16 ? 0 : expected.length, { timeout: 30_000 });
         await audios.evaluateAll((nodes) =>
@@ -117,7 +118,7 @@ test.describe("Listening source/audio integrity contract", () => {
         );
         if (number !== 16) {
           await expect.poll(
-            () => audios.evaluateAll((nodes) => nodes.every((node) => node.currentSrc.length > 0)),
+            () => audios.evaluateAll((nodes) => nodes.every((node) => (node as HTMLAudioElement).currentSrc.length > 0)),
             { timeout: 30_000, message: `${testId} part${part} audio sources` },
           ).toBeTruthy();
         }
@@ -161,6 +162,7 @@ test.describe("Listening source/audio integrity contract", () => {
           ? listeningPart.tasks.map((task: any) => task.audio.url)
           : [listeningPart.audio.url];
         await page.goto(`/practice/listening/part${part}?testId=${testId}`, { waitUntil: "domcontentloaded" });
+        await expect(page.getByRole("heading", { name: `Luyện Nghe — PART${part}` })).toBeVisible({ timeout: 30_000 });
         const audios = page.locator("audio");
         await expect(audios).toHaveCount(expectedUrls.length, { timeout: 30_000 });
         await audios.evaluateAll((nodes) => nodes.forEach((node) => (node as HTMLAudioElement).load()));
