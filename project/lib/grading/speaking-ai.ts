@@ -549,10 +549,14 @@ export async function gradeSpeakingSubmission(
     ? validatedOutput.criteria.map((criterion) => ({
         ...criterion,
         score: 0,
-        feedback: criterion.feedback || "Không thể đánh giá vì bản ghi không có lời nói rõ ràng.",
+        feedback: "Không thể đánh giá vì bản ghi không có lời nói rõ ràng.",
       }))
     : validatedOutput.criteria;
   const spokenGrammarErrors = isInsufficientAudio ? [] : validatedOutput.spokenGrammarErrors;
+  const strengths = isInsufficientAudio ? [] : validatedOutput.strengths;
+  const areasForImprovement = isInsufficientAudio
+    ? [audioQualityReason || "Không nhận diện được lời nói trong bản ghi âm."]
+    : validatedOutput.areasForImprovement;
   const percentage =
     validatedOutput.maxOverallScore > 0
       ? (overallScore / validatedOutput.maxOverallScore) * 100
@@ -604,8 +608,8 @@ export async function gradeSpeakingSubmission(
     fluencyStatus: isInsufficientAudio ? "not_available" : "available",
     spokenGrammarErrors,
     vocabularyUpgrades: validatedOutput.vocabularyUpgrades,
-    strengths: validatedOutput.strengths,
-    areasForImprovement: validatedOutput.areasForImprovement,
+    strengths,
+    areasForImprovement,
     improvementPlan: validatedOutput.improvementPlan.length > 0
       ? validatedOutput.improvementPlan
       : [

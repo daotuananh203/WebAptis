@@ -349,6 +349,8 @@ export async function runSpeakingGradingTests() {
     assert.equal(result.pronunciationStatus, "not_available");
     assert.equal(result.fluencyStatus, "not_available");
     assert.equal(result.spokenGrammarErrors.length, 0);
+    assert.equal(result.strengths.length, 0);
+    assert.ok(result.areasForImprovement.length > 0);
     assert.equal(result.transcriptStatus, "failed");
 
     const noTranscriptClient: any = {
