@@ -537,7 +537,12 @@ export async function gradeSpeakingSubmission(
   // A provider can return optimistic fallback criteria while simultaneously
   // flagging that the recording contains no recognizable speech. Treat that
   // state as an explicit zero-quality submission, never as a passing score.
-  const isInsufficientAudio = validatedOutput.audioQuality === "insufficient";
+  const hasTranscript = validatedOutput.transcript.trim().length > 0;
+  const isInsufficientAudio = validatedOutput.audioQuality === "insufficient" || !hasTranscript;
+  const audioQuality = isInsufficientAudio ? "insufficient" : validatedOutput.audioQuality;
+  const audioQualityReason = isInsufficientAudio
+    ? validatedOutput.audioQualityReason || "Không nhận diện được lời nói trong bản ghi âm."
+    : validatedOutput.audioQualityReason;
   const overallScore = isInsufficientAudio ? 0 : validatedOutput.overallScore;
   const estimatedBand = isInsufficientAudio ? "A1" : validatedOutput.estimatedBand;
   const criteria = isInsufficientAudio
@@ -586,8 +591,8 @@ export async function gradeSpeakingSubmission(
     testId: taskContext.testId,
     partNumber: taskContext.partNumber,
     taskType: taskContext.taskType,
-    audioQuality: validatedOutput.audioQuality,
-    audioQualityReason: validatedOutput.audioQualityReason,
+    audioQuality,
+    audioQualityReason,
     overallScore,
     maxOverallScore: validatedOutput.maxOverallScore,
     percentage,

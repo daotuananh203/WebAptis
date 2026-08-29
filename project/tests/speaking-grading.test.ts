@@ -350,6 +350,36 @@ export async function runSpeakingGradingTests() {
     assert.equal(result.fluencyStatus, "not_available");
     assert.equal(result.spokenGrammarErrors.length, 0);
     assert.equal(result.transcriptStatus, "failed");
+
+    const noTranscriptClient: any = {
+      models: {
+        generateContent: async () => ({
+          text: JSON.stringify({
+            audioQuality: "sufficient",
+            overallScore: 24,
+            maxOverallScore: 25,
+            estimatedBand: "C1",
+            criteria: [
+              { name: "Task Fulfilment", score: 5, maxScore: 5, feedback: "Optimistic fallback" },
+            ],
+            pronunciationFeedback: [],
+            spokenGrammarErrors: [],
+            vocabularyUpgrades: [],
+            strengths: [],
+            areasForImprovement: [],
+            transcript: "",
+          }),
+        }),
+      },
+    };
+    const noTranscriptResult = await gradeSpeakingSubmission(
+      resolveSpeakingTaskContext("aptis-4skills-01", 3, "t4s01_s3_q1"),
+      { audioBase64: validMockAudioBase64, mimeType: "audio/webm" },
+      noTranscriptClient,
+    );
+    assert.equal(noTranscriptResult.audioQuality, "insufficient");
+    assert.equal(noTranscriptResult.overallScore, 0);
+    assert.equal(noTranscriptResult.transcriptStatus, "failed");
   }
 
   // ----------------------------------------------------
