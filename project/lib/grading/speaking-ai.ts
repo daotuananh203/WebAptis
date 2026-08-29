@@ -585,6 +585,8 @@ export async function gradeSpeakingSubmission(
       }))
     : validatedOutput.criteria;
   const spokenGrammarErrors = isInsufficientAudio ? [] : validatedOutput.spokenGrammarErrors;
+  const pronunciationFeedback = isInsufficientAudio ? [] : validatedOutput.pronunciationFeedback;
+  const vocabularyUpgrades = isInsufficientAudio ? [] : validatedOutput.vocabularyUpgrades;
   const strengths = isInsufficientAudio ? [] : validatedOutput.strengths;
   const areasForImprovement = isInsufficientAudio
     ? [audioQualityReason || "Không nhận diện được lời nói trong bản ghi âm."]
@@ -635,11 +637,11 @@ export async function gradeSpeakingSubmission(
     estimatedBand,
     scoreType: "AI_ESTIMATE",
     criteria,
-    pronunciationFeedback: validatedOutput.pronunciationFeedback,
+    pronunciationFeedback,
     pronunciationStatus: isInsufficientAudio ? "not_available" : "pedagogical_estimate",
     fluencyStatus: isInsufficientAudio ? "not_available" : "available",
     spokenGrammarErrors,
-    vocabularyUpgrades: validatedOutput.vocabularyUpgrades,
+    vocabularyUpgrades,
     strengths,
     areasForImprovement,
     improvementPlan: validatedOutput.improvementPlan.length > 0
