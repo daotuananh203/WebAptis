@@ -355,9 +355,15 @@ export function parseAndValidateGeminiSpeakingOutput(
     if (parsed.audioQualityReason === null) parsed.audioQualityReason = undefined;
 
     // 2. Estimated Band normalization
-    const band = parsed.estimatedBand || parsed.estimated_band || parsed.overallCefrLevel || parsed.cefrLevel || parsed.cefr_level;
+    const rawBand = parsed.estimatedBand || parsed.estimated_band || parsed.overallCefrLevel || parsed.cefrLevel || parsed.cefr_level;
+    const bandMatch = typeof rawBand === "string"
+      ? rawBand.toUpperCase().match(/\b(A1|A2|B1|B2|C1|C2)\b/)
+      : null;
+    const band = bandMatch?.[1];
     // The schema rejects an omitted/invalid band; do not silently present B2.
     if (band !== undefined) parsed.estimatedBand = band;
+    else if (audioQuality === "insufficient" || !reportedTranscript) parsed.estimatedBand = "A1";
+    else if (rawBand !== undefined) parsed.estimatedBand = rawBand;
 
     // 3. Criteria normalization
     if (!Array.isArray(parsed.criteria)) {
@@ -429,6 +435,8 @@ export function parseAndValidateGeminiSpeakingOutput(
     parsed.transcript = parsed.transcript || "";
     // Missing feedback is an incomplete examiner response, not permission to
     // fabricate a positive strength or generic assessment.
+    if (!Array.isArray(parsed.strengths)) parsed.strengths = [];
+    if (!Array.isArray(parsed.areasForImprovement)) parsed.areasForImprovement = [];
 
     const rawPlan = parsed.improvementPlan || parsed.improvement_plan;
     parsed.improvementPlan = Array.isArray(rawPlan)

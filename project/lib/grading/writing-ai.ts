@@ -251,11 +251,15 @@ export function parseAndValidateGeminiWritingOutput(
 
   if (parsed && typeof parsed === "object") {
     // 1. Estimated Band normalization
-    let band = parsed.estimatedBand || parsed.estimated_band || parsed.cefrLevel || parsed.cefr_level;
-    if (band === "C1" || band === "C2") band = "C";
+    const rawBand = parsed.estimatedBand || parsed.estimated_band || parsed.cefrLevel || parsed.cefr_level;
+    const bandMatch = typeof rawBand === "string"
+      ? rawBand.toUpperCase().match(/\b(A0|A1|A2|B1|B2|C1|C2|C)\b/)
+      : null;
+    const band = bandMatch?.[1] === "C1" || bandMatch?.[1] === "C2" ? "C" : bandMatch?.[1];
     // Do not invent a band when the provider omits it.  The schema must reject
     // an incomplete examiner response instead of silently presenting B2.
     if (band !== undefined) parsed.estimatedBand = band;
+    else if (rawBand !== undefined) parsed.estimatedBand = rawBand;
 
     // 2. Criteria normalization
     if (!Array.isArray(parsed.criteria)) {
@@ -308,6 +312,8 @@ export function parseAndValidateGeminiWritingOutput(
     // 6. Strengths & Areas for Improvement normalization
     // Missing feedback is an incomplete examiner response, not permission to
     // fabricate a positive strength or generic assessment.
+    if (!Array.isArray(parsed.strengths)) parsed.strengths = [];
+    if (!Array.isArray(parsed.areasForImprovement)) parsed.areasForImprovement = [];
 
     // 7. Model Answer & Improvement Plan
     parsed.modelAnswer = parsed.modelAnswer || parsed.model_answer || "";
