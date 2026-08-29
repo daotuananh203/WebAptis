@@ -8,6 +8,7 @@ import {
   parseAndValidateCoachOutput,
 } from "../lib/coach/advisor";
 import { AICoachChatInputSchema } from "../lib/coach/types";
+import { AiGradingTimeoutError } from "../lib/grading/ai-timeout";
 import { AICoachContext } from "../lib/recommendations/types";
 import {
   retrieveRelevantKnowledge,
@@ -253,6 +254,22 @@ export async function runCoachChatTests() {
           failingClient
         ),
       (err: any) => err.code === "INVALID_ANSWER_FORMAT"
+    );
+
+    const stalledClient: any = {
+      models: {
+        generateContent: () => new Promise(() => undefined),
+      },
+    };
+    await assert.rejects(
+      () => getCoachAdvice(
+        { userMessage: "Help me study", coachContext: mockContext },
+        stalledClient,
+        undefined,
+        5,
+      ),
+      (err: any) => err instanceof AiGradingTimeoutError && err.code === "AI_TIMEOUT",
+      "AI Coach provider stalls must be bounded and surfaced as a timeout",
     );
   }
 

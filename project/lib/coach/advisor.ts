@@ -21,6 +21,7 @@ import {
   GeminiCoachOutputSchema,
   RetrievedKnowledgeReference,
 } from "./types";
+import { AI_GRADING_TIMEOUT_MS, AiGradingTimeoutError, withAiGradingTimeout } from "../grading/ai-timeout";
 
 /**
  * Safely parse and validate Gemini's JSON output for the AI Coach.
@@ -86,7 +87,8 @@ export function parseAndValidateCoachOutput(rawJson: unknown): GeminiCoachOutput
 export async function getCoachAdvice(
   input: AICoachChatInput,
   customClient?: GoogleGenAI,
-  injectedKnowledge?: KnowledgeItem[]
+  injectedKnowledge?: KnowledgeItem[],
+  timeoutMs = AI_GRADING_TIMEOUT_MS,
 ): Promise<AICoachChatResponse> {
   const client = customClient ?? getGeminiClient();
 
@@ -105,24 +107,25 @@ export async function getCoachAdvice(
 
   for (const modelName of candidateModels) {
     try {
-      const response = await client.models.generateContent({
+      const response = await withAiGradingTimeout(client.models.generateContent({
         model: modelName,
         contents: prompt,
         config: {
           systemInstruction: AI_COACH_SYSTEM_INSTRUCTION,
           responseMimeType: "application/json",
         },
-      });
+      }), timeoutMs);
 
       rawResponseText = response.text ?? "";
       if (rawResponseText) break;
     } catch (error) {
       lastError = error;
-      if (customClient) break;
+      if (customClient || error instanceof AiGradingTimeoutError) break;
     }
   }
 
   if (!rawResponseText) {
+    if (lastError instanceof AiGradingTimeoutError) throw lastError;
     throw createGradingError(
       "INVALID_ANSWER_FORMAT",
       `Gemini AI Coach execution failed: ${lastError instanceof Error ? lastError.message : String(lastError)}`
