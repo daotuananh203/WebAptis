@@ -21,6 +21,36 @@ export function runSpeakingPracticeBankIntegrityTests(): boolean {
     assert.ok(item.source && item.sourceEvidence && item.questionId, `Part 1 provenance missing: ${item.questionId}`);
   }
 
+  // Guard the generator/ingestion pipeline as well as the canonical bank:
+  // every old mock slot must point at a real source question, and the only
+  // repeated slots must be explicitly marked as source-limited reuse.
+  const canonicalQuestionIds = new Set(bank.parts.part1.questions.map((item) => item.questionId));
+  const oldSlots: Array<{ sourceQuestionId: string; intentionalReuse: boolean }> = [];
+  for (let testNumber = 1; testNumber <= 16; testNumber += 1) {
+    const testId = `aptis-b2-${String(testNumber).padStart(2, "0")}`;
+    const dataset = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/tests", `${testId}-public.json`), "utf8"));
+    const part = dataset.speaking.parts.find((item: { partNumber: number }) => item.partNumber === 1);
+    assert.equal(part.questions.length, 3, `${testId} must retain three Part 1 slots`);
+    const withinTestIds = new Set<string>();
+    for (const question of part.questions) {
+      assert.ok(canonicalQuestionIds.has(question.sourceQuestionId), `${testId} points to an unknown canonical source question`);
+      assert.ok(!withinTestIds.has(question.sourceQuestionId), `${testId} repeats a question inside one test`);
+      assert.equal(typeof question.intentionalReuse, "boolean", `${testId} reuse flag is missing`);
+      withinTestIds.add(question.sourceQuestionId);
+      oldSlots.push({ sourceQuestionId: question.sourceQuestionId, intentionalReuse: question.intentionalReuse });
+    }
+  }
+  assert.equal(oldSlots.length, 48, "The 16 old tests must expose 48 Part 1 slots");
+  assert.equal(new Set(oldSlots.map((slot) => slot.sourceQuestionId)).size, 31, "All 31 source questions must be used before reuse");
+  assert.equal(oldSlots.filter((slot) => slot.intentionalReuse).length, 17, "Only the documented 17 source-limited reuse slots are allowed");
+  const slotCounts = new Map<string, number>();
+  for (const slot of oldSlots) slotCounts.set(slot.sourceQuestionId, (slotCounts.get(slot.sourceQuestionId) || 0) + 1);
+  for (const slot of oldSlots) {
+    if ((slotCounts.get(slot.sourceQuestionId) || 0) > 1) {
+      assert.ok(slot.intentionalReuse || (slotCounts.get(slot.sourceQuestionId) || 0) === 1 + oldSlots.filter((candidate) => candidate.sourceQuestionId === slot.sourceQuestionId && candidate.intentionalReuse).length, "Repeated source questions must carry explicit reuse provenance");
+    }
+  }
+
   assert.ok(bank.parts.part2.topics.length >= 30, "Part 2 source bank must contain at least 30 topics");
   assert.ok(bank.parts.part3.topics.length >= 32, "Part 3 source bank must contain at least 32 topics");
   assert.equal(bank.parts.part4.topics.length, 29, "Part 4 must retain all 29 source records");
