@@ -9,6 +9,7 @@ import {
 } from "../lib/grading/writing-ai";
 import { buildWritingGradingPrompt, WRITING_EXAMINER_SYSTEM_INSTRUCTION } from "../lib/grading/prompts/writing";
 import { WritingTaskContext } from "../lib/grading/writing-schema";
+import { withAiGradingTimeout } from "../lib/grading/ai-timeout";
 
 export async function runWritingGradingTests() {
   console.log("▶ [TEST 4] Running AI Writing Grading Engine Unit Tests...");
@@ -94,6 +95,11 @@ export async function runWritingGradingTests() {
       applyWordCountScoreGuard(17, 20, 100, "over_maximum", guidance),
       10,
       "substantially over-length responses are transparently capped",
+    );
+    await assert.rejects(
+      withAiGradingTimeout(new Promise((resolve) => setTimeout(resolve, 50)), 5),
+      (err: any) => err.code === "AI_TIMEOUT",
+      "provider stalls must be surfaced as a bounded AI timeout",
     );
   }
 

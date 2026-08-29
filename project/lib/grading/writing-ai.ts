@@ -23,6 +23,7 @@ import {
 import { AptisPublicTestDataset } from "../exam/types";
 import { retrieveRelevantKnowledge } from "../knowledge/retriever";
 import { recordUserError } from "../memory/store";
+import { AiGradingTimeoutError, withAiGradingTimeout } from "./ai-timeout";
 
 export function resolveWritingTaskContext(
   testId: string,
@@ -370,20 +371,20 @@ export async function gradeWritingSubmission(
 
   for (const modelName of candidateModels) {
     try {
-      const response = await client.models.generateContent({
+      const response = await withAiGradingTimeout(client.models.generateContent({
         model: modelName,
         contents: prompt,
         config: {
           systemInstruction: WRITING_EXAMINER_SYSTEM_INSTRUCTION,
           responseMimeType: "application/json",
         },
-      });
+      }));
 
       rawResponseText = response.text ?? "";
       if (rawResponseText) break;
     } catch (error) {
       lastError = error;
-      if (customClient) break;
+      if (customClient || error instanceof AiGradingTimeoutError) break;
     }
   }
 
