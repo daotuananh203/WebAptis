@@ -164,6 +164,20 @@ export async function runWritingGradingTests() {
     assert.equal(parsed.overallScore, 16);
     assert.equal(parsed.estimatedBand, "B2");
 
+    const objectPlan = parseAndValidateGeminiWritingOutput({
+      ...validMockOutput,
+      improvementPlan: [
+        { step: "Review formal email openings" },
+        { recommendation: "Practise linking words" },
+        { text: "Keep a timed writing log" },
+      ],
+    });
+    assert.deepEqual(objectPlan.improvementPlan, [
+      "Review formal email openings",
+      "Practise linking words",
+      "Keep a timed writing log",
+    ], "Gemini object-shaped improvement plans must remain client-safe strings");
+
     // Invalid score bounds (>5 for criterion)
     const invalidCriterionScore = {
       ...validMockOutput,

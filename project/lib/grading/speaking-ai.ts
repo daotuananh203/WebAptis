@@ -434,8 +434,23 @@ export function parseAndValidateGeminiSpeakingOutput(
       parsed.areasForImprovement = parsed.feedbackSummary ? ["Practice maintaining continuous fluency"] : [];
     }
 
-    parsed.improvementPlan = Array.isArray(parsed.improvementPlan || parsed.improvement_plan)
-      ? (parsed.improvementPlan || parsed.improvement_plan)
+    const rawPlan = parsed.improvementPlan || parsed.improvement_plan;
+    parsed.improvementPlan = Array.isArray(rawPlan)
+      ? rawPlan
+          .map((item: unknown) => {
+            if (typeof item === "string") return item;
+            if (item && typeof item === "object") {
+              const candidate = (item as Record<string, unknown>).step
+                ?? (item as Record<string, unknown>).action
+                ?? (item as Record<string, unknown>).recommendation
+                ?? (item as Record<string, unknown>).text
+                ?? (item as Record<string, unknown>).description;
+              if (typeof candidate === "string") return candidate;
+              try { return JSON.stringify(item); } catch { return ""; }
+            }
+            return item == null ? "" : String(item);
+          })
+          .filter((item: string) => item.trim().length > 0)
       : [];
     parsed.linkedKnowledge = Array.isArray(parsed.linkedKnowledge || parsed.linked_knowledge)
       ? (parsed.linkedKnowledge || parsed.linked_knowledge)

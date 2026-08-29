@@ -198,6 +198,12 @@ export async function runSpeakingGradingTests() {
     assert.equal(parsed.overallScore, 21);
     assert.equal(parsed.estimatedBand, "B2");
 
+    const objectPlan = parseAndValidateGeminiSpeakingOutput({
+      ...validMockSpeakingOutput,
+      improvementPlan: [{ step: "Shadow a fluent speaker" }],
+    });
+    assert.deepEqual(objectPlan.improvementPlan, ["Shadow a fluent speaker"]);
+
     // Test Insufficient Audio State
     const insufficientAudioOutput = {
       audioQuality: "insufficient",
