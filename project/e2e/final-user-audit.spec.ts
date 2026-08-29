@@ -34,41 +34,45 @@ test.use({ baseURL: baseUrl });
 test.describe("Final browser learner audit", () => {
   test("a learner can enter every one of 23 tests and render every core skill", async ({ page, context }) => {
     test.setTimeout(300_000);
+    // Vercel serverless functions can cold-start while the learner shell is
+    // already visible.  Keep the content assertions strict, but allow the
+    // page a realistic readiness window before declaring a broken flow.
+    const readinessTimeout = 30_000;
     await registerAndAuthenticate(page, context, "catalog");
 
     await page.goto("/mock-test", { waitUntil: "domcontentloaded" });
-    await expect(page.getByRole("button", { name: "Bắt đầu thi thử" })).toHaveCount(23);
+    await expect(page.getByRole("button", { name: "Bắt đầu thi thử" })).toHaveCount(23, { timeout: readinessTimeout });
 
     for (const testId of testIds) {
       await page.goto(`/mock-test/session/${testId}`, { waitUntil: "domcontentloaded" });
-      await expect(page.getByText("Grammar & Vocabulary").first(), `${testId} mock entry`).toBeVisible();
+      await expect(page.getByText("Grammar & Vocabulary").first(), `${testId} mock entry`).toBeVisible({ timeout: readinessTimeout });
 
       await page.goto(`/practice/grammarVocabulary/part1?testId=${testId}`, { waitUntil: "domcontentloaded" });
-      await expect(page.locator("button").first(), `${testId} grammar UI`).toBeVisible();
+      await expect(page.locator("button").first(), `${testId} grammar UI`).toBeVisible({ timeout: readinessTimeout });
 
       await page.goto(`/practice/reading/part1?testId=${testId}`, { waitUntil: "domcontentloaded" });
-      await expect(page.locator("button").first(), `${testId} reading UI`).toBeVisible();
+      await expect(page.locator("button").first(), `${testId} reading UI`).toBeVisible({ timeout: readinessTimeout });
 
       await page.goto(`/practice/listening/part1?testId=${testId}`, { waitUntil: "domcontentloaded" });
       const audios = page.locator("audio");
       const verifiedAudioCount = verifiedListeningPart1Count(testId);
-      await expect(audios, `${testId} Listening Part 1 verified audio controls`).toHaveCount(verifiedAudioCount);
+      await expect(audios, `${testId} Listening Part 1 verified audio controls`).toHaveCount(verifiedAudioCount, { timeout: readinessTimeout });
       if (verifiedAudioCount === 0) {
-        await expect(page.getByText("Thông báo: Chưa có audio bản nghe cho đề thi này")).toBeVisible();
+        await expect(page.getByText("Thông báo: Chưa có audio bản nghe cho đề thi này")).toBeVisible({ timeout: readinessTimeout });
       } else if (verifiedAudioCount < 13) {
-        await expect(page.getByText("Audio nguồn của câu này chưa chứng minh đủ nội dung nên tạm thời không phát.")).toHaveCount(13 - verifiedAudioCount);
+        await expect(page.getByText("Audio nguồn của câu này chưa chứng minh đủ nội dung nên tạm thời không phát.")).toHaveCount(13 - verifiedAudioCount, { timeout: readinessTimeout });
       }
       await audios.evaluateAll((nodes) => nodes.forEach((node) => (node as HTMLAudioElement).load()));
       await expect.poll(
         () => audios.evaluateAll((nodes) => nodes.every((node) => (node as HTMLAudioElement).currentSrc.length > 0)),
-        { timeout: 15_000, message: `${testId} Listening Part 1 browser sources` },
+        { timeout: readinessTimeout, message: `${testId} Listening Part 1 browser sources` },
       ).toBeTruthy();
 
       await page.goto(`/practice/writing/part1?testId=${testId}`, { waitUntil: "domcontentloaded" });
-      await expect(page.locator("input[type=text]").first(), `${testId} Writing Part 1 input`).toBeVisible();
+      await expect(page.locator("input[type=text]").first(), `${testId} Writing Part 1 input`).toBeVisible({ timeout: readinessTimeout });
 
       await page.goto(`/practice/speaking/part1?testId=${testId}`, { waitUntil: "domcontentloaded" });
-      await expect(page.getByText("Ghi âm câu trả lời trực tiếp"), `${testId} Speaking recorder`).toBeVisible();
+      await expect(page.getByText("Ghi âm câu trả lời trực tiếp"), `${testId} Speaking recorder`).toBeVisible({ timeout: readinessTimeout });
     }
   });
 
