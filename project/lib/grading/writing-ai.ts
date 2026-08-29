@@ -180,6 +180,38 @@ export function evaluateWordCountStatus(
   return "within_range";
 }
 
+/**
+ * Keep the examiner from awarding a high task score to a response that does
+ * not meet the published length contract.  Gemini remains responsible for
+ * language quality; this deterministic boundary only caps the final score by
+ * the proportion of the requested response that was actually supplied.
+ */
+export function applyWordCountScoreGuard(
+  score: number,
+  maxScore: number,
+  wordCount: number,
+  status: ReturnType<typeof evaluateWordCountStatus>,
+  guidance: WritingTaskContext["wordGuidance"],
+): number {
+  if (maxScore <= 0 || status === "within_range") return Math.max(0, Math.min(score, maxScore));
+
+  const boundary = status === "under_minimum" ? guidance.minWords : guidance.maxWords;
+  if (!boundary || boundary <= 0) return Math.max(0, Math.min(score, maxScore));
+
+  const ratio = status === "under_minimum" ? wordCount / boundary : boundary / Math.max(wordCount, 1);
+  const cap = Math.floor(maxScore * Math.max(0, Math.min(1, ratio)));
+  return Math.max(0, Math.min(score, cap));
+}
+
+function bandForGuardedPercentage(percentage: number): WritingGradingResult["estimatedBand"] {
+  if (percentage >= 85) return "C";
+  if (percentage >= 70) return "B2";
+  if (percentage >= 50) return "B1";
+  if (percentage >= 30) return "A2";
+  if (percentage >= 15) return "A1";
+  return "A0";
+}
+
 export function parseAndValidateGeminiWritingOutput(
   rawJson: unknown
 ): GeminiWritingOutput {
@@ -363,10 +395,28 @@ export async function gradeWritingSubmission(
   }
 
   const validatedOutput = parseAndValidateGeminiWritingOutput(rawResponseText);
+  const guardedScore = applyWordCountScoreGuard(
+    validatedOutput.overallScore,
+    validatedOutput.maxOverallScore,
+    serverWordCount,
+    wordCountStatus,
+    taskContext.wordGuidance,
+  );
   const percentage =
     validatedOutput.maxOverallScore > 0
-      ? (validatedOutput.overallScore / validatedOutput.maxOverallScore) * 100
+      ? (guardedScore / validatedOutput.maxOverallScore) * 100
       : 0;
+  const guardedBand = wordCountStatus === "within_range"
+    ? validatedOutput.estimatedBand
+    : bandForGuardedPercentage(percentage);
+  const lengthFeedback = wordCountStatus === "under_minimum"
+    ? `Bài viết có ${serverWordCount} từ, dưới mức tối thiểu ${taskContext.wordGuidance.minWords} từ; điểm tổng đã được giới hạn theo độ dài.`
+    : wordCountStatus === "over_maximum"
+    ? `Bài viết có ${serverWordCount} từ, vượt mức tối đa ${taskContext.wordGuidance.maxWords} từ; điểm tổng đã được giới hạn theo độ dài.`
+    : null;
+  const areasForImprovement = lengthFeedback && !validatedOutput.areasForImprovement.some((item) => item.includes("độ dài") || item.includes("word"))
+    ? [...validatedOutput.areasForImprovement, lengthFeedback]
+    : validatedOutput.areasForImprovement;
 
   // 2. Automatically record detected errors into persistent User Learning Memory
   if (userId && validatedOutput.grammarErrors.length > 0) {
@@ -396,16 +446,16 @@ export async function gradeWritingSubmission(
     taskType: taskContext.taskType,
     wordCount: serverWordCount,
     wordCountStatus,
-    overallScore: validatedOutput.overallScore,
+    overallScore: guardedScore,
     maxOverallScore: validatedOutput.maxOverallScore,
     percentage,
-    estimatedBand: validatedOutput.estimatedBand,
+    estimatedBand: guardedBand,
     scoreType: "AI_ESTIMATE",
     criteria: validatedOutput.criteria,
     grammarErrors: validatedOutput.grammarErrors,
     vocabularyUpgrades: validatedOutput.vocabularyUpgrades,
     strengths: validatedOutput.strengths,
-    areasForImprovement: validatedOutput.areasForImprovement,
+    areasForImprovement,
     modelAnswer: validatedOutput.modelAnswer,
     correctedVersion: validatedOutput.correctedVersion,
     improvementPlan: validatedOutput.improvementPlan.length > 0

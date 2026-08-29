@@ -117,7 +117,7 @@ export async function runFinalAICompletionTests() {
 
   const writingResult = await gradeWritingSubmission(
     p4Context,
-    "Dear Sir, I am write to complain about fee. It is a big problem. Yours faithfully, Alex",
+    "Dear Sir, I am writing to complain about the recent fee increase and to suggest a fair solution for all members. The photography club has provided valuable activities, but the new charge creates a considerable concern for students and other members with limited budgets. I recommend reviewing the current costs, offering a reduced student rate, and publishing a clear explanation of the expenditure. These measures would help the club remain inclusive while maintaining its high standard of service. I would also welcome a short meeting so members can discuss the proposal and share practical alternatives. Please let me know whether the committee can consider these suggestions at its next meeting. This should also support long-term membership growth. Thank you for your attention. Yours faithfully, Alex",
     mockWritingClient,
     testUserId
   );

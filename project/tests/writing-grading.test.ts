@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { countWords } from "../lib/grading/word-counter";
 import {
   evaluateWordCountStatus,
+  applyWordCountScoreGuard,
   parseAndValidateGeminiWritingOutput,
   resolveWritingTaskContext,
   gradeWritingSubmission,
@@ -79,6 +80,21 @@ export async function runWritingGradingTests() {
     assert.equal(evaluateWordCountStatus(35, guidance), "under_minimum");
     assert.equal(evaluateWordCountStatus(45, guidance), "within_range");
     assert.equal(evaluateWordCountStatus(55, guidance), "over_maximum");
+    assert.equal(
+      applyWordCountScoreGuard(17, 20, 20, "under_minimum", guidance),
+      10,
+      "under-length responses must not retain a full language-quality score",
+    );
+    assert.equal(
+      applyWordCountScoreGuard(17, 20, 45, "within_range", guidance),
+      17,
+      "in-range responses retain the examiner score",
+    );
+    assert.equal(
+      applyWordCountScoreGuard(17, 20, 100, "over_maximum", guidance),
+      10,
+      "substantially over-length responses are transparently capped",
+    );
   }
 
   // ----------------------------------------------------
@@ -191,7 +207,7 @@ export async function runWritingGradingTests() {
     const taskCtx = resolveWritingTaskContext("aptis-b2-01", 4, "w4_task_b");
     const result = await gradeWritingSubmission(
       taskCtx,
-      "Dear Ms. Vance, I am writing to express my appreciation for our photography club. I would like to propose several alternative venues...",
+      "Dear Ms. Vance, I am writing to express my appreciation for our photography club and to share several practical suggestions for the next exhibition. I recommend choosing a central community gallery because it is accessible by public transport, has suitable lighting, and can accommodate more visitors. We could also promote the event through local schools, social media, and the club newsletter. In addition, inviting a professional photographer to give a short presentation would encourage members to attend and learn new techniques. I believe these changes would make the exhibition more attractive while keeping costs manageable. Please let me know whether the committee would like me to contact the gallery and prepare a detailed schedule. I look forward to hearing your opinion. Yours sincerely, Alex",
       mockAiClient
     );
 
