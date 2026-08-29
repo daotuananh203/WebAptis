@@ -34,12 +34,17 @@ export async function GET() {
   const hasAudioAssets = fs.existsSync(audioDir) && fs.readdirSync(audioDir).filter(f => f.endsWith(".mp3")).length >= 15;
 
   const isHealthy = (isCompiledVaultReady || isLiveVaultReady) && hasAudioAssets && dbStatus !== "connection_failed";
+  // Vercel exposes this immutable build identifier to server functions.  Keep
+  // it in health output so a production audit can prove which Git commit is
+  // serving traffic instead of inferring it from deployment timing.
+  const buildCommit = process.env.VERCEL_GIT_COMMIT_SHA || process.env.GIT_COMMIT_SHA || null;
 
   const healthData = {
     status: isHealthy ? "healthy" : "degraded",
     timestamp,
     uptimeSeconds,
     version: "1.0.0",
+    buildCommit,
     checks: {
       aiProvider: isAiConfigured ? "configured" : "unconfigured",
       database: dbStatus,
