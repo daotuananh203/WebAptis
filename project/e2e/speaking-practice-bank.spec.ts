@@ -47,4 +47,28 @@ test.describe("canonical Speaking Practice Bank", () => {
     await expect(page.getByText("Ảnh 1: Image A", { exact: true })).toBeVisible();
     await expect(page.getByText("Ảnh 2: Image B", { exact: true })).toBeVisible();
   });
+
+  test("keeps Part 1–4 browser context isolated", async ({ page }) => {
+    await page.goto("/practice/speaking/part1?bank=canonical&itemId=aptis-spk-p1-001", { waitUntil: "networkidle" });
+    await expect(page.getByText(/Tell me about yourself\./).first()).toBeVisible();
+
+    await page.goto("/practice/speaking/part2?bank=canonical&itemId=spk-bank-p2-gdrive_spk_p2_002", { waitUntil: "networkidle" });
+    await expect(page.locator("img")).toHaveCount(1);
+    await expect(page.getByText(/Describe the picture/i).first()).toBeVisible();
+    const part2Image = page.locator("img").first();
+    await part2Image.scrollIntoViewIfNeeded();
+    await expect.poll(() => part2Image.evaluate((element) => (element as HTMLImageElement).naturalWidth), { timeout: 10000 }).toBeGreaterThan(0);
+
+    await page.goto("/practice/speaking/part3?bank=canonical&itemId=spk-bank-p3-gdrive_spk_p3_035", { waitUntil: "networkidle" });
+    await expect(page.locator("img")).toHaveCount(2);
+    await expect(page.getByText(/Compare these two pictures/i).first()).toBeVisible();
+    for (const image of await page.locator("img").all()) {
+      await image.scrollIntoViewIfNeeded();
+      await expect.poll(() => image.evaluate((element) => (element as HTMLImageElement).naturalWidth), { timeout: 10000 }).toBeGreaterThan(0);
+    }
+
+    await page.goto("/practice/speaking/part4?bank=canonical&itemId=spk-bank-p4-gdrive_spk_p4_068", { waitUntil: "networkidle" });
+    await expect(page.getByText(/Chủ đề:/).first()).toBeVisible();
+    await expect(page.getByText(/Nội dung câu hỏi:/).first()).toBeVisible();
+  });
 });
