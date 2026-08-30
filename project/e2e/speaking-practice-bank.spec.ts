@@ -1,5 +1,7 @@
 import { test, expect } from "@playwright/test";
 
+const baseUrl = process.env.SPEAKING_AUDIT_BASE_URL ?? "http://localhost:3128";
+
 test.describe("canonical Speaking Practice Bank", () => {
   test.beforeEach(async ({ page }) => {
     const suffix = `${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
@@ -26,6 +28,46 @@ test.describe("canonical Speaking Practice Bank", () => {
     await expect(page.getByText(/Tell me about yourself\./).first()).toBeVisible();
     await expect(page.getByText(/Speaking Practice Bank/).first()).toBeVisible();
     await expect(page.getByText(/Test 01/)).toHaveCount(0);
+  });
+
+  test("exposes every canonical source item and every usable image asset", async ({ request }) => {
+    test.setTimeout(180_000);
+    const expectedCounts: Record<number, number> = { 1: 31, 2: 33, 3: 39, 4: 29 };
+    for (const part of [1, 2, 3, 4]) {
+      const response = await request.get(`/api/speaking/practice-bank?part=${part}`);
+      expect(response.ok()).toBeTruthy();
+      const payload = await response.json();
+      const items = payload.data.items as Array<Record<string, any>>;
+      expect(payload.data.itemCount).toBe(expectedCounts[part]);
+      expect(items).toHaveLength(expectedCounts[part]);
+      const ids = items.map((item) => item.questionId || item.topicId);
+      expect(new Set(ids).size).toBe(ids.length);
+
+      // Keep the full-catalog assertion strict while using small bounded
+      // batches so a cold serverless deployment does not spend the entire
+      // test timeout on serial image requests.
+      for (let start = 0; start < ids.length; start += 8) {
+        await Promise.all(ids.slice(start, start + 8).map(async (id) => {
+          const itemResponse = await request.get(`/api/speaking/practice-bank?part=${part}&itemId=${encodeURIComponent(id)}`);
+          expect(itemResponse.status()).toBe(200);
+          const item = (await itemResponse.json()).data.item as Record<string, any>;
+          expect(item.source).toBeTruthy();
+          expect(item.sourceEvidence).toBeTruthy();
+          expect(item.selectionPolicy || item.questionId).toBeTruthy();
+          if (part === 2 && item.availability === "available") {
+            expect(item.image).toBeTruthy();
+            expect((await request.get(new URL(item.image, baseUrl).toString())).status()).toBe(200);
+          }
+          if (part === 3 && item.availability === "available") {
+            expect(item.imageA).toBeTruthy();
+            expect(item.imageB).toBeTruthy();
+            expect(item.imageA).not.toBe(item.imageB);
+            expect((await request.get(new URL(item.imageA, baseUrl).toString())).status()).toBe(200);
+            expect((await request.get(new URL(item.imageB, baseUrl).toString())).status()).toBe(200);
+          }
+        }));
+      }
+    }
   });
 
   test("renders Part 3 Image A and Image B from the same source topic", async ({ page, request }) => {
