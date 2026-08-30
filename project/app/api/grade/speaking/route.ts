@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { randomUUID } from "node:crypto";
 import { GradingError } from "@/lib/grading/errors";
 import {
   gradeSpeakingSubmission,
@@ -32,17 +33,26 @@ function statusForGradingCode(code: GradingError["code"]): number {
 }
 
 export async function POST(req: NextRequest) {
+  const requestId = req.headers.get("x-request-id") || randomUUID();
+  const responseOptions = (status: number) => ({
+    status,
+    headers: { "x-request-id": requestId },
+  });
   try {
     const session = getAuthenticatedSession(req);
-    if (!session) return unauthorizedResponse();
+    if (!session) {
+      const response = unauthorizedResponse();
+      response.headers.set("x-request-id", requestId);
+      return response;
+    }
 
     let body: unknown;
     try {
       body = await req.json();
     } catch {
       return NextResponse.json(
-        { success: false, code: "INVALID_ANSWER_FORMAT", error: "Invalid JSON request body" },
-        { status: 400 },
+        { success: false, code: "INVALID_ANSWER_FORMAT", error: "Invalid JSON request body", requestId },
+        responseOptions(400),
       );
     }
 
@@ -57,8 +67,9 @@ export async function POST(req: NextRequest) {
           success: false,
           code: audioIssue ? "INVALID_AUDIO" : "INVALID_ANSWER_FORMAT",
           error: "Invalid speaking request payload",
+          requestId,
         },
-        { status: 400 }
+        responseOptions(400)
       );
     }
 
@@ -82,34 +93,43 @@ export async function POST(req: NextRequest) {
       mimeType,
       durationSeconds,
       clientTranscript,
-    }, undefined, session.userId);
+    }, undefined, session.userId, { requestId });
 
     // 4. Return client-safe structured result
     return NextResponse.json(
       {
         success: true,
         data: gradingResult,
+        requestId,
       },
-      { status: 200 }
+      responseOptions(200)
     );
   } catch (error) {
     if (error instanceof GradingError) {
+      console.warn("[Speaking API] grading error", { requestId, code: error.code });
       return NextResponse.json(
         {
           success: false,
           code: error.code,
           error: error.message,
+          requestId,
         },
-        { status: statusForGradingCode(error.code) }
+        responseOptions(statusForGradingCode(error.code))
       );
     }
+
+    console.error("[Speaking API] unexpected grading failure", {
+      requestId,
+      errorType: error instanceof Error ? error.name : typeof error,
+    });
 
     return NextResponse.json(
       {
         success: false,
         error: "Speaking grading is temporarily unavailable. Please try again later.",
+        requestId,
       },
-      { status: 500 }
+      responseOptions(500)
     );
   }
 }

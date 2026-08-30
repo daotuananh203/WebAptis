@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createHash } from "node:crypto";
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI, Type } from "@google/genai";
 import { getGeminiClient } from "../gemini/client";
 import { getGeminiConfig } from "../gemini/config";
 import { GEMINI_MODELS } from "../gemini/models";
@@ -31,6 +31,86 @@ import { getSpeakingPracticeItem, SpeakingPracticeQuestion, SpeakingPracticeTopi
 
 export const MAX_AUDIO_BYTES = 10 * 1024 * 1024;
 const MAX_SPEAKING_IMAGE_BYTES = 5 * 1024 * 1024;
+
+/**
+ * Ask Gemini to produce the same shape that the server validates.  JSON mode
+ * alone guarantees syntax, not field names or nested rubric structure; this
+ * schema prevents a valid recording from being rejected merely because the
+ * model chose `score`/`band` aliases. The parser remains as a compatibility
+ * boundary for providers/models that return an older but recoverable shape.
+ */
+const GEMINI_SPEAKING_RESPONSE_SCHEMA = {
+  type: Type.OBJECT,
+  properties: {
+    audioQuality: { type: Type.STRING, enum: ["sufficient", "insufficient"] },
+    audioQualityReason: { type: Type.STRING, nullable: true },
+    overallScore: { type: Type.NUMBER, minimum: 0, maximum: 25 },
+    maxOverallScore: { type: Type.NUMBER, minimum: 1, maximum: 25 },
+    estimatedBand: { type: Type.STRING, enum: ["A1", "A2", "B1", "B2", "C1", "C2"] },
+    criteria: {
+      type: Type.ARRAY,
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          name: { type: Type.STRING },
+          score: { type: Type.NUMBER, minimum: 0, maximum: 5 },
+          maxScore: { type: Type.NUMBER, minimum: 5, maximum: 5 },
+          feedback: { type: Type.STRING },
+        },
+        required: ["name", "score", "maxScore", "feedback"],
+      },
+    },
+    pronunciationFeedback: {
+      type: Type.ARRAY,
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          soundOrWord: { type: Type.STRING },
+          issue: { type: Type.STRING },
+          advice: { type: Type.STRING },
+        },
+        required: ["soundOrWord", "issue", "advice"],
+      },
+    },
+    spokenGrammarErrors: {
+      type: Type.ARRAY,
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          spokenPhrase: { type: Type.STRING },
+          correctedPhrase: { type: Type.STRING },
+          errorCategory: { type: Type.STRING },
+          explanation: { type: Type.STRING },
+          linkedKnowledge: { type: Type.ARRAY, items: { type: Type.STRING } },
+        },
+        required: ["spokenPhrase", "correctedPhrase", "errorCategory", "explanation", "linkedKnowledge"],
+      },
+    },
+    vocabularyUpgrades: {
+      type: Type.ARRAY,
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          originalSpoken: { type: Type.STRING },
+          upgradedAlternative: { type: Type.STRING },
+          context: { type: Type.STRING },
+        },
+        required: ["originalSpoken", "upgradedAlternative", "context"],
+      },
+    },
+    strengths: { type: Type.ARRAY, items: { type: Type.STRING } },
+    areasForImprovement: { type: Type.ARRAY, items: { type: Type.STRING } },
+    transcript: { type: Type.STRING },
+    improvementPlan: { type: Type.ARRAY, items: { type: Type.STRING } },
+    linkedKnowledge: { type: Type.ARRAY, items: { type: Type.STRING } },
+  },
+  required: [
+    "audioQuality", "audioQualityReason", "overallScore", "maxOverallScore",
+    "estimatedBand", "criteria", "pronunciationFeedback", "spokenGrammarErrors",
+    "vocabularyUpgrades", "strengths", "areasForImprovement", "transcript",
+    "improvementPlan", "linkedKnowledge",
+  ],
+} as const;
 
 type GeminiInlineImagePart = {
   inlineData: {
@@ -437,8 +517,189 @@ export function validateAudioPayload(
   return { audioBase64: normalized, audioBytes: byteSize, mimeType, durationSeconds };
 }
 
+type GeminiResponseDiagnostics = { requestId?: string; model?: string; finishReason?: string };
+
+function valueType(value: unknown): string {
+  if (value === null) return "null";
+  if (Array.isArray(value)) return "array";
+  return typeof value;
+}
+
+/** Shape-only diagnostics: never log audio, transcript, prompt, or secrets. */
+function responseShape(value: unknown, depth = 0): unknown {
+  if (depth > 2) return valueType(value);
+  if (Array.isArray(value)) {
+    return {
+      type: "array",
+      length: value.length,
+      itemTypes: Array.from(new Set(value.slice(0, 5).map(valueType))),
+    };
+  }
+  if (value && typeof value === "object") {
+    const record = value as Record<string, unknown>;
+    const keys = Object.keys(record).slice(0, 80);
+    return {
+      type: "object",
+      keys,
+      children: depth < 2
+        ? Object.fromEntries(keys.slice(0, 20).map((key) => [key, responseShape(record[key], depth + 1)]))
+        : undefined,
+    };
+  }
+  return { type: valueType(value), ...(typeof value === "string" ? { length: value.length } : {}) };
+}
+
+function logGeminiParseFailure(
+  stage: string,
+  raw: unknown,
+  diagnostics: GeminiResponseDiagnostics | undefined,
+  issues?: unknown,
+): void {
+  // Production API calls always provide a request id.  Suppress diagnostics
+  // for direct unit-test/helper calls so expected invalid fixtures do not
+  // pollute local test output.
+  if (process.env.NODE_ENV === "test" || !diagnostics?.requestId) return;
+  console.warn("[Speaking AI] Gemini response rejected", {
+    requestId: diagnostics?.requestId || "unknown",
+    model: diagnostics?.model || "unknown",
+    finishReason: diagnostics?.finishReason || "unknown",
+    stage,
+    responseShape: responseShape(raw),
+    issues,
+  });
+}
+
+function firstDefined(record: Record<string, any>, aliases: string[]): unknown {
+  for (const alias of aliases) {
+    if (record[alias] !== undefined && record[alias] !== null) return record[alias];
+  }
+  return undefined;
+}
+
+function toFiniteNumber(value: unknown): number | undefined {
+  if (typeof value === "number") return Number.isFinite(value) ? value : undefined;
+  if (typeof value !== "string") return undefined;
+  const text = value.trim();
+  if (/^-?(?:\d+|\d*\.\d+)$/.test(text)) {
+    const number = Number(text);
+    return Number.isFinite(number) ? number : undefined;
+  }
+  const fraction = text.match(/^(\d+(?:\.\d+)?)\s*\/\s*(\d+(?:\.\d+)?)$/);
+  if (fraction && Number(fraction[2]) > 0) {
+    const number = Number(fraction[1]);
+    return Number.isFinite(number) ? number : undefined;
+  }
+  return undefined;
+}
+
+function toText(value: unknown): string | undefined {
+  return typeof value === "string" && value.trim() ? value.trim() : undefined;
+}
+
+function toTextList(value: unknown): string[] {
+  if (typeof value === "string") return value.trim() ? [value.trim()] : [];
+  if (!Array.isArray(value)) return [];
+  return value
+    .map((item) => {
+      if (typeof item === "string") return item.trim();
+      if (!item || typeof item !== "object") return "";
+      return toText(firstDefined(item as Record<string, any>, ["text", "point", "item", "description", "message", "reason", "feedback"])) || "";
+    })
+    .filter(Boolean);
+}
+
+function normalizedKey(value: string): string {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+function canonicalCriterionName(value: string): string {
+  const key = normalizedKey(value);
+  if (key.includes("taskachievement") || key.includes("taskfulfil") || key.includes("taskfulfill")) return "Task Fulfilment";
+  if (key.includes("pronunciation")) return "Pronunciation";
+  if (key.includes("fluency") || key.includes("cohesion") || key.includes("continuity")) return "Fluency & Cohesion";
+  if (key.includes("grammar") || key.includes("accuracy")) return "Spoken Grammar";
+  if (key.includes("vocabulary") || key.includes("lexical")) return "Lexical Resource";
+  if (key.includes("discourse") || key.includes("organization") || key.includes("organisation")) return "Discourse Organization";
+  return value;
+}
+
+function feedbackForCriterion(source: unknown, name: string, allowSharedFeedback = false): string | undefined {
+  if (typeof source === "string") return allowSharedFeedback ? toText(source) : undefined;
+  if (!source || typeof source !== "object" || Array.isArray(source)) return undefined;
+  const record = source as Record<string, any>;
+  const target = normalizedKey(name);
+  const entry = Object.entries(record).find(([key]) => {
+    const normalized = normalizedKey(key);
+    return normalized === target || normalized.includes(target) || target.includes(normalized);
+  })?.[1];
+  if (typeof entry === "string") return toText(entry);
+  if (entry && typeof entry === "object") {
+    return toText(firstDefined(entry as Record<string, any>, ["feedback", "comment", "comments", "explanation", "assessment", "notes"]));
+  }
+  return undefined;
+}
+
+function criterionScoreValue(value: unknown): unknown {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return value;
+  return firstDefined(value as Record<string, any>, ["score", "value", "points", "rating"]);
+}
+
+function normalizeCriterionEntry(
+  entry: unknown,
+  fallbackName: string | undefined,
+  feedbackSource: unknown,
+  index: number,
+): Record<string, unknown> {
+  const record = entry && typeof entry === "object" && !Array.isArray(entry)
+    ? entry as Record<string, any>
+    : undefined;
+  const providerName = record
+    ? toText(firstDefined(record, ["name", "criterion", "category", "dimension", "rubric"]))
+    : undefined;
+  const name = providerName || (fallbackName ? canonicalCriterionName(fallbackName) : "");
+  const score = toFiniteNumber(record
+    ? firstDefined(record, ["score", "value", "points", "rating"])
+    : entry);
+  const maxScore = toFiniteNumber(record ? firstDefined(record, ["maxScore", "max_score", "maximum", "outOf"]) : undefined) ?? 5;
+  const feedback = record
+    ? toText(firstDefined(record, ["feedback", "comment", "comments", "explanation", "assessment", "notes"]))
+      || feedbackForCriterion(feedbackSource, name, true)
+    : feedbackForCriterion(feedbackSource, name, true);
+  return { name: name || `Criterion ${index + 1}`, score, maxScore, feedback };
+}
+
+function normalizeCriteria(raw: unknown, feedbackSource: unknown): Record<string, unknown>[] {
+  if (Array.isArray(raw)) {
+    return raw.map((entry, index) => normalizeCriterionEntry(entry, undefined, feedbackSource, index));
+  }
+  if (!raw || typeof raw !== "object") return [];
+  return Object.entries(raw as Record<string, unknown>)
+    .filter(([key]) => !["overall", "overallscore", "total", "totalscore", "maxscore"].includes(normalizedKey(key)))
+    .map(([name, value], index) => normalizeCriterionEntry(value, name, feedbackSource, index));
+}
+
+function mergeCriteria(criteria: Record<string, unknown>[], additions: Record<string, unknown>[]): Record<string, unknown>[] {
+  const merged = [...criteria];
+  for (const candidate of additions) {
+    const candidateKey = normalizedKey(String(candidate.name || ""));
+    if (!candidateKey || merged.some((item) => normalizedKey(String(item.name || "")) === candidateKey)) continue;
+    merged.push(candidate);
+  }
+  return merged;
+}
+
+const TOP_LEVEL_RUBRIC_FIELDS: Array<{ name: string; aliases: string[] }> = [
+  { name: "Task Fulfilment", aliases: ["taskAchievement", "taskAchievementScore", "taskFulfilment", "taskFulfillment", "taskFulfilmentScore", "taskFulfillmentScore", "task_achievement"] },
+  { name: "Pronunciation", aliases: ["pronunciation", "pronunciationScore", "pronunciationIntelligibility", "pronunciation_intelligibility"] },
+  { name: "Fluency & Cohesion", aliases: ["fluency", "fluencyScore", "fluencyAndCohesion", "sustainedFluency", "fluencyContinuity", "fluency_continuity"] },
+  { name: "Spoken Grammar", aliases: ["grammar", "grammarScore", "spokenGrammar", "grammarAccuracy", "grammar_accuracy"] },
+  { name: "Lexical Resource", aliases: ["vocabulary", "vocabularyScore", "lexicalResource", "lexicalResourceScore", "lexical_resource"] },
+  { name: "Discourse Organization", aliases: ["discourseOrganization", "discourseOrganizationScore", "discourse_organization"] },
+];
+
 export function parseAndValidateGeminiSpeakingOutput(
-  rawJson: unknown
+  rawJson: unknown,
+  diagnostics?: GeminiResponseDiagnostics,
 ): GeminiSpeakingOutput {
   let parsed: any = rawJson;
   if (typeof rawJson === "string") {
@@ -446,160 +707,133 @@ export function parseAndValidateGeminiSpeakingOutput(
     try {
       parsed = JSON.parse(trimmed);
     } catch {
-      const match = trimmed.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
-      if (match) {
-        try {
-          parsed = JSON.parse(match[1].trim());
-        } catch {
-          throw createGradingError(
-            "INVALID_AI_RESPONSE",
-            "Failed to parse Gemini speaking output as JSON"
-          );
-        }
-      } else {
-        throw createGradingError(
-          "INVALID_AI_RESPONSE",
-          "Failed to parse Gemini speaking output as JSON"
-        );
+      const fenced = trimmed.match(/```(?:json)?\s*([\s\S]*?)\s*```/i)?.[1];
+      const candidate = fenced?.trim() || (() => {
+        const start = trimmed.indexOf("{");
+        const end = trimmed.lastIndexOf("}");
+        return start >= 0 && end > start ? trimmed.slice(start, end + 1) : "";
+      })();
+      try {
+        parsed = candidate ? JSON.parse(candidate) : undefined;
+      } catch {
+        logGeminiParseFailure("json_parse", rawJson, diagnostics, [{ path: "$", code: "invalid_json" }]);
+        throw createGradingError("INVALID_AI_RESPONSE", "Failed to parse Gemini speaking output as JSON");
       }
     }
   }
 
-  if (parsed && typeof parsed === "object" && parsed.overallScore === undefined && parsed.overall_score === undefined && parsed.scoreSummary === undefined && parsed.scores === undefined) {
-    if (parsed.data && typeof parsed.data === "object") parsed = parsed.data;
-    else if (parsed.evaluation && typeof parsed.evaluation === "object") parsed = parsed.evaluation;
-    else if (parsed.result && typeof parsed.result === "object") parsed = parsed.result;
-    else if (parsed.assessment && typeof parsed.assessment === "object") parsed = parsed.assessment;
+  if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+    const wrapper = firstDefined(parsed, ["data", "evaluation", "result", "assessment"]);
+    const hasCanonicalSignal = firstDefined(parsed, ["overallScore", "overall_score", "score", "scores", "criteria", "rubric", "transcript"]) !== undefined;
+    if (!hasCanonicalSignal && wrapper && typeof wrapper === "object" && !Array.isArray(wrapper)) parsed = wrapper;
   }
 
-  if (parsed && typeof parsed === "object") {
-    // 1. Audio quality
-    const reportedTranscript = typeof parsed.transcript === "string" ? parsed.transcript.trim() : "";
-    const declaredAudioQuality = parsed.audioQuality || parsed.audio_quality;
-    const audioQuality = !reportedTranscript
+  if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+    // 1. Transcript and audio quality. Missing quality is inferred only from
+    // a provider-supplied transcript; it never creates a positive assessment.
+    const reportedTranscript = toText(firstDefined(parsed, ["transcript", "transcription", "speechToText", "speech_to_text", "stt", "transcriptText", "text"])) || "";
+    parsed.transcript = reportedTranscript;
+    const declaredAudioQuality = firstDefined(parsed, ["audioQuality", "audio_quality", "quality"]);
+    const normalizedQuality = typeof declaredAudioQuality === "string"
+      ? ({ good: "sufficient", clear: "sufficient", sufficient: "sufficient", poor: "insufficient", unusable: "insufficient", insufficient: "insufficient", no_speech: "insufficient" } as Record<string, string>)[declaredAudioQuality.toLowerCase()]
+      : undefined;
+    // An empty transcript always wins over a provider's optimistic quality
+    // flag.  Never allow `audioQuality: "sufficient"` to survive without
+    // provider-supplied speech-to-text evidence.
+    parsed.audioQuality = !reportedTranscript
       ? "insufficient"
-      : declaredAudioQuality || "sufficient";
-    // A missing quality flag may be inferred only from a provider-supplied
-    // non-empty transcript; otherwise fail closed as insufficient.  Never
-    // default an incomplete response to sufficient audio.
-    parsed.audioQuality = audioQuality;
-    if (parsed.audioQualityReason === null) parsed.audioQualityReason = undefined;
+      : normalizedQuality || declaredAudioQuality || "sufficient";
+    parsed.audioQualityReason = toText(firstDefined(parsed, ["audioQualityReason", "audio_quality_reason", "audioReason", "reason"]));
 
-    // 2. Estimated Band normalization
-    const rawBand = parsed.estimatedBand || parsed.estimated_band || parsed.overallCefrLevel || parsed.cefrLevel || parsed.cefr_level;
-    const bandMatch = typeof rawBand === "string"
-      ? rawBand.toUpperCase().match(/\b(A1|A2|B1|B2|C1|C2)\b/)
-      : null;
-    const band = bandMatch?.[1];
-    // The schema rejects an omitted/invalid band; do not silently present B2.
-    if (band !== undefined) parsed.estimatedBand = band;
-    else if (audioQuality === "insufficient" || !reportedTranscript) parsed.estimatedBand = "A1";
+    // 2. Band and score aliases. Numeric strings are accepted only when they
+    // are unambiguous numbers; percentages or prose are not converted.
+    const rawBand = firstDefined(parsed, ["estimatedBand", "estimated_band", "band", "overallCefrLevel", "cefrLevel", "cefr_level"]);
+    const bandMatch = typeof rawBand === "string" ? rawBand.toUpperCase().match(/\b(A1|A2|B1|B2|C1|C2)\b/) : null;
+    if (bandMatch?.[1]) parsed.estimatedBand = bandMatch[1];
+    else if (parsed.audioQuality === "insufficient" || !reportedTranscript) parsed.estimatedBand = "A1";
     else if (rawBand !== undefined) parsed.estimatedBand = rawBand;
 
-    // 3. Criteria normalization
-    if (!Array.isArray(parsed.criteria)) {
-      const summaryObj = parsed.scores || parsed.scoreSummary || parsed.criteriaScores || parsed.criteria_scores || {};
-      const feedbackObj = parsed.detailedFeedback || parsed.criteriaFeedback || {};
-      const keys = Object.keys(summaryObj).length > 0 ? Object.keys(summaryObj) : Object.keys(feedbackObj);
+    const scoreSummary = firstDefined(parsed, ["scoreSummary", "score_summary", "scores", "scoreBreakdown"]);
+    const rawOverallScore = firstDefined(parsed, ["overallScore", "overall_score", "score", "totalScore", "total_score", "finalScore"])
+      ?? (scoreSummary && typeof scoreSummary === "object" ? firstDefined(scoreSummary as Record<string, any>, ["overallScore", "overall_score", "overall", "score", "totalScore", "total"]) : undefined);
+    const normalizedOverallScore = toFiniteNumber(criterionScoreValue(rawOverallScore));
+    if (normalizedOverallScore !== undefined) parsed.overallScore = normalizedOverallScore;
+    const rawMaxOverallScore = firstDefined(parsed, ["maxOverallScore", "max_overall_score", "overallMaxScore", "totalMaxScore", "maxTotalScore"]);
+    const normalizedMaxOverallScore = toFiniteNumber(criterionScoreValue(rawMaxOverallScore));
+    if (normalizedMaxOverallScore !== undefined) parsed.maxOverallScore = normalizedMaxOverallScore;
 
-      if (keys.length > 0) {
-        parsed.criteria = keys.map((name) => {
-          const scoreVal = summaryObj[name];
-          const score = typeof scoreVal === "number" ? scoreVal : typeof scoreVal === "object" && scoreVal !== null ? scoreVal.score : undefined;
-          const feedbackText = typeof feedbackObj[name] === "string" ? feedbackObj[name] : typeof scoreVal === "object" && scoreVal !== null ? scoreVal.feedback : undefined;
-          return {
-            name,
-            // Preserve only provider-supplied numeric scores.  A missing score
-            // must fail schema validation instead of becoming an optimistic 4.
-            score,
-            maxScore: 5 as const,
-            feedback: feedbackText,
-          };
-        });
+    // 3. Rubric normalization. Gemini responses commonly expose either a
+    // criteria array/object or named rubric fields; both map only provider-
+    // supplied scores and feedback into the canonical representation.
+    const feedbackSource = firstDefined(parsed, ["criteriaFeedback", "criteria_feedback", "detailedFeedback", "rubricFeedback", "rubric_feedback", "feedbackByCriterion", "feedback"]);
+    const rawCriteria = firstDefined(parsed, ["criteria", "rubric", "rubrics", "dimensions", "criteriaScores", "criteria_scores", "rubricScores", "rubric_scores"]);
+    let criteria = normalizeCriteria(rawCriteria, feedbackSource);
+    const topLevelCriteria = TOP_LEVEL_RUBRIC_FIELDS.flatMap(({ name, aliases }) => {
+      const rawValue = firstDefined(parsed, aliases);
+      if (rawValue === undefined) return [];
+      return [normalizeCriterionEntry(rawValue, name, feedbackSource, criteria.length)];
+    });
+    criteria = mergeCriteria(criteria, topLevelCriteria);
+    if (criteria.length > 0) parsed.criteria = criteria;
+    if (parsed.overallScore === undefined && criteria.length > 0) {
+      const numericScores = criteria.map((criterion) => criterion.score);
+      if (numericScores.every((score) => typeof score === "number" && Number.isFinite(score))) {
+        parsed.overallScore = numericScores.reduce<number>((sum, score) => sum + Number(score), 0);
+      }
+    }
+    if (parsed.maxOverallScore === undefined && criteria.length > 0) {
+      const maxScores = criteria.map((criterion) => criterion.maxScore);
+      if (maxScores.every((score) => typeof score === "number" && Number.isFinite(score))) {
+        parsed.maxOverallScore = maxScores.reduce<number>((sum, score) => sum + Number(score), 0);
       }
     }
 
-    // 4. Overall Score
-    if (parsed.overallScore === undefined && parsed.overall_score !== undefined) {
-      parsed.overallScore = parsed.overall_score;
-    }
-    if (parsed.overallScore === undefined && Array.isArray(parsed.criteria) && parsed.criteria.length > 0) {
-      parsed.overallScore = parsed.criteria.reduce((sum: number, c: any) => sum + (c.score || 0), 0);
-    }
-    if (parsed.maxOverallScore === undefined && Array.isArray(parsed.criteria) && parsed.criteria.length > 0) {
-      parsed.maxOverallScore = parsed.criteria.reduce((sum: number, c: any) => sum + 5, 0);
-    }
-
-    // 5. Pronunciation feedback normalization
-    const rawPron = parsed.pronunciationFeedback || parsed.pronunciation_feedback || parsed.pronunciationIssues || [];
+    // 4. Detail arrays and feedback aliases.
+    const rawPron = firstDefined(parsed, ["pronunciationFeedback", "pronunciation_feedback", "pronunciationIssues", "pronunciationErrors"]);
     parsed.pronunciationFeedback = Array.isArray(rawPron)
-      ? rawPron.map((p: any) => ({
-          soundOrWord: p.soundOrWord || p.wordOrPhrase || p.sound || p.word || "",
-          issue: p.issue || p.problem || "",
-          advice: p.advice || p.actionableAdvice || p.recommendation || "",
-        }))
+      ? rawPron.map((p: any) => typeof p === "string"
+          ? { soundOrWord: "", issue: p, advice: "" }
+          : { soundOrWord: toText(firstDefined(p || {}, ["soundOrWord", "wordOrPhrase", "sound", "word"])) || "", issue: toText(firstDefined(p || {}, ["issue", "problem"])) || "", advice: toText(firstDefined(p || {}, ["advice", "actionableAdvice", "recommendation"])) || "" })
       : [];
-
-    // 6. Spoken Grammar Errors normalization
-    const rawGrammar = parsed.spokenGrammarErrors || parsed.spoken_grammar_errors || parsed.grammarErrors || parsed.grammaticalErrors || [];
+    const rawGrammar = firstDefined(parsed, ["spokenGrammarErrors", "spoken_grammar_errors", "grammarErrors", "grammaticalErrors"]);
     parsed.spokenGrammarErrors = Array.isArray(rawGrammar)
-      ? rawGrammar.map((g: any) => ({
-          spokenPhrase: g.spokenPhrase || g.originalPhrase || g.original || g.mistake || "",
-          correctedPhrase: g.correctedPhrase || g.suggestedUpgrade || g.corrected || g.correction || "",
-          errorCategory: g.errorCategory || g.category || "Spoken Grammar",
-          explanation: g.explanation || g.reason || "",
-          linkedKnowledge: Array.isArray(g.linkedKnowledge) ? g.linkedKnowledge : [],
-        }))
+      ? rawGrammar.map((g: any) => typeof g === "string"
+          ? { spokenPhrase: "", correctedPhrase: "", errorCategory: "Spoken Grammar", explanation: g, linkedKnowledge: [] }
+          : { spokenPhrase: toText(firstDefined(g || {}, ["spokenPhrase", "originalPhrase", "original", "mistake"])) || "", correctedPhrase: toText(firstDefined(g || {}, ["correctedPhrase", "suggestedUpgrade", "corrected", "correction"])) || "", errorCategory: toText(firstDefined(g || {}, ["errorCategory", "category"])) || "Spoken Grammar", explanation: toText(firstDefined(g || {}, ["explanation", "reason"])) || "", linkedKnowledge: toTextList(firstDefined(g || {}, ["linkedKnowledge", "linked_knowledge"])) })
       : [];
-
-    // 7. Vocabulary Upgrades normalization
-    const rawVocab = parsed.vocabularyUpgrades || parsed.vocabulary_upgrades || parsed.lexicalUpgrades || [];
+    const rawVocab = firstDefined(parsed, ["vocabularyUpgrades", "vocabulary_upgrades", "lexicalUpgrades", "lexical_upgrades"]);
     parsed.vocabularyUpgrades = Array.isArray(rawVocab)
-      ? rawVocab.map((v: any) => ({
-          originalSpoken: v.originalSpoken || v.originalPhrase || v.originalWord || v.original || "",
-          upgradedAlternative: v.upgradedAlternative || v.suggestedUpgrade || v.upgrade || "",
-          context: v.context || v.contextExplanation || v.explanation || "",
-        }))
+      ? rawVocab.map((v: any) => typeof v === "string"
+          ? { originalSpoken: "", upgradedAlternative: "", context: v }
+          : { originalSpoken: toText(firstDefined(v || {}, ["originalSpoken", "originalPhrase", "originalWord", "original"])) || "", upgradedAlternative: toText(firstDefined(v || {}, ["upgradedAlternative", "suggestedUpgrade", "upgrade"])) || "", context: toText(firstDefined(v || {}, ["context", "contextExplanation", "explanation"])) || "" })
       : [];
 
-    // 8. Transcript & Strengths
-    parsed.transcript = parsed.transcript || "";
-    // Missing feedback is an incomplete examiner response, not permission to
-    // fabricate a positive strength or generic assessment.
-    if (!Array.isArray(parsed.strengths)) parsed.strengths = [];
-    if (!Array.isArray(parsed.areasForImprovement)) parsed.areasForImprovement = [];
-
-    const rawPlan = parsed.improvementPlan || parsed.improvement_plan;
+    parsed.strengths = toTextList(firstDefined(parsed, ["strengths", "positivePoints", "positiveAspects", "whatWentWell", "positives"]));
+    parsed.areasForImprovement = toTextList(firstDefined(parsed, ["areasForImprovement", "areas_for_improvement", "improvements", "weaknesses", "developmentAreas", "areasToImprove"]));
+    // A few valid Gemini responses use one general `feedback` string instead
+    // of an areasForImprovement array. Preserve that provider-authored text as
+    // a single improvement item; it is not a fabricated recommendation.
+    if (parsed.areasForImprovement.length === 0 && typeof feedbackSource === "string" && feedbackSource.trim()) {
+      parsed.areasForImprovement = [feedbackSource.trim()];
+    }
+    const rawPlan = firstDefined(parsed, ["improvementPlan", "improvement_plan", "actionPlan", "recommendations", "nextSteps"]);
     parsed.improvementPlan = Array.isArray(rawPlan)
-      ? rawPlan
-          .map((item: unknown) => {
-            if (typeof item === "string") return item;
-            if (item && typeof item === "object") {
-              const candidate = (item as Record<string, unknown>).step
-                ?? (item as Record<string, unknown>).action
-                ?? (item as Record<string, unknown>).recommendation
-                ?? (item as Record<string, unknown>).text
-                ?? (item as Record<string, unknown>).description;
-              if (typeof candidate === "string") return candidate;
-              try { return JSON.stringify(item); } catch { return ""; }
-            }
-            return item == null ? "" : String(item);
-          })
-          .filter((item: string) => item.trim().length > 0)
+      ? rawPlan.map((item: unknown) => typeof item === "string"
+        ? item.trim()
+        : item && typeof item === "object"
+          ? toText(firstDefined(item as Record<string, any>, ["step", "action", "recommendation", "text", "description"])) || ""
+          : "").filter(Boolean)
       : [];
-    parsed.linkedKnowledge = Array.isArray(parsed.linkedKnowledge || parsed.linked_knowledge)
-      ? (parsed.linkedKnowledge || parsed.linked_knowledge)
-      : [];
+    parsed.linkedKnowledge = toTextList(firstDefined(parsed, ["linkedKnowledge", "linked_knowledge"]));
 
-    // Gemini sometimes returns a deliberately sparse no-speech assessment
-    // (quality/reason only, without score fields).  This is safe to complete
-    // deterministically as zero; it is not a language score or invented
-    // transcript.  Other incomplete responses still fail schema validation.
+    // Gemini may return a sparse no-speech assessment. Completing only that
+    // explicitly insufficient state to a zero result is safe; sufficient
+    // responses still require every canonical rubric field.
     const criteriaComplete = Array.isArray(parsed.criteria) && parsed.criteria.length > 0 && parsed.criteria.every((criterion: any) =>
-      typeof criterion?.name === "string" &&
-      typeof criterion?.score === "number" &&
+      typeof criterion?.name === "string" && criterion.name.trim().length > 0 &&
+      typeof criterion?.score === "number" && Number.isFinite(criterion.score) &&
       criterion?.maxScore === 5 &&
-      typeof criterion?.feedback === "string"
+      typeof criterion?.feedback === "string" && criterion.feedback.trim().length > 0
     );
     const bandIsValid = ["A1", "A2", "B1", "B2", "C1", "C2"].includes(parsed.estimatedBand);
     if (parsed.audioQuality === "insufficient" &&
@@ -608,9 +842,7 @@ export function parseAndValidateGeminiSpeakingOutput(
       parsed.overallScore = 0;
       parsed.maxOverallScore = 25;
       parsed.estimatedBand = "A1";
-      parsed.criteria = [
-        { name: "Task Fulfilment", score: 0, maxScore: 5, feedback: "Không thể đánh giá vì bản ghi không có lời nói rõ ràng." },
-      ];
+      parsed.criteria = [{ name: "Task Fulfilment", score: 0, maxScore: 5, feedback: "Không thể đánh giá vì bản ghi không có lời nói rõ ràng." }];
       parsed.strengths = [];
       parsed.areasForImprovement = [reason];
       parsed.transcript = typeof parsed.transcript === "string" ? parsed.transcript : "";
@@ -619,10 +851,13 @@ export function parseAndValidateGeminiSpeakingOutput(
 
   const result = GeminiSpeakingOutputSchema.safeParse(parsed);
   if (!result.success) {
-    throw createGradingError(
-      "INVALID_AI_RESPONSE",
-      "Gemini returned an incomplete or invalid speaking assessment"
+    logGeminiParseFailure(
+      "schema_validation",
+      parsed,
+      diagnostics,
+      result.error.issues.map((issue) => ({ path: issue.path.map(String).join(".") || "$", code: issue.code, message: issue.message })),
     );
+    throw createGradingError("INVALID_AI_RESPONSE", "Gemini returned an incomplete or invalid speaking assessment");
   }
 
   return result.data;
@@ -638,7 +873,7 @@ export async function gradeSpeakingSubmission(
   },
   customClient?: GoogleGenAI,
   userId?: string,
-  options?: { timeoutMs?: number },
+  options?: { timeoutMs?: number; requestId?: string },
 ): Promise<SpeakingGradingResult> {
   const startedAt = Date.now();
   const validatedAudio = validateAudioPayload(
@@ -696,6 +931,8 @@ export async function gradeSpeakingSubmission(
   let lastError: unknown = null;
   let selectedModel = candidateModels[0] || GEMINI_MODELS.FLASH;
   let providerLatencyMs = 0;
+  let finishReason: string | undefined;
+  let providerResponseShape: unknown;
   const requestPayloadBytes = Buffer.byteLength(promptText, "utf8")
     + Buffer.byteLength(SPEAKING_EXAMINER_SYSTEM_INSTRUCTION, "utf8")
     + validatedAudio.audioBase64.length
@@ -720,15 +957,18 @@ export async function gradeSpeakingSubmission(
           config: {
             systemInstruction: SPEAKING_EXAMINER_SYSTEM_INSTRUCTION,
             responseMimeType: "application/json",
+            responseSchema: GEMINI_SPEAKING_RESPONSE_SCHEMA,
             temperature: 0.2,
             candidateCount: 1,
-            maxOutputTokens: 1400,
+            maxOutputTokens: 1800,
             abortSignal,
           },
         }), options?.timeoutMs);
 
       providerLatencyMs = Date.now() - attemptStartedAt;
+      providerResponseShape = response;
       rawResponseText = response.text ?? "";
+      finishReason = (response as unknown as { candidates?: Array<{ finishReason?: string }> }).candidates?.[0]?.finishReason;
       if (rawResponseText.trim()) {
         selectedModel = modelName;
         break;
@@ -745,6 +985,11 @@ export async function gradeSpeakingSubmission(
   }
 
   if (!rawResponseText) {
+    logGeminiParseFailure("provider_empty_response", providerResponseShape, {
+      requestId: options?.requestId,
+      model: selectedModel,
+      finishReason,
+    });
     if (lastError instanceof AiGradingTimeoutError) {
       throw createGradingError(
         "GRADING_TIMEOUT",
@@ -760,7 +1005,11 @@ export async function gradeSpeakingSubmission(
     throw createGradingError("INVALID_AI_RESPONSE", "The speaking examiner returned no assessment");
   }
 
-  const validatedOutput = parseAndValidateGeminiSpeakingOutput(rawResponseText);
+  const validatedOutput = parseAndValidateGeminiSpeakingOutput(rawResponseText, {
+    requestId: options?.requestId,
+    model: selectedModel,
+    finishReason,
+  });
   if (validatedOutput.audioQuality === "sufficient" &&
       validatedOutput.strengths.length === 0 &&
       validatedOutput.areasForImprovement.length === 0 &&
@@ -874,6 +1123,7 @@ export async function gradeSpeakingSubmission(
       providerLatencyMs,
       totalLatencyMs: Date.now() - startedAt,
       model: selectedModel,
+      finishReason,
     },
   };
 }

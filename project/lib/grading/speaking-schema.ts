@@ -150,5 +150,6 @@ export interface SpeakingGradingResult {
     providerLatencyMs: number;
     totalLatencyMs: number;
     model: string;
+    finishReason?: string;
   };
 }

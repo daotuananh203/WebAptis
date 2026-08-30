@@ -214,6 +214,53 @@ export async function runSpeakingGradingTests() {
     });
     assert.deepEqual(objectPlan.improvementPlan, ["Shadow a fluent speaker"]);
 
+    // Production-shaped Gemini responses may use named rubric fields rather
+    // than the canonical criteria[] array. Normalize only provider-supplied
+    // numbers and feedback; never invent a score or rubric entry.
+    const namedRubricResponse = parseAndValidateGeminiSpeakingOutput({
+      assessment: {
+        audio_quality: "clear",
+        transcription: "I enjoy discussing my plans with friends.",
+        score: "19",
+        band: "B1 (CEFR)",
+        taskAchievement: { score: "4", feedback: "The answer addressed the question directly." },
+        fluency: { score: 4, feedback: "Mostly steady pace with a few pauses." },
+        pronunciation: { score: 3, feedback: "Generally intelligible pronunciation." },
+        grammar: { score: 4, feedback: "Good control of common structures." },
+        vocabulary: { score: 4, feedback: "Adequate range for the topic." },
+        pronunciationIssues: ["Check word stress in longer nouns."],
+        grammarErrors: ["Review past-tense endings."],
+        strengths: "Clear organization",
+        improvements: ["Add one supporting example."],
+        actionPlan: ["Practise a 30-second response."],
+      },
+    });
+    assert.equal(namedRubricResponse.transcript, "I enjoy discussing my plans with friends.");
+    assert.equal(namedRubricResponse.overallScore, 19);
+    assert.equal(namedRubricResponse.estimatedBand, "B1");
+    assert.equal(namedRubricResponse.criteria.length, 5);
+    assert.equal(namedRubricResponse.criteria[0].name, "Task Fulfilment");
+    assert.equal(namedRubricResponse.criteria[0].score, 4);
+    assert.ok(namedRubricResponse.criteria.every((criterion) => criterion.feedback.length > 0));
+    assert.deepEqual(namedRubricResponse.strengths, ["Clear organization"]);
+
+    // A numeric rubric without provider feedback remains invalid; a generic
+    // default sentence must never be manufactured to make it pass.
+    assert.throws(
+      () => parseAndValidateGeminiSpeakingOutput({
+        transcript: "I answered the question.",
+        score: 15,
+        band: "B1",
+        taskAchievement: 3,
+        fluency: 3,
+        pronunciation: 3,
+        grammar: 3,
+        vocabulary: 3,
+      }),
+      (err: any) => err.code === "INVALID_AI_RESPONSE",
+      "named scores without provider feedback must fail closed",
+    );
+
     // Test Insufficient Audio State
     const insufficientAudioOutput = {
       audioQuality: "insufficient",
@@ -551,6 +598,23 @@ export async function runSpeakingGradingTests() {
     assert.equal(p3Parts.filter((part: any) => part.inlineData?.mimeType?.startsWith("image/")).length, 2);
     assert.equal(p2Parts.at(-1).inlineData.mimeType, "audio/webm");
     assert.equal(p3Parts.at(-1).inlineData.mimeType, "audio/webm");
+    assert.equal(calls[0].config.responseMimeType, "application/json");
+    assert.equal(calls[0].config.responseSchema.type, "OBJECT");
+    assert.equal(calls[0].config.maxOutputTokens, 1800);
+    const stopClient: any = {
+      models: {
+        generateContent: async () => ({
+          text: JSON.stringify(validOutput),
+          candidates: [{ finishReason: "STOP" }],
+        }),
+      },
+    };
+    const stopResult = await gradeSpeakingSubmission(
+      contexts[0],
+      { audioBase64: validMockAudioBase64, mimeType: "audio/webm", durationSeconds: 3 },
+      stopClient,
+    );
+    assert.equal(stopResult.performance?.finishReason, "STOP");
 
     const hangingClient: any = { models: { generateContent: () => new Promise(() => undefined) } };
     await assert.rejects(

@@ -38,7 +38,36 @@ OUTPUT REQUIREMENTS:
 - Pinpoint spoken grammatical errors with corrections and category.
 - Suggest 2-3 B2 spoken lexical upgrades.
 - Provide a concrete 3-step improvementPlan.
-- Output ONLY valid structured JSON conforming to the schema.`;
+- Output ONLY valid JSON. Do not wrap it in Markdown, prose, or a code fence.
+- Keep the response compact: transcript <=180 words, each criterion feedback <=30 words,
+  and each detail list (pronunciation, grammar, vocabulary, strengths, improvements) <=3 items.
+- Use exactly these canonical field names and types. Every field below is required;
+  use [] for an empty list and never omit a rubric criterion or its feedback:
+{
+  "audioQuality": "sufficient",
+  "audioQualityReason": "short reason",
+  "overallScore": 20,
+  "maxOverallScore": 25,
+  "estimatedBand": "B2",
+  "criteria": [
+    {"name":"Task Fulfilment","score":4,"maxScore":5,"feedback":"..."},
+    {"name":"Pronunciation","score":4,"maxScore":5,"feedback":"..."},
+    {"name":"Fluency & Cohesion","score":4,"maxScore":5,"feedback":"..."},
+    {"name":"Spoken Grammar","score":4,"maxScore":5,"feedback":"..."},
+    {"name":"Lexical Resource","score":4,"maxScore":5,"feedback":"..."}
+  ],
+  "pronunciationFeedback": [],
+  "spokenGrammarErrors": [],
+  "vocabularyUpgrades": [],
+  "strengths": ["..."],
+  "areasForImprovement": ["..."],
+  "transcript": "verbatim best-effort speech-to-text",
+  "improvementPlan": ["step 1", "step 2", "step 3"],
+  "linkedKnowledge": []
+}
+For no recognizable speech, return audioQuality="insufficient", transcript="", overallScore=0,
+estimatedBand="A1", and the same canonical fields with an explanatory audioQualityReason.
+Do not invent a transcript, score, or feedback that is not supported by the audio.`;
 
 export function buildSpeakingGradingPrompt(
   taskContext: SpeakingTaskContext,
