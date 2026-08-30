@@ -95,7 +95,11 @@ function validateBank(value: SpeakingPracticeBank): SpeakingPracticeBank {
       if (!topic.title || !topic.source || !topic.sourceEvidence || !topic.selectionPolicy) throw new Error(`Speaking Practice Part ${part} provenance is incomplete`);
       if (topic.prompts.length === 0) throw new Error(`Speaking Practice topic has no prompts: ${topic.topicId}`);
       ids.add(topic.topicId);
-      if (part === 2) validateAsset(topic.image, false);
+      if (part === 2) {
+        // An available Part 2 topic is a user-facing image task; accepting a
+        // missing asset here would silently render a text-only prompt.
+        validateAsset(topic.image, topic.availability === "available");
+      }
       if (part === 3) {
         // Source-limited records remain visible to the audit but never receive a
         // placeholder or a duplicated image. Available records must have A+B.
