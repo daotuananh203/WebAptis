@@ -90,6 +90,59 @@ test.describe("canonical Speaking Practice Bank", () => {
     await expect(page.getByText("Ảnh 2: Image B", { exact: true })).toBeVisible();
   });
 
+  test("renders a recovered Part 3 source-composite pair with provenance", async ({ page, request }) => {
+    const itemId = "spk-bank-p3-gdrive_spk_p3_064";
+    const response = await request.get(`/api/speaking/practice-bank?part=3&itemId=${itemId}`);
+    expect(response.ok()).toBeTruthy();
+    const item = (await response.json()).data.item as Record<string, any>;
+    expect(item.availability).toBe("available");
+    expect(item.sourceEvidence.imagePairRecovery.type).toBe("source-composite-crop");
+    expect(item.sourceEvidence.imagePairRecovery.crossTopicPairing).toBe(false);
+    expect(item.imageA).toBeTruthy();
+    expect(item.imageB).toBeTruthy();
+
+    await page.goto(`/practice/speaking/part3?bank=canonical&itemId=${itemId}`, { waitUntil: "networkidle" });
+    const images = page.getByTestId("speaking-image");
+    await expect(images).toHaveCount(2);
+    for (const image of await images.all()) {
+      await expect.poll(() => image.evaluate((element) => (element as HTMLImageElement).naturalWidth), { timeout: 10000 }).toBeGreaterThan(0);
+      const imageResponse = await request.get(await image.getAttribute("src") || "");
+      expect(imageResponse.status()).toBe(200);
+    }
+    await expect(page.getByText("Ảnh 1: Image A", { exact: true })).toBeVisible();
+    await expect(page.getByText("Ảnh 2: Image B", { exact: true })).toBeVisible();
+  });
+
+  test("keeps the no-image source record explicit instead of rendering a placeholder", async ({ page, request }) => {
+    const itemId = "spk-bank-p3-gdrive_spk_p3_038";
+    const response = await request.get(`/api/speaking/practice-bank?part=3&itemId=${itemId}`);
+    expect(response.ok()).toBeTruthy();
+    const item = (await response.json()).data.item as Record<string, any>;
+    expect(item.availability).toBe("source-limited");
+    expect(item.imageA).toBeNull();
+    expect(item.imageB).toBeNull();
+    expect(item.sourceEvidence.sourceRelationshipStatus).toBe("NO_IMAGE_OR_UNRESOLVED_SOURCE_PLACEMENT");
+
+    await page.goto(`/practice/speaking/part3?bank=canonical&itemId=${itemId}`, { waitUntil: "networkidle" });
+    await expect(page.getByText(/không có embedded Image A\/B/i)).toBeVisible();
+    await expect(page.getByTestId("speaking-image")).toHaveCount(0);
+  });
+
+  test("browser-renders every recovered Part 3 pair", async ({ page }) => {
+    test.setTimeout(180_000);
+    const recoveredIds = [
+      36, 37, 40, 43, 48, 50, 51, 52, 53, 54, 58, 59, 60, 61, 62, 63, 64,
+    ].map((number) => `spk-bank-p3-gdrive_spk_p3_${String(number).padStart(3, "0")}`);
+    for (const itemId of recoveredIds) {
+      await page.goto(`/practice/speaking/part3?bank=canonical&itemId=${itemId}`, { waitUntil: "networkidle" });
+      const images = page.getByTestId("speaking-image");
+      await expect(images, `${itemId} must render Image A and Image B`).toHaveCount(2);
+      for (const image of await images.all()) {
+        await expect.poll(() => image.evaluate((element) => (element as HTMLImageElement).naturalWidth), { timeout: 10000 }).toBeGreaterThan(0);
+      }
+    }
+  });
+
   test("keeps Part 1–4 browser context isolated", async ({ page }) => {
     await page.goto("/practice/speaking/part1?bank=canonical&itemId=aptis-spk-p1-001", { waitUntil: "networkidle" });
     await expect(page.getByText(/Tell me about yourself\./).first()).toBeVisible();

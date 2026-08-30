@@ -55,6 +55,36 @@ export function runSpeakingPracticeBankIntegrityTests(): boolean {
   assert.ok(bank.parts.part3.topics.length >= 32, "Part 3 source bank must contain at least 32 topics");
   assert.equal(bank.parts.part4.topics.length, 29, "Part 4 must retain all 29 source records");
 
+  // Source recovery guard: the 17 records with one source composite plate must
+  // stay available only through same-topic crops. The one record with no
+  // embedded image remains source-limited instead of receiving a guessed pair.
+  const recoveredPart3Ids = [
+    36, 37, 40, 43, 48, 50, 51, 52, 53, 54, 58, 59, 60, 61, 62, 63, 64,
+  ].map((number) => `spk-bank-p3-gdrive_spk_p3_${String(number).padStart(3, "0")}`);
+  const recoveredSet = new Set(recoveredPart3Ids);
+  const recovery = bank.sourceRecovery;
+  assert.ok(recovery, "Part 3 source recovery metadata must be present");
+  assert.equal(recovery.recoveredCount, 17, "Exactly 17 same-topic composite pairs are recoverable");
+  assert.deepEqual(recovery.remainingSourceLimited, ["gdrive_spk_p3_038"], "Only the no-image source record may remain limited");
+  for (const topicId of recoveredPart3Ids) {
+    const topic = bank.parts.part3.topics.find((item) => item.topicId === topicId);
+    assert.ok(topic, `Recovered Part 3 topic missing: ${topicId}`);
+    assert.equal(topic.availability, "available", `Recovered Part 3 topic is not available: ${topicId}`);
+    assert.ok(topic.imageA && topic.imageB, `Recovered Part 3 pair is incomplete: ${topicId}`);
+    const derivation = topic.sourceEvidence.imagePairRecovery as Record<string, unknown> | undefined;
+    assert.equal(derivation?.type, "source-composite-crop", `Missing crop provenance: ${topicId}`);
+    assert.equal(derivation?.crossTopicPairing, false, `Cross-topic pairing is forbidden: ${topicId}`);
+    const boxes = derivation?.cropBoxes as { a?: number[]; b?: number[] } | undefined;
+    assert.equal(boxes?.a?.length, 4, `Image A crop box missing: ${topicId}`);
+    assert.equal(boxes?.b?.length, 4, `Image B crop box missing: ${topicId}`);
+  }
+  const limited038 = bank.parts.part3.topics.find((item) => item.topicId === "spk-bank-p3-gdrive_spk_p3_038")!;
+  assert.equal(limited038.availability, "source-limited");
+  assert.equal(limited038.imageA, null);
+  assert.equal(limited038.imageB, null);
+  assert.equal(limited038.sourceEvidence.sourceRelationshipStatus, "NO_IMAGE_OR_UNRESOLVED_SOURCE_PLACEMENT");
+  assert.equal(recoveredSet.size, 17);
+
   for (const part of [bank.parts.part2, bank.parts.part3, bank.parts.part4]) {
     assert.equal(new Set(part.topics.map((item) => item.topicId)).size, part.topics.length, `Part ${part.partNumber} topic IDs must be unique`);
     const signatures = part.topics.map((item) => item.normalizedPrompts.join("|"));

@@ -48,6 +48,13 @@ export interface SpeakingPracticeBank {
   };
   newTestReuse: { part2: Record<string, string>; part3: Record<string, string> };
   generatedAt: string;
+  sourceRecovery?: {
+    scope: string;
+    recoveredCount: number;
+    remainingSourceLimited: string[];
+    googleDocsAccess: string;
+    policy: string;
+  };
 }
 
 let validated: SpeakingPracticeBank | null = null;

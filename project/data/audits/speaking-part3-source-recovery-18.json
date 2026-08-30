@@ -1,0 +1,1173 @@
+{
+  "audit": "Speaking Part 3 source recovery",
+  "generatedAt": "2026-08-30",
+  "googleDocsAccess": "GOOGLE_DOCS_INACCESSIBLE",
+  "scopeCount": 18,
+  "recoveredCount": 17,
+  "remainingSourceLimitedCount": 1,
+  "placementHashMismatches": [
+    "gdrive_spk_p3_037",
+    "gdrive_spk_p3_052",
+    "gdrive_spk_p3_062",
+    "gdrive_spk_p3_063",
+    "gdrive_spk_p3_064"
+  ],
+  "searchedSources": [
+    "APTIS/",
+    "APTIS/Bộ đề 4 kĩ năng/",
+    "resources/",
+    "Aptis-AI-Brain/",
+    "project/data/",
+    "project/public/images/",
+    "gdrive/",
+    "Git history/archives",
+    "Google Docs (inaccessible)"
+  ],
+  "items": [
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_036",
+      "sourceTaskId": "gdrive_spk_p3_036",
+      "topic": "Version 1:",
+      "prompts": [
+        "Compare these pictures",
+        "What are the attractions of these places?",
+        "What can we do to protect the beauty of nature?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Version_1_1_c493127c.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_036-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_036-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 34,
+        "documentPosition": 6434,
+        "imageCid": "s-blob-v1-IMAGE-42sofG0jun8",
+        "inventoryImageSha256": "c677c64dcc88af3cd04508c377762dea84369c9e3e6dee9b7828ede123e0ca3e",
+        "sourcePlacementSha256": "c677c64dcc88af3cd04508c377762dea84369c9e3e6dee9b7828ede123e0ca3e",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Version_1_1_c493127c.jpg",
+          "parentImageSha256": "c677c64dcc88af3cd04508c377762dea84369c9e3e6dee9b7828ede123e0ca3e",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              368,
+              210
+            ],
+            "b": [
+              368,
+              0,
+              736,
+              210
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_037",
+      "sourceTaskId": "gdrive_spk_p3_037",
+      "topic": "Version 2: people going on their holiday/ on the beach- on the mountain",
+      "prompts": [
+        "Compare these pictures"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Version_2__people_going_on_the_1_2c7afd08.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_037-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_037-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 35,
+        "documentPosition": 6636,
+        "imageCid": "s-blob-v1-IMAGE-9wHJPoUFATE",
+        "inventoryImageSha256": "b4d126e185963855f12a2fb0259a0da6c7a6234d2858f3bdc6933dd24074d91d",
+        "sourcePlacementSha256": "b7b70be095e2baf6d1bf281d5e98fddd27249728e753fd4b8f6b795c3798b13c",
+        "hashStatus": "LOCAL_INVENTORY_DIFFERS_FROM_STORED_PLACEMENT_HASH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Version_2__people_going_on_the_1_2c7afd08.jpg",
+          "parentImageSha256": "b4d126e185963855f12a2fb0259a0da6c7a6234d2858f3bdc6933dd24074d91d",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              400,
+              276
+            ],
+            "b": [
+              400,
+              0,
+              800,
+              276
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_038",
+      "sourceTaskId": "gdrive_spk_p3_038",
+      "topic": "Between these 2 locations, where do you prefer? Why?",
+      "prompts": [
+        "How do you think the weather affects people's emotions?"
+      ],
+      "currentImage": [],
+      "missingImage": [
+        "imageA",
+        "imageB"
+      ],
+      "candidateImages": [
+        null,
+        null
+      ],
+      "availability": "source-limited",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 36,
+        "documentPosition": null,
+        "imageCid": null,
+        "inventoryImageSha256": null,
+        "sourcePlacementSha256": null,
+        "hashStatus": "LOCAL_INVENTORY_DIFFERS_FROM_STORED_PLACEMENT_HASH",
+        "relationshipStatus": "NO_IMAGE_OR_UNRESOLVED_SOURCE_PLACEMENT",
+        "imagePairRecovery": null,
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": "Local forensic inventory has no image placement for this record; no alternate same-topic asset was found."
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_040",
+      "sourceTaskId": "gdrive_spk_p3_040",
+      "topic": "Nhà mặt đất + Chung cư",
+      "prompts": [
+        "Compare these two pictures / balcony",
+        "What are the differences between living in two places?",
+        "What are the characteristics of a comfortable home?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Nhà_mặt_đất___Chung_cư_1_2c76ddcb.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_040-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_040-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 38,
+        "documentPosition": 7006,
+        "imageCid": "s-blob-v1-IMAGE-wrO_Rn3GmVw",
+        "inventoryImageSha256": "1fee798d5c851012f00ac5b617f9b52232da631020ed433f49ac703142770829",
+        "sourcePlacementSha256": "1fee798d5c851012f00ac5b617f9b52232da631020ed433f49ac703142770829",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Nhà_mặt_đất___Chung_cư_1_2c76ddcb.jpg",
+          "parentImageSha256": "1fee798d5c851012f00ac5b617f9b52232da631020ed433f49ac703142770829",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              301,
+              209
+            ],
+            "b": [
+              301,
+              0,
+              602,
+              209
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_043",
+      "sourceTaskId": "gdrive_spk_p3_043",
+      "topic": "2 đứa trẻ chơi ipad + 1 đứa trẻ một mình",
+      "prompts": [
+        "Compare these two pictures",
+        "What are the benefits of these 2 ways for children to play?",
+        "Why is it important for children to play together?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_2_đứa_trẻ_chơi_ipad___1_đứa_tr_1_bf2202a5.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_043-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_043-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 41,
+        "documentPosition": 7575,
+        "imageCid": "s-blob-v1-IMAGE-ndWjTBA90-g",
+        "inventoryImageSha256": "a517bf6652cc05585b27acf48c4676fbbb88595ffff6132a5038b7e47d8d8cd0",
+        "sourcePlacementSha256": "a517bf6652cc05585b27acf48c4676fbbb88595ffff6132a5038b7e47d8d8cd0",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_2_đứa_trẻ_chơi_ipad___1_đứa_tr_1_bf2202a5.jpg",
+          "parentImageSha256": "a517bf6652cc05585b27acf48c4676fbbb88595ffff6132a5038b7e47d8d8cd0",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              276,
+              162
+            ],
+            "b": [
+              276,
+              0,
+              553,
+              162
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_048",
+      "sourceTaskId": "gdrive_spk_p3_048",
+      "topic": "Ăn vỉa hè + Ăn trong nhà hàng",
+      "prompts": [
+        "Compare these two pictures",
+        "What are the difficulties of eating in these places",
+        "Why do people dislike eating alone?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Ăn_vỉa_hè___Ăn_trong_nhà_hàng_1_82984f6b.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_048-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_048-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 46,
+        "documentPosition": 8638,
+        "imageCid": "s-blob-v1-IMAGE-Sp-cLLwPD-o",
+        "inventoryImageSha256": "bec429c20ecac460f4933cf839e6ba861d0389cd499e8418ba78078ea7b32b5b",
+        "sourcePlacementSha256": "bec429c20ecac460f4933cf839e6ba861d0389cd499e8418ba78078ea7b32b5b",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Ăn_vỉa_hè___Ăn_trong_nhà_hàng_1_82984f6b.jpg",
+          "parentImageSha256": "bec429c20ecac460f4933cf839e6ba861d0389cd499e8418ba78078ea7b32b5b",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              178,
+              147
+            ],
+            "b": [
+              178,
+              0,
+              356,
+              147
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_050",
+      "sourceTaskId": "gdrive_spk_p3_050",
+      "topic": "Lạc đà + Xe ngựa ( traveling on the desert)",
+      "prompts": [
+        "Compare these two pictures",
+        "What are the attractions of these ways of travelling?",
+        "Some people believe that we should not use these animals for these purposes? Do you agree/ disagree?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Lạc_đà___Xe_ngựa___traveling_o_1_a9c0b49b.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_050-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_050-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 48,
+        "documentPosition": 9083,
+        "imageCid": "s-blob-v1-IMAGE-Jv2RMOAcy7c",
+        "inventoryImageSha256": "5886419429d21ac40977fe1222c2a048887cc5c9d03527eb8f598884ad210296",
+        "sourcePlacementSha256": "5886419429d21ac40977fe1222c2a048887cc5c9d03527eb8f598884ad210296",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Lạc_đà___Xe_ngựa___traveling_o_1_a9c0b49b.jpg",
+          "parentImageSha256": "5886419429d21ac40977fe1222c2a048887cc5c9d03527eb8f598884ad210296",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              282,
+              193
+            ],
+            "b": [
+              282,
+              0,
+              564,
+              193
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_051",
+      "sourceTaskId": "gdrive_spk_p3_051",
+      "topic": "Mèo + Rắn",
+      "prompts": [
+        "Compare these pictures",
+        "How to take care of these animals?",
+        "Some people say we should not keep pets in the house, do you agree?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Mèo___Rắn_1_20febbe0.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_051-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_051-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 49,
+        "documentPosition": 9293,
+        "imageCid": "s-blob-v1-IMAGE-SULPYU1Q11I",
+        "inventoryImageSha256": "0f83e15ae8641b79015b89e6fbbf5cf996aa57868c71e0c323c3417ae987dae9",
+        "sourcePlacementSha256": "0f83e15ae8641b79015b89e6fbbf5cf996aa57868c71e0c323c3417ae987dae9",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Mèo___Rắn_1_20febbe0.jpg",
+          "parentImageSha256": "0f83e15ae8641b79015b89e6fbbf5cf996aa57868c71e0c323c3417ae987dae9",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              313,
+              205
+            ],
+            "b": [
+              313,
+              0,
+              626,
+              205
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_052",
+      "sourceTaskId": "gdrive_spk_p3_052",
+      "topic": "Khỉ + Cá heo ( boat)",
+      "prompts": [
+        "Compare these pictures",
+        "Do you prefer monkeys or dolphins?",
+        "; What should we do to protect animals?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Khỉ___Cá_heo___boat_1_96dacbfc.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_052-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_052-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 50,
+        "documentPosition": 9456,
+        "imageCid": "s-blob-v1-IMAGE-fbm9BO_rkJk",
+        "inventoryImageSha256": "4b2aca1438cccf9cc58bcbeb3820afaa3ac23996edd0ee4c444a75ad53934cc5",
+        "sourcePlacementSha256": "18cb7b453102d2cff1392a84db16eb78d999516a4720657928357240671a32eb",
+        "hashStatus": "LOCAL_INVENTORY_DIFFERS_FROM_STORED_PLACEMENT_HASH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Khỉ___Cá_heo___boat_1_96dacbfc.jpg",
+          "parentImageSha256": "4b2aca1438cccf9cc58bcbeb3820afaa3ac23996edd0ee4c444a75ad53934cc5",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              400,
+              301
+            ],
+            "b": [
+              400,
+              0,
+              800,
+              301
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_053",
+      "sourceTaskId": "gdrive_spk_p3_053",
+      "topic": "Piano + Electric guitar",
+      "prompts": [
+        "Compare these pictures",
+        "Which kind of music would people prefer?",
+        "What do you think of recorded music and live music?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Piano___Electric_guitar_1_f2674463.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_053-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_053-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 51,
+        "documentPosition": 9591,
+        "imageCid": "s-blob-v1-IMAGE-5huCm-PZYfY",
+        "inventoryImageSha256": "00a7fa5ac96f57d2f9f8926ec2276aae206a5a631ac28265225353760490afd5",
+        "sourcePlacementSha256": "00a7fa5ac96f57d2f9f8926ec2276aae206a5a631ac28265225353760490afd5",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Piano___Electric_guitar_1_f2674463.jpg",
+          "parentImageSha256": "00a7fa5ac96f57d2f9f8926ec2276aae206a5a631ac28265225353760490afd5",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              310,
+              253
+            ],
+            "b": [
+              310,
+              0,
+              620,
+              253
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_054",
+      "sourceTaskId": "gdrive_spk_p3_054",
+      "topic": "Bóng đá + Nhảy xào",
+      "prompts": [
+        "Compare these two pictures ( jumping upon a pole)",
+        "Which sport is more difficult? Why?",
+        "Why do some people prefer one sport to another?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Bóng_đá___Nhảy_xào_1_5c316ef8.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_054-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_054-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 52,
+        "documentPosition": 9741,
+        "imageCid": "s-blob-v1-IMAGE-8PkDEScsv98",
+        "inventoryImageSha256": "dc43ed2de9b98e30f295b4e3499816cd5339dd8d6b9d1a38df2a54716aaef514",
+        "sourcePlacementSha256": "dc43ed2de9b98e30f295b4e3499816cd5339dd8d6b9d1a38df2a54716aaef514",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Bóng_đá___Nhảy_xào_1_5c316ef8.jpg",
+          "parentImageSha256": "dc43ed2de9b98e30f295b4e3499816cd5339dd8d6b9d1a38df2a54716aaef514",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              381,
+              299
+            ],
+            "b": [
+              381,
+              0,
+              762,
+              299
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_058",
+      "sourceTaskId": "gdrive_spk_p3_058",
+      "topic": "3 người bảo tàng + cậu bé đu dây",
+      "prompts": [
+        "Compare these two pictures?",
+        "Which activity is more suitable for children?",
+        "What are the benefits of balancing between playing and learning?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_3_người_bảo_tàng___cậu_bé_đu_d_1_eef57981.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_058-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_058-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 56,
+        "documentPosition": 10523,
+        "imageCid": "s-blob-v1-IMAGE-EnZ6OPWLtfA",
+        "inventoryImageSha256": "fe76beb1c7f05bf5e7b9741d353f23641431f6f0759ae6b3a419827bb0937a10",
+        "sourcePlacementSha256": "fe76beb1c7f05bf5e7b9741d353f23641431f6f0759ae6b3a419827bb0937a10",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_3_người_bảo_tàng___cậu_bé_đu_d_1_eef57981.jpg",
+          "parentImageSha256": "fe76beb1c7f05bf5e7b9741d353f23641431f6f0759ae6b3a419827bb0937a10",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              280,
+              206
+            ],
+            "b": [
+              280,
+              0,
+              560,
+              206
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_059",
+      "sourceTaskId": "gdrive_spk_p3_059",
+      "topic": "Chụp ảnh + Viết giấy",
+      "prompts": [
+        "Compare these two pictures",
+        "Which way of recording memories do you prefer? Why?",
+        "Why do people like taking photography?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Chụp_ảnh___Viết_giấy_1_40c9263a.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_059-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_059-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 57,
+        "documentPosition": 10701,
+        "imageCid": "s-blob-v1-IMAGE-P0680FY7Kw0",
+        "inventoryImageSha256": "1e63f8c41bc938df5e046b6e67debc7a7f0eefb0f1eba80c97649e06a94afc50",
+        "sourcePlacementSha256": "1e63f8c41bc938df5e046b6e67debc7a7f0eefb0f1eba80c97649e06a94afc50",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Chụp_ảnh___Viết_giấy_1_40c9263a.jpg",
+          "parentImageSha256": "1e63f8c41bc938df5e046b6e67debc7a7f0eefb0f1eba80c97649e06a94afc50",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              288,
+              187
+            ],
+            "b": [
+              288,
+              0,
+              576,
+              187
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_060",
+      "sourceTaskId": "gdrive_spk_p3_060",
+      "topic": "Ô tô + tàu lửa",
+      "prompts": [
+        "Compare these two pictures",
+        "What is the difference between these two ways to travel?",
+        "What is the benefit of traveling by train?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Ô_tô___tàu_lửa_1_4a30b861.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_060-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_060-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 58,
+        "documentPosition": 10850,
+        "imageCid": "s-blob-v1-IMAGE-eRFIJtUXcDY",
+        "inventoryImageSha256": "a66c76f38cd6e8091bc107d366fa33887231d1b3f9d90654d697ea8aa0eff576",
+        "sourcePlacementSha256": "a66c76f38cd6e8091bc107d366fa33887231d1b3f9d90654d697ea8aa0eff576",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Ô_tô___tàu_lửa_1_4a30b861.jpg",
+          "parentImageSha256": "a66c76f38cd6e8091bc107d366fa33887231d1b3f9d90654d697ea8aa0eff576",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              209,
+              136
+            ],
+            "b": [
+              209,
+              0,
+              419,
+              136
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_061",
+      "sourceTaskId": "gdrive_spk_p3_061",
+      "topic": "Mua sắm",
+      "prompts": [
+        "Compare these two pictures",
+        "What are the differences between these shopping destinations",
+        "Why do you think people like expensive things?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Mua_sắm_1_9f6b8e9e.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_061-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_061-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 59,
+        "documentPosition": 11000,
+        "imageCid": "s-blob-v1-IMAGE-hkgi6bMu-pQ",
+        "inventoryImageSha256": "95f67915636a06e976024b6d7bacc8131f1da991ec5a032cbe496a0b94526be2",
+        "sourcePlacementSha256": "95f67915636a06e976024b6d7bacc8131f1da991ec5a032cbe496a0b94526be2",
+        "hashStatus": "MATCH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Mua_sắm_1_9f6b8e9e.jpg",
+          "parentImageSha256": "95f67915636a06e976024b6d7bacc8131f1da991ec5a032cbe496a0b94526be2",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              200,
+              123
+            ],
+            "b": [
+              200,
+              0,
+              400,
+              123
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_062",
+      "sourceTaskId": "gdrive_spk_p3_062",
+      "topic": "Máy bay + Tàu lửa",
+      "prompts": [
+        "Compare these two pictures",
+        "Why do people prefer to go by plane to by train",
+        "Why does flying make people feel uncomfortable?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Máy_bay___Tàu_lửa_1_4157f02e.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_062-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_062-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 60,
+        "documentPosition": 11169,
+        "imageCid": "s-blob-v1-IMAGE-BD4BAnPt5MU",
+        "inventoryImageSha256": "b0f706f6773ad8db4c94d66f69f4b03712fcc1990c3a6d6a8accd5e5c8ed6fa3",
+        "sourcePlacementSha256": "92e6803a4ea7d102ea7de73f65cba87b31100a8df72cf642b57ee29ad364c1ad",
+        "hashStatus": "LOCAL_INVENTORY_DIFFERS_FROM_STORED_PLACEMENT_HASH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Máy_bay___Tàu_lửa_1_4157f02e.jpg",
+          "parentImageSha256": "b0f706f6773ad8db4c94d66f69f4b03712fcc1990c3a6d6a8accd5e5c8ed6fa3",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              400,
+              261
+            ],
+            "b": [
+              400,
+              0,
+              800,
+              261
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_063",
+      "sourceTaskId": "gdrive_spk_p3_063",
+      "topic": "Quán ăn bên đường + bãi biển",
+      "prompts": [
+        "Compare these two pictures?",
+        "What are the benefits of each type of food?",
+        "People say eating together is better than eating alone. What do you think?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Quán_ăn_bên_đường___bãi_biển_1_1ee7a99a.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_063-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_063-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 61,
+        "documentPosition": 11336,
+        "imageCid": "s-blob-v1-IMAGE-af631ZNGQT4",
+        "inventoryImageSha256": "2c7f72168d91cca328856ee3c5b7adf372129cc51f9edfc56b7627a34fcb70d7",
+        "sourcePlacementSha256": "cec20bb98343a4c0e981fbbfea099b97ccd92c813547803c2d8e02a316d24ec3",
+        "hashStatus": "LOCAL_INVENTORY_DIFFERS_FROM_STORED_PLACEMENT_HASH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Quán_ăn_bên_đường___bãi_biển_1_1ee7a99a.jpg",
+          "parentImageSha256": "2c7f72168d91cca328856ee3c5b7adf372129cc51f9edfc56b7627a34fcb70d7",
+          "cropBoxes": {
+            "a": [
+              0,
+              0,
+              400,
+              262
+            ],
+            "b": [
+              400,
+              0,
+              800,
+              262
+            ]
+          },
+          "method": "deterministic vertical split of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    },
+    {
+      "topicId": "spk-bank-p3-gdrive_spk_p3_064",
+      "sourceTaskId": "gdrive_spk_p3_064",
+      "topic": "Bóng rổ + tennis",
+      "prompts": [
+        "Compare these two pictures",
+        "Which sport is popular in your country?",
+        "What is the benefit of indoor and outdoor sports ?"
+      ],
+      "currentImage": [
+        "/images/speaking/gdrive/part_3_Bóng_rổ___tennis_1_0329310e.jpg"
+      ],
+      "missingImage": [],
+      "candidateImages": [
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_064-a.png",
+        "/images/speaking/source-recovered/part3/gdrive_spk_p3_064-b.png"
+      ],
+      "availability": "available",
+      "sourceEvidence": {
+        "sourceDocument": "https://docs.google.com/document/d/1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c/edit?tab=t.0",
+        "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+        "sourceOrder": 62,
+        "documentPosition": 11515,
+        "imageCid": "s-blob-v1-IMAGE-SXCdAI0aUxo",
+        "inventoryImageSha256": "c6663a6dc86b4fe032ddd5864f72b9af43794191ffd7c69c4d7a4204ce67e193",
+        "sourcePlacementSha256": "c2f4f87da9bb624c3d8f47820b23815cbee562d8a22cfd5ac9e5993e017f425d",
+        "hashStatus": "LOCAL_INVENTORY_DIFFERS_FROM_STORED_PLACEMENT_HASH",
+        "relationshipStatus": "VERIFIED",
+        "imagePairRecovery": {
+          "type": "source-composite-crop",
+          "parentImagePath": "/images/speaking/gdrive/part_3_Bóng_rổ___tennis_1_0329310e.jpg",
+          "parentImageSha256": "c6663a6dc86b4fe032ddd5864f72b9af43794191ffd7c69c4d7a4204ce67e193",
+          "cropBoxes": {
+            "a": [
+              214,
+              238,
+              397,
+              375
+            ],
+            "b": [
+              397,
+              238,
+              579,
+              375
+            ]
+          },
+          "method": "explicit crop of the same Google Docs source side-by-side plate",
+          "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+          "crossTopicPairing": false,
+          "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR"
+        },
+        "searchedSources": [
+          "APTIS/",
+          "APTIS/Bộ đề 4 kĩ năng/",
+          "resources/",
+          "Aptis-AI-Brain/",
+          "project/data/",
+          "project/public/images/",
+          "gdrive/",
+          "Git history/archives",
+          "Google Docs (inaccessible)"
+        ],
+        "reasonIfLimited": null
+      }
+    }
+  ]
+}

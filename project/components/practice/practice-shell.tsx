@@ -538,7 +538,9 @@ export function PracticeShell({
 
       {isSpeakingBank && partData?.availability === "source-limited" && (
         <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-200">
-          Topic này có prompt nguồn nhưng asset hình chưa đủ/không materialize được. Không dùng placeholder; hãy chọn topic khác nếu cần luyện với hình.
+          {partData?.sourceEvidence?.sourceRelationshipStatus === "NO_IMAGE_OR_UNRESOLVED_SOURCE_PLACEMENT"
+            ? "Nguồn hiện không có embedded Image A/B cho topic này. Topic được giữ source-limited; không ghép ảnh khác topic và không dùng placeholder."
+            : "Topic này có prompt nguồn nhưng asset hình chưa đủ/không materialize được. Không dùng placeholder; hãy chọn topic khác nếu cần luyện với hình."}
         </div>
       )}
 
