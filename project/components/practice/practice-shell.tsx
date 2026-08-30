@@ -63,6 +63,7 @@ export function PracticeShell({
   const [currentIndex, setCurrentIndex] = React.useState(0);
   const [isSubmitting, setIsSubmitting] = React.useState(false);
   const [errorMsg, setErrorMsg] = React.useState<string | null>(null);
+  const submitInFlightRef = React.useRef(false);
 
   // Result state
   const [resultRecord, setResultRecord] = React.useState<ProgressAttemptRecord | null>(null);
@@ -246,6 +247,10 @@ export function PracticeShell({
 
   // 3. Handle Submit & Grading
   const handleSubmit = async () => {
+    // React state updates are asynchronous; the ref closes the small window
+    // where two rapid clicks could otherwise create two Gemini requests.
+    if (submitInFlightRef.current || session?.isSubmitted) return;
+    submitInFlightRef.current = true;
     try {
       if (isAuthLoading || !isHydrated) {
         throw new Error("Đang xác thực tài khoản, vui lòng chờ một chút rồi nộp bài.");
@@ -351,16 +356,21 @@ export function PracticeShell({
           const match = audioData.match(/^data:([^;]+);base64,(.+)$/);
           if (match) {
             const detectedMime = match[1];
-            if (
-              ["audio/webm", "audio/mp4", "audio/wav", "audio/ogg", "audio/mpeg", "audio/x-m4a", "audio/aac"].includes(
-                detectedMime
-              )
-            ) {
-              mimeType = detectedMime as any;
+            const allowedMimeTypes = ["audio/webm", "audio/mp4", "audio/wav", "audio/ogg", "audio/mpeg", "audio/x-m4a", "audio/aac"];
+            if (!allowedMimeTypes.includes(detectedMime)) {
+              throw new Error("Định dạng ghi âm không được hỗ trợ. Vui lòng thử lại bằng trình duyệt Chromium.");
             }
+            mimeType = detectedMime as any;
             rawBase64 = match[2];
+          } else {
+            throw new Error("Bản ghi âm bị hỏng hoặc không đúng định dạng.");
           }
         }
+
+        const durationAnswer = answers[`${audioAnswerKey}__duration`];
+        const durationSeconds = typeof durationAnswer === "number" && Number.isFinite(durationAnswer)
+          ? durationAnswer
+          : undefined;
 
         const partNum = parseInt(partIdentifier.replace("part", ""), 10) || 1;
 
@@ -391,6 +401,7 @@ export function PracticeShell({
             taskId: dynamicTaskId,
             audioBase64: rawBase64,
             mimeType,
+            durationSeconds,
           }),
         });
 
@@ -434,6 +445,7 @@ export function PracticeShell({
       setErrorMsg(err instanceof Error ? err.message : "Submission error");
     } finally {
       setIsSubmitting(false);
+      submitInFlightRef.current = false;
     }
   };
 

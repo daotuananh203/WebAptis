@@ -1018,6 +1018,7 @@ function SpeakingPracticeContainer({
 
   const mediaRecorderRef = React.useRef<MediaRecorder | null>(null);
   const audioChunksRef = React.useRef<Blob[]>([]);
+  const recordingStartedAtRef = React.useRef<number | null>(null);
   const timerRef = React.useRef<NodeJS.Timeout | null>(null);
 
   const currentQuestion = Array.isArray(partData.questions) ? partData.questions[currentIndex] : null;
@@ -1045,8 +1046,15 @@ function SpeakingPracticeContainer({
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       audioChunksRef.current = [];
-      const mediaRecorder = new MediaRecorder(stream);
+      const preferredMimeTypes = ["audio/webm;codecs=opus", "audio/webm", "audio/ogg;codecs=opus"];
+      const supportedMimeType = typeof MediaRecorder.isTypeSupported === "function"
+        ? preferredMimeTypes.find((mime) => MediaRecorder.isTypeSupported(mime))
+        : undefined;
+      const mediaRecorder = supportedMimeType
+        ? new MediaRecorder(stream, { mimeType: supportedMimeType })
+        : new MediaRecorder(stream);
       mediaRecorderRef.current = mediaRecorder;
+      recordingStartedAtRef.current = Date.now();
 
       mediaRecorder.ondataavailable = (event) => {
         if (event.data && event.data.size > 0) {
@@ -1055,7 +1063,12 @@ function SpeakingPracticeContainer({
       };
 
       mediaRecorder.onstop = () => {
-        const audioBlob = new Blob(audioChunksRef.current, { type: "audio/webm" });
+        const elapsedSeconds = recordingStartedAtRef.current
+          ? Math.max(0, (Date.now() - recordingStartedAtRef.current) / 1000)
+          : recordingSeconds;
+        recordingStartedAtRef.current = null;
+        const recorderMimeType = (mediaRecorder.mimeType || "audio/webm").split(";", 1)[0];
+        const audioBlob = new Blob(audioChunksRef.current, { type: recorderMimeType });
         const url = URL.createObjectURL(audioBlob);
         setAudioBlobUrl(url);
 
@@ -1066,6 +1079,7 @@ function SpeakingPracticeContainer({
           const base64data = reader.result as string;
           onAnswerChange(audioAnswerKey, base64data);
         };
+        onAnswerChange(`${audioAnswerKey}__duration`, elapsedSeconds);
 
         // Stop all audio tracks
         stream.getTracks().forEach((track) => track.stop());

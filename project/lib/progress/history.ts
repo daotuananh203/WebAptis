@@ -111,7 +111,10 @@ export function createAttemptFromSpeakingResult(params: {
   completedAt?: string;
 }): ProgressAttemptRecord {
   return {
-    id: `att_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
+    // Speaking service fingerprints the task + recording. Reusing that id
+    // makes browser retries/double submits an update rather than a second
+    // progress attempt, while different recordings remain separate attempts.
+    id: params.result.submissionId || `att_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
     testId: params.result.testId,
     practiceItemId: params.result.practiceItemId,
     mode: params.mode,

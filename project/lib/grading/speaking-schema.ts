@@ -19,6 +19,8 @@ export interface SpeakingTaskContext {
   prompt: string | string[];
   topic?: string;
   imageUrls?: string[];
+  /** Parts 2/3 cannot be graded safely without their required visual context. */
+  visualContextRequired?: boolean;
   preparationTimeSeconds: number;
   responseTimeSeconds: number;
 }
@@ -117,6 +119,8 @@ export interface SpeakingGradingResult {
   testId: string;
   practiceItemId?: string;
   taskId?: string;
+  /** Stable fingerprint for idempotent persistence of a submission. */
+  submissionId?: string;
   partNumber: number;
   taskType: string;
   audioQuality: "sufficient" | "insufficient";
@@ -140,4 +144,11 @@ export interface SpeakingGradingResult {
   transcriptStatus: "available" | "unavailable" | "failed";
   transcriptNotice: "AI-generated transcript — not guaranteed verbatim";
   disclaimer: "PRACTICE ESTIMATE — NOT AN OFFICIAL BRITISH COUNCIL SCORE";
+  performance?: {
+    audioBytes: number;
+    requestPayloadBytes: number;
+    providerLatencyMs: number;
+    totalLatencyMs: number;
+    model: string;
+  };
 }

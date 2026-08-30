@@ -120,20 +120,30 @@ export async function runSpeakingGradingTests() {
 
     assert.throws(
       () => validateAudioPayload("UklGRiQAAABXQVZFZm10IA=="),
-      (err: any) => err.code === "INVALID_SUBMISSION"
+      (err: any) => err.code === "INVALID_AUDIO"
     );
 
     // Empty audio validation
     assert.throws(
       () => validateAudioPayload(""),
-      (err: any) => err.code === "INVALID_SUBMISSION"
+      (err: any) => err.code === "INVALID_AUDIO"
     );
 
     // Oversized audio (>10MB)
     const oversizedBase64 = "A".repeat(15 * 1024 * 1024);
     assert.throws(
       () => validateAudioPayload(oversizedBase64),
-      (err: any) => err.code === "INVALID_SUBMISSION"
+      (err: any) => err.code === "INVALID_AUDIO"
+    );
+    assert.throws(
+      () => validateAudioPayload("not-base64!"),
+      (err: any) => err.code === "INVALID_AUDIO",
+      "corrupt base64 must be rejected before Gemini",
+    );
+    assert.throws(
+      () => validateAudioPayload(validMockAudioBase64, "audio/webm", 0.1),
+      (err: any) => err.code === "INVALID_AUDIO",
+      "sub-half-second recording must fail closed",
     );
   }
 
@@ -254,7 +264,7 @@ export async function runSpeakingGradingTests() {
     };
     assert.throws(
       () => parseAndValidateGeminiSpeakingOutput(invalidScore),
-      (err: any) => err.code === "INVALID_ANSWER_FORMAT"
+      (err: any) => err.code === "INVALID_AI_RESPONSE"
     );
 
     // Missing required examiner fields must fail closed rather than default to
@@ -272,7 +282,7 @@ export async function runSpeakingGradingTests() {
         areasForImprovement: [],
         transcript: "I described the picture clearly.",
       }),
-      (err: any) => err.code === "INVALID_ANSWER_FORMAT",
+      (err: any) => err.code === "INVALID_AI_RESPONSE",
       "incomplete examiner output must not be scored with default criteria",
     );
   }
@@ -488,6 +498,95 @@ export async function runSpeakingGradingTests() {
     assert.ok(!SpeakingGradingInputSchema.safeParse(emptyAudioPayload).success);
   }
 
+  // ----------------------------------------------------
+  // 9. End-to-end pipeline guards (Parts 1–4, timeout, response, idempotency)
+  // ----------------------------------------------------
+  {
+    const validOutput = {
+      audioQuality: "sufficient",
+      overallScore: 4,
+      maxOverallScore: 5,
+      estimatedBand: "B1",
+      criteria: [{ name: "Task Fulfilment", score: 4, maxScore: 5, feedback: "Clear response." }],
+      pronunciationFeedback: [],
+      spokenGrammarErrors: [],
+      vocabularyUpgrades: [],
+      strengths: ["The response is understandable."],
+      areasForImprovement: ["Add one supporting detail."],
+      improvementPlan: ["Give one example after the main idea."],
+      transcript: "I live in a small town and enjoy its quiet streets.",
+    };
+    const calls: any[] = [];
+    const pipelineClient: any = {
+      models: {
+        generateContent: async (request: any) => {
+          calls.push(request);
+          return { text: JSON.stringify(validOutput) };
+        },
+      },
+    };
+
+    const contexts = [
+      resolveSpeakingTaskContext("aptis-4skills-01", 1, "t4s01_s1_q1"),
+      resolveSpeakingTaskContext("aptis-4skills-01", 2, "t4s01_s2_q1"),
+      resolveSpeakingTaskContext("aptis-4skills-01", 3, "t4s01_s3_q1"),
+      resolveSpeakingTaskContext("aptis-4skills-01", 4),
+    ];
+    for (const context of contexts) {
+      const result = await gradeSpeakingSubmission(
+        context,
+        { audioBase64: validMockAudioBase64, mimeType: "audio/webm", durationSeconds: 3 },
+        pipelineClient,
+        "pipeline-user",
+      );
+      assert.equal(result.audioQuality, "sufficient");
+      assert.ok(result.transcript.length > 0);
+      assert.ok(result.performance && result.performance.audioBytes >= 512);
+      assert.ok(result.submissionId?.startsWith("spk_"));
+    }
+    assert.equal(calls.length, 4, "each part must make one isolated Gemini request");
+    const p2Parts = calls[1].contents[0].parts;
+    const p3Parts = calls[2].contents[0].parts;
+    assert.equal(p2Parts.filter((part: any) => part.inlineData?.mimeType?.startsWith("image/")).length, 1);
+    assert.equal(p3Parts.filter((part: any) => part.inlineData?.mimeType?.startsWith("image/")).length, 2);
+    assert.equal(p2Parts.at(-1).inlineData.mimeType, "audio/webm");
+    assert.equal(p3Parts.at(-1).inlineData.mimeType, "audio/webm");
+
+    const hangingClient: any = { models: { generateContent: () => new Promise(() => undefined) } };
+    await assert.rejects(
+      () => gradeSpeakingSubmission(
+        contexts[0],
+        { audioBase64: validMockAudioBase64, mimeType: "audio/webm" },
+        hangingClient,
+        undefined,
+        { timeoutMs: 10 },
+      ),
+      (err: any) => err.code === "GRADING_TIMEOUT" && !err.message.includes("INVALID_ANSWER_FORMAT"),
+      "provider timeout must be classified as GRADING_TIMEOUT",
+    );
+
+    const malformedClient: any = { models: { generateContent: async () => ({ text: "not-json" }) } };
+    await assert.rejects(
+      () => gradeSpeakingSubmission(contexts[0], { audioBase64: validMockAudioBase64, mimeType: "audio/webm" }, malformedClient),
+      (err: any) => err.code === "INVALID_AI_RESPONSE",
+    );
+
+    const providerErrorClient: any = { models: { generateContent: async () => { throw new Error("provider unavailable"); } } };
+    await assert.rejects(
+      () => gradeSpeakingSubmission(contexts[0], { audioBase64: validMockAudioBase64, mimeType: "audio/webm" }, providerErrorClient),
+      (err: any) => err.code === "AI_PROVIDER_ERROR",
+    );
+
+    assert.throws(
+      () => resolveSpeakingTaskContext("aptis-4skills-01", 2, "t4s01_s3_q1"),
+      (err: any) => err.code === "UNKNOWN_QUESTION",
+      "a Part 3 task id cannot be graded with a Part 2 context",
+    );
+    const retryA = await gradeSpeakingSubmission(contexts[0], { audioBase64: validMockAudioBase64, mimeType: "audio/webm" }, pipelineClient, "pipeline-user");
+    const retryB = await gradeSpeakingSubmission(contexts[0], { audioBase64: validMockAudioBase64, mimeType: "audio/webm" }, pipelineClient, "pipeline-user");
+    assert.equal(retryA.submissionId, retryB.submissionId, "same task + recording must be idempotent");
+  }
+
   console.log("  ✓ Speaking Part 1 (3 questions x 30s) context verified");
   console.log("  ✓ Speaking Part 2 (1 photo x 3 questions x 45s) context verified");
   console.log("  ✓ Speaking Part 3 (2 photos x 3 questions x 45s) context verified");
@@ -496,6 +595,7 @@ export async function runSpeakingGradingTests() {
   console.log("  ✓ Audio quality handling ('sufficient' vs 'insufficient') verified");
   console.log("  ✓ Structured output validation & mock Gemini execution verified");
   console.log("  ✓ BUG-S01: Dynamic taskId, MIME type & bank topic resolution verified");
+  console.log("  ✓ Speaking Parts 1–4 pipeline isolation, timeout taxonomy, malformed AI, and idempotency verified");
   console.log("✅ [TEST 5 PASSED] AI Speaking Grading Engine unit tests completed.\n");
 }
 

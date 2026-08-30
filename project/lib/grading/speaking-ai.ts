@@ -5,8 +5,10 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { createHash } from "node:crypto";
 import { GoogleGenAI } from "@google/genai";
 import { getGeminiClient } from "../gemini/client";
+import { getGeminiConfig } from "../gemini/config";
 import { GEMINI_MODELS } from "../gemini/models";
 import { createGradingError } from "./errors";
 import {
@@ -16,6 +18,7 @@ import {
 import {
   GeminiSpeakingOutput,
   GeminiSpeakingOutputSchema,
+  AllowedSpeakingMimeTypes,
   SpeakingGradingResult,
   SpeakingTaskContext,
 } from "./speaking-schema";
@@ -53,7 +56,7 @@ export function loadSpeakingImageInlineParts(
     const resolvedUrl = resolveSpeakingImageUrl(imageUrl);
     if (!resolvedUrl) {
       throw createGradingError(
-        "INVALID_SUBMISSION",
+        "INVALID_TASK_CONTEXT",
         "Speaking task image context is unavailable"
       );
     }
@@ -62,13 +65,13 @@ export function loadSpeakingImageInlineParts(
     const relativePath = path.relative(publicRoot, imagePath);
     if (relativePath.startsWith("..") || path.isAbsolute(relativePath)) {
       throw createGradingError(
-        "INVALID_SUBMISSION",
+        "INVALID_TASK_CONTEXT",
         "Speaking task image path is outside the public asset directory"
       );
     }
     if (!fs.existsSync(imagePath)) {
       throw createGradingError(
-        "INVALID_SUBMISSION",
+        "INVALID_TASK_CONTEXT",
         "Speaking task image asset is missing"
       );
     }
@@ -76,7 +79,7 @@ export function loadSpeakingImageInlineParts(
     const stat = fs.statSync(imagePath);
     if (!stat.isFile() || stat.size <= 0 || stat.size > MAX_SPEAKING_IMAGE_BYTES) {
       throw createGradingError(
-        "INVALID_SUBMISSION",
+        "INVALID_TASK_CONTEXT",
         "Speaking task image asset has an invalid size"
       );
     }
@@ -89,6 +92,31 @@ export function loadSpeakingImageInlineParts(
       },
     };
   });
+}
+
+/** Resolve only an exact task id or an unambiguous legacy suffix. */
+type SpeakingQuestionLike = {
+  id: string;
+  prompt: string;
+  preparationTimeSeconds: number;
+  responseTimeSeconds: number;
+};
+
+function findSpeakingQuestion<T extends SpeakingQuestionLike>(
+  questions: T[],
+  taskId?: string,
+): T | undefined {
+  if (!taskId) return questions[0];
+  const exact = questions.find((question) => question.id === taskId);
+  if (exact) return exact;
+
+  // Older UI payloads used ids such as `s2_q1` while datasets used
+  // `t01_s2_q1`. Accept that documented alias only when it identifies one
+  // question; never fall through to another question or another part.
+  const suffixMatches = questions.filter((question) =>
+    typeof question.id === "string" && question.id.endsWith(`_${taskId}`),
+  );
+  return suffixMatches.length === 1 ? suffixMatches[0] : undefined;
 }
 
 function detectImageMimeType(bytes: Buffer, imagePath: string): string {
@@ -169,6 +197,7 @@ export function resolveSpeakingTaskContext(
         : "Speak for two minutes on the topic. You have one minute to prepare.",
       topic: topic.title,
       imageUrls: imageUrls.length > 0 ? imageUrls : undefined,
+      visualContextRequired: partNumber === 2 || partNumber === 3,
       prompt: partNumber === 4 ? topic.prompts : prompt,
       preparationTimeSeconds: partNumber === 4 ? 60 : 0,
       responseTimeSeconds: partNumber === 4 ? 120 : 45,
@@ -190,9 +219,17 @@ export function resolveSpeakingTaskContext(
         const bank = JSON.parse(fs.readFileSync(speakingBankPath, "utf-8"));
         const topic = bank.topics?.find((t: any) => t.candidateId === testId);
         if (topic) {
-          const qIdx = taskId && taskId.includes("_q")
-            ? parseInt(taskId.split("_q")[1], 10) - 1
-            : 0;
+          if (Number(topic.partNumber) !== partNumber) {
+            throw createGradingError("UNKNOWN_QUESTION", `Speaking task part mismatch for testId: ${testId}`);
+          }
+          const taskMatch = taskId?.match(/(?:^|_)q([1-9]\d*)$/);
+          if (taskId && !taskMatch) {
+            throw createGradingError("UNKNOWN_QUESTION", `Speaking task does not belong to testId: ${taskId}`);
+          }
+          const qIdx = taskMatch ? Number(taskMatch[1]) - 1 : 0;
+          if (!Number.isSafeInteger(qIdx) || qIdx < 0 || qIdx >= (topic.questions?.length || 0)) {
+            throw createGradingError("UNKNOWN_QUESTION", `Speaking task is outside the prompt range: ${taskId}`);
+          }
           const qItem = topic.questions?.[qIdx] || topic.questions?.[0];
           const qText = typeof qItem === "string" ? qItem : qItem?.questionText || qItem?.prompt || "";
 
@@ -218,6 +255,7 @@ export function resolveSpeakingTaskContext(
                 .map((image: unknown) => resolveSpeakingImageUrl(image))
                 .filter((url: string | null): url is string => Boolean(url))
               : undefined,
+            visualContextRequired: topic.partNumber === 2 || topic.partNumber === 3,
             prompt: topic.partNumber === 4 ? topic.questions.map((q: any) => typeof q === "string" ? q : q.questionText || q.prompt) : qText,
             preparationTimeSeconds: topic.partNumber === 4 ? 60 : 0,
             responseTimeSeconds: topic.partNumber === 4 ? 120 : 45,
@@ -237,12 +275,14 @@ export function resolveSpeakingTaskContext(
   const raw = fs.readFileSync(publicDataPath, "utf-8");
   const dataset: AptisPublicTestDataset = JSON.parse(raw);
   const speakingParts = dataset.speaking.parts;
+  const requestedPart: any = speakingParts.find((part) => part.partNumber === partNumber);
+  if (!requestedPart) {
+    throw createGradingError("UNKNOWN_QUESTION", `Speaking Part ${partNumber} is unavailable for testId: ${testId}`);
+  }
 
   if (partNumber === 1) {
-    const p1 = speakingParts[0];
-    const questionItem = taskId
-      ? p1.questions.find((q) => q.id === taskId || q.id.endsWith(taskId) || taskId.endsWith(q.id))
-      : p1.questions[0];
+    const p1 = requestedPart;
+    const questionItem = findSpeakingQuestion(p1.questions as SpeakingQuestionLike[], taskId);
 
     if (!questionItem) {
       throw createGradingError(
@@ -264,10 +304,8 @@ export function resolveSpeakingTaskContext(
   }
 
   if (partNumber === 2) {
-    const p2 = speakingParts[1];
-    const questionItem = taskId
-      ? p2.questions.find((q) => q.id === taskId || q.id.endsWith(taskId) || taskId.endsWith(q.id))
-      : p2.questions[0];
+    const p2 = requestedPart;
+    const questionItem = findSpeakingQuestion(p2.questions as SpeakingQuestionLike[], taskId);
 
     if (!questionItem) {
       throw createGradingError(
@@ -285,6 +323,7 @@ export function resolveSpeakingTaskContext(
       imageUrls: resolveSpeakingImageUrl(p2.imageUrl)
         ? [resolveSpeakingImageUrl(p2.imageUrl)!]
         : undefined,
+      visualContextRequired: true,
       prompt: questionItem.prompt,
       preparationTimeSeconds: questionItem.preparationTimeSeconds,
       responseTimeSeconds: questionItem.responseTimeSeconds,
@@ -292,10 +331,8 @@ export function resolveSpeakingTaskContext(
   }
 
   if (partNumber === 3) {
-    const p3 = speakingParts[2];
-    const questionItem = taskId
-      ? p3.questions.find((q) => q.id === taskId || q.id.endsWith(taskId) || taskId.endsWith(q.id))
-      : p3.questions[0];
+    const p3 = requestedPart;
+    const questionItem = findSpeakingQuestion(p3.questions as SpeakingQuestionLike[], taskId);
 
     if (!questionItem) {
       throw createGradingError(
@@ -315,6 +352,7 @@ export function resolveSpeakingTaskContext(
       taskId: questionItem.id,
       instructions: p3.instructions,
       imageUrls: imageUrls.length > 0 ? imageUrls : undefined,
+      visualContextRequired: true,
       prompt: questionItem.prompt,
       preparationTimeSeconds: questionItem.preparationTimeSeconds,
       responseTimeSeconds: questionItem.responseTimeSeconds,
@@ -322,7 +360,7 @@ export function resolveSpeakingTaskContext(
   }
 
   if (partNumber === 4) {
-    const p4 = speakingParts[3];
+    const p4 = requestedPart;
     return {
       testId,
       partNumber: 4,
@@ -344,33 +382,59 @@ export function resolveSpeakingTaskContext(
   );
 }
 
-export function validateAudioPayload(audioBase64: string): void {
-  if (!audioBase64 || audioBase64.trim().length === 0) {
-    throw createGradingError(
-      "INVALID_SUBMISSION",
-      "Audio payload is empty"
-    );
+export interface SpeakingAudioPayloadInfo {
+  audioBase64: string;
+  audioBytes: number;
+  mimeType?: string;
+  durationSeconds?: number;
+}
+
+/**
+ * Validate and decode the browser recording boundary before invoking Gemini.
+ * Buffer.from(base64) is intentionally not used as the validator because
+ * Node silently ignores invalid characters and would otherwise pass corrupt
+ * data to the provider.
+ */
+export function validateAudioPayload(
+  audioBase64: string,
+  mimeType?: string,
+  durationSeconds?: number,
+): SpeakingAudioPayloadInfo {
+  const normalized = typeof audioBase64 === "string" ? audioBase64.trim() : "";
+  if (!normalized) {
+    throw createGradingError("INVALID_AUDIO", "Audio payload is empty");
+  }
+  if (normalized.length % 4 !== 0 || !/^[A-Za-z0-9+/]*={0,2}$/.test(normalized)) {
+    throw createGradingError("INVALID_AUDIO", "Audio payload is not valid base64");
+  }
+  if (mimeType && !(AllowedSpeakingMimeTypes as readonly string[]).includes(mimeType)) {
+    throw createGradingError("INVALID_AUDIO", "Audio MIME type is not supported");
+  }
+  if (durationSeconds !== undefined &&
+      (!Number.isFinite(durationSeconds) || durationSeconds <= 0 || durationSeconds > 15 * 60)) {
+    throw createGradingError("INVALID_AUDIO", "Audio duration is invalid");
   }
 
-  const padding = (audioBase64.match(/=+$/) || [""])[0].length;
-  const byteSize = (audioBase64.length * 3) / 4 - padding;
-
+  const bytes = Buffer.from(normalized, "base64");
+  const byteSize = bytes.byteLength;
   // A few bytes can be a syntactically valid base64 string but cannot contain
   // a usable recording. Reject it before asking the examiner to invent a
   // transcript or rubric score for an empty/accidental click.
-  if (byteSize < 512) {
+  if (byteSize < 512 || (durationSeconds !== undefined && durationSeconds < 0.5)) {
     throw createGradingError(
-      "INVALID_SUBMISSION",
+      "INVALID_AUDIO",
       "Audio recording is too short to evaluate. Please record a complete spoken response."
     );
   }
 
   if (byteSize > MAX_AUDIO_BYTES) {
     throw createGradingError(
-      "INVALID_SUBMISSION",
-      `Audio payload exceeds maximum allowed size of 10MB (Received: ${(byteSize / (1024 * 1024)).toFixed(2)}MB)`
+      "INVALID_AUDIO",
+      "Audio payload exceeds the maximum allowed size of 10MB"
     );
   }
+
+  return { audioBase64: normalized, audioBytes: byteSize, mimeType, durationSeconds };
 }
 
 export function parseAndValidateGeminiSpeakingOutput(
@@ -388,13 +452,13 @@ export function parseAndValidateGeminiSpeakingOutput(
           parsed = JSON.parse(match[1].trim());
         } catch {
           throw createGradingError(
-            "INVALID_ANSWER_FORMAT",
+            "INVALID_AI_RESPONSE",
             "Failed to parse Gemini speaking output as JSON"
           );
         }
       } else {
         throw createGradingError(
-          "INVALID_ANSWER_FORMAT",
+          "INVALID_AI_RESPONSE",
           "Failed to parse Gemini speaking output as JSON"
         );
       }
@@ -556,9 +620,8 @@ export function parseAndValidateGeminiSpeakingOutput(
   const result = GeminiSpeakingOutputSchema.safeParse(parsed);
   if (!result.success) {
     throw createGradingError(
-      "INVALID_ANSWER_FORMAT",
-      `Gemini speaking output schema validation failed: ${result.error.message}`,
-      result.error.issues
+      "INVALID_AI_RESPONSE",
+      "Gemini returned an incomplete or invalid speaking assessment"
     );
   }
 
@@ -574,9 +637,15 @@ export async function gradeSpeakingSubmission(
     clientTranscript?: string;
   },
   customClient?: GoogleGenAI,
-  userId?: string
+  userId?: string,
+  options?: { timeoutMs?: number },
 ): Promise<SpeakingGradingResult> {
-  validateAudioPayload(audioPayload.audioBase64);
+  const startedAt = Date.now();
+  const validatedAudio = validateAudioPayload(
+    audioPayload.audioBase64,
+    audioPayload.mimeType,
+    audioPayload.durationSeconds,
+  );
 
   // 1. Retrieve targeted speaking rubrics and strategy notes from Knowledge Brain
   const rubricNotes = retrieveRelevantKnowledge(
@@ -594,42 +663,102 @@ export async function gradeSpeakingSubmission(
   const audioInlinePart = {
     inlineData: {
       mimeType: audioPayload.mimeType,
-      data: audioPayload.audioBase64,
+      data: validatedAudio.audioBase64,
     },
   };
   const imageInlineParts = loadSpeakingImageInlineParts(taskContext.imageUrls);
+  const expectedImageCount = taskContext.partNumber === 2 ? 1 : taskContext.partNumber === 3 ? 2 : 0;
+  if (taskContext.visualContextRequired && imageInlineParts.length !== expectedImageCount) {
+    throw createGradingError(
+      "INVALID_TASK_CONTEXT",
+      `Speaking Part ${taskContext.partNumber} requires ${expectedImageCount} task image(s)`
+    );
+  }
 
-  const candidateModels = [GEMINI_MODELS.FLASH, GEMINI_MODELS.FLASH_3_6];
+  // Honour the model configured for Speaking in Vercel. The previous code
+  // ignored GEMINI_MODEL_SPEAKING and always tried an unconfigured model,
+  // which could spend the entire 45-second budget before failing.
+  const configuredModel = getGeminiConfig().taskModels.speakingGrading;
+  const candidateModels = Array.from(new Set([
+    configuredModel,
+    GEMINI_MODELS.FLASH_3_7,
+    GEMINI_MODELS.FLASH,
+  ].filter(Boolean)));
   let rawResponseText = "";
   let lastError: unknown = null;
+  let selectedModel = candidateModels[0] || GEMINI_MODELS.FLASH;
+  let providerLatencyMs = 0;
+  const requestPayloadBytes = Buffer.byteLength(promptText, "utf8")
+    + Buffer.byteLength(SPEAKING_EXAMINER_SYSTEM_INSTRUCTION, "utf8")
+    + validatedAudio.audioBase64.length
+    + imageInlineParts.reduce((sum, part) => sum + part.inlineData.data.length, 0);
 
   for (const modelName of candidateModels) {
+    const attemptStartedAt = Date.now();
     try {
-      const response = await withAiGradingTimeout(client.models.generateContent({
-        model: modelName,
-        contents: [promptText, ...imageInlineParts, audioInlinePart],
-        config: {
-          systemInstruction: SPEAKING_EXAMINER_SYSTEM_INSTRUCTION,
-          responseMimeType: "application/json",
-        },
-      }));
+      const response = await withAiGradingTimeout((abortSignal) => client.models.generateContent({
+          model: modelName,
+          // Keep all context in one user message. This prevents the SDK from
+          // interpreting image/audio parts as separate turns and makes the
+          // task-to-recording binding explicit for every Speaking part.
+          contents: [{
+            role: "user",
+            parts: [
+              { text: promptText },
+              ...imageInlineParts,
+              audioInlinePart,
+            ],
+          }],
+          config: {
+            systemInstruction: SPEAKING_EXAMINER_SYSTEM_INSTRUCTION,
+            responseMimeType: "application/json",
+            temperature: 0.2,
+            candidateCount: 1,
+            maxOutputTokens: 1400,
+            abortSignal,
+          },
+        }), options?.timeoutMs);
 
+      providerLatencyMs = Date.now() - attemptStartedAt;
       rawResponseText = response.text ?? "";
-      if (rawResponseText) break;
+      if (rawResponseText.trim()) {
+        selectedModel = modelName;
+        break;
+      }
+      lastError = new Error("Gemini returned an empty speaking assessment");
     } catch (error) {
+      providerLatencyMs = Date.now() - attemptStartedAt;
       lastError = error;
-      if (customClient || error instanceof AiGradingTimeoutError) break;
+      // A timeout consumes the request budget; do not start another multimodal
+      // request and turn one slow call into a guaranteed serverless timeout.
+      if (error instanceof AiGradingTimeoutError) break;
+      if (customClient) break;
     }
   }
 
   if (!rawResponseText) {
-    throw createGradingError(
-      "INVALID_ANSWER_FORMAT",
-      `Gemini speaking evaluation failed: ${lastError instanceof Error ? lastError.message : String(lastError)}`
-    );
+    if (lastError instanceof AiGradingTimeoutError) {
+      throw createGradingError(
+        "GRADING_TIMEOUT",
+        "The speaking examiner did not respond within the allowed time. Please try again."
+      );
+    }
+    if (lastError) {
+      throw createGradingError(
+        "AI_PROVIDER_ERROR",
+        "The speaking examiner is temporarily unavailable. Please try again."
+      );
+    }
+    throw createGradingError("INVALID_AI_RESPONSE", "The speaking examiner returned no assessment");
   }
 
   const validatedOutput = parseAndValidateGeminiSpeakingOutput(rawResponseText);
+  if (validatedOutput.audioQuality === "sufficient" &&
+      validatedOutput.strengths.length === 0 &&
+      validatedOutput.areasForImprovement.length === 0 &&
+      validatedOutput.improvementPlan.length === 0) {
+    throw createGradingError("INVALID_AI_RESPONSE", "The speaking examiner returned no feedback");
+  }
   // A provider can return optimistic fallback criteria while simultaneously
   // flagging that the recording contains no recognizable speech. Treat that
   // state as an explicit zero-quality submission, never as a passing score.
@@ -689,10 +818,23 @@ export async function gradeSpeakingSubmission(
     ? validatedOutput.linkedKnowledge
     : rubricNotes.map((k) => k.topic);
 
+  const submissionId = `spk_${createHash("sha256")
+    .update([
+      userId || "anonymous",
+      taskContext.testId,
+      taskContext.practiceItemId || "",
+      String(taskContext.partNumber),
+      taskContext.taskId || "",
+      validatedAudio.audioBase64,
+    ].join("|"))
+    .digest("hex")
+    .slice(0, 40)}`;
+
   return {
     testId: taskContext.testId,
     practiceItemId: taskContext.practiceItemId,
     taskId: taskContext.taskId,
+    submissionId,
     partNumber: taskContext.partNumber,
     taskType: taskContext.taskType,
     audioQuality,
@@ -712,15 +854,18 @@ export async function gradeSpeakingSubmission(
     areasForImprovement,
     improvementPlan: validatedOutput.improvementPlan.length > 0
       ? validatedOutput.improvementPlan
-      : [
-          "Luyện tập phát âm rõ ràng các âm cuối (ending sounds -s, -ed)",
-          "Thực hành bấm giờ 45 giây miêu tả ảnh theo cấu trúc 4 bước",
-          "Áp dụng từ vựng nâng cấp B2 để diễn đạt ý kiến mượt mà hơn",
-        ],
+      : validatedOutput.areasForImprovement.slice(0, 3),
     linkedKnowledge,
     transcript: validatedOutput.transcript,
     transcriptStatus,
     transcriptNotice: "AI-generated transcript — not guaranteed verbatim",
     disclaimer: "PRACTICE ESTIMATE — NOT AN OFFICIAL BRITISH COUNCIL SCORE",
+    performance: {
+      audioBytes: validatedAudio.audioBytes,
+      requestPayloadBytes,
+      providerLatencyMs,
+      totalLatencyMs: Date.now() - startedAt,
+      model: selectedModel,
+    },
   };
 }
