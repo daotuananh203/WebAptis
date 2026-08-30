@@ -244,6 +244,23 @@ export async function runSpeakingGradingTests() {
     assert.ok(namedRubricResponse.criteria.every((criterion) => criterion.feedback.length > 0));
     assert.deepEqual(namedRubricResponse.strengths, ["Clear organization"]);
 
+    const sharedFeedbackResponse = parseAndValidateGeminiSpeakingOutput({
+      transcript: "I answered the question with two supporting details.",
+      overallScore: 18,
+      maxOverallScore: 25,
+      estimatedBand: "B1",
+      criteria: [
+        { name: "Task Fulfilment", score: 4 },
+        { name: "Pronunciation", score: 3 },
+        { name: "Fluency", score: 4 },
+        { name: "Grammar", score: 3 },
+        { name: "Vocabulary", score: 4 },
+      ],
+      feedback: "The response is understandable and relevant, with room for more detail.",
+      strengths: ["Relevant answer"],
+    });
+    assert.equal(sharedFeedbackResponse.criteria[1].feedback, "The response is understandable and relevant, with room for more detail.");
+
     // A numeric rubric without provider feedback remains invalid; a generic
     // default sentence must never be manufactured to make it pass.
     assert.throws(
