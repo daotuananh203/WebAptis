@@ -48,6 +48,14 @@ test("History shows every persisted Practice/Mock result after refresh and re-lo
   const apiData = await apiResponse.json();
   const ids = records.map((record) => record.id);
   expect(apiData.data.filter((record: { id: string }) => ids.includes(record.id))).toHaveLength(3);
+  const speakingRecord = apiData.data.find((record: { id: string }) => record.id === records[2].id);
+  expect(speakingRecord).toMatchObject({
+    testId: records[2].testId,
+    practiceItemId: records[2].practiceItemId,
+    mode: records[2].mode,
+    skill: records[2].skill,
+    partIdentifier: records[2].partIdentifier,
+  });
 
   await page.goto("/dashboard", { waitUntil: "domcontentloaded" });
   await expect(page.getByText("Lịch sử làm bài").last()).toBeVisible({ timeout: 30_000 });

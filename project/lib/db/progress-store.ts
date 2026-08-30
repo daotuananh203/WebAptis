@@ -12,6 +12,26 @@ function isMissingPracticeItemColumn(error: unknown): boolean {
   return candidate?.code === "42703" || Boolean(candidate?.message?.includes("practice_item_id"));
 }
 
+// Vercel deployments do not execute the repository's SQL files automatically.
+// If an older production database is missing the provenance column, upgrade it
+// once, on demand, before persisting a record that needs practiceItemId.  The
+// IF NOT EXISTS DDL is safe across concurrent serverless instances.
+let practiceItemColumnMigration: Promise<void> | null = null;
+
+async function ensurePracticeItemColumn(): Promise<void> {
+  if (!practiceItemColumnMigration) {
+    practiceItemColumnMigration = query(
+      "ALTER TABLE progress_attempts ADD COLUMN IF NOT EXISTS practice_item_id VARCHAR(255)",
+    )
+      .then(() => undefined)
+      .catch((error) => {
+        practiceItemColumnMigration = null;
+        throw error;
+      });
+  }
+  return practiceItemColumnMigration;
+}
+
 export interface IProgressStore {
   saveAttempt(userId: string, record: ProgressAttemptRecord): Promise<boolean>;
   getAttemptsByUser(userId: string, limit?: number): Promise<ProgressAttemptRecord[]>;
@@ -63,9 +83,19 @@ export class PostgresProgressStore implements IProgressStore {
       await query(sql, params);
     } catch (error) {
       // 001 was already deployed before Practice Bank provenance existed.
-      // Keep existing production writes available until migration 002 is
-      // applied, while using the richer schema everywhere after migration.
+      // Upgrade an older production database on demand rather than silently
+      // dropping practiceItemId from the persisted result.
       if (!isMissingPracticeItemColumn(error)) throw error;
+      try {
+        await ensurePracticeItemColumn();
+        await query(sql, params);
+        return true;
+      } catch (migrationError) {
+        // A record carrying practice provenance must fail closed if the
+        // schema cannot be upgraded; silently storing it without the ID would
+        // make History unable to identify the Practice item.
+        if (record.practiceItemId) throw migrationError;
+      }
       await query(
         `
           INSERT INTO progress_attempts (

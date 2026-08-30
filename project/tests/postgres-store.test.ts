@@ -96,6 +96,10 @@ export async function runPostgresStoreTests() {
       "Upsert must not let one user overwrite another user's attempt by reusing an id"
     );
     assert.ok(storeSource.includes("practice_item_id"), "Progress store must round-trip Practice Bank provenance");
+    assert.ok(
+      storeSource.includes("ALTER TABLE progress_attempts ADD COLUMN IF NOT EXISTS practice_item_id"),
+      "Older production schemas must be upgraded without dropping Practice Bank provenance",
+    );
 
     // Verify empty/missing userId guards
     await assert.rejects(
