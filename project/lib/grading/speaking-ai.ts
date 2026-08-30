@@ -653,7 +653,15 @@ export async function gradeSpeakingSubmission(
     2
   );
 
-  const client = customClient ?? getGeminiClient();
+  let client: GoogleGenAI;
+  try {
+    client = customClient ?? getGeminiClient();
+  } catch {
+    throw createGradingError(
+      "AI_PROVIDER_ERROR",
+      "The speaking examiner is not configured. Please try again later."
+    );
+  }
   const promptText = buildSpeakingGradingPrompt(
     taskContext,
     audioPayload.clientTranscript,
