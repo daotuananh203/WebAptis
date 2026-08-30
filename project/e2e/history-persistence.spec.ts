@@ -53,7 +53,7 @@ test("History shows every persisted Practice/Mock result after refresh and re-lo
   await expect(page.getByText("Lịch sử làm bài").last()).toBeVisible({ timeout: 30_000 });
   await expect(page.getByTestId("history-attempt")).toHaveCount(3, { timeout: 30_000 });
   for (const record of records) {
-    await expect(page.getByTestId("history-attempt").filter({ has: page.locator(`[data-attempt-id=\"${record.id}\"]`) })).toHaveCount(1);
+    await expect(page.locator(`[data-testid="history-attempt"][data-attempt-id="${record.id}"]`)).toHaveCount(1);
     await expect(page.getByText(record.testId)).toBeVisible();
   }
 
