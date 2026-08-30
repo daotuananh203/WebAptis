@@ -28,6 +28,7 @@ export async function runPostgresStoreTests() {
     const files = fs.readdirSync(migrationsDir).filter((f) => f.endsWith(".sql"));
     assert.ok(files.length >= 1, "At least 1 versioned migration file must exist");
     assert.ok(files.includes("001_initial_schema.sql"), "001_initial_schema.sql must be present");
+    assert.ok(files.includes("002_progress_practice_item.sql"), "Practice provenance migration must be present");
 
     const sqlContent = fs.readFileSync(path.join(migrationsDir, "001_initial_schema.sql"), "utf8");
 
@@ -42,6 +43,9 @@ export async function runPostgresStoreTests() {
     assert.ok(sqlContent.includes("CREATE INDEX IF NOT EXISTS idx_users_email"), "Must index user email");
     assert.ok(sqlContent.includes("CREATE INDEX IF NOT EXISTS idx_progress_user_id"), "Must index progress user_id");
     assert.ok(sqlContent.includes("CREATE INDEX IF NOT EXISTS idx_progress_user_skill"), "Must index progress user_id + skill");
+    const practiceMigration = fs.readFileSync(path.join(migrationsDir, "002_progress_practice_item.sql"), "utf8");
+    assert.ok(practiceMigration.includes("ADD COLUMN IF NOT EXISTS practice_item_id"), "Must preserve Practice Bank item provenance");
+    assert.ok(practiceMigration.includes("idx_progress_user_practice_item"), "Must index Practice Bank provenance by user");
     console.log("  ✓ Versioned migration DDL structure and indexes verified.");
   }
 
@@ -91,6 +95,7 @@ export async function runPostgresStoreTests() {
       storeSource.includes("WHERE progress_attempts.user_id = EXCLUDED.user_id"),
       "Upsert must not let one user overwrite another user's attempt by reusing an id"
     );
+    assert.ok(storeSource.includes("practice_item_id"), "Progress store must round-trip Practice Bank provenance");
 
     // Verify empty/missing userId guards
     await assert.rejects(

@@ -5,6 +5,7 @@ import { AppShell } from "@/components/layout/app-shell";
 import { DashboardView } from "@/components/dashboard/dashboard-view";
 import { Skeleton } from "@/components/ui/skeleton";
 import { loadProgressHistory } from "@/lib/storage";
+import { syncUserProgressWithServer } from "@/lib/storage/sync";
 import {
   calculateDailyStreak,
   calculateOverallStatistics,
@@ -20,9 +21,34 @@ export default function DashboardPage() {
   const [history, setHistory] = useState<ProgressAttemptRecord[]>([]);
 
   useEffect(() => {
-    const loadedHistory = loadProgressHistory(user?.id);
-    setHistory(loadedHistory);
-    setIsMounted(true);
+    let active = true;
+
+    const hydrateHistory = async () => {
+      // PostgreSQL is the source of truth for authenticated users.  Waiting
+      // for the sync here avoids rendering an empty dashboard during the
+      // auth-hydration race (the old implementation read localStorage once,
+      // before AuthProvider had finished pulling the server history).
+      if (user?.id) {
+        const syncedHistory = await syncUserProgressWithServer(user.id);
+        if (active) {
+          setHistory(syncedHistory);
+          setIsMounted(true);
+        }
+        return;
+      }
+
+      if (active) {
+        setHistory(loadProgressHistory());
+        setIsMounted(true);
+      }
+    };
+
+    setIsMounted(false);
+    void hydrateHistory();
+
+    return () => {
+      active = false;
+    };
   }, [user?.id]);
 
   if (!isMounted) {
@@ -58,6 +84,7 @@ export default function DashboardPage() {
         stats={stats}
         heatmap={heatmap}
         recommendations={recommendations}
+        attempts={history}
       />
     </AppShell>
   );

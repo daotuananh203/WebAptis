@@ -283,7 +283,11 @@ export function PracticeShell({
         const result = json.data;
 
         record = {
-          id: `att_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
+          // A session has one logical submission.  A stable id makes a
+          // repeated POST/retry an upsert instead of a second history row.
+          id: session?.sessionId
+            ? `practice_${session.sessionId}`
+            : `att_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
           testId,
           mode: "practice",
           skill: skill as any,
@@ -336,6 +340,7 @@ export function PracticeShell({
           mode: "practice",
           durationSeconds: 600 - (session?.remainingTimeSeconds || 600),
         });
+        if (session?.sessionId) record.id = `practice_${session.sessionId}`;
       } else if (skill === "speaking") {
         const currentQuestion = Array.isArray(partData?.questions)
           ? partData.questions[currentIndex]
@@ -428,11 +433,14 @@ export function PracticeShell({
       submitSession(record, gradingResultData);
 
       if (user?.id) {
-        fetch("/api/user/progress", {
+        const progressResponse = await fetch("/api/user/progress", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(record),
-        }).catch((e) => console.error("Cloud progress sync error:", e));
+        });
+        if (!progressResponse.ok) {
+          throw new Error("Không thể lưu kết quả vào lịch sử. Vui lòng thử lại.");
+        }
       }
 
       const allHistory = loadProgressHistory(user?.id);

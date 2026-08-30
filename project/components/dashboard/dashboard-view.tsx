@@ -19,6 +19,8 @@ import { TwelveWeekHeatmapSummary, DailyStreakSummary, OverallLearningStatistics
 import { RecommendationEngineResult } from "@/lib/recommendations/types";
 import { UserProfile } from "@/lib/auth/types";
 import { Badge } from "../ui/badge";
+import { RecentAttempts } from "./recent-attempts";
+import { ProgressAttemptRecord } from "@/lib/progress/types";
 
 export interface DashboardViewProps {
   user: UserProfile | null;
@@ -26,6 +28,7 @@ export interface DashboardViewProps {
   stats: OverallLearningStatistics;
   heatmap: TwelveWeekHeatmapSummary;
   recommendations: RecommendationEngineResult;
+  attempts: ProgressAttemptRecord[];
 }
 
 export function DashboardView({
@@ -34,6 +37,7 @@ export function DashboardView({
   stats,
   heatmap,
   recommendations,
+  attempts,
 }: DashboardViewProps) {
   const displayName = user?.name || "dao tuan anh";
   const todayFormatted = new Intl.DateTimeFormat("vi-VN", {
@@ -224,7 +228,12 @@ export function DashboardView({
         </div>
       </div>
 
-      {/* 5. TOAST NOTIFICATION (Cập nhật gần đây) */}
+      {/* 5. COMPLETE HISTORY (server-synchronised, user-scoped) */}
+      <div id="history" className="scroll-mt-6">
+        <RecentAttempts attempts={attempts} showAll />
+      </div>
+
+      {/* 6. TOAST NOTIFICATION (Cập nhật gần đây) */}
       <div className="rounded-xl border border-[#22222a] bg-[#141419] p-3.5 flex items-center justify-between text-xs text-slate-300">
         <div className="flex items-center gap-2">
           <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />

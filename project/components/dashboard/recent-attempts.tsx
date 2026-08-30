@@ -8,16 +8,18 @@ import { ProgressAttemptRecord } from "@/lib/progress/types";
 
 export interface RecentAttemptsProps {
   attempts: ProgressAttemptRecord[];
+  /** Dashboard history uses the full server-synchronised list. */
+  showAll?: boolean;
 }
 
-export function RecentAttempts({ attempts }: RecentAttemptsProps) {
+export function RecentAttempts({ attempts, showAll = false }: RecentAttemptsProps) {
   if (attempts.length === 0) {
     return (
       <Card className="border-slate-200 shadow-xs">
         <CardHeader className="pb-3">
           <CardTitle className="text-base font-bold text-slate-900 flex items-center gap-2">
             <History className="h-4 w-4 text-blue-600" />
-            <span>Lịch sử làm bài gần đây</span>
+            <span>{showAll ? "Lịch sử làm bài" : "Lịch sử làm bài gần đây"}</span>
           </CardTitle>
           <CardDescription className="text-xs">
             Các bài luyện tập và thi thử mới nhất của bạn
@@ -44,8 +46,8 @@ export function RecentAttempts({ attempts }: RecentAttemptsProps) {
     .sort(
       (a, b) =>
         new Date(b.completedAt).getTime() - new Date(a.completedAt).getTime()
-    )
-    .slice(0, 5);
+    );
+  const displayedAttempts = showAll ? sortedAttempts : sortedAttempts.slice(0, 5);
 
   return (
     <Card className="border-slate-200 shadow-xs">
@@ -53,10 +55,10 @@ export function RecentAttempts({ attempts }: RecentAttemptsProps) {
         <div>
           <CardTitle className="text-base font-bold text-slate-900 flex items-center gap-2">
             <History className="h-4 w-4 text-blue-600" />
-            <span>Lịch sử làm bài gần đây</span>
+            <span>{showAll ? "Lịch sử làm bài" : "Lịch sử làm bài gần đây"}</span>
           </CardTitle>
           <CardDescription className="text-xs">
-            5 bài làm gần nhất của bạn
+            {showAll ? `${attempts.length} bài làm của bạn` : "5 bài làm gần nhất của bạn"}
           </CardDescription>
         </div>
         <Link href="/practice" className="text-xs font-semibold text-blue-600 hover:text-blue-700 flex items-center gap-1">
@@ -67,7 +69,7 @@ export function RecentAttempts({ attempts }: RecentAttemptsProps) {
 
       <CardContent>
         <div className="divide-y divide-slate-100">
-          {sortedAttempts.map((att) => {
+          {displayedAttempts.map((att) => {
             const isMock = att.mode === "mock-test";
             const dateStr = new Date(att.completedAt).toLocaleDateString("vi-VN", {
               month: "short",
@@ -79,6 +81,10 @@ export function RecentAttempts({ attempts }: RecentAttemptsProps) {
             return (
               <div
                 key={att.id}
+                data-testid="history-attempt"
+                data-attempt-id={att.id}
+                data-attempt-mode={att.mode}
+                data-attempt-skill={att.skill}
                 className="py-3 flex items-center justify-between gap-3 first:pt-0 last:pb-0"
               >
                 <div className="flex items-center gap-3">
@@ -109,7 +115,9 @@ export function RecentAttempts({ attempts }: RecentAttemptsProps) {
                         </Badge>
                       )}
                     </div>
-                    <span className="text-[11px] text-slate-400">{dateStr}</span>
+                    <span className="text-[11px] text-slate-400">
+                      {att.testId} · {dateStr}
+                    </span>
                   </div>
                 </div>
 
