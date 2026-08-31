@@ -55,17 +55,18 @@ export function runSpeakingPracticeBankIntegrityTests(): boolean {
   assert.ok(bank.parts.part3.topics.length >= 32, "Part 3 source bank must contain at least 32 topics");
   assert.equal(bank.parts.part4.topics.length, 29, "Part 4 must retain all 29 source records");
 
-  // Source recovery guard: the 17 records with one source composite plate must
-  // stay available only through same-topic crops. The one record with no
-  // embedded image remains source-limited instead of receiving a guessed pair.
+  // Source recovery guard: all 18 records with one source composite plate must
+  // stay available only through same-source crops. Record 038 is a parser
+  // continuation of the Version 2 block and carries the exact embedded CID
+  // provenance rather than being treated as a missing/guessed image.
   const recoveredPart3Ids = [
-    36, 37, 40, 43, 48, 50, 51, 52, 53, 54, 58, 59, 60, 61, 62, 63, 64,
+    36, 37, 38, 40, 43, 48, 50, 51, 52, 53, 54, 58, 59, 60, 61, 62, 63, 64,
   ].map((number) => `spk-bank-p3-gdrive_spk_p3_${String(number).padStart(3, "0")}`);
   const recoveredSet = new Set(recoveredPart3Ids);
   const recovery = bank.sourceRecovery;
   assert.ok(recovery, "Part 3 source recovery metadata must be present");
-  assert.equal(recovery.recoveredCount, 17, "Exactly 17 same-topic composite pairs are recoverable");
-  assert.deepEqual(recovery.remainingSourceLimited, ["gdrive_spk_p3_038"], "Only the no-image source record may remain limited");
+  assert.equal(recovery.recoveredCount, 18, "All 18 same-source composite pairs are recoverable");
+  assert.deepEqual(recovery.remainingSourceLimited, [], "No Part 3 source record may remain limited after 038 recovery");
   for (const topicId of recoveredPart3Ids) {
     const topic = bank.parts.part3.topics.find((item) => item.topicId === topicId);
     assert.ok(topic, `Recovered Part 3 topic missing: ${topicId}`);
@@ -78,12 +79,19 @@ export function runSpeakingPracticeBankIntegrityTests(): boolean {
     assert.equal(boxes?.a?.length, 4, `Image A crop box missing: ${topicId}`);
     assert.equal(boxes?.b?.length, 4, `Image B crop box missing: ${topicId}`);
   }
-  const limited038 = bank.parts.part3.topics.find((item) => item.topicId === "spk-bank-p3-gdrive_spk_p3_038")!;
-  assert.equal(limited038.availability, "source-limited");
-  assert.equal(limited038.imageA, null);
-  assert.equal(limited038.imageB, null);
-  assert.equal(limited038.sourceEvidence.sourceRelationshipStatus, "NO_IMAGE_OR_UNRESOLVED_SOURCE_PLACEMENT");
-  assert.equal(recoveredSet.size, 17);
+  const recovered038 = bank.parts.part3.topics.find((item) => item.topicId === "spk-bank-p3-gdrive_spk_p3_038")!;
+  assert.equal(recovered038.availability, "available");
+  assert.ok(recovered038.imageA && recovered038.imageB);
+  assert.equal(recovered038.sourceEvidence.sourceRelationshipStatus, "VERIFIED");
+  const recovery038 = recovered038.sourceEvidence.imagePairRecovery as Record<string, unknown> | undefined;
+  const placement038 = recovery038?.sourcePlacement as Record<string, unknown> | undefined;
+  assert.equal(placement038?.imageCid, "s-blob-v1-IMAGE-9wHJPoUFATE");
+  assert.equal(placement038?.sourceOrder, 36);
+  assert.equal(placement038?.documentPosition, 6636);
+  assert.equal(placement038?.sourceSha256, "b7b70be095e2baf6d1bf281d5e98fddd27249728e753fd4b8f6b795c3798b13c");
+  assert.equal(placement038?.relationship, "SHARED_SOURCE_BLOCK_CONTINUATION_OF_gdrive_spk_p3_037");
+  assert.deepEqual(recovery038?.cropBoxes, { a: [0, 0, 442, 324], b: [448, 0, 938, 324] });
+  assert.equal(recoveredSet.size, 18);
 
   for (const part of [bank.parts.part2, bank.parts.part3, bank.parts.part4]) {
     assert.equal(new Set(part.topics.map((item) => item.topicId)).size, part.topics.length, `Part ${part.partNumber} topic IDs must be unique`);

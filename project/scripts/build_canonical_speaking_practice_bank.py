@@ -9,23 +9,29 @@ ROOT = Path(__file__).resolve().parents[1]
 source_pdf_sha = "1a80da050b08b61e226d7401cfbcd9bed536715b56886e39dd969b34e0d5eb84"
 
 # These are the 18 Part 3 records that were source-limited because the Docs
-# import retained one wide source plate (or no image).  The 17 records below
-# have a real, topic-scoped side-by-side plate and may be split deterministically.
-# gdrive_spk_p3_038 is intentionally absent: the forensic inventory contains no
-# embedded image placement for that record.
+# import retained one wide source plate.  Each record has a real, source-scoped
+# side-by-side plate and may be split deterministically.  Record 038 was a
+# parser continuation of the Version 2 block: the embedded plate is inserted
+# immediately before its Q1, so its source image must be carried forward from
+# the same block rather than treated as a missing/guessed asset.
 PART3_COMPOSITE_RECOVERY_IDS = {
     f"gdrive_spk_p3_{number:03d}"
-    for number in [36, 37, 40, 43, 48, 50, 51, 52, 53, 54, 58, 59, 60, 61, 62, 63, 64]
+    for number in [36, 37, 38, 40, 43, 48, 50, 51, 52, 53, 54, 58, 59, 60, 61, 62, 63, 64]
 }
 
 # The 064 source asset is a captured source page rather than a clean plate.
 # These boxes isolate the two source pictures visible in that capture.  They
 # are deliberately explicit rather than inferred from a filename or test id.
 PART3_CROP_OVERRIDES = {
+    # Exact embedded PNG for the Version 2 block (CID 9wHJPoUFATE).  The
+    # six-pixel white gutter is excluded so A/B are the two source panels.
+    "gdrive_spk_p3_038": ((0, 0, 442, 324), (448, 0, 938, 324)),
     "gdrive_spk_p3_064": ((214, 238, 397, 375), (397, 238, 579, 375)),
 }
 
-PART3_SOURCE_LIMITED_IDS = {"gdrive_spk_p3_038"}
+# There are no remaining source-limited Part 3 records after the 038
+# continuation image was recovered from the live Docs embedded blob.
+PART3_SOURCE_LIMITED_IDS: set[str] = set()
 GOOGLE_DOCS_ACCESS_STATUS = "GOOGLE_DOCS_INACCESSIBLE"
 RECOVERY_ROOT = ROOT / "public" / "images" / "speaking" / "source-recovered" / "part3"
 SEARCHED_SOURCE_LOCATIONS = [
@@ -37,8 +43,24 @@ SEARCHED_SOURCE_LOCATIONS = [
     "project/public/images/",
     "gdrive/",
     "Git history/archives",
-    "Google Docs (inaccessible)",
+    "Google Docs export (401); edit HTML + embedded image blob verified",
 ]
+
+# The normal inventory associates the CID with record 037 because the Docs
+# importer split the Version 2 block at its Q1.  Raw modelChunk evidence places
+# that same embedded image immediately before record 038's Q1, so retain the
+# exact CID/order/hash and the continuation relationship in canonical metadata.
+PART3_SOURCE_PLACEMENT_OVERRIDES = {
+    "gdrive_spk_p3_038": {
+        "imageCid": "s-blob-v1-IMAGE-9wHJPoUFATE",
+        "sourceOrder": 36,
+        "documentPosition": 6636,
+        "sourceSha256": "b7b70be095e2baf6d1bf281d5e98fddd27249728e753fd4b8f6b795c3798b13c",
+        "sourceUrl": "https://docs.google.com/docs-images-rt/ALKuztY3y6EkOEGA2L2qLZKX0rm9V6yCKY2skgnm4MIdQ7hVpEq9LrLs_BXbWQew0zFyH2q0Dl8SrB5nA6ixUTPPgXAq0v9ChfrbZqZaYIndNHHzi4lYwuF0jF5hbP54ErFKv9x5lJfxEWTSQLCGrV0Ym3MjIUJSOvBRCu_sMRq_PLIM=s2048",
+        "sourceAnchor": "Version 2: people going on their holiday/ on the beach- on the mountain\\n*\\nQ1: Compare these pictures\\nQ2: Between these 2 locations, where do you prefer? Why?\\nQ3: How do you think the weather affects people's emotions?",
+        "relationship": "SHARED_SOURCE_BLOCK_CONTINUATION_OF_gdrive_spk_p3_037",
+    },
+}
 
 
 def norm(value: str) -> str:
@@ -110,6 +132,9 @@ def recover_composite_pair(topic: dict) -> tuple[str, str, dict]:
         "crossTopicPairing": False,
         "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR",
     }
+    placement = PART3_SOURCE_PLACEMENT_OVERRIDES.get(candidate)
+    if placement:
+        derivation["sourcePlacement"] = placement
     return output_paths[0], output_paths[1], derivation
 
 
@@ -121,7 +146,7 @@ def gdrive_source(topic: dict) -> dict:
         if candidate in PART3_SOURCE_LIMITED_IDS
         else "VERIFIED"
     )
-    return {
+    evidence = {
         "type": "google-drive",
         "fileId": topic["source"].get("fileId"),
         "fileName": topic["source"].get("fileName"),
@@ -133,6 +158,10 @@ def gdrive_source(topic: dict) -> dict:
         "status": topic.get("status"),
         "historicalMapping": "NOT_RECOVERED" if topic["partNumber"] in (2, 3) else None,
     }
+    placement = PART3_SOURCE_PLACEMENT_OVERRIDES.get(candidate)
+    if placement:
+        evidence["sourceImagePlacement"] = placement
+    return evidence
 
 
 def canonical_topic(topic: dict, part: int) -> dict:
@@ -310,8 +339,8 @@ def main() -> None:
         source_topic = source_topics_by_id[source_id]
         crosswalk_topic = crosswalk_by_id.get(source_id, {})
         canonical = next(item for item in p3 if item["topicId"] == f"spk-bank-p3-{source_id}")
-        placement = (crosswalk_topic.get("images") or [{}])[0].get("sourcePlacements", [{}])[0]
-        inventory_sha = (crosswalk_topic.get("images") or [{}])[0].get("sha256")
+        placement = PART3_SOURCE_PLACEMENT_OVERRIDES.get(source_id) or (crosswalk_topic.get("images") or [{}])[0].get("sourcePlacements", [{}])[0]
+        inventory_sha = (PART3_SOURCE_PLACEMENT_OVERRIDES.get(source_id) or {}).get("sourceSha256") or (crosswalk_topic.get("images") or [{}])[0].get("sha256")
         placement_sha = placement.get("sourceSha256")
         recovery_items.append({
             "topicId": canonical["topicId"],
@@ -331,7 +360,7 @@ def main() -> None:
                 "inventoryImageSha256": inventory_sha,
                 "sourcePlacementSha256": placement_sha,
                 "hashStatus": "MATCH" if inventory_sha and inventory_sha == placement_sha else "LOCAL_INVENTORY_DIFFERS_FROM_STORED_PLACEMENT_HASH",
-                "relationshipStatus": crosswalk_topic.get("sourceRelationshipStatus"),
+                "relationshipStatus": canonical.get("sourceEvidence", {}).get("sourceRelationshipStatus") or crosswalk_topic.get("sourceRelationshipStatus"),
                 "imagePairRecovery": canonical.get("sourceEvidence", {}).get("imagePairRecovery"),
                 "searchedSources": SEARCHED_SOURCE_LOCATIONS,
                 "reasonIfLimited": "Local forensic inventory has no image placement for this record; no alternate same-topic asset was found." if source_id in PART3_SOURCE_LIMITED_IDS else None,

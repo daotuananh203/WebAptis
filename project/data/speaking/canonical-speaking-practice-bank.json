@@ -2074,10 +2074,10 @@
           "normalizedPrompts": [
             "how do you think the weather affects people's emotions"
           ],
-          "imageA": null,
-          "imageB": null,
-          "imageASha256": null,
-          "imageBSha256": null,
+          "imageA": "/images/speaking/source-recovered/part3/gdrive_spk_p3_038-a.png",
+          "imageB": "/images/speaking/source-recovered/part3/gdrive_spk_p3_038-b.png",
+          "imageASha256": "fd0edcd20ebac0f95c35444251470db440caf6c8b67048056046012817c51ea8",
+          "imageBSha256": "fa686e79441b21c4800e19894b815f34d665d69ce4e0b0170e3c6d7f76120aed",
           "source": "Google Docs — Tổng hợp Speaking 2026",
           "sourceOrder": 38,
           "sourceEvidence": {
@@ -2086,14 +2086,55 @@
             "fileName": "Tổng hợp Speaking 2026",
             "sourceOrder": 38,
             "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
-            "sourceRelationshipStatus": "NO_IMAGE_OR_UNRESOLVED_SOURCE_PLACEMENT",
+            "sourceRelationshipStatus": "VERIFIED",
             "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
             "confidence": 0.8,
             "status": "new",
-            "historicalMapping": "NOT_RECOVERED"
+            "historicalMapping": "NOT_RECOVERED",
+            "sourceImagePlacement": {
+              "imageCid": "s-blob-v1-IMAGE-9wHJPoUFATE",
+              "sourceOrder": 36,
+              "documentPosition": 6636,
+              "sourceSha256": "b7b70be095e2baf6d1bf281d5e98fddd27249728e753fd4b8f6b795c3798b13c",
+              "sourceUrl": "https://docs.google.com/docs-images-rt/ALKuztY3y6EkOEGA2L2qLZKX0rm9V6yCKY2skgnm4MIdQ7hVpEq9LrLs_BXbWQew0zFyH2q0Dl8SrB5nA6ixUTPPgXAq0v9ChfrbZqZaYIndNHHzi4lYwuF0jF5hbP54ErFKv9x5lJfxEWTSQLCGrV0Ym3MjIUJSOvBRCu_sMRq_PLIM=s2048",
+              "sourceAnchor": "Version 2: people going on their holiday/ on the beach- on the mountain\\n*\\nQ1: Compare these pictures\\nQ2: Between these 2 locations, where do you prefer? Why?\\nQ3: How do you think the weather affects people's emotions?",
+              "relationship": "SHARED_SOURCE_BLOCK_CONTINUATION_OF_gdrive_spk_p3_037"
+            },
+            "imagePairRecovery": {
+              "type": "source-composite-crop",
+              "parentImagePath": "/images/speaking/gdrive/part_3_Version_2_source_cid_9wHJPoUFATE.png",
+              "parentImageSha256": "b7b70be095e2baf6d1bf281d5e98fddd27249728e753fd4b8f6b795c3798b13c",
+              "cropBoxes": {
+                "a": [
+                  0,
+                  0,
+                  442,
+                  324
+                ],
+                "b": [
+                  448,
+                  0,
+                  938,
+                  324
+                ]
+              },
+              "method": "explicit crop of the same Google Docs source side-by-side plate",
+              "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+              "crossTopicPairing": false,
+              "visualReview": "CONFIRMED_SOURCE_TOPIC_PAIR",
+              "sourcePlacement": {
+                "imageCid": "s-blob-v1-IMAGE-9wHJPoUFATE",
+                "sourceOrder": 36,
+                "documentPosition": 6636,
+                "sourceSha256": "b7b70be095e2baf6d1bf281d5e98fddd27249728e753fd4b8f6b795c3798b13c",
+                "sourceUrl": "https://docs.google.com/docs-images-rt/ALKuztY3y6EkOEGA2L2qLZKX0rm9V6yCKY2skgnm4MIdQ7hVpEq9LrLs_BXbWQew0zFyH2q0Dl8SrB5nA6ixUTPPgXAq0v9ChfrbZqZaYIndNHHzi4lYwuF0jF5hbP54ErFKv9x5lJfxEWTSQLCGrV0Ym3MjIUJSOvBRCu_sMRq_PLIM=s2048",
+                "sourceAnchor": "Version 2: people going on their holiday/ on the beach- on the mountain\\n*\\nQ1: Compare these pictures\\nQ2: Between these 2 locations, where do you prefer? Why?\\nQ3: How do you think the weather affects people's emotions?",
+                "relationship": "SHARED_SOURCE_BLOCK_CONTINUATION_OF_gdrive_spk_p3_037"
+              }
+            }
           },
-          "availability": "source-limited",
-          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
+          "availability": "available",
+          "selectionPolicy": "source-record; Image A/B recovered from the same source composite; no cross-topic pairing"
         },
         {
           "topicId": "spk-bank-p3-gdrive_spk_p3_039",
@@ -3676,6 +3717,7 @@
         "recoveredCompositePairs": [
           "gdrive_spk_p3_036",
           "gdrive_spk_p3_037",
+          "gdrive_spk_p3_038",
           "gdrive_spk_p3_040",
           "gdrive_spk_p3_043",
           "gdrive_spk_p3_048",
@@ -3692,9 +3734,7 @@
           "gdrive_spk_p3_063",
           "gdrive_spk_p3_064"
         ],
-        "remainingSourceLimited": [
-          "gdrive_spk_p3_038"
-        ],
+        "remainingSourceLimited": [],
         "googleDocsAccess": "GOOGLE_DOCS_INACCESSIBLE"
       }
     },
@@ -4677,10 +4717,8 @@
   "generatedAt": "2026-08-29",
   "sourceRecovery": {
     "scope": "18 previously source-limited Part 3 records",
-    "recoveredCount": 17,
-    "remainingSourceLimited": [
-      "gdrive_spk_p3_038"
-    ],
+    "recoveredCount": 18,
+    "remainingSourceLimited": [],
     "googleDocsAccess": "GOOGLE_DOCS_INACCESSIBLE",
     "policy": "Only same-topic source composite crops are accepted; no cross-topic pairing or fabricated assets."
   }
