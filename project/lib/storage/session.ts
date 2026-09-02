@@ -48,6 +48,7 @@ export function createPracticeSession(
   adapter: IStorageAdapter = getStorageAdapter()
 ): PracticeSessionState {
   const now = new Date().toISOString();
+  const remainingTimeSeconds = params.remainingTimeSeconds;
   const session: PracticeSessionState = {
     sessionId: `sess_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
     userId: params.userId,
@@ -58,7 +59,10 @@ export function createPracticeSession(
     currentPartNumber: params.currentPartNumber ?? 1,
     currentQuestionId: params.currentQuestionId,
     answers: {},
-    remainingTimeSeconds: params.remainingTimeSeconds,
+    remainingTimeSeconds,
+    deadlineAt: typeof remainingTimeSeconds === "number"
+      ? new Date(Date.now() + remainingTimeSeconds * 1000).toISOString()
+      : undefined,
     startedAt: now,
     lastSavedAt: now,
     isSubmitted: false,
@@ -226,6 +230,9 @@ export function createMockTestSession(
     sections[skill] = {
       skill,
       remainingTimeSeconds: MOCK_SECTION_DURATIONS[skill],
+      deadlineAt: new Date(Date.now() + MOCK_SECTION_DURATIONS[skill] * 1000).toISOString(),
+      currentPartIndex: 0,
+      currentQuestionIndex: 0,
       answers: {},
       isCompleted: false,
     };
@@ -296,6 +303,33 @@ export function updateMockTestAnswer(
   const key = userId ? STORAGE_KEYS.userActiveMockTest(userId) : STORAGE_KEYS.ACTIVE_MOCK_TEST;
   adapter.setItem(key, updatedSession);
   return updatedSession;
+}
+
+export function updateMockTestNavigation(
+  skill: ExamComponentSkill,
+  currentPartIndex: number,
+  currentQuestionIndex: number,
+  userIdOrAdapter?: string | IStorageAdapter,
+  adapterParam?: IStorageAdapter,
+): MockTestSessionState | null {
+  const { userId, adapter } = resolveUserAndAdapter(userIdOrAdapter, adapterParam);
+  const current = loadActiveMockTestSession(userId, adapter);
+  if (!current || current.isSubmitted || !current.sections[skill]) return null;
+  const updated: MockTestSessionState = {
+    ...current,
+    sections: {
+      ...current.sections,
+      [skill]: {
+        ...current.sections[skill],
+        currentPartIndex,
+        currentQuestionIndex,
+      },
+    },
+    lastSavedAt: new Date().toISOString(),
+  };
+  const key = userId ? STORAGE_KEYS.userActiveMockTest(userId) : STORAGE_KEYS.ACTIVE_MOCK_TEST;
+  adapter.setItem(key, updated);
+  return updated;
 }
 
 export function updateMockTestSectionTimer(
@@ -389,7 +423,10 @@ export function submitFullMockTest(
 
   const key = userId ? STORAGE_KEYS.userActiveMockTest(userId) : STORAGE_KEYS.ACTIVE_MOCK_TEST;
   adapter.setItem(key, updatedSession);
-  adapter.setItem(`aptis_b2_completed_mock_${updatedSession.sessionId}`, updatedSession);
+  const completedKey = userId
+    ? STORAGE_KEYS.userCompletedMockTest(userId, updatedSession.sessionId)
+    : STORAGE_KEYS.anonymousCompletedMockTest(updatedSession.sessionId);
+  adapter.setItem(completedKey, updatedSession);
   return updatedSession;
 }
 
@@ -404,11 +441,14 @@ export function loadCompletedMockTestSession(
     return active;
   }
 
+  const completedKey = userId
+    ? STORAGE_KEYS.userCompletedMockTest(userId, sessionId)
+    : STORAGE_KEYS.anonymousCompletedMockTest(sessionId);
   const archived = adapter.getItem<MockTestSessionState | null>(
-    `aptis_b2_completed_mock_${sessionId}`,
+    completedKey,
     null
   );
-  if (archived && typeof archived === "object" && archived.sessionId) {
+  if (archived && typeof archived === "object" && archived.sessionId && archived.userId === userId) {
     return archived;
   }
 

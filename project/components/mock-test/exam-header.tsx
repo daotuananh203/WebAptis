@@ -12,6 +12,7 @@ export interface ExamHeaderProps {
   currentSkill: ExamComponentSkill;
   currentSectionIndex: number;
   remainingTimeSeconds: number;
+  deadlineAt?: string;
   completedSkills: Set<ExamComponentSkill>;
   isFinalSection: boolean;
   onTimeExpired: () => void;
@@ -32,6 +33,7 @@ export function ExamHeader({
   currentSkill,
   currentSectionIndex,
   remainingTimeSeconds,
+  deadlineAt,
   completedSkills,
   isFinalSection,
   onTimeExpired,
@@ -67,6 +69,7 @@ export function ExamHeader({
           <div className="flex items-center gap-2">
             <ExamTimer
               initialSeconds={remainingTimeSeconds}
+              deadlineAt={deadlineAt}
               onTimeExpired={onTimeExpired}
               onTick={onTimerTick}
             />

@@ -212,8 +212,8 @@ export function runGradingTests() {
 
     // Full Reading Section
     const readingRes = gradeReadingSection(rAnswers, rAnswers);
-    assert.equal(readingRes.rawScore, 29);
-    assert.equal(readingRes.maxRawScore, 29);
+    assert.equal(readingRes.rawScore, 27);
+    assert.equal(readingRes.maxRawScore, 27);
     assert.equal(readingRes.percentage, 100);
     assert.equal(readingRes.sectionName, "reading");
   }
@@ -264,7 +264,7 @@ export function runGradingTests() {
     const l2Count = Object.keys(serverAnswerKey.listening.part2).length;
     const l3Count = Object.keys(serverAnswerKey.listening.part3).length;
     const l4Count = Object.keys(serverAnswerKey.listening.part4).length;
-    const expectedTotal = 50 + 29 + (l1Count + l2Count + l3Count + l4Count);
+    const expectedTotal = 50 + 27 + (l1Count + l2Count + l3Count + l4Count);
     assert.equal(examResult.totalRawScore, expectedTotal);
     assert.equal(examResult.totalMaxRawScore, expectedTotal);
     assert.equal(examResult.totalPercentage, 100);

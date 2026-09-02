@@ -5,7 +5,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI, Type } from "@google/genai";
 import { getGeminiClient } from "../gemini/client";
 import { GEMINI_MODELS } from "../gemini/models";
 import { createGradingError } from "./errors";
@@ -24,6 +24,65 @@ import { AptisPublicTestDataset } from "../exam/types";
 import { retrieveRelevantKnowledge } from "../knowledge/retriever";
 import { recordUserError } from "../memory/store";
 import { AiGradingTimeoutError, withAiGradingTimeout } from "./ai-timeout";
+
+const GEMINI_WRITING_RESPONSE_SCHEMA = {
+  type: Type.OBJECT,
+  properties: {
+    overallScore: { type: Type.NUMBER, minimum: 0 },
+    maxOverallScore: { type: Type.NUMBER, minimum: 1 },
+    estimatedBand: { type: Type.STRING, enum: ["A0", "A1", "A2", "B1", "B2", "C"] },
+    criteria: {
+      type: Type.ARRAY,
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          name: { type: Type.STRING },
+          score: { type: Type.NUMBER, minimum: 0, maximum: 5 },
+          maxScore: { type: Type.NUMBER, minimum: 1, maximum: 5 },
+          feedback: { type: Type.STRING },
+        },
+        required: ["name", "score", "maxScore", "feedback"],
+      },
+    },
+    grammarErrors: {
+      type: Type.ARRAY,
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          originalSentence: { type: Type.STRING },
+          correctedSentence: { type: Type.STRING },
+          errorCategory: { type: Type.STRING },
+          explanation: { type: Type.STRING },
+          linkedKnowledge: { type: Type.ARRAY, items: { type: Type.STRING } },
+        },
+        required: ["originalSentence", "correctedSentence", "errorCategory", "explanation", "linkedKnowledge"],
+      },
+    },
+    vocabularyUpgrades: {
+      type: Type.ARRAY,
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          originalPhrase: { type: Type.STRING },
+          upgradedPhrase: { type: Type.STRING },
+          rationale: { type: Type.STRING },
+        },
+        required: ["originalPhrase", "upgradedPhrase", "rationale"],
+      },
+    },
+    strengths: { type: Type.ARRAY, items: { type: Type.STRING } },
+    areasForImprovement: { type: Type.ARRAY, items: { type: Type.STRING } },
+    modelAnswer: { type: Type.STRING },
+    correctedVersion: { type: Type.STRING },
+    improvementPlan: { type: Type.ARRAY, items: { type: Type.STRING } },
+    linkedKnowledge: { type: Type.ARRAY, items: { type: Type.STRING } },
+  },
+  required: [
+    "overallScore", "maxOverallScore", "estimatedBand", "criteria",
+    "grammarErrors", "vocabularyUpgrades", "strengths", "areasForImprovement",
+    "modelAnswer", "improvementPlan", "linkedKnowledge",
+  ],
+} as const;
 
 export function resolveWritingTaskContext(
   testId: string,
@@ -263,7 +322,7 @@ export function parseAndValidateGeminiWritingOutput(
 
     // 2. Criteria normalization
     if (!Array.isArray(parsed.criteria)) {
-      const sourceObj = parsed.criteriaScores || parsed.criteria_scores || parsed.criteriaFeedback || {};
+      const sourceObj = parsed.criteriaScores || parsed.criteria_scores || parsed.criteriaFeedback || parsed.scores || {};
       if (typeof sourceObj === "object" && Object.keys(sourceObj).length > 0) {
         parsed.criteria = Object.entries(sourceObj).map(([name, val]: [string, any]) => ({
           name,
@@ -271,7 +330,11 @@ export function parseAndValidateGeminiWritingOutput(
           // must fail schema validation instead of becoming an optimistic 4.
           score: typeof val === "number" ? val : val?.score,
           maxScore: typeof val === "object" ? val?.maxScore : undefined,
-          feedback: typeof val === "object" ? val?.feedback : undefined,
+          // Some Gemini models return score-only criteria even in JSON mode.
+          // Keep the absence explicit; an empty string is not fabricated
+          // feedback and allows the supplied error log/improvement plan to be
+          // returned instead of rejecting an otherwise valid score.
+          feedback: typeof val === "object" ? (val?.feedback ?? "") : "",
         }));
       }
     }
@@ -288,11 +351,11 @@ export function parseAndValidateGeminiWritingOutput(
     }
 
     // 4. Grammar Errors normalization
-    const rawGrammar = parsed.grammarErrors || parsed.grammar_errors || parsed.grammaticalErrors || parsed.grammatical_errors || [];
+    const rawGrammar = parsed.grammarErrors || parsed.grammar_errors || parsed.grammaticalErrors || parsed.grammatical_errors || parsed.errorLog || [];
     parsed.grammarErrors = Array.isArray(rawGrammar)
       ? rawGrammar.map((g: any) => ({
-          originalSentence: g.originalSentence || g.original || g.mistake || "",
-          correctedSentence: g.correctedSentence || g.corrected || g.correction || "",
+          originalSentence: g.originalSentence || g.original || g.mistake || g.faultyString || "",
+          correctedSentence: g.correctedSentence || g.corrected || g.correction || g.correctedString || "",
           errorCategory: g.errorCategory || g.category || "Grammar",
           explanation: g.explanation || g.reason || "",
           linkedKnowledge: Array.isArray(g.linkedKnowledge) ? g.linkedKnowledge : [],
@@ -303,9 +366,9 @@ export function parseAndValidateGeminiWritingOutput(
     const rawVocab = parsed.vocabularyUpgrades || parsed.vocabulary_upgrades || parsed.lexicalUpgrades || parsed.lexical_upgrades || [];
     parsed.vocabularyUpgrades = Array.isArray(rawVocab)
       ? rawVocab.map((v: any) => ({
-          originalPhrase: v.originalPhrase || v.originalWord || v.original || "",
-          upgradedPhrase: v.upgradedPhrase || v.suggestedUpgrade || v.upgrade || "",
-          rationale: v.rationale || v.contextExplanation || v.explanation || "",
+          originalPhrase: v.originalPhrase || v.originalWord || v.original || v.basicTerm || "",
+          upgradedPhrase: v.upgradedPhrase || v.suggestedUpgrade || v.upgrade || v.b2Alternative || "",
+          rationale: v.rationale || v.contextExplanation || v.explanation || v.context || "",
         }))
       : [];
 
@@ -379,8 +442,8 @@ export async function gradeWritingSubmission(
   );
 
   const candidateModels = [GEMINI_MODELS.FLASH, GEMINI_MODELS.FLASH_3_6];
-  let rawResponseText = "";
   let lastError: unknown = null;
+  let validatedOutput: GeminiWritingOutput | null = null;
 
   for (const modelName of candidateModels) {
     try {
@@ -390,25 +453,39 @@ export async function gradeWritingSubmission(
         config: {
           systemInstruction: WRITING_EXAMINER_SYSTEM_INSTRUCTION,
           responseMimeType: "application/json",
+          responseSchema: GEMINI_WRITING_RESPONSE_SCHEMA,
         },
       }));
 
-      rawResponseText = response.text ?? "";
-      if (rawResponseText) break;
+      const rawResponseText = response.text ?? "";
+      if (!rawResponseText) {
+        lastError = new Error("Gemini returned an empty response");
+        continue;
+      }
+      try {
+        validatedOutput = parseAndValidateGeminiWritingOutput(rawResponseText);
+        break;
+      } catch (parseError) {
+        lastError = parseError;
+        // A malformed provider response is recoverable with the next model
+        // in production, but custom test clients remain deterministic.
+        if (customClient) throw parseError;
+      }
     } catch (error) {
       lastError = error;
       if (customClient || error instanceof AiGradingTimeoutError) break;
     }
   }
 
-  if (!rawResponseText) {
+  if (!validatedOutput) {
+    if (lastError instanceof Error && lastError.message.includes("Gemini output schema validation failed")) {
+      throw lastError;
+    }
     throw createGradingError(
       "INVALID_ANSWER_FORMAT",
       `Gemini generation failed: ${lastError instanceof Error ? lastError.message : String(lastError)}`
     );
   }
-
-  const validatedOutput = parseAndValidateGeminiWritingOutput(rawResponseText);
   const guardedScore = applyWordCountScoreGuard(
     validatedOutput.overallScore,
     validatedOutput.maxOverallScore,

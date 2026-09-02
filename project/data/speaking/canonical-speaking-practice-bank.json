@@ -749,7 +749,7 @@
     },
     "part2": {
       "partNumber": 2,
-      "itemCount": 33,
+      "itemCount": 34,
       "sourceRecordCount": 32,
       "googleDocsRecordCount": 32,
       "topics": [
@@ -1002,6 +1002,37 @@
               "relationship": "REUSE — source topic matches existing canonical topic"
             }
           ]
+        },
+        {
+          "topicId": "spk-bank-p2-gdrive_spk_p2_009",
+          "partNumber": 2,
+          "title": "Version 2:",
+          "prompts": [
+            "Describe the picture (rong bức hình là hình ảnh một cô gái trẻ tuổi ngồi trên xe khách. Cô ấy đang nhìn thẳng vào ống kính camera, đeo headphone, mặc áo caro đỏ sọc trắng. Có nhiều chàng trai trên cùng chuyến xe với cô ấy. Cô ấy trông khá vui vẻ, dường như họ đang đi đến điểm du lịch nào đó vào kỳ nghỉ.)",
+            "Talk about the last time you traveled somewhere"
+          ],
+          "normalizedPrompts": [
+            "describe the picture (rong bức hình là hình ảnh một cô gái trẻ tuổi ngồi trên xe khách cô ấy đang nhìn thẳng vào ống kính camera đeo headphone mặc áo caro đỏ sọc trắng có nhiều chàng trai trên cùng chuyến xe với cô ấy cô ấy trông khá vui vẻ dường như họ đang đi đến điểm du lịch nào đó vào kỳ nghỉ )",
+            "talk about the last time you traveled somewhere"
+          ],
+          "image": "/images/speaking/gdrive/part_2_Version_2_1_cc3cb2f6.jpg",
+          "imageSha256": "6aa55dd048606ec331658a070ab4a0858ddc30036e8d2525dbe3606e02b4b348",
+          "source": "Google Docs — Tổng hợp Speaking 2026",
+          "sourceOrder": 9,
+          "sourceEvidence": {
+            "type": "google-drive",
+            "fileId": "1wsV6frhcqDHFMNWApkw0wl37C_HI7Zv9480r9ClAq1c",
+            "fileName": "Tổng hợp Speaking 2026",
+            "sourceOrder": 9,
+            "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+            "sourceRelationshipStatus": "VERIFIED",
+            "sourceDocumentAccess": "GOOGLE_DOCS_INACCESSIBLE",
+            "confidence": 0.95,
+            "status": "new",
+            "historicalMapping": "NOT_RECOVERED"
+          },
+          "availability": "available",
+          "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
         },
         {
           "topicId": "spk-bank-p2-gdrive_spk_p2_010",
@@ -1931,10 +1962,6 @@
             "what are the differences between these two ways of doing exercise",
             "how important is doing exercise regularly"
           ],
-          "imageA": "/images/speaking/gdrive/part_3_Leo_núi___Phòng_gym_1_bbb5cf32.jpg",
-          "imageB": "/images/speaking/gdrive/part_3_Leo_núi___Phòng_gym_2_bbb5cf32.jpg",
-          "imageASha256": "aac5ca2a0f5721d17e3895e91bc9ed4f3c449002561fb264f3e428d346cc276e",
-          "imageBSha256": "aac5ca2a0f5721d17e3895e91bc9ed4f3c449002561fb264f3e428d346cc276e",
           "source": "Google Docs — Tổng hợp Speaking 2026",
           "sourceOrder": 35,
           "sourceEvidence": {
@@ -1949,7 +1976,7 @@
             "status": "new",
             "historicalMapping": "NOT_RECOVERED"
           },
-          "availability": "available",
+          "availability": "source-limited",
           "selectionPolicy": "source-record; generic Version labels are retained when prompt/image content differs"
         },
         {
@@ -3734,7 +3761,9 @@
           "gdrive_spk_p3_063",
           "gdrive_spk_p3_064"
         ],
-        "remainingSourceLimited": [],
+        "remainingSourceLimited": [
+          "gdrive_spk_p3_035"
+        ],
         "googleDocsAccess": "GOOGLE_DOCS_INACCESSIBLE"
       }
     },
@@ -4718,8 +4747,21 @@
   "sourceRecovery": {
     "scope": "18 previously source-limited Part 3 records",
     "recoveredCount": 18,
-    "remainingSourceLimited": [],
+    "remainingSourceLimited": [
+      "gdrive_spk_p3_035"
+    ],
     "googleDocsAccess": "GOOGLE_DOCS_INACCESSIBLE",
     "policy": "Only same-topic source composite crops are accepted; no cross-topic pairing or fabricated assets."
+  },
+  "sourceCoverage": {
+    "unresolvedSourceCandidates": [
+      {
+        "candidateId": "gdrive_spk_p2_012",
+        "partNumber": 2,
+        "sourceArtifact": "data/prediction/speaking/speaking-bank.json",
+        "status": "SOURCE_LIMITED",
+        "reason": "The source record contains no recoverable prompt text; no playable task is emitted and no prompt is fabricated."
+      }
+    ]
   }
 }

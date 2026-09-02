@@ -4,9 +4,10 @@ import * as React from "react";
 import { Clock, Layers, Sparkles, CheckCircle2, Star, Ticket, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { ExamComponentSkill } from "@/lib/progress/types";
 
 export interface TestListCardProps {
-  skillType?: "writing" | "speaking" | "general";
+  skillType?: ExamComponentSkill | "general";
   level: "B2" | "C1" | string;
   isFeatured?: boolean;
   hasAttempt?: boolean;
@@ -41,6 +42,22 @@ export function TestListCard({
           {skillType === "speaking" ? (
             <span className="text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full bg-purple-500/15 text-purple-300 border border-purple-500/30 tracking-wider">
               SPEAKING
+            </span>
+          ) : skillType === "writing" ? (
+            <span className="text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 tracking-wider">
+              WRITING
+            </span>
+          ) : skillType === "reading" ? (
+            <span className="text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full bg-blue-500/15 text-blue-300 border border-blue-500/30 tracking-wider">
+              READING
+            </span>
+          ) : skillType === "listening" ? (
+            <span className="text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 tracking-wider">
+              LISTENING
+            </span>
+          ) : skillType === "grammarVocabulary" ? (
+            <span className="text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full bg-violet-500/15 text-violet-300 border border-violet-500/30 tracking-wider">
+              GRAMMAR & VOCAB
             </span>
           ) : (
             <span className="text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 tracking-wider">

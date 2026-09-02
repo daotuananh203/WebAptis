@@ -12,9 +12,9 @@
     "sourceType": "edulife",
     "sourceName": "Edulife Aptis B2 Practice Corpus",
     "isOfficialBritishCouncil": false,
-    "isComplete": true,
-    "audioStatus": "available",
-    "description": "Comprehensive multi-skill Aptis ESOL General B2 practice test (aptis-b2-03) covering all 5 components: Grammar & Vocabulary, Reading, Listening, Writing, and Speaking.",
+    "isComplete": false,
+    "audioStatus": "missing",
+    "description": "Aptis B2 practice test. Listening Part 1 has an unverified item and is fail-closed until its source asset is restored.",
     "totalTimeMinutes": 162,
     "listeningContractVersion": 1,
     "listeningAudioCacheVersion": "20260826-contract-v1"
@@ -727,10 +727,6 @@
             "id": "t03_story_2",
             "anchorSentence": "She later became his wife, supporting him through his studies and scientific discoveries.",
             "sentencesToOrder": [
-              {
-                "id": "t03_r2_s2_1",
-                "text": "She later became his wife, supporting him through his studies and scientific discoveries."
-              },
               {
                 "id": "t03_r2_s2_2",
                 "text": "As a child, he moved to a new city in Germany, where he discovered his love for science and math."

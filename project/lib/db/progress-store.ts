@@ -46,6 +46,7 @@ export class PostgresProgressStore implements IProgressStore {
     }
 
     const sql = `
+      WITH saved AS (
       INSERT INTO progress_attempts (
         id, user_id, test_id, practice_item_id, mode, skill, part_identifier,
         raw_score, max_raw_score, percentage, estimated_band,
@@ -59,7 +60,9 @@ export class PostgresProgressStore implements IProgressStore {
         estimated_band = EXCLUDED.estimated_band,
         duration_seconds = EXCLUDED.duration_seconds,
         completed_at = EXCLUDED.completed_at
-      WHERE progress_attempts.user_id = EXCLUDED.user_id;
+      WHERE progress_attempts.user_id = EXCLUDED.user_id
+      RETURNING id
+      ) SELECT id FROM saved;
     `;
 
     const params = [
@@ -80,7 +83,8 @@ export class PostgresProgressStore implements IProgressStore {
     ];
 
     try {
-      await query(sql, params);
+      const saved = await query<{ id: string }>(sql, params);
+      if (saved.length === 0) return false;
     } catch (error) {
       // 001 was already deployed before Practice Bank provenance existed.
       // Upgrade an older production database on demand rather than silently
@@ -88,16 +92,17 @@ export class PostgresProgressStore implements IProgressStore {
       if (!isMissingPracticeItemColumn(error)) throw error;
       try {
         await ensurePracticeItemColumn();
-        await query(sql, params);
-        return true;
+        const saved = await query<{ id: string }>(sql, params);
+        return saved.length > 0;
       } catch (migrationError) {
         // A record carrying practice provenance must fail closed if the
         // schema cannot be upgraded; silently storing it without the ID would
         // make History unable to identify the Practice item.
         if (record.practiceItemId) throw migrationError;
       }
-      await query(
+      const saved = await query<{ id: string }>(
         `
+          WITH saved AS (
           INSERT INTO progress_attempts (
             id, user_id, test_id, mode, skill, part_identifier,
             raw_score, max_raw_score, percentage, estimated_band,
@@ -111,7 +116,9 @@ export class PostgresProgressStore implements IProgressStore {
             estimated_band = EXCLUDED.estimated_band,
             duration_seconds = EXCLUDED.duration_seconds,
             completed_at = EXCLUDED.completed_at
-          WHERE progress_attempts.user_id = EXCLUDED.user_id;
+          WHERE progress_attempts.user_id = EXCLUDED.user_id
+          RETURNING id
+          ) SELECT id FROM saved;
         `,
         [
           record.id,
@@ -129,6 +136,7 @@ export class PostgresProgressStore implements IProgressStore {
           record.disclaimer || "PRACTICE ESTIMATE — NOT AN OFFICIAL BRITISH COUNCIL SCORE",
         ],
       );
+      return saved.length > 0;
     }
     return true;
   }

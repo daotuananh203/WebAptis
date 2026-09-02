@@ -31,9 +31,9 @@ export async function runContentIngestionTests() {
     assert.ok(parseResult.success, `Public dataset ${testId} must conform to schema`);
 
     // Check specific metadata requirements
-    if (i === 16) {
-      assert.strictEqual(json.metadata.isComplete, false, "Test 16 must be marked incomplete");
-      assert.strictEqual(json.metadata.audioStatus, "missing", "Test 16 audio status must be missing");
+    if (i === 16 || i === 3) {
+      assert.strictEqual(json.metadata.isComplete, false, `Test ${testId} must be marked incomplete`);
+      assert.strictEqual(json.metadata.audioStatus, "missing", `Test ${testId} audio status must be missing`);
     } else {
       assert.strictEqual(json.metadata.isComplete, true, `Test ${testId} must be complete`);
       assert.strictEqual(json.metadata.audioStatus, "available", `Test ${testId} audio status must be available`);

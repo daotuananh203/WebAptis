@@ -22,14 +22,62 @@ export function SubmitConfirmation({
   onConfirm,
   onCancel,
 }: SubmitConfirmationProps) {
+  const dialogRef = React.useRef<HTMLDivElement>(null);
+  const closeRef = React.useRef<HTMLButtonElement>(null);
+  const continueRef = React.useRef<HTMLButtonElement>(null);
+  const submitRef = React.useRef<HTMLButtonElement>(null);
+  const previousFocusRef = React.useRef<HTMLElement | null>(null);
+  const onCancelRef = React.useRef(onCancel);
+
+  React.useEffect(() => {
+    onCancelRef.current = onCancel;
+  }, [onCancel]);
+
+  React.useEffect(() => {
+    if (!isOpen) return;
+    previousFocusRef.current = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    closeRef.current?.focus();
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        onCancelRef.current();
+        return;
+      }
+      if (event.key !== "Tab") return;
+      const focusable = [closeRef.current, continueRef.current, submitRef.current].filter(Boolean) as HTMLElement[];
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      previousFocusRef.current?.focus();
+    };
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
   const unansweredCount = Math.max(0, totalQuestions - answeredCount);
   const hasUnanswered = unansweredCount > 0;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-xs p-4 animate-in fade-in duration-200">
-      <div className="relative w-full max-w-md rounded-2xl bg-[#121215] p-6 shadow-2xl space-y-5 border border-[#242430]">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-xs p-4 animate-in fade-in duration-200" role="presentation">
+      <div
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="mock-submit-dialog-title"
+        aria-describedby="mock-submit-dialog-description"
+        className="relative w-full max-w-md rounded-2xl bg-[#121215] p-6 shadow-2xl space-y-5 border border-[#242430]"
+      >
         {/* Header */}
         <div className="flex items-start justify-between">
           <div className="flex items-center gap-3">
@@ -47,15 +95,17 @@ export function SubmitConfirmation({
               )}
             </div>
             <div>
-              <h3 className="text-base font-bold text-white">
+              <h3 id="mock-submit-dialog-title" className="text-base font-bold text-white">
                 {isFinalSection ? "Xác nhận nộp bài toàn bộ" : `Hoàn thành ${sectionTitle}`}
               </h3>
-              <p className="text-xs text-slate-300">
+              <p id="mock-submit-dialog-description" className="text-xs text-slate-300">
                 Xác nhận chuyển phần / kết thúc bài thi
               </p>
             </div>
           </div>
           <button
+            ref={closeRef}
+            type="button"
             onClick={onCancel}
             aria-label="Đóng hộp thoại"
             className="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-white/5 transition-colors cursor-pointer"
@@ -87,12 +137,16 @@ export function SubmitConfirmation({
         {/* Action Buttons */}
         <div className="flex items-center justify-end gap-3 pt-2">
           <button
+            ref={continueRef}
+            type="button"
             onClick={onCancel}
             className="px-4 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:text-white bg-white/5 hover:bg-white/10 border border-white/10 transition-colors cursor-pointer"
           >
             Tiếp tục làm bài
           </button>
           <button
+            ref={submitRef}
+            type="button"
             onClick={onConfirm}
             className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold text-white bg-emerald-700 hover:bg-emerald-700 shadow-md shadow-emerald-500/20 transition-all cursor-pointer"
           >

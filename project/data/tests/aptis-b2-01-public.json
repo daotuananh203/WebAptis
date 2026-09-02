@@ -702,10 +702,6 @@
             "anchorSentence": "Q2.1. The sentences below are some instructions. Put the sentences in the right order. The first sentence of the story is an example.",
             "sentencesToOrder": [
               {
-                "id": "t01_r2_s1_1",
-                "text": "Q2.1. The sentences below are some instructions. Put the sentences in the right order. The first sentence of the story is an example."
-              },
-              {
                 "id": "t01_r2_s1_2",
                 "text": "1. The films in that period were different from the films of today."
               },
@@ -727,10 +723,6 @@
             "id": "t01_story_2",
             "anchorSentence": "The sentences below are from some instructions. Put the sentences in the right order. The first",
             "sentencesToOrder": [
-              {
-                "id": "t01_r2_s2_1",
-                "text": "The sentences below are from some instructions. Put the sentences in the right order. The first"
-              },
               {
                 "id": "t01_r2_s2_2",
                 "text": "sentence is done for you."
@@ -1235,7 +1227,7 @@
               "url": "/audio/listening/segments/aptis-b2-01/part-1/q08.mp3",
               "status": "VERIFIED",
               "audioSegmentStatus": "VERIFIED",
-              "duration": 71.0,
+              "duration": 71,
               "verification": {
                 "contractVersion": 1,
                 "sourceTranscriptSha256": "a06610baa57f3f2fb6f0069221420f13d0ad3e53ecaf680e80d3cdb345cab5ab",
@@ -1914,7 +1906,7 @@
               "end": 1309.56
             },
             {
-              "start": 1314.0,
+              "start": 1314,
               "end": 1370.63
             }
           ],
@@ -2020,7 +2012,7 @@
               "sha256": "ed3acf07b156d021c1b33ff3dd0090c112c112d3e9d8e1fed4a9bb5e06b76c48",
               "sourceClips": [
                 {
-                  "start": 1314.0,
+                  "start": 1314,
                   "end": 1370.63
                 }
               ],

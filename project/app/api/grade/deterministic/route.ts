@@ -15,19 +15,60 @@ import {
 } from "@/lib/grading/deterministic";
 import { createGradingError, GradingError } from "@/lib/grading/errors";
 import { ServerAnswerKey } from "@/lib/exam/types";
+import { getAuthenticatedSessionAsync, unauthorizedResponse } from "@/lib/auth/api";
+import { ALL_EXAM_TEST_CATALOG } from "@/lib/exam/test-catalog";
+
+const ALLOWED_PARTS: Record<string, string[]> = {
+  grammarVocabulary: ["grammar", "vocabulary"],
+  reading: ["part1", "part2", "part3", "part4"],
+  listening: ["part1", "part2", "part3", "part4"],
+};
+
+function isSafeAnswerValue(value: unknown): boolean {
+  return typeof value === "string" ||
+    (Array.isArray(value) && value.every((item) => typeof item === "string"));
+}
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json();
-    const { testId, skill, partIdentifier, answers } = body;
+    const session = await getAuthenticatedSessionAsync(req);
+    if (!session) return unauthorizedResponse();
+    let body: unknown;
+    try {
+      body = await req.json();
+    } catch {
+      return NextResponse.json(
+        { success: false, error: "Invalid grading request payload" },
+        { status: 400 },
+      );
+    }
+    if (!body || typeof body !== "object" || Array.isArray(body)) {
+      return NextResponse.json(
+        { success: false, error: "Invalid grading request payload" },
+        { status: 400 },
+      );
+    }
+    const {
+      testId,
+      skill,
+      partIdentifier,
+      answers: rawAnswers,
+    } = body as Record<string, unknown>;
+    const answers = rawAnswers as Record<string, any>;
 
     if (
       typeof testId !== "string" ||
       !/^[A-Za-z0-9_-]+$/.test(testId) ||
-      !skill ||
+      !ALL_EXAM_TEST_CATALOG.some((entry) => entry.testId === testId) ||
+      typeof skill !== "string" ||
+      !Object.prototype.hasOwnProperty.call(ALLOWED_PARTS, skill) ||
+      (partIdentifier !== undefined &&
+        (typeof partIdentifier !== "string" || !ALLOWED_PARTS[skill].includes(partIdentifier))) ||
       !answers ||
       typeof answers !== "object" ||
-      Array.isArray(answers)
+      Array.isArray(answers) ||
+      Object.keys(answers).length > 1000 ||
+      Object.values(answers).some((value) => !isSafeAnswerValue(value))
     ) {
       return NextResponse.json(
         { success: false, error: "Invalid grading request payload" },
@@ -140,13 +181,11 @@ export async function POST(req: NextRequest) {
   } catch (error) {
     if (error instanceof GradingError) {
       return NextResponse.json(
-        { success: false, code: error.code, error: error.message },
+        { success: false, code: error.code, error: "Unable to grade this submission" },
         { status: 400 }
       );
     }
-    return NextResponse.json(
-      { success: false, error: error instanceof Error ? error.message : "Internal grading error" },
-      { status: 500 }
-    );
+    console.error("[Deterministic Grading Error]", error);
+    return NextResponse.json({ success: false, error: "Internal grading error" }, { status: 500 });
   }
 }

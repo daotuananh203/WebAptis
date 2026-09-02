@@ -77,8 +77,11 @@ export async function GET(
 
     return NextResponse.json({ success: true, data }, { status: 200 });
   } catch (error) {
+    console.error("[Tests API] dataset load failed", {
+      errorType: error instanceof Error ? error.name : typeof error,
+    });
     return NextResponse.json(
-      { success: false, error: error instanceof Error ? error.message : "Failed to load test" },
+      { success: false, error: "Failed to load test" },
       { status: 500 }
     );
   }

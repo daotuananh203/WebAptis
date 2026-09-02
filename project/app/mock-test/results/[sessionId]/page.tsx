@@ -22,9 +22,16 @@ export default function MockTestResultPage() {
 
   React.useEffect(() => {
     if (isAuthLoading) return;
-    const loaded = loadCompletedMockTestSession(sessionId, user?.id) || loadActiveMockTestSession(user?.id);
-    if (loaded && (loaded.sessionId === sessionId || loaded.isSubmitted)) {
+    if (!user?.id) {
+      setSession(null);
+      setIsLoading(false);
+      return;
+    }
+    const loaded = loadCompletedMockTestSession(sessionId, user.id) || loadActiveMockTestSession(user.id);
+    if (loaded && loaded.sessionId === sessionId && loaded.isSubmitted && loaded.userId === user.id) {
       setSession(loaded);
+    } else {
+      setSession(null);
     }
     setIsLoading(false);
   }, [sessionId, user?.id, isAuthLoading]);

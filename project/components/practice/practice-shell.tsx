@@ -27,6 +27,7 @@ import {
 import { generateRecommendations } from "@/lib/recommendations";
 import { StudyRecommendation } from "@/lib/recommendations/types";
 import { formatTestDisplayName } from "@/lib/exam/test-catalog";
+import { getSpeakingTopicDisplayTitle } from "@/lib/speaking/topic-title";
 
 export interface PracticeShellProps {
   skill: string;
@@ -52,7 +53,16 @@ export function PracticeShell({
   practiceItemId,
 }: PracticeShellProps) {
   const { user, isLoading: isAuthLoading } = useAuth();
-  const { isHydrated, hydratedUserId, session, initSession, setAnswer, submitSession } = usePracticeSession(user?.id);
+  const {
+    isHydrated,
+    hydratedUserId,
+    session,
+    initSession,
+    setAnswer,
+    setNavigation,
+    setTimeRemaining,
+    submitSession,
+  } = usePracticeSession(user?.id);
   const requestedPartNumber = resolvePracticePartNumber(skill, partIdentifier);
   const isSpeakingBank = skill === "speaking" && practiceBank;
   const sessionTestId = isSpeakingBank ? "speaking-practice-bank" : testId;
@@ -112,7 +122,7 @@ export function PracticeShell({
             : item.prompts.map((prompt: string, index: number) => ({ id: `${item.topicId}-q${index + 1}`, prompt }));
           const bankPartData: any = {
             id: itemId,
-            topic: item.title,
+            topic: item.title ? getSpeakingTopicDisplayTitle(item) : item.title,
             instructions: requestedPartNumber === 2
               ? "Describe the picture and answer the two follow-up questions. You have 45 seconds for each response."
               : requestedPartNumber === 3
@@ -165,6 +175,9 @@ export function PracticeShell({
           dataToSet = fullTest.speaking?.parts?.find((p: any) => p.partNumber === partNum) || fullTest.speaking?.parts?.[0];
         }
 
+        if (!dataToSet) {
+          throw new Error(`Không tìm thấy nội dung ${skill} ${partIdentifier} cho bộ đề này`);
+        }
         setPartData(dataToSet);
       } catch (err) {
         setErrorMsg(err instanceof Error ? err.message : "Error loading practice data");
@@ -232,11 +245,53 @@ export function PracticeShell({
     totalItems = partData?.questions?.length || 1;
   }
 
+  const questionIdForIndex = React.useCallback((index: number): string | undefined => {
+    if (isSpeakingBank && Array.isArray(partData?.questions)) {
+      return partData.questions[index]?.id;
+    }
+    if (skill === "grammarVocabulary" && partIdentifier === "grammar") {
+      return partData?.questions?.[index]?.id;
+    }
+    if (skill === "grammarVocabulary" && partIdentifier === "vocabulary") {
+      return partData?.sets?.[index]?.id;
+    }
+    return partData?.id;
+  }, [isSpeakingBank, partData, skill, partIdentifier]);
+
+  const moveToIndex = React.useCallback((index: number) => {
+    const boundedIndex = Math.max(0, Math.min(totalItems - 1, index));
+    setCurrentIndex(boundedIndex);
+    setNavigation(requestedPartNumber, questionIdForIndex(boundedIndex));
+  }, [questionIdForIndex, requestedPartNumber, setNavigation, totalItems]);
+
+  // Restore the exact question/set after a refresh.  The stored ID is the
+  // canonical identifier, so this remains correct if the rendered order
+  // changes without silently jumping back to question 1.
+  React.useEffect(() => {
+    if (!partData || !session || session.isSubmitted) return;
+    const storedId = session.currentQuestionId;
+    if (!storedId) return;
+    const restoredIndex = Array.from({ length: totalItems }, (_, index) => index)
+      .find((index) => questionIdForIndex(index) === storedId);
+    if (restoredIndex !== undefined && restoredIndex !== currentIndex) {
+      setCurrentIndex(restoredIndex);
+    }
+  }, [partData, session, session?.currentQuestionId, questionIdForIndex, totalItems, currentIndex]);
+
   // Answered indices
   const answeredIndices: number[] = [];
   if (skill === "grammarVocabulary" && partIdentifier === "grammar" && partData?.questions) {
     partData.questions.forEach((q: any, idx: number) => {
       if (answers[q.id]) answeredIndices.push(idx);
+    });
+  }
+  if (skill === "grammarVocabulary" && partIdentifier === "vocabulary" && partData?.sets) {
+    partData.sets.forEach((set: any, idx: number) => {
+      const complete = Array.isArray(set.items) && set.items.length > 0 && set.items.every((item: any) => {
+        const value = answers[item.id];
+        return value !== undefined && value !== null && String(value).trim().length > 0;
+      });
+      if (complete) answeredIndices.push(idx);
     });
   }
   if (isSpeakingBank && partData?.questions) {
@@ -457,6 +512,14 @@ export function PracticeShell({
     }
   };
 
+  const handleTimerTick = React.useCallback((remainingSeconds: number) => {
+    setTimeRemaining(remainingSeconds);
+  }, [setTimeRemaining]);
+
+  const handleTimeExpired = React.useCallback(() => {
+    void handleSubmit();
+  }, [handleSubmit]);
+
   // 4. Render Result View
   if (resultRecord) {
     return (
@@ -483,6 +546,16 @@ export function PracticeShell({
 
   // 5. Loading State
   if (isLoading || !partData) {
+    if (!isLoading && errorMsg) {
+      return (
+        <div className="max-w-xl mx-auto py-20 text-center space-y-3">
+          <AlertCircle className="h-8 w-8 mx-auto text-rose-400" />
+          <h3 className="text-base font-bold text-white">Không tải được nội dung bài luyện</h3>
+          <p className="text-xs text-slate-300">{errorMsg}</p>
+          <button type="button" onClick={() => window.location.reload()} className="px-4 py-2 rounded-xl bg-emerald-700 text-white text-xs font-bold">Thử lại</button>
+        </div>
+      );
+    }
     return (
       <div className="flex flex-col items-center justify-center py-20 space-y-4">
         <Loader2 className="h-8 w-8 animate-spin text-emerald-300" />
@@ -507,7 +580,12 @@ export function PracticeShell({
           <Badge variant="outline" className="text-[11px] font-bold px-2.5 py-1 bg-emerald-500/15 text-emerald-300 border-emerald-500/30">
             {isSpeakingBank ? `Speaking Practice Bank${activePracticeItemId ? ` • ${activePracticeItemId}` : ""}` : `${formatTestDisplayName(testId)} • ${skill}`} • {partIdentifier}
           </Badge>
-          <PracticeTimer initialSeconds={600} />
+          <PracticeTimer
+            initialSeconds={session?.remainingTimeSeconds ?? 600}
+            deadlineAt={session?.deadlineAt}
+            onTick={handleTimerTick}
+            onTimeExpired={handleTimeExpired}
+          />
         </div>
 
         <button
@@ -562,7 +640,7 @@ export function PracticeShell({
             <div className="flex items-center justify-between pt-4 border-t border-[#1e1e26] gap-2">
               <button
                 disabled={currentIndex === 0}
-                onClick={() => setCurrentIndex((prev) => Math.max(0, prev - 1))}
+                onClick={() => moveToIndex(currentIndex - 1)}
                 className="flex items-center gap-1 text-xs h-9 px-3.5 rounded-xl border border-[#22222a] bg-[#16161d] text-slate-300 hover:text-white hover:bg-[#1a1a24] disabled:opacity-40 transition-colors cursor-pointer"
               >
                 <ChevronLeft className="h-4 w-4" />
@@ -576,7 +654,7 @@ export function PracticeShell({
 
               <button
                 disabled={currentIndex === totalItems - 1}
-                onClick={() => setCurrentIndex((prev) => Math.min(totalItems - 1, prev + 1))}
+                onClick={() => moveToIndex(currentIndex + 1)}
                 className="flex items-center gap-1 text-xs h-9 px-3.5 rounded-xl border border-[#22222a] bg-[#16161d] text-slate-300 hover:text-white hover:bg-[#1a1a24] disabled:opacity-40 transition-colors cursor-pointer"
               >
                 <span className="hidden sm:inline">Câu sau</span>
@@ -594,7 +672,7 @@ export function PracticeShell({
               totalQuestions={totalItems}
               currentIndex={currentIndex}
               answeredIndices={answeredIndices}
-              onSelectIndex={(idx) => setCurrentIndex(idx)}
+              onSelectIndex={moveToIndex}
             />
           </div>
         )}

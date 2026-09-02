@@ -62,7 +62,7 @@ project/
 ## 3. Domain Model Specifications
 
 ### 3.1 Public Test Dataset Schema (`AptisPublicTestDataset`)
-- **`metadata`**: `testId`, `title`, `format` (name, targetLevel, version, sourceCheckedAt), `sourceType` ("synthetic"), `totalTimeMinutes`.
+- **`metadata`**: `testId`, `title`, `format` (name, targetLevel, version, sourceCheckedAt), `sourceType` (`synthetic`, `project-created`, `user-provided`, or `edulife`), `totalTimeMinutes`.
 - **`grammarVocabulary`**: Mandatory core component (25 mins total):
   - `grammar`: 25 multiple-choice questions (3 options).
   - `vocabulary`: 5 sets of 5 items (25 total) with a shared bank of 10 options per set (synonyms, definitions, sentence completion, collocations, phrasal verbs).

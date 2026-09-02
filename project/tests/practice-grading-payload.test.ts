@@ -3,6 +3,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { NextRequest } from "next/server";
 import { POST as gradeDeterministic } from "../app/api/grade/deterministic/route";
+import { AUTH_COOKIE_NAME } from "../lib/auth/types";
+import { createSessionToken } from "../lib/auth/session";
 import {
   createAttemptFromSpeakingResult,
   createAttemptFromWritingResult,
@@ -22,7 +24,13 @@ export async function runPracticeGradingPayloadTests() {
   const answers = JSON.parse(
     fs.readFileSync(path.join(process.cwd(), "data/tests/aptis-b2-01-answers.json"), "utf8"),
   );
-  const request = new NextRequest("http://localhost/api/grade/deterministic", {
+  const token = createSessionToken({
+    id: "usr_practice_grading",
+    email: "practice-grading@example.com",
+    name: "Practice Grading",
+    role: "user",
+  });
+  const anonymousRequest = new NextRequest("http://localhost/api/grade/deterministic", {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({
@@ -33,6 +41,22 @@ export async function runPracticeGradingPayloadTests() {
     }),
   });
 
+  const anonymousResponse = await gradeDeterministic(anonymousRequest);
+  assert.equal(anonymousResponse.status, 401, "Deterministic grading must reject anonymous answer-oracle requests");
+
+  const request = new NextRequest("http://localhost/api/grade/deterministic", {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      cookie: `${AUTH_COOKIE_NAME}=${token}`,
+    },
+    body: JSON.stringify({
+      testId: "aptis-b2-01",
+      skill: "listening",
+      partIdentifier: "part1",
+      answers: answers.listening.part1,
+    }),
+  });
   const response = await gradeDeterministic(request);
   assert.equal(response.status, 200);
   const payload = await response.json();

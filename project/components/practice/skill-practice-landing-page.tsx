@@ -15,6 +15,7 @@ import { ExamComponentSkill } from "@/lib/progress/types";
 import { Badge } from "../ui/badge";
 import { ALL_EXAM_TEST_CATALOG } from "@/lib/exam/test-catalog";
 import canonicalSpeakingBank from "@/data/speaking/canonical-speaking-practice-bank.json";
+import { getSpeakingTopicDisplayTitle } from "@/lib/speaking/topic-title";
 
 export interface PracticeModeDef {
   badge: PracticeBadgeType;
@@ -185,7 +186,7 @@ export function SkillPracticeLandingPage({
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
                       {bankItems.map((item: any, index: number) => {
                         const itemId = item.questionId || item.topicId;
-                        const label = item.question || item.title || `Topic ${index + 1}`;
+                        const label = item.question || (item.title ? getSpeakingTopicDisplayTitle(item) : undefined) || `Topic ${index + 1}`;
                         const available = item.availability !== "source-limited";
                         return (
                           <Link

@@ -90,6 +90,24 @@ export function validateDatasetConsistency(
       errors.push(`Missing Reading Part 2 answer for storyId: ${storyId}`);
     }
   }
+  for (const story of publicData.reading.parts[1].stories) {
+    const renderedSentenceIds = story.sentencesToOrder.map((sentence) => sentence.id);
+    const expectedOrder = answerData.reading.part2[story.id] ?? [];
+    if (new Set(renderedSentenceIds).size !== renderedSentenceIds.length) {
+      errors.push(`Duplicate Reading Part 2 sentence IDs in storyId: ${story.id}`);
+    }
+    if (expectedOrder.length !== renderedSentenceIds.length) {
+      errors.push(`Reading Part 2 answer length mismatch for storyId: ${story.id}`);
+    }
+    for (const sentenceId of expectedOrder) {
+      if (!renderedSentenceIds.includes(sentenceId)) {
+        errors.push(`Reading Part 2 answer references non-rendered sentenceId: ${sentenceId}`);
+      }
+    }
+    if (story.sentencesToOrder.some((sentence) => sentence.text.trim() === story.anchorSentence.trim())) {
+      errors.push(`Reading Part 2 anchor is duplicated as an orderable sentence in storyId: ${story.id}`);
+    }
+  }
 
   // Reading Part 3 Check
   const r3Statements = publicData.reading.parts[2].statements.map((s) => s.id);
@@ -97,6 +115,18 @@ export function validateDatasetConsistency(
     if (!answerData.reading.part3[stmtId]) {
       errors.push(`Missing Reading Part 3 answer for statementId: ${stmtId}`);
     }
+  }
+  const readingPart3 = publicData.reading.parts[2] as typeof publicData.reading.parts[2] & {
+    people?: Array<{ id: string; biographyText: string }>;
+  };
+  const people = readingPart3.people ?? [];
+  const peopleIds = new Set(people.map((person) => person.id));
+  for (const person of people) {
+    if (!person.biographyText.trim()) errors.push(`Empty Reading Part 3 person block: ${person.id}`);
+  }
+  for (const [statementId, answer] of Object.entries(answerData.reading.part3)) {
+    if (!r3Statements.includes(statementId)) errors.push(`Reading Part 3 answer references non-rendered statementId: ${statementId}`);
+    if (!peopleIds.has(answer)) errors.push(`Reading Part 3 answer references non-rendered personId: ${answer}`);
   }
 
   // Reading Part 4 Check
@@ -136,6 +166,24 @@ export function validateDatasetConsistency(
     for (const q of mono.questions) {
       if (!answerData.listening.part4[q.id]) {
         errors.push(`Missing Listening Part 4 answer for questionId: ${q.id}`);
+      }
+    }
+  }
+
+  if (publicData.metadata.audioStatus === "available") {
+    const audioEntries = publicData.listening.parts.flatMap((part: any) => [
+      part.audio,
+      ...(part.tasks ?? []).map((task: any) => task.audio),
+      ...(part.speakers ?? []).map((speaker: any) => speaker.audio),
+      ...(part.statements ?? []).map((statement: any) => statement.audio),
+      ...(part.monologues ?? []).flatMap((mono: any) => [
+        mono.audio,
+        ...(mono.questions ?? []).map((question: any) => question.audio),
+      ]),
+    ]).filter(Boolean);
+    for (const entry of audioEntries) {
+      if (!entry.url || (entry.status && entry.status !== "VERIFIED")) {
+        errors.push(`Listening metadata says available but audio is not verified: ${entry.id ?? "shared-audio"}`);
       }
     }
   }

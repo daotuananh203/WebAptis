@@ -12,6 +12,7 @@ import {
   generateTwelveWeekHeatmap,
   ProgressAttemptRecord,
 } from "../lib/progress";
+import { validateProgressAttempt } from "../lib/progress/validation";
 
 export function runProgressTests() {
   console.log("▶ [TEST 6] Running Progress Tracking Engine Unit Tests...");
@@ -291,6 +292,44 @@ export function runProgressTests() {
     assert.equal(speakingAttempt.mode, "mock-test");
   }
 
+  // ----------------------------------------------------
+  // 8. Server-owned Progress Wire Contract
+  // ----------------------------------------------------
+  {
+    const validRecord = {
+      id: "practice_reading_qa_1",
+      testId: "aptis-b2-01",
+      mode: "practice",
+      skill: "reading",
+      partIdentifier: "part1",
+      rawScore: 5,
+      maxRawScore: 5,
+      percentage: 100,
+      completedAt: "2026-08-22T10:00:00.000Z",
+      disclaimer: "PRACTICE ESTIMATE — NOT AN OFFICIAL BRITISH COUNCIL SCORE",
+    };
+    assert.equal(validateProgressAttempt(validRecord).success, true);
+    assert.equal(validateProgressAttempt({ ...validRecord, testId: "fake-test" }).success, false);
+    assert.equal(validateProgressAttempt({ ...validRecord, rawScore: -1 }).success, false);
+    assert.equal(validateProgressAttempt({ ...validRecord, rawScore: 6 }).success, false);
+    assert.equal(validateProgressAttempt({ ...validRecord, rawScore: "5" }).success, false);
+    assert.equal(validateProgressAttempt({ ...validRecord, id: 7 }).success, false);
+    assert.equal(validateProgressAttempt({ ...validRecord, maxRawScore: 999, rawScore: 999, percentage: 100 }).success, false);
+
+    const speakingRecord = validateProgressAttempt({
+      ...validRecord,
+      id: "speaking_bank_qa_1",
+      testId: "speaking-practice-bank",
+      skill: "speaking",
+      partIdentifier: "part1",
+      practiceItemId: "aptis-spk-p1-001",
+      rawScore: 4,
+      maxRawScore: 5,
+      percentage: 80,
+    });
+    assert.equal(speakingRecord.success, true, "canonical Speaking bank IDs must remain persistable");
+  }
+
   console.log("  ✓ Empty history safe initialization verified");
   console.log("  ✓ Single and multiple attempts statistical calculations verified");
   console.log("  ✓ Improvement trend ('improving', 'stable', 'declining') verified");
@@ -298,6 +337,7 @@ export function runProgressTests() {
   console.log("  ✓ Daily streak (active today, grace yesterday, broken streak) verified");
   console.log("  ✓ 12-week heatmap grid (84 days) and intensity calculation verified");
   console.log("  ✓ Objective and AI-evaluated grading result integration verified");
+  console.log("  ✓ Server-owned progress catalog, score bounds, type and Speaking provenance validation verified");
   console.log("✅ [TEST 6 PASSED] Progress Tracking Engine unit tests completed.\n");
 }
 

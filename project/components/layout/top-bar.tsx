@@ -11,6 +11,7 @@ import {
   LogOut,
   Sparkles,
   User,
+  Settings,
 } from "lucide-react";
 import { useAuth } from "@/lib/hooks/use-auth";
 
@@ -96,6 +97,7 @@ export function TopBar({ onToggleSidebar }: TopBarProps) {
         {/* Notification Bell */}
         <button
           title="Thông báo mới"
+          aria-label="Thông báo mới"
           className="relative p-2 rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-colors cursor-pointer"
         >
           <Bell className="h-4 w-4" />
@@ -117,6 +119,9 @@ export function TopBar({ onToggleSidebar }: TopBarProps) {
         <div className="relative">
           <button
             onClick={() => setShowUserMenu(!showUserMenu)}
+            aria-expanded={showUserMenu}
+            aria-haspopup="menu"
+            aria-label="Mở menu tài khoản"
             className="flex items-center gap-2.5 p-1.5 pl-2 rounded-xl border border-[#22222c] bg-[#141419] hover:border-emerald-500/40 hover:bg-[#181820] transition-all cursor-pointer"
           >
             <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-teal-600 to-emerald-700 text-white text-xs font-bold shadow-xs">
@@ -150,8 +155,19 @@ export function TopBar({ onToggleSidebar }: TopBarProps) {
                 <span>Cố vấn AI Lexi</span>
               </Link>
 
+              <Link
+                href="/settings"
+                onClick={() => setShowUserMenu(false)}
+                className="flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
+              >
+                <Settings className="h-3.5 w-3.5 text-slate-400" />
+                <span>Cài đặt</span>
+              </Link>
+
               <button
                 onClick={handleLogout}
+                type="button"
+                role="menuitem"
                 className="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-semibold text-rose-400 hover:bg-rose-500/10 transition-colors cursor-pointer"
               >
                 <LogOut className="h-3.5 w-3.5" />

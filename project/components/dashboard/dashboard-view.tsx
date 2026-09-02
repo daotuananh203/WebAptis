@@ -21,6 +21,7 @@ import { UserProfile } from "@/lib/auth/types";
 import { Badge } from "../ui/badge";
 import { RecentAttempts } from "./recent-attempts";
 import { ProgressAttemptRecord } from "@/lib/progress/types";
+import { EXAM_CATALOG_SUMMARY } from "@/lib/exam/catalog-summary";
 
 export interface DashboardViewProps {
   user: UserProfile | null;
@@ -147,21 +148,21 @@ export function DashboardView({
           <div className="flex items-center justify-between">
             <h3 className="text-sm sm:text-base font-bold text-white flex items-center gap-2">
               <BookOpen className="h-4 w-4 text-emerald-300" />
-              <span>Thư viện 5 kỹ năng Aptis B2 (23 bộ đề)</span>
+              <span>Thư viện 5 kỹ năng Aptis B2 ({EXAM_CATALOG_SUMMARY.testCount} bộ đề)</span>
             </h3>
             <Link href="/practice" className="text-xs font-bold text-emerald-300 hover:underline">
-              Tất cả 23 đề →
+              Tất cả {EXAM_CATALOG_SUMMARY.testCount} đề →
             </Link>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {[
-              { name: "Nghe (Listening)", skill: "listening", icon: Headphones, count: "64 bài", color: "text-emerald-300 bg-emerald-500/10 border-emerald-500/20" },
-              { name: "Đọc (Reading)", skill: "reading", icon: BookOpen, count: "64 bài", color: "text-blue-400 bg-blue-500/10 border-blue-500/20" },
-              { name: "Viết (Writing)", skill: "writing", icon: PenTool, count: "64 bài", color: "text-amber-400 bg-amber-500/10 border-amber-500/20" },
-              { name: "Nói (Speaking)", skill: "speaking", icon: Mic, count: "64 bài", color: "text-rose-400 bg-rose-500/10 border-rose-500/20" },
-              { name: "Ngữ pháp & Từ vựng", skill: "grammarVocabulary", icon: BookA, count: "32 bài", color: "text-purple-400 bg-purple-500/10 border-purple-500/20" },
-              { name: "Thi thử Mock Test", skill: "mockTest", icon: GraduationCap, count: "23 đề full", color: "text-teal-400 bg-teal-500/10 border-teal-500/20", href: "/mock-test" },
+              { name: "Nghe (Listening)", skill: "listening", icon: Headphones, count: EXAM_CATALOG_SUMMARY.skillCounts.listening, color: "text-emerald-300 bg-emerald-500/10 border-emerald-500/20" },
+              { name: "Đọc (Reading)", skill: "reading", icon: BookOpen, count: EXAM_CATALOG_SUMMARY.skillCounts.reading, color: "text-blue-400 bg-blue-500/10 border-blue-500/20" },
+              { name: "Viết (Writing)", skill: "writing", icon: PenTool, count: EXAM_CATALOG_SUMMARY.skillCounts.writing, color: "text-amber-400 bg-amber-500/10 border-amber-500/20" },
+              { name: "Nói (Speaking)", skill: "speaking", icon: Mic, count: EXAM_CATALOG_SUMMARY.skillCounts.speaking, color: "text-rose-400 bg-rose-500/10 border-rose-500/20" },
+              { name: "Ngữ pháp & Từ vựng", skill: "grammarVocabulary", icon: BookA, count: EXAM_CATALOG_SUMMARY.skillCounts.grammarVocabulary, color: "text-purple-400 bg-purple-500/10 border-purple-500/20" },
+              { name: "Thi thử Mock Test", skill: "mockTest", icon: GraduationCap, count: `${EXAM_CATALOG_SUMMARY.testCount} đề full`, color: "text-teal-400 bg-teal-500/10 border-teal-500/20", href: "/mock-test" },
             ].map((item) => {
               const Icon = item.icon;
               const linkHref = item.href || `/practice?skill=${item.skill}`;
@@ -238,7 +239,7 @@ export function DashboardView({
         <div className="flex items-center gap-2">
           <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
           <span>
-            <strong className="text-white">Cập nhật gần đây:</strong> 23 bộ đề thi thử Aptis B2 đã được xuất bản trong thư viện.
+            <strong className="text-white">Cập nhật gần đây:</strong> {EXAM_CATALOG_SUMMARY.testCount} bộ đề thi thử Aptis B2 đã được xuất bản trong thư viện.
           </span>
         </div>
         <Link href="/mock-test" className="text-xs font-bold text-emerald-300 hover:underline shrink-0 ml-2">

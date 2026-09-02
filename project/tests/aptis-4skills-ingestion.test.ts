@@ -96,9 +96,11 @@ export function runAptis4SkillsIngestionTests(): boolean {
     assert.equal(validateAnswerKeyDataset(answerData).valid, true, `${testId} answer schema`);
     assert.equal(validateDatasetConsistency(publicData, answerData).valid, true, `${testId} public/answer consistency`);
     assert.equal(publicData.metadata.testId, testId);
-    assert.equal(publicData.metadata.sourceType, "edulife");
+    assert.equal(publicData.metadata.sourceType, "user-provided");
+    assert.equal(publicData.metadata.sourceName, "User-provided APTIS four-skills source bundle (PDF + transcript + MP3)");
     assert.equal(publicData.metadata.isOfficialBritishCouncil, false);
-    assert.equal(publicData.metadata.isComplete, true);
+    assert.equal(publicData.metadata.isComplete, testId !== "aptis-4skills-02");
+    assert.equal(publicData.metadata.audioStatus, testId === "aptis-4skills-02" ? "missing" : "available");
 
     assert.equal(publicData.grammarVocabulary.grammar.questions.length, 25);
     assert.equal(publicData.grammarVocabulary.vocabulary.sets.length, 5);

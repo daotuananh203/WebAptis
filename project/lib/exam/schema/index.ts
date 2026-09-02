@@ -16,7 +16,7 @@ export const TestMetadataSchema = z.object({
   title: z.string().min(1),
   format: FormatMetadataSchema,
   version: z.string().min(1),
-  sourceType: z.enum(["synthetic", "project-created", "edulife"]),
+  sourceType: z.enum(["synthetic", "project-created", "user-provided", "edulife"]),
   sourceName: z.string().optional(),
   isOfficialBritishCouncil: z.boolean().optional(),
   isComplete: z.boolean().optional(),

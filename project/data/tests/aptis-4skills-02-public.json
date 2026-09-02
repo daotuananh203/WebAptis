@@ -9,12 +9,12 @@
       "sourceCheckedAt": "2026-08-28"
     },
     "version": "1.0.0-source",
-    "sourceType": "edulife",
-    "sourceName": "APTIS Bộ đề 4 kĩ năng source bundle (PDF + transcript + MP3)",
+    "sourceType": "user-provided",
+    "sourceName": "User-provided APTIS four-skills source bundle (PDF + transcript + MP3)",
     "isOfficialBritishCouncil": false,
-    "isComplete": true,
-    "audioStatus": "available",
-    "description": "Source-derived four-skills practice test. Source provenance is recorded in data/source-ingestion/aptis-4skills.",
+    "isComplete": false,
+    "audioStatus": "missing",
+    "description": "Source-derived four-skills practice test. One Listening Part 2 segment remains unverified and is fail-closed until the source asset is independently verified.",
     "totalTimeMinutes": 162
   },
   "grammarVocabulary": {
@@ -717,24 +717,24 @@
             "anchorSentence": "Zinedine Zidane's journey began in Marseille, where he honed his skills.",
             "sentencesToOrder": [
               {
-                "id": "t4s02_r2_s1_1",
+                "id": "t4s02_r2_s1_2",
                 "text": "While he was in the club, he was seen as a talented player."
               },
               {
-                "id": "t4s02_r2_s1_2",
+                "id": "t4s02_r2_s1_3",
                 "text": "As a child, he played for several teams close to his home in Marseille."
               },
               {
-                "id": "t4s02_r2_s1_3",
+                "id": "t4s02_r2_s1_4",
                 "text": "Since retiring, he has worked as a manager for a football club."
               },
               {
-                "id": "t4s02_r2_s1_4",
+                "id": "t4s02_r2_s1_5",
                 "text": "Later, he left France to advance his career in Italy and Spain, where he eventually stopped playing."
               },
               {
-                "id": "t4s02_r2_s1_5",
-                "text": "He then left home to join Cannes Football Club in the south of France. 0- A 1- 2- 3- 4- 5-"
+                "id": "t4s02_r2_s1_6",
+                "text": "He then left home to join Cannes Football Club in the south of France."
               }
             ]
           },
@@ -743,24 +743,24 @@
             "anchorSentence": "These are instructions for growing potatoes",
             "sentencesToOrder": [
               {
-                "id": "t4s02_r2_s2_1",
+                "id": "t4s02_r2_s2_2",
                 "text": "With this care, you should see a potato plant growing after couples of weeks"
               },
               {
-                "id": "t4s02_r2_s2_2",
+                "id": "t4s02_r2_s2_3",
                 "text": "This colour means it is perfect for growing, you should put some earth in the pot and dig it deep down"
               },
               {
-                "id": "t4s02_r2_s2_3",
+                "id": "t4s02_r2_s2_4",
                 "text": "An old potato will have little roots, will be a little green, and won't be good for eating."
               },
               {
-                "id": "t4s02_r2_s2_4",
+                "id": "t4s02_r2_s2_5",
                 "text": "All you need is some earth, an old potato and a big spot."
               },
               {
-                "id": "t4s02_r2_s2_5",
-                "text": "When you have done this, you should water it everyday and place it in a sunny spot 0- A 1- 2- 3- 4- 5-"
+                "id": "t4s02_r2_s2_6",
+                "text": "When you have done this, you should water it everyday and place it in a sunny spot"
               }
             ]
           }
@@ -776,22 +776,22 @@
           {
             "id": "t4s02_r3_person_a",
             "name": "Person A",
-            "biographyText": ""
+            "biographyText": "As we get older, it's easier to forget things. This is especially true when it comes to working out, particularly when it gets difficult. By this, I don't mean preparing for things like long-distance events, but rather the routines and workouts we do regularly. To truly gain from these, they need to be done frequently, and ideally at the same time each day. In this way, it becomes an enjoyable and healthy routine."
           },
           {
             "id": "t4s02_r3_person_c",
             "name": "Person C",
-            "biographyText": "As we get older, it's easier to forget things. The whole motivation behind doing sport is This is especially true when it comes to the benefit for the body. Some people with working out, particularly when it gets unhealthy diets want to lose weight, so they difficult. By this, I don't mean preparing for constantly push themselves to the extreme. things like long-distance events, but rather the Perspectives on fitness, including frequency routines and workouts we do regularly. To and intensity, have evolved. However, it's truly gain from these, they need to be done better to pay attention to what your body is frequently, and ideally at the same time each telling you and take a break if needed. If day. In this way, it becomes an enjoyable and you're uncertain, consult a trainer at the healthy routine. local fitness center."
+            "biographyText": "The whole motivation behind doing sport is benefit for the body. Some people with unhealthy diets want to lose weight, so they constantly push themselves to the extreme. Perspectives on fitness, including frequency and intensity, have evolved. However, it's better to pay attention to what your body is telling you and take a break if needed. If you're uncertain, consult a trainer at the local fitness center."
           },
           {
             "id": "t4s02_r3_person_b",
             "name": "Person B",
-            "biographyText": ""
+            "biographyText": "Having someone by our side can help us when we just don't feel motivated to exercise. Quite often in this situation, we don't need expert assistance at the local gym. We just need a little extra encouragement from someone who knows us and understands how to motivate us. Afterwards, we can discuss our aching muscles, and it's a great opportunity to enjoy a nutritious meal together. This also plays a role in restoring energy to our bodies."
           },
           {
             "id": "t4s02_r3_person_d",
             "name": "Person D",
-            "biographyText": "Having someone by our side can help us when The body and the relationship we have with we just don't feel motivated to exercise. Quite it changes with time. When we're older, it's often in this situation, we don't need expert different from how it was in our younger assistance at the local gym. We just need a little years. However, this doesn't mean that extra encouragement from someone who people should stop being active. Of course, knows us and understands how to motivate the exercise needs to be gentler and less us. Afterwards, we can discuss our aching physically demanding than what we did in muscles, and it's a great opportunity to enjoy a school. Older adults simply don't need to nutritious meal together. This also plays a role compete or burn off the extra energy that in restoring energy to our bodies. young people often have."
+            "biographyText": "The body and the relationship we have with it changes with time. When we're older, it's often different from how it was in our younger years. However, this doesn't mean that people should stop being active. Of course, exercise needs to be gentler and less physically demanding than what we did in school. Older adults simply don't need to compete or burn off the extra energy that young people often have."
           }
         ],
         "statements": [

@@ -5,6 +5,7 @@ import { TopBar } from "./top-bar";
 import { Sidebar } from "./sidebar";
 import { Breadcrumbs, BreadcrumbItem } from "./breadcrumbs";
 import { LexiChatButton } from "./lexi-chat-button";
+import { MobileNav } from "./mobile-nav";
 
 export interface AppShellProps {
   children: React.ReactNode;
@@ -75,6 +76,7 @@ export function AppShell({
       </div>
 
       {/* 4. Floating Lexi Chatbot Button */}
+      <MobileNav />
       <LexiChatButton />
     </div>
   );

@@ -22,6 +22,29 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = React.useState(true);
   const router = useRouter();
 
+  React.useEffect(() => {
+    const onStorage = (event: StorageEvent) => {
+      if (event.key === "aptis_auth_event" && event.newValue) {
+        setUser(null);
+        router.push("/login");
+      }
+    };
+    window.addEventListener("storage", onStorage);
+    const channel = typeof BroadcastChannel !== "undefined" ? new BroadcastChannel("aptis-auth") : null;
+    const onMessage = (event: MessageEvent) => {
+      if (event.data?.type === "logout") {
+        setUser(null);
+        router.push("/login");
+      }
+    };
+    channel?.addEventListener("message", onMessage);
+    return () => {
+      window.removeEventListener("storage", onStorage);
+      channel?.removeEventListener("message", onMessage);
+      channel?.close();
+    };
+  }, [router]);
+
   const handlePostAuthSync = React.useCallback(async (userId: string) => {
     try {
       // 1. Migrate any local anonymous drafts/history to user scope
@@ -123,6 +146,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       // Ignore network errors on logout
     } finally {
       setUser(null);
+      try {
+        localStorage.setItem("aptis_auth_event", `${Date.now()}`);
+      } catch {}
+      if (typeof BroadcastChannel !== "undefined") {
+        const channel = new BroadcastChannel("aptis-auth");
+        channel.postMessage({ type: "logout" });
+        channel.close();
+      }
       router.push("/login");
     }
   };

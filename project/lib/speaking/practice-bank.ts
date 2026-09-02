@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import rawBank from "@/data/speaking/canonical-speaking-practice-bank.json";
 import { resolveSpeakingImageUrl } from "@/lib/speaking/image-availability";
+export { getSpeakingTopicDisplayTitle } from "@/lib/speaking/topic-title";
 
 export type SpeakingPracticePart = 1 | 2 | 3 | 4;
 
@@ -54,6 +55,9 @@ export interface SpeakingPracticeBank {
     remainingSourceLimited: string[];
     googleDocsAccess: string;
     policy: string;
+  };
+  sourceCoverage?: {
+    unresolvedSourceCandidates: Array<Record<string, unknown>>;
   };
 }
 

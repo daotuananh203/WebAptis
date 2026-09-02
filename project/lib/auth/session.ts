@@ -8,6 +8,7 @@ import { AuthSession, AUTH_COOKIE_NAME, SESSION_MAX_AGE_SECONDS, UserRecord } fr
 
 const CONFIGURED_AUTH_SECRET = process.env.AUTH_SECRET || process.env.SESSION_SECRET;
 const DEVELOPMENT_AUTH_SECRET = "aptis_b2_development_secret_only";
+const revokedSessionIds = new Set<string>();
 
 function getAuthSecret(): string {
   if (CONFIGURED_AUTH_SECRET) return CONFIGURED_AUTH_SECRET;
@@ -85,10 +86,19 @@ export function verifySessionToken(token: string): AuthSession | null {
       return null;
     }
 
+    if (revokedSessionIds.has(session.sessionId)) {
+      return null;
+    }
+
     return session;
   } catch {
     return null;
   }
+}
+
+/** Keep an immediate in-process deny list after logout. */
+export function markSessionRevoked(sessionId: string): void {
+  if (sessionId) revokedSessionIds.add(sessionId);
 }
 
 /**

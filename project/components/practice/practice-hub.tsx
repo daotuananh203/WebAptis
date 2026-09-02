@@ -22,6 +22,7 @@ import { SOURCE_BATCH_TEST_CATALOG, ALL_EXAM_TEST_CATALOG } from "@/lib/exam/tes
 import writingDataRaw from "@/data/staging/writing/ts-writing-data.json";
 import speakingDataRaw from "@/data/staging/google-drive/speaking/ts-speaking-data.json";
 import canonicalSpeakingBank from "@/data/speaking/canonical-speaking-practice-bank.json";
+import { getSpeakingTopicDisplayTitle } from "@/lib/speaking/topic-title";
 
 export interface SkillCategoryCatalog {
   skill: ExamComponentSkill;
@@ -117,7 +118,7 @@ export const SPEAKING_PRACTICE_BANK_DATA: TestListItemData[] = (() => {
     const items = part.questions || part.topics || [];
     items.forEach((item: any, index: number) => {
       const id = item.questionId || item.topicId;
-      const title = item.question || item.title || `Topic ${index + 1}`;
+      const title = item.question || (item.title ? getSpeakingTopicDisplayTitle(item) : undefined) || `Topic ${index + 1}`;
       rows.push({
         testId: id,
         testNumber: index + 1,
@@ -310,7 +311,7 @@ export const PRACTICE_SKILLS_CATALOG: SkillCategoryCatalog[] = [
         tag: "4 PART",
         icon: PenTool,
         title: "Luyện đề Writing",
-        description: "Danh sách 40 bộ đề Writing B2 chuẩn cấu trúc Aptis.",
+        description: `Danh sách ${ALL_EXAM_TEST_CATALOG.length} bộ đề Writing B2 chuẩn cấu trúc Aptis.`,
         buttonLabel: "Đi tới danh sách đề →",
       },
       {
@@ -380,7 +381,7 @@ export const PRACTICE_SKILLS_CATALOG: SkillCategoryCatalog[] = [
         tag: "4 PART",
         icon: Mic,
         title: "Luyện đề Speaking",
-        description: "Practice Bank độc lập gồm 31 câu Part 1, 33 topic Part 2, 39 topic Part 3 và 29 topic Part 4 từ source đã kiểm chứng.",
+        description: "Practice Bank độc lập gồm 31 câu Part 1, 34 topic Part 2, 39 topic Part 3 và 29 topic Part 4 từ source đã kiểm chứng.",
         buttonLabel: "Đi tới danh sách đề →",
       },
       {
@@ -415,7 +416,7 @@ export const PRACTICE_SKILLS_CATALOG: SkillCategoryCatalog[] = [
         partIdentifier: "part2",
         name: "Part 2: Miêu tả 1 bức ảnh",
         officialTiming: "45s / câu",
-        itemCount: "33 topic nguồn",
+        itemCount: "34 topic nguồn",
         description: "Chọn topic độc lập, xem ảnh nguồn, miêu tả và trả lời follow-up.",
         href: "/practice/speaking/part2?bank=canonical",
       },
@@ -577,7 +578,7 @@ export function PracticeHub() {
       {/* 2. Content Render: Card View (Default) vs Parts Drill */}
       {viewMode === "cards" ? (
         <SkillTestListView
-          skill={selectedSkill === "speaking" ? "speaking" : "writing"}
+          skill={selectedSkill}
           title={currentCategory.viewTitle}
           description={currentCategory.viewDescription}
           icon={currentCategory.icon}

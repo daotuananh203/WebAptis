@@ -13,6 +13,7 @@ import {
   BookA,
   Layers,
   History,
+  Settings,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -40,6 +41,7 @@ export const PRACTICE_MENU_ITEMS: NavItemDef[] = [
 
 export const PERSONAL_MENU_ITEMS: NavItemDef[] = [
   { label: "Lịch sử làm bài", href: "/dashboard#history", icon: History },
+  { label: "Cài đặt", href: "/settings", icon: Settings },
 ];
 
 export interface SidebarProps {
@@ -68,9 +70,9 @@ function SidebarNavContent({
       return pathname === "/practice" && !currentSkill;
     }
     if (href === "/dashboard#history") {
-      return pathname === "/dashboard";
+      return pathname === "/dashboard" && typeof window !== "undefined" && window.location.hash === "#history";
     }
-    return pathname === href;
+    return pathname === href && !(href === "/dashboard" && typeof window !== "undefined" && window.location.hash === "#history");
   };
 
   const renderNavGroup = (

@@ -20,7 +20,7 @@ export interface TestMetadata {
   title: string;
   format: FormatMetadata;
   version: string;
-  sourceType: "synthetic" | "project-created" | "edulife";
+  sourceType: "synthetic" | "project-created" | "user-provided" | "edulife";
   sourceName?: string;
   isOfficialBritishCouncil?: boolean;
   isComplete?: boolean;

@@ -6,7 +6,7 @@ import {
   resolveSpeakingTaskContext,
 } from "@/lib/grading/speaking-ai";
 import { SpeakingGradingInputSchema } from "@/lib/grading/speaking-schema";
-import { getAuthenticatedSession, unauthorizedResponse } from "@/lib/auth/api";
+import { getAuthenticatedSessionAsync, unauthorizedResponse } from "@/lib/auth/api";
 
 // Vercel must leave enough headroom for one bounded Gemini multimodal call.
 // The application timeout is still enforced by withAiGradingTimeout; this
@@ -32,6 +32,22 @@ function statusForGradingCode(code: GradingError["code"]): number {
   }
 }
 
+function publicMessageForGradingCode(code: GradingError["code"]): string {
+  switch (code) {
+    case "NO_SPEECH":
+      return "Không phát hiện giọng nói đủ rõ trong bản ghi.";
+    case "INVALID_AUDIO":
+      return "Tệp âm thanh không hợp lệ.";
+    case "GRADING_TIMEOUT":
+      return "Chấm Speaking đang mất nhiều thời gian hơn dự kiến. Vui lòng thử lại.";
+    case "AI_PROVIDER_ERROR":
+    case "INVALID_AI_RESPONSE":
+      return "Dịch vụ chấm Speaking tạm thời không khả dụng. Vui lòng thử lại.";
+    default:
+      return "Không thể chấm bài Speaking với dữ liệu hiện tại.";
+  }
+}
+
 export async function POST(req: NextRequest) {
   const requestId = req.headers.get("x-request-id") || randomUUID();
   const responseOptions = (status: number) => ({
@@ -39,7 +55,7 @@ export async function POST(req: NextRequest) {
     headers: { "x-request-id": requestId },
   });
   try {
-    const session = getAuthenticatedSession(req);
+    const session = await getAuthenticatedSessionAsync(req);
     if (!session) {
       const response = unauthorizedResponse();
       response.headers.set("x-request-id", requestId);
@@ -111,7 +127,7 @@ export async function POST(req: NextRequest) {
         {
           success: false,
           code: error.code,
-          error: error.message,
+          error: publicMessageForGradingCode(error.code),
           requestId,
         },
         responseOptions(statusForGradingCode(error.code))

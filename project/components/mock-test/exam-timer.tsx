@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 
 export interface ExamTimerProps {
   initialSeconds: number;
+  deadlineAt?: string;
   onTimeExpired: () => void;
   onTick?: (remainingSeconds: number) => void;
   className?: string;
@@ -13,32 +14,37 @@ export interface ExamTimerProps {
 
 export function ExamTimer({
   initialSeconds,
+  deadlineAt,
   onTimeExpired,
   onTick,
   className,
 }: ExamTimerProps) {
   const [seconds, setSeconds] = React.useState(initialSeconds);
+  const expiryNotified = React.useRef(false);
+  const onTimeExpiredRef = React.useRef(onTimeExpired);
+  const onTickRef = React.useRef(onTick);
 
   React.useEffect(() => {
-    setSeconds(initialSeconds);
-  }, [initialSeconds]);
-
-  React.useEffect(() => {
-    const interval = setInterval(() => {
-      setSeconds((prev) => {
-        if (prev <= 1) {
-          clearInterval(interval);
-          onTimeExpired();
-          return 0;
-        }
-        const next = prev - 1;
-        onTick?.(next);
-        return next;
-      });
-    }, 1000);
-
-    return () => clearInterval(interval);
+    onTimeExpiredRef.current = onTimeExpired;
+    onTickRef.current = onTick;
   }, [onTimeExpired, onTick]);
+
+  React.useEffect(() => {
+    expiryNotified.current = false;
+    const deadline = deadlineAt ? Date.parse(deadlineAt) : Date.now() + initialSeconds * 1000;
+    const tick = () => {
+      const next = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+      setSeconds(next);
+      if (next > 0) onTickRef.current?.(next);
+      if (next === 0 && !expiryNotified.current) {
+        expiryNotified.current = true;
+        onTimeExpiredRef.current();
+      }
+    };
+    tick();
+    const interval = window.setInterval(tick, 250);
+    return () => window.clearInterval(interval);
+  }, [deadlineAt, initialSeconds]);
 
   const mins = Math.floor(seconds / 60);
   const secs = seconds % 60;

@@ -25,6 +25,7 @@ import {
 } from "@/lib/storage";
 import { Badge } from "../ui/badge";
 import { ALL_EXAM_TEST_CATALOG, formatTestDisplayName } from "@/lib/exam/test-catalog";
+import { useAuth } from "@/lib/hooks/use-auth";
 
 const ALL_MOCK_TESTS = ALL_EXAM_TEST_CATALOG.map((entry) => {
   return {
@@ -41,17 +42,26 @@ const ALL_MOCK_TESTS = ALL_EXAM_TEST_CATALOG.map((entry) => {
 export function MockTestHub() {
   const router = useRouter();
   const [activeSession, setActiveSession] = React.useState<any>(null);
+  const { user } = useAuth();
 
   React.useEffect(() => {
-    const session = loadActiveMockTestSession();
+    if (!user?.id) {
+      setActiveSession(null);
+      return;
+    }
+    const session = loadActiveMockTestSession(user.id);
     if (session && !session.isSubmitted) {
       setActiveSession(session);
     }
-  }, []);
+  }, [user?.id]);
 
   const handleStartTest = (testId: string) => {
-    clearActiveMockTestSession();
-    const newSession = createMockTestSession(testId);
+    if (!user?.id) {
+      router.push(`/login?from=${encodeURIComponent(`/mock-test`)}`);
+      return;
+    }
+    clearActiveMockTestSession(user.id);
+    const newSession = createMockTestSession(testId, user.id);
     router.push(`/mock-test/session/${newSession.testId}`);
   };
 
@@ -93,7 +103,7 @@ export function MockTestHub() {
               <div className="flex items-center gap-2">
                 <button
                   onClick={() => {
-                    clearActiveMockTestSession();
+                    clearActiveMockTestSession(user?.id);
                     setActiveSession(null);
                   }}
                   className="px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 bg-white/5 hover:bg-white/10 border border-white/10 transition-colors cursor-pointer"

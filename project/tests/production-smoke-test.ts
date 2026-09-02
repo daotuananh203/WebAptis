@@ -63,7 +63,15 @@ export async function runProductionSmokeTest() {
       cwd: process.cwd(),
       shell: true,
       stdio: "pipe",
-      env: { ...process.env, ALLOW_MEMORY_STORE: "true" },
+      // Explicitly isolate this local production build from project user
+      // fixtures. This flag is honored only by the smoke harness; a normal
+      // production deployment still requires DATABASE_URL and AUTH_SECRET.
+      env: {
+        ...process.env,
+        ALLOW_MEMORY_STORE: "true",
+        E2E_MEMORY_ONLY: "true",
+        AUTH_SECRET: process.env.AUTH_SECRET || "local-smoke-only-secret",
+      },
     });
 
     serverProcess.stdout?.on("data", () => {});
@@ -282,9 +290,9 @@ export async function runProductionSmokeTest() {
           answers: { g_01: "A" },
         }),
       });
-      assert.equal(res.status, 200);
-      assert.equal(res.json?.success, true);
-      console.log("  ✓ POST /api/grade/deterministic — 200 OK (Grading Verified)");
+      assert.equal(res.status, 401);
+      assert.equal(res.json?.success, false);
+      console.log("  ✓ POST /api/grade/deterministic — 401 Unauthorized (Anonymous grading blocked)");
     }
 
     // 5.3 AI Writing Grading API boundary
@@ -294,8 +302,8 @@ export async function runProductionSmokeTest() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ invalid: true }),
       });
-      assert.equal(res.status, 400);
-      console.log("  ✓ POST /api/grade/writing — 400 Bad Request (Validation Boundary Verified)");
+      assert.equal(res.status, 401);
+      console.log("  ✓ POST /api/grade/writing — 401 Unauthorized (Anonymous grading blocked)");
     }
 
     // 5.4 AI Speaking Grading API boundary
@@ -305,8 +313,8 @@ export async function runProductionSmokeTest() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ invalid: true }),
       });
-      assert.equal(res.status, 400);
-      console.log("  ✓ POST /api/grade/speaking — 400 Bad Request (Validation Boundary Verified)");
+      assert.equal(res.status, 401);
+      console.log("  ✓ POST /api/grade/speaking — 401 Unauthorized (Anonymous grading blocked)");
     }
 
     // 5.5 AI Coach Chat API boundary
@@ -316,8 +324,8 @@ export async function runProductionSmokeTest() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ invalid: true }),
       });
-      assert.equal(res.status, 400);
-      console.log("  ✓ POST /api/coach/chat — 400 Bad Request (Validation Boundary Verified)");
+      assert.equal(res.status, 401);
+      console.log("  ✓ POST /api/coach/chat — 401 Unauthorized (Anonymous AI access blocked)");
     }
 
     // 5.6 User Progress API (Authenticated)

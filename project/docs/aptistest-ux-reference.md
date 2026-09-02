@@ -118,5 +118,5 @@ APTISTEST IA ECOSYSTEM
 
 ## I. Features Intentionally NOT Copied
 1. **Commercial LMS & Payment Systems:** No paywalls, VIP subscriptions, or checkout gateways. The project is 100% focused on personal study and open-source portfolio quality.
-2. **Proprietary Test Content:** Zero copied questions, audio recordings, or passages. All test content is 100% synthetic and project-created.
+2. **Proprietary Test Content:** The app does not claim British Council ownership or official status. Runtime content is mixed: project-created practice data, source-derived/user-provided study material with preserved provenance, and source-limited records that are fail-closed when their assets cannot be verified. No missing content is fabricated to fill a source gap.
 3. **Proprietary Branding & Exact Visual Identity:** No copied logos, exact stylesheets, or brand assets. Our design uses a modern Tailwind CSS + shadcn/ui design system tailored specifically for this project.

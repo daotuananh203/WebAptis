@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import { loadSpeakingPracticeBank } from "../lib/speaking/practice-bank";
+import { getSpeakingTopicDisplayTitle } from "../lib/speaking/topic-title";
 import { resolveSpeakingTaskContext } from "../lib/grading/speaking-ai";
 
 function normalize(value: string): string {
@@ -13,6 +14,14 @@ export function runSpeakingPracticeBankIntegrityTests(): boolean {
   console.log("▶ [TEST 44] Speaking canonical Practice Bank integrity...");
   console.log("==================================================");
   const bank = loadSpeakingPracticeBank();
+  const assignmentMapping = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/speaking/canonical-speaking-mapping.json"), "utf8")) as {
+    mappingKind?: string;
+    assignmentStatus?: string;
+    historicalStandardMapping?: string;
+  };
+  assert.equal(assignmentMapping.mappingKind, "source-backed-reconstruction");
+  assert.equal(assignmentMapping.assignmentStatus, "RECONSTRUCTED_SOURCE_BACKED_NOT_HISTORICAL");
+  assert.equal(assignmentMapping.historicalStandardMapping, "NOT_RECOVERED");
 
   assert.equal(bank.parts.part1.questions.length, 31, "Part 1 must expose the 31 canonical source questions");
   assert.equal(new Set(bank.parts.part1.questions.map((item) => item.questionId)).size, 31, "Part 1 question IDs must be unique");
@@ -51,9 +60,25 @@ export function runSpeakingPracticeBankIntegrityTests(): boolean {
     }
   }
 
+  assert.equal(bank.parts.part2.itemCount, bank.parts.part2.topics.length, "Part 2 itemCount must match playable source topics");
   assert.ok(bank.parts.part2.topics.length >= 30, "Part 2 source bank must contain at least 30 topics");
   assert.ok(bank.parts.part3.topics.length >= 32, "Part 3 source bank must contain at least 32 topics");
   assert.equal(bank.parts.part4.topics.length, 29, "Part 4 must retain all 29 source records");
+
+  const sourceBank = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/prediction/speaking/speaking-bank.json"), "utf8")) as {
+    topics: Array<{ candidateId: string; partNumber: number; questions?: Array<unknown> }>;
+  };
+  const sourcePart2 = sourceBank.topics.filter((topic) => topic.partNumber === 2);
+  const canonicalPart2Ids = new Set(bank.parts.part2.topics.map((topic) => topic.topicId.replace("spk-bank-p2-", "")));
+  const unresolvedPart2 = bank.sourceCoverage?.unresolvedSourceCandidates
+    .filter((candidate) => candidate.partNumber === 2)
+    .map((candidate) => candidate.candidateId);
+  assert.equal(sourcePart2.length, bank.parts.part2.sourceRecordCount, "Part 2 source record count must match the source bank");
+  assert.deepEqual(unresolvedPart2, ["gdrive_spk_p2_012"], "Only the promptless Part 2 source candidate may remain unresolved");
+  for (const sourceTopic of sourcePart2) {
+    if ((sourceTopic.questions?.length || 0) === 0) continue;
+    assert.ok(canonicalPart2Ids.has(sourceTopic.candidateId), `Source Part 2 candidate missing from canonical bank: ${sourceTopic.candidateId}`);
+  }
 
   // Source recovery guard: all 18 records with one source composite plate must
   // stay available only through same-source crops. Record 038 is a parser
@@ -66,7 +91,7 @@ export function runSpeakingPracticeBankIntegrityTests(): boolean {
   const recovery = bank.sourceRecovery;
   assert.ok(recovery, "Part 3 source recovery metadata must be present");
   assert.equal(recovery.recoveredCount, 18, "All 18 same-source composite pairs are recoverable");
-  assert.deepEqual(recovery.remainingSourceLimited, [], "No Part 3 source record may remain limited after 038 recovery");
+  assert.deepEqual(recovery.remainingSourceLimited, ["gdrive_spk_p3_035"], "Only the independently unresolved duplicate-image source record may remain limited");
   for (const topicId of recoveredPart3Ids) {
     const topic = bank.parts.part3.topics.find((item) => item.topicId === topicId);
     assert.ok(topic, `Recovered Part 3 topic missing: ${topicId}`);
@@ -99,6 +124,10 @@ export function runSpeakingPracticeBankIntegrityTests(): boolean {
     assert.equal(new Set(signatures).size, signatures.length, `Part ${part.partNumber} contains an accidental full-topic duplicate`);
     for (const item of part.topics) {
       assert.ok(item.source && item.sourceEvidence && item.selectionPolicy, `Topic provenance missing: ${item.topicId}`);
+      assert.ok(getSpeakingTopicDisplayTitle(item).trim().length > 0, `Topic display title is not usable: ${item.topicId}`);
+      if (/^(version\s+\d+\s*:|topic\s+\d+$|hoặc|between these 2 locations)/i.test(item.title.trim())) {
+        assert.match(getSpeakingTopicDisplayTitle(item), /^Speaking Part [1-4] · Source topic /, `Raw continuation title leaked into UI: ${item.topicId}`);
+      }
       for (const image of [item.image, item.imageA, item.imageB]) {
         if (!image) continue;
         assert.ok(image.startsWith("/images/speaking/"), `Non-source image path: ${image}`);
@@ -126,7 +155,8 @@ export function runSpeakingPracticeBankIntegrityTests(): boolean {
   assert.deepEqual(p2Context.imageUrls, [p2Topic.image]);
   const p3Topic = bank.parts.part3.topics.find((item) => item.topicId === "spk-bank-p3-gdrive_spk_p3_035")!;
   const p3Context = resolveSpeakingTaskContext("speaking-practice-bank", 3, `${p3Topic.topicId}-q1`, p3Topic.topicId);
-  assert.deepEqual(p3Context.imageUrls, [p3Topic.imageA, p3Topic.imageB]);
+  assert.equal(p3Topic.availability, "source-limited");
+  assert.equal(p3Context.imageUrls, undefined, "Source-limited duplicate-image topic must not expose contaminated visuals");
   assert.equal(p3Context.prompt, p3Topic.prompts[0]);
   assert.throws(
     () => resolveSpeakingTaskContext("speaking-practice-bank", 3, `${p3Topic.topicId}-q999`, p3Topic.topicId),

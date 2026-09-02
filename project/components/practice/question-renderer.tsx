@@ -16,6 +16,72 @@ import { Badge } from "../ui/badge";
 import { countWords } from "@/lib/grading/word-counter";
 import { UserAnswerValue } from "@/lib/storage/types";
 import { cn } from "@/lib/utils";
+
+const MAX_AUDIO_PLAYS = 2;
+
+function LimitedAudio({
+  src,
+  className,
+  preload = "metadata",
+  onPlay,
+  label,
+}: {
+  src: string;
+  className?: string;
+  preload?: "none" | "metadata" | "auto";
+  onPlay?: (event: React.SyntheticEvent<HTMLAudioElement>) => void;
+  label: string;
+}) {
+  const storageKey = React.useMemo(() => `aptis_audio_plays_${encodeURIComponent(src)}`, [src]);
+  const [playCount, setPlayCount] = React.useState(0);
+  const [isLimitReached, setIsLimitReached] = React.useState(false);
+
+  React.useEffect(() => {
+    try {
+      const stored = Number(window.sessionStorage.getItem(storageKey) || "0");
+      const count = Number.isFinite(stored) ? Math.max(0, Math.min(MAX_AUDIO_PLAYS, stored)) : 0;
+      setPlayCount(count);
+      setIsLimitReached(count >= MAX_AUDIO_PLAYS);
+    } catch {
+      // Session storage can be disabled; the in-memory counter still enforces
+      // the limit for the current mounted player.
+    }
+  }, [storageKey]);
+
+  const handlePlay = (event: React.SyntheticEvent<HTMLAudioElement>) => {
+    onPlay?.(event);
+    if (playCount >= MAX_AUDIO_PLAYS) {
+      event.currentTarget.pause();
+      event.currentTarget.currentTime = 0;
+      setIsLimitReached(true);
+      return;
+    }
+    const nextCount = playCount + 1;
+    setPlayCount(nextCount);
+    setIsLimitReached(nextCount >= MAX_AUDIO_PLAYS);
+    try {
+      window.sessionStorage.setItem(storageKey, String(nextCount));
+    } catch {
+      // Best-effort persistence; the player remains protected in memory.
+    }
+  };
+
+  return (
+    <div className="space-y-1.5">
+      <audio
+        controls
+        src={src}
+        onPlay={handlePlay}
+        aria-label={label}
+        className={className}
+        preload={preload}
+      />
+      <p className={cn("text-[10px] text-slate-400", isLimitReached && "text-amber-300")}>
+        {isLimitReached ? "Đã đạt giới hạn 2 lần phát cho audio này." : `Đã phát ${playCount}/${MAX_AUDIO_PLAYS} lần`}
+      </p>
+    </div>
+  );
+}
 import { SpeakingImage } from "./speaking-image";
 
 export interface QuestionRendererProps {
@@ -266,6 +332,7 @@ export function QuestionRenderer({
                             disabled={idx === 0}
                             onClick={() => handleMove(idx, "up")}
                             title="Di chuyển lên"
+                            aria-label={`Di chuyển câu ${idx + 2} lên`}
                           >
                             <ArrowUp className="h-4 w-4" />
                           </Button>
@@ -276,6 +343,7 @@ export function QuestionRenderer({
                             disabled={idx === currentOrder.length - 1}
                             onClick={() => handleMove(idx, "down")}
                             title="Di chuyển xuống"
+                            aria-label={`Di chuyển câu ${idx + 2} xuống`}
                           >
                             <ArrowDown className="h-4 w-4" />
                           </Button>
@@ -367,10 +435,12 @@ export function QuestionRenderer({
                   </span>
                   <p className="text-xs text-slate-300 leading-relaxed italic bg-[#16161d] p-3.5 rounded-xl border border-[#22222a]">{para.text}</p>
                   <div className="pt-2 border-t border-[#1e1e26]">
-                    <label className="text-[11px] font-semibold text-slate-300 block mb-1.5">
+                    <label htmlFor={`reading-heading-${para.id}`} className="text-[11px] font-semibold text-slate-300 block mb-1.5">
                       Chọn tiêu đề phù hợp:
                     </label>
                     <select
+                      id={`reading-heading-${para.id}`}
+                      aria-label={`Tiêu đề cho đoạn văn ${para.paragraphIndex}`}
                       value={currentAns || ""}
                       onChange={(e) => onAnswerChange(para.id, e.target.value)}
                       className="w-full text-xs font-medium border border-[#262632] rounded-xl p-2.5 bg-[#16161d] text-white focus:outline-none focus:border-emerald-500"
@@ -499,13 +569,12 @@ export function QuestionRenderer({
                       : "Bạn có thể phát và tua đến phần cần nghe"}
                   </span>
                 </div>
-                <audio
+                <LimitedAudio
                   key={browserAudioUrl}
-                  controls
-                  onPlay={handleAudioPlay}
                   src={browserAudioUrl}
+                  onPlay={handleAudioPlay}
+                  label={`Audio Listening Part ${partNum}`}
                   className="w-full h-10 rounded-lg"
-                  preload="metadata"
                 />
               </div>
             )
@@ -559,11 +628,11 @@ export function QuestionRenderer({
                         </div>
                         <span className="text-[10px] text-slate-400 font-normal">Bản nghe riêng cho câu hỏi này</span>
                       </div>
-                      <audio
+                      <LimitedAudio
                         key={browserTaskAudioUrl}
-                        controls
-                        onPlay={handleAudioPlay}
                         src={browserTaskAudioUrl}
+                        onPlay={handleAudioPlay}
+                        label={`Audio Listening câu hỏi ${qNum}`}
                         className="w-full h-9 rounded"
                         preload="none"
                       />
@@ -802,11 +871,13 @@ export function QuestionRenderer({
 
               return (
                 <div key={qId} className="p-5 rounded-2xl border border-[#22222a] bg-[#121215] space-y-2.5 shadow-2xs">
-                  <label className="text-xs font-bold text-slate-200 block">
+                  <label htmlFor={qId} className="text-xs font-bold text-slate-200 block">
                     {qNum}. {qText}
                   </label>
                   <input
                     type="text"
+                    id={qId}
+                    name={qId}
                     value={currentVal}
                     onChange={(e) => onAnswerChange(qId, e.target.value)}
                     placeholder="Nhập câu trả lời (1–5 từ)..."
@@ -856,6 +927,9 @@ export function QuestionRenderer({
             <p className="text-xs font-medium text-slate-300">{partData.prompt}</p>
 
             <textarea
+              id={part2Key}
+              name={part2Key}
+              aria-label="Bài viết Writing Part 2"
               rows={5}
               value={textVal}
               onChange={(e) => onAnswerChange(part2Key, e.target.value)}
@@ -908,6 +982,9 @@ export function QuestionRenderer({
                   <p className="text-xs font-medium text-slate-300 italic">"{msg.messageText}"</p>
 
                   <textarea
+                    id={msg.id}
+                    name={msg.id}
+                    aria-label={`Phản hồi tin nhắn của ${msg.senderName}`}
                     rows={4}
                     value={textVal}
                     onChange={(e) => onAnswerChange(msg.id, e.target.value)}
@@ -962,6 +1039,9 @@ export function QuestionRenderer({
                   <p className="text-xs font-medium text-slate-300">{task.prompt}</p>
 
                   <textarea
+                    id={task.id}
+                    name={task.id}
+                    aria-label={`Email ${task.taskType === "informal-email" ? "thân mật" : "trang trọng"}`}
                     rows={task.taskType === "informal-email" ? 4 : 8}
                     value={textVal}
                     onChange={(e) => onAnswerChange(task.id, e.target.value)}
@@ -1028,6 +1108,16 @@ function SpeakingPracticeContainer({
       : "speaking_audio";
   const currentAudio = (answers[audioAnswerKey] as string) || "";
   const displayedAudioKeyRef = React.useRef(audioAnswerKey);
+
+  React.useEffect(() => {
+    const onBeforeUnload = (event: BeforeUnloadEvent) => {
+      if (!isRecording) return;
+      event.preventDefault();
+      event.returnValue = "";
+    };
+    window.addEventListener("beforeunload", onBeforeUnload);
+    return () => window.removeEventListener("beforeunload", onBeforeUnload);
+  }, [isRecording]);
 
   // Moving to another Speaking prompt must not retain the previous prompt's
   // object URL in the recorder controls.  The saved recording remains under
@@ -1306,7 +1396,7 @@ function SpeakingPracticeContainer({
         {/* Audio Player for review */}
         {(audioBlobUrl || (currentAudio && currentAudio.startsWith("data:audio"))) && (
           <div className="w-full max-w-md p-3 rounded-xl bg-[#16161d] border border-[#262632]">
-            <audio controls src={audioBlobUrl || currentAudio} className="w-full h-9 rounded" />
+            <audio controls src={audioBlobUrl || currentAudio} aria-label="Nghe lại bản ghi âm Speaking" className="w-full h-9 rounded" />
           </div>
         )}
 
@@ -1314,6 +1404,8 @@ function SpeakingPracticeContainer({
         <div className="flex flex-wrap items-center justify-center gap-3">
           {!isRecording && !currentAudio && !audioBlobUrl && (
             <button
+              type="button"
+              aria-label="Bắt đầu ghi âm câu trả lời"
               onClick={startRecording}
               className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs shadow-md shadow-rose-600/25 transition-all cursor-pointer"
             >
@@ -1324,6 +1416,8 @@ function SpeakingPracticeContainer({
 
           {isRecording && (
             <button
+              type="button"
+              aria-label="Dừng ghi âm câu trả lời"
               onClick={stopRecording}
               className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-slate-700 hover:bg-slate-600 text-white font-bold text-xs shadow-md transition-all cursor-pointer animate-pulse"
             >
@@ -1338,6 +1432,8 @@ function SpeakingPracticeContainer({
                 ✓ Bản ghi đã sẵn sàng
               </span>
               <button
+                type="button"
+                aria-label="Ghi âm lại câu trả lời"
                 onClick={resetRecording}
                 className="flex items-center gap-1 px-3 py-1.5 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white text-xs font-semibold cursor-pointer"
               >

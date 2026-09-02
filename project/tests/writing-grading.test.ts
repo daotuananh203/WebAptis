@@ -164,6 +164,39 @@ export async function runWritingGradingTests() {
     assert.equal(parsed.overallScore, 16);
     assert.equal(parsed.estimatedBand, "B2");
 
+    // The live Gemini examiner currently emits the original Aptis-oriented
+    // field names (scores/errorLog/lexicalUpgrades).  Normalize those exact
+    // provider fields without inventing score or feedback values.
+    const liveProviderShape = parseAndValidateGeminiWritingOutput({
+      testId: "aptis-b2-01",
+      writingPart: "Part 1",
+      cefrLevel: "A1",
+      scores: {
+        taskAchievement: 0,
+        grammarAndSyntax: 1,
+        vocabularyAndSpelling: 1,
+        sociolinguisticAppropriacy: 0,
+        coherenceAndCohesion: 1,
+      },
+      wordCount: 16,
+      errorLog: [{
+        faultyString: "I has a book.",
+        category: "Grammar",
+        explanation: "Use has with third-person singular.",
+      }],
+      lexicalUpgrades: [{
+        basicTerm: "good",
+        b2Alternative: "beneficial",
+        context: "Use for a positive effect.",
+      }],
+      improvementPlan: ["Review subject-verb agreement"],
+      modelAnswer: "Computer Science student",
+    });
+    assert.equal(liveProviderShape.overallScore, 3);
+    assert.equal(liveProviderShape.criteria.length, 5);
+    assert.equal(liveProviderShape.grammarErrors[0]?.originalSentence, "I has a book.");
+    assert.equal(liveProviderShape.vocabularyUpgrades[0]?.upgradedPhrase, "beneficial");
+
     const objectPlan = parseAndValidateGeminiWritingOutput({
       ...validMockOutput,
       improvementPlan: [

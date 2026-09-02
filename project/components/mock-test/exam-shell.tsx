@@ -13,6 +13,7 @@ import {
   loadActiveMockTestSession,
   submitFullMockTest,
   updateMockTestAnswer,
+  updateMockTestNavigation,
   updateMockTestSectionTimer,
 } from "@/lib/storage/session";
 import { saveProgressAttempt } from "@/lib/storage/storage";
@@ -130,7 +131,7 @@ export function resolveSectionParts(
 
 export function ExamShell({ testId }: ExamShellProps) {
   const router = useRouter();
-  const { user } = useAuth();
+  const { user, isLoading: isAuthLoading } = useAuth();
 
   const [isLoading, setIsLoading] = React.useState(true);
   const [fullTestData, setFullTestData] = React.useState<any>(null);
@@ -145,6 +146,11 @@ export function ExamShell({ testId }: ExamShellProps) {
   React.useEffect(() => {
     async function init() {
       try {
+        if (isAuthLoading) return;
+        if (!user?.id) {
+          router.push(`/login?from=${encodeURIComponent(`/mock-test/session/${testId}`)}`);
+          return;
+        }
         setIsLoading(true);
         const res = await fetch(`/api/tests/${testId}`);
         const json = await res.json();
@@ -154,9 +160,9 @@ export function ExamShell({ testId }: ExamShellProps) {
         setFullTestData(json.data);
 
         // Load existing session or create fresh one
-        let active = loadActiveMockTestSession(user?.id);
+        let active = loadActiveMockTestSession(user.id);
         if (!active || active.testId !== testId || active.isSubmitted) {
-          active = createMockTestSession(testId, user?.id);
+          active = createMockTestSession(testId, user.id);
         }
         setSession(active);
       } catch (err) {
@@ -167,13 +173,14 @@ export function ExamShell({ testId }: ExamShellProps) {
     }
 
     init();
-  }, [testId, user?.id]);
+  }, [testId, user?.id, isAuthLoading, router]);
 
-  // Reset partIndex and question index when section advances
+  // Restore the persisted section cursor after a reload/section transition.
   React.useEffect(() => {
-    setCurrentPartIndex(0);
-    setCurrentIndex(0);
-  }, [session?.currentSectionIndex]);
+    const current = session?.sections[MOCK_TEST_SECTIONS[session.currentSectionIndex]];
+    setCurrentPartIndex(current?.currentPartIndex ?? 0);
+    setCurrentIndex(current?.currentQuestionIndex ?? 0);
+  }, [session]);
 
   // Auto-pause all audio instances when section or part changes
   React.useEffect(() => {
@@ -188,6 +195,9 @@ export function ExamShell({ testId }: ExamShellProps) {
   }, [session?.currentSectionIndex, currentPartIndex]);
 
   if (isLoading || !session || !fullTestData) {
+    if (!isLoading && errorMsg) {
+      return <div className="min-h-screen bg-[#0d0d0f] flex items-center justify-center p-6"><div className="max-w-md rounded-2xl border border-rose-500/30 bg-rose-500/10 p-5 text-sm text-rose-200"><p className="font-bold">Không tải được bài thi</p><p className="mt-2 text-xs">{errorMsg}</p><button type="button" onClick={() => router.refresh()} className="mt-4 rounded-lg bg-rose-500/20 px-3 py-2 text-xs font-bold">Thử lại</button></div></div>;
+    }
     return (
       <div className="min-h-screen bg-[#0d0d0f] flex flex-col items-center justify-center space-y-4">
         <Loader2 className="h-8 w-8 animate-spin text-emerald-300" />
@@ -213,10 +223,73 @@ export function ExamShell({ testId }: ExamShellProps) {
   const activePartData = activePart?.data || null;
   const partIdentifier = activePart?.partIdentifier || "part1";
   const totalItems = activePart?.totalItems || 1;
+  const sectionTotalItems = resolvedParts.reduce((sum, part) => sum + part.totalItems, 0);
+
+  const answerValueIsPresent = (value: UserAnswerValue | undefined): boolean => {
+    if (value === undefined || value === null) return false;
+    if (typeof value === "string") return value.trim().length > 0;
+    if (Array.isArray(value)) return value.length > 0;
+    return Object.keys(value).length > 0;
+  };
+
+  const answerKeysForPart = (part: ResolvedSectionPart): string[] => {
+    const data = part.data || {};
+    if (currentSkill === "grammarVocabulary" && part.partIdentifier === "grammar") {
+      return (data.questions || []).map((q: any) => q.id);
+    }
+    if (currentSkill === "grammarVocabulary" && part.partIdentifier === "vocabulary") {
+      return (data.sets || []).flatMap((set: any) => (set.items || []).map((item: any) => item.id));
+    }
+    if (currentSkill === "reading") {
+      if (part.partNumber === 1) return (data.gaps || []).map((item: any) => item.id);
+      if (part.partNumber === 2) return (data.stories || []).map((item: any) => item.id);
+      if (part.partNumber === 3) return (data.statements || []).map((item: any) => item.id);
+      return (data.paragraphs || []).map((item: any) => item.id);
+    }
+    if (currentSkill === "listening") {
+      if (part.partNumber === 1) return (data.tasks || []).map((item: any) => item.id);
+      if (part.partNumber === 2) return (data.speakers || []).map((item: any) => item.id);
+      if (part.partNumber === 3) return (data.statements || []).map((item: any) => item.id);
+      return (data.monologues || []).flatMap((mono: any) => (mono.questions || []).map((item: any) => item.id));
+    }
+    if (currentSkill === "writing") {
+      if (part.partNumber === 1) return (data.prompts || []).map((item: any) => item.id);
+      if (part.partNumber === 3) return (data.chatMessages || []).map((item: any) => item.id);
+      if (part.partNumber === 4) return (data.tasks || []).map((item: any) => item.id);
+      return data.id ? [data.id] : ["writing-submission"];
+    }
+    if (currentSkill === "speaking") {
+      return (data.questions || []).map((item: any) => `${item.id}__speaking_audio`);
+    }
+    return [];
+  };
+
+  const answeredIndices = currentSkill === "grammarVocabulary" && partIdentifier === "vocabulary"
+    ? (activePartData?.sets || []).map((set: any, index: number) => ({
+        index,
+        answered: (set.items || []).length > 0 && (set.items || []).every((item: any) => answerValueIsPresent(answers[item.id])),
+      })).filter((item: { index: number; answered: boolean }) => item.answered).map((item: { index: number }) => item.index)
+    : answerKeysForPart(activePart || { partIndex: 0, partNumber: 1, partIdentifier, tabLabel: "", fullTitle: "", data: activePartData, totalItems }).map((key, index) => ({ key, index }))
+      .filter(({ key }) => answerValueIsPresent(answers[key]))
+      .map(({ index }) => index);
+
+  const answeredCount = resolvedParts.reduce((sum, part) => {
+    if (currentSkill === "grammarVocabulary" && part.partIdentifier === "vocabulary") {
+      return sum + (part.data?.sets || []).filter((set: any) =>
+        (set.items || []).length > 0 && (set.items || []).every((item: any) => answerValueIsPresent(answers[item.id]))
+      ).length;
+    }
+    return sum + answerKeysForPart(part).filter((key) => answerValueIsPresent(answers[key])).length;
+  }, 0);
 
   // Answer change handler
   const handleAnswerChange = (questionId: string, val: UserAnswerValue) => {
     const updated = updateMockTestAnswer(currentSkill, questionId, val, user?.id);
+    if (updated) setSession(updated);
+  };
+
+  const persistCursor = (partIndex: number, questionIndex: number) => {
+    const updated = updateMockTestNavigation(currentSkill, partIndex, questionIndex, user?.id);
     if (updated) setSession(updated);
   };
 
@@ -323,8 +396,6 @@ export function ExamShell({ testId }: ExamShellProps) {
     }
   };
 
-  const answeredCount = Object.keys(answers).length;
-
   return (
     <div className="min-h-screen bg-[#0d0d0f] text-slate-100 flex flex-col antialiased selection:bg-emerald-500/30 selection:text-emerald-200">
       {/* 1. Exam Header */}
@@ -333,6 +404,7 @@ export function ExamShell({ testId }: ExamShellProps) {
         currentSkill={currentSkill}
         currentSectionIndex={session.currentSectionIndex}
         remainingTimeSeconds={currentSection.remainingTimeSeconds}
+        deadlineAt={currentSection.deadlineAt}
         completedSkills={completedSkills}
         isFinalSection={isFinalSection}
         onTimeExpired={handleProceedSection}
@@ -374,6 +446,7 @@ export function ExamShell({ testId }: ExamShellProps) {
                         onClick={() => {
                           setCurrentPartIndex(part.partIndex);
                           setCurrentIndex(0);
+                          persistCursor(part.partIndex, 0);
                         }}
                         className={cn(
                           "px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer",
@@ -393,8 +466,10 @@ export function ExamShell({ testId }: ExamShellProps) {
                     type="button"
                     disabled={currentPartIndex === 0}
                     onClick={() => {
-                      setCurrentPartIndex((prev) => Math.max(0, prev - 1));
+                      const next = Math.max(0, currentPartIndex - 1);
+                      setCurrentPartIndex(next);
                       setCurrentIndex(0);
+                      persistCursor(next, 0);
                     }}
                     className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-[#181822] text-slate-300 border border-[#242432] disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[#20202d] transition-all cursor-pointer"
                   >
@@ -404,8 +479,10 @@ export function ExamShell({ testId }: ExamShellProps) {
                     type="button"
                     disabled={currentPartIndex === resolvedParts.length - 1}
                     onClick={() => {
-                      setCurrentPartIndex((prev) => Math.min(resolvedParts.length - 1, prev + 1));
+                      const next = Math.min(resolvedParts.length - 1, currentPartIndex + 1);
+                      setCurrentPartIndex(next);
                       setCurrentIndex(0);
+                      persistCursor(next, 0);
                     }}
                     className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-[#181822] text-slate-300 border border-[#242432] disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[#20202d] transition-all cursor-pointer"
                   >
@@ -433,8 +510,8 @@ export function ExamShell({ testId }: ExamShellProps) {
                   <QuestionNavigation
                     totalQuestions={totalItems}
                     currentIndex={currentIndex}
-                    answeredIndices={Object.keys(answers).map((_, i) => i)}
-                    onSelectIndex={(idx) => setCurrentIndex(idx)}
+                    answeredIndices={answeredIndices}
+                    onSelectIndex={(idx) => { setCurrentIndex(idx); persistCursor(currentPartIndex, idx); }}
                   />
                 </div>
               )}
@@ -448,7 +525,7 @@ export function ExamShell({ testId }: ExamShellProps) {
         isOpen={isSubmitModalOpen}
         isFinalSection={isFinalSection}
         sectionTitle={currentSkill}
-        totalQuestions={totalItems}
+        totalQuestions={sectionTotalItems}
         answeredCount={answeredCount}
         onConfirm={handleProceedSection}
         onCancel={() => setIsSubmitModalOpen(false)}

@@ -15,6 +15,8 @@ export const STORAGE_KEYS = {
   userHistory: (userId: string) => `aptis_b2_progress_history_v${STORAGE_SCHEMA_VERSION}_usr_${userId}`,
   userActiveSession: (userId: string) => `aptis_b2_active_session_v${STORAGE_SCHEMA_VERSION}_usr_${userId}`,
   userActiveMockTest: (userId: string) => `aptis_b2_active_mock_test_v${STORAGE_SCHEMA_VERSION}_usr_${userId}`,
+  userCompletedMockTest: (userId: string, sessionId: string) => `aptis_b2_completed_mock_v${STORAGE_SCHEMA_VERSION}_usr_${userId}_${sessionId}`,
+  anonymousCompletedMockTest: (sessionId: string) => `aptis_b2_completed_mock_v${STORAGE_SCHEMA_VERSION}_anon_${sessionId}`,
   userPreferences: (userId: string) => `aptis_b2_user_preferences_v${STORAGE_SCHEMA_VERSION}_usr_${userId}`,
 } as const;
 
@@ -32,6 +34,7 @@ export interface PracticeSessionState {
   currentQuestionId?: string;
   answers: Record<string, UserAnswerValue>; // questionId -> answerValue
   remainingTimeSeconds?: number;
+  deadlineAt?: string;
   startedAt: string; // ISO 8601
   lastSavedAt: string; // ISO 8601
   isSubmitted: boolean;
@@ -60,6 +63,9 @@ export const MOCK_SECTION_DURATIONS: Record<ExamComponentSkill, number> = {
 export interface MockTestSectionState {
   skill: ExamComponentSkill;
   remainingTimeSeconds: number;
+  deadlineAt?: string;
+  currentPartIndex?: number;
+  currentQuestionIndex?: number;
   answers: Record<string, UserAnswerValue>;
   isCompleted: boolean;
   completedAt?: string;

@@ -5,11 +5,12 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Loader2, Lock, Mail, User, ArrowRight, AlertCircle } from "lucide-react";
 import { useAuth } from "@/lib/hooks/use-auth";
+import { safeInternalRedirect } from "@/lib/auth/redirect";
 
 export function RegisterForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const from = searchParams.get("from") || "/dashboard";
+  const from = safeInternalRedirect(searchParams.get("from"));
 
   const { register } = useAuth();
   const [name, setName] = React.useState("");
@@ -75,13 +76,14 @@ export function RegisterForm() {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="space-y-1.5">
-            <label className="text-xs font-semibold text-slate-300 block">
+            <label htmlFor="register-name" className="text-xs font-semibold text-slate-300 block">
               Họ và tên
             </label>
             <div className="relative">
               <User className="absolute left-3 top-3 h-4 w-4 text-slate-400" />
               <input
                 type="text"
+                id="register-name"
                 name="name"
                 required
                 value={name}
@@ -93,13 +95,14 @@ export function RegisterForm() {
           </div>
 
           <div className="space-y-1.5">
-            <label className="text-xs font-semibold text-slate-300 block">
+            <label htmlFor="register-email" className="text-xs font-semibold text-slate-300 block">
               Địa chỉ Email
             </label>
             <div className="relative">
               <Mail className="absolute left-3 top-3 h-4 w-4 text-slate-400" />
               <input
                 type="email"
+                id="register-email"
                 name="email"
                 required
                 value={email}
@@ -111,13 +114,14 @@ export function RegisterForm() {
           </div>
 
           <div className="space-y-1.5">
-            <label className="text-xs font-semibold text-slate-300 block">
+            <label htmlFor="register-password" className="text-xs font-semibold text-slate-300 block">
               Mật khẩu (tối thiểu 6 ký tự)
             </label>
             <div className="relative">
               <Lock className="absolute left-3 top-3 h-4 w-4 text-slate-400" />
               <input
                 type="password"
+                id="register-password"
                 name="password"
                 required
                 value={password}
@@ -129,13 +133,14 @@ export function RegisterForm() {
           </div>
 
           <div className="space-y-1.5">
-            <label className="text-xs font-semibold text-slate-300 block">
+            <label htmlFor="register-confirm-password" className="text-xs font-semibold text-slate-300 block">
               Xác nhận mật khẩu
             </label>
             <div className="relative">
               <Lock className="absolute left-3 top-3 h-4 w-4 text-slate-400" />
               <input
                 type="password"
+                id="register-confirm-password"
                 name="confirmPassword"
                 required
                 value={confirmPassword}

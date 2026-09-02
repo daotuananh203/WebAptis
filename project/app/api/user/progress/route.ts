@@ -1,27 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
-import { AUTH_COOKIE_NAME } from "@/lib/auth/types";
-import { verifySessionToken } from "@/lib/auth/session";
 import { getProgressStore } from "@/lib/db/progress-store";
 import { isDatabaseConfigured } from "@/lib/db/client";
-import { ProgressAttemptRecord } from "@/lib/progress/types";
+import { getAuthenticatedSessionAsync, unauthorizedResponse } from "@/lib/auth/api";
+import { validateProgressAttempt } from "@/lib/progress/validation";
 
 export async function GET(req: NextRequest) {
   try {
-    const token = req.cookies.get(AUTH_COOKIE_NAME)?.value;
-    if (!token) {
-      return NextResponse.json(
-        { success: false, error: "Chưa đăng nhập" },
-        { status: 401 }
-      );
-    }
-
-    const session = verifySessionToken(token);
-    if (!session) {
-      return NextResponse.json(
-        { success: false, error: "Phiên đăng nhập không hợp lệ" },
-        { status: 401 }
-      );
-    }
+    const session = await getAuthenticatedSessionAsync(req);
+    if (!session) return unauthorizedResponse();
 
     // If PostgreSQL is not configured (e.g. offline dev), return empty array gracefully
     if (!isDatabaseConfigured()) {
@@ -39,56 +25,55 @@ export async function GET(req: NextRequest) {
       data: attempts,
     });
   } catch (err) {
-    const message = err instanceof Error ? err.message : "Lỗi truy vấn tiến độ học tập";
-    return NextResponse.json({ success: false, error: message }, { status: 500 });
+    console.error("[Progress GET Error]", err);
+    return NextResponse.json({ success: false, error: "Lỗi truy vấn tiến độ học tập" }, { status: 500 });
   }
 }
 
 export async function POST(req: NextRequest) {
   try {
-    const token = req.cookies.get(AUTH_COOKIE_NAME)?.value;
-    if (!token) {
-      return NextResponse.json(
-        { success: false, error: "Chưa đăng nhập" },
-        { status: 401 }
-      );
+    const session = await getAuthenticatedSessionAsync(req);
+    if (!session) return unauthorizedResponse();
+
+    let body: unknown;
+    try {
+      body = await req.json();
+    } catch {
+      return NextResponse.json({ success: false, error: "JSON payload không hợp lệ" }, { status: 400 });
     }
+    const candidates: unknown[] = Array.isArray(body) ? body : [body];
+    const records = candidates.map(validateProgressAttempt);
 
-    const session = verifySessionToken(token);
-    if (!session) {
-      return NextResponse.json(
-        { success: false, error: "Phiên đăng nhập không hợp lệ" },
-        { status: 401 }
-      );
-    }
-
-    const body = await req.json();
-    const records: ProgressAttemptRecord[] = Array.isArray(body)
-      ? body
-      : body && body.id
-      ? [body]
-      : [];
-
-    if (records.length === 0) {
+    if (records.length === 0 || records.some((item) => !item.success)) {
       return NextResponse.json(
         { success: false, error: "Dữ liệu bài làm không hợp lệ" },
         { status: 400 }
       );
     }
 
+    const validRecords = records.filter(
+      (item): item is Extract<typeof item, { success: true }> => item.success,
+    ).map((item) => item.data);
+
     if (isDatabaseConfigured()) {
       const store = getProgressStore();
-      for (const rec of records) {
-        await store.saveAttempt(session.userId, rec);
+      for (const rec of validRecords) {
+        const saved = await store.saveAttempt(session.userId, rec);
+        if (!saved) {
+          return NextResponse.json(
+            { success: false, error: "Progress record đã thuộc về user khác" },
+            { status: 409 },
+          );
+        }
       }
     }
 
     return NextResponse.json({
       success: true,
-      data: { syncedCount: records.length },
+      data: { syncedCount: validRecords.length },
     });
   } catch (err) {
-    const message = err instanceof Error ? err.message : "Lỗi lưu tiến độ học tập";
-    return NextResponse.json({ success: false, error: message }, { status: 500 });
+    console.error("[Progress POST Error]", err);
+    return NextResponse.json({ success: false, error: "Lỗi lưu tiến độ học tập" }, { status: 500 });
   }
 }

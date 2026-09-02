@@ -29,15 +29,23 @@ export function SpeakingImage({ src, alt, label }: { src: unknown; alt: string; 
     return <SpeakingImageUnavailable label={label} />;
   }
 
+  // The recovered composite crop for this source has a documented 12px
+  // neighbour sliver on the left edge. Clip that boundary at render time so
+  // learners never see another stimulus; the source bytes remain untouched.
+  const trimLeft = resolvedSrc.includes("gdrive_spk_p3_036-b") ? 12 : 0;
+  const trimRight = resolvedSrc.includes("gdrive_spk_p3_052-a") ? 128 : 0;
   return (
-    <img
-      src={resolvedSrc}
-      alt={alt}
-      data-testid="speaking-image"
-      data-image-src={resolvedSrc}
-      className="w-full h-auto max-h-[360px] object-contain rounded-xl"
-      loading="lazy"
-      onError={() => setFailed(true)}
-    />
+    <div className="overflow-hidden rounded-xl" style={trimLeft || trimRight ? { maxHeight: 360 } : undefined}>
+      <img
+        src={resolvedSrc}
+        alt={alt}
+        data-testid="speaking-image"
+        data-image-src={resolvedSrc}
+        className="h-auto max-h-[360px] w-full rounded-xl object-contain"
+        style={trimLeft || trimRight ? { clipPath: `inset(0 ${trimRight}px 0 ${trimLeft}px)` } : undefined}
+        loading="lazy"
+        onError={() => setFailed(true)}
+      />
+    </div>
   );
 }

@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { RegisterInputSchema } from "@/lib/auth/types";
 import { getUserStore } from "@/lib/auth/user-store";
 import { createSessionToken, getSessionCookieOptions } from "@/lib/auth/session";
+import { persistSession } from "@/lib/auth/api";
 
 export async function POST(req: NextRequest) {
   try {
@@ -18,6 +19,9 @@ export async function POST(req: NextRequest) {
 
     // Create session token and set cookie
     const token = createSessionToken(user);
+    const session = (await import("@/lib/auth/session")).verifySessionToken(token);
+    if (!session) throw new Error("Unable to create session");
+    await persistSession(session);
     const cookieOpts = getSessionCookieOptions();
 
     const response = NextResponse.json(
@@ -38,7 +42,7 @@ export async function POST(req: NextRequest) {
 
     return response;
   } catch (err) {
-    const message = err instanceof Error ? err.message : "Đăng ký thất bại";
-    return NextResponse.json({ success: false, error: message }, { status: 400 });
+    console.error("[Auth Register Error]", err);
+    return NextResponse.json({ success: false, error: "Đăng ký thất bại" }, { status: 400 });
   }
 }

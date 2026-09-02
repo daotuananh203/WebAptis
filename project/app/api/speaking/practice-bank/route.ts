@@ -31,6 +31,9 @@ export async function GET(request: NextRequest) {
       },
     });
   } catch (error) {
-    return NextResponse.json({ success: false, error: error instanceof Error ? error.message : "Unable to load Speaking Practice bank" }, { status: 500 });
+    console.error("[Speaking practice bank API] load failed", {
+      errorType: error instanceof Error ? error.name : typeof error,
+    });
+    return NextResponse.json({ success: false, error: "Unable to load Speaking Practice bank" }, { status: 500 });
   }
 }
