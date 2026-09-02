@@ -1,8 +1,8 @@
 # Codex — Hermes QA Remediation Verification
 
-## INDEPENDENT QA REMEDIATION VERIFICATION — LOCAL FIXES COMPLETE; PRODUCTION DEPLOYMENT PENDING
+## INDEPENDENT QA REMEDIATION VERIFICATION — LOCAL FIXES COMPLETE; PRODUCTION DEPLOYMENT BLOCKED
 
-Đây là báo cáo sau remediation, không phải bản sao kết luận cũ của Hermes. Tôi đã đọc report Hermes, tái hiện các finding quan trọng trên production build cũ, tìm root cause ở code/data, sửa các finding có thể sửa an toàn và chạy regression local. Production vẫn đang ở build baseline 14d688b3dbf0cf4f5c1bd8907e338bf46ca1fe6a cho đến khi commit được push/deploy và post-deploy smoke hoàn tất.
+Đây là báo cáo sau remediation, không phải bản sao kết luận cũ của Hermes. Tôi đã đọc report Hermes, tái hiện các finding quan trọng trên production build cũ, tìm root cause ở code/data, sửa các finding có thể sửa an toàn và chạy regression local. Commit đã push lên master, nhưng production vẫn đang ở build baseline 14d688b3dbf0cf4f5c1bd8907e338bf46ca1fe6a vì Vercel CLI không có credentials và GitHub push chưa kích hoạt deployment.
 
 Kết quả hiện tại:
 
@@ -128,4 +128,4 @@ Không có.
 
 ## Production gate
 
-Local remediation và local verification đã hoàn tất. Chưa được gọi là production fixed cho đến khi commit/push/deploy và chạy post-deploy smoke trên https://web-aptis.vercel.app, đặc biệt auth revocation, cross-user result ownership, progress rejection, Writing Parts 1–4 và Reading four-skills matrix. Real human microphone evidence vẫn là một giới hạn riêng, không được thay bằng TTS.
+Local remediation và local verification đã hoàn tất. Commit 85e0379 đã push thành công. Production deployment và post-deploy smoke đang BLOCKED vì Vercel trả No existing credentials found / Logged out; production health vẫn xác nhận build baseline. Cần một operator đã đăng nhập Vercel deploy commit này rồi chạy smoke cho auth revocation, cross-user result ownership, progress rejection, Writing Parts 1–4 và Reading four-skills matrix. Real human microphone evidence vẫn là một giới hạn riêng, không được thay bằng TTS.

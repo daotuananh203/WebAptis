@@ -5,7 +5,8 @@
   "productionUrl": "https://web-aptis.vercel.app",
   "baselineProductionBuild": "14d688b3dbf0cf4f5c1bd8907e338bf46ca1fe6a",
   "sourceCommitAtVerification": "14d688b3dbf0cf4f5c1bd8907e338bf46ca1fe6a",
-  "verdict": "INDEPENDENT QA REMEDIATION VERIFICATION — LOCAL FIXES COMPLETE; PRODUCTION DEPLOYMENT PENDING",
+  "verdict": "INDEPENDENT QA REMEDIATION VERIFICATION — LOCAL FIXES COMPLETE; PRODUCTION DEPLOYMENT BLOCKED",
+  "deploymentStatus": "BLOCKED — Vercel CLI has no credentials; production still serves the baseline build.",
   "scope": {"hermesInitialFindings": 20, "hermesFollowUpFindings": 22, "totalFindings": 42, "confirmedP0": 0, "confirmedP1": 9, "confirmedP2": 28, "confirmedP3": 2},
   "verificationEvidence": {
     "unitAndIntegration": "npm test — 44/44 master red-team suites passed.",
@@ -15,7 +16,8 @@
     "browserSmoke": "npx playwright test e2e/remediation-browser.spec.ts --project=chromium — 1 passed; mobile layout, labels, settings, invalid resource state and dialog semantics verified.",
     "contentMatrix": "All seven four-skills Reading datasets have non-empty A/B blocks, zero answer-key IDs missing from rendered data and zero PDF markers; standard Reading Part 2 duplicate-anchor scan is zero.",
     "speaking": "Canonical Speaking bank counts P1=31, P2=34, P3=39, P4=29; p3-035 is source-limited and fail-closed.",
-    "writing": "Actual Gemini provider output was normalized and schema-constrained; local live route returned 200 with score/feedback for Parts 1–4 and separate taskResults for a multi-task Part 4 submission."
+    "writing": "Actual Gemini provider output was normalized and schema-constrained; local live route returned 200 with score/feedback for Parts 1–4 and separate taskResults for a multi-task Part 4 submission.",
+    "productionAfterDeploy": "BLOCKED — vercel whoami reports Logged out and npx vercel deploy --prod --yes --cwd project reports No existing credentials found; production health remains baseline build 14d688b3dbf0cf4f5c1bd8907e338bf46ca1fe6a."
   },
   "sideEffects": ["Four exact local QA accounts and two matching user-memory files created by this remediation smoke run were removed; unrelated existing QA data was preserved.", "No production data was edited by remediation code."],
   "findings": [
@@ -72,5 +74,5 @@
     "notApplicable": ["QA-FU-P3-001"],
     "falsePositive": []
   },
-  "campaignLimitations": ["Production post-deploy verification is pending.", "Real human microphone recording was not available; no TTS/synthetic audio was used to claim Speaking AI success.", "Firefox/WebKit microphone, AI Coach stress, DNS-isolated performance, natural token expiry, DB failure injection and official British Council content validation remain outside this evidence."]
+  "campaignLimitations": ["Production post-deploy verification is blocked until a Vercel-authenticated operator deploys commit 85e0379.", "Real human microphone recording was not available; no TTS/synthetic audio was used to claim Speaking AI success.", "Firefox/WebKit microphone, AI Coach stress, DNS-isolated performance, natural token expiry, DB failure injection and official British Council content validation remain outside this evidence."]
 }
