@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import { useRouter } from "next/navigation";
 import { Loader2, Trash2, Sparkles } from "lucide-react";
 import { ChatMessage, ChatMessageData } from "./chat-message";
 import { ChatInput } from "./chat-input";
@@ -10,6 +11,7 @@ import { loadProgressHistory } from "@/lib/storage";
 import { prepareAICoachContext } from "@/lib/recommendations";
 import { AICoachContext } from "@/lib/recommendations/types";
 import { useAuth } from "@/lib/hooks/use-auth";
+import { coachUserErrorMessage } from "@/lib/coach/client-errors";
 
 class CoachRequestError extends Error {
   constructor(public readonly code: unknown) {
@@ -18,21 +20,9 @@ class CoachRequestError extends Error {
   }
 }
 
-function coachUserErrorMessage(code: unknown): string {
-  if (code === "INVALID_REQUEST") {
-    return "Yêu cầu chưa hợp lệ. Vui lòng kiểm tra lại nội dung và thử lại.";
-  }
-  if (code === "AI_PROVIDER_TIMEOUT") {
-    return "Cố vấn AI phản hồi quá lâu. Vui lòng thử lại sau.";
-  }
-  if (code === "AI_PROVIDER_ERROR") {
-    return "Cố vấn AI đang gặp sự cố tạm thời. Vui lòng thử lại sau.";
-  }
-  return "Xin lỗi, đã xảy ra lỗi khi kết nối tới Cố vấn AI. Vui lòng thử lại sau.";
-}
-
 export function CoachShell() {
-  const { user } = useAuth();
+  const router = useRouter();
+  const { user, isLoading: isAuthLoading, refreshUser } = useAuth();
   const [context, setContext] = React.useState<AICoachContext>(() =>
     prepareAICoachContext([])
   );
@@ -40,6 +30,14 @@ export function CoachShell() {
   const [inputValue, setInputValue] = React.useState("");
   const [isLoading, setIsLoading] = React.useState(false);
   const messagesEndRef = React.useRef<HTMLDivElement>(null);
+
+  // Middleware can only validate the signed cookie.  Re-check the durable
+  // session before allowing the Coach UI to remain usable.
+  React.useEffect(() => {
+    if (!isAuthLoading && !user) {
+      router.replace(`/login?from=${encodeURIComponent("/coach")}&reason=session-expired`);
+    }
+  }, [isAuthLoading, user, router]);
 
   // 1. Initialize AICoachContext from client storage on mount
   React.useEffect(() => {
@@ -60,7 +58,7 @@ export function CoachShell() {
   // 3. Send message handler (Unified for both suggested questions and free-form input)
   const handleSendMessage = async (customText?: string) => {
     const textToSend = (customText ?? inputValue).trim();
-    if (!textToSend || isLoading) return;
+    if (!textToSend || isLoading || isAuthLoading || !user) return;
 
     const userMsgId = `usr_${Date.now()}`;
     const userMsg: ChatMessageData = {
@@ -78,6 +76,7 @@ export function CoachShell() {
       const res = await fetch("/api/coach/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify({
           userMessage: textToSend,
           coachContext: context,
@@ -90,7 +89,13 @@ export function CoachShell() {
 
       const json = await res.json();
       if (!json.success) {
-        throw new CoachRequestError(json.code);
+        const errorCode = res.status === 401 ? "AUTHENTICATION_REQUIRED" : json.code;
+        if (errorCode === "AUTHENTICATION_REQUIRED") {
+          // Clear the client auth state from the server truth.  Never revive
+          // or trust a stale cookie after durable-session validation fails.
+          await refreshUser();
+        }
+        throw new CoachRequestError(errorCode);
       }
 
       const coachResponse = json.data;
@@ -194,7 +199,7 @@ export function CoachShell() {
       {/* 3. Quick Suggestion Prompts (Examples, NOT a whitelist) */}
       <QuickPrompts
         onSelectPrompt={(prompt) => handleSendMessage(prompt)}
-        disabled={isLoading}
+        disabled={isLoading || isAuthLoading || !user}
       />
 
       {/* 4. Chat Input Box (Free-form input always enabled) */}
@@ -203,7 +208,7 @@ export function CoachShell() {
         onChange={setInputValue}
         onSend={() => handleSendMessage()}
         isLoading={isLoading}
-        disabled={isLoading}
+        disabled={isLoading || isAuthLoading || !user}
       />
     </div>
   );

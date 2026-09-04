@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import http from "node:http";
 import { spawn, ChildProcess } from "node:child_process";
+import { prepareAICoachContext } from "../lib/recommendations";
 
 const PORT = 3128;
 const BASE_URL = `http://localhost:${PORT}`;
@@ -328,6 +329,26 @@ export async function runProductionSmokeTest() {
       console.log("  ✓ POST /api/coach/chat — 401 Unauthorized (Anonymous AI access blocked)");
     }
 
+    // 5.5.1 A valid session must pass the Coach authentication boundary and
+    // complete the real provider path when the local production-like server
+    // has its configured Gemini provider available.
+    {
+      const res = await fetchRoute("/api/coach/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Cookie: sessionCookie },
+        body: JSON.stringify({
+          userMessage: "Cho tôi một mẹo ngắn để cải thiện Reading Part 4.",
+          coachContext: prepareAICoachContext([]),
+          history: [],
+        }),
+      });
+      assert.equal(res.status, 200, `Authenticated Coach request should return 200, got ${res.status}`);
+      assert.equal(res.json?.success, true);
+      assert.equal(typeof res.json?.data?.message, "string");
+      assert.ok(res.json?.data?.message.length > 0, "Coach response must contain a message");
+      console.log("  ✓ POST /api/coach/chat — authenticated real provider request returned 200");
+    }
+
     // 5.6 User Progress API (Authenticated)
     {
       const res = await fetchRoute("/api/user/progress", {
@@ -347,6 +368,27 @@ export async function runProductionSmokeTest() {
       assert.equal(res.status, 200);
       assert.equal(res.json?.success, true);
       console.log("  ✓ POST /api/auth/logout — 200 OK (Session Cleared)");
+    }
+
+    // Reusing the old credential after logout must fail closed at both the
+    // durable-session and Coach API boundaries.
+    {
+      const me = await fetchRoute("/api/auth/me", { headers: { Cookie: sessionCookie } });
+      assert.equal(me.status, 401, "Old credential must be rejected by /api/auth/me after logout");
+      assert.match(
+        me.headers.get("set-cookie") || "",
+        /aptis_session=.*Max-Age=0/i,
+        "Invalid session response must clear the stale auth cookie",
+      );
+
+      const coach = await fetchRoute("/api/coach/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Cookie: sessionCookie },
+        body: JSON.stringify({ invalid: true }),
+      });
+      assert.equal(coach.status, 401, "Old credential must be rejected by Coach after logout");
+      assert.equal(coach.json?.code, "AUTHENTICATION_REQUIRED");
+      console.log("  ✓ Reused post-logout credential — 401 at /api/auth/me and /api/coach/chat");
     }
 
     console.log("\n==================================================");

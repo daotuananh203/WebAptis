@@ -58,7 +58,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const fetchCurrentUser = React.useCallback(async (): Promise<UserProfile | null> => {
     try {
-      const res = await fetch("/api/auth/me");
+      const res = await fetch("/api/auth/me", {
+        credentials: "include",
+        cache: "no-store",
+      });
       if (!res.ok) {
         setUser(null);
         return null;

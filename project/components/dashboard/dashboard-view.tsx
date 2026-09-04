@@ -40,7 +40,7 @@ export function DashboardView({
   recommendations,
   attempts,
 }: DashboardViewProps) {
-  const displayName = user?.name || "dao tuan anh";
+  const displayName = user?.name ?? "bạn";
   const todayFormatted = new Intl.DateTimeFormat("vi-VN", {
     weekday: "long",
     day: "numeric",

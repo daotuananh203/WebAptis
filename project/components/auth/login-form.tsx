@@ -6,11 +6,14 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Loader2, Lock, Mail, ArrowRight, AlertCircle } from "lucide-react";
 import { useAuth } from "@/lib/hooks/use-auth";
 import { safeInternalRedirect } from "@/lib/auth/redirect";
+import { COACH_SESSION_EXPIRED_MESSAGE } from "@/lib/coach/client-errors";
 
 export function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const from = safeInternalRedirect(searchParams.get("from"));
+  const sessionExpired = searchParams.get("reason") === "session-expired";
+  const sessionExpiredMessage = sessionExpired ? COACH_SESSION_EXPIRED_MESSAGE : null;
 
   const { login } = useAuth();
   const [email, setEmail] = React.useState("");
@@ -53,10 +56,10 @@ export function LoginForm() {
       </div>
 
       <div className="space-y-4">
-        {errorMsg && (
+        {(errorMsg || sessionExpiredMessage) && (
           <div className="p-3.5 bg-rose-500/10 border border-rose-500/30 rounded-xl text-xs text-rose-300 flex items-start gap-2 animate-in fade-in duration-200">
             <AlertCircle className="h-4 w-4 shrink-0 mt-0.5 text-rose-400" />
-            <span>{errorMsg}</span>
+            <span>{errorMsg || sessionExpiredMessage}</span>
           </div>
         )}
 

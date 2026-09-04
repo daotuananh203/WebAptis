@@ -9,6 +9,10 @@ import {
 } from "../lib/coach/advisor";
 import { AICoachChatInputSchema } from "../lib/coach/types";
 import { coachErrorStatus, coachPublicErrorCode } from "../lib/coach/error-taxonomy";
+import {
+  COACH_SESSION_EXPIRED_MESSAGE,
+  coachUserErrorMessage,
+} from "../lib/coach/client-errors";
 import { getRequestId } from "../lib/observability/request-id";
 import { AICoachContext } from "../lib/recommendations/types";
 import {
@@ -86,6 +90,16 @@ export async function runCoachChatTests() {
     // Oversized message (>1000 chars)
     const longMsg = "A".repeat(1001);
     assert.ok(!AICoachChatInputSchema.safeParse({ ...validInput, userMessage: longMsg }).success);
+
+    assert.equal(
+      coachUserErrorMessage("AUTHENTICATION_REQUIRED"),
+      COACH_SESSION_EXPIRED_MESSAGE,
+      "Coach must distinguish an expired durable session from a provider failure",
+    );
+    assert.match(
+      COACH_SESSION_EXPIRED_MESSAGE,
+      /Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại\./,
+    );
   }
 
   // ----------------------------------------------------

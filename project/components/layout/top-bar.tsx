@@ -24,13 +24,15 @@ export function TopBar({ onToggleSidebar }: TopBarProps) {
   const { user, logout } = useAuth();
   const [showUserMenu, setShowUserMenu] = React.useState(false);
 
-  const displayName = user?.name || "dao tuan anh";
-  const initials = displayName
-    .split(" ")
-    .map((w) => w[0])
-    .join("")
-    .substring(0, 2)
-    .toUpperCase();
+  const displayName = user?.name ?? "";
+  const initials = user
+    ? displayName
+        .split(" ")
+        .map((w) => w[0])
+        .join("")
+        .substring(0, 2)
+        .toUpperCase()
+    : "";
 
   const handleLogout = async () => {
     try {
@@ -116,66 +118,75 @@ export function TopBar({ onToggleSidebar }: TopBarProps) {
         </Link>
 
         {/* User Block */}
-        <div className="relative">
-          <button
-            onClick={() => setShowUserMenu(!showUserMenu)}
-            aria-expanded={showUserMenu}
-            aria-haspopup="menu"
-            aria-label="Mở menu tài khoản"
-            className="flex items-center gap-2.5 p-1.5 pl-2 rounded-xl border border-[#22222c] bg-[#141419] hover:border-emerald-500/40 hover:bg-[#181820] transition-all cursor-pointer"
-          >
-            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-teal-600 to-emerald-700 text-white text-xs font-bold shadow-xs">
-              {initials || <User className="h-3.5 w-3.5" />}
-            </div>
-            <div className="text-left hidden sm:block">
-              <span className="text-xs font-bold text-white block leading-tight max-w-[120px] truncate">
-                {displayName}
-              </span>
-              <span className="text-[10px] text-slate-300 block leading-none">
-                Student
-              </span>
-            </div>
-            <ChevronDown className="h-3.5 w-3.5 text-slate-400 mr-1" />
-          </button>
-
-          {/* User Dropdown Menu */}
-          {showUserMenu && (
-            <div className="absolute right-0 mt-2 w-48 rounded-xl border border-[#242430] bg-[#141419] p-1.5 shadow-xl shadow-black/50 z-50 animate-in fade-in-50 zoom-in-95">
-              <div className="px-3 py-2 border-b border-[#22222a] mb-1">
-                <p className="text-xs font-bold text-white truncate">{displayName}</p>
-                <p className="text-[10px] text-slate-300 truncate">{user?.email || "student@aptis.edu.vn"}</p>
+        {user ? (
+          <div className="relative">
+            <button
+              onClick={() => setShowUserMenu(!showUserMenu)}
+              aria-expanded={showUserMenu}
+              aria-haspopup="menu"
+              aria-label="Mở menu tài khoản"
+              className="flex items-center gap-2.5 p-1.5 pl-2 rounded-xl border border-[#22222c] bg-[#141419] hover:border-emerald-500/40 hover:bg-[#181820] transition-all cursor-pointer"
+            >
+              <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-teal-600 to-emerald-700 text-white text-xs font-bold shadow-xs">
+                {initials || <User className="h-3.5 w-3.5" />}
               </div>
+              <div className="text-left hidden sm:block">
+                <span className="text-xs font-bold text-white block leading-tight max-w-[120px] truncate">
+                  {displayName}
+                </span>
+                <span className="text-[10px] text-slate-300 block leading-none">
+                  Student
+                </span>
+              </div>
+              <ChevronDown className="h-3.5 w-3.5 text-slate-400 mr-1" />
+            </button>
 
-              <Link
-                href="/coach"
-                onClick={() => setShowUserMenu(false)}
-                className="flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
-              >
-                <Sparkles className="h-3.5 w-3.5 text-emerald-300" />
-                <span>Cố vấn AI Lexi</span>
-              </Link>
+            {/* User Dropdown Menu */}
+            {showUserMenu && (
+              <div className="absolute right-0 mt-2 w-48 rounded-xl border border-[#242430] bg-[#141419] p-1.5 shadow-xl shadow-black/50 z-50 animate-in fade-in-50 zoom-in-95">
+                <div className="px-3 py-2 border-b border-[#22222a] mb-1">
+                  <p className="text-xs font-bold text-white truncate">{displayName}</p>
+                  <p className="text-[10px] text-slate-300 truncate">{user.email}</p>
+                </div>
 
-              <Link
-                href="/settings"
-                onClick={() => setShowUserMenu(false)}
-                className="flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
-              >
-                <Settings className="h-3.5 w-3.5 text-slate-400" />
-                <span>Cài đặt</span>
-              </Link>
+                <Link
+                  href="/coach"
+                  onClick={() => setShowUserMenu(false)}
+                  className="flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
+                >
+                  <Sparkles className="h-3.5 w-3.5 text-emerald-300" />
+                  <span>Cố vấn AI Lexi</span>
+                </Link>
 
-              <button
-                onClick={handleLogout}
-                type="button"
-                role="menuitem"
-                className="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-semibold text-rose-400 hover:bg-rose-500/10 transition-colors cursor-pointer"
-              >
-                <LogOut className="h-3.5 w-3.5" />
-                <span>Đăng xuất</span>
-              </button>
-            </div>
-          )}
-        </div>
+                <Link
+                  href="/settings"
+                  onClick={() => setShowUserMenu(false)}
+                  className="flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
+                >
+                  <Settings className="h-3.5 w-3.5 text-slate-400" />
+                  <span>Cài đặt</span>
+                </Link>
+
+                <button
+                  onClick={handleLogout}
+                  type="button"
+                  role="menuitem"
+                  className="w-full flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-semibold text-rose-400 hover:bg-rose-500/10 transition-colors cursor-pointer"
+                >
+                  <LogOut className="h-3.5 w-3.5" />
+                  <span>Đăng xuất</span>
+                </button>
+              </div>
+            )}
+          </div>
+        ) : (
+          <Link
+            href="/login?from=%2Fdashboard"
+            className="rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-3 py-2 text-xs font-bold text-emerald-200 hover:bg-emerald-500/20 transition-colors"
+          >
+            Đăng nhập
+          </Link>
+        )}
       </div>
     </header>
   );

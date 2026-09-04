@@ -1,4 +1,6 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
 import { prepareAICoachContext } from "../lib/recommendations";
 import { ProgressAttemptRecord } from "../lib/progress/types";
 import {
@@ -12,6 +14,29 @@ export function runCoachUITests() {
   console.log("▶ [TEST 13] Running AI Coach Chat UI Unit Tests...");
 
   const memoryAdapter = new MemoryStorageAdapter();
+
+  // Auth/session recovery is wired into the actual client components, not
+  // only into the pure message mapper.
+  {
+    const coachShellSource = fs.readFileSync(
+      path.join(process.cwd(), "components", "coach", "coach-shell.tsx"),
+      "utf8",
+    );
+    const topBarSource = fs.readFileSync(
+      path.join(process.cwd(), "components", "layout", "top-bar.tsx"),
+      "utf8",
+    );
+    const dashboardSource = fs.readFileSync(
+      path.join(process.cwd(), "components", "dashboard", "dashboard-view.tsx"),
+      "utf8",
+    );
+    assert.match(coachShellSource, /refreshUser/);
+    assert.match(coachShellSource, /credentials:\s*["']include["']/);
+    assert.match(coachShellSource, /AUTHENTICATION_REQUIRED/);
+    assert.equal(topBarSource.includes("dao tuan anh"), false);
+    assert.equal(dashboardSource.includes("dao tuan anh"), false);
+    assert.match(topBarSource, /\{user \?/);
+  }
 
   // ----------------------------------------------------
   // 1. Context Preparation for Empty History
