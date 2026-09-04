@@ -5,6 +5,7 @@
  */
 
 import assert from "node:assert/strict";
+import crypto from "node:crypto";
 import fs from "fs";
 import path from "path";
 import {
@@ -13,6 +14,7 @@ import {
   verifyPassword,
   createSessionToken,
   verifySessionToken,
+  markSessionRevoked,
   RegisterInputSchema,
   LoginInputSchema,
 } from "../lib/auth";
@@ -33,9 +35,10 @@ import {
 import { migrateAnonymousStorageToUser } from "../lib/storage/migration";
 import { STORAGE_KEYS } from "../lib/storage/types";
 import { ProgressAttemptRecord } from "../lib/progress/types";
-import { getAuthenticatedSession } from "../lib/auth/api";
+import { getAuthenticatedSession, getAuthenticatedSessionAsync } from "../lib/auth/api";
 import { AUTH_COOKIE_NAME } from "../lib/auth/types";
 import { NextRequest } from "next/server";
+import { POST as coachChatPost } from "../app/api/coach/chat/route";
 
 export async function runAuthTests() {
   console.log("\n==================================================");
@@ -346,6 +349,57 @@ export async function runAuthTests() {
     assert.equal(getAuthenticatedSession(tamperedRequest), null);
     assert.equal(getAuthenticatedSession(new NextRequest("http://localhost/api/protected")), null);
     console.log("  ✓ API routes require a valid HMAC session and reject payload tampering.");
+  }
+
+  // ----------------------------------------------------
+  // Subtest 8: Coach rejects expired, revoked, and missing sessions
+  // ----------------------------------------------------
+  {
+    console.log("  [14.8] Testing Coach stale-session rejection...");
+    const sampleUser = {
+      id: "usr_coach_session_test",
+      email: "coach-session@aptis.edu.vn",
+      name: "Coach Session Test",
+      role: "user" as const,
+    };
+
+    const validToken = createSessionToken(sampleUser);
+    const validSession = verifySessionToken(validToken);
+    assert.ok(validSession);
+
+    const revokedRequest = new NextRequest("http://localhost/api/coach/chat", {
+      headers: { cookie: `${AUTH_COOKIE_NAME}=${validToken}` },
+    });
+    markSessionRevoked(validSession.sessionId);
+    assert.equal(await getAuthenticatedSessionAsync(revokedRequest), null);
+    const revokedResponse = await coachChatPost(revokedRequest);
+    assert.equal(revokedResponse.status, 401);
+    assert.equal((await revokedResponse.json()).code, "AUTHENTICATION_REQUIRED");
+
+    const expiredPayload = JSON.parse(
+      Buffer.from(validToken.split(".")[0], "base64url").toString("utf8"),
+    );
+    expiredPayload.expiresAt = Math.floor(Date.now() / 1000) - 1;
+    const expiredPayloadB64 = Buffer.from(JSON.stringify(expiredPayload), "utf8").toString("base64url");
+    const authSecret = process.env.AUTH_SECRET || process.env.SESSION_SECRET || "aptis_b2_development_secret_only";
+    const expiredSignature = crypto
+      .createHmac("sha256", authSecret)
+      .update(expiredPayloadB64)
+      .digest("base64url");
+    const expiredRequest = new NextRequest("http://localhost/api/coach/chat", {
+      headers: { cookie: `${AUTH_COOKIE_NAME}=${expiredPayloadB64}.${expiredSignature}` },
+    });
+    assert.equal(await getAuthenticatedSessionAsync(expiredRequest), null);
+    const expiredResponse = await coachChatPost(expiredRequest);
+    assert.equal(expiredResponse.status, 401);
+    assert.equal((await expiredResponse.json()).code, "AUTHENTICATION_REQUIRED");
+
+    const missingRequest = new NextRequest("http://localhost/api/coach/chat");
+    assert.equal(await getAuthenticatedSessionAsync(missingRequest), null);
+    const missingResponse = await coachChatPost(missingRequest);
+    assert.equal(missingResponse.status, 401);
+    assert.equal((await missingResponse.json()).code, "AUTHENTICATION_REQUIRED");
+    console.log("  ✓ Coach rejects revoked, expired, and missing sessions with AUTHENTICATION_REQUIRED.");
   }
 
   console.log("✅ [TEST 14 PASSED] User Authentication & Data Isolation tests completed successfully.\n");
