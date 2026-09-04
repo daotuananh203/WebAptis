@@ -11,6 +11,26 @@ import { prepareAICoachContext } from "@/lib/recommendations";
 import { AICoachContext } from "@/lib/recommendations/types";
 import { useAuth } from "@/lib/hooks/use-auth";
 
+class CoachRequestError extends Error {
+  constructor(public readonly code: unknown) {
+    super("AI Coach request failed");
+    this.name = "CoachRequestError";
+  }
+}
+
+function coachUserErrorMessage(code: unknown): string {
+  if (code === "INVALID_REQUEST") {
+    return "Yêu cầu chưa hợp lệ. Vui lòng kiểm tra lại nội dung và thử lại.";
+  }
+  if (code === "AI_PROVIDER_TIMEOUT") {
+    return "Cố vấn AI phản hồi quá lâu. Vui lòng thử lại sau.";
+  }
+  if (code === "AI_PROVIDER_ERROR") {
+    return "Cố vấn AI đang gặp sự cố tạm thời. Vui lòng thử lại sau.";
+  }
+  return "Xin lỗi, đã xảy ra lỗi khi kết nối tới Cố vấn AI. Vui lòng thử lại sau.";
+}
+
 export function CoachShell() {
   const { user } = useAuth();
   const [context, setContext] = React.useState<AICoachContext>(() =>
@@ -70,7 +90,7 @@ export function CoachShell() {
 
       const json = await res.json();
       if (!json.success) {
-        throw new Error(json.error || "Failed to communicate with AI Coach");
+        throw new CoachRequestError(json.code);
       }
 
       const coachResponse = json.data;
@@ -89,7 +109,9 @@ export function CoachShell() {
       const errMsg: ChatMessageData = {
         id: `err_${Date.now()}`,
         sender: "coach",
-        text: "Xin lỗi, đã xảy ra lỗi khi kết nối tới Cố vấn AI. Vui lòng thử lại sau.",
+        text: err instanceof CoachRequestError
+          ? coachUserErrorMessage(err.code)
+          : "Xin lỗi, đã xảy ra lỗi khi kết nối tới Cố vấn AI. Vui lòng thử lại sau.",
         timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
         isError: true,
       };

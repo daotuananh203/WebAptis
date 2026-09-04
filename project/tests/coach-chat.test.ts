@@ -8,7 +8,8 @@ import {
   parseAndValidateCoachOutput,
 } from "../lib/coach/advisor";
 import { AICoachChatInputSchema } from "../lib/coach/types";
-import { AiGradingTimeoutError } from "../lib/grading/ai-timeout";
+import { coachErrorStatus, coachPublicErrorCode } from "../lib/coach/error-taxonomy";
+import { getRequestId } from "../lib/observability/request-id";
 import { AICoachContext } from "../lib/recommendations/types";
 import {
   retrieveRelevantKnowledge,
@@ -236,6 +237,12 @@ export async function runCoachChatTests() {
   // 6. Error Handling on Gemini Failure
   // ----------------------------------------------------
   {
+    const validProviderOutput = JSON.stringify({
+      message: "Hãy tập trung vào cấu trúc email trang trọng và nêu rõ mục đích ngay phần mở đầu.",
+      mode: "Strategy",
+      actionSuggestions: ["Luyện viết phần mở đầu trong 5 phút."],
+    });
+
     const failingClient: any = {
       models: {
         generateContent: async () => {
@@ -253,8 +260,96 @@ export async function runCoachChatTests() {
           },
           failingClient
         ),
-      (err: any) => err.code === "INVALID_ANSWER_FORMAT"
+      (err: any) => err.code === "AI_PROVIDER_ERROR"
     );
+
+    // Provider authentication/permission failures are not transient and are
+    // not retried, preventing a bad configuration from multiplying requests.
+    let nonRetryableCalls = 0;
+    const nonRetryableClient: any = {
+      models: {
+        generateContent: async () => {
+          nonRetryableCalls += 1;
+          const error = new Error("Provider permission denied");
+          (error as Error & { status: number }).status = 403;
+          throw error;
+        },
+      },
+    };
+    await assert.rejects(
+      () => getCoachAdvice(
+        { userMessage: "Help me study", coachContext: mockContext },
+        nonRetryableClient,
+        undefined,
+        100,
+        { retryDelayMs: 0 },
+      ),
+      (err: any) => err.code === "AI_PROVIDER_ERROR",
+    );
+    assert.equal(nonRetryableCalls, 1);
+
+    // A transient empty response is retried once and can recover normally.
+    let emptyThenValidCalls = 0;
+    const emptyThenValidClient: any = {
+      models: {
+        generateContent: async () => {
+          emptyThenValidCalls += 1;
+          return { text: emptyThenValidCalls === 1 ? "   " : validProviderOutput };
+        },
+      },
+    };
+    const recoveredFromEmpty = await getCoachAdvice(
+      { userMessage: "Help me study", coachContext: mockContext },
+      emptyThenValidClient,
+      undefined,
+      100,
+      { retryDelayMs: 0, requestId: "coach-empty-recovery" },
+    );
+    assert.equal(emptyThenValidCalls, 2);
+    assert.equal(recoveredFromEmpty.message, "Hãy tập trung vào cấu trúc email trang trọng và nêu rõ mục đích ngay phần mở đầu.");
+
+    // A transient malformed JSON response is also retried, but parser details
+    // are never exposed as a client/input error.
+    let malformedThenValidCalls = 0;
+    const malformedThenValidClient: any = {
+      models: {
+        generateContent: async () => {
+          malformedThenValidCalls += 1;
+          return { text: malformedThenValidCalls === 1 ? "not-json" : validProviderOutput };
+        },
+      },
+    };
+    const recoveredFromMalformed = await getCoachAdvice(
+      { userMessage: "Help me study", coachContext: mockContext },
+      malformedThenValidClient,
+      undefined,
+      100,
+      { retryDelayMs: 0 },
+    );
+    assert.equal(malformedThenValidCalls, 2);
+    assert.equal(recoveredFromMalformed.mode, "Strategy");
+
+    // Two invalid provider responses fail closed as a provider error.
+    let malformedCalls = 0;
+    const malformedClient: any = {
+      models: {
+        generateContent: async () => {
+          malformedCalls += 1;
+          return { text: "not-json" };
+        },
+      },
+    };
+    await assert.rejects(
+      () => getCoachAdvice(
+        { userMessage: "Help me study", coachContext: mockContext },
+        malformedClient,
+        undefined,
+        100,
+        { retryDelayMs: 0 },
+      ),
+      (err: any) => err.code === "AI_PROVIDER_ERROR",
+    );
+    assert.equal(malformedCalls, 2);
 
     const stalledClient: any = {
       models: {
@@ -268,9 +363,20 @@ export async function runCoachChatTests() {
         undefined,
         5,
       ),
-      (err: any) => err instanceof AiGradingTimeoutError && err.code === "AI_TIMEOUT",
+      (err: any) => err.code === "GRADING_TIMEOUT",
       "AI Coach provider stalls must be bounded and surfaced as a timeout",
     );
+
+    // Public API mapping keeps provider failures distinct from bad requests.
+    assert.equal(coachErrorStatus("AI_PROVIDER_ERROR"), 502);
+    assert.equal(coachErrorStatus("GRADING_TIMEOUT"), 504);
+    assert.equal(coachPublicErrorCode("AI_PROVIDER_ERROR"), "AI_PROVIDER_ERROR");
+    assert.equal(coachPublicErrorCode("GRADING_TIMEOUT"), "AI_PROVIDER_TIMEOUT");
+    assert.equal(coachErrorStatus("INVALID_ANSWER_FORMAT"), 400);
+
+    // Caller IDs are accepted only when safe for response headers/log fields.
+    assert.equal(getRequestId("coach-trace-123"), "coach-trace-123");
+    assert.notEqual(getRequestId("bad\nrequest-id"), "bad\nrequest-id");
   }
 
   console.log("  ✓ Chat input schema & message length validation verified");
@@ -280,7 +386,7 @@ export async function runCoachChatTests() {
   console.log("  ✓ Prompt injection encapsulation across knowledge & user content verified");
   console.log("  ✓ Immutability of Progress and Recommendation stores verified");
   console.log("  ✓ Structured output parsing, schema validation & mock Gemini execution verified");
-  console.log("  ✓ Error boundary and API failure safety verified");
+  console.log("  ✓ Bounded retry, provider/timeout taxonomy, request correlation and API failure safety verified");
   console.log("✅ [TEST 8 PASSED] AI Coach Chat Advisor unit tests completed.\n");
 }
 

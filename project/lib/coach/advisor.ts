@@ -5,8 +5,9 @@
 
 import { GoogleGenAI } from "@google/genai";
 import { getGeminiClient } from "../gemini/client";
-import { GEMINI_MODELS } from "../gemini/models";
-import { createGradingError } from "../grading/errors";
+import { DEFAULT_TASK_MODELS, GEMINI_MODELS } from "../gemini/models";
+import { getGeminiConfig } from "../gemini/config";
+import { GradingError, createGradingError } from "../grading/errors";
 import { retrieveRelevantKnowledge } from "../knowledge/retriever";
 import { KnowledgeItem } from "../knowledge/types";
 import { loadUserMemory } from "../memory/store";
@@ -21,7 +22,96 @@ import {
   GeminiCoachOutputSchema,
   RetrievedKnowledgeReference,
 } from "./types";
-import { AI_GRADING_TIMEOUT_MS, AiGradingTimeoutError, withAiGradingTimeout } from "../grading/ai-timeout";
+import { AiGradingTimeoutError, withAiGradingTimeout } from "../grading/ai-timeout";
+
+export const AI_COACH_TIMEOUT_MS = 20_000;
+export const AI_COACH_MAX_ATTEMPTS = 2;
+export const AI_COACH_RETRY_DELAY_MS = 150;
+
+export interface CoachAdviceOptions {
+  requestId?: string;
+  maxAttempts?: number;
+  retryDelayMs?: number;
+}
+
+function clampAttempts(value: number | undefined): number {
+  if (!Number.isFinite(value)) return AI_COACH_MAX_ATTEMPTS;
+  return Math.max(1, Math.min(AI_COACH_MAX_ATTEMPTS, Math.floor(value as number)));
+}
+
+function sleep(milliseconds: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+}
+
+function safeErrorType(error: unknown): string {
+  return error instanceof AiGradingTimeoutError
+    ? "timeout"
+    : error instanceof GradingError
+      ? error.code
+      : error instanceof Error
+        ? error.name || "Error"
+        : "UnknownError";
+}
+
+function providerStatus(error: unknown): number | undefined {
+  if (!error || typeof error !== "object") return undefined;
+  const candidate = error as { status?: unknown; statusCode?: unknown; code?: unknown };
+  const status = candidate.status ?? candidate.statusCode;
+  return typeof status === "number" && Number.isInteger(status) ? status : undefined;
+}
+
+function isRetryableProviderFailure(error: unknown): boolean {
+  if (error instanceof AiGradingTimeoutError) return true;
+  if (error instanceof GradingError) return error.code === "AI_PROVIDER_ERROR";
+  if (error instanceof TypeError) return false;
+
+  const status = providerStatus(error);
+  if (status !== undefined) return status === 408 || status === 409 || status === 425 || status === 429 || status >= 500;
+
+  const message = error instanceof Error ? error.message.toLowerCase() : "";
+  if (/(api\s*key|authentication|unauthori[sz]ed|forbidden|permission denied|invalid argument|bad request)/i.test(message)) {
+    return false;
+  }
+  return true;
+}
+
+function logCoachAttempt(input: {
+  requestId?: string;
+  attempt: number;
+  maxAttempts: number;
+  model: string;
+  latencyMs: number;
+  outcome: "success" | "error";
+  errorCategory?: string;
+  retryable?: boolean;
+}) {
+  const payload = {
+    requestId: input.requestId ?? "not-provided",
+    attempt: input.attempt,
+    maxAttempts: input.maxAttempts,
+    model: input.model,
+    latencyMs: input.latencyMs,
+    outcome: input.outcome,
+    errorCategory: input.errorCategory,
+    retryable: input.retryable,
+    retryScheduled: input.outcome === "error" && input.attempt < input.maxAttempts && input.retryable !== false,
+  };
+
+  if (input.outcome === "error") {
+    console.warn("[AI Coach] provider attempt failed", payload);
+  } else {
+    console.info("[AI Coach] provider attempt completed", payload);
+  }
+}
+
+function providerFailure(message: string, details?: unknown): GradingError {
+  return createGradingError("AI_PROVIDER_ERROR", message, details);
+}
+
+function coachCandidateModels(): string[] {
+  const configuredModel = getGeminiConfig().taskModels.aiCoach || DEFAULT_TASK_MODELS.aiCoach;
+  return Array.from(new Set([configuredModel, GEMINI_MODELS.FLASH, GEMINI_MODELS.FLASH_3_6]));
+}
 
 /**
  * Safely parse and validate Gemini's JSON output for the AI Coach.
@@ -88,10 +178,9 @@ export async function getCoachAdvice(
   input: AICoachChatInput,
   customClient?: GoogleGenAI,
   injectedKnowledge?: KnowledgeItem[],
-  timeoutMs = AI_GRADING_TIMEOUT_MS,
+  timeoutMs = AI_COACH_TIMEOUT_MS,
+  options: CoachAdviceOptions = {},
 ): Promise<AICoachChatResponse> {
-  const client = customClient ?? getGeminiClient();
-
   // 1. Retrieve targeted knowledge items (Max 3 to avoid prompt bloat)
   const retrievedKnowledge = injectedKnowledge ?? retrieveRelevantKnowledge(input.userMessage, 3);
 
@@ -101,38 +190,98 @@ export async function getCoachAdvice(
   // 3. Build structured prompt
   const prompt = buildAICoachPrompt(input.coachContext, input.userMessage, retrievedKnowledge, userMemory);
 
-  const candidateModels = [GEMINI_MODELS.FLASH, GEMINI_MODELS.FLASH_3_6];
-  let rawResponseText = "";
+  let client: GoogleGenAI;
+  try {
+    client = customClient ?? getGeminiClient();
+  } catch (error) {
+    logCoachAttempt({
+      requestId: options.requestId,
+      attempt: 1,
+      maxAttempts: 1,
+      model: "configured",
+      latencyMs: 0,
+      outcome: "error",
+      errorCategory: safeErrorType(error),
+    });
+    throw providerFailure("AI Coach provider is unavailable");
+  }
+
+  const maxAttempts = clampAttempts(options.maxAttempts);
+  const retryDelayMs = Math.max(0, Math.min(1_000, options.retryDelayMs ?? AI_COACH_RETRY_DELAY_MS));
+  const candidateModels = coachCandidateModels();
+  let validatedOutput: GeminiCoachOutput | undefined;
   let lastError: unknown = null;
 
-  for (const modelName of candidateModels) {
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    const modelName = candidateModels[(attempt - 1) % candidateModels.length];
+    const startedAt = Date.now();
     try {
-      const response = await withAiGradingTimeout(client.models.generateContent({
-        model: modelName,
-        contents: prompt,
-        config: {
-          systemInstruction: AI_COACH_SYSTEM_INSTRUCTION,
-          responseMimeType: "application/json",
-        },
-      }), timeoutMs);
+      const response = await withAiGradingTimeout(
+        (abortSignal) => client.models.generateContent({
+          model: modelName,
+          contents: prompt,
+          config: {
+            systemInstruction: AI_COACH_SYSTEM_INSTRUCTION,
+            responseMimeType: "application/json",
+            abortSignal,
+          },
+        }),
+        timeoutMs,
+      );
 
-      rawResponseText = response.text ?? "";
-      if (rawResponseText) break;
+      const rawResponseText = typeof response.text === "string" ? response.text.trim() : "";
+      if (!rawResponseText) {
+        throw providerFailure("AI Coach provider returned an empty response");
+      }
+
+      try {
+        validatedOutput = parseAndValidateCoachOutput(rawResponseText);
+      } catch (error) {
+        // INVALID_ANSWER_FORMAT is a parser-level detail, not a client error.
+        // A malformed provider response is retryable and must never become HTTP 400.
+        throw providerFailure("AI Coach provider returned an invalid response", {
+          parserError: safeErrorType(error),
+        });
+      }
+
+      logCoachAttempt({
+        requestId: options.requestId,
+        attempt,
+        maxAttempts,
+        model: modelName,
+        latencyMs: Date.now() - startedAt,
+        outcome: "success",
+      });
+      break;
     } catch (error) {
       lastError = error;
-      if (customClient || error instanceof AiGradingTimeoutError) break;
+      const retryable = isRetryableProviderFailure(error);
+      logCoachAttempt({
+        requestId: options.requestId,
+        attempt,
+        maxAttempts,
+        model: modelName,
+        latencyMs: Date.now() - startedAt,
+        outcome: "error",
+        errorCategory: safeErrorType(error),
+        retryable,
+      });
+      if (attempt < maxAttempts && retryable) {
+        await sleep(retryDelayMs * 2 ** (attempt - 1));
+      } else if (!retryable) {
+        break;
+      }
     }
   }
 
-  if (!rawResponseText) {
-    if (lastError instanceof AiGradingTimeoutError) throw lastError;
-    throw createGradingError(
-      "INVALID_ANSWER_FORMAT",
-      `Gemini AI Coach execution failed: ${lastError instanceof Error ? lastError.message : String(lastError)}`
-    );
+  if (!validatedOutput) {
+    if (lastError instanceof AiGradingTimeoutError) {
+      throw createGradingError("GRADING_TIMEOUT", "AI Coach provider timed out");
+    }
+    throw providerFailure("AI Coach provider failed after bounded retries", {
+      lastErrorType: safeErrorType(lastError),
+    });
   }
-
-  const validatedOutput = parseAndValidateCoachOutput(rawResponseText);
 
   // 4. Map retrieved knowledge reference metadata
   const knowledgeRefs: RetrievedKnowledgeReference[] = retrievedKnowledge.map((k) => ({
