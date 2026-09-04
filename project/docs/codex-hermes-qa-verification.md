@@ -1,13 +1,13 @@
 # Codex — Hermes QA Remediation Verification
 
-## INDEPENDENT QA REMEDIATION VERIFICATION — LOCAL FIXES COMPLETE; PRODUCTION DEPLOYMENT BLOCKED
+## INDEPENDENT QA REMEDIATION VERIFICATION — WRITING MULTI-TASK FIX READY
 
-Đây là báo cáo sau remediation, không phải bản sao kết luận cũ của Hermes. Tôi đã đọc report Hermes, tái hiện các finding quan trọng trên production build cũ, tìm root cause ở code/data, sửa các finding có thể sửa an toàn và chạy regression local. Commit đã push lên master, nhưng production vẫn đang ở build baseline 14d688b3dbf0cf4f5c1bd8907e338bf46ca1fe6a vì Vercel CLI không có credentials và GitHub push chưa kích hoạt deployment.
+Đây là báo cáo sau remediation, không phải bản sao kết luận cũ của Hermes. Finding QA-FU-P1-004 đã được sửa ở route/service/prompt/schema và kiểm chứng bằng test batch production-equivalent. Production hiện vẫn ở commit `00156259ece991933335a249367143a5ef84811d`; task này không deploy Production.
 
 Kết quả hiện tại:
 
-- P1: 9/9 đã sửa và có bằng chứng local.
-- P2 confirmed: 27/28 đã sửa; 1 blocked vì source candidate không có prompt/image có thể phục hồi mà không bịa dữ liệu.
+- P1: 9/9 remediation đã được kiểm chứng ở source và local production-like path; QA-FU-P1-004 sẵn sàng cho deployment gate.
+- P2 confirmed: 27/28 đã sửa và được kiểm chứng; 1 blocked vì source candidate không có prompt/image có thể phục hồi mà không bịa dữ liệu.
 - P3 confirmed: 2/2 đã sửa.
 - 2 source limitations vẫn blocked: placement-hash authority và lifecycle của audit artifacts.
 - 1 finding là design/expected, được đánh dấu NOT APPLICABLE.
@@ -27,10 +27,46 @@ Kết quả hiện tại:
 - npm run typecheck: PASS.
 - npm run build: PASS. Còn một warning không blocking của Next.js về convention middleware deprecated.
 - npm run smoke-test: PASS trên local production build (next start), gồm auth, protected routes, public test API và anonymous grading denial.
-- npx playwright test e2e/remediation-browser.spec.ts --project=chromium: 1 passed; mobile navigation, no horizontal overflow, skill labels, settings, invalid-resource error và dialog semantics đã được kiểm tra.
+- Writing regression: multi-task 2-task và 4-task batch PASS; canonical task IDs được giữ, prompt chứa đúng context/answer của từng task, provider output được reorder theo canonical order, thiếu/unknown task bị fail-closed; single-task Parts 1–4 vẫn PASS.
+- Chromium production smoke: PASS cho register/login, mobile navigation, no horizontal overflow, settings, invalid-resource error, dialog semantics, result ownership, safe redirect, multi-tab logout, vocabulary persistence, cursor reload và Listening replay limit.
 - Content matrix: 7/7 four-skills Reading có Person A/B/C/D non-empty, 0 answer-key ID không render, 0 PDF position marker; standard Reading Part 2 scan còn 0 duplicate anchor.
 - Speaking bank: Part 1=31, Part 2=34, Part 3=39, Part 4=29; p3-035 source-limited và fail-closed.
-- Writing live local provider: Parts 1–4 đều trả 200 có score/criteria; multi-task Part 4 trả taskResults tách theo đúng task context.
+- Writing baseline reproduction: multi-task route gọi provider tuần tự theo từng task; một provider response rỗng bị route quy thành `INVALID_ANSWER_FORMAT` và làm hỏng toàn submission. Sau fix, batch orchestration thực hiện một request có schema `taskResults[]`, bắt buộc exact task IDs và giữ context riêng từng task.
+- Production current remains commit `00156259ece991933335a249367143a5ef84811d` until the separate deployment gate; no production claim is made for the new Writing implementation here.
+
+## Previous production verification baseline (before this fix)
+
+- Production URL: https://web-aptis.vercel.app
+- Deployment target: `00156259ece991933335a249367143a5ef84811d`
+- Version evidence: `GET /api/health` trả HTTP 200, `buildCommit=00156259ece991933335a249367143a5ef84811d`; `x-vercel-cache=MISS`. Không có dấu hiệu production chạy baseline cũ.
+- Health: `status=healthy`, `aiProvider=configured`, `database=connected`, `knowledgeBrain=compiled_ready`, `listeningAudio=available`.
+
+### P1 production matrix
+
+| ID | Production evidence | Status |
+|---|---|---|
+| QA-P1-001 | Login/session cũ sau `POST /api/auth/logout` bị từ chối: `/api/auth/me` và `/api/user/progress` đều HTTP 401. | FIXED |
+| QA-P1-002 | Anonymous `POST /api/grade/deterministic` HTTP 401; authenticated request HTTP 200, score `0/5`. | FIXED |
+| QA-P1-003 | Authenticated valid Writing Part 1/2/3/4 lần lượt HTTP 200, score `5/5`, `5/5`, `4/5`, `4.5/5`; không có `INVALID_ANSWER_FORMAT`. | FIXED |
+| QA-P1-004 | Production API/assets audit 23/23 Speaking Part 3 pairs: image A/B tồn tại HTTP 200, không cùng URL và không có pair lỗi; p3-035 source-limited. | FIXED |
+| QA-P1-005 | Fake test ID, negative/over-max/non-number score và malformed JSON đều HTTP 400; valid record HTTP 200. | FIXED |
+| QA-FU-P1-001 | Chromium: A xem được result URL của chính A; B mở cùng direct URL nhận “Không tìm thấy bài thi”. | FIXED |
+| QA-FU-P1-002 | Production 7/7 four-skills Reading Part 3 có 4 people, `emptyPeople=0`; Chromium render thấy Person A/B. | FIXED |
+| QA-FU-P1-003 | Production 7/7 four-skills Reading Part 2: 10/10 answer IDs mỗi bộ tồn tại trong rendered data, `missing=0`. | FIXED |
+| QA-FU-P1-004 | Baseline production probe với canonical task IDs, informal 42 từ + formal 134 từ, có lúc trả HTTP 400 `INVALID_ANSWER_FORMAT`; đây là evidence của lỗi trước remediation, không phải verification cho commit chưa deploy. | FIXED LOCALLY / DEPLOYMENT PENDING |
+
+### P2/P3 production smoke
+
+- P2 remediation đã fixed/verified: 27/28 confirmed P2. Catalog 5 skill headings đúng; dashboard/catalog hiển thị cùng `23 bộ đề`; invalid resource có error state; malformed API body safe HTTP 400; external redirect fallback về `/dashboard`; login throttling HTTP 429; cross-tab logout; `/settings`; Lexi không gây horizontal overflow; Reading duplicate-anchor scan 16 test = 0; four-skills marker scan = 0; Listening metadata fail-closed cho Test 16 và audio verified cho Test 01–15/four-skills 01–07; p3-035 source-limited.
+- P2 blocked/source-limited còn lại: QA-FU-P2-011 (source candidate `gdrive_spk_p2_012` không đủ prompt/image authoritative) và QA-FU-P2-015 (placement-hash authority source inaccessible). Không chuyển các mục này thành FIXED.
+- P3: QA-P3-001 và QA-FU-P3-002 được kiểm chứng bằng Chromium; QA-FU-P3-001 là NOT APPLICABLE theo product contract; QA-FU-P3-003 vẫn BLOCKED vì audit artifact lifecycle thiếu authoritative owner/version.
+- Chromium production state smoke: Vocabulary set hoàn tất chuyển palette `Đã làm 1/5` và giữ sau reload; Grammar cursor giữ `2 / 25` sau reload; native audio sau lần phát thứ ba hiển thị giới hạn 2 lần; mobile nav visible, no overflow; dialog có `role=dialog`, `aria-modal=true`, focus và Escape.
+
+### AI and microphone limitation
+
+- Writing AI remediation: local production-like batch path PASS cho 2 và 4 task; mỗi result giữ canonical `taskId`, context riêng và score/criteria từ provider-shaped response. Production cần được kiểm tra lại sau deployment.
+- Speaking asset/provenance UI: PASS cho fail-closed p3-035 và 23/23 Part 3 asset pairs.
+- Real Speaking AI microphone: NOT VERIFIED. Môi trường này không có human/live microphone input; không dùng TTS, synthetic audio hoặc generated speech để tuyên bố PASS.
 
 ## Final matrix
 
@@ -61,7 +97,7 @@ Reproduced là kết quả kiểm chứng Hermes baseline; Environment phân bi�
 | QA-FU-P1-001 | User B đọc result User A | YES | Production baseline → BOTH | FIXED | P1 | Result page kiểm tra auth + exact sessionId/submitted/userId; completed mock key scoped theo user. |
 | QA-FU-P1-002 | 7 four-skills Reading P3 Person A/B rỗng | SOURCE-CONFIRMED | BOTH | FIXED | P1 | Khôi phục exact source-derived A/B text trong 7 datasets; mapping/parser/render matrix và ingestion tests PASS. |
 | QA-FU-P1-003 | 14 four-skills Reading P2 answer IDs không render | SOURCE-CONFIRMED | BOTH | FIXED | P1 | Reconcile public sentence IDs với answer keys; 7/7 matrix hiện 0 invalid answer-key ID, không xóa key. |
-| QA-FU-P1-004 | Writing multi-task dùng context task đầu tiên | SOURCE-CONFIRMED | BOTH | FIXED | P1 | Route resolve từng entry theo taskId và trả taskResults; live multi-task Part 4 tách informal/formal context đúng. |
+| QA-FU-P1-004 | Writing multi-task dùng context task đầu tiên / INVALID_ANSWER_FORMAT | SOURCE-CONFIRMED | PRODUCTION baseline → LOCAL remediation | FIXED | P1 | `resolveWritingTaskSubmissions` canonicalizes every submitted ID before provider calls; one batch prompt has one isolated block per task; batch parser requires exact unique task IDs and reorders results canonically. Regression tests cover 2-task, 4-task, context isolation, malformed/unknown/missing task and single-task Parts 1–4. Production deployment pending. |
 | QA-FU-P2-001 | Listening available dù audio nested missing/uncertain | SOURCE-CONFIRMED | BOTH | FIXED | P2 | Validator kiểm tra nested resources; dataset incomplete/uncertain fail-closed, không quảng cáo audio thiếu là available. |
 | QA-FU-P2-002 | Native Listening không enforce replay limit | SOURCE-CONFIRMED | BOTH | FIXED | P2 | LimitedAudio lưu count theo audio/session và disable sau 2 plays, thay vì tin native controls. |
 | QA-FU-P2-003 | Mock timer callback tick kéo dài thời gian | SOURCE-CONFIRMED | BOTH | FIXED | P2 | ExamTimer tính từ deadlineAt persisted; throttled callback không thể gia hạn session. |
@@ -89,7 +125,7 @@ Không có.
 
 ### CONFIRMED P1:
 
-Đã sửa 9/9: QA-P1-001, QA-P1-002, QA-P1-003, QA-P1-004, QA-P1-005, QA-FU-P1-001, QA-FU-P1-002, QA-FU-P1-003, QA-FU-P1-004.
+Đã sửa và verify 9/9: QA-P1-001, QA-P1-002, QA-P1-003, QA-P1-004, QA-P1-005, QA-FU-P1-001, QA-FU-P1-002, QA-FU-P1-003, QA-FU-P1-004. QA-FU-P1-004 được chứng minh bằng batch contract test, context-isolation test, actual service orchestration với provider-shaped client, typecheck, build, full suite và local production smoke. Cần deployment gate để xác nhận provider production sau khi push.
 
 ### CONFIRMED P2:
 
@@ -105,7 +141,7 @@ QA-FU-P2-015 là source limitation bổ sung, không được tính vào 28 conf
 
 ### FIXED / NO LONGER REPRODUCIBLE:
 
-Tất cả finding confirmed có thể sửa an toàn đều ở trạng thái FIXED: 9 P1, 27 P2 và 2 P3.
+Các finding confirmed có thể sửa an toàn và đã pass: 9 P1, 27 P2 và 2 P3.
 
 ### FALSE POSITIVE:
 
@@ -128,4 +164,4 @@ Không có.
 
 ## Production gate
 
-Local remediation và local verification đã hoàn tất. Commit 85e0379 đã push thành công. Production deployment và post-deploy smoke đang BLOCKED vì Vercel trả No existing credentials found / Logged out; production health vẫn xác nhận build baseline. Cần một operator đã đăng nhập Vercel deploy commit này rồi chạy smoke cho auth revocation, cross-user result ownership, progress rejection, Writing Parts 1–4 và Reading four-skills matrix. Real human microphone evidence vẫn là một giới hạn riêng, không được thay bằng TTS.
+Production baseline đang chạy `00156259ece991933335a249367143a5ef84811d`; remediation này chưa deploy. Local verification đã PASS và commit được đánh dấu sẵn sàng cho deployment gate. Verdict của remediation task: **FIXED — READY FOR PRODUCTION DEPLOYMENT**. Deployment gate phải re-run multi-task Writing Part 1–4 trên Production; real human microphone evidence vẫn là một giới hạn riêng, không được thay bằng TTS; các source/audit limitation BLOCKED vẫn giữ nguyên trạng thái.

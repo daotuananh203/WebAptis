@@ -8,16 +8,18 @@ import path from "node:path";
 import { GoogleGenAI, Type } from "@google/genai";
 import { getGeminiClient } from "../gemini/client";
 import { GEMINI_MODELS } from "../gemini/models";
-import { createGradingError } from "./errors";
+import { createGradingError, GradingError } from "./errors";
 import {
   WRITING_EXAMINER_SYSTEM_INSTRUCTION,
   buildWritingGradingPrompt,
+  buildWritingBatchGradingPrompt,
 } from "./prompts/writing";
 import { countWords } from "./word-counter";
 import {
   GeminiWritingOutput,
   GeminiWritingOutputSchema,
   WritingGradingResult,
+  WritingGradingInput,
   WritingTaskContext,
 } from "./writing-schema";
 import { AptisPublicTestDataset } from "../exam/types";
@@ -25,9 +27,7 @@ import { retrieveRelevantKnowledge } from "../knowledge/retriever";
 import { recordUserError } from "../memory/store";
 import { AiGradingTimeoutError, withAiGradingTimeout } from "./ai-timeout";
 
-const GEMINI_WRITING_RESPONSE_SCHEMA = {
-  type: Type.OBJECT,
-  properties: {
+const GEMINI_WRITING_OUTPUT_PROPERTIES = {
     overallScore: { type: Type.NUMBER, minimum: 0 },
     maxOverallScore: { type: Type.NUMBER, minimum: 1 },
     estimatedBand: { type: Type.STRING, enum: ["A0", "A1", "A2", "B1", "B2", "C"] },
@@ -76,13 +76,60 @@ const GEMINI_WRITING_RESPONSE_SCHEMA = {
     correctedVersion: { type: Type.STRING },
     improvementPlan: { type: Type.ARRAY, items: { type: Type.STRING } },
     linkedKnowledge: { type: Type.ARRAY, items: { type: Type.STRING } },
-  },
-  required: [
+} as const;
+
+const GEMINI_WRITING_OUTPUT_REQUIRED = [
     "overallScore", "maxOverallScore", "estimatedBand", "criteria",
     "grammarErrors", "vocabularyUpgrades", "strengths", "areasForImprovement",
     "modelAnswer", "improvementPlan", "linkedKnowledge",
-  ],
+] as const;
+
+const GEMINI_WRITING_RESPONSE_SCHEMA = {
+  type: Type.OBJECT,
+  properties: GEMINI_WRITING_OUTPUT_PROPERTIES,
+  required: GEMINI_WRITING_OUTPUT_REQUIRED,
 } as const;
+
+const GEMINI_WRITING_BATCH_RESPONSE_SCHEMA = {
+  type: Type.OBJECT,
+  properties: {
+    taskResults: {
+      type: Type.ARRAY,
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          taskId: { type: Type.STRING },
+          ...GEMINI_WRITING_OUTPUT_PROPERTIES,
+        },
+        required: ["taskId", ...GEMINI_WRITING_OUTPUT_REQUIRED],
+      },
+    },
+  },
+  required: ["taskResults"],
+} as const;
+
+export interface WritingTaskSubmission {
+  taskContext: WritingTaskContext;
+  submissionText: string;
+}
+
+export interface ValidatedWritingBatchResult {
+  taskId: string;
+  output: GeminiWritingOutput;
+}
+
+function shortTaskId(canonicalTaskId: string): string {
+  const separator = canonicalTaskId.indexOf("_");
+  return separator >= 0 ? canonicalTaskId.slice(separator + 1) : canonicalTaskId;
+}
+
+function matchesTaskId(
+  requestedTaskId: string | undefined,
+  canonicalTaskId: string,
+  aliases: string[] = [],
+): boolean {
+  return !requestedTaskId || requestedTaskId === canonicalTaskId || aliases.includes(requestedTaskId);
+}
 
 export function resolveWritingTaskContext(
   testId: string,
@@ -108,7 +155,7 @@ export function resolveWritingTaskContext(
   if (partNumber === 1) {
     const p1 = writingParts[0];
     const promptItem = taskId
-      ? p1.prompts.find((p) => p.id === taskId || p.id.endsWith(taskId) || taskId.endsWith(p.id))
+      ? p1.prompts.find((p) => matchesTaskId(taskId, p.id, [shortTaskId(p.id)]))
       : p1.prompts[0];
 
     if (!promptItem) {
@@ -136,10 +183,21 @@ export function resolveWritingTaskContext(
 
   if (partNumber === 2) {
     const p2 = writingParts[1];
+    const p2Record = p2 as unknown as { id?: unknown };
+    const canonicalTaskId = typeof p2Record.id === "string"
+      ? p2Record.id
+      : "writing_part2";
+    if (taskId && !matchesTaskId(taskId, canonicalTaskId, ["writing_part2"])) {
+      throw createGradingError(
+        "UNKNOWN_QUESTION",
+        `Writing Part 2 task not found for taskId: ${taskId}`
+      );
+    }
     return {
       testId,
       partNumber: 2,
       taskType: "short-personal-text",
+      taskId: canonicalTaskId,
       instructions: p2.instructions,
       clubContext: p2.clubContext,
       prompt: p2.prompt,
@@ -154,7 +212,7 @@ export function resolveWritingTaskContext(
   if (partNumber === 3) {
     const p3 = writingParts[2];
     const msg = taskId
-      ? p3.chatMessages.find((m) => m.id === taskId || m.id.endsWith(taskId) || taskId.endsWith(m.id))
+      ? p3.chatMessages.find((m) => matchesTaskId(taskId, m.id, [shortTaskId(m.id)]))
       : p3.chatMessages[0];
 
     if (!msg) {
@@ -184,14 +242,11 @@ export function resolveWritingTaskContext(
     const p4 = writingParts[3];
     const emailTask = taskId
       ? p4.tasks.find(
-          (t) =>
-            t.id === taskId ||
-            t.id.endsWith(taskId) ||
-            taskId.endsWith(t.id) ||
-            (taskId.includes("informal") && t.taskType === "informal-email") ||
-            (taskId.includes("formal") && t.taskType === "formal-email") ||
-            (taskId === "w4_task_a" && t.taskType === "informal-email") ||
-            (taskId === "w4_task_b" && t.taskType === "formal-email")
+          (t, index) => matchesTaskId(
+            taskId,
+            t.id,
+            [shortTaskId(t.id), index === 0 ? "w4_task_a" : "w4_task_b"],
+          )
         )
       : p4.tasks[0];
 
@@ -415,35 +470,72 @@ export function parseAndValidateGeminiWritingOutput(
   return result.data;
 }
 
-export async function gradeWritingSubmission(
-  taskContext: WritingTaskContext,
-  submissionText: string,
-  customClient?: GoogleGenAI,
-  userId?: string
-): Promise<WritingGradingResult> {
-  const serverWordCount = countWords(submissionText);
-  const wordCountStatus = evaluateWordCountStatus(
-    serverWordCount,
-    taskContext.wordGuidance
-  );
+/**
+ * Validate and resolve the client submission into canonical server-owned task
+ * contexts before any AI call is made.  The top-level submissionText is kept
+ * only for backward compatibility; userResponses is authoritative whenever
+ * it is present because it carries one answer per task ID.
+ */
+export function resolveWritingTaskSubmissions(
+  input: Pick<WritingGradingInput, "testId" | "partNumber" | "taskId" | "submissionText" | "userResponses">,
+): WritingTaskSubmission[] {
+  const rawEntries = input.userResponses && Object.keys(input.userResponses).length > 0
+    ? Object.entries(input.userResponses)
+    : [[input.taskId, input.submissionText]] as Array<[string | undefined, string | undefined]>;
 
-  // 1. Retrieve targeted academic rubrics and strategies from Knowledge Brain
-  const rubricNotes = retrieveRelevantKnowledge(
-    `Writing Part ${taskContext.partNumber} ${taskContext.taskType} rubric criteria`,
-    2
-  );
+  const resolved: WritingTaskSubmission[] = [];
+  const seenTaskIds = new Set<string>();
 
-  const client = customClient ?? getGeminiClient();
-  const prompt = buildWritingGradingPrompt(
-    taskContext,
-    submissionText,
-    serverWordCount,
-    rubricNotes
-  );
+  for (const [requestedTaskId, rawText] of rawEntries) {
+    if (typeof rawText !== "string" || rawText.trim().length === 0) {
+      throw createGradingError(
+        "INVALID_SUBMISSION",
+        "Each Writing task must contain a non-empty answer",
+      );
+    }
 
+    const taskContext = resolveWritingTaskContext(input.testId, input.partNumber, requestedTaskId);
+    const canonicalTaskId = taskContext.taskId;
+    if (!canonicalTaskId) {
+      throw createGradingError(
+        "INVALID_TASK_CONTEXT",
+        `Writing task has no canonical task ID for part ${input.partNumber}`,
+      );
+    }
+    if (seenTaskIds.has(canonicalTaskId)) {
+      throw createGradingError(
+        "DUPLICATE_QUESTION_ID",
+        `Writing task was submitted more than once: ${canonicalTaskId}`,
+      );
+    }
+
+    seenTaskIds.add(canonicalTaskId);
+    resolved.push({ taskContext, submissionText: rawText.trim() });
+  }
+
+  if (resolved.length === 0) {
+    throw createGradingError("INVALID_SUBMISSION", "At least one Writing task is required");
+  }
+
+  return resolved;
+}
+
+function writingRubricQuery(taskContext: WritingTaskContext): string {
+  return `Writing Part ${taskContext.partNumber} ${taskContext.taskType} rubric criteria`;
+}
+
+type WritingOutputParser<T> = (rawJson: unknown, expectedTaskIds?: readonly string[]) => T;
+
+async function generateValidatedWritingOutput<T>(
+  client: GoogleGenAI,
+  prompt: string,
+  responseSchema: unknown,
+  parser: WritingOutputParser<T>,
+  customClient: boolean,
+): Promise<T> {
   const candidateModels = [GEMINI_MODELS.FLASH, GEMINI_MODELS.FLASH_3_6];
   let lastError: unknown = null;
-  let validatedOutput: GeminiWritingOutput | null = null;
+  let sawProviderResponse = false;
 
   for (const modelName of candidateModels) {
     try {
@@ -453,23 +545,23 @@ export async function gradeWritingSubmission(
         config: {
           systemInstruction: WRITING_EXAMINER_SYSTEM_INSTRUCTION,
           responseMimeType: "application/json",
-          responseSchema: GEMINI_WRITING_RESPONSE_SCHEMA,
+          responseSchema,
         },
       }));
 
+      sawProviderResponse = true;
       const rawResponseText = response.text ?? "";
-      if (!rawResponseText) {
+      if (!rawResponseText.trim()) {
         lastError = new Error("Gemini returned an empty response");
+        if (customClient) break;
         continue;
       }
+
       try {
-        validatedOutput = parseAndValidateGeminiWritingOutput(rawResponseText);
-        break;
+        return parser(rawResponseText);
       } catch (parseError) {
         lastError = parseError;
-        // A malformed provider response is recoverable with the next model
-        // in production, but custom test clients remain deterministic.
-        if (customClient) throw parseError;
+        if (customClient) break;
       }
     } catch (error) {
       lastError = error;
@@ -477,15 +569,96 @@ export async function gradeWritingSubmission(
     }
   }
 
-  if (!validatedOutput) {
-    if (lastError instanceof Error && lastError.message.includes("Gemini output schema validation failed")) {
-      throw lastError;
-    }
-    throw createGradingError(
-      "INVALID_ANSWER_FORMAT",
-      `Gemini generation failed: ${lastError instanceof Error ? lastError.message : String(lastError)}`
-    );
+  if (lastError instanceof AiGradingTimeoutError) {
+    throw createGradingError("GRADING_TIMEOUT", "The AI examiner timed out");
   }
+  if (lastError instanceof GradingError && lastError.code === "INVALID_ANSWER_FORMAT") {
+    throw createGradingError("INVALID_AI_RESPONSE", "The AI examiner returned an invalid structured response");
+  }
+  throw createGradingError(
+    sawProviderResponse ? "INVALID_AI_RESPONSE" : "AI_PROVIDER_ERROR",
+    "The AI examiner did not return a usable response",
+  );
+}
+
+function parseProviderJson(rawJson: unknown): any {
+  if (typeof rawJson !== "string") return rawJson;
+  const trimmed = rawJson.trim();
+  try {
+    return JSON.parse(trimmed);
+  } catch {
+    const match = trimmed.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
+    if (!match) {
+      throw createGradingError("INVALID_ANSWER_FORMAT", "Failed to parse Gemini output as JSON");
+    }
+    try {
+      return JSON.parse(match[1].trim());
+    } catch {
+      throw createGradingError("INVALID_ANSWER_FORMAT", "Failed to parse Gemini output as JSON");
+    }
+  }
+}
+
+export function parseAndValidateGeminiWritingBatchOutput(
+  rawJson: unknown,
+  expectedTaskIds?: readonly string[],
+): ValidatedWritingBatchResult[] {
+  let parsed: any = parseProviderJson(rawJson);
+  if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+    if (parsed.data && typeof parsed.data === "object") parsed = parsed.data;
+    else if (parsed.result && typeof parsed.result === "object") parsed = parsed.result;
+  }
+
+  const rawResults = parsed && typeof parsed === "object"
+    ? parsed.taskResults || parsed.task_results || parsed.results
+    : null;
+  if (!Array.isArray(rawResults) || rawResults.length === 0) {
+    throw createGradingError("INVALID_ANSWER_FORMAT", "Batch examiner output must contain taskResults");
+  }
+
+  const results = rawResults.map((entry: any) => {
+    const taskId = typeof entry?.taskId === "string"
+      ? entry.taskId
+      : typeof entry?.task_id === "string"
+      ? entry.task_id
+      : "";
+    if (!taskId) {
+      throw createGradingError("INVALID_ANSWER_FORMAT", "Every batch result must contain taskId");
+    }
+    return {
+      taskId,
+      output: parseAndValidateGeminiWritingOutput(entry),
+    };
+  });
+
+  const resultIds = new Set(results.map((result) => result.taskId));
+  if (resultIds.size !== results.length) {
+    throw createGradingError("DUPLICATE_QUESTION_ID", "Batch examiner output contains duplicate task IDs");
+  }
+
+  if (expectedTaskIds) {
+    if (
+      results.length !== expectedTaskIds.length ||
+      expectedTaskIds.some((taskId) => !resultIds.has(taskId))
+    ) {
+      throw createGradingError("INVALID_AI_RESPONSE", "Batch examiner output does not match submitted task IDs");
+    }
+    const byId = new Map(results.map((result) => [result.taskId, result]));
+    return expectedTaskIds.map((taskId) => byId.get(taskId)!);
+  }
+
+  return results;
+}
+
+function buildWritingResult(
+  taskContext: WritingTaskContext,
+  submissionText: string,
+  validatedOutput: GeminiWritingOutput,
+  rubricNotes: ReturnType<typeof retrieveRelevantKnowledge>,
+  userId?: string,
+): WritingGradingResult {
+  const serverWordCount = countWords(submissionText);
+  const wordCountStatus = evaluateWordCountStatus(serverWordCount, taskContext.wordGuidance);
   const guardedScore = applyWordCountScoreGuard(
     validatedOutput.overallScore,
     validatedOutput.maxOverallScore,
@@ -493,10 +666,9 @@ export async function gradeWritingSubmission(
     wordCountStatus,
     taskContext.wordGuidance,
   );
-  const percentage =
-    validatedOutput.maxOverallScore > 0
-      ? (guardedScore / validatedOutput.maxOverallScore) * 100
-      : 0;
+  const percentage = validatedOutput.maxOverallScore > 0
+    ? (guardedScore / validatedOutput.maxOverallScore) * 100
+    : 0;
   const guardedBand = wordCountStatus === "within_range"
     ? validatedOutput.estimatedBand
     : bandForGuardedPercentage(percentage);
@@ -509,7 +681,6 @@ export async function gradeWritingSubmission(
     ? [...validatedOutput.areasForImprovement, lengthFeedback]
     : validatedOutput.areasForImprovement;
 
-  // 2. Automatically record detected errors into persistent User Learning Memory
   if (userId && validatedOutput.grammarErrors.length > 0) {
     try {
       for (const err of validatedOutput.grammarErrors) {
@@ -519,15 +690,15 @@ export async function gradeWritingSubmission(
           "Writing",
           `writing-${topicCategory.toLowerCase().replace(/\s+/g, "-")}`,
           topicCategory,
-          err.originalSentence
+          err.originalSentence,
         );
       }
     } catch {
-      // Memory recording should never block evaluation return
+      // Memory recording should never block evaluation return.
     }
   }
 
-  const linkedKnowledge = validatedOutput.linkedKnowledge && validatedOutput.linkedKnowledge.length > 0
+  const linkedKnowledge = validatedOutput.linkedKnowledge.length > 0
     ? validatedOutput.linkedKnowledge
     : rubricNotes.map((k) => k.topic);
 
@@ -535,6 +706,7 @@ export async function gradeWritingSubmission(
     testId: taskContext.testId,
     partNumber: taskContext.partNumber,
     taskType: taskContext.taskType,
+    taskId: taskContext.taskId,
     wordCount: serverWordCount,
     wordCountStatus,
     overallScore: guardedScore,
@@ -558,5 +730,124 @@ export async function gradeWritingSubmission(
         ],
     linkedKnowledge,
     disclaimer: "PRACTICE ESTIMATE — NOT AN OFFICIAL BRITISH COUNCIL SCORE",
+  };
+}
+
+export async function gradeWritingSubmission(
+  taskContext: WritingTaskContext,
+  submissionText: string,
+  customClient?: GoogleGenAI,
+  userId?: string
+): Promise<WritingGradingResult> {
+  const serverWordCount = countWords(submissionText);
+  const rubricNotes = retrieveRelevantKnowledge(
+    writingRubricQuery(taskContext),
+    2,
+  );
+
+  const client = customClient ?? getGeminiClient();
+  const prompt = buildWritingGradingPrompt(
+    taskContext,
+    submissionText,
+    serverWordCount,
+    rubricNotes
+  );
+
+  const validatedOutput = await generateValidatedWritingOutput(
+    client,
+    prompt,
+    GEMINI_WRITING_RESPONSE_SCHEMA,
+    (rawJson) => parseAndValidateGeminiWritingOutput(rawJson),
+    Boolean(customClient),
+  );
+  return buildWritingResult(taskContext, submissionText, validatedOutput, rubricNotes, userId);
+}
+
+/**
+ * Grade all tasks in one provider request.  This avoids the old N sequential
+ * calls where one transient empty/malformed provider response discarded every
+ * other successful task and surfaced as INVALID_ANSWER_FORMAT.
+ */
+export async function gradeWritingSubmissions(
+  submissions: WritingTaskSubmission[],
+  customClient?: GoogleGenAI,
+  userId?: string,
+): Promise<WritingGradingResult[]> {
+  if (submissions.length === 0) {
+    throw createGradingError("INVALID_SUBMISSION", "At least one Writing task is required");
+  }
+  if (submissions.length === 1) {
+    return [await gradeWritingSubmission(submissions[0].taskContext, submissions[0].submissionText, customClient, userId)];
+  }
+
+  const taskIds = submissions.map(({ taskContext }) => {
+    if (!taskContext.taskId) {
+      throw createGradingError("INVALID_TASK_CONTEXT", "Every multi-task Writing entry must have a canonical task ID");
+    }
+    return taskContext.taskId;
+  });
+  if (new Set(taskIds).size !== taskIds.length) {
+    throw createGradingError("DUPLICATE_QUESTION_ID", "Multi-task Writing submission contains duplicate task IDs");
+  }
+
+  const promptEntries = submissions.map((submission) => ({
+    ...submission,
+    serverWordCount: countWords(submission.submissionText),
+  }));
+  const rubricNotes = retrieveRelevantKnowledge(
+    `Writing multi-task ${submissions.map(({ taskContext }) => taskContext.taskType).join(" ")} rubric criteria`,
+    2,
+  );
+  const client = customClient ?? getGeminiClient();
+  const prompt = buildWritingBatchGradingPrompt(promptEntries, rubricNotes);
+  const validatedResults = await generateValidatedWritingOutput(
+    client,
+    prompt,
+    GEMINI_WRITING_BATCH_RESPONSE_SCHEMA,
+    (rawJson) => parseAndValidateGeminiWritingBatchOutput(rawJson, taskIds),
+    Boolean(customClient),
+  );
+  const outputByTaskId = new Map(validatedResults.map((result) => [result.taskId, result.output]));
+
+  return submissions.map((submission) => {
+    const taskId = submission.taskContext.taskId!;
+    const output = outputByTaskId.get(taskId);
+    if (!output) {
+      throw createGradingError("INVALID_AI_RESPONSE", "Batch examiner output omitted a submitted task");
+    }
+    return buildWritingResult(submission.taskContext, submission.submissionText, output, rubricNotes, userId);
+  });
+}
+
+export function aggregateWritingResults(
+  results: WritingGradingResult[],
+): WritingGradingResult & { taskResults: WritingGradingResult[] } {
+  if (results.length === 0) {
+    throw createGradingError("INVALID_SUBMISSION", "Cannot aggregate an empty Writing result set");
+  }
+  const maxOverallScore = results.reduce((sum, result) => sum + result.maxOverallScore, 0);
+  const overallScore = results.reduce((sum, result) => sum + result.overallScore, 0);
+  const percentage = maxOverallScore > 0 ? (overallScore / maxOverallScore) * 100 : 0;
+  const estimatedBand = bandForGuardedPercentage(percentage);
+  return {
+    ...results[0],
+    taskId: undefined,
+    taskType: "multi-task",
+    wordCount: results.reduce((sum, result) => sum + result.wordCount, 0),
+    overallScore,
+    maxOverallScore,
+    percentage,
+    estimatedBand,
+    criteria: results.flatMap((result, index) => result.criteria.map((criterion) => ({
+      ...criterion,
+      name: `Task ${index + 1} [${result.taskId}] — ${criterion.name}`,
+    }))),
+    grammarErrors: results.flatMap((result) => result.grammarErrors),
+    vocabularyUpgrades: results.flatMap((result) => result.vocabularyUpgrades),
+    strengths: results.flatMap((result) => result.strengths),
+    areasForImprovement: results.flatMap((result) => result.areasForImprovement),
+    improvementPlan: results.flatMap((result) => result.improvementPlan),
+    modelAnswer: results.map((result) => `${result.taskId}:\n${result.modelAnswer}`).join("\n\n"),
+    taskResults: results,
   };
 }

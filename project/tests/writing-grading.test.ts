@@ -4,8 +4,12 @@ import {
   evaluateWordCountStatus,
   applyWordCountScoreGuard,
   parseAndValidateGeminiWritingOutput,
+  parseAndValidateGeminiWritingBatchOutput,
   resolveWritingTaskContext,
+  resolveWritingTaskSubmissions,
   gradeWritingSubmission,
+  gradeWritingSubmissions,
+  aggregateWritingResults,
 } from "../lib/grading/writing-ai";
 import { buildWritingGradingPrompt, WRITING_EXAMINER_SYSTEM_INSTRUCTION } from "../lib/grading/prompts/writing";
 import { WritingTaskContext } from "../lib/grading/writing-schema";
@@ -350,6 +354,182 @@ export async function runWritingGradingTests() {
     assert.ok(!invalidPartRes.success, "Part number 5 must fail validation");
   }
 
+  // ----------------------------------------------------
+  // 8. QA-FU-P1-004: Canonical multi-task identity/context contract
+  // ----------------------------------------------------
+  {
+    const { WritingGradingInputSchema } = await import("../lib/grading/writing-schema");
+    const informal = "Hi Alex, I am excited about the club announcement. We should suggest friendly debates and invite local speakers. Let me know what you think about organizing the first event together.";
+    const formal = "Dear Club Manager, I am writing to provide detailed feedback and constructive suggestions about the proposed initiative. Regular themed debates, guest speakers, online promotion, and monthly feedback would attract members and improve the club. I hope these practical recommendations are useful. Yours sincerely, Alex";
+
+    const validMulti = WritingGradingInputSchema.parse({
+      testId: "aptis-b2-01",
+      partNumber: 4,
+      taskId: "t01_w4_t1_informal",
+      submissionText: `${informal}\n\n${formal}`,
+      userResponses: {
+        t01_w4_t1_informal: informal,
+        t01_w4_t2_formal: formal,
+      },
+    });
+    const resolvedMulti = resolveWritingTaskSubmissions(validMulti);
+    assert.deepEqual(
+      resolvedMulti.map((entry) => [entry.taskContext.taskId, entry.taskContext.taskType]),
+      [
+        ["t01_w4_t1_informal", "informal-email"],
+        ["t01_w4_t2_formal", "formal-email"],
+      ],
+      "Each submitted response must resolve to its own canonical task context",
+    );
+    assert.equal(resolvedMulti[0].submissionText, informal);
+    assert.equal(resolvedMulti[1].submissionText, formal);
+
+    const makeOutput = (taskId: string) => ({
+      taskId,
+      overallScore: 16,
+      maxOverallScore: 20,
+      estimatedBand: "B2",
+      criteria: [
+        { name: "Task Achievement", score: 4, maxScore: 5, feedback: `Context checked for ${taskId}` },
+        { name: "Register & Tone", score: 4, maxScore: 5, feedback: "Appropriate register" },
+        { name: "Grammar", score: 4, maxScore: 5, feedback: "Clear grammar" },
+        { name: "Vocabulary", score: 4, maxScore: 5, feedback: "Relevant vocabulary" },
+      ],
+      grammarErrors: [],
+      vocabularyUpgrades: [],
+      strengths: ["Relevant response"],
+      areasForImprovement: ["Add more detail"],
+      modelAnswer: `Model answer for ${taskId}`,
+      improvementPlan: ["Practise this task"],
+      linkedKnowledge: ["Writing rubric"],
+    });
+    const batchRequests: any[] = [];
+    const batchClient: any = {
+      models: {
+        generateContent: async (request: any) => {
+          batchRequests.push(request);
+          return {
+            text: JSON.stringify({
+              taskResults: resolvedMulti.map((entry) => makeOutput(entry.taskContext.taskId!)),
+            }),
+          };
+        },
+      },
+    };
+
+    const gradedMulti = await gradeWritingSubmissions(resolvedMulti, batchClient);
+    assert.equal(batchRequests.length, 1, "A multi-task submission must use one batch provider request");
+    assert.deepEqual(
+      gradedMulti.map((result) => result.taskId),
+      ["t01_w4_t1_informal", "t01_w4_t2_formal"],
+      "Results must preserve canonical task identity",
+    );
+    assert.ok(String(batchRequests[0].contents).includes(resolvedMulti[0].taskContext.prompt));
+    assert.ok(String(batchRequests[0].contents).includes(resolvedMulti[1].taskContext.prompt));
+    assert.ok(String(batchRequests[0].contents).includes(informal));
+    assert.ok(String(batchRequests[0].contents).includes(formal));
+
+    const aggregate = aggregateWritingResults(gradedMulti);
+    assert.equal(aggregate.taskType, "multi-task");
+    assert.equal(aggregate.taskId, undefined);
+    assert.deepEqual(
+      aggregate.taskResults.map((result) => result.taskId),
+      ["t01_w4_t1_informal", "t01_w4_t2_formal"],
+    );
+    assert.ok(aggregate.criteria.some((criterion) => criterion.name.includes("t01_w4_t2_formal")));
+
+    // Three/four independent contexts must all be represented in one result.
+    const fourInput = WritingGradingInputSchema.parse({
+      testId: "aptis-b2-01",
+      partNumber: 1,
+      userResponses: {
+        t01_w1_p1: "Student",
+        t01_w1_p2: "Hanoi",
+        t01_w1_p3: "Photography",
+        t01_w1_p4: "A friend",
+      },
+    });
+    const resolvedFour = resolveWritingTaskSubmissions(fourInput);
+    const fourClient: any = {
+      models: {
+        generateContent: async () => ({
+          text: JSON.stringify({
+            taskResults: resolvedFour.map((entry) => makeOutput(entry.taskContext.taskId!)),
+          }),
+        }),
+      },
+    };
+    const gradedFour = await gradeWritingSubmissions(resolvedFour, fourClient);
+    assert.equal(gradedFour.length, 4, "Four valid tasks must all be graded");
+    assert.equal(new Set(gradedFour.map((result) => result.taskId)).size, 4);
+
+    // Single-task Parts 1-4 must retain their existing contract after the
+    // batch orchestration change. This exercises the same production grading
+    // service with a provider-shaped response for each canonical context.
+    const singleTaskCases = [
+      [resolveWritingTaskContext("aptis-b2-01", 1, "w1_p1"), "Student"],
+      [resolveWritingTaskContext("aptis-b2-01", 2), "I live in Hanoi and enjoy photography with friends at weekends because it helps me relax after work."],
+      [resolveWritingTaskContext("aptis-b2-01", 3, "w3_m1"), "I agree with your idea because regular practice is useful. We can invite classmates, share examples, and encourage everyone to participate actively."],
+      [resolveWritingTaskContext("aptis-b2-01", 4, "w4_task_a"), informal],
+    ] as const;
+    const singleClient: any = {
+      models: {
+        generateContent: async () => ({ text: JSON.stringify(makeOutput("provider-response")) }),
+      },
+    };
+    for (const [taskContext, answer] of singleTaskCases) {
+      const singleResult = await gradeWritingSubmission(
+        taskContext,
+        answer,
+        singleClient,
+      );
+      assert.equal(singleResult.partNumber, taskContext.partNumber);
+      assert.equal(singleResult.taskId, taskContext.taskId);
+      assert.ok(singleResult.criteria.length > 0);
+      assert.ok(singleResult.strengths.length > 0);
+    }
+
+    // Unknown task IDs and malformed/empty answers fail before any provider call.
+    assert.throws(
+      () => resolveWritingTaskSubmissions(WritingGradingInputSchema.parse({
+        testId: "aptis-b2-01",
+        partNumber: 4,
+        taskId: "unknown-formal-task",
+        submissionText: formal,
+      })),
+      (err: any) => err.code === "UNKNOWN_QUESTION",
+    );
+    assert.ok(!WritingGradingInputSchema.safeParse({
+      testId: "aptis-b2-01",
+      partNumber: 4,
+      userResponses: { t01_w4_t1_informal: "" },
+    }).success, "Empty task answer must fail request validation");
+    assert.ok(!WritingGradingInputSchema.safeParse({
+      testId: "aptis-b2-01",
+      partNumber: 4,
+      userResponses: { t01_w4_t1_informal: 42 },
+    }).success, "Non-string task answer must fail request validation");
+
+    const batchOutput = { taskResults: [makeOutput("t01_w4_t2_formal"), makeOutput("t01_w4_t1_informal")] };
+    const reordered = parseAndValidateGeminiWritingBatchOutput(
+      batchOutput,
+      ["t01_w4_t1_informal", "t01_w4_t2_formal"],
+    );
+    assert.deepEqual(
+      reordered.map((result) => result.taskId),
+      ["t01_w4_t1_informal", "t01_w4_t2_formal"],
+      "Provider result order must not change canonical task order",
+    );
+    assert.throws(
+      () => parseAndValidateGeminiWritingBatchOutput(
+        { taskResults: [makeOutput("t01_w4_t1_informal")] },
+        ["t01_w4_t1_informal", "t01_w4_t2_formal"],
+      ),
+      (err: any) => err.code === "INVALID_AI_RESPONSE",
+      "Missing provider task result must fail closed",
+    );
+  }
+
   console.log("  ✓ Deterministic word count utility verified across contractions & hyphens");
   console.log("  ✓ Writing task context resolution verified for Parts 1 to 4");
   console.log("  ✓ Word count status evaluation (under, within, over) verified");
@@ -357,6 +537,7 @@ export async function runWritingGradingTests() {
   console.log("  ✓ Zod structured output & score boundary validation verified");
   console.log("  ✓ Full AI Writing service execution with mock Gemini client verified");
   console.log("  ✓ BUG-W01: WritingGradingInputSchema payload contract & backward compatibility verified");
+  console.log("  ✓ QA-FU-P1-004: multi-task canonical identity, context isolation, batch output, and validation verified");
   console.log("✅ [TEST 4 PASSED] AI Writing Grading Engine unit tests completed.\n");
 }
 

@@ -40,12 +40,15 @@ export const WritingGradingInputSchema = z
       z.literal(3),
       z.literal(4),
     ]),
-    taskId: z.string().optional(),
-    submissionText: z.string().max(20_000).optional(),
-    response: z.string().max(20_000).optional(),
+    taskId: z.string().trim().min(1).max(100).optional(),
+    submissionText: z.string().trim().min(1).max(20_000).optional(),
+    response: z.string().trim().min(1).max(20_000).optional(),
     userId: z.string().optional(),
     userResponses: z
-      .record(z.string().max(100), z.string().max(20_000))
+      .record(z.string().trim().min(1).max(100), z.string().trim().min(1).max(20_000))
+      .refine((responses) => Object.keys(responses).length > 0, {
+        message: "At least one response is required",
+      })
       .refine((responses) => Object.keys(responses).length <= 20, {
         message: "Too many response fields",
       })
@@ -118,6 +121,7 @@ export interface WritingGradingResult {
   percentage: number;
   estimatedBand: "A0" | "A1" | "A2" | "B1" | "B2" | "C";
   scoreType: "AI_ESTIMATE";
+  taskId?: string;
   criteria: z.infer<typeof WritingCriterionScoreSchema>[];
   grammarErrors: z.infer<typeof GrammarCorrectionSchema>[];
   vocabularyUpgrades: z.infer<typeof VocabularyUpgradeSchema>[];
